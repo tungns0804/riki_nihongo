@@ -15,10 +15,14 @@ Mỗi thư mục con ở đây là MỘT phần học, đúng bảy phần của
 Trong mỗi phần, mỗi thư mục con là MỘT bài:
 
 ```
-data-source/vocabulary/01-bai-1/
+data-source/vocabulary/01-danh-tu/
 ├── meta.json        (tuỳ chọn) tên hiển thị, mô tả, thứ tự
 └── vocabulary.txt   nội dung bài
 ```
+
+Một "bài" là một mục người học bấm vào, KHÔNG phải một buổi học. Phần Từ vựng chia
+theo loại từ (Danh từ, Động từ, Tính từ, Katakana, Phó từ) — bấm vào "Danh từ" là
+thấy toàn bộ danh từ của khoá, chứ không phải "Danh từ 1", "Danh từ 2"…
 
 `meta.json`:
 
@@ -49,8 +53,8 @@ Thư mục bài **chỉ có `meta.json`**, chưa có file dữ liệu, là một
 vẫn xuất hiện trong danh sách với nhãn "Chưa có nội dung" và không bấm vào được.
 
 Dùng cách này để đặt sẵn lộ trình của cả phần học rồi đổ nội dung vào sau — người
-học nhìn thấy sắp học những bài gì ngay từ đầu. Phần "Từ vựng" hiện đang ở trạng
-thái đó: 11 bài từ `01-danh-tu-1` tới `11-pho-tu-2` mới có `meta.json`.
+học nhìn thấy sắp học những mục nào ngay từ đầu. Bốn mục Động từ, Tính từ, Katakana,
+Phó từ của phần Từ vựng đang ở trạng thái đó.
 
 Lưu ý: chỉ thư mục KHÔNG có file dữ liệu nào mới được coi là giữ chỗ. Có file mà đặt
 sai tên (`tuvung.text`, `grammar.txt`…) thì script báo lỗi — gõ nhầm tên file mà bị

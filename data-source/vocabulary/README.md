@@ -35,19 +35,16 @@ hiện từ ở cột trái, ví dụ và ghi chú ở cột phải — cùng b�
 
 ## Các bài của phần Từ vựng
 
-| Thư mục          | Tên hiển thị | Trạng thái |
-| ---------------- | ------------ | ---------- |
-| `01-danh-tu-1`   | Danh từ 1    | 40 từ · 第1課 (01–20) + 第2課 (21–40) |
-| `02-dong-tu-1`   | Động từ 1    | chờ nội dung |
-| `03-tinh-tu-1`   | Tính từ 1    | chờ nội dung |
-| `04-danh-tu-2`   | Danh từ 2    | 40 từ · 第3課 (41–60) + 第4課 (61–80) |
-| `05-dong-tu-2`   | Động từ 2    | chờ nội dung |
-| `06-katakana-1`  | Katakana 1   | chờ nội dung |
-| `07-tinh-tu-2`   | Tính từ 2    | chờ nội dung |
-| `08-pho-tu-1`    | Phó từ 1     | chờ nội dung |
-| `09-danh-tu-3`   | Danh từ 3    | 40 từ · 第5課 (81–100) + 第6課 (101–120) |
-| `10-katakana-2`  | Katakana 2   | chờ nội dung |
-| `11-pho-tu-2`    | Phó từ 2     | chờ nội dung |
+Mỗi bài là MỘT LOẠI TỪ, chứa toàn bộ từ của loại đó — không tách thành nhiều phần
+đánh số. Bấm vào "Danh từ" là thấy hết danh từ của khoá.
+
+| Thư mục        | Tên hiển thị | Trạng thái |
+| -------------- | ------------ | ---------- |
+| `01-danh-tu`   | Danh từ      | 120 từ · 第1課–第6課 (01–120) |
+| `02-dong-tu`   | Động từ      | chờ nội dung |
+| `03-tinh-tu`   | Tính từ      | chờ nội dung |
+| `04-katakana`  | Katakana     | chờ nội dung |
+| `05-pho-tu`    | Phó từ       | chờ nội dung |
 
 Thêm nội dung cho một bài = đặt file `vocabulary.txt` vào đúng thư mục của bài đó rồi
 chạy `npm run generate`. Không phải sửa gì trong mã nguồn.

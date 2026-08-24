@@ -52,8 +52,11 @@ từng loại nằm trong `README.md` của chính thư mục phần học:
 - [Nghe hiểu](data-source/listening/README.md) — file `.json`, âm thanh đặt trong `public/audio/`
 - [Kiểm tra nhập môn](data-source/entrance-test/README.md) — file `.json`
 
-Các thư mục `00-bai-mau` / `de-1` hiện có là **bài mẫu** để kiểm tra đường ống nội
-dung — xoá đi khi đã có bài thật.
+Phần **Từ vựng** đã có nội dung thật: mục "Danh từ" gồm 120 từ của 第1課–第6課. Bốn
+mục còn lại (Động từ, Tính từ, Katakana, Phó từ) mới đặt chỗ, đang chờ nội dung.
+
+Các thư mục `00-bai-mau` / `de-1` ở những phần khác là **bài mẫu** để kiểm tra đường
+ống nội dung — xoá đi khi đã có bài thật.
 
 ## Kiến trúc
 

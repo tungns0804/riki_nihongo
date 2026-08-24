@@ -25,8 +25,52 @@
     }
 
     @if (unit(); as data) {
-      @if (words().length > 0) {
+      @if (allWords().length > 0) {
         <app-practice-setup [unit]="data" />
+
+        <div class="toolbar">
+          <div class="search">
+            <span class="search-icon" aria-hidden="true">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="9" cy="9" r="6" />
+                <path d="M13.5 13.5 17 17" stroke-linecap="round" />
+              </svg>
+            </span>
+            <input
+              type="search"
+              class="input"
+              [placeholder]="t('vocab.search')"
+              [attr.aria-label]="t('vocab.search.aria')"
+              [value]="search()"
+              (input)="onSearch($event)"
+            />
+            @if (search()) {
+              <button
+                type="button"
+                class="search-clear"
+                (click)="clearSearch()"
+                [title]="t('unit.search.clear')"
+                [attr.aria-label]="t('unit.search.clear')"
+              >
+                <span aria-hidden="true">✕</span>
+              </button>
+            }
+          </div>
+
+          <span class="badge">
+            {{ t('vocab.shown', { shown: words().length, total: allWords().length }) }}
+          </span>
+        </div>
+
+        @if (noMatch()) {
+          <div class="empty-state">
+            <span class="empty-state-icon" aria-hidden="true">🔍</span>
+            <p class="empty-state-title">{{ t('vocab.noMatch', { term: search() }) }}</p>
+            <button type="button" class="btn btn-sm" (click)="clearSearch()">
+              {{ t('unit.noMatch.reset') }}
+            </button>
+          </div>
+        }
 
         <ol class="word-list">
           @for (word of words(); track word.id) {

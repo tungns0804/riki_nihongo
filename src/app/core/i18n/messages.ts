@@ -74,10 +74,12 @@ export const MESSAGES = {
   'module.vocabulary.label': { vi: 'Từ vựng', ja: '語彙' },
   'module.vocabulary.short': { vi: 'Từ vựng', ja: '語彙' },
   'module.vocabulary.desc': {
-    vi: 'Từ vựng N3 theo bài, có cách đọc, âm Hán Việt, nghĩa và câu ví dụ.',
-    ja: 'N3語彙をレッスン別に。読み方・漢越音・意味・例文つき。',
+    vi: 'Từ vựng N3 chia theo loại từ, kèm cách đọc, nghĩa, câu ví dụ và ghi chú cách dùng.',
+    ja: 'N3語彙を品詞別に。読み方・意味・例文・使い方つき。',
   },
-  'module.vocabulary.unit': { vi: '{count} bài', ja: '{count}課' },
+  // Đơn vị của phần này là NHÓM TỪ (danh từ, động từ…) chứ không phải bài học:
+  // một nhóm gom hết từ cùng loại của cả khoá.
+  'module.vocabulary.unit': { vi: '{count} nhóm từ', ja: '{count}グループ' },
 
   'module.kanji.label': { vi: 'KANJI', ja: '漢字' },
   'module.kanji.short': { vi: 'Kanji', ja: '漢字' },
@@ -159,6 +161,15 @@ export const MESSAGES = {
   'unit.pending': { vi: 'Chưa có nội dung', ja: '教材未登録' },
   'unit.pendingCount': { vi: '{count} bài đang chờ nội dung', ja: '{count}課は教材待ち' },
   'unit.progress': { vi: 'Kết quả tốt nhất: {percent}%', ja: '最高スコア：{percent}%' },
+
+  // ── Danh sách từ trong một bài ─────────────────────────────────────────
+  'vocab.search': { vi: 'Tìm từ, cách đọc hoặc nghĩa…', ja: '単語・読み方・意味で検索…' },
+  'vocab.search.aria': { vi: 'Tìm từ trong bài này', ja: 'この課の単語を検索' },
+  'vocab.shown': { vi: 'Hiện {shown}/{total} từ', ja: '{total}語中{shown}語' },
+  'vocab.noMatch': {
+    vi: 'Không có từ nào khớp {term}',
+    ja: '{term} に一致する単語はありません',
+  },
 
   // ── Kanji ──────────────────────────────────────────────────────────────
   'kanji.onyomi': { vi: 'Âm On', ja: '音読み' },

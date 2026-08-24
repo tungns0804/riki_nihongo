@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-08-24T15:33:29.711Z",
+  "generatedAt": "2026-08-24T16:28:17.799Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -24,112 +24,49 @@
       "id": "vocabulary",
       "units": [
         {
-          "id": "01-danh-tu-1",
-          "name": "Danh từ 1",
-          "description": "N3準備 文字語彙 · 第1課 (01–20) và 第2課 (21–40)",
+          "id": "01-danh-tu",
+          "name": "Danh từ",
+          "description": "Toàn bộ danh từ N3準備 文字語彙 — 第1課 đến 第6課 (01–120)",
           "kind": "vocabulary",
-          "itemCount": 40,
+          "itemCount": 120,
           "order": 1,
-          "file": "vocabulary/01-danh-tu-1.json"
+          "file": "vocabulary/01-danh-tu.json"
         },
         {
-          "id": "02-dong-tu-1",
-          "name": "Động từ 1",
+          "id": "02-dong-tu",
+          "name": "Động từ",
           "description": "",
           "kind": "vocabulary",
           "itemCount": 0,
           "order": 2,
-          "file": "vocabulary/02-dong-tu-1.json"
+          "file": "vocabulary/02-dong-tu.json"
         },
         {
-          "id": "03-tinh-tu-1",
-          "name": "Tính từ 1",
+          "id": "03-tinh-tu",
+          "name": "Tính từ",
           "description": "",
           "kind": "vocabulary",
           "itemCount": 0,
           "order": 3,
-          "file": "vocabulary/03-tinh-tu-1.json"
+          "file": "vocabulary/03-tinh-tu.json"
         },
         {
-          "id": "04-danh-tu-2",
-          "name": "Danh từ 2",
-          "description": "N3準備 文字語彙 · 第3課 (41–60) và 第4課 (61–80)",
+          "id": "04-katakana",
+          "name": "Katakana",
+          "description": "",
           "kind": "vocabulary",
-          "itemCount": 40,
+          "itemCount": 0,
           "order": 4,
-          "file": "vocabulary/04-danh-tu-2.json"
+          "file": "vocabulary/04-katakana.json"
         },
         {
-          "id": "05-dong-tu-2",
-          "name": "Động từ 2",
+          "id": "05-pho-tu",
+          "name": "Phó từ",
           "description": "",
           "kind": "vocabulary",
           "itemCount": 0,
           "order": 5,
-          "file": "vocabulary/05-dong-tu-2.json"
-        },
-        {
-          "id": "06-katakana-1",
-          "name": "Katakana 1",
-          "description": "",
-          "kind": "vocabulary",
-          "itemCount": 0,
-          "order": 6,
-          "file": "vocabulary/06-katakana-1.json"
-        },
-        {
-          "id": "07-tinh-tu-2",
-          "name": "Tính từ 2",
-          "description": "",
-          "kind": "vocabulary",
-          "itemCount": 0,
-          "order": 7,
-          "file": "vocabulary/07-tinh-tu-2.json"
-        },
-        {
-          "id": "08-pho-tu-1",
-          "name": "Phó từ 1",
-          "description": "",
-          "kind": "vocabulary",
-          "itemCount": 0,
-          "order": 8,
-          "file": "vocabulary/08-pho-tu-1.json"
-        },
-        {
-          "id": "09-danh-tu-3",
-          "name": "Danh từ 3",
-          "description": "N3準備 文字語彙 · 第5課 (81–100) và 第6課 (101–120)",
-          "kind": "vocabulary",
-          "itemCount": 40,
-          "order": 9,
-          "file": "vocabulary/09-danh-tu-3.json"
-        },
-        {
-          "id": "10-katakana-2",
-          "name": "Katakana 2",
-          "description": "",
-          "kind": "vocabulary",
-          "itemCount": 0,
-          "order": 10,
-          "file": "vocabulary/10-katakana-2.json"
-        },
-        {
-          "id": "11-pho-tu-2",
-          "name": "Phó từ 2",
-          "description": "",
-          "kind": "vocabulary",
-          "itemCount": 0,
-          "order": 11,
-          "file": "vocabulary/11-pho-tu-2.json"
-        },
-        {
-          "id": "00-bai-mau",
-          "name": "Bài mẫu · Từ vựng N3",
-          "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
-          "kind": "vocabulary",
-          "itemCount": 8,
-          "order": 99,
-          "file": "vocabulary/00-bai-mau.json"
+          "file": "vocabulary/05-pho-tu.json"
         }
       ]
     },

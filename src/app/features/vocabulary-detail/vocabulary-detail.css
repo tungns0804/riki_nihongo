@@ -142,3 +142,28 @@
     border-top: 2px solid var(--border-strong);
   }
 }
+
+/* Thanh tìm từ: ô nhập bên trái, số từ đang hiện bên phải. Dính lại dưới header
+   vì danh sách dài tới 120 thẻ — gõ tìm rồi cuộn xuống vẫn thấy ô nhập để sửa. */
+.toolbar {
+  position: sticky;
+  top: calc(var(--header-h) + var(--sp-2));
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  padding-block: var(--sp-2);
+  background: var(--bg);
+}
+
+.toolbar .search {
+  flex: 1 1 260px;
+}
+
+@media (max-width: 640px) {
+  /* Màn hình hẹp: thanh dính chiếm quá nhiều chỗ so với phần nội dung còn lại. */
+  .toolbar {
+    position: static;
+  }
+}
