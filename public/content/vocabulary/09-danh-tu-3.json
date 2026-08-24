@@ -1,7 +1,1055 @@
 {
   "id": "09-danh-tu-3",
   "name": "Danh từ 3",
-  "description": "",
+  "description": "N3準備 文字語彙 · 第5課 (81–100) và 第6課 (101–120)",
   "kind": "vocabulary",
-  "words": []
+  "words": [
+    {
+      "id": "b14868a613a024bb",
+      "number": 81,
+      "japanese": "缶",
+      "reading": "かん",
+      "hanViet": "",
+      "vietnamese": "Lon, hộp",
+      "examples": [
+        {
+          "id": "1c3264af05bce12a",
+          "japanese": "ビール缶を捨てる。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "缶詰 (かんづめ)"
+        },
+        {
+          "label": "関",
+          "text": "ビン・ペットボトル"
+        }
+      ]
+    },
+    {
+      "id": "1826fdba3c9adcbd",
+      "number": 82,
+      "japanese": "画面",
+      "reading": "がめん",
+      "hanViet": "",
+      "vietnamese": "Màn hình",
+      "examples": [
+        {
+          "id": "ed854b9dc7ff41ac",
+          "japanese": "パソコンの画面をずっと見ていると、目が疲れる。",
+          "vietnamese": ""
+        },
+        {
+          "id": "ad70b01dbb5cd62b",
+          "japanese": "スマホの画面",
+          "vietnamese": ""
+        },
+        {
+          "id": "2ad90b7dcf79582c",
+          "japanese": "テレビの画面",
+          "vietnamese": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "836bfe3db4b6845a",
+      "number": 83,
+      "japanese": "番組",
+      "reading": "ばんぐみ",
+      "hanViet": "",
+      "vietnamese": "Chương trình tivi",
+      "examples": [
+        {
+          "id": "dba05698faedb793",
+          "japanese": "テレビの番組を見る。",
+          "vietnamese": ""
+        },
+        {
+          "id": "d3606154713336d5",
+          "japanese": "新聞の番組欄",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "ニュース番組・音楽番組 (おんがくばんぐみ)"
+        }
+      ]
+    },
+    {
+      "id": "27b566e092cbab12",
+      "number": 84,
+      "japanese": "記事",
+      "reading": "きじ",
+      "hanViet": "",
+      "vietnamese": "Bài báo",
+      "examples": [
+        {
+          "id": "d81b82e3ac63d1b7",
+          "japanese": "この記事によると、日本に住む外国人が増えているそうだ。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "新聞記事 (しんぶんきじ)"
+        }
+      ]
+    },
+    {
+      "id": "e905baeb7136d29f",
+      "number": 85,
+      "japanese": "近所",
+      "reading": "きんじょ",
+      "hanViet": "",
+      "vietnamese": "Hàng xóm/ Gần",
+      "examples": [
+        {
+          "id": "73c30c19b04772d9",
+          "japanese": "近所迷惑",
+          "vietnamese": ""
+        },
+        {
+          "id": "5a4b781ad610c157",
+          "japanese": "近所の人とは仲良くしたほうがいい。",
+          "vietnamese": ""
+        },
+        {
+          "id": "1d6ba603d7ba934e",
+          "japanese": "私はよく近所の公園を散歩する。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "使い分け",
+          "text": "近所 = nhà ở gần, có quan hệ với mình → 私の家の近所 ○ / マーケットの近所 ✕"
+        },
+        {
+          "label": "使い分け",
+          "text": "近く = chỗ gần, dùng cho mọi thứ → 学校の近くで遊ぶ・近くの山"
+        },
+        {
+          "label": "使い分け",
+          "text": "付近 (ふきん) = khu vực gần, phạm vi rộng (N2) → 東京付近の水族館 ○ / 私の付近で遊ぶ子供 ✕"
+        }
+      ]
+    },
+    {
+      "id": "5139748c0477914d",
+      "number": 86,
+      "japanese": "警察",
+      "reading": "けいさつ",
+      "hanViet": "",
+      "vietnamese": "Cảnh sát",
+      "examples": [
+        {
+          "id": "71675c4a2eca95e0",
+          "japanese": "財布を拾ったので、警察に届けた。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "警察官 (けいさつかん)・警察署 (けいさつしょ)"
+        },
+        {
+          "label": "関",
+          "text": "交番 (こうばん)"
+        }
+      ]
+    },
+    {
+      "id": "602335b60f65400c",
+      "number": 87,
+      "japanese": "犯人",
+      "reading": "はんにん",
+      "hanViet": "",
+      "vietnamese": "Hung thủ, tội phạm",
+      "examples": [
+        {
+          "id": "53b14a350cc93136",
+          "japanese": "事件の犯人を捕まえる。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "1013ec61aa05f823",
+      "number": 88,
+      "japanese": "小銭",
+      "reading": "こぜに",
+      "hanViet": "",
+      "vietnamese": "Tiền lẻ",
+      "examples": [
+        {
+          "id": "38f0e255f1cc35b0",
+          "japanese": "バスに乗ってから小銭がないことに気がつき、とても困った。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "関",
+          "text": "〜円玉 (えんだま)・（お）札 (さつ)"
+        },
+        {
+          "label": "使い分け",
+          "text": "細かいお金 = văn nói; 小銭 = cách nói cứng hơn; お釣り (おつり) = tiền thối"
+        }
+      ]
+    },
+    {
+      "id": "41f7f93db1652a42",
+      "number": 89,
+      "japanese": "ごちそう",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Đồ thiết đãi",
+      "examples": [
+        {
+          "id": "b1520336ecb2af81",
+          "japanese": "家族みんなでごちそうを食べて、祖父の誕生日を祝った。",
+          "vietnamese": ""
+        },
+        {
+          "id": "8baaac65e74da343",
+          "japanese": "チンさんは私たちに手作りのギョーザをごちそうしてくれた。",
+          "vietnamese": ""
+        },
+        {
+          "id": "f520372835ff852e",
+          "japanese": "昨日は先輩にごちそうになった。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "0d230bc5614793bc",
+      "number": 90,
+      "japanese": "作者",
+      "reading": "さくしゃ",
+      "hanViet": "",
+      "vietnamese": "Tác giả",
+      "examples": [
+        {
+          "id": "75030f80583ce20a",
+          "japanese": "{小説／詩／絵／彫刻}…の作者",
+          "vietnamese": ""
+        },
+        {
+          "id": "d863e54e1757a040",
+          "japanese": "「ハムレット」の作者はシェイクスピアです。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "使い分け",
+          "text": "作者 = kịch bản, điêu khắc, hội hoạ (脚本・彫刻・絵画)"
+        },
+        {
+          "label": "使い分け",
+          "text": "著者 (ちょしゃ) = văn bản học thuật, sách hướng dẫn (学術書・案内書)"
+        },
+        {
+          "label": "使い分け",
+          "text": "筆者 (ひっしゃ) = nội dung báo, tạp chí (新聞・雑誌の文章)"
+        }
+      ]
+    },
+    {
+      "id": "6b070147b880ffd3",
+      "number": 91,
+      "japanese": "作品",
+      "reading": "さくひん",
+      "hanViet": "",
+      "vietnamese": "Tác phẩm",
+      "examples": [
+        {
+          "id": "b4ed2b5806e4b2de",
+          "japanese": "学生の作品をロビーに展示する。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "文学作品 (ぶんがくさくひん)・芸術作品 (げいじゅつさくひん)"
+        }
+      ]
+    },
+    {
+      "id": "50a6885b86f50056",
+      "number": 92,
+      "japanese": "制服",
+      "reading": "せいふく",
+      "hanViet": "",
+      "vietnamese": "Đồng phục",
+      "examples": [
+        {
+          "id": "fe7d877aa84cd7cb",
+          "japanese": "日本の中学校には制服のある学校が多い。",
+          "vietnamese": ""
+        },
+        {
+          "id": "4db8e4c6217b5c0b",
+          "japanese": "制服（会社、学校）",
+          "vietnamese": ""
+        },
+        {
+          "id": "71f77116e2a142b8",
+          "japanese": "ユニフォーム（スポーツ）",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "私服 (しふく) OK の会社"
+        },
+        {
+          "label": "使い分け",
+          "text": "制服 = công ty, trường học; ユニフォーム = thể thao"
+        }
+      ]
+    },
+    {
+      "id": "c4fad55e71626de6",
+      "number": 93,
+      "japanese": "洗剤",
+      "reading": "せんざい",
+      "hanViet": "",
+      "vietnamese": "Chất tẩy rửa",
+      "examples": [
+        {
+          "id": "6a1b437db58a2d3d",
+          "japanese": "洗剤で食器を洗う。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "食器用洗剤 (しょっきようせんざい)"
+        }
+      ]
+    },
+    {
+      "id": "a47983617f66a215",
+      "number": 94,
+      "japanese": "底",
+      "reading": "そこ",
+      "hanViet": "",
+      "vietnamese": "Đế, đáy",
+      "examples": [
+        {
+          "id": "b55d892d5851f4cc",
+          "japanese": "靴の底に穴が空く。",
+          "vietnamese": ""
+        },
+        {
+          "id": "c6fbd17396c953c1",
+          "japanese": "箱の底が抜ける。",
+          "vietnamese": ""
+        },
+        {
+          "id": "d494b49a789824a7",
+          "japanese": "コップの底",
+          "vietnamese": ""
+        },
+        {
+          "id": "583012d0257f83c4",
+          "japanese": "海の底に潜る。",
+          "vietnamese": ""
+        },
+        {
+          "id": "1a23ba0a03e25ecb",
+          "japanese": "あの人は心の底では何を考えているかわからない。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "1256b7bd16e7bde8",
+      "number": 95,
+      "japanese": "地下",
+      "reading": "ちか",
+      "hanViet": "",
+      "vietnamese": "Dưới đất",
+      "examples": [
+        {
+          "id": "53d14f16e24f06f5",
+          "japanese": "大都市は地下の開発が進んでいる。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "地下鉄 (ちかてつ)"
+        },
+        {
+          "label": "対",
+          "text": "地上 (ちじょう)"
+        }
+      ]
+    },
+    {
+      "id": "f8e6da1cd5f4a1c2",
+      "number": 96,
+      "japanese": "寺",
+      "reading": "てら",
+      "hanViet": "",
+      "vietnamese": "Chùa",
+      "examples": [
+        {
+          "id": "2da9cb8383d287b4",
+          "japanese": "お寺に｛まいる／おまいりする｝。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "お寺参り (おてらまいり)"
+        }
+      ]
+    },
+    {
+      "id": "bbea4f2b4370120d",
+      "number": 97,
+      "japanese": "高速道路",
+      "reading": "こうそくどうろ",
+      "hanViet": "",
+      "vietnamese": "Đường cao tốc",
+      "examples": [
+        {
+          "id": "cfb3f9ae41476e1a",
+          "japanese": "うちの前を高速道路が走っている。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "使い分け",
+          "text": "道路 (どうろ) = đường cho xe to, ô tô qua lại → 高速道路"
+        },
+        {
+          "label": "使い分け",
+          "text": "道 (みち) = đường nói chung, đi bộ được → 道を歩く"
+        }
+      ]
+    },
+    {
+      "id": "06bfe92e4eb5d6a1",
+      "number": 98,
+      "japanese": "坂",
+      "reading": "さか",
+      "hanViet": "",
+      "vietnamese": "Con dốc",
+      "examples": [
+        {
+          "id": "0aae7d12fddeb2c2",
+          "japanese": "坂を上る。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "急な坂 ＞＜ 緩やかな坂"
+        }
+      ]
+    },
+    {
+      "id": "fea09987b911ee44",
+      "number": 99,
+      "japanese": "煙",
+      "reading": "けむり",
+      "hanViet": "",
+      "vietnamese": "Khói",
+      "examples": [
+        {
+          "id": "840a947470ccef8b",
+          "japanese": "「火事のときは、煙に注意して逃げてください」。",
+          "vietnamese": ""
+        },
+        {
+          "id": "c51ae09bf6d1d566",
+          "japanese": "タバコの煙は体に悪い。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "87bcd00db50b0b7a",
+      "number": 100,
+      "japanese": "灰",
+      "reading": "はい",
+      "hanViet": "",
+      "vietnamese": "Tro, tàn",
+      "examples": [
+        {
+          "id": "69c809a09a8a5578",
+          "japanese": "タバコの灰",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "携帯灰皿 (けいたいはいざら)"
+        }
+      ]
+    },
+    {
+      "id": "cea8fc9c3617709b",
+      "number": 101,
+      "japanese": "判",
+      "reading": "はん",
+      "hanViet": "",
+      "vietnamese": "Con dấu",
+      "examples": [
+        {
+          "id": "79240bd8351fab70",
+          "japanese": "書類に判を押す。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "判子を押す (はんこをおす) = Đóng dấu"
+        },
+        {
+          "label": "類",
+          "text": "判子 (はんこ)・印 (いん)・印鑑 (いんかん)"
+        }
+      ]
+    },
+    {
+      "id": "e0594a99eb2b1f2d",
+      "number": 102,
+      "japanese": "名刺",
+      "reading": "めいし",
+      "hanViet": "",
+      "vietnamese": "Danh thiếp",
+      "examples": [
+        {
+          "id": "8ba97132bc0adceb",
+          "japanese": "名刺を交換する ≒ やりとりする。",
+          "vietnamese": ""
+        },
+        {
+          "id": "0266bc06645dca99",
+          "japanese": "パーティーで会った人に名刺を配る。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "名刺を配る = Đưa danh thiếp"
+        }
+      ]
+    },
+    {
+      "id": "37d879e654d852f8",
+      "number": 103,
+      "japanese": "免許",
+      "reading": "めんきょ",
+      "hanViet": "",
+      "vietnamese": "Giấy phép",
+      "examples": [
+        {
+          "id": "fb383b094a18e015",
+          "japanese": "レストランを開くには、調理師（の）免許が必要だ。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "運転免許をとる = Lấy bằng, giấy phép"
+        },
+        {
+          "label": "連",
+          "text": "免許を与える = Trao bằng, giấy phép"
+        }
+      ]
+    },
+    {
+      "id": "9a43f8f0141a5bab",
+      "number": 104,
+      "japanese": "多く",
+      "reading": "おおく",
+      "hanViet": "",
+      "vietnamese": "Nhiều",
+      "examples": [
+        {
+          "id": "3ad20aca99397163",
+          "japanese": "オリンピックには多くの国が参加した。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "a1334af12b53f776",
+      "number": 105,
+      "japanese": "前半",
+      "reading": "ぜんはん",
+      "hanViet": "",
+      "vietnamese": "Nửa trước",
+      "examples": [
+        {
+          "id": "054ea0cd69b02a67",
+          "japanese": "映画の前半は退屈だったが、後半はおもしろかった。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "後半 (こうはん)"
+        }
+      ]
+    },
+    {
+      "id": "f8f4e3d00288a49d",
+      "number": 106,
+      "japanese": "後半",
+      "reading": "こうはん",
+      "hanViet": "",
+      "vietnamese": "Nửa sau",
+      "examples": [
+        {
+          "id": "054ea0cd69b02a67",
+          "japanese": "映画の前半は退屈だったが、後半はおもしろかった。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "前半 (ぜんはん)"
+        }
+      ]
+    },
+    {
+      "id": "616743913e68a23b",
+      "number": 107,
+      "japanese": "最高",
+      "reading": "さいこう",
+      "hanViet": "",
+      "vietnamese": "Cao nhất/ Tuyệt nhất/ Rất",
+      "examples": [
+        {
+          "id": "23a1dea9f3921fd8",
+          "japanese": "この店はきのう、開店以来最高の売上を記録した。",
+          "vietnamese": ""
+        },
+        {
+          "id": "349b6c1fa5e70f12",
+          "japanese": "宝くじに当たって、最高の気分だ。",
+          "vietnamese": ""
+        },
+        {
+          "id": "6e6ac41182334295",
+          "japanese": "昨日食べたからあげは最高だった。",
+          "vietnamese": ""
+        },
+        {
+          "id": "ca00259dcca91154",
+          "japanese": "この映画は最高におもしろい。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "最高気温 (さいこうきおん)"
+        },
+        {
+          "label": "対",
+          "text": "最低 (さいてい)"
+        }
+      ]
+    },
+    {
+      "id": "ec5896287d617825",
+      "number": 108,
+      "japanese": "最低",
+      "reading": "さいてい",
+      "hanViet": "",
+      "vietnamese": "Thấp nhất/ Tệ nhất",
+      "examples": [
+        {
+          "id": "ea94eb5fc8356e94",
+          "japanese": "クラスで最低点をとってしまった。",
+          "vietnamese": ""
+        },
+        {
+          "id": "1b7329c039edde53",
+          "japanese": "昨日の映画は最低だった。",
+          "vietnamese": ""
+        },
+        {
+          "id": "3f5e9ded58c79392",
+          "japanese": "弱いものいじめをするなんて最低だ！最低の人だ。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "最低点 (さいていてん)"
+        },
+        {
+          "label": "連",
+          "text": "人が最低 = Con người tệ"
+        },
+        {
+          "label": "対",
+          "text": "最高 (さいこう)"
+        }
+      ]
+    },
+    {
+      "id": "b8da6f7e8be6b086",
+      "number": 109,
+      "japanese": "最初",
+      "reading": "さいしょ",
+      "hanViet": "",
+      "vietnamese": "Đầu tiên",
+      "examples": [
+        {
+          "id": "e43166fd88becc6c",
+          "japanese": "最初にひらがなを、次にカタカナを勉強しました。",
+          "vietnamese": ""
+        },
+        {
+          "id": "85d4e69ecaa2ec33",
+          "japanese": "ベトナムに来たばかりのころ、最初は右も左もわからなかった。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "最後 (さいご)"
+        }
+      ]
+    },
+    {
+      "id": "3ec044205332f40c",
+      "number": 110,
+      "japanese": "最後",
+      "reading": "さいご",
+      "hanViet": "",
+      "vietnamese": "Cuối cùng",
+      "examples": [
+        {
+          "id": "11205a8a678064e2",
+          "japanese": "あとから来た人は列の最後に並んでください。",
+          "vietnamese": ""
+        },
+        {
+          "id": "11df9b03f44b88e5",
+          "japanese": "最後の出勤日に花束をもらった。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "最初 (さいしょ)"
+        }
+      ]
+    },
+    {
+      "id": "cef885d411bb25de",
+      "number": 111,
+      "japanese": "自動",
+      "reading": "じどう",
+      "hanViet": "",
+      "vietnamese": "Tự động",
+      "examples": [
+        {
+          "id": "fdd4112fb2ff3177",
+          "japanese": "このドアは自動だから、手であけなくてもいいです。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "自動販売機 (じどうはんばいき) ≒ 自販機 (じはんき)"
+        },
+        {
+          "label": "合",
+          "text": "全自動洗濯機 (ぜんじどうせんたくき)"
+        },
+        {
+          "label": "対",
+          "text": "手動 (しゅどう) = Thủ công"
+        }
+      ]
+    },
+    {
+      "id": "b96dcac51d6742bb",
+      "number": 112,
+      "japanese": "種類",
+      "reading": "しゅるい",
+      "hanViet": "",
+      "vietnamese": "Chủng loại",
+      "examples": [
+        {
+          "id": "19ff9bb06a640743",
+          "japanese": "形容詞は2種類ある。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "beeef25a14b29ecc",
+      "number": 113,
+      "japanese": "性格",
+      "reading": "せいかく",
+      "hanViet": "",
+      "vietnamese": "Tính cách",
+      "examples": [
+        {
+          "id": "c41955301e96b1bf",
+          "japanese": "あの人は性格がいいので、みんなに好かれている。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "使い方",
+          "text": "Chỉ dùng cho người → 明るい性格・まじめな性格・おとなしい性格・積極的な性格"
+        }
+      ]
+    },
+    {
+      "id": "e20b744d9b497ca0",
+      "number": 114,
+      "japanese": "性質",
+      "reading": "せいしつ",
+      "hanViet": "",
+      "vietnamese": "Tính chất/ Tính cách",
+      "examples": [
+        {
+          "id": "430ad7381e61681c",
+          "japanese": "この布は燃えにくい性質を持っている。",
+          "vietnamese": ""
+        },
+        {
+          "id": "e94714bd5a45a1f0",
+          "japanese": "羊はおとなしい性質の動物だ。",
+          "vietnamese": ""
+        },
+        {
+          "id": "c262f3915d09c4f7",
+          "japanese": "人は持って生まれた性質をなかなか変えられない。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "使い方",
+          "text": "性格 = chỉ dùng cho người; 性質 = dùng cho người, động vật và cả đồ vật"
+        }
+      ]
+    },
+    {
+      "id": "38f3fbb73463da5f",
+      "number": 115,
+      "japanese": "順番",
+      "reading": "じゅんばん",
+      "hanViet": "",
+      "vietnamese": "Thứ tự, lần lượt",
+      "examples": [
+        {
+          "id": "c243feee3a013f66",
+          "japanese": "じゃんけんで、発表の順番を決めましょう。",
+          "vietnamese": ""
+        },
+        {
+          "id": "c1ddd44275088ab1",
+          "japanese": "大きい商品から順番に並べる。",
+          "vietnamese": ""
+        },
+        {
+          "id": "e4550748d81f27fb",
+          "japanese": "順番を待ってください。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "44a517d7769e07b2",
+      "number": 116,
+      "japanese": "番",
+      "reading": "ばん",
+      "hanViet": "",
+      "vietnamese": "Lượt",
+      "examples": [
+        {
+          "id": "d221bb7ac3d2af85",
+          "japanese": "次は私の番だ。",
+          "vietnamese": ""
+        },
+        {
+          "id": "e4f6ca40603cde0e",
+          "japanese": "席を離れた人の荷物番をする。",
+          "vietnamese": ""
+        },
+        {
+          "id": "7dccff521aef018c",
+          "japanese": "隣の人に留守番を頼む。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "番をする = Giữ chỗ / Trông chừng"
+        },
+        {
+          "label": "合",
+          "text": "留守番 (るすばん)"
+        }
+      ]
+    },
+    {
+      "id": "1a0326ba24f34efc",
+      "number": 117,
+      "japanese": "方法",
+      "reading": "ほうほう",
+      "hanViet": "",
+      "vietnamese": "Phương pháp, cách",
+      "examples": [
+        {
+          "id": "d6627f98eb80e53a",
+          "japanese": "いい方法を探す。",
+          "vietnamese": ""
+        },
+        {
+          "id": "3a55a9b39cbf57be",
+          "japanese": "色々な方法を試す。",
+          "vietnamese": ""
+        },
+        {
+          "id": "d1d93a0beb83bc51",
+          "japanese": "新しい方法でやってみる。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "cd864dac07865f80",
+      "number": 118,
+      "japanese": "製品",
+      "reading": "せいひん",
+      "hanViet": "",
+      "vietnamese": "Sản phẩm, đồ, hàng",
+      "examples": [
+        {
+          "id": "d37d8cdf1575b8e3",
+          "japanese": "日本製・プラスチック製",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "電気製品 (でんきせいひん)・家電製品 (かでんせいひん)・プラスチック製品"
+        }
+      ]
+    },
+    {
+      "id": "50356725477750b4",
+      "number": 119,
+      "japanese": "値上がり",
+      "reading": "ねあがり",
+      "hanViet": "",
+      "vietnamese": "Sự tăng giá",
+      "examples": [
+        {
+          "id": "96f8a2cf7ee4ef7e",
+          "japanese": "食品の値上がり",
+          "vietnamese": ""
+        },
+        {
+          "id": "a4cd58454fcddef8",
+          "japanese": "石油が値上がりする ≒ 値段が上がる。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "3553ad183e1b0fd7",
+      "number": 120,
+      "japanese": "生",
+      "reading": "なま",
+      "hanViet": "",
+      "vietnamese": "Tươi sống",
+      "examples": [
+        {
+          "id": "7b5574767c956fb4",
+          "japanese": "生の魚",
+          "vietnamese": ""
+        },
+        {
+          "id": "f2e6c60cd0efcbb3",
+          "japanese": "魚を生で食べられますか。",
+          "vietnamese": ""
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "生野菜 (なまやさい) = Rau sống"
+        },
+        {
+          "label": "合",
+          "text": "生魚 (なまざかな) = Cá tươi, cá gỏi"
+        },
+        {
+          "label": "合",
+          "text": "生肉 (なまにく) = Thịt sống"
+        },
+        {
+          "label": "合",
+          "text": "生物 (なまもの) = Đồ sống, đồ tươi"
+        },
+        {
+          "label": "合",
+          "text": "生ビール = Bia hơi"
+        },
+        {
+          "label": "合",
+          "text": "生ゴミ = Rác nhà bếp, rác tươi"
+        }
+      ]
+    }
+  ]
 }

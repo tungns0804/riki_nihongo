@@ -18,39 +18,43 @@
       "vocabulary": [
         {
           "id": "33e8cf3bc8df1647",
+          "number": 0,
           "japanese": "利用",
           "reading": "りよう",
           "vietnamese": "sử dụng",
           "hanViet": "",
-          "example": "",
-          "exampleMeaning": ""
+          "examples": [],
+          "notes": []
         },
         {
           "id": "6aa50b19ba47b9a5",
+          "number": 0,
           "japanese": "貸出期間",
           "reading": "かしだしきかん",
           "vietnamese": "thời hạn cho mượn",
           "hanViet": "",
-          "example": "",
-          "exampleMeaning": ""
+          "examples": [],
+          "notes": []
         },
         {
           "id": "07c5d6e9274189bf",
+          "number": 0,
           "japanese": "整理",
           "reading": "せいり",
           "vietnamese": "sắp xếp/ chỉnh lý",
           "hanViet": "",
-          "example": "",
-          "exampleMeaning": ""
+          "examples": [],
+          "notes": []
         },
         {
           "id": "1e05faec9a66834d",
+          "number": 0,
           "japanese": "不便",
           "reading": "ふべん",
           "vietnamese": "bất tiện",
           "hanViet": "",
-          "example": "",
-          "exampleMeaning": ""
+          "examples": [],
+          "notes": []
         }
       ],
       "questions": [

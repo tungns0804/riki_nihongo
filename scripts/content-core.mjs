@@ -48,52 +48,114 @@ function splitReading(value) {
 // ── Từ vựng ────────────────────────────────────────────────────────────────
 
 /**
- * Mỗi dòng: `ÂM HÁN VIỆT,TIẾNG NHẬT (CÁCH ĐỌC),NGHĨA|CÂU VÍ DỤ|NGHĨA CÂU VÍ DỤ`
+ * Định dạng KHỐI: một từ gồm một dòng tiêu đề, rồi các dòng ví dụ và ghi chú.
  *
- * Chỉ tách ở HAI dấu phẩy đầu tiên: cột nghĩa hay có dấu phẩy bên trong ("chỗ ngồi,
- * ghế"), tách hết mọi dấu phẩy thì phần sau bị vứt đi mà không báo gì.
+ *   101. 判 (はん) = Con dấu
+ *   ・書類に判を押す。| Đóng dấu vào giấy tờ.
+ *   合: 判子を押す = Đóng dấu
+ *   類: 判子・印・印鑑
  *
- * Âm Hán Việt được phép để trống (từ katakana, trạng từ thuần kana): viết dấu phẩy
- * ngay đầu dòng.
+ * Vì sao không phải mỗi từ một dòng CSV như lúc đầu: giáo trình N3 JUNBI cho một
+ * từ tới năm sáu câu ví dụ, kèm các dòng 合 / 対 / 関 / 連 / 類 / 使い方. Nhồi tất
+ * cả vào một dòng thì dòng dài hàng trăm ký tự và không ai soát nổi; mà bỏ bớt đi
+ * thì mất đúng phần dạy CÁCH DÙNG, tức là phần đáng giá nhất của giáo trình.
+ *
+ * Ba loại dòng, nhận diện theo thứ tự này (thứ tự có ý nghĩa: dòng ghi chú cũng
+ * có thể chứa dấu = như "合: 判子を押す = Đóng dấu"):
+ *   1. bắt đầu bằng ・ hoặc -   -> câu ví dụ, phần sau dấu | là bản dịch
+ *   2. NHÃN : nội dung          -> ghi chú, nhãn giữ nguyên như trong sách
+ *   3. còn lại                  -> dòng tiêu đề của một từ mới
  */
+const VOCAB_EXAMPLE = /^[・･\-]\s*(.+)$/;
+const VOCAB_NOTE = /^(\S{1,8}?)\s*[:：]\s*(.+)$/;
+const VOCAB_HEADER = /^(?:(\d+)\s*[.．]\s*)?(.+?)(?:\s*[(（]([^)）]+)[)）])?\s*[=＝]\s*(.+)$/;
+
 export function parseVocabulary(raw) {
   const words = [];
   const warnings = [];
   const seen = new Set();
+  let current = null;
+
+  /** Đóng từ đang dựng dở và đưa vào danh sách. */
+  const flush = () => {
+    if (!current) return;
+    // Id băm từ japanese + hanViet, KHÔNG gồm ví dụ hay ghi chú: bổ sung ví dụ cho
+    // một từ đã có không được làm mất tiến độ đã ghi theo id đó.
+    const id = hashId(current.japanese, current.hanViet);
+    if (seen.has(id)) {
+      warnings.push(`dòng ${current.line}: trùng với một từ đã có ở trên (${current.japanese})`);
+    } else {
+      seen.add(id);
+      words.push({
+        id,
+        number: current.number,
+        japanese: current.japanese,
+        reading: current.reading,
+        hanViet: current.hanViet,
+        vietnamese: current.vietnamese,
+        examples: current.examples,
+        notes: current.notes,
+      });
+    }
+    current = null;
+  };
 
   for (const { text, lineNumber } of contentLines(raw)) {
-    const firstComma = text.indexOf(',');
-    const secondComma = text.indexOf(',', firstComma + 1);
-    if (firstComma === -1 || secondComma === -1) {
-      warnings.push(`dòng ${lineNumber}: thiếu cột, cần dạng "HÁN VIỆT,TIẾNG NHẬT,NGHĨA"`);
+    const example = text.match(VOCAB_EXAMPLE);
+    if (example) {
+      if (!current) {
+        warnings.push(`dòng ${lineNumber}: câu ví dụ nhưng chưa có từ nào ở trên`);
+        continue;
+      }
+      const [japanese = '', vietnamese = ''] = example[1].split('|').map((part) => part.trim());
+      if (japanese) {
+        current.examples.push({ id: hashId('ex', japanese), japanese, vietnamese });
+      }
       continue;
     }
 
-    const hanViet = text.slice(0, firstComma).trim();
-    const { japanese, reading } = splitReading(text.slice(firstComma + 1, secondComma));
-    const rest = text.slice(secondComma + 1);
-
-    const [vietnamese = '', example = '', exampleMeaning = ''] = rest
-      .split('|')
-      .map((part) => part.trim());
-
-    if (!japanese || !vietnamese) {
-      warnings.push(`dòng ${lineNumber}: thiếu tiếng Nhật hoặc nghĩa tiếng Việt`);
+    const note = text.match(VOCAB_NOTE);
+    if (note) {
+      if (!current) {
+        warnings.push(`dòng ${lineNumber}: ghi chú nhưng chưa có từ nào ở trên`);
+        continue;
+      }
+      current.notes.push({ label: note[1], text: note[2].trim() });
       continue;
     }
 
-    // Id băm từ japanese + hanViet, KHÔNG gồm cách đọc hay ví dụ: bổ sung ví dụ cho
-    // một từ đã có không được làm mất tiến độ đã ghi theo id đó.
-    const id = hashId(japanese, hanViet);
-    if (seen.has(id)) {
-      warnings.push(`dòng ${lineNumber}: trùng với một từ đã có ở trên (${japanese})`);
+    const header = text.match(VOCAB_HEADER);
+    if (!header) {
+      warnings.push(`dòng ${lineNumber}: không hiểu dòng này (thiếu dấu = ở dòng tiêu đề?)`);
       continue;
     }
-    seen.add(id);
 
-    words.push({ id, japanese, reading, hanViet, vietnamese, example, exampleMeaning });
+    flush();
+    const [, number, japanese, reading, meaning] = header;
+    // Cột nghĩa có thể mang thêm âm Hán Việt ở đầu, ngăn bằng dấu ;
+    //   判 (はん) = PHÁN ; Con dấu
+    const [first = '', second = ''] = meaning.split(';').map((part) => part.trim());
+    const hanViet = second ? first : '';
+    const vietnamese = second || first;
+
+    if (!japanese.trim() || !vietnamese) {
+      warnings.push(`dòng ${lineNumber}: thiếu từ tiếng Nhật hoặc nghĩa tiếng Việt`);
+      continue;
+    }
+
+    current = {
+      line: lineNumber,
+      number: number ? Number.parseInt(number, 10) : 0,
+      japanese: japanese.trim(),
+      reading: (reading ?? '').trim(),
+      hanViet,
+      vietnamese,
+      examples: [],
+      notes: [],
+    };
   }
 
+  flush();
   return { words, warnings };
 }
 
@@ -337,9 +399,10 @@ function normalizeInlineVocabulary(raw) {
     .filter((word) => word.japanese.length > 0)
     .map((word) => ({
       id: hashId(word.japanese, word.hanViet),
+      number: 0,
       ...word,
-      example: '',
-      exampleMeaning: '',
+      examples: [],
+      notes: [],
     }));
 }
 

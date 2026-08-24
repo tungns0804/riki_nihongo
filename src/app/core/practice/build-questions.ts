@@ -76,7 +76,9 @@ function fromVocabulary(
       answerIsJapanese: answer !== 'vietnamese',
       acceptedAnswers: [correct],
       choices: withChoices ? buildChoices(correct, pool) : [],
-      explanation: word.example,
+      // Lời giải sau khi chấm là câu ví dụ ĐẦU TIÊN: một từ có tới năm sáu câu, đổ
+      // hết ra thì khối phản hồi dài hơn cả câu hỏi và không ai đọc nữa.
+      explanation: word.examples[0]?.japanese ?? '',
     };
   });
 }

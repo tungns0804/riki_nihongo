@@ -50,8 +50,37 @@ export function isSkillId(value: unknown): value is SkillId {
 
 // ── Từ vựng ────────────────────────────────────────────────────────────────
 
+/** Một câu ví dụ của từ. */
+export interface VocabExample {
+  id: string;
+  japanese: string;
+  /** Bản dịch tiếng Việt. Rỗng nghĩa là chưa dịch — giáo trình gốc cũng thường để trống. */
+  vietnamese: string;
+}
+
+/**
+ * Một dòng ghi chú đi kèm từ, giữ nguyên nhãn của giáo trình:
+ *
+ *   合 từ ghép · 対 trái nghĩa · 関 từ liên quan · 連 cách nói đi kèm · 類 từ đồng nghĩa
+ *   使い方 / 使い分け cách dùng và phân biệt
+ *
+ * Nhãn để dạng chuỗi tự do chứ không phải union đóng: giáo trình dùng thêm nhãn mới
+ * thì chỉ cần gõ vào file nguồn, không phải sửa mã và build lại.
+ */
+export interface VocabNote {
+  label: string;
+  text: string;
+}
+
 export interface VocabWord {
   id: string;
+  /**
+   * Số thứ tự trong giáo trình gốc (1–120 của N3 JUNBI). 0 nghĩa là không đánh số.
+   *
+   * Giữ lại để đối chiếu được với bản PDF khi học: người học nhớ "từ số 107" chứ
+   * không nhớ vị trí của nó trong bài.
+   */
+  number: number;
   /** Từ tiếng Nhật, ví dụ "締め切り". */
   japanese: string;
   /** Cách đọc bằng kana, ví dụ "しめきり". Rỗng nếu từ vốn đã là kana. */
@@ -61,11 +90,15 @@ export interface VocabWord {
    * cột này chỉ hiện khi bài có ít nhất một từ khai báo âm Hán Việt.
    */
   hanViet: string;
+  /** Nghĩa tiếng Việt. Nhiều nghĩa ngăn nhau bằng dấu /. */
   vietnamese: string;
-  /** Câu ví dụ tiếng Nhật. Rỗng nghĩa là chưa có. */
-  example: string;
-  /** Nghĩa tiếng Việt của câu ví dụ. */
-  exampleMeaning: string;
+  /**
+   * Các câu ví dụ. Là MẢNG chứ không phải một câu: giáo trình cho tới năm sáu câu
+   * cho một từ (底, 太陽), và mỗi câu minh hoạ một cách dùng khác nhau — giữ lại một
+   * câu thì mất đúng phần dạy cách dùng.
+   */
+  examples: VocabExample[];
+  notes: VocabNote[];
 }
 
 // ── Kanji ──────────────────────────────────────────────────────────────────

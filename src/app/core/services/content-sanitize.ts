@@ -24,6 +24,8 @@ import {
   ScriptLine,
   TestSection,
   UnitKind,
+  VocabExample,
+  VocabNote,
   VocabWord,
   isSkillId,
 } from '../models/content.model';
@@ -70,6 +72,27 @@ function each<T>(raw: unknown, seen: Set<string>, read: (item: Record<string, un
 
 // ── Từ vựng ────────────────────────────────────────────────────────────────
 
+function sanitizeVocabExamples(raw: unknown): VocabExample[] {
+  return each(raw, new Set<string>(), (item, id) => {
+    const japanese = text(item['japanese']);
+    if (!japanese) return null;
+    return { id, japanese, vietnamese: text(item['vietnamese']) };
+  });
+}
+
+/** Ghi chú không có id (nhãn + chữ là đủ để phân biệt), nên không dùng `each`. */
+function sanitizeVocabNotes(raw: unknown): VocabNote[] {
+  if (!Array.isArray(raw)) return [];
+
+  return raw.flatMap((item): VocabNote[] => {
+    if (!item || typeof item !== 'object') return [];
+    const record = item as Record<string, unknown>;
+    const value = text(record['text']);
+    if (!value) return [];
+    return [{ label: text(record['label']), text: value }];
+  });
+}
+
 export function sanitizeVocabulary(raw: unknown, seen = new Set<string>()): VocabWord[] {
   return each(raw, seen, (item, id) => {
     const japanese = text(item['japanese']);
@@ -79,12 +102,13 @@ export function sanitizeVocabulary(raw: unknown, seen = new Set<string>()): Voca
 
     return {
       id,
+      number: typeof item['number'] === 'number' ? (item['number'] as number) : 0,
       japanese,
       reading: text(item['reading']),
       hanViet: text(item['hanViet']),
       vietnamese,
-      example: text(item['example']),
-      exampleMeaning: text(item['exampleMeaning']),
+      examples: sanitizeVocabExamples(item['examples']),
+      notes: sanitizeVocabNotes(item['notes']),
     };
   });
 }

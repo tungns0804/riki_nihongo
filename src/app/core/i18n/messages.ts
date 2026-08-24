@@ -160,13 +160,6 @@ export const MESSAGES = {
   'unit.pendingCount': { vi: '{count} bài đang chờ nội dung', ja: '{count}課は教材待ち' },
   'unit.progress': { vi: 'Kết quả tốt nhất: {percent}%', ja: '最高スコア：{percent}%' },
 
-  // ── Bảng từ vựng ───────────────────────────────────────────────────────
-  'vocab.japanese': { vi: 'Tiếng Nhật', ja: '日本語' },
-  'vocab.reading': { vi: 'Cách đọc', ja: '読み方' },
-  'vocab.hanViet': { vi: 'Âm Hán Việt', ja: '漢越音' },
-  'vocab.vietnamese': { vi: 'Nghĩa tiếng Việt', ja: 'ベトナム語訳' },
-  'vocab.example': { vi: 'Câu ví dụ', ja: '例文' },
-
   // ── Kanji ──────────────────────────────────────────────────────────────
   'kanji.onyomi': { vi: 'Âm On', ja: '音読み' },
   'kanji.kunyomi': { vi: 'Âm Kun', ja: '訓読み' },

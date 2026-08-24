@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-08-24T15:08:04.557Z",
+  "generatedAt": "2026-08-24T15:33:29.711Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -26,9 +26,9 @@
         {
           "id": "01-danh-tu-1",
           "name": "Danh từ 1",
-          "description": "",
+          "description": "N3準備 文字語彙 · 第1課 (01–20) và 第2課 (21–40)",
           "kind": "vocabulary",
-          "itemCount": 0,
+          "itemCount": 40,
           "order": 1,
           "file": "vocabulary/01-danh-tu-1.json"
         },
@@ -53,9 +53,9 @@
         {
           "id": "04-danh-tu-2",
           "name": "Danh từ 2",
-          "description": "",
+          "description": "N3準備 文字語彙 · 第3課 (41–60) và 第4課 (61–80)",
           "kind": "vocabulary",
-          "itemCount": 0,
+          "itemCount": 40,
           "order": 4,
           "file": "vocabulary/04-danh-tu-2.json"
         },
@@ -98,9 +98,9 @@
         {
           "id": "09-danh-tu-3",
           "name": "Danh từ 3",
-          "description": "",
+          "description": "N3準備 文字語彙 · 第5課 (81–100) và 第6課 (101–120)",
           "kind": "vocabulary",
-          "itemCount": 0,
+          "itemCount": 40,
           "order": 9,
           "file": "vocabulary/09-danh-tu-3.json"
         },

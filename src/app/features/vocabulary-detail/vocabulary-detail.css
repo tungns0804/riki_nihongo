@@ -12,31 +12,133 @@
   max-width: 340px;
 }
 
-/* Cột số thứ tự hẹp nhất có thể: nó chỉ để định vị khi đọc, không phải nội dung. */
-.col-index {
-  width: 44px;
-  text-align: right;
+/* --- Danh sách từ ---------------------------------------------------------
+   Bố cục đi theo bản PDF của giáo trình: cột trái là từ, cột phải là ví dụ và
+   các dòng ghi chú, ngăn nhau bằng một vạch dọc.
+
+   Dùng grid hai cột chứ không phải flex: cột trái phải rộng BẰNG NHAU ở mọi thẻ
+   thì mắt mới quét dọc được cả danh sách 40 từ; flex thì mỗi thẻ một bề rộng
+   theo độ dài của chính từ đó. */
+
+.word-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-/* Âm Hán Việt viết hoa như trong từ điển, và không xuống dòng giữa chừng. */
-.col-han {
-  font-size: var(--fs-xs);
+.word-card {
+  display: grid;
+  grid-template-columns: minmax(200px, 260px) 1fr;
+  gap: var(--sp-5);
+  padding: var(--sp-4) var(--sp-5);
+  animation: rise-in 0.24s var(--ease) backwards;
+}
+
+/* Thẻ chỉ có từ, chưa có ví dụ: cột phải không tồn tại nên cột trái chiếm hết. */
+.word-card:not(:has(.word-body)) {
+  grid-template-columns: 1fr;
+}
+
+.word-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+/* Số thứ tự trong giáo trình, dạng huy hiệu như bản in. */
+.word-number {
+  padding: 1px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  color: var(--accent-text);
+  font-size: var(--fs-2xs);
+  font-weight: 700;
+}
+
+.word-jp {
+  font-size: var(--fs-xl);
+  font-weight: 650;
+  line-height: 1.3;
+}
+
+/* Cách đọc đứng TRÊN mặt chữ trong sách; ở đây để ngay dưới và nhỏ hơn một bậc —
+   furigana thật sự thì cần <ruby>, mà dữ liệu chỉ có cách đọc của cả từ. */
+.word-reading {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+.word-meaning {
   font-weight: 600;
+}
+
+.word-han {
+  font-size: var(--fs-2xs);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--text-muted);
-  white-space: nowrap;
 }
 
-/* Cột ví dụ là cột dài nhất; giới hạn bề rộng để nó không đẩy các cột khác đi. */
-.col-example {
-  min-width: 240px;
-  max-width: 380px;
+/* Vạch dọc ngăn hai cột, đúng như bản in. */
+.word-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding-left: var(--sp-4);
+  border-left: 2px solid var(--border-strong);
+  min-width: 0;
 }
 
-/* Nghĩa của câu ví dụ xuống dòng riêng, cỡ nhỏ: nó là chú giải cho câu ở trên chứ
-   không phải một cột thứ hai. */
-.example-meaning {
+.example {
+  font-size: var(--fs-md);
+}
+
+/* Bản dịch xuống dòng riêng: câu Nhật và câu Việt trộn chung một dòng thì không
+   biết chỗ nào hết câu này sang câu kia. */
+.example-vi {
   display: block;
-  font-family: var(--font-ui);
+}
+
+.note {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+  font-size: var(--fs-sm);
+}
+
+/* Nhãn 合 / 対 / 関 / 連 / 類 giữ nguyên như sách, tô màu nhấn để tách khỏi nội dung. */
+.note-label {
+  flex-shrink: 0;
+  min-width: 2.6em;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.note-text {
+  color: var(--text-muted);
+}
+
+@media (max-width: 720px) {
+  /* Màn hình hẹp: hai cột xếp thành hai hàng, vạch dọc đổi thành vạch ngang. */
+  .word-card {
+    grid-template-columns: 1fr;
+    gap: var(--sp-3);
+  }
+
+  .word-head {
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: var(--sp-2);
+  }
+
+  .word-body {
+    padding-left: 0;
+    padding-top: var(--sp-3);
+    border-left: none;
+    border-top: 2px solid var(--border-strong);
+  }
 }

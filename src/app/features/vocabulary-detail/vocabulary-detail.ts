@@ -9,11 +9,12 @@ import { loadUnit } from '../../core/services/unit-loader';
 import { PracticeSetup } from '../shared/practice-setup/practice-setup';
 
 /**
- * Một bài từ vựng: khung thiết lập luyện tập ở trên, bảng từ ở dưới.
+ * Một bài từ vựng: khung thiết lập luyện tập ở trên, danh sách từ ở dưới.
  *
- * Bảng ẩn những cột mà cả bài không từ nào có (âm Hán Việt với bài toàn katakana,
- * câu ví dụ với bài chưa soạn ví dụ). Cột trống suốt từ trên xuống dưới chỉ làm
- * bảng rộng thêm và đẩy các cột có nội dung ra ngoài màn hình.
+ * Mỗi từ là một THẺ chứ không phải một hàng bảng, và bố cục thẻ đi theo đúng bản
+ * PDF của giáo trình: số thứ tự, từ và nghĩa ở cột trái, câu ví dụ cùng các dòng
+ * 合 / 対 / 関 / 連 ở cột phải. Bảng không chứa nổi phần bên phải — một từ có tới
+ * năm sáu câu ví dụ, và ô bảng cao bằng cả màn hình thì cột bên cạnh trống trơn.
  */
 @Component({
   selector: 'app-vocabulary-detail',
@@ -38,14 +39,4 @@ export class VocabularyDetail {
   protected readonly notFound = this.resource.notFound;
 
   protected readonly words = computed(() => this.unit()?.words ?? []);
-
-  protected readonly hasHanViet = computed(() =>
-    this.words().some((word) => word.hanViet.length > 0),
-  );
-  protected readonly hasReading = computed(() =>
-    this.words().some((word) => word.reading.length > 0),
-  );
-  protected readonly hasExample = computed(() =>
-    this.words().some((word) => word.example.length > 0),
-  );
 }
