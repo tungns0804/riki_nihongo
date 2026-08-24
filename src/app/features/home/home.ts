@@ -34,19 +34,33 @@ export class Home {
   /** Số thẻ xám vẽ trong lúc chờ tải — đúng bằng số phần, vì con số đó cố định. */
   protected readonly skeletons = MODULES.map((module) => module.id);
 
-  /** Bảy phần kèm số bài đã có của từng phần. */
+  /**
+   * Bảy phần kèm số bài của từng phần.
+   *
+   * `readyCount` là số bài đã có nội dung, `pendingCount` là số bài mới đặt chỗ. Phần
+   * chỉ toàn bài giữ chỗ VẪN mở được — vào đó thấy được lộ trình sắp học gồm những
+   * bài nào, đúng thứ tự. Chỉ phần không có bài nào mới bị khoá.
+   */
   protected readonly modules = computed(() => {
     const counts = this.content.countByModule();
+    const ready = this.content.readyCountByModule();
     const studied = this.progress.countByModule();
 
-    return MODULES.map((module) => ({
-      ...module,
-      unitCount: counts[module.id] ?? 0,
-      studiedCount: studied[module.id] ?? 0,
-    }));
+    return MODULES.map((module) => {
+      const unitCount = counts[module.id] ?? 0;
+      const readyCount = ready[module.id] ?? 0;
+      return {
+        ...module,
+        unitCount,
+        readyCount,
+        pendingCount: unitCount - readyCount,
+        studiedCount: studied[module.id] ?? 0,
+      };
+    });
   });
 
   protected readonly totalUnits = this.content.totalUnits;
+  protected readonly totalReadyUnits = this.content.totalReadyUnits;
 
   /** Cả khoá chưa có bài nào — khác hẳn với "một phần chưa có bài". */
   protected readonly isEmpty = computed(

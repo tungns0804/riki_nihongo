@@ -29,7 +29,12 @@
     @if (status() === 'ready') {
       <div class="row">
         <span class="badge">{{ t('home.moduleCount', { count: modules().length }) }}</span>
-        <span class="badge">{{ t('home.unitCount', { count: totalUnits() }) }}</span>
+        <span class="badge">{{ t('home.unitCount', { count: totalReadyUnits() }) }}</span>
+        @if (totalUnits() > totalReadyUnits()) {
+          <span class="badge badge-warning">
+            {{ t('unit.pendingCount', { count: totalUnits() - totalReadyUnits() }) }}
+          </span>
+        }
       </div>
 
       @if (isEmpty()) {
@@ -58,12 +63,21 @@
 
             <div class="card-foot">
               @if (module.unitCount > 0) {
-                <span class="badge badge-accent">
-                  <app-t [key]="module.unitKey" [params]="{ count: module.unitCount }" />
-                </span>
+                @if (module.readyCount > 0) {
+                  <span class="badge badge-accent">
+                    <app-t [key]="module.unitKey" [params]="{ count: module.readyCount }" />
+                  </span>
+                }
+                @if (module.pendingCount > 0) {
+                  <span class="badge badge-warning">
+                    {{ t('unit.pendingCount', { count: module.pendingCount }) }}
+                  </span>
+                }
                 @if (module.studiedCount > 0) {
+                  <!-- Nói rõ "đã luyện" chứ không chỉ một con số: cạnh huy hiệu số bài
+                       ở trên, hai con số trần đứng liền nhau đọc ra hai nghĩa khác nhau. -->
                   <span class="badge badge-success">
-                    {{ t('home.unitCount', { count: module.studiedCount }) }}
+                    {{ t('home.studiedCount', { count: module.studiedCount }) }}
                   </span>
                 }
                 <span class="spacer"></span>

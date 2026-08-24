@@ -63,6 +63,11 @@
         <div class="row toolbar-counts">
           <span class="badge">{{ t('unit.count', { count: units().length }) }}</span>
           <span class="badge">{{ t('unit.itemCount', { count: totalItems() }) }}</span>
+          @if (pendingCount() > 0) {
+            <span class="badge badge-warning">
+              {{ t('unit.pendingCount', { count: pendingCount() }) }}
+            </span>
+          }
         </div>
       </div>
 
@@ -78,23 +83,47 @@
       } @else {
         <div class="card-grid">
           @for (unit of units(); track unit.id) {
-            <a class="card link-card" [routerLink]="['/', module().path, unit.id]">
-              <span class="card-title">{{ unit.name }}</span>
+            <!-- Bài chưa có nội dung vẫn hiện, chỉ mờ đi và không bấm được: người học
+                 phải thấy phần này gồm những bài gì ngay từ đầu, kể cả bài chưa soạn.
+                 Ẩn đi thì lộ trình trông như bị thiếu quãng. -->
+            @let percent = bestPercent(unit.id);
+            @let pending = unit.itemCount === 0;
+
+            <a
+              class="card link-card unit-card"
+              [class.is-empty]="pending"
+              [attr.aria-disabled]="pending ? 'true' : null"
+              [attr.tabindex]="pending ? -1 : null"
+              [routerLink]="['/', module().path, unit.id]"
+            >
+              <div class="unit-head">
+                <!-- Vòng tiến độ: cung tròn vẽ bằng conic-gradient theo --p. Bài chưa
+                     luyện lần nào vẫn hiện vòng 0% chứ không để trống, để cả cột thẳng
+                     hàng và nhìn một cái là biết đã đi tới đâu trong danh sách. -->
+                <span
+                  class="progress-ring"
+                  [class.is-done]="(percent ?? 0) >= 80"
+                  [style.--p]="percent ?? 0"
+                  [title]="t('unit.progress', { percent: percent ?? 0 })"
+                >
+                  <span class="progress-ring-label tnum">{{ percent ?? 0 }}%</span>
+                </span>
+
+                <span class="card-title unit-name">{{ unit.name }}</span>
+              </div>
 
               @if (unit.description) {
                 <p class="muted small clamp-2">{{ unit.description }}</p>
               }
 
               <div class="card-foot">
-                <span class="badge">{{ t('unit.itemCount', { count: unit.itemCount }) }}</span>
-                <!-- So với null chứ không dùng `as`: điểm 0% cũng là một kết quả đã
-                     làm, mà `@if (x; as y)` thì 0 rơi vào nhánh sai và huy hiệu biến mất. -->
-                @let percent = bestPercent(unit.id);
-                @if (percent !== null) {
-                  <span class="badge badge-success">{{ t('result.percent', { percent }) }}</span>
+                @if (pending) {
+                  <span class="badge">{{ t('unit.pending') }}</span>
+                } @else {
+                  <span class="badge">{{ t('unit.itemCount', { count: unit.itemCount }) }}</span>
+                  <span class="spacer"></span>
+                  <span class="card-go" aria-hidden="true">→</span>
                 }
-                <span class="spacer"></span>
-                <span class="card-go" aria-hidden="true">→</span>
               </div>
             </a>
           }

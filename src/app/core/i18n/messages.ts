@@ -127,6 +127,7 @@ export const MESSAGES = {
   },
   'home.moduleCount': { vi: '{count} phần học', ja: '{count}パート' },
   'home.unitCount': { vi: '{count} bài', ja: '{count}課' },
+  'home.studiedCount': { vi: 'Đã luyện {count} bài', ja: '{count}課 練習済み' },
   'home.pending': { vi: 'Chưa nạp nội dung', ja: '教材未登録' },
   'home.empty.title': { vi: 'Khoá học chưa có nội dung', ja: 'まだ教材がありません' },
   'home.empty.text': {
@@ -155,6 +156,9 @@ export const MESSAGES = {
     ja: 'data-source/{folder}/ にレッスンを追加して npm run generate を実行してください。',
   },
   'unit.notFound': { vi: 'Không tìm thấy bài học', ja: 'レッスンが見つかりません' },
+  'unit.pending': { vi: 'Chưa có nội dung', ja: '教材未登録' },
+  'unit.pendingCount': { vi: '{count} bài đang chờ nội dung', ja: '{count}課は教材待ち' },
+  'unit.progress': { vi: 'Kết quả tốt nhất: {percent}%', ja: '最高スコア：{percent}%' },
 
   // ── Bảng từ vựng ───────────────────────────────────────────────────────
   'vocab.japanese': { vi: 'Tiếng Nhật', ja: '日本語' },

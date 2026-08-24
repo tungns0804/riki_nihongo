@@ -63,7 +63,19 @@ export function splitAlternatives(value: string): string[] {
     .filter((part) => part.length > 0);
 }
 
-/** Câu trả lời có khớp một trong các đáp án được chấp nhận không. */
+/**
+ * Câu trả lời có khớp một trong các đáp án được chấp nhận không.
+ *
+ * Mỗi đáp án sinh ra HAI loại cách trả lời được chấp nhận, và phải có đủ cả hai:
+ *
+ *  - từng nghĩa tách rời ("hạn chót", "kỳ hạn") — cho chế độ GÕ, vì gõ đủ cả cụm
+ *    "hạn chót/ kỳ hạn" là đang kiểm tra trí nhớ về cách sách in;
+ *  - nguyên cả cụm ("hạn chót/ kỳ hạn") — cho chế độ TRẮC NGHIỆM, vì nút lựa chọn
+ *    hiện đúng chuỗi trong dữ liệu, tức là cả cụm.
+ *
+ * Thiếu vế thứ hai thì mọi từ có dấu / bị chấm sai ngay cả khi người học bấm trúng
+ * nút đáp án đúng — sai ở đúng chỗ người học không thể nào ngờ tới.
+ */
 export function isAnswerCorrect(
   given: string,
   accepted: readonly string[],
@@ -73,6 +85,6 @@ export function isAnswerCorrect(
   if (!normalizedGiven) return false;
 
   return accepted
-    .flatMap((answer) => splitAlternatives(answer))
+    .flatMap((answer) => [answer, ...splitAlternatives(answer)])
     .some((answer) => normalize(answer, options) === normalizedGiven);
 }

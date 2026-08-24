@@ -68,6 +68,16 @@ export class UnitList {
     this.units().reduce((sum, unit) => sum + unit.itemCount, 0),
   );
 
+  /**
+   * Số bài mới đặt chỗ, chưa có nội dung (itemCount === 0).
+   *
+   * Hiện thành một huy hiệu riêng thay vì để lẫn vào tổng số bài: "12 bài" mà mở ra
+   * chỉ một bài học được thì con số đó đang hứa quá lời.
+   */
+  protected readonly pendingCount = computed(
+    () => this.units().filter((unit) => unit.itemCount === 0).length,
+  );
+
   constructor() {
     void this.content.loadIndex();
   }

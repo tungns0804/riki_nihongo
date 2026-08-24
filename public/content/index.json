@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-08-24T14:37:29.843Z",
+  "generatedAt": "2026-08-24T15:08:04.557Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -24,12 +24,111 @@
       "id": "vocabulary",
       "units": [
         {
+          "id": "01-danh-tu-1",
+          "name": "Danh từ 1",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 1,
+          "file": "vocabulary/01-danh-tu-1.json"
+        },
+        {
+          "id": "02-dong-tu-1",
+          "name": "Động từ 1",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 2,
+          "file": "vocabulary/02-dong-tu-1.json"
+        },
+        {
+          "id": "03-tinh-tu-1",
+          "name": "Tính từ 1",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 3,
+          "file": "vocabulary/03-tinh-tu-1.json"
+        },
+        {
+          "id": "04-danh-tu-2",
+          "name": "Danh từ 2",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 4,
+          "file": "vocabulary/04-danh-tu-2.json"
+        },
+        {
+          "id": "05-dong-tu-2",
+          "name": "Động từ 2",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 5,
+          "file": "vocabulary/05-dong-tu-2.json"
+        },
+        {
+          "id": "06-katakana-1",
+          "name": "Katakana 1",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 6,
+          "file": "vocabulary/06-katakana-1.json"
+        },
+        {
+          "id": "07-tinh-tu-2",
+          "name": "Tính từ 2",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 7,
+          "file": "vocabulary/07-tinh-tu-2.json"
+        },
+        {
+          "id": "08-pho-tu-1",
+          "name": "Phó từ 1",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 8,
+          "file": "vocabulary/08-pho-tu-1.json"
+        },
+        {
+          "id": "09-danh-tu-3",
+          "name": "Danh từ 3",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 9,
+          "file": "vocabulary/09-danh-tu-3.json"
+        },
+        {
+          "id": "10-katakana-2",
+          "name": "Katakana 2",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 10,
+          "file": "vocabulary/10-katakana-2.json"
+        },
+        {
+          "id": "11-pho-tu-2",
+          "name": "Phó từ 2",
+          "description": "",
+          "kind": "vocabulary",
+          "itemCount": 0,
+          "order": 11,
+          "file": "vocabulary/11-pho-tu-2.json"
+        },
+        {
           "id": "00-bai-mau",
           "name": "Bài mẫu · Từ vựng N3",
           "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
           "kind": "vocabulary",
           "itemCount": 8,
-          "order": 0,
+          "order": 99,
           "file": "vocabulary/00-bai-mau.json"
         }
       ]

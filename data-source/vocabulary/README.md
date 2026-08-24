@@ -21,3 +21,24 @@ Ví dụ:
 ĐẾ THIẾT,締め切り (しめきり),hạn chót/ kỳ hạn|レポートの締め切りは明日です。|Hạn nộp báo cáo là ngày mai.
 ,アイデア,ý tưởng
 ```
+
+## Các bài của phần Từ vựng
+
+Lộ trình đã đặt sẵn 11 bài, mới có `meta.json` và đang chờ nội dung:
+
+| Thư mục          | Tên hiển thị |
+| ---------------- | ------------ |
+| `01-danh-tu-1`   | Danh từ 1    |
+| `02-dong-tu-1`   | Động từ 1    |
+| `03-tinh-tu-1`   | Tính từ 1    |
+| `04-danh-tu-2`   | Danh từ 2    |
+| `05-dong-tu-2`   | Động từ 2    |
+| `06-katakana-1`  | Katakana 1   |
+| `07-tinh-tu-2`   | Tính từ 2    |
+| `08-pho-tu-1`    | Phó từ 1     |
+| `09-danh-tu-3`   | Danh từ 3    |
+| `10-katakana-2`  | Katakana 2   |
+| `11-pho-tu-2`    | Phó từ 2     |
+
+Thêm nội dung cho một bài = đặt file `vocabulary.txt` vào đúng thư mục của bài đó rồi
+chạy `npm run generate`. Không phải sửa gì trong mã nguồn.

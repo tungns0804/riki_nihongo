@@ -48,3 +48,64 @@ h1 {
     width: 100%;
   }
 }
+
+/* --- Thẻ một bài -----------------------------------------------------------
+   Vòng tiến độ bên trái, tên bài bên phải — cùng bố cục với cột bài học của bản
+   web Riki Nihongo, để chuyển qua lại giữa hai bên không phải học lại cách đọc. */
+
+.unit-head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.unit-name {
+  min-width: 0;
+}
+
+/* Vòng tròn tiến độ vẽ bằng conic-gradient: cung màu chạy tới --p phần trăm, phần
+   còn lại là nền xám. Không dùng SVG vì một biến CSS là đủ, mà lại đổi màu theo tông
+   sáng/tối miễn phí.
+
+   `--p` do template đặt qua [style.--p]. Có giá trị mặc định 0 ở đây để thẻ vẫn vẽ
+   đúng nếu một chỗ nào đó quên truyền. */
+.progress-ring {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: conic-gradient(var(--accent) calc(var(--p, 0) * 1%), var(--bg-inset) 0);
+}
+
+/* Khoét ruột để chỉ còn lại một vành mỏng. inset 3px = bề dày vành. */
+.progress-ring::before {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border-radius: inherit;
+  background: var(--bg-elevated);
+}
+
+.progress-ring-label {
+  position: relative;
+  font-size: var(--fs-2xs);
+  font-weight: 650;
+  color: var(--text-muted);
+}
+
+/* Từ 80% trở lên coi như đã thuộc bài: đổi cả vành lẫn số sang màu "đạt". */
+.progress-ring.is-done {
+  background: conic-gradient(var(--success) calc(var(--p, 0) * 1%), var(--bg-inset) 0);
+}
+
+.progress-ring.is-done .progress-ring-label {
+  color: var(--success);
+}
+
+/* Bài chưa có nội dung: vành xám hẳn, không gợi ý rằng có gì để bấm vào. */
+.unit-card.is-empty .progress-ring {
+  background: var(--bg-inset);
+}

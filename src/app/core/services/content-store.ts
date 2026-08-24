@@ -54,16 +54,24 @@ export class ContentStore {
   /** Toàn bộ danh mục, đã sắp theo `order` rồi tới tên. */
   readonly units = this.entries.asReadonly();
 
-  /** Số bài của từng phần, dùng cho thẻ ngoài trang chủ. */
-  readonly countByModule = computed(() => {
-    const result = {} as Record<ModuleId, number>;
-    for (const entry of this.entries()) {
-      result[entry.moduleId] = (result[entry.moduleId] ?? 0) + 1;
-    }
-    return result;
-  });
+  /** Số bài của từng phần, kể cả bài mới đặt chỗ. */
+  readonly countByModule = computed(() => countBy(this.entries()));
+
+  /**
+   * Số bài ĐÃ CÓ nội dung của từng phần.
+   *
+   * Tách khỏi con số trên vì hai câu hỏi khác nhau: "phần này gồm những bài gì" thì
+   * đếm cả bài giữ chỗ, còn "học được bao nhiêu rồi" thì không. Trang chủ hiện cả hai.
+   */
+  readonly readyCountByModule = computed(() =>
+    countBy(this.entries().filter((entry) => entry.itemCount > 0)),
+  );
 
   readonly totalUnits = computed(() => this.entries().length);
+
+  readonly totalReadyUnits = computed(
+    () => this.entries().filter((entry) => entry.itemCount > 0).length,
+  );
 
   /** Danh sách bài của một phần. */
   unitsOf(moduleId: ModuleId): UnitIndexEntry[] {
@@ -121,6 +129,15 @@ export class ContentStore {
       return null;
     }
   }
+}
+
+/** Đếm số bài theo từng phần. */
+function countBy(entries: readonly UnitIndexEntry[]): Record<ModuleId, number> {
+  const result = {} as Record<ModuleId, number>;
+  for (const entry of entries) {
+    result[entry.moduleId] = (result[entry.moduleId] ?? 0) + 1;
+  }
+  return result;
 }
 
 /**

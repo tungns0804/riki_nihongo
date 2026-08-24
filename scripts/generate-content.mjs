@@ -90,6 +90,7 @@ const log = (msg = '') => process.stdout.write(`${msg}\n`);
 
 let failureCount = 0;
 let warningCount = 0;
+let placeholderCount = 0;
 
 function fail(msg) {
   log(`${c.red}[LOI] ${msg}${c.reset}`);
@@ -129,7 +130,20 @@ function orderFromName(name) {
   return match ? Number.parseInt(match[1], 10) : 0;
 }
 
-/** Tìm file dữ liệu trong thư mục bài, theo đúng loại của phần học. */
+/**
+ * Tìm file dữ liệu trong thư mục bài, theo đúng loại của phần học.
+ *
+ * Ba kết quả, phân biệt rõ chứ không gộp:
+ *  - đường dẫn file  : bài có nội dung.
+ *  - 'placeholder'   : thư mục CHỈ có meta.json — bài đã đặt chỗ, nội dung đưa vào
+ *                      sau. Đây là trạng thái bình thường của một khoá đang soạn dở,
+ *                      nên không báo lỗi.
+ *  - null            : có file dữ liệu nhưng tên không đúng quy ước, hoặc có nhiều
+ *                      file cùng lúc. Đây mới là lỗi — gõ nhầm tên file mà bị coi là
+ *                      "chưa có nội dung" thì cả bài biến mất trong im lặng.
+ */
+const PLACEHOLDER = 'placeholder';
+
 function findDataFile(folderPath, kind, label) {
   const { pattern, accepted } = FILE_PATTERNS[kind];
   const files = readdirSync(folderPath).filter((name) => name !== 'meta.json');
@@ -137,10 +151,8 @@ function findDataFile(folderPath, kind, label) {
 
   if (matched.length === 0) {
     const others = files.filter((name) => ['.txt', '.csv', '.tsv', '.json'].includes(extname(name)));
-    fail(
-      `[${label}] không có file dữ liệu. Cần một trong: ${accepted}` +
-        (others.length > 0 ? ` (đang có: ${others.join(', ')})` : ''),
-    );
+    if (others.length === 0) return PLACEHOLDER;
+    fail(`[${label}] file dữ liệu sai tên: ${others.join(', ')}. Cần một trong: ${accepted}`);
     return null;
   }
   if (matched.length > 1) {
@@ -160,6 +172,23 @@ function buildUnit(module, folderName) {
   if (!dataFile) return null;
 
   const meta = readMeta(folderPath, label);
+  const id = typeof meta.id === 'string' && meta.id ? slugify(meta.id) : slugify(folderName);
+  const name = typeof meta.name === 'string' && meta.name ? meta.name : folderName;
+  const description = typeof meta.description === 'string' ? meta.description : '';
+  const order = typeof meta.order === 'number' ? meta.order : orderFromName(folderName);
+
+  // Bài giữ chỗ vẫn được ghi ra file JSON với mảng rỗng, và vẫn có mặt trong danh mục.
+  // Nhờ vậy người học nhìn thấy khoá gồm những bài gì ngay từ đầu, còn giao diện thì
+  // chỉ cần một quy tắc duy nhất để nhận ra bài chưa có nội dung: itemCount === 0.
+  if (dataFile === PLACEHOLDER) {
+    placeholderCount++;
+    return {
+      entry: { id, name, description, kind: module.kind, itemCount: 0, order, file: `${module.folder}/${id}.json` },
+      content: { id, name, description, kind: module.kind, ...emptyPayload(module.kind) },
+      placeholder: true,
+    };
+  }
+
   const raw = readFileSync(dataFile, 'utf8');
 
   let payload = {};
@@ -208,22 +237,21 @@ function buildUnit(module, folderName) {
 
   for (const message of warnings) warn(`[${label}] ${message}`);
 
-  const id = typeof meta.id === 'string' && meta.id ? slugify(meta.id) : slugify(folderName);
-  const name = typeof meta.name === 'string' && meta.name ? meta.name : folderName;
-  const order = typeof meta.order === 'number' ? meta.order : orderFromName(folderName);
-
   return {
-    entry: {
-      id,
-      name,
-      description: typeof meta.description === 'string' ? meta.description : '',
-      kind: module.kind,
-      itemCount,
-      order,
-      file: `${module.folder}/${id}.json`,
-    },
-    content: { id, name, description: typeof meta.description === 'string' ? meta.description : '', kind: module.kind, ...payload },
+    entry: { id, name, description, kind: module.kind, itemCount, order, file: `${module.folder}/${id}.json` },
+    content: { id, name, description, kind: module.kind, ...payload },
+    placeholder: false,
   };
+}
+
+/** Nội dung rỗng đúng hình dạng của loại bài — dùng cho bài giữ chỗ. */
+function emptyPayload(kind) {
+  if (kind === 'vocabulary') return { words: [] };
+  if (kind === 'kanji') return { kanji: [] };
+  if (kind === 'grammar') return { points: [] };
+  if (kind === 'reading') return { passages: [] };
+  if (kind === 'listening') return { tracks: [] };
+  return { sections: [] };
 }
 
 /** Số mục của một bài — cùng quy ước với `countItems` bên src/app/core/models. */
@@ -284,8 +312,10 @@ for (const module of MODULES) {
   indexModules.push({ id: module.id, units });
 
   const count = units.length;
+  const pending = units.filter((unit) => unit.itemCount === 0).length;
+  const suffix = pending > 0 ? ` ${c.dim}(${pending} giu cho)${c.reset}` : '';
   const line = `  ${module.folder.padEnd(14)} ${String(count).padStart(3)} bai`;
-  log(count > 0 ? `${c.green}${line}${c.reset}` : `${c.dim}${line}${c.reset}`);
+  log((count > 0 ? `${c.green}${line}${c.reset}` : `${c.dim}${line}${c.reset}`) + suffix);
 }
 
 writeJson(INDEX_FILE, {
@@ -312,6 +342,7 @@ if (CLEAN && !CHECK_ONLY && existsSync(OUTPUT_DIR)) {
 
 log();
 log(`  tong cong      : ${totalUnits} bai, ${totalItems} muc`);
+if (placeholderCount > 0) log(`  ${c.dim}dang giu cho   : ${placeholderCount} bai (moi co meta.json)${c.reset}`);
 if (warningCount > 0) log(`${c.yellow}  canh bao       : ${warningCount}${c.reset}`);
 log();
 
