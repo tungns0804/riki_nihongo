@@ -1,0 +1,59 @@
+.back-link {
+  color: var(--text-muted);
+  width: fit-content;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.skeleton-title {
+  height: 34px;
+  max-width: 340px;
+}
+
+/* Trình phát mặc định của trình duyệt, chỉ ép rộng hết khung. Không tự dựng lại
+   nút play/tua: bản mặc định đã có sẵn phím tắt, tốc độ phát và hỗ trợ trình đọc
+   màn hình — ba thứ mà một trình phát tự vẽ hay đánh mất. */
+.player {
+  width: 100%;
+  min-height: 40px;
+}
+
+.script {
+  padding: var(--sp-4);
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+}
+
+.script-line {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  padding-block: 4px;
+}
+
+.script-line + .script-line {
+  border-top: 1px solid var(--border);
+}
+
+/* Tên người nói cùng bề rộng ở mọi dòng để phần thoại thẳng cột. */
+.speaker {
+  flex-shrink: 0;
+  min-width: 5.5em;
+  font-weight: 620;
+  color: var(--accent);
+}
+
+/* Nghĩa tiếng Việt xuống dòng riêng và thụt vào bằng bề rộng tên người nói. */
+.script-vi {
+  flex-basis: 100%;
+  padding-left: 5.5em;
+}
+
+@media (max-width: 560px) {
+  .script-vi {
+    padding-left: 0;
+  }
+}

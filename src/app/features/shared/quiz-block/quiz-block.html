@@ -1,0 +1,55 @@
+<div class="stack stack-lg">
+  <div class="section-head">
+    <h3><app-t key="reading.questions" /></h3>
+    <span class="spacer"></span>
+    <span class="badge">
+      {{ t('practice.progress', { current: answeredCount(), total: questions().length }) }}
+    </span>
+    @if (answeredCount() > 0) {
+      <button type="button" class="btn btn-sm btn-ghost" (click)="reset()">
+        {{ t('result.again') }}
+      </button>
+    }
+  </div>
+
+  @for (question of questions(); track question.id; let i = $index) {
+    <div class="quiz-item">
+      <p class="quiz-prompt">
+        <span class="quiz-index tnum">{{ i + 1 }}.</span>
+        @if (question.promptJapanese) {
+          <span class="jp">{{ question.promptJapanese }}</span>
+        }
+      </p>
+      @if (question.prompt) {
+        <p class="muted small quiz-sub">{{ question.prompt }}</p>
+      }
+
+      <div class="quiz-choices">
+        @for (choice of question.choices; track choice.id) {
+          <button
+            type="button"
+            class="option choice"
+            [class]="stateOf(question, choice.id)"
+            [disabled]="isAnswered(question.id)"
+            (click)="pick(question, choice.id)"
+          >
+            <span class="jp">{{ choice.text }}</span>
+          </button>
+        }
+      </div>
+
+      @if (isAnswered(question.id)) {
+        <p class="quiz-verdict" [class.is-right]="isRight(question)">
+          @if (isRight(question)) {
+            <app-t key="practice.correct" />
+          } @else {
+            <app-t key="practice.wrong" />
+          }
+        </p>
+        @if (question.explanation) {
+          <p class="muted small">{{ question.explanation }}</p>
+        }
+      }
+    </div>
+  }
+</div>

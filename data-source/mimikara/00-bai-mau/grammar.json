@@ -1,0 +1,53 @@
+{
+  "points": [
+    {
+      "title": "～きり",
+      "summary": "Chỉ ~ / kể từ khi ~ thì không ~ nữa",
+      "structures": ["N ＋ きり", "V thể た ＋ きり"],
+      "usages": [
+        {
+          "title": "Chỉ có ngần ấy",
+          "examples": [
+            {
+              "japanese": "二人きりで話しました。",
+              "reading": "ふたりきりではなしました。",
+              "vietnamese": "Chúng tôi đã nói chuyện chỉ có hai người."
+            }
+          ]
+        },
+        {
+          "title": "Kể từ đó thì không còn ~ nữa",
+          "examples": [
+            {
+              "japanese": "彼は出て行ったきり、帰って来ません。",
+              "reading": "かれはでていったきり、かえってきません。",
+              "vietnamese": "Anh ấy đi ra ngoài rồi không quay về nữa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "～ついでに",
+      "summary": "Nhân tiện ~",
+      "structures": ["N の ＋ ついでに", "V thể từ điển / thể た ＋ ついでに"],
+      "usages": [
+        {
+          "title": "Nhân tiện làm việc chính thì làm luôn việc phụ",
+          "examples": [
+            {
+              "japanese": "買い物のついでに郵便局に寄りました。",
+              "reading": "かいもののついでにゆうびんきょくによりました。",
+              "vietnamese": "Nhân tiện đi mua đồ, tôi ghé qua bưu điện."
+            },
+            {
+              "japanese": "散歩に行くついでに手紙を出します。",
+              "reading": "さんぽにいくついでにてがみをだします。",
+              "vietnamese": "Nhân tiện đi dạo, tôi sẽ gửi lá thư."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

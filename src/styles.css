@@ -1,0 +1,1309 @@
+/* ============================================================================
+   Design system dùng chung cho toàn ứng dụng.
+
+   Mỗi màu khai báo MỘT lần bằng light-dark(giá trị sáng, giá trị tối). Hàm này
+   chọn giá trị theo thuộc tính `color-scheme` đang có hiệu lực, nên muốn đổi tông
+   chỉ cần đổi color-scheme — không phải viết lại cả bảng màu lần thứ hai.
+
+   - Không có data-theme  -> color-scheme: light dark -> đi theo cài đặt hệ điều hành.
+   - data-theme="light"   -> ép sáng.
+   - data-theme="dark"    -> ép tối.
+
+   Thuộc tính data-theme do ThemeStore (src/app/core/services/theme-store.ts) đặt
+   trên thẻ <html>, và được khôi phục sớm bởi đoạn script nhỏ trong index.html để
+   trang không bị chớp sai màu lúc mới mở.
+   ========================================================================== */
+
+:root {
+  color-scheme: light dark;
+
+  /* --- Nền: bốn bậc, từ nền trang ra tới ô lõm sâu nhất -------------------- */
+  --bg: light-dark(#f3f5fa, #101219);
+  --bg-elevated: light-dark(#ffffff, #191c26);
+  --bg-subtle: light-dark(#eef1f7, #212533);
+  --bg-inset: light-dark(#e4e9f2, #2a2f3f);
+
+  /* --- Chữ ---------------------------------------------------------------
+     Ba bậc, và cả ba đều phải ĐỌC ĐƯỢC. Bậc nhạt nhất trước đây là #868ca3, chỉ
+     đạt khoảng 3.6:1 trên nền trắng — dưới ngưỡng 4.5:1 của WCAG AA cho chữ nhỏ,
+     mà nó lại đang dùng cho đúng loại chữ nhỏ nhất trong app: nhãn cột, chú
+     thích, dòng đếm số kết quả. */
+  --text: light-dark(#12152a, #eef0f7);
+  --text-muted: light-dark(#555c74, #a8afc4);
+  --text-faint: light-dark(#6e7489, #868da3);
+
+  --border: light-dark(#dfe4ee, #2c3142);
+  --border-strong: light-dark(#c5ccdb, #414862);
+
+  /* Tông thương hiệu Riki: xanh ngọc đậm. Chọn màu cách xa hẳn xanh dương/tím của
+     các app học tiếng Nhật khác để nhìn một cái là biết đang ở đâu, và vẫn giữ được
+     độ tương phản ≥ 4.5:1 với nền trắng (bậc 700) lẫn nền tối (bậc 300). */
+  --accent: light-dark(#0f766e, #5eead4);
+  --accent-hover: light-dark(#115e56, #99f6e4);
+  --accent-soft: light-dark(#e2f6f3, #10312e);
+  --accent-text: light-dark(#ffffff, #08211f);
+  /* Vòng sáng quanh phần tử đang focus hoặc đang được chọn. Màu trong suốt nên
+     chồng lên nền nào cũng hợp, không phải khai báo lại theo từng chỗ đặt. */
+  --accent-ring: light-dark(rgb(15 118 110 / 16%), rgb(94 234 212 / 22%));
+
+  --success: light-dark(#15803d, #6ee7a0);
+  --success-soft: light-dark(#dcfce7, #14311f);
+  --success-border: light-dark(#86efac, #2f6b45);
+
+  --danger: light-dark(#be123c, #ff9aae);
+  --danger-soft: light-dark(#ffe4e9, #3a1420);
+  --danger-border: light-dark(#fda4af, #7d2a41);
+
+  --warning: light-dark(#b45309, #fcd34d);
+  --warning-soft: light-dark(#fef3c7, #38290b);
+  --warning-border: light-dark(#fcd34d, #7a5a15);
+
+  --star: light-dark(#f59e0b, #fbbf24);
+
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px light-dark(rgb(16 24 40 / 6%), rgb(0 0 0 / 30%));
+  --shadow: 0 4px 16px light-dark(rgb(16 24 40 / 8%), rgb(0 0 0 / 35%));
+  --shadow-lg: 0 12px 32px light-dark(rgb(16 24 40 / 12%), rgb(0 0 0 / 45%));
+
+  /* --- Thang cỡ chữ ------------------------------------------------------
+     Trước đây mỗi component tự đặt cỡ chữ theo cảm tính: 0.94rem, 0.92rem,
+     0.86rem, 0.82rem, 0.78rem, 0.76rem… Mắt không phân biệt nổi hai bậc cách
+     nhau 0.02rem, nên chúng không tạo ra thứ bậc, chỉ tạo ra sự lộn xộn. Sáu
+     bậc dưới đây cách nhau đủ xa để nhìn là biết cái nào quan trọng hơn. */
+  --fs-2xs: 0.72rem;
+  --fs-xs: 0.8rem;
+  --fs-sm: 0.88rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.13rem;
+  --fs-xl: 1.3rem;
+  --fs-2xl: 1.6rem;
+
+  /* --- Nhịp khoảng cách ---------------------------------------------------
+     Bội số của 4px. Dùng token thay cho số lẻ tuỳ hứng thì các khối cách nhau
+     đều tay, trang có nhịp chứ không phải mỗi chỗ một kiểu. */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-7: 32px;
+  --sp-8: 40px;
+
+  /* --- Chuyển động --------------------------------------------------------
+     Một đường cong duy nhất cho cả app: nhanh lúc đầu, chậm dần lúc kết, giống
+     cách vật thật dừng lại. Mắt thấy "mượt" chứ không thấy "có hiệu ứng". */
+  --ease: cubic-bezier(0.2, 0.8, 0.3, 1);
+  --dur: 0.18s;
+
+  --font-ui: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+
+  /* Font Latin đứng TRƯỚC font Nhật là có chủ ý, không phải nhầm thứ tự.
+
+     Trình duyệt chọn font theo TỪNG ký tự, nên chữ kana/kanji vẫn rơi xuống Yu Gothic
+     như thường — nhưng chữ Latin thì được lấy từ font giao diện.
+
+     Vì sao cần: font Nhật không có các ký tự tiếng Việt hai dấu (ồ ấ ể ộ ữ ợ…, khối
+     Latin Extended Additional). Gặp chúng, trình duyệt phải tách thành chữ gốc + dấu
+     rời rồi ghép lại, ra "rô`i nhâ´n" thay vì "rồi nhấn". Mà app này đầy chỗ trộn hai
+     thứ tiếng trong cùng một khối .jp: công thức ngữ pháp ("V thể ngắn ＋ んです"), ví
+     dụ dạng câu hỏi động từ ("逃げます → thể Te?"), bảng cặp tự/tha động từ
+     ("つけます — bật"). Đặt font Latin lên trước là sửa một chỗ, hết ở mọi chỗ.
+
+     Không dùng system-ui ở đây: trên máy đặt ngôn ngữ Nhật nó trỏ về Yu Gothic UI,
+     tức là quay lại đúng lỗi vừa tránh. */
+  --font-jp: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, 'Yu Gothic',
+    'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'MS Gothic', Meiryo, var(--font-ui);
+  --font-mono: 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace;
+
+  /* Bề rộng tối đa của mọi khung nội dung. 1080px là đủ cho chữ, nhưng KHÔNG đủ
+     cho bảng từ vựng đầy đủ: sáu cột (★, âm Hán Việt, tiếng Nhật, cách đọc, nghĩa,
+     câu ví dụ) cần khoảng 1156px. 1240px trừ lề khung (2×20px) và lề thẻ (2×20px)
+     vẫn còn 1160px cho bảng — vừa đủ, không phải cuộn ngang.
+
+     Đây là biến dùng chung nên header cũng rộng theo: nới riêng trang nội dung thì
+     mép thẻ sẽ thò ra ngoài mép logo và thanh điều hướng. */
+  --max-width: 1240px;
+
+  /* Chiều cao header dính. Khai báo thành biến vì ba chỗ cần đúng con số này:
+     scroll-padding-top của cả trang, mục lục dính trong bài ngữ pháp, và thanh
+     tiến độ dính lúc luyện tập. Header cao lên ở khổ điện thoại (xuống hai hàng)
+     nên biến cũng đổi theo, ở cuối file. */
+  --header-h: 62px;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+/* --- Reset ---------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  /* Header dính che mất phần đầu của khối vừa cuộn tới (mục lục bài ngữ pháp,
+     liên kết neo). Chừa sẵn đúng chiều cao header cộng một chút thở. */
+  scroll-padding-top: calc(var(--header-h) + var(--sp-4));
+}
+
+/* Cuộn mượt khi bấm mục lục — nhưng chỉ khi người dùng không yêu cầu giảm chuyển
+   động. Khối @media ở cuối file không tắt được thuộc tính này, vì nó không phải
+   transition cũng không phải animation. */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  /* 100dvh chứ không phải 100vh: trên điện thoại, 100vh tính cả phần thanh địa chỉ
+     của trình duyệt nên trang luôn cao hơn khung nhìn thật, sinh ra một khoảng cuộn
+     dọc vô nghĩa. dvh co lại theo thanh địa chỉ. */
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 16px;
+  /* 1.6 thay vì 1.55: app trộn chữ Việt có dấu (dấu thanh nằm cao) với kana/kanji
+     (ô chữ vuông, cao hơn chữ Latin), hai dòng liền nhau dễ chạm nhau. */
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+  font-weight: 650;
+  text-wrap: balance;
+  /* Cỡ chữ càng lớn thì khoảng cách giữa các chữ trông càng thưa — siết lại một
+     chút để tiêu đề nhìn liền khối. */
+  letter-spacing: -0.011em;
+}
+
+h1 {
+  font-size: var(--fs-2xl);
+}
+h2 {
+  font-size: var(--fs-xl);
+}
+h3 {
+  font-size: var(--fs-lg);
+}
+
+/* Không để dòng cuối của đoạn văn trơ lại đúng một từ. */
+p {
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* --- Layout --------------------------------------------------------------- */
+
+/* Lề ngang dùng max(...env(safe-area-inset...)): trên iPhone có tai thỏ, ở chế độ
+   ngang phần bo góc và thanh gạt ăn vào hai bên màn hình, chữ sát lề sẽ bị che. */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding-inline: max(20px, env(safe-area-inset-left)) max(20px, env(safe-area-inset-right));
+}
+
+.page {
+  padding-block: var(--sp-7) calc(64px + env(safe-area-inset-bottom));
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+/* Ba bậc giãn cách cho .stack, thay cho các style="gap: 22px" rải rác trong
+   template: cùng một ý đồ thì nên gọi cùng một tên. */
+.stack-sm {
+  gap: var(--sp-2);
+}
+
+.stack-lg {
+  gap: var(--sp-5);
+}
+
+.stack-xl {
+  gap: var(--sp-6);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.spacer {
+  flex: 1;
+}
+
+/* --- Đầu trang ------------------------------------------------------------
+   Tiêu đề + câu mô tả của mỗi màn hình. Bề rộng dòng chữ có giới hạn: quá 70–75
+   ký tự thì mắt khó bắt được đầu dòng tiếp theo. */
+
+.page-head {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 64ch;
+}
+
+/* Tiêu đề co giãn theo bề rộng màn hình thay vì nhảy bậc ở đúng một ngưỡng. */
+.page-head h1 {
+  font-size: clamp(1.5rem, 1.18rem + 1.4vw, 2rem);
+}
+
+.page-head p {
+  color: var(--text-muted);
+}
+
+/* Đường kẻ mảnh dưới tiêu đề mục, tách phần này với phần trước mà không cần thêm
+   một thẻ khung nữa. */
+.section-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* --- Card ----------------------------------------------------------------- */
+
+.card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.card-body {
+  padding: var(--sp-5);
+}
+
+/* --- Button --------------------------------------------------------------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  padding: 9px 16px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-size: 0.94rem;
+  font-weight: 550;
+  white-space: nowrap;
+  transition: background-color var(--dur) var(--ease), border-color var(--dur) var(--ease),
+    color var(--dur) var(--ease), box-shadow var(--dur) var(--ease), transform 0.06s var(--ease);
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--bg-subtle);
+  border-color: var(--text-faint);
+  text-decoration: none;
+}
+
+.btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+  /* Bóng cùng màu nút và rất nhạt: đủ để nút chính nổi lên khỏi mặt thẻ, không
+     biến nó thành một khối đổ bóng nặng nề. */
+  box-shadow: 0 1px 2px var(--accent-ring), 0 4px 12px var(--accent-ring);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+  color: var(--accent-text);
+  box-shadow: 0 2px 4px var(--accent-ring), 0 8px 20px var(--accent-ring);
+}
+
+.btn-primary:active:not(:disabled) {
+  box-shadow: 0 1px 2px var(--accent-ring);
+}
+
+.btn-ghost {
+  background: transparent;
+  border-color: transparent;
+  color: var(--text-muted);
+}
+
+.btn-ghost:hover:not(:disabled) {
+  background: var(--bg-subtle);
+  border-color: transparent;
+  color: var(--text);
+}
+
+.btn-danger {
+  color: var(--danger);
+  border-color: var(--danger-border);
+  background: transparent;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: var(--danger-soft);
+  border-color: var(--danger);
+}
+
+.btn-lg {
+  padding: 13px 26px;
+  font-size: 1.02rem;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: var(--fs-sm);
+}
+
+/* --- Form ----------------------------------------------------------------- */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: var(--fs-xs);
+  font-weight: 620;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.hint {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 10px 12px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-ring);
+}
+
+.textarea {
+  min-height: 200px;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-subtle);
+  transition: border-color var(--dur) var(--ease), background-color var(--dur) var(--ease);
+}
+
+.checkbox:hover {
+  border-color: var(--border-strong);
+}
+
+/* Đã tích thì cả khung đổi màu theo, không chỉ mỗi dấu tích 16px. Trang thiết lập
+   có tới sáu ô kiểu này xếp cạnh nhau — liếc một cái phải biết ngay đang bật
+   những gì, không phải soi từng ô vuông nhỏ. */
+.checkbox:has(input:checked) {
+  border-color: color-mix(in srgb, var(--accent) 42%, var(--border));
+  background: var(--accent-soft);
+}
+
+.checkbox input {
+  margin-top: 4px;
+  accent-color: var(--accent);
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.checkbox.is-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Ô đang bị khoá thì không tô màu "đang bật", kể cả khi input vẫn còn checked —
+   trạng thái checked lúc đó không có tác dụng gì nên không được hứa hẹn gì. */
+.checkbox.is-disabled:has(input:checked) {
+  border-color: var(--border);
+  background: var(--bg-subtle);
+}
+
+/* --- Ô tìm kiếm -----------------------------------------------------------
+   Ô nhập có kính lúp bên trái và nút xoá bên phải. */
+
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  color: var(--text-faint);
+  /* Bấm vào kính lúp thì con trỏ vẫn phải nhảy vào ô nhập nằm dưới nó. */
+  pointer-events: none;
+}
+
+/* SVG không khai báo width/height thì trình duyệt cho nó kích thước mặc định
+   300×150px — cao gấp tám lần chỗ đã chừa. Ép nó vừa đúng ô chứa. */
+.search-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.search .input {
+  padding-left: 38px;
+  padding-right: 40px;
+}
+
+/* Trình duyệt WebKit tự thêm dấu X riêng cho input[type=search]; bỏ đi để không
+   có hai nút xoá nằm cạnh nhau. */
+.search .input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.search-clear {
+  position: absolute;
+  right: 7px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--text-faint);
+  font-size: 1rem;
+  line-height: 1;
+  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+
+.search-clear:hover {
+  background: var(--bg-inset);
+  color: var(--text);
+}
+
+/* --- Nhóm nút chọn (segmented control) ------------------------------------ */
+
+.options {
+  display: grid;
+  gap: var(--sp-2);
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-subtle);
+  text-align: left;
+  font-weight: 500;
+  width: 100%;
+  transition: border-color var(--dur) var(--ease), background-color var(--dur) var(--ease),
+    color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+}
+
+.option:hover:not(:disabled) {
+  border-color: var(--border-strong);
+  background: var(--bg-inset);
+}
+
+.option.is-active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 620;
+  /* Viền 1px một mình chưa đủ nổi giữa một lưới sáu bảy nút; thêm vòng sáng mỏng
+     cùng màu thì mục đang chọn bật hẳn lên mà không phải tô đậm cả khối. */
+  box-shadow: 0 0 0 3px var(--accent-ring);
+}
+
+.option:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* --- Badge ---------------------------------------------------------------- */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 9px;
+  border-radius: var(--radius-pill);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  background: var(--bg-inset);
+  color: var(--text-muted);
+  white-space: nowrap;
+  /* Chữ số cùng bề rộng: badge đếm số không co giãn khi con số đổi. */
+  font-variant-numeric: tabular-nums;
+}
+
+.badge-accent {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.badge-success {
+  background: var(--success-soft);
+  color: var(--success);
+}
+
+.badge-danger {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.badge-warning {
+  background: var(--warning-soft);
+  color: var(--warning);
+}
+
+/* --- Chữ tiếng Nhật ------------------------------------------------------- */
+
+.jp {
+  font-family: var(--font-jp);
+  font-feature-settings: 'palt' 0;
+}
+
+/* --- Thông báo ------------------------------------------------------------ */
+
+.notice {
+  display: flex;
+  gap: var(--sp-3);
+  padding: 14px 16px;
+  /* Vạch dày bên trái thay cho viền đều bốn cạnh: liếc qua là phân biệt được lỗi
+     / cảnh báo / thành công mà chưa cần đọc chữ. */
+  border: 1px solid var(--border);
+  border-left-width: 3px;
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+  font-size: 0.92rem;
+}
+
+.notice-error {
+  border-color: var(--danger-border);
+  border-left-color: var(--danger);
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.notice-warning {
+  border-color: var(--warning-border);
+  border-left-color: var(--warning);
+  background: var(--warning-soft);
+  color: var(--warning);
+}
+
+.notice-success {
+  border-color: var(--success-border);
+  border-left-color: var(--success);
+  background: var(--success-soft);
+  color: var(--success);
+}
+
+/* --- Khung rỗng -----------------------------------------------------------
+   Dùng khi tìm/lọc không ra kết quả. Một dòng chữ "không có gì" trơ trọi giữa
+   khoảng trắng dễ bị hiểu là trang hỏng; khung viền đứt cho thấy đây đúng là chỗ
+   lẽ ra có nội dung, chỉ là đang trống. */
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: var(--sp-8) var(--sp-5);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+  background: color-mix(in srgb, var(--bg-subtle) 55%, transparent);
+  text-align: center;
+}
+
+.empty-state-icon {
+  font-size: 1.7rem;
+  line-height: 1;
+  opacity: 0.55;
+}
+
+.empty-state-title {
+  font-weight: 620;
+}
+
+.empty-state-text {
+  max-width: 46ch;
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+}
+
+/* --- Khung chờ (skeleton) -------------------------------------------------
+   Hiện trong lúc đang tải, thay cho một dòng chữ "Đang tải…". Các khối xám đúng
+   hình dạng nội dung sắp hiện cho biết trang sắp có gì, và bố cục không giật một
+   nhịp khi dữ liệu về. */
+
+.skeleton {
+  border-radius: var(--radius-sm);
+  background: linear-gradient(
+    90deg,
+    var(--bg-subtle) 25%,
+    var(--bg-inset) 37%,
+    var(--bg-subtle) 63%
+  );
+  background-size: 400% 100%;
+  animation: skeleton-shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes skeleton-shimmer {
+  from {
+    background-position: 100% 50%;
+  }
+  to {
+    background-position: 0 50%;
+  }
+}
+
+/* --- Chuyển động ----------------------------------------------------------
+   Nguyên tắc: mỗi hiệu ứng phải TRẢ LỜI một câu hỏi của người học, chứ không
+   phải để cho đẹp. Cụ thể là bốn câu:
+
+     "Trang vừa đổi phải không?"    -> .page trượt lên khi vào
+     "Có gì mới hiện ra?"           -> thẻ trong danh sách hiện lần lượt
+     "Tôi trả lời đúng hay sai?"    -> khối phản hồi bật lên (xem practice.css)
+     "Phiên vừa rồi được bao nhiêu?" -> vòng điểm nảy một nhịp
+
+   Mọi thời lượng đều dưới 320ms, trừ đúng vòng điểm ở màn kết quả. Quá ngưỡng
+   đó thì chuyển động thôi không còn là phản hồi nữa mà thành thứ phải NGỒI CHỜ
+   — mà đây là app luyện tập, có người làm liên tiếp năm sáu chục câu một lượt.
+
+   Dùng `backwards` chứ KHÔNG dùng `both`, và đây là chi tiết dễ sai nhất cả khối:
+
+   - `backwards` là nửa thực sự làm việc. Nó giữ phần tử ở trạng thái đầu trong
+     lúc còn đợi animation-delay; thiếu nó thì thẻ thứ tư hiện đủ nét suốt 0.15s
+     rồi mới biến mất để chạy lại hiệu ứng — nháy một cái rất khó chịu.
+
+   - `forwards` (nửa còn lại của `both`) thì lại có hại. Nó khiến animation TIẾP
+     TỤC chi phối `transform` sau khi đã chạy xong, mà giá trị đến từ animation
+     luôn thắng giá trị trong bảng kiểu và không cho transition chen vào. Hệ quả:
+     .lesson-card:hover nhấc lên -2px và .choice:active lún xuống 1px sẽ bụp một
+     cái thay vì trượt — mất đúng cái cảm giác bấm mà hai hiệu ứng đó sinh ra.
+
+   Bỏ `forwards` không để lại vết: các @keyframes dưới đây chỉ khai `from`, nên
+   mốc 100% được suy ra từ chính giá trị trong bảng kiểu. Lúc hiệu ứng kết thúc,
+   phần tử trả quyền điều khiển về đúng giá trị nó đang giữ — không giật một nhịp
+   nào.
+
+   Toàn bộ khối này bị vô hiệu hoá bởi @media (prefers-reduced-motion: reduce)
+   ở cuối file, nên người tắt hiệu ứng chuyển động không nhận gì cả. */
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.985);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* Vào trang mới. Đặt trên .page nên tự chạy lại mỗi lần điều hướng, vì router
+   dựng lại component chứ không tái dùng. */
+.page {
+  animation: rise-in 0.26s var(--ease) backwards;
+}
+
+/* Riêng trang luyện tập KHÔNG được trượt, chỉ mờ dần.
+
+   Thanh tiến độ (.practice-header) là position: sticky và nằm ngay trong .page.
+   Một phần tử có transform trở thành khối chứa cho con cháu của nó, nên chỉ cần
+   .page đang chạy hiệu ứng có translateY là thanh tiến độ mất mốc để dính —
+   nó sẽ dính theo .page chứ không theo khung nhìn, và trôi mất khỏi đỉnh màn
+   hình khi cuộn xuống xem phản hồi. Đúng thứ nó sinh ra để chống lại.
+
+   fade-in không đụng tới transform nên không tạo khối chứa. Vào trang vẫn có
+   chuyển động, mà thanh tiến độ vẫn dính đúng chỗ. */
+.practice-page {
+  animation: fade-in 0.26s var(--ease) backwards;
+}
+
+/* Thẻ bài / bài tập / ngữ pháp hiện lần lượt chứ không bụp ra cùng lúc: mắt bắt
+   được rằng đây là một DÃY mục, và độ trễ tăng dần cho biết thứ tự đọc.
+
+   Chỉ trễ tới thẻ thứ năm rồi dừng hẳn. Không dừng thì thẻ thứ hai mươi lăm của
+   danh sách 25 bài phải đợi hơn một giây — với lưới dài thì đó là chờ đợi thuần
+   tuý, không còn nói lên điều gì nữa. */
+.lesson-card {
+  animation: pop-in 0.28s var(--ease) backwards;
+}
+
+.lesson-card:nth-child(2) {
+  animation-delay: 0.05s;
+}
+
+.lesson-card:nth-child(3) {
+  animation-delay: 0.1s;
+}
+
+.lesson-card:nth-child(4) {
+  animation-delay: 0.15s;
+}
+
+.lesson-card:nth-child(n + 5) {
+  animation-delay: 0.2s;
+}
+
+/* Lưới chữ Hán khác lưới bài ở chỗ nó dài tới hàng trăm ô, nên không trễ theo
+   TỪNG ô mà theo từng CỤM — ba mốc là đủ để thấy một đợt sóng chạy từ trên
+   xuống, mà ô cuối cùng vẫn chỉ đợi 0.12s.
+
+   Ba quy tắc `n + …` chồng lên nhau chứ không loại trừ nhau: ô thứ 20 khớp cả
+   ba, và luật viết sau thắng — đúng thứ tự tăng dần muốn có. */
+.kanji-cell {
+  animation: fade-in 0.24s var(--ease) backwards;
+}
+
+.kanji-cell:nth-child(n + 5) {
+  animation-delay: 0.04s;
+}
+
+.kanji-cell:nth-child(n + 13) {
+  animation-delay: 0.08s;
+}
+
+.kanji-cell:nth-child(n + 25) {
+  animation-delay: 0.12s;
+}
+
+/* Từng mẫu ngữ pháp trong trang lý thuyết. Không trễ dần: các thẻ này nằm sau
+   phần đầu trang và mục lục nên nth-child đếm lệch, mà số mẫu mỗi bài cũng chỉ
+   hai tới năm — trễ dần chẳng thêm được thông tin gì. */
+.point-card {
+  animation: rise-in 0.26s var(--ease) backwards;
+}
+
+/* Khung rỗng và thông báo đều là thứ hiện ra ĐỂ TRẢ LỜI một thao tác vừa rồi
+   (gõ từ khoá không ra kết quả, lọc quá tay, nhập file sai định dạng), nên
+   chúng phải trông như vừa xuất hiện chứ không như vốn đã nằm sẵn ở đó. */
+.empty-state {
+  animation: fade-in 0.3s var(--ease) backwards;
+}
+
+.notice {
+  animation: rise-in 0.22s var(--ease) backwards;
+}
+
+/* --- Chuyển động trong lúc luyện tập ---
+   Đây là chỗ chuyển động có giá trị nhất: người học vừa bấm xong và cần biết
+   NGAY chuyện gì vừa xảy ra. Khối phản hồi đúng/sai nằm trong practice.css vì
+   nó gắn liền với bố cục riêng của khối đó. */
+
+/* Câu hỏi mới hiện ra. Template khoá theo `track` của câu nên mỗi câu là một
+   phần tử mới, và hiệu ứng chạy lại đúng một lần cho mỗi câu. */
+.question-card {
+  animation: rise-in 0.24s var(--ease) backwards;
+}
+
+/* Các lựa chọn trắc nghiệm vào lần lượt, cùng nhịp với thẻ danh sách. */
+.choice {
+  animation: fade-in 0.22s var(--ease) backwards;
+}
+
+.choice:nth-child(2) {
+  animation-delay: 0.04s;
+}
+
+.choice:nth-child(3) {
+  animation-delay: 0.08s;
+}
+
+.choice:nth-child(4) {
+  animation-delay: 0.12s;
+}
+
+/* Vòng tròn điểm ở màn kết quả nảy nhẹ một nhịp: đây là khoảnh khắc duy nhất
+   trong cả phiên đáng được nhấn mạnh, nên cũng là hiệu ứng dài nhất trong app. */
+@keyframes score-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.82);
+  }
+  70% {
+    transform: scale(1.04);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.score-main {
+  animation: score-pop 0.42s var(--ease) backwards;
+}
+
+/* Từng dòng kết quả hiện dần — nhưng chỉ bốn dòng đầu, phần còn lại hiện ngay.
+   Danh sách này có thể dài tới sáu chục dòng. */
+.result-item {
+  animation: rise-in 0.24s var(--ease) backwards;
+}
+
+.result-item:nth-child(2) {
+  animation-delay: 0.04s;
+}
+
+.result-item:nth-child(3) {
+  animation-delay: 0.08s;
+}
+
+.result-item:nth-child(4) {
+  animation-delay: 0.12s;
+}
+
+/* --- Tiện ích ------------------------------------------------------------- */
+
+.muted {
+  color: var(--text-muted);
+}
+
+.faint {
+  color: var(--text-faint);
+}
+
+.small {
+  font-size: var(--fs-sm);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Cắt đoạn văn sau hai dòng kèm dấu "…". Dùng cho mô tả trong thẻ bài học: mô tả
+   dài ngắn khác nhau làm các thẻ trong cùng một hàng cao thấp so le. */
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.scroll-x {
+  overflow-x: auto;
+  /* Cuộn ngang không được "lây" ra ngoài: thiếu dòng này thì trên điện thoại, vuốt
+     ngang tới cuối bảng sẽ làm cả trang trượt theo hoặc kích hoạt cử chỉ back. */
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+kbd {
+  display: inline-block;
+  padding: 1px 7px;
+  border: 1px solid var(--border-strong);
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  background: var(--bg-subtle);
+  font-family: var(--font-mono);
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    padding-inline: max(14px, env(safe-area-inset-left)) max(14px, env(safe-area-inset-right));
+  }
+
+  .card-body {
+    padding: var(--sp-4);
+  }
+
+  .page {
+    padding-block: var(--sp-5) calc(72px + env(safe-area-inset-bottom));
+  }
+
+  /* Đúng 16px, không phải 0.95rem: Safari trên iOS tự phóng to cả trang khi con trỏ
+     nhảy vào ô nhập có chữ NHỎ HƠN 16px, và không thu lại sau khi gõ xong. Đặt đủ
+     16px là cách duy nhất tắt được hành vi đó mà không phải chặn zoom của người dùng. */
+  .input,
+  .textarea,
+  .select {
+    font-size: 16px;
+  }
+}
+
+/* Dưới 800px header xuống hai hàng (xem app.css) nên chỗ chừa cho nó phải cao lên
+   theo, nếu không khối vừa cuộn tới sẽ bị header che mất dòng đầu. Bảy mục menu có
+   thể xuống hai hàng ở máy hẹp, nên chừa theo trường hợp cao nhất. */
+@media (max-width: 800px) {
+  :root {
+    --header-h: 104px;
+  }
+}
+
+/* --- Thiết bị chạm ---------------------------------------------------------
+   Phân biệt bằng (hover: none) chứ không bằng bề rộng: máy tính cửa sổ hẹp vẫn có
+   chuột nên vẫn cần hiệu ứng hover, còn tablet rộng thì vẫn cần vùng bấm to. */
+
+@media (hover: none) {
+  /* 44px là ngưỡng vùng bấm tối thiểu để ngón tay không bấm trượt. */
+  .btn:not(.btn-sm),
+  .option {
+    min-height: 44px;
+  }
+
+  .btn-sm {
+    min-height: 36px;
+  }
+
+  .search-clear {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+/* Người dùng đã báo với hệ điều hành là không muốn chuyển động thì không nhận gì
+   cả — kể cả hiệu ứng vào trang.
+
+   Phải dập CẢ animation-delay chứ không chỉ animation-duration. Các thẻ trong
+   danh sách vào lần lượt bằng cách trễ tới 0.2s, mà `animation-fill-mode:
+   backwards` lại giữ chúng ở đúng trạng thái đầu — opacity: 0 — trong suốt thời
+   gian chờ đó. Rút riêng thời lượng về 0.01ms thì hiệu ứng biến mất thật, nhưng
+   phần chờ vẫn còn: thẻ cuối vẫn nằm vô hình 0.2s rồi mới bụp ra. Với người bật
+   giảm chuyển động vì chóng mặt hay tiền đình, đó lại đúng là kiểu chuyển động
+   khó chịu nhất — nội dung nhấp nháy không báo trước. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* ============================================================================
+   Bổ sung riêng cho Riki Nihongo — N3 JUNBI
+
+   Ba thứ dưới đây dùng ở nhiều màn hình nên đặt ở đây thay vì lặp lại trong CSS
+   của từng component: lưới thẻ (trang chủ + mọi danh sách bài), bảng dữ liệu
+   (từ vựng / kanji / mimikara đều là bảng nhiều cột), và huy hiệu kỹ năng.
+   ========================================================================== */
+
+/* --- Lưới thẻ ------------------------------------------------------------
+   auto-fill + minmax: số cột tự tính theo bề rộng thật chứ không theo ngưỡng
+   media query đoán trước, nên thêm/bớt module không phải sửa lại lưới. */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+  gap: var(--sp-4);
+}
+
+/* Thẻ liên kết: cả thẻ là một vùng bấm, không chỉ mỗi dòng tiêu đề. */
+.link-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: var(--sp-5);
+  color: inherit;
+  transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease),
+    transform var(--dur) var(--ease);
+}
+
+.link-card:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* Thẻ của module chưa có nội dung: vẫn hiện để thấy khoá gồm những gì, nhưng
+   không mời bấm vào một trang trống. */
+.link-card.is-empty {
+  opacity: 0.62;
+  pointer-events: none;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: var(--fs-lg);
+  font-weight: 650;
+}
+
+.card-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.card-foot {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: var(--sp-2);
+}
+
+.card-go {
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
+/* --- Bảng dữ liệu --------------------------------------------------------
+   Dùng chung cho bảng từ vựng, bảng kanji và bảng mẫu ngữ pháp. Luôn bọc trong
+   .scroll-x: sáu cột không vừa màn hình điện thoại dù có thu nhỏ tới đâu. */
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-sm);
+}
+
+.data-table th,
+.data-table td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.data-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg-subtle);
+  font-size: var(--fs-xs);
+  font-weight: 620;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.data-table tbody tr:hover {
+  background: var(--bg-subtle);
+}
+
+.data-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Ô chứa chữ Nhật to hơn một bậc: đây là thứ mắt phải đọc được nhanh nhất. */
+.cell-jp {
+  font-family: var(--font-jp);
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* --- Huy hiệu kỹ năng -----------------------------------------------------
+   Bài kiểm tra nhập môn chấm theo 5 kỹ năng, và mỗi câu hỏi đều gắn nhãn kỹ năng
+   của nó. Màu đi theo module để nhìn nhãn là biết câu đó thuộc phần nào. */
+
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 9px;
+  border-radius: var(--radius-pill);
+  font-size: var(--fs-2xs);
+  font-weight: 650;
+  background: var(--bg-inset);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* --- Thanh tiến độ -------------------------------------------------------- */
+
+.progress-track {
+  height: 6px;
+  border-radius: var(--radius-pill);
+  background: var(--bg-inset);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width var(--dur) var(--ease);
+}
+
+/* Thẻ module/bài dùng lại đúng hiệu ứng vào của .lesson-card (khai báo ở khối
+   "Chuyển động" phía trên) để cả app cùng một nhịp. */
+.link-card {
+  animation: pop-in 0.28s var(--ease) backwards;
+}
+
+.link-card:nth-child(2) {
+  animation-delay: 0.05s;
+}
+
+.link-card:nth-child(3) {
+  animation-delay: 0.1s;
+}
+
+.link-card:nth-child(4) {
+  animation-delay: 0.15s;
+}
+
+.link-card:nth-child(n + 5) {
+  animation-delay: 0.2s;
+}
+
+@media (max-width: 640px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .link-card {
+    padding: var(--sp-4);
+  }
+}

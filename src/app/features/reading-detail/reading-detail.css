@@ -1,0 +1,57 @@
+.back-link {
+  color: var(--text-muted);
+  width: fit-content;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.skeleton-title {
+  height: 34px;
+  max-width: 340px;
+}
+
+/* --- Bài đọc --------------------------------------------------------------
+   Cỡ chữ lớn hơn phần còn lại của trang và dòng thưa hơn: đây là khối duy nhất
+   người học phải đọc liền mạch vài trăm chữ, không phải liếc lấy thông tin. */
+
+.passage {
+  font-size: var(--fs-lg);
+  line-height: 2;
+}
+
+.passage p + p {
+  margin-top: var(--sp-4);
+  /* Thụt đầu dòng một chữ, đúng quy ước xuống đoạn của văn bản tiếng Nhật. */
+  text-indent: 1em;
+}
+
+/* Bản dịch nằm trong khung lõm để không lẫn với bài đọc gốc. */
+.translation {
+  padding: var(--sp-4);
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+}
+
+.word-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 6px var(--sp-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.word-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.word-jp {
+  font-weight: 600;
+}

@@ -1,0 +1,144 @@
+{
+  "id": "00-bai-mau",
+  "name": "Bài mẫu · Kanji N3",
+  "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+  "kind": "kanji",
+  "kanji": [
+    {
+      "id": "3eb029de8a4f4d92",
+      "character": "険",
+      "hanViet": "HIỂM",
+      "meaning": "hiểm/ nguy hiểm",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [
+        "けわ.しい"
+      ],
+      "strokes": 11,
+      "words": [
+        {
+          "id": "49e9824115a3a2dd",
+          "japanese": "危険",
+          "reading": "きけん",
+          "vietnamese": "nguy hiểm"
+        },
+        {
+          "id": "fb7ab84f581968f3",
+          "japanese": "保険",
+          "reading": "ほけん",
+          "vietnamese": "bảo hiểm"
+        }
+      ]
+    },
+    {
+      "id": "0a0c5e4912341f02",
+      "character": "慣",
+      "hanViet": "QUÁN",
+      "meaning": "quen/ thói quen",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "な.れる"
+      ],
+      "strokes": 14,
+      "words": [
+        {
+          "id": "c49396b3d86ab809",
+          "japanese": "習慣",
+          "reading": "しゅうかん",
+          "vietnamese": "thói quen"
+        },
+        {
+          "id": "897271123d14b986",
+          "japanese": "慣れます",
+          "reading": "なれます",
+          "vietnamese": "quen với"
+        }
+      ]
+    },
+    {
+      "id": "872b01cbf53df375",
+      "character": "募",
+      "hanViet": "MỘ",
+      "meaning": "mộ/ tuyển mộ",
+      "onyomi": [
+        "ボ"
+      ],
+      "kunyomi": [
+        "つの.る"
+      ],
+      "strokes": 12,
+      "words": [
+        {
+          "id": "64fe5d2c0d1c95b5",
+          "japanese": "募集",
+          "reading": "ぼしゅう",
+          "vietnamese": "tuyển mộ"
+        },
+        {
+          "id": "0c0c16954ff5ced2",
+          "japanese": "応募",
+          "reading": "おうぼ",
+          "vietnamese": "ứng tuyển"
+        }
+      ]
+    },
+    {
+      "id": "3e872a9a041a0a78",
+      "character": "豊",
+      "hanViet": "PHONG",
+      "meaning": "phong/ dồi dào",
+      "onyomi": [
+        "ホウ"
+      ],
+      "kunyomi": [
+        "ゆた.か"
+      ],
+      "strokes": 13,
+      "words": [
+        {
+          "id": "12dbde2b9153b5f4",
+          "japanese": "豊富",
+          "reading": "ほうふ",
+          "vietnamese": "phong phú"
+        },
+        {
+          "id": "a1c5e79fa762bfc3",
+          "japanese": "豊か",
+          "reading": "ゆたか",
+          "vietnamese": "dồi dào"
+        }
+      ]
+    },
+    {
+      "id": "d1961bca082b5e37",
+      "character": "辺",
+      "hanViet": "BIÊN",
+      "meaning": "biên/ vùng lân cận",
+      "onyomi": [
+        "ヘン"
+      ],
+      "kunyomi": [
+        "あた.り",
+        "べ"
+      ],
+      "strokes": 5,
+      "words": [
+        {
+          "id": "918f1f3bd9cc7a43",
+          "japanese": "周辺",
+          "reading": "しゅうへん",
+          "vietnamese": "xung quanh"
+        },
+        {
+          "id": "0a0043d7670c0d9d",
+          "japanese": "この辺",
+          "reading": "このへん",
+          "vietnamese": "quanh đây"
+        }
+      ]
+    }
+  ]
+}

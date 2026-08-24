@@ -1,0 +1,25 @@
+/* Các nhóm nút chọn ở đây đều ngắn (2–4 lựa chọn, mỗi lựa chọn một hai từ) nên xếp
+   ngang được; .options mặc định trong styles.css là xếp dọc, dùng cho danh sách dài. */
+.options-row {
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+/* Nút số câu chỉ chứa một con số, không cần rộng bằng nút có chữ. */
+.option-narrow {
+  justify-content: center;
+}
+
+@media (max-width: 560px) {
+  .options-row {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+  }
+
+  /* Riêng hàng số câu vẫn giữ bốn cột: bốn con số một hàng vẫn đọc được thoải mái,
+     mà xếp dọc thì khung thiết lập dài thêm hẳn một màn hình. */
+  .options-row:has(.option-narrow) {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}

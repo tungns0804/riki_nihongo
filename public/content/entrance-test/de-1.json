@@ -1,0 +1,251 @@
+{
+  "id": "de-1",
+  "name": "Đề mẫu · Kiểm tra nhập môn N3",
+  "description": "Đề mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có đề thật.",
+  "kind": "test",
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Phần 1 · Từ vựng",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "79cb6b29eeb18e19",
+          "skill": "vocabulary",
+          "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
+          "promptJapanese": "レポートの（　　）は明日です。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "締め切り"
+            },
+            {
+              "id": "c2",
+              "text": "順番"
+            },
+            {
+              "id": "c3",
+              "text": "面倒"
+            },
+            {
+              "id": "c4",
+              "text": "遠慮"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "締め切り = hạn nộp."
+        },
+        {
+          "id": "c2848d5f491fca2d",
+          "skill": "vocabulary",
+          "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
+          "promptJapanese": "困ったことがあったら、先生に（　　）ください。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "我慢して"
+            },
+            {
+              "id": "c2",
+              "text": "相談して"
+            },
+            {
+              "id": "c3",
+              "text": "遠慮して"
+            },
+            {
+              "id": "c4",
+              "text": "募集して"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "相談します = bàn bạc, hỏi ý kiến."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Phần 2 · Kanji",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "9d39da43297d01cb",
+          "skill": "kanji",
+          "prompt": "Cách đọc đúng của 習慣 là gì?",
+          "promptJapanese": "「習慣」の読み方はどれですか。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "しゅうかん"
+            },
+            {
+              "id": "c2",
+              "text": "しゅっかん"
+            },
+            {
+              "id": "c3",
+              "text": "じゅうかん"
+            },
+            {
+              "id": "c4",
+              "text": "しゅうがん"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": ""
+        },
+        {
+          "id": "5785aaed15e73977",
+          "skill": "kanji",
+          "prompt": "Chữ Hán đúng của きけん là gì?",
+          "promptJapanese": "「きけん」を漢字で書くとどれですか。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "危険"
+            },
+            {
+              "id": "c2",
+              "text": "気検"
+            },
+            {
+              "id": "c3",
+              "text": "危検"
+            },
+            {
+              "id": "c4",
+              "text": "気険"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Phần 3 · Ngữ pháp",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "df34921ebf78c187",
+          "skill": "grammar",
+          "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
+          "promptJapanese": "国（　　）習慣が違います。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "によって"
+            },
+            {
+              "id": "c2",
+              "text": "について"
+            },
+            {
+              "id": "c3",
+              "text": "にとって"
+            },
+            {
+              "id": "c4",
+              "text": "における"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "によって ở đây mang nghĩa \"tuỳ theo\"."
+        },
+        {
+          "id": "d76a2e9d3383f8d6",
+          "skill": "grammar",
+          "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
+          "promptJapanese": "日本語が全然できない（　　）ではありません。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "わけ"
+            },
+            {
+              "id": "c2",
+              "text": "はず"
+            },
+            {
+              "id": "c3",
+              "text": "つもり"
+            },
+            {
+              "id": "c4",
+              "text": "ため"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "～わけではない phủ định một suy luận của người nghe."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Phần 4 · Đọc hiểu",
+      "skill": "reading",
+      "questions": [
+        {
+          "id": "9bf9e98a9d65e067",
+          "skill": "reading",
+          "prompt": "Câu nào đúng với thông báo trên?",
+          "promptJapanese": "「来月から本の貸出期間が二週間から三週間になります」とありますが、正しいものはどれですか。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "本を借りられる期間が長くなる"
+            },
+            {
+              "id": "c2",
+              "text": "本を借りられる期間が短くなる"
+            },
+            {
+              "id": "c3",
+              "text": "借りられる本の数が増える"
+            },
+            {
+              "id": "c4",
+              "text": "図書館が閉まる"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Phần 5 · Nghe hiểu",
+      "skill": "listening",
+      "questions": [
+        {
+          "id": "4ed6189867bedf6b",
+          "skill": "listening",
+          "prompt": "Được chỉ đường như trên thì đi đâu?",
+          "promptJapanese": "「エレベーターを降りて右に曲がってください」と言われました。どこへ行きますか。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "エレベーターの前で待つ"
+            },
+            {
+              "id": "c2",
+              "text": "エレベーターを降りてから右へ行く"
+            },
+            {
+              "id": "c3",
+              "text": "階段で降りる"
+            },
+            {
+              "id": "c4",
+              "text": "左に曲がる"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

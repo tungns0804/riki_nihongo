@@ -1,0 +1,112 @@
+{
+  "id": "00-bai-mau",
+  "name": "Bài mẫu · Đọc hiểu",
+  "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+  "kind": "reading",
+  "passages": [
+    {
+      "id": "94da8a6c3fbd3a87",
+      "title": "図書館からのお知らせ",
+      "paragraphs": [
+        "図書館をご利用のみなさまへ。来月から、本の貸出期間が二週間から三週間に変わります。一度に借りられる本の数はこれまでと同じで、五冊までです。",
+        "また、毎週月曜日は館内の整理のため、午後一時から五時まで閉館します。ご不便をおかけしますが、ご協力をお願いいたします。"
+      ],
+      "translation": [
+        "Gửi các bạn đang sử dụng thư viện. Từ tháng sau, thời hạn mượn sách sẽ đổi từ hai tuần thành ba tuần. Số sách mượn được cùng lúc vẫn như trước, tối đa năm cuốn.",
+        "Ngoài ra, thứ Hai hằng tuần thư viện đóng cửa từ một giờ chiều đến năm giờ chiều để sắp xếp lại bên trong. Mong các bạn thông cảm và hợp tác."
+      ],
+      "vocabulary": [
+        {
+          "id": "33e8cf3bc8df1647",
+          "japanese": "利用",
+          "reading": "りよう",
+          "vietnamese": "sử dụng",
+          "hanViet": "",
+          "example": "",
+          "exampleMeaning": ""
+        },
+        {
+          "id": "6aa50b19ba47b9a5",
+          "japanese": "貸出期間",
+          "reading": "かしだしきかん",
+          "vietnamese": "thời hạn cho mượn",
+          "hanViet": "",
+          "example": "",
+          "exampleMeaning": ""
+        },
+        {
+          "id": "07c5d6e9274189bf",
+          "japanese": "整理",
+          "reading": "せいり",
+          "vietnamese": "sắp xếp/ chỉnh lý",
+          "hanViet": "",
+          "example": "",
+          "exampleMeaning": ""
+        },
+        {
+          "id": "1e05faec9a66834d",
+          "japanese": "不便",
+          "reading": "ふべん",
+          "vietnamese": "bất tiện",
+          "hanViet": "",
+          "example": "",
+          "exampleMeaning": ""
+        }
+      ],
+      "questions": [
+        {
+          "id": "590e62118a0ceb1c",
+          "skill": "reading",
+          "prompt": "Điều gì sẽ thay đổi từ tháng sau?",
+          "promptJapanese": "来月から変わることは何ですか。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "一度に借りられる本の数"
+            },
+            {
+              "id": "c2",
+              "text": "本を借りられる期間"
+            },
+            {
+              "id": "c3",
+              "text": "図書館が開く時間"
+            },
+            {
+              "id": "c4",
+              "text": "図書館の場所"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Đoạn đầu nói thời hạn mượn đổi từ hai tuần thành ba tuần; số sách thì giữ nguyên."
+        },
+        {
+          "id": "b478d69f2219b27f",
+          "skill": "reading",
+          "prompt": "Nếu đến thư viện lúc 2 giờ chiều thứ Hai thì sao?",
+          "promptJapanese": "月曜日の午後二時に図書館へ行くとどうなりますか。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "本を五冊借りられる"
+            },
+            {
+              "id": "c2",
+              "text": "閉まっていて入れない"
+            },
+            {
+              "id": "c3",
+              "text": "三週間借りられる"
+            },
+            {
+              "id": "c4",
+              "text": "整理を手伝わされる"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Thứ Hai thư viện đóng cửa từ 13h đến 17h."
+        }
+      ]
+    }
+  ]
+}

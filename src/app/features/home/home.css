@@ -1,0 +1,14 @@
+/* Mô tả của phần học cắt sau ba dòng: bảy thẻ trong một lưới mà mỗi thẻ cao một
+   kiểu thì hàng nào cũng so le. Ba dòng vừa đủ cho câu mô tả dài nhất. */
+.module-desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+}
+
+/* Thẻ xám lúc chờ tải, cao đúng bằng thẻ thật để trang không giật khi dữ liệu về. */
+.skeleton-card {
+  height: 164px;
+}

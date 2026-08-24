@@ -1,0 +1,50 @@
+/* Đường về trang chủ nằm TRÊN tiêu đề chứ không dưới: đây là thứ người ta tìm khi
+   vừa vào nhầm phần, tức là ngay khi trang vừa hiện ra. */
+.back-link {
+  color: var(--text-muted);
+  width: fit-content;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+/* Biểu tượng của phần học đứng cùng dòng với tiêu đề. baseline chứ không center:
+   chữ Hán và chữ Latin có chiều cao khác nhau, canh giữa thì chữ Hán trông như bị
+   trôi lên trên. */
+h1 {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.head-icon {
+  color: var(--accent);
+}
+
+/* Thanh công cụ: ô tìm bên trái, số liệu bên phải. Gộp vào một hàng để phần đầu
+   trang không dài thêm một khối nữa. */
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
+
+.toolbar .search {
+  flex: 1 1 260px;
+}
+
+.toolbar-counts {
+  flex-shrink: 0;
+}
+
+.skeleton-card {
+  height: 132px;
+}
+
+@media (max-width: 640px) {
+  .toolbar-counts {
+    width: 100%;
+  }
+}

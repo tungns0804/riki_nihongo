@@ -1,0 +1,69 @@
+.quiz-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding-top: var(--sp-4);
+  border-top: 1px solid var(--border);
+}
+
+.quiz-item:first-of-type {
+  padding-top: 0;
+  border-top: none;
+}
+
+.quiz-prompt {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+  font-size: var(--fs-lg);
+  font-weight: 550;
+}
+
+.quiz-index {
+  color: var(--text-faint);
+  flex-shrink: 0;
+}
+
+/* Câu dẫn tiếng Việt thụt vào bằng đúng bề rộng số thứ tự để thẳng hàng với câu
+   tiếng Nhật ở trên. */
+.quiz-sub {
+  padding-left: 1.6em;
+}
+
+.quiz-choices {
+  display: grid;
+  gap: var(--sp-2);
+}
+
+/* Đáp án đúng luôn hiện màu xanh sau khi chấm, kể cả khi người học chọn sai — thấy
+   được đáp án đúng mới học được gì từ câu vừa sai. */
+.choice.is-correct {
+  border-color: var(--success);
+  background: var(--success-soft);
+  color: var(--success);
+  font-weight: 620;
+  opacity: 1;
+}
+
+.choice.is-wrong {
+  border-color: var(--danger);
+  background: var(--danger-soft);
+  color: var(--danger);
+  opacity: 1;
+}
+
+/* Nút đã khoá vẫn phải đọc được: mờ đi như nút disabled thường thì cả khối đáp án
+   sau khi chấm trông như bị vô hiệu hoá. */
+.choice:disabled {
+  cursor: default;
+  opacity: 0.85;
+}
+
+.quiz-verdict {
+  font-weight: 650;
+  color: var(--danger);
+}
+
+.quiz-verdict.is-right {
+  color: var(--success);
+}

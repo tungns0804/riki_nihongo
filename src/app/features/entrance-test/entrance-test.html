@@ -1,0 +1,73 @@
+<div class="container page">
+  <div class="stack stack-xl">
+    <section class="page-head">
+      <a class="back-link small" routerLink="/">{{ t('common.backHome') }}</a>
+      <h1>
+        <span class="head-icon jp" aria-hidden="true">{{ module().icon }}</span>
+        <app-t [key]="module().labelKey" />
+      </h1>
+      <p><app-t key="test.subtitle" block /></p>
+    </section>
+
+    @if (status() === 'loading') {
+      <div class="skeleton skeleton-card" role="status" [attr.aria-label]="t('common.loading')"></div>
+    }
+
+    @if (errorKey(); as key) {
+      <div class="notice notice-error">
+        <div class="stack" style="gap: 10px">
+          <strong>{{ t(key) }}</strong>
+          <div>
+            <button type="button" class="btn btn-sm" (click)="reload()">
+              {{ t('common.retry') }}
+            </button>
+          </div>
+        </div>
+      </div>
+    }
+
+    @if (tests().length > 0) {
+      @for (test of tests(); track test.id) {
+        <article class="card">
+          <div class="card-body stack stack-lg">
+            <div class="section-head">
+              <h2>{{ test.name }}</h2>
+              <span class="spacer"></span>
+              <span class="badge">{{ t('test.questionCount', { count: test.itemCount }) }}</span>
+              <!-- So với null chứ không dùng `as`: 0% cũng là một lần đã làm bài. -->
+              @let percent = bestPercent(test.id);
+              @if (percent !== null) {
+                <span class="badge badge-success">{{ t('result.percent', { percent }) }}</span>
+              }
+            </div>
+
+            @if (test.description) {
+              <p class="muted">{{ test.description }}</p>
+            }
+
+            <div>
+              <button
+                type="button"
+                class="btn btn-primary btn-lg"
+                [disabled]="starting() !== null"
+                (click)="start(test)"
+              >
+                @if (starting() === test.id) {
+                  {{ t('common.loading') }}
+                } @else {
+                  {{ t('test.start') }}
+                }
+              </button>
+            </div>
+          </div>
+        </article>
+      }
+    } @else if (status() === 'ready') {
+      <div class="empty-state">
+        <span class="empty-state-icon" aria-hidden="true">📝</span>
+        <p class="empty-state-title">{{ t('test.empty.title') }}</p>
+        <p class="empty-state-text"><app-t key="test.empty.text" block /></p>
+      </div>
+    }
+  </div>
+</div>

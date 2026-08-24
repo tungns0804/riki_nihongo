@@ -1,0 +1,101 @@
+.back-link {
+  color: var(--text-muted);
+  width: fit-content;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.skeleton-title {
+  height: 34px;
+  max-width: 340px;
+}
+
+/* Lưới rộng hơn lưới thẻ thường (272px): thẻ chữ Hán chứa cả danh sách từ ghép,
+   dưới 300px thì mỗi từ ghép phải xuống hai dòng. */
+.kanji-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--sp-4);
+}
+
+.kanji-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  padding: var(--sp-5);
+  animation: pop-in 0.28s var(--ease) backwards;
+}
+
+.kanji-head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+}
+
+/* Chữ Hán là thứ duy nhất trong thẻ cần nhìn thấy từ xa; mọi thứ còn lại là chú
+   thích cho nó. line-height 1 để ô chữ vuông không kéo thẻ cao thêm vô cớ. */
+.kanji-char {
+  font-size: 3.2rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.kanji-id {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  min-width: 0;
+}
+
+.kanji-han {
+  font-weight: 650;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* Hai cột: nhãn (Âm On / Âm Kun) và giá trị. Nhãn rộng cố định để hai dòng thẳng
+   cột với nhau. */
+.kanji-readings {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px var(--sp-3);
+  margin: 0;
+}
+
+.kanji-readings dt {
+  font-size: var(--fs-xs);
+  font-weight: 620;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.kanji-readings dd {
+  margin: 0;
+}
+
+.kanji-words ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.kanji-words li {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
+}
+
+.word-jp {
+  font-weight: 600;
+}

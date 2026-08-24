@@ -1,0 +1,42 @@
+.back-link {
+  color: var(--text-muted);
+  width: fit-content;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.skeleton-title {
+  height: 34px;
+  max-width: 340px;
+}
+
+/* Cột số thứ tự hẹp nhất có thể: nó chỉ để định vị khi đọc, không phải nội dung. */
+.col-index {
+  width: 44px;
+  text-align: right;
+}
+
+/* Âm Hán Việt viết hoa như trong từ điển, và không xuống dòng giữa chừng. */
+.col-han {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* Cột ví dụ là cột dài nhất; giới hạn bề rộng để nó không đẩy các cột khác đi. */
+.col-example {
+  min-width: 240px;
+  max-width: 380px;
+}
+
+/* Nghĩa của câu ví dụ xuống dòng riêng, cỡ nhỏ: nó là chú giải cho câu ở trên chứ
+   không phải một cột thứ hai. */
+.example-meaning {
+  display: block;
+  font-family: var(--font-ui);
+}

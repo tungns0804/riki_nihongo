@@ -1,0 +1,80 @@
+{
+  "id": "00-bai-mau",
+  "name": "Bài mẫu · Từ vựng N3",
+  "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+  "kind": "vocabulary",
+  "words": [
+    {
+      "id": "02beb14c341e89f3",
+      "japanese": "締め切り",
+      "reading": "しめきり",
+      "hanViet": "ĐẾ THIẾT",
+      "vietnamese": "hạn chót/ kỳ hạn",
+      "example": "レポートの締め切りは明日です。",
+      "exampleMeaning": "Hạn nộp báo cáo là ngày mai."
+    },
+    {
+      "id": "82e810b76544e38c",
+      "japanese": "我慢します",
+      "reading": "がまんします",
+      "hanViet": "NGÃ MẠN",
+      "vietnamese": "chịu đựng/ nhẫn nhịn",
+      "example": "痛みを我慢しました。",
+      "exampleMeaning": "Tôi đã chịu đựng cơn đau."
+    },
+    {
+      "id": "787e61c13aa3aa4b",
+      "japanese": "遠慮します",
+      "reading": "えんりょします",
+      "hanViet": "VIỄN LỰ",
+      "vietnamese": "khách sáo/ ngại ngùng",
+      "example": "遠慮しないで食べてください。",
+      "exampleMeaning": "Đừng khách sáo, cứ ăn tự nhiên."
+    },
+    {
+      "id": "6e108e4e96315112",
+      "japanese": "面倒",
+      "reading": "めんどう",
+      "hanViet": "DIỆN ĐẢO",
+      "vietnamese": "phiền phức/ rắc rối",
+      "example": "面倒な仕事が残っています。",
+      "exampleMeaning": "Còn lại một công việc phiền phức."
+    },
+    {
+      "id": "51d727e06b71a26b",
+      "japanese": "相談します",
+      "reading": "そうだんします",
+      "hanViet": "TƯƠNG ĐÀM",
+      "vietnamese": "bàn bạc/ hỏi ý kiến",
+      "example": "先生に相談します。",
+      "exampleMeaning": "Tôi sẽ hỏi ý kiến thầy."
+    },
+    {
+      "id": "d00f69cc2bf6670e",
+      "japanese": "順番",
+      "reading": "じゅんばん",
+      "hanViet": "THUẬN PHIÊN",
+      "vietnamese": "thứ tự/ lượt",
+      "example": "順番を守ってください。",
+      "exampleMeaning": "Xin hãy giữ đúng thứ tự."
+    },
+    {
+      "id": "b174dbcfdd639aa8",
+      "japanese": "積極的",
+      "reading": "せっきょくてき",
+      "hanViet": "TÍCH CỰC ĐÍCH",
+      "vietnamese": "tích cực/ chủ động",
+      "example": "会議で積極的に発言します。",
+      "exampleMeaning": "Tôi phát biểu tích cực trong cuộc họp."
+    },
+    {
+      "id": "6cc7a4c3b6fe5110",
+      "japanese": "アイデア",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "ý tưởng",
+      "example": "いいアイデアが浮かびました。",
+      "exampleMeaning": "Tôi đã nảy ra một ý tưởng hay."
+    }
+  ]
+}

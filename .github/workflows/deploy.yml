@@ -1,0 +1,67 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Cho phép bấm chạy tay trong tab Actions.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Đang deploy dở mà có push mới thì huỷ lượt cũ, không xếp hàng.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # enablement: true bật GitHub Pages cho repo ngay trong lần chạy đầu, khỏi
+      # phải vào Settings bấm tay. Chạy lại lần sau thì không làm gì thêm.
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - run: npm ci
+
+      # Sinh lại public/content/ từ data-source/ để bản deploy luôn khớp nguồn.
+      - run: npm run generate
+
+      # Nội dung nguồn có lỗi thì dừng ở đây, đừng deploy một bản thiếu bài.
+      - run: npm run verify
+
+      # base-href phải là tên repo vì trang nằm ở <user>.github.io/riki_nihongo/
+      - run: npx ng build --base-href /riki_nihongo/
+
+      - name: Thêm SPA fallback và tắt Jekyll
+        run: |
+          # GitHub Pages không biết route của Angular: mở thẳng /vocabulary/abc rồi F5
+          # sẽ ra 404. Trả chính index.html cho mọi đường dẫn lạ để router tự xử lý.
+          cp dist/riki-nihongo/browser/index.html dist/riki-nihongo/browser/404.html
+          # Không có file này thì Jekyll bỏ qua các file/thư mục bắt đầu bằng _ .
+          touch dist/riki-nihongo/browser/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/riki-nihongo/browser
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

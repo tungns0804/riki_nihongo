@@ -1,0 +1,128 @@
+<div class="container page">
+  <div class="stack stack-xl">
+    <section class="page-head">
+      <a class="back-link small" [routerLink]="['/', module().path]">
+        {{ t('common.backToList') }}
+      </a>
+
+      @if (loading()) {
+        <div class="skeleton skeleton-title"></div>
+      } @else if (unit(); as data) {
+        <h1>{{ data.name }}</h1>
+        @if (data.description) {
+          <p>{{ data.description }}</p>
+        }
+      }
+    </section>
+
+    @if (notFound()) {
+      <div class="empty-state">
+        <span class="empty-state-icon" aria-hidden="true">🚧</span>
+        <p class="empty-state-title">{{ t('unit.notFound') }}</p>
+        <p class="empty-state-text"><app-t key="error.unitNotFound" block /></p>
+        <a class="btn btn-sm" [routerLink]="['/', module().path]">{{ t('common.backToList') }}</a>
+      </div>
+    }
+
+    @if (unit(); as data) {
+      @if (points().length > 0) {
+        <app-practice-setup [unit]="data" />
+
+        @if (showToc()) {
+          <nav class="card toc" [attr.aria-label]="t('grammar.toc')">
+            <div class="card-body stack stack-sm">
+              <span class="label">{{ t('grammar.toc') }}</span>
+              <ol class="toc-list">
+                @for (point of points(); track point.id) {
+                  <li>
+                    <button type="button" class="toc-link" (click)="scrollToPoint(point.id)">
+                      <span class="jp toc-title">{{ point.title }}</span>
+                      @if (point.summary) {
+                        <span class="muted small">{{ point.summary }}</span>
+                      }
+                    </button>
+                  </li>
+                }
+              </ol>
+            </div>
+          </nav>
+        }
+
+        @for (point of points(); track point.id) {
+          <article class="card point-card" [id]="'point-' + point.id">
+            <div class="card-body stack stack-lg">
+              <header class="stack stack-sm">
+                <h2 class="jp">{{ point.title }}</h2>
+                @if (point.summary) {
+                  <p class="muted">{{ point.summary }}</p>
+                }
+              </header>
+
+              @if (point.structures.length > 0) {
+                <div class="field">
+                  <span class="label">{{ t('grammar.structure') }}</span>
+                  <ul class="structure-list">
+                    @for (structure of point.structures; track structure) {
+                      <li class="jp">{{ structure }}</li>
+                    }
+                  </ul>
+                </div>
+              }
+
+              @if (point.explanation.length > 0) {
+                <div class="stack stack-sm">
+                  @for (line of point.explanation; track line) {
+                    <p>{{ line }}</p>
+                  }
+                </div>
+              }
+
+              @for (usage of point.usages; track usage.id) {
+                <section class="usage">
+                  <h3>{{ usage.title }}</h3>
+                  @if (usage.detail) {
+                    <p class="muted small">{{ usage.detail }}</p>
+                  }
+
+                  <ul class="example-list">
+                    @for (example of usage.examples; track example.id) {
+                      <li>
+                        <p class="jp example-jp">{{ example.japanese }}</p>
+                        @if (example.reading) {
+                          <p class="jp muted small">{{ example.reading }}</p>
+                        }
+                        <p class="muted">{{ example.vietnamese }}</p>
+                        @if (example.note) {
+                          <p class="faint small">{{ example.note }}</p>
+                        }
+                      </li>
+                    }
+                  </ul>
+                </section>
+              }
+
+              @if (point.notes.length > 0) {
+                <div class="notice notice-warning">
+                  <div class="stack stack-sm">
+                    <strong>{{ t('grammar.notes') }}</strong>
+                    @for (note of point.notes; track note) {
+                      <span>{{ note }}</span>
+                    }
+                  </div>
+                </div>
+              }
+            </div>
+          </article>
+        }
+      } @else if (!loading()) {
+        <div class="empty-state">
+          <span class="empty-state-icon" aria-hidden="true">📄</span>
+          <p class="empty-state-title">{{ t('unit.empty.title') }}</p>
+          <p class="empty-state-text">
+            <app-t key="unit.empty.text" [params]="{ folder: module().folder }" block />
+          </p>
+        </div>
+      }
+    }
+  </div>
+</div>

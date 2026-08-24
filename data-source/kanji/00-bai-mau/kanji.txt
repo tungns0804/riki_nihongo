@@ -1,0 +1,6 @@
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+険,HIỂM,hiểm/ nguy hiểm,ケン,けわ.しい,11|危険 (きけん)=nguy hiểm;保険 (ほけん)=bảo hiểm
+慣,QUÁN,quen/ thói quen,カン,な.れる,14|習慣 (しゅうかん)=thói quen;慣れます (なれます)=quen với
+募,MỘ,mộ/ tuyển mộ,ボ,つの.る,12|募集 (ぼしゅう)=tuyển mộ;応募 (おうぼ)=ứng tuyển
+豊,PHONG,phong/ dồi dào,ホウ,ゆた.か,13|豊富 (ほうふ)=phong phú;豊か (ゆたか)=dồi dào
+辺,BIÊN,biên/ vùng lân cận,ヘン,あた.り・べ,5|周辺 (しゅうへん)=xung quanh;この辺 (このへん)=quanh đây

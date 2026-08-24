@@ -1,0 +1,77 @@
+<div class="container page">
+  @if (summary(); as data) {
+    <div class="stack stack-xl">
+      <section class="page-head">
+        <h1>{{ data.config.unitName }}</h1>
+      </section>
+
+      <section class="card">
+        <div class="card-body score-body">
+          <div class="score-main" [class.is-good]="percent() >= 80" [class.is-weak]="percent() < 50">
+            <span class="score-percent tnum">{{ t('result.percent', { percent: percent() }) }}</span>
+            <span class="muted small tnum">
+              {{ t('result.score', { correct: data.correctCount, total: data.total }) }}
+            </span>
+          </div>
+
+          <div class="score-side stack">
+            @if (skillScores().length > 0) {
+              <span class="label">{{ t('result.bySkill') }}</span>
+              <ul class="skill-list">
+                @for (score of skillScores(); track score.skill) {
+                  <li>
+                    <span class="skill-name"><app-t [key]="skillLabelKey(score.skill)" /></span>
+                    <span class="progress-track skill-track">
+                      <span
+                        class="progress-fill"
+                        [style.width.%]="percentOf(score.correct, score.total)"
+                      ></span>
+                    </span>
+                    <span class="tnum small muted">{{ score.correct }}/{{ score.total }}</span>
+                  </li>
+                }
+              </ul>
+            }
+
+            <div class="row">
+              <a class="btn btn-primary" [routerLink]="retryLink()">{{ t('result.again') }}</a>
+              <a class="btn" routerLink="/">{{ t('common.backHome') }}</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stack">
+        <div class="section-head">
+          <h2>{{ t('result.review') }}</h2>
+          <span class="spacer"></span>
+          <span class="badge badge-danger">{{ data.wrongCount }}</span>
+        </div>
+
+        <ul class="result-list">
+          @for (item of data.results; track item.question.id) {
+            <li class="card result-item" [class.is-wrong]="!item.isCorrect">
+              <div class="card-body stack stack-sm">
+                <p class="result-prompt" [class.jp]="item.question.promptIsJapanese">
+                  {{ item.question.prompt }}
+                </p>
+                <p [class.jp]="item.question.answerIsJapanese">
+                  {{ t('practice.answerWas', { answer: item.question.answer }) }}
+                </p>
+                @if (!item.isCorrect) {
+                  <p class="muted small" [class.jp]="item.question.answerIsJapanese">
+                    @if (item.given) {
+                      {{ t('result.yourAnswer', { answer: item.given }) }}
+                    } @else {
+                      {{ t('result.skipped') }}
+                    }
+                  </p>
+                }
+              </div>
+            </li>
+          }
+        </ul>
+      </section>
+    </div>
+  }
+</div>

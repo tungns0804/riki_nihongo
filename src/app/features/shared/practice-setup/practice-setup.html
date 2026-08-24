@@ -1,0 +1,86 @@
+<section class="card">
+  <div class="card-body stack stack-lg">
+    <h2>{{ t('practice.setup') }}</h2>
+
+    <div class="field">
+      <span class="label">{{ t('practice.mode') }}</span>
+      <div class="options options-row">
+        <button
+          type="button"
+          class="option"
+          [class.is-active]="answerMode() === 'choice'"
+          [attr.aria-pressed]="answerMode() === 'choice'"
+          (click)="setMode('choice')"
+        >
+          <app-t key="practice.mode.choice" />
+        </button>
+        <button
+          type="button"
+          class="option"
+          [class.is-active]="answerMode() === 'typing'"
+          [attr.aria-pressed]="answerMode() === 'typing'"
+          (click)="setMode('typing')"
+        >
+          <app-t key="practice.mode.typing" />
+        </button>
+      </div>
+    </div>
+
+    @if (directions().length > 1) {
+      <div class="field">
+        <span class="label">{{ t('practice.direction') }}</span>
+        <div class="options options-row">
+          @for (info of directions(); track info.id) {
+            <button
+              type="button"
+              class="option"
+              [class.is-active]="direction() === info.id"
+              [attr.aria-pressed]="direction() === info.id"
+              (click)="setDirection(info.id)"
+            >
+              <app-t [key]="info.labelKey" />
+            </button>
+          }
+        </div>
+      </div>
+    }
+
+    <div class="field">
+      <span class="label">{{ t('practice.count') }}</span>
+      <div class="options options-row">
+        @for (value of limits; track value) {
+          <button
+            type="button"
+            class="option option-narrow"
+            [class.is-active]="limit() === value"
+            [attr.aria-pressed]="limit() === value"
+            [disabled]="value !== null && value > available()"
+            (click)="setLimit(value)"
+          >
+            @if (value === null) {
+              {{ t('common.all') }}
+            } @else {
+              {{ value }}
+            }
+          </button>
+        }
+      </div>
+    </div>
+
+    <div class="row">
+      <button
+        type="button"
+        class="btn btn-primary btn-lg"
+        [disabled]="available() === 0"
+        (click)="start()"
+      >
+        {{ t('practice.start') }}
+      </button>
+      <span class="badge">{{ t('test.questionCount', { count: available() }) }}</span>
+    </div>
+
+    @if (available() === 0) {
+      <p class="notice notice-warning">{{ t('practice.noQuestion') }}</p>
+    }
+  </div>
+</section>

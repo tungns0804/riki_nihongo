@@ -1,0 +1,110 @@
+<div class="container page practice-page">
+  <div class="stack stack-lg">
+    <!-- Thanh tiến độ dính lại đỉnh màn hình: câu hỏi dài (bài đọc, bài ngữ pháp)
+         đẩy nó ra khỏi tầm nhìn, mà đây là chỗ duy nhất cho biết còn bao nhiêu câu. -->
+    <header class="practice-header">
+      <div class="row">
+        <span class="badge">
+          {{ t('practice.progress', { current: position(), total: total() }) }}
+        </span>
+        @if (config(); as data) {
+          <span class="badge badge-accent">{{ data.unitName }}</span>
+        }
+        <span class="spacer"></span>
+        <button type="button" class="btn btn-sm btn-ghost" (click)="finish()">
+          {{ t('practice.quit') }}
+        </button>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" [style.width.%]="percent()"></div>
+      </div>
+    </header>
+
+    @if (question(); as q) {
+      <section class="card question-card">
+        <div class="card-body stack stack-lg">
+          <div class="stack stack-sm">
+            <p class="prompt" [class.jp]="q.promptIsJapanese">{{ q.prompt }}</p>
+            @if (q.hint) {
+              <p class="muted small">{{ q.hint }}</p>
+            }
+          </div>
+
+          @if (isChoiceMode()) {
+            <div class="choices">
+              @for (choice of q.choices; track choice) {
+                <button
+                  type="button"
+                  class="option choice"
+                  [class]="stateOf(choice)"
+                  [class.jp]="q.answerIsJapanese"
+                  [disabled]="checked()"
+                  (click)="choose(choice)"
+                >
+                  {{ choice }}
+                </button>
+              }
+            </div>
+          } @else {
+            <div class="field">
+              <input
+                type="text"
+                class="input answer-input"
+                [class.jp]="q.answerIsJapanese"
+                [placeholder]="t('practice.typeHere')"
+                [attr.aria-label]="t('practice.typeHere')"
+                [disabled]="checked()"
+                [ngModel]="given()"
+                (ngModelChange)="given.set($event)"
+                (keydown.enter)="checked() ? next() : check()"
+                autocomplete="off"
+                autocapitalize="off"
+                spellcheck="false"
+              />
+              @if (!checked()) {
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  [disabled]="!given().trim()"
+                  (click)="check()"
+                >
+                  {{ t('practice.check') }}
+                </button>
+              }
+            </div>
+          }
+
+          @if (checked()) {
+            <div class="feedback" [class.is-correct]="wasCorrect()">
+              <strong>
+                @if (wasCorrect()) {
+                  <app-t key="practice.correct" />
+                } @else {
+                  <app-t key="practice.wrong" />
+                }
+              </strong>
+              @if (!wasCorrect()) {
+                <span [class.jp]="q.answerIsJapanese">
+                  {{ t('practice.answerWas', { answer: q.answer }) }}
+                </span>
+              }
+              @if (q.explanation) {
+                <span class="muted small" [class.jp]="q.promptIsJapanese">{{ q.explanation }}</span>
+              }
+            </div>
+
+            <div>
+              <button type="button" class="btn btn-primary btn-lg" (click)="next()">
+                @if (isLast()) {
+                  {{ t('practice.finish') }}
+                } @else {
+                  {{ t('practice.next') }}
+                }
+              </button>
+            </div>
+          }
+        </div>
+      </section>
+    }
+  </div>
+</div>

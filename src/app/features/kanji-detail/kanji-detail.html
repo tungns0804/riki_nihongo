@@ -1,0 +1,90 @@
+<div class="container page">
+  <div class="stack stack-xl">
+    <section class="page-head">
+      <a class="back-link small" [routerLink]="['/', module().path]">
+        {{ t('common.backToList') }}
+      </a>
+
+      @if (loading()) {
+        <div class="skeleton skeleton-title"></div>
+      } @else if (unit(); as data) {
+        <h1>{{ data.name }}</h1>
+        @if (data.description) {
+          <p>{{ data.description }}</p>
+        }
+      }
+    </section>
+
+    @if (notFound()) {
+      <div class="empty-state">
+        <span class="empty-state-icon" aria-hidden="true">🚧</span>
+        <p class="empty-state-title">{{ t('unit.notFound') }}</p>
+        <p class="empty-state-text"><app-t key="error.unitNotFound" block /></p>
+        <a class="btn btn-sm" [routerLink]="['/', module().path]">{{ t('common.backToList') }}</a>
+      </div>
+    }
+
+    @if (unit(); as data) {
+      @if (entries().length > 0) {
+        <app-practice-setup [unit]="data" />
+
+        <div class="kanji-grid">
+          @for (entry of entries(); track entry.id) {
+            <article class="card kanji-card">
+              <div class="kanji-head">
+                <span class="kanji-char jp">{{ entry.character }}</span>
+                <div class="kanji-id">
+                  @if (entry.hanViet) {
+                    <span class="kanji-han">{{ entry.hanViet }}</span>
+                  }
+                  @if (entry.meaning) {
+                    <span class="muted small">{{ entry.meaning }}</span>
+                  }
+                  @if (entry.strokes > 0) {
+                    <span class="badge">{{ t('kanji.strokes', { count: entry.strokes }) }}</span>
+                  }
+                </div>
+              </div>
+
+              <dl class="kanji-readings">
+                @if (entry.onyomi.length > 0) {
+                  <dt><app-t key="kanji.onyomi" /></dt>
+                  <dd class="jp">{{ entry.onyomi.join('、') }}</dd>
+                }
+                @if (entry.kunyomi.length > 0) {
+                  <dt><app-t key="kanji.kunyomi" /></dt>
+                  <dd class="jp">{{ entry.kunyomi.join('、') }}</dd>
+                }
+              </dl>
+
+              @if (entry.words.length > 0) {
+                <div class="kanji-words">
+                  <span class="label"><app-t key="kanji.words" /></span>
+                  <ul>
+                    @for (word of entry.words; track word.id) {
+                      <li>
+                        <span class="jp word-jp">{{ word.japanese }}</span>
+                        @if (word.reading) {
+                          <span class="jp muted small">（{{ word.reading }}）</span>
+                        }
+                        <span class="muted small">{{ word.vietnamese }}</span>
+                      </li>
+                    }
+                  </ul>
+                </div>
+              }
+            </article>
+          }
+        </div>
+      } @else if (!loading()) {
+        <div class="empty-state">
+          <span class="empty-state-icon" aria-hidden="true">📄</span>
+          <p class="empty-state-title">{{ t('unit.empty.title') }}</p>
+          <p class="empty-state-text">
+            <app-t key="unit.empty.text" [params]="{ folder: module().folder }" block />
+          </p>
+        </div>
+      }
+    }
+  </div>
+</div>

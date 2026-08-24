@@ -1,0 +1,29 @@
+{
+  "tracks": [
+    {
+      "title": "会話1 · Hỏi đường trong công ty",
+      "audio": "",
+      "script": [
+        "女：すみません、会議室はどちらですか。",
+        "男：三階です。エレベーターを降りて右に曲がってください。",
+        "女：ありがとうございます。二時からの会議に間に合いますね。",
+        "男：ええ、まだ十分ありますよ。"
+      ],
+      "questions": [
+        {
+          "promptJapanese": "女の人はこれからどこへ行きますか。",
+          "prompt": "Người phụ nữ sắp đi đâu?",
+          "choices": ["一階の受付", "三階の会議室", "二階の食堂", "会社の外"],
+          "answer": 2,
+          "explanation": "Người đàn ông nói phòng họp ở tầng ba."
+        },
+        {
+          "promptJapanese": "会議は何時から始まりますか。",
+          "prompt": "Cuộc họp bắt đầu lúc mấy giờ?",
+          "choices": ["一時", "二時", "三時", "十時"],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

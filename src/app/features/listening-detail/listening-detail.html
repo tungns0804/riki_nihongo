@@ -1,0 +1,89 @@
+<div class="container page">
+  <div class="stack stack-xl">
+    <section class="page-head">
+      <a class="back-link small" [routerLink]="['/', module().path]">
+        {{ t('common.backToList') }}
+      </a>
+
+      @if (loading()) {
+        <div class="skeleton skeleton-title"></div>
+      } @else if (unit(); as data) {
+        <h1>{{ data.name }}</h1>
+        @if (data.description) {
+          <p>{{ data.description }}</p>
+        }
+      }
+    </section>
+
+    @if (notFound()) {
+      <div class="empty-state">
+        <span class="empty-state-icon" aria-hidden="true">🚧</span>
+        <p class="empty-state-title">{{ t('unit.notFound') }}</p>
+        <p class="empty-state-text"><app-t key="error.unitNotFound" block /></p>
+        <a class="btn btn-sm" [routerLink]="['/', module().path]">{{ t('common.backToList') }}</a>
+      </div>
+    }
+
+    @if (tracks().length > 0) {
+      @for (track of tracks(); track track.id) {
+        <article class="card">
+          <div class="card-body stack stack-lg">
+            <div class="section-head">
+              <h2>{{ track.title }}</h2>
+              <span class="spacer"></span>
+              @if (track.script.length > 0) {
+                <button
+                  type="button"
+                  class="btn btn-sm"
+                  [attr.aria-pressed]="showsScript(track.id)"
+                  (click)="toggleScript(track.id)"
+                >
+                  @if (showsScript(track.id)) {
+                    <app-t key="listening.hideScript" />
+                  } @else {
+                    <app-t key="listening.showScript" />
+                  }
+                </button>
+              }
+            </div>
+
+            @if (track.audio) {
+              <audio class="player" controls preload="none" [src]="audioUrl(track.audio)"></audio>
+            } @else {
+              <p class="notice notice-warning">{{ t('listening.noAudio') }}</p>
+            }
+
+            @if (showsScript(track.id)) {
+              <div class="script stack stack-sm">
+                <span class="label"><app-t key="listening.script" /></span>
+                @for (line of track.script; track line.id) {
+                  <p class="script-line">
+                    @if (line.speaker) {
+                      <span class="jp speaker">{{ line.speaker }}</span>
+                    }
+                    <span class="jp">{{ line.japanese }}</span>
+                    @if (line.vietnamese) {
+                      <span class="muted small script-vi">{{ line.vietnamese }}</span>
+                    }
+                  </p>
+                }
+              </div>
+            }
+
+            @if (track.questions.length > 0) {
+              <app-quiz-block [questions]="track.questions" />
+            }
+          </div>
+        </article>
+      }
+    } @else if (!loading() && !notFound()) {
+      <div class="empty-state">
+        <span class="empty-state-icon" aria-hidden="true">🎧</span>
+        <p class="empty-state-title">{{ t('unit.empty.title') }}</p>
+        <p class="empty-state-text">
+          <app-t key="unit.empty.text" [params]="{ folder: module().folder }" block />
+        </p>
+      </div>
+    }
+  </div>
+</div>

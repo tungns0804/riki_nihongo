@@ -1,0 +1,93 @@
+{
+  "id": "00-bai-mau",
+  "name": "Bài mẫu · Nghe hiểu",
+  "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+  "kind": "listening",
+  "tracks": [
+    {
+      "id": "31bde5dd838d20f9",
+      "title": "会話1 · Hỏi đường trong công ty",
+      "audio": "",
+      "script": [
+        {
+          "id": "57a09f23aa76e60e",
+          "speaker": "女",
+          "japanese": "すみません、会議室はどちらですか。",
+          "vietnamese": ""
+        },
+        {
+          "id": "93b982d756bf9840",
+          "speaker": "男",
+          "japanese": "三階です。エレベーターを降りて右に曲がってください。",
+          "vietnamese": ""
+        },
+        {
+          "id": "10c579496107ef2b",
+          "speaker": "女",
+          "japanese": "ありがとうございます。二時からの会議に間に合いますね。",
+          "vietnamese": ""
+        },
+        {
+          "id": "de171a2f9da3c83d",
+          "speaker": "男",
+          "japanese": "ええ、まだ十分ありますよ。",
+          "vietnamese": ""
+        }
+      ],
+      "questions": [
+        {
+          "id": "87d1fd1a71f3229a",
+          "skill": "listening",
+          "prompt": "Người phụ nữ sắp đi đâu?",
+          "promptJapanese": "女の人はこれからどこへ行きますか。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "一階の受付"
+            },
+            {
+              "id": "c2",
+              "text": "三階の会議室"
+            },
+            {
+              "id": "c3",
+              "text": "二階の食堂"
+            },
+            {
+              "id": "c4",
+              "text": "会社の外"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Người đàn ông nói phòng họp ở tầng ba."
+        },
+        {
+          "id": "be5701e1d0d4446a",
+          "skill": "listening",
+          "prompt": "Cuộc họp bắt đầu lúc mấy giờ?",
+          "promptJapanese": "会議は何時から始まりますか。",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "一時"
+            },
+            {
+              "id": "c2",
+              "text": "二時"
+            },
+            {
+              "id": "c3",
+              "text": "三時"
+            },
+            {
+              "id": "c4",
+              "text": "十時"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}

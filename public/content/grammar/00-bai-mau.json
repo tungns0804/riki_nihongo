@@ -1,0 +1,97 @@
+{
+  "id": "00-bai-mau",
+  "name": "Bài mẫu · Ngữ pháp N3",
+  "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+  "kind": "grammar",
+  "points": [
+    {
+      "id": "77507b5407a91727",
+      "title": "～によって",
+      "summary": "Bằng cách ~ / tuỳ theo ~ / bởi ~",
+      "structures": [
+        "N ＋ によって",
+        "N ＋ による ＋ N"
+      ],
+      "explanation": [
+        "Nối vào danh từ. Nghĩa cụ thể thay đổi theo ngữ cảnh, nên phải nhìn cả câu chứ không dịch máy móc một nghĩa."
+      ],
+      "notes": [
+        "Trong câu bị động, người thực hiện hành động dùng によって chứ không dùng に khi đó là một sáng tạo hay phát minh."
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Phương tiện, cách thức",
+          "detail": "Chỉ ra cách mà việc gì đó được thực hiện.",
+          "examples": [
+            {
+              "id": "70f461fe8bd67afc",
+              "japanese": "話し合いによって問題を解決しました。",
+              "reading": "はなしあいによってもんだいをかいけつしました。",
+              "vietnamese": "Chúng tôi đã giải quyết vấn đề bằng cách trao đổi.",
+              "note": ""
+            },
+            {
+              "id": "55bc508a63727c0b",
+              "japanese": "インターネットによって世界中の人と話せます。",
+              "reading": "インターネットによってせかいじゅうのひととはなせます。",
+              "vietnamese": "Nhờ Internet, ta có thể nói chuyện với người khắp thế giới.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "Tuỳ theo, khác nhau theo",
+          "detail": "Đi kèm những từ mang nghĩa khác biệt như 違います, 変わります.",
+          "examples": [
+            {
+              "id": "94cafe89232f15c0",
+              "japanese": "国によって習慣が違います。",
+              "reading": "くにによってしゅうかんがちがいます。",
+              "vietnamese": "Tập quán khác nhau tuỳ theo từng nước.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "288c8980ecf84906",
+      "title": "～わけではない",
+      "summary": "Không phải là ~ (phủ định một suy luận)",
+      "structures": [
+        "V thể thường ＋ わけではない",
+        "い-adj ＋ わけではない",
+        "な-adj な ＋ わけではない"
+      ],
+      "explanation": [
+        "Phủ định nhẹ một điều mà người nghe có thể đang suy ra, chứ không phủ định hoàn toàn sự việc."
+      ],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Phủ định một suy luận của người nghe",
+          "detail": "",
+          "examples": [
+            {
+              "id": "27876a827eab4c00",
+              "japanese": "日本語が全然できないわけではありません。",
+              "reading": "にほんごがぜんぜんできないわけではありません。",
+              "vietnamese": "Không phải là tôi hoàn toàn không biết tiếng Nhật.",
+              "note": ""
+            },
+            {
+              "id": "44ba8a94b741e2c0",
+              "japanese": "嫌いなわけではないが、あまり食べません。",
+              "reading": "きらいなわけではないが、あまりたべません。",
+              "vietnamese": "Không phải là tôi ghét, nhưng tôi ít ăn món đó.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

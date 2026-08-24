@@ -1,0 +1,97 @@
+<div class="container page">
+  <div class="stack stack-xl">
+    <section class="page-head">
+      <a class="back-link small" [routerLink]="['/', module().path]">
+        {{ t('common.backToList') }}
+      </a>
+
+      @if (loading()) {
+        <div class="skeleton skeleton-title"></div>
+      } @else if (unit(); as data) {
+        <h1>{{ data.name }}</h1>
+        @if (data.description) {
+          <p>{{ data.description }}</p>
+        }
+      }
+    </section>
+
+    @if (notFound()) {
+      <div class="empty-state">
+        <span class="empty-state-icon" aria-hidden="true">🚧</span>
+        <p class="empty-state-title">{{ t('unit.notFound') }}</p>
+        <p class="empty-state-text"><app-t key="error.unitNotFound" block /></p>
+        <a class="btn btn-sm" [routerLink]="['/', module().path]">{{ t('common.backToList') }}</a>
+      </div>
+    }
+
+    @if (passages().length > 0) {
+      @for (passage of passages(); track passage.id) {
+        <article class="card">
+          <div class="card-body stack stack-lg">
+            <div class="section-head">
+              <h2>{{ passage.title || t('reading.passage') }}</h2>
+              <span class="spacer"></span>
+              @if (passage.translation.length > 0) {
+                <button
+                  type="button"
+                  class="btn btn-sm"
+                  [attr.aria-pressed]="showsTranslation(passage.id)"
+                  (click)="toggleTranslation(passage.id)"
+                >
+                  @if (showsTranslation(passage.id)) {
+                    <app-t key="reading.hideTranslation" />
+                  } @else {
+                    <app-t key="reading.showTranslation" />
+                  }
+                </button>
+              }
+            </div>
+
+            <div class="passage jp">
+              @for (paragraph of passage.paragraphs; track $index) {
+                <p>{{ paragraph }}</p>
+              }
+            </div>
+
+            @if (showsTranslation(passage.id)) {
+              <div class="translation stack stack-sm">
+                @for (paragraph of passage.translation; track $index) {
+                  <p class="muted">{{ paragraph }}</p>
+                }
+              </div>
+            }
+
+            @if (passage.vocabulary.length > 0) {
+              <div class="stack stack-sm">
+                <span class="label"><app-t key="reading.vocabulary" /></span>
+                <ul class="word-list">
+                  @for (word of passage.vocabulary; track word.id) {
+                    <li>
+                      <span class="jp word-jp">{{ word.japanese }}</span>
+                      @if (word.reading) {
+                        <span class="jp muted small">（{{ word.reading }}）</span>
+                      }
+                      <span class="muted small">{{ word.vietnamese }}</span>
+                    </li>
+                  }
+                </ul>
+              </div>
+            }
+
+            @if (passage.questions.length > 0) {
+              <app-quiz-block [questions]="passage.questions" />
+            }
+          </div>
+        </article>
+      }
+    } @else if (!loading() && !notFound()) {
+      <div class="empty-state">
+        <span class="empty-state-icon" aria-hidden="true">📄</span>
+        <p class="empty-state-title">{{ t('unit.empty.title') }}</p>
+        <p class="empty-state-text">
+          <app-t key="unit.empty.text" [params]="{ folder: module().folder }" block />
+        </p>
+      </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,108 @@
+{
+  "course": {
+    "id": "n3-junbi",
+    "name": "N3 JUNBI",
+    "level": "N3"
+  },
+  "generatedAt": "2026-08-24T14:37:29.843Z",
+  "modules": [
+    {
+      "id": "entrance-test",
+      "units": [
+        {
+          "id": "de-1",
+          "name": "Đề mẫu · Kiểm tra nhập môn N3",
+          "description": "Đề mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có đề thật.",
+          "kind": "test",
+          "itemCount": 8,
+          "order": 0,
+          "file": "entrance-test/de-1.json"
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "units": [
+        {
+          "id": "00-bai-mau",
+          "name": "Bài mẫu · Từ vựng N3",
+          "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+          "kind": "vocabulary",
+          "itemCount": 8,
+          "order": 0,
+          "file": "vocabulary/00-bai-mau.json"
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "units": [
+        {
+          "id": "00-bai-mau",
+          "name": "Bài mẫu · Kanji N3",
+          "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+          "kind": "kanji",
+          "itemCount": 5,
+          "order": 0,
+          "file": "kanji/00-bai-mau.json"
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "units": [
+        {
+          "id": "00-bai-mau",
+          "name": "Bài mẫu · Ngữ pháp N3",
+          "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+          "kind": "grammar",
+          "itemCount": 2,
+          "order": 0,
+          "file": "grammar/00-bai-mau.json"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "units": [
+        {
+          "id": "00-bai-mau",
+          "name": "Bài mẫu · Đọc hiểu",
+          "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+          "kind": "reading",
+          "itemCount": 1,
+          "order": 0,
+          "file": "reading/00-bai-mau.json"
+        }
+      ]
+    },
+    {
+      "id": "listening",
+      "units": [
+        {
+          "id": "00-bai-mau",
+          "name": "Bài mẫu · Nghe hiểu",
+          "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+          "kind": "listening",
+          "itemCount": 1,
+          "order": 0,
+          "file": "listening/00-bai-mau.json"
+        }
+      ]
+    },
+    {
+      "id": "mimikara",
+      "units": [
+        {
+          "id": "00-bai-mau",
+          "name": "Bài mẫu · Mimikara Oboeru",
+          "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+          "kind": "grammar",
+          "itemCount": 2,
+          "order": 0,
+          "file": "mimikara/00-bai-mau.json"
+        }
+      ]
+    }
+  ]
+}

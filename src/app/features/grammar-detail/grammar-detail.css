@@ -1,0 +1,118 @@
+.back-link {
+  color: var(--text-muted);
+  width: fit-content;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.skeleton-title {
+  height: 34px;
+  max-width: 340px;
+}
+
+/* --- Mục lục -------------------------------------------------------------
+   Dính lại dưới header khi cuộn: bài dài mấy màn hình mà muốn nhảy sang mẫu khác
+   thì không phải cuộn ngược lên đầu. z-index thấp hơn header (20) để header luôn
+   nằm trên. */
+
+.toc {
+  position: sticky;
+  top: calc(var(--header-h) + var(--sp-2));
+  z-index: 10;
+  /* Nền đặc: mục lục dính thì nội dung sẽ chạy phía sau nó. */
+  background: var(--bg-elevated);
+}
+
+.toc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0;
+  padding-left: 1.4em;
+}
+
+.toc-link {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 4px 8px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  text-align: left;
+  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+
+.toc-link:hover {
+  background: var(--bg-subtle);
+  color: var(--accent);
+}
+
+.toc-title {
+  font-weight: 600;
+}
+
+/* --- Một mẫu ngữ pháp ----------------------------------------------------- */
+
+/* Neo cuộn phải chừa chỗ cho cả header dính lẫn mục lục dính, nếu không bấm mục lục
+   xong thì tiêu đề mẫu nằm khuất ngay dưới chính cái mục lục vừa bấm. */
+.point-card {
+  scroll-margin-top: calc(var(--header-h) + 120px);
+}
+
+.structure-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.structure-list li {
+  padding: 8px 12px;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--accent-soft);
+  font-weight: 600;
+}
+
+.usage h3 {
+  margin-bottom: 4px;
+}
+
+.example-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin: var(--sp-3) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Vạch dọc bên trái gom ba dòng của một ví dụ (câu Nhật, cách đọc, nghĩa) thành
+   một khối, thay cho việc phải thụt lề hay kẻ khung cho từng ví dụ. */
+.example-list li {
+  padding-left: var(--sp-3);
+  border-left: 2px solid var(--border);
+}
+
+.example-jp {
+  font-size: var(--fs-lg);
+  font-weight: 550;
+}
+
+@media (max-width: 640px) {
+  /* Ở màn hình hẹp, mục lục dính chiếm quá nhiều chỗ so với phần nội dung còn lại. */
+  .toc {
+    position: static;
+  }
+
+  .point-card {
+    scroll-margin-top: calc(var(--header-h) + var(--sp-4));
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "sections": [
+    {
+      "title": "Phần 1 · Từ vựng",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "promptJapanese": "レポートの（　　）は明日です。",
+          "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
+          "choices": ["締め切り", "順番", "面倒", "遠慮"],
+          "answer": 1,
+          "explanation": "締め切り = hạn nộp."
+        },
+        {
+          "promptJapanese": "困ったことがあったら、先生に（　　）ください。",
+          "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
+          "choices": ["我慢して", "相談して", "遠慮して", "募集して"],
+          "answer": 2,
+          "explanation": "相談します = bàn bạc, hỏi ý kiến."
+        }
+      ]
+    },
+    {
+      "title": "Phần 2 · Kanji",
+      "skill": "kanji",
+      "questions": [
+        {
+          "promptJapanese": "「習慣」の読み方はどれですか。",
+          "prompt": "Cách đọc đúng của 習慣 là gì?",
+          "choices": ["しゅうかん", "しゅっかん", "じゅうかん", "しゅうがん"],
+          "answer": 1
+        },
+        {
+          "promptJapanese": "「きけん」を漢字で書くとどれですか。",
+          "prompt": "Chữ Hán đúng của きけん là gì?",
+          "choices": ["危険", "気検", "危検", "気険"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Phần 3 · Ngữ pháp",
+      "skill": "grammar",
+      "questions": [
+        {
+          "promptJapanese": "国（　　）習慣が違います。",
+          "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
+          "choices": ["によって", "について", "にとって", "における"],
+          "answer": 1,
+          "explanation": "によって ở đây mang nghĩa \"tuỳ theo\"."
+        },
+        {
+          "promptJapanese": "日本語が全然できない（　　）ではありません。",
+          "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
+          "choices": ["わけ", "はず", "つもり", "ため"],
+          "answer": 1,
+          "explanation": "～わけではない phủ định một suy luận của người nghe."
+        }
+      ]
+    },
+    {
+      "title": "Phần 4 · Đọc hiểu",
+      "skill": "reading",
+      "questions": [
+        {
+          "promptJapanese": "「来月から本の貸出期間が二週間から三週間になります」とありますが、正しいものはどれですか。",
+          "prompt": "Câu nào đúng với thông báo trên?",
+          "choices": [
+            "本を借りられる期間が長くなる",
+            "本を借りられる期間が短くなる",
+            "借りられる本の数が増える",
+            "図書館が閉まる"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Phần 5 · Nghe hiểu",
+      "skill": "listening",
+      "questions": [
+        {
+          "promptJapanese": "「エレベーターを降りて右に曲がってください」と言われました。どこへ行きますか。",
+          "prompt": "Được chỉ đường như trên thì đi đâu?",
+          "choices": [
+            "エレベーターの前で待つ",
+            "エレベーターを降りてから右へ行く",
+            "階段で降りる",
+            "左に曲がる"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

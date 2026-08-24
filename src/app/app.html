@@ -1,0 +1,84 @@
+<!-- Bỏ qua header: người dùng bàn phím (và trình đọc màn hình) không phải Tab qua
+     thương hiệu + 7 mục menu + 2 nút ở MỌI trang mới tới được nội dung. Nằm ngoài
+     màn hình cho tới khi nhận focus.
+
+     Là <button> chứ không phải <a href="#main-content">: bản chạy bằng file:// định
+     tuyến bằng dấu #, nên router sẽ hiểu href đó là một đường dẫn và ném người dùng
+     ra khỏi trang. -->
+<button type="button" class="skip-link" (click)="focusMain()">
+  <app-t key="app.skipToContent" />
+</button>
+
+<header class="app-header">
+  <div class="container app-header-inner">
+    <a routerLink="/" class="brand">
+      <span class="brand-mark jp" aria-hidden="true">力</span>
+      <span class="brand-text">
+        <span class="brand-title">
+          <span class="brand-name"><app-t key="app.name" /></span>
+          <!-- &ngsp; là dấu cách thật, không bị Angular gộp bỏ. -->
+          <span class="brand-course">&ngsp;· <app-t key="course.name" /></span>
+        </span>
+        <span class="brand-sub"><app-t key="app.tagline" /></span>
+      </span>
+    </a>
+
+    <!-- Menu là em ruột của .app-actions, không nằm trong đó: ở khổ điện thoại nó phải
+         xuống được một hàng riêng chiếm trọn bề ngang, mà một flex item chỉ xuống hàng
+         được so với các em ruột của chính nó. -->
+    <nav class="app-nav" [attr.aria-label]="t('app.nav')">
+      @for (module of modules; track module.id) {
+        <a [routerLink]="['/', module.path]" routerLinkActive="is-active">
+          <app-t [key]="module.shortKey" />
+        </a>
+      }
+    </nav>
+
+    <div class="app-actions">
+      <button
+        type="button"
+        class="icon-btn lang-btn"
+        (click)="lang.toggle()"
+        [title]="t('app.language.switch', { name: lang.nextName() })"
+        [attr.aria-label]="t('app.language.switch', { name: lang.nextName() })"
+      >
+        <span class="icon-btn-glyph" aria-hidden="true">🌐</span>
+        <span class="icon-btn-label lang-label">{{ lang.short() }}</span>
+      </button>
+
+      <button
+        type="button"
+        class="icon-btn theme-btn"
+        (click)="theme.cycle()"
+        [title]="t('theme.title', { current: t(theme.labelKey()), next: t(theme.nextLabelKey()) })"
+        [attr.aria-label]="
+          t('theme.title', { current: t(theme.labelKey()), next: t(theme.nextLabelKey()) })
+        "
+      >
+        <span class="icon-btn-glyph" aria-hidden="true">{{ theme.icon() }}</span>
+        <span class="icon-btn-label">
+          <app-t [key]="theme.labelKey()" />
+        </span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content" tabindex="-1">
+  <router-outlet />
+</main>
+
+<!-- Nút quay lên đầu trang. Luôn nằm trong DOM, chỉ mờ đi và không nhận chuột khi
+     chưa cuộn đủ xa — bật/tắt bằng @if thì nó bụp một cái, không có gì để chuyển. -->
+<button
+  type="button"
+  class="to-top"
+  [class.is-visible]="scrolledDown()"
+  [attr.aria-hidden]="scrolledDown() ? null : 'true'"
+  [attr.tabindex]="scrolledDown() ? null : -1"
+  (click)="scrollToTop()"
+  [title]="t('app.backToTop')"
+  [attr.aria-label]="t('app.backToTop')"
+>
+  <span aria-hidden="true">↑</span>
+</button>

@@ -1,0 +1,47 @@
+{
+  "passages": [
+    {
+      "title": "図書館からのお知らせ",
+      "paragraphs": [
+        "図書館をご利用のみなさまへ。来月から、本の貸出期間が二週間から三週間に変わります。一度に借りられる本の数はこれまでと同じで、五冊までです。",
+        "また、毎週月曜日は館内の整理のため、午後一時から五時まで閉館します。ご不便をおかけしますが、ご協力をお願いいたします。"
+      ],
+      "translation": [
+        "Gửi các bạn đang sử dụng thư viện. Từ tháng sau, thời hạn mượn sách sẽ đổi từ hai tuần thành ba tuần. Số sách mượn được cùng lúc vẫn như trước, tối đa năm cuốn.",
+        "Ngoài ra, thứ Hai hằng tuần thư viện đóng cửa từ một giờ chiều đến năm giờ chiều để sắp xếp lại bên trong. Mong các bạn thông cảm và hợp tác."
+      ],
+      "vocabulary": [
+        "利用 (りよう),sử dụng",
+        "貸出期間 (かしだしきかん),thời hạn cho mượn",
+        "整理 (せいり),sắp xếp/ chỉnh lý",
+        "不便 (ふべん),bất tiện"
+      ],
+      "questions": [
+        {
+          "promptJapanese": "来月から変わることは何ですか。",
+          "prompt": "Điều gì sẽ thay đổi từ tháng sau?",
+          "choices": [
+            "一度に借りられる本の数",
+            "本を借りられる期間",
+            "図書館が開く時間",
+            "図書館の場所"
+          ],
+          "answer": 2,
+          "explanation": "Đoạn đầu nói thời hạn mượn đổi từ hai tuần thành ba tuần; số sách thì giữ nguyên."
+        },
+        {
+          "promptJapanese": "月曜日の午後二時に図書館へ行くとどうなりますか。",
+          "prompt": "Nếu đến thư viện lúc 2 giờ chiều thứ Hai thì sao?",
+          "choices": [
+            "本を五冊借りられる",
+            "閉まっていて入れない",
+            "三週間借りられる",
+            "整理を手伝わされる"
+          ],
+          "answer": 2,
+          "explanation": "Thứ Hai thư viện đóng cửa từ 13h đến 17h."
+        }
+      ]
+    }
+  ]
+}

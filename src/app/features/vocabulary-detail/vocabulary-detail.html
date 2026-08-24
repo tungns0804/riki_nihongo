@@ -1,0 +1,95 @@
+<div class="container page">
+  <div class="stack stack-xl">
+    <section class="page-head">
+      <a class="back-link small" [routerLink]="['/', module().path]">
+        {{ t('common.backToList') }}
+      </a>
+
+      @if (loading()) {
+        <div class="skeleton skeleton-title"></div>
+      } @else if (unit(); as data) {
+        <h1>{{ data.name }}</h1>
+        @if (data.description) {
+          <p>{{ data.description }}</p>
+        }
+      }
+    </section>
+
+    @if (notFound()) {
+      <div class="empty-state">
+        <span class="empty-state-icon" aria-hidden="true">🚧</span>
+        <p class="empty-state-title">{{ t('unit.notFound') }}</p>
+        <p class="empty-state-text"><app-t key="error.unitNotFound" block /></p>
+        <a class="btn btn-sm" [routerLink]="['/', module().path]">{{ t('common.backToList') }}</a>
+      </div>
+    }
+
+    @if (unit(); as data) {
+      @if (words().length > 0) {
+        <app-practice-setup [unit]="data" />
+
+        <section class="card">
+          <div class="card-body stack">
+            <div class="section-head">
+              <h2><app-t key="module.vocabulary.label" /></h2>
+              <span class="spacer"></span>
+              <span class="badge">{{ t('unit.itemCount', { count: words().length }) }}</span>
+            </div>
+
+            <div class="scroll-x">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th class="col-index">#</th>
+                    <th><app-t key="vocab.japanese" /></th>
+                    @if (hasReading()) {
+                      <th><app-t key="vocab.reading" /></th>
+                    }
+                    @if (hasHanViet()) {
+                      <th><app-t key="vocab.hanViet" /></th>
+                    }
+                    <th><app-t key="vocab.vietnamese" /></th>
+                    @if (hasExample()) {
+                      <th><app-t key="vocab.example" /></th>
+                    }
+                  </tr>
+                </thead>
+                <tbody>
+                  @for (word of words(); track word.id; let i = $index) {
+                    <tr>
+                      <td class="col-index faint tnum">{{ i + 1 }}</td>
+                      <td class="cell-jp jp">{{ word.japanese }}</td>
+                      @if (hasReading()) {
+                        <td class="jp muted">{{ word.reading }}</td>
+                      }
+                      @if (hasHanViet()) {
+                        <td class="col-han">{{ word.hanViet }}</td>
+                      }
+                      <td>{{ word.vietnamese }}</td>
+                      @if (hasExample()) {
+                        <td class="jp col-example">
+                          {{ word.example }}
+                          @if (word.exampleMeaning) {
+                            <span class="example-meaning muted small">{{ word.exampleMeaning }}</span>
+                          }
+                        </td>
+                      }
+                    </tr>
+                  }
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      } @else if (!loading()) {
+        <div class="empty-state">
+          <span class="empty-state-icon" aria-hidden="true">📄</span>
+          <p class="empty-state-title">{{ t('unit.empty.title') }}</p>
+          <p class="empty-state-text">
+            <app-t key="unit.empty.text" [params]="{ folder: module().folder }" block />
+          </p>
+        </div>
+      }
+    }
+  </div>
+</div>

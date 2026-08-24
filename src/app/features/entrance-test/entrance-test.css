@@ -1,0 +1,22 @@
+.back-link {
+  color: var(--text-muted);
+  width: fit-content;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+h1 {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.head-icon {
+  color: var(--accent);
+}
+
+.skeleton-card {
+  height: 168px;
+}

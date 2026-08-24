@@ -1,0 +1,92 @@
+/* Thanh tiến độ dính dưới header. z-index thấp hơn header (20) để header vẫn nằm
+   trên; nền đặc vì nội dung sẽ chạy phía sau nó khi cuộn. */
+.practice-header {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding-block: var(--sp-3);
+  background: var(--bg);
+}
+
+/* Câu hỏi là thứ to nhất trên màn hình: nó thường chỉ là một từ, và người học phải
+   đọc được nó mà không cần cúi sát máy. clamp để câu dài (câu ví dụ ngữ pháp) tự
+   nhỏ lại thay vì tràn ra ngoài. */
+.prompt {
+  font-size: clamp(1.4rem, 1.1rem + 1.6vw, 2.1rem);
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.choices {
+  display: grid;
+  gap: var(--sp-2);
+}
+
+.choice {
+  min-height: 52px;
+  font-size: var(--fs-md);
+}
+
+/* Đáp án đúng luôn hiện màu xanh sau khi chấm, kể cả khi người học chọn sai. */
+.choice.is-correct {
+  border-color: var(--success);
+  background: var(--success-soft);
+  color: var(--success);
+  font-weight: 620;
+}
+
+.choice.is-wrong {
+  border-color: var(--danger);
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+/* Nút đã khoá vẫn phải đọc được: mờ như nút disabled thường thì cả khối đáp án sau
+   khi chấm trông như bị vô hiệu hoá. */
+.choice:disabled {
+  cursor: default;
+  opacity: 0.9;
+}
+
+.field:has(.answer-input) {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.answer-input {
+  flex: 1 1 240px;
+  font-size: var(--fs-lg);
+}
+
+/* Khối phản hồi bật lên chứ không hiện im lìm: đây là câu trả lời cho đúng câu hỏi
+   người học vừa đặt ra khi bấm, nên nó phải được nhìn thấy ngay. */
+.feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: var(--sp-4);
+  border: 1px solid var(--danger-border);
+  border-left-width: 3px;
+  border-radius: var(--radius);
+  background: var(--danger-soft);
+  color: var(--danger);
+  animation: pop-in 0.22s var(--ease) backwards;
+}
+
+.feedback.is-correct {
+  border-color: var(--success-border);
+  border-left-color: var(--success);
+  background: var(--success-soft);
+  color: var(--success);
+}
+
+@media (max-width: 640px) {
+  .choice {
+    min-height: 48px;
+  }
+}

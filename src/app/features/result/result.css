@@ -1,0 +1,102 @@
+/* Điểm bên trái, phần chi tiết bên phải. Ở khổ hẹp thì xuống thành hai hàng. */
+.score-body {
+  display: flex;
+  gap: var(--sp-6);
+  flex-wrap: wrap;
+  padding: var(--sp-6);
+}
+
+.score-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-width: 180px;
+  padding: var(--sp-5);
+  border: 2px solid var(--border-strong);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+/* Ba mức màu, đọc được ngay từ xa: khá / trung bình / cần làm lại. */
+.score-main.is-good {
+  border-color: var(--success);
+  color: var(--success);
+}
+
+.score-main.is-weak {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.score-percent {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.score-side {
+  flex: 1 1 280px;
+  justify-content: center;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Ba cột: tên kỹ năng, thanh tỉ lệ, con số. Tên rộng cố định để các thanh thẳng cột. */
+.skill-list li {
+  display: grid;
+  grid-template-columns: 7em 1fr auto;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.skill-name {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.skill-track {
+  display: block;
+}
+
+.result-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Câu sai có vạch đỏ bên trái: lướt danh sách là thấy ngay cần xem lại những câu
+   nào, không phải đọc hết từng thẻ. */
+.result-item {
+  border-left: 3px solid var(--success);
+}
+
+.result-item.is-wrong {
+  border-left-color: var(--danger);
+}
+
+.result-prompt {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .score-main {
+    width: 100%;
+  }
+
+  .skill-list li {
+    grid-template-columns: 5.5em 1fr auto;
+  }
+}

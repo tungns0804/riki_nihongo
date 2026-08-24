@@ -1,0 +1,355 @@
+/* --- Bỏ qua header ---------------------------------------------------------
+   Nằm ngoài khung nhìn cho tới khi nhận focus. Không dùng display:none hay
+   visibility:hidden vì như thế phần tử bị loại khỏi thứ tự Tab, tức là không bao
+   giờ nhận được focus để mà hiện ra. */
+
+.skip-link {
+  position: fixed;
+  top: var(--sp-2);
+  left: var(--sp-2);
+  z-index: 100;
+  padding: 10px 16px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  color: var(--accent);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  transform: translateY(calc(-100% - var(--sp-4)));
+  transition: transform var(--dur) var(--ease);
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+/* Focus lập trình vào <main> chỉ để chuyển điểm bắt đầu của phím Tab; vẽ viền
+   quanh cả vùng nội dung thì không nói thêm được gì mà lại rất chướng mắt.
+
+   Phải liệt kê CẢ :focus-visible: quy tắc :focus-visible toàn cục trong styles.css
+   có độ ưu tiên (0,1,0), cao hơn main:focus (0,0,1), nên nếu chỉ ghi main:focus thì
+   viền vẫn hiện nguyên. */
+main:focus,
+main:focus-visible {
+  outline: none;
+}
+
+/* --- Header --------------------------------------------------------------- */
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  /* Header dính sát đỉnh màn hình nên phải tự chừa chỗ cho tai thỏ / thanh trạng
+     thái khi trang chạy toàn màn hình trên điện thoại. */
+  padding-top: env(safe-area-inset-top);
+  background: color-mix(in srgb, var(--bg-elevated) 82%, transparent);
+  backdrop-filter: blur(12px) saturate(1.4);
+  border-bottom: 1px solid var(--border);
+}
+
+/* Trình duyệt không làm mờ được nền thì lớp nền trong suốt 82% sẽ để chữ của trang
+   chạy lộ qua header. Trường hợp đó dùng nền đặc. */
+@supports not (backdrop-filter: blur(1px)) {
+  .app-header {
+    background: var(--bg-elevated);
+  }
+}
+
+.app-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  min-height: var(--header-h);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: var(--text);
+  /* Được phép co lại; phần điều hướng bên phải mới là thứ giữ nguyên kích thước. */
+  min-width: 0;
+  flex: 0 1 auto;
+  overflow: hidden;
+}
+
+.brand:hover {
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  /* Chuyển sắc nhẹ trong cùng một màu: ô vuông 36px trông có khối hơn nền phẳng,
+     mà vẫn không thành một mảng màu loè loẹt. */
+  background: linear-gradient(140deg, var(--accent), color-mix(in srgb, var(--accent) 72%, #000));
+  color: var(--accent-text);
+  font-size: 1.2rem;
+  font-weight: 700;
+  box-shadow: 0 2px 8px var(--accent-ring);
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.brand-title {
+  font-weight: 650;
+  font-size: 0.98rem;
+  line-height: 1.3;
+  /* Thà cắt bớt bằng dấu ... còn hơn để tên đè lên menu bên phải. */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.brand-name {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+/* Tên khoá đi sau tên thương hiệu, nhạt hơn một bậc: hai thứ này không ngang hàng
+   nhau, và khi màn hình hẹp thì đây là phần bị bỏ trước. */
+.brand-course {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.brand-sub {
+  font-size: var(--fs-2xs);
+  color: var(--text-faint);
+  line-height: 1.3;
+}
+
+.app-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.app-nav {
+  display: flex;
+  gap: var(--sp-1);
+  flex-shrink: 0;
+  /* Đẩy menu sang sát khối nút bên phải, để thương hiệu một mình giữ lề trái —
+     nếu không thì justify-content: space-between của header sẽ dồn menu vào giữa. */
+  margin-left: auto;
+}
+
+.app-nav a {
+  padding: 7px 13px;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  font-weight: 550;
+  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+
+.app-nav a:hover {
+  background: var(--bg-subtle);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.app-nav a.is-active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 620;
+}
+
+/* --- Nút biểu tượng trên header (ngôn ngữ, sáng/tối) --- */
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 11px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  font-weight: 550;
+  white-space: nowrap;
+  transition: border-color var(--dur) var(--ease), background-color var(--dur) var(--ease),
+    color var(--dur) var(--ease);
+}
+
+.icon-btn:hover {
+  border-color: var(--border-strong);
+  background: var(--bg-inset);
+  color: var(--text);
+}
+
+/* Bề rộng cố định: cùng một ký tự (◐, ☀, 🌐) nhưng khi <html lang> đổi thì trình
+   duyệt chọn font khác và ký tự render rộng hẹp khác nhau, làm nút đổi kích thước. */
+.icon-btn-glyph {
+  display: inline-block;
+  width: 18px;
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+}
+
+/* "VI" và "日本" rộng khác nhau — chừa sẵn chỗ cho cái rộng hơn để nút không
+   đổi kích thước khi chuyển ngôn ngữ. */
+.lang-label {
+  /* "日本" là hai chữ full-width nên rộng hơn "VI" khá nhiều — chừa đủ chỗ cho
+     cái rộng hơn thì nút không đổi kích thước khi chuyển ngôn ngữ. */
+  min-width: 32px;
+  text-align: center;
+}
+
+/* --- Nút quay lên đầu trang ------------------------------------------------
+   Cố định ở góc dưới phải. Luôn có trong DOM, chỉ mờ đi và trượt xuống khi chưa
+   cần tới, nên lúc hiện ra có cái để chuyển động thay vì bụp một cái. */
+
+.to-top {
+  position: fixed;
+  right: max(var(--sp-5), env(safe-area-inset-right));
+  bottom: max(var(--sp-5), env(safe-area-inset-bottom));
+  z-index: 30;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--bg-elevated);
+  color: var(--text-muted);
+  font-size: 1.15rem;
+  line-height: 1;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transform: translateY(12px) scale(0.9);
+  /* Không nhận chuột lúc đang ẩn, nếu không nó vẫn chặn mất phần trang bên dưới. */
+  pointer-events: none;
+  transition: opacity var(--dur) var(--ease), transform var(--dur) var(--ease),
+    color var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+
+.to-top.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.to-top:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Header có 2 nút + BẢY mục menu, nên phải nhường chỗ theo từng bậc khi hẹp dần.
+   Bảy mục là nhiều hơn hẳn một thanh điều hướng thường gặp, nên các ngưỡng dưới đây
+   rộng hơn: mục menu bắt đầu chật từ khoảng 1100px chứ không phải 860px.
+
+   Thứ tự hy sinh đi từ ít thông tin nhất tới nhiều nhất: chữ của nút sáng/tối →
+   dòng mô tả dưới tên → tên khoá học → cuối cùng mới cho menu xuống hàng riêng. */
+
+/* Bậc 1: bỏ chữ của nút sáng/tối, giữ chữ của nút ngôn ngữ vì biểu tượng 🌐
+   một mình không cho biết đang ở ngôn ngữ nào. */
+@media (max-width: 1100px) {
+  .theme-btn .icon-btn-label {
+    display: none;
+  }
+
+  .theme-btn {
+    padding: 6px 9px;
+  }
+}
+
+/* Bậc 2: bỏ dòng mô tả dưới tên ứng dụng. */
+@media (max-width: 980px) {
+  .brand-sub {
+    display: none;
+  }
+}
+
+/* Bậc 3: bỏ tên khoá học, chỉ giữ tên thương hiệu. Tên khoá vẫn còn nguyên ở tiêu
+   đề trang chủ nên không mất thông tin. */
+@media (max-width: 880px) {
+  .brand-course {
+    display: none;
+  }
+
+  .app-nav a {
+    padding: 7px 9px;
+    font-size: 0.86rem;
+  }
+}
+
+/* Bậc 4 — ĐIỆN THOẠI và tablet dọc: header xuống hai hàng.
+
+   Vì sao không thu nhỏ tiếp theo từng bậc: bảy mục menu cộng hai nút cần khoảng
+   700px dù chữ đã nhỏ hết cỡ. Cách nào còn dựa vào việc đoán đúng khổ máy cũng sẽ
+   hụt ở đâu đó. Cho menu chiếm trọn một hàng riêng thì tổng bề rộng cần chỉ còn
+   bằng hàng dài hơn trong hai hàng, và mỗi mục cũng rộng ra thành vùng bấm dễ trúng
+   hơn — cách này không phụ thuộc menu có mấy mục. */
+@media (max-width: 800px) {
+  .app-header-inner {
+    flex-wrap: wrap;
+    gap: 4px 10px;
+    padding-block: 6px;
+    /* min-height của một hàng không còn đúng khi có hai hàng. */
+    min-height: 0;
+  }
+
+  .app-actions {
+    gap: 6px;
+  }
+
+  .app-nav {
+    /* order 3 để menu luôn nằm dưới, kể cả khi thương hiệu bị cắt ngắn. */
+    order: 3;
+    flex: 1 0 100%;
+    gap: 2px;
+    margin-left: 0;
+    /* Bảy mục nhồi vào một hàng thì mỗi mục xuống hai ba dòng. Cho xuống hàng thì
+       mỗi mục vẫn đọc được trên một dòng. */
+    flex-wrap: wrap;
+  }
+
+  /* Mỗi hàng bốn mục (22% + gap), ba mục thừa tự dãn ra chiếm nốt hàng dưới. */
+  .app-nav a {
+    flex: 1 1 22%;
+    padding: 8px 4px;
+    text-align: center;
+    font-size: 0.82rem;
+    line-height: 1.25;
+  }
+
+  /* Nút lên đầu trang lùi vào sát góc hơn, nhường chỗ cho nội dung. */
+  .to-top {
+    right: max(var(--sp-3), env(safe-area-inset-right));
+    bottom: max(var(--sp-3), env(safe-area-inset-bottom));
+    width: 42px;
+    height: 42px;
+  }
+}
+
+/* Bậc 5: máy rất hẹp — bỏ chữ của nút ngôn ngữ, chỉ còn biểu tượng 🌐, và menu
+   xuống ba mục một hàng. */
+@media (max-width: 400px) {
+  .lang-btn .icon-btn-label {
+    display: none;
+  }
+
+  .lang-btn {
+    padding: 6px 9px;
+  }
+
+  .app-nav a {
+    flex: 1 1 30%;
+    font-size: 0.8rem;
+  }
+}

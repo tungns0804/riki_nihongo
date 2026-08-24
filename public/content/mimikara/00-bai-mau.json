@@ -1,0 +1,83 @@
+{
+  "id": "00-bai-mau",
+  "name": "Bài mẫu · Mimikara Oboeru",
+  "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+  "kind": "grammar",
+  "points": [
+    {
+      "id": "994406703c521211",
+      "title": "～きり",
+      "summary": "Chỉ ~ / kể từ khi ~ thì không ~ nữa",
+      "structures": [
+        "N ＋ きり",
+        "V thể た ＋ きり"
+      ],
+      "explanation": [],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Chỉ có ngần ấy",
+          "detail": "",
+          "examples": [
+            {
+              "id": "327f592cdcf7b30a",
+              "japanese": "二人きりで話しました。",
+              "reading": "ふたりきりではなしました。",
+              "vietnamese": "Chúng tôi đã nói chuyện chỉ có hai người.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "Kể từ đó thì không còn ~ nữa",
+          "detail": "",
+          "examples": [
+            {
+              "id": "15a5541f9e574b39",
+              "japanese": "彼は出て行ったきり、帰って来ません。",
+              "reading": "かれはでていったきり、かえってきません。",
+              "vietnamese": "Anh ấy đi ra ngoài rồi không quay về nữa.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ba9459a7635ca662",
+      "title": "～ついでに",
+      "summary": "Nhân tiện ~",
+      "structures": [
+        "N の ＋ ついでに",
+        "V thể từ điển / thể た ＋ ついでに"
+      ],
+      "explanation": [],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Nhân tiện làm việc chính thì làm luôn việc phụ",
+          "detail": "",
+          "examples": [
+            {
+              "id": "0139a55937031af0",
+              "japanese": "買い物のついでに郵便局に寄りました。",
+              "reading": "かいもののついでにゆうびんきょくによりました。",
+              "vietnamese": "Nhân tiện đi mua đồ, tôi ghé qua bưu điện.",
+              "note": ""
+            },
+            {
+              "id": "d5f2aeb6428ba4af",
+              "japanese": "散歩に行くついでに手紙を出します。",
+              "reading": "さんぽにいくついでにてがみをだします。",
+              "vietnamese": "Nhân tiện đi dạo, tôi sẽ gửi lá thư.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

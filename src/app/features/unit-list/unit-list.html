@@ -1,0 +1,113 @@
+<div class="container page">
+  <div class="stack stack-xl">
+    <section class="page-head">
+      <a class="back-link small" routerLink="/">{{ t('common.backHome') }}</a>
+      <h1>
+        <span class="head-icon jp" aria-hidden="true">{{ module().icon }}</span>
+        <app-t [key]="module().labelKey" />
+      </h1>
+      <p><app-t [key]="module().descKey" block /></p>
+    </section>
+
+    @if (status() === 'loading') {
+      <div class="card-grid" role="status" [attr.aria-label]="t('common.loading')">
+        @for (i of skeletons; track i) {
+          <div class="skeleton skeleton-card"></div>
+        }
+      </div>
+    }
+
+    @if (errorKey(); as key) {
+      <div class="notice notice-error">
+        <div class="stack" style="gap: 10px">
+          <strong>{{ t(key) }}</strong>
+          <div>
+            <button type="button" class="btn btn-sm" (click)="reload()">
+              {{ t('common.retry') }}
+            </button>
+          </div>
+        </div>
+      </div>
+    }
+
+    @if (allUnits().length > 0) {
+      <div class="toolbar">
+        <div class="search">
+          <span class="search-icon" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="9" cy="9" r="6" />
+              <path d="M13.5 13.5 17 17" stroke-linecap="round" />
+            </svg>
+          </span>
+          <input
+            type="search"
+            class="input"
+            [placeholder]="t('unit.search')"
+            [attr.aria-label]="t('unit.search.aria')"
+            [value]="search()"
+            (input)="onSearch($event)"
+          />
+          @if (search()) {
+            <button
+              type="button"
+              class="search-clear"
+              (click)="clearSearch()"
+              [title]="t('unit.search.clear')"
+              [attr.aria-label]="t('unit.search.clear')"
+            >
+              <span aria-hidden="true">✕</span>
+            </button>
+          }
+        </div>
+
+        <div class="row toolbar-counts">
+          <span class="badge">{{ t('unit.count', { count: units().length }) }}</span>
+          <span class="badge">{{ t('unit.itemCount', { count: totalItems() }) }}</span>
+        </div>
+      </div>
+
+      @if (noMatch()) {
+        <div class="empty-state">
+          <span class="empty-state-icon" aria-hidden="true">🔍</span>
+          <p class="empty-state-title">{{ t('unit.noMatch.title', { term: search() }) }}</p>
+          <p class="empty-state-text"><app-t key="unit.noMatch.text" block /></p>
+          <button type="button" class="btn btn-sm" (click)="clearSearch()">
+            {{ t('unit.noMatch.reset') }}
+          </button>
+        </div>
+      } @else {
+        <div class="card-grid">
+          @for (unit of units(); track unit.id) {
+            <a class="card link-card" [routerLink]="['/', module().path, unit.id]">
+              <span class="card-title">{{ unit.name }}</span>
+
+              @if (unit.description) {
+                <p class="muted small clamp-2">{{ unit.description }}</p>
+              }
+
+              <div class="card-foot">
+                <span class="badge">{{ t('unit.itemCount', { count: unit.itemCount }) }}</span>
+                <!-- So với null chứ không dùng `as`: điểm 0% cũng là một kết quả đã
+                     làm, mà `@if (x; as y)` thì 0 rơi vào nhánh sai và huy hiệu biến mất. -->
+                @let percent = bestPercent(unit.id);
+                @if (percent !== null) {
+                  <span class="badge badge-success">{{ t('result.percent', { percent }) }}</span>
+                }
+                <span class="spacer"></span>
+                <span class="card-go" aria-hidden="true">→</span>
+              </div>
+            </a>
+          }
+        </div>
+      }
+    } @else if (status() === 'ready') {
+      <div class="empty-state">
+        <span class="empty-state-icon" aria-hidden="true">📄</span>
+        <p class="empty-state-title">{{ t('unit.empty.title') }}</p>
+        <p class="empty-state-text">
+          <app-t key="unit.empty.text" [params]="{ folder: module().folder }" block />
+        </p>
+      </div>
+    }
+  </div>
+</div>

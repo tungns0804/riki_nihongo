@@ -1,0 +1,80 @@
+<div class="container page">
+  <div class="stack stack-xl">
+    <section class="page-head">
+      <h1>{{ t('home.title') }}</h1>
+      <p><app-t key="home.subtitle" block /></p>
+    </section>
+
+    @if (status() === 'loading') {
+      <div class="card-grid" role="status" [attr.aria-label]="t('common.loading')">
+        @for (id of skeletons; track id) {
+          <div class="skeleton skeleton-card"></div>
+        }
+      </div>
+    }
+
+    @if (errorKey(); as key) {
+      <div class="notice notice-error">
+        <div class="stack" style="gap: 10px">
+          <strong>{{ t(key) }}</strong>
+          <div>
+            <button type="button" class="btn btn-sm" (click)="reload()">
+              {{ t('common.retry') }}
+            </button>
+          </div>
+        </div>
+      </div>
+    }
+
+    @if (status() === 'ready') {
+      <div class="row">
+        <span class="badge">{{ t('home.moduleCount', { count: modules().length }) }}</span>
+        <span class="badge">{{ t('home.unitCount', { count: totalUnits() }) }}</span>
+      </div>
+
+      @if (isEmpty()) {
+        <div class="empty-state">
+          <span class="empty-state-icon" aria-hidden="true">📚</span>
+          <p class="empty-state-title">{{ t('home.empty.title') }}</p>
+          <p class="empty-state-text"><app-t key="home.empty.text" block /></p>
+        </div>
+      }
+
+      <div class="card-grid">
+        @for (module of modules(); track module.id) {
+          <a
+            class="card link-card"
+            [class.is-empty]="module.unitCount === 0"
+            [attr.aria-disabled]="module.unitCount === 0 ? 'true' : null"
+            [attr.tabindex]="module.unitCount === 0 ? -1 : null"
+            [routerLink]="['/', module.path]"
+          >
+            <span class="card-title">
+              <span class="card-icon jp" aria-hidden="true">{{ module.icon }}</span>
+              <app-t [key]="module.labelKey" />
+            </span>
+
+            <p class="muted small module-desc"><app-t [key]="module.descKey" block /></p>
+
+            <div class="card-foot">
+              @if (module.unitCount > 0) {
+                <span class="badge badge-accent">
+                  <app-t [key]="module.unitKey" [params]="{ count: module.unitCount }" />
+                </span>
+                @if (module.studiedCount > 0) {
+                  <span class="badge badge-success">
+                    {{ t('home.unitCount', { count: module.studiedCount }) }}
+                  </span>
+                }
+                <span class="spacer"></span>
+                <span class="card-go" aria-hidden="true">→</span>
+              } @else {
+                <span class="badge">{{ t('home.pending') }}</span>
+              }
+            </div>
+          </a>
+        }
+      </div>
+    }
+  </div>
+</div>
