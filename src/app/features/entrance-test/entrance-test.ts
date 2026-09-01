@@ -71,6 +71,7 @@ export class EntranceTest {
         answerMode: 'choice',
         direction: 'jp-vi',
         questionLimit: null,
+        group: null,
       };
 
       const questions = buildQuestions(unit, config);

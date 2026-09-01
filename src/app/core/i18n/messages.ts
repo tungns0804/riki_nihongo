@@ -166,6 +166,7 @@ export const MESSAGES = {
   'vocab.search': { vi: 'Tìm từ, cách đọc hoặc nghĩa…', ja: '単語・読み方・意味で検索…' },
   'vocab.search.aria': { vi: 'Tìm từ trong bài này', ja: 'この課の単語を検索' },
   'vocab.shown': { vi: 'Hiện {shown}/{total} từ', ja: '{total}語中{shown}語' },
+  'vocab.group': { vi: 'Cụm {name}', ja: 'グループ {name}' },
   'vocab.noMatch': {
     vi: 'Không có từ nào khớp {term}',
     ja: '{term} に一致する単語はありません',
@@ -220,6 +221,7 @@ export const MESSAGES = {
   'practice.direction.jpToVi': { vi: 'Nhật → Việt', ja: '日本語 → ベトナム語' },
   'practice.direction.viToJp': { vi: 'Việt → Nhật', ja: 'ベトナム語 → 日本語' },
   'practice.direction.jpToReading': { vi: 'Nhật → Cách đọc', ja: '日本語 → 読み方' },
+  'practice.group': { vi: 'Cụm từ', ja: 'グループ' },
   'practice.count': { vi: 'Số câu', ja: '問題数' },
   'practice.start': { vi: 'Bắt đầu luyện', ja: '練習を始める' },
   'practice.progress': { vi: 'Câu {current}/{total}', ja: '{current}/{total}問' },

@@ -26,7 +26,7 @@
 
     @if (unit(); as data) {
       @if (allWords().length > 0) {
-        <app-practice-setup [unit]="data" />
+        <app-practice-setup [unit]="data" [(group)]="group" />
 
         <div class="toolbar">
           <div class="search">
@@ -62,55 +62,54 @@
           </span>
         </div>
 
-        @if (noMatch()) {
-          <div class="empty-state">
-            <span class="empty-state-icon" aria-hidden="true">🔍</span>
-            <p class="empty-state-title">{{ t('vocab.noMatch', { term: search() }) }}</p>
-            <button type="button" class="btn btn-sm" (click)="clearSearch()">
-              {{ t('unit.noMatch.reset') }}
-            </button>
-          </div>
-        }
-
-        <ol class="word-list">
-          @for (word of words(); track word.id) {
-            <li class="card word-card">
-              <div class="word-head">
-                @if (word.number > 0) {
-                  <span class="word-number tnum">{{ word.number }}</span>
-                }
-                <span class="jp word-jp">{{ word.japanese }}</span>
-                @if (word.reading) {
-                  <span class="jp word-reading">{{ word.reading }}</span>
-                }
-                <span class="word-meaning">{{ word.vietnamese }}</span>
-                @if (word.hanViet) {
-                  <span class="badge word-han">{{ word.hanViet }}</span>
-                }
-              </div>
-
-              @if (word.examples.length > 0 || word.notes.length > 0) {
-                <div class="word-body">
-                  @for (example of word.examples; track example.id) {
-                    <p class="example">
-                      <span class="jp">{{ example.japanese }}</span>
-                      @if (example.vietnamese) {
-                        <span class="muted small example-vi">{{ example.vietnamese }}</span>
-                      }
-                    </p>
-                  }
-
-                  @for (note of word.notes; track $index) {
-                    <p class="note">
-                      <span class="jp note-label">{{ note.label }}</span>
-                      <span class="jp note-text">{{ note.text }}</span>
-                    </p>
-                  }
-                </div>
-              }
-            </li>
+        @for (section of sections(); track section.label) {
+          @if (section.label) {
+            <h2 class="group-head">
+              {{ t('vocab.group', { name: section.label }) }}
+              <span class="badge">{{ t('unit.itemCount', { count: section.words.length }) }}</span>
+            </h2>
           }
-        </ol>
+
+          <ol class="word-list">
+            @for (word of section.words; track word.id) {
+              <li class="card word-card">
+                <div class="word-head">
+                  @if (word.number > 0) {
+                    <span class="word-number tnum">{{ word.number }}</span>
+                  }
+                  <span class="jp word-jp">{{ word.japanese }}</span>
+                  @if (word.reading) {
+                    <span class="jp word-reading">{{ word.reading }}</span>
+                  }
+                  @if (word.hanViet) {
+                    <span class="badge word-han">{{ word.hanViet }}</span>
+                  }
+                  <span class="word-meaning">{{ word.vietnamese }}</span>
+                </div>
+
+                @if (word.examples.length > 0 || word.notes.length > 0) {
+                  <div class="word-body">
+                    @for (example of word.examples; track example.id) {
+                      <p class="example">
+                        <span class="jp">{{ example.japanese }}</span>
+                        @if (example.vietnamese) {
+                          <span class="muted small example-vi">{{ example.vietnamese }}</span>
+                        }
+                      </p>
+                    }
+
+                    @for (note of word.notes; track $index) {
+                      <p class="note">
+                        <span class="jp note-label">{{ note.label }}</span>
+                        <span class="jp note-text">{{ note.text }}</span>
+                      </p>
+                    }
+                  </div>
+                }
+              </li>
+            }
+          </ol>
+        }
 
       } @else if (!loading()) {
         <div class="empty-state">

@@ -220,10 +220,17 @@ export function directionIsUsable(unit: Unit, direction: PracticeDirection): boo
 export function buildQuestions(unit: Unit, config: PracticeConfig): PracticeQuestion[] {
   const withChoices = config.answerMode === 'choice';
 
+  // Lọc theo cụm TRƯỚC khi dựng câu hỏi: mồi nhiễu cũng phải lấy trong cụm đang
+  // luyện, nếu không thì ba lựa chọn sai đến từ những từ chưa học bao giờ và chọn
+  // đúng chỉ nhờ loại trừ.
+  const words = config.group
+    ? unit.words.filter((word) => word.group === config.group)
+    : unit.words;
+
   const all = (() => {
     switch (unit.kind) {
       case 'vocabulary':
-        return fromVocabulary(unit.words, config.direction, withChoices);
+        return fromVocabulary(words, config.direction, withChoices);
       case 'kanji':
         return fromKanji(unit.kanji, config.direction, withChoices);
       case 'grammar':

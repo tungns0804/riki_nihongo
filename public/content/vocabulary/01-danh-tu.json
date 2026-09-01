@@ -5,11 +5,12 @@
   "kind": "vocabulary",
   "words": [
     {
-      "id": "75478183ebe7cea1",
+      "id": "0c4e9a3169cb4dfa",
       "number": 1,
+      "group": "01–10",
       "japanese": "男性",
       "reading": "だんせい",
-      "hanViet": "",
+      "hanViet": "NAM TÍNH",
       "vietnamese": "Nam giới",
       "examples": [
         {
@@ -21,11 +22,12 @@
       "notes": []
     },
     {
-      "id": "580968bd76bff52c",
+      "id": "0f4e9a7327e3ad87",
       "number": 2,
+      "group": "01–10",
       "japanese": "女性",
       "reading": "じょせい",
-      "hanViet": "",
+      "hanViet": "NỮ TÍNH",
       "vietnamese": "Nữ giới",
       "examples": [
         {
@@ -37,11 +39,12 @@
       "notes": []
     },
     {
-      "id": "d9226db2c1d01a7c",
+      "id": "c0471bc27938f47a",
       "number": 3,
+      "group": "01–10",
       "japanese": "高齢",
       "reading": "こうれい",
-      "hanViet": "",
+      "hanViet": "CAO LINH",
       "vietnamese": "Già, cao tuổi",
       "examples": [
         {
@@ -58,11 +61,12 @@
       ]
     },
     {
-      "id": "cd5a6ceb40dd9ec9",
+      "id": "d61b828c139fc8e7",
       "number": 4,
+      "group": "01–10",
       "japanese": "年上",
       "reading": "としうえ",
-      "hanViet": "",
+      "hanViet": "NIÊN THƯỢNG",
       "vietnamese": "Hơn tuổi",
       "examples": [
         {
@@ -84,11 +88,12 @@
       ]
     },
     {
-      "id": "2f761190aa368c02",
+      "id": "5cf9f2420619acf6",
       "number": 5,
+      "group": "01–10",
       "japanese": "目上",
       "reading": "めうえ",
-      "hanViet": "",
+      "hanViet": "MỤC THƯỢNG",
       "vietnamese": "Người trên",
       "examples": [
         {
@@ -105,11 +110,12 @@
       ]
     },
     {
-      "id": "96654f7e12e64575",
+      "id": "a3ea7b2d618a23c3",
       "number": 6,
+      "group": "01–10",
       "japanese": "先輩",
       "reading": "せんぱい",
-      "hanViet": "",
+      "hanViet": "TIÊN BỐI",
       "vietnamese": "Tiền bối",
       "examples": [
         {
@@ -126,11 +132,12 @@
       ]
     },
     {
-      "id": "34d70384c199b1e1",
+      "id": "16d23a93f8b46f25",
       "number": 7,
+      "group": "01–10",
       "japanese": "後輩",
       "reading": "こうはい",
-      "hanViet": "",
+      "hanViet": "HẬU BỐI",
       "vietnamese": "Hậu bối",
       "examples": [
         {
@@ -147,11 +154,12 @@
       ]
     },
     {
-      "id": "d7dd1fa0c7ca2f86",
+      "id": "db31cc33cdbe909d",
       "number": 8,
+      "group": "01–10",
       "japanese": "上司",
       "reading": "じょうし",
-      "hanViet": "",
+      "hanViet": "THƯỢNG TY",
       "vietnamese": "Sếp, cấp trên",
       "examples": [
         {
@@ -172,11 +180,12 @@
       ]
     },
     {
-      "id": "b2270d8b63951c3d",
+      "id": "01e6cb9f58866cf0",
       "number": 9,
+      "group": "01–10",
       "japanese": "相手",
       "reading": "あいて",
-      "hanViet": "",
+      "hanViet": "TƯƠNG THỦ",
       "vietnamese": "Đối phương, đối thủ",
       "examples": [
         {
@@ -198,11 +207,12 @@
       ]
     },
     {
-      "id": "69919b909363cc24",
+      "id": "0be089cafbcc9c3b",
       "number": 10,
+      "group": "01–10",
       "japanese": "知り合い",
       "reading": "しりあい",
-      "hanViet": "",
+      "hanViet": "TRI HỢP",
       "vietnamese": "Người quen",
       "examples": [
         {
@@ -219,11 +229,12 @@
       ]
     },
     {
-      "id": "4c48f6e488bd7ac1",
+      "id": "bc7b39a8cabb8b8b",
       "number": 11,
+      "group": "11–20",
       "japanese": "友人",
       "reading": "ゆうじん",
-      "hanViet": "",
+      "hanViet": "HỮU NHÂN",
       "vietnamese": "Bạn bè",
       "examples": [
         {
@@ -235,11 +246,12 @@
       "notes": []
     },
     {
-      "id": "5717b40255a02d1f",
+      "id": "f97d3aef0124a944",
       "number": 12,
+      "group": "11–20",
       "japanese": "仲",
       "reading": "なか",
-      "hanViet": "",
+      "hanViet": "TRỌNG",
       "vietnamese": "Mối quan hệ",
       "examples": [
         {
@@ -256,11 +268,12 @@
       ]
     },
     {
-      "id": "b86bc1005d96bc93",
+      "id": "97a92d9b9718f34a",
       "number": 13,
+      "group": "11–20",
       "japanese": "生年月日",
       "reading": "せいねんがっぴ",
-      "hanViet": "",
+      "hanViet": "SINH NIÊN NGUYỆT NHẬT",
       "vietnamese": "Ngày tháng năm sinh",
       "examples": [
         {
@@ -277,11 +290,12 @@
       ]
     },
     {
-      "id": "58a3575a0eda7c31",
+      "id": "3c5148fd7a184773",
       "number": 14,
+      "group": "11–20",
       "japanese": "誕生",
       "reading": "たんじょう",
-      "hanViet": "",
+      "hanViet": "ĐẢN SINH",
       "vietnamese": "Sự ra đời, sinh ra",
       "examples": [
         {
@@ -298,11 +312,12 @@
       "notes": []
     },
     {
-      "id": "f948a8352ffe3a50",
+      "id": "f47c31d902809116",
       "number": 15,
+      "group": "11–20",
       "japanese": "年",
       "reading": "とし",
-      "hanViet": "",
+      "hanViet": "NIÊN",
       "vietnamese": "Năm, tuổi",
       "examples": [
         {
@@ -324,11 +339,12 @@
       ]
     },
     {
-      "id": "4d8219e485106acd",
+      "id": "eb127c78334176eb",
       "number": 16,
+      "group": "11–20",
       "japanese": "出身",
       "reading": "しゅっしん",
-      "hanViet": "",
+      "hanViet": "XUẤT THÂN",
       "vietnamese": "Xuất thân, quê quán",
       "examples": [
         {
@@ -350,11 +366,12 @@
       ]
     },
     {
-      "id": "b77a5b1705861bed",
+      "id": "e5355e07325d4f5a",
       "number": 17,
+      "group": "11–20",
       "japanese": "故郷",
       "reading": "こきょう",
-      "hanViet": "",
+      "hanViet": "CỐ HƯƠNG",
       "vietnamese": "Quê hương",
       "examples": [
         {
@@ -371,11 +388,12 @@
       ]
     },
     {
-      "id": "ae9d50fa7fb33da9",
+      "id": "7f0bb861084c5ee8",
       "number": 18,
+      "group": "11–20",
       "japanese": "成長",
       "reading": "せいちょう",
-      "hanViet": "",
+      "hanViet": "THÀNH TRƯỞNG",
       "vietnamese": "Trưởng thành, tăng trưởng",
       "examples": [
         {
@@ -397,11 +415,12 @@
       "notes": []
     },
     {
-      "id": "fe27e303e67888aa",
+      "id": "9d094220bf4711bd",
       "number": 19,
+      "group": "11–20",
       "japanese": "成人",
       "reading": "せいじん",
-      "hanViet": "",
+      "hanViet": "THÀNH NHÂN",
       "vietnamese": "Người lớn, người trưởng thành",
       "examples": [
         {
@@ -418,11 +437,12 @@
       ]
     },
     {
-      "id": "ca2eb9a088cc80b0",
+      "id": "1d20543c29297ba7",
       "number": 20,
+      "group": "11–20",
       "japanese": "合格",
       "reading": "ごうかく",
-      "hanViet": "",
+      "hanViet": "HỢP CÁCH",
       "vietnamese": "Thi đỗ, đỗ",
       "examples": [
         {
@@ -439,11 +459,12 @@
       ]
     },
     {
-      "id": "6bdc9847ce9a02a3",
+      "id": "8ccb84a5c80de1d9",
       "number": 21,
+      "group": "21–30",
       "japanese": "進学",
       "reading": "しんがく",
-      "hanViet": "",
+      "hanViet": "TIẾN HỌC",
       "vietnamese": "Học lên",
       "examples": [
         {
@@ -455,11 +476,12 @@
       "notes": []
     },
     {
-      "id": "747b91ec2da486ff",
+      "id": "d266c5d83346109c",
       "number": 22,
+      "group": "21–30",
       "japanese": "退学",
       "reading": "たいがく",
-      "hanViet": "",
+      "hanViet": "THOÁI HỌC",
       "vietnamese": "Nghỉ học, thôi học",
       "examples": [
         {
@@ -476,11 +498,12 @@
       ]
     },
     {
-      "id": "4f4bc18d362c4430",
+      "id": "54900d1ed2c29bdb",
       "number": 23,
+      "group": "21–30",
       "japanese": "就職",
       "reading": "しゅうしょく",
-      "hanViet": "",
+      "hanViet": "TỰU CHỨC",
       "vietnamese": "Xin việc",
       "examples": [
         {
@@ -497,11 +520,12 @@
       ]
     },
     {
-      "id": "827a0cd7fda3d9b9",
+      "id": "ca63cbff8fe99b3a",
       "number": 24,
+      "group": "21–30",
       "japanese": "退職",
       "reading": "たいしょく",
-      "hanViet": "",
+      "hanViet": "THOÁI CHỨC",
       "vietnamese": "Nghỉ việc",
       "examples": [
         {
@@ -523,11 +547,12 @@
       ]
     },
     {
-      "id": "2ffbb4383f0841e3",
+      "id": "7dfac270e870f428",
       "number": 25,
+      "group": "21–30",
       "japanese": "失業",
       "reading": "しつぎょう",
-      "hanViet": "",
+      "hanViet": "THẤT NGHIỆP",
       "vietnamese": "Thất nghiệp",
       "examples": [
         {
@@ -548,11 +573,12 @@
       ]
     },
     {
-      "id": "94679a0bd4b424e0",
+      "id": "a3a2d53bf425c2f5",
       "number": 26,
+      "group": "21–30",
       "japanese": "残業",
       "reading": "ざんぎょう",
-      "hanViet": "",
+      "hanViet": "TÀN NGHIỆP",
       "vietnamese": "Làm thêm giờ",
       "examples": [
         {
@@ -564,11 +590,12 @@
       "notes": []
     },
     {
-      "id": "a29c9eac243c4682",
+      "id": "7f65208b8a520a43",
       "number": 27,
+      "group": "21–30",
       "japanese": "生活",
       "reading": "せいかつ",
-      "hanViet": "",
+      "hanViet": "SINH HOẠT",
       "vietnamese": "Cuộc sống",
       "examples": [
         {
@@ -609,11 +636,12 @@
       ]
     },
     {
-      "id": "154a1d52a6b8316c",
+      "id": "1f6439ddf732b73e",
       "number": 28,
+      "group": "21–30",
       "japanese": "通勤",
       "reading": "つうきん",
-      "hanViet": "",
+      "hanViet": "THÔNG CẦN",
       "vietnamese": "Đi làm (di chuyển)",
       "examples": [
         {
@@ -634,11 +662,12 @@
       ]
     },
     {
-      "id": "bd9f17b19ec7d9d4",
+      "id": "68c3fc27b63d380b",
       "number": 29,
+      "group": "21–30",
       "japanese": "学歴",
       "reading": "がくれき",
-      "hanViet": "",
+      "hanViet": "HỌC LỊCH",
       "vietnamese": "Trình độ học vấn, bằng cấp",
       "examples": [
         {
@@ -665,11 +694,12 @@
       ]
     },
     {
-      "id": "07f136dd863e3faa",
+      "id": "996640cbbe723253",
       "number": 30,
+      "group": "21–30",
       "japanese": "給料",
       "reading": "きゅうりょう",
-      "hanViet": "",
+      "hanViet": "CẤP LIỆU",
       "vietnamese": "Lương",
       "examples": [
         {
@@ -691,11 +721,12 @@
       ]
     },
     {
-      "id": "b922c187a91211d6",
+      "id": "51d21e01891560e0",
       "number": 31,
+      "group": "31–40",
       "japanese": "面接",
       "reading": "めんせつ",
-      "hanViet": "",
+      "hanViet": "DIỆN TIẾP",
       "vietnamese": "Phỏng vấn",
       "examples": [
         {
@@ -716,11 +747,12 @@
       ]
     },
     {
-      "id": "cfb30e26c61c185a",
+      "id": "43e9ad4a06c50271",
       "number": 32,
+      "group": "31–40",
       "japanese": "休憩",
       "reading": "きゅうけい",
-      "hanViet": "",
+      "hanViet": "HƯU KHẾ",
       "vietnamese": "Nghỉ giải lao",
       "examples": [
         {
@@ -737,11 +769,12 @@
       ]
     },
     {
-      "id": "1a264d44b7eb869b",
+      "id": "e344cd1858fa2aa4",
       "number": 33,
+      "group": "31–40",
       "japanese": "観光",
       "reading": "かんこう",
-      "hanViet": "",
+      "hanViet": "QUAN QUANG",
       "vietnamese": "Du lịch, tham quan",
       "examples": [
         {
@@ -763,11 +796,12 @@
       ]
     },
     {
-      "id": "0505daa859b59fff",
+      "id": "3f8e9e36796ed363",
       "number": 34,
+      "group": "31–40",
       "japanese": "帰国",
       "reading": "きこく",
-      "hanViet": "",
+      "hanViet": "QUY QUỐC",
       "vietnamese": "Về nước",
       "examples": [
         {
@@ -779,11 +813,12 @@
       "notes": []
     },
     {
-      "id": "ba30289ef6b59aef",
+      "id": "d034166978054b93",
       "number": 35,
+      "group": "31–40",
       "japanese": "帰省",
       "reading": "きせい",
-      "hanViet": "",
+      "hanViet": "QUY TỈNH",
       "vietnamese": "Về quê",
       "examples": [
         {
@@ -795,11 +830,12 @@
       "notes": []
     },
     {
-      "id": "fe31b76f542b33aa",
+      "id": "436410751e90dcd2",
       "number": 36,
+      "group": "31–40",
       "japanese": "帰宅",
       "reading": "きたく",
-      "hanViet": "",
+      "hanViet": "QUY TRẠCH",
       "vietnamese": "Về nhà",
       "examples": [
         {
@@ -811,11 +847,12 @@
       "notes": []
     },
     {
-      "id": "b9e2f3601963082c",
+      "id": "d00191d2d129caf0",
       "number": 37,
+      "group": "31–40",
       "japanese": "参加",
       "reading": "さんか",
-      "hanViet": "",
+      "hanViet": "THAM GIA",
       "vietnamese": "Tham gia",
       "examples": [
         {
@@ -836,11 +873,12 @@
       ]
     },
     {
-      "id": "21eb9cbd01fff6ea",
+      "id": "913953882118dab9",
       "number": 38,
+      "group": "31–40",
       "japanese": "出席",
       "reading": "しゅっせき",
-      "hanViet": "",
+      "hanViet": "XUẤT TỊCH",
       "vietnamese": "Có mặt",
       "examples": [],
       "notes": [
@@ -855,11 +893,12 @@
       ]
     },
     {
-      "id": "1656e1e32457773d",
+      "id": "892eab6df282257d",
       "number": 39,
+      "group": "31–40",
       "japanese": "欠席",
       "reading": "けっせき",
-      "hanViet": "",
+      "hanViet": "KHUYẾT TỊCH",
       "vietnamese": "Vắng mặt",
       "examples": [],
       "notes": [
@@ -874,11 +913,12 @@
       ]
     },
     {
-      "id": "d1743718d9263d64",
+      "id": "1b4aef4b78168f6d",
       "number": 40,
+      "group": "31–40",
       "japanese": "遅刻",
       "reading": "ちこく",
-      "hanViet": "",
+      "hanViet": "TRÌ KHẮC",
       "vietnamese": "Đến muộn",
       "examples": [
         {
@@ -895,11 +935,12 @@
       "notes": []
     },
     {
-      "id": "c8a0107f51deb170",
+      "id": "ccc9b11311b9af20",
       "number": 41,
+      "group": "41–50",
       "japanese": "化粧",
       "reading": "けしょう",
-      "hanViet": "",
+      "hanViet": "HOÁ TRANG",
       "vietnamese": "Trang điểm",
       "examples": [
         {
@@ -932,11 +973,12 @@
       ]
     },
     {
-      "id": "03290eab706b40df",
+      "id": "3bf01d97a9826fa9",
       "number": 42,
+      "group": "41–50",
       "japanese": "計算",
       "reading": "けいさん",
-      "hanViet": "",
+      "hanViet": "KẾ TOÁN",
       "vietnamese": "Tính toán",
       "examples": [
         {
@@ -953,11 +995,12 @@
       "notes": []
     },
     {
-      "id": "c773e813d59d6bcb",
+      "id": "240b81ceba819498",
       "number": 43,
+      "group": "41–50",
       "japanese": "計画",
       "reading": "けいかく",
-      "hanViet": "",
+      "hanViet": "KẾ HOẠCH",
       "vietnamese": "Lên kế hoạch",
       "examples": [
         {
@@ -979,11 +1022,12 @@
       ]
     },
     {
-      "id": "429beb99ac1792ee",
+      "id": "7ea5e9a3f4470b93",
       "number": 44,
+      "group": "41–50",
       "japanese": "成功",
       "reading": "せいこう",
-      "hanViet": "",
+      "hanViet": "THÀNH CÔNG",
       "vietnamese": "Thành công",
       "examples": [
         {
@@ -1004,11 +1048,12 @@
       ]
     },
     {
-      "id": "ad420190b119df29",
+      "id": "b13dd7e12e8c6cdf",
       "number": 45,
+      "group": "41–50",
       "japanese": "失敗",
       "reading": "しっぱい",
-      "hanViet": "",
+      "hanViet": "THẤT BẠI",
       "vietnamese": "Thất bại",
       "examples": [
         {
@@ -1025,11 +1070,12 @@
       ]
     },
     {
-      "id": "de3560b11df7e75b",
+      "id": "82676aa7f6ead017",
       "number": 46,
+      "group": "41–50",
       "japanese": "準備",
       "reading": "じゅんび",
-      "hanViet": "",
+      "hanViet": "CHUẨN BỊ",
       "vietnamese": "Chuẩn bị",
       "examples": [
         {
@@ -1059,11 +1105,12 @@
       ]
     },
     {
-      "id": "07c5d6e9274189bf",
+      "id": "336f151f61d57061",
       "number": 47,
+      "group": "41–50",
       "japanese": "整理",
       "reading": "せいり",
-      "hanViet": "",
+      "hanViet": "CHỈNH LÝ",
       "vietnamese": "Sắp xếp",
       "examples": [
         {
@@ -1080,11 +1127,12 @@
       "notes": []
     },
     {
-      "id": "d52389465f173f69",
+      "id": "8587b85b93ed85d9",
       "number": 48,
+      "group": "41–50",
       "japanese": "注文",
       "reading": "ちゅうもん",
-      "hanViet": "",
+      "hanViet": "CHÚ VĂN",
       "vietnamese": "Đặt hàng/ Gọi món",
       "examples": [
         {
@@ -1110,11 +1158,12 @@
       ]
     },
     {
-      "id": "4055aea229d07857",
+      "id": "5ac9ddb820cb9425",
       "number": 49,
+      "group": "41–50",
       "japanese": "貯金",
       "reading": "ちょきん",
-      "hanViet": "",
+      "hanViet": "TRỮ KIM",
       "vietnamese": "Tích tiền",
       "examples": [
         {
@@ -1131,11 +1180,12 @@
       ]
     },
     {
-      "id": "51e6ba8d943fe2be",
+      "id": "39f40673cf80f44c",
       "number": 50,
+      "group": "41–50",
       "japanese": "徹夜",
       "reading": "てつや",
-      "hanViet": "",
+      "hanViet": "TRIỆT DẠ",
       "vietnamese": "Thức đêm",
       "examples": [
         {
@@ -1147,11 +1197,12 @@
       "notes": []
     },
     {
-      "id": "a2ba7fdf759450b9",
+      "id": "cae7f6d75294f116",
       "number": 51,
+      "group": "51–60",
       "japanese": "引っ越し",
       "reading": "ひっこし",
-      "hanViet": "",
+      "hanViet": "DẪN VIỆT",
       "vietnamese": "Chuyển nhà",
       "examples": [
         {
@@ -1173,11 +1224,12 @@
       "notes": []
     },
     {
-      "id": "46a86307ca87aaea",
+      "id": "a1c021c72dff9959",
       "number": 52,
+      "group": "51–60",
       "japanese": "身長",
       "reading": "しんちょう",
-      "hanViet": "",
+      "hanViet": "THÂN TRƯỜNG",
       "vietnamese": "Chiều cao",
       "examples": [
         {
@@ -1204,11 +1256,12 @@
       ]
     },
     {
-      "id": "5aa59229db9b236d",
+      "id": "60439aa0480de5e5",
       "number": 53,
+      "group": "51–60",
       "japanese": "体重",
       "reading": "たいじゅう",
-      "hanViet": "",
+      "hanViet": "THỂ TRỌNG",
       "vietnamese": "Cân nặng",
       "examples": [
         {
@@ -1236,6 +1289,7 @@
     {
       "id": "e0c7ac23cf2bef63",
       "number": 54,
+      "group": "51–60",
       "japanese": "けが",
       "reading": "",
       "hanViet": "",
@@ -1259,11 +1313,12 @@
       ]
     },
     {
-      "id": "1f65c2434f7bae1a",
+      "id": "d7a5e3131bb4fe46",
       "number": 55,
+      "group": "51–60",
       "japanese": "会",
       "reading": "かい",
-      "hanViet": "",
+      "hanViet": "HỘI",
       "vietnamese": "Tiệc",
       "examples": [
         {
@@ -1280,11 +1335,12 @@
       ]
     },
     {
-      "id": "bba52cc3bada0526",
+      "id": "8bf8bb2fb75d4f25",
       "number": 56,
+      "group": "51–60",
       "japanese": "趣味",
       "reading": "しゅみ",
-      "hanViet": "",
+      "hanViet": "THÚ VỊ",
       "vietnamese": "Sở thích",
       "examples": [
         {
@@ -1306,11 +1362,12 @@
       ]
     },
     {
-      "id": "c6013aab7bb3e42e",
+      "id": "fda02ca1f67908dd",
       "number": 57,
+      "group": "51–60",
       "japanese": "興味",
       "reading": "きょうみ",
-      "hanViet": "",
+      "hanViet": "HƯNG VỊ",
       "vietnamese": "Quan tâm/ Hứng thú",
       "examples": [
         {
@@ -1340,11 +1397,12 @@
       ]
     },
     {
-      "id": "6d8fbd7afb348fb1",
+      "id": "f2a755e88fe7efdb",
       "number": 58,
+      "group": "51–60",
       "japanese": "思い出",
       "reading": "おもいで",
-      "hanViet": "",
+      "hanViet": "TƯ XUẤT",
       "vietnamese": "Kỷ niệm",
       "examples": [
         {
@@ -1366,11 +1424,12 @@
       ]
     },
     {
-      "id": "2997f8e3c88c9760",
+      "id": "87fc6249ee7dc1e4",
       "number": 59,
+      "group": "51–60",
       "japanese": "冗談",
       "reading": "じょうだん",
-      "hanViet": "",
+      "hanViet": "NHŨNG ĐÀM",
       "vietnamese": "Nói đùa",
       "examples": [
         {
@@ -1387,11 +1446,12 @@
       ]
     },
     {
-      "id": "2738f5f999a39f0e",
+      "id": "e9725957021b876d",
       "number": 60,
+      "group": "51–60",
       "japanese": "目的",
       "reading": "もくてき",
-      "hanViet": "",
+      "hanViet": "MỤC ĐÍCH",
       "vietnamese": "Mục đích",
       "examples": [
         {
@@ -1408,11 +1468,12 @@
       ]
     },
     {
-      "id": "a9a0de992547557b",
+      "id": "2465958024566188",
       "number": 61,
+      "group": "61–70",
       "japanese": "約束",
       "reading": "やくそく",
-      "hanViet": "",
+      "hanViet": "ƯỚC THÚC",
       "vietnamese": "Lời hứa, hẹn",
       "examples": [
         {
@@ -1441,6 +1502,7 @@
     {
       "id": "de45f18d9dd7f8ad",
       "number": 62,
+      "group": "61–70",
       "japanese": "おしゃべり",
       "reading": "",
       "hanViet": "",
@@ -1460,11 +1522,12 @@
       "notes": []
     },
     {
-      "id": "1b44fab72fad5f40",
+      "id": "2ec8c9d06bb2ad02",
       "number": 63,
+      "group": "61–70",
       "japanese": "遠慮",
       "reading": "えんりょ",
-      "hanViet": "",
+      "hanViet": "VIỄN LỰ",
       "vietnamese": "Ngại/ Kiềm chế, dè chừng",
       "examples": [
         {
@@ -1486,11 +1549,12 @@
       "notes": []
     },
     {
-      "id": "7818702c0cd4c123",
+      "id": "7e55250dbd71b386",
       "number": 64,
+      "group": "61–70",
       "japanese": "我慢",
       "reading": "がまん",
-      "hanViet": "",
+      "hanViet": "NGÃ MẠN",
       "vietnamese": "Chịu đựng",
       "examples": [
         {
@@ -1517,11 +1581,12 @@
       ]
     },
     {
-      "id": "a22dac0eae3d2bda",
+      "id": "7ec9f7baa730a187",
       "number": 65,
+      "group": "61–70",
       "japanese": "迷惑",
       "reading": "めいわく",
-      "hanViet": "",
+      "hanViet": "MÊ HOẶC",
       "vietnamese": "Phiền toái",
       "examples": [
         {
@@ -1548,11 +1613,12 @@
       ]
     },
     {
-      "id": "02cc2ea70415ddbb",
+      "id": "772e91b7cae4d488",
       "number": 66,
+      "group": "61–70",
       "japanese": "希望",
       "reading": "きぼう",
-      "hanViet": "",
+      "hanViet": "HY VỌNG",
       "vietnamese": "Hi vọng/ Mong muốn",
       "examples": [
         {
@@ -1579,11 +1645,12 @@
       ]
     },
     {
-      "id": "b53c47fbb93b5b66",
+      "id": "ca121ed042e0f0a7",
       "number": 67,
+      "group": "61–70",
       "japanese": "夢",
       "reading": "ゆめ",
-      "hanViet": "",
+      "hanViet": "MỘNG",
       "vietnamese": "Giấc mơ/ Ước mơ",
       "examples": [
         {
@@ -1619,11 +1686,12 @@
       ]
     },
     {
-      "id": "cb2a8d0c8f034a43",
+      "id": "ecd5b9803098ff38",
       "number": 68,
+      "group": "61–70",
       "japanese": "賛成",
       "reading": "さんせい",
-      "hanViet": "",
+      "hanViet": "TÁN THÀNH",
       "vietnamese": "Tán thành",
       "examples": [
         {
@@ -1645,11 +1713,12 @@
       ]
     },
     {
-      "id": "b6ebc8e780cdfaf6",
+      "id": "95a1808a9b1e2d78",
       "number": 69,
+      "group": "61–70",
       "japanese": "反対",
       "reading": "はんたい",
-      "hanViet": "",
+      "hanViet": "PHẢN ĐỐI",
       "vietnamese": "Phản đối",
       "examples": [
         {
@@ -1670,11 +1739,12 @@
       ]
     },
     {
-      "id": "d49bed18d0fcaaa4",
+      "id": "b1ae19a2d11807c4",
       "number": 70,
+      "group": "61–70",
       "japanese": "想像",
       "reading": "そうぞう",
-      "hanViet": "",
+      "hanViet": "TƯỞNG TƯỢNG",
       "vietnamese": "Tưởng tượng",
       "examples": [
         {
@@ -1706,11 +1776,12 @@
       ]
     },
     {
-      "id": "e3b1955151454035",
+      "id": "b4d606df3253b856",
       "number": 71,
+      "group": "71–80",
       "japanese": "努力",
       "reading": "どりょく",
-      "hanViet": "",
+      "hanViet": "NỖ LỰC",
       "vietnamese": "Nỗ lực, cố gắng",
       "examples": [
         {
@@ -1745,11 +1816,12 @@
       ]
     },
     {
-      "id": "969ea6d2032441c7",
+      "id": "6b7999badec36a51",
       "number": 72,
+      "group": "71–80",
       "japanese": "太陽",
       "reading": "たいよう",
-      "hanViet": "",
+      "hanViet": "THÁI DƯƠNG",
       "vietnamese": "Mặt trời",
       "examples": [
         {
@@ -1776,11 +1848,12 @@
       "notes": []
     },
     {
-      "id": "28fbeda55e525adf",
+      "id": "a7e8756de8165304",
       "number": 73,
+      "group": "71–80",
       "japanese": "地球",
       "reading": "ちきゅう",
-      "hanViet": "",
+      "hanViet": "ĐỊA CẦU",
       "vietnamese": "Trái đất",
       "examples": [
         {
@@ -1802,11 +1875,12 @@
       ]
     },
     {
-      "id": "4e2f8690562f92af",
+      "id": "e28b31af650cccfe",
       "number": 74,
+      "group": "71–80",
       "japanese": "温度",
       "reading": "おんど",
-      "hanViet": "",
+      "hanViet": "ÔN ĐỘ",
       "vietnamese": "Nhiệt độ",
       "examples": [
         {
@@ -1827,11 +1901,12 @@
       ]
     },
     {
-      "id": "e88efd668d275dc6",
+      "id": "1586194f38dc5e9a",
       "number": 75,
+      "group": "71–80",
       "japanese": "湿度",
       "reading": "しつど",
-      "hanViet": "",
+      "hanViet": "THẤP ĐỘ",
       "vietnamese": "Độ ẩm",
       "examples": [
         {
@@ -1853,11 +1928,12 @@
       ]
     },
     {
-      "id": "89e6be0127f06906",
+      "id": "70d9052a55efb71b",
       "number": 76,
+      "group": "71–80",
       "japanese": "湿気",
       "reading": "しっけ",
-      "hanViet": "",
+      "hanViet": "THẤP KHÍ",
       "vietnamese": "Hơi ẩm",
       "examples": [
         {
@@ -1874,11 +1950,12 @@
       "notes": []
     },
     {
-      "id": "a6497a262dd9f537",
+      "id": "6019aeee9b8a2390",
       "number": 77,
+      "group": "71–80",
       "japanese": "梅雨",
       "reading": "つゆ",
-      "hanViet": "",
+      "hanViet": "MAI VŨ",
       "vietnamese": "Mùa mưa",
       "examples": [
         {
@@ -1897,6 +1974,7 @@
     {
       "id": "981d18481c2e2841",
       "number": 78,
+      "group": "71–80",
       "japanese": "かび",
       "reading": "",
       "hanViet": "",
@@ -1911,11 +1989,12 @@
       "notes": []
     },
     {
-      "id": "ec2c793be433ece7",
+      "id": "8a7731639421e568",
       "number": 79,
+      "group": "71–80",
       "japanese": "暖房",
       "reading": "だんぼう",
-      "hanViet": "",
+      "hanViet": "NOÃN PHÒNG",
       "vietnamese": "Máy sưởi",
       "examples": [
         {
@@ -1941,11 +2020,12 @@
       ]
     },
     {
-      "id": "f1da91cfd7667a34",
+      "id": "eecfe4c65a5143a7",
       "number": 80,
+      "group": "71–80",
       "japanese": "皮",
       "reading": "かわ",
-      "hanViet": "",
+      "hanViet": "BÌ",
       "vietnamese": "Vỏ, da",
       "examples": [
         {
@@ -1957,11 +2037,12 @@
       "notes": []
     },
     {
-      "id": "b14868a613a024bb",
+      "id": "19eb5ec5781ab06c",
       "number": 81,
+      "group": "81–90",
       "japanese": "缶",
       "reading": "かん",
-      "hanViet": "",
+      "hanViet": "PHỮU",
       "vietnamese": "Lon, hộp",
       "examples": [
         {
@@ -1982,11 +2063,12 @@
       ]
     },
     {
-      "id": "1826fdba3c9adcbd",
+      "id": "eecb35a12ec38f84",
       "number": 82,
+      "group": "81–90",
       "japanese": "画面",
       "reading": "がめん",
-      "hanViet": "",
+      "hanViet": "HOẠ DIỆN",
       "vietnamese": "Màn hình",
       "examples": [
         {
@@ -2008,11 +2090,12 @@
       "notes": []
     },
     {
-      "id": "836bfe3db4b6845a",
+      "id": "7f54dda56d620c0e",
       "number": 83,
+      "group": "81–90",
       "japanese": "番組",
       "reading": "ばんぐみ",
-      "hanViet": "",
+      "hanViet": "PHIÊN TỔ",
       "vietnamese": "Chương trình tivi",
       "examples": [
         {
@@ -2034,11 +2117,12 @@
       ]
     },
     {
-      "id": "27b566e092cbab12",
+      "id": "0945cc5e253d9f13",
       "number": 84,
+      "group": "81–90",
       "japanese": "記事",
       "reading": "きじ",
-      "hanViet": "",
+      "hanViet": "KÝ SỰ",
       "vietnamese": "Bài báo",
       "examples": [
         {
@@ -2055,11 +2139,12 @@
       ]
     },
     {
-      "id": "e905baeb7136d29f",
+      "id": "3a3a9b5cee733ced",
       "number": 85,
+      "group": "81–90",
       "japanese": "近所",
       "reading": "きんじょ",
-      "hanViet": "",
+      "hanViet": "CẬN SỞ",
       "vietnamese": "Hàng xóm/ Gần",
       "examples": [
         {
@@ -2094,11 +2179,12 @@
       ]
     },
     {
-      "id": "5139748c0477914d",
+      "id": "47d9f4a2617c51c0",
       "number": 86,
+      "group": "81–90",
       "japanese": "警察",
       "reading": "けいさつ",
-      "hanViet": "",
+      "hanViet": "CẢNH SÁT",
       "vietnamese": "Cảnh sát",
       "examples": [
         {
@@ -2119,11 +2205,12 @@
       ]
     },
     {
-      "id": "602335b60f65400c",
+      "id": "32617b3ad3cb2739",
       "number": 87,
+      "group": "81–90",
       "japanese": "犯人",
       "reading": "はんにん",
-      "hanViet": "",
+      "hanViet": "PHẠM NHÂN",
       "vietnamese": "Hung thủ, tội phạm",
       "examples": [
         {
@@ -2135,11 +2222,12 @@
       "notes": []
     },
     {
-      "id": "1013ec61aa05f823",
+      "id": "e512a0d975868b9d",
       "number": 88,
+      "group": "81–90",
       "japanese": "小銭",
       "reading": "こぜに",
-      "hanViet": "",
+      "hanViet": "TIỂU TIỀN",
       "vietnamese": "Tiền lẻ",
       "examples": [
         {
@@ -2162,6 +2250,7 @@
     {
       "id": "41f7f93db1652a42",
       "number": 89,
+      "group": "81–90",
       "japanese": "ごちそう",
       "reading": "",
       "hanViet": "",
@@ -2186,11 +2275,12 @@
       "notes": []
     },
     {
-      "id": "0d230bc5614793bc",
+      "id": "8f8865c594d0a723",
       "number": 90,
+      "group": "81–90",
       "japanese": "作者",
       "reading": "さくしゃ",
-      "hanViet": "",
+      "hanViet": "TÁC GIẢ",
       "vietnamese": "Tác giả",
       "examples": [
         {
@@ -2220,11 +2310,12 @@
       ]
     },
     {
-      "id": "6b070147b880ffd3",
+      "id": "d3a5088102e7535a",
       "number": 91,
+      "group": "91–100",
       "japanese": "作品",
       "reading": "さくひん",
-      "hanViet": "",
+      "hanViet": "TÁC PHẨM",
       "vietnamese": "Tác phẩm",
       "examples": [
         {
@@ -2241,11 +2332,12 @@
       ]
     },
     {
-      "id": "50a6885b86f50056",
+      "id": "c27c75297b21fd41",
       "number": 92,
+      "group": "91–100",
       "japanese": "制服",
       "reading": "せいふく",
-      "hanViet": "",
+      "hanViet": "CHẾ PHỤC",
       "vietnamese": "Đồng phục",
       "examples": [
         {
@@ -2276,11 +2368,12 @@
       ]
     },
     {
-      "id": "c4fad55e71626de6",
+      "id": "d065c3351e16e14f",
       "number": 93,
+      "group": "91–100",
       "japanese": "洗剤",
       "reading": "せんざい",
-      "hanViet": "",
+      "hanViet": "TẨY TỄ",
       "vietnamese": "Chất tẩy rửa",
       "examples": [
         {
@@ -2297,11 +2390,12 @@
       ]
     },
     {
-      "id": "a47983617f66a215",
+      "id": "48dcc696091af6c8",
       "number": 94,
+      "group": "91–100",
       "japanese": "底",
       "reading": "そこ",
-      "hanViet": "",
+      "hanViet": "ĐỂ",
       "vietnamese": "Đế, đáy",
       "examples": [
         {
@@ -2333,11 +2427,12 @@
       "notes": []
     },
     {
-      "id": "1256b7bd16e7bde8",
+      "id": "2566f4a4b22c55cb",
       "number": 95,
+      "group": "91–100",
       "japanese": "地下",
       "reading": "ちか",
-      "hanViet": "",
+      "hanViet": "ĐỊA HẠ",
       "vietnamese": "Dưới đất",
       "examples": [
         {
@@ -2358,11 +2453,12 @@
       ]
     },
     {
-      "id": "f8e6da1cd5f4a1c2",
+      "id": "7c8f886186ce493b",
       "number": 96,
+      "group": "91–100",
       "japanese": "寺",
       "reading": "てら",
-      "hanViet": "",
+      "hanViet": "TỰ",
       "vietnamese": "Chùa",
       "examples": [
         {
@@ -2379,11 +2475,12 @@
       ]
     },
     {
-      "id": "bbea4f2b4370120d",
+      "id": "19bc6b0df19fefd6",
       "number": 97,
+      "group": "91–100",
       "japanese": "高速道路",
       "reading": "こうそくどうろ",
-      "hanViet": "",
+      "hanViet": "CAO TỐC ĐẠO LỘ",
       "vietnamese": "Đường cao tốc",
       "examples": [
         {
@@ -2404,11 +2501,12 @@
       ]
     },
     {
-      "id": "06bfe92e4eb5d6a1",
+      "id": "47c299f58a34c8f1",
       "number": 98,
+      "group": "91–100",
       "japanese": "坂",
       "reading": "さか",
-      "hanViet": "",
+      "hanViet": "BẢN",
       "vietnamese": "Con dốc",
       "examples": [
         {
@@ -2425,11 +2523,12 @@
       ]
     },
     {
-      "id": "fea09987b911ee44",
+      "id": "b45f6a10323b4e7b",
       "number": 99,
+      "group": "91–100",
       "japanese": "煙",
       "reading": "けむり",
-      "hanViet": "",
+      "hanViet": "YÊN",
       "vietnamese": "Khói",
       "examples": [
         {
@@ -2446,11 +2545,12 @@
       "notes": []
     },
     {
-      "id": "87bcd00db50b0b7a",
+      "id": "ff0ff1e8086e2d61",
       "number": 100,
+      "group": "91–100",
       "japanese": "灰",
       "reading": "はい",
-      "hanViet": "",
+      "hanViet": "HÔI",
       "vietnamese": "Tro, tàn",
       "examples": [
         {
@@ -2467,11 +2567,12 @@
       ]
     },
     {
-      "id": "cea8fc9c3617709b",
+      "id": "85fed6c7d260dfc1",
       "number": 101,
+      "group": "101–110",
       "japanese": "判",
       "reading": "はん",
-      "hanViet": "",
+      "hanViet": "PHÁN",
       "vietnamese": "Con dấu",
       "examples": [
         {
@@ -2492,11 +2593,12 @@
       ]
     },
     {
-      "id": "e0594a99eb2b1f2d",
+      "id": "83ff713bb7af9999",
       "number": 102,
+      "group": "101–110",
       "japanese": "名刺",
       "reading": "めいし",
-      "hanViet": "",
+      "hanViet": "DANH THÍCH",
       "vietnamese": "Danh thiếp",
       "examples": [
         {
@@ -2518,11 +2620,12 @@
       ]
     },
     {
-      "id": "37d879e654d852f8",
+      "id": "02657bc17ae3bf34",
       "number": 103,
+      "group": "101–110",
       "japanese": "免許",
       "reading": "めんきょ",
-      "hanViet": "",
+      "hanViet": "MIỄN HỨA",
       "vietnamese": "Giấy phép",
       "examples": [
         {
@@ -2543,11 +2646,12 @@
       ]
     },
     {
-      "id": "9a43f8f0141a5bab",
+      "id": "31d12ab4f069bce3",
       "number": 104,
+      "group": "101–110",
       "japanese": "多く",
       "reading": "おおく",
-      "hanViet": "",
+      "hanViet": "ĐA",
       "vietnamese": "Nhiều",
       "examples": [
         {
@@ -2559,11 +2663,12 @@
       "notes": []
     },
     {
-      "id": "a1334af12b53f776",
+      "id": "a63e58cd241760a8",
       "number": 105,
+      "group": "101–110",
       "japanese": "前半",
       "reading": "ぜんはん",
-      "hanViet": "",
+      "hanViet": "TIỀN BÁN",
       "vietnamese": "Nửa trước",
       "examples": [
         {
@@ -2580,11 +2685,12 @@
       ]
     },
     {
-      "id": "f8f4e3d00288a49d",
+      "id": "19e38287edd62cbf",
       "number": 106,
+      "group": "101–110",
       "japanese": "後半",
       "reading": "こうはん",
-      "hanViet": "",
+      "hanViet": "HẬU BÁN",
       "vietnamese": "Nửa sau",
       "examples": [
         {
@@ -2601,11 +2707,12 @@
       ]
     },
     {
-      "id": "616743913e68a23b",
+      "id": "98bbc86888487d08",
       "number": 107,
+      "group": "101–110",
       "japanese": "最高",
       "reading": "さいこう",
-      "hanViet": "",
+      "hanViet": "TỐI CAO",
       "vietnamese": "Cao nhất/ Tuyệt nhất/ Rất",
       "examples": [
         {
@@ -2641,11 +2748,12 @@
       ]
     },
     {
-      "id": "ec5896287d617825",
+      "id": "d92242b820876ae6",
       "number": 108,
+      "group": "101–110",
       "japanese": "最低",
       "reading": "さいてい",
-      "hanViet": "",
+      "hanViet": "TỐI ĐÊ",
       "vietnamese": "Thấp nhất/ Tệ nhất",
       "examples": [
         {
@@ -2680,11 +2788,12 @@
       ]
     },
     {
-      "id": "b8da6f7e8be6b086",
+      "id": "0e086edf5a20ed29",
       "number": 109,
+      "group": "101–110",
       "japanese": "最初",
       "reading": "さいしょ",
-      "hanViet": "",
+      "hanViet": "TỐI SƠ",
       "vietnamese": "Đầu tiên",
       "examples": [
         {
@@ -2706,11 +2815,12 @@
       ]
     },
     {
-      "id": "3ec044205332f40c",
+      "id": "8aaec1da7f9c1178",
       "number": 110,
+      "group": "101–110",
       "japanese": "最後",
       "reading": "さいご",
-      "hanViet": "",
+      "hanViet": "TỐI HẬU",
       "vietnamese": "Cuối cùng",
       "examples": [
         {
@@ -2732,11 +2842,12 @@
       ]
     },
     {
-      "id": "cef885d411bb25de",
+      "id": "123a2e8bde215bab",
       "number": 111,
+      "group": "111–120",
       "japanese": "自動",
       "reading": "じどう",
-      "hanViet": "",
+      "hanViet": "TỰ ĐỘNG",
       "vietnamese": "Tự động",
       "examples": [
         {
@@ -2761,11 +2872,12 @@
       ]
     },
     {
-      "id": "b96dcac51d6742bb",
+      "id": "8b9f05c46c5d28e8",
       "number": 112,
+      "group": "111–120",
       "japanese": "種類",
       "reading": "しゅるい",
-      "hanViet": "",
+      "hanViet": "CHỦNG LOẠI",
       "vietnamese": "Chủng loại",
       "examples": [
         {
@@ -2777,11 +2889,12 @@
       "notes": []
     },
     {
-      "id": "beeef25a14b29ecc",
+      "id": "7207b3b03c3abb59",
       "number": 113,
+      "group": "111–120",
       "japanese": "性格",
       "reading": "せいかく",
-      "hanViet": "",
+      "hanViet": "TÍNH CÁCH",
       "vietnamese": "Tính cách",
       "examples": [
         {
@@ -2798,11 +2911,12 @@
       ]
     },
     {
-      "id": "e20b744d9b497ca0",
+      "id": "3e2fac7641255b56",
       "number": 114,
+      "group": "111–120",
       "japanese": "性質",
       "reading": "せいしつ",
-      "hanViet": "",
+      "hanViet": "TÍNH CHẤT",
       "vietnamese": "Tính chất/ Tính cách",
       "examples": [
         {
@@ -2829,11 +2943,12 @@
       ]
     },
     {
-      "id": "38f3fbb73463da5f",
+      "id": "d00f69cc2bf6670e",
       "number": 115,
+      "group": "111–120",
       "japanese": "順番",
       "reading": "じゅんばん",
-      "hanViet": "",
+      "hanViet": "THUẬN PHIÊN",
       "vietnamese": "Thứ tự, lần lượt",
       "examples": [
         {
@@ -2855,11 +2970,12 @@
       "notes": []
     },
     {
-      "id": "44a517d7769e07b2",
+      "id": "5e40187dd40d5bb8",
       "number": 116,
+      "group": "111–120",
       "japanese": "番",
       "reading": "ばん",
-      "hanViet": "",
+      "hanViet": "PHIÊN",
       "vietnamese": "Lượt",
       "examples": [
         {
@@ -2890,11 +3006,12 @@
       ]
     },
     {
-      "id": "1a0326ba24f34efc",
+      "id": "ea2e0903fc24572d",
       "number": 117,
+      "group": "111–120",
       "japanese": "方法",
       "reading": "ほうほう",
-      "hanViet": "",
+      "hanViet": "PHƯƠNG PHÁP",
       "vietnamese": "Phương pháp, cách",
       "examples": [
         {
@@ -2916,11 +3033,12 @@
       "notes": []
     },
     {
-      "id": "cd864dac07865f80",
+      "id": "f1e2e48c5e9574c3",
       "number": 118,
+      "group": "111–120",
       "japanese": "製品",
       "reading": "せいひん",
-      "hanViet": "",
+      "hanViet": "CHẾ PHẨM",
       "vietnamese": "Sản phẩm, đồ, hàng",
       "examples": [
         {
@@ -2937,11 +3055,12 @@
       ]
     },
     {
-      "id": "50356725477750b4",
+      "id": "31e030d8661bd668",
       "number": 119,
+      "group": "111–120",
       "japanese": "値上がり",
       "reading": "ねあがり",
-      "hanViet": "",
+      "hanViet": "TRỊ THƯỢNG",
       "vietnamese": "Sự tăng giá",
       "examples": [
         {
@@ -2958,11 +3077,12 @@
       "notes": []
     },
     {
-      "id": "3553ad183e1b0fd7",
+      "id": "b4e6c32adfa98e0b",
       "number": 120,
+      "group": "111–120",
       "japanese": "生",
       "reading": "なま",
-      "hanViet": "",
+      "hanViet": "SINH",
       "vietnamese": "Tươi sống",
       "examples": [
         {

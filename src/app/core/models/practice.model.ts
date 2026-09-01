@@ -37,6 +37,13 @@ export interface PracticeConfig {
   direction: PracticeDirection;
   /** null = lấy hết mục trong bài. */
   questionLimit: number | null;
+  /**
+   * Chỉ luyện các từ thuộc cụm này. null = cả bài.
+   *
+   * Có mặt vì bài từ vựng gom tới 120 từ, còn buổi học thì chỉ 10 từ: luyện xong
+   * cụm hôm nay là mục đích thường gặp nhất, không phải luyện cả bài.
+   */
+  group: string | null;
 }
 
 /**

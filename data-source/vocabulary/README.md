@@ -10,13 +10,33 @@ ghi chú của chính từ đó.
 類: 判子 (はんこ)・印 (いん)・印鑑 (いんかん)
 ```
 
-Ba loại dòng:
+Bốn loại dòng:
 
 | Dòng | Cách viết | Ghi chú |
 | --- | --- | --- |
+| **Mốc cụm** | `## 01–10` | Áp cho mọi từ phía sau, tới mốc kế tiếp |
 | **Tiêu đề** | `[SỐ.] TỪ (CÁCH ĐỌC) = NGHĨA` | Bắt đầu một từ mới |
 | **Ví dụ** | bắt đầu bằng `・` hoặc `-` | Bản dịch viết sau dấu `\|`, tuỳ chọn |
 | **Ghi chú** | `NHÃN : nội dung` | Nhãn giữ nguyên như trong sách |
+
+## Cụm từ
+
+Giáo trình chia mỗi buổi 10 từ, và bài tập cũng ra theo đúng cụm đó. Đánh dấu cụm
+bằng dòng `##`:
+
+```
+# nguồn: bai-12-tu-vung-cai-thien-11-20.pdf
+## 11–20
+11. 友人 (ゆうじん) = HỮU NHÂN ; Bạn bè
+...
+```
+
+Trên giao diện, cụm thành một hàng nút trong khung thiết lập luyện tập: bấm `11–20`
+là danh sách chỉ còn 10 từ đó và phần luyện tập cũng chỉ hỏi trong 10 từ đó — kể cả
+ba đáp án nhiễu của câu trắc nghiệm cũng lấy trong cụm, để không chọn đúng chỉ nhờ
+loại trừ những từ chưa học.
+
+Bài không có dòng `##` nào thì không chia cụm, hàng nút này tự ẩn.
 
 - **Số thứ tự** là số của từ trong giáo trình (01–120). Bỏ trống cũng được, nhưng có
   số thì đối chiếu với bản PDF nhanh hơn nhiều.
@@ -40,7 +60,7 @@ Mỗi bài là MỘT LOẠI TỪ, chứa toàn bộ từ của loại đó — k
 
 | Thư mục        | Tên hiển thị | Trạng thái |
 | -------------- | ------------ | ---------- |
-| `01-danh-tu`   | Danh từ      | 120 từ · 第1課–第6課 (01–120) |
+| `01-danh-tu`   | Danh từ      | 120 từ · 第1課–第6課 (01–120), chia 12 cụm 10 từ |
 | `02-dong-tu`   | Động từ      | chờ nội dung |
 | `03-tinh-tu`   | Tính từ      | chờ nội dung |
 | `04-katakana`  | Katakana     | chờ nội dung |

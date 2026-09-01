@@ -81,6 +81,14 @@ export interface VocabWord {
    * không nhớ vị trí của nó trong bài.
    */
   number: number;
+  /**
+   * Cụm mà từ này thuộc về, ví dụ "01–10". Rỗng nghĩa là bài không chia cụm.
+   *
+   * Cụm là cách giáo trình chia buổi học: mỗi buổi 10 từ, và bài tập cũng ra theo
+   * đúng cụm đó. Nhờ vậy người học lọc và luyện đúng 10 từ của buổi hôm nay thay
+   * vì cả 120 từ một lúc.
+   */
+  group: string;
   /** Từ tiếng Nhật, ví dụ "締め切り". */
   japanese: string;
   /** Cách đọc bằng kana, ví dụ "しめきり". Rỗng nếu từ vốn đã là kana. */
@@ -294,6 +302,20 @@ export function emptyUnit(entry: Omit<UnitIndexEntry, 'file'>): Unit {
     tracks: [],
     sections: [],
   };
+}
+
+/**
+ * Danh sách cụm của một bài từ vựng, theo đúng thứ tự xuất hiện trong nguồn.
+ *
+ * Theo thứ tự XUẤT HIỆN chứ không sắp xếp lại: "01–10, 11–20, …, 101–110" mà đem
+ * sắp theo chữ cái thì "101–110" nhảy lên đứng ngay sau "01–10".
+ */
+export function groupsOf(words: readonly VocabWord[]): string[] {
+  const seen: string[] = [];
+  for (const word of words) {
+    if (word.group && !seen.includes(word.group)) seen.push(word.group);
+  }
+  return seen;
 }
 
 /** Toàn bộ câu hỏi của một bài, gom từ mọi nguồn có trong bài. */

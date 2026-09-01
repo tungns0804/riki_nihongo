@@ -25,6 +25,17 @@ export function slugify(value) {
     .replace(/^-+|-+$/g, '');
 }
 
+/**
+ * Như `contentLines` nhưng GIỮ LẠI dòng bắt đầu bằng ## — đó là mốc chia cụm của
+ * bài từ vựng, không phải chú thích. Một dấu # vẫn là chú thích như mọi nơi khác.
+ */
+function contentLinesWithGroups(raw) {
+  return raw
+    .split(/\r?\n/)
+    .map((line, index) => ({ text: line.trim(), lineNumber: index + 1 }))
+    .filter(({ text }) => text.length > 0 && (text.startsWith('##') || !text.startsWith('#')));
+}
+
 /** Bỏ dòng trống và dòng chú thích (bắt đầu bằng #). */
 function contentLines(raw) {
   return raw
@@ -60,12 +71,18 @@ function splitReading(value) {
  * cả vào một dòng thì dòng dài hàng trăm ký tự và không ai soát nổi; mà bỏ bớt đi
  * thì mất đúng phần dạy CÁCH DÙNG, tức là phần đáng giá nhất của giáo trình.
  *
- * Ba loại dòng, nhận diện theo thứ tự này (thứ tự có ý nghĩa: dòng ghi chú cũng
+ * Bốn loại dòng, nhận diện theo thứ tự này (thứ tự có ý nghĩa: dòng ghi chú cũng
  * có thể chứa dấu = như "合: 判子を押す = Đóng dấu"):
- *   1. bắt đầu bằng ・ hoặc -   -> câu ví dụ, phần sau dấu | là bản dịch
- *   2. NHÃN : nội dung          -> ghi chú, nhãn giữ nguyên như trong sách
- *   3. còn lại                  -> dòng tiêu đề của một từ mới
+ *   1. ## nhãn                  -> mốc chia CỤM, áp cho mọi từ phía sau nó
+ *   2. bắt đầu bằng ・ hoặc -   -> câu ví dụ, phần sau dấu | là bản dịch
+ *   3. NHÃN : nội dung          -> ghi chú, nhãn giữ nguyên như trong sách
+ *   4. còn lại                  -> dòng tiêu đề của một từ mới
+ *
+ * Cụm là cách giáo trình chia bài: mỗi buổi học 10 từ, và bài tập cũng ra theo
+ * đúng cụm đó. Nhờ có mốc cụm, màn hình từ vựng lọc được theo cụm và người học
+ * luyện đúng 10 từ của buổi hôm nay thay vì cả 120 từ.
  */
+const VOCAB_GROUP = /^##\s*(.+)$/;
 const VOCAB_EXAMPLE = /^[・･\-]\s*(.+)$/;
 const VOCAB_NOTE = /^(\S{1,8}?)\s*[:：]\s*(.+)$/;
 const VOCAB_HEADER = /^(?:(\d+)\s*[.．]\s*)?(.+?)(?:\s*[(（]([^)）]+)[)）])?\s*[=＝]\s*(.+)$/;
@@ -75,6 +92,7 @@ export function parseVocabulary(raw) {
   const warnings = [];
   const seen = new Set();
   let current = null;
+  let group = '';
 
   /** Đóng từ đang dựng dở và đưa vào danh sách. */
   const flush = () => {
@@ -89,6 +107,7 @@ export function parseVocabulary(raw) {
       words.push({
         id,
         number: current.number,
+        group: current.group,
         japanese: current.japanese,
         reading: current.reading,
         hanViet: current.hanViet,
@@ -100,7 +119,14 @@ export function parseVocabulary(raw) {
     current = null;
   };
 
-  for (const { text, lineNumber } of contentLines(raw)) {
+  for (const { text, lineNumber } of contentLinesWithGroups(raw)) {
+    const groupMark = text.match(VOCAB_GROUP);
+    if (groupMark) {
+      flush();
+      group = groupMark[1].trim();
+      continue;
+    }
+
     const example = text.match(VOCAB_EXAMPLE);
     if (example) {
       if (!current) {
@@ -146,6 +172,7 @@ export function parseVocabulary(raw) {
     current = {
       line: lineNumber,
       number: number ? Number.parseInt(number, 10) : 0,
+      group,
       japanese: japanese.trim(),
       reading: (reading ?? '').trim(),
       hanViet,
@@ -400,6 +427,7 @@ function normalizeInlineVocabulary(raw) {
     .map((word) => ({
       id: hashId(word.japanese, word.hanViet),
       number: 0,
+      group: '',
       ...word,
       examples: [],
       notes: [],

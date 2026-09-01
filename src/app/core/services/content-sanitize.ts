@@ -103,6 +103,7 @@ export function sanitizeVocabulary(raw: unknown, seen = new Set<string>()): Voca
     return {
       id,
       number: typeof item['number'] === 'number' ? (item['number'] as number) : 0,
+      group: text(item['group']),
       japanese,
       reading: text(item['reading']),
       hanViet: text(item['hanViet']),

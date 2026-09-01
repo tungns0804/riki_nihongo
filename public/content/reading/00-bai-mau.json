@@ -19,6 +19,7 @@
         {
           "id": "33e8cf3bc8df1647",
           "number": 0,
+          "group": "",
           "japanese": "利用",
           "reading": "りよう",
           "vietnamese": "sử dụng",
@@ -29,6 +30,7 @@
         {
           "id": "6aa50b19ba47b9a5",
           "number": 0,
+          "group": "",
           "japanese": "貸出期間",
           "reading": "かしだしきかん",
           "vietnamese": "thời hạn cho mượn",
@@ -39,6 +41,7 @@
         {
           "id": "07c5d6e9274189bf",
           "number": 0,
+          "group": "",
           "japanese": "整理",
           "reading": "せいり",
           "vietnamese": "sắp xếp/ chỉnh lý",
@@ -49,6 +52,7 @@
         {
           "id": "1e05faec9a66834d",
           "number": 0,
+          "group": "",
           "japanese": "不便",
           "reading": "ふべん",
           "vietnamese": "bất tiện",

@@ -45,6 +45,36 @@
       </div>
     }
 
+    @if (groups().length > 1) {
+      <!-- Mỗi cụm là một buổi học 10 từ của giáo trình. Chọn cụm nào thì danh sách
+           từ bên dưới cũng lọc theo cụm đó. -->
+      <div class="field">
+        <span class="label">{{ t('practice.group') }}</span>
+        <div class="chips">
+          <button
+            type="button"
+            class="chip"
+            [class.is-active]="group() === null"
+            [attr.aria-pressed]="group() === null"
+            (click)="setGroup(null)"
+          >
+            {{ t('common.all') }}
+          </button>
+          @for (name of groups(); track name) {
+            <button
+              type="button"
+              class="chip tnum"
+              [class.is-active]="group() === name"
+              [attr.aria-pressed]="group() === name"
+              (click)="setGroup(name)"
+            >
+              {{ name }}
+            </button>
+          }
+        </div>
+      </div>
+    }
+
     <div class="field">
       <span class="label">{{ t('practice.count') }}</span>
       <div class="options options-row">

@@ -167,3 +167,37 @@
     position: static;
   }
 }
+
+/* Tiêu đề ngăn giữa hai cụm. Nhỏ hơn h2 mặc định vì đây là vạch chia trong một
+   danh sách dài, không phải một mục ngang hàng với "Danh từ" ở đầu trang. */
+.group-head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-top: var(--sp-4);
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent-soft);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* Hàng chip nằm ngay dưới ô tìm, cùng khối dính với nó. */
+.chips {
+  padding-bottom: var(--sp-2);
+}
+
+/* Âm Hán Việt: chữ nhỏ, viết hoa, màu nhấn — đọc lướt là thấy ngay, mà không
+   tranh chỗ với mặt chữ Nhật ở trên. */
+.word-han {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+/* Nhãn "CỤM TỪ" đứng cùng hàng với dãy chip. */
+.chips-label {
+  align-self: center;
+  margin-right: 2px;
+}

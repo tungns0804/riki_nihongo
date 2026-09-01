@@ -1307,3 +1307,48 @@ kbd {
     padding: var(--sp-4);
   }
 }
+
+/* --- Chip lọc --------------------------------------------------------------
+   Hàng nút tròn nhỏ để chọn một cụm từ (01–10, 11–20…). Dùng ở hai chỗ — khung
+   thiết lập luyện tập và trang danh sách từ — nên đặt ở đây thay vì chép hai lần.
+
+   Không dùng .option như các nhóm chọn khác: cụm có tới mười mấy lựa chọn mà mỗi
+   lựa chọn chỉ là một khoảng số ngắn; xếp thành lưới thì thừa chỗ, còn để chúng
+   tự xuống dòng thì vừa khít. */
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip {
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  font-weight: 550;
+  white-space: nowrap;
+  transition: border-color var(--dur) var(--ease), background-color var(--dur) var(--ease),
+    color var(--dur) var(--ease);
+}
+
+.chip:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+
+.chip.is-active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 650;
+}
+
+@media (hover: none) {
+  .chip {
+    min-height: 36px;
+  }
+}

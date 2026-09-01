@@ -1,9 +1,17 @@
-import { ChangeDetectionStrategy, Component, computed, inject, input, signal } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  computed,
+  inject,
+  input,
+  model,
+  signal,
+} from '@angular/core';
 import { Router } from '@angular/router';
 
 import { LanguageStore } from '../../../core/i18n/language-store';
 import { T } from '../../../core/i18n/t';
-import type { Unit } from '../../../core/models/content.model';
+import { Unit, groupsOf } from '../../../core/models/content.model';
 import {
   AnswerMode,
   DIRECTIONS,
@@ -38,9 +46,22 @@ export class PracticeSetup {
 
   readonly unit = input.required<Unit>();
 
+  /**
+   * Cụm từ đang luyện; null = cả bài.
+   *
+   * Là `model` (ràng buộc hai chiều) chứ không phải input: chọn cụm ở đây thì danh
+   * sách từ bên dưới lọc theo luôn. Một màn hình chỉ nên có MỘT chỗ chọn cụm —
+   * hai chỗ thì người học không biết chỗ nào ăn chỗ nào.
+   */
+  readonly group = model<string | null>(null);
+
+  /** Các cụm của bài, ví dụ 01–10, 11–20… Rỗng nghĩa là bài không chia cụm. */
+  protected readonly groups = computed(() => groupsOf(this.unit().words));
+
   protected readonly answerMode = signal<AnswerMode>('choice');
   protected readonly limit = signal<number | null>(20);
   protected readonly limits = QUESTION_LIMITS;
+
 
   private readonly directionRef = signal<PracticeDirection>('jp-vi');
 
@@ -77,6 +98,7 @@ export class PracticeSetup {
       answerMode: this.answerMode(),
       direction: this.direction(),
       questionLimit: this.limit(),
+      group: this.group(),
     };
   }
 
@@ -91,6 +113,19 @@ export class PracticeSetup {
   protected setLimit(limit: number | null): void {
     this.limit.set(limit);
   }
+
+  /**
+   * Chọn cụm thì số câu tự nhảy về "Tất cả".
+   *
+   * Vì chọn "cụm 11–20" nghĩa là muốn học đúng mười từ đó, chứ không phải học một
+   * nửa số đó rồi bỏ dở — mà nếu để nguyên "20 câu" thì nút vẫn hiện 20 trong khi
+   * chỉ dựng được 10, trông như hụt mất câu.
+   */
+  protected setGroup(group: string | null): void {
+    this.group.set(group);
+    this.limit.set(group === null ? 20 : null);
+  }
+
 
   protected start(): void {
     const config = this.config();
