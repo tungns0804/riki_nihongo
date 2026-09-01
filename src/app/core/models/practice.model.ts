@@ -10,7 +10,7 @@ export type AnswerMode = 'choice' | 'typing';
  * Câu hỏi có sẵn trong nội dung (đọc, nghe, kiểm tra nhập môn) không dùng tới chiều:
  * đề đã viết sẵn cả câu dẫn lẫn bốn lựa chọn.
  */
-export type PracticeDirection = 'jp-vi' | 'vi-jp' | 'jp-reading';
+export type PracticeDirection = 'jp-vi' | 'vi-jp' | 'jp-reading' | 'jp-sentence';
 
 export interface DirectionInfo {
   id: PracticeDirection;
@@ -21,6 +21,10 @@ export const DIRECTIONS: readonly DirectionInfo[] = [
   { id: 'jp-vi', labelKey: 'practice.direction.jpToVi' },
   { id: 'vi-jp', labelKey: 'practice.direction.viToJp' },
   { id: 'jp-reading', labelKey: 'practice.direction.jpToReading' },
+  // Hỏi trên CÂU VÍ DỤ: khoét từ cần học khỏi câu rồi bắt điền lại. Nhớ nghĩa của
+  // một từ đứng một mình khác hẳn với dùng được nó trong câu, mà đề N3 phần 文字語彙
+  // hỏi đúng theo kiểu này.
+  { id: 'jp-sentence', labelKey: 'practice.direction.sentence' },
 ];
 
 /** Số lựa chọn của một câu trắc nghiệm tự dựng (1 đúng + 3 nhiễu). */
@@ -71,6 +75,27 @@ export interface PracticeQuestion {
   choices: string[];
   /** Giải thích hiện sau khi chấm. Rỗng nghĩa là không có. */
   explanation: string;
+  /**
+   * Câu ví dụ của mục đang hỏi, hiện SAU KHI chấm.
+   *
+   * Hiện cả danh sách chứ không một câu: câu ví dụ là chỗ duy nhất cho thấy từ này
+   * đi với trợ từ nào, đứng ở vị trí nào trong câu — mà đúng lúc vừa trả lời xong
+   * là lúc người học chịu đọc nhất.
+   */
+  examples: PracticeExample[];
+  /**
+   * Từ cần tô đậm trong câu ví dụ. Rỗng nghĩa là không tô.
+   *
+   * Không tự suy từ đáp án: ở chiều Việt → Nhật đáp án đúng là từ tiếng Nhật, nhưng
+   * ở chiều điền vào chỗ trống thì đáp án lại chính là chỗ đã bị khoét đi.
+   */
+  highlight: string;
+}
+
+export interface PracticeExample {
+  id: string;
+  japanese: string;
+  vietnamese: string;
 }
 
 export interface QuestionResult {

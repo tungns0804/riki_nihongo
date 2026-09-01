@@ -6,6 +6,7 @@ import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import { PracticeSessionStore } from '../../core/services/practice-session-store';
 import { ProgressStore } from '../../core/services/progress-store';
+import { splitAround } from '../../core/utils/text';
 
 /**
  * Màn hình làm bài: mỗi lúc một câu.
@@ -77,6 +78,16 @@ export class Practice {
     this.checked.set(false);
     this.wasCorrect.set(false);
     this.given.set('');
+  }
+
+  /**
+   * Cắt câu ví dụ quanh từ đang học để tô đậm nó, đúng như bản in của giáo trình.
+   *
+   * Chỉ gọi sau khi đã chấm nên không sợ lộ đáp án: khối câu ví dụ chỉ hiện ở phần
+   * phản hồi.
+   */
+  protected parts(sentence: string): { text: string; hit: boolean }[] {
+    return splitAround(sentence, this.question()?.highlight ?? '');
   }
 
   /** Lớp CSS của một lựa chọn sau khi đã chấm. */

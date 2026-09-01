@@ -10,6 +10,7 @@ import {
   CHOICE_COUNT,
   PracticeConfig,
   PracticeDirection,
+  PracticeExample,
   PracticeQuestion,
 } from '../models/practice.model';
 import { pickRandom, shuffle } from '../utils/random';
@@ -76,11 +77,57 @@ function fromVocabulary(
       answerIsJapanese: answer !== 'vietnamese',
       acceptedAnswers: [correct],
       choices: withChoices ? buildChoices(correct, pool) : [],
-      // Lời giải sau khi chấm là câu ví dụ ĐẦU TIÊN: một từ có tới năm sáu câu, đổ
-      // hết ra thì khối phản hồi dài hơn cả câu hỏi và không ai đọc nữa.
-      explanation: word.examples[0]?.japanese ?? '',
+      explanation: '',
+      examples: word.examples,
+      highlight: word.japanese,
     };
   });
+}
+
+// ── Từ vựng: điền từ vào câu ví dụ ─────────────────────────────────────────
+
+/** Chỗ trống thay cho từ bị khoét khỏi câu. Ngoặc toàn chiều như đề thi thật. */
+const BLANK = '（　　）';
+
+/**
+ * Dựng câu hỏi từ CÂU VÍ DỤ: khoét từ cần học ra khỏi câu rồi bắt điền lại.
+ *
+ * Chỉ nhận câu nào chứa NGUYÊN VẸN từ đang học. Vài câu trong giáo trình viết khác
+ * dạng từ điển ("引っ越し" nhưng câu viết "引越し"), khoét theo kiểu đoán thì ra một
+ * câu hỏi mà đáp án đúng cũng không khớp chỗ trống — thà bỏ câu đó đi.
+ *
+ * Một từ có mấy câu thì ra mấy câu hỏi: cùng một từ nhưng mỗi câu một ngữ cảnh, đó
+ * chính là thứ cần luyện.
+ */
+function fromVocabularySentences(
+  words: readonly VocabWord[],
+  withChoices: boolean,
+): PracticeQuestion[] {
+  const usable = words.filter((word) => word.examples.some((e) => e.japanese.includes(word.japanese)));
+  const pool = usable.map((word) => word.japanese);
+
+  return usable.flatMap((word) =>
+    word.examples
+      .filter((example) => example.japanese.includes(word.japanese))
+      .map((example) => ({
+        id: `${example.id}:blank`,
+        skill: 'vocabulary' as SkillId,
+        prompt: example.japanese.split(word.japanese).join(BLANK),
+        promptIsJapanese: true,
+        // Gợi ý là NGHĨA của từ cần điền: không có nó thì nhiều câu điền từ nào
+        // cũng xuôi, nhất là khi bốn lựa chọn đều cùng loại từ.
+        hint: word.vietnamese,
+        answer: word.japanese,
+        answerIsJapanese: true,
+        // Gõ cách đọc cũng tính đúng: người học nhớ từ mà chưa gõ được kanji thì
+        // vẫn là nhớ từ.
+        acceptedAnswers: word.reading ? [word.japanese, word.reading] : [word.japanese],
+        choices: withChoices ? buildChoices(word.japanese, pool) : [],
+        explanation: '',
+        examples: word.examples,
+        highlight: word.japanese,
+      })),
+  );
 }
 
 // ── Kanji ──────────────────────────────────────────────────────────────────
@@ -126,7 +173,13 @@ function fromKanji(
             askForCharacter ? usable.map((item) => item.character) : pool,
           )
         : [],
-      explanation: entry.words.map((word) => `${word.japanese} (${word.reading})`).join('　'),
+      explanation: '',
+      examples: entry.words.map((word) => ({
+        id: word.id,
+        japanese: word.reading ? `${word.japanese}（${word.reading}）` : word.japanese,
+        vietnamese: word.vietnamese,
+      })),
+      highlight: entry.character,
     };
   });
 }
@@ -169,6 +222,8 @@ function fromGrammar(
       acceptedAnswers: [correct],
       choices: withChoices ? buildChoices(correct, pool) : [],
       explanation: example.note,
+      examples: example.reading ? [{ id: `${example.id}:r`, japanese: example.reading, vietnamese: '' }] : [],
+      highlight: point.title.replace(/[～〜]/g, ''),
     };
   });
 }
@@ -197,6 +252,8 @@ export function fromQuizQuestions(questions: readonly QuizQuestion[]): PracticeQ
         acceptedAnswers: [answer.text],
         choices: question.choices.map((choice) => choice.text),
         explanation: question.explanation,
+        examples: [],
+        highlight: '',
       },
     ];
   });
@@ -206,6 +263,15 @@ export function fromQuizQuestions(questions: readonly QuizQuestion[]): PracticeQ
 
 /** Phần này có luyện được theo chiều đó không (bài thiếu cách đọc thì không). */
 export function directionIsUsable(unit: Unit, direction: PracticeDirection): boolean {
+  if (direction === 'jp-sentence') {
+    // Chỉ bài từ vựng mới khoét câu được, và chỉ khi câu ví dụ có chứa nguyên vẹn
+    // từ cần khoét.
+    return (
+      unit.kind === 'vocabulary' &&
+      unit.words.some((word) => word.examples.some((e) => e.japanese.includes(word.japanese)))
+    );
+  }
+
   if (direction !== 'jp-reading') return true;
   if (unit.kind === 'vocabulary') return unit.words.some((word) => word.reading.length > 0);
   if (unit.kind === 'kanji') return unit.kanji.some((entry) => readingsOf(entry).length > 0);
@@ -230,7 +296,9 @@ export function buildQuestions(unit: Unit, config: PracticeConfig): PracticeQues
   const all = (() => {
     switch (unit.kind) {
       case 'vocabulary':
-        return fromVocabulary(words, config.direction, withChoices);
+        return config.direction === 'jp-sentence'
+          ? fromVocabularySentences(words, withChoices)
+          : fromVocabulary(words, config.direction, withChoices);
       case 'kanji':
         return fromKanji(unit.kanji, config.direction, withChoices);
       case 'grammar':

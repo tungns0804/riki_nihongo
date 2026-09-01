@@ -90,3 +90,36 @@
     min-height: 48px;
   }
 }
+
+/* --- Câu ví dụ sau khi chấm ------------------------------------------------
+   Khối lõm, tách hẳn khỏi khối phản hồi đúng/sai phía trên: đây không phải kết
+   quả của câu vừa rồi mà là phần để ĐỌC, nhịp mắt khác hẳn. */
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: var(--sp-4);
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+}
+
+.examples .example {
+  font-size: var(--fs-md);
+  line-height: 1.9;
+}
+
+/* Từ đang học tô nổi giữa câu, đúng như bản in của giáo trình. Không dùng nền
+   vàng mặc định của <mark> vì nó chọi với cả bảng màu. */
+.examples mark {
+  padding: 0 2px;
+  border-radius: 3px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.example-vi {
+  display: block;
+  font-family: var(--font-ui);
+}

@@ -33,3 +33,27 @@ export function matchesAllWords(haystack: string, needle: string): boolean {
   const normalized = normalizeSearch(haystack);
   return needle.split(' ').every((word) => normalized.includes(word));
 }
+
+/**
+ * Cắt một câu quanh từ cần tô đậm: trả về các mảnh, mảnh nào là chính từ đó thì
+ * `hit = true`.
+ *
+ * Dùng để tô đậm từ đang học trong câu ví dụ — đúng như bản in của giáo trình, nơi
+ * từ mục tiêu được bôi đỏ giữa câu. Không tìm thấy thì trả về nguyên câu một mảnh,
+ * chứ không cố đoán: dữ liệu có vài chỗ câu viết khác dạng từ điển (từ "引っ越し"
+ * nhưng câu viết "引越し"), tô nhầm còn tệ hơn không tô.
+ */
+export function splitAround(text: string, needle: string): { text: string; hit: boolean }[] {
+  if (!needle || !text.includes(needle)) return [{ text, hit: false }];
+
+  const parts: { text: string; hit: boolean }[] = [];
+  let rest = text;
+  while (rest.includes(needle)) {
+    const at = rest.indexOf(needle);
+    if (at > 0) parts.push({ text: rest.slice(0, at), hit: false });
+    parts.push({ text: needle, hit: true });
+    rest = rest.slice(at + needle.length);
+  }
+  if (rest) parts.push({ text: rest, hit: false });
+  return parts;
+}

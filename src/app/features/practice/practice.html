@@ -93,6 +93,26 @@
               }
             </div>
 
+            @if (q.examples.length > 0) {
+              <!-- Câu ví dụ chỉ hiện SAU KHI chấm: hiện trước thì ở chiều Việt → Nhật
+                   nó đọc thẳng đáp án ra cho người học. -->
+              <div class="examples">
+                <span class="label">{{ t('practice.examples') }}</span>
+                @for (example of q.examples; track example.id) {
+                  <p class="example">
+                    <!-- Viết dồn một dòng là CỐ Ý: xuống dòng giữa các mảnh thì mỗi
+                         chỗ xuống dòng thành một dấu cách trong câu tiếng Nhật, ra
+                         "事件の 犯人 を捕まえる。" — tiếng Nhật không có dấu cách. -->
+                    <!-- prettier-ignore -->
+                    <span class="jp">@for (part of parts(example.japanese); track $index) {@if (part.hit) {<mark>{{ part.text }}</mark>} @else {<span>{{ part.text }}</span>}}</span>
+                    @if (example.vietnamese) {
+                      <span class="muted small example-vi">{{ example.vietnamese }}</span>
+                    }
+                  </p>
+                }
+              </div>
+            }
+
             <div>
               <button type="button" class="btn btn-primary btn-lg" (click)="next()">
                 @if (isLast()) {

@@ -221,6 +221,7 @@ export const MESSAGES = {
   'practice.direction.jpToVi': { vi: 'Nhật → Việt', ja: '日本語 → ベトナム語' },
   'practice.direction.viToJp': { vi: 'Việt → Nhật', ja: 'ベトナム語 → 日本語' },
   'practice.direction.jpToReading': { vi: 'Nhật → Cách đọc', ja: '日本語 → 読み方' },
+  'practice.direction.sentence': { vi: 'Điền từ vào câu', ja: '例文の穴埋め' },
   'practice.group': { vi: 'Cụm từ', ja: 'グループ' },
   'practice.count': { vi: 'Số câu', ja: '問題数' },
   'practice.start': { vi: 'Bắt đầu luyện', ja: '練習を始める' },
@@ -232,6 +233,7 @@ export const MESSAGES = {
   'practice.wrong': { vi: 'Chưa đúng', ja: '不正解' },
   'practice.answerWas': { vi: 'Đáp án: {answer}', ja: '正解：{answer}' },
   'practice.typeHere': { vi: 'Gõ đáp án rồi nhấn Enter', ja: '答えを入力して Enter' },
+  'practice.examples': { vi: 'Câu ví dụ', ja: '例文' },
   'practice.quit': { vi: 'Dừng luyện', ja: '練習をやめる' },
   'practice.noQuestion': {
     vi: 'Không dựng được câu hỏi nào từ bài này.',

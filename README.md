@@ -58,6 +58,26 @@ mục còn lại (Động từ, Tính từ, Katakana, Phó từ) mới đặt ch
 Các thư mục `00-bai-mau` / `de-1` ở những phần khác là **bài mẫu** để kiểm tra đường
 ống nội dung — xoá đi khi đã có bài thật.
 
+## Luyện tập
+
+Bài từ vựng luyện được theo bốn chiều:
+
+| Chiều | Câu hỏi | Đáp án |
+| --- | --- | --- |
+| Nhật → Việt | 男性 | Nam giới |
+| Việt → Nhật | Nam giới | 男性 |
+| Nhật → Cách đọc | 男性 | だんせい |
+| **Điền từ vào câu** | 事件の（　　）を捕まえる。 | 犯人 |
+
+Chiều cuối lấy chính câu ví dụ của giáo trình, khoét từ cần học ra rồi bắt điền lại —
+đúng dạng đề 文字語彙 của kỳ thi. Gõ cách đọc thay cho kanji cũng tính đúng.
+
+Chấm xong, mọi chiều đều hiện **toàn bộ câu ví dụ** của từ đó, có tô đậm từ đang học
+trong câu. Bài kanji hiện danh sách từ ghép theo cùng cách.
+
+Chọn một cụm (01–10, 11–20…) thì cả danh sách lẫn phần luyện tập chỉ còn cụm đó, và
+ba đáp án nhiễu cũng lấy trong cụm.
+
 ## Kiến trúc
 
 Angular 20, standalone component, state bằng signal. Không có thư viện state
