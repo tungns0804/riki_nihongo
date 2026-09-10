@@ -167,7 +167,7 @@ main:focus-visible {
   font-weight: 620;
 }
 
-/* --- Nút biểu tượng trên header (ngôn ngữ, sáng/tối) --- */
+/* --- Nút biểu tượng trên header (ngôn ngữ, ánh sáng ban đêm, sáng/tối) --- */
 
 .icon-btn {
   display: inline-flex;
@@ -208,6 +208,28 @@ main:focus-visible {
      cái rộng hơn thì nút không đổi kích thước khi chuyển ngôn ngữ. */
   min-width: 32px;
   text-align: center;
+}
+
+/* Nút ánh sáng ban đêm CHỈ có biểu tượng: header đã chật tới mức phải bỏ chữ theo
+   từng bậc (xem cuối file), thêm một nhãn dài nữa là menu xuống hàng sớm. Vì không
+   có chữ nên trạng thái bật phải đọc được bằng màu: nền và nét hổ phách.
+
+   stretch để nút cao bằng nút ngôn ngữ bên cạnh — nút đó có chữ nên cao hơn một
+   biểu tượng 18px. */
+.night-btn {
+  align-self: stretch;
+}
+
+.night-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.night-btn.is-on,
+.night-btn.is-on:hover {
+  border-color: var(--warning-border);
+  background: var(--warning-soft);
+  color: var(--warning);
 }
 
 /* --- Nút quay lên đầu trang ------------------------------------------------

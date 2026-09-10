@@ -78,6 +78,13 @@ trong câu. Bài kanji hiện danh sách từ ghép theo cùng cách.
 Chọn một cụm (01–10, 11–20…) thì cả danh sách lẫn phần luyện tập chỉ còn cụm đó, và
 ba đáp án nhiễu cũng lấy trong cụm.
 
+## Ánh sáng ban đêm
+
+Trang **bật sẵn** một lớp phủ tông ấm lên toàn màn hình, theo cách Night light của
+Windows làm: giữ kênh đỏ, giảm kênh lục và lam (cỡ 4000K). Nút hình mặt trời lặn trên
+header bật/tắt nó, độc lập với nút Sáng/Tối, và lựa chọn được nhớ trên máy. Độ đậm là
+biến `--night-light` trong `src/styles.css`.
+
 ## Kiến trúc
 
 Angular 20, standalone component, state bằng signal. Không có thư viện state

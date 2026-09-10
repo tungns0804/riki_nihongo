@@ -5,6 +5,9 @@ import { readJson, writeJson } from './local-storage';
 
 const STORAGE_KEY = 'riki:theme';
 
+/** index.html cũng đọc đúng khoá này để tắt đèn đêm trước khi Angular chạy — đổi thì đổi cả hai. */
+const NIGHT_LIGHT_KEY = 'riki:night-light';
+
 /** 'system' = đi theo cài đặt sáng/tối của hệ điều hành. */
 export type ThemePreference = 'system' | 'light' | 'dark';
 
@@ -30,18 +33,29 @@ const THEME_COLOR: Record<'light' | 'dark', string> = {
 };
 
 /**
- * Lựa chọn giao diện sáng/tối.
+ * Lựa chọn giao diện: sáng/tối, và ánh sáng ban đêm.
  *
  * Bảng màu thật nằm trong `styles.css` dưới dạng `light-dark(sáng, tối)`; ở đây chỉ
  * cần đổi thuộc tính `color-scheme` qua `data-theme` trên thẻ <html> là toàn bộ
- * biến màu tự đổi theo.
+ * biến màu tự đổi theo. Ánh sáng ban đêm cũng thế: lớp phủ màu ấm nằm trong
+ * styles.css, ở đây chỉ bật/tắt một thuộc tính trên <html>.
  */
 @Injectable({ providedIn: 'root' })
 export class ThemeStore {
   private readonly preferenceRef = signal<ThemePreference>(readPreference());
   private readonly systemPrefersDark = signal(systemPrefersDark());
+  private readonly nightLightRef = signal(readNightLight());
 
   readonly preference = this.preferenceRef.asReadonly();
+
+  /**
+   * Ánh sáng ban đêm có đang bật không. Bật sẵn với người mở trang lần đầu.
+   *
+   * Là công tắc riêng chứ không phải nấc thứ tư trong vòng Tự động → Sáng → Tối,
+   * giống như trên Windows: gộp vào một vòng thì người đang dùng nền tối muốn thêm
+   * màu ấm sẽ phải bỏ nền tối.
+   */
+  readonly nightLight = this.nightLightRef.asReadonly();
 
   /** Tông đang thực sự hiển thị, đã quy đổi 'system' thành sáng hoặc tối. */
   readonly resolved = computed<'light' | 'dark'>(() => {
@@ -63,6 +77,7 @@ export class ThemeStore {
     }
 
     effect(() => applyTheme(this.preferenceRef(), this.resolved()));
+    effect(() => applyNightLight(this.nightLightRef()));
   }
 
   set(preference: ThemePreference): void {
@@ -73,6 +88,12 @@ export class ThemeStore {
   /** Xoay vòng Tự động → Sáng → Tối → Tự động. */
   cycle(): void {
     this.set(nextPreference(this.preferenceRef()));
+  }
+
+  toggleNightLight(): void {
+    const next = !this.nightLightRef();
+    this.nightLightRef.set(next);
+    writeJson(NIGHT_LIGHT_KEY, next);
   }
 }
 
@@ -88,6 +109,11 @@ function isThemePreference(value: unknown): value is ThemePreference {
 function readPreference(): ThemePreference {
   const stored = readJson<unknown>(STORAGE_KEY, 'system');
   return isThemePreference(stored) ? stored : 'system';
+}
+
+/** Chỉ một giá trị `false` đã lưu mới là tắt; chưa lưu gì (lần đầu mở trang) là bật. */
+function readNightLight(): boolean {
+  return readJson<unknown>(NIGHT_LIGHT_KEY, true) !== false;
 }
 
 function systemPrefersDark(): boolean {
@@ -106,4 +132,16 @@ function applyTheme(preference: ThemePreference, resolved: 'light' | 'dark'): vo
   }
 
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', THEME_COLOR[resolved]);
+}
+
+/** Bật là mặc định của CSS nên không cần thuộc tính nào; chỉ đánh dấu khi TẮT. */
+function applyNightLight(on: boolean): void {
+  if (typeof document === 'undefined') return;
+
+  const root = document.documentElement;
+  if (on) {
+    delete root.dataset['nightLight'];
+  } else {
+    root.dataset['nightLight'] = 'off';
+  }
 }

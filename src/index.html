@@ -16,6 +16,10 @@
       if (saved === 'light' || saved === 'dark') {
         document.documentElement.setAttribute('data-theme', saved);
       }
+      // Ánh sáng ban đêm bật sẵn trong CSS, nên chỉ cần đánh dấu khi người dùng đã tắt.
+      if (JSON.parse(localStorage.getItem('riki:night-light') || 'true') === false) {
+        document.documentElement.setAttribute('data-night-light', 'off');
+      }
       var lang = JSON.parse(localStorage.getItem('riki:language') || '""');
       if (lang === 'vi' || lang === 'ja') document.documentElement.lang = lang;
     } catch (e) { /* localStorage bị chặn thì cứ theo mặc định */ }

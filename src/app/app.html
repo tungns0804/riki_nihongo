@@ -46,6 +46,24 @@
         <span class="icon-btn-label lang-label">{{ lang.short() }}</span>
       </button>
 
+      <!-- Tên đọc được (aria-label) giữ nguyên, trạng thái nằm ở aria-pressed: trình đọc
+           màn hình đọc "Ánh sáng ban đêm, đã bật" thay vì một câu mệnh lệnh đổi liên tục. -->
+      <button
+        type="button"
+        class="icon-btn night-btn"
+        [class.is-on]="theme.nightLight()"
+        [attr.aria-pressed]="theme.nightLight()"
+        (click)="theme.toggleNightLight()"
+        [title]="t(theme.nightLight() ? 'theme.nightLight.turnOff' : 'theme.nightLight.turnOn')"
+        [attr.aria-label]="t('theme.nightLight')"
+      >
+        <span class="icon-btn-glyph" aria-hidden="true">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
+            <path d="M5 15a5 5 0 0 1 10 0M2 15h16M6 17.5h8M10 4.5v2M3.6 8.6l1.45 1.45M16.4 8.6l-1.45 1.45" />
+          </svg>
+        </span>
+      </button>
+
       <button
         type="button"
         class="icon-btn theme-btn"

@@ -144,6 +144,51 @@
   color-scheme: dark;
 }
 
+/* --- Ánh sáng ban đêm -------------------------------------------------------
+   Phủ lên cả trang một lớp màu hổ phách, trộn kiểu multiply. Đó chính là việc Night
+   light của Windows làm với màn hình: giữ nguyên kênh đỏ, kéo kênh lục và kênh lam
+   xuống. Trắng thành màu kem ấm, đen vẫn là đen, và mọi màu khác ấm lên theo cùng
+   một tỉ lệ nên chữ và nền vẫn tương phản như cũ.
+
+   Vì sao phủ một lớp thay vì viết bảng màu thứ ba cạnh light-dark(): lớp phủ làm ấm
+   được MỌI THỨ — cả nền tối, emoji, màu viết cứng trong CSS của từng component — mà
+   không phải chép lại từng token rồi giữ cho hai bảng khớp nhau. Nó cũng độc lập với
+   sáng/tối, đúng như trên Windows: nền tối và đèn đêm là hai công tắc riêng.
+
+   BẬT SẴN: trang này để ngồi học hàng giờ, nhiều khi vào buổi tối. Tắt bằng
+   data-night-light="off" trên <html> (ThemeStore đặt, index.html khôi phục sớm).
+   Mặc định nằm ở CSS chứ không ở JS nên ngay khung hình đầu tiên, trước khi Angular
+   kịp chạy, trang đã ấm màu — không chớp trắng một nhịp rồi mới ngả vàng. */
+
+:root {
+  /* Nhân kênh lục ×0.82, kênh lam ×0.64 — cỡ nhiệt độ màu 4000K. Muốn nhẹ hơn thì
+     đẩy hai số sau lên gần 255, muốn đậm hơn thì hạ xuống. */
+  --night-light: rgb(255 209 163);
+}
+
+/* pointer-events: none để lớp phủ không nuốt mất cú bấm nào; z-index tối đa để nó
+   nằm trên cả header dính và nút lên đầu trang. */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  background: var(--night-light);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+:root[data-night-light='off'] body::after {
+  content: none;
+}
+
+/* Bản in ra giấy thì không có màn hình nào cần dịu mắt. */
+@media print {
+  body::after {
+    content: none;
+  }
+}
+
 /* --- Reset ---------------------------------------------------------------- */
 
 *,

@@ -58,6 +58,17 @@ export const MESSAGES = {
     vi: 'Giao diện: {current} — bấm để chuyển sang {next}',
     ja: 'テーマ: {current} — クリックで{next}に切り替え',
   },
+  // Ánh sáng ban đêm là công tắc RIÊNG, không phải một nấc trong vòng Tự động →
+  // Sáng → Tối: bật được cả khi đang dùng nền tối.
+  'theme.nightLight': { vi: 'Ánh sáng ban đêm', ja: '夜間モード' },
+  'theme.nightLight.turnOn': {
+    vi: 'Bật ánh sáng ban đêm — tông màu ấm, đỡ mỏi mắt',
+    ja: '夜間モードをオン — 暖色で目にやさしく',
+  },
+  'theme.nightLight.turnOff': {
+    vi: 'Tắt ánh sáng ban đêm — về màu gốc',
+    ja: '夜間モードをオフ — 元の色に戻す',
+  },
 
   // ── Khoá học ───────────────────────────────────────────────────────────
   'course.name': { vi: 'N3 JUNBI', ja: 'N3 JUNBI' },
