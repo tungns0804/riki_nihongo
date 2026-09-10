@@ -7,11 +7,6 @@
   color: var(--accent);
 }
 
-.skeleton-title {
-  height: 34px;
-  max-width: 340px;
-}
-
 /* --- Mục lục -------------------------------------------------------------
    Dính lại dưới header khi cuộn: bài dài mấy màn hình mà muốn nhảy sang mẫu khác
    thì không phải cuộn ngược lên đầu. z-index thấp hơn header (20) để header luôn

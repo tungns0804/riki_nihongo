@@ -6,7 +6,8 @@
       </a>
 
       @if (loading()) {
-        <div class="skeleton skeleton-title"></div>
+        <div class="skeleton sk-title"></div>
+        <div class="skeleton sk-text"></div>
       } @else if (unit(); as data) {
         <h1>{{ data.name }}</h1>
         @if (data.description) {
@@ -14,6 +15,15 @@
         }
       }
     </section>
+
+    @if (loading()) {
+      <!-- Khung chờ đúng hình trang thật: khối thiết lập luyện tập, rồi các mẫu ngữ pháp.
+           Dữ liệu về thì điền vào đúng chỗ các khối xám, trang không bị đẩy xuống. -->
+      <div class="detail-skeleton" role="status" [attr.aria-label]="t('common.loading')">
+        <div class="skeleton sk-panel"></div>
+        <div class="skeleton sk-block"></div>
+      </div>
+    }
 
     @if (notFound()) {
       <div class="empty-state">

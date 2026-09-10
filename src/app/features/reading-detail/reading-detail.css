@@ -7,11 +7,6 @@
   color: var(--accent);
 }
 
-.skeleton-title {
-  height: 34px;
-  max-width: 340px;
-}
-
 /* --- Bài đọc --------------------------------------------------------------
    Cỡ chữ lớn hơn phần còn lại của trang và dòng thưa hơn: đây là khối duy nhất
    người học phải đọc liền mạch vài trăm chữ, không phải liếc lấy thông tin. */

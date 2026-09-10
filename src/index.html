@@ -6,23 +6,26 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Riki Nihongo — khoá N3 JUNBI: kiểm tra nhập môn, từ vựng, kanji, ngữ pháp, đọc hiểu, nghe hiểu và ngữ pháp Mimikara Oboeru.">
-  <meta name="theme-color" content="#0f766e">
+  <meta name="theme-color" content="#9a4c15">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script>
     // Áp dụng tông màu đã lưu NGAY trước khi Angular khởi động, nếu không trang sẽ
-    // chớp màu hệ thống một nhịp rồi mới đổi. Giữ đoạn này đồng bộ với ThemeStore.
+    // chớp màu hệ thống một nhịp rồi mới đổi. Giữ đoạn này đồng bộ với ThemeStore —
+    // kể cả tông mặc định: chưa lưu gì (hoặc lưu giá trị lạ) thì là đèn đêm.
     try {
-      var saved = JSON.parse(localStorage.getItem('riki:theme') || '""');
-      if (saved === 'light' || saved === 'dark') {
-        document.documentElement.setAttribute('data-theme', saved);
-      }
-      // Ánh sáng ban đêm bật sẵn trong CSS, nên chỉ cần đánh dấu khi người dùng đã tắt.
-      if (JSON.parse(localStorage.getItem('riki:night-light') || 'true') === false) {
-        document.documentElement.setAttribute('data-night-light', 'off');
+      var saved = JSON.parse(localStorage.getItem('riki:theme') || '"night"');
+      if (saved !== 'system') {
+        document.documentElement.setAttribute(
+          'data-theme',
+          saved === 'light' || saved === 'dark' ? saved : 'night'
+        );
       }
       var lang = JSON.parse(localStorage.getItem('riki:language') || '""');
       if (lang === 'vi' || lang === 'ja') document.documentElement.lang = lang;
-    } catch (e) { /* localStorage bị chặn thì cứ theo mặc định */ }
+    } catch (e) {
+      // localStorage bị chặn thì ThemeStore cũng rơi về tông mặc định.
+      document.documentElement.setAttribute('data-theme', 'night');
+    }
   </script>
 </head>
 <body>

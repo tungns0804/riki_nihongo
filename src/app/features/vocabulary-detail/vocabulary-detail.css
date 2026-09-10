@@ -7,11 +7,6 @@
   color: var(--accent);
 }
 
-.skeleton-title {
-  height: 34px;
-  max-width: 340px;
-}
-
 /* --- Danh sách từ ---------------------------------------------------------
    Bố cục đi theo bản PDF của giáo trình: cột trái là từ, cột phải là ví dụ và
    các dòng ghi chú, ngăn nhau bằng một vạch dọc.

@@ -16,7 +16,10 @@
   font-size: var(--fs-sm);
   font-weight: 600;
   box-shadow: var(--shadow);
-  transform: translateY(calc(-100% - var(--sp-4)));
+  /* Đẩy lên đủ xa để cả BÓNG ĐỔ cũng ra khỏi màn hình: bóng lan 20px dưới mép nút
+     (lệch 4px + nhoè 16px), mà trước đây nút chỉ lùi 16px — thành một vệt mờ lấp ló
+     ở góc trên bên trái mọi trang, nhìn rõ nhất trên nền ngà của đèn đêm. */
+  transform: translateY(calc(-100% - var(--sp-7)));
   transition: transform var(--dur) var(--ease);
 }
 
@@ -62,7 +65,11 @@ main:focus-visible {
   align-items: center;
   justify-content: space-between;
   gap: var(--sp-4);
-  min-height: var(--header-h);
+  /* Con số cố định, TUYỆT ĐỐI không dùng var(--header-h): biến đó giờ được ĐO từ chính
+     header này (app.ts). Đọc lại nó ở đây thành vòng lặp — header cao thêm 1px viền,
+     đo ra số mới, min-height tăng theo, header lại cao thêm — và header cứ thế phình
+     ra mãi, đo được 196px ở khổ 1280px thay vì 62px. */
+  min-height: 62px;
 }
 
 .brand {
@@ -167,7 +174,7 @@ main:focus-visible {
   font-weight: 620;
 }
 
-/* --- Nút biểu tượng trên header (ngôn ngữ, ánh sáng ban đêm, sáng/tối) --- */
+/* --- Nút biểu tượng trên header (ngôn ngữ, giao diện) --- */
 
 .icon-btn {
   display: inline-flex;
@@ -210,26 +217,77 @@ main:focus-visible {
   text-align: center;
 }
 
-/* Nút ánh sáng ban đêm CHỈ có biểu tượng: header đã chật tới mức phải bỏ chữ theo
-   từng bậc (xem cuối file), thêm một nhãn dài nữa là menu xuống hàng sớm. Vì không
-   có chữ nên trạng thái bật phải đọc được bằng màu: nền và nét hổ phách.
+/* --- Thanh tiến trình chuyển trang -----------------------------------------
+   Một vệt mảnh chạy ngang, dính ngay dưới header.
 
-   stretch để nút cao bằng nút ngôn ngữ bên cạnh — nút đó có chữ nên cao hơn một
-   biểu tượng 18px. */
-.night-btn {
-  align-self: stretch;
+   Vì sao chỉ là một vệt chứ không phải cả màn hình chờ: trang cũ vẫn còn nguyên
+   trên màn hình trong lúc chờ, và người học vẫn đọc được. Thứ duy nhất còn thiếu là
+   câu trả lời cho "máy có nhận cú bấm của tôi không", mà một vệt chạy là đủ trả lời.
+   Phủ lớp mờ lên cả trang chỉ để nói chừng ấy thì vừa che mất nội dung vừa biến mỗi
+   lần đổi mục thành một cú giật màn hình.
+
+   Chiều cao giữ nguyên kể cả khi ẩn (margin âm bù lại), và nằm ở lớp nền phía sau
+   chữ, để trang không xê dịch một nhịp mỗi lần thanh hiện ra rồi tắt đi. */
+
+.route-progress {
+  position: sticky;
+  /* Bám ngay dưới header dính. --header-h là chiều cao THẬT của header, đo lúc chạy
+     (app.ts) nên đã gồm cả phần chừa cho tai thỏ — không cộng thêm env() nữa, cộng
+     hai lần thì vệt sáng rơi xuống dưới đáy header một khoảng. */
+  top: var(--header-h);
+  z-index: 19;
+  height: 3px;
+  margin-bottom: -3px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--dur) var(--ease);
 }
 
-.night-btn svg {
-  width: 18px;
-  height: 18px;
+.route-progress.is-active {
+  opacity: 1;
 }
 
-.night-btn.is-on,
-.night-btn.is-on:hover {
-  border-color: var(--warning-border);
-  background: var(--warning-soft);
-  color: var(--warning);
+/* Vệt sáng chạy đi chạy lại. Đây là thanh VÔ ĐỊNH: không đo được còn bao nhiêu phần
+   trăm nữa mới xong, nên đừng vẽ ra một mức lấp đầy giả. */
+.route-progress-bar {
+  display: block;
+  height: 100%;
+  width: 40%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  transform: translateX(-100%);
+}
+
+.route-progress.is-active .route-progress-bar {
+  animation: route-progress-slide 1.1s var(--ease) infinite;
+}
+
+@keyframes route-progress-slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(350%);
+  }
+}
+
+/* Tắt hiệu ứng chuyển động thì khối @media ở cuối styles.css bóp thời lượng mọi
+   animation về 0.01ms. Với một animation lặp vô hạn như trên, kết quả không phải là
+   đứng im mà là nháy loạn — đúng thứ người bật tuỳ chọn đó muốn tránh.
+
+   Vì vậy ở đây phải TẮT HẲN animation và vẽ một vạch đặc kín bề ngang: vẫn báo được
+   là trang đang tải, mà không có gì nhúc nhích. */
+@media (prefers-reduced-motion: reduce) {
+  .route-progress.is-active .route-progress-bar {
+    animation: none;
+  }
+
+  .route-progress-bar {
+    width: 100%;
+    transform: none;
+    background: var(--accent);
+  }
 }
 
 /* --- Nút quay lên đầu trang ------------------------------------------------

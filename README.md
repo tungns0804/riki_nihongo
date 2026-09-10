@@ -90,12 +90,17 @@ vừa đọc. Bài kanji hiện danh sách từ ghép theo cùng cách.
 Chọn một cụm (01–10, 11–20…) thì cả danh sách lẫn phần luyện tập chỉ còn cụm đó, và
 ba đáp án nhiễu cũng lấy trong cụm.
 
-## Ánh sáng ban đêm
+## Giao diện
 
-Trang **bật sẵn** một lớp phủ tông ấm lên toàn màn hình, theo cách Night light của
-Windows làm: giữ kênh đỏ, giảm kênh lục và lam (cỡ 4000K). Nút hình mặt trời lặn trên
-header bật/tắt nó, độc lập với nút Sáng/Tối, và lựa chọn được nhớ trên máy. Độ đậm là
-biến `--night-light` trong `src/styles.css`.
+Nút giao diện trên header xoay vòng **Tự động → Sáng → Tối → Đèn đêm**, và trang mở
+lần đầu là **Đèn đêm**. Tông này làm theo Night light của Windows: nền giấy ngà, chữ
+nâu đậm, màu nhấn cam đất thay cho xanh ngọc — bớt ánh sáng xanh mà vẫn đủ sáng để
+đọc. Bảng màu viết riêng dưới `:root[data-theme='night']` trong `src/styles.css`, cùng
+bảng màu với minano_nihongo.
+
+Bấm qua lại giữa các màn hình thì một vệt mảnh chạy ngay dưới header trong lúc tải
+màn hình mới (chỉ hiện khi phải chờ quá 120ms), và trang chi tiết hiện khung xám đúng
+hình bố cục trong lúc chờ dữ liệu — cùng cơ chế với minano_nihongo.
 
 ## Kiến trúc
 

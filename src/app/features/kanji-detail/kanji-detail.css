@@ -7,16 +7,15 @@
   color: var(--accent);
 }
 
-.skeleton-title {
-  height: 34px;
-  max-width: 340px;
-}
-
 /* Lưới rộng hơn lưới thẻ thường (272px): thẻ chữ Hán chứa cả danh sách từ ghép,
-   dưới 300px thì mỗi từ ghép phải xuống hai dòng. */
+   dưới 300px thì mỗi từ ghép phải xuống hai dòng.
+
+   min(320px, 100%) chứ không phải 320px trơn: máy 320px trừ lề khung chỉ còn 292px
+   cho nội dung, và một cột tối thiểu 320px thò ra ngoài 14px — cả trang mọc thanh
+   cuộn ngang. Hẹp tới mức đó thì thà từ ghép xuống dòng còn hơn phải vuốt ngang. */
 .kanji-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
   gap: var(--sp-4);
 }
 

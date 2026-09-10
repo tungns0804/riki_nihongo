@@ -49,25 +49,16 @@ export const MESSAGES = {
   'app.language.switch': { vi: 'Chuyển sang {name}', ja: '{name}に切り替える' },
   'app.skipToContent': { vi: 'Tới nội dung chính', ja: 'メインコンテンツへ' },
   'app.backToTop': { vi: 'Lên đầu trang', ja: 'ページの先頭へ' },
+  'app.navigating': { vi: 'Đang mở trang…', ja: 'ページを読み込み中…' },
 
-  // ── Giao diện sáng/tối ─────────────────────────────────────────────────
+  // ── Giao diện: sáng / tối / đèn đêm ────────────────────────────────────
   'theme.system': { vi: 'Tự động', ja: '自動' },
   'theme.light': { vi: 'Sáng', ja: 'ライト' },
   'theme.dark': { vi: 'Tối', ja: 'ダーク' },
+  'theme.night': { vi: 'Đèn đêm', ja: 'ナイトライト' },
   'theme.title': {
     vi: 'Giao diện: {current} — bấm để chuyển sang {next}',
     ja: 'テーマ: {current} — クリックで{next}に切り替え',
-  },
-  // Ánh sáng ban đêm là công tắc RIÊNG, không phải một nấc trong vòng Tự động →
-  // Sáng → Tối: bật được cả khi đang dùng nền tối.
-  'theme.nightLight': { vi: 'Ánh sáng ban đêm', ja: '夜間モード' },
-  'theme.nightLight.turnOn': {
-    vi: 'Bật ánh sáng ban đêm — tông màu ấm, đỡ mỏi mắt',
-    ja: '夜間モードをオン — 暖色で目にやさしく',
-  },
-  'theme.nightLight.turnOff': {
-    vi: 'Tắt ánh sáng ban đêm — về màu gốc',
-    ja: '夜間モードをオフ — 元の色に戻す',
   },
 
   // ── Khoá học ───────────────────────────────────────────────────────────

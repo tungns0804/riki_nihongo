@@ -7,11 +7,6 @@
   color: var(--accent);
 }
 
-.skeleton-title {
-  height: 34px;
-  max-width: 340px;
-}
-
 /* Trình phát mặc định của trình duyệt, chỉ ép rộng hết khung. Không tự dựng lại
    nút play/tua: bản mặc định đã có sẵn phím tắt, tốc độ phát và hỗ trợ trình đọc
    màn hình — ba thứ mà một trình phát tự vẽ hay đánh mất. */

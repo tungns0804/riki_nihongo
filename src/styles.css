@@ -8,6 +8,8 @@
    - Không có data-theme  -> color-scheme: light dark -> đi theo cài đặt hệ điều hành.
    - data-theme="light"   -> ép sáng.
    - data-theme="dark"    -> ép tối.
+   - data-theme="night"   -> đèn đêm: bảng màu ấm riêng, xem khối ngay sau :root.
+                             Đây là tông mặc định khi người dùng chưa chọn gì.
 
    Thuộc tính data-theme do ThemeStore (src/app/core/services/theme-store.ts) đặt
    trên thẻ <html>, và được khôi phục sớm bởi đoạn script nhỏ trong index.html để
@@ -129,11 +131,16 @@
      mép thẻ sẽ thò ra ngoài mép logo và thanh điều hướng. */
   --max-width: 1240px;
 
-  /* Chiều cao header dính. Khai báo thành biến vì ba chỗ cần đúng con số này:
-     scroll-padding-top của cả trang, mục lục dính trong bài ngữ pháp, và thanh
-     tiến độ dính lúc luyện tập. Header cao lên ở khổ điện thoại (xuống hai hàng)
-     nên biến cũng đổi theo, ở cuối file. */
-  --header-h: 62px;
+  /* Chiều cao THẬT của header dính, tính cả phần chừa cho tai thỏ. Năm chỗ cần đúng
+     con số này: scroll-padding-top của cả trang, thanh tìm từ dính trong bài từ
+     vựng, mục lục dính trong bài ngữ pháp, thanh tiến độ lúc luyện tập, và vệt báo
+     đang chuyển trang.
+
+     Giá trị dưới đây chỉ là ước lượng cho lần vẽ đầu tiên. Ngay khi chạy, app.ts đo
+     header thật rồi ghi đè — xem `App.trackHeaderHeight`. Trước đây là con số viết
+     tay theo breakpoint (104px cho khổ ≤800px, tính cho menu hai hàng), nhưng ở khổ
+     điện thoại menu xếp ba hàng nên các thanh dính chui ra sau header. */
+  --header-h: calc(62px + env(safe-area-inset-top));
 }
 
 :root[data-theme='light'] {
@@ -144,49 +151,68 @@
   color-scheme: dark;
 }
 
-/* --- Ánh sáng ban đêm -------------------------------------------------------
-   Phủ lên cả trang một lớp màu hổ phách, trộn kiểu multiply. Đó chính là việc Night
-   light của Windows làm với màn hình: giữ nguyên kênh đỏ, kéo kênh lục và kênh lam
-   xuống. Trắng thành màu kem ấm, đen vẫn là đen, và mọi màu khác ấm lên theo cùng
-   một tỉ lệ nên chữ và nền vẫn tương phản như cũ.
+/* --- Đèn đêm --------------------------------------------------------------
+   Tông thứ ba, làm theo Night light của Windows: giữ độ sáng vừa phải của giao
+   diện sáng nhưng cắt bớt ánh sáng xanh, nên nền ngả màu giấy ngà và chữ là nâu
+   đậm thay vì xanh đen. Dành cho lúc học buổi tối, khi nền trắng thì chói mà nền
+   tối lại quá tương phản với đèn phòng. Đây cũng là tông của người mở trang lần
+   đầu (xem DEFAULT_PREFERENCE trong ThemeStore).
 
-   Vì sao phủ một lớp thay vì viết bảng màu thứ ba cạnh light-dark(): lớp phủ làm ấm
-   được MỌI THỨ — cả nền tối, emoji, màu viết cứng trong CSS của từng component — mà
-   không phải chép lại từng token rồi giữ cho hai bảng khớp nhau. Nó cũng độc lập với
-   sáng/tối, đúng như trên Windows: nền tối và đèn đêm là hai công tắc riêng.
+   Bảng màu lấy nguyên từ minano_nihongo, để hai trang học đọc lên như một. Đây là
+   bảng duy nhất phải viết tay lần thứ hai, vì light-dark() chỉ biết đúng hai giá
+   trị. Đổi lại, không component nào phải biết tông này tồn tại — chúng vẫn chỉ
+   đọc biến như cũ.
 
-   BẬT SẴN: trang này để ngồi học hàng giờ, nhiều khi vào buổi tối. Tắt bằng
-   data-night-light="off" trên <html> (ThemeStore đặt, index.html khôi phục sớm).
-   Mặc định nằm ở CSS chứ không ở JS nên ngay khung hình đầu tiên, trước khi Angular
-   kịp chạy, trang đã ấm màu — không chớp trắng một nhịp rồi mới ngả vàng. */
+   color-scheme vẫn là light: ô nhập liệu, thanh cuộn, hộp chọn của trình duyệt
+   đều lấy bản sáng, khớp với nền ngà chứ không phải nền tối.
 
-:root {
-  /* Nhân kênh lục ×0.82, kênh lam ×0.64 — cỡ nhiệt độ màu 4000K. Muốn nhẹ hơn thì
-     đẩy hai số sau lên gần 255, muốn đậm hơn thì hạ xuống. */
-  --night-light: rgb(255 209 163);
-}
+   Độ tương phản: ba bậc chữ và bốn màu trạng thái đều ≥ 4.5:1 trên nền thẻ lẫn
+   nền trang, tức đạt WCAG AA cho chữ nhỏ. Riêng trên ô lõm sâu nhất (--bg-inset)
+   bậc chữ nhạt nhất còn 4.0:1 — chỗ đó chỉ có nhãn phụ chứ không có chữ để đọc
+   lâu. Sửa màu thì phải đo lại. */
+:root[data-theme='night'] {
+  color-scheme: light;
 
-/* pointer-events: none để lớp phủ không nuốt mất cú bấm nào; z-index tối đa để nó
-   nằm trên cả header dính và nút lên đầu trang. */
-body::after {
-  content: '';
-  position: fixed;
-  inset: 0;
-  z-index: 2147483647;
-  background: var(--night-light);
-  mix-blend-mode: multiply;
-  pointer-events: none;
-}
+  --bg: #f1e7d5;
+  --bg-elevated: #fbf3e3;
+  --bg-subtle: #ece0cb;
+  --bg-inset: #e3d5bb;
 
-:root[data-night-light='off'] body::after {
-  content: none;
-}
+  --text: #2b2113;
+  --text-muted: #66502f;
+  --text-faint: #786243;
 
-/* Bản in ra giấy thì không có màn hình nào cần dịu mắt. */
-@media print {
-  body::after {
-    content: none;
-  }
+  --border: #e0cfb1;
+  --border-strong: #c9b48f;
+
+  /* Xanh ngọc của Riki vẫn là một màu xanh — đúng thứ tông này sinh ra để bớt, nên
+     nó là màu đầu tiên phải thay. Cam đất giữ đúng vai trò "màu nhấn" mà vẫn không
+     lẫn với --warning (ngả vàng) hay --danger (ngả đỏ). */
+  --accent: #9a4c15;
+  --accent-hover: #7f3d0e;
+  --accent-soft: #f7e6cd;
+  --accent-text: #fffaf0;
+  --accent-ring: rgb(154 76 21 / 18%);
+
+  --success: #4a6b1f;
+  --success-soft: #e7edd0;
+  --success-border: #b5c98a;
+
+  --danger: #a32e1e;
+  --danger-soft: #f8dfd5;
+  --danger-border: #e0a48c;
+
+  --warning: #7d5b05;
+  --warning-soft: #f4e6bd;
+  --warning-border: #d8bc71;
+
+  --star: #c07c0b;
+
+  /* Bóng đổ pha nâu chứ không pha xanh đen: bóng xám lạnh trên nền ngà nhìn ra
+     ngay là bẩn, vì nó là mảng duy nhất trong trang không cùng họ màu. */
+  --shadow-sm: 0 1px 2px rgb(74 48 14 / 10%);
+  --shadow: 0 4px 16px rgb(74 48 14 / 12%);
+  --shadow-lg: 0 12px 32px rgb(74 48 14 / 18%);
 }
 
 /* --- Reset ---------------------------------------------------------------- */
@@ -811,6 +837,38 @@ a:hover {
   }
 }
 
+/* Khung chờ của màn hình chi tiết, dùng chung cho năm màn hình (từ vựng, kanji, ngữ
+   pháp, đọc hiểu, nghe hiểu) nên đặt ở đây thay vì chép năm lần. Kích thước xấp xỉ
+   khối thật: tên bài, dòng mô tả, khối thiết lập luyện tập, rồi phần nội dung nằm
+   trong màn hình đầu tiên — dữ liệu về thì điền vào đúng chỗ, không đẩy trang xuống. */
+.detail-skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.sk-title {
+  width: min(340px, 80%);
+  height: 34px;
+}
+
+.sk-text {
+  width: min(460px, 90%);
+  height: 16px;
+}
+
+/* Cao xấp xỉ khối thiết lập luyện tập thật (kiểu trả lời, chiều hỏi, số câu, nút). */
+.sk-panel {
+  height: 420px;
+  border-radius: var(--radius-lg);
+}
+
+/* Cao xấp xỉ phần nội dung nhìn thấy được trong màn hình đầu tiên. */
+.sk-block {
+  height: 320px;
+  border-radius: var(--radius-lg);
+}
+
 /* --- Chuyển động ----------------------------------------------------------
    Nguyên tắc: mỗi hiệu ứng phải TRẢ LỜI một câu hỏi của người học, chứ không
    phải để cho đẹp. Cụ thể là bốn câu:
@@ -1113,15 +1171,6 @@ kbd {
   }
 }
 
-/* Dưới 800px header xuống hai hàng (xem app.css) nên chỗ chừa cho nó phải cao lên
-   theo, nếu không khối vừa cuộn tới sẽ bị header che mất dòng đầu. Bảy mục menu có
-   thể xuống hai hàng ở máy hẹp, nên chừa theo trường hợp cao nhất. */
-@media (max-width: 800px) {
-  :root {
-    --header-h: 104px;
-  }
-}
-
 /* --- Thiết bị chạm ---------------------------------------------------------
    Phân biệt bằng (hover: none) chứ không bằng bề rộng: máy tính cửa sổ hẹp vẫn có
    chuột nên vẫn cần hiệu ứng hover, còn tablet rộng thì vẫn cần vùng bấm to. */
@@ -1160,6 +1209,18 @@ kbd {
     animation-duration: 0.01ms !important;
     animation-delay: 0ms !important;
     transition-duration: 0.01ms !important;
+  }
+
+  /* Riêng khung chờ phải TẮT HẲN animation chứ không chỉ rút ngắn.
+
+     Quy tắc ở trên xử lý đúng những hiệu ứng chạy MỘT lần: rút về 0.01ms thì coi như
+     chúng nhảy thẳng tới trạng thái cuối. Nhưng hiệu ứng lấp lánh của khung chờ lặp
+     VÔ HẠN, nên rút ngắn không làm nó dừng — nó chạy hết vòng này tới vòng khác trong
+     mỗi khung hình, thành ra nhấp nháy loạn xạ, đúng thứ người bật tuỳ chọn này muốn
+     tránh. Không có hiệu ứng thì khối xám vẫn nói đủ ý "chỗ này đang chờ dữ liệu". */
+  .skeleton {
+    animation: none !important;
+    background: var(--bg-subtle);
   }
 }
 
