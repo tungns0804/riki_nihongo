@@ -45,6 +45,10 @@
       </div>
     }
 
+    @if (pairsWithExample()) {
+      <p class="hint">{{ t('practice.withExample') }}</p>
+    }
+
     @if (groups().length > 1) {
       <!-- Mỗi cụm là một buổi học 10 từ của giáo trình. Chọn cụm nào thì danh sách
            từ bên dưới cũng lọc theo cụm đó. -->

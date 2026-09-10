@@ -24,6 +24,9 @@
       <section class="card question-card">
         <div class="card-body stack stack-lg">
           <div class="stack stack-sm">
+            @if (q.exampleStep) {
+              <span class="badge badge-accent step-badge">{{ t('practice.exampleStep') }}</span>
+            }
             <p class="prompt" [class.jp]="q.promptIsJapanese">{{ q.prompt }}</p>
             @if (q.hint) {
               <p class="muted small">{{ q.hint }}</p>

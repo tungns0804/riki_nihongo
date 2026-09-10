@@ -78,8 +78,14 @@ Với động từ, chỗ bị khoét là **dạng chia trong câu** chứ khôn
 được ưu tiên chọn cùng dạng chia (`倒して・殴って・起こして`), để không loại được đáp án
 chỉ nhờ ngữ pháp.
 
-Chấm xong, mọi chiều đều hiện **toàn bộ câu ví dụ** của từ đó, có tô đậm từ đang học
-trong câu. Bài kanji hiện danh sách từ ghép theo cùng cách.
+Ở ba chiều hỏi về từ, **mỗi từ kèm ngay một câu ví dụ**: trả lời xong 倒れる thì câu kế
+tiếp là một câu ví dụ của chính 倒れる, khoét chỗ trống để điền lại — nhớ nghĩa chưa đủ,
+phải đặt được từ vào câu. Câu ví dụ chọn ngẫu nhiên mỗi phiên, và số câu đếm cả hai:
+"10 câu" là 5 cặp, không bao giờ cắt đôi một cặp.
+
+Chấm xong câu ví dụ thì hiện **toàn bộ câu ví dụ** của từ đó, có tô đậm từ đang học
+trong câu. Ở câu hỏi về từ thì chưa hiện, để câu điền kế tiếp không thành chép lại chỗ
+vừa đọc. Bài kanji hiện danh sách từ ghép theo cùng cách.
 
 Chọn một cụm (01–10, 11–20…) thì cả danh sách lẫn phần luyện tập chỉ còn cụm đó, và
 ba đáp án nhiễu cũng lấy trong cụm.

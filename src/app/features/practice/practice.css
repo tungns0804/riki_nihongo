@@ -20,6 +20,12 @@
   line-height: 1.35;
 }
 
+/* Nhãn "Câu ví dụ của từ vừa trả lời". Chỉ rộng bằng chữ: .stack là cột flex nên
+   mặc định kéo nó dãn hết bề ngang, thành một dải màu trông như khối phản hồi. */
+.step-badge {
+  align-self: flex-start;
+}
+
 .choices {
   display: grid;
   gap: var(--sp-2);

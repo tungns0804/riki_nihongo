@@ -76,6 +76,13 @@ export interface PracticeQuestion {
   /** Giải thích hiện sau khi chấm. Rỗng nghĩa là không có. */
   explanation: string;
   /**
+   * Câu ví dụ đi liền sau câu hỏi về chính từ đó — bài từ vựng hỏi theo cặp.
+   *
+   * Màn luyện tập dựa vào đây để nói rõ "câu này dùng lại từ vừa rồi". Thiếu dòng đó
+   * thì người học tưởng đã sang một từ mới, và chỗ trống trông như phải đoán mò.
+   */
+  exampleStep: boolean;
+  /**
    * Câu ví dụ của mục đang hỏi, hiện SAU KHI chấm.
    *
    * Hiện cả danh sách chứ không một câu: câu ví dụ là chỗ duy nhất cho thấy từ này

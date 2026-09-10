@@ -80,6 +80,18 @@ export class PracticeSetup {
     return usable.some((info) => info.id === current) ? current : usable[0]?.id ?? 'jp-vi';
   });
 
+  /**
+   * Bài từ vựng đang hỏi theo cặp — từ, rồi một câu ví dụ của chính từ đó — ở mọi chiều
+   * trừ chiều chỉ có câu ví dụ. Nói ra ngay trong khung thiết lập, để số câu gấp đôi số
+   * từ không làm người học bất ngờ.
+   */
+  protected readonly pairsWithExample = computed(
+    () =>
+      this.unit().kind === 'vocabulary' &&
+      this.direction() !== 'jp-sentence' &&
+      directionIsUsable(this.unit(), 'jp-sentence'),
+  );
+
   /** Số câu thực sự dựng được — hiện ngay trên nút bắt đầu để không hứa suông. */
   protected readonly available = computed(
     () =>

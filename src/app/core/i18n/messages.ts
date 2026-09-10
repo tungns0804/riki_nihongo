@@ -233,6 +233,11 @@ export const MESSAGES = {
   'practice.direction.viToJp': { vi: 'Việt → Nhật', ja: 'ベトナム語 → 日本語' },
   'practice.direction.jpToReading': { vi: 'Nhật → Cách đọc', ja: '日本語 → 読み方' },
   'practice.direction.sentence': { vi: 'Điền từ vào câu', ja: '例文の穴埋め' },
+  'practice.withExample': {
+    vi: 'Mỗi từ có thêm một câu ví dụ ngay sau đó: điền đúng dạng của từ vào câu.',
+    ja: '各単語のすぐ後に例文が1問つきます。文に合う形で単語を入れてください。',
+  },
+  'practice.exampleStep': { vi: 'Câu ví dụ của từ vừa trả lời', ja: '今の単語の例文' },
   'practice.group': { vi: 'Cụm từ', ja: 'グループ' },
   'practice.count': { vi: 'Số câu', ja: '問題数' },
   'practice.start': { vi: 'Bắt đầu luyện', ja: '練習を始める' },
