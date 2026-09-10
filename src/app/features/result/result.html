@@ -58,14 +58,35 @@
                 <p [class.jp]="item.question.answerIsJapanese">
                   {{ t('practice.answerWas', { answer: item.question.answer }) }}
                 </p>
-                @if (!item.isCorrect) {
+                @if (!item.main.isCorrect) {
                   <p class="muted small" [class.jp]="item.question.answerIsJapanese">
-                    @if (item.given) {
-                      {{ t('result.yourAnswer', { answer: item.given }) }}
+                    @if (item.main.given) {
+                      {{ t('result.yourAnswer', { answer: item.main.given }) }}
                     } @else {
                       {{ t('result.skipped') }}
                     }
                   </p>
+                }
+
+                <!-- Câu ví dụ đi kèm, ngay trong cùng thẻ kết quả: cả câu bị tính sai có khi
+                     chỉ vì phần này, nên phải thấy được nó sai chỗ nào. -->
+                @if (item.question.followUp; as f) {
+                  <div class="result-follow stack stack-sm">
+                    <span class="label">{{ t('practice.exampleStep') }}</span>
+                    <p class="result-prompt" [class.jp]="f.promptIsJapanese">{{ f.prompt }}</p>
+                    <p [class.jp]="f.answerIsJapanese">
+                      {{ t('practice.answerWas', { answer: f.answer }) }}
+                    </p>
+                    @if (item.followUp && !item.followUp.isCorrect) {
+                      <p class="muted small" [class.jp]="f.answerIsJapanese">
+                        @if (item.followUp.given) {
+                          {{ t('result.yourAnswer', { answer: item.followUp.given }) }}
+                        } @else {
+                          {{ t('result.skipped') }}
+                        }
+                      </p>
+                    }
+                  </div>
                 }
               </div>
             </li>

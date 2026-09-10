@@ -78,7 +78,8 @@ export class EntranceTest {
       if (questions.length === 0) return;
 
       this.session.start(config, questions);
-      await this.router.navigate(['/practice']);
+      // Địa chỉ nói rõ đang làm đề nào (/test/de-1/practice), cùng kiểu với các bài khác.
+      await this.router.navigate(['/', this.module().path, unit.id, 'practice']);
     } finally {
       this.starting.set(null);
     }

@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 
+import { MODULES } from './core/course/course.config';
 import { practiceGuard, resultGuard } from './core/guards/session.guards';
 
 /**
@@ -22,6 +23,8 @@ import { practiceGuard, resultGuard } from './core/guards/session.guards';
  * từ vựng không phải tải mã của phần nghe hiểu.
  */
 const unitList = () => import('./features/unit-list/unit-list').then((m) => m.UnitList);
+const practice = () => import('./features/practice/practice').then((m) => m.Practice);
+const result = () => import('./features/result/result').then((m) => m.Result);
 
 export const routes: Routes = [
   {
@@ -123,20 +126,32 @@ export const routes: Routes = [
       import('./features/grammar-detail/grammar-detail').then((m) => m.GrammarDetail),
   },
 
-  // Hai màn hình dưới đây không có link vào từ menu: chúng chỉ tới từ nút "bắt đầu
-  // luyện" của một bài. Guard chặn người vào thẳng bằng URL khi chưa có phiên nào.
-  {
-    path: 'practice',
-    title: 'route.practice',
-    canActivate: [practiceGuard],
-    loadComponent: () => import('./features/practice/practice').then((m) => m.Practice),
-  },
-  {
-    path: 'result',
-    title: 'route.result',
-    canActivate: [resultGuard],
-    loadComponent: () => import('./features/result/result').then((m) => m.Result),
-  },
+  // Luyện tập và kết quả nằm DƯỚI địa chỉ của bài đang luyện:
+  //
+  //   /vocabulary/02-dong-tu/practice      /vocabulary/02-dong-tu/result
+  //
+  // Trước đây là /practice và /result trơn, nên thanh địa chỉ không nói đang luyện phần
+  // nào, bài nào, và mục "Từ vựng" trên menu không sáng — routerLinkActive chỉ sáng khi
+  // địa chỉ nằm dưới /vocabulary. Dựng từ MODULES để phần học thêm sau tự có cặp này.
+  //
+  // Không có link vào từ menu: chúng chỉ tới từ nút "bắt đầu luyện" của một bài. Guard
+  // chặn người vào thẳng bằng URL khi không có phiên của đúng bài đó.
+  ...MODULES.flatMap((module): Routes => [
+    {
+      path: `${module.path}/:id/practice`,
+      title: 'route.practice',
+      data: { moduleId: module.id },
+      canActivate: [practiceGuard],
+      loadComponent: practice,
+    },
+    {
+      path: `${module.path}/:id/result`,
+      title: 'route.result',
+      data: { moduleId: module.id },
+      canActivate: [resultGuard],
+      loadComponent: result,
+    },
+  ]),
 
   { path: '**', redirectTo: '' },
 ];

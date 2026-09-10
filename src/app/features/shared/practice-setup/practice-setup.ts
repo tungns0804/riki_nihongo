@@ -9,6 +9,7 @@ import {
 } from '@angular/core';
 import { Router } from '@angular/router';
 
+import { moduleOf } from '../../../core/course/course.config';
 import { LanguageStore } from '../../../core/i18n/language-store';
 import { T } from '../../../core/i18n/t';
 import { Unit, groupsOf } from '../../../core/models/content.model';
@@ -62,7 +63,6 @@ export class PracticeSetup {
   protected readonly limit = signal<number | null>(20);
   protected readonly limits = QUESTION_LIMITS;
 
-
   private readonly directionRef = signal<PracticeDirection>('jp-vi');
 
   /** Các chiều luyện được với bài đang mở. */
@@ -81,9 +81,9 @@ export class PracticeSetup {
   });
 
   /**
-   * Bài từ vựng đang hỏi theo cặp — từ, rồi một câu ví dụ của chính từ đó — ở mọi chiều
-   * trừ chiều chỉ có câu ví dụ. Nói ra ngay trong khung thiết lập, để số câu gấp đôi số
-   * từ không làm người học bất ngờ.
+   * Bài từ vựng đang kèm một câu ví dụ vào mỗi câu hỏi về từ — ở mọi chiều trừ chiều
+   * chỉ có câu ví dụ. Nói ra ngay trong khung thiết lập, để người học biết trước là mỗi
+   * câu có hai phần trên cùng một thẻ.
    */
   protected readonly pairsWithExample = computed(
     () =>
@@ -138,13 +138,14 @@ export class PracticeSetup {
     this.limit.set(group === null ? 20 : null);
   }
 
-
   protected start(): void {
     const config = this.config();
     const questions = buildQuestions(this.unit(), config);
     if (questions.length === 0) return;
 
     this.session.start(config, questions);
-    void this.router.navigate(['/practice']);
+    // Địa chỉ nói rõ đang luyện phần nào, bài nào — xem các route luyện tập trong
+    // app.routes.ts.
+    void this.router.navigate(['/', moduleOf(config.moduleId).path, config.unitId, 'practice']);
   }
 }

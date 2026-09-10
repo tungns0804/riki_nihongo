@@ -1,6 +1,7 @@
 import { Injectable, computed, signal } from '@angular/core';
 
 import {
+  AnswerRecord,
   PracticeConfig,
   PracticeQuestion,
   QuestionResult,
@@ -17,8 +18,8 @@ import { isAnswerCorrect } from '../utils/answer-check';
  * không phải state trong một component.
  *
  * Vì phiên chỉ nằm trong bộ nhớ nên F5 giữa chừng là mất. Đó là lý do có hai guard
- * ở `core/guards/session.guards.ts`: vào thẳng /practice hay /result mà không có
- * phiên thì đưa về trang chủ thay vì hiện một màn hình trống.
+ * ở `core/guards/session.guards.ts`: vào thẳng trang luyện tập hay trang kết quả mà
+ * không có phiên của đúng bài đó thì đưa về trang của bài thay vì hiện màn hình trống.
  */
 @Injectable({ providedIn: 'root' })
 export class PracticeSessionStore {
@@ -34,7 +35,7 @@ export class PracticeSessionStore {
   readonly index = this.indexRef.asReadonly();
   readonly summary = this.summaryRef.asReadonly();
 
-  /** Có phiên đang làm dở không — guard của /practice hỏi cái này. */
+  /** Có phiên đang làm dở không — guard của trang luyện tập hỏi cái này. */
   readonly hasSession = computed(() => this.questionsRef().length > 0);
 
   readonly total = computed(() => this.questionsRef().length);
@@ -60,23 +61,41 @@ export class PracticeSessionStore {
   }
 
   /**
-   * Chấm một câu và ghi lại kết quả.
+   * Chấm phần chính của câu đang hỏi và ghi lại kết quả.
    *
    * Chấm ở đây chứ không ở component: màn hình luyện tập chỉ biết người dùng vừa
    * gõ gì, còn "gõ thế có đúng không" là luật của cả ứng dụng.
+   *
+   * Câu có câu ví dụ đi kèm thì lúc này CHƯA biết cả câu đúng hay sai: phần câu ví dụ
+   * ghi tạm là bỏ qua, chờ `answerFollowUp` điền nốt. Dừng luyện giữa chừng thì nó giữ
+   * nguyên là bỏ qua — đúng với việc người học chưa trả lời phần đó.
    */
   answer(given: string): boolean {
     const question = this.current();
     if (!question) return false;
 
-    const isCorrect = isAnswerCorrect(given, question.acceptedAnswers, {
-      // Đáp án tiếng Nhật thì không có dấu tiếng Việt để mà bỏ qua; đáp án tiếng
-      // Việt thì bỏ qua dấu, vì gõ tiếng Việt có dấu trên bàn phím Nhật rất cực.
-      ignoreDiacritics: !question.answerIsJapanese,
-    });
+    const main: AnswerRecord = { given, isCorrect: grade(question, given) };
+    const followUp: AnswerRecord | null = question.followUp ? { given: '', isCorrect: false } : null;
+    this.resultsRef.update((results) => [
+      ...results,
+      { question, main, followUp, isCorrect: main.isCorrect && followUp === null },
+    ]);
+    return main.isCorrect;
+  }
 
-    this.resultsRef.update((results) => [...results, { question, given, isCorrect }]);
-    return isCorrect;
+  /** Chấm câu ví dụ đi kèm của câu đang hỏi. Chỉ có nghĩa sau khi đã gọi `answer`. */
+  answerFollowUp(given: string): boolean {
+    const question = this.current();
+    const results = this.resultsRef();
+    const last = results[results.length - 1];
+    if (!question?.followUp || last?.question !== question) return false;
+
+    const followUp: AnswerRecord = { given, isCorrect: grade(question.followUp, given) };
+    this.resultsRef.set([
+      ...results.slice(0, -1),
+      { ...last, followUp, isCorrect: last.main.isCorrect && followUp.isCorrect },
+    ]);
+    return followUp.isCorrect;
   }
 
   /** Sang câu tiếp theo. Trả về false khi đã hết câu. */
@@ -99,7 +118,12 @@ export class PracticeSessionStore {
     const answered = this.resultsRef();
     const skipped: QuestionResult[] = this.questionsRef()
       .slice(answered.length)
-      .map((question) => ({ question, given: '', isCorrect: false }));
+      .map((question) => ({
+        question,
+        main: { given: '', isCorrect: false },
+        followUp: question.followUp ? { given: '', isCorrect: false } : null,
+        isCorrect: false,
+      }));
 
     const results = [...answered, ...skipped];
     const correctCount = results.filter((result) => result.isCorrect).length;
@@ -128,4 +152,13 @@ export class PracticeSessionStore {
     this.indexRef.set(0);
     this.summaryRef.set(null);
   }
+}
+
+/** Chấm một chuỗi trả lời cho một câu hỏi. */
+function grade(question: PracticeQuestion, given: string): boolean {
+  return isAnswerCorrect(given, question.acceptedAnswers, {
+    // Đáp án tiếng Nhật thì không có dấu tiếng Việt để mà bỏ qua; đáp án tiếng
+    // Việt thì bỏ qua dấu, vì gõ tiếng Việt có dấu trên bàn phím Nhật rất cực.
+    ignoreDiacritics: !question.answerIsJapanese,
+  });
 }

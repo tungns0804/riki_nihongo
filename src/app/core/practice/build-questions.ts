@@ -33,15 +33,6 @@ import { readingOfForm } from '../utils/text';
  *    luyện tập và kết quả dùng chung được.
  */
 
-/**
- * Một LƯỢT hỏi: một hoặc vài câu luôn đi liền nhau và không bao giờ bị tách ra.
- *
- * Bài từ vựng hỏi theo cặp — câu hỏi về từ, rồi ngay sau đó một câu ví dụ của chính
- * từ đó. Trộn và cắt số câu vì vậy phải làm trên từng lượt: trộn theo từng câu thì câu
- * ví dụ của 倒れる có thể rơi xuống cuối phiên, cách xa đúng cái từ nó sinh ra để luyện.
- */
-type Round = PracticeQuestion[];
-
 /** Lấy tối đa `CHOICE_COUNT - 1` mồi nhiễu khác đáp án, rồi trộn cùng đáp án. */
 function buildChoices(answer: string, pool: readonly string[]): string[] {
   const others = [...new Set(pool.filter((value) => value && value !== answer))];
@@ -88,21 +79,23 @@ function vocabExamples(word: VocabWord): PracticeExample[] {
 }
 
 /**
- * Hỏi về từ, rồi hỏi ngay một câu ví dụ của chính từ đó.
+ * Hỏi về từ, kèm NGAY TRÊN CÙNG THẺ một câu ví dụ của chính từ đó.
  *
- * Vì sao phải có câu thứ hai: chọn đúng "倒れる = Đổ" chưa có nghĩa là dùng được nó.
- * Câu ví dụ bắt người học đưa từ vừa nhớ vào ngữ cảnh — với động từ còn phải chia cho
- * hợp câu — mà đề 文字語彙 của kỳ thi hỏi đúng theo kiểu đó. Áp dụng cho mọi chiều hỏi
- * về từ: Nhật → Việt, Việt → Nhật lẫn Nhật → Cách đọc.
+ * Vì sao phải có câu ví dụ: chọn đúng "倒れる = Đổ" chưa có nghĩa là dùng được nó. Câu
+ * ví dụ bắt người học đưa từ vừa nhớ vào ngữ cảnh — với động từ còn phải chia cho hợp
+ * câu — mà đề 文字語彙 của kỳ thi hỏi đúng theo kiểu đó. Áp dụng cho mọi chiều hỏi về
+ * từ: Nhật → Việt, Việt → Nhật lẫn Nhật → Cách đọc.
  *
- * Câu ví dụ chọn ngẫu nhiên mỗi phiên, để lần luyện sau gặp một ngữ cảnh khác. Từ
- * không có câu nào khoét được (vài danh từ sách không cho ví dụ) thì chỉ hỏi về từ.
+ * Câu ví dụ nằm TRONG câu hỏi về từ (`followUp`) chứ không đứng thành câu kế tiếp: màn
+ * luyện tập hiện nó ngay dưới phần vừa chấm, không phải bấm "Câu tiếp theo" giữa chừng.
+ * Chọn ngẫu nhiên mỗi phiên, để lần luyện sau gặp một ngữ cảnh khác. Từ không có câu
+ * nào khoét được (vài danh từ sách không cho ví dụ) thì chỉ hỏi về từ.
  */
 function fromVocabulary(
   words: readonly VocabWord[],
   direction: PracticeDirection,
   withChoices: boolean,
-): Round[] {
+): PracticeQuestion[] {
   const { prompt, answer } = vocabFields(direction);
   // Từ thiếu đúng ô đang hỏi thì bỏ qua, không hỏi một câu có đáp án rỗng.
   const usable = words.filter((word) => word[prompt] && word[answer]);
@@ -118,9 +111,9 @@ function fromVocabulary(
       1,
     );
 
-    const question: PracticeQuestion = {
+    return {
       id: `${word.id}:${direction}`,
-      skill: 'vocabulary',
+      skill: 'vocabulary' as SkillId,
       prompt: prompt === 'japanese' ? withParticle(word) : String(word[prompt]),
       promptIsJapanese: prompt !== 'vietnamese',
       // Âm Hán Việt làm gợi ý, nhưng KHÔNG hiện khi nó chính là câu hỏi hay đáp án.
@@ -130,14 +123,9 @@ function fromVocabulary(
       acceptedAnswers: [correct],
       choices: withChoices ? buildChoices(correct, pool) : [],
       explanation: '',
-      // Có câu ví dụ đi sau thì KHÔNG hiện câu ví dụ ở câu này: vừa đọc cả câu có tô
-      // đậm từ xong, sang câu sau điền từ chỉ còn là chép lại chỗ vừa thấy. Danh sách
-      // câu ví dụ hiện ở câu sau, lúc đã chấm xong.
-      examples: follow ? [] : vocabExamples(word),
-      exampleStep: false,
+      examples: vocabExamples(word),
+      followUp: follow ? sentenceQuestion(follow, sentences, withChoices, true) : null,
     };
-
-    return follow ? [question, sentenceQuestion(follow, sentences, withChoices, true)] : [question];
   });
 }
 
@@ -231,14 +219,14 @@ function readingOfBlank(blank: string, word: VocabWord): string {
  * đáp án của のどが（　　）。là 渇いた — đề 文字語彙 của kỳ thi cũng in lựa chọn ở
  * đúng dạng chia hợp với câu. Với danh từ, hai thứ đó trùng nhau.
  *
- * `exampleStep` = câu này đi liền sau câu hỏi về chính từ đó, chứ không đứng một mình
- * như ở chiều "Điền từ vào câu".
+ * `asFollowUp` = câu này đi kèm câu hỏi về chính từ đó, trên cùng thẻ. Khi đó nó không
+ * mang danh sách câu ví dụ: thẻ hiện danh sách đúng một lần, lúc chấm xong cả hai phần.
  */
 function sentenceQuestion(
   item: SentenceItem,
   all: readonly SentenceItem[],
   withChoices: boolean,
-  exampleStep: boolean,
+  asFollowUp: boolean,
 ): PracticeQuestion {
   const { word, example, blank } = item;
   // Mồi nhiễu lấy từ câu của TỪ KHÁC. Dạng khác của chính từ này (倒れた làm nhiễu
@@ -263,20 +251,23 @@ function sentenceQuestion(
     acceptedAnswers: reading ? [blank, reading] : [blank],
     choices: withChoices ? buildBlankChoices(blank, pool) : [],
     explanation: '',
-    examples: vocabExamples(word),
-    exampleStep,
+    examples: asFollowUp ? [] : vocabExamples(word),
+    followUp: null,
   };
 }
 
 /**
- * Chiều "Điền từ vào câu": chỉ có câu ví dụ, mỗi câu một lượt riêng.
+ * Chiều "Điền từ vào câu": chỉ có câu ví dụ, mỗi câu một thẻ riêng.
  *
  * Một từ có mấy câu thì ra mấy câu hỏi: cùng một từ nhưng mỗi câu một ngữ cảnh, đó
  * chính là thứ cần luyện.
  */
-function fromVocabularySentences(words: readonly VocabWord[], withChoices: boolean): Round[] {
+function fromVocabularySentences(
+  words: readonly VocabWord[],
+  withChoices: boolean,
+): PracticeQuestion[] {
   const items = sentenceItems(words);
-  return items.map((item) => [sentenceQuestion(item, items, withChoices, false)]);
+  return items.map((item) => sentenceQuestion(item, items, withChoices, false));
 }
 
 // ── Kanji ──────────────────────────────────────────────────────────────────
@@ -329,7 +320,7 @@ function fromKanji(
         vietnamese: word.vietnamese,
         highlights: [entry.character],
       })),
-      exampleStep: false,
+      followUp: null,
     };
   });
 }
@@ -382,7 +373,7 @@ function fromGrammar(
             },
           ]
         : [],
-      exampleStep: false,
+      followUp: null,
     };
   });
 }
@@ -412,7 +403,7 @@ export function fromQuizQuestions(questions: readonly QuizQuestion[]): PracticeQ
         choices: question.choices.map((choice) => choice.text),
         explanation: question.explanation,
         examples: [],
-        exampleStep: false,
+        followUp: null,
       },
     ];
   });
@@ -438,27 +429,11 @@ export function directionIsUsable(unit: Unit, direction: PracticeDirection): boo
 }
 
 /**
- * Lấy các lượt cho tới khi đủ số câu đã đặt, KHÔNG BAO GIỜ cắt đôi một lượt.
- *
- * Lượt nào nhét vào sẽ vượt số câu thì bỏ qua lượt đó mà xét lượt kế: chọn "10 câu"
- * thì phiên có đúng 10 câu, không thành 11 chỉ vì lượt cuối là một cặp. Cắt đôi còn
- * tệ hơn — câu hỏi về từ nằm cuối phiên mà câu ví dụ của nó thì mất.
- */
-function takeRounds(rounds: readonly Round[], limit: number | null): PracticeQuestion[] {
-  if (limit === null) return rounds.flat();
-
-  const taken: PracticeQuestion[] = [];
-  for (const round of rounds) {
-    if (taken.length + round.length > limit) continue;
-    taken.push(...round);
-    if (taken.length === limit) break;
-  }
-  return taken;
-}
-
-/**
  * Dựng câu hỏi cho cả phiên: chọn nguồn theo loại bài, trộn, rồi cắt theo số câu
  * đã đặt. Trộn TRƯỚC khi cắt, nếu không thì "10 câu" luôn là đúng mười mục đầu bài.
+ *
+ * Số câu đếm theo THẺ: câu hỏi về từ cùng câu ví dụ đi kèm của nó là MỘT câu, nên
+ * "10 câu" là 10 từ, và cắt số câu không bao giờ tách câu ví dụ khỏi từ của nó.
  */
 export function buildQuestions(unit: Unit, config: PracticeConfig): PracticeQuestion[] {
   const withChoices = config.answerMode === 'choice';
@@ -470,30 +445,27 @@ export function buildQuestions(unit: Unit, config: PracticeConfig): PracticeQues
     ? unit.words.filter((word) => word.group === config.group)
     : unit.words;
 
-  // Mọi loại bài khác mỗi câu là một lượt riêng.
-  const single = (questions: PracticeQuestion[]): Round[] => questions.map((question) => [question]);
-
-  const rounds = ((): Round[] => {
+  const all = (() => {
     switch (unit.kind) {
       case 'vocabulary':
         return config.direction === 'jp-sentence'
           ? fromVocabularySentences(words, withChoices)
           : fromVocabulary(words, config.direction, withChoices);
       case 'kanji':
-        return single(fromKanji(unit.kanji, config.direction, withChoices));
+        return fromKanji(unit.kanji, config.direction, withChoices);
       case 'grammar':
-        return single(fromGrammar(unit.points, config.direction, withChoices));
+        return fromGrammar(unit.points, config.direction, withChoices);
       case 'reading':
-        return single(fromQuizQuestions(unit.passages.flatMap((passage) => passage.questions)));
+        return fromQuizQuestions(unit.passages.flatMap((passage) => passage.questions));
       case 'listening':
-        return single(fromQuizQuestions(unit.tracks.flatMap((track) => track.questions)));
+        return fromQuizQuestions(unit.tracks.flatMap((track) => track.questions));
       case 'test':
-        return single(fromQuizQuestions(unit.sections.flatMap((section) => section.questions)));
+        return fromQuizQuestions(unit.sections.flatMap((section) => section.questions));
     }
   })();
 
   // Đề kiểm tra giữ nguyên thứ tự: các phần đi từ từ vựng tới nghe hiểu, trộn lên
   // thì người làm phải nhảy qua nhảy lại giữa năm kiểu câu hỏi suốt cả bài.
-  const ordered = unit.kind === 'test' ? rounds : shuffle(rounds);
-  return takeRounds(ordered, config.questionLimit);
+  const ordered = unit.kind === 'test' ? all : shuffle(all);
+  return config.questionLimit === null ? ordered : ordered.slice(0, config.questionLimit);
 }

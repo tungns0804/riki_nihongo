@@ -20,10 +20,26 @@
   line-height: 1.35;
 }
 
-/* Nhãn "Câu ví dụ của từ vừa trả lời". Chỉ rộng bằng chữ: .stack là cột flex nên
-   mặc định kéo nó dãn hết bề ngang, thành một dải màu trông như khối phản hồi. */
+/* Nhãn của câu ví dụ đi kèm. Chỉ rộng bằng chữ: .stack là cột flex nên mặc định kéo
+   nó dãn hết bề ngang, thành một dải màu trông như khối phản hồi. */
 .step-badge {
   align-self: flex-start;
+}
+
+/* --- Câu ví dụ đi kèm -------------------------------------------------------
+   Nằm trên CÙNG thẻ với câu hỏi về từ, ngăn bằng một vạch đứt: vẫn là một câu, chỉ
+   là phần thứ hai của câu đó. Trượt lên khi hiện ra vì nó trả lời đúng câu hỏi "có gì
+   mới hiện ra?" ngay sau khi người học vừa chấm phần trên. */
+.follow-up {
+  padding-top: var(--sp-5);
+  border-top: 1px dashed var(--border-strong);
+  animation: rise-in 0.24s var(--ease) backwards;
+}
+
+/* Câu ví dụ dài hơn một từ nhiều: để nguyên cỡ chữ của câu hỏi chính thì trên điện
+   thoại một câu xuống ba bốn dòng và đẩy các lựa chọn ra khỏi màn hình. */
+.follow-prompt {
+  font-size: clamp(1.2rem, 1rem + 1vw, 1.7rem);
 }
 
 .choices {

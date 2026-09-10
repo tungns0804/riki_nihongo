@@ -225,10 +225,10 @@ export const MESSAGES = {
   'practice.direction.jpToReading': { vi: 'Nhật → Cách đọc', ja: '日本語 → 読み方' },
   'practice.direction.sentence': { vi: 'Điền từ vào câu', ja: '例文の穴埋め' },
   'practice.withExample': {
-    vi: 'Mỗi từ có thêm một câu ví dụ ngay sau đó: điền đúng dạng của từ vào câu.',
-    ja: '各単語のすぐ後に例文が1問つきます。文に合う形で単語を入れてください。',
+    vi: 'Mỗi câu có hai phần trên cùng một thẻ: trả lời từ, rồi điền luôn từ đó vào một câu ví dụ.',
+    ja: '1問は同じカードで2つ：単語に答えたら、そのまま例文の穴埋めに進みます。',
   },
-  'practice.exampleStep': { vi: 'Câu ví dụ của từ vừa trả lời', ja: '今の単語の例文' },
+  'practice.exampleStep': { vi: 'Điền từ vừa trả lời vào câu ví dụ', ja: '今の単語を例文に入れる' },
   'practice.group': { vi: 'Cụm từ', ja: 'グループ' },
   'practice.count': { vi: 'Số câu', ja: '問題数' },
   'practice.start': { vi: 'Bắt đầu luyện', ja: '練習を始める' },

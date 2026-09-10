@@ -24,9 +24,6 @@
       <section class="card question-card">
         <div class="card-body stack stack-lg">
           <div class="stack stack-sm">
-            @if (q.exampleStep) {
-              <span class="badge badge-accent step-badge">{{ t('practice.exampleStep') }}</span>
-            }
             <p class="prompt" [class.jp]="q.promptIsJapanese">{{ q.prompt }}</p>
             @if (q.hint) {
               <p class="muted small">{{ q.hint }}</p>
@@ -50,16 +47,28 @@
             </div>
           } @else {
             <div class="field">
+              <!-- Chấm xong thì khoá ô bằng readOnly chứ KHÔNG phải disabled, và đây không
+                   phải chuyện thẩm mỹ: `[disabled]` của một ô có ngModel được Angular áp
+                   trong một microtask SAU khi vẽ xong, nên ngay lúc sang câu mới ô vẫn còn
+                   disabled — mà focus() vào phần tử disabled thì không có tác dụng gì, con
+                   trỏ rơi về <body> và người gõ phải với chuột. readOnly áp ngay trong lượt
+                   vẽ, vẫn chặn sửa, và ô vẫn nhận được focus.
+
+                   $event.preventDefault() cũng là bắt buộc: chấm xong thì focus nhảy ngay
+                   sang ô câu ví dụ (hoặc nút "Câu tiếp theo"). Không chặn thì keypress của
+                   CHÍNH lần nhấn Enter đó rơi vào phần tử vừa nhận focus và bấm luôn nút —
+                   màn hình nhảy sang câu sau trước khi người học kịp nhìn đáp án. -->
               <input
+                #answerInput
                 type="text"
                 class="input answer-input"
                 [class.jp]="q.answerIsJapanese"
                 [placeholder]="t('practice.typeHere')"
                 [attr.aria-label]="t('practice.typeHere')"
-                [disabled]="checked()"
+                [readOnly]="checked()"
                 [ngModel]="given()"
                 (ngModelChange)="given.set($event)"
-                (keydown.enter)="checked() ? next() : check()"
+                (keydown.enter)="$event.preventDefault(); check()"
                 autocomplete="off"
                 autocapitalize="off"
                 spellcheck="false"
@@ -95,10 +104,90 @@
                 <span class="muted small" [class.jp]="q.promptIsJapanese">{{ q.explanation }}</span>
               }
             </div>
+          }
 
+          <!-- Câu ví dụ đi kèm: hiện NGAY dưới phần vừa chấm, trên cùng thẻ, không phải bấm
+               "Câu tiếp theo" để tới. Hiện cả khi phần trên sai — đáp án đúng vừa hiện ra
+               ngay phía trên, và đưa được nó vào câu mới là lúc nhớ nó lâu nhất. -->
+          @if (shownFollowUp(); as f) {
+            <section class="follow-up stack stack-lg">
+              <div class="stack stack-sm">
+                <span class="badge badge-accent step-badge">{{ t('practice.exampleStep') }}</span>
+                <p class="prompt follow-prompt" [class.jp]="f.promptIsJapanese">{{ f.prompt }}</p>
+                @if (f.hint) {
+                  <p class="muted small">{{ f.hint }}</p>
+                }
+              </div>
+
+              @if (isChoiceMode()) {
+                <div class="choices">
+                  @for (choice of f.choices; track choice) {
+                    <button
+                      type="button"
+                      class="option choice"
+                      [class]="followStateOf(choice)"
+                      [class.jp]="f.answerIsJapanese"
+                      [disabled]="followChecked()"
+                      (click)="chooseFollowUp(choice)"
+                    >
+                      {{ choice }}
+                    </button>
+                  }
+                </div>
+              } @else {
+                <div class="field">
+                  <!-- readOnly và preventDefault cùng lý do với ô trên. -->
+                  <input
+                    #followInput
+                    type="text"
+                    class="input answer-input"
+                    [class.jp]="f.answerIsJapanese"
+                    [placeholder]="t('practice.typeHere')"
+                    [attr.aria-label]="t('practice.exampleStep')"
+                    [readOnly]="followChecked()"
+                    [ngModel]="followGiven()"
+                    (ngModelChange)="followGiven.set($event)"
+                    (keydown.enter)="$event.preventDefault(); checkFollowUp()"
+                    autocomplete="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                  />
+                  @if (!followChecked()) {
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      [disabled]="!followGiven().trim()"
+                      (click)="checkFollowUp()"
+                    >
+                      {{ t('practice.check') }}
+                    </button>
+                  }
+                </div>
+              }
+
+              @if (followChecked()) {
+                <div class="feedback" [class.is-correct]="followCorrect()">
+                  <strong>
+                    @if (followCorrect()) {
+                      <app-t key="practice.correct" />
+                    } @else {
+                      <app-t key="practice.wrong" />
+                    }
+                  </strong>
+                  @if (!followCorrect()) {
+                    <span [class.jp]="f.answerIsJapanese">
+                      {{ t('practice.answerWas', { answer: f.answer }) }}
+                    </span>
+                  }
+                </div>
+              }
+            </section>
+          }
+
+          @if (done()) {
             @if (q.examples.length > 0) {
-              <!-- Câu ví dụ chỉ hiện SAU KHI chấm: hiện trước thì ở chiều Việt → Nhật
-                   nó đọc thẳng đáp án ra cho người học. -->
+              <!-- Câu ví dụ chỉ hiện SAU KHI chấm xong cả thẻ: hiện trước thì ở chiều Việt
+                   → Nhật nó đọc thẳng đáp án ra, còn câu ví dụ đi kèm thành chép lại. -->
               <div class="examples">
                 <span class="label">{{ t('practice.examples') }}</span>
                 @for (example of q.examples; track example.id) {
@@ -117,7 +206,7 @@
             }
 
             <div>
-              <button type="button" class="btn btn-primary btn-lg" (click)="next()">
+              <button #nextButton type="button" class="btn btn-primary btn-lg" (click)="next()">
                 @if (isLast()) {
                   {{ t('practice.finish') }}
                 } @else {

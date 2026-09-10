@@ -76,14 +76,18 @@ export interface PracticeQuestion {
   /** Giải thích hiện sau khi chấm. Rỗng nghĩa là không có. */
   explanation: string;
   /**
-   * Câu ví dụ đi liền sau câu hỏi về chính từ đó — bài từ vựng hỏi theo cặp.
+   * Câu ví dụ hỏi NGAY TRÊN CÙNG THẺ, sau khi đã chấm câu này. null nghĩa là không có.
    *
-   * Màn luyện tập dựa vào đây để nói rõ "câu này dùng lại từ vừa rồi". Thiếu dòng đó
-   * thì người học tưởng đã sang một từ mới, và chỗ trống trông như phải đoán mò.
+   * Bài từ vựng hỏi về từ, rồi bắt điền chính từ đó vào một câu ví dụ của nó. Hai phần
+   * là MỘT câu chứ không phải hai câu nối nhau: tách thành câu riêng thì phải bấm "Câu
+   * tiếp theo" giữa chừng mới tới câu ví dụ, thanh tiến độ đếm gấp đôi số từ, và người
+   * học tưởng chỗ trống là một từ mới. Lồng vào đây thì câu ví dụ cũng không bao giờ bị
+   * trộn lệch hay bị cắt rời khỏi từ của nó khi giới hạn số câu.
    */
-  exampleStep: boolean;
+  followUp: PracticeQuestion | null;
   /**
-   * Câu ví dụ của mục đang hỏi, hiện SAU KHI chấm.
+   * Câu ví dụ của mục đang hỏi, hiện SAU KHI chấm xong cả thẻ — tức là sau cả câu ví
+   * dụ đi kèm, nếu có: hiện sớm hơn thì câu điền chỉ còn là chép lại chỗ vừa đọc.
    *
    * Hiện cả danh sách chứ không một câu: câu ví dụ là chỗ duy nhất cho thấy từ này
    * đi với trợ từ nào, đứng ở vị trí nào trong câu — mà đúng lúc vừa trả lời xong
@@ -107,10 +111,26 @@ export interface PracticeExample {
   highlights: string[];
 }
 
-export interface QuestionResult {
-  question: PracticeQuestion;
+/** Câu trả lời cho MỘT phần của thẻ. */
+export interface AnswerRecord {
   /** Chuỗi người học đã trả lời. Rỗng nghĩa là bỏ qua. */
   given: string;
+  isCorrect: boolean;
+}
+
+export interface QuestionResult {
+  question: PracticeQuestion;
+  /** Phần chính của thẻ: câu hỏi về từ, hoặc câu hỏi duy nhất của thẻ. */
+  main: AnswerRecord;
+  /** Câu ví dụ đi kèm; null khi thẻ không có (`question.followUp === null`). */
+  followUp: AnswerRecord | null;
+  /**
+   * Cả thẻ đúng: phần chính đúng VÀ câu ví dụ đi kèm (nếu có) cũng đúng.
+   *
+   * Tính gộp chứ không đếm hai phần thành hai câu, để "8/10 câu đúng" ở màn kết quả
+   * khớp với "Câu 10/10" lúc làm bài. Nhớ nghĩa mà không đặt được từ vào câu thì cũng
+   * chưa phải đã thuộc từ đó; phần nào sai thì danh sách xem lại chỉ ra đúng phần ấy.
+   */
   isCorrect: boolean;
 }
 
