@@ -81,11 +81,54 @@ function splitReading(value) {
  * Cụm là cách giáo trình chia bài: mỗi buổi học 10 từ, và bài tập cũng ra theo
  * đúng cụm đó. Nhờ có mốc cụm, màn hình từ vựng lọc được theo cụm và người học
  * luyện đúng 10 từ của buổi hôm nay thay vì cả 120 từ.
+ *
+ * Hai cách viết thêm vào cho động từ:
+ *
+ *   127. (が)倒れる (たおれる) = ĐẢO ; Đổ/ Ngất, bất tỉnh/ Đổ bệnh
+ *   ・台風で木が[倒れた]。
+ *
+ *  - (が) / (を) trước mặt chữ là TRỢ TỪ đi kèm, tách ra trường riêng. Sách dùng nó
+ *    để phân biệt tự động từ với tha động từ (倒れる / 倒す), nhưng nó không thuộc
+ *    về mặt chữ: người học gõ "倒れる" là đã nhớ đúng từ.
+ *  - [ ] trong câu ví dụ đánh dấu DẠNG của từ trong câu — chữ in đỏ gạch chân của
+ *    sách. Động từ trong câu gần như không bao giờ đứng ở dạng từ điển (渇く thành
+ *    渇いた), nên phải có người chỉ ra chỗ cần tô và cần khoét. Câu không đánh dấu
+ *    thì tự tìm mặt chữ trong câu — đủ cho danh từ, vốn đứng nguyên dạng.
  */
 const VOCAB_GROUP = /^##\s*(.+)$/;
 const VOCAB_EXAMPLE = /^[・･\-]\s*(.+)$/;
 const VOCAB_NOTE = /^(\S{1,8}?)\s*[:：]\s*(.+)$/;
 const VOCAB_HEADER = /^(?:(\d+)\s*[.．]\s*)?(.+?)(?:\s*[(（]([^)）]+)[)）])?\s*[=＝]\s*(.+)$/;
+const VOCAB_PARTICLE = /^[(（]([^)）]{1,3})[)）]\s*(.+)$/;
+const VOCAB_MARK = /\[([^[\]]+)\]/g;
+
+/**
+ * Tách các chỗ đánh dấu [ ] khỏi câu ví dụ:
+ *
+ *   のどが[渇いた]。  ->  { japanese: 'のどが渇いた。', targets: ['渇いた'] }
+ *
+ * `broken` = còn sót dấu [ hoặc ] lẻ, tức là gõ thiếu một nửa cặp ngoặc.
+ */
+function readMarks(raw) {
+  const targets = [...raw.matchAll(VOCAB_MARK)].map((match) => match[1].trim()).filter(Boolean);
+  const japanese = raw.replace(VOCAB_MARK, '$1');
+  return { japanese, targets: [...new Set(targets)], broken: /[[\]]/.test(japanese) };
+}
+
+/**
+ * Câu KHÔNG đánh dấu: tìm mặt chữ của từ (từng cách viết, nếu có dạng 起きる/起こる)
+ * ngay trong câu.
+ *
+ * Không thấy thì để rỗng chứ không đoán. Vài câu viết khác dạng từ điển ("引っ越し"
+ * nhưng câu viết "引越し"): tô nhầm còn tệ hơn không tô, và khoét theo kiểu đoán thì
+ * ra một câu hỏi mà đáp án đúng cũng không khớp chỗ trống.
+ */
+function spellingsIn(headword, sentence) {
+  return headword
+    .split('/')
+    .map((part) => part.trim())
+    .filter((part) => part.length > 0 && sentence.includes(part));
+}
 
 export function parseVocabulary(raw) {
   const words = [];
@@ -108,6 +151,7 @@ export function parseVocabulary(raw) {
         id,
         number: current.number,
         group: current.group,
+        particle: current.particle,
         japanese: current.japanese,
         reading: current.reading,
         hanViet: current.hanViet,
@@ -133,9 +177,17 @@ export function parseVocabulary(raw) {
         warnings.push(`dòng ${lineNumber}: câu ví dụ nhưng chưa có từ nào ở trên`);
         continue;
       }
-      const [japanese = '', vietnamese = ''] = example[1].split('|').map((part) => part.trim());
+      const [marked = '', vietnamese = ''] = example[1].split('|').map((part) => part.trim());
+      const { japanese, targets, broken } = readMarks(marked);
+      if (broken) warnings.push(`dòng ${lineNumber}: dấu [ ] không thành cặp`);
       if (japanese) {
-        current.examples.push({ id: hashId('ex', japanese), japanese, vietnamese });
+        current.examples.push({
+          // Id băm từ câu ĐÃ BỎ dấu [ ]: thêm đánh dấu cho một câu cũ không làm đổi id.
+          id: hashId('ex', japanese),
+          japanese,
+          vietnamese,
+          targets: targets.length > 0 ? targets : spellingsIn(current.japanese, japanese),
+        });
       }
       continue;
     }
@@ -157,14 +209,19 @@ export function parseVocabulary(raw) {
     }
 
     flush();
-    const [, number, japanese, reading, meaning] = header;
+    const [, number, headword, reading, meaning] = header;
     // Cột nghĩa có thể mang thêm âm Hán Việt ở đầu, ngăn bằng dấu ;
     //   判 (はん) = PHÁN ; Con dấu
     const [first = '', second = ''] = meaning.split(';').map((part) => part.trim());
     const hanViet = second ? first : '';
     const vietnamese = second || first;
 
-    if (!japanese.trim() || !vietnamese) {
+    // Trợ từ in trước mặt chữ: (が)倒れる -> particle 'が', japanese '倒れる'.
+    const particleMatch = headword.trim().match(VOCAB_PARTICLE);
+    const particle = particleMatch ? particleMatch[1].trim() : '';
+    const japanese = particleMatch ? particleMatch[2].trim() : headword.trim();
+
+    if (!japanese || !vietnamese) {
       warnings.push(`dòng ${lineNumber}: thiếu từ tiếng Nhật hoặc nghĩa tiếng Việt`);
       continue;
     }
@@ -173,7 +230,8 @@ export function parseVocabulary(raw) {
       line: lineNumber,
       number: number ? Number.parseInt(number, 10) : 0,
       group,
-      japanese: japanese.trim(),
+      particle,
+      japanese,
       reading: (reading ?? '').trim(),
       hanViet,
       vietnamese,
@@ -428,6 +486,7 @@ function normalizeInlineVocabulary(raw) {
       id: hashId(word.japanese, word.hanViet),
       number: 0,
       group: '',
+      particle: '',
       ...word,
       examples: [],
       notes: [],

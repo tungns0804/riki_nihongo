@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
+import { PracticeExample } from '../../core/models/practice.model';
 import { PracticeSessionStore } from '../../core/services/practice-session-store';
 import { ProgressStore } from '../../core/services/progress-store';
 import { splitAround } from '../../core/utils/text';
@@ -86,8 +87,8 @@ export class Practice {
    * Chỉ gọi sau khi đã chấm nên không sợ lộ đáp án: khối câu ví dụ chỉ hiện ở phần
    * phản hồi.
    */
-  protected parts(sentence: string): { text: string; hit: boolean }[] {
-    return splitAround(sentence, this.question()?.highlight ?? '');
+  protected parts(example: PracticeExample): { text: string; hit: boolean }[] {
+    return splitAround(example.japanese, example.highlights);
   }
 
   /** Lớp CSS của một lựa chọn sau khi đã chấm. */

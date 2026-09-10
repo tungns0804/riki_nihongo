@@ -56,6 +56,18 @@ export interface VocabExample {
   japanese: string;
   /** Bản dịch tiếng Việt. Rỗng nghĩa là chưa dịch — giáo trình gốc cũng thường để trống. */
   vietnamese: string;
+  /**
+   * Dạng của từ đang học xuất hiện trong câu — chữ in đỏ gạch chân của giáo trình.
+   * Mỗi phần tử luôn nằm nguyên vẹn trong `japanese`.
+   *
+   * Cần trường riêng vì động từ trong câu gần như không bao giờ đứng ở dạng từ điển:
+   * mục 渇く nhưng câu viết のどが渇いた。— tìm "渇く" trong câu thì không ra.
+   *
+   * Thường đúng một phần tử. Nhiều phần tử khi sách tô nhiều chỗ (やる気が起きない・
+   * 起こらない): tô được hết, nhưng câu đó không khoét làm câu hỏi được. Rỗng nghĩa là
+   * không tìm được chỗ nào — câu vẫn hiện để đọc, chỉ không tô và không khoét.
+   */
+  targets: string[];
 }
 
 /**
@@ -89,7 +101,14 @@ export interface VocabWord {
    * vì cả 120 từ một lúc.
    */
   group: string;
-  /** Từ tiếng Nhật, ví dụ "締め切り". */
+  /**
+   * Trợ từ sách in trước mặt chữ, ví dụ "が" của (が)倒れる. Rỗng nghĩa là không có.
+   *
+   * Tách khỏi `japanese` vì nó không thuộc về mặt chữ: sách dùng nó để phân biệt tự
+   * động từ với tha động từ (倒れる / 倒す), nhưng người học gõ "倒れる" là đã nhớ đúng.
+   */
+  particle: string;
+  /** Từ tiếng Nhật, ví dụ "締め切り". Nhiều mặt chữ cho một mục ngăn bằng /: "起きる/起こる". */
   japanese: string;
   /** Cách đọc bằng kana, ví dụ "しめきり". Rỗng nếu từ vốn đã là kana. */
   reading: string;

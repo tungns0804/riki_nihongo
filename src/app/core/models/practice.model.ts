@@ -83,19 +83,21 @@ export interface PracticeQuestion {
    * là lúc người học chịu đọc nhất.
    */
   examples: PracticeExample[];
-  /**
-   * Từ cần tô đậm trong câu ví dụ. Rỗng nghĩa là không tô.
-   *
-   * Không tự suy từ đáp án: ở chiều Việt → Nhật đáp án đúng là từ tiếng Nhật, nhưng
-   * ở chiều điền vào chỗ trống thì đáp án lại chính là chỗ đã bị khoét đi.
-   */
-  highlight: string;
 }
 
 export interface PracticeExample {
   id: string;
   japanese: string;
   vietnamese: string;
+  /**
+   * Chữ cần tô đậm trong câu. Rỗng nghĩa là không tô.
+   *
+   * Nằm ở TỪNG CÂU chứ không ở cấp câu hỏi: với động từ, mỗi câu mang một dạng chia
+   * khác nhau của cùng một từ (叩く, 叩いた), nên không có một chữ chung để tô cho cả
+   * danh sách. Cũng không tự suy từ đáp án: ở chiều điền từ, đáp án là dạng trong
+   * MỘT câu, còn các câu khác của từ đó mang dạng khác.
+   */
+  highlights: string[];
 }
 
 export interface QuestionResult {

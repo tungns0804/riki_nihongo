@@ -77,7 +77,8 @@
                   @if (word.number > 0) {
                     <span class="word-number tnum">{{ word.number }}</span>
                   }
-                  <span class="jp word-jp">{{ word.japanese }}</span>
+                  <!-- prettier-ignore -->
+                  <span class="jp word-jp">@if (word.particle) {<span class="word-particle">({{ word.particle }})</span>}{{ word.japanese }}</span>
                   @if (word.reading) {
                     <span class="jp word-reading">{{ word.reading }}</span>
                   }
@@ -91,7 +92,10 @@
                   <div class="word-body">
                     @for (example of word.examples; track example.id) {
                       <p class="example">
-                        <span class="jp">{{ example.japanese }}</span>
+                        <!-- Viết dồn một dòng là CỐ Ý: xuống dòng giữa các mảnh thì thành dấu
+                             cách lọt vào giữa câu tiếng Nhật (xem practice.html). -->
+                        <!-- prettier-ignore -->
+                        <span class="jp">@for (part of parts(example); track $index) {@if (part.hit) {<mark>{{ part.text }}</mark>} @else {<span>{{ part.text }}</span>}}</span>
                         @if (example.vietnamese) {
                           <span class="muted small example-vi">{{ example.vietnamese }}</span>
                         }

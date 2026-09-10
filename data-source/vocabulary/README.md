@@ -53,6 +53,34 @@ Bài không có dòng `##` nào thì không chia cụm, hàng nút này tự ẩ
 Một từ có thể có nhiều dòng ví dụ và nhiều dòng ghi chú, mỗi thứ một dòng. Giao diện
 hiện từ ở cột trái, ví dụ và ghi chú ở cột phải — cùng bố cục với bản PDF.
 
+## Động từ
+
+Động từ cần thêm ba cách viết:
+
+```
+127. (が)倒れる (たおれる) = ĐẢO ; Đổ/ Ngất, bất tỉnh/ Đổ bệnh
+・台風で木が[倒れた]。
+・父は働きすぎて[倒れて]しまった。
+
+129. (が)起きる/起こる (おきる/おこる) = KHỞI ; Thức dậy/ Thức/ Xảy ra
+・最近なかなかやる気が[起きない]・[起こらない]。
+```
+
+- **`[ ]` trong câu ví dụ** đánh dấu dạng của từ trong câu — chữ in đỏ gạch chân của
+  sách. Động từ trong câu gần như không bao giờ đứng ở dạng từ điển (`渇く` nhưng câu
+  viết `のどが渇いた`), nên máy không tự tìm được chỗ đó. Chỗ đánh dấu được tô trong
+  danh sách, và là chỗ bị khoét ở chiều luyện **Điền từ vào câu**: đáp án là đúng dạng
+  trong câu (`渇いた`), gõ cách đọc (`かわいた`) cũng tính đúng.
+- Câu **không** có `[ ]` thì tự tìm nguyên mặt chữ trong câu — đủ cho danh từ. Không
+  thấy thì câu vẫn hiện, chỉ không tô và không khoét.
+- Câu đánh dấu **hai chỗ** được tô cả hai nhưng không đem khoét: khoét một chỗ thì
+  chỗ kia đọc lộ đáp án.
+- **`(が)` / `(を)`** trước mặt chữ là trợ từ đi kèm — cách sách phân biệt tự động từ
+  với tha động từ. Nó hiện nhỏ trước mặt chữ và trong câu hỏi, nhưng không phải gõ khi
+  trả lời.
+- **Nhiều mặt chữ cho một mục** (`起きる/起こる`) ngăn bằng `/`, cách đọc cũng ngăn như
+  vậy và theo đúng thứ tự. Gõ một trong hai là đúng.
+
 ## Các bài của phần Từ vựng
 
 Mỗi bài là MỘT LOẠI TỪ, chứa toàn bộ từ của loại đó — không tách thành nhiều phần
@@ -61,10 +89,11 @@ Mỗi bài là MỘT LOẠI TỪ, chứa toàn bộ từ của loại đó — k
 | Thư mục        | Tên hiển thị | Trạng thái |
 | -------------- | ------------ | ---------- |
 | `01-danh-tu`   | Danh từ      | 120 từ · 第1課–第6課 (01–120), chia 12 cụm 10 từ |
-| `02-dong-tu`   | Động từ      | chờ nội dung |
+| `02-dong-tu`   | Động từ      | 20 từ · 第7課 (121–140), chia 2 cụm 10 từ |
 | `03-tinh-tu`   | Tính từ      | chờ nội dung |
 | `04-katakana`  | Katakana     | chờ nội dung |
 | `05-pho-tu`    | Phó từ       | chờ nội dung |
 
 Thêm nội dung cho một bài = đặt file `vocabulary.txt` vào đúng thư mục của bài đó rồi
-chạy `npm run generate`. Không phải sửa gì trong mã nguồn.
+chạy `npm run generate`. Động từ mới của 第8課 trở đi thì viết nối vào cuối
+`02-dong-tu/vocabulary.txt`, kèm mốc cụm `##` mới. Không phải sửa gì trong mã nguồn.

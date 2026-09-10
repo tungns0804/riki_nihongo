@@ -53,8 +53,8 @@ Thư mục bài **chỉ có `meta.json`**, chưa có file dữ liệu, là một
 vẫn xuất hiện trong danh sách với nhãn "Chưa có nội dung" và không bấm vào được.
 
 Dùng cách này để đặt sẵn lộ trình của cả phần học rồi đổ nội dung vào sau — người
-học nhìn thấy sắp học những mục nào ngay từ đầu. Bốn mục Động từ, Tính từ, Katakana,
-Phó từ của phần Từ vựng đang ở trạng thái đó.
+học nhìn thấy sắp học những mục nào ngay từ đầu. Ba mục Tính từ, Katakana, Phó từ của
+phần Từ vựng đang ở trạng thái đó.
 
 Lưu ý: chỉ thư mục KHÔNG có file dữ liệu nào mới được coi là giữ chỗ. Có file mà đặt
 sai tên (`tuvung.text`, `grammar.txt`…) thì script báo lỗi — gõ nhầm tên file mà bị

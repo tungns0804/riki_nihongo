@@ -76,7 +76,14 @@ function sanitizeVocabExamples(raw: unknown): VocabExample[] {
   return each(raw, new Set<string>(), (item, id) => {
     const japanese = text(item['japanese']);
     if (!japanese) return null;
-    return { id, japanese, vietnamese: text(item['vietnamese']) };
+    return {
+      id,
+      japanese,
+      vietnamese: text(item['vietnamese']),
+      // Chỗ đánh dấu không nằm trong câu thì tô không được, còn khoét ra thì câu hỏi
+      // không có chỗ trống nào — bỏ đi chứ không giữ lại một lời hứa sai.
+      targets: textList(item['targets']).filter((target) => japanese.includes(target)),
+    };
   });
 }
 
@@ -104,6 +111,7 @@ export function sanitizeVocabulary(raw: unknown, seen = new Set<string>()): Voca
       id,
       number: typeof item['number'] === 'number' ? (item['number'] as number) : 0,
       group: text(item['group']),
+      particle: text(item['particle']),
       japanese,
       reading: text(item['reading']),
       hanViet: text(item['hanViet']),

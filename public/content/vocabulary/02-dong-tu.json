@@ -1,7 +1,660 @@
 {
   "id": "02-dong-tu",
   "name": "Động từ",
-  "description": "",
+  "description": "Động từ N3準備 文字語彙 — 第7課 (121–140)",
   "kind": "vocabulary",
-  "words": []
+  "words": [
+    {
+      "id": "62a73ae1fd301521",
+      "number": 121,
+      "group": "121–130",
+      "particle": "",
+      "japanese": "渇く",
+      "reading": "かわく",
+      "hanViet": "KHÁT",
+      "vietnamese": "Khát, khát nước",
+      "examples": [
+        {
+          "id": "8ed35ff059fa2147",
+          "japanese": "のどが渇いた。",
+          "vietnamese": "",
+          "targets": [
+            "渇いた"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "435db48b78c9f99d",
+      "number": 122,
+      "group": "121–130",
+      "particle": "",
+      "japanese": "かぐ",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Ngửi, hít",
+      "examples": [
+        {
+          "id": "aa1b0b1f3102655f",
+          "japanese": "匂いをかぐ。",
+          "vietnamese": "",
+          "targets": [
+            "かぐ"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "da54a489c838c56b",
+      "number": 123,
+      "group": "121–130",
+      "particle": "",
+      "japanese": "叩く",
+      "reading": "たたく",
+      "hanViet": "KHẤU",
+      "vietnamese": "Đánh, vỗ, gõ, tét",
+      "examples": [
+        {
+          "id": "64a0b1f8f74ccd17",
+          "japanese": "子供のお尻を叩く。",
+          "vietnamese": "",
+          "targets": [
+            "叩く"
+          ]
+        },
+        {
+          "id": "6a12f82df6c89f45",
+          "japanese": "隣の人の肩を叩く。",
+          "vietnamese": "",
+          "targets": [
+            "叩く"
+          ]
+        },
+        {
+          "id": "c9a0415ec2e72008",
+          "japanese": "ドアを叩く。",
+          "vietnamese": "",
+          "targets": [
+            "叩く"
+          ]
+        },
+        {
+          "id": "a53595198f143050",
+          "japanese": "スピーチが終わったので、手を叩いた。（＝拍手）",
+          "vietnamese": "",
+          "targets": [
+            "叩いた"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "becc45f90bd17571",
+      "number": 124,
+      "group": "121–130",
+      "particle": "",
+      "japanese": "殴る",
+      "reading": "なぐる",
+      "hanViet": "ẨU",
+      "vietnamese": "Đánh",
+      "examples": [
+        {
+          "id": "595c1cc581ebef8e",
+          "japanese": "教師が生徒を殴って、問題になっている。",
+          "vietnamese": "",
+          "targets": [
+            "殴って"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "464d978911feabd3",
+      "number": 125,
+      "group": "121–130",
+      "particle": "",
+      "japanese": "ける",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Đá",
+      "examples": [
+        {
+          "id": "2df963a0a3686381",
+          "japanese": "ボールをける。",
+          "vietnamese": "",
+          "targets": [
+            "ける"
+          ]
+        },
+        {
+          "id": "cbd9f2054e05de85",
+          "japanese": "彼は怒ると殴ったり、けったりする。",
+          "vietnamese": "",
+          "targets": [
+            "けったり"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dbb1d7a1eaf126b3",
+      "number": 126,
+      "group": "121–130",
+      "particle": "",
+      "japanese": "抱く",
+      "reading": "だく",
+      "hanViet": "BÃO",
+      "vietnamese": "Ôm",
+      "examples": [
+        {
+          "id": "04b00163d3661c91",
+          "japanese": "子供を両手でしっかりと抱く。",
+          "vietnamese": "",
+          "targets": [
+            "抱く"
+          ]
+        },
+        {
+          "id": "b869f4c238d02c64",
+          "japanese": "恋人の肩を抱く。",
+          "vietnamese": "",
+          "targets": [
+            "抱く"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "e1b806cf205ee405",
+      "number": 127,
+      "group": "121–130",
+      "particle": "が",
+      "japanese": "倒れる",
+      "reading": "たおれる",
+      "hanViet": "ĐẢO",
+      "vietnamese": "Đổ/ Ngất, bất tỉnh/ Đổ bệnh",
+      "examples": [
+        {
+          "id": "e4d4e6edd1faea36",
+          "japanese": "台風で木が倒れた。",
+          "vietnamese": "",
+          "targets": [
+            "倒れた"
+          ]
+        },
+        {
+          "id": "24d553fb4068e94b",
+          "japanese": "倒れている人を助けた。",
+          "vietnamese": "",
+          "targets": [
+            "倒れて"
+          ]
+        },
+        {
+          "id": "a024622eb3a646b6",
+          "japanese": "父は働きすぎて倒れてしまった。",
+          "vietnamese": "",
+          "targets": [
+            "倒れて"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "76c03cb64316e721",
+      "number": 128,
+      "group": "121–130",
+      "particle": "を",
+      "japanese": "倒す",
+      "reading": "たおす",
+      "hanViet": "ĐẢO",
+      "vietnamese": "Làm đổ, đánh đổ/ Đánh bại, chinh phục",
+      "examples": [
+        {
+          "id": "77a8b09bc437fc3c",
+          "japanese": "花びんを倒して割ってしまった。",
+          "vietnamese": "",
+          "targets": [
+            "倒して"
+          ]
+        },
+        {
+          "id": "ce20149c49f891db",
+          "japanese": "ボクシングでチャンピオンを倒した。",
+          "vietnamese": "",
+          "targets": [
+            "倒した"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "4ba0997bc374e0aa",
+      "number": 129,
+      "group": "121–130",
+      "particle": "が",
+      "japanese": "起きる/起こる",
+      "reading": "おきる/おこる",
+      "hanViet": "KHỞI",
+      "vietnamese": "Thức dậy/ Thức/ Xảy ra",
+      "examples": [
+        {
+          "id": "539abace1e7e0597",
+          "japanese": "今日は8時に起きた。",
+          "vietnamese": "",
+          "targets": [
+            "起きた"
+          ]
+        },
+        {
+          "id": "58ef868607d88f77",
+          "japanese": "父は毎晩遅くまで起きているようだ。",
+          "vietnamese": "",
+          "targets": [
+            "起きて"
+          ]
+        },
+        {
+          "id": "c522acbaca5818cf",
+          "japanese": "最近なかなかやる気が起きない・起こらない。",
+          "vietnamese": "",
+          "targets": [
+            "起きない",
+            "起こらない"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "b07927ee0a4846b9",
+      "number": 130,
+      "group": "121–130",
+      "particle": "を",
+      "japanese": "起こす",
+      "reading": "おこす",
+      "hanViet": "KHỞI",
+      "vietnamese": "Đánh thức/ Dựng lên/ Gây ra, làm",
+      "examples": [
+        {
+          "id": "ed02cfb6ffce5ba7",
+          "japanese": "うちの子は朝起こしてもなかなか起きない。",
+          "vietnamese": "",
+          "targets": [
+            "起こして"
+          ]
+        },
+        {
+          "id": "3cb590d7db8ae545",
+          "japanese": "倒れていた自転車を起こした。",
+          "vietnamese": "",
+          "targets": [
+            "起こした"
+          ]
+        },
+        {
+          "id": "bed1314daf2736f9",
+          "japanese": "事故・事件・問題・裁判(N2)…を起こす。",
+          "vietnamese": "",
+          "targets": [
+            "起こす"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "9547bd5b18062065",
+      "number": 131,
+      "group": "131–140",
+      "particle": "",
+      "japanese": "尋ねる",
+      "reading": "たずねる",
+      "hanViet": "TẦM",
+      "vietnamese": "Hỏi",
+      "examples": [
+        {
+          "id": "f38381c7e6527563",
+          "japanese": "「ちょっとお尋ねしたいのですが…」",
+          "vietnamese": "",
+          "targets": [
+            "お尋ねしたい"
+          ]
+        },
+        {
+          "id": "1ae49ac2e1990212",
+          "japanese": "交番で警官に市役所までの道を尋ねた。",
+          "vietnamese": "",
+          "targets": [
+            "尋ねた"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "5a7aefb98b20f37f",
+      "number": 132,
+      "group": "131–140",
+      "particle": "",
+      "japanese": "呼ぶ",
+      "reading": "よぶ",
+      "hanViet": "HÔ",
+      "vietnamese": "Gọi/ Thu hút",
+      "examples": [
+        {
+          "id": "89f1dc44a462a2a5",
+          "japanese": "「名前を呼ばれたら返事してください。」",
+          "vietnamese": "",
+          "targets": [
+            "呼ばれ"
+          ]
+        },
+        {
+          "id": "7688ff50f8057e7f",
+          "japanese": "Grabでタクシーを呼ぶ。",
+          "vietnamese": "",
+          "targets": [
+            "呼ぶ"
+          ]
+        },
+        {
+          "id": "e2563dbefc350b48",
+          "japanese": "電話で救急車を呼ぶ。",
+          "vietnamese": "",
+          "targets": [
+            "呼ぶ"
+          ]
+        },
+        {
+          "id": "f1d9251e024153a3",
+          "japanese": "アインさん、ちょっとシンさんを呼んでくれませんか。",
+          "vietnamese": "",
+          "targets": [
+            "呼んで"
+          ]
+        },
+        {
+          "id": "8934dff099d23a94",
+          "japanese": "私は彼女を「アインちゃん」と呼んでいる。",
+          "vietnamese": "",
+          "targets": [
+            "呼んで"
+          ]
+        },
+        {
+          "id": "ed881fb9e89361d8",
+          "japanese": "ホーチミン市は昔サイゴンと呼ばれていた。",
+          "vietnamese": "",
+          "targets": [
+            "呼ばれていた"
+          ]
+        },
+        {
+          "id": "dbf38a66027a5e29",
+          "japanese": "ここのタピオカは多くの人から人気を呼んでいる。",
+          "vietnamese": "",
+          "targets": [
+            "呼んで"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "人気・話題・議論を呼ぶ"
+        }
+      ]
+    },
+    {
+      "id": "7a9e0fa6422842fe",
+      "number": 133,
+      "group": "131–140",
+      "particle": "",
+      "japanese": "叫ぶ声",
+      "reading": "さけぶこえ",
+      "hanViet": "KHIẾU THANH",
+      "vietnamese": "Tiếng hét",
+      "examples": [
+        {
+          "id": "5765faec262862e3",
+          "japanese": "道を歩いていたら、「助けてー」と叫ぶ声が聞こえた。",
+          "vietnamese": "",
+          "targets": [
+            "叫ぶ声"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "58bfd3c69f8a8f1b",
+      "number": 134,
+      "group": "131–140",
+      "particle": "",
+      "japanese": "黙る",
+      "reading": "だまる",
+      "hanViet": "MẶC",
+      "vietnamese": "Im lặng",
+      "examples": [
+        {
+          "id": "7e43044208bb78cf",
+          "japanese": "先生が質問したが、誰も答えないで黙っている。",
+          "vietnamese": "",
+          "targets": [
+            "黙って"
+          ]
+        },
+        {
+          "id": "0304ec6612ad2a6c",
+          "japanese": "「うるさい。黙れ！」",
+          "vietnamese": "",
+          "targets": [
+            "黙れ"
+          ]
+        },
+        {
+          "id": "1bc7576901d230b2",
+          "japanese": "授業中黙って教室を出てはいけない。",
+          "vietnamese": "",
+          "targets": [
+            "黙って"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "42dd7d72582fa9bb",
+      "number": 135,
+      "group": "131–140",
+      "particle": "",
+      "japanese": "飼う",
+      "reading": "かう",
+      "hanViet": "TỰ",
+      "vietnamese": "Nuôi",
+      "examples": [
+        {
+          "id": "a2b9440d95dac41d",
+          "japanese": "何かペットを飼いたいと思っている。",
+          "vietnamese": "",
+          "targets": [
+            "飼いたい"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "b4eda92ab4fd6f72",
+      "number": 136,
+      "group": "131–140",
+      "particle": "",
+      "japanese": "数える",
+      "reading": "かぞえる",
+      "hanViet": "SỐ",
+      "vietnamese": "Đếm, tính",
+      "examples": [
+        {
+          "id": "0d765c17e88128e6",
+          "japanese": "数を数える。",
+          "vietnamese": "",
+          "targets": [
+            "数える"
+          ]
+        },
+        {
+          "id": "b9e72775a62db162",
+          "japanese": "「椅子がいくつか、数えてください。」",
+          "vietnamese": "",
+          "targets": [
+            "数えて"
+          ]
+        },
+        {
+          "id": "28964e37edce04fb",
+          "japanese": "この寺は、日本で最も古い寺の一つに数えられている。",
+          "vietnamese": "",
+          "targets": [
+            "数えられて"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "df7e8eb5d0480a9c",
+      "number": 137,
+      "group": "131–140",
+      "particle": "が",
+      "japanese": "乾く",
+      "reading": "かわく",
+      "hanViet": "CAN",
+      "vietnamese": "Khô",
+      "examples": [
+        {
+          "id": "ac22a4f905a3eb31",
+          "japanese": "風が強かったので、外に干した洗濯物はすぐ乾いた。",
+          "vietnamese": "",
+          "targets": [
+            "乾いた"
+          ]
+        },
+        {
+          "id": "e4346b9682629852",
+          "japanese": "乾いたタオルで体をふいた。",
+          "vietnamese": "",
+          "targets": [
+            "乾いた"
+          ]
+        },
+        {
+          "id": "bdcd8babf9fa9c33",
+          "japanese": "空気・インクが乾く。",
+          "vietnamese": "",
+          "targets": [
+            "乾く"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "bd1879a93916fb9a",
+      "number": 138,
+      "group": "131–140",
+      "particle": "を",
+      "japanese": "乾かす",
+      "reading": "かわかす",
+      "hanViet": "CAN",
+      "vietnamese": "Làm khô",
+      "examples": [
+        {
+          "id": "c16d5903b47e1ffd",
+          "japanese": "ドライヤーでぬれた髪を乾かした。",
+          "vietnamese": "",
+          "targets": [
+            "乾かした"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "953a729cb24dc284",
+      "number": 139,
+      "group": "131–140",
+      "particle": "",
+      "japanese": "畳む",
+      "reading": "たたむ",
+      "hanViet": "ĐIỆP",
+      "vietnamese": "Gấp, xếp",
+      "examples": [
+        {
+          "id": "9488905f5fb0e80a",
+          "japanese": "洗濯物を畳む。",
+          "vietnamese": "",
+          "targets": [
+            "畳む"
+          ]
+        },
+        {
+          "id": "1c0b1e3f98f240da",
+          "japanese": "傘を畳んでバッグに入れる。",
+          "vietnamese": "",
+          "targets": [
+            "畳んで"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "折り畳み傘 (おりたたみがさ) = Ô gấp"
+        }
+      ]
+    },
+    {
+      "id": "f5067b90bac298c4",
+      "number": 140,
+      "group": "131–140",
+      "particle": "",
+      "japanese": "誘う",
+      "reading": "さそう",
+      "hanViet": "DỤ",
+      "vietnamese": "Mời",
+      "examples": [
+        {
+          "id": "998f4a9e7cb27de0",
+          "japanese": "友達を誘って映画を見に行った。",
+          "vietnamese": "",
+          "targets": [
+            "誘って"
+          ]
+        },
+        {
+          "id": "45638215ab09ac55",
+          "japanese": "今度、彼女を食事に誘おうと思う。",
+          "vietnamese": "",
+          "targets": [
+            "誘おう"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "誘いを受ける ＞＜ 誘いを断る (ことわる) = Nhận lời mời ＞＜ Từ chối lời mời"
+        }
+      ]
+    }
+  ]
 }

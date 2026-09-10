@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-08-24T16:52:35.142Z",
+  "generatedAt": "2026-09-10T15:13:51.224Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -35,9 +35,9 @@
         {
           "id": "02-dong-tu",
           "name": "Động từ",
-          "description": "",
+          "description": "Động từ N3準備 文字語彙 — 第7課 (121–140)",
           "kind": "vocabulary",
-          "itemCount": 0,
+          "itemCount": 20,
           "order": 2,
           "file": "vocabulary/02-dong-tu.json"
         },

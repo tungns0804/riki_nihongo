@@ -4,9 +4,9 @@ import { RouterLink } from '@angular/router';
 import { moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
-import { ModuleId, VocabWord, groupsOf } from '../../core/models/content.model';
+import { ModuleId, VocabExample, VocabWord, groupsOf } from '../../core/models/content.model';
 import { loadUnit } from '../../core/services/unit-loader';
-import { matchesAllWords, normalizeSearch } from '../../core/utils/text';
+import { matchesAllWords, normalizeSearch, splitAround } from '../../core/utils/text';
 import { PracticeSetup } from '../shared/practice-setup/practice-setup';
 
 /**
@@ -101,6 +101,16 @@ export class VocabularyDetail {
       .filter((section) => section.words.length > 0);
   });
 
+
+  /**
+   * Cắt câu ví dụ quanh dạng của từ trong câu để tô nó, như chữ đỏ gạch chân của sách.
+   *
+   * Ở danh sách thì tô ngay, không phải đợi chấm như màn luyện tập: đây là chỗ để
+   * ĐỌC, không có câu hỏi nào để lộ đáp án.
+   */
+  protected parts(example: VocabExample): { text: string; hit: boolean }[] {
+    return splitAround(example.japanese, example.targets);
+  }
 
   protected onSearch(event: Event): void {
     this.searchRef.set((event.target as HTMLInputElement).value);

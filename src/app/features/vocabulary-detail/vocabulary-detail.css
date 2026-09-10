@@ -76,6 +76,25 @@
   font-weight: 600;
 }
 
+/* Trợ từ (が)/(を) đứng trước mặt chữ như trong sách, nhỏ và nhạt hơn: nó cho biết
+   tự hay tha động từ, nhưng thứ phải nhớ vẫn là chính từ. */
+.word-particle {
+  margin-right: 2px;
+  font-size: var(--fs-md);
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+/* Dạng của từ trong câu, tô như chữ đỏ gạch chân của sách. Cùng kiểu với khối câu ví
+   dụ ở màn luyện tập (practice.css) để một từ trông giống nhau ở cả hai nơi. */
+.example mark {
+  padding: 0 2px;
+  border-radius: 3px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+}
+
 .word-han {
   font-size: var(--fs-2xs);
   letter-spacing: 0.03em;
