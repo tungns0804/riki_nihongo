@@ -103,6 +103,13 @@ Khung ứng dụng giống minano_nihongo (vốn theo bố cục ByeTOEIC): menu
 từ 768px, và thành dải chip cuộn ngang dưới thanh trên cùng trên điện thoại. Thanh
 trên cùng chỉ còn breadcrumb (`Riki Nihongo / Từ vựng`) và hai nút ngôn ngữ, giao diện.
 
+Website Riki có năm học phần: **N3 JUNBI**, BTVN CƠ BẢN (MỚI), BTVN N4 CHUYÊN SÂU, N3
+TAISAKU, N3 LUYỆN ĐỀ. Trang gốc là trang chọn học phần; bấm N3 JUNBI thì vào `/n3-junbi`
+với bảy phần học. Nút "N3 JUNBI ▾" trên thanh trên cùng đổi học phần ở mọi trang. Hiện chỉ
+N3 JUNBI có nội dung, bốn học phần kia gắn nhãn "Sắp có" (`COURSES` trong
+`course.config.ts`). Các phần học chưa mang tiền tố học phần trong địa chỉ (`/vocabulary`);
+khi làm học phần thứ hai thì route và `public/content/` phải tách theo học phần.
+
 Nút giao diện xoay vòng **Tự động → Sáng → Tối → Đèn đêm**, và trang mở lần đầu là
 **Đèn đêm**. Sáng và tối dùng bảng màu ByeTOEIC của minano_nihongo: nền trắng ngà / navy,
 xanh Mekong (`--brand`) cho khung ứng dụng, xanh lá (`--accent`) cho nút và lựa chọn

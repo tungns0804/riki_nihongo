@@ -461,8 +461,13 @@ main:focus-visible {
     display: block;
   }
 
+  /* Breadcrumb chỉ giữ lại nút chọn học phần: đường dẫn đầy đủ không vừa một hàng cạnh
+     logo và hai nút, mà dải menu bên dưới đã cho biết đang ở phần nào. Học phần thì
+     không nơi nào khác trên điện thoại cho thấy. */
   .app-sidebar,
-  .crumbs {
+  .crumb-home,
+  .crumb-sep,
+  .crumb-current {
     display: none;
   }
 
@@ -523,10 +528,12 @@ main:focus-visible {
   }
 }
 
-/* Hàng trên của điện thoại hẹp: bỏ chữ của nút sáng/tối, giữ chữ của nút ngôn ngữ
-   vì biểu tượng quả cầu một mình không cho biết đang ở ngôn ngữ nào. */
+/* Hàng trên của điện thoại hẹp: bỏ chữ của nút sáng/tối và tên ứng dụng cạnh logo (logo
+   力 vẫn dẫn về trang chủ) để đủ chỗ cho nút chọn học phần. Giữ chữ của nút ngôn ngữ vì
+   biểu tượng quả cầu một mình không cho biết đang ở ngôn ngữ nào. */
 @media (max-width: 480px) {
-  .theme-label {
+  .theme-label,
+  .topbar-brand .brand-name {
     display: none;
   }
 

@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 
-export type IconName = 'globe' | 'contrast' | 'sun' | 'moon' | 'candle';
+export type IconName = 'globe' | 'contrast' | 'sun' | 'moon' | 'candle' | 'chevron';
 
 /**
  * Biểu tượng nét mảnh, vẽ bằng SVG nội tuyến — lấy nguyên từ minano_nihongo.
@@ -47,6 +47,9 @@ export type IconName = 'globe' | 'contrast' | 'sun' | 'moon' | 'candle';
         }
         @case ('moon') {
           <path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11z" />
+        }
+        @case ('chevron') {
+          <path d="m6 9 6 6 6-6" />
         }
         @case ('candle') {
           <path d="M12 2.5c2 2.4 3 4.1 3 5.6a3 3 0 0 1-6 0c0-1.5 1-3.2 3-5.6z" />

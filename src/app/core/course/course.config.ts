@@ -11,6 +11,41 @@ import { MODULE_IDS, ModuleId, UnitKind } from '../models/content.model';
  */
 export const COURSE_ID = 'n3-junbi';
 
+export interface CourseDef {
+  /** Cũng là đường dẫn trang của học phần: `/n3-junbi`. */
+  id: string;
+  /** Một chữ Hán làm biểu tượng trên thẻ, cùng kiểu với thẻ phần học. */
+  icon: string;
+  nameKey: MessageKey;
+  descKey: MessageKey;
+  /** 'active' = đang học được; 'soon' = đã có trong lộ trình của Riki nhưng chưa làm. */
+  status: 'active' | 'soon';
+}
+
+/**
+ * Năm học phần của website Riki Nihongo, đúng thứ tự Riki liệt kê.
+ *
+ * Chỉ N3 JUNBI đang làm. Bốn học phần kia VẪN hiện trong bộ chọn, mờ đi kèm nhãn
+ * "Sắp có": người học phải thấy trang gồm những học phần nào ngay từ đầu, ẩn đi thì
+ * trang trông như chỉ có đúng một khoá.
+ *
+ * Địa chỉ trang chưa mang tên học phần (`/vocabulary`, không phải
+ * `/n3-junbi/vocabulary`) vì mới có một học phần có nội dung. Khi làm học phần thứ
+ * hai thì MODULES, bộ định tuyến và `public/content/` phải tách theo học phần.
+ */
+export const COURSES: readonly CourseDef[] = [
+  // 準備 · 基本 · 深 (chuyên sâu) · 対策 · 模試 (luyện đề)
+  { id: 'n3-junbi', icon: '準', nameKey: 'course.n3-junbi.name', descKey: 'course.n3-junbi.desc', status: 'active' },
+  { id: 'btvn-co-ban', icon: '基', nameKey: 'course.btvn-co-ban.name', descKey: 'course.soon.desc', status: 'soon' },
+  { id: 'btvn-n4-chuyen-sau', icon: '深', nameKey: 'course.btvn-n4-chuyen-sau.name', descKey: 'course.soon.desc', status: 'soon' },
+  { id: 'n3-taisaku', icon: '策', nameKey: 'course.n3-taisaku.name', descKey: 'course.soon.desc', status: 'soon' },
+  { id: 'n3-luyen-de', icon: '模', nameKey: 'course.n3-luyen-de.name', descKey: 'course.soon.desc', status: 'soon' },
+];
+
+/** Học phần của toàn bộ nội dung đang có trong app. */
+export const CURRENT_COURSE: CourseDef =
+  COURSES.find((course) => course.id === COURSE_ID) ?? COURSES[0];
+
 export interface ModuleDef {
   id: ModuleId;
   /** Đường dẫn trên URL, ví dụ `/vocabulary`. */

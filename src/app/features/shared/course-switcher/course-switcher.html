@@ -1,0 +1,40 @@
+<button
+  #trigger
+  type="button"
+  class="switcher-btn"
+  aria-haspopup="menu"
+  [attr.aria-expanded]="open()"
+  [attr.aria-controls]="open() ? 'course-menu' : null"
+  [title]="t('course.switch')"
+  (click)="toggle()"
+>
+  <app-t [key]="current.nameKey" />
+  <app-icon name="chevron" />
+</button>
+
+@if (open()) {
+  <div id="course-menu" class="switcher-menu" role="menu" [attr.aria-label]="t('course.label')">
+    <p class="switcher-heading" aria-hidden="true">{{ t('course.label') }}</p>
+    @for (course of courses; track course.id) {
+      <button
+        type="button"
+        role="menuitemradio"
+        class="switcher-item"
+        [class.is-current]="course.id === current.id"
+        [attr.aria-checked]="course.id === current.id"
+        [attr.aria-disabled]="course.status === 'soon' ? 'true' : null"
+        (click)="choose(course)"
+      >
+        <app-t [key]="course.nameKey" />
+        @if (course.id === current.id) {
+          <span class="badge badge-accent">{{ t('course.current') }}</span>
+        } @else if (course.status === 'soon') {
+          <span class="badge">{{ t('course.soon') }}</span>
+        }
+      </button>
+    }
+    <a class="switcher-all" role="menuitem" routerLink="/" (click)="close()">
+      {{ t('course.list.all') }}
+    </a>
+  </div>
+}

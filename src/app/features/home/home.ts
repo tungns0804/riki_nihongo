@@ -8,7 +8,8 @@ import { ContentStore } from '../../core/services/content-store';
 import { ProgressStore } from '../../core/services/progress-store';
 
 /**
- * Trang chủ — bảy phần của khoá N3 JUNBI.
+ * Trang của học phần N3 JUNBI (`/n3-junbi`) — bảy phần học. Năm học phần nằm ở trang
+ * gốc (xem CourseList).
  *
  * Thẻ của phần chưa có bài nào vẫn hiện, chỉ mờ đi và không bấm được: người học
  * phải thấy khoá gồm những gì ngay từ đầu, kể cả phần chưa soạn xong. Ẩn hẳn đi thì

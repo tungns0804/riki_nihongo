@@ -14,12 +14,13 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { filter, map } from 'rxjs';
 
-import { MODULES, moduleByPath } from './core/course/course.config';
+import { CURRENT_COURSE, MODULES, moduleByPath } from './core/course/course.config';
 import { LanguageStore } from './core/i18n/language-store';
 import type { MessageKey } from './core/i18n/messages';
 import { T } from './core/i18n/t';
 import { NavigationProgress } from './core/services/navigation-progress';
 import { ThemeStore } from './core/services/theme-store';
+import { CourseSwitcher } from './features/shared/course-switcher/course-switcher';
 import { Icon } from './features/shared/icon/icon';
 
 /** Cuộn quá ngưỡng này thì nút "lên đầu trang" hiện ra (đơn vị: px). */
@@ -36,7 +37,7 @@ function sectionOf(url: string): string {
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink, NgTemplateOutlet, T, Icon],
+  imports: [RouterOutlet, RouterLink, NgTemplateOutlet, T, Icon, CourseSwitcher],
   templateUrl: './app.html',
   styleUrl: './app.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -60,6 +61,9 @@ export class App {
    * một phần học là thêm một dòng ở course.config.ts, menu tự có mục mới.
    */
   protected readonly modules = MODULES;
+
+  /** Học phần đang học, ghi dưới tên ứng dụng ở thanh bên. */
+  protected readonly course = CURRENT_COURSE;
 
   /**
    * Phần học đang mở, tính cả các trang chi tiết nằm dưới nó.

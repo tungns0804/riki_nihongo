@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 
-import { MODULES } from './core/course/course.config';
+import { COURSE_ID, MODULES } from './core/course/course.config';
 import { practiceGuard, resultGuard } from './core/guards/session.guards';
 
 /**
@@ -28,8 +28,18 @@ const result = () => import('./features/result/result').then((m) => m.Result);
 
 export const routes: Routes = [
   {
-    // Trang chủ không đặt title để tab hiện đúng tên ứng dụng.
+    // Trang gốc: chọn một trong năm học phần. Không đặt title để tab hiện đúng tên
+    // ứng dụng.
     path: '',
+    loadComponent: () =>
+      import('./features/course-list/course-list').then((m) => m.CourseList),
+  },
+
+  {
+    // Trang của học phần N3 JUNBI: bảy phần học. Các phần học chưa mang tiền tố học
+    // phần (/vocabulary, không phải /n3-junbi/vocabulary) — xem COURSES.
+    path: COURSE_ID,
+    title: 'home.title',
     loadComponent: () => import('./features/home/home').then((m) => m.Home),
   },
 

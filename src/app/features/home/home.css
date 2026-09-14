@@ -8,6 +8,15 @@
   overflow: hidden;
 }
 
+.back-link {
+  color: var(--text-muted);
+  width: fit-content;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
 /* Thẻ xám lúc chờ tải, cao đúng bằng thẻ thật để trang không giật khi dữ liệu về. */
 .skeleton-card {
   height: 164px;

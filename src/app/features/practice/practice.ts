@@ -12,7 +12,7 @@ import {
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 
-import { moduleOf } from '../../core/course/course.config';
+import { COURSE_ID, moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import { PracticeExample, PracticeQuestion } from '../../core/models/practice.model';
@@ -165,7 +165,8 @@ export class Practice {
   protected finish(): void {
     const summary = this.session.finish();
     if (!summary) {
-      void this.router.navigate(['/']);
+      // Về trang của học phần, không về trang gốc chọn học phần.
+      void this.router.navigate(['/', COURSE_ID]);
       return;
     }
 

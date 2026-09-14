@@ -16,7 +16,7 @@
     <span class="brand-mark jp" aria-hidden="true">力</span>
     <span class="brand-text">
       <span class="brand-name"><app-t key="app.name" /></span>
-      <span class="brand-sub"><app-t key="course.name" /></span>
+      <span class="brand-sub"><app-t [key]="course.nameKey" /></span>
     </span>
   </a>
 
@@ -29,13 +29,18 @@
   <header class="app-header" #appHeader>
     <div class="topbar">
       <!-- Chỉ hiện trên điện thoại, nơi không có thanh bên để giữ thương hiệu. -->
-      <a routerLink="/" class="brand topbar-brand">
+      <!-- aria-label: dưới 480px chữ tên ứng dụng ẩn đi, liên kết chỉ còn logo aria-hidden. -->
+      <a routerLink="/" class="brand topbar-brand" [attr.aria-label]="t('app.name')">
         <span class="brand-mark jp" aria-hidden="true">力</span>
         <span class="brand-name"><app-t key="app.name" /></span>
       </a>
 
+      <!-- Học phần đứng giữa breadcrumb: Riki Nihongo / N3 JUNBI ▾ / Từ vựng. Trên điện
+           thoại chỉ còn lại nút chọn học phần (xem app.css). -->
       <nav class="crumbs" [attr.aria-label]="t('app.breadcrumb')">
         <a routerLink="/" class="crumb-home"><app-t key="app.name" /></a>
+        <span class="crumb-sep" aria-hidden="true">/</span>
+        <app-course-switcher />
         @if (crumbKey(); as key) {
           <span class="crumb-sep" aria-hidden="true">/</span>
           <span class="crumb-current"><app-t [key]="key" /></span>

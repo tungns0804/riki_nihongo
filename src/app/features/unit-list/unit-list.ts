@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, inject, input, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
-import { moduleOf } from '../../core/course/course.config';
+import { COURSE_ID, moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import type { ModuleId, UnitIndexEntry } from '../../core/models/content.model';
@@ -30,6 +30,9 @@ export class UnitList {
   private readonly lang = inject(LanguageStore);
 
   protected readonly t = this.lang.t.bind(this.lang);
+
+  /** Trang của học phần (`/n3-junbi`): "Về trang học phần" dẫn về đây, không về trang gốc chọn học phần. */
+  protected readonly courseHome = ['/', COURSE_ID];
 
   readonly moduleId = input.required<ModuleId>();
 

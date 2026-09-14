@@ -35,7 +35,7 @@
 
             <div class="row">
               <a class="btn btn-primary" [routerLink]="retryLink()">{{ t('result.again') }}</a>
-              <a class="btn" routerLink="/">{{ t('common.backHome') }}</a>
+              <a class="btn" [routerLink]="courseHome">{{ t('common.backHome') }}</a>
             </div>
           </div>
         </div>

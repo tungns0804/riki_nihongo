@@ -1,0 +1,9 @@
+/* Mô tả cắt sau ba dòng, cùng lý do với thẻ phần học ở trang N3 JUNBI: thẻ cùng một
+   hàng mà cao thấp khác nhau thì cả lưới so le. */
+.course-desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+}

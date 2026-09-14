@@ -33,7 +33,8 @@ type Entry = { vi: string; ja: string };
 export const MESSAGES = {
   // ── Chung ──────────────────────────────────────────────────────────────
   'common.retry': { vi: 'Thử lại', ja: '再試行' },
-  'common.backHome': { vi: '← Về trang chủ', ja: '← ホームへ' },
+  // Dẫn về trang của học phần (/n3-junbi), không phải trang gốc chọn học phần.
+  'common.backHome': { vi: '← Về trang học phần', ja: '← コースのトップへ' },
   'common.backToList': { vi: '← Về danh sách', ja: '← 一覧へ' },
   'common.all': { vi: 'Tất cả', ja: 'すべて' },
   'common.loading': { vi: 'Đang tải…', ja: '読み込み中…' },
@@ -59,7 +60,28 @@ export const MESSAGES = {
   },
 
   // ── Khoá học ───────────────────────────────────────────────────────────
-  'course.name': { vi: 'N3 JUNBI', ja: 'N3 JUNBI' },
+  'course.label': { vi: 'Học phần', ja: 'コース' },
+  'course.switch': { vi: 'Chọn học phần', ja: 'コースを選ぶ' },
+  'course.current': { vi: 'Đang học', ja: '受講中' },
+  'course.soon': { vi: 'Sắp có', ja: '準備中' },
+  // Tên học phần là tên riêng của Riki nên giữ nguyên ở cả hai ngôn ngữ.
+  'course.n3-junbi.name': { vi: 'N3 JUNBI', ja: 'N3 JUNBI' },
+  'course.btvn-co-ban.name': { vi: 'BTVN CƠ BẢN (MỚI)', ja: 'BTVN CƠ BẢN (MỚI)' },
+  'course.btvn-n4-chuyen-sau.name': { vi: 'BTVN N4 CHUYÊN SÂU', ja: 'BTVN N4 CHUYÊN SÂU' },
+  'course.n3-taisaku.name': { vi: 'N3 TAISAKU', ja: 'N3 TAISAKU' },
+  'course.n3-luyen-de.name': { vi: 'N3 LUYỆN ĐỀ', ja: 'N3 LUYỆN ĐỀ' },
+  'course.n3-junbi.desc': {
+    vi: 'Chuẩn bị N3: kiểm tra nhập môn, từ vựng, kanji, ngữ pháp, đọc hiểu, nghe hiểu và ngữ pháp Mimikara Oboeru.',
+    ja: 'N3準備：入門テスト、語彙、漢字、文法、読解、聴解、耳から覚える文法。',
+  },
+  'course.soon.desc': { vi: 'Nội dung đang được chuẩn bị.', ja: '教材を準備中です。' },
+  'course.list.title': { vi: 'Các học phần của Riki Nihongo', ja: 'Riki Nihongo のコース' },
+  'course.list.subtitle': {
+    vi: 'Chọn học phần để bắt đầu. Hiện đã có N3 JUNBI, các học phần khác đang được chuẩn bị.',
+    ja: 'コースを選んで始めましょう。現在は N3 JUNBI を公開中で、ほかのコースは準備中です。',
+  },
+  'course.list.all': { vi: 'Tất cả học phần', ja: 'すべてのコース' },
+  'course.list.back': { vi: '← Tất cả học phần', ja: '← すべてのコース' },
 
   // ── Bảy phần học ───────────────────────────────────────────────────────
   'module.entrance-test.label': { vi: 'Bài kiểm tra nhập môn N3', ja: 'N3入門テスト' },

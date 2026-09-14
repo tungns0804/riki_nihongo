@@ -1,7 +1,7 @@
 <div class="container page">
   <div class="stack stack-xl">
     <section class="page-head">
-      <a class="back-link small" routerLink="/">{{ t('common.backHome') }}</a>
+      <a class="back-link small" [routerLink]="courseHome">{{ t('common.backHome') }}</a>
       <h1>
         <span class="head-icon jp" aria-hidden="true">{{ module().icon }}</span>
         <app-t [key]="module().labelKey" />
