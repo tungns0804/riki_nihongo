@@ -183,7 +183,7 @@ export interface GrammarPoint {
   id: string;
   /** Tên mẫu, ví dụ "～きり". */
   title: string;
-  /** Một dòng tóm tắt nghĩa, hiện ở mục lục. */
+  /** Ý nghĩa gói trong một dòng, hiện ở bảng tóm tắt đầu bài. */
   summary: string;
   /** Công thức nối, mỗi phần tử một dòng: ["V thể ta ＋ きり"]. */
   structures: string[];

@@ -1,0 +1,351 @@
+{
+  "id": "01-bai-1",
+  "name": "Bài 1",
+  "description": "～ことにしている · ～こと · ～ことになっている · ～ようになっている · ～ような／ように／ようだ",
+  "kind": "grammar",
+  "points": [
+    {
+      "id": "e7228ece020f49eb",
+      "title": "～ことにしている",
+      "summary": "Cố gắng / quyết định (làm gì) và giữ thành thói quen",
+      "structures": [
+        "Vる / Vない ＋ ことにしている"
+      ],
+      "explanation": [
+        "Việc người nói TỰ quyết định từ trước và tới giờ vẫn cố giữ đều đặn, thành thói quen hay nguyên tắc của bản thân.",
+        "Hay đi cùng từ chỉ tần suất, điều kiện: 毎朝, 週に一度, 寝る前に, ～たら, ～ときは…"
+      ],
+      "notes": [
+        "～ことにする: quyết định MỘT lần, vừa mới quyết. ～ことにしている: quyết định đó đã thành thói quen, vẫn đang giữ.",
+        "Tự mình đặt ra → ～ことにしている. Người khác, tổ chức đặt ra → ～ことになっている."
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Luôn cố làm ~",
+          "detail": "",
+          "examples": [
+            {
+              "id": "d26478e0338845ad",
+              "japanese": "わからないことがあったら、まず自分で調べることにしている。",
+              "reading": "わからないことがあったら、まずじぶんでしらべることにしている。",
+              "vietnamese": "Nếu gặp những chuyện không hiểu thì tôi sẽ cố gắng tự mình tìm hiểu trước đã.",
+              "note": ""
+            },
+            {
+              "id": "9a436f5298c85979",
+              "japanese": "健康のために、毎朝30分歩くことにしている。",
+              "reading": "けんこうのために、まいあささんじゅっぷんあるくことにしている。",
+              "vietnamese": "Vì sức khoẻ, sáng nào tôi cũng cố đi bộ 30 phút.",
+              "note": ""
+            },
+            {
+              "id": "01e3fc83e21fd96b",
+              "japanese": "寝る前に、その日に習った単語を復習することにしています。",
+              "reading": "ねるまえに、そのひにならったたんごをふくしゅうすることにしています。",
+              "vietnamese": "Trước khi ngủ, tôi luôn ôn lại những từ đã học trong ngày.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "Luôn cố không làm ~",
+          "detail": "",
+          "examples": [
+            {
+              "id": "4e3effe1085b29a6",
+              "japanese": "夜9時以降は、何も食べないことにしている。",
+              "reading": "よるくじいこうは、なにもたべないことにしている。",
+              "vietnamese": "Sau 9 giờ tối, tôi cố không ăn gì.",
+              "note": ""
+            },
+            {
+              "id": "f8130ca1a41e67c5",
+              "japanese": "車を運転する日は、お酒を飲まないことにしています。",
+              "reading": "くるまをうんてんするひは、おさけをのまないことにしています。",
+              "vietnamese": "Hôm nào phải lái xe thì tôi không uống rượu.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11660b43a5432c94",
+      "title": "～こと",
+      "summary": "Phải ~ / không được ~ (quy định, lời dặn)",
+      "structures": [
+        "Vる / Vない ＋ こと"
+      ],
+      "explanation": [
+        "Đặt こと ở cuối câu để nêu quy định hay lời dặn thật ngắn gọn: Vる ＋ こと là phải làm ~, Vない ＋ こと là không được làm ~.",
+        "Hay gặp trong nội quy, biển thông báo, hướng dẫn làm bài thi, lời dặn của giáo viên. Là cách nói của văn viết."
+      ],
+      "notes": [
+        "Không dùng để nhờ vả hay nói với người trên. Muốn nhờ lịch sự thì dùng ～てください.",
+        "Đừng nhầm với ～ことにしている: ở mẫu này こと đứng một mình ở cuối câu."
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Phải làm ~",
+          "detail": "",
+          "examples": [
+            {
+              "id": "ee040a8b93acdb22",
+              "japanese": "レポートは金曜日までに提出すること。",
+              "reading": "レポートはきんようびまでにていしゅつすること。",
+              "vietnamese": "Báo cáo phải nộp trước thứ Sáu.",
+              "note": ""
+            },
+            {
+              "id": "9f9f41c4d671e87e",
+              "japanese": "答えは黒いペンで書くこと。",
+              "reading": "こたえはくろいペンでかくこと。",
+              "vietnamese": "Câu trả lời phải viết bằng bút đen.",
+              "note": ""
+            },
+            {
+              "id": "1fa3dca0243f04bb",
+              "japanese": "教室を出るときは、電気を消すこと。",
+              "reading": "きょうしつをでるときは、でんきをけすこと。",
+              "vietnamese": "Khi ra khỏi lớp phải tắt điện.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "Không được làm ~",
+          "detail": "",
+          "examples": [
+            {
+              "id": "aa6460c34797752f",
+              "japanese": "廊下を走らないこと。",
+              "reading": "ろうかをはしらないこと。",
+              "vietnamese": "Không được chạy ngoài hành lang.",
+              "note": ""
+            },
+            {
+              "id": "4b2f71d8d41c6637",
+              "japanese": "試験中は、辞書を使わないこと。",
+              "reading": "しけんちゅうは、じしょをつかわないこと。",
+              "vietnamese": "Trong giờ thi không được dùng từ điển.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21ef20c8e0768bdb",
+      "title": "～ことになっている",
+      "summary": "Theo quy định / dự định / thói quen (do người khác, tổ chức đặt ra)",
+      "structures": [
+        "Vる / Vない ＋ ことになっている"
+      ],
+      "explanation": [
+        "Quy định, kế hoạch hay lệ thường đã được NGƯỜI KHÁC hoặc tổ chức (công ty, trường, gia đình…) quyết định sẵn; người nói chỉ làm theo.",
+        "Hay đi cùng: 私の会社では, この寮では, 規則で, 来月から…"
+      ],
+      "notes": [
+        "～ことになった: việc VỪA được quyết định. Khi quyết định đó đã thành quy định hay lịch cố định thì dùng ～ことになっている."
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Theo quy định",
+          "detail": "",
+          "examples": [
+            {
+              "id": "6d31b798220e04ec",
+              "japanese": "私の会社では、新入社員は朝、掃除することになっている。",
+              "reading": "わたしのかいしゃでは、しんにゅうしゃいんはあさ、そうじすることになっている。",
+              "vietnamese": "Ở công ty của tôi có quy định là nhân viên mới sẽ phải dọn dẹp vào buổi sáng.",
+              "note": ""
+            },
+            {
+              "id": "a490b770f071b5b9",
+              "japanese": "この寮では、夜11時までに帰ることになっている。",
+              "reading": "このりょうでは、よるじゅういちじまでにかえることになっている。",
+              "vietnamese": "Ở ký túc xá này, quy định là phải về trước 11 giờ đêm.",
+              "note": ""
+            },
+            {
+              "id": "189ca54e8f572ec1",
+              "japanese": "図書館には、食べ物を持ち込まないことになっている。",
+              "reading": "としょかんには、たべものをもちこまないことになっている。",
+              "vietnamese": "Theo quy định, không được mang đồ ăn vào thư viện.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "Theo dự định",
+          "detail": "",
+          "examples": [
+            {
+              "id": "0c1b61c5814e85a6",
+              "japanese": "来月から大阪の支店で働くことになっている。",
+              "reading": "らいげつからおおさかのしてんではたらくことになっている。",
+              "vietnamese": "Theo dự định, từ tháng sau tôi sẽ làm việc ở chi nhánh Osaka.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u3",
+          "title": "Theo thói quen, lệ chung",
+          "detail": "",
+          "examples": [
+            {
+              "id": "3300bb73c510f9c8",
+              "japanese": "我が家では、日曜日の夕食は父が作ることになっている。",
+              "reading": "わがやでは、にちようびのゆうしょくはちちがつくることになっている。",
+              "vietnamese": "Nhà tôi có lệ là bữa tối Chủ nhật do bố nấu.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5cef5c5c59d1dbd6",
+      "title": "～ようになっている",
+      "summary": "Được thiết kế, cài đặt sẵn để (hễ ~ thì) ~",
+      "structures": [
+        "Vる / Vない / V khả năng ＋ ようになっている"
+      ],
+      "explanation": [
+        "Cơ chế, cách vận hành mà máy móc, hệ thống hay một nơi chốn đã được thiết kế sẵn: hễ có điều kiện A thì B tự xảy ra.",
+        "Chủ ngữ thường là đồ vật, hệ thống (ドア, エアコン, アプリ, 駅…), hay đi cùng ～と / ～ないと / ～ても."
+      ],
+      "notes": [
+        "～ようになる: sự thay đổi dần dần (日本語が話せるようになった). ～ようになっている: cơ chế đã được làm sẵn như vậy.",
+        "～ことになっている: quy định con người phải làm theo. ～ようになっている: cách đồ vật, hệ thống vận hành."
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Cơ chế được làm sẵn",
+          "detail": "",
+          "examples": [
+            {
+              "id": "563db958f61cead6",
+              "japanese": "このドアは、人が近づくと自動で開くようになっている。",
+              "reading": "このドアは、ひとがちかづくとじどうであくようになっている。",
+              "vietnamese": "Cánh cửa này được thiết kế để hễ có người lại gần là tự động mở.",
+              "note": ""
+            },
+            {
+              "id": "5f636da8125a2cfe",
+              "japanese": "このエアコンは、部屋が暑くなると自動でスイッチが入るようになっている。",
+              "reading": "このエアコンは、へやがあつくなるとじどうでスイッチがはいるようになっている。",
+              "vietnamese": "Máy lạnh này được cài đặt để khi phòng nóng lên thì tự bật.",
+              "note": ""
+            },
+            {
+              "id": "ec5703b7b0f60ab2",
+              "japanese": "このボタンを押すと、お湯が出るようになっています。",
+              "reading": "このボタンをおすと、おゆがでるようになっています。",
+              "vietnamese": "Máy được làm sao cho bấm nút này là nước nóng chảy ra.",
+              "note": ""
+            },
+            {
+              "id": "9415a0829bb892ca",
+              "japanese": "このアプリは、パスワードを入れないと使えないようになっている。",
+              "reading": "このアプリは、パスワードをいれないとつかえないようになっている。",
+              "vietnamese": "Ứng dụng này được làm sao cho không nhập mật khẩu thì không dùng được.",
+              "note": ""
+            },
+            {
+              "id": "6455d8b4a3e29a86",
+              "japanese": "この駅では、切符がなくてもカードで改札を通れるようになっている。",
+              "reading": "このえきでは、きっぷがなくてもカードでかいさつをとおれるようになっている。",
+              "vietnamese": "Ở ga này, không có vé vẫn qua được cửa soát vé bằng thẻ.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1c1f1b3f7ef3b93c",
+      "title": "～ような／ように／ようだ",
+      "summary": "1. Như là, giống như · 2. Ví dụ như là",
+      "structures": [
+        "Nの ＋ ような ／ ように ／ ようだ",
+        "V普 (thể thông thường) ＋ ような ／ ように ／ ようだ"
+      ],
+      "explanation": [
+        "Ba dạng cùng nghĩa, chỉ khác chỗ đứng: ような ＋ danh từ, ように ＋ động từ / tính từ, ようだ ở cuối câu.",
+        "Nghĩa 1 — so sánh, ví von: \"như là, giống như\"; hay đi cùng まるで.",
+        "Nghĩa 2 — nêu ví dụ tiêu biểu: \"ví dụ như là\", thường ở dạng Nのような ＋ N."
+      ],
+      "notes": [
+        "ようだ còn có nghĩa suy đoán \"hình như\" (もう寝たようだ) — bài này chưa học nghĩa đó.",
+        "Văn nói thân mật dùng ～みたいな / ～みたいに / ～みたいだ với cùng nghĩa."
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Như là, giống như",
+          "detail": "",
+          "examples": [
+            {
+              "id": "4fd6466a7718ef5b",
+              "japanese": "鈴木さんは明るくて、太陽のようだ。",
+              "reading": "すずきさんはあかるくて、たいようのようだ。",
+              "vietnamese": "Chị Suzuki thật tươi tắn, giống như mặt trời vậy.",
+              "note": ""
+            },
+            {
+              "id": "27ae2767483761ba",
+              "japanese": "彼女は花のような笑顔で「ありがとう」と言った。",
+              "reading": "かのじょははなのようなえがおで「ありがとう」といった。",
+              "vietnamese": "Cô ấy nói \"cảm ơn\" với nụ cười như hoa.",
+              "note": ""
+            },
+            {
+              "id": "4cbfa6dec01fbe14",
+              "japanese": "リンさんは日本人のように上手に日本語を話す。",
+              "reading": "リンさんはにほんじんのようにじょうずににほんごをはなす。",
+              "vietnamese": "Chị Linh nói tiếng Nhật giỏi như người Nhật.",
+              "note": ""
+            },
+            {
+              "id": "a1125e436f0878cb",
+              "japanese": "合格できたなんて、まるで夢のようだ。",
+              "reading": "ごうかくできたなんて、まるでゆめのようだ。",
+              "vietnamese": "Thi đỗ được thật cứ như là mơ.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "Ví dụ như là",
+          "detail": "",
+          "examples": [
+            {
+              "id": "358b36e8a16d6f80",
+              "japanese": "すしや天ぷらのような日本料理が好きです。",
+              "reading": "すしやてんぷらのようなにほんりょうりがすきです。",
+              "vietnamese": "Tôi thích những món Nhật ví dụ như sushi hay tempura.",
+              "note": ""
+            },
+            {
+              "id": "69b3fa5a9a3f30ae",
+              "japanese": "東京や大阪のような大きい町に住みたい。",
+              "reading": "とうきょうやおおさかのようなおおきいまちにすみたい。",
+              "vietnamese": "Tôi muốn sống ở thành phố lớn như là Tokyo hay Osaka.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

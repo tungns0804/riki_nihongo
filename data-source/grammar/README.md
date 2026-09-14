@@ -30,6 +30,8 @@ File `grammar.json` — dùng chung cho phần `grammar` và phần `mimikara`.
 }
 ```
 
+- `summary` (ý nghĩa) và `structures` (cấu trúc) dựng thành bảng "Tóm tắt ngữ pháp" ở
+  đầu bài khi bài có từ hai mẫu trở lên — viết ngắn gọn.
 - Mẫu chỉ có MỘT cách dùng thì được viết gọn: bỏ `usages`, đặt thẳng `examples` ở
   cấp mẫu.
 - `structures`, `explanation`, `notes` nhận cả một chuỗi lẫn mảng nhiều dòng.

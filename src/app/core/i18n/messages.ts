@@ -178,9 +178,11 @@ export const MESSAGES = {
   'kanji.words': { vi: 'Từ ghép', ja: '熟語' },
 
   // ── Ngữ pháp (dùng chung cho cả Mimikara) ──────────────────────────────
-  'grammar.structure': { vi: 'Công thức', ja: '接続' },
+  // "Ý nghĩa" / "Cấu trúc": đúng hai nhãn trên slide bài giảng của Riki.
+  'grammar.structure': { vi: 'Cấu trúc', ja: '接続' },
+  'grammar.meaning': { vi: 'Ý nghĩa', ja: '意味' },
   'grammar.notes': { vi: 'Lưu ý', ja: '注意' },
-  'grammar.toc': { vi: 'Mục lục', ja: '目次' },
+  'grammar.overview': { vi: 'Tóm tắt ngữ pháp', ja: '文法のまとめ' },
 
   // ── Đọc hiểu ───────────────────────────────────────────────────────────
   'reading.passage': { vi: 'Bài đọc', ja: '本文' },

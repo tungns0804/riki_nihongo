@@ -7,56 +7,91 @@
   color: var(--accent);
 }
 
-/* --- Mục lục -------------------------------------------------------------
-   Dính lại dưới header khi cuộn: bài dài mấy màn hình mà muốn nhảy sang mẫu khác
-   thì không phải cuộn ngược lên đầu. z-index thấp hơn header (20) để header luôn
-   nằm trên. */
+/* --- Tóm tắt ngữ pháp -----------------------------------------------------
+   Mỗi mẫu một hàng ba cột: tên mẫu, Ý nghĩa, Cấu trúc — như thẻ trên slide tổng
+   hợp của bài giảng, gom lại để liếc một lần là nắm cả bài.
 
-.toc {
-  position: sticky;
-  top: calc(var(--header-h) + var(--sp-2));
-  z-index: 10;
-  /* Nền đặc: mục lục dính thì nội dung sẽ chạy phía sau nó. */
-  background: var(--bg-elevated);
-}
+   KHÔNG dính theo khi cuộn như mục lục trước đây: có thêm cột cấu trúc thì năm mẫu
+   cao gần nửa màn hình, dính lại sẽ che mất phần đang đọc. */
 
-.toc-list {
+.overview-list {
   display: flex;
   flex-direction: column;
-  gap: 2px;
   margin: 0;
-  padding-left: 1.4em;
+  padding: 0;
+  list-style: none;
 }
 
-.toc-link {
+.overview-item {
+  display: grid;
+  /* 17rem: vừa một tên gộp ba dạng như "～ような／ように／ようだ" trên một dòng. */
+  grid-template-columns: minmax(11rem, 17rem) minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--sp-1) var(--sp-5);
+  align-items: start;
+  padding-block: var(--sp-3);
+  border-top: 1px solid var(--border);
+}
+
+.overview-item:first-child {
+  border-top: none;
+}
+
+/* Cả tên mẫu là nút cuộn tới thẻ chi tiết của mẫu đó. */
+.overview-title {
   display: flex;
   align-items: baseline;
   gap: var(--sp-2);
-  flex-wrap: wrap;
-  width: 100%;
-  padding: 4px 8px;
+  justify-self: start;
+  padding: 0;
   border: none;
-  border-radius: var(--radius-sm);
   background: transparent;
-  text-align: left;
-  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
-}
-
-.toc-link:hover {
-  background: var(--bg-subtle);
   color: var(--accent);
+  font-size: var(--fs-md);
+  font-weight: 650;
+  text-align: left;
 }
 
-.toc-title {
+.overview-title:hover {
+  text-decoration: underline;
+}
+
+.overview-index {
+  color: var(--text-faint);
+  font-size: var(--fs-sm);
+}
+
+.overview-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.overview-label {
+  font-size: var(--fs-2xs);
+  font-weight: 620;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.overview-formula {
   font-weight: 600;
+}
+
+/* Hẹp thì ba cột xếp dọc: tên mẫu, rồi ý nghĩa, rồi cấu trúc. */
+@media (max-width: 760px) {
+  .overview-item {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 /* --- Một mẫu ngữ pháp ----------------------------------------------------- */
 
-/* Neo cuộn phải chừa chỗ cho cả header dính lẫn mục lục dính, nếu không bấm mục lục
-   xong thì tiêu đề mẫu nằm khuất ngay dưới chính cái mục lục vừa bấm. */
+/* Neo cuộn chừa chỗ cho header dính, nếu không bấm tên mẫu trong bảng tóm tắt xong
+   thì tiêu đề mẫu nằm khuất sau header. */
 .point-card {
-  scroll-margin-top: calc(var(--header-h) + 120px);
+  scroll-margin-top: calc(var(--header-h) + var(--sp-4));
 }
 
 .structure-list {
@@ -99,15 +134,4 @@
 .example-jp {
   font-size: var(--fs-lg);
   font-weight: 550;
-}
-
-@media (max-width: 640px) {
-  /* Ở màn hình hẹp, mục lục dính chiếm quá nhiều chỗ so với phần nội dung còn lại. */
-  .toc {
-    position: static;
-  }
-
-  .point-card {
-    scroll-margin-top: calc(var(--header-h) + var(--sp-4));
-  }
 }

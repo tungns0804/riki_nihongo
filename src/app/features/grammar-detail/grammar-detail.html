@@ -36,27 +36,37 @@
 
     @if (unit(); as data) {
       @if (points().length > 0) {
-        <app-practice-setup [unit]="data" />
-
-        @if (showToc()) {
-          <nav class="card toc" [attr.aria-label]="t('grammar.toc')">
+        <!-- Tóm tắt đứng TRƯỚC khung luyện tập: nắm cả bài trong một màn hình rồi mới
+             chọn luyện hay đọc chi tiết, giống slide tổng hợp cuối bài giảng. -->
+        @if (showOverview()) {
+          <section class="card overview" [attr.aria-label]="t('grammar.overview')">
             <div class="card-body stack stack-sm">
-              <span class="label">{{ t('grammar.toc') }}</span>
-              <ol class="toc-list">
-                @for (point of points(); track point.id) {
-                  <li>
-                    <button type="button" class="toc-link" (click)="scrollToPoint(point.id)">
-                      <span class="jp toc-title">{{ point.title }}</span>
-                      @if (point.summary) {
-                        <span class="muted small">{{ point.summary }}</span>
-                      }
+              <h2>{{ t('grammar.overview') }}</h2>
+              <ol class="overview-list">
+                @for (point of points(); track point.id; let i = $index) {
+                  <li class="overview-item">
+                    <button type="button" class="overview-title" (click)="scrollToPoint(point.id)">
+                      <span class="overview-index tnum">{{ i + 1 }}</span>
+                      <span class="jp">{{ point.title }}</span>
                     </button>
+                    <div class="overview-cell">
+                      <span class="overview-label">{{ t('grammar.meaning') }}</span>
+                      <span>{{ point.summary }}</span>
+                    </div>
+                    <div class="overview-cell">
+                      <span class="overview-label">{{ t('grammar.structure') }}</span>
+                      @for (structure of point.structures; track structure) {
+                        <span class="jp overview-formula">{{ structure }}</span>
+                      }
+                    </div>
                   </li>
                 }
               </ol>
             </div>
-          </nav>
+          </section>
         }
+
+        <app-practice-setup [unit]="data" />
 
         @for (point of points(); track point.id) {
           <article class="card point-card" [id]="'point-' + point.id">

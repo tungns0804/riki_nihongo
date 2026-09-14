@@ -12,10 +12,10 @@ import { PracticeSetup } from '../shared/practice-setup/practice-setup';
  * Một bài ngữ pháp — dùng cho cả phần "Ngữ pháp" và phần "Ngữ pháp MIMIKARA
  * OBOERU": hai giáo trình khác nhau nhưng cùng một hình dạng dữ liệu.
  *
- * Đây là trang LÝ THUYẾT, dài nhất trong cả ứng dụng: một bài có thể có năm mẫu,
- * mỗi mẫu vài cách dùng, mỗi cách dùng vài ví dụ. Vì thế có mục lục ở đầu trang —
- * và mục lục dùng `fragment` của router chứ không phải href="#…", vì bản chạy bằng
- * file:// định tuyến bằng dấu # nên href như vậy sẽ bị hiểu là một đường dẫn khác.
+ * Đây là trang LÝ THUYẾT, dài nhất trong cả ứng dụng: một bài có năm mẫu, mỗi mẫu
+ * vài cách dùng, mỗi cách dùng vài ví dụ. Vì thế đầu trang có bảng "Tóm tắt ngữ
+ * pháp" — Ý nghĩa và Cấu trúc của từng mẫu, như slide tổng hợp cuối bài giảng — để
+ * nắm cả bài trước khi đọc chi tiết. Bấm tên mẫu trong bảng thì cuộn tới mẫu đó.
  */
 @Component({
   selector: 'app-grammar-detail',
@@ -41,13 +41,14 @@ export class GrammarDetail {
 
   protected readonly points = computed(() => this.unit()?.points ?? []);
 
-  /** Mục lục chỉ có ích khi bài có nhiều hơn một mẫu. */
-  protected readonly showToc = computed(() => this.points().length > 1);
+  /** Bảng tóm tắt chỉ có ích khi bài có nhiều hơn một mẫu; một mẫu thì nó lặp lại y nguyên thẻ bên dưới. */
+  protected readonly showOverview = computed(() => this.points().length > 1);
 
   /**
    * Cuộn tới một mẫu. Tự viết thay vì dựa vào `fragment` của router: neo bằng
-   * fragment sẽ ghi thêm một mục vào lịch sử duyệt cho MỖI lần bấm mục lục, và
-   * người dùng phải bấm Back cả chục lần mới ra khỏi trang.
+   * fragment sẽ ghi thêm một mục vào lịch sử duyệt cho MỖI lần bấm, và người dùng
+   * phải bấm Back cả chục lần mới ra khỏi trang. Cũng không dùng href="#…": bản chạy
+   * bằng file:// định tuyến bằng dấu # nên href đó bị hiểu là một đường dẫn khác.
    */
   protected scrollToPoint(pointId: string): void {
     document.getElementById(`point-${pointId}`)?.scrollIntoView({ block: 'start' });

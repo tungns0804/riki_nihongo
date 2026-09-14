@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-09-10T15:13:51.224Z",
+  "generatedAt": "2026-09-14T16:16:25.246Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -130,13 +130,13 @@
       "id": "mimikara",
       "units": [
         {
-          "id": "00-bai-mau",
-          "name": "Bài mẫu · Mimikara Oboeru",
-          "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
+          "id": "01-bai-1",
+          "name": "Bài 1",
+          "description": "～ことにしている · ～こと · ～ことになっている · ～ようになっている · ～ような／ように／ようだ",
           "kind": "grammar",
-          "itemCount": 2,
-          "order": 0,
-          "file": "mimikara/00-bai-mau.json"
+          "itemCount": 5,
+          "order": 1,
+          "file": "mimikara/01-bai-1.json"
         }
       ]
     }
