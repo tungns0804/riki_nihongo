@@ -35,7 +35,6 @@ import { PracticeSessionStore } from '../../../core/services/practice-session-st
   selector: 'app-practice-setup',
   imports: [T],
   templateUrl: './practice-setup.html',
-  styleUrl: './practice-setup.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PracticeSetup {

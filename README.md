@@ -98,11 +98,22 @@ ba đáp án nhiễu cũng lấy trong cụm.
 
 ## Giao diện
 
-Nút giao diện trên header xoay vòng **Tự động → Sáng → Tối → Đèn đêm**, và trang mở
-lần đầu là **Đèn đêm**. Tông này làm theo Night light của Windows: nền giấy ngà, chữ
-nâu đậm, màu nhấn cam đất thay cho xanh ngọc — bớt ánh sáng xanh mà vẫn đủ sáng để
-đọc. Bảng màu viết riêng dưới `:root[data-theme='night']` trong `src/styles.css`, cùng
-bảng màu với minano_nihongo.
+Khung ứng dụng giống minano_nihongo (vốn theo bố cục ByeTOEIC): menu bảy phần nằm ở
+**thanh bên trái** — đủ nhãn từ khổ 1480px, thu thành dải chữ Hán (試 語 漢 文 読 聴 耳)
+từ 768px, và thành dải chip cuộn ngang dưới thanh trên cùng trên điện thoại. Thanh
+trên cùng chỉ còn breadcrumb (`Riki Nihongo / Từ vựng`) và hai nút ngôn ngữ, giao diện.
+
+Nút giao diện xoay vòng **Tự động → Sáng → Tối → Đèn đêm**, và trang mở lần đầu là
+**Đèn đêm**. Sáng và tối dùng bảng màu ByeTOEIC của minano_nihongo: nền trắng ngà / navy,
+xanh Mekong (`--brand`) cho khung ứng dụng, xanh lá (`--accent`) cho nút và lựa chọn
+trong nội dung. Đèn đêm làm theo Night light của Windows: nền giấy ngà, chữ nâu đậm,
+thương hiệu nâu gỗ và màu nhấn cam đất thay cho hai màu xanh — bớt ánh sáng xanh mà
+vẫn đủ sáng để đọc. Bảng này viết riêng dưới `:root[data-theme='night']` trong
+`src/styles.css`. Font Montserrat (chữ) và Quicksand (tiêu đề) tải từ Google Fonts, rơi
+về Segoe UI khi không tải được.
+
+Khung thiết lập luyện tập xếp mỗi nhóm thành một hàng, nhãn bên trái và nút dạng viên
+thuốc co theo nội dung (lớp `.setup` trong `src/styles.css`), như minano_nihongo.
 
 Bấm qua lại giữa các màn hình thì một vệt mảnh chạy ngay dưới header trong lúc tải
 màn hình mới (chỉ hiện khi phải chờ quá 120ms), và trang chi tiết hiện khung xám đúng
@@ -115,7 +126,7 @@ management nào khác, không có backend.
 
 ```
 src/app/
-├── app.ts / app.html / app.css     vỏ ứng dụng: header, menu bảy phần, nút lên đầu trang
+├── app.ts / app.html / app.css     vỏ ứng dụng: thanh bên, thanh trên, nút lên đầu trang
 ├── app.routes.ts                   route của bảy phần + /practice + /result
 ├── core/
 │   ├── course/course.config.ts     ĐỊNH NGHĨA KHOÁ HỌC: bảy phần, đường dẫn, biểu tượng

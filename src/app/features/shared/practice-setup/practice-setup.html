@@ -1,10 +1,12 @@
 <section class="card">
-  <div class="card-body stack stack-lg">
+  <!-- `.setup` (styles.css): nhãn cột trái, nút co theo nội dung — cùng bố cục với
+       khung thiết lập của minano_nihongo. -->
+  <div class="card-body stack setup">
     <h2>{{ t('practice.setup') }}</h2>
 
     <div class="field">
       <span class="label">{{ t('practice.mode') }}</span>
-      <div class="options options-row">
+      <div class="options">
         <button
           type="button"
           class="option"
@@ -29,7 +31,7 @@
     @if (directions().length > 1) {
       <div class="field">
         <span class="label">{{ t('practice.direction') }}</span>
-        <div class="options options-row">
+        <div class="options">
           @for (info of directions(); track info.id) {
             <button
               type="button"
@@ -42,11 +44,13 @@
             </button>
           }
         </div>
+        <!-- Ghi chú nằm TRONG nhóm chiều hỏi, ngay dưới hàng nút, vì nó nói về chiều
+             đang chọn. Luôn có nhóm này để nằm vào: câu ví dụ đi kèm chỉ khi bài có
+             chiều "Điền từ vào câu" VÀ đang chọn chiều khác, tức ít nhất hai chiều. -->
+        @if (pairsWithExample()) {
+          <p class="hint">{{ t('practice.withExample') }}</p>
+        }
       </div>
-    }
-
-    @if (pairsWithExample()) {
-      <p class="hint">{{ t('practice.withExample') }}</p>
     }
 
     @if (groups().length > 1) {
@@ -81,11 +85,11 @@
 
     <div class="field">
       <span class="label">{{ t('practice.count') }}</span>
-      <div class="options options-row">
+      <div class="options">
         @for (value of limits; track value) {
           <button
             type="button"
-            class="option option-narrow"
+            class="option tnum"
             [class.is-active]="limit() === value"
             [attr.aria-pressed]="limit() === value"
             [disabled]="value !== null && value > available()"

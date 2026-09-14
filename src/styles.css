@@ -19,57 +19,68 @@
 :root {
   color-scheme: light dark;
 
+  /* Bảng màu theo ByeTOEIC, lấy nguyên từ minano_nihongo để hai trang học đọc lên
+     như một: sáng là nền trắng ngà ấm với chữ xanh than, tối là nền navy gần đen.
+     Giá trị gốc lấy từ biến CSS của trang đó, rồi chỉnh độ đậm ở những chỗ chưa
+     đạt tương phản (xem từng nhóm). */
+
   /* --- Nền: bốn bậc, từ nền trang ra tới ô lõm sâu nhất -------------------- */
-  --bg: light-dark(#f3f5fa, #101219);
-  --bg-elevated: light-dark(#ffffff, #191c26);
-  --bg-subtle: light-dark(#eef1f7, #212533);
-  --bg-inset: light-dark(#e4e9f2, #2a2f3f);
+  --bg: light-dark(#faf9f7, #0f1318);
+  --bg-elevated: light-dark(#ffffff, #181d24);
+  --bg-subtle: light-dark(#f3f1ee, #20262e);
+  --bg-inset: light-dark(#eae6e1, #29303a);
 
   /* --- Chữ ---------------------------------------------------------------
-     Ba bậc, và cả ba đều phải ĐỌC ĐƯỢC. Bậc nhạt nhất trước đây là #868ca3, chỉ
-     đạt khoảng 3.6:1 trên nền trắng — dưới ngưỡng 4.5:1 của WCAG AA cho chữ nhỏ,
-     mà nó lại đang dùng cho đúng loại chữ nhỏ nhất trong app: nhãn cột, chú
-     thích, dòng đếm số kết quả. */
-  --text: light-dark(#12152a, #eef0f7);
-  --text-muted: light-dark(#555c74, #a8afc4);
-  --text-faint: light-dark(#6e7489, #868da3);
+     Ba bậc, và cả ba đều phải ĐỌC ĐƯỢC: ≥ 4.5:1 (WCAG AA cho chữ nhỏ) trên nền
+     thẻ, vì bậc nhạt nhất dùng cho đúng loại chữ nhỏ nhất trong app — nhãn cột,
+     chú thích, dòng đếm số kết quả. Xám gốc của ByeTOEIC (#627284) chỉ đạt 4.3:1
+     trên ô lõm nên được kéo đậm thêm. */
+  --text: light-dark(#222d39, #edebe8);
+  --text-muted: light-dark(#4f5d70, #a0a6ae);
+  --text-faint: light-dark(#66727f, #868d97);
 
-  --border: light-dark(#dfe4ee, #2c3142);
-  --border-strong: light-dark(#c5ccdb, #414862);
+  --border: light-dark(#e6e1db, #2a313a);
+  --border-strong: light-dark(#d2cac1, #3c4550);
 
-  /* Tông thương hiệu Riki: xanh ngọc đậm. Chọn màu cách xa hẳn xanh dương/tím của
-     các app học tiếng Nhật khác để nhìn một cái là biết đang ở đâu, và vẫn giữ được
-     độ tương phản ≥ 4.5:1 với nền trắng (bậc 700) lẫn nền tối (bậc 300). */
-  --accent: light-dark(#0f766e, #5eead4);
-  --accent-hover: light-dark(#115e56, #99f6e4);
-  --accent-soft: light-dark(#e2f6f3, #10312e);
-  --accent-text: light-dark(#ffffff, #08211f);
+  /* Màu nhấn: xanh lá của khu học ByeTOEIC — cho nút bắt đầu, lựa chọn đang bật,
+     liên kết trong nội dung. Xanh lá gốc rgb(32 180 134) chỉ đạt 2.6:1 với chữ trắng
+     nên bản sáng dùng tông đậm hơn, 4.6:1. Thay cho xanh ngọc #0f766e riêng của Riki
+     trước đây: hai tông gần nhau tới mức đặt cạnh nhau chỉ thấy lệch, không thấy khác. */
+  --accent: light-dark(#15855f, #2cc594);
+  --accent-hover: light-dark(#0f6e4e, #56d4ab);
+  --accent-soft: light-dark(#e6f4ee, #173a31);
+  --accent-text: light-dark(#ffffff, #06140f);
   /* Vòng sáng quanh phần tử đang focus hoặc đang được chọn. Màu trong suốt nên
      chồng lên nền nào cũng hợp, không phải khai báo lại theo từng chỗ đặt. */
-  --accent-ring: light-dark(rgb(15 118 110 / 16%), rgb(94 234 212 / 22%));
+  --accent-ring: light-dark(rgb(21 133 95 / 16%), rgb(44 197 148 / 22%));
 
-  --success: light-dark(#15803d, #6ee7a0);
-  --success-soft: light-dark(#dcfce7, #14311f);
-  --success-border: light-dark(#86efac, #2f6b45);
+  /* Màu thương hiệu: xanh Mekong — chỉ cho khung ứng dụng (logo, breadcrumb, mục
+     menu đang mở), không dùng trong nội dung. Xem .nav-link.is-active ở app.css. */
+  --brand: light-dark(#0057b8, #5c9be0);
+  --brand-soft: light-dark(#e6eef8, #1e2f44);
 
-  --danger: light-dark(#be123c, #ff9aae);
-  --danger-soft: light-dark(#ffe4e9, #3a1420);
-  --danger-border: light-dark(#fda4af, #7d2a41);
+  --success: light-dark(#3d7a3d, #86c28f);
+  --success-soft: light-dark(#e9f3e7, #1b3223);
+  --success-border: light-dark(#a9d0a5, #3a6a45);
 
-  --warning: light-dark(#b45309, #fcd34d);
-  --warning-soft: light-dark(#fef3c7, #38290b);
-  --warning-border: light-dark(#fcd34d, #7a5a15);
+  --danger: light-dark(#b3361f, #e0877b);
+  --danger-soft: light-dark(#fcebe7, #3a1f1c);
+  --danger-border: light-dark(#eba99c, #74392f);
 
-  --star: light-dark(#f59e0b, #fbbf24);
+  --warning: light-dark(#94620b, #e0c77a);
+  --warning-soft: light-dark(#fdf3dc, #342a10);
+  --warning-border: light-dark(#ebd08c, #6d5a22);
+
+  --star: light-dark(#eaa416, #f2c14e);
 
   --radius-sm: 8px;
   --radius: 12px;
-  --radius-lg: 18px;
+  --radius-lg: 16px;
   --radius-pill: 999px;
 
-  --shadow-sm: 0 1px 2px light-dark(rgb(16 24 40 / 6%), rgb(0 0 0 / 30%));
-  --shadow: 0 4px 16px light-dark(rgb(16 24 40 / 8%), rgb(0 0 0 / 35%));
-  --shadow-lg: 0 12px 32px light-dark(rgb(16 24 40 / 12%), rgb(0 0 0 / 45%));
+  --shadow-sm: 0 1px 2px light-dark(rgb(34 45 57 / 6%), rgb(0 0 0 / 30%));
+  --shadow: 0 4px 16px light-dark(rgb(34 45 57 / 8%), rgb(0 0 0 / 35%));
+  --shadow-lg: 0 12px 32px light-dark(rgb(34 45 57 / 12%), rgb(0 0 0 / 45%));
 
   /* --- Thang cỡ chữ ------------------------------------------------------
      Trước đây mỗi component tự đặt cỡ chữ theo cảm tính: 0.94rem, 0.92rem,
@@ -102,7 +113,13 @@
   --ease: cubic-bezier(0.2, 0.8, 0.3, 1);
   --dur: 0.18s;
 
-  --font-ui: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  /* Montserrat và Quicksand tải từ Google Fonts (index.html). Segoe UI đứng ngay
+     sau để lúc mạng chặn font vẫn ra chữ tiếng Việt đủ dấu. */
+  --font-ui: 'Montserrat', 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial,
+    sans-serif;
+  /* Tiêu đề: Quicksand bo tròn như tiêu đề của ByeTOEIC. Đuôi là --font-jp để tên
+     bài có chữ Nhật trong tiêu đề (第7課…) vẫn rơi về đúng font Nhật. */
+  --font-display: 'Quicksand', var(--font-jp);
 
   /* Font Latin đứng TRƯỚC font Nhật là có chủ ý, không phải nhầm thứ tự.
 
@@ -118,17 +135,15 @@
 
      Không dùng system-ui ở đây: trên máy đặt ngôn ngữ Nhật nó trỏ về Yu Gothic UI,
      tức là quay lại đúng lỗi vừa tránh. */
-  --font-jp: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, 'Yu Gothic',
+  --font-jp: 'Montserrat', 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, 'Yu Gothic',
     'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'MS Gothic', Meiryo, var(--font-ui);
   --font-mono: 'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace;
 
   /* Bề rộng tối đa của mọi khung nội dung. 1080px là đủ cho chữ, nhưng KHÔNG đủ
      cho bảng từ vựng đầy đủ: sáu cột (★, âm Hán Việt, tiếng Nhật, cách đọc, nghĩa,
      câu ví dụ) cần khoảng 1156px. 1240px trừ lề khung (2×20px) và lề thẻ (2×20px)
-     vẫn còn 1160px cho bảng — vừa đủ, không phải cuộn ngang.
-
-     Đây là biến dùng chung nên header cũng rộng theo: nới riêng trang nội dung thì
-     mép thẻ sẽ thò ra ngoài mép logo và thanh điều hướng. */
+     vẫn còn 1160px cho bảng — vừa đủ, không phải cuộn ngang. Thanh bên ở app.css
+     chọn mốc thu gọn theo đúng con số này. */
   --max-width: 1240px;
 
   /* Chiều cao THẬT của header dính, tính cả phần chừa cho tai thỏ. Năm chỗ cần đúng
@@ -137,10 +152,11 @@
      đang chuyển trang.
 
      Giá trị dưới đây chỉ là ước lượng cho lần vẽ đầu tiên. Ngay khi chạy, app.ts đo
-     header thật rồi ghi đè — xem `App.trackHeaderHeight`. Trước đây là con số viết
-     tay theo breakpoint (104px cho khổ ≤800px, tính cho menu hai hàng), nhưng ở khổ
-     điện thoại menu xếp ba hàng nên các thanh dính chui ra sau header. */
-  --header-h: calc(62px + env(safe-area-inset-top));
+     header thật rồi ghi đè — xem `App.trackHeaderHeight`. Phải đo vì trên điện thoại
+     header gồm cả dải menu, trên máy tính thì không, và chữ trong đó dài ngắn theo
+     ngôn ngữ; con số viết tay theo breakpoint trước đây đã để các thanh dính chui ra
+     sau header. */
+  --header-h: calc(61px + env(safe-area-inset-top));
 }
 
 :root[data-theme='light'] {
@@ -185,7 +201,7 @@
   --border: #e0cfb1;
   --border-strong: #c9b48f;
 
-  /* Xanh ngọc của Riki vẫn là một màu xanh — đúng thứ tông này sinh ra để bớt, nên
+  /* Xanh lá của màu nhấn vẫn là một màu xanh — đúng thứ tông này sinh ra để bớt, nên
      nó là màu đầu tiên phải thay. Cam đất giữ đúng vai trò "màu nhấn" mà vẫn không
      lẫn với --warning (ngả vàng) hay --danger (ngả đỏ). */
   --accent: #9a4c15;
@@ -193,6 +209,10 @@
   --accent-soft: #f7e6cd;
   --accent-text: #fffaf0;
   --accent-ring: rgb(154 76 21 / 18%);
+
+  /* Thương hiệu nâu gỗ thay cho xanh Mekong, cùng lý do với màu nhấn ở trên. */
+  --brand: #6e4a1c;
+  --brand-soft: #f0e1c6;
 
   --success: #4a6b1f;
   --success-soft: #e7edd0;
@@ -290,8 +310,9 @@ h1,
 h2,
 h3,
 h4 {
+  font-family: var(--font-display);
   line-height: 1.25;
-  font-weight: 650;
+  font-weight: 700;
   text-wrap: balance;
   /* Cỡ chữ càng lớn thì khoảng cách giữa các chữ trông càng thưa — siết lại một
      chút để tiêu đề nhìn liền khối. */
@@ -698,14 +719,93 @@ a:hover {
   cursor: not-allowed;
 }
 
+/* --- Khung thiết lập luyện tập -------------------------------------------
+   Bốn màn hình chi tiết (từ vựng, kanji, ngữ pháp, mimikara) dùng chung một khung
+   (features/shared/practice-setup), gắn `.setup` lên thân thẻ. Bố cục lấy nguyên từ
+   minano_nihongo.
+
+   Trước đây mỗi nhóm là nhãn nằm trên + lưới nút căng hết bề ngang: bốn năm nhóm
+   xếp dọc thành một khối rất cao, mà phần lớn chỉ là khoảng trống trong những nút
+   rộng hàng trăm pixel chứa đúng một con số "20". Giờ nhãn nằm cột trái, nút co
+   theo nội dung. */
+
+.setup {
+  gap: var(--sp-4);
+}
+
+@media (min-width: 720px) {
+  .setup > .field {
+    display: grid;
+    grid-template-columns: 9.5rem minmax(0, 1fr);
+    /* Nhãn trải dọc suốt nhóm (xem .label bên dưới) nên cần sẵn đủ hàng: một nhóm có
+       nhiều nhất hai phần bên phải — hàng nút + ghi chú. */
+    grid-template-rows: auto auto auto;
+    /* row-gap 0 phải ghi rõ: `.field` dùng chung đặt `gap: 6px` cho cả hai chiều. */
+    gap: 0 var(--sp-4);
+    /* Không căn `baseline`: nhãn trải qua nhiều hàng mà căn baseline thì trình duyệt
+       chèn thêm khoảng đệm vào các hàng, nhóm nào cũng cao ra thêm cả chục pixel. */
+    align-items: start;
+  }
+
+  /* Nhãn trải suốt nhóm: chỉ nằm ở hàng đầu thì nhãn dài bẻ hai dòng sẽ kéo hàng đó
+     cao lên, đẩy dòng ghi chú bên phải tụt xuống cách xa hàng nút.
+
+     padding-top đưa dòng nhãn xuống ngang chữ trong nút (viền 1px + đệm 6px + nửa
+     phần chênh cỡ chữ). */
+  .setup > .field > .label {
+    grid-column: 1;
+    grid-row: 1 / -1;
+    padding-top: 8px;
+  }
+
+  .setup > .field > :not(.label) {
+    grid-column: 2;
+  }
+
+  /* Khoảng cách giữa hàng nút và ghi chú làm bằng margin chứ không bằng row-gap:
+     hàng trống vẫn ăn row-gap, nhóm chỉ có một phần sẽ thừa khoảng trống ở đáy. */
+  .setup > .field > .label ~ * ~ * {
+    margin-top: 6px;
+  }
+}
+
+.setup > .field > .hint {
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+}
+
+.setup .options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.setup .option {
+  width: auto;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  font-size: var(--fs-sm);
+}
+
+/* Nút nhỏ xếp sát nhau thì nền nhạt + viền màu là đủ nổi; vòng sáng 3px của nút to
+   cũ ở đây dính chùm sang nút bên cạnh. */
+.setup .option.is-active {
+  box-shadow: none;
+}
+
 /* --- Badge ---------------------------------------------------------------- */
 
 .badge {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 2px 9px;
-  border-radius: var(--radius-pill);
+  padding: 1px 8px;
+  /* Nhãn chữ nhật bo góc có viền cùng màu chữ, như nhãn "DỄ / TRUNG BÌNH" của
+     ByeTOEIC: phân biệt được với chip dạng viên thuốc (.chip, dải menu) vốn là thứ
+     bấm được, còn badge thì không. */
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius: 6px;
   font-size: var(--fs-xs);
   font-weight: 600;
   background: var(--bg-inset);

@@ -1,4 +1,4 @@
-<!-- Bỏ qua header: người dùng bàn phím (và trình đọc màn hình) không phải Tab qua
+<!-- Bỏ qua menu: người dùng bàn phím (và trình đọc màn hình) không phải Tab qua
      thương hiệu + 7 mục menu + 2 nút ở MỌI trang mới tới được nội dung. Nằm ngoài
      màn hình cho tới khi nhận focus.
 
@@ -9,81 +9,94 @@
   <app-t key="app.skipToContent" />
 </button>
 
-<header class="app-header" #appHeader>
-  <div class="container app-header-inner">
-    <a routerLink="/" class="brand">
-      <span class="brand-mark jp" aria-hidden="true">力</span>
-      <span class="brand-text">
-        <span class="brand-title">
-          <span class="brand-name"><app-t key="app.name" /></span>
-          <!-- &ngsp; là dấu cách thật, không bị Angular gộp bỏ. -->
-          <span class="brand-course">&ngsp;· <app-t key="course.name" /></span>
-        </span>
-        <span class="brand-sub"><app-t key="app.tagline" /></span>
-      </span>
-    </a>
+<!-- Thanh bên: menu chính trên màn hình từ 768px trở lên. Điện thoại dùng dải
+     .tab-strip trong header thay cho nó. -->
+<aside class="app-sidebar">
+  <a routerLink="/" class="brand" [title]="t('app.title')">
+    <span class="brand-mark jp" aria-hidden="true">力</span>
+    <span class="brand-text">
+      <span class="brand-name"><app-t key="app.name" /></span>
+      <span class="brand-sub"><app-t key="course.name" /></span>
+    </span>
+  </a>
 
-    <!-- Menu là em ruột của .app-actions, không nằm trong đó: ở khổ điện thoại nó phải
-         xuống được một hàng riêng chiếm trọn bề ngang, mà một flex item chỉ xuống hàng
-         được so với các em ruột của chính nó. -->
-    <nav class="app-nav" [attr.aria-label]="t('app.nav')">
-      @for (module of modules; track module.id) {
-        <a [routerLink]="['/', module.path]" routerLinkActive="is-active">
-          <app-t [key]="module.shortKey" />
-        </a>
-      }
-    </nav>
+  <nav class="side-nav" [attr.aria-label]="t('app.nav')">
+    <ng-container [ngTemplateOutlet]="navLinks" />
+  </nav>
+</aside>
 
-    <div class="app-actions">
-      <button
-        type="button"
-        class="icon-btn lang-btn"
-        (click)="lang.toggle()"
-        [title]="t('app.language.switch', { name: lang.nextName() })"
-        [attr.aria-label]="t('app.language.switch', { name: lang.nextName() })"
-      >
-        <span class="icon-btn-glyph" aria-hidden="true">🌐</span>
-        <span class="icon-btn-label lang-label">{{ lang.short() }}</span>
-      </button>
+<div class="app-frame">
+  <header class="app-header" #appHeader>
+    <div class="topbar">
+      <!-- Chỉ hiện trên điện thoại, nơi không có thanh bên để giữ thương hiệu. -->
+      <a routerLink="/" class="brand topbar-brand">
+        <span class="brand-mark jp" aria-hidden="true">力</span>
+        <span class="brand-name"><app-t key="app.name" /></span>
+      </a>
 
-      <button
-        type="button"
-        class="icon-btn theme-btn"
-        (click)="theme.cycle()"
-        [title]="t('theme.title', { current: t(theme.labelKey()), next: t(theme.nextLabelKey()) })"
-        [attr.aria-label]="
-          t('theme.title', { current: t(theme.labelKey()), next: t(theme.nextLabelKey()) })
-        "
-      >
-        <span class="icon-btn-glyph" aria-hidden="true">{{ theme.icon() }}</span>
-        <span class="icon-btn-label">
-          <app-t [key]="theme.labelKey()" />
-        </span>
-      </button>
+      <nav class="crumbs" [attr.aria-label]="t('app.breadcrumb')">
+        <a routerLink="/" class="crumb-home"><app-t key="app.name" /></a>
+        @if (crumbKey(); as key) {
+          <span class="crumb-sep" aria-hidden="true">/</span>
+          <span class="crumb-current"><app-t [key]="key" /></span>
+        }
+      </nav>
+
+      <div class="app-actions">
+        <button
+          type="button"
+          class="icon-btn"
+          (click)="lang.toggle()"
+          [title]="t('app.language.switch', { name: lang.nextName() })"
+          [attr.aria-label]="t('app.language.switch', { name: lang.nextName() })"
+        >
+          <app-icon name="globe" />
+          <span class="lang-label">{{ lang.short() }}</span>
+        </button>
+
+        <button
+          type="button"
+          class="icon-btn"
+          (click)="theme.cycle()"
+          [title]="
+            t('theme.title', { current: t(theme.labelKey()), next: t(theme.nextLabelKey()) })
+          "
+          [attr.aria-label]="
+            t('theme.title', { current: t(theme.labelKey()), next: t(theme.nextLabelKey()) })
+          "
+        >
+          <app-icon [name]="theme.icon()" />
+          <span class="theme-label"><app-t [key]="theme.labelKey()" /></span>
+        </button>
+      </div>
     </div>
+
+    <nav class="tab-strip" #tabStrip [attr.aria-label]="t('app.nav')">
+      <ng-container [ngTemplateOutlet]="navLinks" />
+    </nav>
+  </header>
+
+  <!-- Thanh tiến trình chuyển trang. Luôn nằm trong DOM và chỉ đổi độ mờ, cùng lý do
+       với nút "lên đầu trang" bên dưới: bật/tắt bằng @if thì nó bụp một cái.
+
+       Nằm NGAY DƯỚI header và cũng dính theo header, để phản hồi cho cú bấm menu hiện
+       ở chỗ mắt đang nhìn.
+
+       Không khai role="progressbar": thanh này chạy vô định, không có phần trăm nào để
+       đọc. role="status" cho trình đọc màn hình biết trang đang tải, còn vệt vẽ thì
+       aria-hidden. Lời báo là NỘI DUNG bên trong (thêm vào rồi bỏ đi), không phải
+       aria-label: role="status" chỉ đọc khi nội dung của vùng đó thay đổi. -->
+  <div class="route-progress" [class.is-active]="navigating()" role="status">
+    @if (navigating()) {
+      <span class="sr-only">{{ t('app.navigating') }}</span>
+    }
+    <span class="route-progress-bar" aria-hidden="true"></span>
   </div>
-</header>
 
-<!-- Thanh tiến trình chuyển trang. Luôn nằm trong DOM và chỉ đổi độ mờ, cùng lý do
-     với nút "lên đầu trang" bên dưới: bật/tắt bằng @if thì nó bụp một cái.
-
-     Nằm NGAY DƯỚI header và cũng dính theo header, để cú bấm menu và phản hồi cho cú
-     bấm đó ở sát nhau — người dùng không phải nhìn sang chỗ khác.
-
-     Không khai role="progressbar": thanh này chạy vô định, không có phần trăm nào để
-     đọc. role="status" cho trình đọc màn hình biết trang đang tải, còn vệt vẽ thì
-     aria-hidden. Lời báo là NỘI DUNG bên trong (thêm vào rồi bỏ đi), không phải
-     aria-label: role="status" chỉ đọc khi nội dung của vùng đó thay đổi. -->
-<div class="route-progress" [class.is-active]="navigating()" role="status">
-  @if (navigating()) {
-    <span class="sr-only">{{ t('app.navigating') }}</span>
-  }
-  <span class="route-progress-bar" aria-hidden="true"></span>
+  <main id="main-content" tabindex="-1">
+    <router-outlet />
+  </main>
 </div>
-
-<main id="main-content" tabindex="-1">
-  <router-outlet />
-</main>
 
 <!-- Nút quay lên đầu trang. Luôn nằm trong DOM, chỉ mờ đi và không nhận chuột khi
      chưa cuộn đủ xa — bật/tắt bằng @if thì nó bụp một cái, không có gì để chuyển. -->
@@ -99,3 +112,24 @@
 >
   <span aria-hidden="true">↑</span>
 </button>
+
+<!-- Một bộ mục menu cho cả thanh bên lẫn dải trên điện thoại: hai nơi chỉ khác nhau ở
+     CSS. Nơi nào không hợp khổ màn hình thì display: none, nên trình đọc màn hình luôn
+     chỉ gặp đúng một menu.
+
+     Nhãn là tên NGẮN của phần học; tên đầy đủ nằm ở `title` (hiện khi rê chuột, và là
+     thứ duy nhất giải thích chữ Hán khi thanh bên thu gọn) và trên breadcrumb. -->
+<ng-template #navLinks>
+  @for (module of modules; track module.id) {
+    <a
+      class="nav-link"
+      [routerLink]="['/', module.path]"
+      [class.is-active]="section() === module.path"
+      [attr.aria-current]="section() === module.path ? 'true' : null"
+      [title]="t(module.labelKey)"
+    >
+      <span class="nav-glyph jp" aria-hidden="true">{{ module.icon }}</span>
+      <span class="nav-label"><app-t [key]="module.shortKey" /></span>
+    </a>
+  }
+</ng-template>

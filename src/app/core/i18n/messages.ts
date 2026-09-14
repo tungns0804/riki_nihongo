@@ -41,11 +41,8 @@ export const MESSAGES = {
   // ── Vỏ ứng dụng ────────────────────────────────────────────────────────
   'app.name': { vi: 'Riki Nihongo', ja: 'Riki Nihongo' },
   'app.title': { vi: 'Riki Nihongo — N3 JUNBI', ja: 'Riki Nihongo — N3 JUNBI' },
-  'app.tagline': {
-    vi: 'Lộ trình chuẩn bị cho kỳ thi N3',
-    ja: 'N3受験のための準備コース',
-  },
   'app.nav': { vi: 'Điều hướng chính', ja: 'メインナビゲーション' },
+  'app.breadcrumb': { vi: 'Bạn đang ở', ja: '現在の場所' },
   'app.language.switch': { vi: 'Chuyển sang {name}', ja: '{name}に切り替える' },
   'app.skipToContent': { vi: 'Tới nội dung chính', ja: 'メインコンテンツへ' },
   'app.backToTop': { vi: 'Lên đầu trang', ja: 'ページの先頭へ' },

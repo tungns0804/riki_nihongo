@@ -6,8 +6,15 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Riki Nihongo — khoá N3 JUNBI: kiểm tra nhập môn, từ vựng, kanji, ngữ pháp, đọc hiểu, nghe hiểu và ngữ pháp Mimikara Oboeru.">
-  <meta name="theme-color" content="#9a4c15">
+  <!-- Nền thanh trên cùng của đèn đêm (tông mặc định), xem THEME_COLOR trong ThemeStore. -->
+  <meta name="theme-color" content="#fbf3e3">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Montserrat (chữ thường) + Quicksand (tiêu đề), cùng cặp font với minano_nihongo
+       và ByeTOEIC. Cả hai có bộ ký tự tiếng Việt. Không tải được (mạng chặn) thì
+       --font-ui trong styles.css rơi về Segoe UI, trang vẫn đọc bình thường. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400..700&family=Quicksand:wght@500..700&display=swap">
   <script>
     // Áp dụng tông màu đã lưu NGAY trước khi Angular khởi động, nếu không trang sẽ
     // chớp màu hệ thống một nhịp rồi mới đổi. Giữ đoạn này đồng bộ với ThemeStore —

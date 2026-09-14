@@ -131,8 +131,8 @@ export const routes: Routes = [
   //   /vocabulary/02-dong-tu/practice      /vocabulary/02-dong-tu/result
   //
   // Trước đây là /practice và /result trơn, nên thanh địa chỉ không nói đang luyện phần
-  // nào, bài nào, và mục "Từ vựng" trên menu không sáng — routerLinkActive chỉ sáng khi
-  // địa chỉ nằm dưới /vocabulary. Dựng từ MODULES để phần học thêm sau tự có cặp này.
+  // nào, bài nào, và mục "Từ vựng" trên menu không sáng — menu sáng theo đoạn đầu của
+  // địa chỉ (xem `sectionOf` trong app.ts). Dựng từ MODULES để phần học thêm sau tự có cặp này.
   //
   // Không có link vào từ menu: chúng chỉ tới từ nút "bắt đầu luyện" của một bài. Guard
   // chặn người vào thẳng bằng URL khi không có phiên của đúng bài đó.
