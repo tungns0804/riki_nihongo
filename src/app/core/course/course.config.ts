@@ -58,7 +58,7 @@ export const COURSES: readonly CourseDef[] = [
     nameKey: 'course.btvn-co-ban.name',
     descKey: 'course.btvn-co-ban.desc',
     status: 'active',
-    modules: ['vocabulary'],
+    modules: ['vocabulary', 'kanji'],
   },
   { id: 'btvn-n4-chuyen-sau', icon: '深', nameKey: 'course.btvn-n4-chuyen-sau.name', descKey: 'course.soon.desc', status: 'soon', modules: [] },
   { id: 'n3-taisaku', icon: '策', nameKey: 'course.n3-taisaku.name', descKey: 'course.soon.desc', status: 'soon', modules: [] },

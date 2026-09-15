@@ -80,8 +80,8 @@ export const MESSAGES = {
     ja: 'N3準備：入門テスト、語彙、漢字、文法、読解、聴解、耳から覚える文法。',
   },
   'course.btvn-co-ban.desc': {
-    vi: 'Bài tập về nhà N3 cơ bản: từ vựng theo từng bài tập 10 từ, kèm cách đọc, nghĩa và câu ví dụ.',
-    ja: 'N3基礎の宿題：1回10語ずつの語彙。読み方・意味・例文つき。',
+    vi: 'Bài tập về nhà N3 cơ bản: từ vựng theo từng bài tập 10 từ và kanji theo bài, kèm cách đọc, nghĩa và ví dụ.',
+    ja: 'N3基礎の宿題：1回10語ずつの語彙と課ごとの漢字。読み方・意味・例つき。',
   },
   'course.soon.desc': { vi: 'Nội dung đang được chuẩn bị.', ja: '教材を準備中です。' },
   'course.list.title': { vi: 'Các học phần của Riki Nihongo', ja: 'Riki Nihongo のコース' },
@@ -207,6 +207,18 @@ export const MESSAGES = {
     vi: 'Không có từ nào khớp {term}',
     ja: '{term} に一致する単語はありません',
   },
+  // Đang gõ tìm thì kết quả lấy trên CẢ BÀI chứ không trong cụm đang xem — nói rõ ra.
+  'vocab.searchAll': { vi: 'Tìm trong cả bài: {shown} từ', ja: '課全体から {shown}語' },
+  'vocab.group.pick': { vi: 'Cụm đang xem', ja: '表示中のグループ' },
+  'vocab.group.prev': { vi: 'Cụm trước', ja: '前のグループ' },
+  'vocab.group.next': { vi: 'Cụm sau', ja: '次のグループ' },
+  'vocab.group.continue': { vi: 'Học tiếp cụm {name}', ja: '次のグループ {name} へ' },
+  'vocab.col.number': { vi: 'Số thứ tự', ja: '番号' },
+  'vocab.col.hanViet': { vi: 'Hán Việt', ja: '漢越音' },
+  'vocab.col.japanese': { vi: 'Từ', ja: '語' },
+  'vocab.col.reading': { vi: 'Cách đọc', ja: '読み方' },
+  'vocab.col.meaning': { vi: 'Nghĩa', ja: '意味' },
+  'vocab.col.example': { vi: 'Ví dụ', ja: '例文' },
 
   // ── Kanji ──────────────────────────────────────────────────────────────
   'kanji.onyomi': { vi: 'Âm On', ja: '音読み' },

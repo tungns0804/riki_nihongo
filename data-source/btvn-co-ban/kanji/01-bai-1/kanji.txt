@@ -1,0 +1,15 @@
+# BTVN CƠ BẢN (MỚI) — Kanji · Bài 1
+# Nguồn: thẻ kanji Bài 1 trên website Riki. Chỗ chuẩn hoá so với thẻ: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+任,NHIỆM,,ニン,まか.せる,|任せる (まかせる)=Giao phó;担任 (たんにん)=Phụ trách;責任 (せきにん)=Trách nhiệm
+信,TÍN,,シン,,|信じる (しんじる)=Tin tưởng;通信 (つうしん)=Truyền thông, truyền tin;信号 (しんごう)=Tín hiệu
+# 伸: thẻ không ghi âm On.
+伸,THÂN,,,の.びる・の.ばす,|髪が伸びる (かみがのびる)=Tóc dài ra;足を伸ばす (あしをのばす)=Duỗi chân
+付,PHÓ,,フ,つ.ける,|付近 (ふきん)=Ngay gần, liền kề;付ける (つける)=Gắn vào, mặc vào;付く (つく)=Dính vào
+# 代: thẻ ghi âm On bằng hiragana (だい).
+代,ĐẠI,,ダイ,か.わる・か.える,|代表 (だいひょう)=Đại diện;代わる (かわる)=Thay thế;代える (かえる)=Đổi, thế chỗ
+件,KIỆN,,ケン,,|事件 (じけん)=Sự việc, vụ án;条件 (じょうけん)=Điều kiện;用件 (ようけん)=Công việc
+位,VỊ,,イ,,|位置 (いち)=Vị trí;単位 (たんい)=Đơn vị;地位 (ちい)=Địa vị
+倍,BỘI,,バイ,,|何倍 (なんばい)=Gấp bao nhiêu lần;倍返し (ばいがえし)=Trả gấp bội
+保,BẢO,,ホ,たも.つ,|保存 (ほぞん)=Lưu, bảo quản;保険 (ほけん)=Bảo hiểm;保つ (たもつ)=Giữ, duy trì
+個,CÁ,,コ,,|個性 (こせい)=Cá tính;個人 (こじん)=Cá nhân;一個 (いっこ)=Một cái

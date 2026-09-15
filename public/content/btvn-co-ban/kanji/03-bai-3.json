@@ -1,0 +1,300 @@
+{
+  "id": "03-bai-3",
+  "name": "Bài 3",
+  "description": "徒 · 術 · 得 · 役 · 投 · 般 · 段 · 直 · 値 · 置",
+  "kind": "kanji",
+  "kanji": [
+    {
+      "id": "1a05138d602ce9fa",
+      "character": "徒",
+      "hanViet": "ĐỒ",
+      "meaning": "",
+      "onyomi": [
+        "ト"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0c69b4f8527216ea",
+          "japanese": "徒歩",
+          "reading": "とほ",
+          "vietnamese": "Đi bộ"
+        },
+        {
+          "id": "6b78b0870de69ef6",
+          "japanese": "生徒",
+          "reading": "せいと",
+          "vietnamese": "Học sinh"
+        }
+      ]
+    },
+    {
+      "id": "94188e2e8ee22c52",
+      "character": "術",
+      "hanViet": "THUẬT",
+      "meaning": "",
+      "onyomi": [
+        "ジュツ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "04c9f24d13c3b672",
+          "japanese": "技術",
+          "reading": "ぎじゅつ",
+          "vietnamese": "Kĩ thuật"
+        },
+        {
+          "id": "d0270949c7767211",
+          "japanese": "手術",
+          "reading": "しゅじゅつ",
+          "vietnamese": "Phẫu thuật"
+        },
+        {
+          "id": "d6000c148e267679",
+          "japanese": "美術",
+          "reading": "びじゅつ",
+          "vietnamese": "Mỹ thuật"
+        }
+      ]
+    },
+    {
+      "id": "8586945ed3feaac8",
+      "character": "得",
+      "hanViet": "ĐẮC",
+      "meaning": "",
+      "onyomi": [
+        "トク"
+      ],
+      "kunyomi": [
+        "え.る"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "cbd6b95a24838efd",
+          "japanese": "得意",
+          "reading": "とくい",
+          "vietnamese": "Giỏi"
+        },
+        {
+          "id": "fe3704f42d1614ab",
+          "japanese": "得る",
+          "reading": "える",
+          "vietnamese": "Lấy được, có được"
+        }
+      ]
+    },
+    {
+      "id": "2d666e40c43a4b5b",
+      "character": "役",
+      "hanViet": "DỊCH",
+      "meaning": "",
+      "onyomi": [
+        "ヤク"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "ae233cd421fba7fe",
+          "japanese": "市役所",
+          "reading": "しやくしょ",
+          "vietnamese": "Văn phòng hành chính"
+        },
+        {
+          "id": "dd34a9c438669730",
+          "japanese": "役に立つ",
+          "reading": "やくにたつ",
+          "vietnamese": "Hữu ích"
+        },
+        {
+          "id": "bafc473599ae6128",
+          "japanese": "役割",
+          "reading": "やくわり",
+          "vietnamese": "Vai trò"
+        }
+      ]
+    },
+    {
+      "id": "6aff313e126a87c1",
+      "character": "投",
+      "hanViet": "ĐẦU",
+      "meaning": "",
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "な.げる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "b613ba30e30ff842",
+          "japanese": "投資する",
+          "reading": "とうしする",
+          "vietnamese": "Đầu tư"
+        },
+        {
+          "id": "b5910dd64e30a264",
+          "japanese": "投げる",
+          "reading": "なげる",
+          "vietnamese": "Ném"
+        }
+      ]
+    },
+    {
+      "id": "58259deca10f2b95",
+      "character": "般",
+      "hanViet": "BÀN",
+      "meaning": "",
+      "onyomi": [
+        "ハン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "813c28ba9e5c3806",
+          "japanese": "一般",
+          "reading": "いっぱん",
+          "vietnamese": "Thông thường, bình thường"
+        }
+      ]
+    },
+    {
+      "id": "a23591b5563e1cab",
+      "character": "段",
+      "hanViet": "ĐOẠN",
+      "meaning": "",
+      "onyomi": [
+        "ダン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "308db90a8835e351",
+          "japanese": "階段",
+          "reading": "かいだん",
+          "vietnamese": "Cầu thang"
+        },
+        {
+          "id": "7b0e63ea71a756fe",
+          "japanese": "値段",
+          "reading": "ねだん",
+          "vietnamese": "Giá cả"
+        },
+        {
+          "id": "e6203b279ece3eaf",
+          "japanese": "手段",
+          "reading": "しゅだん",
+          "vietnamese": "Phương pháp"
+        }
+      ]
+    },
+    {
+      "id": "91496d54febbd5cd",
+      "character": "直",
+      "hanViet": "TRỰC",
+      "meaning": "",
+      "onyomi": [
+        "チョク",
+        "ジキ"
+      ],
+      "kunyomi": [
+        "なお.す",
+        "なお.る"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "6a3690d6c35bd601",
+          "japanese": "直接",
+          "reading": "ちょくせつ",
+          "vietnamese": "Trực tiếp"
+        },
+        {
+          "id": "80a36bc0c35b3477",
+          "japanese": "直る",
+          "reading": "なおる",
+          "vietnamese": "Được sửa, được cải thiện"
+        },
+        {
+          "id": "9313b0878479ad7f",
+          "japanese": "直す",
+          "reading": "なおす",
+          "vietnamese": "Làm lại, sửa chữa"
+        }
+      ]
+    },
+    {
+      "id": "1b96712416363412",
+      "character": "値",
+      "hanViet": "TRỊ",
+      "meaning": "",
+      "onyomi": [
+        "チ"
+      ],
+      "kunyomi": [
+        "ね"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "375b6b9b8e9e01c5",
+          "japanese": "価値",
+          "reading": "かち",
+          "vietnamese": "Giá trị"
+        },
+        {
+          "id": "7b0e63ea71a756fe",
+          "japanese": "値段",
+          "reading": "ねだん",
+          "vietnamese": "Giá cả"
+        },
+        {
+          "id": "badf5a4beabd4547",
+          "japanese": "値上げ",
+          "reading": "ねあげ",
+          "vietnamese": "Tăng giá"
+        }
+      ]
+    },
+    {
+      "id": "a27093c49c55bfda",
+      "character": "置",
+      "hanViet": "TRÍ",
+      "meaning": "",
+      "onyomi": [
+        "チ"
+      ],
+      "kunyomi": [
+        "お.く"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0f142f518dbd8f02",
+          "japanese": "位置",
+          "reading": "いち",
+          "vietnamese": "Vị trí"
+        },
+        {
+          "id": "0f9501407ace82bf",
+          "japanese": "置く",
+          "reading": "おく",
+          "vietnamese": "Đặt, để"
+        },
+        {
+          "id": "34b13070867b7060",
+          "japanese": "設置",
+          "reading": "せっち",
+          "vietnamese": "Lắp đặt"
+        }
+      ]
+    }
+  ]
+}

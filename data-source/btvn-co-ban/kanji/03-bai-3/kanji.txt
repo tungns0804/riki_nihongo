@@ -1,0 +1,14 @@
+# BTVN CƠ BẢN (MỚI) — Kanji · Bài 3
+# Nguồn: thẻ kanji Bài 3 trên website Riki. Chỗ chuẩn hoá so với thẻ: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+徒,ĐỒ,,ト,,|徒歩 (とほ)=Đi bộ;生徒 (せいと)=Học sinh
+術,THUẬT,,ジュツ,,|技術 (ぎじゅつ)=Kĩ thuật;手術 (しゅじゅつ)=Phẫu thuật;美術 (びじゅつ)=Mỹ thuật
+得,ĐẮC,,トク,え.る,|得意 (とくい)=Giỏi;得る (える)=Lấy được, có được
+役,DỊCH,,ヤク,,|市役所 (しやくしょ)=Văn phòng hành chính;役に立つ (やくにたつ)=Hữu ích;役割 (やくわり)=Vai trò
+投,ĐẦU,,トウ,な.げる,|投資する (とうしする)=Đầu tư;投げる (なげる)=Ném
+般,BÀN,,ハン,,|一般 (いっぱん)=Thông thường, bình thường
+段,ĐOẠN,,ダン,,|階段 (かいだん)=Cầu thang;値段 (ねだん)=Giá cả;手段 (しゅだん)=Phương pháp
+# 直: thẻ ngăn hai âm bằng ／ (チョク／ジキ, なお・す／なお・る).
+直,TRỰC,,チョク・ジキ,なお.す・なお.る,|直接 (ちょくせつ)=Trực tiếp;直る (なおる)=Được sửa, được cải thiện;直す (なおす)=Làm lại, sửa chữa
+値,TRỊ,,チ,ね,|価値 (かち)=Giá trị;値段 (ねだん)=Giá cả;値上げ (ねあげ)=Tăng giá
+置,TRÍ,,チ,お.く,|位置 (いち)=Vị trí;置く (おく)=Đặt, để;設置 (せっち)=Lắp đặt

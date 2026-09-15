@@ -4,7 +4,7 @@
     "name": "BTVN CƠ BẢN (MỚI)",
     "level": "N3"
   },
-  "generatedAt": "2026-09-15T14:48:00.726Z",
+  "generatedAt": "2026-09-15T15:41:18.192Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -17,6 +17,38 @@
           "itemCount": 70,
           "order": 1,
           "file": "vocabulary/01-danh-tu.json"
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "units": [
+        {
+          "id": "01-bai-1",
+          "name": "Bài 1",
+          "description": "任 · 信 · 伸 · 付 · 代 · 件 · 位 · 倍 · 保 · 個",
+          "kind": "kanji",
+          "itemCount": 10,
+          "order": 1,
+          "file": "kanji/01-bai-1.json"
+        },
+        {
+          "id": "02-bai-2",
+          "name": "Bài 2",
+          "description": "仲 · 借 · 供 · 他 · 候 · 価 · 便 · 停 · 係 · 優",
+          "kind": "kanji",
+          "itemCount": 10,
+          "order": 2,
+          "file": "kanji/02-bai-2.json"
+        },
+        {
+          "id": "03-bai-3",
+          "name": "Bài 3",
+          "description": "徒 · 術 · 得 · 役 · 投 · 般 · 段 · 直 · 値 · 置",
+          "kind": "kanji",
+          "itemCount": 10,
+          "order": 3,
+          "file": "kanji/03-bai-3.json"
         }
       ]
     }

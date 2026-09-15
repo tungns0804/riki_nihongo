@@ -1,0 +1,15 @@
+# BTVN CƠ BẢN (MỚI) — Kanji · Bài 2
+# Nguồn: thẻ kanji Bài 2 trên website Riki. Chỗ chuẩn hoá so với thẻ: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+# 仲: thẻ ghi đảo hai dòng (音: なか, 訓: チュウ); ở đây đặt lại đúng cột.
+仲,TRỌNG,,チュウ,なか,|仲 (なか)=Quan hệ;仲間 (なかま)=Đồng đội;仲介 (ちゅうかい)=Môi giới
+借,TÁ,,シャク,か.りる,|借金 (しゃっきん)=Nợ nần;借りる (かりる)=Vay
+供,CUNG,,キョウ,とも,|子供 (こども)=Trẻ em;供給 (きょうきゅう)=Cung cầu;提供 (ていきょう)=Cung cấp
+# 他: thẻ ghi âm On bằng hiragana (た).
+他,THA,,タ,ほか,|他人 (たにん)=Người khác;他社 (たしゃ)=Công ty khác;他に (ほかに)=Ngoài ra
+候,HẬU,,コウ,,|気候 (きこう)=Khí hậu;候補 (こうほ)=Ứng cử
+価,GIÁ,,カ,,|価値 (かち)=Giá trị;評価 (ひょうか)=Đánh giá;価格 (かかく)=Giá cả
+便,TIỆN,,ベン・ビン,,|便利 (べんり)=Tiện lợi;不便 (ふべん)=Bất tiện;郵便局 (ゆうびんきょく)=Bưu điện
+停,ĐÌNH,,テイ,,|停電 (ていでん)=Cúp điện;停止 (ていし)=Tạm dừng
+係,HỆ,,ケイ,かか.り,|関係 (かんけい)=Quan hệ;係員 (かかりいん)=Người phụ trách
+優,ƯU,,ユウ,,|優勝 (ゆうしょう)=Chiến thắng;俳優 (はいゆう)=Diễn viên;優秀 (ゆうしゅう)=Ưu tú

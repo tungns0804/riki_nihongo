@@ -17,8 +17,8 @@
     </section>
 
     @if (loading()) {
-      <!-- Khung chờ đúng hình trang thật: khối thiết lập luyện tập, rồi danh sách từ. Dữ
-           liệu về thì điền vào đúng chỗ các khối xám, trang không bị đẩy xuống một nhịp. -->
+      <!-- Khung chờ đúng hình trang thật: khối thiết lập luyện tập, rồi bảng từ. Dữ liệu
+           về thì điền vào đúng chỗ các khối xám, trang không bị đẩy xuống một nhịp. -->
       <div class="detail-skeleton" role="status" [attr.aria-label]="t('common.loading')">
         <div class="skeleton sk-panel"></div>
         <div class="skeleton sk-block"></div>
@@ -37,7 +37,7 @@
     @if (unit(); as data) {
       @if (allWords().length > 0) {
         <!-- Tóm tắt đứng TRƯỚC khung luyện tập như trang Mimikara: biết bài học về gì
-             rồi mới chọn cụm để luyện. Bấm cụm ở đây là chọn cụm của khung luyện tập. -->
+             rồi mới chọn cụm để luyện. Cả dòng là nút chọn cụm. -->
         @if (overview().length > 0) {
           <section class="card" [attr.aria-label]="t('vocab.overview')">
             <div class="card-body stack stack-sm">
@@ -45,29 +45,20 @@
               <p class="hint">{{ t('vocab.overview.hint') }}</p>
               <ol class="overview-list">
                 @for (item of overview(); track item.label) {
-                  <li class="overview-item">
+                  <li>
                     <button
                       type="button"
-                      class="chip tnum overview-group"
+                      class="overview-row"
                       [class.is-active]="group() === item.label"
                       [attr.aria-pressed]="group() === item.label"
-                      (click)="toggleGroup(item.label)"
+                      (click)="selectGroup(item.label)"
                     >
-                      {{ item.label }}
+                      <span class="chip tnum overview-group" [class.is-active]="group() === item.label">
+                        {{ item.label }}
+                      </span>
+                      <span class="overview-title">{{ item.title }}</span>
+                      <span class="jp overview-words">{{ item.preview }}</span>
                     </button>
-                    <div class="overview-cell">
-                      @if (item.title) {
-                        <span class="overview-title">{{ item.title }}</span>
-                      }
-                      <ul class="overview-words">
-                        @for (word of item.words; track word.id) {
-                          <li>
-                            <span class="jp overview-jp">{{ word.japanese }}</span>
-                            <span class="muted">{{ firstMeaning(word) }}</span>
-                          </li>
-                        }
-                      </ul>
-                    </div>
                   </li>
                 }
               </ol>
@@ -77,6 +68,8 @@
 
         <app-practice-setup [unit]="data" [(group)]="group" />
 
+        <!-- Thanh dính: ô tìm, ô chọn cụm và số từ đang hiện. Đổi cụm được ở đây vì đây là
+             thứ duy nhất còn thấy khi đã cuộn xuống giữa bảng. -->
         <div class="toolbar">
           <div class="search">
             <span class="search-icon" aria-hidden="true">
@@ -106,64 +99,147 @@
             }
           </div>
 
+          <!-- Đang gõ tìm thì bảng là kết quả trên cả bài, nên ô chọn cụm tạm khoá lại cho
+               khỏi hiểu nhầm là đang tìm trong cụm. -->
+          @if (groups().length > 1) {
+            <div class="group-pager" role="group" [attr.aria-label]="t('vocab.group.pick')">
+              <button
+                type="button"
+                class="btn btn-sm pager-btn"
+                [disabled]="!prevGroup() || !!search()"
+                (click)="selectGroup(prevGroup())"
+                [title]="t('vocab.group.prev')"
+                [attr.aria-label]="t('vocab.group.prev')"
+              >
+                <span aria-hidden="true">‹</span>
+              </button>
+              <select
+                class="group-select tnum"
+                [attr.aria-label]="t('vocab.group.pick')"
+                [disabled]="!!search()"
+                (change)="onPickGroup($event)"
+              >
+                <option value="" [selected]="group() === null">{{ t('common.all') }}</option>
+                @for (option of groupOptions(); track option.label) {
+                  <option [value]="option.label" [selected]="group() === option.label">
+                    {{ option.text }}
+                  </option>
+                }
+              </select>
+              <button
+                type="button"
+                class="btn btn-sm pager-btn"
+                [disabled]="!nextGroup() || !!search()"
+                (click)="selectGroup(nextGroup())"
+                [title]="t('vocab.group.next')"
+                [attr.aria-label]="t('vocab.group.next')"
+              >
+                <span aria-hidden="true">›</span>
+              </button>
+            </div>
+          }
+
           <span class="badge">
-            {{ t('vocab.shown', { shown: words().length, total: allWords().length }) }}
+            @if (search()) {
+              {{ t('vocab.searchAll', { shown: words().length }) }}
+            } @else {
+              {{ t('vocab.shown', { shown: words().length, total: allWords().length }) }}
+            }
           </span>
         </div>
 
-        @for (section of sections(); track section.label) {
-          @if (section.label) {
-            <h2 class="group-head">
-              {{ t('vocab.group', { name: section.label }) }}
-              <span class="badge">{{ t('unit.itemCount', { count: section.words.length }) }}</span>
-            </h2>
-          }
+        @if (noMatch()) {
+          <p class="muted">{{ t('vocab.noMatch', { term: search() }) }}</p>
+        } @else {
+          <div class="scroll-x list-anchor" #listTop>
+            <table class="word-table">
+              <thead>
+                <tr>
+                  <th class="col-num"><span class="sr-only">{{ t('vocab.col.number') }}</span>#</th>
+                  @if (hasHanViet()) {
+                    <th class="col-han">{{ t('vocab.col.hanViet') }}</th>
+                  }
+                  <th class="col-jp">{{ t('vocab.col.japanese') }}</th>
+                  @if (hasReadings()) {
+                    <th class="col-reading">{{ t('vocab.col.reading') }}</th>
+                  }
+                  <th class="col-meaning">{{ t('vocab.col.meaning') }}</th>
+                  <th class="col-example">{{ t('vocab.col.example') }}</th>
+                </tr>
+              </thead>
 
-          <ol class="word-list">
-            @for (word of section.words; track word.id) {
-              <li class="card word-card">
-                <div class="word-head">
-                  @if (word.number > 0) {
-                    <span class="word-number tnum">{{ word.number }}</span>
-                  }
-                  <!-- prettier-ignore -->
-                  <span class="jp word-jp">@if (word.particle) {<span class="word-particle">({{ word.particle }})</span>}{{ word.japanese }}</span>
-                  @if (word.reading) {
-                    <span class="jp word-reading">{{ word.reading }}</span>
-                  }
-                  @if (word.hanViet) {
-                    <span class="badge word-han">{{ word.hanViet }}</span>
-                  }
-                  <span class="word-meaning">{{ word.vietnamese }}</span>
-                </div>
-
-                @if (word.examples.length > 0 || word.notes.length > 0) {
-                  <div class="word-body">
-                    @for (example of word.examples; track example.id) {
-                      <p class="example">
-                        <!-- Viết dồn một dòng là CỐ Ý: xuống dòng giữa các mảnh thì thành dấu
-                             cách lọt vào giữa câu tiếng Nhật (xem practice.html). -->
-                        <!-- prettier-ignore -->
-                        <span class="jp">@for (part of parts(example); track $index) {@if (part.hit) {<mark>{{ part.text }}</mark>} @else {<span>{{ part.text }}</span>}}</span>
-                        @if (example.vietnamese) {
-                          <span class="muted small example-vi">{{ example.vietnamese }}</span>
+              <!-- Một <tbody> mỗi cụm: hàng tiêu đề cụm thuộc về đúng nhóm hàng của nó, và cả
+                   bảng vẫn chung một hàng tiêu đề cột nên các cột thẳng hàng qua mọi cụm. -->
+              @for (section of sections(); track section.label) {
+                <tbody>
+                  @if (section.label) {
+                    <tr class="group-row">
+                      <th [attr.colspan]="columnCount()" scope="rowgroup">
+                        {{ t('vocab.group', { name: section.label }) }}
+                        @if (section.title) {
+                          <span class="group-title">· {{ section.title }}</span>
                         }
-                      </p>
-                    }
+                        <span class="badge">{{ t('unit.itemCount', { count: section.words.length }) }}</span>
+                      </th>
+                    </tr>
+                  }
 
-                    @for (note of word.notes; track $index) {
-                      <p class="note">
-                        <span class="jp note-label">{{ note.label }}</span>
-                        <span class="jp note-text">{{ note.text }}</span>
-                      </p>
-                    }
-                  </div>
-                }
-              </li>
+                  @for (word of section.words; track word.id) {
+                    <tr>
+                      <td class="col-num">
+                        @if (word.number > 0) {
+                          <span class="word-number tnum">{{ word.number }}</span>
+                        }
+                      </td>
+                      @if (hasHanViet()) {
+                        <td class="col-han">{{ word.hanViet }}</td>
+                      }
+                      <!-- prettier-ignore -->
+                      <td class="col-jp jp">@if (word.particle) {<span class="word-particle">({{ word.particle }})</span>}{{ word.japanese }}</td>
+                      @if (hasReadings()) {
+                        <td class="col-reading jp">{{ word.reading }}</td>
+                      }
+                      <td class="col-meaning">{{ word.vietnamese }}</td>
+                      <td class="col-example">
+                        @for (example of word.examples; track example.id) {
+                          <p class="example">
+                            <!-- Viết dồn một dòng là CỐ Ý: xuống dòng giữa các mảnh thì thành dấu
+                                 cách lọt vào giữa câu tiếng Nhật (xem practice.html). -->
+                            <!-- prettier-ignore -->
+                            <span class="jp">@for (part of parts(example); track $index) {@if (part.hit) {<mark>{{ part.text }}</mark>} @else {<span>{{ part.text }}</span>}}</span>
+                            @if (example.vietnamese) {
+                              <span class="muted small example-vi">{{ example.vietnamese }}</span>
+                            }
+                          </p>
+                        }
+
+                        @for (note of word.notes; track $index) {
+                          <p class="note">
+                            <span class="jp note-label">{{ note.label }}</span>
+                            <span class="jp note-text">{{ note.text }}</span>
+                          </p>
+                        }
+                      </td>
+                    </tr>
+                  }
+                </tbody>
+              }
+            </table>
+          </div>
+
+          <!-- Học hết một cụm ở cuối bảng thì bước tiếp theo là cụm sau — đưa nút tới đúng chỗ
+               mắt đang nhìn, khỏi phải cuộn ngược lên thanh chọn cụm. -->
+          @if (nextGroup(); as next) {
+            @if (!search()) {
+              <div class="list-foot">
+                <button type="button" class="btn" (click)="selectGroup(next, true)">
+                  {{ t('vocab.group.continue', { name: next }) }}
+                  <span aria-hidden="true">→</span>
+                </button>
+              </div>
             }
-          </ol>
+          }
         }
-
       } @else if (!loading()) {
         <div class="empty-state">
           <span class="empty-state-icon" aria-hidden="true">📄</span>

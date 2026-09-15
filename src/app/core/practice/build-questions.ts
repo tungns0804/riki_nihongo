@@ -285,6 +285,18 @@ function readingsOf(entry: KanjiEntry): string[] {
   return [...entry.onyomi, ...entry.kunyomi].filter((value) => value.length > 0);
 }
 
+/**
+ * Phần "tiếng Việt" của một chữ ở hai chiều Nhật ↔ Việt: nghĩa, hoặc âm Hán Việt khi
+ * nguồn không ghi nghĩa.
+ *
+ * Thẻ kanji của BTVN chỉ có âm Hán Việt (任 = NHIỆM) chứ không có nghĩa riêng của chữ.
+ * Chỉ nhận `meaning` thì hai chiều đó vẫn hiện trong khung thiết lập mà bấm vào ra 0 câu.
+ * Với người Việt, nhớ 任 là NHIỆM cũng chính là nhớ nghĩa của chữ.
+ */
+function meaningOf(entry: KanjiEntry): string {
+  return entry.meaning || entry.hanViet;
+}
+
 function fromKanji(
   entries: readonly KanjiEntry[],
   direction: PracticeDirection,
@@ -292,25 +304,27 @@ function fromKanji(
 ): PracticeQuestion[] {
   const usable = entries.filter((entry) => {
     if (direction === 'jp-reading') return readingsOf(entry).length > 0;
-    return entry.meaning.length > 0;
+    return meaningOf(entry).length > 0;
   });
 
   const pool = usable.map((entry) =>
-    direction === 'jp-reading' ? readingsOf(entry)[0] : entry.meaning,
+    direction === 'jp-reading' ? readingsOf(entry)[0] : meaningOf(entry),
   );
 
   return usable.map((entry) => {
     const readings = readingsOf(entry);
     const isReadingQuestion = direction === 'jp-reading';
     const askForCharacter = direction === 'vi-jp';
-    const correct = isReadingQuestion ? readings[0] : askForCharacter ? entry.character : entry.meaning;
+    const correct = isReadingQuestion ? readings[0] : askForCharacter ? entry.character : meaningOf(entry);
+    // Đáp án đã là âm Hán Việt thì không được đưa chính nó ra làm gợi ý.
+    const hanVietIsAnswer = !entry.meaning && !isReadingQuestion;
 
     return {
       id: `${entry.id}:${direction}`,
       skill: 'kanji' as SkillId,
-      prompt: askForCharacter ? entry.meaning : entry.character,
+      prompt: askForCharacter ? meaningOf(entry) : entry.character,
       promptIsJapanese: !askForCharacter,
-      hint: askForCharacter ? '' : entry.hanViet,
+      hint: askForCharacter || hanVietIsAnswer ? '' : entry.hanViet,
       answer: correct,
       answerIsJapanese: isReadingQuestion || askForCharacter,
       // Chữ có nhiều âm On/Kun thì gõ đúng MỘT âm là đủ.
@@ -429,7 +443,9 @@ export function directionIsUsable(unit: Unit, direction: PracticeDirection): boo
     );
   }
 
-  if (direction !== 'jp-reading') return true;
+  if (direction !== 'jp-reading') {
+    return unit.kind !== 'kanji' || unit.kanji.some((entry) => meaningOf(entry).length > 0);
+  }
   if (unit.kind === 'vocabulary') return unit.words.some((word) => word.reading.length > 0);
   if (unit.kind === 'kanji') return unit.kanji.some((entry) => readingsOf(entry).length > 0);
   // Ngữ pháp không có "cách đọc" để hỏi riêng.

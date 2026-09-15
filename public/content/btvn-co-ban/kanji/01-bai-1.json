@@ -1,0 +1,316 @@
+{
+  "id": "01-bai-1",
+  "name": "Bài 1",
+  "description": "任 · 信 · 伸 · 付 · 代 · 件 · 位 · 倍 · 保 · 個",
+  "kind": "kanji",
+  "kanji": [
+    {
+      "id": "8eb02232a641d35e",
+      "character": "任",
+      "hanViet": "NHIỆM",
+      "meaning": "",
+      "onyomi": [
+        "ニン"
+      ],
+      "kunyomi": [
+        "まか.せる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "8a24adac85e20650",
+          "japanese": "任せる",
+          "reading": "まかせる",
+          "vietnamese": "Giao phó"
+        },
+        {
+          "id": "408a8c1cade6546d",
+          "japanese": "担任",
+          "reading": "たんにん",
+          "vietnamese": "Phụ trách"
+        },
+        {
+          "id": "92c3c67648b35894",
+          "japanese": "責任",
+          "reading": "せきにん",
+          "vietnamese": "Trách nhiệm"
+        }
+      ]
+    },
+    {
+      "id": "ab0226a06ad601e5",
+      "character": "信",
+      "hanViet": "TÍN",
+      "meaning": "",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "4d2d10caf8aa303a",
+          "japanese": "信じる",
+          "reading": "しんじる",
+          "vietnamese": "Tin tưởng"
+        },
+        {
+          "id": "447ab9e24ec444e1",
+          "japanese": "通信",
+          "reading": "つうしん",
+          "vietnamese": "Truyền thông, truyền tin"
+        },
+        {
+          "id": "16c9ec7eb78bb667",
+          "japanese": "信号",
+          "reading": "しんごう",
+          "vietnamese": "Tín hiệu"
+        }
+      ]
+    },
+    {
+      "id": "b82270f93d3ee84e",
+      "character": "伸",
+      "hanViet": "THÂN",
+      "meaning": "",
+      "onyomi": [],
+      "kunyomi": [
+        "の.びる",
+        "の.ばす"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "ae39c94d9965f3f2",
+          "japanese": "髪が伸びる",
+          "reading": "かみがのびる",
+          "vietnamese": "Tóc dài ra"
+        },
+        {
+          "id": "6ad7fab33e283edb",
+          "japanese": "足を伸ばす",
+          "reading": "あしをのばす",
+          "vietnamese": "Duỗi chân"
+        }
+      ]
+    },
+    {
+      "id": "c8600e0f832bc572",
+      "character": "付",
+      "hanViet": "PHÓ",
+      "meaning": "",
+      "onyomi": [
+        "フ"
+      ],
+      "kunyomi": [
+        "つ.ける"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "90ea06d704e7694b",
+          "japanese": "付近",
+          "reading": "ふきん",
+          "vietnamese": "Ngay gần, liền kề"
+        },
+        {
+          "id": "c1a8d3f5655789ad",
+          "japanese": "付ける",
+          "reading": "つける",
+          "vietnamese": "Gắn vào, mặc vào"
+        },
+        {
+          "id": "4df74189cd446330",
+          "japanese": "付く",
+          "reading": "つく",
+          "vietnamese": "Dính vào"
+        }
+      ]
+    },
+    {
+      "id": "6d83cc9c3a4a17e3",
+      "character": "代",
+      "hanViet": "ĐẠI",
+      "meaning": "",
+      "onyomi": [
+        "ダイ"
+      ],
+      "kunyomi": [
+        "か.わる",
+        "か.える"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d13ecec0eb930d8f",
+          "japanese": "代表",
+          "reading": "だいひょう",
+          "vietnamese": "Đại diện"
+        },
+        {
+          "id": "f0429e684826899e",
+          "japanese": "代わる",
+          "reading": "かわる",
+          "vietnamese": "Thay thế"
+        },
+        {
+          "id": "66088145ff32d051",
+          "japanese": "代える",
+          "reading": "かえる",
+          "vietnamese": "Đổi, thế chỗ"
+        }
+      ]
+    },
+    {
+      "id": "34d2036f6c57774f",
+      "character": "件",
+      "hanViet": "KIỆN",
+      "meaning": "",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "600758ef2efa86f1",
+          "japanese": "事件",
+          "reading": "じけん",
+          "vietnamese": "Sự việc, vụ án"
+        },
+        {
+          "id": "4ed7ce2e9f657117",
+          "japanese": "条件",
+          "reading": "じょうけん",
+          "vietnamese": "Điều kiện"
+        },
+        {
+          "id": "14f0821d3834f881",
+          "japanese": "用件",
+          "reading": "ようけん",
+          "vietnamese": "Công việc"
+        }
+      ]
+    },
+    {
+      "id": "36c07e1c66853416",
+      "character": "位",
+      "hanViet": "VỊ",
+      "meaning": "",
+      "onyomi": [
+        "イ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0f142f518dbd8f02",
+          "japanese": "位置",
+          "reading": "いち",
+          "vietnamese": "Vị trí"
+        },
+        {
+          "id": "78d8b184266a5bcf",
+          "japanese": "単位",
+          "reading": "たんい",
+          "vietnamese": "Đơn vị"
+        },
+        {
+          "id": "51c0d75b3b3daf02",
+          "japanese": "地位",
+          "reading": "ちい",
+          "vietnamese": "Địa vị"
+        }
+      ]
+    },
+    {
+      "id": "10b35e0138aa5fbf",
+      "character": "倍",
+      "hanViet": "BỘI",
+      "meaning": "",
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "04ae4da999dbee46",
+          "japanese": "何倍",
+          "reading": "なんばい",
+          "vietnamese": "Gấp bao nhiêu lần"
+        },
+        {
+          "id": "55302a62237f0672",
+          "japanese": "倍返し",
+          "reading": "ばいがえし",
+          "vietnamese": "Trả gấp bội"
+        }
+      ]
+    },
+    {
+      "id": "3e66e6f0fa956aec",
+      "character": "保",
+      "hanViet": "BẢO",
+      "meaning": "",
+      "onyomi": [
+        "ホ"
+      ],
+      "kunyomi": [
+        "たも.つ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "5076616575588306",
+          "japanese": "保存",
+          "reading": "ほぞん",
+          "vietnamese": "Lưu, bảo quản"
+        },
+        {
+          "id": "fb7ab84f581968f3",
+          "japanese": "保険",
+          "reading": "ほけん",
+          "vietnamese": "Bảo hiểm"
+        },
+        {
+          "id": "c397966ab7514758",
+          "japanese": "保つ",
+          "reading": "たもつ",
+          "vietnamese": "Giữ, duy trì"
+        }
+      ]
+    },
+    {
+      "id": "cd86915548f25c77",
+      "character": "個",
+      "hanViet": "CÁ",
+      "meaning": "",
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "2d31e4f46d191496",
+          "japanese": "個性",
+          "reading": "こせい",
+          "vietnamese": "Cá tính"
+        },
+        {
+          "id": "e169d869d5e90783",
+          "japanese": "個人",
+          "reading": "こじん",
+          "vietnamese": "Cá nhân"
+        },
+        {
+          "id": "3bcbf64edf2d0529",
+          "japanese": "一個",
+          "reading": "いっこ",
+          "vietnamese": "Một cái"
+        }
+      ]
+    }
+  ]
+}

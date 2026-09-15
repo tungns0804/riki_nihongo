@@ -15,9 +15,12 @@ dung:
 | Nghe hiểu                     | `/n3-junbi/listening`   | Trình phát + câu hỏi + lời thoại ẩn                     |
 | Ngữ pháp MIMIKARA OBOERU      | `/n3-junbi/mimikara`    | Như phần Ngữ pháp, theo giáo trình 耳から覚える          |
 
-**BTVN CƠ BẢN (MỚI)** (`/btvn-co-ban`) — bài tập về nhà. Hiện có phần Từ vựng
-(`/btvn-co-ban/vocabulary`): bài "Danh từ" 01–70, chép theo thẻ từ vựng của các bài tập
-"Từ vựng 1-10" tới "61-70", mỗi bài tập một cụm.
+**BTVN CƠ BẢN (MỚI)** (`/btvn-co-ban`) — bài tập về nhà, hai phần:
+
+- Từ vựng (`/btvn-co-ban/vocabulary`): bài "Danh từ" 01–70, chép theo thẻ từ vựng của các
+  bài tập "Từ vựng 1-10" tới "61-70", mỗi bài tập một cụm.
+- Kanji (`/btvn-co-ban/kanji`): Bài 1–3, mỗi bài 10 chữ, chép theo thẻ kanji của Riki
+  ([cách chép](data-source/btvn-co-ban/kanji/README.md)).
 
 Địa chỉ cũ chưa có tên học phần (`/vocabulary/01-danh-tu`) tự chuyển sang N3 JUNBI.
 
@@ -107,6 +110,11 @@ chừng thì về lại trang bài để bắt đầu lại.
 
 Chọn một cụm (01–10, 11–20…) thì cả danh sách lẫn phần luyện tập chỉ còn cụm đó, và
 ba đáp án nhiễu cũng lấy trong cụm.
+
+Trang một bài từ vựng là một **bảng gọn** như bảng từ của minano_nihongo — mỗi từ một hàng:
+số, Hán Việt, từ, cách đọc, nghĩa, ví dụ — và mặc định chỉ hiện **một cụm**, nhớ cụm đang
+xem cho lần mở sau. Thanh dính trên bảng có ô tìm (tìm trong cả bài), ô chọn cụm ‹ ▾ ›, và
+cuối bảng có nút "Học tiếp cụm sau". Dưới 720px mỗi hàng đổi thành một thẻ.
 
 ## Giao diện
 

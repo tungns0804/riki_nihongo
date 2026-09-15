@@ -8,9 +8,9 @@
 }
 
 /* --- Tóm tắt bài ----------------------------------------------------------
-   Cùng bố cục bảng "Tóm tắt ngữ pháp" của Mimikara (grammar-detail.css): mỗi cụm một
-   hàng, cột trái là nút cụm, cột phải là chủ đề rồi các từ với nghĩa đầu tiên. Liếc
-   một lần là biết bài học về gì. */
+   Mỗi cụm MỘT dòng: nút cụm, chủ đề, rồi các mặt chữ cắt bằng dấu … khi dài. Trước đây
+   mỗi cụm là một khối lưới từ–nghĩa cao ba bốn dòng, bảy cụm đã chiếm nửa màn hình mà
+   bảng từ bên dưới lại ghi y nguyên những nghĩa đó. */
 
 .overview-list {
   display: flex;
@@ -20,120 +20,271 @@
   list-style: none;
 }
 
-.overview-item {
-  display: grid;
-  /* 7rem: vừa nhãn dài nhất "101–110" trong nút viên thuốc, cột phải thẳng hàng. */
-  grid-template-columns: 7rem minmax(0, 1fr);
-  gap: var(--sp-2) var(--sp-5);
-  align-items: start;
-  padding-block: var(--sp-3);
+.overview-list > li + li {
   border-top: 1px solid var(--border);
 }
 
-.overview-item:first-child {
-  border-top: none;
+/* Cả dòng là một nút: vùng bấm rộng, và bàn phím Tab qua từng cụm như một danh sách. */
+.overview-row {
+  display: grid;
+  /* 7rem: vừa nhãn dài nhất "101–110" trong viên thuốc, cột chủ đề thẳng hàng. */
+  grid-template-columns: 7rem auto minmax(0, 1fr);
+  align-items: center;
+  gap: var(--sp-2) var(--sp-4);
+  width: 100%;
+  padding: var(--sp-2);
+  border: 0;
+  border-radius: var(--radius);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.overview-row:hover {
+  background: var(--bg-subtle);
+}
+
+.overview-row.is-active {
+  background: var(--accent-soft);
 }
 
 .overview-group {
   justify-self: start;
 }
 
-.overview-cell {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-2);
-  min-width: 0;
-}
-
 .overview-title {
   font-weight: 650;
 }
 
-/* Từ xếp lưới chứ không nối thành một dòng dài: tám cặp từ–nghĩa nối liền thì không
-   thấy nghĩa nào đi với từ nào. */
 .overview-words {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
-  gap: 2px var(--sp-4);
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-size: var(--fs-sm);
-}
-
-.overview-jp {
-  margin-right: var(--sp-1);
-  font-weight: 650;
-}
-
-/* Hẹp thì nút cụm nằm trên, chủ đề và các từ xuống dưới. */
-@media (max-width: 640px) {
-  .overview-item {
-    grid-template-columns: minmax(0, 1fr);
-  }
-}
-
-/* --- Danh sách từ ---------------------------------------------------------
-   Bố cục đi theo bản PDF của giáo trình: cột trái là từ, cột phải là ví dụ và
-   các dòng ghi chú, ngăn nhau bằng một vạch dọc.
-
-   Dùng grid hai cột chứ không phải flex: cột trái phải rộng BẰNG NHAU ở mọi thẻ
-   thì mắt mới quét dọc được cả danh sách 40 từ; flex thì mỗi thẻ một bề rộng
-   theo độ dài của chính từ đó. */
-
-.word-list {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-3);
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.word-card {
-  display: grid;
-  grid-template-columns: minmax(200px, 260px) 1fr;
-  gap: var(--sp-5);
-  padding: var(--sp-4) var(--sp-5);
-  animation: rise-in 0.24s var(--ease) backwards;
-}
-
-/* Thẻ chỉ có từ, chưa có ví dụ: cột phải không tồn tại nên cột trái chiếm hết. */
-.word-card:not(:has(.word-body)) {
-  grid-template-columns: 1fr;
-}
-
-.word-head {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
-}
-
-/* Số thứ tự trong giáo trình, dạng huy hiệu như bản in. */
-.word-number {
-  padding: 1px 8px;
-  border-radius: var(--radius-pill);
-  background: var(--accent);
-  color: var(--accent-text);
-  font-size: var(--fs-2xs);
-  font-weight: 700;
-}
-
-.word-jp {
-  font-size: var(--fs-xl);
-  font-weight: 650;
-  line-height: 1.3;
-}
-
-/* Cách đọc đứng TRÊN mặt chữ trong sách; ở đây để ngay dưới và nhỏ hơn một bậc —
-   furigana thật sự thì cần <ruby>, mà dữ liệu chỉ có cách đọc của cả từ. */
-.word-reading {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-size: var(--fs-sm);
   color: var(--text-muted);
 }
 
-.word-meaning {
+/* Hẹp thì các mặt chữ xuống dòng riêng dưới nút cụm và chủ đề. */
+@media (max-width: 640px) {
+  .overview-row {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .overview-words {
+    grid-column: 1 / -1;
+  }
+}
+
+/* --- Thanh dính ------------------------------------------------------------
+   Ô tìm, ô chọn cụm, số từ đang hiện. Dính dưới header: đang ở giữa bảng vẫn tìm hoặc
+   đổi cụm được mà không phải cuộn ngược lên. */
+
+.toolbar {
+  position: sticky;
+  top: calc(var(--header-h) + var(--sp-2));
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  padding-block: var(--sp-2);
+  background: var(--bg);
+}
+
+.toolbar .search {
+  flex: 1 1 260px;
+}
+
+.group-pager {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.pager-btn {
+  min-width: 2.25rem;
+  padding-inline: 0;
+  justify-content: center;
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.group-select {
+  min-width: 0;
+  max-width: 24rem;
+  height: 2.25rem;
+  padding: 0 var(--sp-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font: inherit;
+  font-size: var(--fs-sm);
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.group-select:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+@media (max-width: 640px) {
+  /* Màn hình hẹp: thanh dính chiếm quá nhiều chỗ so với phần nội dung còn lại. */
+  .toolbar {
+    position: static;
+  }
+
+  .group-pager {
+    flex: 1 1 100%;
+  }
+
+  .group-select {
+    flex: 1;
+    max-width: none;
+  }
+}
+
+/* --- Bảng từ ---------------------------------------------------------------
+   Kiểu bảng lấy từ `.word-table` của minano_nihongo: table-layout: fixed để cột không
+   nhảy bề rộng theo từng cụm, kẻ sọc để mắt không lạc dòng, hàng tiêu đề cột nhỏ và nhạt.
+
+   Bề rộng cột viết theo %, cột Ví dụ nhận phần còn lại: câu ví dụ là thứ dài nhất và
+   dài ngắn nhất, các cột kia gần như cố định. Bài không có Hán Việt / cách đọc thì cột
+   đó không có mặt và phần của nó dồn sang cột Ví dụ. */
+
+/* Cuộn về đây thì chừa chỗ cho header và thanh dính, không để hàng đầu bị che. */
+.list-anchor {
+  scroll-margin-top: calc(var(--header-h) + 5rem);
+}
+
+.word-table {
+  width: 100%;
+  /* Dưới mức này sáu cột bắt đầu bóp câu ví dụ còn vài chữ một dòng; `.scroll-x` cho
+     cuộn ngang, còn dưới 720px thì bảng đổi hẳn thành thẻ (xem cuối file). */
+  min-width: 46rem;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 0.94rem;
+}
+
+.word-table th {
+  padding: 9px 12px;
+  background: var(--bg-subtle);
+  border-bottom: 1px solid var(--border-strong);
+  text-align: left;
+  font-size: var(--fs-xs);
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.word-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.word-table tbody tr:nth-child(even):not(.group-row) {
+  background: color-mix(in srgb, var(--bg-subtle) 45%, transparent);
+}
+
+@media (hover: hover) {
+  .word-table tbody tr:not(.group-row):hover {
+    background: var(--bg-subtle);
+  }
+}
+
+/* Bề rộng chỉ đặt trên Ô TIÊU ĐỀ: table-layout: fixed lấy bề rộng cột từ hàng đầu, còn
+   đặt lên cả <td> thì dưới 720px (bảng thành thẻ, xem cuối file) các ô vẫn giữ 13%, 16%…
+   của bề ngang thẻ và chữ bị bóp thành từng mẩu. */
+.word-table th.col-num {
+  width: 4rem;
+}
+
+.word-table th.col-han {
+  width: 13%;
+}
+
+.word-table th.col-jp {
+  width: 16%;
+}
+
+.word-table th.col-reading {
+  width: 15%;
+}
+
+.word-table th.col-meaning {
+  width: 20%;
+}
+
+.word-table .col-num {
+  text-align: center;
+}
+
+/* Hàng tiêu đề cụm: cùng màu nhấn với vạch chia cụm trước đây, không nền xám như hàng
+   tiêu đề cột để hai loại hàng không lẫn nhau. */
+.word-table .group-row th {
+  padding: var(--sp-4) 12px 6px;
+  background: var(--bg);
+  border-bottom: 2px solid var(--accent-soft);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--accent);
+}
+
+.group-title {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.group-row .badge {
+  margin-left: var(--sp-2);
+  vertical-align: middle;
+}
+
+/* Số thứ tự trong giáo trình, dạng huy hiệu như bản in. */
+.word-number {
+  display: inline-block;
+  min-width: 1.9rem;
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: var(--fs-2xs);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Âm Hán Việt: chữ nhỏ, viết hoa, màu nhấn — đọc lướt là thấy ngay, mà không tranh chỗ
+   với mặt chữ Nhật. */
+td.col-han {
+  font-size: var(--fs-xs);
+  font-weight: 650;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+td.col-jp {
+  font-size: 1.12rem;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+/* Cùng kiểu chữ với cột tiếng Nhật nhưng nhạt hơn — thông tin phụ trợ, không nên hút mắt
+   hơn chính từ đang học. */
+td.col-reading {
+  color: var(--text-muted);
+}
+
+td.col-meaning {
   font-weight: 600;
 }
 
@@ -141,9 +292,20 @@
    tự hay tha động từ, nhưng thứ phải nhớ vẫn là chính từ. */
 .word-particle {
   margin-right: 2px;
-  font-size: var(--fs-md);
+  font-size: 0.85em;
   font-weight: 500;
   color: var(--text-muted);
+}
+
+.example,
+.note {
+  margin: 0;
+}
+
+.example + .example,
+.example + .note,
+.note + .note {
+  margin-top: 4px;
 }
 
 /* Dạng của từ trong câu, tô như chữ đỏ gạch chân của sách. Cùng kiểu với khối câu ví
@@ -154,26 +316,6 @@
   background: var(--accent-soft);
   color: var(--accent);
   font-weight: 700;
-}
-
-.word-han {
-  font-size: var(--fs-2xs);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-/* Vạch dọc ngăn hai cột, đúng như bản in. */
-.word-body {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-2);
-  padding-left: var(--sp-4);
-  border-left: 2px solid var(--border-strong);
-  min-width: 0;
-}
-
-.example {
-  font-size: var(--fs-md);
 }
 
 /* Bản dịch xuống dòng riêng: câu Nhật và câu Việt trộn chung một dòng thì không
@@ -201,83 +343,104 @@
   color: var(--text-muted);
 }
 
+.list-foot {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: calc(-1 * var(--sp-3));
+}
+
+/* --- Dưới 720px: mỗi hàng thành một thẻ ------------------------------------
+   Như bảng từ của minano trên điện thoại: sáu cột không vừa, mà cuộn ngang một bảng từ
+   thì không đọc được. Số thứ tự ở cột trái, mặt chữ – cách đọc – nghĩa xếp dọc bên phải,
+   câu ví dụ trải hết bề ngang bên dưới. */
 @media (max-width: 720px) {
-  /* Màn hình hẹp: hai cột xếp thành hai hàng, vạch dọc đổi thành vạch ngang. */
-  .word-card {
-    grid-template-columns: 1fr;
-    gap: var(--sp-3);
+  .scroll-x {
+    overflow-x: visible;
   }
 
-  .word-head {
-    flex-direction: row;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: var(--sp-2);
+  .word-table {
+    display: block;
+    min-width: 0;
+    font-size: 1rem;
   }
 
-  .word-body {
-    padding-left: 0;
-    padding-top: var(--sp-3);
-    border-left: none;
-    border-top: 2px solid var(--border-strong);
+  /* Ẩn hàng tiêu đề cột: mỗi ô trong thẻ đã tự nhận ra được nhờ cỡ chữ và màu. */
+  .word-table thead {
+    display: none;
   }
-}
 
-/* Thanh tìm từ: ô nhập bên trái, số từ đang hiện bên phải. Dính lại dưới header
-   vì danh sách dài tới 120 thẻ — gõ tìm rồi cuộn xuống vẫn thấy ô nhập để sửa. */
-.toolbar {
-  position: sticky;
-  top: calc(var(--header-h) + var(--sp-2));
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  gap: var(--sp-3);
-  flex-wrap: wrap;
-  padding-block: var(--sp-2);
-  background: var(--bg);
-}
-
-.toolbar .search {
-  flex: 1 1 260px;
-}
-
-@media (max-width: 640px) {
-  /* Màn hình hẹp: thanh dính chiếm quá nhiều chỗ so với phần nội dung còn lại. */
-  .toolbar {
-    position: static;
+  .word-table tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
-}
 
-/* Tiêu đề ngăn giữa hai cụm. Nhỏ hơn h2 mặc định vì đây là vạch chia trong một
-   danh sách dài, không phải một mục ngang hàng với "Danh từ" ở đầu trang. */
-.group-head {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-2);
-  margin-top: var(--sp-4);
-  padding-bottom: 6px;
-  border-bottom: 2px solid var(--accent-soft);
-  font-size: var(--fs-md);
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: var(--accent);
-}
+  .word-table tbody + tbody {
+    margin-top: var(--sp-3);
+  }
 
-/* Hàng chip nằm ngay dưới ô tìm, cùng khối dính với nó. */
-.chips {
-  padding-bottom: var(--sp-2);
-}
+  .word-table tr {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 1px 12px;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg-elevated);
+  }
 
-/* Âm Hán Việt: chữ nhỏ, viết hoa, màu nhấn — đọc lướt là thấy ngay, mà không
-   tranh chỗ với mặt chữ Nhật ở trên. */
-.word-han {
-  background: var(--accent-soft);
-  color: var(--accent);
-}
+  .word-table tbody tr:nth-child(even):not(.group-row) {
+    background: var(--bg-elevated);
+  }
 
-/* Nhãn "CỤM TỪ" đứng cùng hàng với dãy chip. */
-.chips-label {
-  align-self: center;
-  margin-right: 2px;
+  .word-table tr.group-row {
+    display: block;
+    padding: 0;
+    border: 0;
+    background: none;
+  }
+
+  .word-table .group-row th {
+    display: block;
+    padding-inline: 0;
+  }
+
+  .word-table td {
+    display: block;
+    grid-column: 2;
+    width: auto;
+    padding: 0;
+    border: 0;
+  }
+
+  /* Từ không có cách đọc hoặc không có ví dụ thì bỏ hẳn dòng trống đó. */
+  .word-table td:empty {
+    display: none;
+  }
+
+  .word-table td.col-num {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    text-align: left;
+  }
+
+  .word-table td.col-jp {
+    font-size: 1.3rem;
+  }
+
+  .word-table td.col-example {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+    padding-left: 10px;
+    border-left: 2px solid var(--border-strong);
+  }
+
+  .list-foot {
+    margin-top: 0;
+  }
+
+  .list-foot .btn {
+    width: 100%;
+    justify-content: center;
+  }
 }

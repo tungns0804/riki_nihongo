@@ -10,9 +10,11 @@ data-source/
 │   │   └── 01-danh-tu/           một bài
 │   ├── kanji/ grammar/ …
 │   └── mimikara/
-└── btvn-co-ban/                  BTVN CƠ BẢN (MỚI) — hiện chỉ có Từ vựng
-    └── vocabulary/
-        └── 01-danh-tu/
+└── btvn-co-ban/                  BTVN CƠ BẢN (MỚI) — Từ vựng và Kanji
+    ├── vocabulary/
+    │   └── 01-danh-tu/
+    └── kanji/
+        └── 01-bai-1/ 02-bai-2/ …
 ```
 
 Tên thư mục học phần là `id` trong `COURSES` (`src/app/core/course/course.config.ts`),
