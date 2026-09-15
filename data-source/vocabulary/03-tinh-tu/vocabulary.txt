@@ -118,9 +118,9 @@
 連: 正直に話す／言う = Nói thật (正直に話しなさい ≒ 言いなさい)
 連: 正直(に)言うと — lược に cũng được
 
-# Chưa có PDF riêng cho 274–280 (có lẽ là bài 14.3): cụm là phần còn lại của 第14課 in
-# trong hai bản PDF trên. Có PDF thì thêm số bài vào chủ đề như hai cụm trên.
-## 274–280 = Tính cách, sự hài lòng và nỗi lo
+# Bài 14.3 (xác nhận 2026-09-15, chưa có PDF bai-143 riêng): cụm là phần còn lại của
+# 第14課 in trong hai bản PDF trên.
+## 274–280 = Bài 14.3 · Tính cách, sự hài lòng và nỗi lo
 274. けちな = Keo kiệt
 ・あの人はとても[けちだ]。
 ・[けちな]人は嫌われる。
