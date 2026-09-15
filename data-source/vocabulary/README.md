@@ -81,6 +81,26 @@ hiện từ ở cột trái, ví dụ và ghi chú ở cột phải — cùng b�
 - **Nhiều mặt chữ cho một mục** (`起きる/起こる`) ngăn bằng `/`, cách đọc cũng ngăn như
   vậy và theo đúng thứ tự. Gõ một trong hai là đúng.
 
+## Tính từ
+
+Tính từ cũng đánh dấu `[ ]` trong câu như động từ — tính từ đổi đuôi theo chỗ đứng
+(`幸せな一生` / `幸せに暮らす` / `私は幸せだ`) — thêm hai quy ước:
+
+```
+259. 幸せな (しあわせな) = HẠNH ; Hạnh phúc
+・[幸せに]暮らす。
+
+260. 得意な (とくいな) = ĐẮC Ý ; Giỏi/ Tự hào
+# 意味① Giỏi: ba câu đầu. 意味② Tự hào: câu cuối.
+```
+
+- **Mặt chữ giữ đuôi `な`** như sách in, và **cách đọc cũng viết kèm đuôi**: `しあわせな`,
+  không phải `しあわせ`. Cách đọc của dạng trong câu suy ra bằng cách thay phần kana cuối
+  của mặt chữ, nên cách đọc phải kết thúc bằng đúng phần kana đó. Viết `幸せな (しあわせ)`
+  thì không suy được, và gõ `しあわせに` vào chỗ trống sẽ bị chấm sai.
+- **Nhiều nghĩa (意味①②③)** viết theo thứ tự, ngăn bằng `/`. Giao diện hiện ví dụ thành
+  một danh sách liền, nên câu nào thuộc nghĩa nào thì ghi bằng dòng `#` ngay trên.
+
 ## Các bài của phần Từ vựng
 
 Mỗi bài là MỘT LOẠI TỪ, chứa toàn bộ từ của loại đó — không tách thành nhiều phần
@@ -90,7 +110,7 @@ Mỗi bài là MỘT LOẠI TỪ, chứa toàn bộ từ của loại đó — k
 | -------------- | ------------ | ---------- |
 | `01-danh-tu`   | Danh từ      | 120 từ · 第1課–第6課 (01–120), chia 12 cụm 10 từ |
 | `02-dong-tu`   | Động từ      | 20 từ · 第7課 (121–140), chia 2 cụm 10 từ |
-| `03-tinh-tu`   | Tính từ      | chờ nội dung |
+| `03-tinh-tu`   | Tính từ      | 22 từ · 第14課 (259–280), chia 2 cụm 259–265 và 266–280 |
 | `04-katakana`  | Katakana     | chờ nội dung |
 | `05-pho-tu`    | Phó từ       | chờ nội dung |
 

@@ -163,8 +163,13 @@ function sentenceItems(words: readonly VocabWord[]): SentenceItem[] {
 }
 
 /**
- * Đoán dạng chia qua đuôi chữ: て, た, たり, ない, たい, ý chí, từ điển. Chuỗi rỗng là
- * không thuộc dạng nào — danh từ rơi hết vào đó, và vẫn làm nhiễu cho nhau như cũ.
+ * Đoán dạng chia qua đuôi chữ: て, た, たり, ない, たい, ý chí, từ điển, rồi ba đuôi của
+ * tính từ: な, に, い. Chuỗi rỗng là không thuộc dạng nào — danh từ rơi hết vào đó, và
+ * vẫn làm nhiễu cho nhau như cũ.
+ *
+ * Đuôi tính từ cần tách vì cùng lý do với động từ: chỗ trống trước 暮らす chỉ nhận đuôi
+ * に, nên mồi nhiễu 健康な・悔しい loại được ngay mà không cần biết nghĩa. Ba đuôi này xét
+ * SAU ない/たい, nếu không 積極的ではない rơi nhầm vào nhóm đuôi い.
  *
  * Chỉ dùng để XẾP mồi nhiễu nên đoán theo đuôi là đủ. Đoán trượt thì câu hỏi dễ đi
  * một chút chứ không sai, nên không đáng dựng cả bộ chia động từ theo nhóm.
@@ -177,6 +182,9 @@ function inflectionOf(form: string): string {
   if (/たい$/.test(form)) return 'tai';
   if (/[おこごそぞとどのぼぽもよろ]う$/.test(form)) return 'volitional';
   if (/[うくぐすつぬぶむる]$/.test(form)) return 'dictionary';
+  if (/な$/.test(form)) return 'na';
+  if (/に$/.test(form)) return 'ni';
+  if (/い$/.test(form)) return 'i';
   return '';
 }
 

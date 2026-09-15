@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-09-14T16:16:25.246Z",
+  "generatedAt": "2026-09-14T17:03:13.049Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -44,9 +44,9 @@
         {
           "id": "03-tinh-tu",
           "name": "Tính từ",
-          "description": "",
+          "description": "Tính từ N3準備 文字語彙 — 第14課 (259–280)",
           "kind": "vocabulary",
-          "itemCount": 0,
+          "itemCount": 22,
           "order": 3,
           "file": "vocabulary/03-tinh-tu.json"
         },
