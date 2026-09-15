@@ -16,7 +16,10 @@
     <span class="brand-mark jp" aria-hidden="true">力</span>
     <span class="brand-text">
       <span class="brand-name"><app-t key="app.name" /></span>
-      <span class="brand-sub"><app-t [key]="course().nameKey" /></span>
+      <!-- Trang gốc đứng trên cấp học phần nên không ghi học phần nào. -->
+      @if (course(); as current) {
+        <span class="brand-sub"><app-t [key]="current.nameKey" /></span>
+      }
     </span>
   </a>
 
@@ -38,12 +41,23 @@
       <!-- Học phần đứng giữa breadcrumb: Riki Nihongo / N3 JUNBI ▾ / Từ vựng. Trên điện
            thoại chỉ còn lại nút chọn học phần (xem app.css). -->
       <nav class="crumbs" [attr.aria-label]="t('app.breadcrumb')">
-        <a routerLink="/" class="crumb-home"><app-t key="app.name" /></a>
-        <span class="crumb-sep" aria-hidden="true">/</span>
-        <app-course-switcher [current]="course()" />
-        @if (crumbKey(); as key) {
+        <!-- Ở trang gốc, "Riki Nihongo" chính là trang đang mở: không có cấp nào sau nó. -->
+        <a routerLink="/" class="crumb-home" [attr.aria-current]="course() ? null : 'page'">
+          <app-t key="app.name" />
+        </a>
+        @if (course(); as current) {
           <span class="crumb-sep" aria-hidden="true">/</span>
-          <span class="crumb-current"><app-t [key]="key" /></span>
+          <app-course-switcher [current]="current" />
+          @for (crumb of crumbs(); track $index) {
+            <span class="crumb-sep" aria-hidden="true">/</span>
+            @if (crumb.link) {
+              <a class="crumb-link" [routerLink]="crumb.link">{{ crumb.label }}</a>
+            } @else {
+              <span class="crumb-current" [attr.aria-current]="$last ? 'page' : null">
+                {{ crumb.label }}
+              </span>
+            }
+          }
         }
       </nav>
 
@@ -125,16 +139,16 @@
      Nhãn là tên NGẮN của phần học; tên đầy đủ nằm ở `title` (hiện khi rê chuột, và là
      thứ duy nhất giải thích chữ Hán khi thanh bên thu gọn) và trên breadcrumb. -->
 <ng-template #navLinks>
-  @for (module of modules(); track module.id) {
+  @for (item of navItems(); track item.id) {
     <a
       class="nav-link"
-      [routerLink]="['/', course().id, module.path]"
-      [class.is-active]="section() === module.path"
-      [attr.aria-current]="section() === module.path ? 'true' : null"
-      [title]="t(module.labelKey)"
+      [routerLink]="item.link"
+      [class.is-active]="item.active"
+      [attr.aria-current]="item.active ? 'true' : null"
+      [title]="t(item.labelKey)"
     >
-      <span class="nav-glyph jp" aria-hidden="true">{{ module.icon }}</span>
-      <span class="nav-label"><app-t [key]="module.shortKey" /></span>
+      <span class="nav-glyph jp" aria-hidden="true">{{ item.icon }}</span>
+      <span class="nav-label"><app-t [key]="item.shortKey" /></span>
     </a>
   }
 </ng-template>

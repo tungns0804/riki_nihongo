@@ -21,6 +21,7 @@ import {
   sanitizeVocabulary,
   sanitizeUnitKind,
 } from './content-sanitize';
+import { UnitDirectory } from './unit-directory';
 
 export type LoadStatus = 'idle' | 'loading' | 'ready' | 'error';
 
@@ -44,9 +45,11 @@ function assetUrl(path: string): string {
 @Injectable()
 export class ContentStore {
   private readonly http = inject(HttpClient);
+  private readonly course = inject(COURSE);
+  private readonly directory = inject(UnitDirectory);
 
   /** Thư mục nội dung của học phần: public/content/<học phần>/. */
-  private readonly base = `content/${inject(COURSE).id}/`;
+  private readonly base = `content/${this.course.id}/`;
 
   private readonly entries = signal<UnitIndexEntry[]>([]);
 
@@ -103,7 +106,10 @@ export class ContentStore {
       const file = await firstValueFrom(
         this.http.get<unknown>(assetUrl(`${this.base}index.json`)),
       );
-      this.entries.set(sanitizeIndex(file));
+      const entries = sanitizeIndex(file);
+      this.entries.set(entries);
+      // Breadcrumb của vỏ ứng dụng cần tên bài mà không với tới store này — xem UnitDirectory.
+      this.directory.register(this.course.id, entries);
       this.status.set('ready');
     } catch {
       this.entries.set([]);

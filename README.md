@@ -118,9 +118,11 @@ giao diện.
 
 Website Riki có năm học phần: **N3 JUNBI**, **BTVN CƠ BẢN (MỚI)**, BTVN N4 CHUYÊN SÂU, N3
 TAISAKU, N3 LUYỆN ĐỀ. Trang gốc là trang chọn học phần; bấm một học phần thì vào trang của
-nó (`/n3-junbi`, `/btvn-co-ban`). Thanh bên chỉ hiện các phần học của học phần đang mở
-(BTVN chỉ có Từ vựng); ở trang gốc thì giữ học phần vừa học. Nút "N3 JUNBI ▾" trên thanh
-trên cùng đổi học phần ở mọi trang. Ba học phần chưa làm gắn nhãn "Sắp có" (`COURSES`
+nó (`/n3-junbi`, `/btvn-co-ban`). Thanh bên và breadcrumb luôn theo đúng cấp đang đứng:
+ở trang gốc thanh bên liệt kê các học phần và breadcrumb chỉ có `Riki Nihongo`; trong một
+học phần thanh bên là các phần học của nó (BTVN chỉ có Từ vựng) và breadcrumb đi đủ cấp
+`Riki Nihongo / BTVN CƠ BẢN (MỚI) ▾ / Từ vựng / Danh từ / Luyện tập`, cấp nào có trang thì
+bấm được. Nút học phần ▾ trong breadcrumb đổi học phần. Ba học phần chưa làm gắn nhãn "Sắp có" (`COURSES`
 trong `course.config.ts`).
 
 Nút giao diện xoay vòng **Tự động → Sáng → Tối → Đèn đêm**, và trang mở lần đầu là

@@ -4,10 +4,8 @@ import {
   ChangeDetectionStrategy,
   Component,
   computed,
-  effect,
   ElementRef,
   inject,
-  linkedSignal,
   signal,
   viewChild,
 } from '@angular/core';
@@ -16,27 +14,24 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { filter, map } from 'rxjs';
 
-import {
-  CourseDef,
-  DEFAULT_COURSE,
-  courseById,
-  moduleByPath,
-  modulesOf,
-} from './core/course/course.config';
+import { COURSES, courseById, moduleByPath, modulesOf } from './core/course/course.config';
 import { LanguageStore } from './core/i18n/language-store';
 import type { MessageKey } from './core/i18n/messages';
 import { T } from './core/i18n/t';
-import { readJson, writeJson } from './core/services/local-storage';
 import { NavigationProgress } from './core/services/navigation-progress';
 import { ThemeStore } from './core/services/theme-store';
+import { UnitDirectory } from './core/services/unit-directory';
 import { CourseSwitcher } from './features/shared/course-switcher/course-switcher';
 import { Icon } from './features/shared/icon/icon';
 
 /** Cuộn quá ngưỡng này thì nút "lên đầu trang" hiện ra (đơn vị: px). */
 const BACK_TO_TOP_AT = 700;
 
-/** Học phần học gần nhất — để trang gốc biết thanh bên nên hiện học phần nào. */
-const COURSE_STORAGE_KEY = 'riki:course';
+/** Nhãn breadcrumb của đoạn cuối địa chỉ luyện tập / kết quả. */
+const ACTION_KEY: Readonly<Record<string, MessageKey>> = {
+  practice: 'route.practice',
+  result: 'route.result',
+};
 
 /**
  * Các đoạn của đường dẫn, bỏ query và fragment:
@@ -44,6 +39,23 @@ const COURSE_STORAGE_KEY = 'riki:course';
  */
 function segmentsOf(url: string): string[] {
   return url.split(/[?#;]/)[0].split('/').filter(Boolean);
+}
+
+/** Một mục của thanh bên (và dải menu trên điện thoại). */
+interface NavItem {
+  id: string;
+  link: string[];
+  icon: string;
+  labelKey: MessageKey;
+  /** Nhãn ngắn trên menu, nơi không đủ chỗ cho tên đầy đủ. */
+  shortKey: MessageKey;
+  active: boolean;
+}
+
+/** Một cấp breadcrumb sau nút học phần. `link` null = cấp đang mở, hoặc cấp không có trang. */
+interface Crumb {
+  label: string;
+  link: string[] | null;
 }
 
 @Component({
@@ -57,6 +69,7 @@ export class App {
   protected readonly theme = inject(ThemeStore);
   protected readonly lang = inject(LanguageStore);
   private readonly router = inject(Router);
+  private readonly units = inject(UnitDirectory);
 
   /**
    * Đang chuyển trang hay không. Mọi màn hình đều nạp động, nên bấm menu hay nút
@@ -75,45 +88,87 @@ export class App {
     { initialValue: segmentsOf(this.router.url) },
   );
 
-  /** Học phần nằm trên địa chỉ; null ở trang gốc chọn học phần. */
-  private readonly urlCourse = computed(() => courseById(this.segments()[0]));
-
   /**
-   * Học phần của thanh bên, của nút chọn học phần và của dòng dưới tên ứng dụng.
+   * Học phần đang mở, lấy ĐÚNG theo địa chỉ; null ở trang gốc chọn học phần.
    *
-   * Trang gốc không mang học phần nào trên địa chỉ, nên giữ học phần vừa học (nhớ cả
-   * sang lần mở sau) thay vì nhảy về N3 JUNBI: đang làm BTVN, bấm "Tất cả học phần" mà
-   * menu đổi sang bảy phần của N3 JUNBI thì người học tưởng mình vừa bấm nhầm.
+   * Không "nhớ học phần vừa học" để hiện ở trang gốc: trang gốc đứng TRÊN cấp học
+   * phần, hiện menu và breadcrumb của một học phần ở đó là nói sai người học đang ở đâu.
    */
-  protected readonly course = linkedSignal<CourseDef | null, CourseDef>({
-    source: this.urlCourse,
-    computation: (fromUrl, previous) =>
-      fromUrl ??
-      previous?.value ??
-      courseById(readJson<unknown>(COURSE_STORAGE_KEY, null)) ??
-      DEFAULT_COURSE,
-  });
-
-  /**
-   * Mục menu dựng từ cấu hình học phần chứ không viết tay trong template: thêm một phần
-   * học là thêm một dòng ở course.config.ts, menu tự có mục mới.
-   */
-  protected readonly modules = computed(() => modulesOf(this.course()));
+  protected readonly course = computed(() => courseById(this.segments()[0]));
 
   /**
    * Phần học đang mở (`vocabulary`), tính cả các trang chi tiết, luyện tập, kết quả nằm
    * dưới nó. Rỗng ở trang gốc và trang của học phần.
-   *
-   * Vì sao tự tính thay cho `routerLinkActive`: menu vẽ HAI lần (thanh bên và dải điện
-   * thoại) và breadcrumb cũng cần biết đang ở phần nào. Một tín hiệu dùng chung cho cả
-   * ba chỗ thì không có chuyện menu sáng mục này mà breadcrumb ghi tên mục khác.
    */
-  protected readonly section = computed(() => (this.urlCourse() ? (this.segments()[1] ?? '') : ''));
+  protected readonly section = computed(() => (this.course() ? (this.segments()[1] ?? '') : ''));
 
-  /** Tên hiện sau "Riki Nihongo / N3 JUNBI /" trên thanh trên cùng; trang học phần thì không có. */
-  protected readonly crumbKey = computed<MessageKey | null>(
-    () => moduleByPath(this.section())?.labelKey ?? null,
-  );
+  /**
+   * Mục menu theo đúng cấp đang đứng: trong một học phần là các phần học của nó, ở trang
+   * gốc là các học phần. Dựng từ cấu hình chứ không viết tay trong template: thêm một
+   * phần học là thêm một dòng ở course.config.ts, menu tự có mục mới.
+   *
+   * Vì sao tự tính `active` thay cho `routerLinkActive`: menu vẽ HAI lần (thanh bên và dải
+   * điện thoại) và breadcrumb cũng cần biết đang ở phần nào. Một tín hiệu dùng chung cho
+   * cả ba chỗ thì không có chuyện menu sáng mục này mà breadcrumb ghi tên mục khác.
+   */
+  protected readonly navItems = computed<NavItem[]>(() => {
+    const course = this.course();
+
+    if (!course) {
+      return COURSES.filter((item) => item.status === 'active').map((item) => ({
+        id: item.id,
+        link: ['/', item.id],
+        icon: item.icon,
+        labelKey: item.nameKey,
+        shortKey: item.nameKey,
+        active: false,
+      }));
+    }
+
+    const section = this.section();
+    return modulesOf(course).map((module) => ({
+      id: module.id,
+      link: ['/', course.id, module.path],
+      icon: module.icon,
+      labelKey: module.labelKey,
+      shortKey: module.shortKey,
+      active: module.path === section,
+    }));
+  });
+
+  /**
+   * Các cấp breadcrumb sau nút học phần: phần học / bài / luyện tập hoặc kết quả.
+   *
+   *   Riki Nihongo / BTVN CƠ BẢN (MỚI) ▾ / Từ vựng / Danh từ / Luyện tập
+   *
+   * Cấp nào có trang thì bấm được; cấp cuối là trang đang mở nên không. Trước đây
+   * breadcrumb dừng ở "Từ vựng" cho mọi trang bên dưới — đang luyện một bài mà breadcrumb
+   * nói đang ở danh sách bài, và cũng không có đường bấm về danh sách.
+   */
+  protected readonly crumbs = computed<Crumb[]>(() => {
+    const course = this.course();
+    const [, path = '', unitId, action] = this.segments();
+    const module = moduleByPath(path);
+    if (!course || !module || !course.modules.includes(module.id)) return [];
+
+    const moduleLink = ['/', course.id, module.path];
+    const trail: Crumb[] = [{ label: this.t(module.labelKey), link: moduleLink }];
+
+    if (unitId) {
+      trail.push({
+        // Danh mục chưa tải xong thì tạm ghi "Bài học", có tên là thay ngay.
+        label: this.units.nameOf(course.id, module.id, unitId) ?? this.t('route.unit'),
+        // Đề kiểm tra nhập môn không có trang chi tiết (xem EntranceTest).
+        link: module.kind === 'test' ? null : [...moduleLink, unitId],
+      });
+    }
+
+    const actionKey = action ? ACTION_KEY[action] : undefined;
+    if (actionKey) trail.push({ label: this.t(actionKey), link: null });
+
+    trail[trail.length - 1] = { ...trail[trail.length - 1], link: null };
+    return trail;
+  });
 
   /**
    * Đã cuộn đủ xa để cần nút quay lên đầu chưa.
@@ -130,8 +185,6 @@ export class App {
   private readonly tabStrip = viewChild.required<ElementRef<HTMLElement>>('tabStrip');
 
   constructor() {
-    effect(() => writeJson(COURSE_STORAGE_KEY, this.course().id));
-
     // Chạy sau lần vẽ đầu tiên vì lúc này <header> chưa tồn tại. Trên máy chủ thì
     // không chạy, nên không cần tự kiểm tra `window`.
     afterNextRender(() => this.trackHeaderHeight());

@@ -250,6 +250,24 @@ main:focus-visible {
   color: var(--text-faint);
 }
 
+/* Cấp giữa (phần học, bài) bấm được để lùi lên; cấp cuối là trang đang mở. Tên bài có
+   thể dài, nên cả hai được cắt bằng dấu … thay vì đẩy hai nút bên phải ra khỏi hàng —
+   `.crumbs` là flex nên min-width: 0 mới cho phép co lại. */
+.crumb-link,
+.crumb-current {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.crumb-link {
+  color: var(--text-muted);
+}
+
+.crumb-link:hover {
+  color: var(--brand);
+}
+
 .crumb-current {
   font-weight: 600;
 }
@@ -467,6 +485,7 @@ main:focus-visible {
   .app-sidebar,
   .crumb-home,
   .crumb-sep,
+  .crumb-link,
   .crumb-current {
     display: none;
   }
