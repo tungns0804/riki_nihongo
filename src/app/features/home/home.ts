@@ -1,15 +1,15 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
-import { MODULES } from '../../core/course/course.config';
+import { COURSE, modulesOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import { ContentStore } from '../../core/services/content-store';
 import { ProgressStore } from '../../core/services/progress-store';
 
 /**
- * Trang của học phần N3 JUNBI (`/n3-junbi`) — bảy phần học. Năm học phần nằm ở trang
- * gốc (xem CourseList).
+ * Trang của một học phần (`/n3-junbi`, `/btvn-co-ban`) — các phần học của học phần đó.
+ * Năm học phần nằm ở trang gốc (xem CourseList).
  *
  * Thẻ của phần chưa có bài nào vẫn hiện, chỉ mờ đi và không bấm được: người học
  * phải thấy khoá gồm những gì ngay từ đầu, kể cả phần chưa soạn xong. Ẩn hẳn đi thì
@@ -29,14 +29,17 @@ export class Home {
 
   protected readonly t = this.lang.t.bind(this.lang);
 
+  protected readonly course = inject(COURSE);
+  private readonly courseModules = modulesOf(this.course);
+
   protected readonly status = this.content.status;
   protected readonly errorKey = this.content.errorKey;
 
   /** Số thẻ xám vẽ trong lúc chờ tải — đúng bằng số phần, vì con số đó cố định. */
-  protected readonly skeletons = MODULES.map((module) => module.id);
+  protected readonly skeletons = this.courseModules.map((module) => module.id);
 
   /**
-   * Bảy phần kèm số bài của từng phần.
+   * Các phần của học phần kèm số bài của từng phần.
    *
    * `readyCount` là số bài đã có nội dung, `pendingCount` là số bài mới đặt chỗ. Phần
    * chỉ toàn bài giữ chỗ VẪN mở được — vào đó thấy được lộ trình sắp học gồm những
@@ -47,7 +50,7 @@ export class Home {
     const ready = this.content.readyCountByModule();
     const studied = this.progress.countByModule();
 
-    return MODULES.map((module) => {
+    return this.courseModules.map((module) => {
       const unitCount = counts[module.id] ?? 0;
       const readyCount = ready[module.id] ?? 0;
       return {

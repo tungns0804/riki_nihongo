@@ -2,7 +2,7 @@
   <div class="stack stack-xl">
     <section class="page-head">
       <a class="back-link small" routerLink="/">{{ t('course.list.back') }}</a>
-      <h1>{{ t('home.title') }}</h1>
+      <h1>{{ t('home.title', { name: t(course.nameKey) }) }}</h1>
       <p><app-t key="home.subtitle" block /></p>
     </section>
 
@@ -53,7 +53,7 @@
             [class.is-empty]="module.unitCount === 0"
             [attr.aria-disabled]="module.unitCount === 0 ? 'true' : null"
             [attr.tabindex]="module.unitCount === 0 ? -1 : null"
-            [routerLink]="['/', module.path]"
+            [routerLink]="['/', course.id, module.path]"
           >
             <span class="card-title">
               <span class="card-icon jp" aria-hidden="true">{{ module.icon }}</span>

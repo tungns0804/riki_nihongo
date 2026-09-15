@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
-import { COURSE_ID, MODULES, moduleOf } from '../../core/course/course.config';
+import { COURSE, MODULES, moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import type { MessageKey } from '../../core/i18n/messages';
 import { T } from '../../core/i18n/t';
@@ -34,7 +34,8 @@ export class Result {
   protected readonly t = this.lang.t.bind(this.lang);
 
   /** Trang của học phần (`/n3-junbi`): "Về trang học phần" dẫn về đây, không về trang gốc chọn học phần. */
-  protected readonly courseHome = ['/', COURSE_ID];
+  private readonly course = inject(COURSE);
+  protected readonly courseHome = ['/', this.course.id];
 
   protected readonly summary = this.session.summary;
 
@@ -57,8 +58,9 @@ export class Result {
   protected readonly retryLink = computed<string[]>(() => {
     const data = this.summary();
     const module = this.module();
-    if (!data || !module) return ['/'];
-    return module.kind === 'test' ? ['/', module.path] : ['/', module.path, data.config.unitId];
+    if (!data || !module) return this.courseHome;
+    const list = ['/', this.course.id, module.path];
+    return module.kind === 'test' ? list : [...list, data.config.unitId];
   });
 
   protected readonly skillScores = computed(() => {

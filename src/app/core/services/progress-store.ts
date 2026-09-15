@@ -1,10 +1,20 @@
-import { Injectable, computed, signal } from '@angular/core';
+import { Injectable, computed, inject, signal } from '@angular/core';
 
+import { COURSE, CourseDef } from '../course/course.config';
 import type { ModuleId } from '../models/content.model';
 import type { SessionSummary } from '../models/practice.model';
 import { readJson, writeJson } from './local-storage';
 
-const STORAGE_KEY = 'riki:progress';
+/**
+ * Khoá localStorage chứa tiến độ của một học phần.
+ *
+ * N3 JUNBI giữ nguyên khoá `riki:progress` có từ trước khi tách học phần: đổi tên khoá
+ * là người học mất sạch tiến độ đã có. Học phần khác thêm hậu tố, vì tiến độ tra theo
+ * id bài mà id bài trùng nhau giữa các học phần (cả hai đều có `01-danh-tu`).
+ */
+function storageKeyOf(course: CourseDef): string {
+  return course.id === 'n3-junbi' ? 'riki:progress' : `riki:progress:${course.id}`;
+}
 
 /** Kết quả tốt nhất từng đạt ở một bài. */
 export interface UnitProgress {
@@ -22,7 +32,7 @@ export interface UnitProgress {
 type ProgressMap = Record<string, UnitProgress>;
 
 /**
- * Tiến độ học, lưu trong trình duyệt.
+ * Tiến độ học của MỘT học phần, lưu trong trình duyệt.
  *
  * Chỉ lưu KẾT QUẢ TỐT NHẤT và số lần làm, không lưu chi tiết từng câu: mục đích là
  * trả lời "bài này học tới đâu rồi", không phải dựng lại nguyên một phiên đã xong.
@@ -30,10 +40,14 @@ type ProgressMap = Record<string, UnitProgress>;
  * Dữ liệu nằm ở localStorage nên gắn với MỘT trình duyệt trên MỘT máy. Xoá dữ liệu
  * duyệt web là mất; đó là đánh đổi có ý thức để trang chạy được mà không cần tài
  * khoản và không có máy chủ nào giữ dữ liệu học của người dùng.
+ *
+ * Mỗi học phần một bản, cấp ở route của học phần (xem app.routes.ts).
  */
-@Injectable({ providedIn: 'root' })
+@Injectable()
 export class ProgressStore {
-  private readonly map = signal<ProgressMap>(sanitize(readJson<unknown>(STORAGE_KEY, {})));
+  private readonly storageKey = storageKeyOf(inject(COURSE));
+
+  private readonly map = signal<ProgressMap>(sanitize(readJson<unknown>(this.storageKey, {})));
 
   readonly all = this.map.asReadonly();
 
@@ -78,12 +92,12 @@ export class ProgressStore {
 
     const map = { ...this.map(), [unitId]: next };
     this.map.set(map);
-    writeJson(STORAGE_KEY, map);
+    writeJson(this.storageKey, map);
   }
 
   clear(): void {
     this.map.set({});
-    writeJson(STORAGE_KEY, {});
+    writeJson(this.storageKey, {});
   }
 }
 

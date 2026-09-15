@@ -1,0 +1,24 @@
+{
+  "course": {
+    "id": "btvn-co-ban",
+    "name": "BTVN CƠ BẢN (MỚI)",
+    "level": "N3"
+  },
+  "generatedAt": "2026-09-15T14:48:00.726Z",
+  "modules": [
+    {
+      "id": "vocabulary",
+      "units": [
+        {
+          "id": "01-danh-tu",
+          "name": "Danh từ",
+          "description": "Danh từ BTVN — bài tập Từ vựng 1–10 đến 61–70 (01–70)",
+          "kind": "vocabulary",
+          "itemCount": 70,
+          "order": 1,
+          "file": "vocabulary/01-danh-tu.json"
+        }
+      ]
+    }
+  ]
+}

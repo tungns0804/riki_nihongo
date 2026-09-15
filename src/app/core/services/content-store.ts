@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable, computed, inject, signal } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
 
+import { COURSE } from '../course/course.config';
 import type { MessageKey } from '../i18n/messages';
 import {
   ModuleId,
@@ -21,8 +22,6 @@ import {
   sanitizeUnitKind,
 } from './content-sanitize';
 
-const CONTENT_BASE = 'content/';
-
 export type LoadStatus = 'idle' | 'loading' | 'ready' | 'error';
 
 /** Ghép đường dẫn tài nguyên theo <base href> để chạy đúng cả khi deploy vào thư mục con. */
@@ -32,15 +31,22 @@ function assetUrl(path: string): string {
 }
 
 /**
- * Nguồn nội dung của khoá học.
+ * Nguồn nội dung của MỘT học phần.
  *
- * Tải `content/index.json` một lần rồi giữ lại; nội dung từng bài tải lười khi mở
- * bài đó và nhớ luôn cho lần sau. Danh mục nhẹ (vài KB) còn nội dung thì không:
+ * Tải `content/<học phần>/index.json` một lần rồi giữ lại; nội dung từng bài tải lười
+ * khi mở bài đó và nhớ luôn cho lần sau. Danh mục nhẹ (vài KB) còn nội dung thì không:
  * một bài từ vựng 50 từ kèm ví dụ đã hơn 20KB, mà một phần có thể có vài chục bài.
+ *
+ * Không `providedIn: 'root'`: mỗi học phần một bản, cấp ở route của học phần (xem
+ * app.routes.ts). Id bài trùng nhau giữa các học phần, một bộ nhớ đệm chung sẽ trả
+ * bài của học phần này khi đang mở học phần kia.
  */
-@Injectable({ providedIn: 'root' })
+@Injectable()
 export class ContentStore {
   private readonly http = inject(HttpClient);
+
+  /** Thư mục nội dung của học phần: public/content/<học phần>/. */
+  private readonly base = `content/${inject(COURSE).id}/`;
 
   private readonly entries = signal<UnitIndexEntry[]>([]);
 
@@ -79,7 +85,7 @@ export class ContentStore {
     return this.entries().filter((entry) => entry.moduleId === moduleId);
   }
 
-  /** Tải `content/index.json`. Gọi nhiều lần chỉ thực sự chạy một lần. */
+  /** Tải danh mục của học phần. Gọi nhiều lần chỉ thực sự chạy một lần. */
   loadIndex(force = false): Promise<void> {
     if (force) {
       this.indexRequest = null;
@@ -95,7 +101,7 @@ export class ContentStore {
 
     try {
       const file = await firstValueFrom(
-        this.http.get<unknown>(assetUrl(`${CONTENT_BASE}index.json`)),
+        this.http.get<unknown>(assetUrl(`${this.base}index.json`)),
       );
       this.entries.set(sanitizeIndex(file));
       this.status.set('ready');
@@ -120,7 +126,7 @@ export class ContentStore {
 
     try {
       const raw = await firstValueFrom(
-        this.http.get<unknown>(assetUrl(`${CONTENT_BASE}${entry.file}`)),
+        this.http.get<unknown>(assetUrl(`${this.base}${entry.file}`)),
       );
       const unit = sanitizeUnit(raw, entry);
       if (!unit) return null;

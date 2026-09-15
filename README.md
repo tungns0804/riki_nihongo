@@ -1,19 +1,28 @@
-# Riki Nihongo — khoá N3 JUNBI
+# Riki Nihongo
 
-Trang học tiếng Nhật cá nhân cho khoá **N3 JUNBI**, gồm bảy phần:
+Trang học tiếng Nhật cá nhân theo các học phần của Riki Nihongo. Hai học phần đã có nội
+dung:
 
-| Phần                          | Đường dẫn     | Nội dung                                                        |
-| ----------------------------- | ------------- | --------------------------------------------------------------- |
-| Bài kiểm tra nhập môn N3      | `/test`       | Đề đầu vào, chấm điểm theo năm kỹ năng                            |
-| Từ vựng                       | `/vocabulary` | Bảng từ + luyện tập bốn chiều                                     |
-| KANJI                         | `/kanji`      | Thẻ chữ Hán: âm On/Kun, âm Hán Việt, số nét, từ ghép              |
-| Ngữ pháp                      | `/grammar`    | Trang lý thuyết: công thức, cách dùng, ví dụ                      |
-| Đọc hiểu                      | `/reading`    | Bài đọc + câu hỏi trả lời tại chỗ + bản dịch ẩn                   |
-| Nghe hiểu                     | `/listening`  | Trình phát + câu hỏi + lời thoại ẩn                               |
-| Ngữ pháp MIMIKARA OBOERU      | `/mimikara`   | Như phần Ngữ pháp, theo giáo trình 耳から覚える                    |
+**N3 JUNBI** (`/n3-junbi`) — bảy phần:
+
+| Phần                          | Đường dẫn               | Nội dung                                              |
+| ----------------------------- | ----------------------- | ----------------------------------------------------- |
+| Bài kiểm tra nhập môn N3      | `/n3-junbi/test`        | Đề đầu vào, chấm điểm theo năm kỹ năng                  |
+| Từ vựng                       | `/n3-junbi/vocabulary`  | Bảng từ + luyện tập bốn chiều                           |
+| KANJI                         | `/n3-junbi/kanji`       | Thẻ chữ Hán: âm On/Kun, âm Hán Việt, số nét, từ ghép    |
+| Ngữ pháp                      | `/n3-junbi/grammar`     | Trang lý thuyết: công thức, cách dùng, ví dụ            |
+| Đọc hiểu                      | `/n3-junbi/reading`     | Bài đọc + câu hỏi trả lời tại chỗ + bản dịch ẩn         |
+| Nghe hiểu                     | `/n3-junbi/listening`   | Trình phát + câu hỏi + lời thoại ẩn                     |
+| Ngữ pháp MIMIKARA OBOERU      | `/n3-junbi/mimikara`    | Như phần Ngữ pháp, theo giáo trình 耳から覚える          |
+
+**BTVN CƠ BẢN (MỚI)** (`/btvn-co-ban`) — bài tập về nhà. Hiện có phần Từ vựng
+(`/btvn-co-ban/vocabulary`): bài "Danh từ" 01–70, chép theo thẻ từ vựng của các bài tập
+"Từ vựng 1-10" tới "61-70", mỗi bài tập một cụm.
+
+Địa chỉ cũ chưa có tên học phần (`/vocabulary/01-danh-tu`) tự chuyển sang N3 JUNBI.
 
 Trang chạy hoàn toàn trong trình duyệt: không có máy chủ, không có tài khoản. Tiến
-độ học lưu trong `localStorage` của chính máy đang dùng.
+độ học lưu trong `localStorage` của chính máy đang dùng, mỗi học phần một khoá riêng.
 
 ## Bắt đầu
 
@@ -33,29 +42,31 @@ npm run verify         # kiểm tra nội dung nguồn và phần đa ngôn ng�
 
 ## Thêm bài học
 
-Mọi nội dung nằm trong [`data-source/`](data-source/README.md) — mỗi phần một thư
-mục, mỗi bài một thư mục con:
+Mọi nội dung nằm trong [`data-source/`](data-source/README.md) — mỗi học phần một thư
+mục, trong đó mỗi phần học một thư mục, mỗi bài một thư mục con:
 
 ```
-data-source/vocabulary/01-bai-1/
+data-source/n3-junbi/vocabulary/01-danh-tu/
 ├── meta.json        tên hiển thị, mô tả, thứ tự (tuỳ chọn)
 └── vocabulary.txt   nội dung bài
 ```
 
 Chạy `npm run generate` là bài mới xuất hiện trên trang. Định dạng chi tiết của
-từng loại nằm trong `README.md` của chính thư mục phần học:
+từng loại nằm trong `README.md` của thư mục phần học:
 
-- [Từ vựng](data-source/vocabulary/README.md) — file `.txt`, mỗi dòng một từ
-- [Kanji](data-source/kanji/README.md) — file `.txt`, mỗi dòng một chữ
-- [Ngữ pháp](data-source/grammar/README.md) và [Mimikara](data-source/mimikara/README.md) — file `.json`
-- [Đọc hiểu](data-source/reading/README.md) — file `.json`
-- [Nghe hiểu](data-source/listening/README.md) — file `.json`, âm thanh đặt trong `public/audio/`
-- [Kiểm tra nhập môn](data-source/entrance-test/README.md) — file `.json`
+- [Từ vựng](data-source/n3-junbi/vocabulary/README.md) — file `.txt`, mỗi từ một khối
+  (BTVN: [chỗ khác biệt](data-source/btvn-co-ban/vocabulary/README.md))
+- [Kanji](data-source/n3-junbi/kanji/README.md) — file `.txt`, mỗi dòng một chữ
+- [Ngữ pháp](data-source/n3-junbi/grammar/README.md) và [Mimikara](data-source/n3-junbi/mimikara/README.md) — file `.json`
+- [Đọc hiểu](data-source/n3-junbi/reading/README.md) — file `.json`
+- [Nghe hiểu](data-source/n3-junbi/listening/README.md) — file `.json`, âm thanh đặt trong `public/audio/`
+- [Kiểm tra nhập môn](data-source/n3-junbi/entrance-test/README.md) — file `.json`
 
-Phần **Từ vựng** đã có nội dung thật: mục "Danh từ" gồm 120 từ của 第1課–第6課, mục
-"Động từ" gồm 20 từ của 第7課 (121–140), mục "Tính từ" gồm 22 từ của 第14課 (259–280)
-chia ba cụm, có bảng "Tóm tắt bài" ghi chủ đề từng cụm. Katakana và Phó từ mới đặt chỗ,
-đang chờ nội dung.
+Phần **Từ vựng** của N3 JUNBI đã có nội dung thật: mục "Danh từ" gồm 120 từ của
+第1課–第6課, mục "Động từ" gồm 20 từ của 第7課 (121–140), mục "Tính từ" gồm 22 từ của
+第14課 (259–280) chia ba cụm, có bảng "Tóm tắt bài" ghi chủ đề từng cụm. Katakana và Phó
+từ mới đặt chỗ, đang chờ nội dung. Bên BTVN, mục "Danh từ" có 70 từ chia bảy cụm theo bảy
+bài tập, cũng có bảng "Tóm tắt bài".
 
 Các thư mục `00-bai-mau` / `de-1` ở những phần khác là **bài mẫu** để kiểm tra đường
 ống nội dung — xoá đi khi đã có bài thật.
@@ -91,25 +102,26 @@ câu — hiện sớm hơn thì câu điền chỉ còn là chép lại chỗ v�
 sách từ ghép theo cùng cách.
 
 Trang luyện tập và trang kết quả nằm dưới địa chỉ của bài đang luyện, ví dụ
-`/vocabulary/02-dong-tu/practice`, nên mục menu của phần đó vẫn sáng. F5 giữa chừng thì
-về lại trang bài để bắt đầu lại.
+`/n3-junbi/vocabulary/02-dong-tu/practice`, nên mục menu của phần đó vẫn sáng. F5 giữa
+chừng thì về lại trang bài để bắt đầu lại.
 
 Chọn một cụm (01–10, 11–20…) thì cả danh sách lẫn phần luyện tập chỉ còn cụm đó, và
 ba đáp án nhiễu cũng lấy trong cụm.
 
 ## Giao diện
 
-Khung ứng dụng giống minano_nihongo (vốn theo bố cục ByeTOEIC): menu bảy phần nằm ở
+Khung ứng dụng giống minano_nihongo (vốn theo bố cục ByeTOEIC): menu các phần học nằm ở
 **thanh bên trái** — đủ nhãn từ khổ 1480px, thu thành dải chữ Hán (試 語 漢 文 読 聴 耳)
 từ 768px, và thành dải chip cuộn ngang dưới thanh trên cùng trên điện thoại. Thanh
-trên cùng chỉ còn breadcrumb (`Riki Nihongo / Từ vựng`) và hai nút ngôn ngữ, giao diện.
+trên cùng chỉ còn breadcrumb (`Riki Nihongo / N3 JUNBI ▾ / Từ vựng`) và hai nút ngôn ngữ,
+giao diện.
 
-Website Riki có năm học phần: **N3 JUNBI**, BTVN CƠ BẢN (MỚI), BTVN N4 CHUYÊN SÂU, N3
-TAISAKU, N3 LUYỆN ĐỀ. Trang gốc là trang chọn học phần; bấm N3 JUNBI thì vào `/n3-junbi`
-với bảy phần học. Nút "N3 JUNBI ▾" trên thanh trên cùng đổi học phần ở mọi trang. Hiện chỉ
-N3 JUNBI có nội dung, bốn học phần kia gắn nhãn "Sắp có" (`COURSES` trong
-`course.config.ts`). Các phần học chưa mang tiền tố học phần trong địa chỉ (`/vocabulary`);
-khi làm học phần thứ hai thì route và `public/content/` phải tách theo học phần.
+Website Riki có năm học phần: **N3 JUNBI**, **BTVN CƠ BẢN (MỚI)**, BTVN N4 CHUYÊN SÂU, N3
+TAISAKU, N3 LUYỆN ĐỀ. Trang gốc là trang chọn học phần; bấm một học phần thì vào trang của
+nó (`/n3-junbi`, `/btvn-co-ban`). Thanh bên chỉ hiện các phần học của học phần đang mở
+(BTVN chỉ có Từ vựng); ở trang gốc thì giữ học phần vừa học. Nút "N3 JUNBI ▾" trên thanh
+trên cùng đổi học phần ở mọi trang. Ba học phần chưa làm gắn nhãn "Sắp có" (`COURSES`
+trong `course.config.ts`).
 
 Nút giao diện xoay vòng **Tự động → Sáng → Tối → Đèn đêm**, và trang mở lần đầu là
 **Đèn đêm**. Sáng và tối dùng bảng màu ByeTOEIC của minano_nihongo: nền trắng ngà / navy,
@@ -135,31 +147,41 @@ management nào khác, không có backend.
 ```
 src/app/
 ├── app.ts / app.html / app.css     vỏ ứng dụng: thanh bên, thanh trên, nút lên đầu trang
-├── app.routes.ts                   route của bảy phần + /practice + /result
+├── app.routes.ts                   route dựng từ COURSES × MODULES: /<học phần>/<phần>/<bài>
 ├── core/
-│   ├── course/course.config.ts     ĐỊNH NGHĨA KHOÁ HỌC: bảy phần, đường dẫn, biểu tượng
+│   ├── course/course.config.ts     ĐỊNH NGHĨA HỌC PHẦN VÀ PHẦN HỌC: đường dẫn, biểu tượng
 │   ├── i18n/                       từ điển vi/ja, đổi ngôn ngữ lúc chạy
 │   ├── models/                     hình dạng dữ liệu học và dữ liệu luyện tập
 │   ├── practice/build-questions.ts dựng câu hỏi từ nội dung bài
 │   ├── services/                   tải nội dung, phiên luyện tập, tiến độ, tông màu
 │   └── utils/                      chấm đáp án, chuẩn hoá chữ, trộn ngẫu nhiên
 └── features/
-    ├── home/                       trang chủ: lưới bảy phần
-    ├── unit-list/                  danh sách bài — DÙNG CHUNG cho cả bảy phần
+    ├── course-list/                trang gốc: năm học phần
+    ├── home/                       trang của một học phần: lưới các phần học
+    ├── unit-list/                  danh sách bài — DÙNG CHUNG cho mọi phần
     ├── <loại>-detail/              màn hình chi tiết, mỗi loại nội dung một màn hình
     ├── entrance-test/              đề kiểm tra nhập môn
     ├── practice/ result/           màn hình làm bài và màn hình kết quả
-    └── shared/                     khung thiết lập luyện tập, khối câu hỏi tại chỗ
+    └── shared/                     bộ chọn học phần, khung thiết lập luyện tập, khối câu hỏi
 ```
 
-Ba điểm đáng nhớ khi sửa về sau:
+Những điểm đáng nhớ khi sửa về sau:
 
-1. **Thêm một phần học** = thêm một dòng trong `core/course/course.config.ts`, một
-   cặp route trong `app.routes.ts`, một dòng trong `MODULES` của
-   `scripts/generate-content.mjs`, và các khoá `module.<id>.*` trong `core/i18n/messages.ts`.
-2. **Danh sách bài dùng chung một component** (`features/unit-list`), phân biệt bằng
+1. **Mở một học phần** = đổi `status` thành `'active'` và khai `modules` của nó trong
+   `COURSES` (`core/course/course.config.ts`), thêm cùng học phần vào `COURSES` của
+   `scripts/generate-content.mjs`, thêm khoá `course.<id>.desc`, rồi đặt nội dung vào
+   `data-source/<id>/`. Route tự có.
+2. **Thêm một phần học** = thêm một dòng `MODULES` trong `course.config.ts` và trong
+   script, các khoá `module.<id>.*` trong `core/i18n/messages.ts`, rồi thêm id vào
+   `modules` của học phần cần nó. Hình dạng dữ liệu mới thì thêm màn hình vào `DETAIL`
+   của `app.routes.ts`.
+3. **Mỗi học phần một bộ store.** `ContentStore`, `ProgressStore`, `PracticeSessionStore`
+   cấp ở route cha của học phần chứ không ở gốc, vì id bài trùng nhau giữa các học phần.
+   Component vẫn `inject` như thường; học phần đang mở lấy qua token `COURSE`. Tiến độ N3
+   JUNBI giữ khoá `riki:progress` có từ trước, học phần khác là `riki:progress:<id>`.
+4. **Danh sách bài dùng chung một component** (`features/unit-list`), phân biệt bằng
    `data.moduleId` của route. Màn hình chi tiết thì tách riêng theo hình dạng dữ liệu.
-3. **Phần Mimikara dùng lại màn hình Ngữ pháp** vì cùng hình dạng dữ liệu; nó là hai
+5. **Phần Mimikara dùng lại màn hình Ngữ pháp** vì cùng hình dạng dữ liệu; nó là hai
    phần trên giao diện vì là hai giáo trình khác nhau.
 
 ## Deploy

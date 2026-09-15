@@ -16,7 +16,7 @@
     <span class="brand-mark jp" aria-hidden="true">力</span>
     <span class="brand-text">
       <span class="brand-name"><app-t key="app.name" /></span>
-      <span class="brand-sub"><app-t [key]="course.nameKey" /></span>
+      <span class="brand-sub"><app-t [key]="course().nameKey" /></span>
     </span>
   </a>
 
@@ -40,7 +40,7 @@
       <nav class="crumbs" [attr.aria-label]="t('app.breadcrumb')">
         <a routerLink="/" class="crumb-home"><app-t key="app.name" /></a>
         <span class="crumb-sep" aria-hidden="true">/</span>
-        <app-course-switcher />
+        <app-course-switcher [current]="course()" />
         @if (crumbKey(); as key) {
           <span class="crumb-sep" aria-hidden="true">/</span>
           <span class="crumb-current"><app-t [key]="key" /></span>
@@ -125,10 +125,10 @@
      Nhãn là tên NGẮN của phần học; tên đầy đủ nằm ở `title` (hiện khi rê chuột, và là
      thứ duy nhất giải thích chữ Hán khi thanh bên thu gọn) và trên breadcrumb. -->
 <ng-template #navLinks>
-  @for (module of modules; track module.id) {
+  @for (module of modules(); track module.id) {
     <a
       class="nav-link"
-      [routerLink]="['/', module.path]"
+      [routerLink]="['/', course().id, module.path]"
       [class.is-active]="section() === module.path"
       [attr.aria-current]="section() === module.path ? 'true' : null"
       [title]="t(module.labelKey)"

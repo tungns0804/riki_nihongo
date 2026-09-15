@@ -12,7 +12,7 @@ import {
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 
-import { COURSE_ID, moduleOf } from '../../core/course/course.config';
+import { COURSE, moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import { PracticeExample, PracticeQuestion } from '../../core/models/practice.model';
@@ -47,6 +47,7 @@ export class Practice {
   private readonly router = inject(Router);
   private readonly lang = inject(LanguageStore);
   private readonly injector = inject(Injector);
+  private readonly course = inject(COURSE);
 
   protected readonly t = this.lang.t.bind(this.lang);
 
@@ -166,7 +167,7 @@ export class Practice {
     const summary = this.session.finish();
     if (!summary) {
       // Về trang của học phần, không về trang gốc chọn học phần.
-      void this.router.navigate(['/', COURSE_ID]);
+      void this.router.navigate(['/', this.course.id]);
       return;
     }
 
@@ -174,7 +175,7 @@ export class Practice {
     const { moduleId, unitId } = summary.config;
     // replaceUrl: bấm Back ở màn kết quả thì về thẳng trang bài, không quay lại một
     // trang luyện tập mà phiên đã xong — guard cũng sẽ đẩy về đó, nhưng chậm một nhịp.
-    void this.router.navigate(['/', moduleOf(moduleId).path, unitId, 'result'], {
+    void this.router.navigate(['/', this.course.id, moduleOf(moduleId).path, unitId, 'result'], {
       replaceUrl: true,
     });
   }

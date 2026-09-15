@@ -94,7 +94,7 @@
               [class.is-empty]="pending"
               [attr.aria-disabled]="pending ? 'true' : null"
               [attr.tabindex]="pending ? -1 : null"
-              [routerLink]="['/', module().path, unit.id]"
+              [routerLink]="['/', course.id, module().path, unit.id]"
             >
               <div class="unit-head">
                 <!-- Vòng tiến độ: cung tròn vẽ bằng conic-gradient theo --p. Bài chưa

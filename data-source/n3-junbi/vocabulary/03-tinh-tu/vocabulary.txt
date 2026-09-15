@@ -1,6 +1,6 @@
 # N3 JUNBI — 文字語彙 · TÍNH TỪ (259–280)
 # Nguồn: 第14課 của tài liệu N3準備 文字語彙
-# Định dạng: xem data-source/vocabulary/README.md
+# Định dạng: xem data-source/n3-junbi/vocabulary/README.md
 #
 # Viết như file động từ, thêm hai quy ước:
 #   - Chữ in đỏ gạch chân trong câu viết trong [ ]. Tính từ trong câu đổi đuôi theo chỗ

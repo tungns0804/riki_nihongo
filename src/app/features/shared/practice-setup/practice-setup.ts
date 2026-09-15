@@ -10,7 +10,7 @@ import {
 } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { moduleOf } from '../../../core/course/course.config';
+import { COURSE, moduleOf } from '../../../core/course/course.config';
 import { LanguageStore } from '../../../core/i18n/language-store';
 import { T } from '../../../core/i18n/t';
 import { Unit, groupsOf } from '../../../core/models/content.model';
@@ -40,6 +40,7 @@ import { PracticeSessionStore } from '../../../core/services/practice-session-st
 })
 export class PracticeSetup {
   private readonly session = inject(PracticeSessionStore);
+  private readonly course = inject(COURSE);
   private readonly router = inject(Router);
   private readonly lang = inject(LanguageStore);
 
@@ -150,6 +151,12 @@ export class PracticeSetup {
     this.session.start(config, questions);
     // Địa chỉ nói rõ đang luyện phần nào, bài nào — xem các route luyện tập trong
     // app.routes.ts.
-    void this.router.navigate(['/', moduleOf(config.moduleId).path, config.unitId, 'practice']);
+    void this.router.navigate([
+      '/',
+      this.course.id,
+      moduleOf(config.moduleId).path,
+      config.unitId,
+      'practice',
+    ]);
   }
 }

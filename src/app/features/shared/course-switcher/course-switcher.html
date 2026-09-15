@@ -8,7 +8,7 @@
   [title]="t('course.switch')"
   (click)="toggle()"
 >
-  <app-t [key]="current.nameKey" />
+  <app-t [key]="current().nameKey" />
   <app-icon name="chevron" />
 </button>
 
@@ -20,13 +20,13 @@
         type="button"
         role="menuitemradio"
         class="switcher-item"
-        [class.is-current]="course.id === current.id"
-        [attr.aria-checked]="course.id === current.id"
+        [class.is-current]="course.id === current().id"
+        [attr.aria-checked]="course.id === current().id"
         [attr.aria-disabled]="course.status === 'soon' ? 'true' : null"
         (click)="choose(course)"
       >
         <app-t [key]="course.nameKey" />
-        @if (course.id === current.id) {
+        @if (course.id === current().id) {
           <span class="badge badge-accent">{{ t('course.current') }}</span>
         } @else if (course.status === 'soon') {
           <span class="badge">{{ t('course.soon') }}</span>

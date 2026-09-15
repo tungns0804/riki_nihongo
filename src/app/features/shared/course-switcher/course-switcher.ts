@@ -3,12 +3,13 @@ import {
   Component,
   ElementRef,
   inject,
+  input,
   signal,
   viewChild,
 } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 
-import { COURSES, CURRENT_COURSE, CourseDef } from '../../../core/course/course.config';
+import { COURSES, CourseDef } from '../../../core/course/course.config';
 import { LanguageStore } from '../../../core/i18n/language-store';
 import { T } from '../../../core/i18n/t';
 import { Icon } from '../icon/icon';
@@ -40,7 +41,8 @@ export class CourseSwitcher {
   protected readonly t = this.lang.t.bind(this.lang);
 
   protected readonly courses = COURSES;
-  protected readonly current = CURRENT_COURSE;
+  /** Học phần đang học. Vỏ ứng dụng tính từ địa chỉ trang (xem `course` trong app.ts). */
+  readonly current = input.required<CourseDef>();
   protected readonly open = signal(false);
 
   private readonly trigger = viewChild.required<ElementRef<HTMLButtonElement>>('trigger');

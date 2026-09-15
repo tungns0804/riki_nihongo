@@ -1,18 +1,23 @@
+import { InjectionToken } from '@angular/core';
+
 import type { MessageKey } from '../i18n/messages';
 import { MODULE_IDS, ModuleId, UnitKind } from '../models/content.model';
 
 /**
- * Định nghĩa khoá học và bảy phần của nó.
+ * Định nghĩa các học phần và các phần học của chúng.
  *
  * Đây là chỗ DUY NHẤT mô tả một phần học: đường dẫn, biểu tượng, khoá thông điệp,
- * hình dạng dữ liệu và tên thư mục nguồn. Thanh điều hướng, trang chủ, bộ định
- * tuyến và cả script sinh nội dung đều đọc từ đây, nên thêm một phần mới là thêm
- * một dòng ở bảng dưới chứ không phải sửa năm chỗ.
+ * hình dạng dữ liệu và tên thư mục nguồn. Thanh điều hướng, trang chủ và bộ định
+ * tuyến đều đọc từ đây, nên thêm một phần mới là thêm một dòng ở bảng dưới chứ không
+ * phải sửa năm chỗ. Script sinh nội dung giữ một bản sao ngắn (không import được file
+ * TypeScript) — xem `COURSES` trong scripts/generate-content.mjs.
  */
-export const COURSE_ID = 'n3-junbi';
 
 export interface CourseDef {
-  /** Cũng là đường dẫn trang của học phần: `/n3-junbi`. */
+  /**
+   * Cũng là đoạn đầu của địa chỉ (`/n3-junbi/vocabulary`) và tên thư mục nội dung
+   * (`data-source/n3-junbi/`, `public/content/n3-junbi/`).
+   */
   id: string;
   /** Một chữ Hán làm biểu tượng trên thẻ, cùng kiểu với thẻ phần học. */
   icon: string;
@@ -20,35 +25,65 @@ export interface CourseDef {
   descKey: MessageKey;
   /** 'active' = đang học được; 'soon' = đã có trong lộ trình của Riki nhưng chưa làm. */
   status: 'active' | 'soon';
+  /**
+   * Các phần học của học phần, theo thứ tự trên menu. Học phần "Sắp có" để rỗng.
+   *
+   * Khai theo từng học phần chứ không dùng chung bảy phần: BTVN chỉ là bài tập về
+   * nhà, hiện đủ bảy thẻ thì sáu thẻ nằm "chưa có nội dung" mãi mãi, và người học
+   * tưởng học phần đang soạn dở.
+   */
+  modules: readonly ModuleId[];
 }
 
 /**
  * Năm học phần của website Riki Nihongo, đúng thứ tự Riki liệt kê.
  *
- * Chỉ N3 JUNBI đang làm. Bốn học phần kia VẪN hiện trong bộ chọn, mờ đi kèm nhãn
- * "Sắp có": người học phải thấy trang gồm những học phần nào ngay từ đầu, ẩn đi thì
- * trang trông như chỉ có đúng một khoá.
- *
- * Địa chỉ trang chưa mang tên học phần (`/vocabulary`, không phải
- * `/n3-junbi/vocabulary`) vì mới có một học phần có nội dung. Khi làm học phần thứ
- * hai thì MODULES, bộ định tuyến và `public/content/` phải tách theo học phần.
+ * Học phần chưa làm VẪN hiện trong bộ chọn, mờ đi kèm nhãn "Sắp có": người học phải
+ * thấy trang gồm những học phần nào ngay từ đầu, ẩn đi thì trang trông như chỉ có
+ * đúng những khoá đã làm.
  */
 export const COURSES: readonly CourseDef[] = [
   // 準備 · 基本 · 深 (chuyên sâu) · 対策 · 模試 (luyện đề)
-  { id: 'n3-junbi', icon: '準', nameKey: 'course.n3-junbi.name', descKey: 'course.n3-junbi.desc', status: 'active' },
-  { id: 'btvn-co-ban', icon: '基', nameKey: 'course.btvn-co-ban.name', descKey: 'course.soon.desc', status: 'soon' },
-  { id: 'btvn-n4-chuyen-sau', icon: '深', nameKey: 'course.btvn-n4-chuyen-sau.name', descKey: 'course.soon.desc', status: 'soon' },
-  { id: 'n3-taisaku', icon: '策', nameKey: 'course.n3-taisaku.name', descKey: 'course.soon.desc', status: 'soon' },
-  { id: 'n3-luyen-de', icon: '模', nameKey: 'course.n3-luyen-de.name', descKey: 'course.soon.desc', status: 'soon' },
+  {
+    id: 'n3-junbi',
+    icon: '準',
+    nameKey: 'course.n3-junbi.name',
+    descKey: 'course.n3-junbi.desc',
+    status: 'active',
+    modules: MODULE_IDS,
+  },
+  {
+    id: 'btvn-co-ban',
+    icon: '基',
+    nameKey: 'course.btvn-co-ban.name',
+    descKey: 'course.btvn-co-ban.desc',
+    status: 'active',
+    modules: ['vocabulary'],
+  },
+  { id: 'btvn-n4-chuyen-sau', icon: '深', nameKey: 'course.btvn-n4-chuyen-sau.name', descKey: 'course.soon.desc', status: 'soon', modules: [] },
+  { id: 'n3-taisaku', icon: '策', nameKey: 'course.n3-taisaku.name', descKey: 'course.soon.desc', status: 'soon', modules: [] },
+  { id: 'n3-luyen-de', icon: '模', nameKey: 'course.n3-luyen-de.name', descKey: 'course.soon.desc', status: 'soon', modules: [] },
 ];
 
-/** Học phần của toàn bộ nội dung đang có trong app. */
-export const CURRENT_COURSE: CourseDef =
-  COURSES.find((course) => course.id === COURSE_ID) ?? COURSES[0];
+/** Học phần dùng khi địa chỉ không nói gì và trình duyệt cũng chưa nhớ học phần nào. */
+export const DEFAULT_COURSE: CourseDef = COURSES[0];
+
+/** Học phần ĐANG HỌC ĐƯỢC có id này; null nếu không có, hoặc mới ở mức "Sắp có". */
+export function courseById(id: unknown): CourseDef | null {
+  return COURSES.find((course) => course.id === id && course.status === 'active') ?? null;
+}
+
+/**
+ * Học phần của cây route đang mở, cấp ở route cha của từng học phần (xem app.routes.ts).
+ *
+ * Đi qua DI chứ không qua input của route: ContentStore, ProgressStore và các guard
+ * cũng cần biết học phần, mà chúng không có input nào để nhận.
+ */
+export const COURSE = new InjectionToken<CourseDef>('COURSE');
 
 export interface ModuleDef {
   id: ModuleId;
-  /** Đường dẫn trên URL, ví dụ `/vocabulary`. */
+  /** Đoạn địa chỉ sau học phần, ví dụ `vocabulary` trong `/n3-junbi/vocabulary`. */
   path: string;
   /** Một chữ Hán làm biểu tượng. Chọn chữ nói đúng nội dung phần đó. */
   icon: string;
@@ -59,7 +94,7 @@ export interface ModuleDef {
   /** Khoá đếm số bài, ví dụ "12 bài" / "3 bài đọc". */
   unitKey: MessageKey;
   kind: UnitKind;
-  /** Thư mục nguồn trong `data-source/`. */
+  /** Thư mục nguồn trong `data-source/<học phần>/`. */
   folder: string;
   /**
    * Phần này có màn hình luyện tập sinh câu hỏi từ dữ liệu không.
@@ -172,6 +207,11 @@ export function moduleOf(id: ModuleId): ModuleDef {
 
 export function moduleByPath(path: string): ModuleDef | null {
   return BY_PATH.get(path) ?? null;
+}
+
+/** Các phần học của một học phần, đúng thứ tự khai trong `modules`. */
+export function modulesOf(course: CourseDef): ModuleDef[] {
+  return course.modules.map(moduleOf);
 }
 
 /** Kiểm tra lúc khởi động: mọi id khai trong model đều phải có định nghĩa ở đây. */

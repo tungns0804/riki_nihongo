@@ -2,8 +2,8 @@
 /**
  * Sinh nội dung của trang từ thư mục `data-source/`.
  *
- *   data-source/<phần>/<bài>/<file dữ liệu>  ->  public/content/<phần>/<id>.json
- *                                            ->  public/content/index.json
+ *   data-source/<học phần>/<phần>/<bài>/<file dữ liệu>  ->  public/content/<học phần>/<phần>/<id>.json
+ *                                                        ->  public/content/<học phần>/index.json
  *
  * Cách dùng:
  *   npm run generate            Sinh lại toàn bộ
@@ -37,14 +37,30 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..');
 const SOURCE_DIR = join(ROOT, 'data-source');
 const OUTPUT_DIR = join(ROOT, 'public', 'content');
-const INDEX_FILE = join(OUTPUT_DIR, 'index.json');
 
 const args = new Set(process.argv.slice(2));
 const CLEAN = args.has('--clean');
 const CHECK_ONLY = args.has('--check');
 
 /**
- * Bảy phần học. PHẢI khớp với `src/app/core/course/course.config.ts`:
+ * Các học phần đang học được và phần học của từng học phần. PHẢI khớp với `COURSES`
+ * trong `src/app/core/course/course.config.ts` (id và `modules`).
+ *
+ * Mỗi học phần một `index.json` riêng: trang chỉ tải danh mục của học phần đang mở, và
+ * id bài được phép trùng giữa hai học phần (cả hai đều có `vocabulary/01-danh-tu`).
+ */
+const COURSES = [
+  {
+    id: 'n3-junbi',
+    name: 'N3 JUNBI',
+    level: 'N3',
+    modules: ['entrance-test', 'vocabulary', 'kanji', 'grammar', 'reading', 'listening', 'mimikara'],
+  },
+  { id: 'btvn-co-ban', name: 'BTVN CƠ BẢN (MỚI)', level: 'N3', modules: ['vocabulary'] },
+];
+
+/**
+ * Bảy phần học. PHẢI khớp với `MODULES` trong `src/app/core/course/course.config.ts`:
  * `folder` ở đây là `folder` bên đó, `kind` là `kind` bên đó.
  */
 const MODULES = [
@@ -56,6 +72,8 @@ const MODULES = [
   { id: 'listening', folder: 'listening', kind: 'listening' },
   { id: 'mimikara', folder: 'mimikara', kind: 'grammar' },
 ];
+
+const MODULE_BY_ID = new Map(MODULES.map((module) => [module.id, module]));
 
 /**
  * Tên file dữ liệu của từng loại bài.
@@ -164,9 +182,9 @@ function findDataFile(folderPath, kind, label) {
 }
 
 /** Đọc một bài và dựng nội dung đã chuẩn hoá. Trả về null nếu bài đó hỏng. */
-function buildUnit(module, folderName) {
-  const folderPath = join(SOURCE_DIR, module.folder, folderName);
-  const label = `${module.folder}/${folderName}`;
+function buildUnit(course, module, folderName) {
+  const folderPath = join(SOURCE_DIR, course.id, module.folder, folderName);
+  const label = `${course.id}/${module.folder}/${folderName}`;
 
   const dataFile = findDataFile(folderPath, module.kind, label);
   if (!dataFile) return null;
@@ -238,6 +256,7 @@ function buildUnit(module, folderName) {
   for (const message of warnings) warn(`[${label}] ${message}`);
 
   return {
+    // `file` tính từ thư mục của học phần, nên danh mục không phải lặp lại tên học phần.
     entry: { id, name, description, kind: module.kind, itemCount, order, file: `${module.folder}/${id}.json` },
     content: { id, name, description, kind: module.kind, ...payload },
     placeholder: false,
@@ -281,67 +300,88 @@ if (!existsSync(SOURCE_DIR)) {
 log(`${c.bold}Sinh noi dung tu data-source/${c.reset}`);
 log();
 
-const indexModules = [];
-const writtenFiles = new Set(['index.json']);
+// Thư mục lạ ở cấp học phần gần như chắc chắn là đặt nhầm chỗ — ví dụ thả bài thẳng vào
+// data-source/vocabulary/ theo cách cũ, từ trước khi nội dung tách theo học phần. Bỏ qua
+// trong im lặng thì bài đó không bao giờ lên trang mà không ai biết vì sao.
+for (const name of listDirs(SOURCE_DIR)) {
+  if (!COURSES.some((course) => course.id === name)) {
+    fail(
+      `data-source/${name}/ không phải học phần nào. Nội dung đặt trong ` +
+        `data-source/<học phần>/<phần học>/, học phần hợp lệ: ${COURSES.map((course) => course.id).join(', ')}`,
+    );
+  }
+}
+
+/** Mọi file đã ghi, tính từ public/content/ — để --clean biết file nào không còn nguồn. */
+const writtenFiles = new Set();
 let totalUnits = 0;
 let totalItems = 0;
 
-for (const module of MODULES) {
-  const moduleDir = join(SOURCE_DIR, module.folder);
-  const folders = listDirs(moduleDir);
-  const units = [];
+for (const course of COURSES) {
+  log(`  ${c.cyan}${course.id}${c.reset}`);
+  const indexModules = [];
 
-  for (const folderName of folders) {
-    const built = buildUnit(module, folderName);
-    if (!built) continue;
+  for (const moduleId of course.modules) {
+    const module = MODULE_BY_ID.get(moduleId);
+    const folders = listDirs(join(SOURCE_DIR, course.id, module.folder));
+    const units = [];
 
-    const duplicate = units.find((unit) => unit.id === built.entry.id);
-    if (duplicate) {
-      fail(`[${module.folder}/${folderName}] id "${built.entry.id}" đã được bài khác dùng`);
-      continue;
+    for (const folderName of folders) {
+      const built = buildUnit(course, module, folderName);
+      if (!built) continue;
+
+      const duplicate = units.find((unit) => unit.id === built.entry.id);
+      if (duplicate) {
+        fail(`[${course.id}/${module.folder}/${folderName}] id "${built.entry.id}" đã được bài khác dùng`);
+        continue;
+      }
+
+      units.push(built.entry);
+      writtenFiles.add(`${course.id}/${built.entry.file}`);
+      writeJson(join(OUTPUT_DIR, course.id, built.entry.file), built.content);
+      totalItems += built.entry.itemCount;
     }
 
-    units.push(built.entry);
-    writtenFiles.add(built.entry.file);
-    writeJson(join(OUTPUT_DIR, built.entry.file), built.content);
-    totalItems += built.entry.itemCount;
+    units.sort((a, b) => a.order - b.order || a.name.localeCompare(b.name, 'vi'));
+    totalUnits += units.length;
+    indexModules.push({ id: module.id, units });
+
+    const count = units.length;
+    const pending = units.filter((unit) => unit.itemCount === 0).length;
+    const suffix = pending > 0 ? ` ${c.dim}(${pending} giu cho)${c.reset}` : '';
+    const line = `    ${module.folder.padEnd(14)} ${String(count).padStart(3)} bai`;
+    log((count > 0 ? `${c.green}${line}${c.reset}` : `${c.dim}${line}${c.reset}`) + suffix);
   }
 
-  units.sort((a, b) => a.order - b.order || a.name.localeCompare(b.name, 'vi'));
-  totalUnits += units.length;
-  indexModules.push({ id: module.id, units });
-
-  const count = units.length;
-  const pending = units.filter((unit) => unit.itemCount === 0).length;
-  const suffix = pending > 0 ? ` ${c.dim}(${pending} giu cho)${c.reset}` : '';
-  const line = `  ${module.folder.padEnd(14)} ${String(count).padStart(3)} bai`;
-  log((count > 0 ? `${c.green}${line}${c.reset}` : `${c.dim}${line}${c.reset}`) + suffix);
+  writtenFiles.add(`${course.id}/index.json`);
+  writeJson(join(OUTPUT_DIR, course.id, 'index.json'), {
+    course: { id: course.id, name: course.name, level: course.level },
+    generatedAt: new Date().toISOString(),
+    modules: indexModules,
+  });
 }
-
-writeJson(INDEX_FILE, {
-  course: { id: 'n3-junbi', name: 'N3 JUNBI', level: 'N3' },
-  generatedAt: new Date().toISOString(),
-  modules: indexModules,
-});
 
 // Xoá file .json không còn nguồn tương ứng. Chỉ khi được yêu cầu: thư mục public/
 // có thể chứa file người dùng tự đặt vào, xoá tự động là mất dữ liệu không hỏi.
 if (CLEAN && !CHECK_ONLY && existsSync(OUTPUT_DIR)) {
-  for (const module of MODULES) {
-    const dir = join(OUTPUT_DIR, module.folder);
-    if (!existsSync(dir)) continue;
-    for (const name of readdirSync(dir)) {
-      const relative = `${module.folder}/${name}`;
-      if (extname(name) === '.json' && !writtenFiles.has(relative)) {
-        rmSync(join(dir, name));
-        log(`${c.dim}  xoa ${relative}${c.reset}`);
+  for (const course of COURSES) {
+    for (const moduleId of course.modules) {
+      const folder = MODULE_BY_ID.get(moduleId).folder;
+      const dir = join(OUTPUT_DIR, course.id, folder);
+      if (!existsSync(dir)) continue;
+      for (const name of readdirSync(dir)) {
+        const relative = `${course.id}/${folder}/${name}`;
+        if (extname(name) === '.json' && !writtenFiles.has(relative)) {
+          rmSync(join(dir, name));
+          log(`${c.dim}  xoa ${relative}${c.reset}`);
+        }
       }
     }
   }
 }
 
 log();
-log(`  tong cong      : ${totalUnits} bai, ${totalItems} muc`);
+log(`  tong cong      : ${COURSES.length} hoc phan, ${totalUnits} bai, ${totalItems} muc`);
 if (placeholderCount > 0) log(`  ${c.dim}dang giu cho   : ${placeholderCount} bai (moi co meta.json)${c.reset}`);
 if (warningCount > 0) log(`${c.yellow}  canh bao       : ${warningCount}${c.reset}`);
 log();

@@ -1,5 +1,5 @@
 /**
- * Hình dạng dữ liệu học của khoá N3 JUNBI.
+ * Hình dạng dữ liệu học, dùng chung cho mọi học phần.
  *
  * Mỗi interface ở đây trùng đúng cấu trúc file JSON trong `public/content/`, do
  * `scripts/generate-content.mjs` sinh ra từ `data-source/`. Sửa một trường ở đây
@@ -269,7 +269,7 @@ export interface TestSection {
 // ── Bài học và danh mục ────────────────────────────────────────────────────
 
 /**
- * Một dòng trong `content/index.json`: đủ để vẽ danh sách bài mà chưa phải tải
+ * Một dòng trong `content/<học phần>/index.json`: đủ để vẽ danh sách bài mà chưa phải tải
  * nội dung của bài. Trang danh sách của một phần có thể có tới vài chục bài, tải
  * hết nội dung ngay từ đầu là tải thừa gần như toàn bộ.
  */

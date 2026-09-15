@@ -1,7 +1,7 @@
 <div class="container page">
   <div class="stack stack-xl">
     <section class="page-head">
-      <a class="back-link small" [routerLink]="['/', module().path]">
+      <a class="back-link small" [routerLink]="['/', course.id, module().path]">
         {{ t('common.backToList') }}
       </a>
 
@@ -30,7 +30,7 @@
         <span class="empty-state-icon" aria-hidden="true">🚧</span>
         <p class="empty-state-title">{{ t('unit.notFound') }}</p>
         <p class="empty-state-text"><app-t key="error.unitNotFound" block /></p>
-        <a class="btn btn-sm" [routerLink]="['/', module().path]">{{ t('common.backToList') }}</a>
+        <a class="btn btn-sm" [routerLink]="['/', course.id, module().path]">{{ t('common.backToList') }}</a>
       </div>
     }
 

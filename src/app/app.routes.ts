@@ -1,167 +1,152 @@
-import { Routes } from '@angular/router';
+import { Route, Routes } from '@angular/router';
 
-import { COURSE_ID, MODULES } from './core/course/course.config';
+import {
+  COURSE,
+  COURSES,
+  CourseDef,
+  MODULES,
+  ModuleDef,
+  modulesOf,
+} from './core/course/course.config';
 import { practiceGuard, resultGuard } from './core/guards/session.guards';
+import type { UnitKind } from './core/models/content.model';
+import { ContentStore } from './core/services/content-store';
+import { PracticeSessionStore } from './core/services/practice-session-store';
+import { ProgressStore } from './core/services/progress-store';
 
 /**
- * Bảy phần học, mỗi phần một cặp route: danh sách bài và chi tiết một bài.
+ * Địa chỉ trang có dạng `/<học phần>/<phần học>/<bài>`:
  *
- * `title` là KHOÁ thông điệp, không phải chữ hiển thị — `AppTitleStrategy` dịch
- * khoá đó rồi ghép với tên ứng dụng, và đặt lại mỗi khi đổi ngôn ngữ.
+ *   /n3-junbi/vocabulary/01-danh-tu        /btvn-co-ban/vocabulary/01-danh-tu
  *
- * `data.moduleId` là thứ nối route với cấu hình khoá học: nhờ
- * `withComponentInputBinding()` (xem app.config.ts) nó vào thẳng input `moduleId`
- * của component. Đó là lý do bảy danh sách bài dùng CHUNG một component: chúng chỉ
- * khác nhau ở phần nào đang được liệt kê, còn tìm kiếm, khung rỗng, lưới thẻ và
- * trạng thái tải thì giống hệt.
+ * Route KHÔNG viết tay mà dựng từ COURSES × MODULES: hai học phần có cùng bộ màn hình,
+ * viết tay thì mỗi học phần mới là chép thêm vài chục dòng, và chép sót một route là
+ * một trang trắng mà không ai báo.
  *
- * Ngược lại, màn hình CHI TIẾT thì mỗi loại một component: bảng từ vựng, lưới chữ
- * Hán và trang lý thuyết ngữ pháp không có mấy điểm chung để mà gộp. Riêng phần
- * Mimikara dùng lại màn hình ngữ pháp vì dữ liệu cùng hình dạng.
+ * Mỗi học phần là một route cha có `providers` riêng: học phần, ContentStore,
+ * ProgressStore, PracticeSessionStore. Hai học phần có bài trùng id (cả hai đều có
+ * `vocabulary/01-danh-tu`), mà danh mục, tiến độ và phiên luyện đều tra theo id bài —
+ * dùng chung một store ở gốc thì tiến độ BTVN ghi đè lên N3 JUNBI. Tách ở cấp route
+ * thì component vẫn `inject(ContentStore)` như cũ, không phải truyền học phần đi khắp nơi.
+ *
+ * `title` là KHOÁ thông điệp, không phải chữ hiển thị — `AppTitleStrategy` dịch khoá
+ * đó rồi ghép với tên ứng dụng, và đặt lại mỗi khi đổi ngôn ngữ.
+ *
+ * `data.moduleId` vào thẳng input `moduleId` của component nhờ
+ * `withComponentInputBinding()` (xem app.config.ts). Đó là lý do mọi danh sách bài
+ * dùng CHUNG một component: chúng chỉ khác nhau ở phần nào đang được liệt kê. Ngược
+ * lại, màn hình CHI TIẾT thì mỗi hình dạng dữ liệu một component (xem DETAIL).
  *
  * Mọi màn hình đều `loadComponent` để mỗi phần là một gói tải riêng: người chỉ học
  * từ vựng không phải tải mã của phần nghe hiểu.
  */
-const unitList = () => import('./features/unit-list/unit-list').then((m) => m.UnitList);
-const practice = () => import('./features/practice/practice').then((m) => m.Practice);
-const result = () => import('./features/result/result').then((m) => m.Result);
 
-export const routes: Routes = [
-  {
-    // Trang gốc: chọn một trong năm học phần. Không đặt title để tab hiện đúng tên
-    // ứng dụng.
-    path: '',
-    loadComponent: () =>
-      import('./features/course-list/course-list').then((m) => m.CourseList),
-  },
+type LoadComponent = NonNullable<Route['loadComponent']>;
 
-  {
-    // Trang của học phần N3 JUNBI: bảy phần học. Các phần học chưa mang tiền tố học
-    // phần (/vocabulary, không phải /n3-junbi/vocabulary) — xem COURSES.
-    path: COURSE_ID,
-    title: 'home.title',
-    loadComponent: () => import('./features/home/home').then((m) => m.Home),
-  },
+const courseList: LoadComponent = () =>
+  import('./features/course-list/course-list').then((m) => m.CourseList);
+const home: LoadComponent = () => import('./features/home/home').then((m) => m.Home);
+const unitList: LoadComponent = () =>
+  import('./features/unit-list/unit-list').then((m) => m.UnitList);
+const entranceTest: LoadComponent = () =>
+  import('./features/entrance-test/entrance-test').then((m) => m.EntranceTest);
+const practice: LoadComponent = () => import('./features/practice/practice').then((m) => m.Practice);
+const result: LoadComponent = () => import('./features/result/result').then((m) => m.Result);
 
-  {
-    path: 'test',
-    title: 'route.test',
-    data: { moduleId: 'entrance-test' },
-    loadComponent: () =>
-      import('./features/entrance-test/entrance-test').then((m) => m.EntranceTest),
-  },
+/**
+ * Màn hình chi tiết của từng hình dạng dữ liệu. Phần Mimikara có `kind: 'grammar'` nên
+ * tự dùng màn hình ngữ pháp. Bài kiểm tra nhập môn không có màn hình chi tiết: xem trước
+ * đề thì bài kiểm tra đầu vào không còn đo được gì (xem EntranceTest).
+ */
+const DETAIL: Record<Exclude<UnitKind, 'test'>, LoadComponent> = {
+  vocabulary: () =>
+    import('./features/vocabulary-detail/vocabulary-detail').then((m) => m.VocabularyDetail),
+  kanji: () => import('./features/kanji-detail/kanji-detail').then((m) => m.KanjiDetail),
+  grammar: () => import('./features/grammar-detail/grammar-detail').then((m) => m.GrammarDetail),
+  reading: () => import('./features/reading-detail/reading-detail').then((m) => m.ReadingDetail),
+  listening: () =>
+    import('./features/listening-detail/listening-detail').then((m) => m.ListeningDetail),
+};
 
-  {
-    path: 'vocabulary',
-    title: 'module.vocabulary.label',
-    data: { moduleId: 'vocabulary' },
-    loadComponent: unitList,
-  },
-  {
-    path: 'vocabulary/:id',
-    title: 'route.unit',
-    data: { moduleId: 'vocabulary' },
-    loadComponent: () =>
-      import('./features/vocabulary-detail/vocabulary-detail').then((m) => m.VocabularyDetail),
-  },
+/** Mọi route của một phần học, tính từ trong học phần: danh sách, chi tiết, luyện tập, kết quả. */
+function moduleRoutes(module: ModuleDef): Routes {
+  const data = { moduleId: module.id };
 
-  {
-    path: 'kanji',
-    title: 'module.kanji.label',
-    data: { moduleId: 'kanji' },
-    loadComponent: unitList,
-  },
-  {
-    path: 'kanji/:id',
-    title: 'route.unit',
-    data: { moduleId: 'kanji' },
-    loadComponent: () => import('./features/kanji-detail/kanji-detail').then((m) => m.KanjiDetail),
-  },
+  const pages: Routes =
+    module.kind === 'test'
+      ? [{ path: module.path, title: 'route.test', data, loadComponent: entranceTest }]
+      : [
+          { path: module.path, title: module.labelKey, data, loadComponent: unitList },
+          { path: `${module.path}/:id`, title: 'route.unit', data, loadComponent: DETAIL[module.kind] },
+        ];
 
-  {
-    path: 'grammar',
-    title: 'module.grammar.label',
-    data: { moduleId: 'grammar' },
-    loadComponent: unitList,
-  },
-  {
-    path: 'grammar/:id',
-    title: 'route.unit',
-    data: { moduleId: 'grammar' },
-    loadComponent: () =>
-      import('./features/grammar-detail/grammar-detail').then((m) => m.GrammarDetail),
-  },
-
-  {
-    path: 'reading',
-    title: 'module.reading.label',
-    data: { moduleId: 'reading' },
-    loadComponent: unitList,
-  },
-  {
-    path: 'reading/:id',
-    title: 'route.unit',
-    data: { moduleId: 'reading' },
-    loadComponent: () =>
-      import('./features/reading-detail/reading-detail').then((m) => m.ReadingDetail),
-  },
-
-  {
-    path: 'listening',
-    title: 'module.listening.label',
-    data: { moduleId: 'listening' },
-    loadComponent: unitList,
-  },
-  {
-    path: 'listening/:id',
-    title: 'route.unit',
-    data: { moduleId: 'listening' },
-    loadComponent: () =>
-      import('./features/listening-detail/listening-detail').then((m) => m.ListeningDetail),
-  },
-
-  {
-    path: 'mimikara',
-    title: 'module.mimikara.label',
-    data: { moduleId: 'mimikara' },
-    loadComponent: unitList,
-  },
-  {
-    path: 'mimikara/:id',
-    title: 'route.unit',
-    // Cùng component với /grammar/:id — khác nhau đúng một chỗ là phần nào đang mở,
-    // và chỗ đó đi qua data.moduleId.
-    data: { moduleId: 'mimikara' },
-    loadComponent: () =>
-      import('./features/grammar-detail/grammar-detail').then((m) => m.GrammarDetail),
-  },
-
-  // Luyện tập và kết quả nằm DƯỚI địa chỉ của bài đang luyện:
-  //
-  //   /vocabulary/02-dong-tu/practice      /vocabulary/02-dong-tu/result
-  //
-  // Trước đây là /practice và /result trơn, nên thanh địa chỉ không nói đang luyện phần
-  // nào, bài nào, và mục "Từ vựng" trên menu không sáng — menu sáng theo đoạn đầu của
-  // địa chỉ (xem `sectionOf` trong app.ts). Dựng từ MODULES để phần học thêm sau tự có cặp này.
-  //
-  // Không có link vào từ menu: chúng chỉ tới từ nút "bắt đầu luyện" của một bài. Guard
-  // chặn người vào thẳng bằng URL khi không có phiên của đúng bài đó.
-  ...MODULES.flatMap((module): Routes => [
+  return [
+    ...pages,
+    // Luyện tập và kết quả nằm DƯỚI địa chỉ của bài đang luyện
+    // (/n3-junbi/vocabulary/02-dong-tu/practice), để thanh địa chỉ nói rõ đang luyện
+    // phần nào, bài nào, và mục menu của phần đó vẫn sáng — menu sáng theo đoạn phần học
+    // của địa chỉ (xem `section` trong app.ts).
+    //
+    // Không có link vào từ menu: chúng chỉ tới từ nút "bắt đầu luyện" của một bài. Guard
+    // chặn người vào thẳng bằng URL khi không có phiên của đúng bài đó.
     {
       path: `${module.path}/:id/practice`,
       title: 'route.practice',
-      data: { moduleId: module.id },
+      data,
       canActivate: [practiceGuard],
       loadComponent: practice,
     },
     {
       path: `${module.path}/:id/result`,
       title: 'route.result',
-      data: { moduleId: module.id },
+      data,
       canActivate: [resultGuard],
       loadComponent: result,
     },
-  ]),
+  ];
+}
+
+function courseRoute(course: CourseDef): Route {
+  return {
+    path: course.id,
+    providers: [
+      { provide: COURSE, useValue: course },
+      ContentStore,
+      ProgressStore,
+      PracticeSessionStore,
+    ],
+    children: [
+      // Trang của học phần: các phần học của nó.
+      { path: '', pathMatch: 'full', title: course.nameKey, loadComponent: home },
+      ...modulesOf(course).flatMap(moduleRoutes),
+    ],
+  };
+}
+
+/**
+ * Học phần của các địa chỉ cũ. Trước khi tách học phần, N3 JUNBI nằm ngay dưới gốc
+ * (/vocabulary/01-danh-tu) — link đã lưu hay đã gửi đi vẫn phải mở đúng bài. Viết thẳng
+ * id chứ không dùng DEFAULT_COURSE: các địa chỉ này thuộc về N3 JUNBI, kể cả khi sau này
+ * đổi học phần mặc định.
+ */
+const LEGACY_COURSE_ID = 'n3-junbi';
+
+export const routes: Routes = [
+  {
+    // Trang gốc: chọn một trong năm học phần. Không đặt title để tab hiện đúng tên
+    // ứng dụng.
+    path: '',
+    pathMatch: 'full',
+    loadComponent: courseList,
+  },
+
+  ...COURSES.filter((course) => course.status === 'active').map(courseRoute),
+
+  // Mặc định pathMatch 'prefix', nên phần còn lại của địa chỉ được giữ nguyên khi chuyển:
+  // /vocabulary/01-danh-tu → /n3-junbi/vocabulary/01-danh-tu.
+  ...MODULES.map(
+    (module): Route => ({ path: module.path, redirectTo: `${LEGACY_COURSE_ID}/${module.path}` }),
+  ),
 
   { path: '**', redirectTo: '' },
 ];

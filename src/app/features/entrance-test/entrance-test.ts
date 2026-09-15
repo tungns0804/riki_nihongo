@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, inject, input, signal } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 
-import { COURSE_ID, moduleOf } from '../../core/course/course.config';
+import { COURSE, moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import type { ModuleId, UnitIndexEntry } from '../../core/models/content.model';
@@ -34,11 +34,12 @@ export class EntranceTest {
   private readonly progress = inject(ProgressStore);
   private readonly router = inject(Router);
   private readonly lang = inject(LanguageStore);
+  private readonly course = inject(COURSE);
 
   protected readonly t = this.lang.t.bind(this.lang);
 
   /** Trang của học phần (`/n3-junbi`): "Về trang học phần" dẫn về đây, không về trang gốc chọn học phần. */
-  protected readonly courseHome = ['/', COURSE_ID];
+  protected readonly courseHome = ['/', this.course.id];
 
   readonly moduleId = input.required<ModuleId>();
 
@@ -81,8 +82,8 @@ export class EntranceTest {
       if (questions.length === 0) return;
 
       this.session.start(config, questions);
-      // Địa chỉ nói rõ đang làm đề nào (/test/de-1/practice), cùng kiểu với các bài khác.
-      await this.router.navigate(['/', this.module().path, unit.id, 'practice']);
+      // Địa chỉ nói rõ đang làm đề nào (/n3-junbi/test/de-1/practice), cùng kiểu với các bài khác.
+      await this.router.navigate(['/', this.course.id, this.module().path, unit.id, 'practice']);
     } finally {
       this.starting.set(null);
     }

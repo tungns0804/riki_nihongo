@@ -20,8 +20,11 @@ import { isAnswerCorrect } from '../utils/answer-check';
  * Vì phiên chỉ nằm trong bộ nhớ nên F5 giữa chừng là mất. Đó là lý do có hai guard
  * ở `core/guards/session.guards.ts`: vào thẳng trang luyện tập hay trang kết quả mà
  * không có phiên của đúng bài đó thì đưa về trang của bài thay vì hiện màn hình trống.
+ *
+ * Mỗi học phần một bản, cấp ở route của học phần (xem app.routes.ts): guard so phiên
+ * với bài theo phần học + id bài, mà hai học phần có bài trùng cả hai thứ đó.
  */
-@Injectable({ providedIn: 'root' })
+@Injectable()
 export class PracticeSessionStore {
   private readonly configRef = signal<PracticeConfig | null>(null);
   private readonly questionsRef = signal<PracticeQuestion[]>([]);

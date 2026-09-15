@@ -1,6 +1,6 @@
 # N3 JUNBI — 文字語彙 · ĐỘNG TỪ (121–140)
 # Nguồn: 第7課 của tài liệu N3準備 文字語彙
-# Định dạng: xem data-source/vocabulary/README.md
+# Định dạng: xem data-source/n3-junbi/vocabulary/README.md
 #
 # Khác file danh từ ở hai chỗ:
 #   - Chữ in đỏ gạch chân trong câu ví dụ của sách viết trong [ ]:  ・のどが[渇いた]。

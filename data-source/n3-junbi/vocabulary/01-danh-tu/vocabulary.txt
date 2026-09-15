@@ -1,6 +1,6 @@
 # N3 JUNBI — 文字語彙 · DANH TỪ (01–120)
 # Nguồn: 第1課 đến 第6課 của tài liệu N3準備 文字語彙
-# Định dạng: xem data-source/vocabulary/README.md
+# Định dạng: xem data-source/n3-junbi/vocabulary/README.md
 
 # ── 第1課：01〜20 ──────────────────────────────────────────────
 

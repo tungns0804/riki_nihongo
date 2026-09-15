@@ -4,8 +4,10 @@ import {
   ChangeDetectionStrategy,
   Component,
   computed,
+  effect,
   ElementRef,
   inject,
+  linkedSignal,
   signal,
   viewChild,
 } from '@angular/core';
@@ -14,10 +16,17 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { filter, map } from 'rxjs';
 
-import { CURRENT_COURSE, MODULES, moduleByPath } from './core/course/course.config';
+import {
+  CourseDef,
+  DEFAULT_COURSE,
+  courseById,
+  moduleByPath,
+  modulesOf,
+} from './core/course/course.config';
 import { LanguageStore } from './core/i18n/language-store';
 import type { MessageKey } from './core/i18n/messages';
 import { T } from './core/i18n/t';
+import { readJson, writeJson } from './core/services/local-storage';
 import { NavigationProgress } from './core/services/navigation-progress';
 import { ThemeStore } from './core/services/theme-store';
 import { CourseSwitcher } from './features/shared/course-switcher/course-switcher';
@@ -26,13 +35,15 @@ import { Icon } from './features/shared/icon/icon';
 /** Cuộn quá ngưỡng này thì nút "lên đầu trang" hiện ra (đơn vị: px). */
 const BACK_TO_TOP_AT = 700;
 
+/** Học phần học gần nhất — để trang gốc biết thanh bên nên hiện học phần nào. */
+const COURSE_STORAGE_KEY = 'riki:course';
+
 /**
- * Đoạn đầu tiên của đường dẫn, bỏ query và fragment — chính là `path` của phần học
- * đang mở. Bài chi tiết (`/vocabulary/:id`) và cả luyện tập, kết quả
- * (`/vocabulary/:id/practice`) đều nằm dưới đoạn đó nên tự thuộc về đúng mục.
+ * Các đoạn của đường dẫn, bỏ query và fragment:
+ * `/n3-junbi/vocabulary/02-dong-tu/practice` → học phần, phần học, bài, luyện tập.
  */
-function sectionOf(url: string): string {
-  return url.split(/[?#;]/)[0].split('/').find(Boolean) ?? '';
+function segmentsOf(url: string): string[] {
+  return url.split(/[?#;]/)[0].split('/').filter(Boolean);
 }
 
 @Component({
@@ -56,32 +67,50 @@ export class App {
 
   protected readonly t = this.lang.t.bind(this.lang);
 
-  /**
-   * Bảy mục menu dựng từ cấu hình khoá học chứ không viết tay trong template: thêm
-   * một phần học là thêm một dòng ở course.config.ts, menu tự có mục mới.
-   */
-  protected readonly modules = MODULES;
-
-  /** Học phần đang học, ghi dưới tên ứng dụng ở thanh bên. */
-  protected readonly course = CURRENT_COURSE;
-
-  /**
-   * Phần học đang mở, tính cả các trang chi tiết nằm dưới nó.
-   *
-   * Vì sao tự tính thay cho `routerLinkActive`: menu giờ vẽ HAI lần (thanh bên và
-   * dải điện thoại) và breadcrumb cũng cần biết đang ở phần nào. Một tín hiệu dùng
-   * chung cho cả ba chỗ thì không có chuyện menu sáng mục này mà breadcrumb ghi tên
-   * mục khác.
-   */
-  protected readonly section = toSignal(
+  private readonly segments = toSignal(
     this.router.events.pipe(
       filter((event) => event instanceof NavigationEnd),
-      map((event) => sectionOf(event.urlAfterRedirects)),
+      map((event) => segmentsOf(event.urlAfterRedirects)),
     ),
-    { initialValue: sectionOf(this.router.url) },
+    { initialValue: segmentsOf(this.router.url) },
   );
 
-  /** Tên hiện sau "Riki Nihongo /" trên thanh trên cùng; trang chủ thì không có. */
+  /** Học phần nằm trên địa chỉ; null ở trang gốc chọn học phần. */
+  private readonly urlCourse = computed(() => courseById(this.segments()[0]));
+
+  /**
+   * Học phần của thanh bên, của nút chọn học phần và của dòng dưới tên ứng dụng.
+   *
+   * Trang gốc không mang học phần nào trên địa chỉ, nên giữ học phần vừa học (nhớ cả
+   * sang lần mở sau) thay vì nhảy về N3 JUNBI: đang làm BTVN, bấm "Tất cả học phần" mà
+   * menu đổi sang bảy phần của N3 JUNBI thì người học tưởng mình vừa bấm nhầm.
+   */
+  protected readonly course = linkedSignal<CourseDef | null, CourseDef>({
+    source: this.urlCourse,
+    computation: (fromUrl, previous) =>
+      fromUrl ??
+      previous?.value ??
+      courseById(readJson<unknown>(COURSE_STORAGE_KEY, null)) ??
+      DEFAULT_COURSE,
+  });
+
+  /**
+   * Mục menu dựng từ cấu hình học phần chứ không viết tay trong template: thêm một phần
+   * học là thêm một dòng ở course.config.ts, menu tự có mục mới.
+   */
+  protected readonly modules = computed(() => modulesOf(this.course()));
+
+  /**
+   * Phần học đang mở (`vocabulary`), tính cả các trang chi tiết, luyện tập, kết quả nằm
+   * dưới nó. Rỗng ở trang gốc và trang của học phần.
+   *
+   * Vì sao tự tính thay cho `routerLinkActive`: menu vẽ HAI lần (thanh bên và dải điện
+   * thoại) và breadcrumb cũng cần biết đang ở phần nào. Một tín hiệu dùng chung cho cả
+   * ba chỗ thì không có chuyện menu sáng mục này mà breadcrumb ghi tên mục khác.
+   */
+  protected readonly section = computed(() => (this.urlCourse() ? (this.segments()[1] ?? '') : ''));
+
+  /** Tên hiện sau "Riki Nihongo / N3 JUNBI /" trên thanh trên cùng; trang học phần thì không có. */
   protected readonly crumbKey = computed<MessageKey | null>(
     () => moduleByPath(this.section())?.labelKey ?? null,
   );
@@ -101,6 +130,8 @@ export class App {
   private readonly tabStrip = viewChild.required<ElementRef<HTMLElement>>('tabStrip');
 
   constructor() {
+    effect(() => writeJson(COURSE_STORAGE_KEY, this.course().id));
+
     // Chạy sau lần vẽ đầu tiên vì lúc này <header> chưa tồn tại. Trên máy chủ thì
     // không chạy, nên không cần tự kiểm tra `window`.
     afterNextRender(() => this.trackHeaderHeight());
@@ -152,8 +183,8 @@ export class App {
 
   /**
    * Trên điện thoại menu là một dải cuộn ngang, và mục đang mở có thể nằm khuất
-   * ngoài mép — mở thẳng /mimikara là mục thứ bảy. Kéo nó vào giữa dải, không thì
-   * người dùng không thấy mình đang ở mục nào.
+   * ngoài mép — mở thẳng /n3-junbi/mimikara là mục thứ bảy. Kéo nó vào giữa dải, không
+   * thì người dùng không thấy mình đang ở mục nào.
    */
   private revealActiveTab(): void {
     const strip = this.tabStrip().nativeElement;

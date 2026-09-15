@@ -41,7 +41,9 @@ export const MESSAGES = {
 
   // ── Vỏ ứng dụng ────────────────────────────────────────────────────────
   'app.name': { vi: 'Riki Nihongo', ja: 'Riki Nihongo' },
-  'app.title': { vi: 'Riki Nihongo — N3 JUNBI', ja: 'Riki Nihongo — N3 JUNBI' },
+  // Không kèm tên học phần: tiêu đề tab là "<trang> · <app.title>", mà trang có thể
+  // thuộc bất kỳ học phần nào.
+  'app.title': { vi: 'Riki Nihongo', ja: 'Riki Nihongo' },
   'app.nav': { vi: 'Điều hướng chính', ja: 'メインナビゲーション' },
   'app.breadcrumb': { vi: 'Bạn đang ở', ja: '現在の場所' },
   'app.language.switch': { vi: 'Chuyển sang {name}', ja: '{name}に切り替える' },
@@ -64,6 +66,9 @@ export const MESSAGES = {
   'course.switch': { vi: 'Chọn học phần', ja: 'コースを選ぶ' },
   'course.current': { vi: 'Đang học', ja: '受講中' },
   'course.soon': { vi: 'Sắp có', ja: '準備中' },
+  // Nhãn trên thẻ ở trang gốc. Không dùng "Đang học": có hai học phần mở thì cả hai thẻ
+  // cùng ghi "Đang học", đọc như đang học hai khoá một lúc.
+  'course.open': { vi: 'Đã mở', ja: '公開中' },
   // Tên học phần là tên riêng của Riki nên giữ nguyên ở cả hai ngôn ngữ.
   'course.n3-junbi.name': { vi: 'N3 JUNBI', ja: 'N3 JUNBI' },
   'course.btvn-co-ban.name': { vi: 'BTVN CƠ BẢN (MỚI)', ja: 'BTVN CƠ BẢN (MỚI)' },
@@ -74,11 +79,15 @@ export const MESSAGES = {
     vi: 'Chuẩn bị N3: kiểm tra nhập môn, từ vựng, kanji, ngữ pháp, đọc hiểu, nghe hiểu và ngữ pháp Mimikara Oboeru.',
     ja: 'N3準備：入門テスト、語彙、漢字、文法、読解、聴解、耳から覚える文法。',
   },
+  'course.btvn-co-ban.desc': {
+    vi: 'Bài tập về nhà N3 cơ bản: từ vựng theo từng bài tập 10 từ, kèm cách đọc, nghĩa và câu ví dụ.',
+    ja: 'N3基礎の宿題：1回10語ずつの語彙。読み方・意味・例文つき。',
+  },
   'course.soon.desc': { vi: 'Nội dung đang được chuẩn bị.', ja: '教材を準備中です。' },
   'course.list.title': { vi: 'Các học phần của Riki Nihongo', ja: 'Riki Nihongo のコース' },
   'course.list.subtitle': {
-    vi: 'Chọn học phần để bắt đầu. Hiện đã có N3 JUNBI, các học phần khác đang được chuẩn bị.',
-    ja: 'コースを選んで始めましょう。現在は N3 JUNBI を公開中で、ほかのコースは準備中です。',
+    vi: 'Chọn học phần để bắt đầu. Hiện đã có N3 JUNBI và BTVN CƠ BẢN (MỚI), các học phần khác đang được chuẩn bị.',
+    ja: 'コースを選んで始めましょう。現在は N3 JUNBI と BTVN CƠ BẢN (MỚI) を公開中で、ほかのコースは準備中です。',
   },
   'course.list.all': { vi: 'Tất cả học phần', ja: 'すべてのコース' },
   'course.list.back': { vi: '← Tất cả học phần', ja: '← すべてのコース' },
@@ -143,7 +152,7 @@ export const MESSAGES = {
   'module.mimikara.unit': { vi: '{count} bài', ja: '{count}課' },
 
   // ── Trang chủ ──────────────────────────────────────────────────────────
-  'home.title': { vi: 'Khoá N3 JUNBI', ja: 'N3 JUNBI コース' },
+  'home.title': { vi: 'Khoá {name}', ja: '{name} コース' },
   'home.subtitle': {
     vi: 'Chọn một phần để bắt đầu. Mỗi phần có danh sách bài riêng và chế độ luyện tập riêng.',
     ja: 'パートを選んで始めましょう。各パートに独自のレッスン一覧と練習モードがあります。',
@@ -237,8 +246,8 @@ export const MESSAGES = {
   'test.start': { vi: 'Bắt đầu làm bài', ja: 'テストを始める' },
   'test.empty.title': { vi: 'Chưa có đề kiểm tra', ja: 'テストがまだありません' },
   'test.empty.text': {
-    vi: 'Đặt đề vào data-source/entrance-test/ rồi chạy npm run generate.',
-    ja: 'data-source/entrance-test/ に問題を置き、npm run generate を実行してください。',
+    vi: 'Đặt đề vào data-source/<học phần>/entrance-test/ rồi chạy npm run generate.',
+    ja: 'data-source/<コース>/entrance-test/ に問題を置き、npm run generate を実行してください。',
   },
 
   // ── Luyện tập ──────────────────────────────────────────────────────────

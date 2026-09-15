@@ -12,7 +12,7 @@ Mỗi BÀI của khoá là MỘT thư mục, chứa hết các mẫu ngữ pháp
 tách thành "Bài 1.1", "Bài 1.2"… Người học mở "Bài 1" là thấy trọn bài như trên lớp.
 
 ```
-data-source/mimikara/01-bai-1/
+data-source/n3-junbi/mimikara/01-bai-1/
 ├── meta.json      { "name": "Bài 1", "description": "～ことにしている · ～こと · …" }
 └── grammar.json   các mẫu theo đúng thứ tự trong bài giảng
 ```
