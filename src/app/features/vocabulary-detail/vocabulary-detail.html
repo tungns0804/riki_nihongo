@@ -36,6 +36,45 @@
 
     @if (unit(); as data) {
       @if (allWords().length > 0) {
+        <!-- Tóm tắt đứng TRƯỚC khung luyện tập như trang Mimikara: biết bài học về gì
+             rồi mới chọn cụm để luyện. Bấm cụm ở đây là chọn cụm của khung luyện tập. -->
+        @if (overview().length > 0) {
+          <section class="card" [attr.aria-label]="t('vocab.overview')">
+            <div class="card-body stack stack-sm">
+              <h2>{{ t('vocab.overview') }}</h2>
+              <p class="hint">{{ t('vocab.overview.hint') }}</p>
+              <ol class="overview-list">
+                @for (item of overview(); track item.label) {
+                  <li class="overview-item">
+                    <button
+                      type="button"
+                      class="chip tnum overview-group"
+                      [class.is-active]="group() === item.label"
+                      [attr.aria-pressed]="group() === item.label"
+                      (click)="toggleGroup(item.label)"
+                    >
+                      {{ item.label }}
+                    </button>
+                    <div class="overview-cell">
+                      @if (item.title) {
+                        <span class="overview-title">{{ item.title }}</span>
+                      }
+                      <ul class="overview-words">
+                        @for (word of item.words; track word.id) {
+                          <li>
+                            <span class="jp overview-jp">{{ word.japanese }}</span>
+                            <span class="muted">{{ firstMeaning(word) }}</span>
+                          </li>
+                        }
+                      </ul>
+                    </div>
+                  </li>
+                }
+              </ol>
+            </div>
+          </section>
+        }
+
         <app-practice-setup [unit]="data" [(group)]="group" />
 
         <div class="toolbar">

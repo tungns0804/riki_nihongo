@@ -101,6 +101,35 @@ export class VocabularyDetail {
       .filter((section) => section.words.length > 0);
   });
 
+  /**
+   * Bảng "Tóm tắt bài": mỗi cụm một hàng — khoảng số, chủ đề, các từ kèm nghĩa.
+   *
+   * Luôn là cả bài, không lọc theo cụm hay ô tìm: bảng này để biết bài học về gì và
+   * để CHUYỂN cụm, lọc đi thì mất đúng các hàng cần bấm.
+   *
+   * Chỉ hiện khi có ít nhất một cụm viết chủ đề (`## 266–273 = …` trong nguồn). Không
+   * có chủ đề thì bảng chỉ lặp lại danh sách từ ngay bên dưới, mà bài Danh từ 120 từ
+   * sẽ dài thêm cả màn hình chỉ để nhắc lại chính nó.
+   */
+  protected readonly overview = computed(() => {
+    const unit = this.unit();
+    if (!unit || !unit.groups.some((group) => group.title)) return [];
+
+    return unit.groups.map((group) => ({
+      ...group,
+      words: unit.words.filter((word) => word.group === group.label),
+    }));
+  });
+
+  /** Bấm lại cụm đang chọn thì về cả bài, như nút bật tắt. */
+  protected toggleGroup(label: string): void {
+    this.group.update((current) => (current === label ? null : label));
+  }
+
+  /** Nghĩa đầu tiên: bảng tóm tắt chỉ cần gợi ra từ, đủ các nghĩa đã có trên thẻ. */
+  protected firstMeaning(word: VocabWord): string {
+    return word.vietnamese.split('/')[0].trim();
+  }
 
   /**
    * Cắt câu ví dụ quanh dạng của từ trong câu để tô nó, như chữ đỏ gạch chân của sách.

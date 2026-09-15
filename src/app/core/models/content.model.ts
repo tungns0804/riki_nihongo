@@ -128,6 +128,19 @@ export interface VocabWord {
   notes: VocabNote[];
 }
 
+/**
+ * Một cụm của bài từ vựng: nhãn khoảng số và chủ đề của buổi học đó.
+ *
+ * Chủ đề nằm ở cấp bài chứ không lặp trên từng từ: cả tám từ của một cụm chung một
+ * chủ đề, và bảng "Tóm tắt bài" đầu trang cần đọc nó trước khi duyệt tới từ nào.
+ */
+export interface VocabGroup {
+  /** Nhãn cụm, trùng `VocabWord.group`, ví dụ "266–273". */
+  label: string;
+  /** Chủ đề, ví dụ "Bài 14.2 · Cảm giác, cảm xúc và tính cách". Rỗng nghĩa là chưa viết. */
+  title: string;
+}
+
 // ── Kanji ──────────────────────────────────────────────────────────────────
 
 /** Một từ ghép minh hoạ cho chữ Hán. */
@@ -283,6 +296,8 @@ export interface UnitIndexEntry {
  */
 export interface Unit extends Omit<UnitIndexEntry, 'file'> {
   words: VocabWord[];
+  /** Các cụm của bài từ vựng theo thứ tự xuất hiện, kèm chủ đề. Rỗng nếu không chia cụm. */
+  groups: VocabGroup[];
   kanji: KanjiEntry[];
   points: GrammarPoint[];
   passages: ReadingPassage[];
@@ -315,6 +330,7 @@ export function emptyUnit(entry: Omit<UnitIndexEntry, 'file'>): Unit {
   return {
     ...entry,
     words: [],
+    groups: [],
     kanji: [],
     points: [],
     passages: [],

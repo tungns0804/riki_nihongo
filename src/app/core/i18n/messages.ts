@@ -188,6 +188,12 @@ export const MESSAGES = {
   'vocab.search.aria': { vi: 'Tìm từ trong bài này', ja: 'この課の単語を検索' },
   'vocab.shown': { vi: 'Hiện {shown}/{total} từ', ja: '{total}語中{shown}語' },
   'vocab.group': { vi: 'Cụm {name}', ja: 'グループ {name}' },
+  // Cùng tên với bảng "Tóm tắt ngữ pháp" của Mimikara: hai bảng làm cùng một việc.
+  'vocab.overview': { vi: 'Tóm tắt bài', ja: '課のまとめ' },
+  'vocab.overview.hint': {
+    vi: 'Bấm một cụm để xem và luyện riêng các từ của cụm đó.',
+    ja: 'グループを押すと、その単語だけを表示・練習できます。',
+  },
   'vocab.noMatch': {
     vi: 'Không có từ nào khớp {term}',
     ja: '{term} に一致する単語はありません',

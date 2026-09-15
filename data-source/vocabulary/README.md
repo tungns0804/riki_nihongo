@@ -38,6 +38,20 @@ loại trừ những từ chưa học.
 
 Bài không có dòng `##` nào thì không chia cụm, hàng nút này tự ẩn.
 
+### Chủ đề của cụm
+
+Sau nhãn cụm có thể viết chủ đề, ngăn bằng dấu `=`:
+
+```
+# nguồn: bai-142-tu-vung-cai-thien-266-273.pdf
+## 266–273 = Bài 14.2 · Cảm giác, cảm xúc và tính cách
+```
+
+Chỉ cần MỘT cụm có chủ đề là đầu trang bài hiện bảng **Tóm tắt bài**: mỗi cụm một hàng
+gồm nút cụm, chủ đề và các từ kèm nghĩa đầu tiên — mở bài ra là biết bài học về gì. Bấm
+nút cụm trong bảng cũng chọn cụm đó cho danh sách và khung luyện tập. Bài không cụm nào
+có chủ đề (Danh từ, Động từ) thì không hiện bảng, vì bảng chỉ lặp lại danh sách từ.
+
 - **Số thứ tự** là số của từ trong giáo trình (01–120). Bỏ trống cũng được, nhưng có
   số thì đối chiếu với bản PDF nhanh hơn nhiều.
 - **Cách đọc** viết trong ngoặc, tuỳ chọn — từ katakana hay từ thuần kana thì bỏ.
@@ -110,7 +124,7 @@ Mỗi bài là MỘT LOẠI TỪ, chứa toàn bộ từ của loại đó — k
 | -------------- | ------------ | ---------- |
 | `01-danh-tu`   | Danh từ      | 120 từ · 第1課–第6課 (01–120), chia 12 cụm 10 từ |
 | `02-dong-tu`   | Động từ      | 20 từ · 第7課 (121–140), chia 2 cụm 10 từ |
-| `03-tinh-tu`   | Tính từ      | 22 từ · 第14課 (259–280), chia 2 cụm 259–265 và 266–280 |
+| `03-tinh-tu`   | Tính từ      | 22 từ · 第14課 (259–280), chia 3 cụm 259–265 (bài 14.1), 266–273 (bài 14.2), 274–280, có chủ đề |
 | `04-katakana`  | Katakana     | chờ nội dung |
 | `05-pho-tu`    | Phó từ       | chờ nội dung |
 

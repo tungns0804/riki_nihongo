@@ -53,8 +53,9 @@ từng loại nằm trong `README.md` của chính thư mục phần học:
 - [Kiểm tra nhập môn](data-source/entrance-test/README.md) — file `.json`
 
 Phần **Từ vựng** đã có nội dung thật: mục "Danh từ" gồm 120 từ của 第1課–第6課, mục
-"Động từ" gồm 20 từ của 第7課 (121–140). Ba mục còn lại (Tính từ, Katakana, Phó từ)
-mới đặt chỗ, đang chờ nội dung.
+"Động từ" gồm 20 từ của 第7課 (121–140), mục "Tính từ" gồm 22 từ của 第14課 (259–280)
+chia ba cụm, có bảng "Tóm tắt bài" ghi chủ đề từng cụm. Katakana và Phó từ mới đặt chỗ,
+đang chờ nội dung.
 
 Các thư mục `00-bai-mau` / `de-1` ở những phần khác là **bài mẫu** để kiểm tra đường
 ống nội dung — xoá đi khi đã có bài thật.

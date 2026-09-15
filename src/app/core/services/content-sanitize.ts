@@ -25,8 +25,10 @@ import {
   TestSection,
   UnitKind,
   VocabExample,
+  VocabGroup,
   VocabNote,
   VocabWord,
+  groupsOf,
   isSkillId,
 } from '../models/content.model';
 
@@ -120,6 +122,27 @@ export function sanitizeVocabulary(raw: unknown, seen = new Set<string>()): Voca
       notes: sanitizeVocabNotes(item['notes']),
     };
   });
+}
+
+/**
+ * Các cụm của bài lấy theo CHÍNH CÁC TỪ, còn `groups` trong file chỉ góp chủ đề.
+ *
+ * Không tin thẳng mảng `groups`: file JSON sinh từ bản trước chưa có mảng này vẫn phải
+ * lọc và luyện theo cụm được, còn cụm khai trong `groups` mà không có từ nào thì chỉ
+ * thành một hàng rỗng trong bảng tóm tắt.
+ */
+export function sanitizeVocabGroups(raw: unknown, words: readonly VocabWord[]): VocabGroup[] {
+  const titles = new Map<string, string>();
+  if (Array.isArray(raw)) {
+    for (const item of raw) {
+      if (!item || typeof item !== 'object') continue;
+      const record = item as Record<string, unknown>;
+      const label = text(record['label']);
+      if (label && !titles.has(label)) titles.set(label, text(record['title']));
+    }
+  }
+
+  return groupsOf(words).map((label) => ({ label, title: titles.get(label) ?? '' }));
 }
 
 // ── Kanji ──────────────────────────────────────────────────────────────────

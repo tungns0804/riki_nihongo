@@ -16,6 +16,7 @@ import {
   sanitizeListeningTracks,
   sanitizeReadingPassages,
   sanitizeTestSections,
+  sanitizeVocabGroups,
   sanitizeVocabulary,
   sanitizeUnitKind,
 } from './content-sanitize';
@@ -192,6 +193,7 @@ function sanitizeUnit(raw: unknown, entry: UnitIndexEntry): Unit | null {
   // Loại bài lấy theo DANH MỤC chứ không theo file nội dung: danh mục là thứ đã
   // quyết định bài này nằm ở phần nào, hai chỗ lệch nhau thì tin danh mục.
   const kind = entry.kind;
+  const words = kind === 'vocabulary' ? sanitizeVocabulary(data['words']) : [];
 
   const unit: Unit = {
     id: entry.id,
@@ -202,7 +204,8 @@ function sanitizeUnit(raw: unknown, entry: UnitIndexEntry): Unit | null {
     kind,
     itemCount: 0,
     order: entry.order,
-    words: kind === 'vocabulary' ? sanitizeVocabulary(data['words']) : [],
+    words,
+    groups: sanitizeVocabGroups(data['groups'], words),
     kanji: kind === 'kanji' ? sanitizeKanji(data['kanji']) : [],
     points: kind === 'grammar' ? sanitizeGrammarPoints(data['points']) : [],
     passages: kind === 'reading' ? sanitizeReadingPassages(data['passages']) : [],

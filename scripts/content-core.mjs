@@ -73,7 +73,7 @@ function splitReading(value) {
  *
  * Bốn loại dòng, nhận diện theo thứ tự này (thứ tự có ý nghĩa: dòng ghi chú cũng
  * có thể chứa dấu = như "合: 判子を押す = Đóng dấu"):
- *   1. ## nhãn                  -> mốc chia CỤM, áp cho mọi từ phía sau nó
+ *   1. ## nhãn [= chủ đề]       -> mốc chia CỤM, áp cho mọi từ phía sau nó
  *   2. bắt đầu bằng ・ hoặc -   -> câu ví dụ, phần sau dấu | là bản dịch
  *   3. NHÃN : nội dung          -> ghi chú, nhãn giữ nguyên như trong sách
  *   4. còn lại                  -> dòng tiêu đề của một từ mới
@@ -95,7 +95,7 @@ function splitReading(value) {
  *    渇いた), nên phải có người chỉ ra chỗ cần tô và cần khoét. Câu không đánh dấu
  *    thì tự tìm mặt chữ trong câu — đủ cho danh từ, vốn đứng nguyên dạng.
  */
-const VOCAB_GROUP = /^##\s*(.+)$/;
+const VOCAB_GROUP = /^##\s*(.+?)(?:\s*[=＝]\s*(.*))?$/;
 const VOCAB_EXAMPLE = /^[・･\-]\s*(.+)$/;
 const VOCAB_NOTE = /^(\S{1,8}?)\s*[:：]\s*(.+)$/;
 const VOCAB_HEADER = /^(?:(\d+)\s*[.．]\s*)?(.+?)(?:\s*[(（]([^)）]+)[)）])?\s*[=＝]\s*(.+)$/;
@@ -136,6 +136,8 @@ export function parseVocabulary(raw) {
   const seen = new Set();
   let current = null;
   let group = '';
+  /** Các cụm theo thứ tự xuất hiện, kèm chủ đề viết sau dấu = của dòng ##. */
+  const groups = [];
 
   /** Đóng từ đang dựng dở và đưa vào danh sách. */
   const flush = () => {
@@ -168,6 +170,12 @@ export function parseVocabulary(raw) {
     if (groupMark) {
       flush();
       group = groupMark[1].trim();
+      // Cùng một nhãn cụm có thể mở lại ở chỗ khác trong file; chủ đề viết ở lần nào
+      // cũng được, lấy lần đầu có viết.
+      const title = (groupMark[2] ?? '').trim();
+      const known = groups.find((item) => item.label === group);
+      if (!known) groups.push({ label: group, title });
+      else if (title && !known.title) known.title = title;
       continue;
     }
 
@@ -241,7 +249,9 @@ export function parseVocabulary(raw) {
   }
 
   flush();
-  return { words, warnings };
+  // Mốc cụm không có từ nào theo sau thì không có gì để lọc hay để luyện.
+  const usedGroups = groups.filter((item) => words.some((word) => word.group === item.label));
+  return { words, groups: usedGroups, warnings };
 }
 
 // ── Kanji ──────────────────────────────────────────────────────────────────

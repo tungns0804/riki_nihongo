@@ -7,6 +7,72 @@
   color: var(--accent);
 }
 
+/* --- Tóm tắt bài ----------------------------------------------------------
+   Cùng bố cục bảng "Tóm tắt ngữ pháp" của Mimikara (grammar-detail.css): mỗi cụm một
+   hàng, cột trái là nút cụm, cột phải là chủ đề rồi các từ với nghĩa đầu tiên. Liếc
+   một lần là biết bài học về gì. */
+
+.overview-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.overview-item {
+  display: grid;
+  /* 7rem: vừa nhãn dài nhất "101–110" trong nút viên thuốc, cột phải thẳng hàng. */
+  grid-template-columns: 7rem minmax(0, 1fr);
+  gap: var(--sp-2) var(--sp-5);
+  align-items: start;
+  padding-block: var(--sp-3);
+  border-top: 1px solid var(--border);
+}
+
+.overview-item:first-child {
+  border-top: none;
+}
+
+.overview-group {
+  justify-self: start;
+}
+
+.overview-cell {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  min-width: 0;
+}
+
+.overview-title {
+  font-weight: 650;
+}
+
+/* Từ xếp lưới chứ không nối thành một dòng dài: tám cặp từ–nghĩa nối liền thì không
+   thấy nghĩa nào đi với từ nào. */
+.overview-words {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  gap: 2px var(--sp-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--fs-sm);
+}
+
+.overview-jp {
+  margin-right: var(--sp-1);
+  font-weight: 650;
+}
+
+/* Hẹp thì nút cụm nằm trên, chủ đề và các từ xuống dưới. */
+@media (max-width: 640px) {
+  .overview-item {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 /* --- Danh sách từ ---------------------------------------------------------
    Bố cục đi theo bản PDF của giáo trình: cột trái là từ, cột phải là ví dụ và
    các dòng ghi chú, ngăn nhau bằng một vạch dọc.

@@ -4,6 +4,7 @@ import {
   computed,
   inject,
   input,
+  linkedSignal,
   model,
   signal,
 } from '@angular/core';
@@ -59,7 +60,18 @@ export class PracticeSetup {
   protected readonly groups = computed(() => groupsOf(this.unit().words));
 
   protected readonly answerMode = signal<AnswerMode>('choice');
-  protected readonly limit = signal<number | null>(20);
+
+  /**
+   * Số câu. Chọn cụm thì tự nhảy về "Tất cả", bỏ cụm thì về 20.
+   *
+   * Vì chọn "cụm 11–20" nghĩa là muốn học đúng mười từ đó, chứ không phải học một
+   * nửa số đó rồi bỏ dở — mà nếu để nguyên "20 câu" thì nút vẫn hiện 20 trong khi
+   * chỉ dựng được 10, trông như hụt mất câu.
+   *
+   * `linkedSignal` chứ không đặt lại trong hàm chọn cụm: cụm còn đổi được từ bên ngoài
+   * khung này (bảng "Tóm tắt bài" của trang từ vựng), đổi từ đâu số câu cũng phải theo.
+   */
+  protected readonly limit = linkedSignal<number | null>(() => (this.group() === null ? 20 : null));
   protected readonly limits = QUESTION_LIMITS;
 
   private readonly directionRef = signal<PracticeDirection>('jp-vi');
@@ -125,16 +137,9 @@ export class PracticeSetup {
     this.limit.set(limit);
   }
 
-  /**
-   * Chọn cụm thì số câu tự nhảy về "Tất cả".
-   *
-   * Vì chọn "cụm 11–20" nghĩa là muốn học đúng mười từ đó, chứ không phải học một
-   * nửa số đó rồi bỏ dở — mà nếu để nguyên "20 câu" thì nút vẫn hiện 20 trong khi
-   * chỉ dựng được 10, trông như hụt mất câu.
-   */
+  /** Số câu tự đổi theo cụm — xem `limit`. */
   protected setGroup(group: string | null): void {
     this.group.set(group);
-    this.limit.set(group === null ? 20 : null);
   }
 
   protected start(): void {

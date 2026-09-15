@@ -197,7 +197,7 @@ function buildUnit(module, folderName) {
   try {
     if (module.kind === 'vocabulary') {
       const parsed = parseVocabulary(raw);
-      payload = { words: parsed.words };
+      payload = { groups: parsed.groups, words: parsed.words };
       warnings = parsed.warnings;
     } else if (module.kind === 'kanji') {
       const parsed = parseKanji(raw);
@@ -246,7 +246,7 @@ function buildUnit(module, folderName) {
 
 /** Nội dung rỗng đúng hình dạng của loại bài — dùng cho bài giữ chỗ. */
 function emptyPayload(kind) {
-  if (kind === 'vocabulary') return { words: [] };
+  if (kind === 'vocabulary') return { groups: [], words: [] };
   if (kind === 'kanji') return { kanji: [] };
   if (kind === 'grammar') return { points: [] };
   if (kind === 'reading') return { passages: [] };

@@ -13,7 +13,8 @@
 # ── 第14課：259〜280 ────────────────────────────────────────────
 
 # nguồn: bai-141-tu-vung-cai-thien-259-265.pdf (bản PDF này in trọn 第14課: 259–280)
-## 259–265
+# Chủ đề sau dấu = hiện ở bảng "Tóm tắt bài" đầu trang; số bài 14.1 lấy theo tên file PDF.
+## 259–265 = Bài 14.1 · Cảm xúc, thái độ và sở trường
 259. 幸せな (しあわせな) = HẠNH ; Hạnh phúc
 ・[幸せな]一生だった。
 ・[幸せに]暮らす。
@@ -60,8 +61,9 @@
 ・山田さんはいつも[不健康な]顔色をしている。
 対: 不健康 (ふけんこう)
 
-# nguồn: bai-141-tu-vung-cai-thien-259-265.pdf (cùng bản PDF với cụm trên)
-## 266–280
+# nguồn: bai-142-tu-vung-cai-thien-266-273.pdf (bản PDF này cũng in trọn 第14課: 259–280,
+# nội dung trùng khớp bản 14.1 — chỉ tên file cho biết buổi 14.2 dừng ở từ 273)
+## 266–273 = Bài 14.2 · Cảm giác, cảm xúc và tính cách
 266. 苦しい (くるしい) = KHỔ ; Khó chịu/ Khó khăn/ Khó ~
 # 意味① Khó chịu: câu đầu. 意味② Khó khăn: hai câu tiếp. 意味③ Khó ~: ba câu có từ ghép.
 # Hai câu cuối là của động từ ở dòng 動.
@@ -116,6 +118,9 @@
 連: 正直に話す／言う = Nói thật (正直に話しなさい ≒ 言いなさい)
 連: 正直(に)言うと — lược に cũng được
 
+# Chưa có PDF riêng cho 274–280 (có lẽ là bài 14.3): cụm là phần còn lại của 第14課 in
+# trong hai bản PDF trên. Có PDF thì thêm số bài vào chủ đề như hai cụm trên.
+## 274–280 = Tính cách, sự hài lòng và nỗi lo
 274. けちな = Keo kiệt
 ・あの人はとても[けちだ]。
 ・[けちな]人は嫌われる。
