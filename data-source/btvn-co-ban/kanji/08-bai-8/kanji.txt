@@ -1,0 +1,18 @@
+# BTVN CƠ BẢN (MỚI) — Kanji · Bài 8
+# Nguồn: thẻ kanji Bài 8 trên website Riki. Chỗ chuẩn hoá so với thẻ: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+# 消: nghĩa của 消費 trên thẻ viết thường (tiêu thụ); ở đây viết hoa đầu dòng như các từ khác.
+消,TIÊU,,ショウ,き.える・け.す,|消費 (しょうひ)=Tiêu thụ;消える (きえる)=Biến mất, tan đi
+# 法: ảnh thẻ không hiện furigana hai từ này; cách đọc ghi theo cách đọc thường dùng. Nghĩa 法律 thẻ viết thường (luật).
+法,PHÁP,,ホウ,,|法律 (ほうりつ)=Luật;方法 (ほうほう)=Phương pháp
+# 決: thẻ gộp một dòng "決定する ＝ 決める: Quyết định"; ở đây tách thành hai từ cho dễ học.
+決,QUYẾT,,ケツ,き.まる・き.める,|決定する (けっていする)=Quyết định;決める (きめる)=Quyết định;決まる (きまる)=Được quyết định
+浅,THIỂN,,セン,あさ.い,|浅い (あさい)=Nông
+満,MÃN,,マン,み.たす・み.ちる,|満足する (まんぞくする)=Thỏa mãn;不満 (ふまん)=Bất mãn;満たす (みたす)=Đáp ứng, làm thỏa mãn
+演,DIỄN,,エン,,|演技 (えんぎ)=Trình diễn;演説 (えんぜつ)=Diễn thuyết;講演会 (こうえんかい)=Buổi thuyết trình
+混,HỖN,,コン,ま.ぜる・ま.ざる・こ.む,|混ざる (まざる)=Được trộn;混む (こむ)=Đông đúc;混乱 (こんらん)=Hỗn loạn
+# 湿: thẻ ghi âm On bằng hiragana (しつ).
+湿,THẤP,,シツ,しめ.る,|湿気 (しっけ)=Hơi nước;湿る (しめる)=Ẩm;湿度 (しつど)=Độ ẩm
+温,ÔN,,オン,あたた.かい・あたた.める・あたた.まる,|温度 (おんど)=Nhiệt độ;温かい (あたたかい)=Ấm;温める (あたためる)=Làm ấm
+# 塩: thẻ ghi âm On bằng hiragana (えん).
+塩,DIÊM,,エン,しお,|塩分 (えんぶん)=Lượng muối;塩水 (しおみず)=Nước muối

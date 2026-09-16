@@ -1,0 +1,282 @@
+{
+  "id": "07-bai-7",
+  "name": "Bài 7",
+  "description": "幸 · 報 · 洗 · 汚 · 活 · 液 · 流 · 涙 · 深",
+  "kind": "kanji",
+  "kanji": [
+    {
+      "id": "f35c73d2b35f993d",
+      "character": "幸",
+      "hanViet": "HẠNH",
+      "meaning": "",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "しあわ.せ",
+        "さいわ.い"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "59a4f21f9c6a64ce",
+          "japanese": "不幸",
+          "reading": "ふこう",
+          "vietnamese": "Bất hạnh"
+        },
+        {
+          "id": "cffc2d54418d7fe6",
+          "japanese": "幸せ",
+          "reading": "しあわせ",
+          "vietnamese": "Hạnh phúc"
+        },
+        {
+          "id": "71e71145badb6856",
+          "japanese": "幸い",
+          "reading": "さいわい",
+          "vietnamese": "May mắn"
+        }
+      ]
+    },
+    {
+      "id": "b0f1b9a9c84a00cf",
+      "character": "報",
+      "hanViet": "BÁO",
+      "meaning": "",
+      "onyomi": [
+        "ホウ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "6a78fc15cc6e756c",
+          "japanese": "予報",
+          "reading": "よほう",
+          "vietnamese": "Dự báo"
+        },
+        {
+          "id": "23f18fd505df0d3b",
+          "japanese": "情報",
+          "reading": "じょうほう",
+          "vietnamese": "Thông tin"
+        },
+        {
+          "id": "515c6ac2812e2fda",
+          "japanese": "報告",
+          "reading": "ほうこく",
+          "vietnamese": "Thông báo"
+        }
+      ]
+    },
+    {
+      "id": "50bfb185c1360383",
+      "character": "洗",
+      "hanViet": "TẨY",
+      "meaning": "",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "あら.う"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "fa1c47b704ed9480",
+          "japanese": "洗濯",
+          "reading": "せんたく",
+          "vietnamese": "Giặt giũ"
+        },
+        {
+          "id": "aa181030cc187e55",
+          "japanese": "洗剤",
+          "reading": "せんざい",
+          "vietnamese": "Chất tẩy rửa"
+        },
+        {
+          "id": "79e9fa4ec92fec37",
+          "japanese": "洗う",
+          "reading": "あらう",
+          "vietnamese": "Rửa"
+        }
+      ]
+    },
+    {
+      "id": "da0f8d6667648492",
+      "character": "汚",
+      "hanViet": "Ô",
+      "meaning": "",
+      "onyomi": [
+        "オ"
+      ],
+      "kunyomi": [
+        "よご.す",
+        "きたな.い"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "50dcfef33f4e157b",
+          "japanese": "汚す",
+          "reading": "よごす",
+          "vietnamese": "Làm bẩn"
+        },
+        {
+          "id": "71d9dcc0f5a18c15",
+          "japanese": "汚い",
+          "reading": "きたない",
+          "vietnamese": "Bẩn"
+        },
+        {
+          "id": "4fe8091f7a2e97d9",
+          "japanese": "汚染する",
+          "reading": "おせんする",
+          "vietnamese": "Ô nhiễm"
+        }
+      ]
+    },
+    {
+      "id": "f6bd337c57f888f2",
+      "character": "活",
+      "hanViet": "HOẠT",
+      "meaning": "",
+      "onyomi": [
+        "カツ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d6750c1c3b6504cf",
+          "japanese": "活用",
+          "reading": "かつよう",
+          "vietnamese": "Tận dụng"
+        },
+        {
+          "id": "6d13811f48b498e4",
+          "japanese": "生活",
+          "reading": "せいかつ",
+          "vietnamese": "Cuộc sống sinh hoạt"
+        },
+        {
+          "id": "56fef524195d374e",
+          "japanese": "活気",
+          "reading": "かっき",
+          "vietnamese": "Hoạt bát"
+        }
+      ]
+    },
+    {
+      "id": "7f892f303e49a6b3",
+      "character": "液",
+      "hanViet": "DỊCH",
+      "meaning": "",
+      "onyomi": [
+        "エキ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "49ad0ddfe64cbf93",
+          "japanese": "液体",
+          "reading": "えきたい",
+          "vietnamese": "Thể lỏng"
+        },
+        {
+          "id": "ea88ad8ee9f7f1c7",
+          "japanese": "血液検査",
+          "reading": "けつえきけんさ",
+          "vietnamese": "Kiểm tra máu"
+        }
+      ]
+    },
+    {
+      "id": "6047a7fe2d97121c",
+      "character": "流",
+      "hanViet": "LƯU",
+      "meaning": "",
+      "onyomi": [
+        "リュウ"
+      ],
+      "kunyomi": [
+        "なが.れる",
+        "なが.す"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "4a4abb2a31575d10",
+          "japanese": "交流会",
+          "reading": "こうりゅうかい",
+          "vietnamese": "Buổi giao lưu"
+        },
+        {
+          "id": "6f5d0f4dbd72e472",
+          "japanese": "流れる",
+          "reading": "ながれる",
+          "vietnamese": "Lan truyền"
+        },
+        {
+          "id": "e6ec205a7bf7d0c6",
+          "japanese": "流す",
+          "reading": "ながす",
+          "vietnamese": "Xả, làm chảy"
+        }
+      ]
+    },
+    {
+      "id": "0e989d196ab55738",
+      "character": "涙",
+      "hanViet": "LỆ",
+      "meaning": "",
+      "onyomi": [],
+      "kunyomi": [
+        "なみだ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "fff75337cd53f677",
+          "japanese": "涙",
+          "reading": "なみだ",
+          "vietnamese": "Nước mắt"
+        }
+      ]
+    },
+    {
+      "id": "e169e09bd8a33e8d",
+      "character": "深",
+      "hanViet": "THÂM",
+      "meaning": "",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "ふか.い"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "5edd65dd404d8e29",
+          "japanese": "深い",
+          "reading": "ふかい",
+          "vietnamese": "Sâu"
+        },
+        {
+          "id": "0e8bf6ee7df9f8d1",
+          "japanese": "深夜",
+          "reading": "しんや",
+          "vietnamese": "Đêm khuya"
+        },
+        {
+          "id": "59c8415da95c0df6",
+          "japanese": "深刻",
+          "reading": "しんこく",
+          "vietnamese": "Nghiêm trọng"
+        }
+      ]
+    }
+  ]
+}

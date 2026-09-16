@@ -4,7 +4,7 @@
     "name": "BTVN CƠ BẢN (MỚI)",
     "level": "N3"
   },
-  "generatedAt": "2026-09-16T02:37:32.825Z",
+  "generatedAt": "2026-09-16T02:41:50.167Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -76,6 +76,24 @@
           "itemCount": 10,
           "order": 6,
           "file": "kanji/06-bai-6.json"
+        },
+        {
+          "id": "07-bai-7",
+          "name": "Bài 7",
+          "description": "幸 · 報 · 洗 · 汚 · 活 · 液 · 流 · 涙 · 深",
+          "kind": "kanji",
+          "itemCount": 9,
+          "order": 7,
+          "file": "kanji/07-bai-7.json"
+        },
+        {
+          "id": "08-bai-8",
+          "name": "Bài 8",
+          "description": "消 · 法 · 決 · 浅 · 満 · 演 · 混 · 湿 · 温 · 塩",
+          "kind": "kanji",
+          "itemCount": 10,
+          "order": 8,
+          "file": "kanji/08-bai-8.json"
         }
       ]
     }

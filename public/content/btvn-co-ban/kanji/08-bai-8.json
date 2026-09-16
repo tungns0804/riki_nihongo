@@ -1,0 +1,311 @@
+{
+  "id": "08-bai-8",
+  "name": "Bài 8",
+  "description": "消 · 法 · 決 · 浅 · 満 · 演 · 混 · 湿 · 温 · 塩",
+  "kind": "kanji",
+  "kanji": [
+    {
+      "id": "d6a13e6b5459c81b",
+      "character": "消",
+      "hanViet": "TIÊU",
+      "meaning": "",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "き.える",
+        "け.す"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "2b187222bfe33be8",
+          "japanese": "消費",
+          "reading": "しょうひ",
+          "vietnamese": "Tiêu thụ"
+        },
+        {
+          "id": "827e05359541db06",
+          "japanese": "消える",
+          "reading": "きえる",
+          "vietnamese": "Biến mất, tan đi"
+        }
+      ]
+    },
+    {
+      "id": "16751e2022cb2719",
+      "character": "法",
+      "hanViet": "PHÁP",
+      "meaning": "",
+      "onyomi": [
+        "ホウ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "ea6e425b2cd8d061",
+          "japanese": "法律",
+          "reading": "ほうりつ",
+          "vietnamese": "Luật"
+        },
+        {
+          "id": "67875883113db833",
+          "japanese": "方法",
+          "reading": "ほうほう",
+          "vietnamese": "Phương pháp"
+        }
+      ]
+    },
+    {
+      "id": "8405aa6bb699f66a",
+      "character": "決",
+      "hanViet": "QUYẾT",
+      "meaning": "",
+      "onyomi": [
+        "ケツ"
+      ],
+      "kunyomi": [
+        "き.まる",
+        "き.める"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0c33d63e3cd4911f",
+          "japanese": "決定する",
+          "reading": "けっていする",
+          "vietnamese": "Quyết định"
+        },
+        {
+          "id": "86437a5a95c7eea3",
+          "japanese": "決める",
+          "reading": "きめる",
+          "vietnamese": "Quyết định"
+        },
+        {
+          "id": "90adefadabc0761d",
+          "japanese": "決まる",
+          "reading": "きまる",
+          "vietnamese": "Được quyết định"
+        }
+      ]
+    },
+    {
+      "id": "63f56f0173f7d9c5",
+      "character": "浅",
+      "hanViet": "THIỂN",
+      "meaning": "",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "あさ.い"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "8f46b25e95614dce",
+          "japanese": "浅い",
+          "reading": "あさい",
+          "vietnamese": "Nông"
+        }
+      ]
+    },
+    {
+      "id": "7385ce99899af0bd",
+      "character": "満",
+      "hanViet": "MÃN",
+      "meaning": "",
+      "onyomi": [
+        "マン"
+      ],
+      "kunyomi": [
+        "み.たす",
+        "み.ちる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1379c936c5525cac",
+          "japanese": "満足する",
+          "reading": "まんぞくする",
+          "vietnamese": "Thỏa mãn"
+        },
+        {
+          "id": "92d6be08ff413673",
+          "japanese": "不満",
+          "reading": "ふまん",
+          "vietnamese": "Bất mãn"
+        },
+        {
+          "id": "905eac222af75811",
+          "japanese": "満たす",
+          "reading": "みたす",
+          "vietnamese": "Đáp ứng, làm thỏa mãn"
+        }
+      ]
+    },
+    {
+      "id": "8460b05126d4bd1a",
+      "character": "演",
+      "hanViet": "DIỄN",
+      "meaning": "",
+      "onyomi": [
+        "エン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d48695e1086327d7",
+          "japanese": "演技",
+          "reading": "えんぎ",
+          "vietnamese": "Trình diễn"
+        },
+        {
+          "id": "89fa25d878c91ec9",
+          "japanese": "演説",
+          "reading": "えんぜつ",
+          "vietnamese": "Diễn thuyết"
+        },
+        {
+          "id": "3095290daa751491",
+          "japanese": "講演会",
+          "reading": "こうえんかい",
+          "vietnamese": "Buổi thuyết trình"
+        }
+      ]
+    },
+    {
+      "id": "aa45094952b235c8",
+      "character": "混",
+      "hanViet": "HỖN",
+      "meaning": "",
+      "onyomi": [
+        "コン"
+      ],
+      "kunyomi": [
+        "ま.ぜる",
+        "ま.ざる",
+        "こ.む"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "e2487bc25bf38220",
+          "japanese": "混ざる",
+          "reading": "まざる",
+          "vietnamese": "Được trộn"
+        },
+        {
+          "id": "17c9c0ae41069f87",
+          "japanese": "混む",
+          "reading": "こむ",
+          "vietnamese": "Đông đúc"
+        },
+        {
+          "id": "2d24b2cd2b8d62fe",
+          "japanese": "混乱",
+          "reading": "こんらん",
+          "vietnamese": "Hỗn loạn"
+        }
+      ]
+    },
+    {
+      "id": "11b20bb56442730e",
+      "character": "湿",
+      "hanViet": "THẤP",
+      "meaning": "",
+      "onyomi": [
+        "シツ"
+      ],
+      "kunyomi": [
+        "しめ.る"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "137605568838e3ad",
+          "japanese": "湿気",
+          "reading": "しっけ",
+          "vietnamese": "Hơi nước"
+        },
+        {
+          "id": "cec40cb2ec4a9768",
+          "japanese": "湿る",
+          "reading": "しめる",
+          "vietnamese": "Ẩm"
+        },
+        {
+          "id": "9afb9921c6215562",
+          "japanese": "湿度",
+          "reading": "しつど",
+          "vietnamese": "Độ ẩm"
+        }
+      ]
+    },
+    {
+      "id": "2e4d874eea731e94",
+      "character": "温",
+      "hanViet": "ÔN",
+      "meaning": "",
+      "onyomi": [
+        "オン"
+      ],
+      "kunyomi": [
+        "あたた.かい",
+        "あたた.める",
+        "あたた.まる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "fb1d2ae09ea9cd8b",
+          "japanese": "温度",
+          "reading": "おんど",
+          "vietnamese": "Nhiệt độ"
+        },
+        {
+          "id": "78b7abf88bd066ad",
+          "japanese": "温かい",
+          "reading": "あたたかい",
+          "vietnamese": "Ấm"
+        },
+        {
+          "id": "f0917780a405268c",
+          "japanese": "温める",
+          "reading": "あたためる",
+          "vietnamese": "Làm ấm"
+        }
+      ]
+    },
+    {
+      "id": "a952ef51bdb27ace",
+      "character": "塩",
+      "hanViet": "DIÊM",
+      "meaning": "",
+      "onyomi": [
+        "エン"
+      ],
+      "kunyomi": [
+        "しお"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "ce229f7356214c03",
+          "japanese": "塩分",
+          "reading": "えんぶん",
+          "vietnamese": "Lượng muối"
+        },
+        {
+          "id": "fd0b1ab81bb22f97",
+          "japanese": "塩水",
+          "reading": "しおみず",
+          "vietnamese": "Nước muối"
+        }
+      ]
+    }
+  ]
+}

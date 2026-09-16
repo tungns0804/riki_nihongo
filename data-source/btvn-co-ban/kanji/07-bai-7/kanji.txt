@@ -1,0 +1,13 @@
+# BTVN CƠ BẢN (MỚI) — Kanji · Bài 7
+# Nguồn: thẻ kanji Bài 7 trên website Riki. Chỗ chuẩn hoá so với thẻ: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+幸,HẠNH,,コウ,しあわ.せ・さいわ.い,|不幸 (ふこう)=Bất hạnh;幸せ (しあわせ)=Hạnh phúc;幸い (さいわい)=May mắn
+報,BÁO,,ホウ,,|予報 (よほう)=Dự báo;情報 (じょうほう)=Thông tin;報告 (ほうこく)=Thông báo
+洗,TẨY,,セン,あら.う,|洗濯 (せんたく)=Giặt giũ;洗剤 (せんざい)=Chất tẩy rửa;洗う (あらう)=Rửa
+汚,Ô,,オ,よご.す・きたな.い,|汚す (よごす)=Làm bẩn;汚い (きたない)=Bẩn;汚染する (おせんする)=Ô nhiễm
+活,HOẠT,,カツ,,|活用 (かつよう)=Tận dụng;生活 (せいかつ)=Cuộc sống sinh hoạt;活気 (かっき)=Hoạt bát
+液,DỊCH,,エキ,,|液体 (えきたい)=Thể lỏng;血液検査 (けつえきけんさ)=Kiểm tra máu
+# 流: nghĩa của 流す trên thẻ viết thường (xả, làm chảy); ở đây viết hoa đầu dòng như các từ khác.
+流,LƯU,,リュウ,なが.れる・なが.す,|交流会 (こうりゅうかい)=Buổi giao lưu;流れる (ながれる)=Lan truyền;流す (ながす)=Xả, làm chảy
+涙,LỆ,,,なみだ,|涙 (なみだ)=Nước mắt
+深,THÂM,,シン,ふか.い,|深い (ふかい)=Sâu;深夜 (しんや)=Đêm khuya;深刻 (しんこく)=Nghiêm trọng

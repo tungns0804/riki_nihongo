@@ -41,6 +41,8 @@ Mỗi "Bài N" của Riki là MỘT thư mục:
 | `04-bai-4`  | Bài 4 | 拾 捨 押 指 探 接 打 折 払 担 授 |
 | `05-bai-5`  | Bài 5 | 意 億 念 悪 恋 変 怒 愛 |
 | `06-bai-6`  | Bài 6 | 悲 性 悩 情 精 支 技 席 度 渡 |
+| `07-bai-7`  | Bài 7 | 幸 報 洗 汚 活 液 流 涙 深 |
+| `08-bai-8`  | Bài 8 | 消 法 決 浅 満 演 混 湿 温 塩 |
 
-Bài mới thì tạo thư mục `07-bai-7/` gồm `meta.json` (`"name": "Bài 7"`, `"order": 7`) và
+Bài mới thì tạo thư mục `09-bai-9/` gồm `meta.json` (`"name": "Bài 9"`, `"order": 9`) và
 `kanji.txt`, rồi chạy `npm run generate`.
