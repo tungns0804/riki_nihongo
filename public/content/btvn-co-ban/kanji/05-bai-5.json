@@ -1,0 +1,253 @@
+{
+  "id": "05-bai-5",
+  "name": "Bài 5",
+  "description": "意 · 億 · 念 · 悪 · 恋 · 変 · 怒 · 愛",
+  "kind": "kanji",
+  "kanji": [
+    {
+      "id": "8c31f5ed789e7abc",
+      "character": "意",
+      "hanViet": "Ý",
+      "meaning": "",
+      "onyomi": [
+        "イ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "dd29f8dbe752b4ce",
+          "japanese": "意識",
+          "reading": "いしき",
+          "vietnamese": "Ý thức"
+        },
+        {
+          "id": "bbfd5e32e5b8bbe8",
+          "japanese": "意思",
+          "reading": "いし",
+          "vietnamese": "Ý chí"
+        },
+        {
+          "id": "14868d5dbd89f92f",
+          "japanese": "意外",
+          "reading": "いがい",
+          "vietnamese": "Ngoài dự kiến"
+        }
+      ]
+    },
+    {
+      "id": "9bba013db4847a9b",
+      "character": "億",
+      "hanViet": "ỨC",
+      "meaning": "",
+      "onyomi": [
+        "オク"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "5ef65fc62dd72958",
+          "japanese": "1億円",
+          "reading": "いちおくえん",
+          "vietnamese": "100 triệu yên"
+        },
+        {
+          "id": "a34da27ebfb0daf2",
+          "japanese": "億万長者",
+          "reading": "おくまんちょうじゃ",
+          "vietnamese": "Tỷ phú"
+        }
+      ]
+    },
+    {
+      "id": "04863be395bc7590",
+      "character": "念",
+      "hanViet": "NIỆM",
+      "meaning": "",
+      "onyomi": [
+        "ネン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "df5b66c5686d2ef7",
+          "japanese": "記念",
+          "reading": "きねん",
+          "vietnamese": "Kỷ niệm"
+        },
+        {
+          "id": "ac141aa54fec87f6",
+          "japanese": "残念",
+          "reading": "ざんねん",
+          "vietnamese": "Đáng tiếc"
+        }
+      ]
+    },
+    {
+      "id": "77cd0cae75d9a8ff",
+      "character": "悪",
+      "hanViet": "ÁC",
+      "meaning": "",
+      "onyomi": [
+        "アク"
+      ],
+      "kunyomi": [
+        "わる.い"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "ea9133f3595c08c0",
+          "japanese": "悪魔",
+          "reading": "あくま",
+          "vietnamese": "Ác ma"
+        },
+        {
+          "id": "2565f3f38c172734",
+          "japanese": "最悪",
+          "reading": "さいあく",
+          "vietnamese": "Xấu nhất"
+        },
+        {
+          "id": "fccadd956def63bc",
+          "japanese": "悪い",
+          "reading": "わるい",
+          "vietnamese": "Xấu, không tốt"
+        }
+      ]
+    },
+    {
+      "id": "6261b8105d5ba7a9",
+      "character": "恋",
+      "hanViet": "LUYẾN",
+      "meaning": "",
+      "onyomi": [
+        "レン"
+      ],
+      "kunyomi": [
+        "こい"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "13758284218ca28a",
+          "japanese": "初恋",
+          "reading": "はつこい",
+          "vietnamese": "Mối tình đầu"
+        },
+        {
+          "id": "1717ddb85d13a38e",
+          "japanese": "恋",
+          "reading": "こい",
+          "vietnamese": "Tình yêu"
+        },
+        {
+          "id": "1ff9f9e7bfadfe46",
+          "japanese": "恋しい",
+          "reading": "こいしい",
+          "vietnamese": "Nhớ nhung, thương nhớ"
+        }
+      ]
+    },
+    {
+      "id": "85671089c5e28f2b",
+      "character": "変",
+      "hanViet": "BIẾN",
+      "meaning": "",
+      "onyomi": [
+        "ヘン"
+      ],
+      "kunyomi": [
+        "か.える",
+        "か.わる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "b2d8c64a47b55ecc",
+          "japanese": "変な",
+          "reading": "へんな",
+          "vietnamese": "Kỳ lạ"
+        },
+        {
+          "id": "7d8c52a97d29ed3f",
+          "japanese": "変える",
+          "reading": "かえる",
+          "vietnamese": "Thay đổi"
+        },
+        {
+          "id": "7bfabc6759d2a388",
+          "japanese": "変化",
+          "reading": "へんか",
+          "vietnamese": "Biến đổi"
+        }
+      ]
+    },
+    {
+      "id": "9e9c4540d6bc6e88",
+      "character": "怒",
+      "hanViet": "NỘ",
+      "meaning": "",
+      "onyomi": [
+        "ド"
+      ],
+      "kunyomi": [
+        "おこ.る"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0b34f3e0c3b3c67f",
+          "japanese": "怒られた",
+          "reading": "おこられた",
+          "vietnamese": "Bị mắng"
+        },
+        {
+          "id": "1ca34d3c33f14706",
+          "japanese": "怒りっぽい",
+          "reading": "おこりっぽい",
+          "vietnamese": "Dễ cáu, hay giận"
+        },
+        {
+          "id": "d34312292c4ad9e9",
+          "japanese": "怒鳴る",
+          "reading": "どなる",
+          "vietnamese": "Quát tháo, hét lớn"
+        }
+      ]
+    },
+    {
+      "id": "abd9fb22ba1b4987",
+      "character": "愛",
+      "hanViet": "ÁI",
+      "meaning": "",
+      "onyomi": [
+        "アイ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "5f5d7ea5317d2baf",
+          "japanese": "愛情",
+          "reading": "あいじょう",
+          "vietnamese": "Tình yêu thương, tình cảm"
+        },
+        {
+          "id": "9c199e82c61049b5",
+          "japanese": "恋愛",
+          "reading": "れんあい",
+          "vietnamese": "Tình yêu"
+        },
+        {
+          "id": "67f71eb9629cd98d",
+          "japanese": "愛",
+          "reading": "あい",
+          "vietnamese": "Tình yêu"
+        }
+      ]
+    }
+  ]
+}

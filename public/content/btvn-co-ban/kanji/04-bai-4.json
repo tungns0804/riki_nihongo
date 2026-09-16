@@ -1,0 +1,297 @@
+{
+  "id": "04-bai-4",
+  "name": "Bài 4",
+  "description": "拾 · 捨 · 押 · 指 · 探 · 接 · 打 · 折 · 払 · 担 · 授",
+  "kind": "kanji",
+  "kanji": [
+    {
+      "id": "5408b7396dbc1545",
+      "character": "拾",
+      "hanViet": "THẬP",
+      "meaning": "",
+      "onyomi": [],
+      "kunyomi": [
+        "ひろ.う"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0c5f868bd5b78dcf",
+          "japanese": "拾う",
+          "reading": "ひろう",
+          "vietnamese": "Nhặt"
+        }
+      ]
+    },
+    {
+      "id": "db4728d4fab06649",
+      "character": "捨",
+      "hanViet": "XẢ",
+      "meaning": "",
+      "onyomi": [],
+      "kunyomi": [
+        "す.てる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "c1096554f933a907",
+          "japanese": "捨てる",
+          "reading": "すてる",
+          "vietnamese": "Vất"
+        }
+      ]
+    },
+    {
+      "id": "199f666dce751391",
+      "character": "押",
+      "hanViet": "ÁP",
+      "meaning": "",
+      "onyomi": [],
+      "kunyomi": [
+        "お.す"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "a2c6459ac98e6cfc",
+          "japanese": "押す",
+          "reading": "おす",
+          "vietnamese": "Ấn"
+        }
+      ]
+    },
+    {
+      "id": "661889b1a43e7664",
+      "character": "指",
+      "hanViet": "CHỈ",
+      "meaning": "",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "ゆび",
+        "さ.す"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d071e2eaa94e85da",
+          "japanese": "指示",
+          "reading": "しじ",
+          "vietnamese": "Chỉ thị"
+        },
+        {
+          "id": "9b1de631622c1e87",
+          "japanese": "指",
+          "reading": "ゆび",
+          "vietnamese": "Ngón tay"
+        }
+      ]
+    },
+    {
+      "id": "15e1f320f953179e",
+      "character": "探",
+      "hanViet": "THÁM",
+      "meaning": "",
+      "onyomi": [
+        "タン"
+      ],
+      "kunyomi": [
+        "さが.す"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "7f465064118eeb0c",
+          "japanese": "探す",
+          "reading": "さがす",
+          "vietnamese": "Tìm kiếm"
+        },
+        {
+          "id": "383ea09be6e3f649",
+          "japanese": "探査",
+          "reading": "たんさ",
+          "vietnamese": "Điều tra, thăm dò"
+        }
+      ]
+    },
+    {
+      "id": "bca28530a0b9a803",
+      "character": "接",
+      "hanViet": "TIẾP",
+      "meaning": "",
+      "onyomi": [
+        "セツ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "7d18679fc21e2626",
+          "japanese": "接続",
+          "reading": "せつぞく",
+          "vietnamese": "Kết nối"
+        },
+        {
+          "id": "ea2be572bd35c952",
+          "japanese": "接する",
+          "reading": "せっする",
+          "vietnamese": "Tiếp xúc"
+        },
+        {
+          "id": "657ceee27c5ead2f",
+          "japanese": "面接",
+          "reading": "めんせつ",
+          "vietnamese": "Phỏng vấn"
+        }
+      ]
+    },
+    {
+      "id": "4b143f439813819a",
+      "character": "打",
+      "hanViet": "ĐẢ",
+      "meaning": "",
+      "onyomi": [],
+      "kunyomi": [
+        "う.つ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "7bf5eb87a5fa1f5b",
+          "japanese": "打つ",
+          "reading": "うつ",
+          "vietnamese": "Đánh"
+        },
+        {
+          "id": "a70ae2e4d639b51e",
+          "japanese": "打ち合わせ",
+          "reading": "うちあわせ",
+          "vietnamese": "Bàn bạc"
+        }
+      ]
+    },
+    {
+      "id": "0896ba876424b3b5",
+      "character": "折",
+      "hanViet": "CHIẾT",
+      "meaning": "",
+      "onyomi": [
+        "セツ"
+      ],
+      "kunyomi": [
+        "お.る",
+        "お.れる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1053fcaa8b1448d6",
+          "japanese": "骨折",
+          "reading": "こっせつ",
+          "vietnamese": "Gãy xương"
+        },
+        {
+          "id": "6ad70fa222c47934",
+          "japanese": "折る",
+          "reading": "おる",
+          "vietnamese": "Gấp, bẻ"
+        },
+        {
+          "id": "d4be93a514f1fb23",
+          "japanese": "折れる",
+          "reading": "おれる",
+          "vietnamese": "Gãy, lung"
+        }
+      ]
+    },
+    {
+      "id": "cf13bb40c1464292",
+      "character": "払",
+      "hanViet": "PHÁT",
+      "meaning": "",
+      "onyomi": [],
+      "kunyomi": [
+        "はら.う"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0176f610b57e9fd6",
+          "japanese": "払う",
+          "reading": "はらう",
+          "vietnamese": "Trả"
+        },
+        {
+          "id": "3e8d2c3b466ec6e7",
+          "japanese": "支払う",
+          "reading": "しはらう",
+          "vietnamese": "Thanh toán"
+        }
+      ]
+    },
+    {
+      "id": "15b158a9f9459315",
+      "character": "担",
+      "hanViet": "ĐẢM",
+      "meaning": "",
+      "onyomi": [
+        "タン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "a460183df0d10910",
+          "japanese": "担当",
+          "reading": "たんとう",
+          "vietnamese": "Phụ trách"
+        },
+        {
+          "id": "408a8c1cade6546d",
+          "japanese": "担任",
+          "reading": "たんにん",
+          "vietnamese": "Đảm nhiệm"
+        },
+        {
+          "id": "a1849ab832353fc7",
+          "japanese": "負担",
+          "reading": "ふたん",
+          "vietnamese": "Gánh vác"
+        }
+      ]
+    },
+    {
+      "id": "2c7b3bbba6d59403",
+      "character": "授",
+      "hanViet": "THỤ",
+      "meaning": "",
+      "onyomi": [
+        "ジュ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "012a34911aa0023f",
+          "japanese": "授業",
+          "reading": "じゅぎょう",
+          "vietnamese": "Giờ học"
+        },
+        {
+          "id": "e5f46ca29d18d332",
+          "japanese": "教授",
+          "reading": "きょうじゅ",
+          "vietnamese": "Giáo sư"
+        },
+        {
+          "id": "7a3616678f4b3c0b",
+          "japanese": "授与",
+          "reading": "じゅよ",
+          "vietnamese": "Trao tặng"
+        }
+      ]
+    }
+  ]
+}

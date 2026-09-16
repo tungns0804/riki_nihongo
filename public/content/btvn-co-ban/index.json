@@ -4,7 +4,7 @@
     "name": "BTVN CƠ BẢN (MỚI)",
     "level": "N3"
   },
-  "generatedAt": "2026-09-15T15:41:18.192Z",
+  "generatedAt": "2026-09-16T02:37:32.825Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -49,6 +49,33 @@
           "itemCount": 10,
           "order": 3,
           "file": "kanji/03-bai-3.json"
+        },
+        {
+          "id": "04-bai-4",
+          "name": "Bài 4",
+          "description": "拾 · 捨 · 押 · 指 · 探 · 接 · 打 · 折 · 払 · 担 · 授",
+          "kind": "kanji",
+          "itemCount": 11,
+          "order": 4,
+          "file": "kanji/04-bai-4.json"
+        },
+        {
+          "id": "05-bai-5",
+          "name": "Bài 5",
+          "description": "意 · 億 · 念 · 悪 · 恋 · 変 · 怒 · 愛",
+          "kind": "kanji",
+          "itemCount": 8,
+          "order": 5,
+          "file": "kanji/05-bai-5.json"
+        },
+        {
+          "id": "06-bai-6",
+          "name": "Bài 6",
+          "description": "悲 · 性 · 悩 · 情 · 精 · 支 · 技 · 席 · 度 · 渡",
+          "kind": "kanji",
+          "itemCount": 10,
+          "order": 6,
+          "file": "kanji/06-bai-6.json"
         }
       ]
     }

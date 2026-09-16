@@ -1,0 +1,300 @@
+{
+  "id": "06-bai-6",
+  "name": "Bài 6",
+  "description": "悲 · 性 · 悩 · 情 · 精 · 支 · 技 · 席 · 度 · 渡",
+  "kind": "kanji",
+  "kanji": [
+    {
+      "id": "d8b21d26735555e1",
+      "character": "悲",
+      "hanViet": "BI",
+      "meaning": "",
+      "onyomi": [
+        "ヒ"
+      ],
+      "kunyomi": [
+        "かな.しい",
+        "かな.しみ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1ed4aa4a149ba2f8",
+          "japanese": "悲しい",
+          "reading": "かなしい",
+          "vietnamese": "Buồn bã"
+        },
+        {
+          "id": "411b7e846a961a60",
+          "japanese": "悲しみ",
+          "reading": "かなしみ",
+          "vietnamese": "Nỗi buồn"
+        },
+        {
+          "id": "a4bed71e599f3454",
+          "japanese": "悲観的",
+          "reading": "ひかんてき",
+          "vietnamese": "Tính bi quan"
+        }
+      ]
+    },
+    {
+      "id": "3033946642d293a9",
+      "character": "性",
+      "hanViet": "TÍNH",
+      "meaning": "",
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "deea78337be530cc",
+          "japanese": "性格",
+          "reading": "せいかく",
+          "vietnamese": "Tính cách"
+        },
+        {
+          "id": "e05ce116554e90b5",
+          "japanese": "性質",
+          "reading": "せいしつ",
+          "vietnamese": "Tính chất"
+        }
+      ]
+    },
+    {
+      "id": "9a42f77c73674919",
+      "character": "悩",
+      "hanViet": "NÃO",
+      "meaning": "",
+      "onyomi": [
+        "ノウ"
+      ],
+      "kunyomi": [
+        "なや.む"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "fa5e073430aaa34f",
+          "japanese": "苦悩する",
+          "reading": "くのうする",
+          "vietnamese": "Phiền não"
+        },
+        {
+          "id": "6d71903b27877a32",
+          "japanese": "悩む",
+          "reading": "なやむ",
+          "vietnamese": "Lo lắng, băn khoăn"
+        }
+      ]
+    },
+    {
+      "id": "b7c04ffc5864b54e",
+      "character": "情",
+      "hanViet": "TÌNH",
+      "meaning": "",
+      "onyomi": [
+        "ジョウ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "2369526d83a5e78b",
+          "japanese": "表情",
+          "reading": "ひょうじょう",
+          "vietnamese": "Biểu hiện"
+        },
+        {
+          "id": "15278461bad63629",
+          "japanese": "事情",
+          "reading": "じじょう",
+          "vietnamese": "Tình hình"
+        },
+        {
+          "id": "5f5d7ea5317d2baf",
+          "japanese": "愛情",
+          "reading": "あいじょう",
+          "vietnamese": "Tình thương"
+        }
+      ]
+    },
+    {
+      "id": "64f2abf2f95cbef1",
+      "character": "精",
+      "hanViet": "TINH",
+      "meaning": "",
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "6e07981832db02bf",
+          "japanese": "精神的",
+          "reading": "せいしんてき",
+          "vietnamese": "Tâm lý, tinh thần"
+        },
+        {
+          "id": "271f5ae51b2cfad3",
+          "japanese": "精一杯",
+          "reading": "せいいっぱい",
+          "vietnamese": "Dốc hết sức"
+        }
+      ]
+    },
+    {
+      "id": "9eeeeb26396146de",
+      "character": "支",
+      "hanViet": "CHI",
+      "meaning": "",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "ささ.える"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "309474baa1e18555",
+          "japanese": "支社",
+          "reading": "ししゃ",
+          "vietnamese": "Chi nhánh"
+        },
+        {
+          "id": "13db97ce89f3680d",
+          "japanese": "支える",
+          "reading": "ささえる",
+          "vietnamese": "Hỗ trợ"
+        },
+        {
+          "id": "fa54cde7a5f51170",
+          "japanese": "支持する",
+          "reading": "しじする",
+          "vietnamese": "Ủng hộ"
+        }
+      ]
+    },
+    {
+      "id": "cabfbc79630ac609",
+      "character": "技",
+      "hanViet": "KỸ",
+      "meaning": "",
+      "onyomi": [
+        "ギ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "04c9f24d13c3b672",
+          "japanese": "技術",
+          "reading": "ぎじゅつ",
+          "vietnamese": "Kỹ thuật"
+        },
+        {
+          "id": "d48695e1086327d7",
+          "japanese": "演技",
+          "reading": "えんぎ",
+          "vietnamese": "Trình diễn"
+        }
+      ]
+    },
+    {
+      "id": "8e1819ad91156ef7",
+      "character": "席",
+      "hanViet": "TỊCH",
+      "meaning": "",
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "2bef08030abe2f89",
+          "japanese": "出席",
+          "reading": "しゅっせき",
+          "vietnamese": "Tham gia"
+        },
+        {
+          "id": "d3840bb76e628b3b",
+          "japanese": "着席",
+          "reading": "ちゃくせき",
+          "vietnamese": "Về chỗ"
+        },
+        {
+          "id": "390eb805670fe5e3",
+          "japanese": "座席",
+          "reading": "ざせき",
+          "vietnamese": "Chỗ ngồi"
+        }
+      ]
+    },
+    {
+      "id": "64141635d813870f",
+      "character": "度",
+      "hanViet": "ĐỘ",
+      "meaning": "",
+      "onyomi": [
+        "ド"
+      ],
+      "kunyomi": [
+        "たび"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "c703b2d632909c3f",
+          "japanese": "支度",
+          "reading": "したく",
+          "vietnamese": "Chuẩn bị"
+        },
+        {
+          "id": "fb1d2ae09ea9cd8b",
+          "japanese": "温度",
+          "reading": "おんど",
+          "vietnamese": "Nhiệt độ"
+        },
+        {
+          "id": "460a1b8654032f1e",
+          "japanese": "度々",
+          "reading": "たびたび",
+          "vietnamese": "Thường xuyên, nhiều lần"
+        }
+      ]
+    },
+    {
+      "id": "ed3e3b75f7205cce",
+      "character": "渡",
+      "hanViet": "ĐỘ",
+      "meaning": "",
+      "onyomi": [
+        "ト"
+      ],
+      "kunyomi": [
+        "わた.る",
+        "わた.す"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "f01b5f112b73b5ea",
+          "japanese": "渡る",
+          "reading": "わたる",
+          "vietnamese": "Băng qua"
+        },
+        {
+          "id": "dd1413d583f68b66",
+          "japanese": "渡す",
+          "reading": "わたす",
+          "vietnamese": "Trao đổi"
+        }
+      ]
+    }
+  ]
+}

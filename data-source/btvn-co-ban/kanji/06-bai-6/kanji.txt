@@ -1,0 +1,16 @@
+# BTVN CƠ BẢN (MỚI) — Kanji · Bài 6
+# Nguồn: thẻ kanji Bài 6 trên website Riki. Chỗ chuẩn hoá so với thẻ: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+悲,BI,,ヒ,かな.しい・かな.しみ,|悲しい (かなしい)=Buồn bã;悲しみ (かなしみ)=Nỗi buồn;悲観的 (ひかんてき)=Tính bi quan
+性,TÍNH,,セイ,,|性格 (せいかく)=Tính cách;性質 (せいしつ)=Tính chất
+悩,NÃO,,ノウ,なや.む,|苦悩する (くのうする)=Phiền não;悩む (なやむ)=Lo lắng, băn khoăn
+情,TÌNH,,ジョウ,,|表情 (ひょうじょう)=Biểu hiện;事情 (じじょう)=Tình hình;愛情 (あいじょう)=Tình thương
+精,TINH,,セイ,,|精神的 (せいしんてき)=Tâm lý, tinh thần;精一杯 (せいいっぱい)=Dốc hết sức
+支,CHI,,シ,ささ.える,|支社 (ししゃ)=Chi nhánh;支える (ささえる)=Hỗ trợ;支持する (しじする)=Ủng hộ
+# 技: thẻ ghi âm On bằng hiragana (ぎ).
+技,KỸ,,ギ,,|技術 (ぎじゅつ)=Kỹ thuật;演技 (えんぎ)=Trình diễn
+# 席: thẻ ghi âm On bằng hiragana (せき).
+席,TỊCH,,セキ,,|出席 (しゅっせき)=Tham gia;着席 (ちゃくせき)=Về chỗ;座席 (ざせき)=Chỗ ngồi
+度,ĐỘ,,ド,たび,|支度 (したく)=Chuẩn bị;温度 (おんど)=Nhiệt độ;度々 (たびたび)=Thường xuyên, nhiều lần
+# 渡: thẻ xếp 訓 lên trước 音; ở đây đặt lại đúng cột. Từ ghép thứ hai đọc わたす (渡す).
+渡,ĐỘ,,ト,わた.る・わた.す,|渡る (わたる)=Băng qua;渡す (わたす)=Trao đổi

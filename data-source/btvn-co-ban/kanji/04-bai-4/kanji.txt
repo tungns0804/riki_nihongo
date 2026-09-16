@@ -1,0 +1,16 @@
+# BTVN CƠ BẢN (MỚI) — Kanji · Bài 4
+# Nguồn: thẻ kanji Bài 4 trên website Riki. Chỗ chuẩn hoá so với thẻ: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+拾,THẬP,,,ひろ.う,|拾う (ひろう)=Nhặt
+# 捨: thẻ đặt chỗ ngắt sai (すて・る); đuôi biến đổi của 捨てる là てる nên ghi す.てる.
+捨,XẢ,,,す.てる,|捨てる (すてる)=Vất
+押,ÁP,,,お.す,|押す (おす)=Ấn
+指,CHỈ,,シ,ゆび・さ.す,|指示 (しじ)=Chỉ thị;指 (ゆび)=Ngón tay
+探,THÁM,,タン,さが.す,|探す (さがす)=Tìm kiếm;探査 (たんさ)=Điều tra, thăm dò
+接,TIẾP,,セツ,,|接続 (せつぞく)=Kết nối;接する (せっする)=Tiếp xúc;面接 (めんせつ)=Phỏng vấn
+打,ĐẢ,,,う.つ,|打つ (うつ)=Đánh;打ち合わせ (うちあわせ)=Bàn bạc
+# 折: thẻ ghi âm On bằng hiragana (せつ).
+折,CHIẾT,,セツ,お.る・お.れる,|骨折 (こっせつ)=Gãy xương;折る (おる)=Gấp, bẻ;折れる (おれる)=Gãy, lung
+払,PHÁT,,,はら.う,|払う (はらう)=Trả;支払う (しはらう)=Thanh toán
+担,ĐẢM,,タン,,|担当 (たんとう)=Phụ trách;担任 (たんにん)=Đảm nhiệm;負担 (ふたん)=Gánh vác
+授,THỤ,,ジュ,,|授業 (じゅぎょう)=Giờ học;教授 (きょうじゅ)=Giáo sư;授与 (じゅよ)=Trao tặng

@@ -1,0 +1,11 @@
+# BTVN CƠ BẢN (MỚI) — Kanji · Bài 5
+# Nguồn: thẻ kanji Bài 5 trên website Riki. Chỗ chuẩn hoá so với thẻ: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+意,Ý,,イ,,|意識 (いしき)=Ý thức;意思 (いし)=Ý chí;意外 (いがい)=Ngoài dự kiến
+億,ỨC,,オク,,|1億円 (いちおくえん)=100 triệu yên;億万長者 (おくまんちょうじゃ)=Tỷ phú
+念,NIỆM,,ネン,,|記念 (きねん)=Kỷ niệm;残念 (ざんねん)=Đáng tiếc
+悪,ÁC,,アク,わる.い,|悪魔 (あくま)=Ác ma;最悪 (さいあく)=Xấu nhất;悪い (わるい)=Xấu, không tốt
+恋,LUYẾN,,レン,こい,|初恋 (はつこい)=Mối tình đầu;恋 (こい)=Tình yêu;恋しい (こいしい)=Nhớ nhung, thương nhớ
+変,BIẾN,,ヘン,か.える・か.わる,|変な (へんな)=Kỳ lạ;変える (かえる)=Thay đổi;変化 (へんか)=Biến đổi
+怒,NỘ,,ド,おこ.る,|怒られた (おこられた)=Bị mắng;怒りっぽい (おこりっぽい)=Dễ cáu, hay giận;怒鳴る (どなる)=Quát tháo, hét lớn
+愛,ÁI,,アイ,,|愛情 (あいじょう)=Tình yêu thương, tình cảm;恋愛 (れんあい)=Tình yêu;愛 (あい)=Tình yêu
