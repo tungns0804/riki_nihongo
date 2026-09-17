@@ -7,7 +7,7 @@ dung:
 
 | Phần                          | Đường dẫn               | Nội dung                                              |
 | ----------------------------- | ----------------------- | ----------------------------------------------------- |
-| Bài kiểm tra nhập môn N3      | `/n3-junbi/test`        | Đề đầu vào, chấm điểm theo năm kỹ năng                  |
+| Bài kiểm tra nhập môn N3      | `/n3-junbi/test`        | Đề đầu vào, chấm điểm theo từng kỹ năng                 |
 | Từ vựng                       | `/n3-junbi/vocabulary`  | Bảng từ + luyện tập bốn chiều                           |
 | KANJI                         | `/n3-junbi/kanji`       | Thẻ chữ Hán: âm On/Kun, âm Hán Việt, số nét, từ ghép    |
 | Ngữ pháp                      | `/n3-junbi/grammar`     | Trang lý thuyết: công thức, cách dùng, ví dụ            |
@@ -65,14 +65,19 @@ từng loại nằm trong `README.md` của thư mục phần học:
 - [Nghe hiểu](data-source/n3-junbi/listening/README.md) — file `.json`, âm thanh đặt trong `public/audio/`
 - [Kiểm tra nhập môn](data-source/n3-junbi/entrance-test/README.md) — file `.json`
 
+Phần **Kiểm tra nhập môn** của N3 JUNBI có đề thật "Kiểm tra nhập môn N3" — 33 câu
+theo đúng thứ tự đề: 文字語彙 20 câu (cách đọc 5, cách viết 5, điền từ 5, câu đồng
+nghĩa 5), 文法 5 câu, 読解 8 câu theo bốn bài đọc. Đề chưa có phần 聴解 nên màn hình
+kết quả chấm theo bốn kỹ năng: Kanji, Từ vựng, Ngữ pháp, Đọc hiểu.
+
 Phần **Từ vựng** của N3 JUNBI đã có nội dung thật: mục "Danh từ" gồm 120 từ của
 第1課–第6課, mục "Động từ" gồm 20 từ của 第7課 (121–140), mục "Tính từ" gồm 22 từ của
 第14課 (259–280) chia ba cụm, có bảng "Tóm tắt bài" ghi chủ đề từng cụm. Katakana và Phó
 từ mới đặt chỗ, đang chờ nội dung. Bên BTVN, mục "Danh từ" có 70 từ chia bảy cụm theo bảy
 bài tập, cũng có bảng "Tóm tắt bài".
 
-Các thư mục `00-bai-mau` / `de-1` ở những phần khác là **bài mẫu** để kiểm tra đường
-ống nội dung — xoá đi khi đã có bài thật.
+Các thư mục `00-bai-mau` ở những phần còn lại là **bài mẫu** để kiểm tra đường ống
+nội dung — xoá đi khi đã có bài thật.
 
 ## Luyện tập
 

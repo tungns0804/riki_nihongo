@@ -59,7 +59,8 @@
             }
           ],
           "answerId": "c2",
-          "explanation": "Người đàn ông nói phòng họp ở tầng ba."
+          "explanation": "Người đàn ông nói phòng họp ở tầng ba.",
+          "passage": []
         },
         {
           "id": "be5701e1d0d4446a",
@@ -85,7 +86,8 @@
             }
           ],
           "answerId": "c2",
-          "explanation": ""
+          "explanation": "",
+          "passage": []
         }
       ]
     }

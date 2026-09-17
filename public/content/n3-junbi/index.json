@@ -4,18 +4,18 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-09-16T02:41:50.147Z",
+  "generatedAt": "2026-09-17T07:36:30.219Z",
   "modules": [
     {
       "id": "entrance-test",
       "units": [
         {
           "id": "de-1",
-          "name": "Đề mẫu · Kiểm tra nhập môn N3",
-          "description": "Đề mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có đề thật.",
+          "name": "Kiểm tra nhập môn N3",
+          "description": "33 câu theo đúng thứ tự đề: 文字語彙 20 câu, 文法 5 câu, 読解 8 câu. Chấm điểm theo bốn kỹ năng.",
           "kind": "test",
-          "itemCount": 8,
-          "order": 0,
+          "itemCount": 33,
+          "order": 1,
           "file": "entrance-test/de-1.json"
         }
       ]

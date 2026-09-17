@@ -23,6 +23,17 @@
     @if (question(); as q) {
       <section class="card question-card">
         <div class="card-body stack stack-lg">
+          <!-- Bài đọc của phần đọc hiểu trong đề, nằm TRÊN câu hỏi. Đề không có màn
+               hình chi tiết để đặt bài đọc, và mỗi câu là một thẻ riêng, nên bài đọc
+               phải đi kèm từng câu. -->
+          @if (q.passage.length > 0) {
+            <div class="passage jp">
+              @for (paragraph of q.passage; track $index) {
+                <p>{{ paragraph }}</p>
+              }
+            </div>
+          }
+
           <div class="stack stack-sm">
             <p class="prompt" [class.jp]="q.promptIsJapanese">{{ q.prompt }}</p>
             @if (q.hint) {

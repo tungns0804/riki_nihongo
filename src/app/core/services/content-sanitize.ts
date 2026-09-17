@@ -278,6 +278,7 @@ export function sanitizeQuestions(raw: unknown, seen = new Set<string>()): QuizQ
       choices,
       answerId,
       explanation: text(item['explanation']),
+      passage: textList(item['passage']),
     };
   });
 }

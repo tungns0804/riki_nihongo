@@ -1,5 +1,5 @@
 {
-  "name": "Đề mẫu · Kiểm tra nhập môn N3",
-  "description": "Đề mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có đề thật.",
-  "order": 0
+  "name": "Kiểm tra nhập môn N3",
+  "description": "33 câu theo đúng thứ tự đề: 文字語彙 20 câu, 文法 5 câu, 読解 8 câu. Chấm điểm theo bốn kỹ năng.",
+  "order": 1
 }

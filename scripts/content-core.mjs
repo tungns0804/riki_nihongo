@@ -452,6 +452,8 @@ function normalizeQuestion(raw, context, defaultSkill, warnings) {
     choices,
     answerId,
     explanation: asText(raw?.explanation),
+    // Bài đọc viết trong đề nhận cả mảng đoạn lẫn một chuỗi dài có xuống dòng.
+    passage: asParagraphs(raw?.passage),
   };
 }
 

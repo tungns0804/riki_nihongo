@@ -223,6 +223,18 @@ export interface QuizQuestion {
   /** Id của lựa chọn đúng. Luôn nằm trong `choices`. */
   answerId: string;
   explanation: string;
+  /**
+   * Bài đọc của RIÊNG câu này, tách theo đoạn. Chỉ đề kiểm tra dùng tới.
+   *
+   * Phần đọc hiểu của đề không có chỗ nào khác để đặt bài đọc: đề cố tình không có
+   * màn hình chi tiết (xem trước thì bài kiểm tra đầu vào không còn đo được gì), mà
+   * màn hình làm bài hiện MỖI CÂU MỘT THẺ nên không xem lại được thẻ trước. Vì vậy
+   * bài đọc đi theo từng câu, và mấy câu hỏi cùng một bài đọc thì lặp lại cùng đoạn văn.
+   *
+   * Rỗng ở mọi chỗ khác: bài đọc hiểu và bài nghe hiểu đã có bài đọc / lời thoại
+   * riêng trên màn hình chi tiết của chúng.
+   */
+  passage: string[];
 }
 
 // ── Đọc hiểu ───────────────────────────────────────────────────────────────

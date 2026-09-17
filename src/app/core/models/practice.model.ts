@@ -76,6 +76,11 @@ export interface PracticeQuestion {
   /** Giải thích hiện sau khi chấm. Rỗng nghĩa là không có. */
   explanation: string;
   /**
+   * Bài đọc hiện TRÊN câu dẫn, tách theo đoạn. Chỉ câu hỏi viết sẵn trong đề kiểm
+   * tra mới có — câu tự dựng từ bài học thì rỗng.
+   */
+  passage: string[];
+  /**
    * Câu ví dụ hỏi NGAY TRÊN CÙNG THẺ, sau khi đã chấm câu này. null nghĩa là không có.
    *
    * Bài từ vựng hỏi về từ, rồi bắt điền chính từ đó vào một câu ví dụ của nó. Hai phần

@@ -20,6 +20,29 @@
   line-height: 1.35;
 }
 
+/* --- Bài đọc của đề --------------------------------------------------------
+   Trình bày như trang Đọc hiểu (features/reading-detail): chữ lớn hơn phần còn lại
+   và dòng thưa, vì đây là khối duy nhất người học phải đọc liền mạch vài trăm chữ,
+   không phải liếc lấy thông tin. Cố tình KHÔNG lấy cỡ chữ của .prompt: câu dẫn to
+   như vậy là vì nó thường chỉ dài một dòng.
+
+   Khung lõm để tách bài đọc khỏi câu hỏi và bốn lựa chọn ngay dưới nó — mấy câu
+   cùng một bài đọc lặp lại cùng đoạn văn, thấy ngay đâu là bài đọc thì không phải
+   đọc lại từ đầu. */
+.passage {
+  padding: var(--sp-4);
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+  font-size: var(--fs-lg);
+  line-height: 2;
+}
+
+.passage p + p {
+  margin-top: var(--sp-4);
+  /* Thụt đầu dòng một chữ, đúng quy ước xuống đoạn của văn bản tiếng Nhật. */
+  text-indent: 1em;
+}
+
 /* Nhãn của câu ví dụ đi kèm. Chỉ rộng bằng chữ: .stack là cột flex nên mặc định kéo
    nó dãn hết bề ngang, thành một dải màu trông như khối phản hồi. */
 .step-badge {

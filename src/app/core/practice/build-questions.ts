@@ -123,6 +123,7 @@ function fromVocabulary(
       acceptedAnswers: [correct],
       choices: withChoices ? buildChoices(correct, pool) : [],
       explanation: '',
+      passage: [],
       examples: vocabExamples(word),
       followUp: follow ? sentenceQuestion(follow, sentences, withChoices, true) : null,
     };
@@ -259,6 +260,7 @@ function sentenceQuestion(
     acceptedAnswers: reading ? [blank, reading] : [blank],
     choices: withChoices ? buildBlankChoices(blank, pool) : [],
     explanation: '',
+    passage: [],
     examples: asFollowUp ? [] : vocabExamples(word),
     followUp: null,
   };
@@ -336,6 +338,7 @@ function fromKanji(
           )
         : [],
       explanation: '',
+      passage: [],
       examples: entry.words.map((word) => ({
         id: word.id,
         japanese: word.reading ? `${word.japanese}（${word.reading}）` : word.japanese,
@@ -385,6 +388,7 @@ function fromGrammar(
       acceptedAnswers: [correct],
       choices: withChoices ? buildChoices(correct, pool) : [],
       explanation: example.note,
+      passage: [],
       examples: example.reading
         ? [
             {
@@ -424,6 +428,8 @@ export function fromQuizQuestions(questions: readonly QuizQuestion[]): PracticeQ
         acceptedAnswers: [answer.text],
         choices: question.choices.map((choice) => choice.text),
         explanation: question.explanation,
+        // Bài đọc của phần đọc hiểu trong đề: đi theo từng câu vì mỗi câu một thẻ.
+        passage: question.passage,
         examples: [],
         followUp: null,
       },
