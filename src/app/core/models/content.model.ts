@@ -210,6 +210,15 @@ export interface GrammarPoint {
 export interface QuizChoice {
   id: string;
   text: string;
+  /**
+   * Nghĩa tiếng Việt của lựa chọn. Rỗng nghĩa là không có.
+   *
+   * Chỉ viết cho những phần mà bốn lựa chọn đều là từ/câu có nghĩa thật (điền từ,
+   * câu đồng nghĩa, ngữ pháp, đọc hiểu). Phần chọn cách đọc và chọn chữ Hán thì ba
+   * lựa chọn nhiễu không phải là từ — dịch ra chỉ còn cách bỏ trống ba chỗ, mà như
+   * thế là chỉ thẳng vào đáp án.
+   */
+  translation: string;
 }
 
 export interface QuizQuestion {
@@ -219,6 +228,8 @@ export interface QuizQuestion {
   prompt: string;
   /** Phần tiếng Nhật của câu hỏi (câu có chỗ trống, câu cần chọn cách đọc…). */
   promptJapanese: string;
+  /** Nghĩa tiếng Việt của `promptJapanese`. Rỗng nghĩa là không có. */
+  promptTranslation: string;
   choices: QuizChoice[];
   /** Id của lựa chọn đúng. Luôn nằm trong `choices`. */
   answerId: string;
@@ -235,6 +246,8 @@ export interface QuizQuestion {
    * riêng trên màn hình chi tiết của chúng.
    */
   passage: string[];
+  /** Bản dịch của `passage`, cùng số đoạn nếu có. Rỗng nghĩa là không có. */
+  passageTranslation: string[];
 }
 
 // ── Đọc hiểu ───────────────────────────────────────────────────────────────
@@ -274,6 +287,15 @@ export interface ListeningTrack {
 export interface TestSection {
   id: string;
   title: string;
+  /**
+   * Câu lệnh của 問題 bằng tiếng Nhật, chép nguyên trong đề ("（　）に なにを
+   * いれますか。…"). Màn hình làm đề hiện nó trong khung nét đứt trên đầu phần, đúng
+   * như đề in: câu lệnh cho biết phần này hỏi cái gì (chọn cách đọc, chọn chữ Hán,
+   * chọn câu đồng nghĩa…) mà từng câu hỏi không nhắc lại.
+   *
+   * Rỗng thì không hiện khung nào.
+   */
+  instructions: string;
   skill: SkillId;
   questions: QuizQuestion[];
 }

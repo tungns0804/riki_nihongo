@@ -417,16 +417,35 @@ function normalizeQuestion(raw, context, defaultSkill, warnings) {
     return null;
   }
 
-  const choiceTexts = (Array.isArray(raw?.choices) ? raw.choices : [])
-    .map((choice) => (typeof choice === 'string' ? choice.trim() : asText(choice?.text)))
-    .filter((choice) => choice.length > 0);
+  // Bản dịch của lựa chọn: viết thành mảng song song `choicesVietnamese`, hoặc viết
+  // ngay trong lựa chọn dạng object `{ text, translation }`.
+  const rawTranslations = Array.isArray(raw?.choicesVietnamese) ? raw.choicesVietnamese : [];
 
-  if (choiceTexts.length < 2) {
+  const choiceItems = (Array.isArray(raw?.choices) ? raw.choices : [])
+    .map((choice, index) => ({
+      text: typeof choice === 'string' ? choice.trim() : asText(choice?.text),
+      translation: asText(
+        typeof choice === 'string' ? rawTranslations[index] : choice?.translation ?? rawTranslations[index],
+      ),
+    }))
+    .filter((choice) => choice.text.length > 0);
+
+  const choiceTexts = choiceItems.map((choice) => choice.text);
+
+  if (choiceItems.length < 2) {
     warnings.push(`${context}: cần ít nhất 2 lựa chọn`);
     return null;
   }
 
-  const choices = choiceTexts.map((text, index) => ({ id: `c${index + 1}`, text }));
+  // Dịch thiếu một lựa chọn là lỗi im lặng đáng cảnh báo: trên màn hình sẽ có lựa
+  // chọn hiện nghĩa, lựa chọn không — trông như chỗ đó cố tình để trống.
+  if (rawTranslations.length > 0 && rawTranslations.length !== choiceItems.length) {
+    warnings.push(
+      `${context}: có ${rawTranslations.length} bản dịch cho ${choiceItems.length} lựa chọn`,
+    );
+  }
+
+  const choices = choiceItems.map((choice, index) => ({ id: `c${index + 1}`, ...choice }));
 
   const answer = raw?.answer;
   let answerId = '';
@@ -449,11 +468,13 @@ function normalizeQuestion(raw, context, defaultSkill, warnings) {
     skill,
     prompt,
     promptJapanese,
+    promptTranslation: asText(raw?.promptVietnamese ?? raw?.promptTranslation),
     choices,
     answerId,
     explanation: asText(raw?.explanation),
     // Bài đọc viết trong đề nhận cả mảng đoạn lẫn một chuỗi dài có xuống dòng.
     passage: asParagraphs(raw?.passage),
+    passageTranslation: asParagraphs(raw?.passageVietnamese ?? raw?.passageTranslation),
   };
 }
 
@@ -601,7 +622,13 @@ export function normalizeTest(raw) {
       continue;
     }
 
-    sections.push({ id: asText(item?.id) || `s${index + 1}`, title, skill, questions });
+    sections.push({
+      id: asText(item?.id) || `s${index + 1}`,
+      title,
+      instructions: asText(item?.instructions),
+      skill,
+      questions,
+    });
   }
 
   return { sections, warnings };

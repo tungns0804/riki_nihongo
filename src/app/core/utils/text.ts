@@ -3,6 +3,17 @@
  */
 
 /**
+ * Một mảnh chữ để vẽ lên màn hình, kèm cờ "có phải chỗ cần tô không".
+ *
+ * Dùng chung cho hai việc: tô từ đang học trong câu ví dụ (`splitAround`) và tô chỗ
+ * lệch khi so câu người học tự viết với bản gốc (`diffAgainst`).
+ */
+export interface TextPart {
+  text: string;
+  hit: boolean;
+}
+
+/**
  * Bỏ dấu tiếng Việt.
  *
  * NFD tách chữ cái ra khỏi dấu, rồi xoá dải dấu kết hợp U+0300–U+036F. Riêng đ/Đ
@@ -43,12 +54,9 @@ export function matchesAllWords(haystack: string, needle: string): boolean {
  * (やる気が起きない・起こらない). Không tìm thấy chữ nào thì trả về nguyên câu một
  * mảnh, chứ không cố đoán: tô nhầm còn tệ hơn không tô.
  */
-export function splitAround(
-  text: string,
-  needles: readonly string[],
-): { text: string; hit: boolean }[] {
+export function splitAround(text: string, needles: readonly string[]): TextPart[] {
   const wanted = needles.filter((needle) => needle.length > 0);
-  const parts: { text: string; hit: boolean }[] = [];
+  const parts: TextPart[] = [];
   let rest = text;
 
   while (true) {
@@ -109,4 +117,73 @@ export function readingOfForm(form: string, dictionary: string, reading: string)
   if (!KANA_ONLY.test(before) || !KANA_ONLY.test(after)) return '';
 
   return before + reading.slice(0, reading.length - tail.length) + after;
+}
+
+/** Bỏ mọi khoảng trắng, kể cả dấu cách toàn chiều của bộ gõ tiếng Nhật. */
+function squeeze(value: string): string {
+  return value.replace(/[\s\u3000]+/gu, '');
+}
+
+/**
+ * So câu người học TỰ VIẾT với bản gốc, ở mức từng chữ.
+ *
+ * Trả về bản gốc đã cắt thành từng mảnh: `hit = false` là chữ người học viết thiếu
+ * hoặc viết khác, tức là chỗ cần nhìn lại.
+ *
+ * Dùng LCS (chuỗi con chung dài nhất) chứ không so từng vị trí một: thiếu hay thừa
+ * một chữ ở đầu câu làm lệch toàn bộ phần sau, so theo vị trí thì cả câu bị tô và
+ * không chỉ ra được sai chỗ nào.
+ *
+ * Bỏ qua mọi khoảng trắng. Đề in có dấu cách giữa các từ (kiểu đề trình độ thấp) còn
+ * người gõ thì thường không, mà đó không phải chỗ cần học.
+ *
+ * `matches` chỉ đúng khi đã viết gì đó VÀ khớp hết: ô trống thì không tính là khớp.
+ */
+export function diffAgainst(
+  original: string,
+  typed: string,
+): { parts: TextPart[]; matches: boolean } {
+  const source = [...squeeze(original)];
+  const given = [...squeeze(typed)];
+
+  // Bảng LCS (source.length + 1) × (given.length + 1). Câu trong đề dài vài chục chữ
+  // nên bảng này nhỏ, không cần bản tiết kiệm bộ nhớ.
+  const lcs: number[][] = Array.from({ length: source.length + 1 }, () =>
+    new Array<number>(given.length + 1).fill(0),
+  );
+  for (let i = source.length - 1; i >= 0; i--) {
+    for (let j = given.length - 1; j >= 0; j--) {
+      lcs[i][j] =
+        source[i] === given[j] ? lcs[i + 1][j + 1] + 1 : Math.max(lcs[i + 1][j], lcs[i][j + 1]);
+    }
+  }
+
+  // Lần theo bảng để biết chữ thứ mấy của bản gốc là chữ khớp.
+  const hit = new Array<boolean>(source.length).fill(false);
+  let i = 0;
+  let j = 0;
+  while (i < source.length && j < given.length) {
+    if (source[i] === given[j]) {
+      hit[i] = true;
+      i++;
+      j++;
+    } else if (lcs[i + 1][j] >= lcs[i][j + 1]) {
+      i++;
+    } else {
+      j++;
+    }
+  }
+
+  // Ghép lại thành từng mảnh để template không phải vẽ riêng từng chữ.
+  const parts: TextPart[] = [];
+  let index = 0;
+  for (const char of original) {
+    // Khoảng trắng của bản gốc không nằm trong phép so, nên luôn coi là khớp.
+    const ok = /[\s\u3000]/u.test(char) ? true : (hit[index++] ?? false);
+    const last = parts[parts.length - 1];
+    if (last && last.hit === ok) last.text += char;
+    else parts.push({ text: char, hit: ok });
+  }
+
+  return { parts, matches: given.length > 0 && squeeze(original) === squeeze(typed) };
 }

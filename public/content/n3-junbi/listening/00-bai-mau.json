@@ -40,54 +40,66 @@
           "skill": "listening",
           "prompt": "Người phụ nữ sắp đi đâu?",
           "promptJapanese": "女の人はこれからどこへ行きますか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "一階の受付"
+              "text": "一階の受付",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "三階の会議室"
+              "text": "三階の会議室",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "二階の食堂"
+              "text": "二階の食堂",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "会社の外"
+              "text": "会社の外",
+              "translation": ""
             }
           ],
           "answerId": "c2",
           "explanation": "Người đàn ông nói phòng họp ở tầng ba.",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "be5701e1d0d4446a",
           "skill": "listening",
           "prompt": "Cuộc họp bắt đầu lúc mấy giờ?",
           "promptJapanese": "会議は何時から始まりますか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "一時"
+              "text": "一時",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "二時"
+              "text": "二時",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "三時"
+              "text": "三時",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "十時"
+              "text": "十時",
+              "translation": ""
             }
           ],
           "answerId": "c2",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         }
       ]
     }

@@ -7,6 +7,7 @@
     {
       "id": "moji-1",
       "title": "Phần 1 · 文字語彙 問題1 — Cách đọc",
+      "instructions": "___のことばはひらがなでどうかきますか。1・2・3・4からいちばんいいものをひとつえらんでください。",
       "skill": "kanji",
       "questions": [
         {
@@ -14,141 +15,172 @@
           "skill": "kanji",
           "prompt": "Từ trong 「 」 đọc bằng hiragana thế nào?",
           "promptJapanese": "つよい「台風」が 来る そうです。",
+          "promptTranslation": "Nghe nói một cơn bão mạnh đang tới.",
           "choices": [
             {
               "id": "c1",
-              "text": "たいふ"
+              "text": "たいふ",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "だいふ"
+              "text": "だいふ",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "たいふう"
+              "text": "たいふう",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "だいふう"
+              "text": "だいふう",
+              "translation": ""
             }
           ],
           "answerId": "c3",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-02",
           "skill": "kanji",
           "prompt": "Từ trong 「 」 đọc bằng hiragana thế nào?",
           "promptJapanese": "今日の よるは きおんが「低下」します。",
+          "promptTranslation": "Đêm nay nhiệt độ sẽ hạ xuống.",
           "choices": [
             {
               "id": "c1",
-              "text": "てか"
+              "text": "てか",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "ていか"
+              "text": "ていか",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "てげ"
+              "text": "てげ",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "ていげ"
+              "text": "ていげ",
+              "translation": ""
             }
           ],
           "answerId": "c2",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-03",
           "skill": "kanji",
           "prompt": "Từ trong 「 」 đọc bằng hiragana thế nào?",
           "promptJapanese": "となりの へやの「声」が よく 聞こえます。",
+          "promptTranslation": "Nghe rõ tiếng nói ở phòng bên cạnh.",
           "choices": [
             {
               "id": "c1",
-              "text": "おと"
+              "text": "おと",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "こえ"
+              "text": "こえ",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "いき"
+              "text": "いき",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "うた"
+              "text": "うた",
+              "translation": ""
             }
           ],
           "answerId": "c2",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-04",
           "skill": "kanji",
           "prompt": "Từ trong 「 」 đọc bằng hiragana thế nào?",
           "promptJapanese": "わたしは あつさに「弱い」です。",
+          "promptTranslation": "Tôi không chịu được nóng.",
           "choices": [
             {
               "id": "c1",
-              "text": "あかい"
+              "text": "あかい",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "つよい"
+              "text": "つよい",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "あまい"
+              "text": "あまい",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "よわい"
+              "text": "よわい",
+              "translation": ""
             }
           ],
           "answerId": "c4",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-05",
           "skill": "kanji",
           "prompt": "Từ trong 「 」 đọc bằng hiragana thế nào?",
           "promptJapanese": "りょこうの「計画」を かんがえるのは たのしい。",
+          "promptTranslation": "Nghĩ kế hoạch cho chuyến du lịch thật vui.",
           "choices": [
             {
               "id": "c1",
-              "text": "けんかく"
+              "text": "けんかく",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "けいかく"
+              "text": "けいかく",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "けんが"
+              "text": "けんが",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "けいが"
+              "text": "けいが",
+              "translation": ""
             }
           ],
           "answerId": "c2",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         }
       ]
     },
     {
       "id": "moji-2",
       "title": "Phần 2 · 文字語彙 問題2 — Cách viết",
+      "instructions": "___のことば どう かきますか。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。",
       "skill": "kanji",
       "questions": [
         {
@@ -156,141 +188,172 @@
           "skill": "kanji",
           "prompt": "Từ trong 「 」 viết bằng chữ Hán thế nào?",
           "promptJapanese": "かのじょは 日本の 人口の 問題を「けんきゅう」して います。",
+          "promptTranslation": "Cô ấy đang nghiên cứu vấn đề dân số của Nhật Bản.",
           "choices": [
             {
               "id": "c1",
-              "text": "験究"
+              "text": "験究",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "研究"
+              "text": "研究",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "験空"
+              "text": "験空",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "研空"
+              "text": "研空",
+              "translation": ""
             }
           ],
           "answerId": "c2",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-07",
           "skill": "kanji",
           "prompt": "Từ trong 「 」 viết bằng chữ Hán thế nào?",
           "promptJapanese": "バスで 行くので「べんり」です。",
+          "promptTranslation": "Vì đi bằng xe buýt nên tiện.",
           "choices": [
             {
               "id": "c1",
-              "text": "便利"
+              "text": "便利",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "便理"
+              "text": "便理",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "更利"
+              "text": "更利",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "更理"
+              "text": "更理",
+              "translation": ""
             }
           ],
           "answerId": "c1",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-08",
           "skill": "kanji",
           "prompt": "Từ trong 「 」 viết bằng chữ Hán thế nào?",
           "promptJapanese": "明日は「はれ」たら 友だちと テニスを します。",
+          "promptTranslation": "Mai nếu trời nắng thì tôi sẽ chơi tennis với bạn.",
           "choices": [
             {
               "id": "c1",
-              "text": "青れ"
+              "text": "青れ",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "清れ"
+              "text": "清れ",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "晴れ"
+              "text": "晴れ",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "静れ"
+              "text": "静れ",
+              "translation": ""
             }
           ],
           "answerId": "c3",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-09",
           "skill": "kanji",
           "prompt": "Từ trong 「 」 viết bằng chữ Hán thế nào?",
           "promptJapanese": "子どもを つれて よく「こうえん」へ 行きます。",
+          "promptTranslation": "Tôi thường dẫn con đi công viên.",
           "choices": [
             {
               "id": "c1",
-              "text": "広園"
+              "text": "広園",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "公園"
+              "text": "公園",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "広図"
+              "text": "広図",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "公図"
+              "text": "公図",
+              "translation": ""
             }
           ],
           "answerId": "c2",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-10",
           "skill": "kanji",
           "prompt": "Từ trong 「 」 viết bằng chữ Hán thế nào?",
           "promptJapanese": "山田さんは しゃしんやを「えいぎょう」 しています。",
+          "promptTranslation": "Yamada đang kinh doanh một hiệu ảnh.",
           "choices": [
             {
               "id": "c1",
-              "text": "映業"
+              "text": "映業",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "映僕"
+              "text": "映僕",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "営業"
+              "text": "営業",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "営僕"
+              "text": "営僕",
+              "translation": ""
             }
           ],
           "answerId": "c3",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         }
       ]
     },
     {
       "id": "moji-3",
       "title": "Phần 3 · 文字語彙 問題3 — Điền từ",
+      "instructions": "( )に なにを いれますか。1・2・3・4から おちばん いい ものを ひとつ えらんで ください。",
       "skill": "vocabulary",
       "questions": [
         {
@@ -298,141 +361,172 @@
           "skill": "vocabulary",
           "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "promptJapanese": "台風の場合は、明日のコンサートを（　）します。",
+          "promptTranslation": "Nếu có bão thì buổi hoà nhạc ngày mai sẽ bị （　）.",
           "choices": [
             {
               "id": "c1",
-              "text": "ちゅうしゃ"
+              "text": "ちゅうしゃ",
+              "translation": "đỗ xe (駐車)"
             },
             {
               "id": "c2",
-              "text": "ちゅうし"
+              "text": "ちゅうし",
+              "translation": "hoãn, dừng (中止)"
             },
             {
               "id": "c3",
-              "text": "こしょう"
+              "text": "こしょう",
+              "translation": "hỏng hóc (故障)"
             },
             {
               "id": "c4",
-              "text": "しょうたい"
+              "text": "しょうたい",
+              "translation": "mời (招待)"
             }
           ],
           "answerId": "c2",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-12",
           "skill": "vocabulary",
           "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "promptJapanese": "大人になっても、親に（　）ことがあります。",
+          "promptTranslation": "Dù đã là người lớn, vẫn có lúc bị bố mẹ （　）.",
           "choices": [
             {
               "id": "c1",
-              "text": "しかられる"
+              "text": "しかられる",
+              "translation": "bị mắng"
             },
             {
               "id": "c2",
-              "text": "かざられる"
+              "text": "かざられる",
+              "translation": "bị trang trí"
             },
             {
               "id": "c3",
-              "text": "おこなわれる"
+              "text": "おこなわれる",
+              "translation": "được tiến hành"
             },
             {
               "id": "c4",
-              "text": "なおされる"
+              "text": "なおされる",
+              "translation": "bị sửa lại"
             }
           ],
           "answerId": "c1",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-13",
           "skill": "vocabulary",
           "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "promptJapanese": "このガラスのコップはわれにくいので、（　）使えます。",
+          "promptTranslation": "Cái cốc thuỷ tinh này khó vỡ nên dùng （　） được.",
           "choices": [
             {
               "id": "c1",
-              "text": "ふくざつに"
+              "text": "ふくざつに",
+              "translation": "một cách phức tạp"
             },
             {
               "id": "c2",
-              "text": "きけんに"
+              "text": "きけんに",
+              "translation": "một cách nguy hiểm"
             },
             {
               "id": "c3",
-              "text": "あんぜんに"
+              "text": "あんぜんに",
+              "translation": "một cách an toàn"
             },
             {
               "id": "c4",
-              "text": "ふべんに"
+              "text": "ふべんに",
+              "translation": "một cách bất tiện"
             }
           ],
           "answerId": "c3",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-14",
           "skill": "vocabulary",
           "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "promptJapanese": "ここから富士山が（　）見えます。",
+          "promptTranslation": "Từ đây nhìn thấy núi Phú Sĩ （　）.",
           "choices": [
             {
               "id": "c1",
-              "text": "なるべく"
+              "text": "なるべく",
+              "translation": "càng… càng tốt, nếu có thể"
             },
             {
               "id": "c2",
-              "text": "はっきり"
+              "text": "はっきり",
+              "translation": "rõ ràng"
             },
             {
               "id": "c3",
-              "text": "もっとも"
+              "text": "もっとも",
+              "translation": "nhất, hơn cả"
             },
             {
               "id": "c4",
-              "text": "どんどん"
+              "text": "どんどん",
+              "translation": "ào ào, dồn dập"
             }
           ],
           "answerId": "c2",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-15",
           "skill": "vocabulary",
           "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "promptJapanese": "地震でマンションの（　）が止まっています。",
+          "promptTranslation": "Do động đất nên （　） của toà nhà đang dừng.",
           "choices": [
             {
               "id": "c1",
-              "text": "コース"
+              "text": "コース",
+              "translation": "lộ trình, khoá học"
             },
             {
               "id": "c2",
-              "text": "ベランダ"
+              "text": "ベランダ",
+              "translation": "ban công"
             },
             {
               "id": "c3",
-              "text": "スイッチ"
+              "text": "スイッチ",
+              "translation": "công tắc"
             },
             {
               "id": "c4",
-              "text": "エレベーター"
+              "text": "エレベーター",
+              "translation": "thang máy"
             }
           ],
           "answerId": "c4",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         }
       ]
     },
     {
       "id": "moji-4",
       "title": "Phần 4 · 文字語彙 問題4 — Câu đồng nghĩa",
+      "instructions": "___の ぶんと だいたい おなじ いみの ぶんがあります。1・2・3・4から いちばん いい ものを ひとつ えらんでください。",
       "skill": "vocabulary",
       "questions": [
         {
@@ -440,141 +534,172 @@
           "skill": "vocabulary",
           "prompt": "Chọn câu có nghĩa gần nhất với câu trên.",
           "promptJapanese": "日曜日は予定があるので、出席できません。",
+          "promptTranslation": "Chủ nhật tôi có hẹn trước nên không tham dự được.",
           "choices": [
             {
               "id": "c1",
-              "text": "日曜日は ぐあいが あるので 行けません。"
+              "text": "日曜日は ぐあいが あるので 行けません。",
+              "translation": "Chủ nhật vì có “tình trạng sức khoẻ” nên không đi được. (ぐあい không dùng kiểu này)"
             },
             {
               "id": "c2",
-              "text": "日曜日は 用事が 悪いので 行けません。"
+              "text": "日曜日は 用事が 悪いので 行けません。",
+              "translation": "Chủ nhật vì việc riêng “xấu” nên không đi được. (用事 không đi với 悪い)"
             },
             {
               "id": "c3",
-              "text": "日曜日は 都合が 悪いので 行けません。"
+              "text": "日曜日は 都合が 悪いので 行けません。",
+              "translation": "Chủ nhật vì không thuận tiện nên không đi được."
             },
             {
               "id": "c4",
-              "text": "日曜日は 用意が あるので 行けません。"
+              "text": "日曜日は 用意が あるので 行けません。",
+              "translation": "Chủ nhật vì có “sự chuẩn bị” nên không đi được. (用意 = chuẩn bị)"
             }
           ],
           "answerId": "c3",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-17",
           "skill": "vocabulary",
           "prompt": "Chọn câu có nghĩa gần nhất với câu trên.",
           "promptJapanese": "あの カフェは いつも すいて います。",
+          "promptTranslation": "Quán cà phê đó lúc nào cũng vắng.",
           "choices": [
             {
               "id": "c1",
-              "text": "あの カフェは いつも 店員が 親切です。"
+              "text": "あの カフェは いつも 店員が 親切です。",
+              "translation": "Quán cà phê đó lúc nào nhân viên cũng tử tế."
             },
             {
               "id": "c2",
-              "text": "あの カフェは いつも 飲み物が おいしいです。"
+              "text": "あの カフェは いつも 飲み物が おいしいです。",
+              "translation": "Quán cà phê đó lúc nào đồ uống cũng ngon."
             },
             {
               "id": "c3",
-              "text": "あの カフェは いつも 客が 少ないです。"
+              "text": "あの カフェは いつも 客が 少ないです。",
+              "translation": "Quán cà phê đó lúc nào cũng ít khách."
             },
             {
               "id": "c4",
-              "text": "あの カフェは いつも ねだんが 高いです。"
+              "text": "あの カフェは いつも ねだんが 高いです。",
+              "translation": "Quán cà phê đó lúc nào giá cũng cao."
             }
           ],
           "answerId": "c3",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-18",
           "skill": "vocabulary",
           "prompt": "Chọn câu có nghĩa gần nhất với câu trên.",
           "promptJapanese": "一時間で この宿題を 終わらせるのは きつい。",
+          "promptTranslation": "Làm xong bài tập này trong một tiếng thì căng.",
           "choices": [
             {
               "id": "c1",
-              "text": "一時間で この宿題を 終わらせるのは すばらしい。"
+              "text": "一時間で この宿題を 終わらせるのは すばらしい。",
+              "translation": "Làm xong bài tập này trong một tiếng thì tuyệt vời."
             },
             {
               "id": "c2",
-              "text": "一時間で この宿題を 終わらせるのは めずらしい。"
+              "text": "一時間で この宿題を 終わらせるのは めずらしい。",
+              "translation": "Làm xong bài tập này trong một tiếng thì hiếm thấy."
             },
             {
               "id": "c3",
-              "text": "一時間で この宿題を 終わらせるのは うつくしい。"
+              "text": "一時間で この宿題を 終わらせるのは うつくしい。",
+              "translation": "Làm xong bài tập này trong một tiếng thì đẹp."
             },
             {
               "id": "c4",
-              "text": "一時間で この宿題を 終わらせるのは むずかしい。"
+              "text": "一時間で この宿題を 終わらせるのは むずかしい。",
+              "translation": "Làm xong bài tập này trong một tiếng thì khó."
             }
           ],
           "answerId": "c4",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-19",
           "skill": "vocabulary",
           "prompt": "Chọn câu có nghĩa gần nhất với câu trên.",
           "promptJapanese": "このごろ 気温が さがって います。",
+          "promptTranslation": "Dạo này nhiệt độ đang hạ.",
           "choices": [
             {
               "id": "c1",
-              "text": "最近 寒く なっています。"
+              "text": "最近 寒く なっています。",
+              "translation": "Gần đây trời đang lạnh dần."
             },
             {
               "id": "c2",
-              "text": "最近 暑く なっています。"
+              "text": "最近 暑く なっています。",
+              "translation": "Gần đây trời đang nóng dần."
             },
             {
               "id": "c3",
-              "text": "さっき 天気が いいです。"
+              "text": "さっき 天気が いいです。",
+              "translation": "Vừa rồi trời đẹp."
             },
             {
               "id": "c4",
-              "text": "さっき 天気が 悪いです。"
+              "text": "さっき 天気が 悪いです。",
+              "translation": "Vừa rồi trời xấu."
             }
           ],
           "answerId": "c1",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "mg-20",
           "skill": "vocabulary",
           "prompt": "Chọn câu có nghĩa gần nhất với câu trên.",
           "promptJapanese": "弟は おじさんに 注意されました。",
+          "promptTranslation": "Em trai tôi bị chú nhắc nhở.",
           "choices": [
             {
               "id": "c1",
-              "text": "おじさんは 弟に 「ゲームばかり するな。」と 言いました。"
+              "text": "おじさんは 弟に 「ゲームばかり するな。」と 言いました。",
+              "translation": "Chú nói với em trai tôi: “Đừng có chỉ chơi game.”"
             },
             {
               "id": "c2",
-              "text": "おじさんは 弟に 「おみやげを あげよう。」と 言いました。"
+              "text": "おじさんは 弟に 「おみやげを あげよう。」と 言いました。",
+              "translation": "Chú nói với em trai tôi: “Để chú cho quà.”"
             },
             {
               "id": "c3",
-              "text": "おじさんは 弟に 「がんばってください。」と 言いました。"
+              "text": "おじさんは 弟に 「がんばってください。」と 言いました。",
+              "translation": "Chú nói với em trai tôi: “Cố lên nhé.”"
             },
             {
               "id": "c4",
-              "text": "おじさんは 弟に 「また あそびに 来なさい。」と 言いました。"
+              "text": "おじさんは 弟に 「また あそびに 来なさい。」と 言いました。",
+              "translation": "Chú nói với em trai tôi: “Lại đến chơi nữa nhé.”"
             }
           ],
           "answerId": "c1",
           "explanation": "",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         }
       ]
     },
     {
       "id": "bunpou",
       "title": "Phần 5 · 文法 — Ngữ pháp",
+      "instructions": "( )に 何を いれますか。1・2・3・4から いちばん いい ものを 一つ えらんで ください。",
       "skill": "grammar",
       "questions": [
         {
@@ -582,141 +707,172 @@
           "skill": "grammar",
           "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
           "promptJapanese": "A「長田さんと 話せましたか。」 B「いいえ。今日は 池山さん（　）会えませんでした。」",
+          "promptTranslation": "A: “Cậu nói chuyện được với Nagata chưa?” B: “Chưa. Hôm nay tôi （　） gặp được Ikeyama.”",
           "choices": [
             {
               "id": "c1",
-              "text": "とも"
+              "text": "とも",
+              "translation": "cũng với (người đó)"
             },
             {
               "id": "c2",
-              "text": "とで"
+              "text": "とで",
+              "translation": "không dùng được ở đây"
             },
             {
               "id": "c3",
-              "text": "とだけ"
+              "text": "とだけ",
+              "translation": "chỉ với (người đó) — đi với câu khẳng định"
             },
             {
               "id": "c4",
-              "text": "としか"
+              "text": "としか",
+              "translation": "chỉ… mà thôi — đi với phủ định (～としか…ない)"
             }
           ],
           "answerId": "c4",
           "explanation": "「〜としか会えなかった」= chỉ gặp được người này thôi",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "bp-02",
           "skill": "grammar",
           "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
           "promptJapanese": "A「りさんは 食べ物の 好ききらいが ないんですね。」 B「ええ、子どもの とき 母に（　）からです。」",
+          "promptTranslation": "A: “Ri không kén ăn nhỉ.” B: “Vâng, vì hồi nhỏ （　） bởi mẹ.”",
           "choices": [
             {
               "id": "c1",
-              "text": "何かを 食べさせた"
+              "text": "何かを 食べさせた",
+              "translation": "đã cho (ai đó) ăn cái gì"
             },
             {
               "id": "c2",
-              "text": "何でも 食べさせられた"
+              "text": "何でも 食べさせられた",
+              "translation": "bị bắt ăn bất cứ thứ gì"
             },
             {
               "id": "c3",
-              "text": "何でも 食べられた"
+              "text": "何でも 食べられた",
+              "translation": "ăn được bất cứ thứ gì"
             },
             {
               "id": "c4",
-              "text": "何か 食べた"
+              "text": "何か 食べた",
+              "translation": "đã ăn cái gì đó"
             }
           ],
           "answerId": "c2",
           "explanation": "bị động sai khiến: bị mẹ bắt ăn bất cứ thứ gì",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "bp-03",
           "skill": "grammar",
           "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
           "promptJapanese": "火が だんだん 消えて（　）。",
+          "promptTranslation": "Lửa dần dần （　） tắt.",
           "choices": [
             {
               "id": "c1",
-              "text": "きた"
+              "text": "きた",
+              "translation": "～てきた: thay đổi dần về phía hiện tại"
             },
             {
               "id": "c2",
-              "text": "あった"
+              "text": "あった",
+              "translation": "không dùng được ở đây"
             },
             {
               "id": "c3",
-              "text": "おいた"
+              "text": "おいた",
+              "translation": "～ておいた: làm sẵn trước"
             },
             {
               "id": "c4",
-              "text": "いった"
+              "text": "いった",
+              "translation": "～ていった: thay đổi dần, xa dần theo thời gian"
             }
           ],
           "answerId": "c4",
           "explanation": "消えていく: diễn tả sự thay đổi dần theo thời gian, xa dần",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "bp-04",
           "skill": "grammar",
           "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
           "promptJapanese": "ニュースに よると、昨日 駅の 近くで 火事が（　）。",
+          "promptTranslation": "Theo tin tức, hôm qua gần nhà ga （　） một vụ cháy.",
           "choices": [
             {
               "id": "c1",
-              "text": "ありそうだ"
+              "text": "ありそうだ",
+              "translation": "trông như sắp có"
             },
             {
               "id": "c2",
-              "text": "あったそうだ"
+              "text": "あったそうだ",
+              "translation": "nghe nói đã có"
             },
             {
               "id": "c3",
-              "text": "あるだろう"
+              "text": "あるだろう",
+              "translation": "hẳn là có"
             },
             {
               "id": "c4",
-              "text": "あるようだった"
+              "text": "あるようだった",
+              "translation": "lúc đó trông như là có"
             }
           ],
           "answerId": "c2",
           "explanation": "ニュースによると + そうだ: truyền đạt thông tin nghe được, việc đã xảy ra trong quá khứ",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "bp-05",
           "skill": "grammar",
           "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
           "promptJapanese": "その 仕事に ついては 私から（　）。",
+          "promptTranslation": "Về công việc đó, tôi xin （　）.",
           "choices": [
             {
               "id": "c1",
-              "text": "ご説明なさいます"
+              "text": "ご説明なさいます",
+              "translation": "kính ngữ — nói về hành động của người khác"
             },
             {
               "id": "c2",
-              "text": "ご説明ございます"
+              "text": "ご説明ございます",
+              "translation": "không dùng được ở đây"
             },
             {
               "id": "c3",
-              "text": "ご説明になります"
+              "text": "ご説明になります",
+              "translation": "kính ngữ — nói về hành động của người khác"
             },
             {
               "id": "c4",
-              "text": "ご説明いたします"
+              "text": "ご説明いたします",
+              "translation": "khiêm nhường ngữ — tôi xin giải thích"
             }
           ],
           "answerId": "c4",
           "explanation": "khiêm nhường ngữ: 「ご〜いたす」khi nói về hành động của bản thân",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         }
       ]
     },
     {
       "id": "dokkai",
       "title": "Phần 6 · 読解 — Đọc hiểu",
+      "instructions": "",
       "skill": "reading",
       "questions": [
         {
@@ -724,22 +880,27 @@
           "skill": "reading",
           "prompt": "Theo mẩu ghi chú, Yamaguchi sẽ liên lạc với Ri bằng cách nào và để nói điều gì?",
           "promptJapanese": "このメモを読んで、山口さんはりさんに何でどんなことを伝えますか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "電話で、パンフレットをくれたことを伝えます。"
+              "text": "電話で、パンフレットをくれたことを伝えます。",
+              "translation": "Gọi điện để nói về việc đã được tặng tài liệu."
             },
             {
               "id": "c2",
-              "text": "電話で、パンフレットを見てほしいことを伝えます。"
+              "text": "電話で、パンフレットを見てほしいことを伝えます。",
+              "translation": "Gọi điện để nói rằng muốn (người kia) xem tài liệu."
             },
             {
               "id": "c3",
-              "text": "メールで、パンフレットがもっとほしいと伝えます。"
+              "text": "メールで、パンフレットがもっとほしいと伝えます。",
+              "translation": "Gửi email để nói rằng muốn thêm tài liệu."
             },
             {
               "id": "c4",
-              "text": "メールで、パンフレットを見てどう思ったと伝えます。"
+              "text": "メールで、パンフレットを見てどう思ったと伝えます。",
+              "translation": "Gửi email để nói xem mình thấy tài liệu thế nào."
             }
           ],
           "answerId": "c4",
@@ -747,6 +908,10 @@
           "passage": [
             "山口さんの机の上に、パンフレットとこのメモがあります。",
             "留守の間に、Y社のりさんがいらっしゃいました。このパンフレットを2冊くださいました。山口さんに見てほしいと言っていました。パンフレットをどう思ったか、メールで知らせてほしいそうです。もし、もっとたくさん必要だったら、電話をくださいと言っていました。"
+          ],
+          "passageTranslation": [
+            "Trên bàn của Yamaguchi có tập tài liệu quảng cáo và mẩu ghi chú này.",
+            "Trong lúc Yamaguchi đi vắng, Ri ở công ty Y có tới. Ri đã tặng 2 tập tài liệu này, nói là muốn Yamaguchi xem. Nghe nói Ri muốn được thông báo qua email xem Yamaguchi thấy tập tài liệu thế nào. Nếu cần nhiều hơn nữa thì Ri nói hãy gọi điện."
           ]
         },
         {
@@ -754,28 +919,36 @@
           "skill": "reading",
           "prompt": "Từ 「それ」 trong bài chỉ điều gì?",
           "promptJapanese": "「それ」とありますが、何を指していますか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "大都会の人が多くなったこと。"
+              "text": "大都会の人が多くなったこと。",
+              "translation": "Việc người ở đô thị lớn đông lên."
             },
             {
               "id": "c2",
-              "text": "田舎の人が少なくなったこと。"
+              "text": "田舎の人が少なくなったこと。",
+              "translation": "Việc người ở nông thôn ít đi."
             },
             {
               "id": "c3",
-              "text": "大都会のいいところ。"
+              "text": "大都会のいいところ。",
+              "translation": "Những điểm hay của đô thị lớn."
             },
             {
               "id": "c4",
-              "text": "田舎のいいところ。"
+              "text": "田舎のいいところ。",
+              "translation": "Những điểm hay của nông thôn."
             }
           ],
           "answerId": "c4",
           "explanation": "",
           "passage": [
             "将来、田舎と都会のどちらで暮らしたいか、について書かれた文章。田舎では人がますます少なくなったのが問題になっている。いろいろな良さがあるのに、それに気づかずに田舎を離れてしまうのではないか。"
+          ],
+          "passageTranslation": [
+            "Đoạn văn viết về chuyện sau này muốn sống ở nông thôn hay ở thành thị. Ở nông thôn, việc người ngày càng ít đi đang thành vấn đề. Nông thôn có nhiều điều hay, vậy mà phải chăng người ta rời nông thôn đi vì không nhận ra những điều đó."
           ]
         },
         {
@@ -783,22 +956,27 @@
           "skill": "reading",
           "prompt": "Vì sao người viết ngạc nhiên khi bị người Úc nói là bánh không ngon?",
           "promptJapanese": "オーストラリア人においしくないと言われてどうしておどろきましたか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "日本のケーキが一番おいしいと思っていたから。"
+              "text": "日本のケーキが一番おいしいと思っていたから。",
+              "translation": "Vì vẫn nghĩ bánh ngọt Nhật là ngon nhất."
             },
             {
               "id": "c2",
-              "text": "日本のケーキはおいしくないと思っていたから。"
+              "text": "日本のケーキはおいしくないと思っていたから。",
+              "translation": "Vì vẫn nghĩ bánh ngọt Nhật không ngon."
             },
             {
               "id": "c3",
-              "text": "日本のケーキがあますぎると思っていたから。"
+              "text": "日本のケーキがあますぎると思っていたから。",
+              "translation": "Vì vẫn nghĩ bánh ngọt Nhật quá ngọt."
             },
             {
               "id": "c4",
-              "text": "外国のケーキを食べたことがなかったから。"
+              "text": "外国のケーキを食べたことがなかったから。",
+              "translation": "Vì chưa từng ăn bánh ngọt nước ngoài."
             }
           ],
           "answerId": "c1",
@@ -807,6 +985,11 @@
             "日本のケーキはあまくないからおいしくないとオーストラリア人から言われたときにはおどろいた。バンクーバーで一番おいしいと言われているケーキを食べたことがある。そのときおどろいた。あまい物が大好きなのにあますぎて食べられなかったのだ。",
             "パンについても、日本の食べ物はおいしいと言う外国人も日本のパンはやわらかすぎて食べた気がしない、国で食べていたようなかたいパンが食べたくなるとよく言っている。",
             "日本人は食べることにとても興味がある。だからいろいろな国の食べ物を取り入れる。そしてそれを自分の好きなようにかえてしまう。それで最初のものとは違ってしまうということがたびたび起こる。"
+          ],
+          "passageTranslation": [
+            "Khi bị một người Úc nói rằng bánh ngọt Nhật không ngọt nên không ngon, tôi đã rất ngạc nhiên. Tôi từng ăn loại bánh được cho là ngon nhất ở Vancouver. Lúc đó tôi đã ngạc nhiên: dù rất thích đồ ngọt, tôi vẫn không ăn được vì nó quá ngọt.",
+            "Về bánh mì cũng vậy: ngay cả người nước ngoài vẫn nói đồ ăn Nhật ngon cũng thường bảo rằng bánh mì Nhật quá mềm, ăn mà không có cảm giác là đã ăn, và họ thấy muốn ăn loại bánh mì cứng như vẫn ăn ở nước mình.",
+            "Người Nhật rất quan tâm đến chuyện ăn. Vì thế họ tiếp nhận món ăn của nhiều nước. Rồi họ đổi món đó theo ý mình. Thế nên chuyện món ăn thành ra khác hẳn món ban đầu vẫn xảy ra thường xuyên."
           ]
         },
         {
@@ -814,22 +997,27 @@
           "skill": "reading",
           "prompt": "Vì sao người viết hiểu rõ được cảm giác của họ?",
           "promptJapanese": "どうしてかれらの気持ちがよくわかったのですか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "ケーキがあますぎてまずかったから。"
+              "text": "ケーキがあますぎてまずかったから。",
+              "translation": "Vì bánh quá ngọt nên dở."
             },
             {
               "id": "c2",
-              "text": "バンクーバーにはあまくないケーキが売っていなかったから。"
+              "text": "バンクーバーにはあまくないケーキが売っていなかったから。",
+              "translation": "Vì ở Vancouver không bán loại bánh không ngọt."
             },
             {
               "id": "c3",
-              "text": "一番おいしいと言われているケーキがとてもあまかったから。"
+              "text": "一番おいしいと言われているケーキがとてもあまかったから。",
+              "translation": "Vì loại bánh được cho là ngon nhất lại rất ngọt."
             },
             {
               "id": "c4",
-              "text": "あまいケーキがおいしいと思ったから。"
+              "text": "あまいケーキがおいしいと思ったから。",
+              "translation": "Vì đã thấy bánh ngọt thì ngon."
             }
           ],
           "answerId": "c1",
@@ -838,6 +1026,11 @@
             "日本のケーキはあまくないからおいしくないとオーストラリア人から言われたときにはおどろいた。バンクーバーで一番おいしいと言われているケーキを食べたことがある。そのときおどろいた。あまい物が大好きなのにあますぎて食べられなかったのだ。",
             "パンについても、日本の食べ物はおいしいと言う外国人も日本のパンはやわらかすぎて食べた気がしない、国で食べていたようなかたいパンが食べたくなるとよく言っている。",
             "日本人は食べることにとても興味がある。だからいろいろな国の食べ物を取り入れる。そしてそれを自分の好きなようにかえてしまう。それで最初のものとは違ってしまうということがたびたび起こる。"
+          ],
+          "passageTranslation": [
+            "Khi bị một người Úc nói rằng bánh ngọt Nhật không ngọt nên không ngon, tôi đã rất ngạc nhiên. Tôi từng ăn loại bánh được cho là ngon nhất ở Vancouver. Lúc đó tôi đã ngạc nhiên: dù rất thích đồ ngọt, tôi vẫn không ăn được vì nó quá ngọt.",
+            "Về bánh mì cũng vậy: ngay cả người nước ngoài vẫn nói đồ ăn Nhật ngon cũng thường bảo rằng bánh mì Nhật quá mềm, ăn mà không có cảm giác là đã ăn, và họ thấy muốn ăn loại bánh mì cứng như vẫn ăn ở nước mình.",
+            "Người Nhật rất quan tâm đến chuyện ăn. Vì thế họ tiếp nhận món ăn của nhiều nước. Rồi họ đổi món đó theo ý mình. Thế nên chuyện món ăn thành ra khác hẳn món ban đầu vẫn xảy ra thường xuyên."
           ]
         },
         {
@@ -845,22 +1038,27 @@
           "skill": "reading",
           "prompt": "Về bánh mì, người nước ngoài nói thế nào?",
           "promptJapanese": "パンについて外国の人は何と言っていますか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "日本にはかたいパンは売っていないのでこまる。"
+              "text": "日本にはかたいパンは売っていないのでこまる。",
+              "translation": "Ở Nhật không bán bánh mì cứng nên thấy khổ."
             },
             {
               "id": "c2",
-              "text": "日本のパンはおいしくないので自分の国のパンが食べたくなる。"
+              "text": "日本のパンはおいしくないので自分の国のパンが食べたくなる。",
+              "translation": "Bánh mì Nhật không ngon nên thành ra muốn ăn bánh mì nước mình."
             },
             {
               "id": "c3",
-              "text": "イギリス人は日本ではフランスパンばかり食べている。"
+              "text": "イギリス人は日本ではフランスパンばかり食べている。",
+              "translation": "Người Anh ở Nhật chỉ ăn bánh mì Pháp."
             },
             {
               "id": "c4",
-              "text": "日本の普通(ふつう)のパンはかたくないので食べた気がしない。"
+              "text": "日本の普通(ふつう)のパンはかたくないので食べた気がしない。",
+              "translation": "Bánh mì thường của Nhật không cứng nên ăn mà không có cảm giác là đã ăn."
             }
           ],
           "answerId": "c4",
@@ -869,6 +1067,11 @@
             "日本のケーキはあまくないからおいしくないとオーストラリア人から言われたときにはおどろいた。バンクーバーで一番おいしいと言われているケーキを食べたことがある。そのときおどろいた。あまい物が大好きなのにあますぎて食べられなかったのだ。",
             "パンについても、日本の食べ物はおいしいと言う外国人も日本のパンはやわらかすぎて食べた気がしない、国で食べていたようなかたいパンが食べたくなるとよく言っている。",
             "日本人は食べることにとても興味がある。だからいろいろな国の食べ物を取り入れる。そしてそれを自分の好きなようにかえてしまう。それで最初のものとは違ってしまうということがたびたび起こる。"
+          ],
+          "passageTranslation": [
+            "Khi bị một người Úc nói rằng bánh ngọt Nhật không ngọt nên không ngon, tôi đã rất ngạc nhiên. Tôi từng ăn loại bánh được cho là ngon nhất ở Vancouver. Lúc đó tôi đã ngạc nhiên: dù rất thích đồ ngọt, tôi vẫn không ăn được vì nó quá ngọt.",
+            "Về bánh mì cũng vậy: ngay cả người nước ngoài vẫn nói đồ ăn Nhật ngon cũng thường bảo rằng bánh mì Nhật quá mềm, ăn mà không có cảm giác là đã ăn, và họ thấy muốn ăn loại bánh mì cứng như vẫn ăn ở nước mình.",
+            "Người Nhật rất quan tâm đến chuyện ăn. Vì thế họ tiếp nhận món ăn của nhiều nước. Rồi họ đổi món đó theo ý mình. Thế nên chuyện món ăn thành ra khác hẳn món ban đầu vẫn xảy ra thường xuyên."
           ]
         },
         {
@@ -876,22 +1079,27 @@
           "skill": "reading",
           "prompt": "Vì sao chuyện như vậy lại xảy ra?",
           "promptJapanese": "どうしてこんなことが起きましたか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "外国からいろいろな食べ物が入ってきたから。"
+              "text": "外国からいろいろな食べ物が入ってきたから。",
+              "translation": "Vì nhiều món ăn từ nước ngoài đã vào Nhật."
             },
             {
               "id": "c2",
-              "text": "外国から来た食べ物がおいしくなかったから。"
+              "text": "外国から来た食べ物がおいしくなかったから。",
+              "translation": "Vì món ăn đến từ nước ngoài không ngon."
             },
             {
               "id": "c3",
-              "text": "日本人がもっとおいしいと思うようにかえたから。"
+              "text": "日本人がもっとおいしいと思うようにかえたから。",
+              "translation": "Vì người Nhật đã đổi cho thành món mà họ thấy ngon hơn."
             },
             {
               "id": "c4",
-              "text": "外国のものをまったく新しい物にしたいから。"
+              "text": "外国のものをまったく新しい物にしたいから。",
+              "translation": "Vì muốn biến đồ nước ngoài thành thứ hoàn toàn mới."
             }
           ],
           "answerId": "c3",
@@ -900,6 +1108,11 @@
             "日本のケーキはあまくないからおいしくないとオーストラリア人から言われたときにはおどろいた。バンクーバーで一番おいしいと言われているケーキを食べたことがある。そのときおどろいた。あまい物が大好きなのにあますぎて食べられなかったのだ。",
             "パンについても、日本の食べ物はおいしいと言う外国人も日本のパンはやわらかすぎて食べた気がしない、国で食べていたようなかたいパンが食べたくなるとよく言っている。",
             "日本人は食べることにとても興味がある。だからいろいろな国の食べ物を取り入れる。そしてそれを自分の好きなようにかえてしまう。それで最初のものとは違ってしまうということがたびたび起こる。"
+          ],
+          "passageTranslation": [
+            "Khi bị một người Úc nói rằng bánh ngọt Nhật không ngọt nên không ngon, tôi đã rất ngạc nhiên. Tôi từng ăn loại bánh được cho là ngon nhất ở Vancouver. Lúc đó tôi đã ngạc nhiên: dù rất thích đồ ngọt, tôi vẫn không ăn được vì nó quá ngọt.",
+            "Về bánh mì cũng vậy: ngay cả người nước ngoài vẫn nói đồ ăn Nhật ngon cũng thường bảo rằng bánh mì Nhật quá mềm, ăn mà không có cảm giác là đã ăn, và họ thấy muốn ăn loại bánh mì cứng như vẫn ăn ở nước mình.",
+            "Người Nhật rất quan tâm đến chuyện ăn. Vì thế họ tiếp nhận món ăn của nhiều nước. Rồi họ đổi món đó theo ý mình. Thế nên chuyện món ăn thành ra khác hẳn món ban đầu vẫn xảy ra thường xuyên."
           ]
         },
         {
@@ -907,22 +1120,27 @@
           "skill": "reading",
           "prompt": "Mari và Anna muốn ở cùng nhau nếu được, ở riêng cũng không sao. Tiền nhà mỗi người tối đa 5 man, càng rẻ càng tốt. Hai người sẽ chọn phương án nào?",
           "promptJapanese": "マリさんとアンナさんは、できたら一緒に住みたいと思っていますが、1人ずつでもいいです。やちんは、1人5万円までで、安いほうがいいです。2人は、どれにしますか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "①のA"
+              "text": "①のA",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "①のB"
+              "text": "①のB",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "②のB"
+              "text": "②のB",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "③のB"
+              "text": "③のB",
+              "translation": ""
             }
           ],
           "answerId": "c2",
@@ -932,6 +1150,12 @@
             "①学生会館(寮) A:1人部屋食事つき 7万円 / B:2人部屋食事つき 4.5万円(1人) — 夜11時に電気を消す。",
             "②ホームステイ A:食事つき 8万円 / B:食事なし 5万円 — 学校の近く、歩いて通える。",
             "③アパート A:1人で住む 10万円 / B:ルームシェア(2〜3人) 5万円(1人) — 学校から電車で30分。"
+          ],
+          "passageTranslation": [
+            "Bảng hướng dẫn chỗ ở:",
+            "① Hội quán sinh viên (ký túc xá) A: phòng đơn, có ăn 7 man / B: phòng đôi, có ăn 4,5 man (mỗi người) — 11 giờ đêm tắt đèn.",
+            "② Ở nhà dân (homestay) A: có ăn 8 man / B: không ăn 5 man — gần trường, đi bộ tới được.",
+            "③ Căn hộ A: ở một mình 10 man / B: ở ghép (2–3 người) 5 man (mỗi người) — cách trường 30 phút tàu."
           ]
         },
         {
@@ -939,22 +1163,27 @@
           "skill": "reading",
           "prompt": "Paku đang tìm phòng ở một mình. Muốn gần trường để có nhiều thời gian học, và muốn học tới khoảng 1 giờ đêm. Không tự nấu ăn mà nhờ người nấu. Tiền nhà tối đa 10 man. Paku sẽ chọn phương án nào?",
           "promptJapanese": "パクさんは、1人で住む部屋をさがしています。勉強の時間がたくさんほしいですから、学校に近いほうがいいです。夜も、1時ごろまで勉強したいです。食事は自分で作らないで、作ってもらうつもりです。やちんは、10万円までです。パクさんは、どれにしますか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "①のA"
+              "text": "①のA",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "②のA"
+              "text": "②のA",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "②のB"
+              "text": "②のB",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "③のA"
+              "text": "③のA",
+              "translation": ""
             }
           ],
           "answerId": "c2",
@@ -964,6 +1193,12 @@
             "①学生会館(寮) A:1人部屋食事つき 7万円 / B:2人部屋食事つき 4.5万円(1人) — 夜11時に電気を消す。",
             "②ホームステイ A:食事つき 8万円 / B:食事なし 5万円 — 学校の近く、歩いて通える。",
             "③アパート A:1人で住む 10万円 / B:ルームシェア(2〜3人) 5万円(1人) — 学校から電車で30分。"
+          ],
+          "passageTranslation": [
+            "Bảng hướng dẫn chỗ ở:",
+            "① Hội quán sinh viên (ký túc xá) A: phòng đơn, có ăn 7 man / B: phòng đôi, có ăn 4,5 man (mỗi người) — 11 giờ đêm tắt đèn.",
+            "② Ở nhà dân (homestay) A: có ăn 8 man / B: không ăn 5 man — gần trường, đi bộ tới được.",
+            "③ Căn hộ A: ở một mình 10 man / B: ở ghép (2–3 người) 5 man (mỗi người) — cách trường 30 phút tàu."
           ]
         }
       ]

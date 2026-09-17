@@ -71,54 +71,66 @@
           "skill": "reading",
           "prompt": "Điều gì sẽ thay đổi từ tháng sau?",
           "promptJapanese": "来月から変わることは何ですか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "一度に借りられる本の数"
+              "text": "一度に借りられる本の数",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "本を借りられる期間"
+              "text": "本を借りられる期間",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "図書館が開く時間"
+              "text": "図書館が開く時間",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "図書館の場所"
+              "text": "図書館の場所",
+              "translation": ""
             }
           ],
           "answerId": "c2",
           "explanation": "Đoạn đầu nói thời hạn mượn đổi từ hai tuần thành ba tuần; số sách thì giữ nguyên.",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         },
         {
           "id": "b478d69f2219b27f",
           "skill": "reading",
           "prompt": "Nếu đến thư viện lúc 2 giờ chiều thứ Hai thì sao?",
           "promptJapanese": "月曜日の午後二時に図書館へ行くとどうなりますか。",
+          "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
-              "text": "本を五冊借りられる"
+              "text": "本を五冊借りられる",
+              "translation": ""
             },
             {
               "id": "c2",
-              "text": "閉まっていて入れない"
+              "text": "閉まっていて入れない",
+              "translation": ""
             },
             {
               "id": "c3",
-              "text": "三週間借りられる"
+              "text": "三週間借りられる",
+              "translation": ""
             },
             {
               "id": "c4",
-              "text": "整理を手伝わされる"
+              "text": "整理を手伝わされる",
+              "translation": ""
             }
           ],
           "answerId": "c2",
           "explanation": "Thứ Hai thư viện đóng cửa từ 13h đến 17h.",
-          "passage": []
+          "passage": [],
+          "passageTranslation": []
         }
       ]
     }

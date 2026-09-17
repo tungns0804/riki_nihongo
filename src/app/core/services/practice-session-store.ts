@@ -101,6 +101,34 @@ export class PracticeSessionStore {
     return followUp.isCorrect;
   }
 
+  /**
+   * Nộp CẢ BÀI một lượt rồi chấm, thay cho `answer` từng câu.
+   *
+   * Đề kiểm tra khác luyện tập ở chỗ người làm trả lời theo thứ tự nào cũng được,
+   * sửa lại câu đã chọn được, và chỉ biết đúng sai sau khi nộp — nên không có thời
+   * điểm nào để gọi `answer` cho một "câu đang hỏi".
+   *
+   * Nhận map theo ID CÂU chứ không theo thứ tự: màn hình làm đề xếp câu theo phần và
+   * theo bài đọc, còn phiên giữ một danh sách phẳng. Khớp bằng thứ tự thì chỉ cần
+   * thêm một phần vào đề là lệch hết đáp án mà không có gì báo.
+   *
+   * Câu không có trong map là chưa trả lời: ghi là bỏ qua, tính sai.
+   */
+  submitAll(givenById: ReadonlyMap<string, string>): SessionSummary | null {
+    const questions = this.questionsRef();
+    if (questions.length === 0) return null;
+
+    this.resultsRef.set(
+      questions.map((question): QuestionResult => {
+        const given = givenById.get(question.id) ?? '';
+        const isCorrect = given.length > 0 && grade(question, given);
+        return { question, main: { given, isCorrect }, followUp: null, isCorrect };
+      }),
+    );
+
+    return this.finish();
+  }
+
   /** Sang câu tiếp theo. Trả về false khi đã hết câu. */
   next(): boolean {
     if (this.isLast()) return false;

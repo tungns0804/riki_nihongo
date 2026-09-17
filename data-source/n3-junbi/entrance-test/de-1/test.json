@@ -3,11 +3,13 @@
     {
       "id": "moji-1",
       "title": "Phần 1 · 文字語彙 問題1 — Cách đọc",
+      "instructions": "___のことばはひらがなでどうかきますか。1・2・3・4からいちばんいいものをひとつえらんでください。",
       "skill": "kanji",
       "questions": [
         {
           "id": "mg-01",
           "promptJapanese": "つよい「台風」が 来る そうです。",
+          "promptVietnamese": "Nghe nói một cơn bão mạnh đang tới.",
           "prompt": "Từ trong 「 」 đọc bằng hiragana thế nào?",
           "choices": ["たいふ", "だいふ", "たいふう", "だいふう"],
           "answer": 3
@@ -15,6 +17,7 @@
         {
           "id": "mg-02",
           "promptJapanese": "今日の よるは きおんが「低下」します。",
+          "promptVietnamese": "Đêm nay nhiệt độ sẽ hạ xuống.",
           "prompt": "Từ trong 「 」 đọc bằng hiragana thế nào?",
           "choices": ["てか", "ていか", "てげ", "ていげ"],
           "answer": 2
@@ -22,6 +25,7 @@
         {
           "id": "mg-03",
           "promptJapanese": "となりの へやの「声」が よく 聞こえます。",
+          "promptVietnamese": "Nghe rõ tiếng nói ở phòng bên cạnh.",
           "prompt": "Từ trong 「 」 đọc bằng hiragana thế nào?",
           "choices": ["おと", "こえ", "いき", "うた"],
           "answer": 2
@@ -29,6 +33,7 @@
         {
           "id": "mg-04",
           "promptJapanese": "わたしは あつさに「弱い」です。",
+          "promptVietnamese": "Tôi không chịu được nóng.",
           "prompt": "Từ trong 「 」 đọc bằng hiragana thế nào?",
           "choices": ["あかい", "つよい", "あまい", "よわい"],
           "answer": 4
@@ -36,6 +41,7 @@
         {
           "id": "mg-05",
           "promptJapanese": "りょこうの「計画」を かんがえるのは たのしい。",
+          "promptVietnamese": "Nghĩ kế hoạch cho chuyến du lịch thật vui.",
           "prompt": "Từ trong 「 」 đọc bằng hiragana thế nào?",
           "choices": ["けんかく", "けいかく", "けんが", "けいが"],
           "answer": 2
@@ -45,11 +51,13 @@
     {
       "id": "moji-2",
       "title": "Phần 2 · 文字語彙 問題2 — Cách viết",
+      "instructions": "___のことば どう かきますか。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。",
       "skill": "kanji",
       "questions": [
         {
           "id": "mg-06",
           "promptJapanese": "かのじょは 日本の 人口の 問題を「けんきゅう」して います。",
+          "promptVietnamese": "Cô ấy đang nghiên cứu vấn đề dân số của Nhật Bản.",
           "prompt": "Từ trong 「 」 viết bằng chữ Hán thế nào?",
           "choices": ["験究", "研究", "験空", "研空"],
           "answer": 2
@@ -57,6 +65,7 @@
         {
           "id": "mg-07",
           "promptJapanese": "バスで 行くので「べんり」です。",
+          "promptVietnamese": "Vì đi bằng xe buýt nên tiện.",
           "prompt": "Từ trong 「 」 viết bằng chữ Hán thế nào?",
           "choices": ["便利", "便理", "更利", "更理"],
           "answer": 1
@@ -64,6 +73,7 @@
         {
           "id": "mg-08",
           "promptJapanese": "明日は「はれ」たら 友だちと テニスを します。",
+          "promptVietnamese": "Mai nếu trời nắng thì tôi sẽ chơi tennis với bạn.",
           "prompt": "Từ trong 「 」 viết bằng chữ Hán thế nào?",
           "choices": ["青れ", "清れ", "晴れ", "静れ"],
           "answer": 3
@@ -71,6 +81,7 @@
         {
           "id": "mg-09",
           "promptJapanese": "子どもを つれて よく「こうえん」へ 行きます。",
+          "promptVietnamese": "Tôi thường dẫn con đi công viên.",
           "prompt": "Từ trong 「 」 viết bằng chữ Hán thế nào?",
           "choices": ["広園", "公園", "広図", "公図"],
           "answer": 2
@@ -78,6 +89,7 @@
         {
           "id": "mg-10",
           "promptJapanese": "山田さんは しゃしんやを「えいぎょう」 しています。",
+          "promptVietnamese": "Yamada đang kinh doanh một hiệu ảnh.",
           "prompt": "Từ trong 「 」 viết bằng chữ Hán thế nào?",
           "choices": ["映業", "映僕", "営業", "営僕"],
           "answer": 3
@@ -87,41 +99,52 @@
     {
       "id": "moji-3",
       "title": "Phần 3 · 文字語彙 問題3 — Điền từ",
+      "instructions": "( )に なにを いれますか。1・2・3・4から おちばん いい ものを ひとつ えらんで ください。",
       "skill": "vocabulary",
       "questions": [
         {
           "id": "mg-11",
           "promptJapanese": "台風の場合は、明日のコンサートを（　）します。",
+          "promptVietnamese": "Nếu có bão thì buổi hoà nhạc ngày mai sẽ bị （　）.",
           "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "choices": ["ちゅうしゃ", "ちゅうし", "こしょう", "しょうたい"],
+          "choicesVietnamese": ["đỗ xe (駐車)", "hoãn, dừng (中止)", "hỏng hóc (故障)", "mời (招待)"],
           "answer": 2
         },
         {
           "id": "mg-12",
           "promptJapanese": "大人になっても、親に（　）ことがあります。",
+          "promptVietnamese": "Dù đã là người lớn, vẫn có lúc bị bố mẹ （　）.",
           "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "choices": ["しかられる", "かざられる", "おこなわれる", "なおされる"],
+          "choicesVietnamese": ["bị mắng", "bị trang trí", "được tiến hành", "bị sửa lại"],
           "answer": 1
         },
         {
           "id": "mg-13",
           "promptJapanese": "このガラスのコップはわれにくいので、（　）使えます。",
+          "promptVietnamese": "Cái cốc thuỷ tinh này khó vỡ nên dùng （　） được.",
           "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "choices": ["ふくざつに", "きけんに", "あんぜんに", "ふべんに"],
+          "choicesVietnamese": ["một cách phức tạp", "một cách nguy hiểm", "một cách an toàn", "một cách bất tiện"],
           "answer": 3
         },
         {
           "id": "mg-14",
           "promptJapanese": "ここから富士山が（　）見えます。",
+          "promptVietnamese": "Từ đây nhìn thấy núi Phú Sĩ （　）.",
           "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "choices": ["なるべく", "はっきり", "もっとも", "どんどん"],
+          "choicesVietnamese": ["càng… càng tốt, nếu có thể", "rõ ràng", "nhất, hơn cả", "ào ào, dồn dập"],
           "answer": 2
         },
         {
           "id": "mg-15",
           "promptJapanese": "地震でマンションの（　）が止まっています。",
+          "promptVietnamese": "Do động đất nên （　） của toà nhà đang dừng.",
           "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "choices": ["コース", "ベランダ", "スイッチ", "エレベーター"],
+          "choicesVietnamese": ["lộ trình, khoá học", "ban công", "công tắc", "thang máy"],
           "answer": 4
         }
       ]
@@ -129,11 +152,13 @@
     {
       "id": "moji-4",
       "title": "Phần 4 · 文字語彙 問題4 — Câu đồng nghĩa",
+      "instructions": "___の ぶんと だいたい おなじ いみの ぶんがあります。1・2・3・4から いちばん いい ものを ひとつ えらんでください。",
       "skill": "vocabulary",
       "questions": [
         {
           "id": "mg-16",
           "promptJapanese": "日曜日は予定があるので、出席できません。",
+          "promptVietnamese": "Chủ nhật tôi có hẹn trước nên không tham dự được.",
           "prompt": "Chọn câu có nghĩa gần nhất với câu trên.",
           "choices": [
             "日曜日は ぐあいが あるので 行けません。",
@@ -141,11 +166,18 @@
             "日曜日は 都合が 悪いので 行けません。",
             "日曜日は 用意が あるので 行けません。"
           ],
+          "choicesVietnamese": [
+            "Chủ nhật vì có “tình trạng sức khoẻ” nên không đi được. (ぐあい không dùng kiểu này)",
+            "Chủ nhật vì việc riêng “xấu” nên không đi được. (用事 không đi với 悪い)",
+            "Chủ nhật vì không thuận tiện nên không đi được.",
+            "Chủ nhật vì có “sự chuẩn bị” nên không đi được. (用意 = chuẩn bị)"
+          ],
           "answer": 3
         },
         {
           "id": "mg-17",
           "promptJapanese": "あの カフェは いつも すいて います。",
+          "promptVietnamese": "Quán cà phê đó lúc nào cũng vắng.",
           "prompt": "Chọn câu có nghĩa gần nhất với câu trên.",
           "choices": [
             "あの カフェは いつも 店員が 親切です。",
@@ -153,11 +185,18 @@
             "あの カフェは いつも 客が 少ないです。",
             "あの カフェは いつも ねだんが 高いです。"
           ],
+          "choicesVietnamese": [
+            "Quán cà phê đó lúc nào nhân viên cũng tử tế.",
+            "Quán cà phê đó lúc nào đồ uống cũng ngon.",
+            "Quán cà phê đó lúc nào cũng ít khách.",
+            "Quán cà phê đó lúc nào giá cũng cao."
+          ],
           "answer": 3
         },
         {
           "id": "mg-18",
           "promptJapanese": "一時間で この宿題を 終わらせるのは きつい。",
+          "promptVietnamese": "Làm xong bài tập này trong một tiếng thì căng.",
           "prompt": "Chọn câu có nghĩa gần nhất với câu trên.",
           "choices": [
             "一時間で この宿題を 終わらせるのは すばらしい。",
@@ -165,11 +204,18 @@
             "一時間で この宿題を 終わらせるのは うつくしい。",
             "一時間で この宿題を 終わらせるのは むずかしい。"
           ],
+          "choicesVietnamese": [
+            "Làm xong bài tập này trong một tiếng thì tuyệt vời.",
+            "Làm xong bài tập này trong một tiếng thì hiếm thấy.",
+            "Làm xong bài tập này trong một tiếng thì đẹp.",
+            "Làm xong bài tập này trong một tiếng thì khó."
+          ],
           "answer": 4
         },
         {
           "id": "mg-19",
           "promptJapanese": "このごろ 気温が さがって います。",
+          "promptVietnamese": "Dạo này nhiệt độ đang hạ.",
           "prompt": "Chọn câu có nghĩa gần nhất với câu trên.",
           "choices": [
             "最近 寒く なっています。",
@@ -177,17 +223,30 @@
             "さっき 天気が いいです。",
             "さっき 天気が 悪いです。"
           ],
+          "choicesVietnamese": [
+            "Gần đây trời đang lạnh dần.",
+            "Gần đây trời đang nóng dần.",
+            "Vừa rồi trời đẹp.",
+            "Vừa rồi trời xấu."
+          ],
           "answer": 1
         },
         {
           "id": "mg-20",
           "promptJapanese": "弟は おじさんに 注意されました。",
+          "promptVietnamese": "Em trai tôi bị chú nhắc nhở.",
           "prompt": "Chọn câu có nghĩa gần nhất với câu trên.",
           "choices": [
             "おじさんは 弟に 「ゲームばかり するな。」と 言いました。",
             "おじさんは 弟に 「おみやげを あげよう。」と 言いました。",
             "おじさんは 弟に 「がんばってください。」と 言いました。",
             "おじさんは 弟に 「また あそびに 来なさい。」と 言いました。"
+          ],
+          "choicesVietnamese": [
+            "Chú nói với em trai tôi: “Đừng có chỉ chơi game.”",
+            "Chú nói với em trai tôi: “Để chú cho quà.”",
+            "Chú nói với em trai tôi: “Cố lên nhé.”",
+            "Chú nói với em trai tôi: “Lại đến chơi nữa nhé.”"
           ],
           "answer": 1
         }
@@ -196,45 +255,81 @@
     {
       "id": "bunpou",
       "title": "Phần 5 · 文法 — Ngữ pháp",
+      "instructions": "( )に 何を いれますか。1・2・3・4から いちばん いい ものを 一つ えらんで ください。",
       "skill": "grammar",
       "questions": [
         {
           "id": "bp-01",
           "promptJapanese": "A「長田さんと 話せましたか。」 B「いいえ。今日は 池山さん（　）会えませんでした。」",
+          "promptVietnamese": "A: “Cậu nói chuyện được với Nagata chưa?” B: “Chưa. Hôm nay tôi （　） gặp được Ikeyama.”",
           "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
           "choices": ["とも", "とで", "とだけ", "としか"],
+          "choicesVietnamese": [
+            "cũng với (người đó)",
+            "không dùng được ở đây",
+            "chỉ với (người đó) — đi với câu khẳng định",
+            "chỉ… mà thôi — đi với phủ định (～としか…ない)"
+          ],
           "answer": 4,
           "explanation": "「〜としか会えなかった」= chỉ gặp được người này thôi"
         },
         {
           "id": "bp-02",
           "promptJapanese": "A「りさんは 食べ物の 好ききらいが ないんですね。」 B「ええ、子どもの とき 母に（　）からです。」",
+          "promptVietnamese": "A: “Ri không kén ăn nhỉ.” B: “Vâng, vì hồi nhỏ （　） bởi mẹ.”",
           "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
           "choices": ["何かを 食べさせた", "何でも 食べさせられた", "何でも 食べられた", "何か 食べた"],
+          "choicesVietnamese": [
+            "đã cho (ai đó) ăn cái gì",
+            "bị bắt ăn bất cứ thứ gì",
+            "ăn được bất cứ thứ gì",
+            "đã ăn cái gì đó"
+          ],
           "answer": 2,
           "explanation": "bị động sai khiến: bị mẹ bắt ăn bất cứ thứ gì"
         },
         {
           "id": "bp-03",
           "promptJapanese": "火が だんだん 消えて（　）。",
+          "promptVietnamese": "Lửa dần dần （　） tắt.",
           "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
           "choices": ["きた", "あった", "おいた", "いった"],
+          "choicesVietnamese": [
+            "～てきた: thay đổi dần về phía hiện tại",
+            "không dùng được ở đây",
+            "～ておいた: làm sẵn trước",
+            "～ていった: thay đổi dần, xa dần theo thời gian"
+          ],
           "answer": 4,
           "explanation": "消えていく: diễn tả sự thay đổi dần theo thời gian, xa dần"
         },
         {
           "id": "bp-04",
           "promptJapanese": "ニュースに よると、昨日 駅の 近くで 火事が（　）。",
+          "promptVietnamese": "Theo tin tức, hôm qua gần nhà ga （　） một vụ cháy.",
           "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
           "choices": ["ありそうだ", "あったそうだ", "あるだろう", "あるようだった"],
+          "choicesVietnamese": [
+            "trông như sắp có",
+            "nghe nói đã có",
+            "hẳn là có",
+            "lúc đó trông như là có"
+          ],
           "answer": 2,
           "explanation": "ニュースによると + そうだ: truyền đạt thông tin nghe được, việc đã xảy ra trong quá khứ"
         },
         {
           "id": "bp-05",
           "promptJapanese": "その 仕事に ついては 私から（　）。",
+          "promptVietnamese": "Về công việc đó, tôi xin （　）.",
           "prompt": "Chọn mẫu thích hợp điền vào chỗ trống.",
           "choices": ["ご説明なさいます", "ご説明ございます", "ご説明になります", "ご説明いたします"],
+          "choicesVietnamese": [
+            "kính ngữ — nói về hành động của người khác",
+            "không dùng được ở đây",
+            "kính ngữ — nói về hành động của người khác",
+            "khiêm nhường ngữ — tôi xin giải thích"
+          ],
           "answer": 4,
           "explanation": "khiêm nhường ngữ: 「ご〜いたす」khi nói về hành động của bản thân"
         }
@@ -251,6 +346,10 @@
             "山口さんの机の上に、パンフレットとこのメモがあります。",
             "留守の間に、Y社のりさんがいらっしゃいました。このパンフレットを2冊くださいました。山口さんに見てほしいと言っていました。パンフレットをどう思ったか、メールで知らせてほしいそうです。もし、もっとたくさん必要だったら、電話をくださいと言っていました。"
           ],
+          "passageVietnamese": [
+            "Trên bàn của Yamaguchi có tập tài liệu quảng cáo và mẩu ghi chú này.",
+            "Trong lúc Yamaguchi đi vắng, Ri ở công ty Y có tới. Ri đã tặng 2 tập tài liệu này, nói là muốn Yamaguchi xem. Nghe nói Ri muốn được thông báo qua email xem Yamaguchi thấy tập tài liệu thế nào. Nếu cần nhiều hơn nữa thì Ri nói hãy gọi điện."
+          ],
           "promptJapanese": "このメモを読んで、山口さんはりさんに何でどんなことを伝えますか。",
           "prompt": "Theo mẩu ghi chú, Yamaguchi sẽ liên lạc với Ri bằng cách nào và để nói điều gì?",
           "choices": [
@@ -259,12 +358,21 @@
             "メールで、パンフレットがもっとほしいと伝えます。",
             "メールで、パンフレットを見てどう思ったと伝えます。"
           ],
+          "choicesVietnamese": [
+            "Gọi điện để nói về việc đã được tặng tài liệu.",
+            "Gọi điện để nói rằng muốn (người kia) xem tài liệu.",
+            "Gửi email để nói rằng muốn thêm tài liệu.",
+            "Gửi email để nói xem mình thấy tài liệu thế nào."
+          ],
           "answer": 4
         },
         {
           "id": "dk-07",
           "passage": [
             "将来、田舎と都会のどちらで暮らしたいか、について書かれた文章。田舎では人がますます少なくなったのが問題になっている。いろいろな良さがあるのに、それに気づかずに田舎を離れてしまうのではないか。"
+          ],
+          "passageVietnamese": [
+            "Đoạn văn viết về chuyện sau này muốn sống ở nông thôn hay ở thành thị. Ở nông thôn, việc người ngày càng ít đi đang thành vấn đề. Nông thôn có nhiều điều hay, vậy mà phải chăng người ta rời nông thôn đi vì không nhận ra những điều đó."
           ],
           "promptJapanese": "「それ」とありますが、何を指していますか。",
           "prompt": "Từ 「それ」 trong bài chỉ điều gì?",
@@ -273,6 +381,12 @@
             "田舎の人が少なくなったこと。",
             "大都会のいいところ。",
             "田舎のいいところ。"
+          ],
+          "choicesVietnamese": [
+            "Việc người ở đô thị lớn đông lên.",
+            "Việc người ở nông thôn ít đi.",
+            "Những điểm hay của đô thị lớn.",
+            "Những điểm hay của nông thôn."
           ],
           "answer": 4
         },
@@ -283,6 +397,11 @@
             "パンについても、日本の食べ物はおいしいと言う外国人も日本のパンはやわらかすぎて食べた気がしない、国で食べていたようなかたいパンが食べたくなるとよく言っている。",
             "日本人は食べることにとても興味がある。だからいろいろな国の食べ物を取り入れる。そしてそれを自分の好きなようにかえてしまう。それで最初のものとは違ってしまうということがたびたび起こる。"
           ],
+          "passageVietnamese": [
+            "Khi bị một người Úc nói rằng bánh ngọt Nhật không ngọt nên không ngon, tôi đã rất ngạc nhiên. Tôi từng ăn loại bánh được cho là ngon nhất ở Vancouver. Lúc đó tôi đã ngạc nhiên: dù rất thích đồ ngọt, tôi vẫn không ăn được vì nó quá ngọt.",
+            "Về bánh mì cũng vậy: ngay cả người nước ngoài vẫn nói đồ ăn Nhật ngon cũng thường bảo rằng bánh mì Nhật quá mềm, ăn mà không có cảm giác là đã ăn, và họ thấy muốn ăn loại bánh mì cứng như vẫn ăn ở nước mình.",
+            "Người Nhật rất quan tâm đến chuyện ăn. Vì thế họ tiếp nhận món ăn của nhiều nước. Rồi họ đổi món đó theo ý mình. Thế nên chuyện món ăn thành ra khác hẳn món ban đầu vẫn xảy ra thường xuyên."
+          ],
           "promptJapanese": "オーストラリア人においしくないと言われてどうしておどろきましたか。",
           "prompt": "Vì sao người viết ngạc nhiên khi bị người Úc nói là bánh không ngon?",
           "choices": [
@@ -290,6 +409,12 @@
             "日本のケーキはおいしくないと思っていたから。",
             "日本のケーキがあますぎると思っていたから。",
             "外国のケーキを食べたことがなかったから。"
+          ],
+          "choicesVietnamese": [
+            "Vì vẫn nghĩ bánh ngọt Nhật là ngon nhất.",
+            "Vì vẫn nghĩ bánh ngọt Nhật không ngon.",
+            "Vì vẫn nghĩ bánh ngọt Nhật quá ngọt.",
+            "Vì chưa từng ăn bánh ngọt nước ngoài."
           ],
           "answer": 1
         },
@@ -300,6 +425,11 @@
             "パンについても、日本の食べ物はおいしいと言う外国人も日本のパンはやわらかすぎて食べた気がしない、国で食べていたようなかたいパンが食べたくなるとよく言っている。",
             "日本人は食べることにとても興味がある。だからいろいろな国の食べ物を取り入れる。そしてそれを自分の好きなようにかえてしまう。それで最初のものとは違ってしまうということがたびたび起こる。"
           ],
+          "passageVietnamese": [
+            "Khi bị một người Úc nói rằng bánh ngọt Nhật không ngọt nên không ngon, tôi đã rất ngạc nhiên. Tôi từng ăn loại bánh được cho là ngon nhất ở Vancouver. Lúc đó tôi đã ngạc nhiên: dù rất thích đồ ngọt, tôi vẫn không ăn được vì nó quá ngọt.",
+            "Về bánh mì cũng vậy: ngay cả người nước ngoài vẫn nói đồ ăn Nhật ngon cũng thường bảo rằng bánh mì Nhật quá mềm, ăn mà không có cảm giác là đã ăn, và họ thấy muốn ăn loại bánh mì cứng như vẫn ăn ở nước mình.",
+            "Người Nhật rất quan tâm đến chuyện ăn. Vì thế họ tiếp nhận món ăn của nhiều nước. Rồi họ đổi món đó theo ý mình. Thế nên chuyện món ăn thành ra khác hẳn món ban đầu vẫn xảy ra thường xuyên."
+          ],
           "promptJapanese": "どうしてかれらの気持ちがよくわかったのですか。",
           "prompt": "Vì sao người viết hiểu rõ được cảm giác của họ?",
           "choices": [
@@ -307,6 +437,12 @@
             "バンクーバーにはあまくないケーキが売っていなかったから。",
             "一番おいしいと言われているケーキがとてもあまかったから。",
             "あまいケーキがおいしいと思ったから。"
+          ],
+          "choicesVietnamese": [
+            "Vì bánh quá ngọt nên dở.",
+            "Vì ở Vancouver không bán loại bánh không ngọt.",
+            "Vì loại bánh được cho là ngon nhất lại rất ngọt.",
+            "Vì đã thấy bánh ngọt thì ngon."
           ],
           "answer": 1
         },
@@ -317,6 +453,11 @@
             "パンについても、日本の食べ物はおいしいと言う外国人も日本のパンはやわらかすぎて食べた気がしない、国で食べていたようなかたいパンが食べたくなるとよく言っている。",
             "日本人は食べることにとても興味がある。だからいろいろな国の食べ物を取り入れる。そしてそれを自分の好きなようにかえてしまう。それで最初のものとは違ってしまうということがたびたび起こる。"
           ],
+          "passageVietnamese": [
+            "Khi bị một người Úc nói rằng bánh ngọt Nhật không ngọt nên không ngon, tôi đã rất ngạc nhiên. Tôi từng ăn loại bánh được cho là ngon nhất ở Vancouver. Lúc đó tôi đã ngạc nhiên: dù rất thích đồ ngọt, tôi vẫn không ăn được vì nó quá ngọt.",
+            "Về bánh mì cũng vậy: ngay cả người nước ngoài vẫn nói đồ ăn Nhật ngon cũng thường bảo rằng bánh mì Nhật quá mềm, ăn mà không có cảm giác là đã ăn, và họ thấy muốn ăn loại bánh mì cứng như vẫn ăn ở nước mình.",
+            "Người Nhật rất quan tâm đến chuyện ăn. Vì thế họ tiếp nhận món ăn của nhiều nước. Rồi họ đổi món đó theo ý mình. Thế nên chuyện món ăn thành ra khác hẳn món ban đầu vẫn xảy ra thường xuyên."
+          ],
           "promptJapanese": "パンについて外国の人は何と言っていますか。",
           "prompt": "Về bánh mì, người nước ngoài nói thế nào?",
           "choices": [
@@ -324,6 +465,12 @@
             "日本のパンはおいしくないので自分の国のパンが食べたくなる。",
             "イギリス人は日本ではフランスパンばかり食べている。",
             "日本の普通(ふつう)のパンはかたくないので食べた気がしない。"
+          ],
+          "choicesVietnamese": [
+            "Ở Nhật không bán bánh mì cứng nên thấy khổ.",
+            "Bánh mì Nhật không ngon nên thành ra muốn ăn bánh mì nước mình.",
+            "Người Anh ở Nhật chỉ ăn bánh mì Pháp.",
+            "Bánh mì thường của Nhật không cứng nên ăn mà không có cảm giác là đã ăn."
           ],
           "answer": 4
         },
@@ -334,6 +481,11 @@
             "パンについても、日本の食べ物はおいしいと言う外国人も日本のパンはやわらかすぎて食べた気がしない、国で食べていたようなかたいパンが食べたくなるとよく言っている。",
             "日本人は食べることにとても興味がある。だからいろいろな国の食べ物を取り入れる。そしてそれを自分の好きなようにかえてしまう。それで最初のものとは違ってしまうということがたびたび起こる。"
           ],
+          "passageVietnamese": [
+            "Khi bị một người Úc nói rằng bánh ngọt Nhật không ngọt nên không ngon, tôi đã rất ngạc nhiên. Tôi từng ăn loại bánh được cho là ngon nhất ở Vancouver. Lúc đó tôi đã ngạc nhiên: dù rất thích đồ ngọt, tôi vẫn không ăn được vì nó quá ngọt.",
+            "Về bánh mì cũng vậy: ngay cả người nước ngoài vẫn nói đồ ăn Nhật ngon cũng thường bảo rằng bánh mì Nhật quá mềm, ăn mà không có cảm giác là đã ăn, và họ thấy muốn ăn loại bánh mì cứng như vẫn ăn ở nước mình.",
+            "Người Nhật rất quan tâm đến chuyện ăn. Vì thế họ tiếp nhận món ăn của nhiều nước. Rồi họ đổi món đó theo ý mình. Thế nên chuyện món ăn thành ra khác hẳn món ban đầu vẫn xảy ra thường xuyên."
+          ],
           "promptJapanese": "どうしてこんなことが起きましたか。",
           "prompt": "Vì sao chuyện như vậy lại xảy ra?",
           "choices": [
@@ -341,6 +493,12 @@
             "外国から来た食べ物がおいしくなかったから。",
             "日本人がもっとおいしいと思うようにかえたから。",
             "外国のものをまったく新しい物にしたいから。"
+          ],
+          "choicesVietnamese": [
+            "Vì nhiều món ăn từ nước ngoài đã vào Nhật.",
+            "Vì món ăn đến từ nước ngoài không ngon.",
+            "Vì người Nhật đã đổi cho thành món mà họ thấy ngon hơn.",
+            "Vì muốn biến đồ nước ngoài thành thứ hoàn toàn mới."
           ],
           "answer": 3
         },
@@ -351,6 +509,12 @@
             "①学生会館(寮) A:1人部屋食事つき 7万円 / B:2人部屋食事つき 4.5万円(1人) — 夜11時に電気を消す。",
             "②ホームステイ A:食事つき 8万円 / B:食事なし 5万円 — 学校の近く、歩いて通える。",
             "③アパート A:1人で住む 10万円 / B:ルームシェア(2〜3人) 5万円(1人) — 学校から電車で30分。"
+          ],
+          "passageVietnamese": [
+            "Bảng hướng dẫn chỗ ở:",
+            "① Hội quán sinh viên (ký túc xá) A: phòng đơn, có ăn 7 man / B: phòng đôi, có ăn 4,5 man (mỗi người) — 11 giờ đêm tắt đèn.",
+            "② Ở nhà dân (homestay) A: có ăn 8 man / B: không ăn 5 man — gần trường, đi bộ tới được.",
+            "③ Căn hộ A: ở một mình 10 man / B: ở ghép (2–3 người) 5 man (mỗi người) — cách trường 30 phút tàu."
           ],
           "promptJapanese": "マリさんとアンナさんは、できたら一緒に住みたいと思っていますが、1人ずつでもいいです。やちんは、1人5万円までで、安いほうがいいです。2人は、どれにしますか。",
           "prompt": "Mari và Anna muốn ở cùng nhau nếu được, ở riêng cũng không sao. Tiền nhà mỗi người tối đa 5 man, càng rẻ càng tốt. Hai người sẽ chọn phương án nào?",
@@ -364,6 +528,12 @@
             "①学生会館(寮) A:1人部屋食事つき 7万円 / B:2人部屋食事つき 4.5万円(1人) — 夜11時に電気を消す。",
             "②ホームステイ A:食事つき 8万円 / B:食事なし 5万円 — 学校の近く、歩いて通える。",
             "③アパート A:1人で住む 10万円 / B:ルームシェア(2〜3人) 5万円(1人) — 学校から電車で30分。"
+          ],
+          "passageVietnamese": [
+            "Bảng hướng dẫn chỗ ở:",
+            "① Hội quán sinh viên (ký túc xá) A: phòng đơn, có ăn 7 man / B: phòng đôi, có ăn 4,5 man (mỗi người) — 11 giờ đêm tắt đèn.",
+            "② Ở nhà dân (homestay) A: có ăn 8 man / B: không ăn 5 man — gần trường, đi bộ tới được.",
+            "③ Căn hộ A: ở một mình 10 man / B: ở ghép (2–3 người) 5 man (mỗi người) — cách trường 30 phút tàu."
           ],
           "promptJapanese": "パクさんは、1人で住む部屋をさがしています。勉強の時間がたくさんほしいですから、学校に近いほうがいいです。夜も、1時ごろまで勉強したいです。食事は自分で作らないで、作ってもらうつもりです。やちんは、10万円までです。パクさんは、どれにしますか。",
           "prompt": "Paku đang tìm phòng ở một mình. Muốn gần trường để có nhiều thời gian học, và muốn học tới khoảng 1 giờ đêm. Không tự nấu ăn mà nhờ người nấu. Tiền nhà tối đa 10 man. Paku sẽ chọn phương án nào?",

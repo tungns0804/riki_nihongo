@@ -51,6 +51,8 @@ const unitList: LoadComponent = () =>
 const entranceTest: LoadComponent = () =>
   import('./features/entrance-test/entrance-test').then((m) => m.EntranceTest);
 const practice: LoadComponent = () => import('./features/practice/practice').then((m) => m.Practice);
+const testRun: LoadComponent = () =>
+  import('./features/test-run/test-run').then((m) => m.TestRun);
 const result: LoadComponent = () => import('./features/result/result').then((m) => m.Result);
 
 /**
@@ -91,10 +93,13 @@ function moduleRoutes(module: ModuleDef): Routes {
     // chặn người vào thẳng bằng URL khi không có phiên của đúng bài đó.
     {
       path: `${module.path}/:id/practice`,
-      title: 'route.practice',
+      title: module.kind === 'test' ? 'route.test' : 'route.practice',
       data,
       canActivate: [practiceGuard],
-      loadComponent: practice,
+      // Đề kiểm tra có màn hình LÀM ĐỀ riêng: làm cả bài rồi nộp, không phải mỗi câu
+      // một thẻ chấm ngay như luyện tập (xem features/test-run). Dùng chung địa chỉ
+      // và chung guard với luyện tập vì cùng là "đang làm dở một phiên của bài này".
+      loadComponent: module.kind === 'test' ? testRun : practice,
     },
     {
       path: `${module.path}/:id/result`,

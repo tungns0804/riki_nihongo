@@ -1,0 +1,416 @@
+/* --- Trang làm đề --------------------------------------------------------
+   Bố cục theo trang làm bài của Riki: thanh trên dính lại đỉnh, hàng tab theo kỹ
+   năng, rồi danh sách câu của tab đang mở.
+
+   Trang này KHÔNG dùng .container ở lớp ngoài cùng như các màn hình khác: thanh
+   trên phải căng hết bề ngang để dính vào đỉnh cho gọn, còn phần nội dung bên
+   trong mới bọc .container. */
+
+.test-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  /* Khi xin toàn màn hình thì chính phần tử này là gốc, nên nó phải tự có nền —
+     không có thì phía sau là nền đen của trình duyệt. */
+  background: var(--bg);
+  min-height: 100%;
+  padding-bottom: var(--sp-8);
+}
+
+.test-bar {
+  position: sticky;
+  /* Dưới header của ứng dụng (z-index 20), nên thanh này phải thấp hơn. */
+  top: var(--header-h);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: var(--sp-3) var(--sp-5) var(--sp-2);
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.test-bar-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.test-title {
+  font-size: var(--fs-xl);
+  margin: 0;
+}
+
+.test-progress-text {
+  margin: 0;
+}
+
+.dot {
+  padding-inline: 6px;
+  color: var(--text-faint);
+}
+
+/* Công tắc "Bản dịch" / "Tự viết": bật thì tô màu nhấn nhưng KHÔNG dùng .btn-primary,
+   để không trông y hệt nút nộp bài ngay bên cạnh. */
+.toggle.is-on {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 620;
+}
+
+.icon-btn {
+  padding-inline: 10px;
+  font-size: var(--fs-lg);
+  line-height: 1;
+}
+
+.test-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+/* --- Hàng tab theo kỹ năng ----------------------------------------------- */
+
+.test-tabs {
+  display: flex;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
+
+.test-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 108px;
+  padding: var(--sp-3) var(--sp-4);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  transition: border-color var(--dur) var(--ease), background-color var(--dur) var(--ease);
+}
+
+.test-tab:hover {
+  border-color: var(--accent);
+}
+
+.test-tab.is-active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.test-tab-name {
+  font-weight: 620;
+}
+
+.test-tab.is-active .test-tab-name {
+  color: var(--accent);
+}
+
+.test-collapse-row {
+  display: flex;
+  align-items: center;
+}
+
+.chevron {
+  display: inline-block;
+  transition: transform var(--dur) var(--ease);
+}
+
+.chevron.is-up {
+  transform: rotate(180deg);
+}
+
+/* --- Một 問題 ------------------------------------------------------------- */
+
+.test-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+/* Câu lệnh của 問題, khung nét đứt như đề in: nó là chỉ dẫn cho cả phần, không
+   phải một câu hỏi — nét đứt phân biệt được ngay mà không cần thêm nhãn. */
+.test-instructions {
+  padding: var(--sp-4) var(--sp-5);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+  font-size: var(--fs-lg);
+  font-weight: 550;
+  line-height: 1.7;
+}
+
+.test-section-title {
+  margin: 0;
+}
+
+.test-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+/* --- Bài đọc ------------------------------------------------------------- */
+
+.test-passage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: var(--sp-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+}
+
+/* Cùng cách trình bày với trang Đọc hiểu: chữ lớn hơn và dòng thưa, vì đây là khối
+   duy nhất phải đọc liền mạch vài trăm chữ. */
+.passage {
+  font-size: var(--fs-lg);
+  line-height: 2;
+}
+
+.passage p + p {
+  margin-top: var(--sp-4);
+  /* Thụt đầu dòng một chữ, đúng quy ước xuống đoạn của văn bản tiếng Nhật. */
+  text-indent: 1em;
+}
+
+/* Bản dịch trong khung lõm để không lẫn với bài đọc gốc. */
+.translation {
+  padding: var(--sp-4);
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+}
+
+/* --- Một câu hỏi --------------------------------------------------------- */
+
+.test-question {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  padding: var(--sp-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  transition: border-color var(--dur) var(--ease);
+}
+
+/* Câu đã chọn đáp án: chỉ đổi viền, KHÔNG nói gì về đúng sai — đề chỉ chấm khi nộp.
+   Nhìn cả trang là thấy ngay còn câu nào chưa làm. */
+.test-question.is-answered {
+  border-color: var(--accent);
+}
+
+.test-question-head {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-3);
+}
+
+.test-number {
+  flex-shrink: 0;
+  min-width: 26px;
+  padding: 2px 0;
+  border-radius: var(--radius-sm);
+  background: var(--bg-inset);
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  font-weight: 620;
+  text-align: center;
+}
+
+.test-prompt {
+  margin: 0;
+  font-size: var(--fs-lg);
+  font-weight: 550;
+  line-height: 1.7;
+}
+
+.test-sub,
+.test-translation {
+  margin: 0;
+  padding-left: calc(26px + var(--sp-3));
+}
+
+/* Bản dịch câu hỏi: màu nhấn nhạt để tách khỏi câu dẫn tiếng Việt (.test-sub) vốn
+   là chỉ dẫn làm bài, không phải nghĩa của câu. */
+.test-translation {
+  color: var(--accent);
+  font-size: var(--fs-sm);
+}
+
+.reveal-btn {
+  align-self: flex-start;
+  margin-left: calc(26px + var(--sp-3));
+}
+
+/* --- Bốn lựa chọn -------------------------------------------------------- */
+
+/* Hai cột như đề in: bốn lựa chọn xếp một cột thì mỗi câu cao gấp đôi, mà cả tab
+   có tới mười câu trên cùng một trang. */
+.test-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sp-2);
+  margin-left: calc(26px + var(--sp-3));
+}
+
+.test-choice {
+  align-items: flex-start;
+  gap: var(--sp-3);
+}
+
+.test-choice-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+}
+
+.test-choice-vi {
+  font-weight: 450;
+}
+
+/* Vòng tròn kiểu radio: người làm đề quen với việc "chọn một trong bốn", mà nút
+   vuông không nói được là chỉ chọn được một. */
+.test-radio {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+  background: var(--bg);
+  transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+}
+
+.test-choice.is-active .test-radio {
+  border-color: var(--accent);
+  /* Vòng trong đặc, vẽ bằng bóng bên trong để không phải thêm một phần tử nữa. */
+  box-shadow: inset 0 0 0 4px var(--accent);
+}
+
+/* --- Tự viết lại tiếng Nhật --------------------------------------------- */
+
+/* Khối này KHÔNG tính điểm, nên tách khỏi phần làm bài bằng một vạch đứt và lùi
+   vào cùng mức với các lựa chọn. */
+.test-write {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  margin-left: calc(26px + var(--sp-3));
+  padding-top: var(--sp-3);
+  border-top: 1px dashed var(--border-strong);
+}
+
+.test-write-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.write-input {
+  resize: vertical;
+  line-height: 1.7;
+}
+
+.test-compare {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  padding: var(--sp-3);
+  border-radius: var(--radius-sm);
+  background: var(--bg-subtle);
+}
+
+.test-verdict {
+  margin: 0;
+  font-weight: 620;
+  color: var(--danger);
+}
+
+.test-verdict.is-right {
+  color: var(--success);
+}
+
+.test-original {
+  margin: 0;
+  font-size: var(--fs-lg);
+  line-height: 1.8;
+}
+
+/* Chữ còn thiếu hoặc viết khác: tô bằng màu cảnh báo chứ không phải màu sai, vì
+   phần này không tính điểm — đây là chỗ cần nhìn lại, không phải một lỗi. */
+.test-original mark {
+  padding: 0 2px;
+  border-radius: 3px;
+  background: var(--warning-soft);
+  color: var(--warning);
+  font-weight: 700;
+}
+
+/* --- Chân trang --------------------------------------------------------- */
+
+.test-foot {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--sp-4);
+}
+
+.test-warn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  align-items: center;
+  padding: var(--sp-4) var(--sp-5);
+  border: 1px solid var(--warning-border);
+  border-radius: var(--radius);
+  background: var(--warning-soft);
+}
+
+.test-warn p {
+  margin: 0;
+  font-weight: 550;
+}
+
+/* --- Điện thoại -------------------------------------------------------- */
+
+@media (max-width: 720px) {
+  .test-bar {
+    padding-inline: var(--sp-4);
+  }
+
+  .test-title {
+    /* Tên đề nhường chỗ cho ba nút bên phải; dài quá thì cắt bằng dấu ba chấm. */
+    font-size: var(--fs-md);
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Bốn lựa chọn về một cột: hai cột trên khổ điện thoại thì câu dài (phần câu
+     đồng nghĩa dài cả dòng) bị bóp thành bốn năm dòng chữ trong mỗi ô. */
+  .test-choices {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+  }
+
+  .test-sub,
+  .test-translation,
+  .reveal-btn,
+  .test-write {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .test-tab {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+}

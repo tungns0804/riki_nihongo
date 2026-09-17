@@ -7,7 +7,7 @@ dung:
 
 | Phần                          | Đường dẫn               | Nội dung                                              |
 | ----------------------------- | ----------------------- | ----------------------------------------------------- |
-| Bài kiểm tra nhập môn N3      | `/n3-junbi/test`        | Đề đầu vào, chấm điểm theo từng kỹ năng                 |
+| Bài kiểm tra nhập môn N3      | `/n3-junbi/test`        | Đề đầu vào: làm cả bài rồi nộp, chấm theo từng kỹ năng  |
 | Từ vựng                       | `/n3-junbi/vocabulary`  | Bảng từ + luyện tập bốn chiều                           |
 | KANJI                         | `/n3-junbi/kanji`       | Thẻ chữ Hán: âm On/Kun, âm Hán Việt, số nét, từ ghép    |
 | Ngữ pháp                      | `/n3-junbi/grammar`     | Trang lý thuyết: công thức, cách dùng, ví dụ            |
@@ -68,7 +68,9 @@ từng loại nằm trong `README.md` của thư mục phần học:
 Phần **Kiểm tra nhập môn** của N3 JUNBI có đề thật "Kiểm tra nhập môn N3" — 33 câu
 theo đúng thứ tự đề: 文字語彙 20 câu (cách đọc 5, cách viết 5, điền từ 5, câu đồng
 nghĩa 5), 文法 5 câu, 読解 8 câu theo bốn bài đọc. Đề chưa có phần 聴解 nên màn hình
-kết quả chấm theo bốn kỹ năng: Kanji, Từ vựng, Ngữ pháp, Đọc hiểu.
+kết quả chấm theo bốn kỹ năng: Kanji, Từ vựng, Ngữ pháp, Đọc hiểu. Mọi câu đều có
+bản dịch tiếng Việt của câu hỏi, của từng lựa chọn và của bài đọc
+([cách viết](data-source/n3-junbi/entrance-test/README.md)).
 
 Phần **Từ vựng** của N3 JUNBI đã có nội dung thật: mục "Danh từ" gồm 120 từ của
 第1課–第6課, mục "Động từ" gồm 20 từ của 第7課 (121–140), mục "Tính từ" gồm 22 từ của
@@ -78,6 +80,44 @@ bài tập, cũng có bảng "Tóm tắt bài".
 
 Các thư mục `00-bai-mau` ở những phần còn lại là **bài mẫu** để kiểm tra đường ống
 nội dung — xoá đi khi đã có bài thật.
+
+## Làm đề kiểm tra
+
+Đề kiểm tra KHÔNG dùng màn hình luyện tập: đề thi thì làm cả bài rồi nộp, không phải
+mỗi câu một thẻ chấm ngay. Màn hình riêng của nó (`features/test-run`) làm theo trang
+làm bài của Riki:
+
+- **Hàng tab theo kỹ năng** (Kanji · Từ vựng · Ngữ pháp · Đọc hiểu), mỗi tab hiện
+  nhãn "Đang làm" / "Đã làm" hoặc số câu đã trả lời. Thanh trên đếm cả tab đang mở
+  lẫn cả đề.
+- **Câu lệnh 問題** in trong khung nét đứt trên đầu mỗi phần, đúng như đề giấy.
+- Mỗi câu bốn lựa chọn xếp **hai cột** với vòng tròn kiểu radio; bấm lại lựa chọn
+  đang chọn thì bỏ chọn. Viền thẻ đổi màu khi câu đã có đáp án, nhưng **không** nói
+  gì về đúng sai.
+- **Không chấm cho tới khi bấm NỘP BÀI.** Chấm ngay từng câu thì những câu sau của
+  cùng một 問題 đã bị gợi ý mất rồi. Còn câu trống thì nút nộp hỏi lại một nhịp.
+- Phần 読解: các câu dùng chung một bài đọc được gom lại, bài đọc in **một lần** cho
+  cả nhóm.
+- Nút **toàn màn hình** cho lúc muốn làm bài mà không thấy gì khác.
+
+Hai công tắc học thêm trên thanh trên, bật tắt độc lập với việc làm bài:
+
+| Công tắc      | Làm gì                                                                 |
+| ------------- | ---------------------------------------------------------------------- |
+| **Bản dịch**  | Hiện nghĩa tiếng Việt của câu hỏi, của từng lựa chọn và của bài đọc     |
+| **Tự viết**   | Mở ô để tự gõ lại câu tiếng Nhật, rồi so từng chữ với bản gốc           |
+
+"Bản dịch" mặc định TẮT và mở được riêng từng câu: ở phần điền từ, bốn nghĩa tiếng
+Việt chỉ gần như thẳng vào đáp án — bật lên là quyết định của người học.
+
+"Tự viết" **không tính điểm**, không dính gì tới phần chấm. Gõ lại câu hỏi (và đáp án
+đã chọn) rồi bấm "So với bản gốc": chỗ viết thiếu hoặc viết khác được tô lên, so bằng
+LCS nên thiếu một chữ ở đầu câu không làm lệch cả phần sau (`diffAgainst` trong
+`core/utils/text.ts`). Khoảng trắng bị bỏ qua — đề in có dấu cách giữa các từ, còn
+người gõ thì thường không.
+
+Xong bài thì sang màn hình kết quả dùng chung với luyện tập: điểm tổng, điểm từng kỹ
+năng, và danh sách từng câu để xem lại.
 
 ## Luyện tập
 
@@ -175,8 +215,9 @@ src/app/
     ├── home/                       trang của một học phần: lưới các phần học
     ├── unit-list/                  danh sách bài — DÙNG CHUNG cho mọi phần
     ├── <loại>-detail/              màn hình chi tiết, mỗi loại nội dung một màn hình
-    ├── entrance-test/              đề kiểm tra nhập môn
-    ├── practice/ result/           màn hình làm bài và màn hình kết quả
+    ├── entrance-test/              danh sách đề kiểm tra nhập môn (nút bắt đầu)
+    ├── test-run/                   MÀN HÌNH LÀM ĐỀ: tab theo kỹ năng, nộp bài mới chấm
+    ├── practice/ result/           màn hình luyện tập và màn hình kết quả (dùng chung)
     └── shared/                     bộ chọn học phần, khung thiết lập luyện tập, khối câu hỏi
 ```
 
@@ -198,6 +239,12 @@ Những điểm đáng nhớ khi sửa về sau:
    `data.moduleId` của route. Màn hình chi tiết thì tách riêng theo hình dạng dữ liệu.
 5. **Phần Mimikara dùng lại màn hình Ngữ pháp** vì cùng hình dạng dữ liệu; nó là hai
    phần trên giao diện vì là hai giáo trình khác nhau.
+6. **Đề kiểm tra dùng màn hình riêng nhưng chung địa chỉ với luyện tập.**
+   `/n3-junbi/test/de-1/practice` nạp `features/test-run` thay cho `features/practice`
+   (rẽ theo `module.kind` trong `app.routes.ts`), vẫn qua `practiceGuard` và vẫn kết
+   thúc ở `features/result`. Đề chấm MỘT LƯỢT lúc nộp bằng `PracticeSessionStore.submitAll`,
+   nhận map theo id câu chứ không theo thứ tự — trang làm đề xếp câu theo phần và theo
+   bài đọc, còn phiên giữ một danh sách phẳng.
 
 ## Deploy
 

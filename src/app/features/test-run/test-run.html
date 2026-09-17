@@ -1,0 +1,319 @@
+<div class="test-page" #root>
+  <!-- Thanh trên: tên đề, hai công tắc học thêm, nút nộp bài. Dính lại đỉnh màn hình
+       vì một tab dài tới mười câu, mà nút nộp phải với được từ bất cứ chỗ nào. -->
+  <header class="test-bar">
+    <div class="test-bar-row">
+      <h1 class="test-title">{{ config()?.unitName }}</h1>
+      <span class="spacer"></span>
+
+      <button
+        type="button"
+        class="btn btn-sm toggle"
+        [class.is-on]="showAllTranslations()"
+        [attr.aria-pressed]="showAllTranslations()"
+        (click)="toggleAllTranslations()"
+      >
+        {{ t('test.translation') }}
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-sm toggle"
+        [class.is-on]="writeMode()"
+        [attr.aria-pressed]="writeMode()"
+        (click)="toggleWriteMode()"
+      >
+        {{ t('test.writeMode') }}
+      </button>
+
+      <button type="button" class="btn btn-primary btn-sm submit-btn" (click)="submit()">
+        {{ t('test.submit') }}
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-sm btn-ghost icon-btn"
+        [attr.aria-label]="isFullscreen() ? t('test.exitFullscreen') : t('test.fullscreen')"
+        [title]="isFullscreen() ? t('test.exitFullscreen') : t('test.fullscreen')"
+        (click)="toggleFullscreen()"
+      >
+        @if (isFullscreen()) {
+          <span aria-hidden="true">⤡</span>
+        } @else {
+          <span aria-hidden="true">⛶</span>
+        }
+      </button>
+    </div>
+
+    <p class="test-progress-text muted small tnum">
+      {{ t('test.sectionProgress', { done: activeDone(), total: activeTotal() }) }}
+      <span class="dot">·</span>
+      {{ t('test.wholeProgress', { done: answeredCount(), total: totalCount() }) }}
+    </p>
+
+    <div class="progress-track">
+      <div class="progress-fill" [style.width.%]="percent()"></div>
+    </div>
+  </header>
+
+  <div class="container test-body">
+    @if (loading()) {
+      <p class="muted">{{ t('common.loading') }}</p>
+    } @else {
+      <!-- Hàng tab theo kỹ năng: một đề có tới bốn kỹ năng, xếp hết vào một trang thì
+           phải cuộn qua ba mươi câu mới tới phần muốn làm. -->
+      <div class="test-tabs" role="tablist">
+        @for (tab of tabs(); track tab.skill; let i = $index) {
+          <button
+            type="button"
+            role="tab"
+            class="test-tab"
+            [class.is-active]="i === activeIndex()"
+            [attr.aria-selected]="i === activeIndex()"
+            (click)="selectTab(i)"
+          >
+            <span class="test-tab-name"><app-t [key]="tab.labelKey" /></span>
+            @if (i === activeIndex()) {
+              <span class="badge badge-accent">{{ t('test.status.doing') }}</span>
+            } @else if (isTabDone(tab)) {
+              <span class="badge badge-success">{{ t('test.status.done') }}</span>
+            } @else {
+              <span class="badge tnum">{{ doneIn(tab) }}/{{ tab.questionIds.length }}</span>
+            }
+          </button>
+        }
+      </div>
+
+      @if (activeTab(); as tab) {
+        <div class="test-collapse-row">
+          <span class="spacer"></span>
+          <button type="button" class="btn btn-sm btn-ghost" (click)="toggleExpanded()">
+            @if (expanded()) {
+              {{ t('test.collapse') }}
+            } @else {
+              {{ t('test.expand', { count: tab.questionIds.length }) }}
+            }
+            <span class="chevron" [class.is-up]="expanded()" aria-hidden="true">⌄</span>
+          </button>
+        </div>
+
+        @if (expanded()) {
+          @for (section of tab.sections; track section.id) {
+            <section class="test-section">
+              <!-- Câu lệnh 問題 trong khung nét đứt, như đề in: nó cho biết phần này
+                   hỏi cái gì, mà từng câu hỏi không nhắc lại. -->
+              @if (section.instructions) {
+                <div class="test-instructions jp">{{ section.instructions }}</div>
+              }
+              <p class="test-section-title muted small">{{ section.title }}</p>
+
+              @for (group of section.groups; track group.id) {
+                <div class="test-group">
+                  <!-- Bài đọc hiện MỘT lần cho cả nhóm câu dùng chung nó. -->
+                  @if (group.passage.length > 0) {
+                    <div class="test-passage">
+                      <span class="label">{{ t('reading.passage') }}</span>
+                      <div class="passage jp">
+                        @for (paragraph of group.passage; track $index) {
+                          <p>{{ paragraph }}</p>
+                        }
+                      </div>
+                      @if (group.passageTranslation.length > 0 && showsTranslation(group.id)) {
+                        <div class="translation">
+                          @for (paragraph of group.passageTranslation; track $index) {
+                            <p class="muted">{{ paragraph }}</p>
+                          }
+                        </div>
+                      }
+                    </div>
+                  }
+
+                  @for (question of group.questions; track question.id) {
+                    <article class="test-question" [class.is-answered]="pickedOf(question.id)">
+                      <div class="test-question-head">
+                        <span class="test-number tnum">{{ question.number }}</span>
+                        <p class="test-prompt jp">{{ question.promptJapanese }}</p>
+                      </div>
+
+                      @if (question.showPrompt) {
+                        <p class="test-sub muted small">{{ question.prompt }}</p>
+                      }
+
+                      <!-- Bản dịch: mở riêng từng câu, hoặc bật cả trang bằng công tắc
+                           trên thanh đầu. Mặc định tắt — ở phần điền từ, bốn nghĩa
+                           tiếng Việt chỉ thẳng vào đáp án. -->
+                      @if (question.hasTranslation) {
+                        @if (showsTranslation(question.id)) {
+                          @if (question.promptTranslation) {
+                            <p class="test-translation">{{ question.promptTranslation }}</p>
+                          }
+                        } @else if (!showAllTranslations()) {
+                          <button
+                            type="button"
+                            class="btn btn-sm btn-ghost reveal-btn"
+                            (click)="toggleTranslation(question.id)"
+                          >
+                            {{ t('reading.showTranslation') }}
+                          </button>
+                        }
+                      }
+
+                      <div class="test-choices">
+                        @for (choice of question.choices; track choice.id; let c = $index) {
+                          <button
+                            type="button"
+                            class="option test-choice"
+                            [class.is-active]="isPicked(question.id, choice.text)"
+                            (click)="pick(question.id, choice.text)"
+                          >
+                            <span class="test-radio" aria-hidden="true"></span>
+                            <span class="test-choice-body">
+                              <span class="jp">{{ c + 1 }}. {{ choice.text }}</span>
+                              @if (choice.translation && showsTranslation(question.id)) {
+                                <span class="test-choice-vi muted small">
+                                  {{ choice.translation }}
+                                </span>
+                              }
+                            </span>
+                          </button>
+                        }
+                      </div>
+
+                      <!-- Tự viết lại tiếng Nhật. Không tính điểm, không dính gì tới
+                           phần chấm: chỉ để tự tay gõ rồi soi lại từng chữ. -->
+                      @if (writeMode()) {
+                        <div class="test-write">
+                          <p class="muted small">{{ t('test.writeHint') }}</p>
+
+                          <label class="test-write-field">
+                            <span class="label">{{ t('test.writeQuestion') }}</span>
+                            <textarea
+                              class="input jp write-input"
+                              rows="2"
+                              [placeholder]="t('test.writePlaceholder')"
+                              [ngModel]="typedPromptOf(question.id)"
+                              (ngModelChange)="setTypedPrompt(question.id, $event)"
+                              autocomplete="off"
+                              spellcheck="false"
+                            ></textarea>
+                          </label>
+
+                          @if (isPromptCompared(question.id)) {
+                            <div class="test-compare">
+                              <p
+                                class="test-verdict"
+                                [class.is-right]="promptMatches(question)"
+                              >
+                                @if (promptMatches(question)) {
+                                  {{ t('test.matched') }}
+                                } @else {
+                                  {{ t('test.notMatched') }}
+                                }
+                              </p>
+                              <span class="label">{{ t('test.original') }}</span>
+                              <!-- prettier-ignore -->
+                              <p class="jp test-original">@for (part of promptDiff(question); track $index) {@if (part.hit) {<span>{{ part.text }}</span>} @else {<mark>{{ part.text }}</mark>}}</p>
+                              <button
+                                type="button"
+                                class="btn btn-sm btn-ghost"
+                                (click)="resetPrompt(question.id)"
+                              >
+                                {{ t('test.compareAgain') }}
+                              </button>
+                            </div>
+                          } @else {
+                            <button
+                              type="button"
+                              class="btn btn-sm"
+                              [disabled]="!typedPromptOf(question.id).trim()"
+                              (click)="comparePrompt(question.id)"
+                            >
+                              {{ t('test.compare') }}
+                            </button>
+                          }
+
+                          @if (pickedOf(question.id)) {
+                            <label class="test-write-field">
+                              <span class="label">{{ t('test.writeAnswer') }}</span>
+                              <input
+                                type="text"
+                                class="input jp write-input"
+                                [placeholder]="t('test.writePlaceholder')"
+                                [ngModel]="typedAnswerOf(question.id)"
+                                (ngModelChange)="setTypedAnswer(question.id, $event)"
+                                autocomplete="off"
+                                spellcheck="false"
+                              />
+                            </label>
+
+                            @if (isAnswerCompared(question.id)) {
+                              <div class="test-compare">
+                                <p
+                                  class="test-verdict"
+                                  [class.is-right]="answerMatches(question)"
+                                >
+                                  @if (answerMatches(question)) {
+                                    {{ t('test.matched') }}
+                                  } @else {
+                                    {{ t('test.notMatched') }}
+                                  }
+                                </p>
+                                <span class="label">{{ t('test.original') }}</span>
+                                <!-- prettier-ignore -->
+                                <p class="jp test-original">@for (part of answerDiff(question); track $index) {@if (part.hit) {<span>{{ part.text }}</span>} @else {<mark>{{ part.text }}</mark>}}</p>
+                                <button
+                                  type="button"
+                                  class="btn btn-sm btn-ghost"
+                                  (click)="resetAnswer(question.id)"
+                                >
+                                  {{ t('test.compareAgain') }}
+                                </button>
+                              </div>
+                            } @else {
+                              <button
+                                type="button"
+                                class="btn btn-sm"
+                                [disabled]="!typedAnswerOf(question.id).trim()"
+                                (click)="compareAnswer(question.id)"
+                              >
+                                {{ t('test.compare') }}
+                              </button>
+                            }
+                          } @else {
+                            <p class="muted small">{{ t('test.pickFirst') }}</p>
+                          }
+                        </div>
+                      }
+                    </article>
+                  }
+                </div>
+              }
+            </section>
+          }
+        }
+      }
+
+      <!-- Nộp bài khi còn câu trống: hỏi lại một nhịp. Phiên không lưu được, nộp nhầm
+           lúc mới làm nửa đề là mất cả lần làm. -->
+      <div class="test-foot">
+        @if (confirming()) {
+          <div class="test-warn">
+            <p>{{ t('test.unanswered', { count: unansweredCount() }) }}</p>
+            <div class="row">
+              <button type="button" class="btn btn-primary" (click)="submit()">
+                {{ t('test.submitAnyway') }}
+              </button>
+              <button type="button" class="btn" (click)="keepGoing()">
+                {{ t('test.keepGoing') }}
+              </button>
+            </div>
+          </div>
+        } @else {
+          <button type="button" class="btn btn-primary btn-lg" (click)="submit()">
+            {{ t('test.submit') }}
+          </button>
+        }
+      </div>
+    }
+  </div>
+</div>

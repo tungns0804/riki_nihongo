@@ -249,7 +249,7 @@ export function sanitizeGrammarPoints(raw: unknown): GrammarPoint[] {
 function sanitizeChoices(raw: unknown): QuizChoice[] {
   return each(raw, new Set<string>(), (item, id) => {
     const value = text(item['text']);
-    return value ? { id, text: value } : null;
+    return value ? { id, text: value, translation: text(item['translation']) } : null;
   });
 }
 
@@ -275,10 +275,12 @@ export function sanitizeQuestions(raw: unknown, seen = new Set<string>()): QuizQ
       skill: isSkillId(item['skill']) ? item['skill'] : 'grammar',
       prompt,
       promptJapanese,
+      promptTranslation: text(item['promptTranslation']),
       choices,
       answerId,
       explanation: text(item['explanation']),
       passage: textList(item['passage']),
+      passageTranslation: textList(item['passageTranslation']),
     };
   });
 }
@@ -352,6 +354,7 @@ export function sanitizeTestSections(raw: unknown): TestSection[] {
     return {
       id,
       title: text(item['title']),
+      instructions: text(item['instructions']),
       skill: isSkillId(item['skill']) ? item['skill'] : 'grammar',
       questions,
     };
