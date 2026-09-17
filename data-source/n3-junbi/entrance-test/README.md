@@ -16,7 +16,6 @@ cùng kỹ năng vào một tab.
           "id": "mg-11",
           "promptJapanese": "台風の場合は、明日のコンサートを（　）します。",
           "promptVietnamese": "Nếu có bão thì buổi hoà nhạc ngày mai sẽ bị （　）.",
-          "prompt": "Chọn từ thích hợp điền vào chỗ trống.",
           "choices": ["ちゅうしゃ", "ちゅうし", "こしょう", "しょうたい"],
           "choicesVietnamese": ["đỗ xe (駐車)", "hoãn, dừng (中止)", "hỏng hóc (故障)", "mời (招待)"],
           "answer": 2,
@@ -32,6 +31,7 @@ cùng kỹ năng vào một tab.
 - `instructions` là câu lệnh 問題 bằng tiếng Nhật, chép nguyên trong đề. Màn hình làm
   đề in nó trong khung nét đứt trên đầu phần, đúng như đề giấy. Bỏ trống thì không
   hiện khung nào.
+- `title` chỉ để người soạn đề đọc file cho dễ, KHÔNG hiện trên màn hình làm đề.
 - `answer` là SỐ THỨ TỰ của lựa chọn đúng (đếm từ 1), hoặc chính chuỗi đáp án.
 - Đề KHÔNG bị trộn câu và không bị cắt bớt số câu khi làm: giữ nguyên thứ tự người
   ra đề đã sắp.
@@ -41,33 +41,42 @@ cùng kỹ năng vào một tab.
   tiến độ, và đặt tay thì lần sau sửa lại câu chữ không làm mất kết quả đã lưu. Id
   phải KHÔNG TRÙNG trong cả đề — hai câu cùng id thì câu sau bị bỏ mà không báo gì.
 
-## Hai câu dẫn tiếng Việt, đừng lẫn
+## Không thêm câu dẫn tiếng Việt vào từng câu
 
-| Trường              | Là gì                                   | Hiện khi nào              |
-| ------------------- | --------------------------------------- | ------------------------- |
-| `prompt`            | Chỉ dẫn làm bài ("Chọn từ thích hợp…")  | Luôn hiện                 |
-| `promptVietnamese`  | NGHĨA của câu tiếng Nhật                | Chỉ khi bật "Bản dịch"    |
+Đề KHÔNG dùng trường `prompt` (câu dẫn kiểu "Từ trong 「 」 đọc bằng hiragana thế
+nào?"). Câu lệnh 問題 trong khung nét đứt đã nói phần này hỏi gì; in thêm một dòng
+tiếng Việt ở từng câu chỉ là năm dòng chữ giống nhau (người dùng đã yêu cầu bỏ).
 
-Nghĩa của câu phải nằm sau công tắc: ở phần điền từ, dịch câu ra tiếng Việt là gần
-như chỉ thẳng vào đáp án.
+Mọi chữ tiếng Việt của một câu đều là BẢN DỊCH, và chỉ hiện khi bấm "Hiện bản dịch":
 
-Phần 読解 thì ngược lại — `promptJapanese` chính là câu hỏi, nên `prompt` viết luôn
-bản dịch của câu hỏi đó và không cần `promptVietnamese`: đọc hiểu thì hiểu câu hỏi
-không phải là gian lận, đáp án nằm trong bài đọc.
-
-Màn hình làm đề chỉ in `prompt` ở câu ĐẦU của mỗi phần khi cả phần dùng chung một
-chỉ dẫn, nên không cần lo năm câu lặp lại một dòng chữ.
+| Trường              | Bản dịch của         |
+| ------------------- | -------------------- |
+| `promptVietnamese`  | câu hỏi tiếng Nhật   |
+| `choicesVietnamese` | từng lựa chọn        |
+| `passageVietnamese` | bài đọc (đọc hiểu)   |
 
 ## Bản dịch của lựa chọn
 
-`choicesVietnamese` là mảng SONG SONG với `choices` — thiếu một phần tử là bộ sinh
-báo cảnh báo, vì trên màn hình sẽ có lựa chọn hiện nghĩa, lựa chọn không, trông như
-chỗ đó cố tình để trống.
+`choicesVietnamese` là mảng SONG SONG với `choices` — thiếu một phần tử là bộ sinh báo
+cảnh báo, vì trên màn hình sẽ có lựa chọn hiện nghĩa, lựa chọn không, trông như chỗ đó
+cố tình để trống.
 
-Chỉ viết cho những phần mà bốn lựa chọn đều là từ hoặc câu có nghĩa thật. Phần chọn
-cách đọc (問題1) và chọn chữ Hán (問題2) thì **bỏ hẳn**: ba mồi nhiễu ở đó không phải
-là từ (`験究`, `験空`, `研空`), dịch ra chỉ còn cách để trống ba chỗ — mà như thế là
-chỉ thẳng vào đáp án.
+Viết cho MỌI câu, kể cả phần chọn cách đọc (問題1) và chọn chữ Hán (問題2). Ở hai phần
+đó mồi nhiễu thường không phải là từ, nên ghi rõ, và ghi nghĩa chữ Hán khi chữ đó đáng
+học:
+
+```json
+"choices": ["青れ", "清れ", "晴れ", "静れ"],
+"choicesVietnamese": [
+  "không có từ này (青 = xanh)",
+  "không có từ này (清 = trong, sạch)",
+  "晴れ · trời quang, nắng",
+  "không có từ này (静 = tĩnh, yên)"
+]
+```
+
+Đọc bản dịch đáp án của phần này là biết đáp án — vì vậy bản dịch mặc định ẨN, mở lúc
+nào là do người học chọn.
 
 ## Bài đọc của phần đọc hiểu
 
@@ -84,9 +93,10 @@ là bản dịch (cùng số đoạn):
     "Trên bàn của Yamaguchi có tập tài liệu quảng cáo và mẩu ghi chú này.",
     "Trong lúc Yamaguchi đi vắng, Ri ở công ty Y có tới. ……"
   ],
-  "promptJapanese": "このメモを読んで、山口さんはりさんに何を伝えますか。",
-  "prompt": "Theo mẩu ghi chú, Yamaguchi sẽ nhắn lại điều gì?",
+  "promptJapanese": "このメモを読んで、山口さんはりさんに何でどんなことを伝えますか。",
+  "promptVietnamese": "Theo mẩu ghi chú, Yamaguchi sẽ liên lạc với Ri bằng cách nào và để nói điều gì?",
   "choices": ["…", "…", "…", "…"],
+  "choicesVietnamese": ["…", "…", "…", "…"],
   "answer": 4
 }
 ```
@@ -102,3 +112,9 @@ không còn gì để đọc.
 Trên màn hình LÀM ĐỀ thì ngược lại — cả phần hiện cùng lúc, nên các câu liền nhau có
 bài đọc GIỐNG HỆT NHAU được gom lại và bài đọc chỉ in một lần. Vì vậy phải chép lại
 đúng từng chữ, lệch một dấu câu là nó tách thành hai bài đọc.
+
+## Dấu 「」 thay cho gạch chân
+
+File nguồn không giữ được gạch chân của đề in, nên phần 文字語彙 đánh dấu từ đang hỏi
+bằng 「」: `つよい「台風」が 来る そうです。`. Ô tự viết trên màn hình làm đề bỏ qua
+「」 (và khoảng trắng) khi so với bản gốc — người học không gõ chúng.

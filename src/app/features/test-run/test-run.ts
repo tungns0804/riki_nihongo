@@ -32,23 +32,17 @@ const SKILL_LABEL_KEY: Record<string, MessageKey> = Object.fromEntries(
   MODULES.map((module) => [module.id, module.shortKey]),
 );
 
+/** Có chữ tiếng Nhật (kana hoặc chữ Hán) không — để biết người học đang viết gì. */
+const JAPANESE = /[぀-ヿ㐀-䶿一-鿿ｦ-ﾟ]/u;
+
 /** Một câu hỏi trên trang làm đề, kèm số thứ tự trong tab. */
 interface QuestionView {
   id: string;
   number: number;
   promptJapanese: string;
   promptTranslation: string;
-  prompt: string;
   choices: readonly QuizChoice[];
-  /**
-   * Có hiện câu dẫn tiếng Việt của câu này không.
-   *
-   * Phần 文字語彙 và 文法 dùng CHUNG một câu dẫn cho cả 問題 ("Chọn từ thích hợp điền
-   * vào chỗ trống."), in lại ở cả năm câu thì thành năm dòng chữ giống nhau; chỉ hiện
-   * ở câu đầu là đủ. Phần 読解 thì mỗi câu một câu hỏi khác nhau nên câu nào cũng hiện.
-   */
-  showPrompt: boolean;
-  /** Phần này có gì để dịch không — không có thì ẩn luôn nút "Bản dịch". */
+  /** Câu này có gì để dịch không — không có thì không hiện nút bản dịch. */
   hasTranslation: boolean;
 }
 
@@ -82,6 +76,14 @@ interface TabView {
   questionIds: readonly string[];
 }
 
+/** Kết quả so câu người học tự viết với câu gốc. */
+interface Comparison {
+  /** Người học viết tiếng Nhật: so được từng chữ. Viết tiếng Việt thì không. */
+  japanese: boolean;
+  matches: boolean;
+  parts: TextPart[];
+}
+
 /**
  * Màn hình LÀM ĐỀ kiểm tra nhập môn.
  *
@@ -96,13 +98,15 @@ interface TabView {
  * Bố cục theo đúng trang làm bài của Riki: hàng tab theo kỹ năng, câu lệnh 問題 trong
  * khung nét đứt, mỗi câu bốn lựa chọn xếp hai cột.
  *
- * Hai chế độ học thêm, bật tắt độc lập với việc làm bài:
+ * Hai thứ học thêm ở từng câu, không dính gì tới phần chấm:
  *
- *  - **Bản dịch**: nghĩa tiếng Việt của câu hỏi, của từng lựa chọn và của bài đọc.
- *    Mặc định TẮT, vì ở phần điền từ thì bốn nghĩa tiếng Việt chỉ thẳng vào đáp án —
- *    bật lên là quyết định của người học, không phải mặc định của đề.
- *  - **Tự viết**: tự gõ lại câu tiếng Nhật rồi so từng chữ với bản gốc. KHÔNG tính
- *    điểm, không liên quan tới phần chấm.
+ *  - **Bản dịch** của câu hỏi và của cả bốn đáp án. Mỗi câu một nút hiện / ẩn riêng,
+ *    và một nút trên thanh đầu hiện / ẩn tất cả. Mặc định ẩn: dịch đáp án ra là gần
+ *    như đọc được đáp án, nên mở lúc nào là do người học chọn.
+ *  - **Ô tự viết** LUÔN có sẵn dưới mỗi câu, để gõ lại câu tiếng Nhật (luyện chữ Hán)
+ *    hoặc tự dịch sang tiếng Việt. So với bản gốc: viết tiếng Nhật thì tô từng chữ
+ *    lệch, viết tiếng Việt thì hiện bản dịch tham khảo để tự đối chiếu — một câu dịch
+ *    có nhiều cách đúng, so từng chữ thì vô nghĩa.
  *
  * Phiên vẫn là PracticeSessionStore để dùng lại màn hình kết quả và phần ghi tiến độ,
  * nhưng chấm một lượt lúc nộp bằng `submitAll` chứ không `answer` từng câu. Nội dung
@@ -141,16 +145,14 @@ export class TestRun {
   protected readonly expanded = signal(true);
   protected readonly isFullscreen = signal(false);
 
-  /** Bật bản dịch cho cả trang. Từng câu vẫn mở riêng được (xem `revealed`). */
-  protected readonly showAllTranslations = signal(false);
-  private readonly revealed = signal<ReadonlySet<string>>(new Set());
+  /** Câu đang mở bản dịch. Nút "hiện tất cả" chỉ là điền / xoá hết tập này. */
+  private readonly revealedQuestions = signal<ReadonlySet<string>>(new Set());
+  /** Bài đọc đang mở bản dịch, theo id nhóm. Tách riêng vì bài đọc có nút riêng. */
+  private readonly revealedPassages = signal<ReadonlySet<string>>(new Set());
 
-  /** Bật ô "tự viết" cho cả trang. */
-  protected readonly writeMode = signal(false);
-  private readonly typedPrompt = signal<ReadonlyMap<string, string>>(new Map());
-  private readonly typedAnswer = signal<ReadonlyMap<string, string>>(new Map());
-  private readonly comparedPrompt = signal<ReadonlySet<string>>(new Set());
-  private readonly comparedAnswer = signal<ReadonlySet<string>>(new Set());
+  /** Chữ người học tự viết ở từng câu, và những câu đang hiện phần so với bản gốc. */
+  private readonly typed = signal<ReadonlyMap<string, string>>(new Map());
+  private readonly compared = signal<ReadonlySet<string>>(new Set());
 
   /** Đã bấm nộp khi còn câu trống: hỏi lại một nhịp thay vì nộp luôn. */
   protected readonly confirming = signal(false);
@@ -177,6 +179,35 @@ export class TestRun {
   protected readonly percent = computed(() => {
     const total = this.activeTotal();
     return total === 0 ? 0 : Math.round((this.activeDone() / total) * 100);
+  });
+
+  /** Mọi câu và mọi bài đọc CÓ bản dịch — thứ mà nút "hiện tất cả" mở ra. */
+  private readonly translatable = computed(() => {
+    const questions: string[] = [];
+    const passages: string[] = [];
+    for (const tab of this.tabs()) {
+      for (const section of tab.sections) {
+        for (const group of section.groups) {
+          if (group.passageTranslation.length > 0) passages.push(group.id);
+          for (const question of group.questions) {
+            if (question.hasTranslation) questions.push(question.id);
+          }
+        }
+      }
+    }
+    return { questions, passages };
+  });
+
+  /** Đang mở hết bản dịch chưa — để nút trên thanh đầu biết mình là "hiện" hay "ẩn". */
+  protected readonly allTranslationsShown = computed(() => {
+    const { questions, passages } = this.translatable();
+    const openQuestions = this.revealedQuestions();
+    const openPassages = this.revealedPassages();
+    return (
+      questions.length + passages.length > 0 &&
+      questions.every((id) => openQuestions.has(id)) &&
+      passages.every((id) => openPassages.has(id))
+    );
   });
 
   constructor() {
@@ -210,10 +241,6 @@ export class TestRun {
     return tab.questionIds.length > 0 && this.doneIn(tab) === tab.questionIds.length;
   }
 
-  protected skillLabelKey(skill: SkillId): MessageKey {
-    return SKILL_LABEL_KEY[skill] ?? 'module.grammar.short';
-  }
-
   protected selectTab(index: number): void {
     if (index === this.activeIndex()) return;
     this.activeIndex.set(index);
@@ -239,8 +266,8 @@ export class TestRun {
     return this.answers().get(questionId) === choiceText;
   }
 
-  protected pickedOf(questionId: string): string {
-    return this.answers().get(questionId) ?? '';
+  protected isAnswered(questionId: string): boolean {
+    return this.answers().has(questionId);
   }
 
   /**
@@ -257,92 +284,78 @@ export class TestRun {
       else next.set(questionId, choiceText);
       return next;
     });
-    // Đổi đáp án thì phần "viết lại đáp án" đang so với đáp án cũ.
-    this.comparedAnswer.update((current) => remove(current, questionId));
     // Vừa điền thêm một câu thì lời nhắc "còn N câu chưa trả lời" không còn đúng số.
     this.confirming.set(false);
   }
 
   // ── Bản dịch ─────────────────────────────────────────────────────────────
 
-  protected showsTranslation(questionId: string): boolean {
-    return this.showAllTranslations() || this.revealed().has(questionId);
+  protected isRevealed(questionId: string): boolean {
+    return this.revealedQuestions().has(questionId);
   }
 
   protected toggleTranslation(questionId: string): void {
-    this.revealed.update((current) =>
-      current.has(questionId) ? remove(current, questionId) : add(current, questionId),
-    );
+    this.revealedQuestions.update((current) => toggle(current, questionId));
   }
 
+  protected isPassageRevealed(groupId: string): boolean {
+    return this.revealedPassages().has(groupId);
+  }
+
+  protected togglePassageTranslation(groupId: string): void {
+    this.revealedPassages.update((current) => toggle(current, groupId));
+  }
+
+  /**
+   * Hiện hết hoặc ẩn hết. Không phải một công tắc đè lên từng câu: nếu vậy thì lúc
+   * đang "hiện tất cả", nút ẩn của từng câu bấm vào không có tác dụng gì.
+   */
   protected toggleAllTranslations(): void {
-    this.showAllTranslations.update((value) => !value);
-    // Bật rồi tắt công tắc chung thì trả lại đúng trạng thái "chưa mở gì".
-    if (!this.showAllTranslations()) this.revealed.set(new Set());
+    if (this.allTranslationsShown()) {
+      this.revealedQuestions.set(new Set());
+      this.revealedPassages.set(new Set());
+      return;
+    }
+    const { questions, passages } = this.translatable();
+    this.revealedQuestions.set(new Set(questions));
+    this.revealedPassages.set(new Set(passages));
   }
 
-  // ── Tự viết lại tiếng Nhật (không tính điểm) ─────────────────────────────
+  // ── Ô tự viết (không tính điểm) ──────────────────────────────────────────
 
-  protected toggleWriteMode(): void {
-    this.writeMode.update((value) => !value);
+  protected typedOf(questionId: string): string {
+    return this.typed().get(questionId) ?? '';
   }
 
-  protected typedPromptOf(questionId: string): string {
-    return this.typedPrompt().get(questionId) ?? '';
+  protected setTyped(questionId: string, value: string): void {
+    this.typed.update((current) => new Map(current).set(questionId, value));
+    // Sửa chữ thì phần so sánh đang hiện là so với chữ cũ.
+    this.compared.update((current) => remove(current, questionId));
   }
 
-  protected typedAnswerOf(questionId: string): string {
-    return this.typedAnswer().get(questionId) ?? '';
+  protected isCompared(questionId: string): boolean {
+    return this.compared().has(questionId);
   }
 
-  protected setTypedPrompt(questionId: string, value: string): void {
-    this.typedPrompt.update((current) => new Map(current).set(questionId, value));
-    this.comparedPrompt.update((current) => remove(current, questionId));
+  protected compare(questionId: string): void {
+    this.compared.update((current) => new Set(current).add(questionId));
   }
 
-  protected setTypedAnswer(questionId: string, value: string): void {
-    this.typedAnswer.update((current) => new Map(current).set(questionId, value));
-    this.comparedAnswer.update((current) => remove(current, questionId));
+  protected closeComparison(questionId: string): void {
+    this.compared.update((current) => remove(current, questionId));
   }
 
-  protected comparePrompt(questionId: string): void {
-    this.comparedPrompt.update((current) => add(current, questionId));
-  }
-
-  protected compareAnswer(questionId: string): void {
-    this.comparedAnswer.update((current) => add(current, questionId));
-  }
-
-  protected isPromptCompared(questionId: string): boolean {
-    return this.comparedPrompt().has(questionId);
-  }
-
-  protected isAnswerCompared(questionId: string): boolean {
-    return this.comparedAnswer().has(questionId);
-  }
-
-  protected resetPrompt(questionId: string): void {
-    this.comparedPrompt.update((current) => remove(current, questionId));
-  }
-
-  protected resetAnswer(questionId: string): void {
-    this.comparedAnswer.update((current) => remove(current, questionId));
-  }
-
-  protected promptDiff(question: QuestionView): TextPart[] {
-    return diffAgainst(question.promptJapanese, this.typedPromptOf(question.id)).parts;
-  }
-
-  protected promptMatches(question: QuestionView): boolean {
-    return diffAgainst(question.promptJapanese, this.typedPromptOf(question.id)).matches;
-  }
-
-  protected answerDiff(question: QuestionView): TextPart[] {
-    return diffAgainst(this.pickedOf(question.id), this.typedAnswerOf(question.id)).parts;
-  }
-
-  protected answerMatches(question: QuestionView): boolean {
-    return diffAgainst(this.pickedOf(question.id), this.typedAnswerOf(question.id)).matches;
+  /**
+   * So chữ người học vừa viết với câu gốc.
+   *
+   * Viết tiếng Nhật thì so từng chữ và tô chỗ lệch. Viết tiếng Việt (tự dịch) thì
+   * KHÔNG chấm khớp / không khớp: một câu dịch có nhiều cách viết đúng, chỉ hiện bản
+   * dịch tham khảo để người học tự đối chiếu.
+   */
+  protected comparisonOf(question: QuestionView): Comparison {
+    const typed = this.typedOf(question.id);
+    const { parts, matches } = diffAgainst(question.promptJapanese, typed);
+    return { japanese: JAPANESE.test(typed), matches, parts };
   }
 
   // ── Nộp bài ──────────────────────────────────────────────────────────────
@@ -382,9 +395,9 @@ export class TestRun {
   }
 }
 
-/** Thêm / bớt một phần tử của Set mà không sửa Set cũ (signal cần giá trị mới). */
-function add(current: ReadonlySet<string>, id: string): ReadonlySet<string> {
-  return new Set(current).add(id);
+/** Thêm hoặc bớt một phần tử, trả về Set MỚI (signal cần giá trị mới mới báo đổi). */
+function toggle(current: ReadonlySet<string>, id: string): ReadonlySet<string> {
+  return current.has(id) ? remove(current, id) : new Set(current).add(id);
 }
 
 function remove(current: ReadonlySet<string>, id: string): ReadonlySet<string> {
@@ -434,37 +447,33 @@ function buildTabs(sections: readonly TestSection[]): TabView[] {
 function groupByPassage(questions: readonly QuizQuestion[], startNumber: number): PassageGroup[] {
   const groups: PassageGroup[] = [];
   let number = startNumber;
-  let previousPrompt = '';
 
   for (const question of questions) {
-    const showPrompt = question.prompt.length > 0 && question.prompt !== previousPrompt;
-    previousPrompt = question.prompt;
-
     const view: QuestionView = {
       id: question.id,
       number: number++,
       promptJapanese: question.promptJapanese,
       promptTranslation: question.promptTranslation,
-      prompt: question.prompt,
-      showPrompt,
       choices: question.choices,
       hasTranslation:
         question.promptTranslation.length > 0 ||
-        question.passageTranslation.length > 0 ||
         question.choices.some((choice) => choice.translation.length > 0),
     };
 
     const key = question.passage.join('\n');
     const last = groups[groups.length - 1];
-    if (last && last.key === key) last.questions.push(view);
-    else
+    if (last && last.key === key) {
+      last.questions.push(view);
+    } else {
       groups.push({
-        id: question.id,
+        // Tiền tố riêng để id nhóm không trùng id câu đầu tiên của nhóm.
+        id: `passage:${question.id}`,
         key,
         passage: question.passage,
         passageTranslation: question.passageTranslation,
         questions: [view],
       });
+    }
   }
 
   return groups;

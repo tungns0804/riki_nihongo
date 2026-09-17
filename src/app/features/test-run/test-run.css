@@ -51,9 +51,10 @@
   color: var(--text-faint);
 }
 
-/* Công tắc "Bản dịch" / "Tự viết": bật thì tô màu nhấn nhưng KHÔNG dùng .btn-primary,
-   để không trông y hệt nút nộp bài ngay bên cạnh. */
-.toggle.is-on {
+/* Nút bản dịch khi đang bật: tô màu nhấn nhưng KHÔNG dùng .btn-primary, để không
+   trông y hệt nút nộp bài ngay bên cạnh. */
+.toggle.is-on,
+.translate-btn.is-on {
   border-color: var(--accent);
   background: var(--accent-soft);
   color: var(--accent);
@@ -144,10 +145,6 @@
   line-height: 1.7;
 }
 
-.test-section-title {
-  margin: 0;
-}
-
 .test-group {
   display: flex;
   flex-direction: column;
@@ -164,6 +161,11 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--bg-elevated);
+}
+
+.test-passage-head {
+  display: flex;
+  align-items: center;
 }
 
 /* Cùng cách trình bày với trang Đọc hiểu: chữ lớn hơn và dòng thưa, vì đây là khối
@@ -205,15 +207,17 @@
   border-color: var(--accent);
 }
 
+/* Số câu · câu hỏi (và bản dịch ngay dưới) · nút bản dịch nằm phải. */
 .test-question-head {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   gap: var(--sp-3);
 }
 
 .test-number {
   flex-shrink: 0;
   min-width: 26px;
+  margin-top: 3px;
   padding: 2px 0;
   border-radius: var(--radius-sm);
   background: var(--bg-inset);
@@ -223,6 +227,14 @@
   text-align: center;
 }
 
+.test-question-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .test-prompt {
   margin: 0;
   font-size: var(--fs-lg);
@@ -230,25 +242,26 @@
   line-height: 1.7;
 }
 
-.test-sub,
+/* Bản dịch dùng màu nhấn để tách hẳn khỏi chữ tiếng Nhật, liếc là biết dòng nào là
+   đề và dòng nào là nghĩa. */
 .test-translation {
   margin: 0;
-  padding-left: calc(26px + var(--sp-3));
-}
-
-/* Bản dịch câu hỏi: màu nhấn nhạt để tách khỏi câu dẫn tiếng Việt (.test-sub) vốn
-   là chỉ dẫn làm bài, không phải nghĩa của câu. */
-.test-translation {
   color: var(--accent);
   font-size: var(--fs-sm);
 }
 
-.reveal-btn {
-  align-self: flex-start;
-  margin-left: calc(26px + var(--sp-3));
+.translate-btn {
+  flex-shrink: 0;
 }
 
 /* --- Bốn lựa chọn -------------------------------------------------------- */
+
+/* Mọi thứ bên dưới câu hỏi lùi vào đúng bằng bề rộng số câu + khoảng cách, để thẳng
+   hàng với chữ của câu hỏi. */
+.test-choices,
+.test-write {
+  margin-left: calc(26px + var(--sp-3));
+}
 
 /* Hai cột như đề in: bốn lựa chọn xếp một cột thì mỗi câu cao gấp đôi, mà cả tab
    có tới mười câu trên cùng một trang. */
@@ -256,7 +269,6 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--sp-2);
-  margin-left: calc(26px + var(--sp-3));
 }
 
 .test-choice {
@@ -271,8 +283,16 @@
   text-align: left;
 }
 
+/* Nghĩa của từng đáp án: cùng màu với bản dịch câu hỏi. Khi đáp án đang được chọn thì
+   cả nút đã đổi sang màu nhấn, nên chữ này phải giữ màu chữ thường cho đọc được. */
 .test-choice-vi {
+  color: var(--accent);
+  font-size: var(--fs-sm);
   font-weight: 450;
+}
+
+.test-choice.is-active .test-choice-vi {
+  color: var(--text-muted);
 }
 
 /* Vòng tròn kiểu radio: người làm đề quen với việc "chọn một trong bốn", mà nút
@@ -294,15 +314,13 @@
   box-shadow: inset 0 0 0 4px var(--accent);
 }
 
-/* --- Tự viết lại tiếng Nhật --------------------------------------------- */
+/* --- Ô tự viết ----------------------------------------------------------- */
 
-/* Khối này KHÔNG tính điểm, nên tách khỏi phần làm bài bằng một vạch đứt và lùi
-   vào cùng mức với các lựa chọn. */
+/* Không tính điểm, nên tách khỏi phần làm bài bằng một vạch đứt. */
 .test-write {
   display: flex;
   flex-direction: column;
   gap: var(--sp-2);
-  margin-left: calc(26px + var(--sp-3));
   padding-top: var(--sp-3);
   border-top: 1px dashed var(--border-strong);
 }
@@ -313,9 +331,17 @@
   gap: 4px;
 }
 
+/* Gõ được cả tiếng Nhật lẫn tiếng Việt, nên dùng font chữ Nhật (có đủ dấu tiếng Việt)
+   và dòng thưa như câu hỏi. */
 .write-input {
   resize: vertical;
+  font-family: var(--font-jp);
+  font-size: var(--fs-md);
   line-height: 1.7;
+}
+
+.compare-btn {
+  align-self: flex-start;
 }
 
 .test-compare {
@@ -354,6 +380,11 @@
   font-weight: 700;
 }
 
+.test-reference {
+  margin: 0;
+  color: var(--accent);
+}
+
 /* --- Chân trang --------------------------------------------------------- */
 
 .test-foot {
@@ -386,7 +417,7 @@
   }
 
   .test-title {
-    /* Tên đề nhường chỗ cho ba nút bên phải; dài quá thì cắt bằng dấu ba chấm. */
+    /* Tên đề nhường chỗ cho các nút bên phải; dài quá thì cắt bằng dấu ba chấm. */
     font-size: var(--fs-md);
     max-width: 100%;
     overflow: hidden;
@@ -394,19 +425,29 @@
     white-space: nowrap;
   }
 
+  /* Nút bản dịch xuống dòng riêng, thẳng hàng với chữ câu hỏi: đứng cạnh thì nó bóp
+     câu hỏi thành một cột hẹp chỉ vài chữ mỗi dòng. */
+  .test-question-head {
+    flex-wrap: wrap;
+  }
+
+  .test-question-text {
+    flex-basis: calc(100% - 26px - var(--sp-3));
+  }
+
+  .translate-btn {
+    margin-left: calc(26px + var(--sp-3));
+  }
+
   /* Bốn lựa chọn về một cột: hai cột trên khổ điện thoại thì câu dài (phần câu
      đồng nghĩa dài cả dòng) bị bóp thành bốn năm dòng chữ trong mỗi ô. */
   .test-choices {
     grid-template-columns: 1fr;
-    margin-left: 0;
   }
 
-  .test-sub,
-  .test-translation,
-  .reveal-btn,
+  .test-choices,
   .test-write {
     margin-left: 0;
-    padding-left: 0;
   }
 
   .test-tab {

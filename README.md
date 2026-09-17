@@ -100,21 +100,26 @@ làm bài của Riki:
   cả nhóm.
 - Nút **toàn màn hình** cho lúc muốn làm bài mà không thấy gì khác.
 
-Hai công tắc học thêm trên thanh trên, bật tắt độc lập với việc làm bài:
+Mỗi câu có thêm hai thứ để học, không dính gì tới phần chấm. Trang không in câu dẫn
+tiếng Việt nào ở từng câu — câu lệnh 問題 đã nói phần đó hỏi gì.
 
-| Công tắc      | Làm gì                                                                 |
-| ------------- | ---------------------------------------------------------------------- |
-| **Bản dịch**  | Hiện nghĩa tiếng Việt của câu hỏi, của từng lựa chọn và của bài đọc     |
-| **Tự viết**   | Mở ô để tự gõ lại câu tiếng Nhật, rồi so từng chữ với bản gốc           |
+**Bản dịch** — nghĩa tiếng Việt của câu hỏi và của **cả bốn đáp án**, ở mọi phần (phần
+chọn cách đọc / chọn chữ Hán thì mồi nhiễu ghi "không có từ này", kèm nghĩa chữ Hán
+khi đáng học). Mỗi câu một nút **Hiện bản dịch / Ẩn bản dịch**, bài đọc có nút riêng,
+và nút trên thanh đầu **Hiện tất cả / Ẩn tất cả**. Mặc định ẩn: đọc nghĩa đáp án là
+gần như đọc được đáp án, nên mở lúc nào là do người học chọn. Nút "tất cả" chỉ mở /
+đóng hết từng câu chứ không đè lên chúng, nên đang "hiện tất cả" vẫn ẩn riêng được
+từng câu.
 
-"Bản dịch" mặc định TẮT và mở được riêng từng câu: ở phần điền từ, bốn nghĩa tiếng
-Việt chỉ gần như thẳng vào đáp án — bật lên là quyết định của người học.
+**Ô tự viết** — LUÔN có sẵn dưới mọi câu (không phải bật), **không tính điểm**. Gõ lại
+câu tiếng Nhật để luyện chữ Hán, hoặc tự dịch sang tiếng Việt, rồi bấm "So với bản gốc":
 
-"Tự viết" **không tính điểm**, không dính gì tới phần chấm. Gõ lại câu hỏi (và đáp án
-đã chọn) rồi bấm "So với bản gốc": chỗ viết thiếu hoặc viết khác được tô lên, so bằng
-LCS nên thiếu một chữ ở đầu câu không làm lệch cả phần sau (`diffAgainst` trong
-`core/utils/text.ts`). Khoảng trắng bị bỏ qua — đề in có dấu cách giữa các từ, còn
-người gõ thì thường không.
+- Viết **tiếng Nhật**: báo khớp / chưa khớp và tô từng chữ viết thiếu hoặc viết khác.
+  So bằng LCS nên thiếu một chữ ở đầu câu không làm lệch cả phần sau (`diffAgainst`
+  trong `core/utils/text.ts`). Khoảng trắng và ngoặc 「」 bị bỏ qua — đề in có dấu cách
+  giữa các từ và dùng 「」 thay cho gạch chân, người gõ thì không.
+- Viết **tiếng Việt**: KHÔNG chấm khớp (một câu dịch có nhiều cách đúng), chỉ hiện câu
+  gốc và bản dịch tham khảo để tự đối chiếu.
 
 Xong bài thì sang màn hình kết quả dùng chung với luyện tập: điểm tổng, điểm từng kỹ
 năng, và danh sách từng câu để xem lại.

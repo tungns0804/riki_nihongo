@@ -276,25 +276,23 @@ export const MESSAGES = {
   },
   'test.submitAnyway': { vi: 'Nộp luôn', ja: 'このまま提出' },
   'test.keepGoing': { vi: 'Làm tiếp', ja: '続ける' },
-  // Hai chế độ học thêm trên màn hình làm đề: xem bản dịch, và tự viết lại tiếng Nhật.
-  'test.translation': { vi: 'Bản dịch', ja: '訳' },
-  'test.writeMode': { vi: 'Tự viết', ja: '自分で書く' },
-  'test.writeHint': {
-    vi: 'Tự gõ lại tiếng Nhật rồi so với bản gốc. Phần này KHÔNG tính vào điểm.',
-    ja: '自分で日本語を入力して原文と比べます。採点には入りません。',
+  // Học thêm trên màn hình làm đề: bản dịch, và ô tự viết ở từng câu.
+  'test.showAllTranslations': { vi: 'Hiện tất cả bản dịch', ja: 'すべての訳を表示' },
+  'test.hideAllTranslations': { vi: 'Ẩn tất cả bản dịch', ja: 'すべての訳を隠す' },
+  'test.writeLabel': { vi: 'Tự viết (không tính điểm)', ja: '自分で書く（採点なし）' },
+  'test.writePlaceholder': {
+    vi: 'Gõ lại câu tiếng Nhật để luyện chữ Hán, hoặc tự dịch sang tiếng Việt',
+    ja: '日本語で書き写すか、ベトナム語に訳してみましょう',
   },
-  'test.writeQuestion': { vi: 'Viết lại câu hỏi', ja: '問題文を書く' },
-  'test.writeAnswer': { vi: 'Viết lại đáp án đã chọn', ja: '選んだ答えを書く' },
-  'test.writePlaceholder': { vi: 'Gõ tiếng Nhật ở đây', ja: 'ここに日本語を入力' },
   'test.compare': { vi: 'So với bản gốc', ja: '原文と比べる' },
-  'test.compareAgain': { vi: 'Viết lại', ja: 'もう一度書く' },
+  'test.compareAgain': { vi: 'Sửa lại', ja: '書き直す' },
   'test.matched': { vi: 'Khớp với bản gốc', ja: '原文と一致' },
   'test.notMatched': {
     vi: 'Chưa khớp — chỗ tô đậm là chữ còn thiếu hoặc viết khác.',
     ja: '不一致 — 印の文字が不足または相違しています。',
   },
   'test.original': { vi: 'Bản gốc', ja: '原文' },
-  'test.pickFirst': { vi: 'Chọn một đáp án trước đã.', ja: 'まず答えを選んでください。' },
+  'test.referenceTranslation': { vi: 'Bản dịch tham khảo', ja: '参考訳' },
 
   // ── Luyện tập ──────────────────────────────────────────────────────────
   'practice.setup': { vi: 'Thiết lập luyện tập', ja: '練習の設定' },
@@ -352,6 +350,7 @@ export const MESSAGES = {
   'route.test': { vi: 'Kiểm tra nhập môn', ja: '入門テスト' },
   'route.unit': { vi: 'Bài học', ja: 'レッスン' },
   'route.practice': { vi: 'Luyện tập', ja: '練習' },
+  'route.testRun': { vi: 'Làm bài', ja: '解答' },
   'route.result': { vi: 'Kết quả', ja: '結果' },
 } as const satisfies Record<string, Entry>;
 

@@ -93,7 +93,7 @@ function moduleRoutes(module: ModuleDef): Routes {
     // chặn người vào thẳng bằng URL khi không có phiên của đúng bài đó.
     {
       path: `${module.path}/:id/practice`,
-      title: module.kind === 'test' ? 'route.test' : 'route.practice',
+      title: module.kind === 'test' ? 'route.testRun' : 'route.practice',
       data,
       canActivate: [practiceGuard],
       // Đề kiểm tra có màn hình LÀM ĐỀ riêng: làm cả bài rồi nộp, không phải mỗi câu

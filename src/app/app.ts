@@ -163,7 +163,14 @@ export class App {
       });
     }
 
-    const actionKey = action ? ACTION_KEY[action] : undefined;
+    // Đề kiểm tra dùng chung đoạn "/practice" với luyện tập (xem app.routes.ts), nhưng
+    // trên trang đó người học đang LÀM ĐỀ, gọi là "Luyện tập" là nói sai.
+    const actionKey =
+      module.kind === 'test' && action === 'practice'
+        ? 'route.testRun'
+        : action
+          ? ACTION_KEY[action]
+          : undefined;
     if (actionKey) trail.push({ label: this.t(actionKey), link: null });
 
     trail[trail.length - 1] = { ...trail[trail.length - 1], link: null };

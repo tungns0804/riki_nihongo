@@ -119,9 +119,18 @@ export function readingOfForm(form: string, dictionary: string, reading: string)
   return before + reading.slice(0, reading.length - tail.length) + after;
 }
 
-/** Bỏ mọi khoảng trắng, kể cả dấu cách toàn chiều của bộ gõ tiếng Nhật. */
+/**
+ * Chữ KHÔNG tính khi so câu tự viết: khoảng trắng (cả dấu cách toàn chiều của bộ gõ
+ * tiếng Nhật) và ngoặc 「」.
+ *
+ * Ngoặc 「」 bị bỏ qua vì trong đề nó thường là dấu thay cho GẠCH CHÂN (つよい「台風」が…)
+ * chứ không phải chữ của câu: người học không gõ nó, và bắt gõ thì câu viết đúng từng
+ * chữ Hán vẫn bị báo là "chưa khớp".
+ */
+const NOT_COMPARED = /[\s\u3000「」]/u;
+
 function squeeze(value: string): string {
-  return value.replace(/[\s\u3000]+/gu, '');
+  return [...value].filter((char) => !NOT_COMPARED.test(char)).join('');
 }
 
 /**
@@ -134,8 +143,8 @@ function squeeze(value: string): string {
  * một chữ ở đầu câu làm lệch toàn bộ phần sau, so theo vị trí thì cả câu bị tô và
  * không chỉ ra được sai chỗ nào.
  *
- * Bỏ qua mọi khoảng trắng. Đề in có dấu cách giữa các từ (kiểu đề trình độ thấp) còn
- * người gõ thì thường không, mà đó không phải chỗ cần học.
+ * Bỏ qua khoảng trắng và ngoặc 「」 (xem NOT_COMPARED). Đề in có dấu cách giữa các từ
+ * và dùng 「」 thay cho gạch chân, còn người gõ thì không, mà đó không phải chỗ cần học.
  *
  * `matches` chỉ đúng khi đã viết gì đó VÀ khớp hết: ô trống thì không tính là khớp.
  */
@@ -178,8 +187,8 @@ export function diffAgainst(
   const parts: TextPart[] = [];
   let index = 0;
   for (const char of original) {
-    // Khoảng trắng của bản gốc không nằm trong phép so, nên luôn coi là khớp.
-    const ok = /[\s\u3000]/u.test(char) ? true : (hit[index++] ?? false);
+    // Chữ không nằm trong phép so (khoảng trắng, 「」) thì luôn coi là khớp.
+    const ok = NOT_COMPARED.test(char) ? true : (hit[index++] ?? false);
     const last = parts[parts.length - 1];
     if (last && last.hit === ok) last.text += char;
     else parts.push({ text: char, hit: ok });
