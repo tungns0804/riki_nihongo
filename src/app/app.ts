@@ -156,6 +156,17 @@ export class App {
     const trail: Crumb[] = [{ label: this.t(module.labelKey), link: moduleLink }];
 
     if (unitId) {
+      // Bài con (BTVN của một cụm) thì đi qua bài mẹ: breadcrumb phải đọc ra đúng cấp
+      // đang đứng — "Từ vựng / Danh từ / BTVN 1–10", không phải "Từ vựng / BTVN 1–10"
+      // như thể BTVN là một bài ngang hàng với Danh từ.
+      const parentId = this.units.parentOf(course.id, module.id, unitId);
+      if (parentId) {
+        trail.push({
+          label: this.units.nameOf(course.id, module.id, parentId) ?? this.t('route.unit'),
+          link: [...moduleLink, parentId],
+        });
+      }
+
       trail.push({
         // Danh mục chưa tải xong thì tạm ghi "Bài học", có tên là thay ngay.
         label: this.units.nameOf(course.id, module.id, unitId) ?? this.t('route.unit'),

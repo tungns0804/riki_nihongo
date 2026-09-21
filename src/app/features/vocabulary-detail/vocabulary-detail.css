@@ -24,6 +24,14 @@
   border-top: 1px solid var(--border);
 }
 
+/* Nút cụm chiếm hết chỗ còn lại, nút BTVN nằm nép bên phải cùng một dòng — một cụm vẫn
+   là MỘT dòng, đúng cách bảng này được làm gọn lại. */
+.overview-item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
 /* Cả dòng là một nút: vùng bấm rộng, và bàn phím Tab qua từng cụm như một danh sách. */
 .overview-row {
   display: grid;
@@ -66,6 +74,12 @@
   color: var(--text-muted);
 }
 
+/* Nút vào bài tập về nhà của cụm. Không co lại: tên "BTVN 1–10" phải đọc được nguyên. */
+.overview-homework {
+  flex: none;
+  gap: var(--sp-2);
+}
+
 /* Hẹp thì các mặt chữ xuống dòng riêng dưới nút cụm và chủ đề. */
 @media (max-width: 640px) {
   .overview-row {
@@ -74,6 +88,16 @@
 
   .overview-words {
     grid-column: 1 / -1;
+  }
+
+  /* Khổ này không đủ cho hai nút cạnh nhau: nút BTVN xuống dòng, lùi vào cho thấy nó
+     thuộc về cụm ngay trên. */
+  .overview-item {
+    flex-wrap: wrap;
+  }
+
+  .overview-homework {
+    margin-left: var(--sp-2);
   }
 }
 

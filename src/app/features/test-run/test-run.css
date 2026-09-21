@@ -248,6 +248,15 @@
 
 /* Bản dịch dùng màu nhấn để tách hẳn khỏi chữ tiếng Nhật, liếc là biết dòng nào là
    đề và dòng nào là nghĩa. */
+/* Cách đọc đứng giữa câu gốc và bản dịch: màu nhạt hơn câu gốc vì nó là chú âm, không
+   phải câu để đọc thay. */
+.test-reading {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  white-space: pre-line;
+}
+
 .test-translation {
   margin: 0;
   color: var(--accent);

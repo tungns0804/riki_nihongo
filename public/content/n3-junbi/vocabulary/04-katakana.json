@@ -3,6 +3,8 @@
   "name": "Katakana",
   "description": "",
   "kind": "vocabulary",
+  "parent": "",
+  "group": "",
   "groups": [],
   "words": []
 }

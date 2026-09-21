@@ -3,6 +3,8 @@
   "name": "Danh từ",
   "description": "Danh từ BTVN — bài tập Từ vựng 1–10 đến 61–70 (01–70)",
   "kind": "vocabulary",
+  "parent": "",
+  "group": "",
   "groups": [
     {
       "label": "01–10",

@@ -18,10 +18,12 @@ import { COURSE, moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import { ModuleId, VocabExample, groupsOf } from '../../core/models/content.model';
+import { ContentStore } from '../../core/services/content-store';
 import { readJson, writeJson } from '../../core/services/local-storage';
 import { loadUnit } from '../../core/services/unit-loader';
 import { matchesAllWords, normalizeSearch, splitAround } from '../../core/utils/text';
 import { PracticeSetup } from '../shared/practice-setup/practice-setup';
+import { TestStart } from '../shared/test-start/test-start';
 
 /**
  * Một bài từ vựng: tóm tắt bài, khung thiết lập luyện tập, rồi BẢNG từ.
@@ -38,7 +40,7 @@ import { PracticeSetup } from '../shared/practice-setup/practice-setup';
  */
 @Component({
   selector: 'app-vocabulary-detail',
-  imports: [RouterLink, T, PracticeSetup],
+  imports: [RouterLink, T, PracticeSetup, TestStart],
   templateUrl: './vocabulary-detail.html',
   styleUrl: './vocabulary-detail.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -46,6 +48,7 @@ import { PracticeSetup } from '../shared/practice-setup/practice-setup';
 export class VocabularyDetail {
   private readonly lang = inject(LanguageStore);
   private readonly injector = inject(Injector);
+  private readonly content = inject(ContentStore);
 
   protected readonly t = this.lang.t.bind(this.lang);
 
@@ -61,6 +64,26 @@ export class VocabularyDetail {
   protected readonly notFound = this.resource.notFound;
 
   protected readonly allWords = computed(() => this.unit()?.words ?? []);
+
+  /**
+   * Bài tập về nhà của bài này, tra theo cụm: `{ '01–10': <bài BTVN> }`.
+   *
+   * Lấy từ DANH MỤC chứ không tải nội dung: trang bài chỉ cần tên và đường dẫn để
+   * vẽ một cái nút, còn 9 câu hỏi của BTVN thì đợi lúc bấm vào mới tải.
+   */
+  protected readonly homeworkByGroup = computed(() => {
+    const children = this.content.childrenOf(this.moduleId(), this.id());
+    return new Map(children.filter((child) => child.group).map((child) => [child.group, child]));
+  });
+
+  /** Bài mẹ của bài đang mở (BTVN thì về đúng bài từ vựng của nó, không về danh sách). */
+  protected readonly parentId = computed(() => this.unit()?.parent ?? '');
+
+  protected readonly backLink = computed(() => {
+    const moduleLink = ['/', this.course.id, this.module().path];
+    const parent = this.parentId();
+    return parent ? [...moduleLink, parent] : moduleLink;
+  });
 
   /** Các cụm của bài, ví dụ 01–10, 11–20… Rỗng nghĩa là bài không chia cụm. */
   protected readonly groups = computed(() => groupsOf(this.allWords()));

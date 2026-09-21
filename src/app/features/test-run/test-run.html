@@ -147,6 +147,12 @@
                         <span class="test-number tnum">{{ question.number }}</span>
                         <div class="test-question-text">
                           <p class="test-prompt jp">{{ question.promptJapanese }}</p>
+                          <!-- Cách đọc nằm cùng chỗ ẩn/hiện với bản dịch: ở phần chọn
+                               cách đọc thì dòng này gần như là đáp án, nên mở lúc nào là
+                               do người học chọn. -->
+                          @if (isRevealed(question.id) && question.promptReading) {
+                            <p class="test-reading jp">{{ question.promptReading }}</p>
+                          }
                           @if (isRevealed(question.id) && question.promptTranslation) {
                             <p class="test-translation">{{ question.promptTranslation }}</p>
                           }

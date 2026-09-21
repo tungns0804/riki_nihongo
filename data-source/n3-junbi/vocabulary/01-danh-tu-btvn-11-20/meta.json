@@ -1,0 +1,8 @@
+{
+  "name": "BTVN 11–20",
+  "description": "Bài tập về nhà của cụm 11–20 (Bài 1.2 · Thân thế, tuổi tác và các mốc trưởng thành) — 10 câu.",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "11–20",
+  "order": 102
+}

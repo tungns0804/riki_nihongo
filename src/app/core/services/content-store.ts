@@ -64,8 +64,11 @@ export class ContentStore {
   /** Toàn bộ danh mục, đã sắp theo `order` rồi tới tên. */
   readonly units = this.entries.asReadonly();
 
+  /** Các bài đếm được ở trang chủ: bài con (BTVN) thuộc về bài mẹ nên không đếm riêng. */
+  private readonly topLevel = computed(() => this.entries().filter((entry) => !entry.parent));
+
   /** Số bài của từng phần, kể cả bài mới đặt chỗ. */
-  readonly countByModule = computed(() => countBy(this.entries()));
+  readonly countByModule = computed(() => countBy(this.topLevel()));
 
   /**
    * Số bài ĐÃ CÓ nội dung của từng phần.
@@ -74,18 +77,30 @@ export class ContentStore {
    * đếm cả bài giữ chỗ, còn "học được bao nhiêu rồi" thì không. Trang chủ hiện cả hai.
    */
   readonly readyCountByModule = computed(() =>
-    countBy(this.entries().filter((entry) => entry.itemCount > 0)),
+    countBy(this.topLevel().filter((entry) => entry.itemCount > 0)),
   );
 
-  readonly totalUnits = computed(() => this.entries().length);
+  readonly totalUnits = computed(() => this.topLevel().length);
 
   readonly totalReadyUnits = computed(
-    () => this.entries().filter((entry) => entry.itemCount > 0).length,
+    () => this.topLevel().filter((entry) => entry.itemCount > 0).length,
   );
 
-  /** Danh sách bài của một phần. */
+  /**
+   * Danh sách bài của một phần — chỉ bài ĐỨNG ĐỘC LẬP.
+   *
+   * Bài con (BTVN của một cụm) không có mặt ở đây: nó thuộc về một bài cụ thể, nên
+   * chỗ của nó là trang bài mẹ chứ không phải danh sách ngang hàng với "Danh từ".
+   */
   unitsOf(moduleId: ModuleId): UnitIndexEntry[] {
-    return this.entries().filter((entry) => entry.moduleId === moduleId);
+    return this.entries().filter((entry) => entry.moduleId === moduleId && !entry.parent);
+  }
+
+  /** Các bài con của một bài, đã sắp theo `order` (danh mục sắp sẵn từ lúc đọc vào). */
+  childrenOf(moduleId: ModuleId, parentId: string): UnitIndexEntry[] {
+    return this.entries().filter(
+      (entry) => entry.moduleId === moduleId && entry.parent === parentId,
+    );
   }
 
   /** Tải danh mục của học phần. Gọi nhiều lần chỉ thực sự chạy một lần. */
@@ -184,6 +199,8 @@ function sanitizeIndex(raw: unknown): UnitIndexEntry[] {
           name: typeof entry['name'] === 'string' && entry['name'] ? (entry['name'] as string) : unitId,
           description: typeof entry['description'] === 'string' ? (entry['description'] as string) : '',
           kind: sanitizeUnitKind(entry['kind']),
+          parent: typeof entry['parent'] === 'string' ? (entry['parent'] as string) : '',
+          group: typeof entry['group'] === 'string' ? (entry['group'] as string) : '',
           itemCount: typeof entry['itemCount'] === 'number' ? (entry['itemCount'] as number) : 0,
           order: typeof entry['order'] === 'number' ? (entry['order'] as number) : 0,
           file,
@@ -214,6 +231,8 @@ function sanitizeUnit(raw: unknown, entry: UnitIndexEntry): Unit | null {
     description:
       typeof data['description'] === 'string' ? (data['description'] as string) : entry.description,
     kind,
+    parent: entry.parent,
+    group: entry.group,
     itemCount: 0,
     order: entry.order,
     words,

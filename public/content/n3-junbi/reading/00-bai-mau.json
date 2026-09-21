@@ -3,6 +3,8 @@
   "name": "Bài mẫu · Đọc hiểu",
   "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
   "kind": "reading",
+  "parent": "",
+  "group": "",
   "passages": [
     {
       "id": "94da8a6c3fbd3a87",
@@ -71,27 +73,32 @@
           "skill": "reading",
           "prompt": "Điều gì sẽ thay đổi từ tháng sau?",
           "promptJapanese": "来月から変わることは何ですか。",
+          "promptReading": "",
           "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
               "text": "一度に借りられる本の数",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c2",
               "text": "本を借りられる期間",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c3",
               "text": "図書館が開く時間",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c4",
               "text": "図書館の場所",
-              "translation": ""
+              "translation": "",
+              "note": ""
             }
           ],
           "answerId": "c2",
@@ -104,27 +111,32 @@
           "skill": "reading",
           "prompt": "Nếu đến thư viện lúc 2 giờ chiều thứ Hai thì sao?",
           "promptJapanese": "月曜日の午後二時に図書館へ行くとどうなりますか。",
+          "promptReading": "",
           "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
               "text": "本を五冊借りられる",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c2",
               "text": "閉まっていて入れない",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c3",
               "text": "三週間借りられる",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c4",
               "text": "整理を手伝わされる",
-              "translation": ""
+              "translation": "",
+              "note": ""
             }
           ],
           "answerId": "c2",

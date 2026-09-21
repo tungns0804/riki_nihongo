@@ -4,7 +4,7 @@
     "name": "BTVN CƠ BẢN (MỚI)",
     "level": "N3"
   },
-  "generatedAt": "2026-09-21T04:16:52.143Z",
+  "generatedAt": "2026-09-21T08:35:03.920Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -14,6 +14,8 @@
           "name": "Danh từ",
           "description": "Danh từ BTVN — bài tập Từ vựng 1–10 đến 61–70 (01–70)",
           "kind": "vocabulary",
+          "parent": "",
+          "group": "",
           "itemCount": 70,
           "order": 1,
           "file": "vocabulary/01-danh-tu.json"
@@ -28,6 +30,8 @@
           "name": "Bài 1",
           "description": "任 · 信 · 伸 · 付 · 代 · 件 · 位 · 倍 · 保 · 個",
           "kind": "kanji",
+          "parent": "",
+          "group": "",
           "itemCount": 10,
           "order": 1,
           "file": "kanji/01-bai-1.json"
@@ -37,6 +41,8 @@
           "name": "Bài 2",
           "description": "仲 · 借 · 供 · 他 · 候 · 価 · 便 · 停 · 係 · 優",
           "kind": "kanji",
+          "parent": "",
+          "group": "",
           "itemCount": 10,
           "order": 2,
           "file": "kanji/02-bai-2.json"
@@ -46,6 +52,8 @@
           "name": "Bài 3",
           "description": "徒 · 術 · 得 · 役 · 投 · 般 · 段 · 直 · 値 · 置",
           "kind": "kanji",
+          "parent": "",
+          "group": "",
           "itemCount": 10,
           "order": 3,
           "file": "kanji/03-bai-3.json"
@@ -55,6 +63,8 @@
           "name": "Bài 4",
           "description": "拾 · 捨 · 押 · 指 · 探 · 接 · 打 · 折 · 払 · 担 · 授",
           "kind": "kanji",
+          "parent": "",
+          "group": "",
           "itemCount": 11,
           "order": 4,
           "file": "kanji/04-bai-4.json"
@@ -64,6 +74,8 @@
           "name": "Bài 5",
           "description": "意 · 億 · 念 · 悪 · 恋 · 変 · 怒 · 愛",
           "kind": "kanji",
+          "parent": "",
+          "group": "",
           "itemCount": 8,
           "order": 5,
           "file": "kanji/05-bai-5.json"
@@ -73,6 +85,8 @@
           "name": "Bài 6",
           "description": "悲 · 性 · 悩 · 情 · 精 · 支 · 技 · 席 · 度 · 渡",
           "kind": "kanji",
+          "parent": "",
+          "group": "",
           "itemCount": 10,
           "order": 6,
           "file": "kanji/06-bai-6.json"
@@ -82,6 +96,8 @@
           "name": "Bài 7",
           "description": "幸 · 報 · 洗 · 汚 · 活 · 液 · 流 · 涙 · 深",
           "kind": "kanji",
+          "parent": "",
+          "group": "",
           "itemCount": 9,
           "order": 7,
           "file": "kanji/07-bai-7.json"
@@ -91,6 +107,8 @@
           "name": "Bài 8",
           "description": "消 · 法 · 決 · 浅 · 満 · 演 · 混 · 湿 · 温 · 塩",
           "kind": "kanji",
+          "parent": "",
+          "group": "",
           "itemCount": 10,
           "order": 8,
           "file": "kanji/08-bai-8.json"

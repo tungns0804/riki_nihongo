@@ -40,6 +40,8 @@ interface QuestionView {
   id: string;
   number: number;
   promptJapanese: string;
+  /** Cách đọc cả câu bằng kana, hiện cùng chỗ với bản dịch. Rỗng nghĩa là không có. */
+  promptReading: string;
   promptTranslation: string;
   choices: readonly QuizChoice[];
   /** Câu này có gì để dịch không — không có thì không hiện nút bản dịch. */
@@ -453,9 +455,11 @@ function groupByPassage(questions: readonly QuizQuestion[], startNumber: number)
       id: question.id,
       number: number++,
       promptJapanese: question.promptJapanese,
+      promptReading: question.promptReading,
       promptTranslation: question.promptTranslation,
       choices: question.choices,
       hasTranslation:
+        question.promptReading.length > 0 ||
         question.promptTranslation.length > 0 ||
         question.choices.some((choice) => choice.translation.length > 0),
     };

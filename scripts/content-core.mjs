@@ -462,8 +462,10 @@ function normalizeQuestion(raw, context, defaultSkill, warnings) {
   }
 
   // Bản dịch của lựa chọn: viết thành mảng song song `choicesVietnamese`, hoặc viết
-  // ngay trong lựa chọn dạng object `{ text, translation }`.
+  // ngay trong lựa chọn dạng object `{ text, translation }`. Phần giải thích vì sao
+  // lựa chọn đó đúng / sai viết y như vậy: `choiceNotes` hoặc `{ note }`.
   const rawTranslations = Array.isArray(raw?.choicesVietnamese) ? raw.choicesVietnamese : [];
+  const rawNotes = Array.isArray(raw?.choiceNotes) ? raw.choiceNotes : [];
 
   const choiceItems = (Array.isArray(raw?.choices) ? raw.choices : [])
     .map((choice, index) => ({
@@ -471,6 +473,7 @@ function normalizeQuestion(raw, context, defaultSkill, warnings) {
       translation: asText(
         typeof choice === 'string' ? rawTranslations[index] : choice?.translation ?? rawTranslations[index],
       ),
+      note: asText(typeof choice === 'string' ? rawNotes[index] : choice?.note ?? rawNotes[index]),
     }))
     .filter((choice) => choice.text.length > 0);
 
@@ -486,6 +489,14 @@ function normalizeQuestion(raw, context, defaultSkill, warnings) {
   if (rawTranslations.length > 0 && rawTranslations.length !== choiceItems.length) {
     warnings.push(
       `${context}: có ${rawTranslations.length} bản dịch cho ${choiceItems.length} lựa chọn`,
+    );
+  }
+
+  // Cùng lý do với bản dịch: giải thích thiếu một lựa chọn thì ở màn kết quả, đúng
+  // cái lựa chọn không được giải thích lại trông như chỗ cố tình bỏ trống.
+  if (rawNotes.length > 0 && rawNotes.length !== choiceItems.length) {
+    warnings.push(
+      `${context}: có ${rawNotes.length} lời giải thích cho ${choiceItems.length} lựa chọn`,
     );
   }
 
@@ -507,11 +518,19 @@ function normalizeQuestion(raw, context, defaultSkill, warnings) {
 
   const skill = SKILLS.includes(raw?.skill) ? raw.skill : defaultSkill;
 
+  // Cùng chốt chặn với dòng 読 của file từ vựng: cách đọc còn chữ Hán là lỗi im lặng —
+  // dòng vẫn hiện ra bình thường, chỉ là không đọc được chỗ cần đọc.
+  const promptReading = asText(raw?.promptReading ?? raw?.reading);
+  if (HAS_KANJI.test(promptReading)) {
+    warnings.push(`${context}: "promptReading" còn chữ Hán, cách đọc phải viết hết bằng kana`);
+  }
+
   return {
     id: asText(raw?.id) || hashId('q', promptJapanese || prompt, choiceTexts.join('|')),
     skill,
     prompt,
     promptJapanese,
+    promptReading,
     promptTranslation: asText(raw?.promptVietnamese ?? raw?.promptTranslation),
     choices,
     answerId,

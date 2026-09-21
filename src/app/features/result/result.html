@@ -68,6 +68,35 @@
                   </p>
                 }
 
+                <!-- Vì sao TỪNG lựa chọn đúng hay sai. Chỉ câu viết sẵn trong đề mới có:
+                     ba mồi nhiễu ở đó mỗi cái nhắm vào một chỗ dễ lẫn, mà chỗ lẫn nằm ở
+                     đâu thì phải nói ra mới thấy — biết mình chọn sai chưa học được gì.
+                     Hiện sẵn, không giấu sau nút: đây đã là lúc chấm xong. -->
+                @if (item.question.choiceNotes.length > 0) {
+                  <ul class="result-choices">
+                    @for (choice of item.question.choices; track $index; let c = $index) {
+                      @let isAnswer = choice === item.question.answer;
+                      <li
+                        class="result-choice"
+                        [class.is-answer]="isAnswer"
+                        [class.is-picked]="choice === item.main.given"
+                      >
+                        <span class="result-mark" aria-hidden="true">{{ isAnswer ? '✔' : '✘' }}</span>
+                        <span class="result-choice-body">
+                          <span class="jp result-choice-text">{{ c + 1 }}. {{ choice }}</span>
+                          @if (item.question.choiceNotes[c]; as note) {
+                            <span class="result-choice-note">{{ note }}</span>
+                          }
+                        </span>
+                      </li>
+                    }
+                  </ul>
+                }
+
+                @if (item.question.explanation) {
+                  <p class="result-explanation">{{ item.question.explanation }}</p>
+                }
+
                 <!-- Câu ví dụ đi kèm, ngay trong cùng thẻ kết quả: cả câu bị tính sai có khi
                      chỉ vì phần này, nên phải thấy được nó sai chỗ nào. -->
                 @if (item.question.followUp; as f) {

@@ -184,12 +184,12 @@ function findDataFile(folderPath, kind, label) {
 /**
  * Phần học có thể chứa bài dạng ĐỀ (`meta.json` khai `"kind": "test"`).
  *
- * Chỉ hai phần ngữ pháp, vì chỉ trang bài của chúng biết hiện khung "bắt đầu làm
- * đề" (xem features/grammar-detail). Đặt đề vào phần từ vựng hay kanji thì bài vẫn
- * sinh ra được nhưng mở lên chỉ thấy trang trống — báo lỗi ngay ở đây còn hơn để
- * người học phát hiện hộ.
+ * Chỉ những phần mà TRANG BÀI của chúng biết hiện khung "bắt đầu làm đề": hai phần
+ * ngữ pháp (features/grammar-detail) và phần từ vựng (features/vocabulary-detail,
+ * nơi đặt BTVN của từng cụm). Đặt đề vào phần kanji thì bài vẫn sinh ra được nhưng
+ * mở lên chỉ thấy trang trống — báo lỗi ngay ở đây còn hơn để người học phát hiện hộ.
  */
-const TEST_HOSTS = new Set(['grammar', 'mimikara']);
+const TEST_HOSTS = new Set(['grammar', 'mimikara', 'vocabulary']);
 
 /**
  * Loại nội dung của một bài: theo phần học, trừ khi `meta.json` khai khác.
@@ -232,6 +232,10 @@ function buildUnit(course, module, folderName) {
   const name = typeof meta.name === 'string' && meta.name ? meta.name : folderName;
   const description = typeof meta.description === 'string' ? meta.description : '';
   const order = typeof meta.order === 'number' ? meta.order : orderFromName(folderName);
+  // Bài con: BTVN của một cụm trong bài mẹ. `parent` phải tồn tại — viết sai id thì
+  // bài tập biến mất khỏi trang bài mẹ mà danh mục vẫn hợp lệ, không ai báo gì.
+  const parent = typeof meta.parent === 'string' && meta.parent ? slugify(meta.parent) : '';
+  const group = typeof meta.group === 'string' ? meta.group : '';
 
   // Bài giữ chỗ vẫn được ghi ra file JSON với mảng rỗng, và vẫn có mặt trong danh mục.
   // Nhờ vậy người học nhìn thấy khoá gồm những bài gì ngay từ đầu, còn giao diện thì
@@ -239,8 +243,8 @@ function buildUnit(course, module, folderName) {
   if (dataFile === PLACEHOLDER) {
     placeholderCount++;
     return {
-      entry: { id, name, description, kind, itemCount: 0, order, file: `${module.folder}/${id}.json` },
-      content: { id, name, description, kind, ...emptyPayload(kind) },
+      entry: { id, name, description, kind, parent, group, itemCount: 0, order, file: `${module.folder}/${id}.json` },
+      content: { id, name, description, kind, parent, group, ...emptyPayload(kind) },
       placeholder: true,
     };
   }
@@ -295,8 +299,8 @@ function buildUnit(course, module, folderName) {
 
   return {
     // `file` tính từ thư mục của học phần, nên danh mục không phải lặp lại tên học phần.
-    entry: { id, name, description, kind, itemCount, order, file: `${module.folder}/${id}.json` },
-    content: { id, name, description, kind, ...payload },
+    entry: { id, name, description, kind, parent, group, itemCount, order, file: `${module.folder}/${id}.json` },
+    content: { id, name, description, kind, parent, group, ...payload },
     placeholder: false,
   };
 }
@@ -378,6 +382,17 @@ for (const course of COURSES) {
       writtenFiles.add(`${course.id}/${built.entry.file}`);
       writeJson(join(OUTPUT_DIR, course.id, built.entry.file), built.content);
       totalItems += built.entry.itemCount;
+    }
+
+    // `parent` trỏ sai thì bài tập biến mất khỏi trang bài mẹ trong im lặng: danh mục
+    // vẫn hợp lệ, danh sách bài thì cố tình không hiện bài con. Bắt ở đây mới thấy.
+    for (const unit of units) {
+      if (unit.parent && !units.some((other) => other.id === unit.parent)) {
+        fail(
+          `[${course.id}/${module.folder}/${unit.id}] meta.json khai "parent": "${unit.parent}" ` +
+            `— không có bài nào mang id đó trong cùng phần học`,
+        );
+      }
     }
 
     units.sort((a, b) => a.order - b.order || a.name.localeCompare(b.name, 'vi'));

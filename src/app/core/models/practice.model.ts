@@ -73,6 +73,15 @@ export interface PracticeQuestion {
   acceptedAnswers: string[];
   /** Lựa chọn cho chế độ trắc nghiệm, đã trộn. Rỗng ở chế độ gõ. */
   choices: string[];
+  /**
+   * Vì sao từng lựa chọn đúng / sai, cùng thứ tự với `choices`. Rỗng nghĩa là không có.
+   *
+   * Chỉ câu hỏi VIẾT SẴN trong đề mới có: ba mồi nhiễu ở đó do người ra đề chọn, mỗi
+   * cái nhắm vào một chỗ dễ lẫn, nên giải thích được từng cái. Câu tự dựng từ bảng từ
+   * vựng thì mồi nhiễu là ba từ lấy ngẫu nhiên trong cùng cụm — không có gì để nói
+   * ngoài "từ này nghĩa khác".
+   */
+  choiceNotes: string[];
   /** Giải thích hiện sau khi chấm. Rỗng nghĩa là không có. */
   explanation: string;
   /**

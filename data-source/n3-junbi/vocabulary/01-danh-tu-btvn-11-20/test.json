@@ -1,0 +1,221 @@
+{
+  "sections": [
+    {
+      "id": "btvn-11-20",
+      "title": "文字語彙 — BTVN 11–20 (10 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-btvn-1120-01",
+          "promptJapanese": "生年月日を教えてください。",
+          "promptReading": "（　　　）を おしえてください。",
+          "promptVietnamese": "Cho tôi biết ngày tháng năm sinh của bạn.",
+          "choices": ["せいねんつきび", "せいねんげつび", "せいねんがっぴ", "せいねんかっぴ"],
+          "choicesVietnamese": [
+            "せいねんつきび · không có từ này",
+            "せいねんげつび · không có từ này",
+            "せいねんがっぴ · 生年月日 (SINH NIÊN NGUYỆT NHẬT) — ngày tháng năm sinh",
+            "せいねんかっぴ · không có từ này"
+          ],
+          "choiceNotes": [
+            "Không có cách đọc này: 月日 trong 生年月日 không đọc theo âm Kun つきひ／つきび.",
+            "Không có cách đọc này: 月 ở đây không đọc げつ (như 月曜日) mà bị biến âm thành がっ.",
+            "Đúng: 生年月日 đọc せいねんがっぴ — 月 biến thành がっ và 日 đục âm thành ぴ.",
+            "Không có cách đọc này: 日 phải đục âm thành ぴ chứ không giữ nguyên ひ／かっぴ."
+          ],
+          "answer": 3,
+          "explanation": "生年月日 (せいねんがっぴ) là chỗ phải điền trong mọi giấy tờ: 書類に生年月日を記入する。Từ gần nghĩa nhưng khác chỗ dùng: 誕生日 (たんじょうび) = ngày sinh nhật."
+        },
+        {
+          "id": "dt-btvn-1120-02",
+          "promptJapanese": "（　　　）はどちらですか？私は東京から来ました。",
+          "promptReading": "（　　　）は どちらですか。わたしは とうきょうから きました。",
+          "promptVietnamese": "（　　　） của bạn ở đâu? Tôi thì đến từ Tokyo.",
+          "choices": ["相手", "出身", "誕生日", "友人"],
+          "choicesVietnamese": [
+            "あいて · Đối phương",
+            "しゅっしん · Xuất thân, quê quán",
+            "たんじょうび · Sinh nhật",
+            "ゆうじん · Bạn bè"
+          ],
+          "choiceNotes": [
+            "相手 là người ở phía bên kia của một việc, không trả lời được bằng một nơi chốn như 東京.",
+            "Đúng: ご出身はどちらですか。là câu hỏi quê quán quen thuộc, và câu sau đáp bằng 東京から来ました。",
+            "誕生日 hỏi bằng いつ (ngày nào) chứ không bằng どちら (nơi nào).",
+            "友人 là bạn bè — 友人はどちらですか thành ra hỏi \"bạn anh ở đâu\", không khớp với câu sau."
+          ],
+          "answer": 2,
+          "explanation": "出身 hỏi bằng どこ／どちら và đi với です (大阪大学の出身です), KHÔNG đi với 帰る — muốn nói \"về quê\" thì dùng 故郷 (câu 7)."
+        },
+        {
+          "id": "dt-btvn-1120-03",
+          "promptJapanese": "私は弟と（　　　）が悪いんです。",
+          "promptReading": "わたしは おとうとと（　　　）が わるいんです。",
+          "promptVietnamese": "Tôi với em trai （　　　） không tốt.",
+          "choices": ["相", "親", "友", "仲"],
+          "choicesVietnamese": [
+            "相 · không đứng một mình thành từ",
+            "親 (おや) · Bố mẹ",
+            "友 (とも) · Bạn — hầu như chỉ dùng trong từ ghép",
+            "なか · 仲 (TRỌNG) — mối quan hệ"
+          ],
+          "choiceNotes": [
+            "相 chỉ sống trong từ ghép (相手・相談), không đứng một mình làm chủ ngữ của 悪い.",
+            "親が悪い đọc ra thành \"bố mẹ thì xấu\", không phải nói về quan hệ giữa hai anh em.",
+            "友 gần như chỉ dùng trong từ ghép (友人・親友); 友が悪い không phải cách nói tự nhiên.",
+            "Đúng: 仲が悪い = không hợp nhau, quan hệ không tốt. Người kia đi với と: 弟と仲が悪い。"
+          ],
+          "answer": 4,
+          "explanation": "Cặp đối: 仲がいい (thân nhau) ＞＜ 仲が悪い (không hợp). Từ ghép: 仲間 (なかま) = người cùng làm một việc → 勉強仲間・飲み仲間."
+        },
+        {
+          "id": "dt-btvn-1120-04",
+          "promptJapanese": "経済が大きく（　　　）した。",
+          "promptReading": "けいざいが おおきく（　　　）した。",
+          "promptVietnamese": "Kinh tế đã （　　　） mạnh.",
+          "choices": ["未成年", "未成長", "成人", "成長"],
+          "choicesVietnamese": [
+            "みせいねん · Vị thành niên",
+            "未成長 · không có từ này",
+            "せいじん · Người trưởng thành",
+            "せいちょう · 成長 (THÀNH TRƯỞNG) — trưởng thành, tăng trưởng"
+          ],
+          "choiceNotes": [
+            "未成年 là người chưa đủ tuổi thành niên — là một CON NGƯỜI, không ghép với する.",
+            "Không có từ này: phủ định của 成長 là 成長しない, không phải 未成長.",
+            "成人 cũng là một con người (người đã trưởng thành); 成人する nghĩa là một người đến tuổi trưởng thành, không nói về kinh tế.",
+            "Đúng: 成長する dùng được cho cả người lớn lên lẫn kinh tế, doanh nghiệp đi lên → 経済成長."
+          ],
+          "answer": 4,
+          "explanation": "成長 (せいちょう): 子供の成長・事業の成長・経済成長. 大きく là dạng phó từ của 大きい, bổ nghĩa cho động từ 成長する."
+        },
+        {
+          "id": "dt-btvn-1120-05",
+          "promptJapanese": "学生時代の（　　　）と飲みに行く。",
+          "promptReading": "がくせいじだいの（　　　）と のみに いく。",
+          "promptVietnamese": "Đi nhậu với （　　　） thời sinh viên.",
+          "choices": ["友人", "年上", "同僚", "男性"],
+          "choicesVietnamese": [
+            "ゆうじん · Bạn bè",
+            "としうえ · Người hơn tuổi",
+            "どうりょう · Đồng nghiệp",
+            "だんせい · Nam giới"
+          ],
+          "choiceNotes": [
+            "Đúng: 学生時代の友人 = bạn thời sinh viên — đúng câu mẫu của sách.",
+            "年上 chỉ nói về tuổi, ghép với 学生時代の thì không cho biết quan hệ là gì.",
+            "同僚 là người làm cùng chỗ, thuộc về thời đi làm chứ không phải 学生時代.",
+            "男性 chỉ giới tính; 学生時代の男性 nghe như \"người đàn ông hồi sinh viên\", không phải bạn bè."
+          ],
+          "answer": 1,
+          "explanation": "～時代 = thời ~ (学生時代・子供時代). 飲みに行く = đi nhậu (V ます bỏ ます ＋ に行く = đi để làm ~)."
+        },
+        {
+          "id": "dt-btvn-1120-06",
+          "promptJapanese": "（　　　）のお祝いをした。",
+          "promptReading": "（　　　）の おいわいを した。",
+          "promptVietnamese": "Đã làm lễ mừng （　　　）.",
+          "choices": ["成長", "成人", "合格", "生年月日"],
+          "choicesVietnamese": [
+            "せいちょう · Trưởng thành, tăng trưởng",
+            "せいじん · Người trưởng thành, sự tròn tuổi trưởng thành",
+            "ごうかく · Thi đỗ",
+            "せいねんがっぴ · Ngày tháng năm sinh"
+          ],
+          "choiceNotes": [
+            "成長 là quá trình lớn lên dần dần, không phải một mốc để tổ chức lễ mừng.",
+            "Đúng: 成人 là mốc tròn tuổi trưởng thành — Nhật có hẳn 成人式 (lễ thành nhân) tổ chức cho người vừa đến tuổi.",
+            "合格のお祝い (mừng thi đỗ) cũng là tiếng Nhật đúng, nhưng 合格 đã là đáp án của câu 10; bài tập này mỗi câu hỏi một từ khác nhau.",
+            "生年月日 chỉ là dòng thông tin trên giấy tờ, không có lễ mừng nào mang tên nó."
+          ],
+          "answer": 2,
+          "explanation": "成人 (せいじん) ＞＜ 未成年 (みせいねん). Từ ghép hay gặp: 成人式 (せいじんしき) = lễ thành nhân."
+        },
+        {
+          "id": "dt-btvn-1120-07",
+          "promptJapanese": "（　　　）に帰りたい。",
+          "promptReading": "（　　　）に かえりたい。",
+          "promptVietnamese": "Tôi muốn về （　　　）.",
+          "choices": ["出身", "故郷", "誕生日", "時代"],
+          "choicesVietnamese": [
+            "しゅっしん · Xuất thân, quê quán",
+            "こきょう · Quê hương",
+            "たんじょうび · Sinh nhật",
+            "じだい · Thời đại, thời kỳ"
+          ],
+          "choiceNotes": [
+            "出身 nói mình TỪ đâu ra (出身です), không đi với 帰る — đây đúng là chỗ hay lẫn nhất của cặp này.",
+            "Đúng: 故郷に帰る = về quê. 故郷 là nơi chốn để quay về nên đi được với 帰る.",
+            "誕生日 là một ngày, mà ngày thì không \"về\" được.",
+            "時代 là một khoảng thời gian trong lịch sử hay trong đời người, cũng không phải nơi để về."
+          ],
+          "answer": 2,
+          "explanation": "Cách phân biệt: 出身 → hỏi どこ ○, đi với 帰る ✕; 故郷・ふるさと → đi với 帰る ○, nhưng hầu như không dùng trong hội thoại thường ngày."
+        },
+        {
+          "id": "dt-btvn-1120-08",
+          "promptJapanese": "（　　　）日を祝う。",
+          "promptReading": "（　　　）びを いわう。",
+          "promptVietnamese": "Mừng ngày （　　　）.",
+          "choices": ["誕生", "生年月", "成長", "合格"],
+          "choicesVietnamese": [
+            "たんじょう · 誕生 (ĐẢN SINH) — sự ra đời, sinh ra",
+            "生年月 · không có từ này",
+            "せいちょう · Trưởng thành, tăng trưởng",
+            "ごうかく · Thi đỗ"
+          ],
+          "choiceNotes": [
+            "Đúng: 誕生 ＋ 日 = 誕生日 (たんじょうび), ngày sinh nhật — thứ người ta 祝う (chúc mừng).",
+            "Không có từ này: 生年月 chỉ là 生年月日 bị cắt mất chữ 日, mà cả từ mới có nghĩa.",
+            "成長日 không phải một từ: 成長 là quá trình dài, không gắn với một ngày cụ thể.",
+            "合格日 không phải cách nói thông thường; đỗ thì nói 合格する hoặc 合格祝い."
+          ],
+          "answer": 1,
+          "explanation": "誕生 dùng cho cả sinh linh lẫn tổ chức: 新しい命の誕生・新政権が誕生する. Thêm 日 thành 誕生日 = sinh nhật."
+        },
+        {
+          "id": "dt-btvn-1120-09",
+          "promptJapanese": "あっという間に（　　　）をとってしまった。",
+          "promptReading": "あっというまに（　　　）を とってしまった。",
+          "promptVietnamese": "Thoáng cái mà đã （　　　） mất rồi.",
+          "choices": ["年", "成長", "誕生日", "女性"],
+          "choicesVietnamese": [
+            "とし · Tuổi",
+            "せいちょう · Trưởng thành, tăng trưởng",
+            "たんじょうび · Sinh nhật",
+            "じょせい · Nữ giới"
+          ],
+          "choiceNotes": [
+            "Đúng: 年をとる (としをとる) = nhiều tuổi thêm, già đi. あっという間に年をとってしまった = thoáng cái đã già.",
+            "成長をとる không thành cụm: 成長 đi với する (成長する) chứ không đi với とる.",
+            "誕生日をとる không thành cụm; sinh nhật thì 祝う (mừng) chứ không \"lấy\".",
+            "女性をとる không thành cụm — とる ở đây không mang nghĩa \"lấy\" một con người."
+          ],
+          "answer": 1,
+          "explanation": "年 đọc とし khi đứng một mình, đọc ねん khi đi với số (10年). Cách dùng khác của 年: 年より若く見える = trông trẻ hơn tuổi."
+        },
+        {
+          "id": "dt-btvn-1120-10",
+          "promptJapanese": "JLPT試験に（　　　）する。",
+          "promptReading": "JLPTしけんに（　　　）する。",
+          "promptVietnamese": "（　　　） kỳ thi JLPT.",
+          "choices": ["成長", "成人", "誕生", "合格"],
+          "choicesVietnamese": [
+            "せいちょう · Trưởng thành, tăng trưởng",
+            "せいじん · Người trưởng thành",
+            "たんじょう · Sự ra đời",
+            "ごうかく · Thi đỗ"
+          ],
+          "choiceNotes": [
+            "成長する là lớn lên / tăng trưởng, không nói về kết quả một kỳ thi.",
+            "成人する là đến tuổi trưởng thành, không đi với 試験に.",
+            "誕生する là ra đời, dùng cho sinh linh hoặc tổ chức mới lập.",
+            "Đúng: ～に合格する = đỗ ~. Thứ thi đỗ đi với に: 試験に合格する。"
+          ],
+          "answer": 4,
+          "explanation": "合格 (ごうかく) ＞＜ 不合格 (ふごうかく). Nhớ trợ từ: 大学／入学試験／検査に合格する — に chứ không phải を."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "BTVN 1–10",
+  "description": "Bài tập về nhà của cụm 01–10 (Bài 1.1 · Con người và thứ bậc trên dưới) — 9 câu.",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "01–10",
+  "order": 101
+}

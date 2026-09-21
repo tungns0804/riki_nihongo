@@ -62,6 +62,31 @@ Mọi chữ tiếng Việt của một câu đều là BẢN DỊCH, và chỉ h
 | `choicesVietnamese` | từng lựa chọn        |
 | `passageVietnamese` | bài đọc (đọc hiểu)   |
 
+## Hai trường của bài tập về nhà
+
+Đề thi thì chỉ cần đo, còn BTVN là để HỌC (xem phần "Bài tập về nhà" trong README gốc),
+nên câu hỏi của BTVN viết thêm:
+
+| Trường          | Là gì                                                         | Hiện ở đâu                     |
+| --------------- | ------------------------------------------------------------- | ------------------------------ |
+| `promptReading` | cách đọc CẢ CÂU bằng kana, giữ nguyên chỗ trống `（　　　）`   | cùng nút "Hiện bản dịch"       |
+| `choiceNotes`   | vì sao TỪNG lựa chọn đúng / sai, mảng song song với `choices` | màn hình kết quả, sau khi chấm |
+
+```json
+"choices": ["後輩", "年上", "上司", "男性"],
+"choiceNotes": [
+  "後輩 đi cặp với 先輩 chứ không đi cặp với 部下.",
+  "年上 chỉ nói về TUỔI, không nói gì về thứ bậc trong công ty.",
+  "Đúng: 部下 (cấp dưới) đi cặp với 上司 (cấp trên).",
+  "男性 chỉ giới tính, không cho biết đứng trên hay đứng dưới 部下."
+],
+"answer": 3
+```
+
+Cả hai đều tuỳ chọn, nhưng viết thì viết cho đủ: thiếu một phần tử của `choiceNotes` là
+bộ sinh báo cảnh báo, và `promptReading` còn sót chữ Hán cũng vậy — cách đọc phải viết
+hết bằng kana.
+
 ## Bản dịch của lựa chọn
 
 `choicesVietnamese` là mảng SONG SONG với `choices` — thiếu một phần tử là bộ sinh báo

@@ -1,0 +1,200 @@
+{
+  "sections": [
+    {
+      "id": "btvn-01-10",
+      "title": "文字語彙 — BTVN 1–10 (9 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-btvn-0110-01",
+          "promptJapanese": "（　　　）が部下に話している。",
+          "promptReading": "（　　　）がぶかにはなしている。",
+          "promptVietnamese": "（　　　） đang nói chuyện với cấp dưới.",
+          "choices": ["後輩", "年上", "上司", "男性"],
+          "choicesVietnamese": [
+            "こうはい · Hậu bối, người vào sau",
+            "としうえ · Người hơn tuổi",
+            "じょうし · Sếp, cấp trên",
+            "だんせい · Nam giới"
+          ],
+          "choiceNotes": [
+            "後輩 là người vào trường / vào công ty sau mình; nó đi cặp với 先輩 chứ không đi cặp với 部下.",
+            "年上 chỉ nói về TUỔI, không nói gì về thứ bậc trong công ty — người 年上 vẫn có thể là cấp dưới.",
+            "Đúng: 部下 (cấp dưới) đi cặp với 上司 (cấp trên) trong cùng một công ty, nên 上司が部下に話している。",
+            "男性 chỉ giới tính, không cho biết người đó đứng trên hay đứng dưới 部下."
+          ],
+          "answer": 3,
+          "explanation": "Hai cặp trên dưới khác nhau: trong công ty là 上司 ⇔ 部下, trong trường / trong nghề là 先輩 ⇔ 後輩."
+        },
+        {
+          "id": "dt-btvn-0110-02",
+          "promptJapanese": "（　　　）の人と乾杯する時は、自分のグラスを下げたほうがいい。",
+          "promptReading": "（　　　）のひとと かんぱいするときは、じぶんのグラスを さげたほうがいい。",
+          "promptVietnamese": "Khi nâng ly với người （　　　） thì nên hạ ly của mình xuống thấp hơn.",
+          "choices": ["たかいらい", "たかいれい", "こうらい", "こうれい"],
+          "choicesVietnamese": [
+            "たかいらい · không có từ này",
+            "たかいれい · không có từ này",
+            "こうらい · không có từ này",
+            "こうれい · 高齢 (CAO LINH) — già, cao tuổi"
+          ],
+          "choiceNotes": [
+            "Không có từ này: 高 đọc âm Kun là たか(い) khi đứng một mình (高い = cao), còn trong từ ghép Hán ngữ thì đọc âm On こう (高校・高速).",
+            "Không có từ này: ghép âm Kun たかい với âm On れい — một từ Hán ghép không trộn hai kiểu âm như vậy.",
+            "Không có từ này: 齢 đọc れい (年齢・高齢), không đọc らい.",
+            "Đúng: 高齢 đọc こうれい. 高齢の人 = người cao tuổi."
+          ],
+          "answer": 4,
+          "explanation": "高齢 (こうれい): 高齢者 (こうれいしゃ) = người cao tuổi, 高齢化社会 (こうれいかしゃかい) = xã hội già hoá."
+        },
+        {
+          "id": "dt-btvn-0110-03",
+          "promptJapanese": "あの会社に知り合いはいますか？",
+          "promptReading": "あのかいしゃに しりあいは いますか。",
+          "promptVietnamese": "Ở công ty đó bạn có người quen không?",
+          "choices": ["仲", "家族", "親友", "知っている人"],
+          "choicesVietnamese": [
+            "なか · Quan hệ, tình cảm giữa hai bên",
+            "かぞく · Gia đình",
+            "しんゆう · Bạn thân",
+            "しっている ひと · Người mình biết, người quen"
+          ],
+          "choiceNotes": [
+            "仲 là QUAN HỆ giữa hai bên (仲がいい = thân nhau), không phải một con người.",
+            "家族 là người trong nhà — hẹp hơn hẳn và không phải nghĩa của 知り合い.",
+            "親友 là bạn thân, thân hơn nhiều: 知り合い mới chỉ ở mức biết nhau.",
+            "Đúng: 知り合い = 知っている人 — người mình có quen biết."
+          ],
+          "answer": 4,
+          "explanation": "知り合い là danh từ của 知り合う. Mức thân dần lên: 知り合い → 友達 → 親友. Văn viết dùng 知人 (ちじん)."
+        },
+        {
+          "id": "dt-btvn-0110-04",
+          "promptJapanese": "え？結婚するんですか？（　　　）は誰ですか？",
+          "promptReading": "え？けっこんするんですか。（　　　）は だれですか。",
+          "promptVietnamese": "Ơ? Bạn kết hôn à? （　　　） là ai vậy?",
+          "choices": ["想手", "想話", "相手", "相談"],
+          "choicesVietnamese": [
+            "想手 · không có từ này",
+            "想話 · không có từ này",
+            "あいて · 相手 (TƯƠNG THỦ) — đối phương, người cùng làm việc gì với mình",
+            "そうだん · 相談 (TƯƠNG ĐÀM) — bàn bạc, hỏi ý kiến"
+          ],
+          "choiceNotes": [
+            "Không có từ này: 想 (TƯỞNG) nghĩa là nghĩ, tưởng (予想・感想), không ghép với 手 thành từ.",
+            "Không có từ này — vẫn là chữ 想 viết nhầm cho 相.",
+            "Đúng: 相手 = người ở phía bên kia của một việc; kết hôn thì 相手 chính là người bạn đời.",
+            "相談 đúng chữ 相 nhưng là việc \"bàn bạc\", không phải một người: 結婚の相談 là bàn chuyện cưới xin chứ không phải người cưới."
+          ],
+          "answer": 3,
+          "explanation": "Chữ 相 đọc あい trong 相手, đọc そう trong 相談. Từ ghép hay gặp: 結婚相手・相談相手・話し相手."
+        },
+        {
+          "id": "dt-btvn-0110-05",
+          "promptJapanese": "モンさんは可愛い（　　　）だ。",
+          "promptReading": "モンさんは かわいい（　　　）だ。",
+          "promptVietnamese": "Mon là một （　　　） dễ thương.",
+          "choices": ["高齢", "目上", "相手", "後輩"],
+          "choicesVietnamese": [
+            "こうれい · Già, cao tuổi",
+            "めうえ · Người trên (tuổi hoặc chức)",
+            "あいて · Đối phương",
+            "こうはい · Hậu bối, người vào sau"
+          ],
+          "choiceNotes": [
+            "高齢 là trạng thái tuổi tác, không dùng để gọi một con người: nói về người thì phải là 高齢の人 / 高齢者.",
+            "目上 là người trên mình, mà khen người trên là 可愛い thì thất lễ; 目上 cũng thường đi với 人 (目上の人).",
+            "相手 luôn cần một việc đi kèm (結婚相手・話し相手); đứng trơ một mình để tả người thì không rõ nghĩa.",
+            "Đúng: 後輩 là đàn em trong trường / công ty, và 可愛い後輩 là cách khen đàn em rất thường gặp."
+          ],
+          "answer": 4,
+          "explanation": "後輩 ⇔ 先輩. Thứ bậc này tính theo lúc vào trường / vào công ty, không theo tuổi."
+        },
+        {
+          "id": "dt-btvn-0110-06",
+          "promptJapanese": "あの（　　　）、美人ですね～。",
+          "promptReading": "あの（　　　）、びじんですね。",
+          "promptVietnamese": "（　　　） kia xinh quá nhỉ~.",
+          "choices": ["年下", "部下", "女性", "知り合い"],
+          "choicesVietnamese": [
+            "としした · Người ít tuổi hơn",
+            "ぶか · Cấp dưới",
+            "じょせい · Nữ giới",
+            "しりあい · Người quen"
+          ],
+          "choiceNotes": [
+            "年下 là ít tuổi hơn AI đó, tức là một quan hệ; người vừa nhìn thấy thì chưa có quan hệ nào để so tuổi.",
+            "部下 là cấp dưới CỦA AI đó — cũng là một quan hệ, không dùng để chỉ một người lạ đang trông thấy.",
+            "Đúng: 女性 là nữ giới, và 美人 khen phụ nữ → あの女性、美人ですね。",
+            "知り合い là người mình đã quen, mà đã quen thì gọi tên chứ không chỉ trỏ あの…."
+          ],
+          "answer": 3,
+          "explanation": "女性 dùng trong văn viết và lúc nói lịch sự; 女の人 là văn nói thường ngày."
+        },
+        {
+          "id": "dt-btvn-0110-07",
+          "promptJapanese": "（　　　）の友達と仲がいい。",
+          "promptReading": "（　　　）の ともだちと なかが いい。",
+          "promptVietnamese": "Tôi thân với người bạn （　　　）.",
+          "choices": ["年上", "上司", "知り合い", "高齢"],
+          "choicesVietnamese": [
+            "としうえ · Hơn tuổi",
+            "じょうし · Sếp, cấp trên",
+            "しりあい · Người quen",
+            "こうれい · Già, cao tuổi"
+          ],
+          "choiceNotes": [
+            "Đúng: 年上の友達 = người bạn hơn tuổi — đúng câu mẫu của sách.",
+            "上司の友達 đọc ra thành \"bạn của sếp\", tức là quan hệ của người khác chứ không phải bạn của mình.",
+            "知り合いの友達 cũng vậy: \"bạn của người quen\" — người đó vẫn chưa phải bạn mình.",
+            "高齢の友達 nghe như đang nhận xét bạn mình già, không phải cách nói về chênh lệch tuổi."
+          ],
+          "answer": 1,
+          "explanation": "年上 ⇔ 年下. 年上 đọc としうえ, nhưng đi với số thì đọc ～ねんうえ (10年上). 仲がいい = thân nhau."
+        },
+        {
+          "id": "dt-btvn-0110-08",
+          "promptJapanese": "あっという間に（　　　）をとってしまった。",
+          "promptReading": "あっというまに（　　　）を とってしまった。",
+          "promptVietnamese": "Thoáng cái mà đã （　　　） mất rồi.",
+          "choices": ["上司", "目上", "年", "同僚"],
+          "choicesVietnamese": [
+            "じょうし · Sếp, cấp trên",
+            "めうえ · Người trên",
+            "とし · Tuổi",
+            "どうりょう · Đồng nghiệp"
+          ],
+          "choiceNotes": [
+            "上司をとる không thành cụm: とる ở đây không mang nghĩa \"lấy\" một người.",
+            "目上をとる cũng không thành cụm, vì 目上 là người chứ không phải thứ tăng lên theo thời gian.",
+            "Đúng: 年をとる (としをとる) = nhiều tuổi thêm, già đi. あっという間に年をとってしまった = thoáng cái đã già.",
+            "同僚をとる không thành cụm; 同僚 là người làm cùng chỗ, ngang hàng với mình."
+          ],
+          "answer": 3,
+          "explanation": "年をとる = già đi (một cụm cố định, không đổi thành 年がなる…). あっという間に = thoáng cái, trong nháy mắt."
+        },
+        {
+          "id": "dt-btvn-0110-09",
+          "promptJapanese": "理想の（　　　）は、優しい年上だ。",
+          "promptReading": "りそうの（　　　）は、やさしい としうえだ。",
+          "promptVietnamese": "（　　　） lý tưởng của tôi là người hơn tuổi dịu dàng.",
+          "choices": ["仲", "先輩", "後輩", "男性"],
+          "choicesVietnamese": [
+            "なか · Quan hệ, tình cảm giữa hai bên",
+            "せんぱい · Tiền bối, người vào trước",
+            "こうはい · Hậu bối, người vào sau",
+            "だんせい · Nam giới"
+          ],
+          "choiceNotes": [
+            "仲 là quan hệ, nên vế sau phải tả quan hệ (仲がいい…), chứ không tả một con người.",
+            "先輩 gần như luôn đã là người vào trước và hơn tuổi, nên nói 理想の先輩は優しい年上だ thì vế sau chỉ nhắc lại điều đã có sẵn.",
+            "後輩 là người vào sau, thường ít tuổi hơn — ngược hẳn với 年上 ở vế sau.",
+            "Đúng: 男性 = nam giới, 理想の男性 = người đàn ông lý tưởng — đúng câu mẫu của sách 理想の男性と結婚する。"
+          ],
+          "answer": 4,
+          "explanation": "理想の＋N = N lý tưởng. Câu mẫu của từ 男性: 理想の男性と結婚する。(kết hôn với người đàn ông lý tưởng)"
+        }
+      ]
+    }
+  ]
+}

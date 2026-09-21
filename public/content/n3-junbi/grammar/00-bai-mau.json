@@ -3,6 +3,8 @@
   "name": "Bài mẫu · Ngữ pháp N3",
   "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
   "kind": "grammar",
+  "parent": "",
+  "group": "",
   "points": [
     {
       "id": "77507b5407a91727",

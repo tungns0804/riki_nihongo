@@ -3,6 +3,8 @@
   "name": "Bài mẫu · Nghe hiểu",
   "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
   "kind": "listening",
+  "parent": "",
+  "group": "",
   "tracks": [
     {
       "id": "31bde5dd838d20f9",
@@ -40,27 +42,32 @@
           "skill": "listening",
           "prompt": "Người phụ nữ sắp đi đâu?",
           "promptJapanese": "女の人はこれからどこへ行きますか。",
+          "promptReading": "",
           "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
               "text": "一階の受付",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c2",
               "text": "三階の会議室",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c3",
               "text": "二階の食堂",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c4",
               "text": "会社の外",
-              "translation": ""
+              "translation": "",
+              "note": ""
             }
           ],
           "answerId": "c2",
@@ -73,27 +80,32 @@
           "skill": "listening",
           "prompt": "Cuộc họp bắt đầu lúc mấy giờ?",
           "promptJapanese": "会議は何時から始まりますか。",
+          "promptReading": "",
           "promptTranslation": "",
           "choices": [
             {
               "id": "c1",
               "text": "一時",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c2",
               "text": "二時",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c3",
               "text": "三時",
-              "translation": ""
+              "translation": "",
+              "note": ""
             },
             {
               "id": "c4",
               "text": "十時",
-              "translation": ""
+              "translation": "",
+              "note": ""
             }
           ],
           "answerId": "c2",

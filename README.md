@@ -79,6 +79,11 @@ Phần **Từ vựng** của N3 JUNBI đã có nội dung thật: mục "Danh t�
 từ mới đặt chỗ, đang chờ nội dung. Bên BTVN, mục "Danh từ" có 70 từ chia bảy cụm theo bảy
 bài tập, cũng có bảng "Tóm tắt bài".
 
+Bài "Danh từ" còn có **bài tập về nhà** của từng buổi: `BTVN 1–10` (9 câu) và
+`BTVN 11–20` (10 câu), chép theo đề BTVN của Riki. Mỗi BTVN là một bài dạng ĐỀ
+**nằm trong** bài Danh từ chứ không đứng ngang hàng với nó — xem "Bài tập về nhà"
+bên dưới.
+
 Phần **Ngữ pháp** của N3 JUNBI có bài "Đề thi thật ôn tập N4 · Nhiệm vụ 2" — 30 câu
 文法 chép theo các đề thật 07/2014 – 07/2017, mỗi câu có bản dịch của câu hỏi và của cả
 bốn đáp án. Đây là bài dạng ĐỀ nằm giữa các bài lý thuyết, đúng như trên website Riki:
@@ -88,11 +93,40 @@ trang bài chỉ có nút bắt đầu, bấm vào là sang màn hình làm đ�
 Các thư mục `00-bai-mau` ở những phần còn lại là **bài mẫu** để kiểm tra đường ống
 nội dung — xoá đi khi đã có bài thật.
 
+## Bài tập về nhà
+
+Riki ra bài tập theo BUỔI HỌC, tức là theo từng cụm 10 từ của một bài từ vựng. Nên BTVN
+là một **bài con**: `meta.json` của nó khai `"parent"` là id bài mẹ và `"group"` là cụm
+mà nó ra đề.
+
+```
+data-source/n3-junbi/vocabulary/01-danh-tu-btvn-01-10/
+├── meta.json   { "kind": "test", "parent": "01-danh-tu", "group": "01–10", "order": 101 }
+└── test.json   viết như mọi đề khác (data-source/n3-junbi/entrance-test/README.md)
+```
+
+Bài con **không** hiện ở danh sách bài của phần Từ vựng — để hết ngang hàng thì danh sách
+dài ra bằng số buổi học chứ không phải số loại từ. Nó hiện ngay trên dòng cụm của bảng
+"Tóm tắt bài" trong bài mẹ, và breadcrumb đi đủ cấp
+`… / Từ vựng / Danh từ / BTVN 1–10`. `order` đặt theo lối của Mimikara: thứ tự bài mẹ ×
+100 ＋ số thứ tự BTVN (101, 102…), để "BTVN 101–110" không nhảy lên đứng trước "BTVN 11–20".
+
+Mỗi câu hỏi viết thêm hai thứ mà đề thi không có, vì đây là bài tập để HỌC chứ không
+phải để đo:
+
+- `promptReading` — cách đọc cả câu bằng kana, giữ nguyên chỗ trống `（　　　）`. Hiện
+  cùng chỗ ẩn/hiện với bản dịch (bộ sinh cảnh báo nếu dòng này còn sót chữ Hán).
+- `choiceNotes` — mảng song song với `choices`, nói vì sao TỪNG lựa chọn đúng hay sai.
+  Hiện ở màn hình kết quả sau khi chấm: ba mồi nhiễu của một câu 文字語彙 bao giờ cũng
+  là ba từ dễ lẫn với đáp án, mà chỗ lẫn nằm ở đâu thì phải nói ra mới thấy — biết mình
+  chọn sai chưa học được gì. Viết đủ bốn cái, thiếu một là bộ sinh cảnh báo.
+
 ## Làm đề
 
-Một bài dạng ĐỀ nằm ở hai chỗ: cả phần **Kiểm tra nhập môn**, và bài có `"kind": "test"`
-trong một phần lý thuyết (phần Ngữ pháp có "Đề thi thật ôn tập N4"). Cả hai đều mở bằng
-nút bắt đầu rồi sang cùng một màn hình, địa chỉ `…/<bài>/test-run`.
+Một bài dạng ĐỀ nằm ở ba chỗ: cả phần **Kiểm tra nhập môn**; bài có `"kind": "test"`
+trong một phần lý thuyết (phần Ngữ pháp có "Đề thi thật ôn tập N4"); và **BTVN** của một
+cụm trong bài từ vựng. Cả ba đều mở bằng nút bắt đầu rồi sang cùng một màn hình, địa chỉ
+`…/<bài>/test-run`.
 
 Đề KHÔNG dùng màn hình luyện tập: đề thi thì làm cả bài rồi nộp, không phải
 mỗi câu một thẻ chấm ngay. Màn hình riêng của nó (`features/test-run`) làm theo trang
@@ -133,7 +167,9 @@ câu tiếng Nhật để luyện chữ Hán, hoặc tự dịch sang tiếng Vi
   gốc và bản dịch tham khảo để tự đối chiếu.
 
 Xong bài thì sang màn hình kết quả dùng chung với luyện tập: điểm tổng, điểm từng kỹ
-năng, và danh sách từng câu để xem lại.
+năng, và danh sách từng câu để xem lại. Câu nào có `choiceNotes` thì phần xem lại in cả
+bốn lựa chọn kèm dấu ✔ / ✘ và lời giải thích của từng cái, rồi tới `explanation` chốt
+lại ý chính — đây mới là chỗ học được gì sau khi chấm.
 
 ## Luyện tập
 
@@ -266,8 +302,12 @@ Những điểm đáng nhớ khi sửa về sau:
    trang làm đề xếp câu theo phần và theo bài đọc, còn phiên giữ một danh sách phẳng.
 7. **Loại bài theo BÀI chứ không theo phần học.** `meta.json` khai `"kind": "test"` thì
    bài đó là đề dù nằm trong phần Ngữ pháp; trang bài khi ấy hiện `shared/test-start`
-   thay cho khung thiết lập luyện tập. Chỉ `grammar` và `mimikara` nhận được (bộ sinh
-   chặn chỗ khác), vì chỉ màn hình của chúng biết hiện một đề.
+   thay cho khung thiết lập luyện tập. Chỉ `grammar`, `mimikara` và `vocabulary` nhận
+   được (bộ sinh chặn chỗ khác), vì chỉ màn hình của chúng biết hiện một đề.
+8. **Bài con (`parent`) không có route riêng**, vẫn là `…/vocabulary/<id>` như mọi bài.
+   Thứ đổi là chỗ nó xuất hiện: `ContentStore.unitsOf` bỏ bài con ra khỏi danh sách
+   phần học, `childrenOf` trả chúng về cho trang bài mẹ, và `UnitDirectory` giữ thêm
+   `parent` để breadcrumb của vỏ ứng dụng chèn được cấp bài mẹ vào giữa.
 
 ## Deploy
 

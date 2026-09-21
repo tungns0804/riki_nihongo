@@ -3,6 +3,8 @@
   "name": "Bài mẫu · Kanji N3",
   "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
   "kind": "kanji",
+  "parent": "",
+  "group": "",
   "kanji": [
     {
       "id": "3eb029de8a4f4d92",

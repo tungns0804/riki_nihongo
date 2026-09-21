@@ -213,6 +213,8 @@ export const MESSAGES = {
   'vocab.group.prev': { vi: 'Cụm trước', ja: '前のグループ' },
   'vocab.group.next': { vi: 'Cụm sau', ja: '次のグループ' },
   'vocab.group.continue': { vi: 'Học tiếp cụm {name}', ja: '次のグループ {name} へ' },
+  // BTVN của một cụm là bài CON của bài từ vựng, nên nút quay lại của nó là bài mẹ.
+  'vocab.backToUnit': { vi: '← Về bài học', ja: '← 課に戻る' },
   'vocab.col.number': { vi: 'Số thứ tự', ja: '番号' },
   'vocab.col.hanViet': { vi: 'Hán Việt', ja: '漢越音' },
   'vocab.col.japanese': { vi: 'Từ', ja: '語' },

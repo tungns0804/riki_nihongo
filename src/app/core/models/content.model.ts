@@ -229,12 +229,19 @@ export interface QuizChoice {
   /**
    * Nghĩa tiếng Việt của lựa chọn. Rỗng nghĩa là không có.
    *
-   * Chỉ viết cho những phần mà bốn lựa chọn đều là từ/câu có nghĩa thật (điền từ,
-   * câu đồng nghĩa, ngữ pháp, đọc hiểu). Phần chọn cách đọc và chọn chữ Hán thì ba
-   * lựa chọn nhiễu không phải là từ — dịch ra chỉ còn cách bỏ trống ba chỗ, mà như
-   * thế là chỉ thẳng vào đáp án.
+   * Viết cho cả bốn lựa chọn, kể cả ở phần chọn cách đọc và chọn chữ Hán — ba mồi
+   * nhiễu ở đó không phải là từ nên ghi "không có từ này", kèm nghĩa chữ Hán khi
+   * đáng học. Bỏ trống ba chỗ mới là thứ chỉ thẳng vào đáp án.
    */
   translation: string;
+  /**
+   * Vì sao lựa chọn này ĐÚNG hoặc SAI. Rỗng nghĩa là chưa viết.
+   *
+   * Hiện ở màn hình kết quả sau khi đã chấm, không hiện lúc đang làm bài. Biết mình
+   * chọn sai chưa phải là học được gì: ba mồi nhiễu của một câu 文字語彙 bao giờ
+   * cũng là ba từ dễ lẫn với đáp án, mà chỗ lẫn nằm ở đâu thì phải nói ra mới thấy.
+   */
+  note: string;
 }
 
 export interface QuizQuestion {
@@ -244,6 +251,15 @@ export interface QuizQuestion {
   prompt: string;
   /** Phần tiếng Nhật của câu hỏi (câu có chỗ trống, câu cần chọn cách đọc…). */
   promptJapanese: string;
+  /**
+   * Cách đọc CẢ CÂU hỏi bằng kana, giữ nguyên chỗ trống （　　　）. Rỗng nghĩa là
+   * chưa có.
+   *
+   * Cùng kiểu dữ liệu với `VocabExample.reading`. Nằm sau nút hiện/ẩn cùng chỗ với
+   * bản dịch: đọc được câu mới là hiểu được câu, nhưng ở phần chọn cách đọc thì dòng
+   * này gần như là đáp án, nên mở lúc nào là do người học chọn.
+   */
+  promptReading: string;
   /** Nghĩa tiếng Việt của `promptJapanese`. Rỗng nghĩa là không có. */
   promptTranslation: string;
   choices: QuizChoice[];
@@ -329,6 +345,21 @@ export interface UnitIndexEntry {
   name: string;
   description: string;
   kind: UnitKind;
+  /**
+   * Id của bài mà bài này thuộc về, ví dụ BTVN 1–10 thuộc bài "Danh từ". Rỗng = bài
+   * đứng độc lập.
+   *
+   * Bài con KHÔNG hiện ở danh sách bài của phần học: một buổi học một bài tập, để
+   * hết ngang hàng với "Danh từ", "Động từ" thì danh sách Từ vựng sẽ dài ra bằng số
+   * buổi học chứ không phải số loại từ. Chúng hiện ở đúng cụm của mình trên trang
+   * bài mẹ, và breadcrumb đi qua bài mẹ.
+   */
+  parent: string;
+  /**
+   * Cụm của bài mẹ mà bài này ra đề, ví dụ "01–10" (trùng `VocabWord.group`). Rỗng
+   * nghĩa là không gắn với cụm nào.
+   */
+  group: string;
   /** Số mục của bài: số từ, số chữ Hán, số mẫu ngữ pháp, số câu hỏi… */
   itemCount: number;
   /** Thứ tự hiển thị. Số nhỏ lên trước. */

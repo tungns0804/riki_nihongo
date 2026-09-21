@@ -91,6 +91,77 @@
   font-weight: 600;
 }
 
+/* --- Vì sao từng lựa chọn đúng / sai ---------------------------------------
+   Bốn lựa chọn xếp dọc, mỗi dòng một dấu ✔ / ✘ rồi tới lời giải thích. Xếp dọc chứ
+   không hai cột như lúc làm bài: ở đây phần đáng đọc là chữ giải thích, mà chữ thì
+   cần cả bề ngang. */
+
+.result-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: var(--sp-2) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.result-choice {
+  display: grid;
+  grid-template-columns: 1.4em minmax(0, 1fr);
+  gap: var(--sp-2);
+  padding: var(--sp-2);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+}
+
+.result-choice.is-answer {
+  background: var(--success-soft);
+  color: var(--text);
+}
+
+/* Lựa chọn người học đã chọn: viền để tự soi lại mình đã chọn cái nào, kể cả khi đúng. */
+.result-choice.is-picked {
+  outline: 1px solid var(--border-strong);
+  outline-offset: -1px;
+}
+
+.result-mark {
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.result-choice.is-answer .result-mark {
+  color: var(--success);
+}
+
+.result-choice:not(.is-answer) .result-mark {
+  color: var(--danger);
+}
+
+.result-choice-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.result-choice-text {
+  font-weight: 600;
+}
+
+.result-choice-note {
+  font-size: var(--fs-sm);
+  line-height: 1.7;
+}
+
+/* Ý chính của cả câu, đứng sau danh sách lựa chọn như dòng chốt lại của giáo viên. */
+.result-explanation {
+  margin-top: var(--sp-2);
+  padding-left: var(--sp-3);
+  border-left: 2px solid var(--accent);
+  font-size: var(--fs-sm);
+  line-height: 1.7;
+}
+
 /* Câu ví dụ đi kèm trong thẻ kết quả: sau một vạch đứt, y như trên màn luyện tập, để
    nhận ra ngay đây là phần thứ hai của cùng một câu chứ không phải một câu khác. */
 .result-follow {

@@ -3,6 +3,8 @@
   "name": "Bài 1",
   "description": "～ことにしている · ～こと · ～ことになっている · ～ようになっている · ～ような／ように／ようだ",
   "kind": "grammar",
+  "parent": "",
+  "group": "",
   "points": [
     {
       "id": "e7228ece020f49eb",

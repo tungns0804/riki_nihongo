@@ -1,8 +1,14 @@
 <div class="container page">
   <div class="stack stack-xl">
     <section class="page-head">
-      <a class="back-link small" [routerLink]="['/', course.id, module().path]">
-        {{ t('common.backToList') }}
+      <!-- BTVN thuộc về một bài từ vựng, nên "quay lại" của nó là bài mẹ chứ không phải
+           danh sách bài — đúng cấp mà breadcrumb đang chỉ. -->
+      <a class="back-link small" [routerLink]="backLink()">
+        @if (parentId()) {
+          {{ t('vocab.backToUnit') }}
+        } @else {
+          {{ t('common.backToList') }}
+        }
       </a>
 
       @if (loading()) {
@@ -35,7 +41,11 @@
     }
 
     @if (unit(); as data) {
-      @if (allWords().length > 0) {
+      <!-- Bài của phần này có thể là ĐỀ chứ không phải bảng từ: BTVN của một cụm. Khi đó
+           cả trang chỉ có khung bắt đầu làm bài, như bài đề bên phần Ngữ pháp. -->
+      @if (data.kind === 'test') {
+        <app-test-start [unit]="data" />
+      } @else if (allWords().length > 0) {
         <!-- Tóm tắt đứng TRƯỚC khung luyện tập như trang Mimikara: biết bài học về gì
              rồi mới chọn cụm để luyện. Cả dòng là nút chọn cụm. -->
         @if (overview().length > 0) {
@@ -45,7 +55,7 @@
               <p class="hint">{{ t('vocab.overview.hint') }}</p>
               <ol class="overview-list">
                 @for (item of overview(); track item.label) {
-                  <li>
+                  <li class="overview-item">
                     <button
                       type="button"
                       class="overview-row"
@@ -59,6 +69,19 @@
                       <span class="overview-title">{{ item.title }}</span>
                       <span class="jp overview-words">{{ item.preview }}</span>
                     </button>
+
+                    <!-- Bài tập về nhà của ĐÚNG cụm đó, ngay trên dòng của cụm: BTVN ra theo
+                         buổi học, nên chỗ của nó là cạnh buổi học chứ không phải một mục
+                         riêng ở cuối trang. Cụm chưa có BTVN thì không hiện gì. -->
+                    @if (homeworkByGroup().get(item.label); as homework) {
+                      <a
+                        class="btn btn-sm overview-homework"
+                        [routerLink]="['/', course.id, module().path, homework.id]"
+                      >
+                        {{ homework.name }}
+                        <span class="badge">{{ t('test.questionCount', { count: homework.itemCount }) }}</span>
+                      </a>
+                    }
                   </li>
                 }
               </ol>

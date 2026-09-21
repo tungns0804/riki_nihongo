@@ -124,6 +124,7 @@ function fromVocabulary(
       answerIsJapanese: answer !== 'vietnamese',
       acceptedAnswers: [correct],
       choices: withChoices ? buildChoices(correct, pool) : [],
+      choiceNotes: [],
       explanation: '',
       passage: [],
       examples: vocabExamples(word),
@@ -264,6 +265,7 @@ function sentenceQuestion(
     // nhớ từ.
     acceptedAnswers: reading ? [blank, reading] : [blank],
     choices: withChoices ? buildBlankChoices(blank, pool) : [],
+    choiceNotes: [],
     explanation: '',
     passage: [],
     examples: asFollowUp ? [] : vocabExamples(word),
@@ -347,6 +349,7 @@ function fromKanji(
             askForCharacter ? usable.map((item) => item.character) : pool,
           )
         : [],
+      choiceNotes: [],
       explanation: '',
       passage: [],
       examples: entry.words.map((word) => ({
@@ -405,6 +408,7 @@ function fromGrammar(
       answerIsJapanese: askForJapanese,
       acceptedAnswers: [correct],
       choices: withChoices ? buildChoices(correct, pool) : [],
+      choiceNotes: [],
       explanation: example.note,
       passage: [],
       examples: example.reading
@@ -453,6 +457,7 @@ export function fromQuizQuestions(questions: readonly QuizQuestion[]): PracticeQ
         answerIsJapanese: true,
         acceptedAnswers: [answer.text],
         choices: question.choices.map((choice) => choice.text),
+        choiceNotes: question.choices.map((choice) => choice.note),
         explanation: question.explanation,
         // Bài đọc của phần đọc hiểu trong đề: đi theo từng câu vì mỗi câu một thẻ.
         passage: question.passage,

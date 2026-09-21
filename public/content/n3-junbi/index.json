@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-09-21T04:16:52.123Z",
+  "generatedAt": "2026-09-21T08:35:03.901Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -14,6 +14,8 @@
           "name": "Kiểm tra nhập môn N3",
           "description": "33 câu theo đúng thứ tự đề: 文字語彙 20 câu, 文法 5 câu, 読解 8 câu. Chấm điểm theo bốn kỹ năng.",
           "kind": "test",
+          "parent": "",
+          "group": "",
           "itemCount": 33,
           "order": 1,
           "file": "entrance-test/de-1.json"
@@ -28,6 +30,8 @@
           "name": "Danh từ",
           "description": "Toàn bộ danh từ N3準備 文字語彙 — 第1課 đến 第6課 (01–120)",
           "kind": "vocabulary",
+          "parent": "",
+          "group": "",
           "itemCount": 120,
           "order": 1,
           "file": "vocabulary/01-danh-tu.json"
@@ -37,6 +41,8 @@
           "name": "Động từ",
           "description": "Động từ N3準備 文字語彙 — 第7課 (121–140)",
           "kind": "vocabulary",
+          "parent": "",
+          "group": "",
           "itemCount": 20,
           "order": 2,
           "file": "vocabulary/02-dong-tu.json"
@@ -46,6 +52,8 @@
           "name": "Tính từ",
           "description": "Tính từ N3準備 文字語彙 — 第14課 (259–280)",
           "kind": "vocabulary",
+          "parent": "",
+          "group": "",
           "itemCount": 22,
           "order": 3,
           "file": "vocabulary/03-tinh-tu.json"
@@ -55,6 +63,8 @@
           "name": "Katakana",
           "description": "",
           "kind": "vocabulary",
+          "parent": "",
+          "group": "",
           "itemCount": 0,
           "order": 4,
           "file": "vocabulary/04-katakana.json"
@@ -64,9 +74,33 @@
           "name": "Phó từ",
           "description": "",
           "kind": "vocabulary",
+          "parent": "",
+          "group": "",
           "itemCount": 0,
           "order": 5,
           "file": "vocabulary/05-pho-tu.json"
+        },
+        {
+          "id": "01-danh-tu-btvn-01-10",
+          "name": "BTVN 1–10",
+          "description": "Bài tập về nhà của cụm 01–10 (Bài 1.1 · Con người và thứ bậc trên dưới) — 9 câu.",
+          "kind": "test",
+          "parent": "01-danh-tu",
+          "group": "01–10",
+          "itemCount": 9,
+          "order": 101,
+          "file": "vocabulary/01-danh-tu-btvn-01-10.json"
+        },
+        {
+          "id": "01-danh-tu-btvn-11-20",
+          "name": "BTVN 11–20",
+          "description": "Bài tập về nhà của cụm 11–20 (Bài 1.2 · Thân thế, tuổi tác và các mốc trưởng thành) — 10 câu.",
+          "kind": "test",
+          "parent": "01-danh-tu",
+          "group": "11–20",
+          "itemCount": 10,
+          "order": 102,
+          "file": "vocabulary/01-danh-tu-btvn-11-20.json"
         }
       ]
     },
@@ -78,6 +112,8 @@
           "name": "Bài mẫu · Kanji N3",
           "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
           "kind": "kanji",
+          "parent": "",
+          "group": "",
           "itemCount": 5,
           "order": 0,
           "file": "kanji/00-bai-mau.json"
@@ -92,6 +128,8 @@
           "name": "Bài mẫu · Ngữ pháp N3",
           "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
           "kind": "grammar",
+          "parent": "",
+          "group": "",
           "itemCount": 2,
           "order": 0,
           "file": "grammar/00-bai-mau.json"
@@ -101,6 +139,8 @@
           "name": "Đề thi thật ôn tập N4 · Nhiệm vụ 2",
           "description": "30 câu 文法 trích các đề thi thật 07/2014 – 07/2017. Làm cả bài rồi nộp, chấm một lượt.",
           "kind": "test",
+          "parent": "",
+          "group": "",
           "itemCount": 30,
           "order": 2,
           "file": "grammar/02-de-thi-that-n4-nhiem-vu-2.json"
@@ -115,6 +155,8 @@
           "name": "Bài mẫu · Đọc hiểu",
           "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
           "kind": "reading",
+          "parent": "",
+          "group": "",
           "itemCount": 1,
           "order": 0,
           "file": "reading/00-bai-mau.json"
@@ -129,6 +171,8 @@
           "name": "Bài mẫu · Nghe hiểu",
           "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
           "kind": "listening",
+          "parent": "",
+          "group": "",
           "itemCount": 1,
           "order": 0,
           "file": "listening/00-bai-mau.json"
@@ -143,6 +187,8 @@
           "name": "Bài 1",
           "description": "～ことにしている · ～こと · ～ことになっている · ～ようになっている · ～ような／ように／ようだ",
           "kind": "grammar",
+          "parent": "",
+          "group": "",
           "itemCount": 5,
           "order": 1,
           "file": "mimikara/01-bai-1.json"
