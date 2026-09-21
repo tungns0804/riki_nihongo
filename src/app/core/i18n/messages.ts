@@ -256,6 +256,12 @@ export const MESSAGES = {
   },
   'test.questionCount': { vi: '{count} câu', ja: '{count}問' },
   'test.start': { vi: 'Bắt đầu làm bài', ja: 'テストを始める' },
+  // Bài dạng đề nằm trong phần lý thuyết: khung bắt đầu thay cho khung thiết lập luyện tập.
+  'test.run': { vi: 'Làm đề', ja: '問題を解く' },
+  'test.unitHint': {
+    vi: 'Làm hết cả đề rồi nộp một lượt, không chấm từng câu. Mỗi câu có bản dịch ẩn và ô tự viết không tính điểm.',
+    ja: '最後まで解いてから提出します（1問ずつは採点しません）。各問に非表示の訳と、採点なしの記入欄があります。',
+  },
   'test.empty.title': { vi: 'Chưa có đề kiểm tra', ja: 'テストがまだありません' },
   'test.empty.text': {
     vi: 'Đặt đề vào data-source/<học phần>/entrance-test/ rồi chạy npm run generate.',

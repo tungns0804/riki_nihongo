@@ -72,6 +72,27 @@ bài tập 10 từ là một CỤM trong bài (dòng `##`, xem README của ph�
 Không có `meta.json` thì tên lấy theo tên thư mục và thứ tự lấy theo số ở đầu tên
 thư mục (`01-bai-1` → 1). Đặt tên thư mục có số ở đầu là đủ dùng.
 
+### Bài dạng ĐỀ trong phần lý thuyết
+
+Thêm `"kind": "test"` vào `meta.json` thì bài đó là một **đề** chứ không phải bài lý
+thuyết: file dữ liệu là `test.json` ([định dạng](n3-junbi/entrance-test/README.md)),
+trang bài chỉ có nút bắt đầu, và bấm vào là sang màn hình làm đề — làm cả bài rồi nộp.
+
+```json
+{
+  "name": "Đề thi thật ôn tập N4 · Nhiệm vụ 2",
+  "kind": "test",
+  "order": 2
+}
+```
+
+Chỉ đặt được trong hai phần `grammar` và `mimikara`, và `"test"` là giá trị DUY NHẤT
+được khai khác phần học — phần khác không có màn hình để hiện một đề, đặt nhầm vào đó
+thì script báo lỗi ngay.
+
+Vì sao cần: trên website Riki, "ĐỀ THI THẬT ÔN TẬP N4" là một bài nằm giữa các bài của
+phần NGỮ PHÁP chứ không phải một phần riêng, nên nó phải nằm đúng chỗ ấy trong menu.
+
 Sau khi thêm hoặc sửa nội dung:
 
 ```bash

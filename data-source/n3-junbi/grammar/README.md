@@ -39,3 +39,28 @@ File `grammar.json` — dùng chung cho phần `grammar` và phần `mimikara`.
   được, mà trang lý thuyết cũng trống.
 - Câu hỏi luyện tập được sinh từ chính các CÂU VÍ DỤ (Nhật ↔ Việt), nên ví dụ càng
   đủ thì phần luyện càng có nội dung.
+
+## Bài dạng ĐỀ trong phần này
+
+Phần Ngữ pháp còn có bài không phải lý thuyết mà là một **đề** — "Đề thi thật ôn tập
+N4 · Nhiệm vụ 2" (`02-de-thi-that-n4-nhiem-vu-2/`). Bài như vậy viết khác:
+
+```
+02-de-thi-that-n4-nhiem-vu-2/
+├── meta.json     có thêm "kind": "test"
+└── test.json     30 câu, định dạng của bài kiểm tra
+```
+
+Định dạng `test.json` nằm ở [README của phần Kiểm tra nhập
+môn](../entrance-test/README.md) — cùng một định dạng, kể cả `promptVietnamese` và
+`choicesVietnamese` (viết cho MỌI câu).
+
+Vài điểm riêng của đề ngữ pháp:
+
+- Cả đề chỉ một `section`, `"skill": "grammar"`. Màn hình làm đề không hiện hàng tab
+  khi đề chỉ đo một kỹ năng.
+- Không có `instructions`: đề gốc không in câu lệnh 問題 ở chỗ này, mà câu lệnh tự
+  nghĩ ra thì cũng chỉ là chữ thừa.
+- Câu hội thoại xuống dòng bằng `\n`, mỗi người nói một dòng đúng như đề in. Bản dịch
+  `promptVietnamese` xuống dòng theo đúng các dòng đó.
+- Kỳ thi gốc của từng câu ghi ngay cuối câu như đề của Riki: `… (07/2014)`.

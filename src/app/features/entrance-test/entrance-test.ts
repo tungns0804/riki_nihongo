@@ -5,8 +5,7 @@ import { COURSE, moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import type { ModuleId, UnitIndexEntry } from '../../core/models/content.model';
-import type { PracticeConfig } from '../../core/models/practice.model';
-import { buildQuestions } from '../../core/practice/build-questions';
+import { buildQuestions, testConfig } from '../../core/practice/build-questions';
 import { ContentStore } from '../../core/services/content-store';
 import { PracticeSessionStore } from '../../core/services/practice-session-store';
 import { ProgressStore } from '../../core/services/progress-store';
@@ -68,22 +67,13 @@ export class EntranceTest {
       const unit = await this.content.getUnit(entry.moduleId, entry.id);
       if (!unit) return;
 
-      const config: PracticeConfig = {
-        moduleId: unit.moduleId,
-        unitId: unit.id,
-        unitName: unit.name,
-        answerMode: 'choice',
-        direction: 'jp-vi',
-        questionLimit: null,
-        group: null,
-      };
-
+      const config = testConfig(unit);
       const questions = buildQuestions(unit, config);
       if (questions.length === 0) return;
 
       this.session.start(config, questions);
-      // Địa chỉ nói rõ đang làm đề nào (/n3-junbi/test/de-1/practice), cùng kiểu với các bài khác.
-      await this.router.navigate(['/', this.course.id, this.module().path, unit.id, 'practice']);
+      // Địa chỉ nói rõ đang làm đề nào (/n3-junbi/test/de-1/test-run), cùng kiểu với các bài khác.
+      await this.router.navigate(['/', this.course.id, this.module().path, unit.id, 'test-run']);
     } finally {
       this.starting.set(null);
     }

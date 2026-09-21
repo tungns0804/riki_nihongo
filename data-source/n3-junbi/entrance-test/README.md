@@ -1,8 +1,12 @@
-# Định dạng bài kiểm tra nhập môn
+# Định dạng đề kiểm tra
 
 File `test.json`. Đề chia theo PHẦN (một 問題 của đề), mỗi phần gắn một kỹ năng — màn
 hình kết quả chấm điểm theo đúng các kỹ năng này, và màn hình làm đề gom các phần
-cùng kỹ năng vào một tab.
+cùng kỹ năng vào một tab (đề chỉ đo một kỹ năng thì không hiện hàng tab).
+
+Định dạng này dùng cho MỌI bài dạng đề, không riêng phần Kiểm tra nhập môn: bài có
+`"kind": "test"` trong `meta.json` ở phần Ngữ pháp cũng viết đúng như đây (xem
+[data-source/README.md](../../README.md)).
 
 ```json
 {
@@ -37,6 +41,9 @@ cùng kỹ năng vào một tab.
   ra đề đã sắp.
 - Phần này cố tình không có màn hình xem trước nội dung — xem trước thì bài kiểm tra
   đầu vào không còn đo được gì.
+- Câu hội thoại nhiều dòng thì xuống dòng bằng `\n`, mỗi người nói một dòng như đề
+  in; màn hình làm đề giữ nguyên các dòng đó. Bản dịch `promptVietnamese` nên xuống
+  dòng ở đúng những chỗ ấy để hai bên đọc song song được.
 - `id` của câu hỏi là tuỳ chọn, nhưng nên đặt (`mg-01`, `bp-03`…): id là khoá của
   tiến độ, và đặt tay thì lần sau sửa lại câu chữ không làm mất kết quả đã lưu. Id
   phải KHÔNG TRÙNG trong cả đề — hai câu cùng id thì câu sau bị bỏ mà không báo gì.

@@ -55,28 +55,31 @@
       <p class="muted">{{ t('common.loading') }}</p>
     } @else {
       <!-- Hàng tab theo kỹ năng: một đề có tới bốn kỹ năng, xếp hết vào một trang thì
-           phải cuộn qua ba mươi câu mới tới phần muốn làm. -->
-      <div class="test-tabs" role="tablist">
-        @for (tab of tabs(); track tab.skill; let i = $index) {
-          <button
-            type="button"
-            role="tab"
-            class="test-tab"
-            [class.is-active]="i === activeIndex()"
-            [attr.aria-selected]="i === activeIndex()"
-            (click)="selectTab(i)"
-          >
-            <span class="test-tab-name"><app-t [key]="tab.labelKey" /></span>
-            @if (i === activeIndex()) {
-              <span class="badge badge-accent">{{ t('test.status.doing') }}</span>
-            } @else if (isTabDone(tab)) {
-              <span class="badge badge-success">{{ t('test.status.done') }}</span>
-            } @else {
-              <span class="badge tnum">{{ doneIn(tab) }}/{{ tab.questionIds.length }}</span>
-            }
-          </button>
-        }
-      </div>
+           phải cuộn qua ba mươi câu mới tới phần muốn làm. Đề chỉ đo MỘT kỹ năng (đề
+           ngữ pháp) thì không hiện: một tab đơn độc chỉ là một cái nhãn thừa. -->
+      @if (tabs().length > 1) {
+        <div class="test-tabs" role="tablist">
+          @for (tab of tabs(); track tab.skill; let i = $index) {
+            <button
+              type="button"
+              role="tab"
+              class="test-tab"
+              [class.is-active]="i === activeIndex()"
+              [attr.aria-selected]="i === activeIndex()"
+              (click)="selectTab(i)"
+            >
+              <span class="test-tab-name"><app-t [key]="tab.labelKey" /></span>
+              @if (i === activeIndex()) {
+                <span class="badge badge-accent">{{ t('test.status.doing') }}</span>
+              } @else if (isTabDone(tab)) {
+                <span class="badge badge-success">{{ t('test.status.done') }}</span>
+              } @else {
+                <span class="badge tnum">{{ doneIn(tab) }}/{{ tab.questionIds.length }}</span>
+              }
+            </button>
+          }
+        </div>
+      }
 
       @if (activeTab(); as tab) {
         <div class="test-collapse-row">

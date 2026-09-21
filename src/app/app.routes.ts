@@ -84,22 +84,32 @@ function moduleRoutes(module: ModuleDef): Routes {
 
   return [
     ...pages,
-    // Luyện tập và kết quả nằm DƯỚI địa chỉ của bài đang luyện
-    // (/n3-junbi/vocabulary/02-dong-tu/practice), để thanh địa chỉ nói rõ đang luyện
+    // Luyện tập, làm đề và kết quả nằm DƯỚI địa chỉ của bài đang học
+    // (/n3-junbi/vocabulary/02-dong-tu/practice), để thanh địa chỉ nói rõ đang học
     // phần nào, bài nào, và mục menu của phần đó vẫn sáng — menu sáng theo đoạn phần học
     // của địa chỉ (xem `section` trong app.ts).
     //
-    // Không có link vào từ menu: chúng chỉ tới từ nút "bắt đầu luyện" của một bài. Guard
+    // Không có link vào từ menu: chúng chỉ tới từ nút "bắt đầu" của một bài. Guard
     // chặn người vào thẳng bằng URL khi không có phiên của đúng bài đó.
     {
       path: `${module.path}/:id/practice`,
-      title: module.kind === 'test' ? 'route.testRun' : 'route.practice',
+      title: 'route.practice',
       data,
       canActivate: [practiceGuard],
-      // Đề kiểm tra có màn hình LÀM ĐỀ riêng: làm cả bài rồi nộp, không phải mỗi câu
-      // một thẻ chấm ngay như luyện tập (xem features/test-run). Dùng chung địa chỉ
-      // và chung guard với luyện tập vì cùng là "đang làm dở một phiên của bài này".
-      loadComponent: module.kind === 'test' ? testRun : practice,
+      loadComponent: practice,
+    },
+    // Đề có màn hình LÀM ĐỀ riêng: làm cả bài rồi nộp, không phải mỗi câu một thẻ
+    // chấm ngay như luyện tập (xem features/test-run). Một ĐOẠN ĐỊA CHỈ KHÁC chứ
+    // không dùng chung `practice`: cùng một phần học có thể chứa cả bài lý thuyết
+    // lẫn bài dạng đề (Ngữ pháp có "Đề thi thật ôn tập N4"), nên không suy ra được
+    // màn hình từ phần học nữa — địa chỉ phải tự nói ra, và nhờ vậy breadcrumb với
+    // tiêu đề tab cũng gọi đúng tên màn hình đang mở.
+    {
+      path: `${module.path}/:id/test-run`,
+      title: 'route.testRun',
+      data,
+      canActivate: [practiceGuard],
+      loadComponent: testRun,
     },
     {
       path: `${module.path}/:id/result`,

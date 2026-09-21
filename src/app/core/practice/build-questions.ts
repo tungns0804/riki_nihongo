@@ -439,6 +439,26 @@ export function fromQuizQuestions(questions: readonly QuizQuestion[]): PracticeQ
 
 // ── Cửa vào chung ──────────────────────────────────────────────────────────
 
+/**
+ * Cấu hình phiên của một bài dạng ĐỀ.
+ *
+ * Đề không đi qua khung thiết lập luyện tập vì không có gì để đặt: làm cả bài, giữ
+ * nguyên thứ tự đề, và trả lời bằng chính bốn lựa chọn của đề. Viết một lần ở đây
+ * để danh sách đề kiểm tra và trang một bài đề trong phần Ngữ pháp mở bài theo cùng
+ * một cách.
+ */
+export function testConfig(unit: Unit): PracticeConfig {
+  return {
+    moduleId: unit.moduleId,
+    unitId: unit.id,
+    unitName: unit.name,
+    answerMode: 'choice',
+    direction: 'jp-vi',
+    questionLimit: null,
+    group: null,
+  };
+}
+
 /** Phần này có luyện được theo chiều đó không (bài thiếu cách đọc thì không). */
 export function directionIsUsable(unit: Unit, direction: PracticeDirection): boolean {
   if (direction === 'jp-sentence') {

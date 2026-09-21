@@ -10,7 +10,7 @@ dung:
 | Bài kiểm tra nhập môn N3      | `/n3-junbi/test`        | Đề đầu vào: làm cả bài rồi nộp, chấm theo từng kỹ năng  |
 | Từ vựng                       | `/n3-junbi/vocabulary`  | Bảng từ + luyện tập bốn chiều                           |
 | KANJI                         | `/n3-junbi/kanji`       | Thẻ chữ Hán: âm On/Kun, âm Hán Việt, số nét, từ ghép    |
-| Ngữ pháp                      | `/n3-junbi/grammar`     | Trang lý thuyết: công thức, cách dùng, ví dụ            |
+| Ngữ pháp                      | `/n3-junbi/grammar`     | Trang lý thuyết: công thức, cách dùng, ví dụ — và đề thi thật |
 | Đọc hiểu                      | `/n3-junbi/reading`     | Bài đọc + câu hỏi trả lời tại chỗ + bản dịch ẩn         |
 | Nghe hiểu                     | `/n3-junbi/listening`   | Trình phát + câu hỏi + lời thoại ẩn                     |
 | Ngữ pháp MIMIKARA OBOERU      | `/n3-junbi/mimikara`    | Như phần Ngữ pháp, theo giáo trình 耳から覚える          |
@@ -63,7 +63,8 @@ từng loại nằm trong `README.md` của thư mục phần học:
 - [Ngữ pháp](data-source/n3-junbi/grammar/README.md) và [Mimikara](data-source/n3-junbi/mimikara/README.md) — file `.json`
 - [Đọc hiểu](data-source/n3-junbi/reading/README.md) — file `.json`
 - [Nghe hiểu](data-source/n3-junbi/listening/README.md) — file `.json`, âm thanh đặt trong `public/audio/`
-- [Kiểm tra nhập môn](data-source/n3-junbi/entrance-test/README.md) — file `.json`
+- [Đề kiểm tra](data-source/n3-junbi/entrance-test/README.md) — file `.json`, dùng cho
+  cả bài dạng đề nằm trong phần Ngữ pháp
 
 Phần **Kiểm tra nhập môn** của N3 JUNBI có đề thật "Kiểm tra nhập môn N3" — 33 câu
 theo đúng thứ tự đề: 文字語彙 20 câu (cách đọc 5, cách viết 5, điền từ 5, câu đồng
@@ -78,18 +79,28 @@ Phần **Từ vựng** của N3 JUNBI đã có nội dung thật: mục "Danh t�
 từ mới đặt chỗ, đang chờ nội dung. Bên BTVN, mục "Danh từ" có 70 từ chia bảy cụm theo bảy
 bài tập, cũng có bảng "Tóm tắt bài".
 
+Phần **Ngữ pháp** của N3 JUNBI có bài "Đề thi thật ôn tập N4 · Nhiệm vụ 2" — 30 câu
+文法 chép theo các đề thật 07/2014 – 07/2017, mỗi câu có bản dịch của câu hỏi và của cả
+bốn đáp án. Đây là bài dạng ĐỀ nằm giữa các bài lý thuyết, đúng như trên website Riki:
+trang bài chỉ có nút bắt đầu, bấm vào là sang màn hình làm đề
+([cách nạp](data-source/n3-junbi/grammar/README.md)).
+
 Các thư mục `00-bai-mau` ở những phần còn lại là **bài mẫu** để kiểm tra đường ống
 nội dung — xoá đi khi đã có bài thật.
 
-## Làm đề kiểm tra
+## Làm đề
 
-Đề kiểm tra KHÔNG dùng màn hình luyện tập: đề thi thì làm cả bài rồi nộp, không phải
+Một bài dạng ĐỀ nằm ở hai chỗ: cả phần **Kiểm tra nhập môn**, và bài có `"kind": "test"`
+trong một phần lý thuyết (phần Ngữ pháp có "Đề thi thật ôn tập N4"). Cả hai đều mở bằng
+nút bắt đầu rồi sang cùng một màn hình, địa chỉ `…/<bài>/test-run`.
+
+Đề KHÔNG dùng màn hình luyện tập: đề thi thì làm cả bài rồi nộp, không phải
 mỗi câu một thẻ chấm ngay. Màn hình riêng của nó (`features/test-run`) làm theo trang
 làm bài của Riki:
 
 - **Hàng tab theo kỹ năng** (Kanji · Từ vựng · Ngữ pháp · Đọc hiểu), mỗi tab hiện
   nhãn "Đang làm" / "Đã làm" hoặc số câu đã trả lời. Thanh trên đếm cả tab đang mở
-  lẫn cả đề.
+  lẫn cả đề. Đề chỉ đo MỘT kỹ năng (đề ngữ pháp) thì không có hàng tab.
 - **Câu lệnh 問題** in trong khung nét đứt trên đầu mỗi phần, đúng như đề giấy.
 - Mỗi câu bốn lựa chọn xếp **hai cột** với vòng tròn kiểu radio; bấm lại lựa chọn
   đang chọn thì bỏ chọn. Viền thẻ đổi màu khi câu đã có đáp án, nhưng **không** nói
@@ -223,7 +234,8 @@ src/app/
     ├── entrance-test/              danh sách đề kiểm tra nhập môn (nút bắt đầu)
     ├── test-run/                   MÀN HÌNH LÀM ĐỀ: tab theo kỹ năng, nộp bài mới chấm
     ├── practice/ result/           màn hình luyện tập và màn hình kết quả (dùng chung)
-    └── shared/                     bộ chọn học phần, khung thiết lập luyện tập, khối câu hỏi
+    └── shared/                     bộ chọn học phần, khung thiết lập luyện tập, khung
+                                    bắt đầu làm đề, khối câu hỏi
 ```
 
 Những điểm đáng nhớ khi sửa về sau:
@@ -244,12 +256,18 @@ Những điểm đáng nhớ khi sửa về sau:
    `data.moduleId` của route. Màn hình chi tiết thì tách riêng theo hình dạng dữ liệu.
 5. **Phần Mimikara dùng lại màn hình Ngữ pháp** vì cùng hình dạng dữ liệu; nó là hai
    phần trên giao diện vì là hai giáo trình khác nhau.
-6. **Đề kiểm tra dùng màn hình riêng nhưng chung địa chỉ với luyện tập.**
-   `/n3-junbi/test/de-1/practice` nạp `features/test-run` thay cho `features/practice`
-   (rẽ theo `module.kind` trong `app.routes.ts`), vẫn qua `practiceGuard` và vẫn kết
-   thúc ở `features/result`. Đề chấm MỘT LƯỢT lúc nộp bằng `PracticeSessionStore.submitAll`,
-   nhận map theo id câu chứ không theo thứ tự — trang làm đề xếp câu theo phần và theo
-   bài đọc, còn phiên giữ một danh sách phẳng.
+6. **Đề có màn hình riêng và ĐOẠN ĐỊA CHỈ riêng.** `…/<bài>/practice` là luyện tập,
+   `…/<bài>/test-run` là làm đề (`/n3-junbi/test/de-1/test-run`,
+   `/n3-junbi/grammar/02-de-thi-that-n4-nhiem-vu-2/test-run`) — hai đoạn khác nhau vì
+   không suy được màn hình từ phần học nữa: phần Ngữ pháp có cả bài lý thuyết lẫn bài
+   dạng đề. Nhờ vậy breadcrumb và tiêu đề tab cũng gọi đúng tên màn hình. Cả hai vẫn
+   qua `practiceGuard` và vẫn kết thúc ở `features/result`. Đề chấm MỘT LƯỢT lúc nộp
+   bằng `PracticeSessionStore.submitAll`, nhận map theo id câu chứ không theo thứ tự —
+   trang làm đề xếp câu theo phần và theo bài đọc, còn phiên giữ một danh sách phẳng.
+7. **Loại bài theo BÀI chứ không theo phần học.** `meta.json` khai `"kind": "test"` thì
+   bài đó là đề dù nằm trong phần Ngữ pháp; trang bài khi ấy hiện `shared/test-start`
+   thay cho khung thiết lập luyện tập. Chỉ `grammar` và `mimikara` nhận được (bộ sinh
+   chặn chỗ khác), vì chỉ màn hình của chúng biết hiện một đề.
 
 ## Deploy
 

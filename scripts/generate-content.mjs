@@ -181,15 +181,53 @@ function findDataFile(folderPath, kind, label) {
   return join(folderPath, matched[0]);
 }
 
+/**
+ * Phần học có thể chứa bài dạng ĐỀ (`meta.json` khai `"kind": "test"`).
+ *
+ * Chỉ hai phần ngữ pháp, vì chỉ trang bài của chúng biết hiện khung "bắt đầu làm
+ * đề" (xem features/grammar-detail). Đặt đề vào phần từ vựng hay kanji thì bài vẫn
+ * sinh ra được nhưng mở lên chỉ thấy trang trống — báo lỗi ngay ở đây còn hơn để
+ * người học phát hiện hộ.
+ */
+const TEST_HOSTS = new Set(['grammar', 'mimikara']);
+
+/**
+ * Loại nội dung của một bài: theo phần học, trừ khi `meta.json` khai khác.
+ *
+ * Khai khác chỉ để một chỗ: bài dạng ĐỀ nằm trong phần lý thuyết — "Đề thi thật ôn
+ * tập N4" là một bài của phần Ngữ pháp trên website Riki, không phải một phần riêng,
+ * nên nó phải nằm đúng chỗ đó trong menu (xem README).
+ */
+function kindOf(module, meta, label) {
+  const raw = meta.kind;
+  if (typeof raw !== 'string' || !raw || raw === module.kind) return module.kind;
+
+  if (raw !== 'test') {
+    fail(`[${label}] meta.json khai "kind": "${raw}" — chỉ "test" mới được khai khác phần học`);
+    return module.kind;
+  }
+  if (!TEST_HOSTS.has(module.id)) {
+    fail(
+      `[${label}] bài dạng đề ("kind": "test") chỉ đặt được trong: ${[...TEST_HOSTS].join(', ')}`,
+    );
+    return module.kind;
+  }
+  return 'test';
+}
+
 /** Đọc một bài và dựng nội dung đã chuẩn hoá. Trả về null nếu bài đó hỏng. */
 function buildUnit(course, module, folderName) {
   const folderPath = join(SOURCE_DIR, course.id, module.folder, folderName);
   const label = `${course.id}/${module.folder}/${folderName}`;
 
-  const dataFile = findDataFile(folderPath, module.kind, label);
+  // Đọc meta TRƯỚC khi tìm file dữ liệu: meta mới là chỗ nói bài này thuộc loại nào,
+  // mà loại quyết định file dữ liệu tên gì (grammar.json hay test.json).
+  const meta = readMeta(folderPath, label);
+  const kind = kindOf(module, meta, label);
+
+  const dataFile = findDataFile(folderPath, kind, label);
   if (!dataFile) return null;
 
-  const meta = readMeta(folderPath, label);
   const id = typeof meta.id === 'string' && meta.id ? slugify(meta.id) : slugify(folderName);
   const name = typeof meta.name === 'string' && meta.name ? meta.name : folderName;
   const description = typeof meta.description === 'string' ? meta.description : '';
@@ -201,8 +239,8 @@ function buildUnit(course, module, folderName) {
   if (dataFile === PLACEHOLDER) {
     placeholderCount++;
     return {
-      entry: { id, name, description, kind: module.kind, itemCount: 0, order, file: `${module.folder}/${id}.json` },
-      content: { id, name, description, kind: module.kind, ...emptyPayload(module.kind) },
+      entry: { id, name, description, kind, itemCount: 0, order, file: `${module.folder}/${id}.json` },
+      content: { id, name, description, kind, ...emptyPayload(kind) },
       placeholder: true,
     };
   }
@@ -213,25 +251,25 @@ function buildUnit(course, module, folderName) {
   let warnings = [];
 
   try {
-    if (module.kind === 'vocabulary') {
+    if (kind === 'vocabulary') {
       const parsed = parseVocabulary(raw);
       payload = { groups: parsed.groups, words: parsed.words };
       warnings = parsed.warnings;
-    } else if (module.kind === 'kanji') {
+    } else if (kind === 'kanji') {
       const parsed = parseKanji(raw);
       payload = { kanji: parsed.entries };
       warnings = parsed.warnings;
     } else {
       const json = JSON.parse(raw);
-      if (module.kind === 'grammar') {
+      if (kind === 'grammar') {
         const parsed = normalizeGrammar(json);
         payload = { points: parsed.points };
         warnings = parsed.warnings;
-      } else if (module.kind === 'reading') {
+      } else if (kind === 'reading') {
         const parsed = normalizeReading(json);
         payload = { passages: parsed.passages };
         warnings = parsed.warnings;
-      } else if (module.kind === 'listening') {
+      } else if (kind === 'listening') {
         const parsed = normalizeListening(json);
         payload = { tracks: parsed.tracks };
         warnings = parsed.warnings;
@@ -246,7 +284,7 @@ function buildUnit(course, module, folderName) {
     return null;
   }
 
-  const itemCount = countItems(module.kind, payload);
+  const itemCount = countItems(kind, payload);
   if (itemCount === 0) {
     fail(`[${label}] không có mục nào dùng được`);
     for (const message of warnings) warn(`[${label}] ${message}`);
@@ -257,8 +295,8 @@ function buildUnit(course, module, folderName) {
 
   return {
     // `file` tính từ thư mục của học phần, nên danh mục không phải lặp lại tên học phần.
-    entry: { id, name, description, kind: module.kind, itemCount, order, file: `${module.folder}/${id}.json` },
-    content: { id, name, description, kind: module.kind, ...payload },
+    entry: { id, name, description, kind, itemCount, order, file: `${module.folder}/${id}.json` },
+    content: { id, name, description, kind, ...payload },
     placeholder: false,
   };
 }

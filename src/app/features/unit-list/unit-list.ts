@@ -92,6 +92,17 @@ export class UnitList {
     return this.progress.bestPercent(unitId);
   }
 
+  /**
+   * Nhãn số mục trên thẻ bài: "30 câu" với bài dạng đề, "30 mục" với bài thường.
+   *
+   * Một phần học có thể chứa cả hai (Ngữ pháp có "Đề thi thật ôn tập N4"), mà với đề
+   * thì "câu" là đơn vị người học hình dung được — "mục" nghe như số mẫu ngữ pháp.
+   */
+  protected itemLabel(unit: UnitIndexEntry): string {
+    const key = unit.kind === 'test' ? 'test.questionCount' : 'unit.itemCount';
+    return this.t(key, { count: unit.itemCount });
+  }
+
   protected onSearch(event: Event): void {
     this.searchRef.set((event.target as HTMLInputElement).value);
   }

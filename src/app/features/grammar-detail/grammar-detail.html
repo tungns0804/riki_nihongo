@@ -35,7 +35,11 @@
     }
 
     @if (unit(); as data) {
-      @if (points().length > 0) {
+      <!-- Bài của phần này có thể là ĐỀ chứ không phải lý thuyết ("Đề thi thật ôn tập
+           N4"): khi đó cả trang chỉ có khung bắt đầu làm đề. -->
+      @if (data.kind === 'test') {
+        <app-test-start [unit]="data" />
+      } @else if (points().length > 0) {
         <!-- Tóm tắt đứng TRƯỚC khung luyện tập: nắm cả bài trong một màn hình rồi mới
              chọn luyện hay đọc chi tiết, giống slide tổng hợp cuối bài giảng. -->
         @if (showOverview()) {

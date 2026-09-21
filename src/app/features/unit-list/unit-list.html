@@ -120,7 +120,7 @@
                 @if (pending) {
                   <span class="badge">{{ t('unit.pending') }}</span>
                 } @else {
-                  <span class="badge">{{ t('unit.itemCount', { count: unit.itemCount }) }}</span>
+                  <span class="badge">{{ itemLabel(unit) }}</span>
                   <span class="spacer"></span>
                   <span class="card-go" aria-hidden="true">→</span>
                 }

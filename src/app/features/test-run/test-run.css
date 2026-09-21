@@ -235,11 +235,15 @@
   gap: 4px;
 }
 
+/* `pre-line`: câu hội thoại của đề xuống dòng theo từng người nói
+   (A：「…」 / B：「…」), đúng như đề in. Nguồn viết xuống dòng thế nào thì giữ y vậy,
+   gộp lại một dòng dài thì không còn nhìn ra ai đang nói. */
 .test-prompt {
   margin: 0;
   font-size: var(--fs-lg);
   font-weight: 550;
   line-height: 1.7;
+  white-space: pre-line;
 }
 
 /* Bản dịch dùng màu nhấn để tách hẳn khỏi chữ tiếng Nhật, liếc là biết dòng nào là
@@ -248,6 +252,8 @@
   margin: 0;
   color: var(--accent);
   font-size: var(--fs-sm);
+  /* Bản dịch xuống dòng theo đúng câu gốc — xem .test-prompt. */
+  white-space: pre-line;
 }
 
 .translate-btn {

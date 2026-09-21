@@ -27,9 +27,10 @@ import { Icon } from './features/shared/icon/icon';
 /** Cuộn quá ngưỡng này thì nút "lên đầu trang" hiện ra (đơn vị: px). */
 const BACK_TO_TOP_AT = 700;
 
-/** Nhãn breadcrumb của đoạn cuối địa chỉ luyện tập / kết quả. */
+/** Nhãn breadcrumb của đoạn cuối địa chỉ: luyện tập, làm đề hay kết quả. */
 const ACTION_KEY: Readonly<Record<string, MessageKey>> = {
   practice: 'route.practice',
+  'test-run': 'route.testRun',
   result: 'route.result',
 };
 
@@ -163,14 +164,10 @@ export class App {
       });
     }
 
-    // Đề kiểm tra dùng chung đoạn "/practice" với luyện tập (xem app.routes.ts), nhưng
-    // trên trang đó người học đang LÀM ĐỀ, gọi là "Luyện tập" là nói sai.
-    const actionKey =
-      module.kind === 'test' && action === 'practice'
-        ? 'route.testRun'
-        : action
-          ? ACTION_KEY[action]
-          : undefined;
+    // Đoạn cuối tự nói đang ở màn hình nào ("/practice" luyện tập, "/test-run" làm đề),
+    // nên không phải đoán theo phần học nữa — mà cũng không đoán được: phần Ngữ pháp có
+    // cả bài lý thuyết lẫn bài dạng đề.
+    const actionKey = action ? ACTION_KEY[action] : undefined;
     if (actionKey) trail.push({ label: this.t(actionKey), link: null });
 
     trail[trail.length - 1] = { ...trail[trail.length - 1], link: null };

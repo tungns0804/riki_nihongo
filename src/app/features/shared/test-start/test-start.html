@@ -1,0 +1,27 @@
+<section class="card">
+  <div class="card-body stack setup">
+    <div class="section-head">
+      <h2><app-t key="test.run" /></h2>
+      <span class="spacer"></span>
+      <span class="badge">{{ t('test.questionCount', { count: questions().length }) }}</span>
+      <!-- So với null chứ không dùng `as`: 0% cũng là một lần đã làm bài. -->
+      @let percent = best();
+      @if (percent !== null) {
+        <span class="badge badge-success">{{ t('result.percent', { percent: percent }) }}</span>
+      }
+    </div>
+
+    <p class="hint"><app-t key="test.unitHint" block /></p>
+
+    <div class="row">
+      <button
+        type="button"
+        class="btn btn-primary btn-lg"
+        [disabled]="questions().length === 0"
+        (click)="start()"
+      >
+        {{ t('test.start') }}
+      </button>
+    </div>
+  </div>
+</section>

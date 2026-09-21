@@ -1,0 +1,1006 @@
+{
+  "id": "02-de-thi-that-n4-nhiem-vu-2",
+  "name": "Đề thi thật ôn tập N4 · Nhiệm vụ 2",
+  "description": "30 câu 文法 trích các đề thi thật 07/2014 – 07/2017. Làm cả bài rồi nộp, chấm một lượt.",
+  "kind": "test",
+  "sections": [
+    {
+      "id": "n4-nv2",
+      "title": "文法 — Đề thi thật ôn tập N4 · Nhiệm vụ 2 (30 câu)",
+      "instructions": "",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n4-2-01",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（講演会で）\n「みなさんは、インターネットに40年以上の歴史があることを（　）か。」",
+          "promptTranslation": "(Tại buổi diễn thuyết)\n「Quý vị có （　） rằng internet đã có hơn 40 năm lịch sử không ạ?」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "なさいます",
+              "translation": "なさいます · làm (tôn kính của する)"
+            },
+            {
+              "id": "c2",
+              "text": "ご存じです",
+              "translation": "ご存じです · biết (tôn kính của 知っている)"
+            },
+            {
+              "id": "c3",
+              "text": "申します",
+              "translation": "申します · tôi nói, tôi tên là (khiêm nhường của 言う)"
+            },
+            {
+              "id": "c4",
+              "text": "お目にかかります",
+              "translation": "お目にかかります · được gặp (khiêm nhường của 会う)"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-02",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：「日曜日はいつも何をしていますか。」\nB：「本を（　）しています。」 (07/2014)",
+          "promptTranslation": "A: 「Chủ nhật bạn thường làm gì?」\nB: 「Tôi （　） sách này nọ.」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "読んだり",
+              "translation": "読んだり · nào là đọc… (thể たり, kể ra vài việc)"
+            },
+            {
+              "id": "c2",
+              "text": "読んだから",
+              "translation": "読んだから · vì đã đọc"
+            },
+            {
+              "id": "c3",
+              "text": "読んで",
+              "translation": "読んで · đọc rồi (thể て nối câu)"
+            },
+            {
+              "id": "c4",
+              "text": "読んでから",
+              "translation": "読んでから · sau khi đọc xong"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-03",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "夜中に漫画を読んでいたら、父に早く（　）と怒られた。 (07/2014)",
+          "promptTranslation": "Đang đọc truyện tranh lúc nửa đêm thì bị bố mắng là 「（　） sớm đi」.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "寝られる",
+              "translation": "寝られる · ngủ được (thể khả năng)"
+            },
+            {
+              "id": "c2",
+              "text": "寝ている",
+              "translation": "寝ている · đang ngủ"
+            },
+            {
+              "id": "c3",
+              "text": "寝ろ",
+              "translation": "寝ろ · ngủ đi! (thể mệnh lệnh)"
+            },
+            {
+              "id": "c4",
+              "text": "寝たいか",
+              "translation": "寝たいか · có muốn ngủ không"
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-04",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：「雨、やんだ？」\nB：「さっき外に出たときはもう（　）よ。」 (07/2014)",
+          "promptTranslation": "A: 「Mưa tạnh chưa?」\nB: 「Lúc nãy tớ ra ngoài thì đã （　） rồi đấy.」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "降らない",
+              "translation": "降らない · (trời) không mưa"
+            },
+            {
+              "id": "c2",
+              "text": "降っていない",
+              "translation": "降っていない · bây giờ đang không mưa"
+            },
+            {
+              "id": "c3",
+              "text": "降らなかった",
+              "translation": "降らなかった · đã không mưa"
+            },
+            {
+              "id": "c4",
+              "text": "降っていなかった",
+              "translation": "降っていなかった · lúc đó đã không còn mưa"
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-05",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：「来月、大阪に出張するんだけど、いいホテル、知らない？」\nB：「駅の近くで（　）、一つ、知ってるよ。」 (07/2014)",
+          "promptTranslation": "A: 「Tháng sau tớ đi công tác Osaka, cậu có biết khách sạn nào tốt không?」\nB: 「（　） gần ga thì tớ biết một chỗ đấy.」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "よくないと",
+              "translation": "よくないと · nếu không tốt (điều kiện と)"
+            },
+            {
+              "id": "c2",
+              "text": "なくてもいいと",
+              "translation": "なくてもいいと · nếu không có cũng được (điều kiện と)"
+            },
+            {
+              "id": "c3",
+              "text": "よくなければ",
+              "translation": "よくなければ · nếu không tốt (điều kiện ば)"
+            },
+            {
+              "id": "c4",
+              "text": "なくてもよければ",
+              "translation": "なくてもよければ · nếu không cần (gần ga) cũng được"
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-06",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "田中さんは鉄道が大好きで、列車の写真を撮る（　）、どこへでも行く。 (07/2014)",
+          "promptTranslation": "Anh Tanaka rất mê đường sắt, （　） chụp ảnh tàu thì đi đâu anh ấy cũng đi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ためなら",
+              "translation": "ためなら · nếu là để (làm việc gì đó)"
+            },
+            {
+              "id": "c2",
+              "text": "ためで",
+              "translation": "ためで · vì, do (nối câu)"
+            },
+            {
+              "id": "c3",
+              "text": "からなら",
+              "translation": "からなら · nếu từ (nơi hoặc lúc nào đó)"
+            },
+            {
+              "id": "c4",
+              "text": "からで",
+              "translation": "からで · vì… nên (nối câu)"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-07",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "森さんが飼っている魚は、とてもきれいな色（　）している。 (12/2014)",
+          "promptTranslation": "Con cá anh Mori nuôi có màu rất đẹp.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "が",
+              "translation": "が · trợ từ chủ ngữ"
+            },
+            {
+              "id": "c2",
+              "text": "を",
+              "translation": "を · trợ từ tân ngữ (色をしている = mang màu…)"
+            },
+            {
+              "id": "c3",
+              "text": "も",
+              "translation": "も · cũng"
+            },
+            {
+              "id": "c4",
+              "text": "より",
+              "translation": "より · hơn (so sánh)"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-08",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "インターネットで注文したセーターは、実際に着てみるまでサイズが（　）が、ちょうどよかった。 (12/2014)",
+          "promptTranslation": "Chiếc áo len đặt trên mạng, cho tới khi mặc thử thì （　）, nhưng hoá ra vừa in.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "合って不安がない",
+              "translation": "合って不安がない · vừa nên không lo"
+            },
+            {
+              "id": "c2",
+              "text": "合ったから不安だ",
+              "translation": "合ったから不安だ · vì đã vừa nên lo"
+            },
+            {
+              "id": "c3",
+              "text": "合うし不安もない",
+              "translation": "合うし不安もない · vừa mà cũng chẳng lo"
+            },
+            {
+              "id": "c4",
+              "text": "合うか不安だった",
+              "translation": "合うか不安だった · đã lo không biết có vừa không"
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-09",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "学生：「先生、ご相談したいことがあるんですが、明日の午後は研究室に（　）か。」\n先生：「明日ですか、明日から出張なんですが。」 (07/2015)",
+          "promptTranslation": "Sinh viên: 「Thưa thầy, em có việc muốn xin ý kiến, chiều mai thầy có （　） ở phòng nghiên cứu không ạ?」\nThầy: 「Ngày mai à, từ mai tôi đi công tác mất rồi.」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "おります",
+              "translation": "おります · tôi có mặt (khiêm nhường của いる)"
+            },
+            {
+              "id": "c2",
+              "text": "お会いになります",
+              "translation": "お会いになります · gặp (tôn kính của 会う)"
+            },
+            {
+              "id": "c3",
+              "text": "いらっしゃいます",
+              "translation": "いらっしゃいます · có mặt, đến (tôn kính của いる・来る・行く)"
+            },
+            {
+              "id": "c4",
+              "text": "お目にかかります",
+              "translation": "お目にかかります · được gặp (khiêm nhường của 会う)"
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-10",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "店員：「はい、田村美容院です。」\n西川：「あ、3時に予約している西川です。すみませんが、急に用事が入ってしまったので、今日の予約をキャンセル（　）。」\n店員：「はい、わかりました。ご連絡ありがとうございました。」",
+          "promptTranslation": "Nhân viên: 「Vâng, tiệm làm tóc Tamura xin nghe.」\nNishikawa: 「À, tôi là Nishikawa có hẹn lúc 3 giờ. Xin lỗi, tôi đột xuất có việc nên （　） huỷ lịch hôm nay.」\nNhân viên: 「Vâng, tôi đã rõ. Cảm ơn quý khách đã báo.」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "でございますか",
+              "translation": "でございますか · là … phải không ạ (lịch sự của です)"
+            },
+            {
+              "id": "c2",
+              "text": "くださいませんか",
+              "translation": "くださいませんか · ngài làm … cho tôi được không ạ"
+            },
+            {
+              "id": "c3",
+              "text": "したいんでしょうか",
+              "translation": "したいんでしょうか · chắc là muốn làm nhỉ"
+            },
+            {
+              "id": "c4",
+              "text": "させてください",
+              "translation": "させてください · xin cho phép tôi được (huỷ)"
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-11",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "この問題は、数学が苦手な私（　）難しかった。 (07/2015)",
+          "promptTranslation": "Bài này, （　） tôi — người dốt toán — thì khó.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "へ",
+              "translation": "へ · tới, về phía (hướng)"
+            },
+            {
+              "id": "c2",
+              "text": "には",
+              "translation": "には · đối với … thì"
+            },
+            {
+              "id": "c3",
+              "text": "で",
+              "translation": "で · ở, bằng"
+            },
+            {
+              "id": "c4",
+              "text": "より",
+              "translation": "より · hơn (so sánh)"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-12",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "国際経営学部では何を学ぶこと（　）知りたくて、大学の説明会に参加した。 (07/2015)",
+          "promptTranslation": "Tôi muốn biết ở khoa Quản trị kinh doanh quốc tế （　） học được những gì, nên đã dự buổi giới thiệu của trường.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ができるのか",
+              "translation": "ができるのか · có thể học được gì (câu hỏi gián tiếp)"
+            },
+            {
+              "id": "c2",
+              "text": "ができるのを",
+              "translation": "ができるのを · việc có thể làm được (làm tân ngữ)"
+            },
+            {
+              "id": "c3",
+              "text": "になれるのか",
+              "translation": "になれるのか · có thể trở thành … không"
+            },
+            {
+              "id": "c4",
+              "text": "になれるのを",
+              "translation": "になれるのを · việc có thể trở thành (làm tân ngữ)"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-13",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "初めてアルバイトをして、お金を稼ぐのがどれだけ（　）わかった。 (12/2015)",
+          "promptTranslation": "Lần đầu đi làm thêm, tôi đã hiểu kiếm tiền （　） đến mức nào.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "大変か",
+              "translation": "大変か · vất vả đến mức nào (đi với どれだけ)"
+            },
+            {
+              "id": "c2",
+              "text": "大変だと",
+              "translation": "大変だと · rằng vất vả"
+            },
+            {
+              "id": "c3",
+              "text": "大変かどうか",
+              "translation": "大変かどうか · có vất vả hay không"
+            },
+            {
+              "id": "c4",
+              "text": "大変なのが",
+              "translation": "大変なのが · việc vất vả (làm chủ ngữ)"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-14",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "たくさん買い物したので、財布に500円（　）残っていない。 (12/2015)",
+          "promptTranslation": "Vì mua sắm nhiều nên trong ví （　） 500 yên.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "では",
+              "translation": "では · ở, bằng … thì"
+            },
+            {
+              "id": "c2",
+              "text": "ぐらいは",
+              "translation": "ぐらいは · khoảng … thì (có)"
+            },
+            {
+              "id": "c3",
+              "text": "でしか",
+              "translation": "でしか · chỉ bằng, chỉ ở"
+            },
+            {
+              "id": "c4",
+              "text": "ぐらいしか",
+              "translation": "ぐらいしか · chỉ còn khoảng (đi với 〜ない)"
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-15",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（テレビの料理番組で）\n「次に、鍋に油を入れ、170度（　）温めてください。」 (12/2015)",
+          "promptTranslation": "(Trong chương trình dạy nấu ăn trên TV)\n「Tiếp theo, cho dầu vào nồi rồi đun （　） 170 độ.」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "になるまで",
+              "translation": "になるまで · cho tới khi đạt (170 độ)"
+            },
+            {
+              "id": "c2",
+              "text": "にしたくなって",
+              "translation": "にしたくなって · đâm ra muốn để thành"
+            },
+            {
+              "id": "c3",
+              "text": "になっていって",
+              "translation": "になっていって · cứ dần trở thành"
+            },
+            {
+              "id": "c4",
+              "text": "にするよに",
+              "translation": "にするよに · không có cách nói này (viết đúng là にするように)"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-16",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "私の夢は、世界中の（　）愛される車を作ることだ。 (12/2015)",
+          "promptTranslation": "Ước mơ của tôi là làm ra chiếc xe được （　） trên khắp thế giới yêu thích.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "誰かも",
+              "translation": "誰かも · không có cách nói này"
+            },
+            {
+              "id": "c2",
+              "text": "誰でも",
+              "translation": "誰でも · bất cứ ai (làm chủ thể hành động)"
+            },
+            {
+              "id": "c3",
+              "text": "誰からも",
+              "translation": "誰からも · bởi bất cứ ai (đi với thể bị động 愛される)"
+            },
+            {
+              "id": "c4",
+              "text": "誰かにでも",
+              "translation": "誰かにでも · dù là với một ai đó"
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-17",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（不動産屋で）\nA：「こちらのアパートはいかがですか。」\nB：「ううん、家賃は安いけど、駅まで歩いて20分もかかるのかな。」\nA：「少し家賃が高くても駅に（　）、こちらはどうでしょうか。」 (07/2016)",
+          "promptTranslation": "(Ở văn phòng bất động sản)\nA: 「Căn hộ này thì thế nào ạ?」\nB: 「Ừm, tiền nhà rẻ nhưng đi bộ ra ga mất tận 20 phút cơ à.」\nA: 「（　） thì dù tiền nhà cao hơn chút, căn này thế nào ạ?」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "近いほうがいいかどうか",
+              "translation": "近いほうがいいかどうか · không biết gần hơn có tốt hơn không"
+            },
+            {
+              "id": "c2",
+              "text": "近すぎないかどうか",
+              "translation": "近すぎないかどうか · có quá gần hay không"
+            },
+            {
+              "id": "c3",
+              "text": "近いほうが良ければ",
+              "translation": "近いほうが良ければ · nếu quý khách muốn gần ga hơn"
+            },
+            {
+              "id": "c4",
+              "text": "近すぎなければ",
+              "translation": "近すぎなければ · nếu không quá gần"
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-18",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "妹は、初めてのピアノ発表会だったので緊張していたと言っていたが、全然（　）見えなかった。 (07/2016)",
+          "promptTranslation": "Em gái tôi bảo là hồi hộp vì lần đầu biểu diễn piano, nhưng nhìn chẳng （　） chút nào.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "こう",
+              "translation": "こう · như thế này"
+            },
+            {
+              "id": "c2",
+              "text": "そう",
+              "translation": "そう · (trông) có vẻ như vậy (そう見える)"
+            },
+            {
+              "id": "c3",
+              "text": "こういう",
+              "translation": "こういう · … như thế này (bổ nghĩa cho danh từ)"
+            },
+            {
+              "id": "c4",
+              "text": "そういう",
+              "translation": "そういう · … như vậy (bổ nghĩa cho danh từ)"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-19",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（服屋で）\n店員：「ご希望のサイズのものが見つからなければ、（　）ください。」\n客：「あ、ありがとうございます。」 (07/2016)",
+          "promptTranslation": "(Ở cửa hàng quần áo)\nNhân viên: 「Nếu quý khách không tìm thấy cỡ mình muốn thì xin cứ （　） ạ.」\nKhách: 「À, cảm ơn.」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "なさって",
+              "translation": "なさって · làm (tôn kính của する)"
+            },
+            {
+              "id": "c2",
+              "text": "おっしゃって",
+              "translation": "おっしゃって · nói, bảo (tôn kính của 言う)"
+            },
+            {
+              "id": "c3",
+              "text": "お聞きして",
+              "translation": "お聞きして · tôi hỏi, tôi nghe (khiêm nhường)"
+            },
+            {
+              "id": "c4",
+              "text": "申し上げて",
+              "translation": "申し上げて · tôi thưa (khiêm nhường của 言う)"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-20",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "クラスメートみんなにメールを送ってから一週間もたつのに、まだ一人（　）返事が来ていない。 (07/2016)",
+          "promptTranslation": "Gửi mail cho cả lớp đã một tuần rồi mà mới chỉ có hồi âm （　） một người.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "からしか",
+              "translation": "からしか · chỉ từ (ai đó) — đi với 〜ていない"
+            },
+            {
+              "id": "c2",
+              "text": "からでも",
+              "translation": "からでも · dù là từ (ai đó)"
+            },
+            {
+              "id": "c3",
+              "text": "でしか",
+              "translation": "でしか · chỉ bằng, chỉ ở"
+            },
+            {
+              "id": "c4",
+              "text": "ででも",
+              "translation": "ででも · dù bằng, dù ở"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-21",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（靴屋で）\n客：「すみません。この靴のもう一つ大きいサイズはありますか。」\n店員：「あ、はい、確認しますので、少々（　）。」 (12/2016)",
+          "promptTranslation": "(Ở cửa hàng giày)\nKhách: 「Cho hỏi đôi giày này có cỡ lớn hơn một số không?」\nNhân viên: 「À vâng, để tôi kiểm tra, xin quý khách （　） một lát ạ.」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "お待ちしております",
+              "translation": "お待ちしております · tôi đang đợi (khiêm nhường)"
+            },
+            {
+              "id": "c2",
+              "text": "お待ちください",
+              "translation": "お待ちください · xin quý khách chờ cho (tôn kính)"
+            },
+            {
+              "id": "c3",
+              "text": "お待ちできます",
+              "translation": "お待ちできます · tôi có thể đợi"
+            },
+            {
+              "id": "c4",
+              "text": "お待ちしましょう",
+              "translation": "お待ちしましょう · để tôi đợi nhé"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-22",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（電話で）\nX建設の社員：「はい、X建設営業部です。」\n田中：「あ、私、ABC銀行の田中と（　）が、山石さんをお願いします。」 (12/2016)",
+          "promptTranslation": "(Qua điện thoại)\nNhân viên công ty X: 「Vâng, phòng kinh doanh công ty xây dựng X xin nghe.」\nTanaka: 「À, tôi （　） là Tanaka ở ngân hàng ABC, cho tôi gặp anh Yamaishi ạ.」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ございます",
+              "translation": "ございます · có (lịch sự của ある)"
+            },
+            {
+              "id": "c2",
+              "text": "いたします",
+              "translation": "いたします · làm (khiêm nhường của する)"
+            },
+            {
+              "id": "c3",
+              "text": "申します",
+              "translation": "申します · tôi tên là (khiêm nhường của 言う)"
+            },
+            {
+              "id": "c4",
+              "text": "申し上げます",
+              "translation": "申し上げます · tôi xin thưa (khiêm nhường của 言う, nói với người trên)"
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-23",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "私の町では毎年8月最後の日曜日に夏祭りが（　）。 (12/2016)",
+          "promptTranslation": "Ở thị trấn tôi, lễ hội mùa hè （　） vào chủ nhật cuối cùng của tháng 8 hằng năm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "行います",
+              "translation": "行います · (chúng tôi) tổ chức"
+            },
+            {
+              "id": "c2",
+              "text": "行われます",
+              "translation": "行われます · được tổ chức (thể bị động)"
+            },
+            {
+              "id": "c3",
+              "text": "行わせます",
+              "translation": "行わせます · bắt, để ai đó tổ chức (thể sai khiến)"
+            },
+            {
+              "id": "c4",
+              "text": "行っています",
+              "translation": "行っています · đang tổ chức"
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-24",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "昼寝をするのは気持ちがいいが、夜（　）困るので、いつも15分ぐらいで起きる。 (12/2016)",
+          "promptTranslation": "Ngủ trưa thì dễ chịu, nhưng ban đêm （　） thì phiền, nên lúc nào tôi cũng dậy sau khoảng 15 phút.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "寝なくて",
+              "translation": "寝なくて · không ngủ nên (nối nguyên nhân)"
+            },
+            {
+              "id": "c2",
+              "text": "寝ると思うと",
+              "translation": "寝ると思うと · cứ nghĩ là sẽ ngủ"
+            },
+            {
+              "id": "c3",
+              "text": "寝られないと",
+              "translation": "寝られないと · nếu không ngủ được thì"
+            },
+            {
+              "id": "c4",
+              "text": "寝られると思って",
+              "translation": "寝られると思って · nghĩ rằng ngủ được"
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-25",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "妻：「ねえ、ちょっと買い物に行ってくるから、今夜行くレストランの予約をお願いできる？」\n夫：「うん、わかった。（　）。19時からで大丈夫？」\n妻：「ええ、ありがとう。」 (12/2016)",
+          "promptTranslation": "Vợ: 「Này, em đi chợ một lát, anh đặt bàn nhà hàng tối nay giúp em được không?」\nChồng: 「Ừ, được. （　）. 19 giờ ổn chứ?」\nVợ: 「Vâng, cảm ơn anh.」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "予約してね",
+              "translation": "予約してね · em đặt chỗ đi nhé (nhờ người khác)"
+            },
+            {
+              "id": "c2",
+              "text": "予約しようよ",
+              "translation": "予約しようよ · mình cùng đặt chỗ đi"
+            },
+            {
+              "id": "c3",
+              "text": "予約してあるね",
+              "translation": "予約してあるね · đã đặt sẵn rồi nhỉ"
+            },
+            {
+              "id": "c4",
+              "text": "予約しておくよ",
+              "translation": "予約しておくよ · anh sẽ đặt trước cho"
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-26",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（改札で）\n南：「山下さん、来ませんね。携帯電話をしても出ないし、どうしますか。」\n中川：「これ以上待つと私たちも間に合わないから、先に（　）。」\n南：「そうですね。行きますか。」 (12/2016)",
+          "promptTranslation": "(Ở cửa soát vé)\nMinami: 「Anh Yamashita chưa tới nhỉ. Gọi điện cũng không nghe máy, giờ tính sao?」\nNakagawa: 「Chờ thêm nữa thì mình cũng trễ mất, nên （　） trước thôi.」\nMinami: 「Phải đấy. Ta đi chứ?」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "行ってしまいましょうか",
+              "translation": "行ってしまいましょうか · hay mình đi (trước) luôn nhé"
+            },
+            {
+              "id": "c2",
+              "text": "行ってしまうのでしょう",
+              "translation": "行ってしまうのでしょう · chắc là sẽ đi mất"
+            },
+            {
+              "id": "c3",
+              "text": "行ってしまいましたか",
+              "translation": "行ってしまいましたか · đã đi mất rồi à"
+            },
+            {
+              "id": "c4",
+              "text": "行ってしまっていました",
+              "translation": "行ってしまっていました · lúc đó đã đi mất rồi"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-27",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A小学校の近くにある池は深くて、子供が遊ぶと危ないので、数年前に町の人たちが「危険！ 池に（　）！」という看板を立てた。 (07/2017)",
+          "promptTranslation": "Cái ao gần trường tiểu học A rất sâu, trẻ con chơi ở đó thì nguy hiểm, nên vài năm trước người trong thị trấn đã dựng tấm biển ghi 「Nguy hiểm! （　） xuống ao!」",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "入ろう",
+              "translation": "入ろう · vào nào (rủ rê)"
+            },
+            {
+              "id": "c2",
+              "text": "入って",
+              "translation": "入って · hãy vào (nhờ vả)"
+            },
+            {
+              "id": "c3",
+              "text": "入るな",
+              "translation": "入るな · cấm vào! (thể cấm đoán)"
+            },
+            {
+              "id": "c4",
+              "text": "入りなさい",
+              "translation": "入りなさい · vào đi (ra lệnh nhẹ)"
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-28",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "天気予報では今日は晴れると言っていたので、傘を（　）出かけたが、夕方急に雨が降り出して、ぬれてしまった。 (07/2017)",
+          "promptTranslation": "Dự báo thời tiết nói hôm nay trời nắng nên tôi （　） ô mà ra ngoài, nhưng chiều bỗng đổ mưa, thế là ướt hết.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "持たなくて",
+              "translation": "持たなくて · vì không mang (nối nguyên nhân)"
+            },
+            {
+              "id": "c2",
+              "text": "持てなくて",
+              "translation": "持てなくて · vì không thể mang"
+            },
+            {
+              "id": "c3",
+              "text": "持たないで",
+              "translation": "持たないで · không mang theo mà (làm việc gì đó)"
+            },
+            {
+              "id": "c4",
+              "text": "持てないで",
+              "translation": "持てないで · không thể mang mà"
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-29",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "先週からうちの庭によく同じ猫が来る。今日（　）朝と夕方の2回見た。 (07/2017)",
+          "promptTranslation": "Từ tuần trước, một con mèo hay tới vườn nhà tôi. （　） hôm nay tôi đã thấy nó hai lần, sáng và chiều tối.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "だけでも",
+              "translation": "だけでも · chỉ riêng … thôi cũng"
+            },
+            {
+              "id": "c2",
+              "text": "だけに",
+              "translation": "だけに · chính vì là …"
+            },
+            {
+              "id": "c3",
+              "text": "までには",
+              "translation": "までには · trước khi tới (thời điểm)"
+            },
+            {
+              "id": "c4",
+              "text": "までで",
+              "translation": "までで · tính đến (thời điểm) là hết"
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4-2-30",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "受験勉強も大変だったが、大学に（　）もっと大変だった。 (07/2017)",
+          "promptTranslation": "Ôn thi cũng vất vả, nhưng （　） vào đại học còn vất vả hơn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "入りたいのも",
+              "translation": "入りたいのも · việc muốn vào cũng"
+            },
+            {
+              "id": "c2",
+              "text": "入れたのは",
+              "translation": "入れたのは · việc vào được thì"
+            },
+            {
+              "id": "c3",
+              "text": "入るまでより",
+              "translation": "入るまでより · hơn là quãng cho tới khi vào"
+            },
+            {
+              "id": "c4",
+              "text": "入ってからのほうが",
+              "translation": "入ってからのほうが · sau khi vào rồi thì (so sánh hơn)"
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

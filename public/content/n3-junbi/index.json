@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-09-17T10:26:36.612Z",
+  "generatedAt": "2026-09-21T03:06:13.068Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -95,6 +95,15 @@
           "itemCount": 2,
           "order": 0,
           "file": "grammar/00-bai-mau.json"
+        },
+        {
+          "id": "02-de-thi-that-n4-nhiem-vu-2",
+          "name": "Đề thi thật ôn tập N4 · Nhiệm vụ 2",
+          "description": "30 câu 文法 trích các đề thi thật 07/2014 – 07/2017. Làm cả bài rồi nộp, chấm một lượt.",
+          "kind": "test",
+          "itemCount": 30,
+          "order": 2,
+          "file": "grammar/02-de-thi-that-n4-nhiem-vu-2.json"
         }
       ]
     },
