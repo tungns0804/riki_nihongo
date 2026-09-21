@@ -48,9 +48,10 @@ Sau nhãn cụm có thể viết chủ đề, ngăn bằng dấu `=`:
 ```
 
 Chỉ cần MỘT cụm có chủ đề là đầu trang bài hiện bảng **Tóm tắt bài**: mỗi cụm một hàng
-gồm nút cụm, chủ đề và các từ kèm nghĩa đầu tiên — mở bài ra là biết bài học về gì. Bấm
-nút cụm trong bảng cũng chọn cụm đó cho danh sách và khung luyện tập. Bài không cụm nào
-có chủ đề (Danh từ, Động từ) thì không hiện bảng, vì bảng chỉ lặp lại danh sách từ.
+gồm nút cụm, chủ đề và các mặt chữ của cụm — mở bài ra là biết bài học về gì. Bảng không
+kèm nghĩa, vì nghĩa đã nằm trong bảng từ ngay bên dưới. Bấm nút cụm trong bảng cũng chọn
+cụm đó cho danh sách và khung luyện tập. Bài không cụm nào có chủ đề (Động từ) thì không
+hiện bảng, vì bảng chỉ lặp lại danh sách từ.
 
 - **Số thứ tự** là số của từ trong giáo trình (01–120). Bỏ trống cũng được, nhưng có
   số thì đối chiếu với bản PDF nhanh hơn nhiều.
@@ -122,7 +123,7 @@ Mỗi bài là MỘT LOẠI TỪ, chứa toàn bộ từ của loại đó — k
 
 | Thư mục        | Tên hiển thị | Trạng thái |
 | -------------- | ------------ | ---------- |
-| `01-danh-tu`   | Danh từ      | 120 từ · 第1課–第6課 (01–120), chia 12 cụm 10 từ |
+| `01-danh-tu`   | Danh từ      | 120 từ · 第1課–第6課 (01–120), chia 12 cụm 10 từ, có chủ đề |
 | `02-dong-tu`   | Động từ      | 20 từ · 第7課 (121–140), chia 2 cụm 10 từ |
 | `03-tinh-tu`   | Tính từ      | 22 từ · 第14課 (259–280), chia 3 cụm 259–265 (bài 14.1), 266–273 (bài 14.2), 274–280 (bài 14.3), có chủ đề |
 | `04-katakana`  | Katakana     | chờ nội dung |

@@ -1,11 +1,15 @@
 # N3 JUNBI — 文字語彙 · DANH TỪ (01–120)
 # Nguồn: 第1課 đến 第6課 của tài liệu N3準備 文字語彙
 # Định dạng: xem data-source/n3-junbi/vocabulary/README.md
+#
+# Chủ đề viết sau dấu = của dòng cụm, như bài Tính từ: nó hiện ở bảng "Tóm tắt bài"
+# đầu trang — mở bài ra là biết mỗi buổi học về gì rồi mới chọn cụm để luyện. Số buổi
+# (1.1, 1.2…) lấy theo tên file PDF của buổi đó, ghi ở dòng "# nguồn:" ngay trên.
 
 # ── 第1課：01〜20 ──────────────────────────────────────────────
 
 # nguồn: bai-11-tu-vung-cai-thien-1-10.pdf
-## 01–10
+## 01–10 = Bài 1.1 · Con người và thứ bậc trên dưới
 01. 男性 (だんせい) = NAM TÍNH ; Nam giới
 ・理想の男性と結婚する。
 
@@ -48,7 +52,7 @@
 使い分け: 知り合い = văn nói; 知人 (ちじん) = văn viết
 
 # nguồn: bai-12-tu-vung-cai-thien-11-20.pdf
-## 11–20
+## 11–20 = Bài 1.2 · Thân thế, tuổi tác và các mốc trưởng thành
 11. 友人 (ゆうじん) = HỮU NHÂN ; Bạn bè
 ・A:「しんさんを知っていますか。」 B:「ええ、学生時代の友人です。」
 
@@ -94,7 +98,7 @@
 # ── 第2課：21〜40 ──────────────────────────────────────────────
 
 # nguồn: bai-21-tu-vung-cai-thien-21-30.pdf
-## 21–30
+## 21–30 = Bài 2.1 · Học lên, đi làm và nghỉ việc
 21. 進学 (しんがく) = TIẾN HỌC ; Học lên
 ・子供の進学について考える。
 
@@ -145,7 +149,7 @@
 合: 給料日 (きゅうりょうび)
 
 # nguồn: bai-22-tu-vung-cai-thien-31-40.pdf
-## 31–40
+## 31–40 = Bài 2.2 · Đi về, có mặt và vắng mặt
 31. 面接 (めんせつ) = DIỆN TIẾP ; Phỏng vấn
 ・明日新しいアルバイトの面接がある。
 合: 面接試験 (めんせつしけん)
@@ -190,7 +194,7 @@
 # ── 第3課：41〜60 ──────────────────────────────────────────────
 
 # nguồn: bai-31-tu-vung-cai-thien-41-50.pdf
-## 41–50
+## 41–50 = Bài 3.1 · Việc thường ngày: kế hoạch, thành và bại
 41. 化粧 (けしょう) = HOÁ TRANG ; Trang điểm
 ・あなたは毎日、お化粧に何分ぐらいかけていますか。
 連: 化粧が薄い ＞＜ 化粧が濃い
@@ -242,7 +246,7 @@
 ・徹夜で仕事する／勉強する。
 
 # nguồn: bai-32-tu-vung-cai-thien-51-60.pdf
-## 51–60
+## 51–60 = Bài 3.2 · Bản thân, sở thích và chuyện trò
 51. 引っ越し (ひっこし) = DẪN VIỆT ; Chuyển nhà
 ・引越しの準備が終わった。
 ・引越しを手伝う。
@@ -297,7 +301,7 @@
 # ── 第4課：61〜80 ──────────────────────────────────────────────
 
 # nguồn: bai-41-tu-vung-cai-thien-61-70.pdf
-## 61–70
+## 61–70 = Bài 4.1 · Lời hứa, giữ ý và bày tỏ ý kiến
 61. 約束 (やくそく) = ƯỚC THÚC ; Lời hứa, hẹn
 ・彼と結婚の約束をした。
 ・再会を約束して別れた。
@@ -357,7 +361,7 @@
 合: 想像力 (そうぞうりょく)
 
 # nguồn: bai-42-tu-vung-cai-thien-71-80.pdf
-## 71–80
+## 71–80 = Bài 4.2 · Trời đất, thời tiết và hơi ẩm
 71. 努力 (どりょく) = NỖ LỰC ; Nỗ lực, cố gắng
 ・一生懸命、努力をする。
 ・努力を重ねて、希望の大学に入れました。
@@ -411,7 +415,7 @@
 # ── 第5課：81〜100 ─────────────────────────────────────────────
 
 # nguồn: bai-51-tu-vung-cai-thien-81-90.pdf
-## 81–90
+## 81–90 = Bài 5.1 · Tin tức, khu phố và đồ quanh nhà
 81. 缶 (かん) = PHỮU ; Lon, hộp
 ・ビール缶を捨てる。
 合: 缶詰 (かんづめ)
@@ -465,7 +469,7 @@
 使い分け: 筆者 (ひっしゃ) = nội dung báo, tạp chí (新聞・雑誌の文章)
 
 # nguồn: bai-52-tu-vung-cai-thien-91-100.pdf
-## 91–100
+## 91–100 = Bài 5.2 · Đồ vật, nơi chốn và đường sá
 91. 作品 (さくひん) = TÁC PHẨM ; Tác phẩm
 ・学生の作品をロビーに展示する。
 合: 文学作品 (ぶんがくさくひん)・芸術作品 (げいじゅつさくひん)
@@ -517,7 +521,7 @@
 # ── 第6課：101〜120 ────────────────────────────────────────────
 
 # nguồn: bai-61-tu-vung-cai-thien-101-110.pdf
-## 101–110
+## 101–110 = Bài 6.1 · Giấy tờ và cách nói thứ tự, mức độ
 101. 判 (はん) = PHÁN ; Con dấu
 ・書類に判を押す。
 合: 判子を押す (はんこをおす) = Đóng dấu
@@ -571,7 +575,7 @@
 対: 最初 (さいしょ)
 
 # nguồn: bai-62-tu-vung-cai-thien-111-120.pdf
-## 111–120
+## 111–120 = Bài 6.2 · Tính chất, thứ tự và hàng hoá
 111. 自動 (じどう) = TỰ ĐỘNG ; Tự động
 ・このドアは自動だから、手であけなくてもいいです。
 合: 自動販売機 (じどうはんばいき) ≒ 自販機 (じはんき)
