@@ -67,7 +67,9 @@
         {
           "id": "620280af3d8f95dd",
           "japanese": "理想の男性と結婚する。",
-          "vietnamese": "",
+          "vietnamese": "Kết hôn với người đàn ông lý tưởng.",
+          "reading": "りそうのだんせいとけっこんする。",
+          "grammar": "～と結婚する = kết hôn với ~ — người bạn đời đi với と chứ không phải を",
           "targets": [
             "男性"
           ]
@@ -88,7 +90,9 @@
         {
           "id": "21cb4f613258d918",
           "japanese": "あの女性／女の人は誰ですか。",
-          "vietnamese": "",
+          "vietnamese": "Người phụ nữ kia là ai vậy?",
+          "reading": "あのじょせい／おんなのひとはだれですか。",
+          "grammar": "女性 = văn viết và nói lịch sự; 女の人 = văn nói thường ngày",
           "targets": [
             "女性"
           ]
@@ -109,7 +113,9 @@
         {
           "id": "972abbe6a0ae3962",
           "japanese": "祖母は高齢だがまだとても元気だ。",
-          "vietnamese": "",
+          "vietnamese": "Bà tôi tuy cao tuổi nhưng vẫn rất khoẻ.",
+          "reading": "そぼはこうれいだがまだとてもげんきだ。",
+          "grammar": "～だが = tuy ~ nhưng — văn viết, lịch sự hơn ～だけど",
           "targets": [
             "高齢"
           ]
@@ -135,7 +141,9 @@
         {
           "id": "f8dbd14ea91f57f9",
           "japanese": "年上の友達",
-          "vietnamese": "",
+          "vietnamese": "Người bạn hơn tuổi",
+          "reading": "としうえのともだち",
+          "grammar": "",
           "targets": [
             "年上"
           ]
@@ -143,7 +151,9 @@
         {
           "id": "ba2200a17d62b6a4",
           "japanese": "彼女は彼より10年上だ。",
-          "vietnamese": "",
+          "vietnamese": "Cô ấy hơn anh ta 10 tuổi.",
+          "reading": "かのじょはかれよりじゅうねんうえだ。",
+          "grammar": "A は B より～ = A thì ~ hơn B; 年上 đọc としうえ, nhưng đi với số thì đọc ～ねんうえ",
           "targets": [
             "年上"
           ]
@@ -169,7 +179,9 @@
         {
           "id": "7516ca77f2c6ce20",
           "japanese": "目上の人には敬語で話した方がいい。",
-          "vietnamese": "",
+          "vietnamese": "Với người trên thì nên nói bằng kính ngữ.",
+          "reading": "めうえのひとにはけいごではなしたほうがいい。",
+          "grammar": "V た＋方がいい = nên ~ (lời khuyên); ～には = với ~ thì",
           "targets": [
             "目上"
           ]
@@ -195,7 +207,9 @@
         {
           "id": "50e4840b9970a78e",
           "japanese": "モンさんとアインさんは同じ年だが、職場ではアインさんの方が先輩だ。",
-          "vietnamese": "",
+          "vietnamese": "Mon và Ain bằng tuổi, nhưng ở chỗ làm thì Ain là tiền bối.",
+          "reading": "モンさんとアインさんはおなじとしだが、しょくばではアインさんのほうがせんぱいだ。",
+          "grammar": "～の方が… = bên ~ thì ~ hơn (so hai đối tượng); ～では = ở phạm vi ~ thì",
           "targets": [
             "先輩"
           ]
@@ -221,7 +235,9 @@
         {
           "id": "7b4114f4b3287a4d",
           "japanese": "モンさんとアインさんは同じ年だが、職場ではアインさんの方が後輩だ。",
-          "vietnamese": "",
+          "vietnamese": "Mon và Ain bằng tuổi, nhưng ở chỗ làm thì Ain là hậu bối.",
+          "reading": "モンさんとアインさんはおなじとしだが、しょくばではアインさんのほうがこうはいだ。",
+          "grammar": "cùng mẫu với câu của 先輩 — chỉ đổi từ cuối, nên đọc kỹ chỗ ai là ai",
           "targets": [
             "後輩"
           ]
@@ -247,7 +263,9 @@
         {
           "id": "7d1070849585514c",
           "japanese": "上司に相談してから決定する。",
-          "vietnamese": "",
+          "vietnamese": "Bàn với sếp rồi mới quyết định.",
+          "reading": "じょうしにそうだんしてからけっていする。",
+          "grammar": "～てから = sau khi ~, việc trước xong mới tới việc sau; ～に相談する = bàn bạc với ~",
           "targets": [
             "上司"
           ]
@@ -277,7 +295,9 @@
         {
           "id": "7142d35d8b314720",
           "japanese": "相手の目を見て話す。→ 話し相手",
-          "vietnamese": "",
+          "vietnamese": "Nhìn vào mắt đối phương mà nói. → người để trò chuyện cùng",
+          "reading": "あいてのめをみてはなす。→ はなしあいて",
+          "grammar": "V て＋V = làm việc này rồi/đồng thời làm việc kia",
           "targets": [
             "相手"
           ]
@@ -285,7 +305,9 @@
         {
           "id": "86f4e388cc1dfa17",
           "japanese": "今度の試合の相手は強そうだ。",
-          "vietnamese": "",
+          "vietnamese": "Đối thủ trận tới trông có vẻ mạnh.",
+          "reading": "こんどのしあいのあいてはつよそうだ。",
+          "grammar": "tính từ い bỏ い ＋そうだ = trông có vẻ ~ (đoán qua vẻ bề ngoài)",
           "targets": [
             "相手"
           ]
@@ -311,7 +333,9 @@
         {
           "id": "c3d661650bb2459e",
           "japanese": "知り合いに息子の就職を頼む。",
-          "vietnamese": "",
+          "vietnamese": "Nhờ người quen lo việc làm cho con trai.",
+          "reading": "しりあいにむすこのしゅうしょくをたのむ。",
+          "grammar": "人に～を頼む = nhờ ai đó việc gì",
           "targets": [
             "知り合い"
           ]
@@ -337,7 +361,9 @@
         {
           "id": "48b1e96c49242fd8",
           "japanese": "A:「しんさんを知っていますか。」 B:「ええ、学生時代の友人です。」",
-          "vietnamese": "",
+          "vietnamese": "A: \"Anh có biết anh Shin không?\" B: \"Có, bạn thời sinh viên của tôi.\"",
+          "reading": "A:「しんさんをしっていますか。」 B:「ええ、がくせいじだいのゆうじんです。」",
+          "grammar": "～を知っていますか = có biết ~ không — 知る luôn dùng ở thể ている khi nói \"biết\"; ～時代 = thời ~",
           "targets": [
             "友人"
           ]
@@ -358,7 +384,9 @@
         {
           "id": "d0a9ac146224cf2f",
           "japanese": "私はアインさんと仲がいい ＞＜ 仲が悪い",
-          "vietnamese": "",
+          "vietnamese": "Tôi thân với Ain ＞＜ không hợp nhau",
+          "reading": "わたしはアインさんとなかがいい ＞＜ なかがわるい",
+          "grammar": "～と仲がいい = thân với ~ — người kia đi với と",
           "targets": [
             "仲"
           ]
@@ -384,7 +412,9 @@
         {
           "id": "23fcdbaebaebe003",
           "japanese": "書類に生年月日を記入する。",
-          "vietnamese": "",
+          "vietnamese": "Điền ngày tháng năm sinh vào giấy tờ.",
+          "reading": "しょるいにせいねんがっぴをきにゅうする。",
+          "grammar": "～に…を記入する = điền … vào ~ (giấy tờ, biểu mẫu)",
           "targets": [
             "生年月日"
           ]
@@ -410,7 +440,9 @@
         {
           "id": "fb67591fdde60a69",
           "japanese": "新しい命の誕生を祈る。",
-          "vietnamese": "",
+          "vietnamese": "Cầu cho một sinh linh mới chào đời.",
+          "reading": "あたらしいいのちのたんじょうをいのる。",
+          "grammar": "",
           "targets": [
             "誕生"
           ]
@@ -418,7 +450,9 @@
         {
           "id": "ffa22eeed626775a",
           "japanese": "新政権が誕生する。",
-          "vietnamese": "",
+          "vietnamese": "Chính quyền mới ra đời.",
+          "reading": "しんせいけんがたんじょうする。",
+          "grammar": "誕生する = ra đời — dùng cho cả sinh linh lẫn tổ chức, chính quyền",
           "targets": [
             "誕生"
           ]
@@ -439,7 +473,9 @@
         {
           "id": "024b702c627abd09",
           "japanese": "年の初めに1年の計画を立てる。",
-          "vietnamese": "",
+          "vietnamese": "Đầu năm thì lập kế hoạch cho cả năm.",
+          "reading": "としのはじめにいちねんのけいかくをたてる。",
+          "grammar": "計画を立てる = lập kế hoạch (cụm cố định); 年 đọc とし khi đứng một mình, đọc ねん khi đi với số",
           "targets": [
             "年"
           ]
@@ -447,7 +483,9 @@
         {
           "id": "c8336301abac71b4",
           "japanese": "アイン先生は年より若く見えますね！ ＞＜ 年より老けて見える",
-          "vietnamese": "",
+          "vietnamese": "Cô Ain trông trẻ hơn tuổi nhỉ! ＞＜ trông già hơn tuổi",
+          "reading": "アインせんせいはとしよりわかくみえますね！ ＞＜ としよりふけてみえる",
+          "grammar": "～より＋tính từ＋見える = trông ~ hơn so với ~; ～ね = nhỉ (tìm sự đồng tình)",
           "targets": [
             "年"
           ]
@@ -473,7 +511,9 @@
         {
           "id": "86db7ee4749e5da3",
           "japanese": "A:「ご出身はどちらですか。」 B:「日本です。」",
-          "vietnamese": "",
+          "vietnamese": "A: \"Quê anh ở đâu ạ?\" B: \"Nhật Bản ạ.\"",
+          "reading": "A:「ごしゅっしんはどちらですか。」 B:「にほんです。」",
+          "grammar": "ご＋N = tiền tố lịch sự khi hỏi chuyện của người khác; どちら = ở đâu (lịch sự hơn どこ)",
           "targets": [
             "出身"
           ]
@@ -481,7 +521,9 @@
         {
           "id": "e781d845b6be92b8",
           "japanese": "私は大阪大学の出身です。",
-          "vietnamese": "",
+          "vietnamese": "Tôi tốt nghiệp Đại học Osaka.",
+          "reading": "わたしはおおさかだいがくのしゅっしんです。",
+          "grammar": "～の出身です = xuất thân từ ~ — dùng được cho cả quê quán lẫn trường học",
           "targets": [
             "出身"
           ]
@@ -507,7 +549,9 @@
         {
           "id": "9aac07be74061fb7",
           "japanese": "仕事が忙しくて、もう何年も故郷に帰っていない。",
-          "vietnamese": "",
+          "vietnamese": "Công việc bận quá, đã mấy năm rồi tôi không về quê.",
+          "reading": "しごとがいそがしくて、もうなんねんもこきょうにかえっていない。",
+          "grammar": "tính từ い bỏ い ＋くて = vì ~ nên; 何年も = đã bao nhiêu năm; ～ていない = tới giờ vẫn chưa ~",
           "targets": [
             "故郷"
           ]
@@ -533,7 +577,9 @@
         {
           "id": "dc86cfa2d41682e4",
           "japanese": "子供の成長を喜ぶ。",
-          "vietnamese": "",
+          "vietnamese": "Vui mừng vì con cái lớn khôn.",
+          "reading": "こどものせいちょうをよろこぶ。",
+          "grammar": "",
           "targets": [
             "成長"
           ]
@@ -541,7 +587,9 @@
         {
           "id": "a4b9c3d0f61f5ec5",
           "japanese": "事業の成長",
-          "vietnamese": "",
+          "vietnamese": "Sự tăng trưởng của việc kinh doanh",
+          "reading": "じぎょうのせいちょう",
+          "grammar": "",
           "targets": [
             "成長"
           ]
@@ -549,7 +597,9 @@
         {
           "id": "d4c1db99d015f6f9",
           "japanese": "経済成長",
-          "vietnamese": "",
+          "vietnamese": "Tăng trưởng kinh tế",
+          "reading": "けいざいせいちょう",
+          "grammar": "成長 dùng được cho cả người lớn lên lẫn kinh tế, doanh nghiệp đi lên",
           "targets": [
             "成長"
           ]
@@ -570,7 +620,9 @@
         {
           "id": "9baab38cc9090c57",
           "japanese": "成人式",
-          "vietnamese": "",
+          "vietnamese": "Lễ thành nhân",
+          "reading": "せいじんしき",
+          "grammar": "",
           "targets": [
             "成人"
           ]
@@ -596,7 +648,9 @@
         {
           "id": "17dc76eb5dbddb7c",
           "japanese": "大学／入学試験／検査に合格する。",
-          "vietnamese": "",
+          "vietnamese": "Đỗ đại học / kỳ thi đầu vào / qua được kiểm định.",
+          "reading": "だいがく／にゅうがくしけん／けんさにごうかくする。",
+          "grammar": "～に合格する = đỗ ~ — thứ thi đỗ đi với に chứ không phải を",
           "targets": [
             "合格"
           ]
@@ -622,7 +676,9 @@
         {
           "id": "7fc72296a721244a",
           "japanese": "子供の進学について考える。",
-          "vietnamese": "",
+          "vietnamese": "Suy nghĩ về chuyện học lên của con.",
+          "reading": "こどものしんがくについてかんがえる。",
+          "grammar": "～について = về ~ — chủ đề của việc nghĩ, bàn, viết",
           "targets": [
             "進学"
           ]
@@ -643,7 +699,9 @@
         {
           "id": "f4118a9bcc399bf8",
           "japanese": "退学の理由を説明する。",
-          "vietnamese": "",
+          "vietnamese": "Giải thích lý do thôi học.",
+          "reading": "たいがくのりゆうをせつめいする。",
+          "grammar": "",
           "targets": [
             "退学"
           ]
@@ -669,7 +727,9 @@
         {
           "id": "306df94d00ab21fd",
           "japanese": "旅行会社に就職する。",
-          "vietnamese": "",
+          "vietnamese": "Xin vào làm ở công ty du lịch.",
+          "reading": "りょこうがいしゃにしゅうしょくする。",
+          "grammar": "～に就職する = xin vào làm ở ~ — nơi làm đi với に",
           "targets": [
             "就職"
           ]
@@ -695,7 +755,9 @@
         {
           "id": "2bc6bd8a32a139e5",
           "japanese": "母の介護のため、退職を決めた。",
-          "vietnamese": "",
+          "vietnamese": "Vì phải chăm sóc mẹ nên tôi quyết định nghỉ việc.",
+          "reading": "ははのかいごのため、たいしょくをきめた。",
+          "grammar": "N ＋のため = vì ~ (nêu lý do, văn viết)",
           "targets": [
             "退職"
           ]
@@ -703,7 +765,9 @@
         {
           "id": "e88d0128a9f8798b",
           "japanese": "長年勤めた会社を退職した。",
-          "vietnamese": "",
+          "vietnamese": "Tôi đã nghỉ việc ở công ty gắn bó nhiều năm.",
+          "reading": "ながねんつとめたかいしゃをたいしょくした。",
+          "grammar": "V た＋N = N đã ~ (長年勤めた会社); ～を退職する = nghỉ việc ở ~, nơi làm đi với を",
           "targets": [
             "退職"
           ]
@@ -729,7 +793,9 @@
         {
           "id": "0879125509d6ffbc",
           "japanese": "会社が倒産して、失業した。",
-          "vietnamese": "",
+          "vietnamese": "Công ty phá sản nên tôi mất việc.",
+          "reading": "かいしゃがとうさんして、しつぎょうした。",
+          "grammar": "V て = vì ~ nên — nối nguyên nhân với kết quả",
           "targets": [
             "失業"
           ]
@@ -759,7 +825,9 @@
         {
           "id": "34592b3f6a366c96",
           "japanese": "残業が多くて、疲れた。",
-          "vietnamese": "",
+          "vietnamese": "Tăng ca nhiều quá nên mệt.",
+          "reading": "ざんぎょうがおおくて、つかれた。",
+          "grammar": "tính từ い bỏ い ＋くて = vì ~ nên",
           "targets": [
             "残業"
           ]
@@ -780,7 +848,9 @@
         {
           "id": "56f6be6f27882f4e",
           "japanese": "健康的な生活を送る。",
-          "vietnamese": "",
+          "vietnamese": "Sống một cuộc sống lành mạnh.",
+          "reading": "けんこうてきなせいかつをおくる。",
+          "grammar": "生活を送る = sống cuộc sống ~ — 送る ở đây không mang nghĩa \"gửi\"",
           "targets": [
             "生活"
           ]
@@ -788,7 +858,9 @@
         {
           "id": "e2ab23890cf31497",
           "japanese": "もう日本の生活に慣れましたか。",
-          "vietnamese": "",
+          "vietnamese": "Anh quen với cuộc sống ở Nhật chưa?",
+          "reading": "もうにほんのせいかつになれましたか。",
+          "grammar": "～に慣れる = quen với ~; もう＋thể quá khứ＋か = ~ chưa?",
           "targets": [
             "生活"
           ]
@@ -796,7 +868,9 @@
         {
           "id": "1f4262edae37250a",
           "japanese": "外国での生活は楽しい。",
-          "vietnamese": "",
+          "vietnamese": "Cuộc sống ở nước ngoài thật vui.",
+          "reading": "がいこくでのせいかつはたのしい。",
+          "grammar": "～での＋N = N diễn ra ở ~ — で của nơi chốn thêm の để bổ nghĩa cho danh từ",
           "targets": [
             "生活"
           ]
@@ -804,7 +878,9 @@
         {
           "id": "f05e1372e77da5f6",
           "japanese": "虫の生活を観察する。",
-          "vietnamese": "",
+          "vietnamese": "Quan sát đời sống của côn trùng.",
+          "reading": "むしのせいかつをかんさつする。",
+          "grammar": "",
           "targets": [
             "生活"
           ]
@@ -812,7 +888,9 @@
         {
           "id": "f5e4b7dc9b147132",
           "japanese": "今月の生活費が足りない。",
-          "vietnamese": "",
+          "vietnamese": "Tiền sinh hoạt tháng này không đủ.",
+          "reading": "こんげつのせいかつひがたりない。",
+          "grammar": "～が足りない = không đủ ~ — thứ thiếu đi với が",
           "targets": [
             "生活"
           ]
@@ -842,7 +920,9 @@
         {
           "id": "846787bfcc485a0d",
           "japanese": "私は毎日2時間もかけて通勤している。",
-          "vietnamese": "",
+          "vietnamese": "Ngày nào tôi cũng mất tận 2 tiếng để đi làm.",
+          "reading": "わたしはまいにちにじかんもかけてつうきんしている。",
+          "grammar": "số lượng ＋も = tận ~ (nhấn rằng nhiều); 時間をかける = bỏ ra thời gian",
           "targets": [
             "通勤"
           ]
@@ -872,7 +952,9 @@
         {
           "id": "f422f61692734d5d",
           "japanese": "学歴が高くても、実力があるかどうかわからない。",
-          "vietnamese": "",
+          "vietnamese": "Bằng cấp cao thì cũng chưa biết có thực lực hay không.",
+          "reading": "がくれきがたかくても、じつりょくがあるかどうかわからない。",
+          "grammar": "～ても = dù ~ cũng; ～かどうか = có ~ hay không",
           "targets": [
             "学歴"
           ]
@@ -880,7 +962,9 @@
         {
           "id": "6cdf29ec20450479",
           "japanese": "子供にいい学歴をつけさせたいと思う親が多い。",
-          "vietnamese": "",
+          "vietnamese": "Nhiều bậc cha mẹ muốn cho con có bằng cấp tốt.",
+          "reading": "こどもにいいがくれきをつけさせたいとおもうおやがおおい。",
+          "grammar": "thể sai khiến ～させる = cho/bắt ai làm ~; ～たいと思う = muốn ~",
           "targets": [
             "学歴"
           ]
@@ -888,7 +972,9 @@
         {
           "id": "f3e5015b47e6b950",
           "japanese": "学歴をつける／実力をつける",
-          "vietnamese": "",
+          "vietnamese": "Gây dựng bằng cấp / gây dựng thực lực",
+          "reading": "がくれきをつける／じつりょくをつける",
+          "grammar": "～をつける = tạo cho mình có được ~",
           "targets": [
             "学歴"
           ]
@@ -914,7 +1000,9 @@
         {
           "id": "2e5676a0962e55d0",
           "japanese": "会社から給料をもらう。",
-          "vietnamese": "",
+          "vietnamese": "Nhận lương từ công ty.",
+          "reading": "かいしゃからきゅうりょうをもらう。",
+          "grammar": "～から…をもらう = nhận … từ ~",
           "targets": [
             "給料"
           ]
@@ -922,7 +1010,9 @@
         {
           "id": "1091779483fdd9bb",
           "japanese": "今日は給料日だ！",
-          "vietnamese": "",
+          "vietnamese": "Hôm nay là ngày lĩnh lương!",
+          "reading": "きょうはきゅうりょうびだ！",
+          "grammar": "",
           "targets": [
             "給料"
           ]
@@ -948,7 +1038,9 @@
         {
           "id": "a1a03cfa22310d84",
           "japanese": "明日新しいアルバイトの面接がある。",
-          "vietnamese": "",
+          "vietnamese": "Ngày mai tôi có buổi phỏng vấn chỗ làm thêm mới.",
+          "reading": "あしたあたらしいアルバイトのめんせつがある。",
+          "grammar": "",
           "targets": [
             "面接"
           ]
@@ -978,7 +1070,9 @@
         {
           "id": "b50a5aaec27b2dc1",
           "japanese": "ではここで、10分間の休憩です。",
-          "vietnamese": "",
+          "vietnamese": "Vậy chúng ta nghỉ giải lao 10 phút tại đây.",
+          "reading": "ではここで、じゅっぷんかんのきゅうけいです。",
+          "grammar": "số lượng ＋間 = trong khoảng ~ (10分間 = trong 10 phút)",
           "targets": [
             "休憩"
           ]
@@ -1004,7 +1098,9 @@
         {
           "id": "2f9bd4ad0a14db82",
           "japanese": "来日の目的は観光です。",
-          "vietnamese": "",
+          "vietnamese": "Mục đích sang Nhật là du lịch.",
+          "reading": "らいにちのもくてきはかんこうです。",
+          "grammar": "",
           "targets": [
             "観光"
           ]
@@ -1012,7 +1108,9 @@
         {
           "id": "4f5ba2a2537a60ac",
           "japanese": "先週、ダラットを観光して回った。",
-          "vietnamese": "",
+          "vietnamese": "Tuần trước tôi đã đi tham quan khắp Đà Lạt.",
+          "reading": "せんしゅう、ダラットをかんこうしてまわった。",
+          "grammar": "V て＋回る = đi khắp nơi để làm ~",
           "targets": [
             "観光"
           ]
@@ -1038,7 +1136,9 @@
         {
           "id": "9f243821bdee4a41",
           "japanese": "今度の正月には帰国するつもりだ。",
-          "vietnamese": "",
+          "vietnamese": "Tết này tôi định về nước.",
+          "reading": "こんどのしょうがつにはきこくするつもりだ。",
+          "grammar": "V る＋つもりだ = định sẽ ~ — dự tính đã có từ trước",
           "targets": [
             "帰国"
           ]
@@ -1059,7 +1159,9 @@
         {
           "id": "fdc70befa15d0a9b",
           "japanese": "お盆には故郷に帰省する日本人が多い。",
-          "vietnamese": "",
+          "vietnamese": "Dịp lễ Obon có nhiều người Nhật về quê.",
+          "reading": "おぼんにはこきょうにきせいするにほんじんがおおい。",
+          "grammar": "V る＋N = N làm việc ~ (帰省する日本人 = người Nhật về quê)",
           "targets": [
             "帰省"
           ]
@@ -1080,7 +1182,9 @@
         {
           "id": "b2de937ac6a856b1",
           "japanese": "毎日忙しくて帰宅が遅い。",
-          "vietnamese": "",
+          "vietnamese": "Ngày nào cũng bận nên về nhà muộn.",
+          "reading": "まいにちいそがしくてきたくがおそい。",
+          "grammar": "",
           "targets": [
             "帰宅"
           ]
@@ -1101,7 +1205,9 @@
         {
           "id": "d9e083c57d664df6",
           "japanese": "ボランティア活動に参加する。",
-          "vietnamese": "",
+          "vietnamese": "Tham gia hoạt động tình nguyện.",
+          "reading": "ボランティアかつどうにさんかする。",
+          "grammar": "～に参加する = tham gia ~ — việc tham gia đi với に",
           "targets": [
             "参加"
           ]
@@ -1173,7 +1279,9 @@
         {
           "id": "27ba393620e96cfb",
           "japanese": "寝坊して会社に遅刻する。",
-          "vietnamese": "",
+          "vietnamese": "Ngủ quên nên đi làm muộn.",
+          "reading": "ねぼうしてかいしゃにちこくする。",
+          "grammar": "～に遅刻する = đến muộn ở ~ — nơi phải có mặt đi với に",
           "targets": [
             "遅刻"
           ]
@@ -1181,7 +1289,9 @@
         {
           "id": "90b734bf59b8caae",
           "japanese": "面接では1分の遅刻も許されない。",
-          "vietnamese": "",
+          "vietnamese": "Trong phỏng vấn thì muộn một phút cũng không được tha.",
+          "reading": "めんせつではいっぷんのちこくもゆるされない。",
+          "grammar": "～も＋phủ định = đến cả ~ cũng không; 許されない = không được cho phép (bị động)",
           "targets": [
             "遅刻"
           ]
@@ -1202,7 +1312,9 @@
         {
           "id": "f5bd2df2e8299401",
           "japanese": "あなたは毎日、お化粧に何分ぐらいかけていますか。",
-          "vietnamese": "",
+          "vietnamese": "Mỗi ngày bạn dành khoảng bao nhiêu phút để trang điểm?",
+          "reading": "あなたはまいにち、おけしょうになんぷんぐらいかけていますか。",
+          "grammar": "～に時間をかける = dành thời gian cho ~; 何分ぐらい = khoảng bao nhiêu phút",
           "targets": [
             "化粧"
           ]
@@ -1244,7 +1356,9 @@
         {
           "id": "2d46e35459c58183",
           "japanese": "私は計算が苦手だ。",
-          "vietnamese": "",
+          "vietnamese": "Tôi kém tính toán.",
+          "reading": "わたしはけいさんがにがてだ。",
+          "grammar": "",
           "targets": [
             "計算"
           ]
@@ -1252,7 +1366,9 @@
         {
           "id": "9be45877bbac1f0d",
           "japanese": "旅行にいくらかかるか計算する。",
-          "vietnamese": "",
+          "vietnamese": "Tính xem chuyến đi hết bao nhiêu tiền.",
+          "reading": "りょこうにいくらかかるかけいさんする。",
+          "grammar": "～か = câu hỏi lồng trong câu lớn; ～がかかる = tốn (tiền, thời gian)",
           "targets": [
             "計算"
           ]
@@ -1273,7 +1389,9 @@
         {
           "id": "986335773f5a6140",
           "japanese": "来年の計画を立てる。",
-          "vietnamese": "",
+          "vietnamese": "Lập kế hoạch cho năm sau.",
+          "reading": "らいねんのけいかくをたてる。",
+          "grammar": "計画を立てる = lập kế hoạch — cụm cố định, không nói 計画を作る",
           "targets": [
             "計画"
           ]
@@ -1281,7 +1399,9 @@
         {
           "id": "98dd0e51adfa54f5",
           "japanese": "夏休みには富士山に登ろうと計画している。",
-          "vietnamese": "",
+          "vietnamese": "Tôi đang lên kế hoạch leo núi Phú Sĩ vào kỳ nghỉ hè.",
+          "reading": "なつやすみにはふじさんにのぼろうとけいかくしている。",
+          "grammar": "thể ý chí ＋と計画する = lên kế hoạch sẽ ~",
           "targets": [
             "計画"
           ]
@@ -1307,7 +1427,9 @@
         {
           "id": "932ab654afcf7db3",
           "japanese": "失敗は成功の元",
-          "vietnamese": "",
+          "vietnamese": "Thất bại là mẹ thành công",
+          "reading": "しっぱいはせいこうのもと",
+          "grammar": "A は B の元 = A là gốc của B — câu tục ngữ nên lược だ ở cuối",
           "targets": [
             "成功"
           ]
@@ -1337,7 +1459,9 @@
         {
           "id": "932ab654afcf7db3",
           "japanese": "失敗は成功の元",
-          "vietnamese": "",
+          "vietnamese": "Thất bại là mẹ thành công",
+          "reading": "しっぱいはせいこうのもと",
+          "grammar": "sách dùng chung một câu cho cả cặp 成功 ＞＜ 失敗",
           "targets": [
             "失敗"
           ]
@@ -1363,7 +1487,9 @@
         {
           "id": "508520a5ce302db2",
           "japanese": "引越しの準備が終わった。",
-          "vietnamese": "",
+          "vietnamese": "Việc chuẩn bị chuyển nhà đã xong.",
+          "reading": "ひっこしのじゅんびがおわった。",
+          "grammar": "",
           "targets": [
             "準備"
           ]
@@ -1371,7 +1497,9 @@
         {
           "id": "e3c94f25d823cdc9",
           "japanese": "会議の資料を準備する。",
-          "vietnamese": "",
+          "vietnamese": "Chuẩn bị tài liệu cho cuộc họp.",
+          "reading": "かいぎのしりょうをじゅんびする。",
+          "grammar": "",
           "targets": [
             "準備"
           ]
@@ -1405,7 +1533,9 @@
         {
           "id": "245bd3eb9ca9017c",
           "japanese": "資料を整理する。",
-          "vietnamese": "",
+          "vietnamese": "Sắp xếp tài liệu.",
+          "reading": "しりょうをせいりする。",
+          "grammar": "",
           "targets": [
             "整理"
           ]
@@ -1413,7 +1543,9 @@
         {
           "id": "fa0ff0b451bc0595",
           "japanese": "もの／資料／頭を整理する。",
-          "vietnamese": "",
+          "vietnamese": "Sắp xếp đồ đạc / tài liệu / ý nghĩ.",
+          "reading": "もの／しりょう／あたまをせいりする。",
+          "grammar": "頭を整理する = sắp xếp lại suy nghĩ cho mạch lạc",
           "targets": [
             "整理"
           ]
@@ -1434,7 +1566,9 @@
         {
           "id": "c5f99ea2241d683c",
           "japanese": "書店・アマゾンで本を注文する。",
-          "vietnamese": "",
+          "vietnamese": "Đặt sách ở hiệu sách / trên Amazon.",
+          "reading": "しょてん・アマゾンでほんをちゅうもんする。",
+          "grammar": "～で = ở ~ — nơi diễn ra hành động",
           "targets": [
             "注文"
           ]
@@ -1442,7 +1576,9 @@
         {
           "id": "c4371ef55574c424",
           "japanese": "喫茶店でコーヒーを注文する。",
-          "vietnamese": "",
+          "vietnamese": "Gọi cà phê ở quán.",
+          "reading": "きっさてんでコーヒーをちゅうもんする。",
+          "grammar": "",
           "targets": [
             "注文"
           ]
@@ -1472,7 +1608,9 @@
         {
           "id": "4fb08cab1c2f9b00",
           "japanese": "銀行にボーナスを貯金する。",
-          "vietnamese": "",
+          "vietnamese": "Gửi tiền thưởng vào ngân hàng.",
+          "reading": "ぎんこうにボーナスをちょきんする。",
+          "grammar": "～に…を貯金する = gửi tiết kiệm … vào ~",
           "targets": [
             "貯金"
           ]
@@ -1498,7 +1636,9 @@
         {
           "id": "b530de906347ec66",
           "japanese": "徹夜で仕事する／勉強する。",
-          "vietnamese": "",
+          "vietnamese": "Thức trắng đêm làm việc / học bài.",
+          "reading": "てつやでしごとする／べんきょうする。",
+          "grammar": "～で = bằng cách ~, trong trạng thái ~",
           "targets": [
             "徹夜"
           ]
@@ -1519,19 +1659,25 @@
         {
           "id": "508520a5ce302db2",
           "japanese": "引越しの準備が終わった。",
-          "vietnamese": "",
+          "vietnamese": "Việc chuẩn bị chuyển nhà đã xong.",
+          "reading": "ひっこしのじゅんびがおわった。",
+          "grammar": "",
           "targets": []
         },
         {
           "id": "49254d619cfe28b5",
           "japanese": "引越しを手伝う。",
-          "vietnamese": "",
+          "vietnamese": "Giúp chuyển nhà.",
+          "reading": "ひっこしをてつだう。",
+          "grammar": "",
           "targets": []
         },
         {
           "id": "4d937f1e27b03267",
           "japanese": "東京からハノイに引越しする。",
-          "vietnamese": "",
+          "vietnamese": "Chuyển nhà từ Tokyo về Hà Nội.",
+          "reading": "とうきょうからハノイにひっこしする。",
+          "grammar": "～から…に = từ ~ tới …",
           "targets": []
         }
       ],
@@ -1550,7 +1696,9 @@
         {
           "id": "8336b9523fd77518",
           "japanese": "身長を測る。",
-          "vietnamese": "",
+          "vietnamese": "Đo chiều cao.",
+          "reading": "しんちょうをはかる。",
+          "grammar": "",
           "targets": [
             "身長"
           ]
@@ -1558,7 +1706,9 @@
         {
           "id": "c331502209f2d856",
           "japanese": "兄は身長が高い ＞＜ が低い",
-          "vietnamese": "",
+          "vietnamese": "Anh tôi cao ＞＜ thấp",
+          "reading": "あにはしんちょうがたかい ＞＜ がひくい",
+          "grammar": "A は B が～ = câu hai chủ đề — A xét về mặt B thì ~",
           "targets": [
             "身長"
           ]
@@ -1566,7 +1716,9 @@
         {
           "id": "a90443178e74b3f3",
           "japanese": "身長が伸びる。",
-          "vietnamese": "",
+          "vietnamese": "Chiều cao tăng lên.",
+          "reading": "しんちょうがのびる。",
+          "grammar": "",
           "targets": [
             "身長"
           ]
@@ -1592,7 +1744,9 @@
         {
           "id": "f9b31155db297af8",
           "japanese": "体重を測る。",
-          "vietnamese": "",
+          "vietnamese": "Cân, đo cân nặng.",
+          "reading": "たいじゅうをはかる。",
+          "grammar": "測る dùng chung cho đo chiều cao và cân nặng",
           "targets": [
             "体重"
           ]
@@ -1600,7 +1754,9 @@
         {
           "id": "5a24b5c64cbb791e",
           "japanese": "妹の体重は170キロだ。",
-          "vietnamese": "",
+          "vietnamese": "Cân nặng của em gái tôi là 170 kg.",
+          "reading": "いもうとのたいじゅうはひゃくななじゅっキロだ。",
+          "grammar": "",
           "targets": [
             "体重"
           ]
@@ -1630,7 +1786,9 @@
         {
           "id": "4a59f88468a572b5",
           "japanese": "転んで足にけがをした。",
-          "vietnamese": "",
+          "vietnamese": "Tôi bị ngã và bị thương ở chân.",
+          "reading": "ころんであしにけがをした。",
+          "grammar": "～にけがをする = bị thương ở ~ — chỗ bị thương đi với に",
           "targets": [
             "けが"
           ]
@@ -1660,7 +1818,9 @@
         {
           "id": "6578a7149bfc3573",
           "japanese": "忘年会を開く／する。",
-          "vietnamese": "",
+          "vietnamese": "Tổ chức tiệc tất niên.",
+          "reading": "ぼうねんかいをひらく／する。",
+          "grammar": "会を開く = mở, tổ chức một buổi tiệc hay buổi họp mặt",
           "targets": [
             "会"
           ]
@@ -1686,7 +1846,9 @@
         {
           "id": "2b7bacf3af0642c1",
           "japanese": "趣味は読書です。",
-          "vietnamese": "",
+          "vietnamese": "Sở thích của tôi là đọc sách.",
+          "reading": "しゅみはどくしょです。",
+          "grammar": "",
           "targets": [
             "趣味"
           ]
@@ -1694,7 +1856,9 @@
         {
           "id": "9046cf9f2eb9bd83",
           "japanese": "彼女はいつも趣味のいい服を着ている。",
-          "vietnamese": "",
+          "vietnamese": "Cô ấy lúc nào cũng mặc đồ có gu.",
+          "reading": "かのじょはいつもしゅみのいいふくをきている。",
+          "grammar": "趣味がいい = có gu, có thẩm mỹ — khi đứng trong cụm bổ nghĩa thì が đổi thành の",
           "targets": [
             "趣味"
           ]
@@ -1720,7 +1884,9 @@
         {
           "id": "052cd4fcde5686f1",
           "japanese": "私は歴史に興味があります。",
-          "vietnamese": "",
+          "vietnamese": "Tôi có hứng thú với lịch sử.",
+          "reading": "わたしはれきしにきょうみがあります。",
+          "grammar": "～に興味がある = quan tâm tới ~ — thứ mình quan tâm đi với に",
           "targets": [
             "興味"
           ]
@@ -1728,7 +1894,9 @@
         {
           "id": "56adb6adf8b507c1",
           "japanese": "小さな子供は何にでも興味を持つ。",
-          "vietnamese": "",
+          "vietnamese": "Trẻ nhỏ thì cái gì cũng thấy tò mò.",
+          "reading": "ちいさなこどもはなんにでもきょうみをもつ。",
+          "grammar": "何にでも = với bất cứ cái gì cũng (nghi vấn từ ＋でも)",
           "targets": [
             "興味"
           ]
@@ -1762,7 +1930,9 @@
         {
           "id": "4479947b87b3c4e0",
           "japanese": "オンラインチームのみんなでピクニックに行ったのはいい思い出だ。",
-          "vietnamese": "",
+          "vietnamese": "Chuyện cả nhóm học online cùng đi dã ngoại là một kỷ niệm đẹp.",
+          "reading": "オンラインチームのみんなでピクニックにいったのはいいおもいでだ。",
+          "grammar": "V た＋の = việc đã ~ (danh từ hoá cả mệnh đề); ～みんなで = cả nhóm cùng nhau",
           "targets": [
             "思い出"
           ]
@@ -1770,7 +1940,9 @@
         {
           "id": "bd1a6d0a3c388cf1",
           "japanese": "思い出してうれしい。",
-          "vietnamese": "",
+          "vietnamese": "Nhớ lại mà thấy vui.",
+          "reading": "おもいだしてうれしい。",
+          "grammar": "V て＋tính từ = vì ~ nên thấy ~",
           "targets": [
             "思い出"
           ]
@@ -1796,7 +1968,9 @@
         {
           "id": "a20a756d77be28d9",
           "japanese": "冗談を言ったら彼女が本気にした。",
-          "vietnamese": "",
+          "vietnamese": "Tôi nói đùa mà cô ấy lại tưởng thật.",
+          "reading": "じょうだんをいったらかのじょがほんきにした。",
+          "grammar": "～たら = ~ thì (rồi xảy ra chuyện ngoài dự tính); 本気にする = tưởng thật",
           "targets": [
             "冗談"
           ]
@@ -1822,7 +1996,9 @@
         {
           "id": "2f9bd4ad0a14db82",
           "japanese": "来日の目的は観光です。",
-          "vietnamese": "",
+          "vietnamese": "Mục đích sang Nhật là du lịch.",
+          "reading": "らいにちのもくてきはかんこうです。",
+          "grammar": "sách dùng lại đúng câu của mục 観光 để dạy cả hai từ",
           "targets": [
             "目的"
           ]
@@ -1848,7 +2024,9 @@
         {
           "id": "fae572be7d3c0595",
           "japanese": "彼と結婚の約束をした。",
-          "vietnamese": "",
+          "vietnamese": "Tôi đã hẹn ước kết hôn với anh ấy.",
+          "reading": "かれとけっこんのやくそくをした。",
+          "grammar": "～と約束をする = hẹn ước với ~ — người cùng hẹn đi với と",
           "targets": [
             "約束"
           ]
@@ -1856,7 +2034,9 @@
         {
           "id": "b3e921b8d7ce4e79",
           "japanese": "再会を約束して別れた。",
-          "vietnamese": "",
+          "vietnamese": "Chúng tôi hẹn gặp lại rồi chia tay.",
+          "reading": "さいかいをやくそくしてわかれた。",
+          "grammar": "V て＋V = làm việc này rồi tới việc kia",
           "targets": [
             "約束"
           ]
@@ -1864,7 +2044,9 @@
         {
           "id": "e57e94f05514537d",
           "japanese": "約束の時間に間に合うかどうか心配だ。",
-          "vietnamese": "",
+          "vietnamese": "Tôi lo không biết có kịp giờ hẹn không.",
+          "reading": "やくそくのじかんにまにあうかどうかしんぱいだ。",
+          "grammar": "～に間に合う = kịp ~; ～かどうか = có ~ hay không",
           "targets": [
             "約束"
           ]
@@ -1890,7 +2072,9 @@
         {
           "id": "2bb81ca685c18c26",
           "japanese": "授業中に隣の人とおしゃべりしていて、先生に怒られた。",
-          "vietnamese": "",
+          "vietnamese": "Tôi nói chuyện với bạn bên cạnh trong giờ học nên bị thầy mắng.",
+          "reading": "じゅぎょうちゅうにとなりのひととおしゃべりしていて、せんせいにおこられた。",
+          "grammar": "～中に = trong lúc ~; 人に怒られる = bị ai mắng (bị động, người mắng đi với に)",
           "targets": [
             "おしゃべり"
           ]
@@ -1898,7 +2082,9 @@
         {
           "id": "97b3e96f3af6ceaf",
           "japanese": "おしゃべりな子供",
-          "vietnamese": "",
+          "vietnamese": "Đứa trẻ lắm lời",
+          "reading": "おしゃべりなこども",
+          "grammar": "おしゃべり vừa là danh từ (việc trò chuyện) vừa là な-tính từ (lắm lời)",
           "targets": [
             "おしゃべり"
           ]
@@ -1919,7 +2105,9 @@
         {
           "id": "514934152aa09e6e",
           "japanese": "遠慮しないで食べてください。",
-          "vietnamese": "",
+          "vietnamese": "Đừng ngại, cứ ăn tự nhiên đi ạ.",
+          "reading": "えんりょしないでたべてください。",
+          "grammar": "～ないで＋V = đừng ~ mà hãy…",
           "targets": [
             "遠慮"
           ]
@@ -1927,7 +2115,9 @@
         {
           "id": "b618d4b5272e7eb5",
           "japanese": "上司に遠慮して、自分の意見を言えなかった。",
-          "vietnamese": "",
+          "vietnamese": "Tôi nể sếp nên đã không nói được ý kiến của mình.",
+          "reading": "じょうしにえんりょして、じぶんのいけんをいえなかった。",
+          "grammar": "～に遠慮する = dè chừng, nể ~; 言えなかった = đã không nói được (khả năng, quá khứ phủ định)",
           "targets": [
             "遠慮"
           ]
@@ -1935,7 +2125,9 @@
         {
           "id": "22e970bdbb1a0053",
           "japanese": "ここではタバコはご遠慮ください。",
-          "vietnamese": "",
+          "vietnamese": "Ở đây xin quý khách vui lòng không hút thuốc.",
+          "reading": "ここではタバコはごえんりょください。",
+          "grammar": "ご＋N ＋ください = cách nói cấm đoán lịch sự, thường thấy trên biển báo",
           "targets": [
             "遠慮"
           ]
@@ -1956,7 +2148,9 @@
         {
           "id": "7c65fcee51796647",
           "japanese": "痛くても我慢する。",
-          "vietnamese": "",
+          "vietnamese": "Dù đau cũng chịu.",
+          "reading": "いたくてもがまんする。",
+          "grammar": "tính từ い bỏ い ＋くても = dù ~ cũng",
           "targets": [
             "我慢"
           ]
@@ -1964,7 +2158,9 @@
         {
           "id": "3ad3619d44a86e66",
           "japanese": "眠いのを我慢して勉強した。",
-          "vietnamese": "",
+          "vietnamese": "Tôi cố nhịn buồn ngủ để học.",
+          "reading": "ねむいのをがまんしてべんきょうした。",
+          "grammar": "tính từ ＋の = danh từ hoá (眠いの = cái sự buồn ngủ)",
           "targets": [
             "我慢"
           ]
@@ -1972,7 +2168,9 @@
         {
           "id": "360977c54c25abf7",
           "japanese": "我慢強い人",
-          "vietnamese": "",
+          "vietnamese": "Người giỏi chịu đựng",
+          "reading": "がまんづよいひと",
+          "grammar": "",
           "targets": [
             "我慢"
           ]
@@ -1998,7 +2196,9 @@
         {
           "id": "a3f3fb1cd5d09113",
           "japanese": "人に迷惑をかけてはいけない。",
-          "vietnamese": "",
+          "vietnamese": "Không được làm phiền người khác.",
+          "reading": "ひとにめいわくをかけてはいけない。",
+          "grammar": "人に迷惑をかける = làm phiền ai; ～てはいけない = không được ~",
           "targets": [
             "迷惑"
           ]
@@ -2006,7 +2206,9 @@
         {
           "id": "8190aa80c1f07e5c",
           "japanese": "迷惑な人",
-          "vietnamese": "",
+          "vietnamese": "Người gây phiền phức",
+          "reading": "めいわくなひと",
+          "grammar": "",
           "targets": [
             "迷惑"
           ]
@@ -2014,7 +2216,9 @@
         {
           "id": "997356132d9299e8",
           "japanese": "夜中に騒がれて迷惑する。",
-          "vietnamese": "",
+          "vietnamese": "Bị người ta làm ồn lúc nửa đêm nên khổ sở.",
+          "reading": "よなかにさわがれてめいわくする。",
+          "grammar": "騒がれる = bị làm ồn — bị động chịu thiệt, việc người khác làm gây hại cho mình",
           "targets": [
             "迷惑"
           ]
@@ -2040,7 +2244,9 @@
         {
           "id": "88f66369cfe1f657",
           "japanese": "最後まで希望を捨ててはいけない。",
-          "vietnamese": "",
+          "vietnamese": "Không được vứt bỏ hy vọng cho tới phút chót.",
+          "reading": "さいごまできぼうをすててはいけない。",
+          "grammar": "～まで = cho tới ~; ～てはいけない = không được ~",
           "targets": [
             "希望"
           ]
@@ -2048,7 +2254,9 @@
         {
           "id": "f68f05946792eb04",
           "japanese": "私はふるさとでの就職を希望している。",
-          "vietnamese": "",
+          "vietnamese": "Tôi mong xin được việc ở quê nhà.",
+          "reading": "わたしはふるさとでのしゅうしょくをきぼうしている。",
+          "grammar": "～での＋N = N diễn ra ở ~; ～を希望する = mong muốn ~ (văn viết, đơn từ)",
           "targets": [
             "希望"
           ]
@@ -2056,7 +2264,9 @@
         {
           "id": "8190e824fd2357b2",
           "japanese": "イベント参加希望者は手をあげてください。",
-          "vietnamese": "",
+          "vietnamese": "Ai muốn tham gia sự kiện xin giơ tay.",
+          "reading": "イベントさんかきぼうしゃはてをあげてください。",
+          "grammar": "～希望者 = người có nguyện vọng ~ — hậu tố ghép thẳng vào danh từ",
           "targets": [
             "希望"
           ]
@@ -2082,7 +2292,9 @@
         {
           "id": "139a4ecfa798ee2f",
           "japanese": "きのう、こわい夢を見た。",
-          "vietnamese": "",
+          "vietnamese": "Hôm qua tôi mơ thấy ác mộng.",
+          "reading": "きのう、こわいゆめをみた。",
+          "grammar": "夢を見る = nằm mơ — dùng 見る chứ không dùng する",
           "targets": [
             "夢"
           ]
@@ -2090,7 +2302,9 @@
         {
           "id": "991d991e80dd2321",
           "japanese": "夢から覚める。",
-          "vietnamese": "",
+          "vietnamese": "Tỉnh khỏi giấc mơ.",
+          "reading": "ゆめからさめる。",
+          "grammar": "",
           "targets": [
             "夢"
           ]
@@ -2098,7 +2312,9 @@
         {
           "id": "36bf03f5dc28f121",
           "japanese": "あなたの将来の夢はなんですか。",
-          "vietnamese": "",
+          "vietnamese": "Ước mơ tương lai của bạn là gì?",
+          "reading": "あなたのしょうらいのゆめはなんですか。",
+          "grammar": "",
           "targets": [
             "夢"
           ]
@@ -2106,7 +2322,9 @@
         {
           "id": "4b45672ff154a258",
           "japanese": "夢が叶ってお金持ちになりました。",
-          "vietnamese": "",
+          "vietnamese": "Ước mơ thành hiện thực, tôi đã trở nên giàu có.",
+          "reading": "ゆめがかなっておかねもちになりました。",
+          "grammar": "夢が叶う = ước mơ thành sự thật; N ＋になる = trở thành ~",
           "targets": [
             "夢"
           ]
@@ -2136,7 +2354,9 @@
         {
           "id": "46e1d82bc30efda9",
           "japanese": "私はその提案／意見に賛成だ／賛成する。",
-          "vietnamese": "",
+          "vietnamese": "Tôi tán thành đề xuất / ý kiến đó.",
+          "reading": "わたしはそのていあん／いけんにさんせいだ／さんせいする。",
+          "grammar": "～に賛成する = tán thành ~ — điều tán thành đi với に",
           "targets": [
             "賛成"
           ]
@@ -2144,7 +2364,9 @@
         {
           "id": "45f64900f7447853",
           "japanese": "賛成の人は手を挙げてください！",
-          "vietnamese": "",
+          "vietnamese": "Ai đồng ý thì giơ tay lên!",
+          "reading": "さんせいのひとはてをあげてください！",
+          "grammar": "",
           "targets": [
             "賛成"
           ]
@@ -2170,7 +2392,9 @@
         {
           "id": "0ba6af1ecfa97f75",
           "japanese": "提案／意見に反対する。",
-          "vietnamese": "",
+          "vietnamese": "Phản đối đề xuất / ý kiến.",
+          "reading": "ていあん／いけんにはんたいする。",
+          "grammar": "～に反対する = phản đối ~ — dùng に giống 賛成する",
           "targets": [
             "反対"
           ]
@@ -2200,7 +2424,9 @@
         {
           "id": "19a7f94a0ec04e7c",
           "japanese": "想像と現実は違う。",
-          "vietnamese": "",
+          "vietnamese": "Tưởng tượng khác với thực tế.",
+          "reading": "そうぞうとげんじつはちがう。",
+          "grammar": "A と B は違う = A khác B",
           "targets": [
             "想像"
           ]
@@ -2208,7 +2434,9 @@
         {
           "id": "c84f3d8d0c090f98",
           "japanese": "100年後の未来を想像する。",
-          "vietnamese": "",
+          "vietnamese": "Tưởng tượng về tương lai 100 năm sau.",
+          "reading": "ひゃくねんごのみらいをそうぞうする。",
+          "grammar": "数量＋後 = sau ~ (100年後 = 100 năm sau)",
           "targets": [
             "想像"
           ]
@@ -2216,7 +2444,9 @@
         {
           "id": "7ae1a2787bd18660",
           "japanese": "10年後に私がどうなっているか、全然想像がつかない。",
-          "vietnamese": "",
+          "vietnamese": "10 năm nữa tôi sẽ ra sao, hoàn toàn không hình dung nổi.",
+          "reading": "じゅうねんごにわたしがどうなっているか、ぜんぜんそうぞうがつかない。",
+          "grammar": "～か = câu hỏi lồng trong câu; 全然＋phủ định = hoàn toàn không; 想像がつかない = không hình dung nổi",
           "targets": [
             "想像"
           ]
@@ -2224,7 +2454,9 @@
         {
           "id": "76386de68b432316",
           "japanese": "豊かな想像力が欲しいなあ。",
-          "vietnamese": "",
+          "vietnamese": "Giá mà mình có trí tưởng tượng phong phú.",
+          "reading": "ゆたかなそうぞうりょくがほしいなあ。",
+          "grammar": "～が欲しい = muốn có ~; ～なあ = ước gì, than nhẹ với chính mình",
           "targets": [
             "想像"
           ]
@@ -2250,7 +2482,9 @@
         {
           "id": "674f47825a81954a",
           "japanese": "一生懸命、努力をする。",
-          "vietnamese": "",
+          "vietnamese": "Nỗ lực hết mình.",
+          "reading": "いっしょうけんめい、どりょくをする。",
+          "grammar": "",
           "targets": [
             "努力"
           ]
@@ -2258,7 +2492,9 @@
         {
           "id": "e03bd0e190dfce1f",
           "japanese": "努力を重ねて、希望の大学に入れました。",
-          "vietnamese": "",
+          "vietnamese": "Cố gắng không ngừng, tôi đã vào được trường đại học mình mong muốn.",
+          "reading": "どりょくをかさねて、きぼうのだいがくにはいれました。",
+          "grammar": "努力を重ねる = cố gắng hết lần này tới lần khác; 入れました = đã vào được (thể khả năng)",
           "targets": [
             "努力"
           ]
@@ -2266,7 +2502,9 @@
         {
           "id": "a9a73d6193ed7b86",
           "japanese": "努力は必ず大きく実る。",
-          "vietnamese": "",
+          "vietnamese": "Nỗ lực nhất định sẽ đơm hoa kết trái.",
+          "reading": "どりょくはかならずおおきくみのる。",
+          "grammar": "必ず = nhất định; tính từ い bỏ い ＋く＋V = làm việc gì một cách ~",
           "targets": [
             "努力"
           ]
@@ -2300,7 +2538,9 @@
         {
           "id": "63c93ce2d6ba4f41",
           "japanese": "太陽と月、地球の関係",
-          "vietnamese": "",
+          "vietnamese": "Quan hệ giữa mặt trời, mặt trăng và trái đất",
+          "reading": "たいようとつき、ちきゅうのかんけい",
+          "grammar": "",
           "targets": [
             "太陽"
           ]
@@ -2308,7 +2548,9 @@
         {
           "id": "4d7659dc875b16c3",
           "japanese": "太陽が出る。",
-          "vietnamese": "",
+          "vietnamese": "Mặt trời ló ra.",
+          "reading": "たいようがでる。",
+          "grammar": "",
           "targets": [
             "太陽"
           ]
@@ -2316,7 +2558,9 @@
         {
           "id": "7d1380830368c8ab",
           "japanese": "太陽が昇る。",
-          "vietnamese": "",
+          "vietnamese": "Mặt trời mọc.",
+          "reading": "たいようがのぼる。",
+          "grammar": "",
           "targets": [
             "太陽"
           ]
@@ -2324,7 +2568,9 @@
         {
           "id": "268b200720ca3366",
           "japanese": "太陽が沈む。",
-          "vietnamese": "",
+          "vietnamese": "Mặt trời lặn.",
+          "reading": "たいようがしずむ。",
+          "grammar": "ba động từ đi với 太陽 đều là tự động từ, nên mặt trời đi với が",
           "targets": [
             "太陽"
           ]
@@ -2345,7 +2591,9 @@
         {
           "id": "3ce46b54acc7dbc1",
           "japanese": "地球の環境が悪化している。",
-          "vietnamese": "",
+          "vietnamese": "Môi trường trái đất đang xấu đi.",
+          "reading": "ちきゅうのかんきょうがあっかしている。",
+          "grammar": "～ている = đang diễn tiến theo chiều đó",
           "targets": [
             "地球"
           ]
@@ -2353,7 +2601,9 @@
         {
           "id": "4d7b7ef911923387",
           "japanese": "地球温暖化",
-          "vietnamese": "",
+          "vietnamese": "Sự nóng lên toàn cầu",
+          "reading": "ちきゅうおんだんか",
+          "grammar": "",
           "targets": [
             "地球"
           ]
@@ -2379,7 +2629,9 @@
         {
           "id": "74fd9e583e10e447",
           "japanese": "温度を測る。",
-          "vietnamese": "",
+          "vietnamese": "Đo nhiệt độ.",
+          "reading": "おんどをはかる。",
+          "grammar": "",
           "targets": [
             "温度"
           ]
@@ -2409,7 +2661,9 @@
         {
           "id": "f5989543cc4dc8bc",
           "japanese": "今年の夏は特に湿度が高い。",
-          "vietnamese": "",
+          "vietnamese": "Mùa hè năm nay độ ẩm đặc biệt cao.",
+          "reading": "ことしのなつはとくにしつどがたかい。",
+          "grammar": "特に = đặc biệt là, nhất là",
           "targets": [
             "湿度"
           ]
@@ -2417,7 +2671,9 @@
         {
           "id": "43c57807fc12edea",
           "japanese": "今日は湿度が90％で蒸し暑い。",
-          "vietnamese": "",
+          "vietnamese": "Hôm nay độ ẩm 90% nên oi bức.",
+          "reading": "きょうはしつどがきゅうじゅっパーセントでむしあつい。",
+          "grammar": "～で = vì ~ nên (nối nguyên nhân bằng danh từ)",
           "targets": [
             "湿度"
           ]
@@ -2443,7 +2699,9 @@
         {
           "id": "22705e1b389a940e",
           "japanese": "湿気が多い。",
-          "vietnamese": "",
+          "vietnamese": "Nhiều hơi ẩm.",
+          "reading": "しっけがおおい。",
+          "grammar": "",
           "targets": [
             "湿気"
           ]
@@ -2451,7 +2709,9 @@
         {
           "id": "afab5427d4d230c2",
           "japanese": "湿気が少ない。",
-          "vietnamese": "",
+          "vietnamese": "Ít hơi ẩm.",
+          "reading": "しっけがすくない。",
+          "grammar": "湿気 đi với 多い／少ない, còn 湿度 đi với 高い／低い",
           "targets": [
             "湿気"
           ]
@@ -2472,7 +2732,9 @@
         {
           "id": "a924dea7ea432392",
           "japanese": "6月から7月は梅雨の時期だ。",
-          "vietnamese": "",
+          "vietnamese": "Từ tháng 6 tới tháng 7 là mùa mưa.",
+          "reading": "ろくがつからしちがつはつゆのじきだ。",
+          "grammar": "～から…まで／は = từ ~ tới …",
           "targets": [
             "梅雨"
           ]
@@ -2498,7 +2760,9 @@
         {
           "id": "16e90fda7089b335",
           "japanese": "梅雨の時期はかびが生えやすい。",
-          "vietnamese": "",
+          "vietnamese": "Vào mùa mưa thì rất dễ mọc nấm mốc.",
+          "reading": "つゆのじきはかびがはえやすい。",
+          "grammar": "V ます＋やすい = dễ ~ (trái nghĩa: ～にくい)",
           "targets": [
             "かび"
           ]
@@ -2519,7 +2783,9 @@
         {
           "id": "41e6a923a6fa137b",
           "japanese": "寒いので暖房をつける ＞＜ 暖房を消す",
-          "vietnamese": "",
+          "vietnamese": "Lạnh nên bật lò sưởi ＞＜ tắt lò sưởi",
+          "reading": "さむいのでだんぼうをつける ＞＜ だんぼうをけす",
+          "grammar": "tính từ い ＋ので = vì ~ nên; つける ＞＜ 消す = bật ＞＜ tắt",
           "targets": [
             "暖房"
           ]
@@ -2527,7 +2793,9 @@
         {
           "id": "622eb46d0bc9eeed",
           "japanese": "この部屋の暖房が効いていて暖かい。",
-          "vietnamese": "",
+          "vietnamese": "Lò sưởi phòng này chạy tốt nên ấm.",
+          "reading": "このへやのだんぼうがきいていてあたたかい。",
+          "grammar": "効く = có tác dụng, ăn thua; ～ていて = đang ở trạng thái ~ nên",
           "targets": [
             "暖房"
           ]
@@ -2557,7 +2825,9 @@
         {
           "id": "839cdc5aaca5b90a",
           "japanese": "果物の皮をむく。",
-          "vietnamese": "",
+          "vietnamese": "Gọt vỏ hoa quả.",
+          "reading": "くだもののかわをむく。",
+          "grammar": "皮をむく = gọt, bóc vỏ (cụm cố định)",
           "targets": [
             "皮"
           ]
@@ -2578,7 +2848,9 @@
         {
           "id": "1c3264af05bce12a",
           "japanese": "ビール缶を捨てる。",
-          "vietnamese": "",
+          "vietnamese": "Vứt lon bia.",
+          "reading": "ビールかんをすてる。",
+          "grammar": "",
           "targets": [
             "缶"
           ]
@@ -2608,7 +2880,9 @@
         {
           "id": "ed854b9dc7ff41ac",
           "japanese": "パソコンの画面をずっと見ていると、目が疲れる。",
-          "vietnamese": "",
+          "vietnamese": "Cứ nhìn màn hình máy tính mãi thì mắt sẽ mỏi.",
+          "reading": "パソコンのがめんをずっとみていると、めがつかれる。",
+          "grammar": "～と = hễ ~ thì (kết quả tất yếu); ずっと = suốt, mãi",
           "targets": [
             "画面"
           ]
@@ -2616,7 +2890,9 @@
         {
           "id": "ad70b01dbb5cd62b",
           "japanese": "スマホの画面",
-          "vietnamese": "",
+          "vietnamese": "Màn hình điện thoại",
+          "reading": "スマホのがめん",
+          "grammar": "",
           "targets": [
             "画面"
           ]
@@ -2624,7 +2900,9 @@
         {
           "id": "2ad90b7dcf79582c",
           "japanese": "テレビの画面",
-          "vietnamese": "",
+          "vietnamese": "Màn hình tivi",
+          "reading": "テレビのがめん",
+          "grammar": "",
           "targets": [
             "画面"
           ]
@@ -2645,7 +2923,9 @@
         {
           "id": "dba05698faedb793",
           "japanese": "テレビの番組を見る。",
-          "vietnamese": "",
+          "vietnamese": "Xem chương trình truyền hình.",
+          "reading": "テレビのばんぐみをみる。",
+          "grammar": "",
           "targets": [
             "番組"
           ]
@@ -2653,7 +2933,9 @@
         {
           "id": "d3606154713336d5",
           "japanese": "新聞の番組欄",
-          "vietnamese": "",
+          "vietnamese": "Mục lịch phát sóng trên báo",
+          "reading": "しんぶんのばんぐみらん",
+          "grammar": "～欄 = cột, mục ~ trên báo hay biểu mẫu",
           "targets": [
             "番組"
           ]
@@ -2679,7 +2961,9 @@
         {
           "id": "d81b82e3ac63d1b7",
           "japanese": "この記事によると、日本に住む外国人が増えているそうだ。",
-          "vietnamese": "",
+          "vietnamese": "Theo bài báo này thì người nước ngoài sống ở Nhật đang tăng lên.",
+          "reading": "このきじによると、にほんにすむがいこくじんがふえているそうだ。",
+          "grammar": "～によると…そうだ = theo ~ thì nghe nói… — cặp đi liền nhau khi dẫn nguồn tin",
           "targets": [
             "記事"
           ]
@@ -2705,7 +2989,9 @@
         {
           "id": "73c30c19b04772d9",
           "japanese": "近所迷惑",
-          "vietnamese": "",
+          "vietnamese": "Làm phiền hàng xóm",
+          "reading": "きんじょめいわく",
+          "grammar": "",
           "targets": [
             "近所"
           ]
@@ -2713,7 +2999,9 @@
         {
           "id": "5a4b781ad610c157",
           "japanese": "近所の人とは仲良くしたほうがいい。",
-          "vietnamese": "",
+          "vietnamese": "Nên sống hoà thuận với hàng xóm.",
+          "reading": "きんじょのひととはなかよくしたほうがいい。",
+          "grammar": "～とは = với ~ thì; V た＋ほうがいい = nên ~",
           "targets": [
             "近所"
           ]
@@ -2721,7 +3009,9 @@
         {
           "id": "1d6ba603d7ba934e",
           "japanese": "私はよく近所の公園を散歩する。",
-          "vietnamese": "",
+          "vietnamese": "Tôi hay đi dạo ở công viên gần nhà.",
+          "reading": "わたしはよくきんじょのこうえんをさんぽする。",
+          "grammar": "～を散歩する = dạo quanh ~ — nơi đi qua đi lại dùng を chứ không dùng で",
           "targets": [
             "近所"
           ]
@@ -2755,7 +3045,9 @@
         {
           "id": "71675c4a2eca95e0",
           "japanese": "財布を拾ったので、警察に届けた。",
-          "vietnamese": "",
+          "vietnamese": "Tôi nhặt được ví nên đã đem nộp cho cảnh sát.",
+          "reading": "さいふをひろったので、けいさつにとどけた。",
+          "grammar": "～ので = vì ~ nên; ～に届ける = đem nộp, báo cho ~",
           "targets": [
             "警察"
           ]
@@ -2785,7 +3077,9 @@
         {
           "id": "53b14a350cc93136",
           "japanese": "事件の犯人を捕まえる。",
-          "vietnamese": "",
+          "vietnamese": "Bắt hung thủ của vụ án.",
+          "reading": "じけんのはんにんをつかまえる。",
+          "grammar": "",
           "targets": [
             "犯人"
           ]
@@ -2806,7 +3100,9 @@
         {
           "id": "38f0e255f1cc35b0",
           "japanese": "バスに乗ってから小銭がないことに気がつき、とても困った。",
-          "vietnamese": "",
+          "vietnamese": "Lên xe buýt rồi tôi mới nhận ra là không có tiền lẻ, khổ sở vô cùng.",
+          "reading": "バスにのってからこぜにがないことにきがつき、とてもこまった。",
+          "grammar": "～てから = sau khi ~; ～ことに気がつく = nhận ra rằng ~; V ます ngắt câu = cách nối văn viết",
           "targets": [
             "小銭"
           ]
@@ -2836,7 +3132,9 @@
         {
           "id": "b1520336ecb2af81",
           "japanese": "家族みんなでごちそうを食べて、祖父の誕生日を祝った。",
-          "vietnamese": "",
+          "vietnamese": "Cả nhà cùng ăn tiệc, mừng sinh nhật ông.",
+          "reading": "かぞくみんなでごちそうをたべて、そふのたんじょうびをいわった。",
+          "grammar": "～みんなで = cả nhóm cùng nhau; V て＋V = làm việc này rồi việc kia",
           "targets": [
             "ごちそう"
           ]
@@ -2844,7 +3142,9 @@
         {
           "id": "8baaac65e74da343",
           "japanese": "チンさんは私たちに手作りのギョーザをごちそうしてくれた。",
-          "vietnamese": "",
+          "vietnamese": "Anh Chinh đã đãi chúng tôi món sủi cảo tự làm.",
+          "reading": "チンさんはわたしたちにてづくりのギョーザをごちそうしてくれた。",
+          "grammar": "人に～をごちそうしてくれる = đãi mình món ~ (～てくれる: người khác làm cho mình)",
           "targets": [
             "ごちそう"
           ]
@@ -2852,7 +3152,9 @@
         {
           "id": "f520372835ff852e",
           "japanese": "昨日は先輩にごちそうになった。",
-          "vietnamese": "",
+          "vietnamese": "Hôm qua tôi được tiền bối khao.",
+          "reading": "きのうはせんぱいにごちそうになった。",
+          "grammar": "人にごちそうになる = được ai khao — người khao đi với に",
           "targets": [
             "ごちそう"
           ]
@@ -2873,7 +3175,9 @@
         {
           "id": "75030f80583ce20a",
           "japanese": "{小説／詩／絵／彫刻}…の作者",
-          "vietnamese": "",
+          "vietnamese": "Tác giả của {tiểu thuyết / bài thơ / bức tranh / tượng}…",
+          "reading": "{しょうせつ／し／え／ちょうこく}…のさくしゃ",
+          "grammar": "",
           "targets": [
             "作者"
           ]
@@ -2881,7 +3185,9 @@
         {
           "id": "d863e54e1757a040",
           "japanese": "「ハムレット」の作者はシェイクスピアです。",
-          "vietnamese": "",
+          "vietnamese": "Tác giả của \"Hamlet\" là Shakespeare.",
+          "reading": "「ハムレット」のさくしゃはシェイクスピアです。",
+          "grammar": "",
           "targets": [
             "作者"
           ]
@@ -2915,7 +3221,9 @@
         {
           "id": "b4ed2b5806e4b2de",
           "japanese": "学生の作品をロビーに展示する。",
-          "vietnamese": "",
+          "vietnamese": "Trưng bày tác phẩm của sinh viên ở sảnh.",
+          "reading": "がくせいのさくひんをロビーにてんじする。",
+          "grammar": "～に展示する = trưng bày ở ~ — nơi đặt đi với に",
           "targets": [
             "作品"
           ]
@@ -2941,7 +3249,9 @@
         {
           "id": "fe7d877aa84cd7cb",
           "japanese": "日本の中学校には制服のある学校が多い。",
-          "vietnamese": "",
+          "vietnamese": "Ở Nhật có nhiều trường cấp hai mặc đồng phục.",
+          "reading": "にほんのちゅうがっこうにはせいふくのあるがっこうがおおい。",
+          "grammar": "～のある＋N = N có ~ — trong cụm bổ nghĩa cho danh từ, が đổi thành の",
           "targets": [
             "制服"
           ]
@@ -2949,7 +3259,9 @@
         {
           "id": "4db8e4c6217b5c0b",
           "japanese": "制服（会社、学校）",
-          "vietnamese": "",
+          "vietnamese": "Đồng phục (công ty, trường học)",
+          "reading": "せいふく（かいしゃ、がっこう）",
+          "grammar": "",
           "targets": [
             "制服"
           ]
@@ -2957,7 +3269,9 @@
         {
           "id": "71f77116e2a142b8",
           "japanese": "ユニフォーム（スポーツ）",
-          "vietnamese": "",
+          "vietnamese": "Đồng phục thi đấu (thể thao)",
+          "reading": "",
+          "grammar": "",
           "targets": []
         }
       ],
@@ -2985,7 +3299,9 @@
         {
           "id": "6a1b437db58a2d3d",
           "japanese": "洗剤で食器を洗う。",
-          "vietnamese": "",
+          "vietnamese": "Rửa bát bằng nước rửa chén.",
+          "reading": "せんざいでしょっきをあらう。",
+          "grammar": "～で = bằng ~ (công cụ, chất liệu)",
           "targets": [
             "洗剤"
           ]
@@ -3011,7 +3327,9 @@
         {
           "id": "b55d892d5851f4cc",
           "japanese": "靴の底に穴が空く。",
-          "vietnamese": "",
+          "vietnamese": "Đế giày bị thủng một lỗ.",
+          "reading": "くつのそこにあながあく。",
+          "grammar": "穴が空く = bị thủng — tự động từ, chỗ thủng đi với に",
           "targets": [
             "底"
           ]
@@ -3019,7 +3337,9 @@
         {
           "id": "c6fbd17396c953c1",
           "japanese": "箱の底が抜ける。",
-          "vietnamese": "",
+          "vietnamese": "Đáy hộp bị bục.",
+          "reading": "はこのそこがぬける。",
+          "grammar": "",
           "targets": [
             "底"
           ]
@@ -3027,7 +3347,9 @@
         {
           "id": "d494b49a789824a7",
           "japanese": "コップの底",
-          "vietnamese": "",
+          "vietnamese": "Đáy cốc",
+          "reading": "コップのそこ",
+          "grammar": "",
           "targets": [
             "底"
           ]
@@ -3035,7 +3357,9 @@
         {
           "id": "583012d0257f83c4",
           "japanese": "海の底に潜る。",
-          "vietnamese": "",
+          "vietnamese": "Lặn xuống đáy biển.",
+          "reading": "うみのそこにもぐる。",
+          "grammar": "",
           "targets": [
             "底"
           ]
@@ -3043,7 +3367,9 @@
         {
           "id": "1a23ba0a03e25ecb",
           "japanese": "あの人は心の底では何を考えているかわからない。",
-          "vietnamese": "",
+          "vietnamese": "Không biết trong thâm tâm người đó nghĩ gì.",
+          "reading": "あのひとはこころのそこではなにをかんがえているかわからない。",
+          "grammar": "心の底 = thâm tâm, đáy lòng; ～か＋わからない = không biết ~ gì",
           "targets": [
             "底"
           ]
@@ -3064,7 +3390,9 @@
         {
           "id": "53d14f16e24f06f5",
           "japanese": "大都市は地下の開発が進んでいる。",
-          "vietnamese": "",
+          "vietnamese": "Ở các thành phố lớn, việc khai thác không gian ngầm đang tiến triển.",
+          "reading": "だいとしはちかのかいはつがすすんでいる。",
+          "grammar": "～が進んでいる = đang tiến triển — tự động từ ＋ている tả xu thế",
           "targets": [
             "地下"
           ]
@@ -3094,7 +3422,9 @@
         {
           "id": "2da9cb8383d287b4",
           "japanese": "お寺に｛まいる／おまいりする｝。",
-          "vietnamese": "",
+          "vietnamese": "Đi lễ chùa.",
+          "reading": "おてらに｛まいる／おまいりする｝。",
+          "grammar": "お＋N = tiền tố lịch sự (với 寺 thì gần như luôn nói お寺); まいる = khiêm nhường ngữ của 行く",
           "targets": [
             "寺"
           ]
@@ -3120,7 +3450,9 @@
         {
           "id": "cfb3f9ae41476e1a",
           "japanese": "うちの前を高速道路が走っている。",
-          "vietnamese": "",
+          "vietnamese": "Đường cao tốc chạy ngang trước nhà tôi.",
+          "reading": "うちのまえをこうそくどうろがはしっている。",
+          "grammar": "～を走る = chạy dọc theo, chạy qua ~ — đường đi qua dùng を chứ không dùng で",
           "targets": [
             "高速道路"
           ]
@@ -3150,7 +3482,9 @@
         {
           "id": "0aae7d12fddeb2c2",
           "japanese": "坂を上る。",
-          "vietnamese": "",
+          "vietnamese": "Leo dốc.",
+          "reading": "さかをのぼる。",
+          "grammar": "～を上る = leo lên ~ — quãng đường đi qua dùng を",
           "targets": [
             "坂"
           ]
@@ -3176,7 +3510,9 @@
         {
           "id": "840a947470ccef8b",
           "japanese": "「火事のときは、煙に注意して逃げてください」。",
-          "vietnamese": "",
+          "vietnamese": "\"Khi có hoả hoạn, hãy chú ý khói và chạy thoát ra.\"",
+          "reading": "「かじのときは、けむりにちゅういしてにげてください」。",
+          "grammar": "～のときは = khi ~ thì; ～に注意する = chú ý tới ~",
           "targets": [
             "煙"
           ]
@@ -3184,7 +3520,9 @@
         {
           "id": "c51ae09bf6d1d566",
           "japanese": "タバコの煙は体に悪い。",
-          "vietnamese": "",
+          "vietnamese": "Khói thuốc lá có hại cho cơ thể.",
+          "reading": "タバコのけむりはからだにわるい。",
+          "grammar": "～に悪い = có hại cho ~ (＞＜ ～にいい = tốt cho ~)",
           "targets": [
             "煙"
           ]
@@ -3205,7 +3543,9 @@
         {
           "id": "69c809a09a8a5578",
           "japanese": "タバコの灰",
-          "vietnamese": "",
+          "vietnamese": "Tàn thuốc lá",
+          "reading": "タバコのはい",
+          "grammar": "",
           "targets": [
             "灰"
           ]
@@ -3231,7 +3571,9 @@
         {
           "id": "79240bd8351fab70",
           "japanese": "書類に判を押す。",
-          "vietnamese": "",
+          "vietnamese": "Đóng dấu vào giấy tờ.",
+          "reading": "しょるいにはんをおす。",
+          "grammar": "～に判を押す = đóng dấu lên ~ — chỗ đóng dấu đi với に",
           "targets": [
             "判"
           ]
@@ -3261,7 +3603,9 @@
         {
           "id": "8ba97132bc0adceb",
           "japanese": "名刺を交換する ≒ やりとりする。",
-          "vietnamese": "",
+          "vietnamese": "Trao đổi danh thiếp.",
+          "reading": "めいしをこうかんする ≒ やりとりする。",
+          "grammar": "",
           "targets": [
             "名刺"
           ]
@@ -3269,7 +3613,9 @@
         {
           "id": "0266bc06645dca99",
           "japanese": "パーティーで会った人に名刺を配る。",
-          "vietnamese": "",
+          "vietnamese": "Phát danh thiếp cho những người gặp ở bữa tiệc.",
+          "reading": "パーティーであったひとにめいしをくばる。",
+          "grammar": "V た＋N = N đã ~ (会った人 = người đã gặp); 人に～を配る = phát ~ cho ai",
           "targets": [
             "名刺"
           ]
@@ -3295,7 +3641,9 @@
         {
           "id": "fb383b094a18e015",
           "japanese": "レストランを開くには、調理師（の）免許が必要だ。",
-          "vietnamese": "",
+          "vietnamese": "Để mở nhà hàng thì cần có bằng đầu bếp.",
+          "reading": "レストランをひらくには、ちょうりし（の）めんきょがひつようだ。",
+          "grammar": "V る＋には = để ~ thì (nêu điều kiện cần); ～が必要だ = cần ~",
           "targets": [
             "免許"
           ]
@@ -3325,7 +3673,9 @@
         {
           "id": "3ad20aca99397163",
           "japanese": "オリンピックには多くの国が参加した。",
-          "vietnamese": "",
+          "vietnamese": "Có nhiều quốc gia đã tham dự Olympic.",
+          "reading": "オリンピックにはおおくのくにがさんかした。",
+          "grammar": "多くの＋N = nhiều N — văn viết, trang trọng hơn たくさんの",
           "targets": [
             "多く"
           ]
@@ -3346,7 +3696,9 @@
         {
           "id": "054ea0cd69b02a67",
           "japanese": "映画の前半は退屈だったが、後半はおもしろかった。",
-          "vietnamese": "",
+          "vietnamese": "Nửa đầu bộ phim thì chán, nhưng nửa sau lại hay.",
+          "reading": "えいがのぜんはんはたいくつだったが、こうはんはおもしろかった。",
+          "grammar": "～だが = tuy ~ nhưng — nối hai vế trái ngược, văn viết",
           "targets": [
             "前半"
           ]
@@ -3372,7 +3724,9 @@
         {
           "id": "054ea0cd69b02a67",
           "japanese": "映画の前半は退屈だったが、後半はおもしろかった。",
-          "vietnamese": "",
+          "vietnamese": "Nửa đầu bộ phim thì chán, nhưng nửa sau lại hay.",
+          "reading": "えいがのぜんはんはたいくつだったが、こうはんはおもしろかった。",
+          "grammar": "sách dùng chung một câu cho cả cặp 前半 ＞＜ 後半",
           "targets": [
             "後半"
           ]
@@ -3398,7 +3752,9 @@
         {
           "id": "23a1dea9f3921fd8",
           "japanese": "この店はきのう、開店以来最高の売上を記録した。",
-          "vietnamese": "",
+          "vietnamese": "Hôm qua cửa hàng này đạt doanh thu cao nhất kể từ ngày khai trương.",
+          "reading": "このみせはきのう、かいてんいらいさいこうのうりあげをきろくした。",
+          "grammar": "～以来 = kể từ ~ tới nay; 記録する = ghi nhận, lập (kỷ lục, con số)",
           "targets": [
             "最高"
           ]
@@ -3406,7 +3762,9 @@
         {
           "id": "349b6c1fa5e70f12",
           "japanese": "宝くじに当たって、最高の気分だ。",
-          "vietnamese": "",
+          "vietnamese": "Trúng xổ số, tâm trạng tuyệt vời.",
+          "reading": "たからくじにあたって、さいこうのきぶんだ。",
+          "grammar": "～に当たる = trúng ~; V て = vì ~ nên",
           "targets": [
             "最高"
           ]
@@ -3414,7 +3772,9 @@
         {
           "id": "6e6ac41182334295",
           "japanese": "昨日食べたからあげは最高だった。",
-          "vietnamese": "",
+          "vietnamese": "Món gà rán hôm qua ăn ngon tuyệt.",
+          "reading": "きのうたべたからあげはさいこうだった。",
+          "grammar": "V た＋N = N đã ~ (昨日食べたからあげ = món gà rán đã ăn hôm qua)",
           "targets": [
             "最高"
           ]
@@ -3422,7 +3782,9 @@
         {
           "id": "ca00259dcca91154",
           "japanese": "この映画は最高におもしろい。",
-          "vietnamese": "",
+          "vietnamese": "Bộ phim này hay cực kỳ.",
+          "reading": "このえいがはさいこうにおもしろい。",
+          "grammar": "最高に＋tính từ = ~ cực kỳ — ở đây 最高 làm phó từ chỉ mức độ",
           "targets": [
             "最高"
           ]
@@ -3452,7 +3814,9 @@
         {
           "id": "ea94eb5fc8356e94",
           "japanese": "クラスで最低点をとってしまった。",
-          "vietnamese": "",
+          "vietnamese": "Tôi lỡ bị điểm thấp nhất lớp.",
+          "reading": "クラスでさいていてんをとってしまった。",
+          "grammar": "～てしまう = lỡ ~ mất rồi (tiếc nuối); ～で = trong phạm vi ~",
           "targets": [
             "最低"
           ]
@@ -3460,7 +3824,9 @@
         {
           "id": "1b7329c039edde53",
           "japanese": "昨日の映画は最低だった。",
-          "vietnamese": "",
+          "vietnamese": "Bộ phim hôm qua dở tệ.",
+          "reading": "きのうのえいがはさいていだった。",
+          "grammar": "",
           "targets": [
             "最低"
           ]
@@ -3468,7 +3834,9 @@
         {
           "id": "3f5e9ded58c79392",
           "japanese": "弱いものいじめをするなんて最低だ！最低の人だ。",
-          "vietnamese": "",
+          "vietnamese": "Bắt nạt kẻ yếu thì tệ hại thật! Đúng là người tệ.",
+          "reading": "よわいものいじめをするなんてさいていだ！さいていのひとだ。",
+          "grammar": "V る＋なんて = cái việc ~ ấy à — nêu điều khiến mình ngạc nhiên hay khinh ghét",
           "targets": [
             "最低"
           ]
@@ -3502,7 +3870,9 @@
         {
           "id": "e43166fd88becc6c",
           "japanese": "最初にひらがなを、次にカタカナを勉強しました。",
-          "vietnamese": "",
+          "vietnamese": "Đầu tiên tôi học hiragana, tiếp đó là katakana.",
+          "reading": "さいしょにひらがなを、つぎにカタカナをべんきょうしました。",
+          "grammar": "最初に…、次に… = đầu tiên thì…, tiếp theo thì…",
           "targets": [
             "最初"
           ]
@@ -3510,7 +3880,9 @@
         {
           "id": "85d4e69ecaa2ec33",
           "japanese": "ベトナムに来たばかりのころ、最初は右も左もわからなかった。",
-          "vietnamese": "",
+          "vietnamese": "Hồi mới sang Việt Nam, lúc đầu tôi chẳng biết đông tây gì cả.",
+          "reading": "ベトナムにきたばかりのころ、さいしょはみぎもひだりもわからなかった。",
+          "grammar": "V た＋ばかり = vừa mới ~; 右も左もわからない = chẳng biết gì (thành ngữ)",
           "targets": [
             "最初"
           ]
@@ -3536,7 +3908,9 @@
         {
           "id": "11205a8a678064e2",
           "japanese": "あとから来た人は列の最後に並んでください。",
-          "vietnamese": "",
+          "vietnamese": "Ai tới sau xin xếp vào cuối hàng.",
+          "reading": "あとからきたひとはれつのさいごにならんでください。",
+          "grammar": "あとから = sau đó, tới sau; ～に並ぶ = xếp hàng vào ~",
           "targets": [
             "最後"
           ]
@@ -3544,7 +3918,9 @@
         {
           "id": "11df9b03f44b88e5",
           "japanese": "最後の出勤日に花束をもらった。",
-          "vietnamese": "",
+          "vietnamese": "Ngày đi làm cuối cùng, tôi được tặng một bó hoa.",
+          "reading": "さいごのしゅっきんびにはなたばをもらった。",
+          "grammar": "～をもらう = được tặng, được nhận ~",
           "targets": [
             "最後"
           ]
@@ -3570,7 +3946,9 @@
         {
           "id": "fdd4112fb2ff3177",
           "japanese": "このドアは自動だから、手であけなくてもいいです。",
-          "vietnamese": "",
+          "vietnamese": "Cửa này tự động nên không cần mở bằng tay.",
+          "reading": "このドアはじどうだから、てであけなくてもいいです。",
+          "grammar": "～だから = vì ~ nên; ～なくてもいい = không cần ~ cũng được",
           "targets": [
             "自動"
           ]
@@ -3604,7 +3982,9 @@
         {
           "id": "19ff9bb06a640743",
           "japanese": "形容詞は2種類ある。",
-          "vietnamese": "",
+          "vietnamese": "Tính từ có 2 loại.",
+          "reading": "けいようしはにしゅるいある。",
+          "grammar": "số lượng ＋ある = có ~ — lượng từ đứng ngay trước động từ, không cần trợ từ",
           "targets": [
             "種類"
           ]
@@ -3625,7 +4005,9 @@
         {
           "id": "c41955301e96b1bf",
           "japanese": "あの人は性格がいいので、みんなに好かれている。",
-          "vietnamese": "",
+          "vietnamese": "Người đó tính tốt nên được mọi người quý.",
+          "reading": "あのひとはせいかくがいいので、みんなにすかれている。",
+          "grammar": "～ので = vì ~ nên; 人に好かれる = được ai quý mến (bị động, ở đây mang nghĩa tốt)",
           "targets": [
             "性格"
           ]
@@ -3651,7 +4033,9 @@
         {
           "id": "430ad7381e61681c",
           "japanese": "この布は燃えにくい性質を持っている。",
-          "vietnamese": "",
+          "vietnamese": "Loại vải này có tính chất khó cháy.",
+          "reading": "このぬのはもえにくいせいしつをもっている。",
+          "grammar": "V ます＋にくい = khó ~ (trái nghĩa: ～やすい); 性質を持つ = mang tính chất ~",
           "targets": [
             "性質"
           ]
@@ -3659,7 +4043,9 @@
         {
           "id": "e94714bd5a45a1f0",
           "japanese": "羊はおとなしい性質の動物だ。",
-          "vietnamese": "",
+          "vietnamese": "Cừu là loài vật có tính hiền lành.",
+          "reading": "ひつじはおとなしいせいしつのどうぶつだ。",
+          "grammar": "～性質の＋N = N có tính ~",
           "targets": [
             "性質"
           ]
@@ -3667,7 +4053,9 @@
         {
           "id": "c262f3915d09c4f7",
           "japanese": "人は持って生まれた性質をなかなか変えられない。",
-          "vietnamese": "",
+          "vietnamese": "Bản tính trời sinh thì người ta khó mà thay đổi được.",
+          "reading": "ひとはもってうまれたせいしつをなかなかかえられない。",
+          "grammar": "持って生まれた = trời sinh, bẩm sinh; なかなか＋phủ định = mãi mà không ~; 変えられない = không đổi được",
           "targets": [
             "性質"
           ]
@@ -3693,7 +4081,9 @@
         {
           "id": "c243feee3a013f66",
           "japanese": "じゃんけんで、発表の順番を決めましょう。",
-          "vietnamese": "",
+          "vietnamese": "Oẳn tù tì để quyết định thứ tự phát biểu nhé.",
+          "reading": "じゃんけんで、はっぴょうのじゅんばんをきめましょう。",
+          "grammar": "～で = bằng cách ~; V ましょう = cùng ~ nào (rủ rê)",
           "targets": [
             "順番"
           ]
@@ -3701,7 +4091,9 @@
         {
           "id": "c1ddd44275088ab1",
           "japanese": "大きい商品から順番に並べる。",
-          "vietnamese": "",
+          "vietnamese": "Xếp lần lượt từ món hàng to nhất.",
+          "reading": "おおきいしょうひんからじゅんばんにならべる。",
+          "grammar": "～から = bắt đầu từ ~; 順番に = lần lượt, theo thứ tự",
           "targets": [
             "順番"
           ]
@@ -3709,7 +4101,9 @@
         {
           "id": "e4550748d81f27fb",
           "japanese": "順番を待ってください。",
-          "vietnamese": "",
+          "vietnamese": "Xin chờ đến lượt.",
+          "reading": "じゅんばんをまってください。",
+          "grammar": "",
           "targets": [
             "順番"
           ]
@@ -3730,7 +4124,9 @@
         {
           "id": "d221bb7ac3d2af85",
           "japanese": "次は私の番だ。",
-          "vietnamese": "",
+          "vietnamese": "Tiếp theo là đến lượt tôi.",
+          "reading": "つぎはわたしのばんだ。",
+          "grammar": "",
           "targets": [
             "番"
           ]
@@ -3738,7 +4134,9 @@
         {
           "id": "e4f6ca40603cde0e",
           "japanese": "席を離れた人の荷物番をする。",
-          "vietnamese": "",
+          "vietnamese": "Trông hành lý giúp người vừa rời chỗ.",
+          "reading": "せきをはなれたひとのにもつばんをする。",
+          "grammar": "～を離れる = rời khỏi ~; ～番をする = trông chừng, canh ~",
           "targets": [
             "番"
           ]
@@ -3746,7 +4144,9 @@
         {
           "id": "7dccff521aef018c",
           "japanese": "隣の人に留守番を頼む。",
-          "vietnamese": "",
+          "vietnamese": "Nhờ người hàng xóm trông nhà.",
+          "reading": "となりのひとにるすばんをたのむ。",
+          "grammar": "人に～を頼む = nhờ ai việc gì; 留守番 = việc trông nhà khi chủ vắng",
           "targets": [
             "番"
           ]
@@ -3776,7 +4176,9 @@
         {
           "id": "d6627f98eb80e53a",
           "japanese": "いい方法を探す。",
-          "vietnamese": "",
+          "vietnamese": "Tìm một cách hay.",
+          "reading": "いいほうほうをさがす。",
+          "grammar": "",
           "targets": [
             "方法"
           ]
@@ -3784,7 +4186,9 @@
         {
           "id": "3a55a9b39cbf57be",
           "japanese": "色々な方法を試す。",
-          "vietnamese": "",
+          "vietnamese": "Thử nhiều cách khác nhau.",
+          "reading": "いろいろなほうほうをためす。",
+          "grammar": "",
           "targets": [
             "方法"
           ]
@@ -3792,7 +4196,9 @@
         {
           "id": "d1d93a0beb83bc51",
           "japanese": "新しい方法でやってみる。",
-          "vietnamese": "",
+          "vietnamese": "Thử làm theo cách mới.",
+          "reading": "あたらしいほうほうでやってみる。",
+          "grammar": "～でやる = làm bằng cách ~; V て＋みる = thử ~ xem sao",
           "targets": [
             "方法"
           ]
@@ -3813,7 +4219,9 @@
         {
           "id": "d37d8cdf1575b8e3",
           "japanese": "日本製・プラスチック製",
-          "vietnamese": "",
+          "vietnamese": "Hàng Nhật sản xuất · đồ bằng nhựa",
+          "reading": "にほんせい・プラスチックせい",
+          "grammar": "～製 = sản xuất tại ~ hoặc làm bằng chất liệu ~",
           "targets": []
         }
       ],
@@ -3837,7 +4245,9 @@
         {
           "id": "96f8a2cf7ee4ef7e",
           "japanese": "食品の値上がり",
-          "vietnamese": "",
+          "vietnamese": "Sự tăng giá thực phẩm",
+          "reading": "しょくひんのねあがり",
+          "grammar": "",
           "targets": [
             "値上がり"
           ]
@@ -3845,7 +4255,9 @@
         {
           "id": "a4cd58454fcddef8",
           "japanese": "石油が値上がりする ≒ 値段が上がる。",
-          "vietnamese": "",
+          "vietnamese": "Dầu mỏ tăng giá ≒ giá cả đi lên.",
+          "reading": "せきゆがねあがりする ≒ ねだんがあがる。",
+          "grammar": "値上がりする = tự tăng giá (tự động từ); 値上げする = chủ động nâng giá (tha động từ)",
           "targets": [
             "値上がり"
           ]
@@ -3866,7 +4278,9 @@
         {
           "id": "7b5574767c956fb4",
           "japanese": "生の魚",
-          "vietnamese": "",
+          "vietnamese": "Cá sống",
+          "reading": "なまのさかな",
+          "grammar": "",
           "targets": [
             "生"
           ]
@@ -3874,7 +4288,9 @@
         {
           "id": "f2e6c60cd0efcbb3",
           "japanese": "魚を生で食べられますか。",
-          "vietnamese": "",
+          "vietnamese": "Bạn ăn cá sống được không?",
+          "reading": "さかなをなまでたべられますか。",
+          "grammar": "～で = ở trạng thái ~ (生で = để nguyên sống); 食べられる = ăn được (thể khả năng)",
           "targets": [
             "生"
           ]

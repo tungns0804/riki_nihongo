@@ -82,6 +82,8 @@ function sanitizeVocabExamples(raw: unknown): VocabExample[] {
       id,
       japanese,
       vietnamese: text(item['vietnamese']),
+      reading: text(item['reading']),
+      grammar: text(item['grammar']),
       // Chỗ đánh dấu không nằm trong câu thì tô không được, còn khoét ra thì câu hỏi
       // không có chỗ trống nào — bỏ đi chứ không giữ lại một lời hứa sai.
       targets: textList(item['targets']).filter((target) => japanese.includes(target)),

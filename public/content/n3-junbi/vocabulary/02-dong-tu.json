@@ -6,11 +6,11 @@
   "groups": [
     {
       "label": "121–130",
-      "title": ""
+      "title": "Bài 7.1 · Tác động lên người và vật: đánh, ôm, làm đổ"
     },
     {
       "label": "131–140",
-      "title": ""
+      "title": "Bài 7.2 · Nói năng, chăm sóc và việc nhà"
     }
   ],
   "words": [
@@ -27,7 +27,9 @@
         {
           "id": "8ed35ff059fa2147",
           "japanese": "のどが渇いた。",
-          "vietnamese": "",
+          "vietnamese": "Tôi khát nước.",
+          "reading": "のどがかわいた。",
+          "grammar": "のどが渇く = khát nước — chủ thể là のど chứ không phải người, không nói 私が渇く",
           "targets": [
             "渇いた"
           ]
@@ -48,7 +50,9 @@
         {
           "id": "aa1b0b1f3102655f",
           "japanese": "匂いをかぐ。",
-          "vietnamese": "",
+          "vietnamese": "Ngửi mùi.",
+          "reading": "においをかぐ。",
+          "grammar": "",
           "targets": [
             "かぐ"
           ]
@@ -69,7 +73,9 @@
         {
           "id": "64a0b1f8f74ccd17",
           "japanese": "子供のお尻を叩く。",
-          "vietnamese": "",
+          "vietnamese": "Tét mông đứa trẻ.",
+          "reading": "こどものおしりをたたく。",
+          "grammar": "",
           "targets": [
             "叩く"
           ]
@@ -77,7 +83,9 @@
         {
           "id": "6a12f82df6c89f45",
           "japanese": "隣の人の肩を叩く。",
-          "vietnamese": "",
+          "vietnamese": "Vỗ vai người bên cạnh.",
+          "reading": "となりのひとのかたをたたく。",
+          "grammar": "",
           "targets": [
             "叩く"
           ]
@@ -85,7 +93,9 @@
         {
           "id": "c9a0415ec2e72008",
           "japanese": "ドアを叩く。",
-          "vietnamese": "",
+          "vietnamese": "Gõ cửa.",
+          "reading": "ドアをたたく。",
+          "grammar": "",
           "targets": [
             "叩く"
           ]
@@ -93,7 +103,9 @@
         {
           "id": "a53595198f143050",
           "japanese": "スピーチが終わったので、手を叩いた。（＝拍手）",
-          "vietnamese": "",
+          "vietnamese": "Bài phát biểu kết thúc nên tôi vỗ tay. (＝ vỗ tay)",
+          "reading": "スピーチがおわったので、てをたたいた。（＝はくしゅ）",
+          "grammar": "～ので = vì ~ nên — nêu lý do khách quan, nhẹ và lịch sự hơn ～から",
           "targets": [
             "叩いた"
           ]
@@ -114,7 +126,9 @@
         {
           "id": "595c1cc581ebef8e",
           "japanese": "教師が生徒を殴って、問題になっている。",
-          "vietnamese": "",
+          "vietnamese": "Giáo viên đánh học sinh nên đang thành chuyện lớn.",
+          "reading": "きょうしがせいとをなぐって、もんだいになっている。",
+          "grammar": "～になっている = đang ở tình trạng ~ — kết quả của việc trước còn kéo dài tới giờ",
           "targets": [
             "殴って"
           ]
@@ -135,7 +149,9 @@
         {
           "id": "2df963a0a3686381",
           "japanese": "ボールをける。",
-          "vietnamese": "",
+          "vietnamese": "Đá bóng.",
+          "reading": "",
+          "grammar": "",
           "targets": [
             "ける"
           ]
@@ -143,7 +159,9 @@
         {
           "id": "cbd9f2054e05de85",
           "japanese": "彼は怒ると殴ったり、けったりする。",
-          "vietnamese": "",
+          "vietnamese": "Hễ nổi giận là anh ta lúc thì đánh, lúc thì đá.",
+          "reading": "かれはおこるとなぐったり、けったりする。",
+          "grammar": "～と = hễ ~ là (việc luôn xảy ra); ～たり～たりする = khi thì ~ khi thì ~",
           "targets": [
             "けったり"
           ]
@@ -164,7 +182,9 @@
         {
           "id": "04b00163d3661c91",
           "japanese": "子供を両手でしっかりと抱く。",
-          "vietnamese": "",
+          "vietnamese": "Ôm chặt đứa trẻ bằng cả hai tay.",
+          "reading": "こどもをりょうてでしっかりとだく。",
+          "grammar": "しっかりと = chặt, chắc — phó từ, thêm と cho dứt khoát",
           "targets": [
             "抱く"
           ]
@@ -172,7 +192,9 @@
         {
           "id": "b869f4c238d02c64",
           "japanese": "恋人の肩を抱く。",
-          "vietnamese": "",
+          "vietnamese": "Ôm vai người yêu.",
+          "reading": "こいびとのかたをだく。",
+          "grammar": "",
           "targets": [
             "抱く"
           ]
@@ -193,7 +215,9 @@
         {
           "id": "e4d4e6edd1faea36",
           "japanese": "台風で木が倒れた。",
-          "vietnamese": "",
+          "vietnamese": "Bão làm cây đổ.",
+          "reading": "たいふうできがたおれた。",
+          "grammar": "～で = vì ~ — nguyên nhân là một hiện tượng, sự việc",
           "targets": [
             "倒れた"
           ]
@@ -201,7 +225,9 @@
         {
           "id": "24d553fb4068e94b",
           "japanese": "倒れている人を助けた。",
-          "vietnamese": "",
+          "vietnamese": "Tôi đã cứu người đang nằm gục.",
+          "reading": "たおれているひとをたすけた。",
+          "grammar": "V ている＋N = N đang trong trạng thái ~ (倒れている人 = người đang nằm gục)",
           "targets": [
             "倒れて"
           ]
@@ -209,7 +235,9 @@
         {
           "id": "a024622eb3a646b6",
           "japanese": "父は働きすぎて倒れてしまった。",
-          "vietnamese": "",
+          "vietnamese": "Bố tôi làm việc quá sức nên đã đổ bệnh.",
+          "reading": "ちちははたらきすぎてたおれてしまった。",
+          "grammar": "V ます＋すぎる = ~ quá mức; ～てしまう = lỡ ~, ~ mất rồi (ngoài ý muốn, đáng tiếc)",
           "targets": [
             "倒れて"
           ]
@@ -230,7 +258,9 @@
         {
           "id": "77a8b09bc437fc3c",
           "japanese": "花びんを倒して割ってしまった。",
-          "vietnamese": "",
+          "vietnamese": "Tôi làm đổ lọ hoa và làm vỡ mất.",
+          "reading": "かびんをたおしてわってしまった。",
+          "grammar": "V て＋V = làm việc này rồi tới việc kia, hai việc nối nhau",
           "targets": [
             "倒して"
           ]
@@ -238,7 +268,9 @@
         {
           "id": "ce20149c49f891db",
           "japanese": "ボクシングでチャンピオンを倒した。",
-          "vietnamese": "",
+          "vietnamese": "Anh ấy đã hạ nhà vô địch ở trận quyền anh.",
+          "reading": "ボクシングでチャンピオンをたおした。",
+          "grammar": "～で = ở ~, trong ~ — nơi hay phạm vi diễn ra sự việc",
           "targets": [
             "倒した"
           ]
@@ -259,7 +291,9 @@
         {
           "id": "539abace1e7e0597",
           "japanese": "今日は8時に起きた。",
-          "vietnamese": "",
+          "vietnamese": "Hôm nay tôi dậy lúc 8 giờ.",
+          "reading": "きょうははちじにおきた。",
+          "grammar": "～に = vào lúc ~ — chỉ dùng với mốc thời gian nói được thành số",
           "targets": [
             "起きた"
           ]
@@ -267,7 +301,9 @@
         {
           "id": "58ef868607d88f77",
           "japanese": "父は毎晩遅くまで起きているようだ。",
-          "vietnamese": "",
+          "vietnamese": "Hình như tối nào bố cũng thức tới khuya.",
+          "reading": "ちちはまいばんおそくまでおきているようだ。",
+          "grammar": "～まで = tới tận ~; ～ようだ = hình như ~ (phỏng đoán từ điều mình quan sát được)",
           "targets": [
             "起きて"
           ]
@@ -275,7 +311,9 @@
         {
           "id": "c522acbaca5818cf",
           "japanese": "最近なかなかやる気が起きない・起こらない。",
-          "vietnamese": "",
+          "vietnamese": "Dạo này mãi mà không thấy có hứng làm gì.",
+          "reading": "さいきんなかなかやるきがおきない・おこらない。",
+          "grammar": "なかなか＋thể phủ định = mãi mà không ~, không ~ được như mong muốn",
           "targets": [
             "起きない",
             "起こらない"
@@ -297,7 +335,9 @@
         {
           "id": "ed02cfb6ffce5ba7",
           "japanese": "うちの子は朝起こしてもなかなか起きない。",
-          "vietnamese": "",
+          "vietnamese": "Con tôi buổi sáng có gọi dậy cũng mãi không chịu dậy.",
+          "reading": "うちのこはあさおこしてもなかなかおきない。",
+          "grammar": "～ても = dù có ~ cũng",
           "targets": [
             "起こして"
           ]
@@ -305,7 +345,9 @@
         {
           "id": "3cb590d7db8ae545",
           "japanese": "倒れていた自転車を起こした。",
-          "vietnamese": "",
+          "vietnamese": "Tôi dựng lại chiếc xe đạp bị đổ.",
+          "reading": "たおれていたじてんしゃをおこした。",
+          "grammar": "V ていた＋N = N đã ở trong trạng thái ~ từ trước",
           "targets": [
             "起こした"
           ]
@@ -313,7 +355,9 @@
         {
           "id": "bed1314daf2736f9",
           "japanese": "事故・事件・問題・裁判(N2)…を起こす。",
-          "vietnamese": "",
+          "vietnamese": "Gây ra tai nạn / vụ việc / rắc rối / kiện tụng…",
+          "reading": "じこ・じけん・もんだい・さいばん(N2)…をおこす。",
+          "grammar": "～を起こす = gây ra ~ — đi với danh từ chỉ sự việc xấu",
           "targets": [
             "起こす"
           ]
@@ -334,7 +378,9 @@
         {
           "id": "f38381c7e6527563",
           "japanese": "「ちょっとお尋ねしたいのですが…」",
-          "vietnamese": "",
+          "vietnamese": "\"Tôi muốn hỏi một chút…\"",
+          "reading": "「ちょっとおたずねしたいのですが…」",
+          "grammar": "お＋V ます＋する = khiêm nhường ngữ; ～のですが… = mở lời rồi bỏ lửng cho lịch sự",
           "targets": [
             "お尋ねしたい"
           ]
@@ -342,7 +388,9 @@
         {
           "id": "1ae49ac2e1990212",
           "japanese": "交番で警官に市役所までの道を尋ねた。",
-          "vietnamese": "",
+          "vietnamese": "Tôi hỏi cảnh sát ở bốt gác đường tới toà thị chính.",
+          "reading": "こうばんでけいかんにしやくしょまでのみちをたずねた。",
+          "grammar": "人に～を尋ねる = hỏi ai điều gì; ～までの＋N = N dẫn tới ~",
           "targets": [
             "尋ねた"
           ]
@@ -363,7 +411,9 @@
         {
           "id": "89f1dc44a462a2a5",
           "japanese": "「名前を呼ばれたら返事してください。」",
-          "vietnamese": "",
+          "vietnamese": "\"Khi được gọi tên thì hãy trả lời.\"",
+          "reading": "「なまえをよばれたらへんじしてください。」",
+          "grammar": "thể bị động 呼ばれる = được gọi; ～たら = khi ~ thì",
           "targets": [
             "呼ばれ"
           ]
@@ -371,7 +421,9 @@
         {
           "id": "7688ff50f8057e7f",
           "japanese": "Grabでタクシーを呼ぶ。",
-          "vietnamese": "",
+          "vietnamese": "Gọi taxi bằng Grab.",
+          "reading": "Grabでタクシーをよぶ。",
+          "grammar": "～で = bằng ~ — phương tiện, công cụ",
           "targets": [
             "呼ぶ"
           ]
@@ -379,7 +431,9 @@
         {
           "id": "e2563dbefc350b48",
           "japanese": "電話で救急車を呼ぶ。",
-          "vietnamese": "",
+          "vietnamese": "Gọi xe cứu thương bằng điện thoại.",
+          "reading": "でんわできゅうきゅうしゃをよぶ。",
+          "grammar": "",
           "targets": [
             "呼ぶ"
           ]
@@ -387,7 +441,9 @@
         {
           "id": "f1d9251e024153a3",
           "japanese": "アインさん、ちょっとシンさんを呼んでくれませんか。",
-          "vietnamese": "",
+          "vietnamese": "Ain ơi, gọi giúp anh Shin một chút được không?",
+          "reading": "アインさん、ちょっとシンさんをよんでくれませんか。",
+          "grammar": "～てくれませんか = nhờ ai đó làm giúp mình, lịch sự",
           "targets": [
             "呼んで"
           ]
@@ -395,7 +451,9 @@
         {
           "id": "8934dff099d23a94",
           "japanese": "私は彼女を「アインちゃん」と呼んでいる。",
-          "vietnamese": "",
+          "vietnamese": "Tôi vẫn gọi cô ấy là \"Ain-chan\".",
+          "reading": "わたしはかのじょを「アインちゃん」とよんでいる。",
+          "grammar": "A を B と呼ぶ = gọi A là B",
           "targets": [
             "呼んで"
           ]
@@ -403,7 +461,9 @@
         {
           "id": "ed881fb9e89361d8",
           "japanese": "ホーチミン市は昔サイゴンと呼ばれていた。",
-          "vietnamese": "",
+          "vietnamese": "Thành phố Hồ Chí Minh ngày xưa được gọi là Sài Gòn.",
+          "reading": "ホーチミンしはむかしサイゴンとよばれていた。",
+          "grammar": "～と呼ばれていた = từng được gọi là ~ — bị động ở thì quá khứ kéo dài",
           "targets": [
             "呼ばれていた"
           ]
@@ -411,7 +471,9 @@
         {
           "id": "dbf38a66027a5e29",
           "japanese": "ここのタピオカは多くの人から人気を呼んでいる。",
-          "vietnamese": "",
+          "vietnamese": "Trà sữa trân châu ở đây đang được rất nhiều người ưa chuộng.",
+          "reading": "ここのタピオカはおおくのひとからにんきをよんでいる。",
+          "grammar": "～から人気を呼ぶ = được ~ ưa chuộng — 呼ぶ ở nghĩa \"thu hút\"",
           "targets": [
             "呼んで"
           ]
@@ -437,7 +499,9 @@
         {
           "id": "5765faec262862e3",
           "japanese": "道を歩いていたら、「助けてー」と叫ぶ声が聞こえた。",
-          "vietnamese": "",
+          "vietnamese": "Đang đi trên đường thì tôi nghe tiếng ai hét \"Cứu tôi với\".",
+          "reading": "みちをあるいていたら、「たすけてー」とさけぶこえがきこえた。",
+          "grammar": "～ていたら = đang ~ thì (bất chợt gặp việc khác); ～と＋động từ nói/nghe = trích nguyên lời",
           "targets": [
             "叫ぶ声"
           ]
@@ -458,7 +522,9 @@
         {
           "id": "7e43044208bb78cf",
           "japanese": "先生が質問したが、誰も答えないで黙っている。",
-          "vietnamese": "",
+          "vietnamese": "Thầy có hỏi nhưng chẳng ai trả lời, cả lớp cứ im lặng.",
+          "reading": "せんせいがしつもんしたが、だれもこたえないでだまっている。",
+          "grammar": "～が = nhưng (văn viết); 誰も＋phủ định = chẳng ai; ～ないで = không ~ mà",
           "targets": [
             "黙って"
           ]
@@ -466,7 +532,9 @@
         {
           "id": "0304ec6612ad2a6c",
           "japanese": "「うるさい。黙れ！」",
-          "vietnamese": "",
+          "vietnamese": "\"Ồn quá. Im đi!\"",
+          "reading": "「うるさい。だまれ！」",
+          "grammar": "thể mệnh lệnh 黙れ = im đi — ra lệnh thô, chỉ dùng lúc tức giận",
           "targets": [
             "黙れ"
           ]
@@ -474,7 +542,9 @@
         {
           "id": "1bc7576901d230b2",
           "japanese": "授業中黙って教室を出てはいけない。",
-          "vietnamese": "",
+          "vietnamese": "Không được lặng lẽ ra khỏi lớp khi đang giờ học.",
+          "reading": "じゅぎょうちゅうだまってきょうしつをでてはいけない。",
+          "grammar": "～中 = trong lúc ~; ～てはいけない = không được ~",
           "targets": [
             "黙って"
           ]
@@ -495,7 +565,9 @@
         {
           "id": "a2b9440d95dac41d",
           "japanese": "何かペットを飼いたいと思っている。",
-          "vietnamese": "",
+          "vietnamese": "Tôi đang muốn nuôi một con vật nào đó.",
+          "reading": "なにかペットをかいたいとおもっている。",
+          "grammar": "～たいと思っている = đang muốn ~ — ý muốn giữ đã lâu, nhẹ hơn nói thẳng ～たい",
           "targets": [
             "飼いたい"
           ]
@@ -516,7 +588,9 @@
         {
           "id": "0d765c17e88128e6",
           "japanese": "数を数える。",
-          "vietnamese": "",
+          "vietnamese": "Đếm số.",
+          "reading": "かずをかぞえる。",
+          "grammar": "",
           "targets": [
             "数える"
           ]
@@ -524,7 +598,9 @@
         {
           "id": "b9e72775a62db162",
           "japanese": "「椅子がいくつか、数えてください。」",
-          "vietnamese": "",
+          "vietnamese": "\"Hãy đếm xem có mấy cái ghế.\"",
+          "reading": "「いすがいくつか、かぞえてください。」",
+          "grammar": "～か = câu hỏi lồng trong câu lớn (đếm xem có mấy ~)",
           "targets": [
             "数えて"
           ]
@@ -532,7 +608,9 @@
         {
           "id": "28964e37edce04fb",
           "japanese": "この寺は、日本で最も古い寺の一つに数えられている。",
-          "vietnamese": "",
+          "vietnamese": "Ngôi chùa này được xếp vào một trong những ngôi chùa cổ nhất Nhật Bản.",
+          "reading": "このてらは、にほんでもっともふるいてらのひとつにかぞえられている。",
+          "grammar": "最も＋tính từ = ~ nhất (văn viết, trang trọng hơn 一番); ～の一つに数えられる = được xếp vào một trong những ~",
           "targets": [
             "数えられて"
           ]
@@ -553,7 +631,9 @@
         {
           "id": "ac22a4f905a3eb31",
           "japanese": "風が強かったので、外に干した洗濯物はすぐ乾いた。",
-          "vietnamese": "",
+          "vietnamese": "Gió mạnh nên quần áo phơi ngoài trời khô ngay.",
+          "reading": "かぜがつよかったので、そとにほしたせんたくものはすぐかわいた。",
+          "grammar": "V た＋N = N đã được ~ (干した洗濯物 = đồ đã phơi)",
           "targets": [
             "乾いた"
           ]
@@ -561,7 +641,9 @@
         {
           "id": "e4346b9682629852",
           "japanese": "乾いたタオルで体をふいた。",
-          "vietnamese": "",
+          "vietnamese": "Tôi lau người bằng khăn khô.",
+          "reading": "かわいたタオルでからだをふいた。",
+          "grammar": "乾いた＋N = N ở trạng thái đã khô — tự động từ chia た để tả trạng thái",
           "targets": [
             "乾いた"
           ]
@@ -569,7 +651,9 @@
         {
           "id": "bdcd8babf9fa9c33",
           "japanese": "空気・インクが乾く。",
-          "vietnamese": "",
+          "vietnamese": "Không khí / mực bị khô.",
+          "reading": "くうき・インクがかわく。",
+          "grammar": "",
           "targets": [
             "乾く"
           ]
@@ -590,7 +674,9 @@
         {
           "id": "c16d5903b47e1ffd",
           "japanese": "ドライヤーでぬれた髪を乾かした。",
-          "vietnamese": "",
+          "vietnamese": "Tôi sấy khô mái tóc ướt bằng máy sấy.",
+          "reading": "ドライヤーでぬれたかみをかわかした。",
+          "grammar": "～で = bằng ~ (công cụ); ぬれた髪 = tóc đã bị ướt",
           "targets": [
             "乾かした"
           ]
@@ -611,7 +697,9 @@
         {
           "id": "9488905f5fb0e80a",
           "japanese": "洗濯物を畳む。",
-          "vietnamese": "",
+          "vietnamese": "Gấp quần áo.",
+          "reading": "せんたくものをたたむ。",
+          "grammar": "",
           "targets": [
             "畳む"
           ]
@@ -619,7 +707,9 @@
         {
           "id": "1c0b1e3f98f240da",
           "japanese": "傘を畳んでバッグに入れる。",
-          "vietnamese": "",
+          "vietnamese": "Gấp ô lại rồi cho vào túi.",
+          "reading": "かさをたたんでバッグにいれる。",
+          "grammar": "V て＋V = làm việc này rồi tới việc kia",
           "targets": [
             "畳んで"
           ]
@@ -645,7 +735,9 @@
         {
           "id": "998f4a9e7cb27de0",
           "japanese": "友達を誘って映画を見に行った。",
-          "vietnamese": "",
+          "vietnamese": "Tôi rủ bạn đi xem phim.",
+          "reading": "ともだちをさそってえいがをみにいった。",
+          "grammar": "V ます＋に行く = đi để làm ~",
           "targets": [
             "誘って"
           ]
@@ -653,7 +745,9 @@
         {
           "id": "45638215ab09ac55",
           "japanese": "今度、彼女を食事に誘おうと思う。",
-          "vietnamese": "",
+          "vietnamese": "Lần tới tôi định rủ cô ấy đi ăn.",
+          "reading": "こんど、かのじょをしょくじにさそおうとおもう。",
+          "grammar": "thể ý chí ＋と思う = định sẽ ~ — ý định vừa nảy ra lúc nói",
           "targets": [
             "誘おう"
           ]

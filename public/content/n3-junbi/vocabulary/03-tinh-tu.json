@@ -31,7 +31,9 @@
         {
           "id": "ae63bdf9b107ef12",
           "japanese": "幸せな一生だった。",
-          "vietnamese": "",
+          "vietnamese": "Đó đã là một đời hạnh phúc.",
+          "reading": "しあわせないっしょうだった。",
+          "grammar": "な-tính từ ＋N = bổ nghĩa cho danh từ, giữ nguyên đuôi な",
           "targets": [
             "幸せな"
           ]
@@ -39,7 +41,9 @@
         {
           "id": "e8e48c99f209d9c7",
           "japanese": "幸せに暮らす。",
-          "vietnamese": "",
+          "vietnamese": "Sống hạnh phúc.",
+          "reading": "しあわせにくらす。",
+          "grammar": "な-tính từ ＋に＋V = làm việc gì một cách ~ (幸せな → 幸せに)",
           "targets": [
             "幸せに"
           ]
@@ -47,7 +51,9 @@
         {
           "id": "5251ea9c2b919f73",
           "japanese": "友だちに祝ってもらえて、私は幸せだ。",
-          "vietnamese": "",
+          "vietnamese": "Được bạn bè chúc mừng nên tôi thấy hạnh phúc.",
+          "reading": "ともだちにいわってもらえて、わたしはしあわせだ。",
+          "grammar": "～てもらえて = được ai đó làm cho nên… — thể khả năng của ～てもらう, dùng nêu lý do",
           "targets": [
             "幸せ"
           ]
@@ -55,7 +61,9 @@
         {
           "id": "9c7e7a460b778453",
           "japanese": "幸せを求めるのは人間なら当たり前なことだ。",
-          "vietnamese": "",
+          "vietnamese": "Mưu cầu hạnh phúc là chuyện đương nhiên nếu đã là con người.",
+          "reading": "しあわせをもとめるのはにんげんならあたりまえなことだ。",
+          "grammar": "V る＋の = việc ~ (danh từ hoá); ～なら = nếu là ~ thì",
           "targets": [
             "幸せ"
           ]
@@ -85,7 +93,9 @@
         {
           "id": "2b20cdf14bfb417a",
           "japanese": "彼女はギター／作文／料理…が得意だ。",
-          "vietnamese": "",
+          "vietnamese": "Cô ấy giỏi ghi ta / làm văn / nấu ăn…",
+          "reading": "かのじょはギター／さくぶん／りょうり…がとくいだ。",
+          "grammar": "人は～が得意だ = ai đó giỏi ~ — thứ giỏi đi với が chứ không phải を",
           "targets": [
             "得意だ"
           ]
@@ -93,7 +103,9 @@
         {
           "id": "b2e39a8736d4c4f5",
           "japanese": "私の得意な教科は数学です。",
-          "vietnamese": "",
+          "vietnamese": "Môn tôi giỏi là toán.",
+          "reading": "わたしのとくいなきょうかはすうがくです。",
+          "grammar": "",
           "targets": [
             "得意な"
           ]
@@ -101,7 +113,9 @@
         {
           "id": "dc8dbd3c9edbcac3",
           "japanese": "母は編み物を得意としている。",
-          "vietnamese": "",
+          "vietnamese": "Mẹ tôi lấy đan len làm sở trường.",
+          "reading": "はははあみものをとくいとしている。",
+          "grammar": "～を…としている = lấy ~ làm… — cách nói trang trọng, hay gặp trong văn viết",
           "targets": [
             "得意"
           ]
@@ -109,7 +123,9 @@
         {
           "id": "521916903d2c5fca",
           "japanese": "妹はテストで100点をとって得意になっている。",
-          "vietnamese": "",
+          "vietnamese": "Em gái tôi được 100 điểm bài kiểm tra nên đang vênh mặt.",
+          "reading": "いもうとはテストで100てんをとってとくいになっている。",
+          "grammar": "な-tính từ ＋になる = trở nên ~ — dùng に chứ không dùng く như tính từ い",
           "targets": [
             "得意に"
           ]
@@ -135,7 +151,9 @@
         {
           "id": "66dc36288cb8e0d4",
           "japanese": "彼女は犬／歌／料理…が苦手だ。",
-          "vietnamese": "",
+          "vietnamese": "Cô ấy sợ chó / hát dở / nấu ăn kém…",
+          "reading": "かのじょはいぬ／うた／りょうり…がにがてだ。",
+          "grammar": "人は～が苦手だ = ai đó kém, sợ ~ — trái nghĩa với ～が得意だ, cùng dùng が",
           "targets": [
             "苦手だ"
           ]
@@ -143,7 +161,9 @@
         {
           "id": "bca858d45f39946c",
           "japanese": "私の苦手な食べ物は納豆だ。",
-          "vietnamese": "",
+          "vietnamese": "Món tôi không ăn được là natto.",
+          "reading": "わたしのにがてなたべものはなっとうだ。",
+          "grammar": "",
           "targets": [
             "苦手な"
           ]
@@ -151,7 +171,9 @@
         {
           "id": "d6fa2852f691942d",
           "japanese": "納豆のあのにおいは苦手だ。",
-          "vietnamese": "",
+          "vietnamese": "Tôi chịu không nổi cái mùi của natto.",
+          "reading": "なっとうのあのにおいはにがてだ。",
+          "grammar": "",
           "targets": [
             "苦手だ"
           ]
@@ -159,7 +181,9 @@
         {
           "id": "0c737ae899479fcd",
           "japanese": "私は山本さんが少し苦手なんです。",
-          "vietnamese": "",
+          "vietnamese": "Tôi hơi ngại anh Yamamoto.",
+          "reading": "わたしはやまもとさんがすこしにがてなんです。",
+          "grammar": "～んです = nói cho người nghe hiểu hoàn cảnh; な-tính từ nối bằng な＋んです",
           "targets": [
             "苦手な"
           ]
@@ -185,7 +209,9 @@
         {
           "id": "e891696e4f074c3e",
           "japanese": "熱心な仕事ぶりが認められて昇進した。（仕事ぶり＝仕事の仕方）",
-          "vietnamese": "",
+          "vietnamese": "Cách làm việc hăng hái được ghi nhận nên anh ấy được thăng chức. (仕事ぶり = cách làm việc)",
+          "reading": "ねっしんなしごとぶりがみとめられてしょうしんした。（しごとぶり＝しごとのしかた）",
+          "grammar": "認められる = được công nhận (bị động); ～て = vì ~ nên (nối nguyên nhân với kết quả)",
           "targets": [
             "熱心な"
           ]
@@ -193,7 +219,9 @@
         {
           "id": "f1bfaa81a433ad21",
           "japanese": "彼女は子どもの教育に熱心だ。",
-          "vietnamese": "",
+          "vietnamese": "Cô ấy rất tâm huyết với việc giáo dục con cái.",
+          "reading": "かのじょはこどものきょういくにねっしんだ。",
+          "grammar": "～に熱心だ = tâm huyết với ~ — việc dốc lòng vào đi với に",
           "targets": [
             "熱心だ"
           ]
@@ -219,7 +247,9 @@
         {
           "id": "b93ce059a373aa6f",
           "japanese": "子どものころ、SF漫画に夢中になった。",
-          "vietnamese": "",
+          "vietnamese": "Hồi nhỏ tôi mê truyện tranh khoa học viễn tưởng.",
+          "reading": "こどものころ、SFまんがにむちゅうになった。",
+          "grammar": "～のころ = hồi, thời ~; ～に夢中になる = đâm mê ~",
           "targets": [
             "夢中になった"
           ]
@@ -227,7 +257,9 @@
         {
           "id": "46de04a62f5adf79",
           "japanese": "彼は生まれたばかりの子どもに夢中だ。",
-          "vietnamese": "",
+          "vietnamese": "Anh ấy đang mê tít đứa con vừa mới sinh.",
+          "reading": "かれはうまれたばかりのこどもにむちゅうだ。",
+          "grammar": "V た＋ばかり = vừa mới ~ xong",
           "targets": [
             "夢中だ"
           ]
@@ -235,7 +267,9 @@
         {
           "id": "260aaf66d9e80f02",
           "japanese": "彼はとてもおなかが空いていたのか夢中でお肉を食べ続けている。",
-          "vietnamese": "",
+          "vietnamese": "Chắc tại đói quá nên anh ấy cứ mải miết ăn thịt.",
+          "reading": "かれはとてもおなかがすいていたのかむちゅうでおにくをたべつづけている。",
+          "grammar": "～のか = chắc là ~ chăng (tự phỏng đoán); V ます＋続ける = ~ liên tục, ~ mãi",
           "targets": [
             "夢中で"
           ]
@@ -261,7 +295,9 @@
         {
           "id": "e85f3b89880fa2ee",
           "japanese": "ほかの観客は笑いながら見ていたが、私には退屈な映画だった。",
-          "vietnamese": "",
+          "vietnamese": "Khán giả khác vừa xem vừa cười, nhưng với tôi đó là bộ phim chán.",
+          "reading": "ほかのかんきゃくはわらいながらみていたが、わたしにはたいくつなえいがだった。",
+          "grammar": "V ます＋ながら = vừa ~ vừa…; ～には = đối với ~ thì",
           "targets": [
             "退屈な"
           ]
@@ -269,7 +305,9 @@
         {
           "id": "fa1d1ac80cab960a",
           "japanese": "今日は、何もすることがなくて退屈だ。",
-          "vietnamese": "",
+          "vietnamese": "Hôm nay chẳng có việc gì làm nên chán.",
+          "reading": "きょうは、なにもすることがなくてたいくつだ。",
+          "grammar": "何も＋phủ định = chẳng gì; ～なくて = vì không ~ nên",
           "targets": [
             "退屈だ"
           ]
@@ -277,7 +315,9 @@
         {
           "id": "ce1daf1593518d99",
           "japanese": "校長先生の話が長くて退屈した。",
-          "vietnamese": "",
+          "vietnamese": "Bài nói của thầy hiệu trưởng dài quá nên tôi thấy chán.",
+          "reading": "こうちょうせんせいのはなしがながくてたいくつした。",
+          "grammar": "tính từ い bỏ い ＋くて = vì ~ nên (nối nguyên nhân)",
           "targets": [
             "退屈した"
           ]
@@ -298,7 +338,9 @@
         {
           "id": "117dea438383c43d",
           "japanese": "心も体も健康な子どもを育てたい。",
-          "vietnamese": "",
+          "vietnamese": "Tôi muốn nuôi dạy đứa trẻ khoẻ mạnh cả tâm hồn lẫn thể chất.",
+          "reading": "こころもからだもけんこうなこどもをそだてたい。",
+          "grammar": "～も～も = cả ~ lẫn ~; V ます＋たい = muốn ~",
           "targets": [
             "健康な"
           ]
@@ -306,7 +348,9 @@
         {
           "id": "2f38c77de38bca0c",
           "japanese": "鈴木さんは、健康的な食生活を心がけている。（心がける＝気をつける）",
-          "vietnamese": "",
+          "vietnamese": "Anh Suzuki luôn để tâm ăn uống lành mạnh. (心がける = để tâm, chú ý)",
+          "reading": "すずきさんは、けんこうてきなしょくせいかつをこころがけている。（こころがける＝きをつける）",
+          "grammar": "～的な = mang tính ~ — 健康的な nhẹ hơn 健康な, tả xu hướng chứ không khẳng định",
           "targets": [
             "健康的な"
           ]
@@ -314,7 +358,9 @@
         {
           "id": "8fd94ea91ed3ed6b",
           "japanese": "山田さんはいつも不健康な顔色をしている。",
-          "vietnamese": "",
+          "vietnamese": "Anh Yamada lúc nào sắc mặt cũng không được khoẻ.",
+          "reading": "やまださんはいつもふけんこうなかおいろをしている。",
+          "grammar": "不～ = tiền tố phủ định; ～をしている = mang (dáng vẻ, sắc mặt)",
           "targets": [
             "不健康な"
           ]
@@ -340,7 +386,9 @@
         {
           "id": "53ad73cc2492b637",
           "japanese": "息／胸／心／生活…が苦しい。",
-          "vietnamese": "",
+          "vietnamese": "Khó thở / tức ngực / đau lòng / cuộc sống chật vật…",
+          "reading": "いき／むね／こころ／せいかつ…がくるしい。",
+          "grammar": "",
           "targets": [
             "苦しい"
           ]
@@ -348,7 +396,9 @@
         {
           "id": "89eeb84ec5703b83",
           "japanese": "苦しい試合だったが、なんとか勝つことができた。",
-          "vietnamese": "",
+          "vietnamese": "Là trận đấu vất vả, nhưng rốt cuộc cũng thắng được.",
+          "reading": "くるしいしあいだったが、なんとかかつことができた。",
+          "grammar": "なんとか = xoay xở rồi cũng ~; V る＋ことができる = có thể ~",
           "targets": [
             "苦しい"
           ]
@@ -356,7 +406,9 @@
         {
           "id": "ea83e37a3ef79a40",
           "japanese": "経営がうまくいかず、社長は苦しい立場に置かれた。",
-          "vietnamese": "",
+          "vietnamese": "Kinh doanh không suôn sẻ, giám đốc bị đặt vào thế khó.",
+          "reading": "けいえいがうまくいかず、しゃちょうはくるしいたちばにおかれた。",
+          "grammar": "～ず = không ~ mà (văn viết, thay cho ～ないで); 置かれる = bị đặt vào (bị động)",
           "targets": [
             "苦しい"
           ]
@@ -364,7 +416,9 @@
         {
           "id": "3925678fa15e9c2c",
           "japanese": "暑くて寝苦しい。",
-          "vietnamese": "",
+          "vietnamese": "Nóng quá nên khó ngủ.",
+          "reading": "あつくてねぐるしい。",
+          "grammar": "V ます＋苦しい = khó ~, ~ một cách khổ sở",
           "targets": [
             "寝苦しい"
           ]
@@ -372,7 +426,9 @@
         {
           "id": "e1924a44d5d5b28e",
           "japanese": "言い訳はすればするほど見苦しい。",
-          "vietnamese": "",
+          "vietnamese": "Càng bào chữa thì càng khó coi.",
+          "reading": "いいわけはすればするほどみぐるしい。",
+          "grammar": "～ば～ほど = càng ~ thì càng…",
           "targets": [
             "見苦しい"
           ]
@@ -380,7 +436,9 @@
         {
           "id": "0679111a0eec0773",
           "japanese": "空気がうすくて、息苦しさを感じる。",
-          "vietnamese": "",
+          "vietnamese": "Không khí loãng nên tôi thấy khó thở.",
+          "reading": "くうきがうすくて、いきぐるしさをかんじる。",
+          "grammar": "tính từ い bỏ い ＋さ = danh từ hoá (苦しい → 苦しさ)",
           "targets": [
             "息苦しさ"
           ]
@@ -388,7 +446,9 @@
         {
           "id": "09c483eefe3758db",
           "japanese": "妻を苦しめることはしたくない。",
-          "vietnamese": "",
+          "vietnamese": "Tôi không muốn làm vợ mình khổ.",
+          "reading": "つまをくるしめることはしたくない。",
+          "grammar": "苦しむ = tự mình khổ; 苦しめる = làm người khác khổ (tha động từ)",
           "targets": [
             "苦しめる"
           ]
@@ -396,7 +456,9 @@
         {
           "id": "441fac746b359610",
           "japanese": "頭痛に苦しむ。",
-          "vietnamese": "",
+          "vietnamese": "Khổ sở vì đau đầu.",
+          "reading": "ずつうにくるしむ。",
+          "grammar": "～に苦しむ = khổ vì ~ — nguyên nhân đi với に",
           "targets": [
             "苦しむ"
           ]
@@ -434,7 +496,9 @@
         {
           "id": "e5afa663af6ee7ac",
           "japanese": "彼はどんなに悪口を言われても平気な顔をしている。",
-          "vietnamese": "",
+          "vietnamese": "Dù bị nói xấu thế nào anh ấy vẫn cứ tỉnh bơ.",
+          "reading": "かれはどんなにわるぐちをいわれてもへいきなかおをしている。",
+          "grammar": "どんなに～ても = dù ~ đến đâu cũng; 言われる = bị nói (bị động)",
           "targets": [
             "平気な"
           ]
@@ -442,7 +506,9 @@
         {
           "id": "935e70cd29718921",
           "japanese": "3日くらい何も食べなくても平気だ。",
-          "vietnamese": "",
+          "vietnamese": "Không ăn gì chừng 3 ngày tôi vẫn thấy bình thường.",
+          "reading": "みっかくらいなにもたべなくてもへいきだ。",
+          "grammar": "～なくても = dù không ~ cũng",
           "targets": [
             "平気だ"
           ]
@@ -450,7 +516,9 @@
         {
           "id": "6b99ec6918ba47e3",
           "japanese": "あの人は平気でうそをつく。",
-          "vietnamese": "",
+          "vietnamese": "Người đó nói dối như không.",
+          "reading": "あのひとはへいきでうそをつく。",
+          "grammar": "な-tính từ ＋で = một cách ~ (tả thái độ khi làm); うそをつく = nói dối",
           "targets": [
             "平気で"
           ]
@@ -471,7 +539,9 @@
         {
           "id": "c6b66cfa2948d55e",
           "japanese": "何度練習してもうまくできなくて、悔しい。",
-          "vietnamese": "",
+          "vietnamese": "Tập bao nhiêu lần vẫn không làm tốt được, ức thật.",
+          "reading": "なんどれんしゅうしてもうまくできなくて、くやしい。",
+          "grammar": "何度～ても = bao nhiêu lần ~ cũng; ～なくて = vì không ~ nên",
           "targets": [
             "悔しい"
           ]
@@ -479,7 +549,9 @@
         {
           "id": "3e1332873dfee60e",
           "japanese": "たったの1点差で試合に負け、悔しい思いをした。",
-          "vietnamese": "",
+          "vietnamese": "Thua trận chỉ vì đúng 1 điểm, tôi thấy cay.",
+          "reading": "たったのいってんさでしあいにまけ、くやしいおもいをした。",
+          "grammar": "たったの = chỉ vỏn vẹn; ～思いをする = trải qua cảm giác ~",
           "targets": [
             "悔しい"
           ]
@@ -500,7 +572,9 @@
         {
           "id": "7304d14f41708e66",
           "japanese": "才能の豊かな人がうらやましい。",
-          "vietnamese": "",
+          "vietnamese": "Tôi ghen tị với người nhiều tài năng.",
+          "reading": "さいのうのゆたかなひとがうらやましい。",
+          "grammar": "～が うらやましい = ghen tị với ~ — đối tượng đi với が, vì đây là cảm xúc của chính mình",
           "targets": [
             "うらやましい"
           ]
@@ -508,7 +582,9 @@
         {
           "id": "5669c237e3637cf0",
           "japanese": "妹はスマホを持っている友だちをうらやましがっている。",
-          "vietnamese": "",
+          "vietnamese": "Em gái tôi đang ghen tị với đứa bạn có điện thoại thông minh.",
+          "reading": "いもうとはスマホをもっているともだちをうらやましがっている。",
+          "grammar": "tính từ ＋がる = tỏ ra ~ — nói cảm xúc của NGƯỜI KHÁC, và khi đó đối tượng đổi sang を",
           "targets": [
             "うらやましがって"
           ]
@@ -529,7 +605,9 @@
         {
           "id": "058a55f16aa4a60f",
           "japanese": "首を蚊に刺されて、とてもかゆい。",
-          "vietnamese": "",
+          "vietnamese": "Bị muỗi đốt vào cổ, ngứa kinh khủng.",
+          "reading": "くびをかにさされて、とてもかゆい。",
+          "grammar": "人＋は／を＋N に＋V られる = bị N làm gì lên chỗ nào — bị động chịu thiệt",
           "targets": [
             "かゆい"
           ]
@@ -550,7 +628,9 @@
         {
           "id": "bf9907be72d0096e",
           "japanese": "彼はおとなしい子供だ。",
-          "vietnamese": "",
+          "vietnamese": "Nó là đứa trẻ trầm tính.",
+          "reading": "かれはおとなしいこどもだ。",
+          "grammar": "",
           "targets": [
             "おとなしい"
           ]
@@ -558,7 +638,9 @@
         {
           "id": "6bb5f32a8c7ed28d",
           "japanese": "うちの犬はおとなしい性格なので、決して人にほえない。→ 動物",
-          "vietnamese": "",
+          "vietnamese": "Chó nhà tôi tính hiền nên tuyệt nhiên không sủa người. → động vật",
+          "reading": "うちのいぬはおとなしいせいかくなので、けっしてひとにほえない。→ どうぶつ",
+          "grammar": "決して＋phủ định = tuyệt nhiên không ~; N ＋なので = vì là ~ nên",
           "targets": [
             "おとなしい"
           ]
@@ -566,7 +648,9 @@
         {
           "id": "c16d570cd49cb990",
           "japanese": "私が買い物をしている間、子どもはおとなしく待っていてくれた。→ 人",
-          "vietnamese": "",
+          "vietnamese": "Trong lúc tôi mua sắm, bọn trẻ đã ngoan ngoãn chờ. → người",
+          "reading": "わたしがかいものをしているあいだ、こどもはおとなしくまっていてくれた。→ ひと",
+          "grammar": "～間 = trong lúc ~; ～ていてくれた = đã chịu ~ cho mình (mang ơn)",
           "targets": [
             "おとなしく"
           ]
@@ -574,7 +658,9 @@
         {
           "id": "cc1e64a447d30709",
           "japanese": "この服のデザインはおとなしいので、仕事に着ていっても大丈夫そうだ。→ もの（デザイン）",
-          "vietnamese": "",
+          "vietnamese": "Kiểu áo này nhã nhặn nên mặc đi làm chắc cũng không sao. → đồ vật (kiểu dáng)",
+          "reading": "このふくのデザインはおとなしいので、しごとにきていってもだいじょうぶそうだ。→ もの（デザイン）",
+          "grammar": "V ていく = mặc rồi đi; ～ても大丈夫 = ~ cũng không sao; ～そうだ = trông có vẻ ~",
           "targets": [
             "おとなしい"
           ]
@@ -595,7 +681,9 @@
         {
           "id": "b5b5cd0b2390d538",
           "japanese": "注射で泣かない我慢強い子供。",
-          "vietnamese": "",
+          "vietnamese": "Đứa trẻ giỏi chịu đựng, tiêm không khóc.",
+          "reading": "ちゅうしゃでなかないがまんづよいこども。",
+          "grammar": "V ない＋N = N không ~ (泣かない子供 = đứa trẻ không khóc)",
           "targets": [
             "我慢強い"
           ]
@@ -603,7 +691,9 @@
         {
           "id": "63d43ab46c65db42",
           "japanese": "チャンスがやって来るのを我慢強く待つ。",
-          "vietnamese": "",
+          "vietnamese": "Kiên nhẫn chờ cơ hội đến.",
+          "reading": "チャンスがやってくるのをがまんづよくまつ。",
+          "grammar": "V る＋の = việc ~ (danh từ hoá); tính từ い bỏ い ＋く＋V = chờ một cách ~",
           "targets": [
             "我慢強く"
           ]
@@ -624,7 +714,9 @@
         {
           "id": "009f22738744851d",
           "japanese": "彼は正直な人だから、うそをつくことができない。→ 性格",
-          "vietnamese": "",
+          "vietnamese": "Anh ấy là người thật thà nên không nói dối được. → tính cách",
+          "reading": "かれはしょうじきなひとだから、うそをつくことができない。→ せいかく",
+          "grammar": "～だから = vì ~ nên; V る＋ことができない = không thể ~",
           "targets": [
             "正直な"
           ]
@@ -632,7 +724,9 @@
         {
           "id": "573acec74b1528fc",
           "japanese": "「どうしていたずらしたの？正直に話しなさい。」",
-          "vietnamese": "",
+          "vietnamese": "\"Sao con lại nghịch thế? Nói thật đi.\"",
+          "reading": "「どうしていたずらしたの？しょうじきにはなしなさい。」",
+          "grammar": "V ます＋なさい = mệnh lệnh nhẹ, người trên nói với người dưới",
           "targets": [
             "正直に"
           ]
@@ -640,7 +734,9 @@
         {
           "id": "43059e1a00806717",
           "japanese": "ごちそうしてもらったが、正直に言うと、あまりおいしくなかった。",
-          "vietnamese": "",
+          "vietnamese": "Được thiết đãi một bữa, nhưng nói thật thì không ngon lắm.",
+          "reading": "ごちそうしてもらったが、しょうじきにいうと、あまりおいしくなかった。",
+          "grammar": "～てもらう = được ai làm cho; 正直に言うと = nói thật thì; あまり＋phủ định = không ~ lắm",
           "targets": [
             "正直に"
           ]
@@ -670,7 +766,9 @@
         {
           "id": "05ba5ed77a97f733",
           "japanese": "あの人はとてもけちだ。",
-          "vietnamese": "",
+          "vietnamese": "Người đó keo lắm.",
+          "reading": "あのひとはとてもけちだ。",
+          "grammar": "",
           "targets": [
             "けちだ"
           ]
@@ -678,7 +776,9 @@
         {
           "id": "cccd9770b437154f",
           "japanese": "けちな人は嫌われる。",
-          "vietnamese": "",
+          "vietnamese": "Người keo kiệt thì bị ghét.",
+          "reading": "けちなひとはきらわれる。",
+          "grammar": "嫌われる = bị ghét — bị động của 嫌う, chủ thể ghét thường không cần nói ra",
           "targets": [
             "けちな"
           ]
@@ -686,7 +786,9 @@
         {
           "id": "bd7a81726aad3d28",
           "japanese": "いつも彼はケチケチしていて、1度もおごってくれたことはない。（おごる＝ごちそうする）",
-          "vietnamese": "",
+          "vietnamese": "Anh ta lúc nào cũng bo bo, chưa một lần khao tôi. (おごる = thiết đãi)",
+          "reading": "いつもかれはケチケチしていて、いちどもおごってくれたことはない。（おごる＝ごちそうする）",
+          "grammar": "1度も＋phủ định = chưa một lần nào; ～たことはない = chưa từng ~",
           "targets": [
             "ケチケチして"
           ]
@@ -712,7 +814,9 @@
         {
           "id": "00e61814786156b4",
           "japanese": "わがままな（人／性格／行動…）",
-          "vietnamese": "",
+          "vietnamese": "(Người / tính cách / hành động…) ích kỉ",
+          "reading": "わがままな（ひと／せいかく／こうどう…）",
+          "grammar": "",
           "targets": [
             "わがままな"
           ]
@@ -720,7 +824,9 @@
         {
           "id": "13c3a6b3380047be",
           "japanese": "わがままに振る舞う。（振る舞う ≒ 行動する）",
-          "vietnamese": "",
+          "vietnamese": "Cư xử ích kỉ. (振る舞う ≒ hành xử)",
+          "reading": "わがままにふるまう。（ふるまう ≒ こうどうする）",
+          "grammar": "な-tính từ ＋に＋V = hành động một cách ~",
           "targets": [
             "わがままに"
           ]
@@ -741,7 +847,9 @@
         {
           "id": "3b50045761473c23",
           "japanese": "積極的な（人／性格／行動…）",
-          "vietnamese": "",
+          "vietnamese": "(Người / tính cách / hành động…) chủ động",
+          "reading": "せっきょくてきな（ひと／せいかく／こうどう…）",
+          "grammar": "",
           "targets": [
             "積極的な"
           ]
@@ -749,7 +857,9 @@
         {
           "id": "1cc0932aad946bd3",
           "japanese": "日本語を身につけるため、積極的に日本人の友だちを作った。",
-          "vietnamese": "",
+          "vietnamese": "Để thạo tiếng Nhật, tôi đã chủ động kết bạn với người Nhật.",
+          "reading": "にほんごをみにつけるため、せっきょくてきににほんじんのともだちをつくった。",
+          "grammar": "V る＋ため(に) = để ~; 身につける = học cho thành của mình",
           "targets": [
             "積極的に"
           ]
@@ -757,7 +867,9 @@
         {
           "id": "9f59c1c09694da29",
           "japanese": "今の首相は、教育問題にあまり積極的ではない。",
-          "vietnamese": "",
+          "vietnamese": "Thủ tướng hiện nay không mấy tích cực với vấn đề giáo dục.",
+          "reading": "いまのしゅしょうは、きょういくもんだいにあまりせっきょくてきではない。",
+          "grammar": "な-tính từ ＋ではない = thể phủ định; あまり＋phủ định = không ~ lắm",
           "targets": [
             "積極的ではない"
           ]
@@ -778,7 +890,9 @@
         {
           "id": "9523afcd0f5b3e82",
           "japanese": "消極的な（人／性格／プレー…）",
-          "vietnamese": "",
+          "vietnamese": "(Người / tính cách / lối chơi…) rụt rè, thụ động",
+          "reading": "しょうきょくてきな（ひと／せいかく／プレー…）",
+          "grammar": "",
           "targets": [
             "消極的な"
           ]
@@ -804,7 +918,9 @@
         {
           "id": "a7494c5393b4f2eb",
           "japanese": "アルバイトだけでは満足な収入は得られない。",
-          "vietnamese": "",
+          "vietnamese": "Chỉ làm thêm thì không kiếm được mức thu nhập ưng ý.",
+          "reading": "アルバイトだけではまんぞくなしゅうにゅうはえられない。",
+          "grammar": "～だけでは = chỉ với ~ thì; 得られる = có được (thể khả năng của 得る)",
           "targets": [
             "満足な"
           ]
@@ -812,7 +928,9 @@
         {
           "id": "8bdd69aba7e0bc61",
           "japanese": "がんばったので2位でも満足だ。",
-          "vietnamese": "",
+          "vietnamese": "Vì đã cố hết sức nên hạng nhì tôi cũng hài lòng.",
+          "reading": "がんばったのでにいでもまんぞくだ。",
+          "grammar": "～でも = ~ cũng (dù chỉ là ~)",
           "targets": [
             "満足だ"
           ]
@@ -820,7 +938,9 @@
         {
           "id": "01c1771316d228e4",
           "japanese": "今の生活に十分満足している。",
-          "vietnamese": "",
+          "vietnamese": "Tôi hoàn toàn hài lòng với cuộc sống hiện giờ.",
+          "reading": "いまのせいかつにじゅうぶんまんぞくしている。",
+          "grammar": "～に満足する = hài lòng với ~ — thứ khiến mình hài lòng đi với に",
           "targets": [
             "満足して"
           ]
@@ -828,7 +948,9 @@
         {
           "id": "d83399f2fd9ac784",
           "japanese": "今の仕事からは満足感が得られない。",
-          "vietnamese": "",
+          "vietnamese": "Công việc bây giờ không đem lại cảm giác mãn nguyện.",
+          "reading": "いまのしごとからはまんぞくかんがえられない。",
+          "grammar": "～からは = từ ~ thì; ～感 = cảm giác ~ (満足感, 不安感, 責任感)",
           "targets": [
             "満足感"
           ]
@@ -836,7 +958,9 @@
         {
           "id": "47b5678e62a8a0be",
           "japanese": "パソコンが苦手で、メールも満足に打てない。",
-          "vietnamese": "",
+          "vietnamese": "Tôi kém máy tính, đến mail cũng không gõ cho ra hồn.",
+          "reading": "パソコンがにがてで、メールもまんぞくにうてない。",
+          "grammar": "～も = đến cả ~ cũng; 打てない = không gõ được (khả năng, thể phủ định)",
           "targets": [
             "満足に"
           ]
@@ -870,7 +994,9 @@
         {
           "id": "d1827f99bf48121a",
           "japanese": "この小説はおもしろかったが、終わり方がちょっと不満だ。",
-          "vietnamese": "",
+          "vietnamese": "Tiểu thuyết này hay, nhưng cách kết thúc thì tôi hơi không ưng.",
+          "reading": "このしょうせつはおもしろかったが、おわりかたがちょっとふまんだ。",
+          "grammar": "V ます＋方 = cách ~ (終わり方 = cách kết thúc)",
           "targets": [
             "不満だ"
           ]
@@ -878,7 +1004,9 @@
         {
           "id": "95ac3c2316c30f7d",
           "japanese": "彼に不満があるわけでないが、他に好きな人ができてしまった。",
-          "vietnamese": "",
+          "vietnamese": "Không hẳn là tôi bất mãn gì với anh ấy, chỉ là tôi đã trót thích người khác.",
+          "reading": "かれにふまんがあるわけでないが、ほかにすきなひとができてしまった。",
+          "grammar": "～わけではない = không hẳn là ~; ～てしまう = trót ~ mất rồi",
           "targets": [
             "不満"
           ]
@@ -886,7 +1014,9 @@
         {
           "id": "f42ed9cc418e6222",
           "japanese": "不満ばかり言っていても何も変わらない。",
-          "vietnamese": "",
+          "vietnamese": "Cứ càm ràm mãi thì chẳng có gì thay đổi.",
+          "reading": "ふまんばかりいっていてもなにもかわらない。",
+          "grammar": "～ばかり = chỉ toàn ~; ～ても = dù ~ cũng; 何も＋phủ định = chẳng gì",
           "targets": [
             "不満"
           ]
@@ -916,7 +1046,9 @@
         {
           "id": "76f213cd20a0543d",
           "japanese": "最近、体の調子がよくない。悪い病気になったのではないかと不安だ。",
-          "vietnamese": "",
+          "vietnamese": "Dạo này sức khoẻ không tốt. Tôi lo hay là mình đã mắc bệnh nặng rồi.",
+          "reading": "さいきん、からだのちょうしがよくない。わるいびょうきになったのではないかとふあんだ。",
+          "grammar": "～のではないかと＋(思う／不安だ) = lo rằng có lẽ ~ — nói nỗi lo chưa chắc chắn",
           "targets": [
             "不安だ"
           ]
@@ -924,7 +1056,9 @@
         {
           "id": "0c07da20c68a027f",
           "japanese": "新しい仕事がなかなか見つからず、不安な毎日を過ごしている。",
-          "vietnamese": "",
+          "vietnamese": "Mãi không tìm được việc mới, tôi sống những ngày bất an.",
+          "reading": "あたらしいしごとがなかなかみつからず、ふあんなまいにちをすごしている。",
+          "grammar": "なかなか＋phủ định = mãi mà không ~; ～ず = không ~ mà (văn viết)",
           "targets": [
             "不安な"
           ]
@@ -932,7 +1066,9 @@
         {
           "id": "82f7b313b6e827da",
           "japanese": "日本の会社に就職でき、将来への不安がなくなった。",
-          "vietnamese": "",
+          "vietnamese": "Xin được việc ở công ty Nhật, nỗi lo về tương lai đã tan biến.",
+          "reading": "にほんのかいしゃにしゅうしょくでき、しょうらいへのふあんがなくなった。",
+          "grammar": "～でき = thể khả năng ngắt giữa câu (văn viết); ～への＋N = N hướng về ~",
           "targets": [
             "不安"
           ]

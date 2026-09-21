@@ -17,7 +17,34 @@ Bốn loại dòng:
 | **Mốc cụm** | `## 01–10` | Áp cho mọi từ phía sau, tới mốc kế tiếp |
 | **Tiêu đề** | `[SỐ.] TỪ (CÁCH ĐỌC) = NGHĨA` | Bắt đầu một từ mới |
 | **Ví dụ** | bắt đầu bằng `・` hoặc `-` | Bản dịch viết sau dấu `\|`, tuỳ chọn |
+| **Cách đọc câu** | `読: <kana>` | Thuộc về câu ví dụ ngay phía trên |
+| **Ngữ pháp câu** | `文法: <mẫu>` | Thuộc về câu ví dụ ngay phía trên |
 | **Ghi chú** | `NHÃN : nội dung` | Nhãn giữ nguyên như trong sách |
+
+## Ba dòng phụ của một câu ví dụ
+
+```
+・上司に[相談]してから決定する。| Bàn với sếp rồi mới quyết định.
+読: じょうしにそうだんしてからけっていする。
+文法: ～てから = sau khi ~ (việc trước xong mới tới việc sau)
+```
+
+- **Bản dịch** viết ngay trên dòng câu, sau dấu `|`.
+- **`読:`** là cách đọc CẢ CÂU bằng kana, không phải chỉ chú âm vài chữ khó như bản in:
+  đọc trôi được cả câu mới là đọc được. Viết y như phần Ngữ pháp đang làm. Dòng này còn
+  sót chữ Hán thì `npm run generate` báo cảnh báo — chép thiếu là lỗi im lặng, câu vẫn
+  hiện bình thường.
+- **`文法:`** chỉ ra mẫu ngữ pháp dùng trong câu. Tài liệu 文字語彙 chỉ dạy từ, nên câu ví
+  dụ hay dùng mẫu người học chưa gặp (`～た方がいい`, `～そうだ`, `～ておく`) — biết nghĩa
+  từng từ mà không biết mẫu thì vẫn không hiểu câu. Câu không có mẫu nào đáng chú thì bỏ
+  dòng này.
+
+Hai nhãn `読` và `文法` được DÀNH RIÊNG cho câu ví dụ: mọi nhãn khác (`合`, `対`, `関`…)
+thuộc về TỪ, mà trong file chúng cũng viết sau các câu ví dụ nên không phân biệt được
+bằng vị trí. Giáo trình không dùng hai nhãn này làm ghi chú của từ.
+
+Ba dòng phụ hiện ở cả bảng từ của trang bài lẫn danh sách câu ví dụ sau khi chấm trong
+màn hình luyện tập.
 
 ## Cụm từ
 

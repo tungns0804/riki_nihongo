@@ -115,6 +115,11 @@
                 <span class="muted small" [class.jp]="q.promptIsJapanese">{{ q.explanation }}</span>
               }
             </div>
+
+            <!-- Cách đọc và ghi chú của sách: hiện ngay khi vừa chấm, không đợi chấm
+                 xong cả thẻ như danh sách câu ví dụ. Biết nghĩa mà không biết đọc thì
+                 phần 漢字読み của đề vẫn trượt, nên đây là thứ phải đọc sớm nhất. -->
+            <ng-container *ngTemplateOutlet="aids; context: { $implicit: q }" />
           }
 
           <!-- Câu ví dụ đi kèm: hiện NGAY dưới phần vừa chấm, trên cùng thẻ, không phải bấm
@@ -191,6 +196,10 @@
                     </span>
                   }
                 </div>
+
+                <!-- Cách đọc ở đây là của ĐÚNG DẠNG vừa điền (渇いた → かわいた), không
+                     phải của dạng từ điển đã in ở phần trên. -->
+                <ng-container *ngTemplateOutlet="aids; context: { $implicit: f }" />
               }
             </section>
           }
@@ -208,8 +217,16 @@
                          "事件の 犯人 を捕まえる。" — tiếng Nhật không có dấu cách. -->
                     <!-- prettier-ignore -->
                     <span class="jp">@for (part of parts(example); track $index) {@if (part.hit) {<mark>{{ part.text }}</mark>} @else {<span>{{ part.text }}</span>}}</span>
+                    @if (example.reading) {
+                      <span class="jp small example-reading">{{ example.reading }}</span>
+                    }
                     @if (example.vietnamese) {
                       <span class="muted small example-vi">{{ example.vietnamese }}</span>
+                    }
+                    <!-- Mẫu ngữ pháp của câu: tài liệu 文字語彙 chỉ dạy từ, nên câu ví
+                         dụ hay dùng mẫu người học chưa gặp. -->
+                    @if (example.grammar) {
+                      <span class="small example-grammar">{{ example.grammar }}</span>
                     }
                   </p>
                 }
@@ -231,3 +248,25 @@
     }
   </div>
 </div>
+
+<!-- Công cụ học in sau mỗi lần chấm, dùng chung cho phần chính và câu ví dụ đi kèm:
+     hai chỗ chấm khác nhau nhưng cùng in một kiểu, và mỗi chỗ đưa vào câu hỏi của
+     chính nó nên cách đọc luôn là của đúng phần vừa trả lời. -->
+<ng-template #aids let-item>
+  @if (item.reading || item.notes.length > 0) {
+    <div class="study-aids">
+      @if (item.reading) {
+        <p class="aid-row">
+          <span class="muted small aid-label">{{ t('vocab.col.reading') }}</span>
+          <span class="jp aid-reading">{{ item.reading }}</span>
+        </p>
+      }
+      @for (note of item.notes; track $index) {
+        <p class="aid-row note">
+          <span class="jp note-label">{{ note.label }}</span>
+          <span class="jp note-text">{{ note.text }}</span>
+        </p>
+      }
+    </div>
+  }
+</ng-template>

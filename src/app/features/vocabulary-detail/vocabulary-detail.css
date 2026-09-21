@@ -444,3 +444,15 @@ td.col-meaning {
     justify-content: center;
   }
 }
+
+/* Cách đọc cả câu và mẫu ngữ pháp, viết như ở màn hình luyện tập. */
+.example-reading,
+.example-grammar {
+  display: block;
+  color: var(--text-muted);
+}
+
+.example-grammar {
+  font-family: var(--font-ui);
+  color: var(--accent);
+}

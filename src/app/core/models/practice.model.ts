@@ -99,12 +99,42 @@ export interface PracticeQuestion {
    * là lúc người học chịu đọc nhất.
    */
   examples: PracticeExample[];
+  /**
+   * Cách đọc kana của mục đang hỏi, hiện NGAY khi chấm xong phần này.
+   *
+   * Rỗng khi từ vốn đã là kana (katakana, ごちそう), và khi chính cách đọc là đáp án —
+   * chiều Nhật → Cách đọc thì dòng này chỉ lặp lại đáp án vừa hiện.
+   *
+   * Hiện ngay chứ không đợi chấm xong cả thẻ: chọn đúng "先輩 = Tiền bối" mà không
+   * biết đọc せんぱい thì vào phòng thi phần chọn cách đọc vẫn trượt, và lúc vừa trả
+   * lời xong là lúc người học chịu đọc nhất.
+   */
+  reading: string;
+  /**
+   * Ghi chú của giáo trình đi theo mục đang hỏi (合 / 対 / 関 / 使い分け…), hiện cùng
+   * chỗ với cách đọc. Rỗng nghĩa là sách không ghi chú gì cho mục này.
+   *
+   * Trước đây chúng chỉ nằm ở bảng từ của trang bài, tức là chỗ người học lướt qua
+   * TRƯỚC khi luyện — còn 対: 後輩 hay 使い分け: 出身 / 故郷 thì đúng lúc vừa trả lời
+   * xong mới là lúc đáng đọc.
+   */
+  notes: PracticeNote[];
+}
+
+/** Một dòng ghi chú của giáo trình, giữ nguyên nhãn như trang bài. */
+export interface PracticeNote {
+  label: string;
+  text: string;
 }
 
 export interface PracticeExample {
   id: string;
   japanese: string;
   vietnamese: string;
+  /** Cách đọc cả câu bằng kana. Rỗng nghĩa là chưa có. */
+  reading: string;
+  /** Mẫu ngữ pháp dùng trong câu, một dòng. Rỗng nghĩa là câu không có mẫu đáng chú. */
+  grammar: string;
   /**
    * Chữ cần tô đậm trong câu. Rỗng nghĩa là không tô.
    *

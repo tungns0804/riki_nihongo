@@ -57,6 +57,22 @@ export interface VocabExample {
   /** Bản dịch tiếng Việt. Rỗng nghĩa là chưa dịch — giáo trình gốc cũng thường để trống. */
   vietnamese: string;
   /**
+   * Cách đọc CẢ CÂU bằng kana, ví dụ "りそうのだんせいとけっこんする。".
+   *
+   * Cả câu chứ không chỉ furigana của chữ khó: người học đọc trôi được cả câu mới là
+   * đọc được, mà bản in của giáo trình chỉ chú âm vài chữ. Viết y như `GrammarExample.
+   * reading` của phần Ngữ pháp để hai chỗ dùng chung một kiểu dữ liệu. Rỗng = chưa có.
+   */
+  reading: string;
+  /**
+   * Một dòng chỉ ra mẫu ngữ pháp dùng trong câu, ví dụ "～てから = sau khi ~".
+   *
+   * Tài liệu 文字語彙 chỉ dạy từ, không dạy ngữ pháp, nên câu ví dụ hay có mẫu mà người
+   * học chưa gặp (～た方がいい, ～そうだ, ～ておく). Biết nghĩa từng từ mà không biết mẫu
+   * thì vẫn không hiểu câu. Rỗng = câu không có mẫu nào đáng chú.
+   */
+  grammar: string;
+  /**
    * Dạng của từ đang học xuất hiện trong câu — chữ in đỏ gạch chân của giáo trình.
    * Mỗi phần tử luôn nằm nguyên vẹn trong `japanese`.
    *

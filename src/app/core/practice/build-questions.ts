@@ -74,6 +74,8 @@ function vocabExamples(word: VocabWord): PracticeExample[] {
     id: example.id,
     japanese: example.japanese,
     vietnamese: example.vietnamese,
+    reading: example.reading,
+    grammar: example.grammar,
     highlights: example.targets,
   }));
 }
@@ -125,6 +127,9 @@ function fromVocabulary(
       explanation: '',
       passage: [],
       examples: vocabExamples(word),
+      // Cách đọc là đáp án rồi thì không lặp lại nó thành một dòng "Cách đọc" nữa.
+      reading: answer === 'reading' ? '' : word.reading,
+      notes: word.notes,
       followUp: follow ? sentenceQuestion(follow, sentences, withChoices, true) : null,
     };
   });
@@ -262,6 +267,11 @@ function sentenceQuestion(
     explanation: '',
     passage: [],
     examples: asFollowUp ? [] : vocabExamples(word),
+    // Cách đọc của ĐÚNG DẠNG trong câu (渇いた → かわいた), không phải của dạng từ điển:
+    // đây là chỗ duy nhất cho biết từ vừa điền đọc thế nào khi đã chia.
+    reading,
+    // Đi kèm câu hỏi về từ thì phần trên đã in ghi chú rồi, không in lại lần hai.
+    notes: asFollowUp ? [] : word.notes,
     followUp: null,
   };
 }
@@ -343,8 +353,16 @@ function fromKanji(
         id: word.id,
         japanese: word.reading ? `${word.japanese}（${word.reading}）` : word.japanese,
         vietnamese: word.vietnamese,
+        // Từ ghép của thẻ kanji đã in kèm cách đọc ngay trong `japanese`, và không có
+        // ngữ pháp nào để chú: đây là từ đứng một mình chứ không phải câu.
+        reading: '',
+        grammar: '',
         highlights: [entry.character],
       })),
+      // Phần Kanji chưa dùng hai dòng này: cách đọc On/Kun là một chiều hỏi riêng,
+      // còn ghi chú thì thẻ kanji không có.
+      reading: '',
+      notes: [],
       followUp: null,
     };
   });
@@ -395,10 +413,18 @@ function fromGrammar(
               id: `${example.id}:r`,
               japanese: example.reading,
               vietnamese: '',
+              // Dòng này CHÍNH LÀ cách đọc cả câu của phần Ngữ pháp, nên không lồng
+              // thêm một cách đọc nữa vào trong nó.
+              reading: '',
+              grammar: '',
               highlights: [point.title.replace(/[～〜]/g, '')],
             },
           ]
         : [],
+      // Ngữ pháp đã có chỗ riêng cho cả hai: cách đọc cả câu đi trong `examples` ở
+      // trên, còn phần giải thích thì nằm ở `explanation`.
+      reading: '',
+      notes: [],
       followUp: null,
     };
   });
@@ -431,6 +457,10 @@ export function fromQuizQuestions(questions: readonly QuizQuestion[]): PracticeQ
         // Bài đọc của phần đọc hiểu trong đề: đi theo từng câu vì mỗi câu một thẻ.
         passage: question.passage,
         examples: [],
+        // Đề chỉ có đúng những gì người ra đề viết: không tự thêm cách đọc hay ghi chú
+        // vào một câu hỏi của đề thi.
+        reading: '',
+        notes: [],
         followUp: null,
       },
     ];

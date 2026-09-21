@@ -168,3 +168,63 @@
   display: block;
   font-family: var(--font-ui);
 }
+
+/* --- Cách đọc và ghi chú của sách ------------------------------------------
+   Nằm giữa khối đúng/sai và danh sách câu ví dụ, nhưng KHÔNG mang màu đúng/sai:
+   cách đọc せんぱい là thứ phải học dù vừa trả lời đúng hay sai, tô đỏ theo khối
+   trên thì nó đọc thành một phần của lời báo lỗi. */
+
+.study-aids {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: var(--sp-3) var(--sp-4);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--bg-subtle);
+}
+
+.aid-row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+  font-size: var(--fs-sm);
+}
+
+/* Cùng bề ngang với nhãn ghi chú bên dưới để hai loại dòng thẳng cột với nhau. */
+.aid-label {
+  flex-shrink: 0;
+  min-width: 5.2em;
+  font-family: var(--font-ui);
+}
+
+.aid-reading {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* Nhãn 合 / 対 / 関 / 連 / 類 giữ nguyên như sách và như bảng từ của trang bài. */
+.study-aids .note-label {
+  flex-shrink: 0;
+  min-width: 2.6em;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.study-aids .note-text {
+  color: var(--text-muted);
+}
+
+/* Cách đọc cả câu và mẫu ngữ pháp của câu ví dụ. Cùng thụt vào một mức để ba dòng
+   phụ (kana, bản dịch, ngữ pháp) đọc thành một khối thuộc về câu phía trên. */
+.example-reading,
+.example-grammar {
+  display: block;
+  color: var(--text-muted);
+}
+
+.example-grammar {
+  font-family: var(--font-ui);
+  color: var(--accent);
+}

@@ -9,6 +9,7 @@ import {
   signal,
   viewChild,
 } from '@angular/core';
+import { NgTemplateOutlet } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 
@@ -36,7 +37,7 @@ import { splitAround } from '../../core/utils/text';
  */
 @Component({
   selector: 'app-practice',
-  imports: [FormsModule, T],
+  imports: [FormsModule, NgTemplateOutlet, T],
   templateUrl: './practice.html',
   styleUrl: './practice.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

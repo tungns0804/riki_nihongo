@@ -207,8 +207,14 @@
                                  cách lọt vào giữa câu tiếng Nhật (xem practice.html). -->
                             <!-- prettier-ignore -->
                             <span class="jp">@for (part of parts(example); track $index) {@if (part.hit) {<mark>{{ part.text }}</mark>} @else {<span>{{ part.text }}</span>}}</span>
+                            @if (example.reading) {
+                              <span class="jp small example-reading">{{ example.reading }}</span>
+                            }
                             @if (example.vietnamese) {
                               <span class="muted small example-vi">{{ example.vietnamese }}</span>
+                            }
+                            @if (example.grammar) {
+                              <span class="small example-grammar">{{ example.grammar }}</span>
                             }
                           </p>
                         }

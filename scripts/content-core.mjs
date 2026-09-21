@@ -98,6 +98,25 @@ function splitReading(value) {
 const VOCAB_GROUP = /^##\s*(.+?)(?:\s*[=＝]\s*(.*))?$/;
 const VOCAB_EXAMPLE = /^[・･\-]\s*(.+)$/;
 const VOCAB_NOTE = /^(\S{1,8}?)\s*[:：]\s*(.+)$/;
+
+/**
+ * Hai nhãn ghi chú DÀNH RIÊNG cho câu ví dụ ngay phía trên, không phải cho từ:
+ *
+ *   ・上司に[相談]してから決定する。| Bàn với sếp rồi mới quyết định.
+ *   読: じょうしにそうだんしてからけっていする。
+ *   文法: ～てから = sau khi ~ (việc trước xong mới tới việc sau)
+ *
+ * Tách riêng vì mọi nhãn khác (合 / 対 / 関 / 使い分け…) thuộc về TỪ và trong file
+ * cũng viết sau các câu ví dụ, nên không thể phân biệt bằng vị trí — chỉ có cách
+ * dành sẵn hai nhãn này. Giáo trình không dùng 読 hay 文法 làm nhãn ghi chú của từ.
+ */
+const VOCAB_EXAMPLE_FIELDS = new Map([
+  ['読', 'reading'],
+  ['文法', 'grammar'],
+]);
+
+/** Còn sót chữ Hán trong dòng `読:` — tức là chép thiếu, chưa chuyển hết sang kana. */
+const HAS_KANJI = /[一-龯]/;
 const VOCAB_HEADER = /^(?:(\d+)\s*[.．]\s*)?(.+?)(?:\s*[(（]([^)）]+)[)）])?\s*[=＝]\s*(.+)$/;
 const VOCAB_PARTICLE = /^[(（]([^)）]{1,3})[)）]\s*(.+)$/;
 const VOCAB_MARK = /\[([^[\]]+)\]/g;
@@ -194,6 +213,8 @@ export function parseVocabulary(raw) {
           id: hashId('ex', japanese),
           japanese,
           vietnamese,
+          reading: '',
+          grammar: '',
           targets: targets.length > 0 ? targets : spellingsIn(current.japanese, japanese),
         });
       }
@@ -206,6 +227,29 @@ export function parseVocabulary(raw) {
         warnings.push(`dòng ${lineNumber}: ghi chú nhưng chưa có từ nào ở trên`);
         continue;
       }
+
+      const field = VOCAB_EXAMPLE_FIELDS.get(note[1]);
+      if (field) {
+        const target = current.examples[current.examples.length - 1];
+        if (!target) {
+          warnings.push(`dòng ${lineNumber}: "${note[1]}:" phải viết ngay dưới một câu ví dụ`);
+          continue;
+        }
+        const value = note[2].trim();
+        if (field === 'reading') {
+          if (HAS_KANJI.test(value)) {
+            warnings.push(
+              `dòng ${lineNumber}: dòng 読 còn chữ Hán, cách đọc phải viết hết bằng kana`,
+            );
+          }
+          // Câu vốn đã toàn kana (ボールをける。) thì dòng đọc trùng y hệt câu gốc. Bỏ
+          // đi chứ không hiện: in hai dòng giống nhau làm người học tưởng mình đọc sót.
+          if (value === target.japanese) continue;
+        }
+        target[field] = value;
+        continue;
+      }
+
       current.notes.push({ label: note[1], text: note[2].trim() });
       continue;
     }
