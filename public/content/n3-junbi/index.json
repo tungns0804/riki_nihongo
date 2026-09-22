@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-09-21T08:35:03.901Z",
+  "generatedAt": "2026-09-22T03:58:08.053Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -101,6 +101,17 @@
           "itemCount": 10,
           "order": 102,
           "file": "vocabulary/01-danh-tu-btvn-11-20.json"
+        },
+        {
+          "id": "01-danh-tu-btvn-21-30",
+          "name": "BTVN 21–30",
+          "description": "Bài tập về nhà của cụm 21–30 (Bài 2.1 · Học lên, đi làm và nghỉ việc) — 10 câu.",
+          "kind": "test",
+          "parent": "01-danh-tu",
+          "group": "21–30",
+          "itemCount": 10,
+          "order": 103,
+          "file": "vocabulary/01-danh-tu-btvn-21-30.json"
         }
       ]
     },

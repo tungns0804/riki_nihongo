@@ -1,0 +1,221 @@
+{
+  "sections": [
+    {
+      "id": "btvn-21-30",
+      "title": "文字語彙 — BTVN 21–30 (10 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-btvn-2130-01",
+          "promptJapanese": "海外で暮らすのは楽しい。",
+          "promptReading": "かいがいで くらすのは たのしい。",
+          "promptVietnamese": "Sống ở nước ngoài thật vui.",
+          "choices": ["残業する", "通学する", "通勤する", "生活する"],
+          "choicesVietnamese": [
+            "ざんぎょうする · Làm thêm giờ",
+            "つうがくする · Đi học (đi lại giữa nhà và trường)",
+            "つうきんする · Đi làm (đi lại giữa nhà và chỗ làm)",
+            "せいかつする · Sống, sinh hoạt"
+          ],
+          "choiceNotes": [
+            "残業する là ở lại làm thêm sau giờ — một việc trong ngày, không phải chuyện sinh sống.",
+            "通学する là đi lại giữa nhà và trường; 海外で通学する chỉ nói việc đi học, không nói sống ở đó.",
+            "通勤する là đi lại giữa nhà và chỗ làm — cũng chỉ là một việc, xem câu 10.",
+            "Đúng: 暮らす = 生活する (sống, sinh hoạt). Câu mẫu của sách: 外国での生活は楽しい。"
+          ],
+          "answer": 4,
+          "explanation": "生活 đi với 送る (健康的な生活を送る = sống một cuộc sống lành mạnh) và với 慣れる (日本の生活に慣れる). Từ ghép: 生活費 (せいかつひ) = tiền sinh hoạt."
+        },
+        {
+          "id": "dt-btvn-2130-02",
+          "promptJapanese": "長年勤めた会社を（　　　）した。",
+          "promptReading": "ながねん つとめた かいしゃを（　　　）した。",
+          "promptVietnamese": "Tôi đã （　　　） công ty gắn bó nhiều năm.",
+          "choices": ["退職", "残業", "失業", "就職"],
+          "choicesVietnamese": [
+            "たいしょく · Nghỉ việc",
+            "ざんぎょう · Làm thêm giờ",
+            "しつぎょう · Thất nghiệp, mất việc",
+            "しゅうしょく · Xin việc, vào làm"
+          ],
+          "choiceNotes": [
+            "Đúng: ～を退職する = nghỉ việc ở ~ — nơi làm đi với を. Đúng câu mẫu của sách: 長年勤めた会社を退職した。",
+            "残業 là làm thêm giờ, không phải rời công ty; 会社を残業する cũng không thành câu.",
+            "失業 là mất việc do hoàn cảnh (công ty phá sản…), và đứng một mình với する chứ không nhận を của nơi làm.",
+            "就職 là xin VÀO làm — ngược nghĩa, mà nơi làm lại đi với に (会社に就職する)."
+          ],
+          "answer": 1,
+          "explanation": "Nhớ theo cặp trợ từ: 会社に就職する (vào) ＞＜ 会社を退職する (ra). 退職 dùng cho nhân viên bình thường; 辞職 (じしょく) là từ chức của người có chức quyền."
+        },
+        {
+          "id": "dt-btvn-2130-03",
+          "promptJapanese": "この高校の大学（　　　）率はとても高く、90%が大学に行くそうだ。",
+          "promptReading": "この こうこうの だいがく（　　　）りつは とても たかく、きゅうじゅっパーセントが だいがくに いくそうだ。",
+          "promptVietnamese": "Tỉ lệ （　　　） đại học của trường cấp ba này rất cao, nghe nói 90% học sinh vào đại học.",
+          "choices": ["合格", "中退", "退学", "進学"],
+          "choicesVietnamese": [
+            "ごうかく · Thi đỗ",
+            "ちゅうたい · Bỏ học giữa chừng",
+            "たいがく · Thôi học",
+            "しんがく · Học lên (cấp cao hơn)"
+          ],
+          "choiceNotes": [
+            "合格率 là tỉ lệ ĐỖ của một kỳ thi; vế sau nói 90% học sinh VÀO đại học, tức là nói chuyện học lên chứ không nói kết quả thi.",
+            "中退 (ちゅうたい) là bỏ học giữa chừng — ngược hẳn với chuyện vào được đại học.",
+            "退学 là thôi học, cũng ngược nghĩa với vế sau của câu.",
+            "Đúng: 大学進学率 = tỉ lệ học lên đại học, khớp đúng với 90%が大学に行く."
+          ],
+          "answer": 4,
+          "explanation": "進学 = học lên cấp cao hơn, đi với に (大学に進学する) và với ～について (子供の進学について考える). ～そうだ ở cuối câu là \"nghe nói\"."
+        },
+        {
+          "id": "dt-btvn-2130-04",
+          "promptJapanese": "今週は毎日（　　　）だ。",
+          "promptReading": "こんしゅうは まいにち（　　　）だ。",
+          "promptVietnamese": "Tuần này ngày nào cũng （　　　）.",
+          "choices": ["残業", "就職", "失業", "進学"],
+          "choicesVietnamese": [
+            "ざんぎょう · Làm thêm giờ",
+            "しゅうしょく · Xin việc, vào làm",
+            "しつぎょう · Thất nghiệp, mất việc",
+            "しんがく · Học lên"
+          ],
+          "choiceNotes": [
+            "Đúng: 毎日残業だ = ngày nào cũng tăng ca — 残業 là việc lặp lại từng ngày nên đi được với 毎日.",
+            "就職 là việc xin vào làm, xảy ra một lần trong đời, không phải chuyện mỗi ngày.",
+            "失業 là TRẠNG THÁI mất việc; đang mất việc thì kéo dài chứ không tính theo từng ngày.",
+            "進学 là học lên, cũng là chuyện một lần vào đầu một cấp học."
+          ],
+          "answer": 1,
+          "explanation": "残業が多くて、疲れた。(Tăng ca nhiều quá nên mệt.) Ba từ cùng chữ 業: 残業 (làm thêm giờ) · 失業 (mất việc) · 卒業 (tốt nghiệp)."
+        },
+        {
+          "id": "dt-btvn-2130-05",
+          "promptJapanese": "（　　　）日なので、ビールを買おう！",
+          "promptReading": "（　　　）びなので、ビールを かおう！",
+          "promptVietnamese": "Hôm nay là ngày （　　　） nên mua bia thôi!",
+          "choices": ["失業", "給料", "退学", "通勤"],
+          "choicesVietnamese": [
+            "しつぎょう · Thất nghiệp, mất việc",
+            "きゅうりょう · Lương",
+            "たいがく · Thôi học",
+            "つうきん · Đi làm (di chuyển)"
+          ],
+          "choiceNotes": [
+            "失業日 không phải một từ, và mất việc thì cũng không có gì để ăn mừng bằng bia.",
+            "Đúng: 給料日 (きゅうりょうび) = ngày lĩnh lương — vừa có tiền nên mới rủ nhau mua bia.",
+            "退学日 không phải một từ; thôi học thì nói 退学する.",
+            "通勤日 không phải cách nói thông thường — ngày phải đi làm thì nói 出勤日 (しゅっきんび)."
+          ],
+          "answer": 2,
+          "explanation": "今日は給料日だ！ 会社から給料をもらう = nhận lương từ công ty. ～ので = vì ~ nên (nêu lý do, mềm hơn ～から); ～おう/～よう = rủ, định làm."
+        },
+        {
+          "id": "dt-btvn-2130-06",
+          "promptJapanese": "日系の工場に（　　　）する。",
+          "promptReading": "にっけいの こうじょうに（　　　）する。",
+          "promptVietnamese": "（　　　） nhà máy của công ty Nhật.",
+          "choices": ["退学", "合格", "残業", "就職"],
+          "choicesVietnamese": [
+            "たいがく · Thôi học",
+            "ごうかく · Thi đỗ",
+            "ざんぎょう · Làm thêm giờ",
+            "しゅうしょく · Xin việc, vào làm"
+          ],
+          "choiceNotes": [
+            "退学する là thôi học ở một trường, không đi với 工場.",
+            "合格する là đỗ một kỳ thi hay một vòng tuyển; đỗ thì đỗ 試験 chứ không đỗ cái nhà máy.",
+            "残業する là làm thêm giờ — đã làm ở đó rồi mới tăng ca, và nơi làm khi ấy đi với で chứ không phải に.",
+            "Đúng: ～に就職する = xin vào làm ở ~. Nơi làm đi với に: 旅行会社に就職する。"
+          ],
+          "answer": 4,
+          "explanation": "就職 (TỰU CHỨC) — từ ghép hay gặp: 就職活動 (しゅうしょくかつどう) = quá trình đi xin việc. Đối lại là 退職 (câu 2), nơi làm đổi trợ từ thành を."
+        },
+        {
+          "id": "dt-btvn-2130-07",
+          "promptJapanese": "人は（　　　）だけでは判断できない。",
+          "promptReading": "ひとは（　　　）だけでは はんだんできない。",
+          "promptVietnamese": "Không thể đánh giá một con người chỉ bằng （　　　）.",
+          "choices": ["学歴", "進学", "生活", "成長"],
+          "choicesVietnamese": [
+            "がくれき · Trình độ học vấn, bằng cấp",
+            "しんがく · Học lên",
+            "せいかつ · Cuộc sống",
+            "せいちょう · Trưởng thành, tăng trưởng"
+          ],
+          "choiceNotes": [
+            "Đúng: 学歴だけでは判断できない = chỉ nhìn bằng cấp thì chưa đánh giá được con người — đúng ý câu mẫu của sách.",
+            "進学 là HÀNH ĐỘNG học lên, không phải một thứ người khác nhìn vào để đánh giá.",
+            "生活 là cuộc sống nói chung, rộng quá để làm căn cứ; câu này đang so bằng cấp với thực lực.",
+            "成長 là quá trình lớn lên / tăng trưởng, cũng không phải thứ đem ra cân đo một con người."
+          ],
+          "answer": 1,
+          "explanation": "Câu mẫu cùng ý: 学歴が高くても、実力があるかどうかわからない。Cặp hay đi với nhau: 学歴をつける ＞＜ 実力をつける. 合: 高学歴 (こうがくれき)."
+        },
+        {
+          "id": "dt-btvn-2130-08",
+          "promptJapanese": "コロナのせいで（　　　）してしまった。",
+          "promptReading": "コロナのせいで（　　　）してしまった。",
+          "promptVietnamese": "Tại corona mà tôi đã （　　　） mất rồi.",
+          "choices": ["退職", "退学", "失業", "就職"],
+          "choicesVietnamese": [
+            "たいしょく · Nghỉ việc (tự mình xin nghỉ)",
+            "たいがく · Thôi học",
+            "しつぎょう · Thất nghiệp, mất việc",
+            "しゅうしょく · Xin việc, vào làm"
+          ],
+          "choiceNotes": [
+            "退職 là tự mình quyết định nghỉ việc, còn ～のせいで nói về chuyện xảy ra ngoài ý muốn — hai bên ngược nhau.",
+            "退学 cũng dùng được với せいで, nhưng phải có ngữ cảnh trường lớp; ở bài này 退学 là đáp án của câu 9.",
+            "Đúng: 失業する = mất việc vì hoàn cảnh bên ngoài, khớp đúng với ～のせいで và ～てしまった.",
+            "就職 là xin được việc — chuyện tốt, không đi với せいで (tại ~) và ～てしまった (tiếc, lỡ)."
+          ],
+          "answer": 3,
+          "explanation": "会社が倒産して、失業した。～のせいで = tại ~ (dẫn tới kết quả xấu); ～てしまった = lỡ mất rồi. 合: 失業者 (しつぎょうしゃ)."
+        },
+        {
+          "id": "dt-btvn-2130-09",
+          "promptJapanese": "B高校を17才で（　　　）しました。",
+          "promptReading": "Bこうこうを じゅうななさいで（　　　）しました。",
+          "promptVietnamese": "Tôi đã （　　　） trường cấp ba B năm 17 tuổi.",
+          "choices": ["進学", "就職", "退学", "成長"],
+          "choicesVietnamese": [
+            "しんがく · Học lên",
+            "しゅうしょく · Xin việc, vào làm",
+            "たいがく · Thôi học",
+            "せいちょう · Trưởng thành, tăng trưởng"
+          ],
+          "choiceNotes": [
+            "進学 là học LÊN cấp cao hơn và đi với に (大学に進学する), không nhận を của ngôi trường đang học.",
+            "就職 là xin vào làm ở một nơi làm việc, không đi với tên trường.",
+            "Đúng: ～を退学する = thôi học ở ~. Trường đi với を, cùng lối với 会社を退職する.",
+            "成長 là lớn lên, không phải một việc làm với ngôi trường."
+          ],
+          "answer": 3,
+          "explanation": "退学の理由を説明する。合: 退学届 (たいがくとどけ) = đơn xin thôi học. Nhớ cặp を: 高校を退学する · 会社を退職する."
+        },
+        {
+          "id": "dt-btvn-2130-10",
+          "promptJapanese": "（　　　）には往復1時間かかります。",
+          "promptReading": "（　　　）には おうふく いちじかん かかります。",
+          "promptVietnamese": "（　　　） mất một tiếng cả đi lẫn về.",
+          "choices": ["給料", "通勤", "生活", "就職"],
+          "choicesVietnamese": [
+            "きゅうりょう · Lương",
+            "つうきん · Đi làm (đi lại giữa nhà và chỗ làm)",
+            "せいかつ · Cuộc sống",
+            "しゅうしょく · Xin việc, vào làm"
+          ],
+          "choiceNotes": [
+            "給料 là tiền lương, không có quãng đường nên không đo bằng 往復 (cả đi lẫn về).",
+            "Đúng: 通勤 là việc đi lại giữa nhà và chỗ làm, nên đo được bằng thời gian và có cả chiều đi lẫn chiều về.",
+            "生活 là cuộc sống nói chung, không phải một quãng đường để tính 往復.",
+            "就職 là việc xin vào làm, cũng không đo bằng thời gian đi đường."
+          ],
+          "answer": 2,
+          "explanation": "私は毎日2時間もかけて通勤している。関: 通学 (đi học) · 通院 (đi khám bệnh). 往復 (おうふく) = cả đi lẫn về ＞＜ 片道 (かたみち) = một chiều."
+        }
+      ]
+    }
+  ]
+}
