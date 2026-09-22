@@ -9,7 +9,7 @@ dung:
 | ----------------------------- | ----------------------- | ----------------------------------------------------- |
 | Bài kiểm tra nhập môn N3      | `/n3-junbi/test`        | Đề đầu vào: làm cả bài rồi nộp, chấm theo từng kỹ năng  |
 | Từ vựng                       | `/n3-junbi/vocabulary`  | Bảng từ + luyện tập bốn chiều                           |
-| KANJI                         | `/n3-junbi/kanji`       | Thẻ chữ Hán: âm On/Kun, âm Hán Việt, số nét, từ ghép    |
+| KANJI                         | `/n3-junbi/kanji`       | Thẻ chữ Hán: âm On/Kun, âm Hán Việt, số nét, từ ghép — Bài 1–2 |
 | Ngữ pháp                      | `/n3-junbi/grammar`     | Trang lý thuyết: công thức, cách dùng, ví dụ — và đề thi thật |
 | Đọc hiểu                      | `/n3-junbi/reading`     | Bài đọc + câu hỏi trả lời tại chỗ + bản dịch ẩn         |
 | Nghe hiểu                     | `/n3-junbi/listening`   | Trình phát + câu hỏi + lời thoại ẩn                     |
@@ -19,7 +19,7 @@ dung:
 
 - Từ vựng (`/btvn-co-ban/vocabulary`): bài "Danh từ" 01–70, chép theo thẻ từ vựng của các
   bài tập "Từ vựng 1-10" tới "61-70", mỗi bài tập một cụm.
-- Kanji (`/btvn-co-ban/kanji`): Bài 1–3, mỗi bài 10 chữ, chép theo thẻ kanji của Riki
+- Kanji (`/btvn-co-ban/kanji`): Bài 1–8, mỗi bài 8–11 chữ, chép theo thẻ kanji của Riki
   ([cách chép](data-source/btvn-co-ban/kanji/README.md)).
 
 Địa chỉ cũ chưa có tên học phần (`/vocabulary/01-danh-tu`) tự chuyển sang N3 JUNBI.

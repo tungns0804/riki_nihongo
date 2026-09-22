@@ -1,0 +1,18 @@
+# N3 JUNBI — KANJI · Bài 2
+# Nguồn: danh sách thẻ kanji Bài 2 trên website Riki (ảnh chụp màn hình).
+# Thẻ ở danh sách chỉ có chữ, âm Hán Việt, 音 và 訓. Nghĩa của chữ, số nét và từ ghép
+# nằm sau nút "Tham khảo" nên chưa chép được — ba cột đó để trống, không tự thêm.
+# Cách chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+# 仲: thẻ ghi đảo hai dòng (音: なか, 訓: チュウ); ở đây đặt lại đúng cột.
+仲,TRỌNG,,チュウ,なか,
+借,TÁ,,シャク,か.りる,
+供,CUNG,,キョウ,とも,
+# 他: thẻ ghi âm On bằng hiragana (た).
+他,THA,,タ,ほか,
+候,HẬU,,コウ,,
+価,GIÁ,,カ,,
+便,TIỆN,,ベン・ビン,,
+停,ĐÌNH,,テイ,,
+係,HỆ,,ケイ,かか.り,
+優,ƯU,,ユウ,,

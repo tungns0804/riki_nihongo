@@ -1,0 +1,19 @@
+# N3 JUNBI — KANJI · Bài 1
+# Nguồn: danh sách thẻ kanji Bài 1 trên website Riki (ảnh chụp màn hình).
+# Thẻ ở danh sách chỉ có chữ, âm Hán Việt, 音 và 訓. Nghĩa của chữ, số nét và từ ghép
+# nằm sau nút "Tham khảo" nên chưa chép được — ba cột đó để trống, không tự thêm.
+# Cách chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+仕,SĨ,,シ,,
+任,NHIỆM,,ニン,まか.せる,
+信,TÍN,,シン,,
+伸,THÂN,,シン,の.びる・の.ばす,
+付,PHÓ,,フ,つ.ける,
+# 代: thẻ ghi âm On bằng hiragana (だい).
+代,ĐẠI,,ダイ,か.わる・か.える,
+件,KIỆN,,ケン,,
+位,VỊ,,イ,,
+# 倍 và 保: thẻ có thêm một dòng "null" — chỗ trống của website, không phải âm đọc.
+倍,BỘI,,バイ,,
+保,BẢO,,ホ,たも.つ,
+個,CÁ,,コ,,

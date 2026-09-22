@@ -1,0 +1,154 @@
+{
+  "id": "01-bai-1",
+  "name": "Bài 1",
+  "description": "11 chữ đều có bộ Nhân đứng 亻 (người): 仕 任 信 伸 付 代 件 位 倍 保 個",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "652d13614c2f1383",
+      "character": "仕",
+      "hanViet": "SĨ",
+      "meaning": "",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": []
+    },
+    {
+      "id": "8eb02232a641d35e",
+      "character": "任",
+      "hanViet": "NHIỆM",
+      "meaning": "",
+      "onyomi": [
+        "ニン"
+      ],
+      "kunyomi": [
+        "まか.せる"
+      ],
+      "strokes": 0,
+      "words": []
+    },
+    {
+      "id": "ab0226a06ad601e5",
+      "character": "信",
+      "hanViet": "TÍN",
+      "meaning": "",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": []
+    },
+    {
+      "id": "b82270f93d3ee84e",
+      "character": "伸",
+      "hanViet": "THÂN",
+      "meaning": "",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "の.びる",
+        "の.ばす"
+      ],
+      "strokes": 0,
+      "words": []
+    },
+    {
+      "id": "c8600e0f832bc572",
+      "character": "付",
+      "hanViet": "PHÓ",
+      "meaning": "",
+      "onyomi": [
+        "フ"
+      ],
+      "kunyomi": [
+        "つ.ける"
+      ],
+      "strokes": 0,
+      "words": []
+    },
+    {
+      "id": "6d83cc9c3a4a17e3",
+      "character": "代",
+      "hanViet": "ĐẠI",
+      "meaning": "",
+      "onyomi": [
+        "ダイ"
+      ],
+      "kunyomi": [
+        "か.わる",
+        "か.える"
+      ],
+      "strokes": 0,
+      "words": []
+    },
+    {
+      "id": "34d2036f6c57774f",
+      "character": "件",
+      "hanViet": "KIỆN",
+      "meaning": "",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": []
+    },
+    {
+      "id": "36c07e1c66853416",
+      "character": "位",
+      "hanViet": "VỊ",
+      "meaning": "",
+      "onyomi": [
+        "イ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": []
+    },
+    {
+      "id": "10b35e0138aa5fbf",
+      "character": "倍",
+      "hanViet": "BỘI",
+      "meaning": "",
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": []
+    },
+    {
+      "id": "3e66e6f0fa956aec",
+      "character": "保",
+      "hanViet": "BẢO",
+      "meaning": "",
+      "onyomi": [
+        "ホ"
+      ],
+      "kunyomi": [
+        "たも.つ"
+      ],
+      "strokes": 0,
+      "words": []
+    },
+    {
+      "id": "cd86915548f25c77",
+      "character": "個",
+      "hanViet": "CÁ",
+      "meaning": "",
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": []
+    }
+  ]
+}
