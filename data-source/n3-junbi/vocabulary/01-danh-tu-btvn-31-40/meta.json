@@ -1,0 +1,8 @@
+{
+  "name": "BTVN 31–40",
+  "description": "Bài tập về nhà của cụm 31–40 (Bài 2.2 · Đi về, có mặt và vắng mặt) — 10 câu.",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "31–40",
+  "order": 104
+}

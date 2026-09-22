@@ -1,0 +1,398 @@
+{
+  "id": "01-danh-tu-btvn-31-40",
+  "name": "BTVN 31–40",
+  "description": "Bài tập về nhà của cụm 31–40 (Bài 2.2 · Đi về, có mặt và vắng mặt) — 10 câu.",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "31–40",
+  "sections": [
+    {
+      "id": "btvn-31-40",
+      "title": "文字語彙 — BTVN 31–40 (10 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-btvn-3140-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）のとき学歴のことを聞かれた。",
+          "promptReading": "（　　　）のとき がくれきの ことを きかれた。",
+          "promptTranslation": "Lúc （　　　） thì tôi bị hỏi về bằng cấp.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "面接",
+              "translation": "めんせつ · Phỏng vấn",
+              "note": "Đúng: 面接 là buổi phỏng vấn xin việc — đúng chỗ người ta hỏi về học vấn, kinh nghiệm."
+            },
+            {
+              "id": "c2",
+              "text": "旅行",
+              "translation": "りょこう · Du lịch (chuyến đi)",
+              "note": "旅行 là chuyến đi chơi; không ai hỏi bằng cấp của bạn trong một chuyến du lịch."
+            },
+            {
+              "id": "c3",
+              "text": "観光",
+              "translation": "かんこう · Du lịch, tham quan",
+              "note": "観光 là đi tham quan, ngắm cảnh — cũng không phải chỗ để hỏi chuyện học hành (xem câu 10)."
+            },
+            {
+              "id": "c4",
+              "text": "休憩",
+              "translation": "きゅうけい · Nghỉ giải lao",
+              "note": "休憩 là quãng nghỉ giữa giờ, không phải một buổi có người hỏi han về học vấn (xem câu 6)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "明日新しいアルバイトの面接がある。合: 面接試験 (めんせつしけん). 聞かれた là thể bị động của 聞く — \"bị/được hỏi\", người hỏi không cần nói ra.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-3140-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "お盆にふるさとへ帰る予定だ。",
+          "promptReading": "おぼんに ふるさとへ かえる よていだ。",
+          "promptTranslation": "Tôi định về quê dịp lễ Obon.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "参加",
+              "translation": "さんか · Tham gia",
+              "note": "参加 là tham gia một hoạt động, không nói gì tới chuyện về quê."
+            },
+            {
+              "id": "c2",
+              "text": "遅刻",
+              "translation": "ちこく · Đến muộn",
+              "note": "遅刻 là đến muộn — sai hẳn nghĩa (xem câu 9)."
+            },
+            {
+              "id": "c3",
+              "text": "帰省",
+              "translation": "きせい · Về quê",
+              "note": "Đúng: 帰省 = về quê (ふるさと／故郷に帰ること). Câu mẫu của sách: お盆には故郷に帰省する日本人が多い。"
+            },
+            {
+              "id": "c4",
+              "text": "帰宅",
+              "translation": "きたく · Về nhà",
+              "note": "帰宅 là về NHÀ mình sau một ngày đi làm, đi học — quãng đường trong ngày, không phải chuyến về quê."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Ba chữ 帰 phân biệt theo chỗ về: 帰国 (về nước) · 帰省 (về quê) · 帰宅 (về nhà). お盆 (Obon) là dịp giữa tháng 8, lúc người Nhật về quê đông nhất.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-3140-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "今日はグエンさんが（　　　）です。",
+          "promptReading": "きょうは グエンさんが（　　　）です。",
+          "promptTranslation": "Hôm nay bạn Nguyễn （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "参加",
+              "translation": "さんか · Tham gia",
+              "note": "参加 phải nói rõ tham gia CÁI GÌ (ボランティア活動に参加); đứng một mình sau 〜さんが thì câu lửng."
+            },
+            {
+              "id": "c2",
+              "text": "欠席",
+              "translation": "けっせき · Vắng mặt",
+              "note": "Đúng: 今日はグエンさんが欠席です = hôm nay bạn Nguyễn vắng mặt — đúng lối báo cáo khi điểm danh."
+            },
+            {
+              "id": "c3",
+              "text": "帰宅",
+              "translation": "きたく · Về nhà",
+              "note": "帰宅 là về nhà; 「〜さんが帰宅です」 chỉ nói người đó đã về, không phải cách báo vắng mặt của một buổi học."
+            },
+            {
+              "id": "c4",
+              "text": "残業",
+              "translation": "ざんぎょう · Làm thêm giờ",
+              "note": "残業 là làm thêm giờ ở công ty, không phải chuyện báo trong lớp và cũng không nói theo kiểu 〜さんが残業です."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "欠席 ＞＜ 出席 (câu 8). 合: 欠席届 (けっせきとどけ) = đơn xin nghỉ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-3140-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "忘年会に（　　　）する。",
+          "promptReading": "ぼうねんかいに（　　　）する。",
+          "promptTranslation": "（　　　） tiệc tất niên.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "休憩",
+              "translation": "きゅうけい · Nghỉ giải lao",
+              "note": "休憩 là nghỉ giải lao giữa giờ, không đi với 忘年会に."
+            },
+            {
+              "id": "c2",
+              "text": "出席",
+              "translation": "しゅっせき · Có mặt",
+              "note": "出席 cũng là \"có mặt\", nhưng dùng cho chỗ phải có mặt và có điểm danh (授業・会議・式); tiệc tùng thì nói 参加. 出席 là đáp án câu 8."
+            },
+            {
+              "id": "c3",
+              "text": "欠席",
+              "translation": "けっせき · Vắng mặt",
+              "note": "欠席 là vắng mặt — ngược nghĩa với việc đi dự tiệc."
+            },
+            {
+              "id": "c4",
+              "text": "参加",
+              "translation": "さんか · Tham gia",
+              "note": "Đúng: ～に参加する = tham gia ~. Hội hè, hoạt động thì dùng 参加."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "ボランティア活動に参加する。合: 参加者 (さんかしゃ); 対: 不参加 (ふさんか). 忘年会 (ぼうねんかい) = tiệc tất niên cuối năm.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-3140-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "来年の夏には、ベトナムへ（　　　）する予定です。",
+          "promptReading": "らいねんの なつには、ベトナムへ（　　　）する よていです。",
+          "promptTranslation": "Hè năm sau tôi dự định （　　　） Việt Nam.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "帰国",
+              "translation": "きこく · Về nước",
+              "note": "Đúng: 帰国 = về NƯỚC. Đang ở Nhật mà nói về ベトナム thì đúng là 帰国."
+            },
+            {
+              "id": "c2",
+              "text": "帰省",
+              "translation": "きせい · Về quê",
+              "note": "帰省 là về quê nhà trong cùng một nước (xem câu 2); nói tới cả một quốc gia thì dùng 帰国."
+            },
+            {
+              "id": "c3",
+              "text": "帰宅",
+              "translation": "きたく · Về nhà",
+              "note": "帰宅 là về nhà mình sau một ngày — quãng đường trong ngày, không phải chuyến đi lên kế hoạch cả năm."
+            },
+            {
+              "id": "c4",
+              "text": "出席",
+              "translation": "しゅっせき · Có mặt",
+              "note": "出席 là có mặt ở một buổi nào đó, không nói về chuyện đi hay về."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "今度の正月には帰国するつもりだ。V る＋予定です = dự định ~ (lịch đã định sẵn), nói chắc hơn ～つもりです một chút.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-3140-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "お昼の（　　　）は1時間だ。",
+          "promptReading": "おひるの（　　　）は いちじかんだ。",
+          "promptTranslation": "（　　　） buổi trưa là một tiếng.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "残業",
+              "translation": "ざんぎょう · Làm thêm giờ",
+              "note": "残業 là làm thêm SAU giờ làm, không phải quãng nghỉ giữa ngày (xem câu 7)."
+            },
+            {
+              "id": "c2",
+              "text": "休憩",
+              "translation": "きゅうけい · Nghỉ giải lao",
+              "note": "Đúng: お昼の休憩 = giờ nghỉ trưa. 休憩 là quãng nghỉ nên đo được bằng thời gian."
+            },
+            {
+              "id": "c3",
+              "text": "面接",
+              "translation": "めんせつ · Phỏng vấn",
+              "note": "面接 là buổi phỏng vấn, không phải thứ công ty nào cũng có \"vào buổi trưa, dài một tiếng\"."
+            },
+            {
+              "id": "c4",
+              "text": "遅刻",
+              "translation": "ちこく · Đến muộn",
+              "note": "遅刻 là đến muộn — một lần đến trễ, không phải khoảng thời gian trong lịch làm việc."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "ではここで、10分間の休憩です。số lượng ＋間 = trong khoảng ~ (10分間). 合: 休憩室 (きゅうけいしつ) = phòng nghỉ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-3140-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "毎日、（　　　）があるので、帰宅するのは10時ごろだ。",
+          "promptReading": "まいにち、（　　　）が あるので、きたくするのは じゅうじごろだ。",
+          "promptTranslation": "Ngày nào cũng có （　　　） nên về đến nhà là khoảng 10 giờ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "帰省",
+              "translation": "きせい · Về quê",
+              "note": "帰省 là về quê — chuyện của mấy dịp lễ trong năm, không phải việc có hằng ngày."
+            },
+            {
+              "id": "c2",
+              "text": "出席",
+              "translation": "しゅっせき · Có mặt",
+              "note": "出席がある không giải thích được vì sao về muộn: có mặt ở lớp / cuộc họp là chuyện đúng giờ giấc bình thường."
+            },
+            {
+              "id": "c3",
+              "text": "遅刻",
+              "translation": "ちこく · Đến muộn",
+              "note": "遅刻 là ĐẾN muộn, còn câu này nói VỀ muộn — hai đầu ngược nhau."
+            },
+            {
+              "id": "c4",
+              "text": "残業",
+              "translation": "ざんぎょう · Làm thêm giờ",
+              "note": "Đúng: 毎日残業があるので = vì ngày nào cũng có tăng ca, nên 10 giờ mới về tới nhà."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "帰宅 (về nhà) là chữ nằm sẵn ở vế sau: 毎日忙しくて帰宅が遅い。Đừng lẫn 遅刻 (đến muộn, đầu buổi) với 帰宅が遅い (về muộn, cuối ngày).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-3140-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "授業に休まず（　　　）する。",
+          "promptReading": "じゅぎょうに やすまず（　　　）する。",
+          "promptTranslation": "Đi học （　　　） đầy đủ, không nghỉ buổi nào.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "欠席",
+              "translation": "けっせき · Vắng mặt",
+              "note": "欠席 là vắng mặt — ngược hẳn với 休まず (không nghỉ buổi nào)."
+            },
+            {
+              "id": "c2",
+              "text": "出席",
+              "translation": "しゅっせき · Có mặt",
+              "note": "Đúng: ～に出席する = có mặt ở ~. Dùng cho chỗ có điểm danh: 授業・会議・式."
+            },
+            {
+              "id": "c3",
+              "text": "参加",
+              "translation": "さんか · Tham gia",
+              "note": "参加 cũng là tham gia, nhưng hợp với hoạt động, hội hè tự nguyện; buổi học có điểm danh thì dùng 出席. 参加 là đáp án câu 4."
+            },
+            {
+              "id": "c4",
+              "text": "退学",
+              "translation": "たいがく · Thôi học",
+              "note": "退学 là thôi học hẳn, ngược với chuyện đi học đều đặn."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "出席 ＞＜ 欠席 (câu 3). 休まず = không nghỉ mà… — V ない bỏ ない ＋ず, cách nói gọn và trang trọng của ～ないで.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-3140-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "面接に（　　　）してしまった…。",
+          "promptReading": "めんせつに（　　　）してしまった…。",
+          "promptTranslation": "Tôi đã lỡ （　　　） buổi phỏng vấn mất rồi…",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "参加",
+              "translation": "さんか · Tham gia",
+              "note": "参加 dùng cho hoạt động, hội hè; đi phỏng vấn thì nói 面接を受ける chứ không nói 面接に参加する."
+            },
+            {
+              "id": "c2",
+              "text": "欠席",
+              "translation": "けっせき · Vắng mặt",
+              "note": "欠席 dùng cho buổi có danh sách điểm danh (授業・会議); vắng hẳn buổi phỏng vấn thì nói 面接に行けなかった."
+            },
+            {
+              "id": "c3",
+              "text": "遅刻",
+              "translation": "ちこく · Đến muộn",
+              "note": "Đúng: ～に遅刻する = đến muộn ở ~. 面接に遅刻してしまった = lỡ đến muộn buổi phỏng vấn — nên mới có dấu ba chấm tiếc nuối."
+            },
+            {
+              "id": "c4",
+              "text": "出席",
+              "translation": "しゅっせき · Có mặt",
+              "note": "出席 là có mặt đúng giờ — chuyện bình thường, không đi với ～てしまった (tiếc, lỡ)."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "寝坊して会社に遅刻する。Và đúng câu mẫu của sách: 面接では1分の遅刻も許されない (phỏng vấn thì muộn một phút cũng không được tha).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-3140-10",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "ホアンキエム湖は、外国人に人気の（　　　）地だ。",
+          "promptReading": "ホアンキエムこは、がいこくじんに にんきの（　　　）ちだ。",
+          "promptTranslation": "Hồ Hoàn Kiếm là điểm （　　　） được người nước ngoài yêu thích.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "観光",
+              "translation": "かんこう · Du lịch, tham quan",
+              "note": "Đúng: 観光地 (かんこうち) = điểm du lịch — chỗ khách phương xa tới ngắm cảnh."
+            },
+            {
+              "id": "c2",
+              "text": "参加",
+              "translation": "さんか · Tham gia",
+              "note": "参加地 không phải một từ."
+            },
+            {
+              "id": "c3",
+              "text": "休憩",
+              "translation": "きゅうけい · Nghỉ giải lao",
+              "note": "休憩地 không phải cách nói thông thường; chỗ nghỉ chân thì nói 休憩所 (きゅうけいじょ)."
+            },
+            {
+              "id": "c4",
+              "text": "生活",
+              "translation": "せいかつ · Cuộc sống",
+              "note": "生活地 cũng không phải một từ; nơi sinh sống thì nói 生活の場 hoặc 住む場所."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "来日の目的は観光です。ダラットを観光して回った。合: [tên địa danh] ＋観光 (ダラット観光). 人気の＋N = N được ưa chuộng.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

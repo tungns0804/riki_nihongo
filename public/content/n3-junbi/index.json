@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-09-22T03:58:08.053Z",
+  "generatedAt": "2026-09-22T04:44:48.371Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -112,6 +112,17 @@
           "itemCount": 10,
           "order": 103,
           "file": "vocabulary/01-danh-tu-btvn-21-30.json"
+        },
+        {
+          "id": "01-danh-tu-btvn-31-40",
+          "name": "BTVN 31–40",
+          "description": "Bài tập về nhà của cụm 31–40 (Bài 2.2 · Đi về, có mặt và vắng mặt) — 10 câu.",
+          "kind": "test",
+          "parent": "01-danh-tu",
+          "group": "31–40",
+          "itemCount": 10,
+          "order": 104,
+          "file": "vocabulary/01-danh-tu-btvn-31-40.json"
         }
       ]
     },

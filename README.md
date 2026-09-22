@@ -79,8 +79,8 @@ Phần **Từ vựng** của N3 JUNBI đã có nội dung thật: mục "Danh t�
 từ mới đặt chỗ, đang chờ nội dung. Bên BTVN, mục "Danh từ" có 70 từ chia bảy cụm theo bảy
 bài tập, cũng có bảng "Tóm tắt bài".
 
-Bài "Danh từ" còn có **bài tập về nhà** của từng buổi: `BTVN 1–10` (9 câu),
-`BTVN 11–20` và `BTVN 21–30` (10 câu mỗi bài), chép theo đề BTVN của Riki. Mỗi BTVN là một bài dạng ĐỀ
+Bài "Danh từ" còn có **bài tập về nhà** của từng buổi: `BTVN 1–10` (9 câu), rồi
+`BTVN 11–20`, `21–30`, `31–40` (10 câu mỗi bài), chép theo đề BTVN của Riki. Mỗi BTVN là một bài dạng ĐỀ
 **nằm trong** bài Danh từ chứ không đứng ngang hàng với nó — xem "Bài tập về nhà"
 bên dưới.
 
