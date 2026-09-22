@@ -5,7 +5,7 @@
            danh sách bài — đúng cấp mà breadcrumb đang chỉ. -->
       <a class="back-link small" [routerLink]="backLink()">
         @if (parentId()) {
-          {{ t('vocab.backToUnit') }}
+          {{ t('unit.backToParent') }}
         } @else {
           {{ t('common.backToList') }}
         }

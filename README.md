@@ -9,7 +9,7 @@ dung:
 | ----------------------------- | ----------------------- | ----------------------------------------------------- |
 | Bài kiểm tra nhập môn N3      | `/n3-junbi/test`        | Đề đầu vào: làm cả bài rồi nộp, chấm theo từng kỹ năng  |
 | Từ vựng                       | `/n3-junbi/vocabulary`  | Bảng từ + luyện tập bốn chiều                           |
-| KANJI                         | `/n3-junbi/kanji`       | Thẻ chữ Hán: âm On/Kun, âm Hán Việt, số nét, từ ghép — Bài 1–2 |
+| KANJI                         | `/n3-junbi/kanji`       | Thẻ chữ Hán: âm On/Kun, âm Hán Việt, số nét, từ ghép — Bài 1 và BTVN |
 | Ngữ pháp                      | `/n3-junbi/grammar`     | Trang lý thuyết: công thức, cách dùng, ví dụ — và đề thi thật |
 | Đọc hiểu                      | `/n3-junbi/reading`     | Bài đọc + câu hỏi trả lời tại chỗ + bản dịch ẩn         |
 | Nghe hiểu                     | `/n3-junbi/listening`   | Trình phát + câu hỏi + lời thoại ẩn                     |

@@ -1,0 +1,7 @@
+{
+  "name": "BTVN Bài 1",
+  "description": "Bài tập về nhà của Bài 1 — 20 câu: 9 câu viết bằng chữ Hán, 11 câu chọn cách đọc.",
+  "kind": "test",
+  "parent": "01-bai-1",
+  "order": 101
+}

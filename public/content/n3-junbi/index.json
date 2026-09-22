@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-09-22T13:05:13.998Z",
+  "generatedAt": "2026-09-22T14:42:16.639Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -132,24 +132,24 @@
         {
           "id": "01-bai-1",
           "name": "Bài 1",
-          "description": "11 chữ đều có bộ Nhân đứng 亻 (người): 仕 任 信 伸 付 代 件 位 倍 保 個",
+          "description": "21 chữ đều mang bộ Nhân đứng 亻 (người): 仕 任 信 伸 付 代 件 位 倍 保 個 仲 借 供 他 候 価 便 停 係 優",
           "kind": "kanji",
           "parent": "",
           "group": "",
-          "itemCount": 11,
+          "itemCount": 21,
           "order": 1,
           "file": "kanji/01-bai-1.json"
         },
         {
-          "id": "02-bai-2",
-          "name": "Bài 2",
-          "description": "Tiếp bộ Nhân đứng 亻 sau Bài 1 — 10 chữ: 仲 借 供 他 候 価 便 停 係 優",
-          "kind": "kanji",
-          "parent": "",
+          "id": "01-bai-1-btvn",
+          "name": "BTVN Bài 1",
+          "description": "Bài tập về nhà của Bài 1 — 20 câu: 9 câu viết bằng chữ Hán, 11 câu chọn cách đọc.",
+          "kind": "test",
+          "parent": "01-bai-1",
           "group": "",
-          "itemCount": 10,
-          "order": 2,
-          "file": "kanji/02-bai-2.json"
+          "itemCount": 20,
+          "order": 101,
+          "file": "kanji/01-bai-1-btvn.json"
         }
       ]
     },

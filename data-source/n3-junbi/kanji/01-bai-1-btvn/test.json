@@ -1,0 +1,438 @@
+{
+  "sections": [
+    {
+      "id": "btvn-b1-viet",
+      "title": "漢字 — Viết bằng chữ Hán (9 câu)",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "kj-b1-01",
+          "promptJapanese": "彼のことを「しんじる」。",
+          "promptReading": "かれのことを しんじる。",
+          "promptVietnamese": "Tôi tin tưởng anh ấy.",
+          "choices": ["信じる", "言じる", "伸じる", "個じる"],
+          "choicesVietnamese": [
+            "しんじる · Tin tưởng",
+            "không có từ này",
+            "không có từ này",
+            "không có từ này"
+          ],
+          "choiceNotes": [
+            "Đúng: 信 (TÍN) là chữ của lòng tin — 信じる = tin. Âm On シン nằm trong 信号・信頼.",
+            "言 (NGÔN) đọc い.う hoặc こと: 言う, 言葉. Không có dạng 言じる.",
+            "伸 (THÂN) cũng đọc âm On シン nên rất dễ lẫn, nhưng nghĩa là dài ra, duỗi ra: 伸びる.",
+            "個 (CÁ) đọc コ, là chữ đếm đồ vật (一個), không phải động từ."
+          ],
+          "answer": 1,
+          "explanation": "信じる (しんじる) = tin. Cùng chữ 信: 信号 (しんごう) đèn tín hiệu, 信頼 (しんらい) tin cậy, 通信 (つうしん) truyền tin."
+        },
+        {
+          "id": "kj-b1-02",
+          "promptJapanese": "室内温度を10度に「たもつ」。",
+          "promptReading": "しつないおんどを じゅうどに たもつ。",
+          "promptVietnamese": "Giữ nhiệt độ trong phòng ở mức 10 độ.",
+          "choices": ["任つ", "言つ", "代つ", "保つ"],
+          "choicesVietnamese": [
+            "không có từ này",
+            "không có từ này",
+            "không có từ này",
+            "たもつ · Giữ, duy trì"
+          ],
+          "choiceNotes": [
+            "任 (NHIỆM) đọc âm Kun まか.せる — 任せる = giao phó, không đọc たも.",
+            "言 (NGÔN) đọc い.う hoặc こと, không có dạng 言つ.",
+            "代 (ĐẠI) đọc か.わる / か.える — thay thế, đổi chỗ.",
+            "Đúng: 保 (BẢO) âm Kun たも.つ — 保つ = giữ nguyên một trạng thái."
+          ],
+          "answer": 4,
+          "explanation": "保つ (たもつ) là giữ cho một trạng thái không đổi. Cùng chữ 保: 保存 (ほぞん) lưu giữ, 保険 (ほけん) bảo hiểm."
+        },
+        {
+          "id": "kj-b1-03",
+          "promptJapanese": "一年で身長が５センチ「のびた」。",
+          "promptReading": "いちねんで しんちょうが ５センチ のびた。",
+          "promptVietnamese": "Trong một năm, chiều cao đã tăng thêm 5 phân.",
+          "choices": ["伸びた", "申びた", "借びた", "個びた"],
+          "choicesVietnamese": [
+            "のびた · Đã cao lên, đã dài ra",
+            "không có từ này",
+            "không có từ này",
+            "không có từ này"
+          ],
+          "choiceNotes": [
+            "Đúng: 伸 (THÂN) âm Kun の.びる — dài ra, cao lên: 背が伸びる, 髪が伸びる.",
+            "申 (THÂN) cũng đọc âm On シン và viết gần giống 伸, nhưng âm Kun là もう.す (申す = nói, khiêm nhường ngữ).",
+            "借 (TÁ) đọc か.りる — vay, mượn.",
+            "個 (CÁ) đọc コ, là chữ đếm đồ vật."
+          ],
+          "answer": 1,
+          "explanation": "伸びる (のびる) là tự động từ; tha động từ là 伸ばす (のばす): 足を伸ばす = duỗi chân. Phân biệt mặt chữ với 申 — 伸 có bộ Nhân đứng."
+        },
+        {
+          "id": "kj-b1-04",
+          "promptJapanese": "部下に安心して仕事を「まかせる」。",
+          "promptReading": "ぶかに あんしんして しごとを まかせる。",
+          "promptVietnamese": "Yên tâm giao công việc cho cấp dưới.",
+          "choices": ["任せる", "代せる", "仕せる", "貸せる"],
+          "choicesVietnamese": [
+            "まかせる · Giao phó",
+            "không có từ này",
+            "không có từ này",
+            "かせる · Dạng khả năng của 貸す (cho mượn)"
+          ],
+          "choiceNotes": [
+            "Đúng: 任 (NHIỆM) âm Kun まか.せる — giao hẳn việc cho ai đó làm.",
+            "代 đọc か.わる / か.える, không có dạng 代せる.",
+            "仕 (SĨ) đọc シ, đứng trong 仕事 (しごと) — chữ này không đọc まか.",
+            "貸せる đọc かせる, là dạng khả năng của 貸す (cho mượn) — khác hẳn まかせる."
+          ],
+          "answer": 1,
+          "explanation": "任せる (まかせる) = giao phó. Cùng chữ 任: 責任 (せきにん) trách nhiệm, 担任 (たんにん) giáo viên chủ nhiệm, 辞任 (じにん) từ chức."
+        },
+        {
+          "id": "kj-b1-05",
+          "promptJapanese": "「しんごう」をよく見て横断歩道をわたる。",
+          "promptReading": "しんごうを よくみて おうだんほどうを わたる。",
+          "promptVietnamese": "Nhìn kỹ đèn tín hiệu rồi đi qua vạch sang đường.",
+          "choices": ["伝号", "言号", "信号", "伝信"],
+          "choicesVietnamese": [
+            "không có từ này",
+            "không có từ này",
+            "しんごう · Tín hiệu, đèn giao thông",
+            "không có từ này"
+          ],
+          "choiceNotes": [
+            "伝 (TRUYỀN) đọc デン, trong 伝える (つたえる) — viết gần giống 信 nhưng không ghép thành 伝号.",
+            "言 (NGÔN) âm On là ゲン / ゴン: 言語 (げんご). Không có từ 言号.",
+            "Đúng: 信号 (しんごう) = tín hiệu, đèn giao thông.",
+            "伝信 không có từ này; từ đúng mang nghĩa truyền tin là 通信 (つうしん)."
+          ],
+          "answer": 3,
+          "explanation": "信号 = 信 (TÍN) + 号 (HIỆU). 信号が青になる = đèn chuyển xanh. Phân biệt mặt chữ 信 với 伝."
+        },
+        {
+          "id": "kj-b1-06",
+          "promptJapanese": "レストランの「こしつ」を予約した。",
+          "promptReading": "レストランの こしつを よやくした。",
+          "promptVietnamese": "Tôi đã đặt phòng riêng ở nhà hàng.",
+          "choices": ["固室", "個室", "個屋", "固屋"],
+          "choicesVietnamese": [
+            "không có từ này",
+            "こしつ · Phòng riêng",
+            "không có từ này",
+            "không có từ này"
+          ],
+          "choiceNotes": [
+            "固 (CỐ) cũng đọc コ (固定 こてい) và viết rất giống 個, nhưng nghĩa là cứng, chắc.",
+            "Đúng: 個室 (こしつ) = phòng riêng. 個 (CÁ) mang nghĩa từng cái, riêng lẻ.",
+            "屋 đọc おく / や, chỉ tiệm hoặc căn phòng (本屋, 部屋) — không ghép với 個 thành từ.",
+            "固屋 sai cả hai chữ."
+          ],
+          "answer": 2,
+          "explanation": "個 = từng cái, riêng lẻ: 個室 (こしつ), 個人 (こじん), 個性 (こせい), 一個 (いっこ). Khác 固 (cứng): 固定, 固い."
+        },
+        {
+          "id": "kj-b1-07",
+          "promptJapanese": "国王の「くらい」をゆずる。",
+          "promptReading": "こくおうの くらいを ゆずる。",
+          "promptVietnamese": "Nhường lại ngôi vị của quốc vương.",
+          "choices": ["位", "立", "暗い", "位い"],
+          "choicesVietnamese": [
+            "くらい · Ngôi vị, địa vị",
+            "たつ · Đứng",
+            "くらい · Tối",
+            "không có từ này"
+          ],
+          "choiceNotes": [
+            "Đúng: 位 (VỊ) âm Kun くらい — ngôi vị. Khi đọc くらい thì viết trơ một chữ, không có đuôi kana.",
+            "立 đọc た.つ hoặc âm On リツ — 立つ = đứng, không đọc くらい.",
+            "暗い cũng đọc くらい nhưng là tính từ nghĩa là tối — trùng âm mà khác nghĩa hoàn toàn.",
+            "位い thừa đuôi kana: 位 không viết kèm い."
+          ],
+          "answer": 1,
+          "explanation": "位 (くらい) = ngôi vị, thứ bậc. Âm On イ: 位置 (いち) vị trí, 単位 (たんい) đơn vị, 地位 (ちい) địa vị."
+        },
+        {
+          "id": "kj-b1-08",
+          "promptJapanese": "父に「かわって」式に出た。",
+          "promptReading": "ちちに かわって しきに でた。",
+          "promptVietnamese": "Tôi đã thay cha dự buổi lễ.",
+          "choices": ["変わって", "代わって", "分わって", "付わって"],
+          "choicesVietnamese": [
+            "かわって · Thay đổi, biến đổi",
+            "かわって · Thay thế, làm thay",
+            "không có từ này",
+            "không có từ này"
+          ],
+          "choiceNotes": [
+            "変わる cũng đọc かわる nhưng là TỰ MÌNH đổi khác đi: 色が変わる, 人が変わる.",
+            "Đúng: 代わる = đứng vào chỗ của người khác. 父に代わって = thay mặt cha.",
+            "分 đọc わ.ける / ブン, không có dạng 分わる.",
+            "付 đọc つ.く / つ.ける, không có dạng 付わる."
+          ],
+          "answer": 2,
+          "explanation": "Ba chữ cùng đọc かわる: 代わる (thay thế) ・ 変わる (thay đổi) ・ 替わる (đổi chỗ cho nhau). Mẫu ～に代わって = thay mặt cho ~."
+        },
+        {
+          "id": "kj-b1-09",
+          "promptJapanese": "そでにインクが「つく」。",
+          "promptReading": "そでに インクが つく。",
+          "promptVietnamese": "Mực dính vào tay áo.",
+          "choices": ["守く", "代く", "付く", "着く"],
+          "choicesVietnamese": [
+            "không có từ này",
+            "không có từ này",
+            "つく · Dính vào, bám vào",
+            "つく · Đến nơi"
+          ],
+          "choiceNotes": [
+            "守 đọc まも.る hoặc âm On シュ — 守る = bảo vệ, giữ lời.",
+            "代 đọc か.わる / か.える, không có dạng 代く.",
+            "Đúng: 付く (つく) = dính, bám vào. インクが付く = mực dính vào.",
+            "着く cũng đọc つく nhưng nghĩa là đến nơi: 駅に着く. Mực thì không \"đến\"."
+          ],
+          "answer": 3,
+          "explanation": "Cặp tự / tha động từ: インクが付く (mực dính) ⇔ インクを付ける (làm cho dính). Cùng chữ 付: 付近 (ふきん), 付属 (ふぞく)."
+        }
+      ]
+    },
+    {
+      "id": "btvn-b1-doc",
+      "title": "漢字 — Cách đọc (11 câu)",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "kj-b1-10",
+          "promptJapanese": "取り急ぎ、メールで「用件」だけ伝える。",
+          "promptReading": "とりいそぎ、メールで ようけんだけ つたえる。",
+          "promptVietnamese": "Xin gấp rút báo qua mail phần việc cần trao đổi.",
+          "choices": ["よけん", "よげん", "ようげん", "ようけん"],
+          "choicesVietnamese": [
+            "không có từ này",
+            "予言 · Lời tiên tri",
+            "không có từ này",
+            "用件 · Việc cần nói, nội dung công việc"
+          ],
+          "choiceNotes": [
+            "用 âm On là ヨウ có âm kéo dài, không đọc ngắn thành よ.",
+            "よげん là 予言 (lời tiên tri) — chữ đầu là 予, không phải 用.",
+            "件 âm On là ケン trong sạch, không đục âm thành げん.",
+            "Đúng: 用件 (ようけん) = việc cần trao đổi, nội dung công việc."
+          ],
+          "answer": 4,
+          "explanation": "件 (KIỆN) âm On ケン: 用件 (ようけん), 事件 (じけん), 条件 (じょうけん). Đừng lẫn 用件 với 要件 (cũng đọc ようけん, nghĩa là điều kiện cần)."
+        },
+        {
+          "id": "kj-b1-11",
+          "promptJapanese": "私は親から「信頼」されている。",
+          "promptReading": "わたしは おやから しんらいされている。",
+          "promptVietnamese": "Tôi được bố mẹ tin tưởng.",
+          "choices": ["しんあい", "しんらい", "しんまい", "しんかい"],
+          "choicesVietnamese": [
+            "親愛 · Thân ái",
+            "信頼 · Tin cậy, tín nhiệm",
+            "新米 · Gạo mới; người mới vào nghề",
+            "深海 · Biển sâu"
+          ],
+          "choiceNotes": [
+            "しんあい là 親愛 — chữ khác hẳn; 頼 không đọc あい.",
+            "Đúng: 信頼 (しんらい). 信 (TÍN) âm On シン + 頼 (LẠI) âm On ライ.",
+            "しんまい là 新米, không liên quan tới hai chữ trong câu.",
+            "しんかい là 深海 — cũng bắt đầu bằng しん nhưng chữ đầu là 深 (sâu)."
+          ],
+          "answer": 2,
+          "explanation": "信頼される = được tin tưởng. Cùng chữ 頼: 頼む (たのむ) nhờ vả, 頼り (たより) chỗ dựa."
+        },
+        {
+          "id": "kj-b1-12",
+          "promptJapanese": "田中氏が社長を「辞任」した。",
+          "promptReading": "たなかしが しゃちょうを じにんした。",
+          "promptVietnamese": "Ông Tanaka đã từ chức giám đốc.",
+          "choices": ["じにんした", "しにんした", "じみんした", "いにんした"],
+          "choicesVietnamese": [
+            "辞任 · Từ nhiệm, từ chức",
+            "không có từ này",
+            "không có từ này",
+            "委任 · Uỷ nhiệm, uỷ quyền"
+          ],
+          "choiceNotes": [
+            "Đúng: 辞任 (じにん) = tự xin thôi chức. 辞 âm On ジ, 任 âm On ニン.",
+            "辞 đọc ジ có đục âm, không phải し.",
+            "任 đọc ニン; みん là âm của 民 (自民党), không phải của 任.",
+            "いにん là 委任 — chữ đầu là 委, không phải 辞."
+          ],
+          "answer": 1,
+          "explanation": "任 (NHIỆM) âm On ニン: 辞任 (じにん), 責任 (せきにん), 担任 (たんにん), 就任 (しゅうにん)."
+        },
+        {
+          "id": "kj-b1-13",
+          "promptJapanese": "彼のファッションは「個性的」だ。",
+          "promptReading": "かれの ファッションは こせいてきだ。",
+          "promptVietnamese": "Thời trang của anh ấy rất có cá tính.",
+          "choices": ["こうせてき", "こせてき", "こせいてき", "こっせてき"],
+          "choicesVietnamese": [
+            "không có từ này",
+            "không có từ này",
+            "個性的 · Có cá tính",
+            "không có từ này"
+          ],
+          "choiceNotes": [
+            "個 đọc コ ngắn, không kéo dài thành こう.",
+            "性 đọc セイ có âm kéo dài, thiếu い là sai.",
+            "Đúng: 個性的 (こせいてき) — 個性 (cá tính) ghép với 的.",
+            "Không có chỗ nào trong 個性 sinh ra âm ngắt っ."
+          ],
+          "answer": 3,
+          "explanation": "個 (コ) + 性 (セイ) = 個性 (こせい). Thêm 的 thì thành tính từ đuôi な: 個性的な服."
+        },
+        {
+          "id": "kj-b1-14",
+          "promptJapanese": "カメラの「倍率」を変える。",
+          "promptReading": "カメラの ばいりつを かえる。",
+          "promptVietnamese": "Thay đổi độ phóng đại của máy ảnh.",
+          "choices": ["はいりつ", "ばいりつ", "ぱいりつ", "はいり"],
+          "choicesVietnamese": [
+            "không có từ này",
+            "倍率 · Bội suất, độ phóng đại",
+            "không có từ này",
+            "không có từ này"
+          ],
+          "choiceNotes": [
+            "倍 âm On là バイ có đục âm sẵn, không đọc はい.",
+            "Đúng: 倍率 (ばいりつ) = số lần phóng đại, cũng dùng cho tỉ lệ chọi.",
+            "Âm ぱ chỉ xuất hiện sau âm ngắt hoặc ん (一倍 いちばい, 何倍 なんばい), không mở đầu từ.",
+            "率 đọc リツ — thiếu つ thì không thành từ."
+          ],
+          "answer": 2,
+          "explanation": "倍 (BỘI) âm On バイ: 倍率 (ばいりつ), 二倍 (にばい), 何倍 (なんばい)."
+        },
+        {
+          "id": "kj-b1-15",
+          "promptJapanese": "未解決の「事件」がようやく解決した。",
+          "promptReading": "みかいけつの じけんが ようやく かいけつした。",
+          "promptVietnamese": "Vụ án chưa có lời giải cuối cùng cũng đã được giải quyết.",
+          "choices": ["しけん", "じけん", "しげん", "じげん"],
+          "choicesVietnamese": [
+            "試験 · Kỳ thi",
+            "事件 · Vụ việc, vụ án",
+            "資源 · Tài nguyên",
+            "次元 · Chiều (không gian)"
+          ],
+          "choiceNotes": [
+            "しけん là 試験 (kỳ thi) — chữ hoàn toàn khác.",
+            "Đúng: 事件 (じけん). 事 âm On ジ + 件 âm On ケン.",
+            "しげん là 資源, không liên quan tới hai chữ trong câu.",
+            "じげん là 次元 — đúng chỗ đục âm đầu nhưng sai chữ thứ hai."
+          ],
+          "answer": 2,
+          "explanation": "件 (KIỆN) âm On ケン: 事件 (じけん), 条件 (じょうけん), 用件 (ようけん). 事件 là chuyện lớn, chuyện rắc rối — khác 事故 (じこ) tai nạn."
+        },
+        {
+          "id": "kj-b1-16",
+          "promptJapanese": "問題を「保留」にする。",
+          "promptReading": "もんだいを ほりゅうにする。",
+          "promptVietnamese": "Tạm gác vấn đề lại, chưa quyết.",
+          "choices": ["ほりゅ", "ほうりゅう", "ほりゅう", "ほりょ"],
+          "choicesVietnamese": [
+            "không có từ này",
+            "không có từ này",
+            "保留 · Giữ lại, tạm hoãn chưa quyết",
+            "捕虜 · Tù binh"
+          ],
+          "choiceNotes": [
+            "留 đọc リュウ có âm kéo dài, thiếu う là sai.",
+            "保 đọc ホ ngắn, không kéo dài thành ほう.",
+            "Đúng: 保留 (ほりゅう) = giữ nguyên đó, chưa quyết.",
+            "ほりょ là 捕虜 (tù binh) — chữ khác hẳn."
+          ],
+          "answer": 3,
+          "explanation": "保 (BẢO) âm On ホ ngắn: 保留 (ほりゅう), 保存 (ほぞん), 保険 (ほけん), 保証 (ほしょう)."
+        },
+        {
+          "id": "kj-b1-17",
+          "promptJapanese": "この「付近」には、くまが出るらしい。",
+          "promptReading": "この ふきんには、くまが でるらしい。",
+          "promptVietnamese": "Nghe nói quanh đây có gấu xuất hiện.",
+          "choices": ["ふきん", "むきん", "ぶぎん", "ふしん"],
+          "choicesVietnamese": [
+            "付近 · Vùng lân cận, quanh đây",
+            "無菌 · Vô trùng",
+            "không có từ này",
+            "不審 · Đáng ngờ"
+          ],
+          "choiceNotes": [
+            "Đúng: 付近 (ふきん). 付 âm On フ + 近 âm On キン.",
+            "むきん là 無菌 — chữ đầu là 無, không phải 付.",
+            "Cả 付 lẫn 近 đều không đục âm ở đây.",
+            "ふしん là 不審; 近 đọc キン chứ không đọc しん."
+          ],
+          "answer": 1,
+          "explanation": "付 (PHÓ) âm On フ: 付近 (ふきん), 付属 (ふぞく). Âm Kun つ.く / つ.ける: 付く, 付ける."
+        },
+        {
+          "id": "kj-b1-18",
+          "promptJapanese": "今、自分がいる「位置」を地図で確認する。",
+          "promptReading": "いま、じぶんが いる いちを ちずで かくにんする。",
+          "promptVietnamese": "Xem bản đồ để xác nhận vị trí mình đang đứng.",
+          "choices": ["しち", "いち", "いっち", "しじ"],
+          "choicesVietnamese": [
+            "không có từ này",
+            "位置 · Vị trí",
+            "一致 · Nhất trí, khớp nhau",
+            "指示 · Chỉ thị, chỉ dẫn"
+          ],
+          "choiceNotes": [
+            "位 âm On là イ; しち là âm của 七 hoặc 質, không phải của 位.",
+            "Đúng: 位置 (いち). 位 âm On イ + 置 âm On チ.",
+            "いっち là 一致 — có âm ngắt vì chữ đầu là 一, còn 位置 thì không.",
+            "しじ là 指示, chữ khác hẳn."
+          ],
+          "answer": 2,
+          "explanation": "位 (VỊ) âm On イ: 位置 (いち), 単位 (たんい), 地位 (ちい). Âm Kun là くらい."
+        },
+        {
+          "id": "kj-b1-19",
+          "promptJapanese": "この歌は１９８０「年代」にヒットした。",
+          "promptReading": "このうたは せんきゅうひゃくはちじゅう ねんだいに ヒットした。",
+          "promptVietnamese": "Bài hát này nổi đình đám vào thập niên 1980.",
+          "choices": ["ねんだい", "としかい", "ねんおお", "ねんあい"],
+          "choicesVietnamese": [
+            "年代 · Thập niên, thời kỳ",
+            "không có từ này",
+            "không có từ này",
+            "không có từ này"
+          ],
+          "choiceNotes": [
+            "Đúng: 年代 (ねんだい). 1980年代 = thập niên 1980.",
+            "年 đọc âm Kun とし khi đứng một mình; trong từ ghép Hán ngữ thì đọc ネン, và 代 cũng không đọc かい.",
+            "おお là âm của 大 (大きい), không phải của 代.",
+            "代 không có cách đọc あい."
+          ],
+          "answer": 1,
+          "explanation": "代 (ĐẠI) âm On ダイ: 年代 (ねんだい), 時代 (じだい), 代表 (だいひょう). Trong từ ghép Hán ngữ, cả hai chữ cùng đọc âm On."
+        },
+        {
+          "id": "kj-b1-20",
+          "promptJapanese": "「一個」二百円の卵を買う。",
+          "promptReading": "いっこ にひゃくえんの たまごを かう。",
+          "promptVietnamese": "Mua trứng hai trăm yên một quả.",
+          "choices": ["いちこ", "いっこ", "いっこう", "いちこう"],
+          "choicesVietnamese": [
+            "không có từ này",
+            "一個 · Một cái, một quả",
+            "không có từ này",
+            "không có từ này"
+          ],
+          "choiceNotes": [
+            "いち đứng trước âm hàng カ thì biến thành âm ngắt: いち＋こ → いっこ.",
+            "Đúng: 一個 (いっこ) = một cái, một quả.",
+            "個 đọc コ ngắn, không kéo dài thành こう.",
+            "Sai cả chỗ ngắt lẫn chỗ kéo dài."
+          ],
+          "answer": 2,
+          "explanation": "個 là chữ đếm đồ vật nhỏ: 一個 (いっこ), 二個 (にこ), 三個 (さんこ), 六個 (ろっこ), 十個 (じっこ)."
+        }
+      ]
+    }
+  ]
+}

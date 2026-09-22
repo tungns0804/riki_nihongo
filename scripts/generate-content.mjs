@@ -185,11 +185,12 @@ function findDataFile(folderPath, kind, label) {
  * Phần học có thể chứa bài dạng ĐỀ (`meta.json` khai `"kind": "test"`).
  *
  * Chỉ những phần mà TRANG BÀI của chúng biết hiện khung "bắt đầu làm đề": hai phần
- * ngữ pháp (features/grammar-detail) và phần từ vựng (features/vocabulary-detail,
- * nơi đặt BTVN của từng cụm). Đặt đề vào phần kanji thì bài vẫn sinh ra được nhưng
- * mở lên chỉ thấy trang trống — báo lỗi ngay ở đây còn hơn để người học phát hiện hộ.
+ * ngữ pháp (features/grammar-detail), phần từ vựng và phần kanji — hai phần sau là
+ * nơi đặt BTVN của một bài. Đặt đề vào phần chưa biết hiện khung đó thì bài vẫn sinh
+ * ra được nhưng mở lên chỉ thấy trang trống — báo lỗi ngay ở đây còn hơn để người học
+ * phát hiện hộ.
  */
-const TEST_HOSTS = new Set(['grammar', 'mimikara', 'vocabulary']);
+const TEST_HOSTS = new Set(['grammar', 'mimikara', 'vocabulary', 'kanji']);
 
 /**
  * Loại nội dung của một bài: theo phần học, trừ khi `meta.json` khai khác.

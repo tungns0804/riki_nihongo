@@ -1,8 +1,14 @@
 <div class="container page">
   <div class="stack stack-xl">
     <section class="page-head">
-      <a class="back-link small" [routerLink]="['/', course.id, module().path]">
-        {{ t('common.backToList') }}
+      <!-- BTVN thuộc về một bài kanji, nên "quay lại" của nó là bài mẹ chứ không phải
+           danh sách bài — đúng cấp mà breadcrumb đang chỉ. -->
+      <a class="back-link small" [routerLink]="backLink()">
+        @if (parentId()) {
+          {{ t('unit.backToParent') }}
+        } @else {
+          {{ t('common.backToList') }}
+        }
       </a>
 
       @if (loading()) {
@@ -35,7 +41,32 @@
     }
 
     @if (unit(); as data) {
-      @if (entries().length > 0) {
+      <!-- Bài của phần này có thể là ĐỀ chứ không phải bảng chữ: BTVN của một bài. Khi
+           đó cả trang chỉ có khung bắt đầu làm bài, như BTVN bên phần Từ vựng. -->
+      @if (data.kind === 'test') {
+        <app-test-start [unit]="data" />
+      } @else if (entries().length > 0) {
+        <!-- BTVN đứng TRƯỚC khung luyện tập: bài tập ra theo buổi học, mở bài ra là
+             thấy ngay việc phải làm, không phải cuộn hết lưới chữ mới tìm ra. -->
+        @if (homework().length > 0) {
+          <section class="card" [attr.aria-label]="t('unit.homework')">
+            <div class="card-body stack stack-sm">
+              <h2>{{ t('unit.homework') }}</h2>
+              <div class="homework-row">
+                @for (item of homework(); track item.id) {
+                  <a
+                    class="btn btn-sm homework-link"
+                    [routerLink]="['/', course.id, module().path, item.id]"
+                  >
+                    {{ item.name }}
+                    <span class="badge">{{ t('test.questionCount', { count: item.itemCount }) }}</span>
+                  </a>
+                }
+              </div>
+            </div>
+          </section>
+        }
+
         <app-practice-setup [unit]="data" />
 
         <div class="kanji-grid">

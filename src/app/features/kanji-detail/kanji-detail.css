@@ -98,3 +98,17 @@
 .word-jp {
   font-weight: 600;
 }
+
+/* --- Bài tập về nhà --------------------------------------------------------
+   Một bài kanji thường chỉ có một BTVN, nhưng để dạng hàng xuống dòng được: bài về sau
+   có thể ra hai ba đề mà khối này không phải đổi. */
+
+.homework-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.homework-link {
+  gap: var(--sp-2);
+}
