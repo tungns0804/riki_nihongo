@@ -1,0 +1,158 @@
+{
+  "sections": [
+    {
+      "id": "btvn-259-310",
+      "title": "文字語彙 — BTVN 259–310 (7 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "cb-tt-btvn-259310-01",
+          "promptJapanese": "前回のテストで（　　　）思いをしたので、今回は勉強を頑張った！",
+          "promptReading": "ぜんかいの テストで（　　　）おもいを したので、こんかいは べんきょうを がんばった！",
+          "promptVietnamese": "Lần kiểm tra trước tôi đã thấy （　　　） nên lần này học hành chăm chỉ lắm!",
+          "choices": ["平気な", "うらやましい", "苦しい", "悔しい"],
+          "choicesVietnamese": [
+            "へいきな · Bình thản, như không",
+            "うらやましい · Ghen tị",
+            "くるしい · Khổ sở, khó chịu",
+            "くやしい · Tiếc, cay cú"
+          ],
+          "choiceNotes": [
+            "平気な思い không phải cách nói; và thấy bình thản thì chẳng có lý do gì để lần sau cố học.",
+            "Ghen tị cần có người để ghen tị; câu chỉ nói về bài kiểm tra của chính mình.",
+            "苦しい思いをする là nói được (trải qua cảnh khổ), nhưng làm bài dở mà quyết tâm gỡ lại thì đúng là cảm giác cay cú.",
+            "Đúng: 悔しい思いをした — cay vì làm không tốt, nên lần này mới cố. Cùng lối câu mẫu 1点差で試合に負け、悔しい思いをした。"
+          ],
+          "answer": 4,
+          "explanation": "～思いをする = trải qua cảm giác ~ (悔しい／つらい／恥ずかしい思いをする). 悔しい là tiếc và bực vì mình thua, mình làm hỏng — thường dẫn tới ý muốn gỡ lại."
+        },
+        {
+          "id": "cb-tt-btvn-259310-02",
+          "promptJapanese": "朝からずっと腕が（　　　）。",
+          "promptReading": "あさから ずっと うでが（　　　）。",
+          "promptVietnamese": "Từ sáng tới giờ cánh tay cứ （　　　） mãi.",
+          "choices": ["健康な", "かゆい", "おとなしい", "平気な"],
+          "choicesVietnamese": [
+            "けんこうな · Khoẻ mạnh",
+            "かゆい · Ngứa",
+            "おとなしい · Hiền lành, ngoan",
+            "へいきな · Bình thản, như không"
+          ],
+          "choiceNotes": [
+            "健康な phải đứng trước danh từ (健康な体); cuối câu thì là 健康だ. Và tay \"khoẻ suốt từ sáng\" là câu vô nghĩa.",
+            "Đúng: 腕がかゆい — cảm giác trên cơ thể kéo dài 朝からずっと.",
+            "おとなしい tả tính người, con vật hay kiểu dáng đồ vật, không tả cánh tay.",
+            "平気な cũng phải đứng trước danh từ; và 平気 là thái độ của người, không phải cảm giác của bộ phận cơ thể."
+          ],
+          "answer": 2,
+          "explanation": "Bộ phận cơ thể ＋が＋cảm giác: 腕／背中／目がかゆい, 胸／息が苦しい. Tính từ đuôi な đứng cuối câu phải thành ～だ, nên 健康な・平気な bị loại ngay từ hình thức."
+        },
+        {
+          "id": "cb-tt-btvn-259310-03",
+          "promptJapanese": "（　　　）彼女からの返事を待った。",
+          "promptReading": "（　　　）かのじょからの へんじを まった。",
+          "promptVietnamese": "Tôi （　　　） chờ hồi âm của cô ấy.",
+          "choices": ["苦しく", "うらやましく", "我慢強く", "おとなしく"],
+          "choicesVietnamese": [
+            "くるしく · Một cách khổ sở",
+            "うらやましく · Một cách ghen tị",
+            "がまんづよく · Một cách kiên nhẫn",
+            "おとなしく · Một cách ngoan ngoãn, im lặng"
+          ],
+          "choiceNotes": [
+            "苦しく待つ không phải cách nói quen; muốn nói chờ mà khổ thì dùng つらい思いで待つ.",
+            "Chờ thư thì không có ai để ghen tị.",
+            "Đúng: 我慢強く待つ — kiên nhẫn chờ, đúng lối câu mẫu チャンスがやって来るのを我慢強く待つ。",
+            "おとなしく待つ cũng nói được (ngồi yên mà chờ), nhưng thường dùng cho trẻ con, con vật được dặn phải ngồi yên (子どもはおとなしく待っていてくれた). Chờ hồi âm của người yêu là chuyện chịu đựng lâu, và おとなしく là đáp án của câu 5."
+          ],
+          "answer": 3,
+          "explanation": "我慢強い → 我慢強く＋V: làm gì một cách kiên nhẫn. Câu này 我慢強く và おとなしく đều ghép được với 待つ; chọn 我慢強く vì chờ thư là việc phải nhẫn nại, còn おとなしく thiên về \"ngồi yên, không quấy\"."
+        },
+        {
+          "id": "cb-tt-btvn-259310-04",
+          "promptJapanese": "階段を一気にのぼったら、息が（　　　）。",
+          "promptReading": "かいだんを いっきに のぼったら、いきが（　　　）。",
+          "promptVietnamese": "Leo một mạch lên cầu thang xong thì （　　　）.",
+          "choices": ["悔しい", "苦しい", "かゆい", "うらやましい"],
+          "choicesVietnamese": [
+            "くやしい · Tiếc, cay cú",
+            "くるしい · Khó chịu, khó (thở)",
+            "かゆい · Ngứa",
+            "うらやましい · Ghen tị"
+          ],
+          "choiceNotes": [
+            "悔しい là cảm xúc khi thua, không đi với 息.",
+            "Đúng: 息が苦しい = khó thở — đúng cụm 息／胸／心／生活が苦しい của giáo trình.",
+            "かゆい là ngứa ngoài da; hơi thở không ngứa.",
+            "うらやましい cần người để ghen tị, không đi với 息."
+          ],
+          "answer": 2,
+          "explanation": "一気に = một mạch, một hơi. 息が苦しい (khó thở) cũng nói gọn thành 息苦しい. Chú ý 苦しい (くるしい) và 悔しい (くやしい) chỉ khác nhau một âm."
+        },
+        {
+          "id": "cb-tt-btvn-259310-05",
+          "promptJapanese": "彼は５分でも（　　　）していられない性格だ。",
+          "promptReading": "かれは ごふんでも（　　　）していられない せいかくだ。",
+          "promptVietnamese": "Anh ấy có tính không thể （　　　） dù chỉ 5 phút.",
+          "choices": ["協力", "苦しく", "悔しく", "おとなしく"],
+          "choicesVietnamese": [
+            "きょうりょく · Chung sức, hợp tác",
+            "くるしく · Một cách khổ sở",
+            "くやしく · Một cách cay cú",
+            "おとなしく · Ngồi yên, ngoan ngoãn"
+          ],
+          "choiceNotes": [
+            "協力している là nói được về mặt ngữ pháp, nhưng \"không hợp tác nổi 5 phút\" không ai nói để tả tính cách.",
+            "苦しくする không phải cách nói.",
+            "悔しくする không phải cách nói; cảm xúc cay cú thì dùng 悔しがる.",
+            "Đúng: おとなしくしている = ngồi yên, giữ trật tự — tính hiếu động thì không ngồi yên nổi 5 phút."
+          ],
+          "answer": 4,
+          "explanation": "Tính từ い bỏ い ＋く＋する = giữ ở trạng thái ~ (おとなしくする, 静かにする). ～ていられない = không thể cứ ~ mãi được. ～でも = dù chỉ ~."
+        },
+        {
+          "id": "cb-tt-btvn-259310-06",
+          "promptJapanese": "（　　　）に話して！",
+          "promptReading": "（　　　）に はなして！",
+          "promptVietnamese": "Nói （　　　） đi!",
+          "choices": ["熱心", "正直", "面倒", "握手"],
+          "choicesVietnamese": [
+            "ねっしん · Nhiệt tình, hăng hái",
+            "しょうじき · Thật thà",
+            "めんどう · Phiền phức",
+            "あくしゅ · Bắt tay"
+          ],
+          "choiceNotes": [
+            "熱心に話す nói được (nói say sưa), nhưng câu ra lệnh ngắn thế này là đòi người kia khai thật.",
+            "Đúng: 正直に話して — nói thật đi, đúng câu mẫu 「正直に話しなさい。」",
+            "面倒に không đi với 話す; 面倒 là phiền phức (面倒な仕事, 面倒くさい).",
+            "握手 là danh từ chỉ việc bắt tay, không thêm に để làm trạng từ được."
+          ],
+          "answer": 2,
+          "explanation": "Tính từ な ＋に＋V = làm gì một cách ~: 正直に話す／言う (nói thật). 正直に言うと = nói thật thì."
+        },
+        {
+          "id": "cb-tt-btvn-259310-07",
+          "promptJapanese": "彼女はいつも幸せそうで（　　　）。",
+          "promptReading": "かのじょは いつも しあわせそうで（　　　）。",
+          "promptVietnamese": "Cô ấy lúc nào trông cũng hạnh phúc, thật （　　　）.",
+          "choices": ["悔しい", "苦しい", "うらやましい", "おとなしい"],
+          "choicesVietnamese": [
+            "くやしい · Tiếc, cay cú",
+            "くるしい · Khổ sở",
+            "うらやましい · Ghen tị",
+            "おとなしい · Hiền lành, ngoan"
+          ],
+          "choiceNotes": [
+            "悔しい là cay cú khi mình thua hay làm hỏng; người khác hạnh phúc thì không phải chuyện thắng thua của mình.",
+            "Thấy người khác hạnh phúc thì không làm mình khổ sở.",
+            "Đúng: 幸せそうでうらやましい — thấy người khác có điều tốt mà mình muốn có.",
+            "おとなしい tả tính cách, không nối được với 幸せそうで làm lý do."
+          ],
+          "answer": 3,
+          "explanation": "～そうで＋cảm xúc = vì trông ~ nên (mình thấy) ~. うらやましい là cảm xúc của người nói về người khác: ～がうらやましい."
+        }
+      ]
+    }
+  ]
+}

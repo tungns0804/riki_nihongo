@@ -4,7 +4,7 @@
     "name": "BTVN CƠ BẢN (MỚI)",
     "level": "N3"
   },
-  "generatedAt": "2026-09-25T13:15:25.455Z",
+  "generatedAt": "2026-09-25T13:39:34.191Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -19,6 +19,17 @@
           "itemCount": 70,
           "order": 1,
           "file": "vocabulary/01-danh-tu.json"
+        },
+        {
+          "id": "02-tinh-tu-btvn-259-310",
+          "name": "BTVN 259–310",
+          "description": "Bài tập về nhà phần tính từ 259–310 — 7 câu: 悔しい, かゆい, 我慢強い, 苦しい, おとなしい, 正直な, うらやましい.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 7,
+          "order": 2,
+          "file": "vocabulary/02-tinh-tu-btvn-259-310.json"
         }
       ]
     },

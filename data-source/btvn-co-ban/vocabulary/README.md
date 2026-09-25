@@ -39,6 +39,12 @@ Phần nội dung sau dấu `·` do người soạn tự đặt theo nghĩa các
 | Thư mục      | Tên hiển thị | Trạng thái |
 | ------------ | ------------ | ---------- |
 | `01-danh-tu` | Danh từ      | 70 từ · bài tập Từ vựng 1–10 tới 61–70 (01–70), bảy cụm có chủ đề |
+| `02-tinh-tu-btvn-259-310` | BTVN 259–310 | Đề 7 câu trắc nghiệm (`test.json`), người dùng dán trong chat 2026-09-25; không có bài mẹ vì học phần chưa có thẻ tính từ |
+
+Đề BTVN dạng trắc nghiệm (không phải thẻ từ) là bài `kind: "test"` đứng riêng, chép như
+BTVN của N3 JUNBI (xem mục "Bài tập về nhà" ở README N3 JUNBI). Chữ furigana dính vào đề
+khi dán (`頑張がんばった`, `平気へいきな`) đã bỏ; số câu Riki in lệch (hai câu "3.", thiếu "5.")
+thì đánh lại 1–7 theo thứ tự trên trang.
 
 Bài tập mới (71–80…) thì viết NỐI vào cuối `01-danh-tu/vocabulary.txt` kèm mốc cụm `##`,
 không tạo thư mục bài mới. Bài tập sang loại từ khác (động từ…) thì mở thư mục mới cùng
