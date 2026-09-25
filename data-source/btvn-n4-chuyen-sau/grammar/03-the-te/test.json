@@ -1,0 +1,124 @@
+{
+  "sections": [
+    {
+      "id": "the-te-mondai-2",
+      "title": "文法 問題2 — Ghép câu, chọn từ vào ★ (7 câu)",
+      "instructions": "問題2：★に 入る ものは どれですか。1・2・3・4から いちばん いい ものを 一つ えらんで ください。",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n4cs-te-01",
+          "promptJapanese": "電車に　＿＿＿　＿＿＿　＿＿＿　＿★＿　しまいました。",
+          "promptReading": "でんしゃに　＿＿＿　＿＿＿　＿＿＿　＿★＿　しまいました。",
+          "promptVietnamese": "Tôi đã để quên mất cái ô trên tàu (rồi đi về tay không).",
+          "choices": ["を", "かさ", "きて", "わすれて"],
+          "choicesVietnamese": ["trợ từ tân ngữ (を)", "cái ô (かさ)", "thể て của 来る (きて)", "quên, bỏ quên (わすれて)"],
+          "choiceNotes": [
+            "Ô thứ 2 — を đánh dấu かさ là thứ bị quên.",
+            "Ô thứ 1 — かさ đứng ngay sau 電車に.",
+            "Đúng: ô ★ (ô thứ 4) — 〜てくる nối vào 忘れて, rồi mới tới しまいました.",
+            "Ô thứ 3 — 忘れて đứng trước きて."
+          ],
+          "answer": 3,
+          "explanation": "Thứ tự đúng: 電車に かさを 忘れてきて しまいました (2-1-4-3). Chuỗi ba thể て chồng lên nhau: 忘れる → 忘れてくる (quên ở đằng kia rồi đi về đây) → 〜てしまう (lỡ mất rồi, tiếc quá)."
+        },
+        {
+          "id": "n4cs-te-02",
+          "promptJapanese": "出かけて いたとき、おとうと　＿＿＿　＿＿＿　＿★＿　＿＿＿　しまいました。",
+          "promptReading": "でかけて いたとき、おとうと　＿＿＿　＿＿＿　＿★＿　＿＿＿　しまいました。",
+          "promptVietnamese": "Lúc tôi đi vắng, tôi bị em trai đọc mất nhật ký.",
+          "choices": ["読まれて", "を", "にっき", "に"],
+          "choicesVietnamese": ["bị đọc (thể bị động của 読む)", "trợ từ tân ngữ (を)", "nhật ký (日記)", "trợ từ chỉ người gây ra hành động (に)"],
+          "choiceNotes": [
+            "Ô thứ 4 — động từ bị động đứng cuối, ngay trước しまいました.",
+            "Đúng: ô ★ (ô thứ 3) — を đánh dấu 日記 là thứ bị đọc.",
+            "Ô thứ 2 — 日記 là vật bị tác động.",
+            "Ô thứ 1 — に đi liền sau おとうと để chỉ người làm việc đó."
+          ],
+          "answer": 2,
+          "explanation": "Thứ tự đúng: おとうとに 日記を 読まれて しまいました (4-3-2-1). Câu bị động thiệt hại: 「（tôi）は Aに Bを Vられる」 — người gây ra đánh dấu bằng に, và 〜てしまう thêm sắc thái bực, tiếc."
+        },
+        {
+          "id": "n4cs-te-03",
+          "promptJapanese": "山田：「もしもし、すみません。車の じこで、1時間くらい おくれますので　＿＿＿　＿＿＿　★　＿＿＿　ください。」\n田中：「わかりました。」",
+          "promptReading": "やまだ：「もしもし、すみません。くるまの じこで、1じかんくらい おくれますので　＿＿＿　＿＿＿　★　＿＿＿　ください。」\nたなか：「わかりました。」",
+          "promptVietnamese": "Yamada: \"A lô, xin lỗi. Vì tai nạn xe nên tôi sẽ muộn khoảng 1 tiếng, đừng đợi tôi mà cứ bắt đầu trước đi ạ.\"\nTanaka: \"Tôi hiểu rồi.\"",
+          "choices": ["私を", "待たないで", "おいて", "はじめて"],
+          "choicesVietnamese": ["tôi (làm tân ngữ) (私を)", "không đợi (mà…) (待たないで)", "thể て của 〜ておく (làm sẵn)", "bắt đầu (始めて)"],
+          "choiceNotes": [
+            "Ô thứ 1 — 私を là tân ngữ của 待つ.",
+            "Ô thứ 2 — 〜ないで nối sang việc làm thay thế: không đợi mà làm việc khác.",
+            "Ô thứ 4 — おいて đứng ngay trước ください, làm thành 〜ておいてください.",
+            "Đúng: ô ★ (ô thứ 3) — 始めて đứng trước おいて để thành 始めておく."
+          ],
+          "answer": 4,
+          "explanation": "Thứ tự đúng: 私を 待たないで 始めておいて ください (1-2-4-3). Hai mẫu ghép lại: 〜ないで〜 (không làm A mà làm B) và 〜ておく (làm sẵn trước cho xong việc). Chú ý はじめて đây là 始めて (bắt đầu), không phải 初めて (lần đầu)."
+        },
+        {
+          "id": "n4cs-te-04",
+          "promptJapanese": "ふくろが　＿＿＿　＿＿＿　★　＿＿＿　ください。",
+          "promptReading": "ふくろが　＿＿＿　＿＿＿　★　＿＿＿　ください。",
+          "promptVietnamese": "Cái túi bị rách rồi nên hãy đổi cho tôi.",
+          "choices": ["います", "やぶれて", "とりかえて", "から"],
+          "choicesVietnamese": ["đang (います)", "bị rách (破れて)", "đổi, thay (取りかえて)", "vì, nên (から)"],
+          "choiceNotes": [
+            "Ô thứ 2 — います ghép với 破れて thành 破れています.",
+            "Ô thứ 1 — 破れて đứng ngay sau ふくろが.",
+            "Ô thứ 4 — 取りかえて đi với ください thành lời nhờ.",
+            "Đúng: ô ★ (ô thứ 3) — から chốt vế lý do rồi mới sang vế nhờ vả."
+          ],
+          "answer": 4,
+          "explanation": "Thứ tự đúng: ふくろが 破れていますから、取りかえてください (2-1-4-3). 〜ている ở đây là TRẠNG THÁI còn lại sau khi việc đã xảy ra (rách rồi và giờ vẫn rách), không phải đang diễn ra — cùng kiểu với 窓が開いています."
+        },
+        {
+          "id": "n4cs-te-05",
+          "promptJapanese": "A「ジョンさんの メールアドレス、わかる？」\nB「＿＿＿　＿＿＿　＿★＿　＿＿＿　と 思うよ。」",
+          "promptReading": "A「ジョンさんの メールアドレス、わかる？」\nB「＿＿＿　＿＿＿　＿★＿　＿＿＿　と おもうよ。」",
+          "promptVietnamese": "A: \"Cậu biết địa chỉ email của anh John không?\"\nB: \"Tớ nghĩ là nó có ghi trên tấm danh thiếp tớ được đưa.\"",
+          "choices": ["めいしに", "書いて", "もらった", "あった"],
+          "choicesVietnamese": ["trên danh thiếp (名刺に)", "viết, ghi (書いて)", "đã được (ai đó) đưa cho (もらった)", "thể quá khứ của ある (あった)"],
+          "choiceNotes": [
+            "Ô thứ 2 — 名刺に là chỗ chữ được ghi lên; に đi với 書く.",
+            "Đúng: ô ★ (ô thứ 3) — 書いて ghép với あった thành 書いてあった.",
+            "Ô thứ 1 — もらった bổ nghĩa cho 名刺 đứng ngay sau: \"tấm danh thiếp đã được đưa\".",
+            "Ô thứ 4 — あった đứng cuối, nối vào と思うよ."
+          ],
+          "answer": 2,
+          "explanation": "Thứ tự đúng: もらった 名刺に 書いてあった と思うよ (3-1-2-4). Hai chỗ cần thấy: mệnh đề bổ nghĩa đứng TRƯỚC danh từ (もらった名刺), và 〜てある = có ai đó làm sẵn và kết quả còn đó (書いてある ≠ 書いている)."
+        },
+        {
+          "id": "n4cs-te-06",
+          "promptJapanese": "コンサートは 先週　＿＿＿　、＿＿＿　★　＿＿＿　きた。",
+          "promptReading": "コンサートは せんしゅう　＿＿＿　、＿＿＿　★　＿＿＿　きた。",
+          "promptVietnamese": "Buổi hoà nhạc được tổ chức tuần trước, và tôi cũng đã đi xem rồi về.",
+          "choices": ["行われて", "わたし", "行って", "も"],
+          "choicesVietnamese": ["được tổ chức (thể bị động của 行う)", "tôi (わたし)", "đi (行って)", "cũng (も)"],
+          "choiceNotes": [
+            "Ô thứ 1 — 行われて ngắt vế đầu bằng thể て, ngay trước dấu phẩy.",
+            "Ô thứ 2 — わたし mở đầu vế sau.",
+            "Ô thứ 4 — 行って ghép với きた thành 行ってきた.",
+            "Đúng: ô ★ (ô thứ 3) — も đi liền sau わたし: \"tôi cũng\"."
+          ],
+          "answer": 4,
+          "explanation": "Thứ tự đúng: コンサートは先週 行われて、わたしも 行ってきた (1-2-4-3). Hai chữ cùng gốc 行 nhưng khác hẳn: 行われる（おこなわれる）= được tổ chức, 行く（いく）= đi. 行ってくる = đi rồi về."
+        },
+        {
+          "id": "n4cs-te-07",
+          "promptJapanese": "A：「あれ、サラさんは？」\nB：「さっき 水を　＿＿＿　＿＿＿　＿★＿　＿＿＿　いきましたよ。」",
+          "promptReading": "A：「あれ、サラさんは？」\nB：「さっき みずを　＿＿＿　＿＿＿　＿★＿　＿＿＿　いきましたよ。」",
+          "promptVietnamese": "A: \"Ơ, chị Sara đâu rồi?\"\nB: \"Lúc nãy chị ấy bảo đi uống nước rồi đi ra ngoài đấy.\"",
+          "choices": ["出て", "行く", "飲みに", "と言って"],
+          "choicesVietnamese": ["ra ngoài (出て)", "đi (行く)", "để uống (飲みに)", "nói rằng (と言って)"],
+          "choiceNotes": [
+            "Ô thứ 4 — 出て ghép với いきました thành 出ていきました.",
+            "Ô thứ 2 — 行く đi ngay sau 飲みに, thành \"đi để uống\".",
+            "Ô thứ 1 — 飲みに đứng ngay sau 水を; 〜に đây chỉ mục đích.",
+            "Đúng: ô ★ (ô thứ 3) — と言って khép lại câu nói được thuật lại."
+          ],
+          "answer": 4,
+          "explanation": "Thứ tự đúng: さっき水を 飲みに行く と言って 出ていきましたよ (3-2-4-1). Ba mẫu nối nhau: 〜に行く (đi để làm gì), 「〜」と言って (nói thế rồi…), 〜ていく (làm rồi đi xa khỏi đây)."
+        }
+      ]
+    }
+  ]
+}

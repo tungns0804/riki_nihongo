@@ -4,7 +4,7 @@
     "name": "BTVN N4 CHUYÊN SÂU",
     "level": "N4"
   },
-  "generatedAt": "2026-09-25T05:19:05.559Z",
+  "generatedAt": "2026-09-25T05:26:00.151Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -73,6 +73,17 @@
           "itemCount": 15,
           "order": 2,
           "file": "grammar/02-tro-tu.json"
+        },
+        {
+          "id": "03-the-te",
+          "name": "Tổng hợp ngữ pháp thể て",
+          "description": "問題2: 7 câu ghép câu, chọn từ vào ★ — 〜てくる, 〜てしまう, bị động + てしまう, 〜ないで, 〜ておく, 〜てある, 〜ていく.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 7,
+          "order": 3,
+          "file": "grammar/03-the-te.json"
         }
       ]
     }

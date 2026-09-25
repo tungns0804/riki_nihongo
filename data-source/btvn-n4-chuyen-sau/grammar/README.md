@@ -10,12 +10,31 @@ nhà" trong README gốc của dự án.
 Đề của phần này có bài chỉ hai lựa chọn (a hay b) chứ không phải bốn — màn hình làm đề
 liệt kê đúng số lựa chọn có trong `choices`, không cần khai gì thêm.
 
+## Câu ghép câu (問題2, chọn từ vào ★)
+
+Dạng 並べ替え không có màn hình kéo thả riêng, và cũng không cần: đề giấy cũng chỉ hỏi
+MỘT câu trả lời — từ nào rơi vào ô ★. Nên chép y như đề, bằng đúng định dạng câu hỏi bốn
+lựa chọn sẵn có:
+
+| Trường              | Viết gì                                                              |
+| ------------------- | --------------------------------------------------------------------- |
+| `promptJapanese`    | cả câu, giữ nguyên các ô `＿＿＿` và dấu `★` ĐÚNG vị trí đề in         |
+| `choices`           | bốn mảnh ghép, đúng thứ tự đánh số 1–4 của đề                         |
+| `choiceNotes`       | mảnh ấy vào Ô THỨ MẤY — đọc bốn ghi chú là dựng lại được cả câu        |
+| `answer`            | số của mảnh rơi vào ô ★                                                |
+| `explanation`       | câu hoàn chỉnh, kèm dãy số thứ tự (ví dụ `2-1-4-3`), rồi tới ngữ pháp  |
+
+`promptVietnamese` dịch CÂU ĐÃ XẾP XONG. Dịch câu còn rời thì không thành câu tiếng
+Việt nào cả; mà bản dịch vốn nằm sau nút "Hiện bản dịch" nên người học tự quyết định có
+xem gợi ý hay không.
+
 ## Các bài
 
 | Thư mục      | Tên     | Nội dung                                                         |
 | ------------ | ------- | ---------------------------------------------------------------- |
 | `01-lien-tu` | Liên từ | 練習2: 5 câu chọn vế sau hợp với だから・それに・けれども・では・たとえば |
 | `02-tro-tu`  | Trợ từ  | 15 câu điền trợ từ: でも・は・も・と・ごろ・では・に・の・など・には・へ・が・までに |
+| `03-the-te`  | Tổng hợp ngữ pháp thể て | 問題2: 7 câu ghép câu (★) — てくる・てしまう・bị động・ないで・ておく・てある・ていく |
 
 Bài "Liên từ" trên Riki mới chép được 練習2; thêm 練習 khác của cùng bài thì thêm một
 `section` nữa vào `test.json` (mỗi 練習 một section, `title` ghi đúng số 練習), rồi chạy
