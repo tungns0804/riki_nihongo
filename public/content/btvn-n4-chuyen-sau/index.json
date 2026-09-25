@@ -4,8 +4,24 @@
     "name": "BTVN N4 CHUYÊN SÂU",
     "level": "N4"
   },
-  "generatedAt": "2026-09-25T03:11:33.307Z",
+  "generatedAt": "2026-09-25T03:12:03.954Z",
   "modules": [
+    {
+      "id": "vocabulary",
+      "units": [
+        {
+          "id": "01-danh-tu",
+          "name": "Danh từ",
+          "description": "Đề 20 câu về danh từ: 10 câu chọn câu cùng nghĩa (おば, 留守, スケジュール, 機会, 調子, 予習, ボランティア, 相談, 贈り物, 理由) và 10 câu 用法 (はる, むすめ, 興味, 締め切り, お祝い, こえ, つごう, わすれもの, せいかつ, こしょう).",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 20,
+          "order": 1,
+          "file": "vocabulary/01-danh-tu.json"
+        }
+      ]
+    },
     {
       "id": "kanji",
       "units": [

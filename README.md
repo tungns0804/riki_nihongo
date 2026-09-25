@@ -22,9 +22,13 @@ dung:
 - Kanji (`/btvn-co-ban/kanji`): Bài 1–8, mỗi bài 8–11 chữ, chép theo thẻ kanji của Riki
   ([cách chép](data-source/btvn-co-ban/kanji/README.md)).
 
-**BTVN N4 CHUYÊN SÂU** (`/btvn-n4-chuyen-sau`) — bài tập về nhà, hiện một phần:
+**BTVN N4 CHUYÊN SÂU** (`/btvn-n4-chuyen-sau`) — bài tập về nhà, hai phần. Ở học phần này
+mỗi bài là một ĐỀ chứ không phải bảng từ hay bảng chữ:
 
-- Kanji (`/btvn-n4-chuyen-sau/kanji`): mỗi buổi học của Riki là một ĐỀ. "Buổi 2" là 9 câu
+- Từ vựng (`/btvn-n4-chuyen-sau/vocabulary`): bài "Danh từ" — 20 câu chia hai phần, 10 câu
+  chọn câu cùng nghĩa và 10 câu 用法
+  ([cách chép](data-source/btvn-n4-chuyen-sau/vocabulary/README.md)).
+- Kanji (`/btvn-n4-chuyen-sau/kanji`): mỗi buổi học của Riki là một đề. "Buổi 2" là 9 câu
   用法 — cho một phó từ rồi chọn câu dùng nó đúng
   ([cách chép](data-source/btvn-n4-chuyen-sau/kanji/README.md)).
 

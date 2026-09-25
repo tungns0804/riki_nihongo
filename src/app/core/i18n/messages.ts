@@ -84,8 +84,8 @@ export const MESSAGES = {
     ja: 'N3基礎の宿題：1回10語ずつの語彙と課ごとの漢字。読み方・意味・例つき。',
   },
   'course.btvn-n4-chuyen-sau.desc': {
-    vi: 'Bài tập về nhà N4 chuyên sâu: mỗi buổi một đề, chọn câu dùng đúng từ, kèm bản dịch và lời giải từng lựa chọn.',
-    ja: 'N4深掘りの宿題：1回につき1セット、用法問題。訳と選択肢ごとの解説つき。',
+    vi: 'Bài tập về nhà N4 chuyên sâu: mỗi bài là một đề — chọn câu cùng nghĩa và chọn câu dùng đúng từ, kèm bản dịch và lời giải từng lựa chọn.',
+    ja: 'N4深掘りの宿題：1課につき1セットの問題（言い換え・用法）。訳と選択肢ごとの解説つき。',
   },
   'course.soon.desc': { vi: 'Nội dung đang được chuẩn bị.', ja: '教材を準備中です。' },
   'course.list.title': { vi: 'Các học phần của Riki Nihongo', ja: 'Riki Nihongo のコース' },

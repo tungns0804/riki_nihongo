@@ -15,7 +15,9 @@ data-source/
 │   │   └── 01-danh-tu/
 │   └── kanji/
 │       └── 01-bai-1/ 02-bai-2/ …
-└── btvn-n4-chuyen-sau/           BTVN N4 CHUYÊN SÂU — Kanji, mỗi buổi một đề
+└── btvn-n4-chuyen-sau/           BTVN N4 CHUYÊN SÂU — mỗi bài là một đề
+    ├── vocabulary/
+    │   └── 01-danh-tu/
     └── kanji/
         └── 02-buoi-2/
 ```

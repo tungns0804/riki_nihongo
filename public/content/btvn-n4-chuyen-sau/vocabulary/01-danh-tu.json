@@ -1,0 +1,786 @@
+{
+  "id": "01-danh-tu",
+  "name": "Danh từ",
+  "description": "Đề 20 câu về danh từ: 10 câu chọn câu cùng nghĩa (おば, 留守, スケジュール, 機会, 調子, 予習, ボランティア, 相談, 贈り物, 理由) và 10 câu 用法 (はる, むすめ, 興味, 締め切り, お祝い, こえ, つごう, わすれもの, せいかつ, こしょう).",
+  "kind": "test",
+  "parent": "",
+  "group": "",
+  "sections": [
+    {
+      "id": "danh-tu-iikae",
+      "title": "Phần 1 · 文字語彙 — Chọn câu cùng nghĩa (10 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "n4cs-dt-a-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "おばは 45 歳です。",
+          "promptReading": "おばは 45さいです。",
+          "promptTranslation": "Cô (dì, bác gái) tôi 45 tuổi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "母の お兄さんは 45 歳です。",
+              "translation": "Anh trai của mẹ tôi 45 tuổi.",
+              "note": "Anh (em) trai của bố mẹ là おじ, không phải おば — chỉ khác một âm."
+            },
+            {
+              "id": "c2",
+              "text": "母の お姉さんは 45 歳です。",
+              "translation": "Chị gái của mẹ tôi 45 tuổi.",
+              "note": "Đúng: おば là chị hoặc em gái của bố mẹ. Chữ Hán tách rõ: 伯母 (chị của bố mẹ), 叔母 (em của bố mẹ)."
+            },
+            {
+              "id": "c3",
+              "text": "母の お父さんは 45 歳です。",
+              "translation": "Bố của mẹ tôi 45 tuổi.",
+              "note": "Bố của mẹ là おじいさん (ông ngoại)."
+            },
+            {
+              "id": "c4",
+              "text": "母の お母さんは 45 歳です。",
+              "translation": "Mẹ của mẹ tôi 45 tuổi.",
+              "note": "Mẹ của mẹ là おばあさん (bà ngoại) — おば và おばあ chỉ khác nhau một âm dài."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Bốn từ dễ lẫn: おじ (anh/em trai của bố mẹ) · おば (chị/em gái của bố mẹ) · おじいさん (ông) · おばあさん (bà). Phân biệt bằng âm dài: おば ≠ おばあ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-a-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "ともだちの 家に 行ったが、留守だった。",
+          "promptReading": "ともだちの いえに いったが、るすだった。",
+          "promptTranslation": "Tôi đến nhà bạn nhưng bạn đi vắng.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ともだちの 家に 行ったが、ともだちと あそんだ。",
+              "translation": "Tôi đến nhà bạn và đã chơi với bạn.",
+              "note": "留守 là KHÔNG có ai ở nhà, nên không gặp được để mà chơi cùng."
+            },
+            {
+              "id": "c2",
+              "text": "ともだちの 家に 行ったが、ともだちと けんかした。",
+              "translation": "Tôi đến nhà bạn nhưng đã cãi nhau với bạn.",
+              "note": "留守 không nói gì tới chuyện cãi cọ — mà có gặp nhau đâu để cãi."
+            },
+            {
+              "id": "c3",
+              "text": "ともだちの 家に 行ったが、ともだちは 家に いなかった。",
+              "translation": "Tôi đến nhà bạn nhưng bạn không có nhà.",
+              "note": "Đúng: 留守 = đi vắng, nhà không có người. 合: 留守番 (trông nhà), 留守番電話 (máy trả lời tự động)."
+            },
+            {
+              "id": "c4",
+              "text": "ともだちの 家に 行ったが、ともだちは テレビを 見ていた。",
+              "translation": "Tôi đến nhà bạn nhưng bạn đang xem tivi.",
+              "note": "Đang xem tivi tức là CÓ ở nhà — ngược hẳn với 留守."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "留守 (るす) nói về căn nhà trống người, không nói người đó đi đâu. Gọi điện không ai nghe cũng là 留守.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-a-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "スケジュールが 変わる かもしれません。",
+          "promptReading": "スケジュールが かわる かもしれません。",
+          "promptTranslation": "Lịch trình có thể sẽ thay đổi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "キャンセルが 変わる かもしれません。",
+              "translation": "Việc huỷ có thể sẽ thay đổi.",
+              "note": "キャンセル là việc HUỶ một cái đã đặt, không phải bản kế hoạch."
+            },
+            {
+              "id": "c2",
+              "text": "予定が 変わる かもしれません。",
+              "translation": "Dự định có thể sẽ thay đổi.",
+              "note": "Đúng: スケジュール ＝ 予定 — việc đã định sẵn sẽ làm lúc nào."
+            },
+            {
+              "id": "c3",
+              "text": "教育が 変わる かもしれません。",
+              "translation": "Nền giáo dục có thể sẽ thay đổi.",
+              "note": "教育 là nền giáo dục, chuyện lớn của cả xã hội, không phải lịch của một người."
+            },
+            {
+              "id": "c4",
+              "text": "試験が 変わる かもしれません。",
+              "translation": "Kỳ thi có thể sẽ thay đổi.",
+              "note": "試験が変わる cũng là câu đúng tiếng Nhật nhưng nghĩa khác hẳn: đổi kỳ thi chứ không phải đổi lịch."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "予定 là từ thuần dùng nhiều nhất cho \"lịch, dự định\": 予定が変わる・予定を立てる・予定通り. スケジュール là cách nói katakana của chính nó.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-a-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "機会が あれば、やって みたいです。",
+          "promptReading": "きかいが あれば、やって みたいです。",
+          "promptTranslation": "Nếu có cơ hội, tôi muốn thử làm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "故障が あれば、やって みたいです。",
+              "translation": "Nếu có hỏng hóc, tôi muốn thử làm.",
+              "note": "故障 là máy móc bị hỏng (xem câu 10 phần 2)."
+            },
+            {
+              "id": "c2",
+              "text": "間違いが あれば、やって みたいです。",
+              "translation": "Nếu có chỗ sai, tôi muốn thử làm.",
+              "note": "間違い là lỗi, chỗ làm sai."
+            },
+            {
+              "id": "c3",
+              "text": "チャンスが あれば、やって みたいです。",
+              "translation": "Nếu có cơ hội, tôi muốn thử làm.",
+              "note": "Đúng: 機会 ＝ チャンス — dịp thuận lợi để làm một việc."
+            },
+            {
+              "id": "c4",
+              "text": "ズボンが あれば、やって みたいです。",
+              "translation": "Nếu có quần, tôi muốn thử làm.",
+              "note": "ズボン là cái quần, không liên quan."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "機会 (きかい) = cơ hội. Nhớ kèm 機械 (きかい) = máy móc — cùng cách đọc, khác chữ và khác nghĩa hoàn toàn.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-a-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "エアコンの 調子が 悪いとき、どうしたら いいですか。",
+          "promptReading": "エアコンの ちょうしが わるいとき、どうしたら いいですか。",
+          "promptTranslation": "Khi điều hoà trục trặc thì nên làm thế nào?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "エアコンが よごれる とき、どうしたら いいですか。",
+              "translation": "Khi điều hoà bị bẩn thì nên làm thế nào?",
+              "note": "よごれる là bẩn, chuyện bề ngoài. 調子 nói về TÌNH TRẠNG chạy máy."
+            },
+            {
+              "id": "c2",
+              "text": "エアコンが こわれない とき、どうしたら いいですか。",
+              "translation": "Khi điều hoà không hỏng thì nên làm thế nào?",
+              "note": "Ngược nghĩa: máy không hỏng thì có gì phải xử lý."
+            },
+            {
+              "id": "c3",
+              "text": "エアコンが 動かない とき、どうしたら いいですか。",
+              "translation": "Khi điều hoà không chạy thì nên làm thế nào?",
+              "note": "Đúng: 調子が悪い là máy chạy không ngon — chạy ì ạch hoặc không chạy nữa."
+            },
+            {
+              "id": "c4",
+              "text": "エアコンが 買えない とき、どうしたら いいですか。",
+              "translation": "Khi không mua nổi điều hoà thì nên làm thế nào?",
+              "note": "Không mua được là chuyện tiền nong, không phải tình trạng của máy."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "調子 dùng cho cả máy móc lẫn người: エアコンの調子が悪い・体の調子がいい. Hỏng hẳn thì mới là 故障.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-a-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "教科書を 読んで 授業の 予習を してください。",
+          "promptReading": "きょうかしょを よんで じゅぎょうの よしゅうを してください。",
+          "promptTranslation": "Hãy đọc sách giáo khoa để chuẩn bị bài cho buổi học.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "教科書を 読んで 授業の あとに 勉強して ください。",
+              "translation": "Hãy đọc sách giáo khoa và học sau giờ học.",
+              "note": "Học lại SAU giờ là 復習 (ふくしゅう), không phải 予習."
+            },
+            {
+              "id": "c2",
+              "text": "教科書を 読んで 授業の ときに 勉強して ください。",
+              "translation": "Hãy đọc sách giáo khoa và học vào lúc đang học.",
+              "note": "Học ngay trong giờ thì chính là buổi học rồi, không gọi là chuẩn bị."
+            },
+            {
+              "id": "c3",
+              "text": "教科書を 読んで 授業の まえに 勉強して ください。",
+              "translation": "Hãy đọc sách giáo khoa và học trước giờ học.",
+              "note": "Đúng: 予習 = học TRƯỚC khi lên lớp. Chữ 予 cũng nằm trong 予定, 予約 — đều mang nghĩa \"trước\"."
+            },
+            {
+              "id": "c4",
+              "text": "教科書を 読んで 授業の 間に 勉強して ください。",
+              "translation": "Hãy đọc sách giáo khoa và học trong lúc đang học.",
+              "note": "授業の間に cũng là trong giờ học, giống lựa chọn 2."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Cặp đi liền nhau: 予習 (học trước giờ) ⇔ 復習 (học lại sau giờ).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-a-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "田中さんは ボランティアで 日本語を 教えています。",
+          "promptReading": "たなかさんは ボランティアで にほんごを おしえています。",
+          "promptTranslation": "Anh Tanaka dạy tiếng Nhật với tư cách tình nguyện viên.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "田中さんは お金を もらって、日本語を 教えています。",
+              "translation": "Anh Tanaka nhận tiền rồi dạy tiếng Nhật.",
+              "note": "Nhận tiền thì đó là công việc có lương, ngược hẳn với ボランティア."
+            },
+            {
+              "id": "c2",
+              "text": "田中さんは お金を もらわないで、日本語を 教えています。",
+              "translation": "Anh Tanaka dạy tiếng Nhật mà không nhận tiền.",
+              "note": "Đúng: ボランティア là làm không công, tự nguyện giúp người khác."
+            },
+            {
+              "id": "c3",
+              "text": "田中さんは お金に こまって、日本語を 教えています。",
+              "translation": "Anh Tanaka túng tiền nên dạy tiếng Nhật.",
+              "note": "お金に困る là đang thiếu tiền — lại thành lý do đi kiếm tiền."
+            },
+            {
+              "id": "c4",
+              "text": "田中さんは お金が 欲しいですから、日本語を 教えています。",
+              "translation": "Anh Tanaka muốn có tiền nên dạy tiếng Nhật.",
+              "note": "Muốn có tiền cũng là đi làm lấy lương, không phải tình nguyện."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "ボランティア = tình nguyện, không lấy thù lao. 連: ボランティアをする・ボランティア活動.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-a-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "ちょっと、そうだんが あるんですが…。",
+          "promptReading": "ちょっと、そうだんが あるんですが…。",
+          "promptTranslation": "Tôi có chút chuyện muốn bàn…",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ちょっと、会議が あるんですが…。",
+              "translation": "Tôi có một cuộc họp…",
+              "note": "会議 là buổi họp đã định sẵn của cả nhóm, còn 相談 là chuyện riêng muốn hỏi ý ai đó."
+            },
+            {
+              "id": "c2",
+              "text": "ちょっと、話したい ことが あるんですが…。",
+              "translation": "Tôi có chuyện muốn nói…",
+              "note": "Đúng: 相談がある = có chuyện muốn nói để xin ý kiến — đây chính là câu mở lời quen thuộc."
+            },
+            {
+              "id": "c3",
+              "text": "ちょっと、ほしい ものが あるんですが…。",
+              "translation": "Tôi có thứ muốn có…",
+              "note": "ほしいもの là thứ mình muốn có, không phải chuyện muốn bàn."
+            },
+            {
+              "id": "c4",
+              "text": "ちょっと、わからない ことが あるんですが…。",
+              "translation": "Tôi có chỗ không hiểu…",
+              "note": "Gần nghĩa nhưng chỗ không hiểu thì là 質問 (hỏi để biết); 相談 là cùng bàn để tìm cách giải quyết."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "相談する = bàn bạc, xin ý kiến: 先生に相談する・進路の相談. Câu 「ちょっと相談があるんですが」 là lối mở lời rất hay gặp ở công ty.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-a-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "おせわに なった 人に おくりものを わたしました。",
+          "promptReading": "おせわに なった ひとに おくりものを わたしました。",
+          "promptTranslation": "Tôi đã trao quà cho người đã giúp đỡ mình.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "おせわに なった 人に ボーナスを わたしました。",
+              "translation": "Tôi đã trao tiền thưởng cho người đã giúp đỡ mình.",
+              "note": "ボーナス là tiền thưởng công ty trả cho nhân viên, không phải quà cảm ơn."
+            },
+            {
+              "id": "c2",
+              "text": "おせわに なった 人に ポスターを わたしました。",
+              "translation": "Tôi đã trao áp phích cho người đã giúp đỡ mình.",
+              "note": "ポスター là tờ áp phích dán tường."
+            },
+            {
+              "id": "c3",
+              "text": "おせわに なった 人に プレゼントを わたしました。",
+              "translation": "Tôi đã trao quà cho người đã giúp đỡ mình.",
+              "note": "Đúng: 贈り物 ＝ プレゼント — món quà tặng người khác."
+            },
+            {
+              "id": "c4",
+              "text": "おせわに なった 人に てがみを わたしました。",
+              "translation": "Tôi đã trao thư cho người đã giúp đỡ mình.",
+              "note": "Lá thư là 手紙, không phải quà; câu này cũng đúng ngữ pháp nhưng nghĩa khác."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "贈り物 (おくりもの) từ động từ 贈る. Liên quan: お世話になる = được ai đó giúp đỡ, chiếu cố (xem lại bài Danh từ 2 của N3 JUNBI, từ 世話).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-a-10",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "留学したい りゆうは 何ですか。",
+          "promptReading": "りゅうがくしたい りゆうは なんですか。",
+          "promptTranslation": "Lý do bạn muốn đi du học là gì?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "どこへ 留学したいですか。",
+              "translation": "Bạn muốn du học ở đâu?",
+              "note": "どこへ hỏi NƠI CHỐN, không phải lý do."
+            },
+            {
+              "id": "c2",
+              "text": "どうして 留学したいですか。",
+              "translation": "Tại sao bạn muốn du học?",
+              "note": "Đúng: hỏi 理由 thì dùng どうして／なぜ."
+            },
+            {
+              "id": "c3",
+              "text": "何を するために 留学しますか。",
+              "translation": "Bạn du học để làm gì?",
+              "note": "Gần nghĩa nhưng đây là hỏi MỤC ĐÍCH (目的) — việc muốn đạt sau này; 理由 là cái thúc mình quyết định."
+            },
+            {
+              "id": "c4",
+              "text": "だれと いっしょに 留学しますか。",
+              "translation": "Bạn du học cùng với ai?",
+              "note": "だれと hỏi người đi cùng."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "理由 (りゆう) = lý do. Hỏi: どうして／なぜ; trả lời: ～から／～ので／～ため.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "danh-tu-youhou",
+      "title": "Phần 2 · 文字語彙 問題3：言葉の正しい使い方を選んでください。(10 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "n4cs-dt-b-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "はる",
+          "promptReading": "",
+          "promptTranslation": "Dán (貼る) — dán thứ mỏng lên một bề mặt",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "冬で 雪が はります。",
+              "translation": "Vì là mùa đông nên tuyết dán.",
+              "note": "Tuyết thì 降ります (rơi). Có cách nói 氷が張る (đóng băng) nhưng đó là 張る khác, không phải 貼る."
+            },
+            {
+              "id": "c2",
+              "text": "コップに コーヒーを はります。",
+              "translation": "Dán cà phê vào cốc.",
+              "note": "Rót vào cốc là 入れます／注ぎます."
+            },
+            {
+              "id": "c3",
+              "text": "ふうとうに 切手を はります。",
+              "translation": "Dán tem lên phong bì.",
+              "note": "Đúng: 切手を貼る — 貼る dùng cho tem, áp phích, miếng dán, băng dính."
+            },
+            {
+              "id": "c4",
+              "text": "毎朝 公園に 人が はって あります。",
+              "translation": "Sáng nào người cũng được dán sẵn ở công viên.",
+              "note": "～てあります nói về VẬT được ai đó đặt sẵn, không dùng cho người; mà người cũng không ai đem dán."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "貼る = dán thứ mỏng lên bề mặt: 切手・ポスター・シール・紙を貼る. Trên tường công ty hay thấy 「ここに貼らないでください」.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-b-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "むすめ",
+          "promptReading": "",
+          "promptTranslation": "Con gái (娘) — con gái ruột của mình",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "もう むすめを 用意しましたか。",
+              "translation": "Bạn đã chuẩn bị con gái chưa?",
+              "note": "用意する dùng cho đồ vật, bữa ăn, giấy tờ. (Bản đề dán dính phần furigana \"用意よ う い\", đã bỏ.)"
+            },
+            {
+              "id": "c2",
+              "text": "むすめを 落として、こわれて しまった。",
+              "translation": "Tôi làm rơi con gái nên nó vỡ mất rồi.",
+              "note": "こわれる dùng cho đồ vật; làm rơi rồi vỡ thì không thể là một con người."
+            },
+            {
+              "id": "c3",
+              "text": "むすめが 生まれたのは ハノイです。",
+              "translation": "Nơi con gái tôi chào đời là Hà Nội.",
+              "note": "Đúng: 娘 là con gái ruột — chuyện sinh ra ở đâu mới hợp với một con người."
+            },
+            {
+              "id": "c4",
+              "text": "むすめは まだ 開いて いません。",
+              "translation": "Con gái vẫn chưa mở cửa.",
+              "note": "開く dùng cho cửa, cửa hàng, hộp."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "娘 (むすめ) ⇔ 息子 (むすこ). Cẩn thận: gọi con gái NHÀ NGƯỜI KHÁC thì nói お嬢さん (おじょうさん).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-b-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "興味",
+          "promptReading": "きょうみ",
+          "promptTranslation": "HỨNG VỊ ; Hứng thú, sự quan tâm",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "興味が あるので、お先に 失礼します。",
+              "translation": "Vì có hứng thú nên tôi xin phép về trước.",
+              "note": "Có hứng thú thì càng ở lại chứ sao lại về trước; câu xin về sớm là 用事があるので、お先に失礼します."
+            },
+            {
+              "id": "c2",
+              "text": "説明の とおりに、興味を して ください。",
+              "translation": "Hãy làm hứng thú đúng như lời giải thích.",
+              "note": "興味 là danh từ đi với 持つ／ある, không có cách nói 興味をする."
+            },
+            {
+              "id": "c3",
+              "text": "音楽に 興味を 持って います。",
+              "translation": "Tôi có hứng thú với âm nhạc.",
+              "note": "Đúng: ～に興味を持つ／～に興味がある. (Bản đề dán viết 音楽の興味, đã sửa thành 音楽に — thứ mình quan tâm đi với に.)"
+            },
+            {
+              "id": "c4",
+              "text": "危なくて、興味に 触らないで ください。",
+              "translation": "Nguy hiểm lắm, xin đừng chạm vào hứng thú.",
+              "note": "興味 không phải vật sờ được; ý này là 危ないものに触らないでください."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Hai mẫu cố định: ～に興味がある và ～に興味を持つ. Trợ từ luôn là に, không phải の hay を.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-b-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "締め切り",
+          "promptReading": "しめきり",
+          "promptTranslation": "ĐẾ THIẾT ; Hạn chót, kỳ hạn",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "誕生日の 締め切りに カードを 書きました。",
+              "translation": "Tôi đã viết thiệp vào hạn chót của sinh nhật.",
+              "note": "Sinh nhật không có hạn chót; câu này phải là 誕生日にカードを書きました."
+            },
+            {
+              "id": "c2",
+              "text": "申し込みの 締め切りは いつですか。",
+              "translation": "Hạn chót đăng ký là khi nào?",
+              "note": "Đúng: hạn nộp đơn đăng ký — 締め切り luôn gắn với việc phải làm xong trước một mốc."
+            },
+            {
+              "id": "c3",
+              "text": "大切な 締め切りを なくして 困って いる。",
+              "translation": "Tôi đang khổ vì làm mất cái hạn chót quan trọng.",
+              "note": "締め切り là một THỜI ĐIỂM, không phải đồ vật để đánh mất. Mất đồ quan trọng thì là 大切なものをなくす."
+            },
+            {
+              "id": "c4",
+              "text": "明日 締め切りを 出して ください。",
+              "translation": "Ngày mai hãy nộp hạn chót.",
+              "note": "Thứ đem nộp là 書類・レポート・申込書, không phải cái hạn."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "締め切り từ 締め切る (đóng lại, chốt sổ). Hay gặp: 締め切りが近い・締め切りに間に合う・締め切りを過ぎる.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-b-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "お祝い",
+          "promptReading": "おいわい",
+          "promptTranslation": "Sự chúc mừng, lễ mừng (và món quà mừng)",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "日本文化に お祝いを 持って いる。",
+              "translation": "Tôi có lời chúc mừng với văn hoá Nhật Bản.",
+              "note": "Chỗ này là của 興味: 日本文化に興味を持っている (xem câu 3)."
+            },
+            {
+              "id": "c2",
+              "text": "父は 朝 起きたら、お祝いを して ます。",
+              "translation": "Bố tôi cứ sáng dậy là làm lễ mừng.",
+              "note": "Việc làm đều đặn mỗi sáng là 散歩・体操; お祝い chỉ có khi có chuyện vui đáng mừng."
+            },
+            {
+              "id": "c3",
+              "text": "大学に 合格して、先生に お祝いして もらった。",
+              "translation": "Tôi đỗ đại học nên được thầy chúc mừng.",
+              "note": "Đúng: đỗ đại học là chuyện mừng nên được thầy chúc mừng. 連: お祝いする・お祝いをもらう."
+            },
+            {
+              "id": "c4",
+              "text": "この 店の ラーメンは おいしくて、お祝いが ある。",
+              "translation": "Mì ramen quán này ngon nên có lời chúc mừng.",
+              "note": "Quán đông khách, được ưa chuộng thì nói 人気がある. (Bản đề gõ ラメン, đã sửa thành ラーメン.)"
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "お祝い đi với dịp vui đã xảy ra: 合格・入学・結婚・出産のお祝い. Chỉ lời nói thì おめでとうございます.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-b-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "こえ",
+          "promptReading": "",
+          "promptTranslation": "Giọng, tiếng (声) — tiếng phát ra từ người và loài vật",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ピアノの こえは、きれいですから、好きです。",
+              "translation": "Giọng của cây đàn piano đẹp nên tôi thích.",
+              "note": "Tiếng của nhạc cụ, đồ vật là 音 (おと): ピアノの音."
+            },
+            {
+              "id": "c2",
+              "text": "かぜを ひきましたから、こえが あまり でません。",
+              "translation": "Vì bị cảm nên tôi không ra tiếng được mấy.",
+              "note": "Đúng: ốm nên mất tiếng — 声が出ない là chuyện của cổ họng người. (Bản đề gõ ひきましたかた, đã sửa thành ひきましたから.)"
+            },
+            {
+              "id": "c3",
+              "text": "日本語の こえが じょうずでは ありません。",
+              "translation": "Giọng tiếng Nhật của tôi không giỏi.",
+              "note": "Nói về cách phát âm thì dùng 発音 (はつおん): 日本語の発音が上手ではありません."
+            },
+            {
+              "id": "c4",
+              "text": "車の こえが うるさいですから、ねられません。",
+              "translation": "Giọng của xe ồn quá nên tôi không ngủ được.",
+              "note": "Tiếng xe cộ cũng là 音: 車の音がうるさい."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "声 chỉ dành cho người và loài vật (犬の声・鳥の声); mọi thứ khác là 音. Hay gặp: 声が大きい・声をかける・大きな声で読む.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-b-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "つごう",
+          "promptReading": "",
+          "promptTranslation": "Hoàn cảnh, sự tiện (都合) — việc riêng khiến mình làm được hay không",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "体の つごうが わるかったから、家に いました。",
+              "translation": "Vì hoàn cảnh cơ thể không tốt nên tôi ở nhà.",
+              "note": "Sức khoẻ thì nói 体の調子が悪い. (Bản đề gõ つうご, đã sửa thành つごう.)"
+            },
+            {
+              "id": "c2",
+              "text": "来週の 日曜日に 家に かえる つごうです。",
+              "translation": "Chủ nhật tuần sau tôi có hoàn cảnh về nhà.",
+              "note": "Việc đã định sẵn sẽ làm là 予定: 帰る予定です."
+            },
+            {
+              "id": "c3",
+              "text": "しごとの つごうで りょこうに いけませんでした。",
+              "translation": "Vì bận việc nên tôi đã không đi du lịch được.",
+              "note": "Đúng: 仕事の都合で = vì vướng công việc — đúng lối dùng 都合 nêu hoàn cảnh riêng."
+            },
+            {
+              "id": "c4",
+              "text": "車の つごうが よくなかったから、出かけられません。",
+              "translation": "Vì hoàn cảnh của xe không tốt nên không ra ngoài được.",
+              "note": "Máy móc thì cũng là 調子: 車の調子がよくない."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Ba từ hay lẫn nhau: 都合 (hoàn cảnh riêng của NGƯỜI), 調子 (tình trạng của máy móc và cơ thể), 予定 (việc đã định). 連: 都合がいい／悪い・都合がつく.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-b-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "わすれもの",
+          "promptReading": "",
+          "promptTranslation": "Đồ để quên (忘れ物)",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "日本で とった 写真は わたしの たいせつな わすれものです。",
+              "translation": "Những bức ảnh chụp ở Nhật là đồ để quên quý giá của tôi.",
+              "note": "Ảnh giữ kỹ để nhớ lại là 思い出 (kỷ niệm), không phải đồ bỏ quên."
+            },
+            {
+              "id": "c2",
+              "text": "この 花は 誕生日に たなかさんから もらった わすれものです。",
+              "translation": "Bông hoa này là đồ để quên mà anh Tanaka tặng hôm sinh nhật.",
+              "note": "Đồ được tặng là 贈り物／プレゼント (xem câu 9 phần 1)."
+            },
+            {
+              "id": "c3",
+              "text": "わたしは かいものを した とき、お店に わすれものを しました。",
+              "translation": "Lúc đi mua sắm, tôi đã để quên đồ ở cửa hàng.",
+              "note": "Đúng: 忘れ物をする = để quên đồ ở đâu đó. Trên tàu hay nghe 「お忘れ物のないように」."
+            },
+            {
+              "id": "c4",
+              "text": "おとうさんが 食べた わすれものが まだ 冷蔵庫に あります。",
+              "translation": "Đồ để quên mà bố đã ăn vẫn còn trong tủ lạnh.",
+              "note": "Đồ ăn còn thừa là 残り物; hơn nữa bố đã ăn rồi thì sao còn trong tủ lạnh."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "忘れ物 là chính món đồ bị bỏ quên, và 忘れ物をする là hành động bỏ quên nó. 落とし物 thì là đồ đánh rơi.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-b-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "せいかつ",
+          "promptReading": "",
+          "promptTranslation": "Cuộc sống, sinh hoạt (生活) — chuyện ăn ở hằng ngày",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "とうきょうの せいかつは とても たいへんです。",
+              "translation": "Cuộc sống ở Tokyo rất vất vả.",
+              "note": "Đúng: 生活 là chuyện ăn ở, sinh hoạt hằng ngày — sống ở Tokyo đắt đỏ nên vất vả."
+            },
+            {
+              "id": "c2",
+              "text": "おじいさんの せいかつは あと 3 か月です。",
+              "translation": "Cuộc sống của ông còn 3 tháng nữa.",
+              "note": "Thời gian còn sống được là 命 (いのち): 命はあと3か月です."
+            },
+            {
+              "id": "c3",
+              "text": "この まちは しずかで せいかつが ありません。",
+              "translation": "Phố này yên tĩnh nên không có cuộc sống.",
+              "note": "Phố vắng vẻ, không có sinh khí thì nói 活気がない."
+            },
+            {
+              "id": "c4",
+              "text": "この パソコンは せいかつが みじかいです。",
+              "translation": "Chiếc máy tính này có cuộc sống ngắn.",
+              "note": "Tuổi thọ của máy móc là 寿命 (じゅみょう)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "生活 = việc sống thường ngày: 生活が苦しい・生活費・日本の生活に慣れる. Không dùng cho độ dài của mạng sống (命) hay của đồ vật (寿命).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-dt-b-10",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "こしょう",
+          "promptReading": "",
+          "promptTranslation": "Hỏng hóc (故障) — máy móc trục trặc, không chạy nữa",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "かばんが こしょうしましたから、新しいのを 買います。",
+              "translation": "Vì cái cặp bị hỏng hóc nên tôi mua cái mới.",
+              "note": "Cặp hỏng thì nói こわれる／破れる. 故障 dành cho thứ có máy móc, mạch điện bên trong."
+            },
+            {
+              "id": "c2",
+              "text": "かぜが つよかったですから、木が こしょうしました。",
+              "translation": "Vì gió mạnh nên cái cây bị hỏng hóc.",
+              "note": "Cây bị gió quật thì là 倒れる (đổ)."
+            },
+            {
+              "id": "c3",
+              "text": "あまり ねませんでしたから、体が こしょうしました。",
+              "translation": "Vì không ngủ mấy nên cơ thể tôi bị hỏng hóc.",
+              "note": "Người thì nói 体の調子が悪い hoặc 体をこわす."
+            },
+            {
+              "id": "c4",
+              "text": "パソコンが こしょうして レポートを 書く ことが できません。",
+              "translation": "Máy tính hỏng nên tôi không viết được báo cáo.",
+              "note": "Đúng: máy tính là máy móc nên hỏng thì dùng 故障する."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "故障 chỉ dành cho máy móc: パソコン・エアコン・車・エレベーターが故障する. Trên máy hỏng hay dán biển 「故障中」.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}
