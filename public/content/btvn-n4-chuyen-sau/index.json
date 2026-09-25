@@ -4,7 +4,7 @@
     "name": "BTVN N4 CHUYÊN SÂU",
     "level": "N4"
   },
-  "generatedAt": "2026-09-25T03:34:11.317Z",
+  "generatedAt": "2026-09-25T05:19:05.559Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -62,6 +62,17 @@
           "itemCount": 5,
           "order": 1,
           "file": "grammar/01-lien-tu.json"
+        },
+        {
+          "id": "02-tro-tu",
+          "name": "Trợ từ",
+          "description": "Đề 15 câu điền trợ từ vào chỗ trống: でも, は, も, と, ごろ, では, に, の, など, には, へ, が, までに.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 15,
+          "order": 2,
+          "file": "grammar/02-tro-tu.json"
         }
       ]
     }

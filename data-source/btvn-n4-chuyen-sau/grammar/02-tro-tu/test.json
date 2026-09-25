@@ -1,0 +1,252 @@
+{
+  "sections": [
+    {
+      "id": "tro-tu-mondai",
+      "title": "文法 問題 — Điền trợ từ (15 câu)",
+      "instructions": "問題：（　）に 何を 入れますか。1・2・3・4から いちばん いい ものを 一つ えらんで ください。",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n4cs-tt-01",
+          "promptJapanese": "上村：「タムさん、この まんがを 知って いますか。」\nタム：「はい。わたしの 国（　　　）読んだ ことが あります。」",
+          "promptReading": "うえむら：「タムさん、この まんがを しって いますか。」\nタム：「はい。わたしの くに（　　　）よんだ ことが あります。」",
+          "promptVietnamese": "Uemura: \"Anh Tam, anh có biết bộ truyện tranh này không?\"\nTam: \"Có. Ở nước tôi tôi cũng đã từng đọc rồi.\"",
+          "choices": ["をも", "にも", "とも", "でも"],
+          "choicesVietnamese": ["を + も (tân ngữ + cũng)", "に + も (đích đến, thời điểm + cũng)", "と + も (cùng với + cũng)", "で + も (nơi diễn ra hành động + cũng)"],
+          "choiceNotes": [
+            "を không đứng trước も được. Muốn nói \"cũng đọc cái này\" thì bỏ hẳn を: このまんがも読んだ.",
+            "にも dùng khi 国 là ĐÍCH đến: 国にも行った. Ở đây việc đọc diễn ra TẠI nước đó nên phải で.",
+            "とも là \"cùng với ~ cũng\", cần một người đi kèm, không hợp với 国.",
+            "Đúng: で đánh dấu nơi diễn ra hành động 読む, thêm も thành \"ở nước tôi cũng…\"."
+          ],
+          "answer": 4,
+          "explanation": "でも ở đây là で (nơi chốn) ＋ も (cũng), không phải liên từ でも (nhưng). Quy tắc: を và が gặp も thì BIẾN MẤT (これも読んだ), còn に・で・と thì giữ nguyên rồi thêm も."
+        },
+        {
+          "id": "n4cs-tt-02",
+          "promptJapanese": "ぶちょうの 住所（　　　）青田さんが 知って いますか。",
+          "promptReading": "ぶちょうの じゅうしょ（　　　）あおたさんが しって いますか。",
+          "promptVietnamese": "Địa chỉ của trưởng phòng thì anh Aota có biết không?",
+          "choices": ["へ", "で", "は", "や"],
+          "choicesVietnamese": ["hướng đi tới (へ)", "nơi chốn, phương tiện (で)", "trợ từ chủ đề (は)", "liệt kê \"và\" (や)"],
+          "choiceNotes": [
+            "へ chỉ hướng đi, mà 住所 ở đây không phải nơi để đi tới.",
+            "で chỉ nơi diễn ra hành động; 知っている không xảy ra \"tại\" địa chỉ.",
+            "Đúng: đưa 住所 lên làm chủ đề. Câu gốc là 青田さんが住所を知っていますか, を đổi thành は để hỏi \"còn địa chỉ thì sao\".",
+            "や nối hai danh từ trở lên, mà đây chỉ có một."
+          ],
+          "answer": 3,
+          "explanation": "Tân ngữ được nêu lên làm chủ đề thì を đổi thành は. Câu này vẫn giữ が ở 青田さん — mẫu 「AはBが〜」 rất hay gặp. Đề in 「知 っていますか」 tách rời, chép liền lại là 知っていますか."
+        },
+        {
+          "id": "n4cs-tt-03",
+          "promptJapanese": "父も 母（　　　）毎日 帰って くるのが おそいです。",
+          "promptReading": "ちちも はは（　　　）まいにち かえって くるのが おそいです。",
+          "promptVietnamese": "Cả bố lẫn mẹ tôi ngày nào cũng về muộn.",
+          "choices": ["も", "へ", "か", "の"],
+          "choicesVietnamese": ["cũng (も)", "hướng đi tới (へ)", "hay là (か)", "của (の)"],
+          "choiceNotes": [
+            "Đúng: mẫu 「AもBも」 = cả A lẫn B — vế trước đã có 父も rồi.",
+            "へ chỉ hướng, không nối hai người với nhau.",
+            "父か母 nghĩa là bố HOẶC mẹ; nhưng vế trước đã dùng も nên vế sau phải も cho khớp.",
+            "父も母の không thành câu."
+          ],
+          "answer": 1,
+          "explanation": "「AもBも」 liệt kê hai thứ cùng đúng một điều. Thấy も ở vế trước là biết vế sau phải も — đây là chỗ đề muốn kiểm tra."
+        },
+        {
+          "id": "n4cs-tt-04",
+          "promptJapanese": "秋山さんは わたしに「がんばって。」（　　　）言った。",
+          "promptReading": "あきやまさんは わたしに「がんばって。」（　　　）いった。",
+          "promptVietnamese": "Anh Akiyama đã nói với tôi rằng \"Cố lên nhé.\"",
+          "choices": ["は", "を", "も", "と"],
+          "choicesVietnamese": ["trợ từ chủ đề (は)", "tân ngữ (を)", "cũng (も)", "trợ từ dẫn lời (と)"],
+          "choiceNotes": [
+            "は nêu chủ đề, không dùng để dẫn lời nói.",
+            "を đánh dấu tân ngữ, nhưng câu trích dẫn thì không dùng を — không ai nói 「がんばって」を言った.",
+            "も = cũng, câu này không có ý thêm vào cái gì.",
+            "Đúng: と là trợ từ dẫn lời: 「…」と言う."
+          ],
+          "answer": 4,
+          "explanation": "と dẫn nguyên văn lời nói hoặc nội dung suy nghĩ: 「〜」と言う・〜と思う・〜と聞く. Người nghe lời thì đánh dấu bằng に (わたしに言った)."
+        },
+        {
+          "id": "n4cs-tt-05",
+          "promptJapanese": "わたしは 昼ごはんを 食べる 時間が おそい。いつも 2時（　　　）だ。",
+          "promptReading": "わたしは ひるごはんを たべる じかんが おそい。いつも にじ（　　　）だ。",
+          "promptVietnamese": "Giờ ăn trưa của tôi muộn. Lúc nào cũng khoảng 2 giờ.",
+          "choices": ["ごろ", "より", "が", "に"],
+          "choicesVietnamese": ["khoảng (mốc giờ) (ごろ)", "hơn, so với (より)", "trợ từ chủ ngữ (が)", "vào lúc (に)"],
+          "choiceNotes": [
+            "Đúng: 2時ごろだ = khoảng 2 giờ. ごろ gắn vào MỐC thời gian.",
+            "より là \"hơn ~\", phải có vế so sánh: 2時より遅い.",
+            "が đánh dấu chủ ngữ, không đứng ngay trước だ cuối câu như vậy.",
+            "2時に là \"vào lúc 2 giờ\" và phải đi với động từ (2時に食べる); đứng trước だ thì không được."
+          ],
+          "answer": 1,
+          "explanation": "Phân biệt ごろ và ぐらい／くらい: ごろ đi với MỐC thời gian (2時ごろ), ぐらい đi với LƯỢNG (2時間ぐらい)."
+        },
+        {
+          "id": "n4cs-tt-06",
+          "promptJapanese": "A：「たばこを すっても いいですか。」\nB：「ここ（　　　）すわないで ください。外なら だいじょうぶです。」",
+          "promptReading": "A：「たばこを すっても いいですか。」\nB：「ここ（　　　）すわないで ください。そとなら だいじょうぶです。」",
+          "promptVietnamese": "A: \"Tôi hút thuốc có được không?\"\nB: \"Ở đây thì xin đừng hút. Ở ngoài thì không sao.\"",
+          "choices": ["では", "までは", "には", "かは"],
+          "choicesVietnamese": ["で + は (nơi diễn ra hành động, có đối lập)", "まで + は (cho tới ~ thì)", "に + は (nơi tồn tại, thời điểm, có đối lập)", "không phải trợ từ ghép dùng được ở đây"],
+          "choiceNotes": [
+            "Đúng: で đánh dấu nơi diễn ra hành động 吸う, thêm は để đối lập với 外.",
+            "まで chỉ giới hạn tới đâu, không nói về nơi cấm hút.",
+            "には dùng khi nói cái gì TỒN TẠI ở đây (ここには何もない); còn hành động thì đi với で.",
+            "かは không phải một trợ từ ghép dùng được ở vị trí này."
+          ],
+          "answer": 1,
+          "explanation": "Nguyên tắc nơi chốn: ある／いる đi với に, hành động đi với で. Thêm は là để đối chiếu với chỗ khác — ở đây là với 外."
+        },
+        {
+          "id": "n4cs-tt-07",
+          "promptJapanese": "かばん（　　　）さいふを 入れて おきます。",
+          "promptReading": "かばん（　　　）さいふを いれて おきます。",
+          "promptVietnamese": "Tôi sẽ để sẵn ví trong cặp.",
+          "choices": ["に", "で", "が", "も"],
+          "choicesVietnamese": ["đích đến của vật (に)", "nơi diễn ra hành động, phương tiện (で)", "trợ từ chủ ngữ (が)", "cũng (も)"],
+          "choiceNotes": [
+            "Đúng: 入れる là bỏ vật vào ĐÂU — chỗ đến đánh dấu bằng に.",
+            "で là nơi diễn ra hành động; かばんで入れる thành \"dùng cặp để bỏ vào\".",
+            "が đánh dấu chủ ngữ, mà chủ ngữ ở đây là người nói.",
+            "も = cũng, câu này không có thứ nào nói trước đó để \"cũng\"."
+          ],
+          "answer": 1,
+          "explanation": "Nhóm động từ có điểm đến đều dùng に: 入れる・置く・のせる・はる・書く. Câu đầy đủ: かばんに さいふを 入れておきます."
+        },
+        {
+          "id": "n4cs-tt-08",
+          "promptJapanese": "冬（　　　）ように 寒い日が つづいて います。",
+          "promptReading": "ふゆ（　　　）ように さむい ひが つづいて います。",
+          "promptVietnamese": "Những ngày lạnh như mùa đông cứ kéo dài mãi.",
+          "choices": ["も", "の", "で", "か"],
+          "choicesVietnamese": ["cũng (も)", "của, nối danh từ (の)", "bằng, tại (で)", "hay là (か)"],
+          "choiceNotes": [
+            "も không đứng trước ように.",
+            "Đúng: danh từ ＋ のように = như ~. 冬のように寒い = lạnh như mùa đông.",
+            "で không nối danh từ với ように.",
+            "か là \"hay là\", không hợp ở đây."
+          ],
+          "answer": 2,
+          "explanation": "Mẫu so sánh ví von: 名詞＋のように＋tính từ/động từ, còn 名詞＋のような＋danh từ. Ví dụ: 雪のように白い ・ 雪のような肌. Đề in 寒日, chép lại đúng là 寒い日."
+        },
+        {
+          "id": "n4cs-tt-09",
+          "promptJapanese": "車で 来たので、今日は おさけ（　　　）飲めません。",
+          "promptReading": "くるまで きたので、きょうは おさけ（　　　）のめません。",
+          "promptVietnamese": "Vì tôi đến bằng ô tô nên hôm nay không uống rượu được.",
+          "choices": ["と", "に", "は", "や"],
+          "choicesVietnamese": ["cùng với, dẫn lời (と)", "đích đến, thời điểm (に)", "trợ từ chủ đề, nhấn đối lập (は)", "liệt kê \"và\" (や)"],
+          "choiceNotes": [
+            "と là \"cùng với\" hoặc dẫn lời, không hợp với 飲めません.",
+            "に không đánh dấu thứ được uống.",
+            "Đúng: を đổi thành は trong câu phủ định để nhấn \"riêng rượu thì không\".",
+            "や nối hai danh từ trở lên, đây chỉ có một."
+          ],
+          "answer": 3,
+          "explanation": "Câu phủ định hay đổi を／が thành は để nhấn đúng thứ bị phủ định: コーヒーは飲みません・時間はありません. Ngầm ý: thứ khác thì vẫn được."
+        },
+        {
+          "id": "n4cs-tt-10",
+          "promptJapanese": "おなかが すいてから、パンか おにぎり（　　　）食べよう。",
+          "promptReading": "おなかが すいてから、パンか おにぎり（　　　）たべよう。",
+          "promptVietnamese": "Đói bụng rồi thì ăn tạm bánh mì hay cơm nắm gì đó vậy.",
+          "choices": ["で", "から", "が", "でも"],
+          "choicesVietnamese": ["bằng, tại (で)", "từ, vì (から)", "trợ từ chủ ngữ (が)", "~ gì đó (でも)"],
+          "choiceNotes": [
+            "で chỉ phương tiện hoặc nơi chốn, không dùng cho món được ăn.",
+            "から là \"từ\" hoặc \"vì\", đứng ngay trước 食べよう thì không thành câu.",
+            "が đánh dấu chủ ngữ; món bị ăn thì dùng を hoặc でも.",
+            "Đúng: 〜でも = \"~ gì đó\", nêu gợi ý nhẹ nhàng."
+          ],
+          "answer": 4,
+          "explanation": "でも sau danh từ là cách gợi ý không áp đặt, hay đi với lời rủ hoặc thể ý chí: パンでも食べよう・お茶でも飲みませんか. Khác hẳn でも đầu câu (nhưng)."
+        },
+        {
+          "id": "n4cs-tt-11",
+          "promptJapanese": "A「新しく できた コンビニへ 行きましたか。」\nB「ええ。カレーや ケーキ（　　　）たくさん ありましたよ。」",
+          "promptReading": "A「あたらしく できた コンビニへ いきましたか。」\nB「ええ。カレーや ケーキ（　　　）たくさん ありましたよ。」",
+          "promptVietnamese": "A: \"Bạn đã đến cửa hàng tiện lợi mới mở chưa?\"\nB: \"Rồi. Nào là cà ri, nào là bánh ngọt, có nhiều lắm đấy.\"",
+          "choices": ["などの", "などが", "などで", "などから"],
+          "choicesVietnamese": ["など + の (~ chẳng hạn, của)", "など + が (~ chẳng hạn, làm chủ ngữ)", "など + で (~ chẳng hạn, bằng/tại)", "など + から (~ chẳng hạn, từ)"],
+          "choiceNotes": [
+            "などの phải có danh từ đi ngay sau (などの食べ物), mà sau chỗ trống là たくさんありました.",
+            "Đúng: 「AやBなど」 ＋ が ＋ あります — など khép lại danh sách, が đánh dấu thứ tồn tại.",
+            "などで là \"bằng ~ chẳng hạn\", không đi với ある ở đây.",
+            "などから là \"từ ~ chẳng hạn\", cũng không hợp."
+          ],
+          "answer": 2,
+          "explanation": "Bộ ba đi liền: 「AやBなど」 liệt kê chưa hết, rồi 〜があります nói là có. Khác と — と là liệt kê đủ hết, không còn thứ nào khác."
+        },
+        {
+          "id": "n4cs-tt-12",
+          "promptJapanese": "A：「レポートは いつ できますか。」\nB：「来週の 水曜日（　　　）書きおわると 思います。」",
+          "promptReading": "A：「レポートは いつ できますか。」\nB：「らいしゅうの すいようび（　　　）かきおわると おもいます。」",
+          "promptVietnamese": "A: \"Khi nào thì báo cáo xong?\"\nB: \"Tôi nghĩ đến thứ tư tuần sau là viết xong.\"",
+          "choices": ["だけは", "からは", "には", "へは"],
+          "choicesVietnamese": ["chỉ mỗi ~ thì (だけは)", "từ ~ trở đi thì (からは)", "đến lúc ~ thì (には)", "về phía ~ thì (へは)"],
+          "choiceNotes": [
+            "だけ là \"chỉ\": 水曜日だけ thành \"chỉ mỗi thứ tư\", lệch hẳn ý.",
+            "から là mốc BẮT ĐẦU, mà câu này nói mốc HOÀN THÀNH.",
+            "Đúng: mốc thời gian ＋ には = tính đến lúc đó thì đã xong.",
+            "へ chỉ hướng đi, không dùng cho thời gian."
+          ],
+          "answer": 3,
+          "explanation": "水曜日には書きおわる = đến thứ tư là viết xong. Cùng ý còn nói được 水曜日までに (trước thứ tư) — so thêm với câu 15."
+        },
+        {
+          "id": "n4cs-tt-13",
+          "promptJapanese": "ここは わたしが 家（　　　）帰る 前に よく よる スーパーです。",
+          "promptReading": "ここは わたしが いえ（　　　）かえる まえに よく よる スーパーです。",
+          "promptVietnamese": "Đây là siêu thị tôi hay ghé trước khi về nhà.",
+          "choices": ["を", "の", "と", "へ"],
+          "choicesVietnamese": ["tân ngữ, nơi rời khỏi (を)", "của, nối danh từ (の)", "cùng với (と)", "hướng đi tới (へ)"],
+          "choiceNotes": [
+            "を đi với động từ RỜI KHỎI: 家を出る. Còn 帰る là đi về phía nhà nên không dùng を.",
+            "の nối hai danh từ, không nối danh từ với động từ 帰る.",
+            "と là \"cùng với\", mà nhà thì không cùng đi được.",
+            "Đúng: 家へ帰る = về nhà, へ chỉ hướng đi tới (nói 家に帰る cũng được nhưng đề không cho に)."
+          ],
+          "answer": 4,
+          "explanation": "Cặp dễ lẫn: 家へ帰る (về nhà) ↔ 家を出る (ra khỏi nhà). Động từ 寄る（よる）trong câu nghĩa là ghé qua."
+        },
+        {
+          "id": "n4cs-tt-14",
+          "promptJapanese": "となりの へやで 大きな 音（　　　）した。",
+          "promptReading": "となりの へやで おおきな おと（　　　）した。",
+          "promptVietnamese": "Ở phòng bên cạnh có tiếng động lớn.",
+          "choices": ["が", "で", "や", "を"],
+          "choicesVietnamese": ["trợ từ chủ ngữ (が)", "nơi chốn, phương tiện (で)", "liệt kê \"và\" (や)", "tân ngữ (を)"],
+          "choiceNotes": [
+            "Đúng: 音がする = có tiếng động phát ra.",
+            "で đã dùng cho nơi chốn ở ngay đầu câu (へやで) rồi.",
+            "や nối danh từ, đây chỉ có một thứ.",
+            "音をする không đúng: tiếng động không phải thứ người ta chủ động làm ra ở đây."
+          ],
+          "answer": 1,
+          "explanation": "Nhóm 「〜がする」 nói về thứ cảm nhận bằng giác quan: 音がする・においがする・味がする・声がする. Luôn dùng が chứ không dùng を."
+        },
+        {
+          "id": "n4cs-tt-15",
+          "promptJapanese": "この 本は あした（　　　）かえさなければ ならない。",
+          "promptReading": "この ほんは あした（　　　）かえさなければ ならない。",
+          "promptVietnamese": "Cuốn sách này phải trả trước ngày mai.",
+          "choices": ["ばかり", "しか", "までに", "まで"],
+          "choicesVietnamese": ["toàn là, vừa mới (ばかり)", "chỉ có (しか, đi với phủ định)", "trước mốc ~ (までに)", "cho tới tận ~ (まで)"],
+          "choiceNotes": [
+            "ばかり là \"toàn là\" hoặc \"vừa mới\", không nói về hạn chót.",
+            "しか phải đi với phủ định theo nghĩa \"chỉ có\": あしたしかない.",
+            "Đúng: までに = hạn chót. Trả lúc nào cũng được, miễn là trước ngày mai.",
+            "まで là \"cho tới tận\", dùng cho việc KÉO DÀI: あしたまで借りる (mượn đến ngày mai)."
+          ],
+          "answer": 3,
+          "explanation": "Cặp bắt buộc phải phân biệt: までに = trước mốc, đi với việc làm MỘT LẦN (出す・帰る・返す) ↔ まで = tới tận mốc, đi với việc KÉO DÀI (待つ・借りる・働く). Đề in かえさなけれな, chép lại đúng là かえさなければ."
+        }
+      ]
+    }
+  ]
+}
