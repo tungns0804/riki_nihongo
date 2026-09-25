@@ -4,7 +4,7 @@
     "name": "BTVN N4 CHUYÊN SÂU",
     "level": "N4"
   },
-  "generatedAt": "2026-09-25T05:26:00.151Z",
+  "generatedAt": "2026-09-25T05:42:17.380Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -84,6 +84,17 @@
           "itemCount": 7,
           "order": 3,
           "file": "grammar/03-the-te.json"
+        },
+        {
+          "id": "04-the-masu",
+          "name": "Tổng hợp ngữ pháp thể ます",
+          "description": "問題2: 4 câu ghép câu, chọn từ vào ★ — các mẫu gắn vào thân ます: 〜すぎる, 〜そうだ, 〜ながら, 〜にくい／〜やすい.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 4,
+          "order": 4,
+          "file": "grammar/04-the-masu.json"
         }
       ]
     }

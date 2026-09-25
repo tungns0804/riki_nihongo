@@ -1,0 +1,76 @@
+{
+  "sections": [
+    {
+      "id": "the-masu-mondai-2",
+      "title": "文法 問題2 — Ghép câu, chọn từ vào ★ (4 câu)",
+      "instructions": "問題2：★に 入る ものは どれですか。1・2・3・4から いちばん いい ものを 一つ えらんで ください。",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n4cs-ms-01",
+          "promptJapanese": "＿＿＿　＿＿＿　★　＿＿＿　ことは ありません。",
+          "promptReading": "＿＿＿　＿＿＿　★　＿＿＿　ことは ありません。",
+          "promptVietnamese": "Dù có học nhiều đến đâu thì cũng không bao giờ là học quá nhiều.",
+          "choices": ["どんなに", "しすぎる", "勉強", "しても"],
+          "choicesVietnamese": ["dù ~ đến đâu (どんなに)", "làm quá mức (しすぎる)", "việc học (勉強)", "dù có làm (しても)"],
+          "choiceNotes": [
+            "Ô thứ 1 — どんなに mở đầu, báo trước là cuối vế sẽ có 〜ても.",
+            "Ô thứ 4 — しすぎる đứng ngay trước ことはありません.",
+            "Ô thứ 2 — 勉強 là danh từ đi với する.",
+            "Đúng: ô ★ (ô thứ 3) — しても khép cặp どんなに〜ても."
+          ],
+          "answer": 4,
+          "explanation": "Thứ tự đúng: どんなに 勉強しても しすぎる ことはありません (1-3-4-2). Ba mẫu lồng nhau: どんなに〜ても (dù ~ đến đâu), 〜すぎる (quá mức), 〜ことはない (không bao giờ ~, không cần ~)."
+        },
+        {
+          "id": "n4cs-ms-02",
+          "promptJapanese": "私は 子どもに 英語を 教えた ことが　＿＿＿　＿＿＿　＿★＿　＿＿＿　と 思いました。",
+          "promptReading": "わたしは こどもに えいごを おしえた ことが　＿＿＿　＿＿＿　＿★＿　＿＿＿　と おもいました。",
+          "promptVietnamese": "Tôi chưa từng dạy tiếng Anh cho trẻ con, nhưng tôi thấy việc đó có vẻ thú vị.",
+          "choices": ["おもしろそうだ", "の", "なかった", "ですが"],
+          "choicesVietnamese": ["có vẻ thú vị (おもしろそうだ)", "の của mẫu 〜のです", "không có, chưa từng (なかった)", "nhưng (ですが)"],
+          "choiceNotes": [
+            "Ô thứ 4 — おもしろそうだ đứng ngay trước と思いました.",
+            "Ô thứ 2 — の nối vào なかった để thành 〜のですが.",
+            "Ô thứ 1 — なかった đi liền sau ことが, thành \"chưa từng\".",
+            "Đúng: ô ★ (ô thứ 3) — ですが khép vế hoàn cảnh rồi mới sang ý chính."
+          ],
+          "answer": 4,
+          "explanation": "Thứ tự đúng: 教えたことが なかったのですが、おもしろそうだ と思いました (3-2-4-1). 〜のですが nêu hoàn cảnh trước khi vào ý chính. Chú ý おもしろそうだ là 〜そうだ \"trông có vẻ\" (bỏ い của おもしろい), khác với おもしろいそうだ \"nghe nói là thú vị\"."
+        },
+        {
+          "id": "n4cs-ms-03",
+          "promptJapanese": "A：「ちょっと 話が あるんだけど。」\nB：「いそいで いるから　＿＿＿　＿＿＿　＿★＿　＿＿＿　？」",
+          "promptReading": "A：「ちょっと はなしが あるんだけど。」\nB：「いそいで いるから　＿＿＿　＿＿＿　＿★＿　＿＿＿　？」",
+          "promptVietnamese": "A: \"Tớ có chuyện muốn nói một chút.\"\nB: \"Tớ đang vội nên vừa đi vừa nói cũng được chứ?\"",
+          "choices": ["ながら", "でも", "あるき", "いい"],
+          "choicesVietnamese": ["vừa ~ vừa (ながら)", "~ cũng (được) (でも)", "thân ます của 歩く (あるき)", "được, tốt (いい)"],
+          "choiceNotes": [
+            "Ô thứ 2 — ながら gắn vào thân ます đứng ngay trước nó.",
+            "Đúng: ô ★ (ô thứ 3) — でも đi ngay trước いい, thành \"~ cũng được\".",
+            "Ô thứ 1 — あるき là thân ます của 歩く, phải đứng trước ながら.",
+            "Ô thứ 4 — いい đứng cuối, có dấu ？ đi sau thành câu hỏi."
+          ],
+          "answer": 2,
+          "explanation": "Thứ tự đúng: 歩きながらでもいい？ (3-1-2-4). 〜ながら gắn vào THÂN ます (歩き＋ながら) và nói hai việc làm cùng lúc. Thêm でもいい thành lời xin phép thân mật, lịch sự hơn thì nói 歩きながらでもいいですか."
+        },
+        {
+          "id": "n4cs-ms-04",
+          "promptJapanese": "川北：「ケンさん、＿＿＿＿　＿＿＿＿　＿★＿　＿＿＿＿　ですか。」\nケン：「いいえ、どちらも おぼえやすかったです。」",
+          "promptReading": "かわきた：「ケンさん、＿＿＿＿　＿＿＿＿　＿★＿　＿＿＿＿　ですか。」\nケン：「いいえ、どちらも おぼえやすかったです。」",
+          "promptVietnamese": "Kawakita: \"Anh Ken, hiragana và katakana của tiếng Nhật có khó nhớ không?\"\nKen: \"Không, cả hai đều dễ nhớ ạ.\"",
+          "choices": ["日本語の", "かたかなは", "ひらがなや", "おぼえにくかった"],
+          "choicesVietnamese": ["của tiếng Nhật (日本語の)", "katakana thì (かたかなは)", "hiragana và (ひらがなや)", "đã khó nhớ (おぼえにくかった)"],
+          "choiceNotes": [
+            "Ô thứ 1 — 日本語の bổ nghĩa cho cả hai thứ chữ đứng sau.",
+            "Đúng: ô ★ (ô thứ 3) — かたかなは khép danh sách, は nêu chủ đề của câu hỏi.",
+            "Ô thứ 2 — や nối hai danh từ nên ひらがなや phải đứng trước かたかな.",
+            "Ô thứ 4 — おぼえにくかった đứng ngay trước ですか."
+          ],
+          "answer": 2,
+          "explanation": "Thứ tự đúng: 日本語の ひらがなや かたかなは おぼえにくかった ですか (1-3-2-4). Cặp đối nhau: 〜にくい (khó làm) ↔ 〜やすい (dễ làm), đều gắn vào thân ます (おぼえ＋にくい) và chia như tính từ đuôi い — nên quá khứ là おぼえにくかった."
+        }
+      ]
+    }
+  ]
+}
