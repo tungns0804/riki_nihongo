@@ -74,15 +74,17 @@ bản dịch tiếng Việt của câu hỏi, của từng lựa chọn và củ
 ([cách viết](data-source/n3-junbi/entrance-test/README.md)).
 
 Phần **Từ vựng** của N3 JUNBI đã có nội dung thật: mục "Danh từ" gồm 120 từ của
-第1課–第6課, mục "Động từ" gồm 20 từ của 第7課 (121–140), mục "Tính từ" gồm 22 từ của
-第14課 (259–280) chia ba cụm, có bảng "Tóm tắt bài" ghi chủ đề từng cụm. Katakana và Phó
-từ mới đặt chỗ, đang chờ nội dung. Bên BTVN, mục "Danh từ" có 70 từ chia bảy cụm theo bảy
-bài tập, cũng có bảng "Tóm tắt bài".
+第1課–第6課, mục "Động từ" gồm 20 từ của 第7課 (121–140), mục "Tính từ" gồm 34 từ —
+22 từ của 第14課 (259–280) chia ba cụm, thêm cụm 299–310 gồm sáu cặp tự / tha động từ
+sinh ra từ tính từ — có bảng "Tóm tắt bài" ghi chủ đề từng cụm. Mục "Danh từ 2" là bài
+danh từ thứ hai của Riki, gồm 8 từ 311–318 về chuyện chăm sóc, biết ơn và phép xã giao.
+Katakana và Phó từ mới đặt chỗ, đang chờ nội dung. Bên BTVN, mục "Danh từ" có 70 từ chia
+bảy cụm theo bảy bài tập, cũng có bảng "Tóm tắt bài".
 
-Bài "Danh từ" còn có **bài tập về nhà** của từng buổi: `BTVN 1–10` (9 câu), rồi
-`BTVN 11–20`, `21–30`, `31–40` (10 câu mỗi bài), chép theo đề BTVN của Riki. Mỗi BTVN là một bài dạng ĐỀ
-**nằm trong** bài Danh từ chứ không đứng ngang hàng với nó — xem "Bài tập về nhà"
-bên dưới.
+Các bài từ vựng còn có **bài tập về nhà** của từng buổi: "Danh từ" có `BTVN 1–10` (9 câu),
+rồi `BTVN 11–20`, `21–30`, `31–40` (10 câu mỗi bài); "Tính từ" có `BTVN 299–310` (12 câu).
+Tất cả chép theo đề BTVN của Riki. Mỗi BTVN là một bài dạng ĐỀ **nằm trong** bài từ vựng
+chứ không đứng ngang hàng với nó — xem "Bài tập về nhà" bên dưới.
 
 Phần **Ngữ pháp** của N3 JUNBI có bài "Đề thi thật ôn tập N4 · Nhiệm vụ 2" — 30 câu
 文法 chép theo các đề thật 07/2014 – 07/2017, mỗi câu có bản dịch của câu hỏi và của cả

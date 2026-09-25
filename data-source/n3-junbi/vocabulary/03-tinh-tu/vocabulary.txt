@@ -1,5 +1,5 @@
-# N3 JUNBI — 文字語彙 · TÍNH TỪ (259–280)
-# Nguồn: 第14課 của tài liệu N3準備 文字語彙
+# N3 JUNBI — 文字語彙 · TÍNH TỪ (259–280, 299–310)
+# Nguồn: 第14課 của tài liệu N3準備 文字語彙 (259–280); ảnh trang từ vựng Riki (299–310)
 # Định dạng: xem data-source/n3-junbi/vocabulary/README.md
 #
 # Viết như file động từ, thêm hai quy ước:
@@ -292,3 +292,79 @@
 読: にほんのかいしゃにしゅうしょくでき、しょうらいへのふあんがなくなった。
 文法: ～でき = thể khả năng ngắt giữa câu (văn viết); ～への＋N = N hướng về ~
 連: 不安がある／不安がない (≒ 心配)
+
+# nguồn: ảnh chụp trang từ vựng Riki (thẻ "299–310"), người dùng gửi 2026-09-24.
+# Chưa biết số bài trong giáo trình nên nhãn cụm chỉ ghi khoảng số từ.
+# Cả cụm là sáu cặp TỰ ĐỘNG TỪ / THA ĐỘNG TỪ sinh ra từ tính từ (温かい → 温まる/温める),
+# nên xếp vào bài Tính từ. Từ lẻ ở cột trái là tự động từ, từ chẵn ở cột phải là tha động từ;
+# dòng 対 ghi lại cặp đó.
+## 299–310 = Tự động từ và tha động từ sinh ra từ tính từ
+299. 温まる (あたたまる) = ÔN ; Ấm lên
+・お風呂に入ると体が[温まる]。| Vào bồn tắm là người ấm lên.
+読: おふろにはいるとからだがあたたまる。
+文法: ～と = hễ ~ là… — nêu kết quả tất yếu, không dùng cho ý muốn hay nhờ vả
+対: 温める (あたためる)
+
+300. 温める (あたためる) = ÔN ; Làm ấm
+・電子レンジでスープを[温める]。| Hâm súp bằng lò vi sóng.
+読: でんしレンジでスープをあたためる。
+文法: N ＋で = bằng ~ (phương tiện, dụng cụ)
+対: 温まる (あたたまる)
+
+301. 高まる (たかまる) = CAO ; Tăng
+・台風が近づき、波が[高まって]いる。| Bão đến gần, sóng đang dâng cao.
+読: たいふうがちかづき、なみがたかまっている。
+文法: V ます＋、= ngắt câu bằng thể ます (văn viết, thay cho ～て); ～ている = đang tiếp diễn
+対: 高める (たかめる)
+
+302. 高める (たかめる) = CAO ; Làm tăng
+・山田さんはもっとコミュニケーション能力を[高める]必要がある。| Anh Yamada cần nâng cao thêm năng lực giao tiếp.
+読: やまださんはもっとコミュニケーションのうりょくをたかめるひつようがある。
+文法: V る＋必要がある = cần phải ~
+対: 高まる (たかまる)
+
+303. 強まる (つよまる) = CƯỜNG ; Mạnh lên
+・台風の勢力はますます[強まって]いる。| Sức của cơn bão ngày một mạnh lên.
+読: たいふうのせいりょくはますますつよまっている。
+文法: ますます = ngày càng, mỗi lúc một ~
+対: 強める (つよめる)
+
+304. 強める (つよめる) = CƯỜNG ; Đẩy mạnh, gia tăng
+・火／力／自信を[強める]。| Tăng lửa / dồn sức / củng cố lòng tự tin.
+読: ひ／ちから／じしんをつよめる。
+対: 強まる (つよまる)
+
+305. 弱まる (よわまる) = NHƯỢC ; Yếu đi
+・（雨／風／力／勢力／影響…）が[弱まる]。| (Mưa / gió / sức / thế lực / ảnh hưởng…) yếu đi.
+読: （あめ／かぜ／ちから／せいりょく／えいきょう…）がよわまる。
+対: 弱める (よわめる)
+
+306. 弱める (よわめる) = NHƯỢC ; Làm yếu đi
+・「材料がやわらかくなってきたら、火を[弱めて]煮込みましょう」| "Khi nguyên liệu mềm ra thì vặn nhỏ lửa rồi ninh nhé."
+読: 「ざいりょうがやわらかくなってきたら、ひをよわめてにこみましょう」
+文法: ～てくる = dần dần ~ (thay đổi tiến về hiện tại); ～たら = khi ~ thì; V ましょう = cùng ~ nhé
+対: 弱まる (よわまる)
+
+307. 広まる (ひろまる) = QUẢNG ; (Được) lan truyền, lan rộng, phổ biến
+・不倫のうわさは1日で会社中に[広まった]。| Tin đồn ngoại tình lan khắp công ty chỉ trong một ngày.
+読: ふりんのうわさはいちにちでかいしゃじゅうにひろまった。
+文法: khoảng thời gian ＋で = trong vòng ~; N ＋中 = khắp ~ (会社中 = khắp công ty)
+対: 広める (ひろめる)
+
+308. 広める (ひろめる) = QUẢNG ; Lan truyền, lan rộng
+・先輩の（お）めでたい話を[広める]。| Loan tin vui của tiền bối đi khắp nơi.
+読: せんぱいの（お）めでたいはなしをひろめる。
+文法: お＋N = tiền tố lịch sự, ở đây lược được; めでたい = đáng mừng, tốt lành
+対: 広まる (ひろまる)
+
+309. 深まる (ふかまる) = THÂM ; Vào sâu (thời gian)/ Sâu sắc hơn
+・秋が[深まり]、紅葉の美しい季節になった。| Thu đã vào sâu, mùa lá đỏ đẹp đẽ đã tới.
+読: あきがふかまり、こうようのうつくしいきせつになった。
+文法: V ます＋、= ngắt câu bằng thể ます (văn viết); N ＋になる = trở thành ~
+対: 深める (ふかめる)
+
+310. 深める (ふかめる) = THÂM ; Khắc sâu
+・交流を[深め]、相手の国のことを理解することが大切だ。| Giao lưu sâu hơn để hiểu về đất nước của đối phương là điều quan trọng.
+読: こうりゅうをふかめ、あいてのくにのことをりかいすることがたいせつだ。
+文法: V ます＋、= ngắt câu bằng thể ます (văn viết); V る＋こと = việc ~ (danh từ hoá)
+対: 深まる (ふかまる)

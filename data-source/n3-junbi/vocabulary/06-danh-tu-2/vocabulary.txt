@@ -1,0 +1,54 @@
+# N3 JUNBI — 文字語彙 · DANH TỪ 2 (311–318)
+# Nguồn: ảnh chụp trang từ vựng Riki (thẻ "311–318"), người dùng gửi 2026-09-24.
+# Định dạng: xem data-source/n3-junbi/vocabulary/README.md
+#
+# Đây là bài danh từ THỨ HAI, đứng riêng với bài "Danh từ" (01–120) đúng như trên web
+# Riki. Chưa biết số bài trong giáo trình nên nhãn cụm chỉ ghi khoảng số từ.
+#
+# Danh từ thì câu ví dụ không cần đánh dấu [ ]: máy tự tìm nguyên mặt chữ trong câu.
+# Chỉ 317 phải đánh dấu, vì thẻ in tiêu đề bằng chữ Hán (お辞儀) mà câu lại viết kana.
+#
+# Bản dịch, dòng 読 (cách đọc cả câu) và dòng 文法 là phần viết thêm, không có trên thẻ.
+
+## 311–318 = Chăm sóc, biết ơn và phép xã giao
+311. 世話 (せわ) = THẾ THOẠI ; Chăm sóc/ Hỗ trợ, giúp đỡ
+・病人／ペットの世話は私の仕事だ。| Chăm người bệnh / chăm thú cưng là việc của tôi.
+読: びょうにん／ペットのせわはわたしのしごとだ。
+文法: N の世話をする = chăm sóc N — câu này đảo thành ～の世話は…だ để nói đó là việc của ai
+
+312. 家庭 (かてい) = GIA ĐÌNH ; Gia đình
+・石田さんは仕事ではきびしいが、家庭ではやさしいお父さんだそうだ。| Nghe nói anh Ishida nghiêm khắc trong công việc, nhưng ở nhà lại là người cha hiền.
+読: いしださんはしごとではきびしいが、かていではやさしいおとうさんだそうだ。
+文法: ～では…が、～では… = ở chỗ này thì…, ở chỗ kia thì… (đặt hai nơi đối nhau); ～そうだ = nghe nói ~
+
+313. 協力 (きょうりょく) = HIỆP LỰC ; Chung sức, hợp tác
+・家族で協力して祖母の介護をした。| Cả nhà chung sức chăm sóc bà.
+読: かぞくできょうりょくしてそぼのかいごをした。
+文法: N ＋で = cả nhóm cùng làm (家族で = cả nhà cùng nhau); ～して = rồi, và (nối hai việc)
+
+314. 感謝 (かんしゃ) = CẢM TẠ ; Biết ơn
+・就職のアドバイスをしてくれた先輩に、心の底から感謝しています。| Tôi biết ơn từ tận đáy lòng người tiền bối đã cho tôi lời khuyên về chuyện xin việc.
+読: しゅうしょくのアドバイスをしてくれたせんぱいに、こころのそこからかんしゃしています。
+文法: ～てくれた＋N = N đã làm việc đó cho mình; ～に感謝する = biết ơn ai; 心の底から = từ tận đáy lòng
+
+315. お礼 (おれい) = LỄ ; Cảm ơn
+・入学祝いのお礼にお菓子を送った。| Tôi gửi bánh kẹo để cảm ơn món quà mừng nhập học.
+読: にゅうがくいわいのおれいにおかしをおくった。
+文法: ～のお礼に＋V = làm gì để đáp lễ ~ — お礼 là cái mình đáp lại, không phải lời nói suông
+
+316. お詫び (おわび) = Xin lỗi
+・迷惑をかけた人にお詫びをした。| Tôi đã xin lỗi người mà mình gây phiền.
+読: めいわくをかけたひとにおわびをした。
+文法: 迷惑をかける = gây phiền cho ai; ～にお詫びをする = xin lỗi ai
+
+# Thẻ in tiêu đề bằng chữ Hán (お辞儀) nhưng câu ví dụ viết kana おじぎ, nên phải đánh dấu
+# [ ] thì máy mới tô và khoét được đúng chỗ.
+317. お辞儀 (おじぎ) = TỪ NGHI ; Cúi chào
+・「お客様には深く／軽く／ていねいに[おじぎ]をしましょう」| "Với khách thì hãy cúi chào thật sâu / khẽ / cho lịch sự nhé."
+読: 「おきゃくさまにはふかく／かるく／ていねいにおじぎをしましょう」
+文法: ～には = đối với ~ thì; tính từ い bỏ い ＋く＋V = cúi một cách ~; V ましょう = hãy ~ nhé
+
+318. 握手 (あくしゅ) = ÁC THỦ ; Nắm tay, bắt tay
+・コンサートでアイドルと握手した。| Tôi đã bắt tay thần tượng ở buổi hoà nhạc.
+読: コンサートでアイドルとあくしゅした。
+文法: N と握手する = bắt tay với ai — người cùng làm đi với と chứ không phải を

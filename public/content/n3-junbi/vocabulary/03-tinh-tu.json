@@ -1,7 +1,7 @@
 {
   "id": "03-tinh-tu",
   "name": "Tính từ",
-  "description": "Tính từ N3準備 文字語彙 — 第14課 (259–280)",
+  "description": "Tính từ N3準備 文字語彙 — 第14課 (259–280) và động từ sinh ra từ tính từ (299–310)",
   "kind": "vocabulary",
   "parent": "",
   "group": "",
@@ -17,6 +17,10 @@
     {
       "label": "274–280",
       "title": "Bài 14.3 · Tính cách, sự hài lòng và nỗi lo"
+    },
+    {
+      "label": "299–310",
+      "title": "Tự động từ và tha động từ sinh ra từ tính từ"
     }
   ],
   "words": [
@@ -1080,6 +1084,342 @@
         {
           "label": "連",
           "text": "不安がある／不安がない (≒ 心配)"
+        }
+      ]
+    },
+    {
+      "id": "05ef5b209515fd87",
+      "number": 299,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "温まる",
+      "reading": "あたたまる",
+      "hanViet": "ÔN",
+      "vietnamese": "Ấm lên",
+      "examples": [
+        {
+          "id": "dfa2168191369c4b",
+          "japanese": "お風呂に入ると体が温まる。",
+          "vietnamese": "Vào bồn tắm là người ấm lên.",
+          "reading": "おふろにはいるとからだがあたたまる。",
+          "grammar": "～と = hễ ~ là… — nêu kết quả tất yếu, không dùng cho ý muốn hay nhờ vả",
+          "targets": [
+            "温まる"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "温める (あたためる)"
+        }
+      ]
+    },
+    {
+      "id": "a2b51aac8af8a392",
+      "number": 300,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "温める",
+      "reading": "あたためる",
+      "hanViet": "ÔN",
+      "vietnamese": "Làm ấm",
+      "examples": [
+        {
+          "id": "8c5bc165dd9c2249",
+          "japanese": "電子レンジでスープを温める。",
+          "vietnamese": "Hâm súp bằng lò vi sóng.",
+          "reading": "でんしレンジでスープをあたためる。",
+          "grammar": "N ＋で = bằng ~ (phương tiện, dụng cụ)",
+          "targets": [
+            "温める"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "温まる (あたたまる)"
+        }
+      ]
+    },
+    {
+      "id": "0cc257584d5de1b1",
+      "number": 301,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "高まる",
+      "reading": "たかまる",
+      "hanViet": "CAO",
+      "vietnamese": "Tăng",
+      "examples": [
+        {
+          "id": "1f37f2c4b94e7da9",
+          "japanese": "台風が近づき、波が高まっている。",
+          "vietnamese": "Bão đến gần, sóng đang dâng cao.",
+          "reading": "たいふうがちかづき、なみがたかまっている。",
+          "grammar": "V ます＋、= ngắt câu bằng thể ます (văn viết, thay cho ～て); ～ている = đang tiếp diễn",
+          "targets": [
+            "高まって"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "高める (たかめる)"
+        }
+      ]
+    },
+    {
+      "id": "3e64b2e3565e8264",
+      "number": 302,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "高める",
+      "reading": "たかめる",
+      "hanViet": "CAO",
+      "vietnamese": "Làm tăng",
+      "examples": [
+        {
+          "id": "bab612193ae83c06",
+          "japanese": "山田さんはもっとコミュニケーション能力を高める必要がある。",
+          "vietnamese": "Anh Yamada cần nâng cao thêm năng lực giao tiếp.",
+          "reading": "やまださんはもっとコミュニケーションのうりょくをたかめるひつようがある。",
+          "grammar": "V る＋必要がある = cần phải ~",
+          "targets": [
+            "高める"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "高まる (たかまる)"
+        }
+      ]
+    },
+    {
+      "id": "64f995b9fc6a9ce2",
+      "number": 303,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "強まる",
+      "reading": "つよまる",
+      "hanViet": "CƯỜNG",
+      "vietnamese": "Mạnh lên",
+      "examples": [
+        {
+          "id": "a4d4fa3857b5261c",
+          "japanese": "台風の勢力はますます強まっている。",
+          "vietnamese": "Sức của cơn bão ngày một mạnh lên.",
+          "reading": "たいふうのせいりょくはますますつよまっている。",
+          "grammar": "ますます = ngày càng, mỗi lúc một ~",
+          "targets": [
+            "強まって"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "強める (つよめる)"
+        }
+      ]
+    },
+    {
+      "id": "99f0ca6dfd9505bd",
+      "number": 304,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "強める",
+      "reading": "つよめる",
+      "hanViet": "CƯỜNG",
+      "vietnamese": "Đẩy mạnh, gia tăng",
+      "examples": [
+        {
+          "id": "b754c64f0e5a1478",
+          "japanese": "火／力／自信を強める。",
+          "vietnamese": "Tăng lửa / dồn sức / củng cố lòng tự tin.",
+          "reading": "ひ／ちから／じしんをつよめる。",
+          "grammar": "",
+          "targets": [
+            "強める"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "強まる (つよまる)"
+        }
+      ]
+    },
+    {
+      "id": "ee5a307b99fa5c61",
+      "number": 305,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "弱まる",
+      "reading": "よわまる",
+      "hanViet": "NHƯỢC",
+      "vietnamese": "Yếu đi",
+      "examples": [
+        {
+          "id": "3069b3cbdd60678f",
+          "japanese": "（雨／風／力／勢力／影響…）が弱まる。",
+          "vietnamese": "(Mưa / gió / sức / thế lực / ảnh hưởng…) yếu đi.",
+          "reading": "（あめ／かぜ／ちから／せいりょく／えいきょう…）がよわまる。",
+          "grammar": "",
+          "targets": [
+            "弱まる"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "弱める (よわめる)"
+        }
+      ]
+    },
+    {
+      "id": "70ff07b928c7a020",
+      "number": 306,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "弱める",
+      "reading": "よわめる",
+      "hanViet": "NHƯỢC",
+      "vietnamese": "Làm yếu đi",
+      "examples": [
+        {
+          "id": "184701ab998c0c95",
+          "japanese": "「材料がやわらかくなってきたら、火を弱めて煮込みましょう」",
+          "vietnamese": "\"Khi nguyên liệu mềm ra thì vặn nhỏ lửa rồi ninh nhé.\"",
+          "reading": "「ざいりょうがやわらかくなってきたら、ひをよわめてにこみましょう」",
+          "grammar": "～てくる = dần dần ~ (thay đổi tiến về hiện tại); ～たら = khi ~ thì; V ましょう = cùng ~ nhé",
+          "targets": [
+            "弱めて"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "弱まる (よわまる)"
+        }
+      ]
+    },
+    {
+      "id": "6719e11c1a04cc8f",
+      "number": 307,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "広まる",
+      "reading": "ひろまる",
+      "hanViet": "QUẢNG",
+      "vietnamese": "(Được) lan truyền, lan rộng, phổ biến",
+      "examples": [
+        {
+          "id": "f671b7d2f1ba6a93",
+          "japanese": "不倫のうわさは1日で会社中に広まった。",
+          "vietnamese": "Tin đồn ngoại tình lan khắp công ty chỉ trong một ngày.",
+          "reading": "ふりんのうわさはいちにちでかいしゃじゅうにひろまった。",
+          "grammar": "khoảng thời gian ＋で = trong vòng ~; N ＋中 = khắp ~ (会社中 = khắp công ty)",
+          "targets": [
+            "広まった"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "広める (ひろめる)"
+        }
+      ]
+    },
+    {
+      "id": "e6cbabb3dd00c458",
+      "number": 308,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "広める",
+      "reading": "ひろめる",
+      "hanViet": "QUẢNG",
+      "vietnamese": "Lan truyền, lan rộng",
+      "examples": [
+        {
+          "id": "6109459657bb0838",
+          "japanese": "先輩の（お）めでたい話を広める。",
+          "vietnamese": "Loan tin vui của tiền bối đi khắp nơi.",
+          "reading": "せんぱいの（お）めでたいはなしをひろめる。",
+          "grammar": "お＋N = tiền tố lịch sự, ở đây lược được; めでたい = đáng mừng, tốt lành",
+          "targets": [
+            "広める"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "広まる (ひろまる)"
+        }
+      ]
+    },
+    {
+      "id": "ee7532cdb2c2de38",
+      "number": 309,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "深まる",
+      "reading": "ふかまる",
+      "hanViet": "THÂM",
+      "vietnamese": "Vào sâu (thời gian)/ Sâu sắc hơn",
+      "examples": [
+        {
+          "id": "feca792af1a6529c",
+          "japanese": "秋が深まり、紅葉の美しい季節になった。",
+          "vietnamese": "Thu đã vào sâu, mùa lá đỏ đẹp đẽ đã tới.",
+          "reading": "あきがふかまり、こうようのうつくしいきせつになった。",
+          "grammar": "V ます＋、= ngắt câu bằng thể ます (văn viết); N ＋になる = trở thành ~",
+          "targets": [
+            "深まり"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "深める (ふかめる)"
+        }
+      ]
+    },
+    {
+      "id": "6c043e38fd68c65e",
+      "number": 310,
+      "group": "299–310",
+      "particle": "",
+      "japanese": "深める",
+      "reading": "ふかめる",
+      "hanViet": "THÂM",
+      "vietnamese": "Khắc sâu",
+      "examples": [
+        {
+          "id": "7505410d6fa047a1",
+          "japanese": "交流を深め、相手の国のことを理解することが大切だ。",
+          "vietnamese": "Giao lưu sâu hơn để hiểu về đất nước của đối phương là điều quan trọng.",
+          "reading": "こうりゅうをふかめ、あいてのくにのことをりかいすることがたいせつだ。",
+          "grammar": "V ます＋、= ngắt câu bằng thể ます (văn viết); V る＋こと = việc ~ (danh từ hoá)",
+          "targets": [
+            "深め"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "深まる (ふかまる)"
         }
       ]
     }

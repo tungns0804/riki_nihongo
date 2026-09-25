@@ -145,16 +145,19 @@ Tính từ cũng đánh dấu `[ ]` trong câu như động từ — tính từ 
 
 ## Các bài của phần Từ vựng
 
-Mỗi bài là MỘT LOẠI TỪ, chứa toàn bộ từ của loại đó — không tách thành nhiều phần
-đánh số. Bấm vào "Danh từ" là thấy hết danh từ của khoá.
+Danh sách bài chép đúng danh sách trên web Riki: mỗi bài là MỘT LOẠI TỪ và không tự
+tách một bài của Riki thành nhiều phần đánh số. Riki mở bài mới khi giáo trình quay lại
+một loại từ đã học, nên phần này có cả "Danh từ" (01–120) lẫn "Danh từ 2" (311–318) —
+đó là hai bài của Riki chứ không phải một bài bị cắt đôi.
 
 | Thư mục        | Tên hiển thị | Trạng thái |
 | -------------- | ------------ | ---------- |
 | `01-danh-tu`   | Danh từ      | 120 từ · 第1課–第6課 (01–120), chia 12 cụm 10 từ, có chủ đề |
 | `02-dong-tu`   | Động từ      | 20 từ · 第7課 (121–140), chia 2 cụm 10 từ |
-| `03-tinh-tu`   | Tính từ      | 22 từ · 第14課 (259–280), chia 3 cụm 259–265 (bài 14.1), 266–273 (bài 14.2), 274–280 (bài 14.3), có chủ đề |
+| `03-tinh-tu`   | Tính từ      | 34 từ · 第14課 (259–280) chia 3 cụm 259–265 (bài 14.1), 266–273 (bài 14.2), 274–280 (bài 14.3); thêm cụm 299–310 (sáu cặp tự/tha động từ sinh ra từ tính từ), có chủ đề |
 | `04-katakana`  | Katakana     | chờ nội dung |
 | `05-pho-tu`    | Phó từ       | chờ nội dung |
+| `06-danh-tu-2` | Danh từ 2    | 8 từ · 311–318, một cụm "Chăm sóc, biết ơn và phép xã giao", có chủ đề |
 
 Thêm nội dung cho một bài = đặt file `vocabulary.txt` vào đúng thư mục của bài đó rồi
 chạy `npm run generate`. Động từ mới của 第8課 trở đi thì viết nối vào cuối

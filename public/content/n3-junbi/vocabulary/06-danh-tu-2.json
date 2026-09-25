@@ -1,0 +1,200 @@
+{
+  "id": "06-danh-tu-2",
+  "name": "Danh từ 2",
+  "description": "Danh từ N3準備 文字語彙 — 311–318 · Chăm sóc, biết ơn và phép xã giao",
+  "kind": "vocabulary",
+  "parent": "",
+  "group": "",
+  "groups": [
+    {
+      "label": "311–318",
+      "title": "Chăm sóc, biết ơn và phép xã giao"
+    }
+  ],
+  "words": [
+    {
+      "id": "e3a064233795015f",
+      "number": 311,
+      "group": "311–318",
+      "particle": "",
+      "japanese": "世話",
+      "reading": "せわ",
+      "hanViet": "THẾ THOẠI",
+      "vietnamese": "Chăm sóc/ Hỗ trợ, giúp đỡ",
+      "examples": [
+        {
+          "id": "c9f9c23afe50e429",
+          "japanese": "病人／ペットの世話は私の仕事だ。",
+          "vietnamese": "Chăm người bệnh / chăm thú cưng là việc của tôi.",
+          "reading": "びょうにん／ペットのせわはわたしのしごとだ。",
+          "grammar": "N の世話をする = chăm sóc N — câu này đảo thành ～の世話は…だ để nói đó là việc của ai",
+          "targets": [
+            "世話"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "af3fa7f7089205f9",
+      "number": 312,
+      "group": "311–318",
+      "particle": "",
+      "japanese": "家庭",
+      "reading": "かてい",
+      "hanViet": "GIA ĐÌNH",
+      "vietnamese": "Gia đình",
+      "examples": [
+        {
+          "id": "f85f752b9628175c",
+          "japanese": "石田さんは仕事ではきびしいが、家庭ではやさしいお父さんだそうだ。",
+          "vietnamese": "Nghe nói anh Ishida nghiêm khắc trong công việc, nhưng ở nhà lại là người cha hiền.",
+          "reading": "いしださんはしごとではきびしいが、かていではやさしいおとうさんだそうだ。",
+          "grammar": "～では…が、～では… = ở chỗ này thì…, ở chỗ kia thì… (đặt hai nơi đối nhau); ～そうだ = nghe nói ~",
+          "targets": [
+            "家庭"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "54176d665375ba4d",
+      "number": 313,
+      "group": "311–318",
+      "particle": "",
+      "japanese": "協力",
+      "reading": "きょうりょく",
+      "hanViet": "HIỆP LỰC",
+      "vietnamese": "Chung sức, hợp tác",
+      "examples": [
+        {
+          "id": "8478567751cf4b1e",
+          "japanese": "家族で協力して祖母の介護をした。",
+          "vietnamese": "Cả nhà chung sức chăm sóc bà.",
+          "reading": "かぞくできょうりょくしてそぼのかいごをした。",
+          "grammar": "N ＋で = cả nhóm cùng làm (家族で = cả nhà cùng nhau); ～して = rồi, và (nối hai việc)",
+          "targets": [
+            "協力"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "8610670a2fc27fdc",
+      "number": 314,
+      "group": "311–318",
+      "particle": "",
+      "japanese": "感謝",
+      "reading": "かんしゃ",
+      "hanViet": "CẢM TẠ",
+      "vietnamese": "Biết ơn",
+      "examples": [
+        {
+          "id": "3364ae0cf24ee487",
+          "japanese": "就職のアドバイスをしてくれた先輩に、心の底から感謝しています。",
+          "vietnamese": "Tôi biết ơn từ tận đáy lòng người tiền bối đã cho tôi lời khuyên về chuyện xin việc.",
+          "reading": "しゅうしょくのアドバイスをしてくれたせんぱいに、こころのそこからかんしゃしています。",
+          "grammar": "～てくれた＋N = N đã làm việc đó cho mình; ～に感謝する = biết ơn ai; 心の底から = từ tận đáy lòng",
+          "targets": [
+            "感謝"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "ac184f2ba9f7a15f",
+      "number": 315,
+      "group": "311–318",
+      "particle": "",
+      "japanese": "お礼",
+      "reading": "おれい",
+      "hanViet": "LỄ",
+      "vietnamese": "Cảm ơn",
+      "examples": [
+        {
+          "id": "7aa43e622ccf38b6",
+          "japanese": "入学祝いのお礼にお菓子を送った。",
+          "vietnamese": "Tôi gửi bánh kẹo để cảm ơn món quà mừng nhập học.",
+          "reading": "にゅうがくいわいのおれいにおかしをおくった。",
+          "grammar": "～のお礼に＋V = làm gì để đáp lễ ~ — お礼 là cái mình đáp lại, không phải lời nói suông",
+          "targets": [
+            "お礼"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "8ca7b40e372f483d",
+      "number": 316,
+      "group": "311–318",
+      "particle": "",
+      "japanese": "お詫び",
+      "reading": "おわび",
+      "hanViet": "",
+      "vietnamese": "Xin lỗi",
+      "examples": [
+        {
+          "id": "5498c9a8e389af3e",
+          "japanese": "迷惑をかけた人にお詫びをした。",
+          "vietnamese": "Tôi đã xin lỗi người mà mình gây phiền.",
+          "reading": "めいわくをかけたひとにおわびをした。",
+          "grammar": "迷惑をかける = gây phiền cho ai; ～にお詫びをする = xin lỗi ai",
+          "targets": [
+            "お詫び"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "ab72f609dd9d377e",
+      "number": 317,
+      "group": "311–318",
+      "particle": "",
+      "japanese": "お辞儀",
+      "reading": "おじぎ",
+      "hanViet": "TỪ NGHI",
+      "vietnamese": "Cúi chào",
+      "examples": [
+        {
+          "id": "7c47f9adeeecf8ef",
+          "japanese": "「お客様には深く／軽く／ていねいにおじぎをしましょう」",
+          "vietnamese": "\"Với khách thì hãy cúi chào thật sâu / khẽ / cho lịch sự nhé.\"",
+          "reading": "「おきゃくさまにはふかく／かるく／ていねいにおじぎをしましょう」",
+          "grammar": "～には = đối với ~ thì; tính từ い bỏ い ＋く＋V = cúi một cách ~; V ましょう = hãy ~ nhé",
+          "targets": [
+            "おじぎ"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "120f2d8f2f335fa4",
+      "number": 318,
+      "group": "311–318",
+      "particle": "",
+      "japanese": "握手",
+      "reading": "あくしゅ",
+      "hanViet": "ÁC THỦ",
+      "vietnamese": "Nắm tay, bắt tay",
+      "examples": [
+        {
+          "id": "25f2e277f253ab45",
+          "japanese": "コンサートでアイドルと握手した。",
+          "vietnamese": "Tôi đã bắt tay thần tượng ở buổi hoà nhạc.",
+          "reading": "コンサートでアイドルとあくしゅした。",
+          "grammar": "N と握手する = bắt tay với ai — người cùng làm đi với と chứ không phải を",
+          "targets": [
+            "握手"
+          ]
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

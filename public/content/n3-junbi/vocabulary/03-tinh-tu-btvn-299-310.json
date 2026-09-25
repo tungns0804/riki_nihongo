@@ -1,0 +1,474 @@
+{
+  "id": "03-tinh-tu-btvn-299-310",
+  "name": "BTVN 299–310",
+  "description": "Bài tập về nhà của cụm 299–310 (Tự động từ và tha động từ sinh ra từ tính từ) — 12 câu.",
+  "kind": "test",
+  "parent": "03-tinh-tu",
+  "group": "299–310",
+  "sections": [
+    {
+      "id": "btvn-299-310",
+      "title": "文字語彙 — BTVN 299–310 (12 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "tt-btvn-299310-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "台風がどんどん大きく、早くなってる。",
+          "promptReading": "たいふうが どんどん おおきく、はやく なってる。",
+          "promptTranslation": "Cơn bão cứ lớn dần lên và nhanh dần lên.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "弱まっている",
+              "translation": "よわまっている · Đang yếu đi",
+              "note": "Ngược nghĩa: bão 弱まる là sức bão giảm, không thể vừa 大きくなる vừa 早くなる."
+            },
+            {
+              "id": "c2",
+              "text": "強まっている",
+              "translation": "つよまっている · Đang mạnh lên",
+              "note": "Đúng: bão to hơn và nhanh hơn tức là 勢力が強まる — đúng câu của giáo trình 台風の勢力はますます強まっている。"
+            },
+            {
+              "id": "c3",
+              "text": "高まっている",
+              "translation": "たかまっている · Đang tăng lên",
+              "note": "高まる nói về thứ đo bằng độ CAO hoặc mức độ (波が高まる, 期待が高まる); sức của cơn bão nói chung thì dùng 強まる."
+            },
+            {
+              "id": "c4",
+              "text": "温まっている",
+              "translation": "あたたまっている · Đang ấm lên",
+              "note": "温まる là ấm lên (cơ thể, nước, đồ ăn), không liên quan tới sức bão."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "台風の勢力はますます強まっている。Cặp tự / tha: が強まる ⇔ を強める (火／力／自信を強める).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "二人の愛は（　　　）。",
+          "promptReading": "ふたりの あいは（　　　）。",
+          "promptTranslation": "Tình yêu của hai người （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "強まっている",
+              "translation": "つよまっている · Đang mạnh lên",
+              "note": "強まる đi với sức mạnh đo được (勢力・風・力); tình cảm thì tiếng Nhật đo bằng chiều SÂU chứ không bằng mạnh yếu."
+            },
+            {
+              "id": "c2",
+              "text": "温まっている",
+              "translation": "あたたまっている · Đang ấm lên",
+              "note": "温まる dùng cho cơ thể, nước, đồ ăn. Nói về tình cảm thì chỉ có 心が温まる (ấm lòng), không nói 愛が温まる."
+            },
+            {
+              "id": "c3",
+              "text": "深まっている",
+              "translation": "ふかまっている · Đang sâu đậm thêm",
+              "note": "Đúng: 愛／友情／関係／理解が深まる — tình cảm ngày một sâu đậm."
+            },
+            {
+              "id": "c4",
+              "text": "広まっている",
+              "translation": "ひろまっている · Đang lan rộng ra",
+              "note": "広まる là lan ra cho nhiều người biết (うわさ・病気); tình yêu của hai người không lan đi đâu."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "深まる đi với thứ có chiều sâu: 秋が深まる, 愛／友好／交流／理解が深まる. Tha động từ là 深める.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "熱いお茶を飲んで、体を（　　　）。",
+          "promptReading": "あつい おちゃを のんで、からだを（　　　）。",
+          "promptTranslation": "Uống trà nóng để （　　　） cơ thể.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "温まる",
+              "translation": "あたたまる · Ấm lên (tự nó ấm)",
+              "note": "Sai dạng: 温まる là tự động từ, phải nói 体が温まる. Trước chỗ trống là を nên không dùng được."
+            },
+            {
+              "id": "c2",
+              "text": "温める",
+              "translation": "あたためる · Làm ấm (làm cho thứ khác ấm)",
+              "note": "Đúng: 体を温める — có を thì phải là tha động từ."
+            },
+            {
+              "id": "c3",
+              "text": "高まる",
+              "translation": "たかまる · Tăng (tự nó tăng)",
+              "note": "高まる vừa sai trợ từ vừa sai nghĩa: 体 không 高まる."
+            },
+            {
+              "id": "c4",
+              "text": "高める",
+              "translation": "たかめる · Làm tăng",
+              "note": "高める là làm tăng mức độ (能力・意識), không dùng cho 体."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Cặp が温まる ⇔ を温める: お風呂に入ると体が温まる。／電子レンジでスープを温める。Nhìn trợ từ ngay trước chỗ trống là chọn được dạng.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "寝不足だと思考力が（　　　）、よくないことばかり考えてしまう。",
+          "promptReading": "ねぶそくだと しこうりょくが（　　　）、よくない ことばかり かんがえてしまう。",
+          "promptTranslation": "Thiếu ngủ thì khả năng tư duy （　　　）, chỉ toàn nghĩ chuyện không hay.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "弱まり",
+              "translation": "よわまり · Yếu đi (thể ます dùng để ngắt câu)",
+              "note": "Đúng: 力が弱まる — thiếu ngủ thì sức nghĩ giảm sút, nên mới dẫn tới vế sau chỉ toàn nghĩ chuyện không hay."
+            },
+            {
+              "id": "c2",
+              "text": "高まり",
+              "translation": "たかまり · Tăng lên",
+              "note": "Ngược nghĩa: tư duy 高まる là sắc bén hơn, không dẫn ra được vế sau."
+            },
+            {
+              "id": "c3",
+              "text": "広まり",
+              "translation": "ひろまり · Lan rộng ra",
+              "note": "広まる là lan ra cho nhiều người biết, không nói về năng lực của một người."
+            },
+            {
+              "id": "c4",
+              "text": "深まり",
+              "translation": "ふかまり · Sâu thêm",
+              "note": "深まる là sâu sắc thêm — cũng là hướng tốt lên, trái với mạch câu."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "（雨／風／力／勢力／影響…）が弱まる。Ở đây 弱まり là thể ます dùng ngắt câu giữa chừng (＝弱まって), lối văn viết.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "もう少し火を（　　　）ください。",
+          "promptReading": "もう すこし ひを（　　　）ください。",
+          "promptTranslation": "Xin （　　　） lửa thêm một chút.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "温めて",
+              "translation": "あたためて · Làm ấm",
+              "note": "温める là làm ấm một VẬT (スープ・体), không dùng cho chính ngọn lửa."
+            },
+            {
+              "id": "c2",
+              "text": "弱めて",
+              "translation": "よわめて · Vặn nhỏ, làm yếu đi",
+              "note": "火を弱める cũng là cách nói đúng (vặn nhỏ lửa) — nó là đáp án của câu 12; ở câu này đề nhắm vào cách nói ngược lại."
+            },
+            {
+              "id": "c3",
+              "text": "強めて",
+              "translation": "つよめて · Vặn to, đẩy mạnh",
+              "note": "Đúng: 火／力／自信を強める — câu mẫu của giáo trình cho 強める."
+            },
+            {
+              "id": "c4",
+              "text": "深めて",
+              "translation": "ふかめて · Làm sâu thêm",
+              "note": "火 không có chiều sâu nên không đi với 深める (深める đi với 交流・理解・友好)."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Cặp が強まる ⇔ を強める. Bếp núc dùng đủ cả hai chiều: 火を強める (vặn to) ⇔ 火を弱める (vặn nhỏ).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "暖房をつけたので、部屋が（　　　）きた。",
+          "promptReading": "だんぼうを つけたので、へやが（　　　）きた。",
+          "promptTranslation": "Vì đã bật sưởi nên căn phòng （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "暖まって",
+              "translation": "あたたまって · Ấm lên (không khí, phòng)",
+              "note": "Đúng: 部屋が暖まってきた — phòng, không khí, thời tiết ấm lên thì viết chữ 暖 (cùng chữ với 暖房)."
+            },
+            {
+              "id": "c2",
+              "text": "広まって",
+              "translation": "ひろまって · Lan rộng ra",
+              "note": "広まる là tin tức, dịch bệnh lan ra cho nhiều người biết, không nói về nhiệt của căn phòng."
+            },
+            {
+              "id": "c3",
+              "text": "高まって",
+              "translation": "たかまって · Tăng lên",
+              "note": "部屋が高まる không phải cách nói: 高まる cần một thứ đo bằng mức độ (期待・波・能力)."
+            },
+            {
+              "id": "c4",
+              "text": "弱まって",
+              "translation": "よわまって · Yếu đi",
+              "note": "Ngược nghĩa: vừa bật sưởi thì phòng ấm lên chứ không 弱まる."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "暖 và 温 đọc y hệt あたたまる／あたためる nhưng chia việc: 暖 cho không khí, phòng, thời tiết (暖房・暖かい日); 温 cho cơ thể, nước, đồ ăn (体・スープ). ～てくる = dần dần ~.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "いいにおいがしてきて、レストランへの期待が（　　　）。",
+          "promptReading": "いい においが してきて、レストランへの きたいが（　　　）。",
+          "promptTranslation": "Mùi thơm bay tới, kỳ vọng vào nhà hàng （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "広まる",
+              "translation": "ひろまる · Lan rộng ra (tự nó lan)",
+              "note": "広まる là lan ra cho nhiều người biết; kỳ vọng của chính mình thì dâng lên chứ không lan."
+            },
+            {
+              "id": "c2",
+              "text": "広める",
+              "translation": "ひろめる · Làm lan rộng",
+              "note": "広める vừa sai nghĩa vừa sai dạng: có を mới dùng được tha động từ."
+            },
+            {
+              "id": "c3",
+              "text": "高める",
+              "translation": "たかめる · Làm tăng",
+              "note": "高める đúng nghĩa nhưng sai dạng — trước chỗ trống là 期待が, phải dùng tự động từ."
+            },
+            {
+              "id": "c4",
+              "text": "高まる",
+              "translation": "たかまる · Tăng lên (tự nó tăng)",
+              "note": "Đúng: 期待／関心／人気が高まる — kỳ vọng dâng lên."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Câu này thử hai chỗ dễ sai một lúc: chọn đúng từ (高) và chọn đúng dạng (が → ～まる, を → ～める).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "先輩が活躍した話を同僚に（　　　）。",
+          "promptReading": "せんぱいが かつやくした はなしを どうりょうに（　　　）。",
+          "promptTranslation": "Tôi （　　　） chuyện tiền bối lập công cho các đồng nghiệp.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "深めた",
+              "translation": "ふかめた · Đã làm sâu thêm",
+              "note": "話を深める không phải cách nói: 深める đi với 交流・理解・友好・関係."
+            },
+            {
+              "id": "c2",
+              "text": "高めた",
+              "translation": "たかめた · Đã làm tăng",
+              "note": "話を高める không có. 高める đi với 能力・意識・質."
+            },
+            {
+              "id": "c3",
+              "text": "広めた",
+              "translation": "ひろめた · Đã loan đi, đã truyền đi",
+              "note": "Đúng: 話／うわさを広める = kể cho nhiều người khác biết — đúng câu mẫu 先輩の（お）めでたい話を広める。"
+            },
+            {
+              "id": "c4",
+              "text": "強めた",
+              "translation": "つよめた · Đã đẩy mạnh",
+              "note": "話を強める không có. 強める đi với 火・力・自信."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Cặp が広まる ⇔ を広める: うわさが広まる (tự lan) ⇔ 話を広める (mình loan đi). Có を và có người nghe (同僚に) nên phải là tha động từ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "国と国との友好を（　　　）。",
+          "promptReading": "くにと くにとの ゆうこうを（　　　）。",
+          "promptTranslation": "（　　　） tình hữu nghị giữa nước với nước.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "高める",
+              "translation": "たかめる · Làm tăng, nâng cao",
+              "note": "高める nâng một thứ đo bằng mức độ (能力・意識・質), không đi với 友好."
+            },
+            {
+              "id": "c2",
+              "text": "深める",
+              "translation": "ふかめる · Làm sâu sắc thêm",
+              "note": "Đúng: 友好／交流／理解／関係を深める — quan hệ thì làm cho SÂU. Câu mẫu: 交流を深め、相手の国のことを理解することが大切だ。"
+            },
+            {
+              "id": "c3",
+              "text": "広める",
+              "translation": "ひろめる · Làm lan rộng",
+              "note": "広める là truyền ra cho nhiều người biết; quan hệ hai nước cần sâu chứ không phải rộng."
+            },
+            {
+              "id": "c4",
+              "text": "強める",
+              "translation": "つよめる · Đẩy mạnh",
+              "note": "結びつきを強める thì nói được, nhưng 友好 quen đi với 深める."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Nhớ theo cụm: 交流を深める・理解を深める・友好を深める — cả ba đều là quan hệ giữa người với người, nước với nước.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-10",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "もっとコミュニケーション能力を（　　　）モテるだろうか。",
+          "promptReading": "もっと コミュニケーションのうりょくを（　　　）モテるだろうか。",
+          "promptTranslation": "Nếu （　　　） năng lực giao tiếp hơn nữa thì liệu có được nhiều người thích không nhỉ?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "温めたら",
+              "translation": "あたためたら · Nếu làm ấm",
+              "note": "温める là làm ấm đồ vật hoặc cơ thể, không dùng cho năng lực."
+            },
+            {
+              "id": "c2",
+              "text": "強めたら",
+              "translation": "つよめたら · Nếu đẩy mạnh",
+              "note": "力を強める thì nói được, nhưng 能力 (năng lực) quen đi với 高める."
+            },
+            {
+              "id": "c3",
+              "text": "深めたら",
+              "translation": "ふかめたら · Nếu làm sâu thêm",
+              "note": "深める đi với 交流・理解・友好, không đi với 能力."
+            },
+            {
+              "id": "c4",
+              "text": "高めたら",
+              "translation": "たかめたら · Nếu nâng cao",
+              "note": "Đúng: 能力／技術／意識を高める — đúng câu mẫu 山田さんはもっとコミュニケーション能力を高める必要がある。"
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "V た＋ら = nếu ~ thì; モテる = được nhiều người có cảm tình. Cặp が高まる ⇔ を高める.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-11",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "コロナウイルスは世界中に（　　　）。",
+          "promptReading": "コロナウイルスは せかいじゅうに（　　　）。",
+          "promptTranslation": "Virus corona đã （　　　） khắp thế giới.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "広まった",
+              "translation": "ひろまった · Đã lan rộng ra",
+              "note": "Đúng: 病気／うわさが広まる — đúng lối câu mẫu 不倫のうわさは1日で会社中に広まった。 Chỗ trống đi sau ～中に (khắp ~) nên phải là từ nói về sự lan ra."
+            },
+            {
+              "id": "c2",
+              "text": "深まった",
+              "translation": "ふかまった · Đã sâu thêm",
+              "note": "深まる là sâu thêm, không nói về phạm vi lan."
+            },
+            {
+              "id": "c3",
+              "text": "弱まった",
+              "translation": "よわまった · Đã yếu đi",
+              "note": "ウイルスが弱まる là cách nói có thật (độc lực giảm), nhưng câu này có 世界中に chỉ phạm vi lan chứ không nói mạnh yếu."
+            },
+            {
+              "id": "c4",
+              "text": "高まった",
+              "translation": "たかまった · Đã tăng lên",
+              "note": "高まる cần một thứ đo bằng mức độ; 感染者が増える thì nói được, còn ウイルスが高まる thì không."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "～中 = khắp ~: 会社中・世界中・町中. Cặp が広まる (tự lan) ⇔ を広める (mình loan đi).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "tt-btvn-299310-12",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "火を（　　　）５分間、待ちましょう。",
+          "promptReading": "ひを（　　　）ごふんかん、まちましょう。",
+          "promptTranslation": "（　　　） lửa rồi chờ 5 phút nào.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "弱めて",
+              "translation": "よわめて · Vặn nhỏ, làm yếu đi",
+              "note": "Đúng: 火を弱める = vặn nhỏ lửa — đúng câu mẫu 「材料がやわらかくなってきたら、火を弱めて煮込みましょう」."
+            },
+            {
+              "id": "c2",
+              "text": "広めて",
+              "translation": "ひろめて · Làm lan rộng",
+              "note": "火を広める không có. Lửa cháy lan thì nói 火が広がる."
+            },
+            {
+              "id": "c3",
+              "text": "温めて",
+              "translation": "あたためて · Làm ấm",
+              "note": "温める là làm ấm món ăn hay cơ thể, không dùng cho chính ngọn lửa."
+            },
+            {
+              "id": "c4",
+              "text": "深めて",
+              "translation": "ふかめて · Làm sâu thêm",
+              "note": "火 không có chiều sâu nên không đi với 深める."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Bếp núc dùng cả cặp: 火を強める (vặn to) ⇔ 火を弱める (vặn nhỏ). Tự động từ tương ứng là 火が強まる／弱まる.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

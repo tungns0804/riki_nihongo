@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-09-22T14:42:16.639Z",
+  "generatedAt": "2026-09-25T03:11:01.387Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -50,11 +50,11 @@
         {
           "id": "03-tinh-tu",
           "name": "Tính từ",
-          "description": "Tính từ N3準備 文字語彙 — 第14課 (259–280)",
+          "description": "Tính từ N3準備 文字語彙 — 第14課 (259–280) và động từ sinh ra từ tính từ (299–310)",
           "kind": "vocabulary",
           "parent": "",
           "group": "",
-          "itemCount": 22,
+          "itemCount": 34,
           "order": 3,
           "file": "vocabulary/03-tinh-tu.json"
         },
@@ -79,6 +79,17 @@
           "itemCount": 0,
           "order": 5,
           "file": "vocabulary/05-pho-tu.json"
+        },
+        {
+          "id": "06-danh-tu-2",
+          "name": "Danh từ 2",
+          "description": "Danh từ N3準備 文字語彙 — 311–318 · Chăm sóc, biết ơn và phép xã giao",
+          "kind": "vocabulary",
+          "parent": "",
+          "group": "",
+          "itemCount": 8,
+          "order": 6,
+          "file": "vocabulary/06-danh-tu-2.json"
         },
         {
           "id": "01-danh-tu-btvn-01-10",
@@ -123,6 +134,17 @@
           "itemCount": 10,
           "order": 104,
           "file": "vocabulary/01-danh-tu-btvn-31-40.json"
+        },
+        {
+          "id": "03-tinh-tu-btvn-299-310",
+          "name": "BTVN 299–310",
+          "description": "Bài tập về nhà của cụm 299–310 (Tự động từ và tha động từ sinh ra từ tính từ) — 12 câu.",
+          "kind": "test",
+          "parent": "03-tinh-tu",
+          "group": "299–310",
+          "itemCount": 12,
+          "order": 301,
+          "file": "vocabulary/03-tinh-tu-btvn-299-310.json"
         }
       ]
     },
