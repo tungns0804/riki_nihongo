@@ -4,7 +4,7 @@
     "name": "BTVN N4 CHUYÊN SÂU",
     "level": "N4"
   },
-  "generatedAt": "2026-09-25T03:12:03.954Z",
+  "generatedAt": "2026-09-25T03:20:56.358Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -35,6 +35,17 @@
           "itemCount": 9,
           "order": 2,
           "file": "kanji/02-buoi-2.json"
+        },
+        {
+          "id": "03-bai-3",
+          "name": "Bài 3",
+          "description": "Đề 34 câu: 問題1 gồm 24 câu chữ Hán (12 câu đọc, 12 câu chọn chữ) và 問題2 gồm 10 câu điền từ vào chỗ trống.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 34,
+          "order": 3,
+          "file": "kanji/03-bai-3.json"
         }
       ]
     }

@@ -1,0 +1,1318 @@
+{
+  "id": "03-bai-3",
+  "name": "Bài 3",
+  "description": "Đề 34 câu: 問題1 gồm 24 câu chữ Hán (12 câu đọc, 12 câu chọn chữ) và 問題2 gồm 10 câu điền từ vào chỗ trống.",
+  "kind": "test",
+  "parent": "",
+  "group": "",
+  "sections": [
+    {
+      "id": "bai-3-kanji",
+      "title": "Phần 1 · 文字語彙 問題1 — Câu 1–12 đọc chữ Hán, câu 13–24 chọn chữ Hán (24 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "n4cs-b3-a-01",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "彼は　心が　やさしい　人です。",
+          "promptReading": "かれは　こころが　やさしい　ひとです。",
+          "promptTranslation": "Anh ấy là người có tấm lòng nhân hậu.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "こころ",
+              "translation": "tấm lòng, trái tim (心)",
+              "note": "Đúng: 心 đứng một mình, có が theo sau nên đọc âm Kun こころ."
+            },
+            {
+              "id": "c2",
+              "text": "こごろ",
+              "translation": "không có từ nào đọc thế này",
+              "note": "こごろ không phải cách đọc nào của 心 — chỉ là こころ bị đổi một âm."
+            },
+            {
+              "id": "c3",
+              "text": "しん",
+              "translation": "âm On của 心 (安心, 心配)",
+              "note": "しん là âm On, chỉ dùng khi ghép: 安心（あんしん）, 心配（しんぱい）."
+            },
+            {
+              "id": "c4",
+              "text": "じん",
+              "translation": "âm On của 人 (日本人)",
+              "note": "じん là âm On của 人 đứng cuối câu, không phải của 心."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Chữ Hán đứng lẻ (có trợ từ đi kèm) thì đọc âm Kun: 心 → こころ. Âm On しん chỉ xuất hiện trong từ ghép.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-02",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "新しい　とけいを　かいました。",
+          "promptReading": "あたらしい　とけいを　かいました。",
+          "promptTranslation": "Tôi đã mua đồng hồ mới.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "したしい",
+              "translation": "thân thiết (親しい)",
+              "note": "したしい là 親しい — chữ 親 (bố mẹ, thân thiết)."
+            },
+            {
+              "id": "c2",
+              "text": "めずらしい",
+              "translation": "hiếm, lạ (珍しい)",
+              "note": "めずらしい là 珍しい."
+            },
+            {
+              "id": "c3",
+              "text": "うつくしい",
+              "translation": "đẹp (美しい)",
+              "note": "うつくしい là 美しい."
+            },
+            {
+              "id": "c4",
+              "text": "あたらしい",
+              "translation": "mới (新しい)",
+              "note": "Đúng: 新しい = mới. Âm On của 新 là しん (新聞, 新年)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Bốn lựa chọn đều là tính từ đuôi しい nên phải nhớ mặt chữ: 新しい（あたらしい）・親しい（したしい）・珍しい（めずらしい）・美しい（うつくしい）.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-03",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "青い　たてものが　みえます。",
+          "promptReading": "あおい　たてものが　みえます。",
+          "promptTranslation": "Nhìn thấy toà nhà màu xanh.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ひろい",
+              "translation": "rộng (広い)",
+              "note": "ひろい là 広い."
+            },
+            {
+              "id": "c2",
+              "text": "しろい",
+              "translation": "trắng (白い)",
+              "note": "しろい là 白い — 白 và 青 khác hẳn mặt chữ."
+            },
+            {
+              "id": "c3",
+              "text": "あおい",
+              "translation": "xanh (青い)",
+              "note": "Đúng: 青い = xanh (xanh lam, và cả màu xanh của đèn giao thông)."
+            },
+            {
+              "id": "c4",
+              "text": "たかい",
+              "translation": "cao (高い)",
+              "note": "たかい là 高い."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "青い đọc あおい. Đề in 「たてものを みえます」 nhưng 見える luôn đi với が, nên chép lại thành 「たてものが みえます」.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-04",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "赤い　車が　すきです。",
+          "promptReading": "あかい　くるまが　すきです。",
+          "promptTranslation": "Tôi thích xe màu đỏ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "あおい",
+              "translation": "xanh (青い)",
+              "note": "あおい là 青い — vừa hỏi ở câu trên."
+            },
+            {
+              "id": "c2",
+              "text": "あかい",
+              "translation": "đỏ (赤い)",
+              "note": "Đúng: 赤い = đỏ."
+            },
+            {
+              "id": "c3",
+              "text": "くろい",
+              "translation": "đen (黒い)",
+              "note": "くろい là 黒い."
+            },
+            {
+              "id": "c4",
+              "text": "しろい",
+              "translation": "trắng (白い)",
+              "note": "しろい là 白い."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Bốn màu hay hỏi cùng nhau: 赤い（あかい）・青い（あおい）・黒い（くろい）・白い（しろい）.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-05",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "みんなで　いっしょに　走ろう。",
+          "promptReading": "みんなで　いっしょに　はしろう。",
+          "promptTranslation": "Mọi người cùng chạy nào.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "のぼろう",
+              "translation": "leo nào (登ろう)",
+              "note": "のぼろう là 登ろう (登る — leo núi, leo lên)."
+            },
+            {
+              "id": "c2",
+              "text": "はしろう",
+              "translation": "chạy nào (走ろう)",
+              "note": "Đúng: 走る → thể ý chí 走ろう."
+            },
+            {
+              "id": "c3",
+              "text": "つくろう",
+              "translation": "làm nào (作ろう)",
+              "note": "つくろう là 作ろう."
+            },
+            {
+              "id": "c4",
+              "text": "とろう",
+              "translation": "lấy nào (取ろう)",
+              "note": "とろう là 取ろう."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "走る（はしる）= chạy. Thể ý chí của động từ nhóm 1 đổi âm う cuối thành おう: はしる → はしろう. Đề in いっしょうに, chép lại đúng là いっしょに.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-06",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "すぐに　送ってください。",
+          "promptReading": "すぐに　おくって　ください。",
+          "promptTranslation": "Hãy gửi ngay.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "とって",
+              "translation": "lấy (取って)",
+              "note": "とって là 取って."
+            },
+            {
+              "id": "c2",
+              "text": "もらって",
+              "translation": "nhận (もらって)",
+              "note": "もらって viết bằng kana, không dính gì tới chữ 送."
+            },
+            {
+              "id": "c3",
+              "text": "おくって",
+              "translation": "gửi (送って)",
+              "note": "Đúng: 送る → 送って (gửi đồ, gửi mail, và cả tiễn người)."
+            },
+            {
+              "id": "c4",
+              "text": "はって",
+              "translation": "dán (貼って)",
+              "note": "はって là 貼って (dán tem, dán giấy)."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "送る（おくる）hai nghĩa hay dùng: gửi (荷物を送る) và tiễn (駅まで送る). Âm On là そう — 放送（ほうそう）.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-07",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "足が　いたく　なりました。",
+          "promptReading": "あしが　いたく　なりました。",
+          "promptTranslation": "Chân tôi bị đau.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ゆび",
+              "translation": "ngón tay, ngón chân (指)",
+              "note": "ゆび là 指."
+            },
+            {
+              "id": "c2",
+              "text": "うで",
+              "translation": "cánh tay (腕)",
+              "note": "うで là 腕."
+            },
+            {
+              "id": "c3",
+              "text": "くび",
+              "translation": "cổ (首)",
+              "note": "くび là 首."
+            },
+            {
+              "id": "c4",
+              "text": "あし",
+              "translation": "chân (足)",
+              "note": "Đúng: 足 = chân. Âm On そく — 不足（ふそく）, 一足（いっそく）."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Bốn bộ phận cơ thể, mỗi thứ một chữ Hán riêng: 足（あし）・指（ゆび）・腕（うで）・首（くび）.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-08",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "車が　多いです。",
+          "promptReading": "くるまが　おおいです。",
+          "promptTranslation": "Xe cộ nhiều.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "はやい",
+              "translation": "nhanh (速い)",
+              "note": "はやい là 速い (hoặc 早い), không phải 多い."
+            },
+            {
+              "id": "c2",
+              "text": "おおい",
+              "translation": "nhiều (多い)",
+              "note": "Đúng: 多い = nhiều, đọc おおい với âm お kéo dài."
+            },
+            {
+              "id": "c3",
+              "text": "おい",
+              "translation": "không phải từ",
+              "note": "Thiếu một chữ お. 多い là おおい — nhớ cùng cặp với 大きい（おおきい）."
+            },
+            {
+              "id": "c4",
+              "text": "たい",
+              "translation": "không phải cách đọc của 多",
+              "note": "たい là âm On của 大 (大変), không phải của 多; âm On của 多 là た (多少)."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "多い（おおい）= nhiều, trái nghĩa với 少ない（すくない）. Mặt chữ 多 và 大 hao hao nhau nhưng khác hẳn âm.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-09",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "知って　いますか。",
+          "promptReading": "しって　いますか。",
+          "promptTranslation": "Bạn có biết không?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ちって",
+              "translation": "rụng, rơi (散って)",
+              "note": "ちって là 散って (hoa rụng: 花が散る)."
+            },
+            {
+              "id": "c2",
+              "text": "しって",
+              "translation": "biết (知って)",
+              "note": "Đúng: 知る → 知って, dạng đang biết là 知っています."
+            },
+            {
+              "id": "c3",
+              "text": "あって",
+              "translation": "gặp (会って)",
+              "note": "あって là 会って hoặc ある."
+            },
+            {
+              "id": "c4",
+              "text": "まって",
+              "translation": "đợi (待って)",
+              "note": "まって là 待って."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "知る（しる）đọc し chứ không đọc ち. Nhớ luôn cặp câu trả lời: 知っています ↔ 知りません (không nói 知っていません).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-10",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "着いたら　でんわしてください。",
+          "promptReading": "ついたら　でんわして　ください。",
+          "promptTranslation": "Tới nơi thì hãy gọi điện.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "おいたら",
+              "translation": "nếu đặt (置いたら)",
+              "note": "おいたら là 置いたら."
+            },
+            {
+              "id": "c2",
+              "text": "きいたら",
+              "translation": "nếu nghe, nếu hỏi (聞いたら)",
+              "note": "きいたら là 聞いたら. Chữ 着 có đọc き, nhưng là 着る (mặc) → 着たら, không phải きいたら."
+            },
+            {
+              "id": "c3",
+              "text": "あいたら",
+              "translation": "nếu mở ra (開いたら)",
+              "note": "あいたら là 開いたら (cửa tự mở)."
+            },
+            {
+              "id": "c4",
+              "text": "ついたら",
+              "translation": "nếu tới nơi (着いたら)",
+              "note": "Đúng: 着く（つく）= tới nơi → 着いたら."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Một chữ 着 hai cách đọc: 着く（つく）tới nơi và 着る（きる）mặc. Nhìn đuôi kana mà phân biệt: 着いた = đã tới, 着た = đã mặc.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-11",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "昼は　しょくどうで　食べます。",
+          "promptReading": "ひるは　しょくどうで　たべます。",
+          "promptTranslation": "Buổi trưa tôi ăn ở căng tin.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ばん",
+              "translation": "tối, buổi tối (晩)",
+              "note": "ばん là 晩 (今晩, 晩ご飯)."
+            },
+            {
+              "id": "c2",
+              "text": "あさ",
+              "translation": "sáng (朝)",
+              "note": "あさ là 朝."
+            },
+            {
+              "id": "c3",
+              "text": "ひる",
+              "translation": "trưa (昼)",
+              "note": "Đúng: 昼 = trưa, ban ngày. 昼ご飯（ひるごはん）, 昼休み（ひるやすみ）."
+            },
+            {
+              "id": "c4",
+              "text": "よる",
+              "translation": "đêm (夜)",
+              "note": "よる là 夜."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Các buổi trong ngày: 朝（あさ）・昼（ひる）・夕方（ゆうがた）・晩（ばん）・夜（よる）. Âm On của 昼 là ちゅう — 昼食（ちゅうしょく）.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-12",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "弟と　かいものに　行きました。",
+          "promptReading": "おとうとと　かいものに　いきました。",
+          "promptTranslation": "Tôi đi mua sắm với em trai.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "いもうと",
+              "translation": "em gái (妹)",
+              "note": "いもうと là 妹 — 妹 và 弟 hay bị đổi chỗ cho nhau."
+            },
+            {
+              "id": "c2",
+              "text": "おとうと",
+              "translation": "em trai (弟)",
+              "note": "Đúng: 弟 = em trai, đọc おとうと (có âm う dài)."
+            },
+            {
+              "id": "c3",
+              "text": "あに",
+              "translation": "anh trai (兄)",
+              "note": "あに là 兄."
+            },
+            {
+              "id": "c4",
+              "text": "あね",
+              "translation": "chị gái (姉)",
+              "note": "あね là 姉."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Anh chị em nhà mình: 兄（あに）・姉（あね）・弟（おとうと）・妹（いもうと）. Nói về nhà người khác thì thêm đuôi lịch sự: お兄さん, 弟さん…",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-13",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "まどを　あけても　いいですか。",
+          "promptReading": "",
+          "promptTranslation": "Tôi mở cửa sổ có được không?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "開けても",
+              "translation": "mở (開ける)",
+              "note": "Đúng: 開ける（あける）= mở. Tự động từ là 開く（あく）."
+            },
+            {
+              "id": "c2",
+              "text": "閉けても",
+              "translation": "không có cách viết này",
+              "note": "閉 là đóng, và đọc しめる → 閉めても. Chữ đúng nghĩa ngược hẳn."
+            },
+            {
+              "id": "c3",
+              "text": "間けても",
+              "translation": "không có cách viết này",
+              "note": "間 đọc あいだ hoặc かん (時間), không ghép với けても."
+            },
+            {
+              "id": "c4",
+              "text": "問いけても",
+              "translation": "không có cách viết này",
+              "note": "問 đọc とう hoặc もん (問題), không ghép với けても."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Bốn chữ đều có bộ 門 nên nhìn rất giống: 開（mở）・閉（đóng）・間（khoảng, giữa）・問（hỏi）. Phân biệt bằng phần nằm trong khung cửa.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-14",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "まって　いる　あいだ、ざっしを　読んでいました。",
+          "promptReading": "まって　いる　あいだ、ざっしを　よんで　いました。",
+          "promptTranslation": "Trong lúc đợi, tôi đã đọc tạp chí.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "聞",
+              "translation": "nghe (聞く)",
+              "note": "聞 đọc きく — trong khung cửa là chữ 耳 (tai)."
+            },
+            {
+              "id": "c2",
+              "text": "問",
+              "translation": "hỏi (問う)",
+              "note": "問 đọc とう — trong khung cửa là chữ 口 (miệng)."
+            },
+            {
+              "id": "c3",
+              "text": "間",
+              "translation": "khoảng, giữa (間)",
+              "note": "Đúng: 間 đọc あいだ — trong khung cửa là chữ 日. Âm On かん: 時間, 人間."
+            },
+            {
+              "id": "c4",
+              "text": "開",
+              "translation": "mở (開ける)",
+              "note": "開 đọc あける／あく."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "「Vる＋間」= trong lúc đang ~. Mẹo nhớ bốn chữ bộ 門: tai thì nghe (聞), miệng thì hỏi (問), mặt trời lọt qua khe là khoảng giữa (間).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-15",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "いつも　何時ごろ　おきますか。",
+          "promptReading": "いつも　なんじごろ　おきますか。",
+          "promptTranslation": "Bạn thường thức dậy khoảng mấy giờ?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "立きます",
+              "translation": "không có cách viết này",
+              "note": "立 đọc たつ → 立ちます (đứng), không ghép với きます."
+            },
+            {
+              "id": "c2",
+              "text": "置きます",
+              "translation": "đặt, để (置きます)",
+              "note": "置きます cũng đọc おきます thật, nhưng nghĩa là ĐẶT (荷物を置きます). Hỏi 何時ごろ thì là chuyện thức dậy."
+            },
+            {
+              "id": "c3",
+              "text": "起きます",
+              "translation": "thức dậy (起きます)",
+              "note": "Đúng: 起きる（おきる）= thức dậy, và cả \"xảy ra\" (事故が起きる)."
+            },
+            {
+              "id": "c4",
+              "text": "足きます",
+              "translation": "không có cách viết này",
+              "note": "足 đọc あし／そく, không ghép với きます."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Hai chữ cùng đọc おきます: 起きます (thức dậy) và 置きます (đặt để). Chọn theo nghĩa của câu — có 何時ごろ thì là giờ thức dậy.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-16",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "もう　かえっても　いいですか。",
+          "promptReading": "",
+          "promptTranslation": "Tôi về được chưa ạ?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "逆っても",
+              "translation": "không có cách viết này",
+              "note": "逆 đọc ぎゃく (逆 = ngược), không đọc かえる."
+            },
+            {
+              "id": "c2",
+              "text": "返っても",
+              "translation": "được trả lại (返る)",
+              "note": "返る cũng đọc かえる nhưng nói về ĐỒ VẬT quay lại chỗ cũ: お金が返ってくる. Người về nhà thì không dùng chữ này."
+            },
+            {
+              "id": "c3",
+              "text": "掃っても",
+              "translation": "không có cách viết này",
+              "note": "掃 là chữ trong 掃除（そうじ）, đọc はく, không đọc かえる."
+            },
+            {
+              "id": "c4",
+              "text": "帰っても",
+              "translation": "về (帰る)",
+              "note": "Đúng: 帰る（かえる）= về nhà, về nước. 帰ります → 帰っても."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "帰る là động từ nhóm 1 tuy đuôi là ～る: 帰ります・帰って・帰らない. Cùng âm かえる còn có 返る (đồ vật được trả lại) và 変える (thay đổi).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-17",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "きゅうに　あたまが　いたく　なりました。",
+          "promptReading": "",
+          "promptTranslation": "Tôi bỗng nhiên bị đau đầu.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "級に",
+              "translation": "cấp, hạng (級)",
+              "note": "級 cũng đọc きゅう (一級, 上級) nhưng 級に không thành từ."
+            },
+            {
+              "id": "c2",
+              "text": "色に",
+              "translation": "màu (色)",
+              "note": "色 đọc いろ／しょく, không đọc きゅう."
+            },
+            {
+              "id": "c3",
+              "text": "急に",
+              "translation": "đột nhiên (急に)",
+              "note": "Đúng: 急に = đột nhiên, bất chợt. Chữ 急 còn trong 急行（きゅうこう）, 急ぐ（いそぐ）."
+            },
+            {
+              "id": "c4",
+              "text": "及に",
+              "translation": "không có cách viết này",
+              "note": "及 đọc きゅう nhưng hiếm gặp ở N4 và 及に không thành từ."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "急に là phó từ \"bỗng nhiên\": 急に雨が降ってきました. Đừng lẫn với 級 (cấp bậc) tuy cùng đọc きゅう.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-18",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "アパートから　大学まで　ちかいですか。",
+          "promptReading": "アパートから　だいがくまで　ちかいですか。",
+          "promptTranslation": "Từ căn hộ đến trường đại học có gần không?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "近い",
+              "translation": "gần (近い)",
+              "note": "Đúng: 近い（ちかい）= gần. Âm On きん — 最近（さいきん）."
+            },
+            {
+              "id": "c2",
+              "text": "遠い",
+              "translation": "xa (遠い)",
+              "note": "遠い（とおい）nghĩa ngược lại hẳn: xa."
+            },
+            {
+              "id": "c3",
+              "text": "辺い",
+              "translation": "không có cách viết này",
+              "note": "辺 đọc へん (この辺 = vùng này), không có từ 辺い."
+            },
+            {
+              "id": "c4",
+              "text": "送い",
+              "translation": "không có cách viết này",
+              "note": "送 đọc おくる (vừa hỏi ở câu 6), không có từ 送い."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Ba chữ 近・遠・送 đều có bộ 辶 (đi đường) nên nhìn giống nhau. Cặp cần nhớ: 近い（ちかい）↔ 遠い（とおい）.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-19",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "どんな　さかなが　すきですか。",
+          "promptReading": "",
+          "promptTranslation": "Bạn thích loại cá nào?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "肉",
+              "translation": "thịt (肉)",
+              "note": "肉 đọc にく."
+            },
+            {
+              "id": "c2",
+              "text": "魚",
+              "translation": "cá (魚)",
+              "note": "Đúng: 魚 đọc さかな. Âm On ぎょ — 金魚（きんぎょ）."
+            },
+            {
+              "id": "c3",
+              "text": "鳥",
+              "translation": "chim (鳥)",
+              "note": "鳥 đọc とり."
+            },
+            {
+              "id": "c4",
+              "text": "牛",
+              "translation": "bò (牛)",
+              "note": "牛 đọc うし."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Nhóm chữ đồ ăn hay hỏi cùng nhau: 魚（さかな）・肉（にく）・鳥（とり）・牛（うし）. Ghép lại thành 牛肉（ぎゅうにく）, 鳥肉（とりにく）.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-20",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "すみません。　もう　いちど　いって　ください。",
+          "promptReading": "",
+          "promptTranslation": "Xin lỗi, hãy nói lại một lần nữa.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "話って",
+              "translation": "không có cách viết này",
+              "note": "話 đọc はなす → 話して, không có 話って. Đề in trùng lựa chọn 1 và 2 (đều là 話って), chép nguyên như đề."
+            },
+            {
+              "id": "c2",
+              "text": "話って",
+              "translation": "không có cách viết này",
+              "note": "Trùng với lựa chọn 1 — đề in lỗi, giữ nguyên để đối chiếu lại với Riki."
+            },
+            {
+              "id": "c3",
+              "text": "語って",
+              "translation": "kể, thuật lại (語って)",
+              "note": "語る（かたる）có đọc かたって thật, nhưng là kể chuyện dài, không dùng cho lời nhờ 「もう一度…」."
+            },
+            {
+              "id": "c4",
+              "text": "言って",
+              "translation": "nói (言って)",
+              "note": "Đúng: 言う（いう）→ 言って. Câu nhờ nói lại luôn là 「もう一度言ってください」."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "言う đọc là いう nhưng thể て là 言って（いって）— đồng âm với 行って của 行く, phân biệt bằng chữ Hán. Ba chữ cùng bộ 言: 言う・話す・語る.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-21",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "よく　かんがえて　こたえて　ください。",
+          "promptReading": "",
+          "promptTranslation": "Hãy suy nghĩ kỹ rồi trả lời.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "老えて",
+              "translation": "không có cách viết này",
+              "note": "老 đọc ろう (老人 = người già), không có từ 老える."
+            },
+            {
+              "id": "c2",
+              "text": "孝えて",
+              "translation": "không có cách viết này",
+              "note": "孝 đọc こう (孝行 = hiếu thảo), không có từ 孝える."
+            },
+            {
+              "id": "c3",
+              "text": "考えて",
+              "translation": "suy nghĩ (考える)",
+              "note": "Đúng: 考える（かんがえる）= suy nghĩ, cân nhắc. Âm On こう — 考試."
+            },
+            {
+              "id": "c4",
+              "text": "教えて",
+              "translation": "dạy (教える)",
+              "note": "教える（おしえる）là từ có thật nhưng đọc おしえて, nghĩa là dạy."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "考・老・孝 đều có phần trên là 耂 nên rất dễ nhìn nhầm. Chỉ 考 đi với đuôi える: 考えます・考えて・考えない.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-22",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "じぶんで　りょうりを　つくりますか。",
+          "promptReading": "",
+          "promptTranslation": "Bạn có tự nấu ăn không?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "作ります",
+              "translation": "làm, nấu (作ります)",
+              "note": "Đúng: 作る（つくる）= làm ra, nấu. 料理を作る, 友だちを作る."
+            },
+            {
+              "id": "c2",
+              "text": "付ります",
+              "translation": "không có cách viết này",
+              "note": "付 đọc つける／つく nhưng viết là 付けます, không có 付ります."
+            },
+            {
+              "id": "c3",
+              "text": "俳ります",
+              "translation": "không có cách viết này",
+              "note": "俳 là chữ trong 俳優（はいゆう）, đọc はい, không ghép với ります."
+            },
+            {
+              "id": "c4",
+              "text": "代ります",
+              "translation": "thay thế (代わります)",
+              "note": "代 đọc かわる／だい, và viết là 代わります chứ không phải 代ります."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "作る（つくる）= tạo ra thứ nhỏ, cụ thể. Âm On さく／さ — 作文（さくぶん）, 作品（さくひん）. Đề in りようり, chép lại đúng là りょうり.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-23",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "ここに　車を　とめないで　ください。",
+          "promptReading": "ここに　くるまを　とめないで　ください。",
+          "promptTranslation": "Xin đừng đỗ xe ở đây.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "止めないで",
+              "translation": "dừng, đỗ (止める)",
+              "note": "Đúng: 止める（とめる）= dừng lại, đỗ (xe). Tự động từ là 止まる（とまる）."
+            },
+            {
+              "id": "c2",
+              "text": "正めないで",
+              "translation": "không có cách viết này",
+              "note": "正 đọc ただしい／せい (正しい = đúng), không đọc とめる."
+            },
+            {
+              "id": "c3",
+              "text": "上めないで",
+              "translation": "không có cách viết này",
+              "note": "上 đọc うえ／あげる, không đọc とめる."
+            },
+            {
+              "id": "c4",
+              "text": "土めないで",
+              "translation": "không có cách viết này",
+              "note": "土 đọc つち／ど (土曜日), không đọc とめる."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Bốn chữ 止・正・上・土 chỉ khác nhau vài nét. 止める là tha động từ (xe bị mình dừng), 止まる là tự động từ (xe tự dừng).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-a-24",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "うちの　ねこが　しにました。",
+          "promptReading": "",
+          "promptTranslation": "Con mèo nhà tôi đã chết.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "外にました",
+              "translation": "không có cách viết này",
+              "note": "外 đọc そと／がい (外国), không đọc しぬ."
+            },
+            {
+              "id": "c2",
+              "text": "死にました",
+              "translation": "chết (死にました)",
+              "note": "Đúng: 死ぬ（しぬ）là động từ duy nhất kết thúc bằng ぬ, thể ます là 死にます."
+            },
+            {
+              "id": "c3",
+              "text": "列にました",
+              "translation": "không có cách viết này",
+              "note": "列 đọc れつ (行列 = hàng người), không đọc しぬ."
+            },
+            {
+              "id": "c4",
+              "text": "例にました",
+              "translation": "không có cách viết này",
+              "note": "例 đọc れい (例えば = ví dụ), không đọc しぬ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "死ぬ là động từ duy nhất trong tiếng Nhật có đuôi ぬ: 死にます・死んで・死なない. Chữ 死 dễ lẫn với 列 và 例 vì cùng có bộ 歹. Đề in 「うちのねこか」, chép lại đúng là 「うちのねこが」.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "bai-3-goi",
+      "title": "Phần 2 · 文字語彙 問題2 — Điền từ vào chỗ trống (10 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "n4cs-b3-b-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "わたしは　いもうとと（　　　）で　すんでいます。",
+          "promptReading": "わたしは　いもうとと（　　　）で　すんで　います。",
+          "promptTranslation": "Tôi sống cùng em gái, （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ふたっ",
+              "translation": "không có từ này",
+              "note": "Có lẽ đề định viết ふたつ (二つ), nhưng 二つ đếm ĐỒ VẬT chứ không đếm người."
+            },
+            {
+              "id": "c2",
+              "text": "ふつか",
+              "translation": "mùng hai, hai ngày (二日)",
+              "note": "ふつか là 二日 — đếm ngày, không hợp với 住んでいます."
+            },
+            {
+              "id": "c3",
+              "text": "ふつう",
+              "translation": "bình thường (普通)",
+              "note": "ふつう là 普通 (bình thường); 普通に住んでいます nghe được nhưng không đi sau 「いもうとと」."
+            },
+            {
+              "id": "c4",
+              "text": "ふたり",
+              "translation": "hai người (二人)",
+              "note": "Đúng: 二人（ふたり）= hai người. 「〜と二人で住んでいます」 là mẫu cố định."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Đếm người: 一人（ひとり）・二人（ふたり）・三人（さんにん）. Mẫu 「AとBで住む」 nói rõ tổng số người ở cùng nhau.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-b-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）を　ひいたので　学校を　休んで　うちで　ねて　いました。",
+          "promptReading": "（　　　）を　ひいたので　がっこうを　やすんで　うちで　ねて　いました。",
+          "promptTranslation": "Vì bị （　　　） nên tôi nghỉ học, nằm ngủ ở nhà.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "かぜ",
+              "translation": "cảm (風邪)",
+              "note": "Đúng: 風邪をひく là cụm cố định — chỉ 風邪 mới đi với ひく."
+            },
+            {
+              "id": "c2",
+              "text": "びようき",
+              "translation": "bệnh (病気)",
+              "note": "Đề in びようき, đúng ra là びょうき (病気); mà 病気 thì đi với になる: 病気になりました."
+            },
+            {
+              "id": "c3",
+              "text": "けが",
+              "translation": "chấn thương (怪我)",
+              "note": "けが（怪我）đi với する: けがをしました."
+            },
+            {
+              "id": "c4",
+              "text": "ねつ",
+              "translation": "sốt (熱)",
+              "note": "ねつ（熱）đi với 出る／ある: 熱が出ました."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Mỗi từ bệnh một động từ đi kèm: 風邪をひく・病気になる・けがをする・熱が出る. Đề in 「学校を 住んで」, chép lại đúng là 「学校を 休んで」.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-b-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "はやく　田中さんに（　　　）を　かけて　ください。",
+          "promptReading": "はやく　たなかさんに（　　　）を　かけて　ください。",
+          "promptTranslation": "Hãy mau gọi （　　　） cho anh Tanaka.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "お金",
+              "translation": "tiền (お金)",
+              "note": "お金をかける có thật (bỏ nhiều tiền vào việc gì) nhưng không đi với 「田中さんに」."
+            },
+            {
+              "id": "c2",
+              "text": "でんわ",
+              "translation": "điện thoại (電話)",
+              "note": "Đúng: 電話をかける = gọi điện; người nhận đánh dấu bằng に."
+            },
+            {
+              "id": "c3",
+              "text": "ふく",
+              "translation": "quần áo (服)",
+              "note": "ふく đi với 着る: 服を着ます."
+            },
+            {
+              "id": "c4",
+              "text": "めがね",
+              "translation": "kính (眼鏡)",
+              "note": "めがねをかける cũng đúng tiếng Nhật, nhưng là tự mình đeo kính — không có chỗ cho 「田中さんに」."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "かける là động từ đi với nhiều thứ: 電話をかける・めがねをかける・音楽をかける. Câu này có 「〜さんに」 nên chỉ 電話 hợp. Đề in くだささい, chép lại đúng là ください.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-b-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "きれいな（　　　）の　中に　てがみが　入って　いました。",
+          "promptReading": "きれいな（　　　）の　なかに　てがみが　はいって　いました。",
+          "promptTranslation": "Bên trong chiếc （　　　） đẹp có một lá thư.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ふうとう",
+              "translation": "phong bì (封筒)",
+              "note": "Đúng: 封筒（ふうとう）= phong bì — thứ duy nhất có \"bên trong\" để đựng thư."
+            },
+            {
+              "id": "c2",
+              "text": "きって",
+              "translation": "tem (切手)",
+              "note": "切手 là tem, dán bên ngoài chứ không đựng được gì."
+            },
+            {
+              "id": "c3",
+              "text": "はがき",
+              "translation": "bưu thiếp (葉書)",
+              "note": "はがき tự nó đã là tấm thiếp viết chữ lên, không có phần trong."
+            },
+            {
+              "id": "c4",
+              "text": "とうふ",
+              "translation": "đậu phụ (豆腐)",
+              "note": "とうふ là đậu phụ — chỉ khác ふうとう ở thứ tự các âm, đọc kỹ kẻo nhầm."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Bộ đồ gửi thư: 封筒（ふうとう）phong bì ・ 切手（きって）tem ・ はがき bưu thiếp ・ 住所（じゅうしょ）địa chỉ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-b-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "山下さんは　からだの（　　　）が　わるい　そうです。",
+          "promptReading": "やましたさんは　からだの（　　　）が　わるい　そうです。",
+          "promptTranslation": "Nghe nói （　　　） cơ thể của anh Yamashita không tốt.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ぐあい",
+              "translation": "tình trạng (具合)",
+              "note": "Đúng: 体の具合が悪い = tình trạng sức khoẻ không tốt — 具合 chính là từ nói về trạng thái của cơ thể hay máy móc."
+            },
+            {
+              "id": "c2",
+              "text": "じゅんび",
+              "translation": "sự chuẩn bị (準備)",
+              "note": "準備 là chuẩn bị, không nói về cơ thể."
+            },
+            {
+              "id": "c3",
+              "text": "気分",
+              "translation": "tâm trạng, cảm giác trong người (気分)",
+              "note": "気分が悪い là câu đúng, nhưng 気分 không đứng sau 体の — nói 気分が悪い là đủ."
+            },
+            {
+              "id": "c4",
+              "text": "気持ち",
+              "translation": "cảm giác, tâm trạng (気持ち)",
+              "note": "気持ちが悪い cũng vậy: tự nó đứng riêng, và thiên về cảm giác ghê ghê chứ không phải sức khoẻ."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "具合（ぐあい）dùng cho cả người lẫn đồ: 体の具合・機械の具合. Còn 気分 và 気持ち nói về cảm giác trong lòng, không ghép với 体の.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-b-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "くらいですね。へやの（　　　）を　つけて　ください。",
+          "promptReading": "くらいですね。へやの（　　　）を　つけて　ください。",
+          "promptTranslation": "Tối nhỉ. Hãy bật （　　　） trong phòng lên.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "電気",
+              "translation": "đèn, điện (電気)",
+              "note": "Đúng: 電気をつける = bật đèn. 電気 vừa là điện vừa là đèn điện."
+            },
+            {
+              "id": "c2",
+              "text": "天気",
+              "translation": "thời tiết (天気)",
+              "note": "天気 là thời tiết — không ai bật được thời tiết. Chú ý 電 và 天 chỉ khác phần trên."
+            },
+            {
+              "id": "c3",
+              "text": "中",
+              "translation": "bên trong (中)",
+              "note": "中 là bên trong, không đi với をつける."
+            },
+            {
+              "id": "c4",
+              "text": "気",
+              "translation": "khí, tâm trạng (気)",
+              "note": "気 đứng một mình không thành từ để bật; 気をつける lại là cụm khác hẳn: \"cẩn thận\"."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "電気をつける ↔ 電気を消す（けす）. Cẩn thận với cụm đồng dạng 気をつけてください = hãy cẩn thận.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-b-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）に　入ったので　からだが　あたたかく　なります。",
+          "promptReading": "（　　　）に　はいったので　からだが　あたたかく　なります。",
+          "promptTranslation": "Vì đã vào （　　　） nên cơ thể ấm lên.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "オーバー",
+              "translation": "áo khoác ngoài (over)",
+              "note": "オーバー là áo khoác, đi với 着る: オーバーを着ます."
+            },
+            {
+              "id": "c2",
+              "text": "ふろ",
+              "translation": "bồn tắm, việc tắm (風呂)",
+              "note": "Đúng: お風呂に入る = đi tắm — cụm duy nhất trong bốn cái này đi với に入る."
+            },
+            {
+              "id": "c3",
+              "text": "ストーブ",
+              "translation": "lò sưởi (stove)",
+              "note": "ストーブ đi với つける／消す, và không ai \"vào trong\" lò sưởi."
+            },
+            {
+              "id": "c4",
+              "text": "だんぼう",
+              "translation": "máy sưởi (暖房)",
+              "note": "暖房 cũng đi với つける: 暖房をつけます."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Cùng nói chuyện ấm người nhưng khác động từ: 風呂に入る・オーバーを着る・ストーブ／暖房をつける.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-b-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "えはがきを　出したいんですが、いくらの（　　　）を　はれば　いいですか。",
+          "promptReading": "えはがきを　だしたいんですが、いくらの（　　　）を　はれば　いいですか。",
+          "promptTranslation": "Tôi muốn gửi bưu thiếp, vậy dán （　　　） bao nhiêu tiền thì được ạ?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "きっぶ",
+              "translation": "vé (切符)",
+              "note": "Đề in きっぶ, đúng ra là きっぷ (切符 = vé tàu xe) — mà vé thì mua chứ không dán."
+            },
+            {
+              "id": "c2",
+              "text": "きって",
+              "translation": "tem (切手)",
+              "note": "Đúng: 切手をはる = dán tem. Chỉ tem mới có mệnh giá \"bao nhiêu tiền\" để dán lên bưu thiếp."
+            },
+            {
+              "id": "c3",
+              "text": "ふうとう",
+              "translation": "phong bì (封筒)",
+              "note": "封筒 là phong bì, dùng để đựng thư chứ không dán lên."
+            },
+            {
+              "id": "c4",
+              "text": "お金",
+              "translation": "tiền (お金)",
+              "note": "お金 đi với 払う（はらう）, không đi với はる."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "はる (貼る) = dán. Cặp hay nhầm vì gần giống nhau: 切手（きって）tem ・ 切符（きっぷ）vé.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-b-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "としょかんは（　　　）を　わたって　すぐです。",
+          "promptReading": "としょかんは（　　　）を　わたって　すぐです。",
+          "promptTranslation": "Thư viện thì qua （　　　） là tới ngay.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "えき",
+              "translation": "nhà ga (駅)",
+              "note": "駅 không đi với 渡る; chỉ đường qua ga thì nói 駅を出て hoặc 駅の前を通って."
+            },
+            {
+              "id": "c2",
+              "text": "はし",
+              "translation": "cây cầu (橋)",
+              "note": "Đúng: 橋を渡る = qua cầu — mẫu chỉ đường quen thuộc."
+            },
+            {
+              "id": "c3",
+              "text": "うみ",
+              "translation": "biển (海)",
+              "note": "海を渡る có nghĩa là vượt biển sang nước khác, không dùng để chỉ đường tới thư viện."
+            },
+            {
+              "id": "c4",
+              "text": "こうえん",
+              "translation": "công viên (公園)",
+              "note": "公園 thì nói 公園を通って (đi xuyên qua công viên), không nói 渡って."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "渡る (qua ngang) đi với 橋・道・交差点: 橋を渡ってください. Đây là mẫu chỉ đường hay gặp cùng 曲がる và 通る.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b3-b-10",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "うけつけで（　　　）を　はらって　ください。",
+          "promptReading": "うけつけで（　　　）を　はらって　ください。",
+          "promptTranslation": "Hãy trả （　　　） ở quầy tiếp tân.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "きっぶ",
+              "translation": "vé (切符)",
+              "note": "Đề in きっぶ, đúng ra là きっぷ — mà vé thì 買う, không 払う."
+            },
+            {
+              "id": "c2",
+              "text": "よやく",
+              "translation": "đặt chỗ (予約)",
+              "note": "予約 đi với する: 予約をします."
+            },
+            {
+              "id": "c3",
+              "text": "お金",
+              "translation": "tiền (お金)",
+              "note": "Đúng: お金を払う = trả tiền. Cùng kiểu: 料金を払う, 授業料を払う."
+            },
+            {
+              "id": "c4",
+              "text": "名前",
+              "translation": "tên (名前)",
+              "note": "名前 đi với 書く: 受付で名前を書いてください."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "払う（はらう）chỉ đi với tiền nong: お金・料金・代金. Ở quầy 受付 hay gặp cả ba việc: 名前を書く, 予約をする, お金を払う.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}
