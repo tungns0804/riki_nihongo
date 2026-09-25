@@ -1,8 +1,14 @@
 <div class="container page">
   <div class="stack stack-xl">
     <section class="page-head">
-      <a class="back-link small" [routerLink]="['/', course.id, module().path]">
-        {{ t('common.backToList') }}
+      <!-- Đề luyện tập thuộc về một bài, nên "quay lại" của nó là bài mẹ — đúng cấp mà
+           breadcrumb đang chỉ. -->
+      <a class="back-link small" [routerLink]="backLink()">
+        @if (parentId()) {
+          {{ t('unit.backToParent') }}
+        } @else {
+          {{ t('common.backToList') }}
+        }
       </a>
 
       @if (loading()) {
@@ -66,6 +72,24 @@
                   </li>
                 }
               </ol>
+            </div>
+          </section>
+        }
+
+        <!-- Đề luyện tập đứng ngay sau bảng tóm tắt, như khối BTVN của trang kanji: mở
+             bài ra là thấy việc phải làm, không phải cuộn hết phần lý thuyết. -->
+        @if (exercises().length > 0) {
+          <section class="card" [attr.aria-label]="t('grammar.exercises')">
+            <div class="card-body stack stack-sm">
+              <h2>{{ t('grammar.exercises') }}</h2>
+              <div class="exercise-row">
+                @for (item of exercises(); track item.id) {
+                  <a class="btn btn-sm exercise-link" [routerLink]="['/', course.id, module().path, item.id]">
+                    {{ item.name }}
+                    <span class="badge">{{ t('test.questionCount', { count: item.itemCount }) }}</span>
+                  </a>
+                }
+              </div>
             </div>
           </section>
         }

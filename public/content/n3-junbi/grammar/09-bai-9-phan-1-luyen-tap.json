@@ -1,0 +1,756 @@
+{
+  "id": "09-bai-9-phan-1-luyen-tap",
+  "name": "Luyện tập Bài 9 · Phần 1",
+  "description": "Các câu chọn đáp án và chọn từ trong khung của Bài 9 · Phần 1 — 21 câu, kể cả câu đố ở trang bìa.",
+  "kind": "test",
+  "parent": "09-bai-9-phan-1",
+  "group": "",
+  "sections": [
+    {
+      "id": "b9-bia",
+      "title": "Trang bìa — Đố bạn làm đúng!",
+      "instructions": "Đố bạn làm đúng!",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-01",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "山頂までの道は石ころ（　　　）だ。",
+          "promptReading": "さんちょうまでのみちはいしころ（　　　）だ。",
+          "promptTranslation": "Con đường lên tới đỉnh núi toàn là đá sỏi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ばかり",
+              "translation": "chỉ toàn",
+              "note": "石ころばかりだ cũng nói được, nhưng chỉ là \"chỉ có đá\"; ý đường đầy đá, khó đi (nghĩa xấu) là だらけ."
+            },
+            {
+              "id": "c2",
+              "text": "だらけ",
+              "translation": "đầy, toàn là (nghĩa xấu)",
+              "note": "Đúng: đường đầy đá sỏi, khó đi — thứ gì đó có nhiều theo nghĩa xấu → N＋だらけだ."
+            },
+            {
+              "id": "c3",
+              "text": "っぽい",
+              "translation": "có vẻ, ngả về",
+              "note": "っぽい là \"có vẻ giống, ngả về\" (子どもっぽい, 黒っぽい), không nói về số lượng."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Trang cuối PDF khoanh đáp án 2. だらけ.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-darake-1",
+      "title": "1. ～だらけ · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-02",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "先週のテストは（　　　）だらけだった。",
+          "promptReading": "せんしゅうのてすとは（　　　）だらけだった。",
+          "promptTranslation": "Bài kiểm tra tuần trước toàn là lỗi sai.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "間違い",
+              "translation": "lỗi sai (danh từ)",
+              "note": "Đúng: だらけ nối vào danh từ — 間違いだらけ."
+            },
+            {
+              "id": "c2",
+              "text": "間違う",
+              "translation": "sai, nhầm (động từ)",
+              "note": "間違う là động từ; だらけ không nối vào động từ."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-darake-2",
+      "title": "1. ～だらけ · 問題2",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-03",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "その男は黒（　　　）服を着ていた。",
+          "promptReading": "そのおとこはくろ（　　　）ふくをきていた。",
+          "promptTranslation": "Người đàn ông đó mặc bộ quần áo màu ngả đen.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "だらけ",
+              "translation": "đầy, toàn là (nghĩa xấu)",
+              "note": "黒だらけ là \"dính đen khắp nơi\" theo nghĩa bẩn, và trước danh từ phải là だらけの."
+            },
+            {
+              "id": "c2",
+              "text": "だけ",
+              "translation": "chỉ",
+              "note": "黒だけ服 sai cấu trúc — だけ trước danh từ phải là だけの."
+            },
+            {
+              "id": "c3",
+              "text": "っぽい",
+              "translation": "có vẻ, ngả về (màu, tính chất)",
+              "note": "Đúng: 黒っぽい服 — áo màu ngả đen, hơi đen."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b9-04",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "苦労した祖父の手は固くてしわ（　　　）だ。",
+          "promptReading": "くろうしたそふのてはかたくてしわ（　　　）だ。",
+          "promptTranslation": "Đôi bàn tay của ông tôi, người đã chịu nhiều vất vả, chai cứng và đầy nếp nhăn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "だらけ",
+              "translation": "đầy, toàn là (nghĩa xấu)",
+              "note": "Đúng: しわだらけ — đầy nếp nhăn."
+            },
+            {
+              "id": "c2",
+              "text": "だけ",
+              "translation": "chỉ",
+              "note": "しわだけだ là \"chỉ có nếp nhăn\", không hợp với 固くて."
+            },
+            {
+              "id": "c3",
+              "text": "っぽい",
+              "translation": "có vẻ, ngả về (màu, tính chất)",
+              "note": "しわっぽい không phải cách nói tự nhiên."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-bakari-1",
+      "title": "2. ～ばかり · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-05",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "彼はいつも嘘（　　　）ついているから信用されていない。",
+          "promptReading": "かれはいつもうそ（　　　）ついているからしんようされていない。",
+          "promptTranslation": "Anh ta lúc nào cũng chỉ toàn nói dối nên không được ai tin.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ばかり",
+              "translation": "chỉ toàn",
+              "note": "Đúng: 嘘ばかりつく — ばかり thay vào chỗ của を, động từ ついている theo ngay sau."
+            },
+            {
+              "id": "c2",
+              "text": "ばかりで",
+              "translation": "chỉ toàn… và (nối câu)",
+              "note": "ばかりで dùng để nối sang vế khác (N ばかりで…); ở đây ついている là động từ của chính 嘘 nên không chen で vào được."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-bakari-2",
+      "title": "2. ～ばかり · 問題2",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-06",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "この部屋はしばらく掃除していなかったら、ほこり（　　　）だ。",
+          "promptReading": "このへやはしばらくそうじしていなかったら、ほこり（　　　）だ。",
+          "promptTranslation": "Căn phòng này không dọn một thời gian nên bụi bám đầy.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "だらけ",
+              "translation": "đầy, toàn là (nghĩa xấu)",
+              "note": "Đúng: ほこりだらけ — thứ xấu (bụi) có nhiều, phủ khắp nơi."
+            },
+            {
+              "id": "c2",
+              "text": "ばかり",
+              "translation": "chỉ toàn",
+              "note": "ほこりばかりだ là \"chỉ có bụi mà không có gì khác\", không phải ý bụi phủ đầy."
+            },
+            {
+              "id": "c3",
+              "text": "っぽい",
+              "translation": "có vẻ, ngả về",
+              "note": "ほこりっぽい là tính từ đuôi い: phải là ほこりっぽい, không đứng trước だ."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b9-07",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "甘いものを食べて（　　　）いると、太りますよ!",
+          "promptReading": "あまいものをたべて（　　　）いると、ふとりますよ!",
+          "promptTranslation": "Cứ chỉ toàn ăn đồ ngọt là béo lên đấy!",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "だらけ",
+              "translation": "đầy, toàn là (nghĩa xấu)",
+              "note": "だらけ không nối vào thể て."
+            },
+            {
+              "id": "c2",
+              "text": "ばかり",
+              "translation": "chỉ toàn",
+              "note": "Đúng: Vて＋ばかりいる — chỉ toàn làm V (phê phán)."
+            },
+            {
+              "id": "c3",
+              "text": "っぽい",
+              "translation": "có vẻ, ngả về",
+              "note": "っぽい không nối vào thể て."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-tabini-1",
+      "title": "3. ～たびに · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-08",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "彼女はデートのたびに（　　　）。",
+          "promptReading": "かのじょはでーとのたびに（　　　）。",
+          "promptTranslation": "Cô ấy cứ mỗi lần hẹn hò là lại đến muộn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "遅れてくる",
+              "translation": "đến muộn",
+              "note": "Đúng: vế sau たびに là việc thật sự xảy ra mỗi lần — 遅れてくる."
+            },
+            {
+              "id": "c2",
+              "text": "遅れそうだ",
+              "translation": "có vẻ sắp muộn",
+              "note": "遅れそうだ là phỏng đoán một lần, không hợp với ý \"lần nào cũng vậy\"."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-tabini-2",
+      "title": "3. ～たびに · 問題2",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-09",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "コンビニで新しいお菓子を見る（　　　）つい買ってしまう。",
+          "promptReading": "こんびにであたらしいおかしをみる（　　　）ついかってしまう。",
+          "promptTranslation": "Cứ mỗi lần thấy bánh kẹo mới ở cửa hàng tiện lợi là tôi lại lỡ tay mua.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ところ",
+              "translation": "lúc, đúng thời điểm",
+              "note": "見るところ là \"đúng lúc sắp nhìn\", không nói việc lặp lại."
+            },
+            {
+              "id": "c2",
+              "text": "たびに",
+              "translation": "cứ mỗi lần",
+              "note": "Đúng: 見るたびに…つい買ってしまう — lần nào cũng vậy."
+            },
+            {
+              "id": "c3",
+              "text": "とき",
+              "translation": "khi",
+              "note": "見るとき hiểu được, nhưng thói quen \"lần nào cũng lỡ mua\" là đúng chỗ của たびに."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b9-10",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "来週京都に出張する（　　　）この書類を持っていってください。",
+          "promptReading": "らいしゅうきょうとにしゅっちょうする（　　　）このしょるいをもっていってください。",
+          "promptTranslation": "Khi đi công tác Kyoto tuần sau, anh mang theo tài liệu này nhé.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ところ",
+              "translation": "lúc, đúng thời điểm",
+              "note": "出張するところ không dùng cho một dịp trong tương lai kèm lời nhờ."
+            },
+            {
+              "id": "c2",
+              "text": "たびに",
+              "translation": "cứ mỗi lần",
+              "note": "Chuyến công tác tuần sau chỉ là MỘT lần, không phải \"mỗi lần\" → không dùng たびに."
+            },
+            {
+              "id": "c3",
+              "text": "とき",
+              "translation": "khi",
+              "note": "Đúng: 出張するとき — khi (một lần cụ thể)."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-tsuideni-1",
+      "title": "4. ～ついでに · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-11",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "散歩する（　　　）、図書館で借りた本を返しに行った。",
+          "promptReading": "さんぽする（　　　）、としょかんでかりたほんをかえしにいった。",
+          "promptTranslation": "Nhân tiện đi dạo, tôi đi trả sách đã mượn ở thư viện.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "のついでに",
+              "translation": "nhân tiện (sau danh từ)",
+              "note": "のついでに đi sau DANH TỪ (散歩のついでに); 散歩する là động từ."
+            },
+            {
+              "id": "c2",
+              "text": "ついでに",
+              "translation": "nhân tiện (sau động từ)",
+              "note": "Đúng: Vる＋ついでに — 散歩するついでに."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-tsuideni-2",
+      "title": "4. ～ついでに · 問題2",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-12",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "「明日、近くへ行く（　　　）忘れ物を届けますよ。」",
+          "promptReading": "「あした、ちかくへいく（　　　）わすれものをとどけますよ。」",
+          "promptTranslation": "\"Mai tôi đi gần đó, nhân tiện mang đồ bỏ quên qua cho anh nhé.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ついでに",
+              "translation": "nhân tiện, tiện thể",
+              "note": "Đúng: 近くへ行くついでに — việc chính là đi gần đó, tiện thể mang đồ."
+            },
+            {
+              "id": "c2",
+              "text": "ながら",
+              "translation": "vừa… vừa…",
+              "note": "ながら nối vào thân ます (行きながら) và là hai việc cùng lúc, không hợp."
+            },
+            {
+              "id": "c3",
+              "text": "たびに",
+              "translation": "cứ mỗi lần",
+              "note": "たびに là mỗi lần — ngày mai chỉ là một lần."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b9-13",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "私の場合、引っ越しする（　　　）物が増える。",
+          "promptReading": "わたしのばあい、ひっこしする（　　　）ものがふえる。",
+          "promptTranslation": "Với tôi thì cứ mỗi lần chuyển nhà là đồ đạc lại nhiều thêm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ついでに",
+              "translation": "nhân tiện, tiện thể",
+              "note": "ついでに thì vế sau phải là việc mình làm tiện thể; 物が増える không phải việc làm."
+            },
+            {
+              "id": "c2",
+              "text": "ながら",
+              "translation": "vừa… vừa…",
+              "note": "ながら nối vào thân ます, và không có nghĩa lặp lại."
+            },
+            {
+              "id": "c3",
+              "text": "たびに",
+              "translation": "cứ mỗi lần",
+              "note": "Đúng: 引っ越しするたびに — mỗi lần chuyển nhà lại có một sự việc xảy ra."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "PDF in 「私の場会」 — lỗi gõ của 場合, đã sửa.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-uchini-1",
+      "title": "5. ～うちに · 問題1",
+      "instructions": "Chọn cụm từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-14",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（　　　）うちにほしいものを買っておこう。",
+          "promptReading": "（　　　）うちにほしいものをかっておこう。",
+          "promptTranslation": "Tranh thủ lúc tiền vẫn còn, mua sẵn những thứ mình muốn thôi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "お金が残っている",
+              "translation": "tiền vẫn còn",
+              "note": "Đúng: お金が残っているうちに — làm trước khi tiền hết (trước khi có thay đổi); vế sau có ý chí 買っておこう."
+            },
+            {
+              "id": "c2",
+              "text": "給料をもらう",
+              "translation": "nhận lương",
+              "note": "給料をもらううちに không tự nhiên — nhận lương là một thời điểm, không phải khoảng thời gian sắp đổi khác."
+            },
+            {
+              "id": "c3",
+              "text": "面白いと思いました",
+              "translation": "đã thấy thú vị",
+              "note": "Cụm này là vế sau (kết thúc bằng ました), không đứng trước うちに."
+            },
+            {
+              "id": "c4",
+              "text": "わかってきました",
+              "translation": "đã dần hiểu ra",
+              "note": "Cụm này là vế sau (kết thúc bằng ました), không đứng trước うちに."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b9-15",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "私はサッカーのルールがよくわからなかったんですが、テレビで試合を見ているうちに（　　　）。",
+          "promptReading": "わたしはさっかーのるーるがよくわからなかったんですが、てれびでしあいをみているうちに（　　　）。",
+          "promptTranslation": "Tôi vốn không hiểu rõ luật bóng đá, nhưng trong lúc xem trận đấu trên tivi thì đã dần hiểu ra.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "お金が残っている",
+              "translation": "tiền vẫn còn",
+              "note": "Cụm này đứng trước うちに, không phải vế sau."
+            },
+            {
+              "id": "c2",
+              "text": "給料をもらう",
+              "translation": "nhận lương",
+              "note": "Cụm này đứng trước うちに, không phải vế sau."
+            },
+            {
+              "id": "c3",
+              "text": "面白いと思いました",
+              "translation": "đã thấy thú vị",
+              "note": "面白いと思いました là một ý nghĩ, không phải SỰ BIẾN ĐỔI dần dần mà ～ているうちに cần."
+            },
+            {
+              "id": "c4",
+              "text": "わかってきました",
+              "translation": "đã dần hiểu ra",
+              "note": "Đúng: 〜ているうちに ＋ わかってきました — vế sau là sự biến đổi, không có ý chí."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-uchini-2",
+      "title": "5. ～うちに · 問題2",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-16",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "この映画は、何度見ても見る（　　　）感動させられる。",
+          "promptReading": "このえいがは、なんどみてもみる（　　　）かんどうさせられる。",
+          "promptTranslation": "Bộ phim này xem bao nhiêu lần đi nữa thì cứ mỗi lần xem tôi lại xúc động.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "たびに",
+              "translation": "cứ mỗi lần",
+              "note": "Đúng: 何度見ても… 見るたびに — mỗi lần xem lại xúc động."
+            },
+            {
+              "id": "c2",
+              "text": "うちに",
+              "translation": "trong lúc",
+              "note": "うちに (nghĩa \"trong lúc\") đi với Vている／Vない để nói thay đổi dần; 何度見ても cho thấy ý lặp lại → たびに."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-aida-1",
+      "title": "6. ～あいだ／あいだに · 問題1",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-17",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "私は夏休みの（　　　）、アメリカの友達の家にいた。",
+          "promptReading": "わたしはなつやすみの（　　　）、あめりかのともだちのいえにいた。",
+          "promptTranslation": "Suốt kỳ nghỉ hè, tôi ở nhà người bạn bên Mỹ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "あいだに",
+              "translation": "trong khi (một khoảnh khắc)",
+              "note": "あいだに cần một việc xảy ra trong khoảnh khắc; いた là trạng thái kéo dài."
+            },
+            {
+              "id": "c2",
+              "text": "あいだ",
+              "translation": "trong suốt (song song)",
+              "note": "Đúng: 夏休みのあいだ、…いた — suốt cả kỳ nghỉ, B diễn ra song song."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b9-18",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "お風呂に入っている（　　　）、配達の人が来たようだ。",
+          "promptReading": "おふろにはいっている（　　　）、はいたつのひとがきたようだ。",
+          "promptTranslation": "Hình như trong lúc tôi đang tắm thì người giao hàng đã đến.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "あいだに",
+              "translation": "trong khi (một khoảnh khắc)",
+              "note": "Đúng: 来た là việc xảy ra trong khoảnh khắc → あいだに."
+            },
+            {
+              "id": "c2",
+              "text": "あいだ",
+              "translation": "trong suốt (song song)",
+              "note": "あいだ thì B phải kéo dài suốt khoảng đó (〜ている、〜ていた); 来た chỉ xảy ra một lúc."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b9-on-tap",
+      "title": "Bài tập ôn tập",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-19",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "田中先生が講演している（　　　）、みんな熱心にメモをとっていた。",
+          "promptReading": "たなかせんせいがこうえんしている（　　　）、みんなねっしんにめもをとっていた。",
+          "promptTranslation": "Suốt lúc thầy Tanaka giảng, mọi người đều chăm chú ghi chép.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "あいだ",
+              "translation": "trong suốt",
+              "note": "Đúng: メモをとっていた kéo dài song song suốt buổi giảng → あいだ."
+            },
+            {
+              "id": "c2",
+              "text": "うちに",
+              "translation": "tranh thủ, trong lúc",
+              "note": "うちに cần vế sau là việc tranh thủ hoặc một sự biến đổi; ở đây chỉ là hai việc song song."
+            },
+            {
+              "id": "c3",
+              "text": "あいだに",
+              "translation": "trong khi (một khoảnh khắc)",
+              "note": "あいだに thì vế sau là việc xảy ra trong khoảnh khắc, không phải とっていた."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b9-20",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "一時と二時の（　　　）来てください。",
+          "promptReading": "いちじとにじの（　　　）きてください。",
+          "promptTranslation": "Hãy đến trong khoảng từ 1 giờ đến 2 giờ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "あいだ",
+              "translation": "trong suốt",
+              "note": "あいだ thì B phải kéo dài suốt khoảng đó — không phải \"đến\" suốt từ 1 tới 2 giờ."
+            },
+            {
+              "id": "c2",
+              "text": "うちに",
+              "translation": "tranh thủ, trong lúc",
+              "note": "うちに không đi với khoảng có mốc đầu và cuối rõ ràng."
+            },
+            {
+              "id": "c3",
+              "text": "あいだに",
+              "translation": "trong khi (một khoảnh khắc)",
+              "note": "Đúng: xác định rõ thời điểm bắt đầu và kết thúc, việc đến xảy ra một lúc trong đó → あいだに."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b9-21",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "たこ焼きは温かい（　　　）食べてね。",
+          "promptReading": "たこやきはあたたかい（　　　）たべてね。",
+          "promptTranslation": "Takoyaki thì tranh thủ ăn lúc còn nóng nhé.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "あいだ",
+              "translation": "trong suốt",
+              "note": "温かいあいだ không hợp — B không kéo dài song song, và あいだ không nối vào tính từ trong bài này."
+            },
+            {
+              "id": "c2",
+              "text": "うちに",
+              "translation": "tranh thủ, trong lúc",
+              "note": "Đúng: Aい＋うちに — ăn trước khi nguội đi (trước khi có thay đổi)."
+            },
+            {
+              "id": "c3",
+              "text": "あいだに",
+              "translation": "trong khi (một khoảnh khắc)",
+              "note": "Lúc \"còn nóng\" không có mốc bắt đầu, kết thúc rõ ràng → không dùng あいだに."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

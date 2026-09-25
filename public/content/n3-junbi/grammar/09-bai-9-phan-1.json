@@ -1,0 +1,340 @@
+{
+  "id": "09-bai-9-phan-1",
+  "name": "Bài 9 · Phần 1",
+  "description": "この部屋、ゴミだらけじゃないですか。— ～だらけ · ～ばかり · ～たびに · ～ついでに · ～うちに · ～あいだ／あいだに",
+  "kind": "grammar",
+  "parent": "",
+  "group": "",
+  "points": [
+    {
+      "id": "838ad495f590002a",
+      "title": "～だらけ",
+      "summary": "Đầy… / Toàn là… (nghĩa xấu)",
+      "structures": [
+        "N ＋ だらけだ",
+        "N ＋ だらけの ＋ N"
+      ],
+      "explanation": [
+        "Thứ gì đó có nhiều — theo nghĩa xấu."
+      ],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～だらけ",
+          "detail": "",
+          "examples": [
+            {
+              "id": "b88d955f093bb2f4",
+              "japanese": "A：このシャツ着ていこう！\nB：えぇ！シワだらけだよ！",
+              "reading": "A：このしゃつきていこう！\nB：えぇ！しわだらけだよ！",
+              "vietnamese": "A: Mặc cái áo sơ mi này đi thôi!\nB: Hả! Nó nhăn nhúm hết cả rồi kìa!",
+              "note": ""
+            },
+            {
+              "id": "e0890e3bd77b159d",
+              "japanese": "A：テストの結果どうだった？\nB：全然だめ。自信あったのに間違いだらけだったよ．．．",
+              "reading": "A：てすとのけっかどうだった？\nB：ぜんぜんだめ。じしんあったのにまちがいだらけだったよ．．．",
+              "vietnamese": "A: Kết quả bài kiểm tra thế nào?\nB: Chẳng ra gì. Đã tự tin thế mà toàn là lỗi sai…",
+              "note": ""
+            },
+            {
+              "id": "f1c03594cc6cd2ca",
+              "japanese": "A：えっ！靴、泥だらけになっちゃった！\nB：あ、さっき、雨の中、公園を走ったの。",
+              "reading": "A：えっ！くつ、どろだらけになっちゃった！\nB：あ、さっき、あめのなか、こうえんをはしったの。",
+              "vietnamese": "A: Ơ! Giày lấm lem toàn bùn thế này!\nB: À, lúc nãy mình chạy trong công viên dưới mưa.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de0b80b45096d9e3",
+      "title": "～ばかり",
+      "summary": "Chỉ toàn… (thường là chỉ trích, phê phán)",
+      "structures": [
+        "N ＋ ばかり",
+        "Vて ＋ ばかり"
+      ],
+      "explanation": [
+        "Chỉ toàn N hoặc chỉ toàn làm V.",
+        "Thường là chỉ trích, phê phán."
+      ],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～ばかり",
+          "detail": "",
+          "examples": [
+            {
+              "id": "31d8918e5d9dd917",
+              "japanese": "一人暮らしの息子は、ファストフードばかり食べているので少し心配です。",
+              "reading": "ひとりぐらしのむすこは、ふぁすとふーどばかりたべているのですこししんぱいです。",
+              "vietnamese": "Con trai tôi sống một mình, chỉ toàn ăn đồ ăn nhanh nên tôi hơi lo.",
+              "note": ""
+            },
+            {
+              "id": "b1d467f7b6e3fc41",
+              "japanese": "A：熱が出ちゃった〜\nB：最近、遊んでばかりいて寝てないからじゃない。",
+              "reading": "A：ねつがでちゃった〜\nB：さいきん、あそんでばかりいてねてないからじゃない。",
+              "vietnamese": "A: Mình bị sốt mất rồi~\nB: Chẳng phải vì dạo này cậu chỉ toàn đi chơi, không chịu ngủ à.",
+              "note": ""
+            },
+            {
+              "id": "802a5af387b19fa0",
+              "japanese": "ヤバい！Tiktokを見てばかりいたので、宿題を忘れちゃった。",
+              "reading": "やばい！てぃっくとっくをみてばかりいたので、しゅくだいをわすれちゃった。",
+              "vietnamese": "Chết rồi! Chỉ toàn xem TikTok nên quên béng mất bài tập.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6c0b149b033cad06",
+      "title": "～たびに",
+      "summary": "Cứ mỗi khi… / mỗi lần… lại…",
+      "structures": [
+        "Vる ＋ たび（に）",
+        "N の ＋ たび（に）"
+      ],
+      "explanation": [
+        "Mỗi khi làm gì lại có một sự việc xảy ra."
+      ],
+      "notes": [
+        "KHÔNG dùng 「たびに」 cho những việc mang tính hàng ngày: 毎朝起きるたびにコーヒーを飲む。✕",
+        "KHÔNG dùng 「たびに」 cho những quy luật tự nhiên: 冬になるたびに雪が降ります。✕"
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～たびに",
+          "detail": "",
+          "examples": [
+            {
+              "id": "bf8bbd40870ad4c1",
+              "japanese": "A：どうぞ〜\nB：お邪魔します！あっ、お子さん、会うたびに大きくなるね。",
+              "reading": "A：どうぞ〜\nB：おじゃまします！あっ、おこさん、あうたびにおおきくなるね。",
+              "vietnamese": "A: Mời vào~\nB: Tôi xin phép làm phiền! À, bé nhà chị cứ mỗi lần gặp lại lớn thêm nhỉ.",
+              "note": ""
+            },
+            {
+              "id": "b72f5f67d07b7293",
+              "japanese": "お隣の人は旅行のたびにお土産を買ってきてくれる。",
+              "reading": "おとなりのひとはりょこうのたびにおみやげをかってきてくれる。",
+              "vietnamese": "Người nhà bên cạnh cứ mỗi lần đi du lịch lại mua quà về cho tôi.",
+              "note": ""
+            },
+            {
+              "id": "4d66cc6a507e6870",
+              "japanese": "A：この歌、懐かしいですね。\nB：久しぶりに聞きました。\nA：この歌を聞くたびに、学生時代を思い出しますね。\nB：私もです。",
+              "reading": "A：このうた、なつかしいですね。\nB：ひさしぶりにききました。\nA：このうたをきくたびに、がくせいじだいをおもいだしますね。\nB：わたしもです。",
+              "vietnamese": "A: Bài hát này gợi nhớ ghê nhỉ.\nB: Lâu lắm rồi tôi mới nghe lại.\nA: Cứ mỗi lần nghe bài này, tôi lại nhớ về thời học sinh.\nB: Tôi cũng vậy.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ba9459a7635ca662",
+      "title": "～ついでに",
+      "summary": "Nhân tiện… / Tiện thể…",
+      "structures": [
+        "Vる／Vた ＋ ついでに",
+        "N の ＋ ついでに"
+      ],
+      "explanation": [
+        "Nhân cơ hội làm A thì làm B (tiện thể).",
+        "Vế trước: mục đích chính, vế sau: tiện thể."
+      ],
+      "notes": [
+        "ついでに có thể sử dụng độc lập: すみません、ついでにこれもお願いします。"
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～ついでに",
+          "detail": "",
+          "examples": [
+            {
+              "id": "57b9fc1f9b83b84e",
+              "japanese": "A：うわぁ〜おいしそう。自分で作ったの？\nB：ええ、いつも、晩ご飯を作るついでに、翌日のお弁当も作っているの。",
+              "reading": "A：うわぁ〜おいしそう。じぶんでつくったの？\nB：ええ、いつも、ばんごはんをつくるついでに、よくじつのおべんとうもつくっているの。",
+              "vietnamese": "A: Oa~ trông ngon quá. Cậu tự làm à?\nB: Ừ, lúc nào mình cũng tiện nấu bữa tối thì làm luôn cơm hộp cho ngày hôm sau.",
+              "note": ""
+            },
+            {
+              "id": "9e167688a5b5c005",
+              "japanese": "京都出張のついでに友人に会いに行こうと思っている。",
+              "reading": "きょうとしゅっちょうのついでにゆうじんにあいにいこうとおもっている。",
+              "vietnamese": "Tôi định nhân chuyến công tác Kyoto thì tiện thể đi gặp bạn.",
+              "note": ""
+            },
+            {
+              "id": "ee21274ea681da7b",
+              "japanese": "A：あ！立ったついでに、冷蔵庫からしょうゆ持ってきて！\nB：はーい！",
+              "reading": "A：あ！たったついでに、れいぞうこからしょうゆもってきて！\nB：はーい！",
+              "vietnamese": "A: À! Tiện đứng dậy rồi thì lấy giúp chai xì dầu trong tủ lạnh nhé!\nB: Vâng~!",
+              "note": ""
+            },
+            {
+              "id": "da8d3a546c0e393b",
+              "japanese": "すみません、ついでにこれもお願いします。",
+              "reading": "すみません、ついでにこれもおねがいします。",
+              "vietnamese": "Xin lỗi, tiện thể nhờ anh làm luôn cái này nữa ạ.",
+              "note": "ついでに dùng độc lập, không nối vào vế trước."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10aed4c85cba4e70",
+      "title": "～うちに",
+      "summary": "Tranh thủ… / Trước khi… thì… · Trong lúc đang…",
+      "structures": [
+        "Vる／ている／Vない ＋ うちに",
+        "Aい／Aな ＋ うちに",
+        "N の ＋ うちに"
+      ],
+      "explanation": [],
+      "notes": [
+        "Phân biệt với ～あいだに: ～うちに là trong khoảng thời gian đó không làm thì sẽ muộn; ～あいだに thì có thể xác định rõ thời điểm bắt đầu và kết thúc.",
+        "Câu dùng được cả hai: みんなが出かけている（うちに・あいだに）、宿題をやってしまいなさい。"
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Tranh thủ… / Trước khi… thì…",
+          "detail": "Làm gì trước khi có sự thay đổi. Vế sau thể hiện ý chí.",
+          "examples": [
+            {
+              "id": "10d5754c8cf39204",
+              "japanese": "A：私が作ったんです。冷めないうちにどうぞ。\nB：おいしそう！じゃあ、温かいうちにいただきます。",
+              "reading": "A：わたしがつくったんです。さめないうちにどうぞ。\nB：おいしそう！じゃあ、あたたかいうちにいただきます。",
+              "vietnamese": "A: Tôi tự nấu đấy. Mời anh ăn khi còn chưa nguội.\nB: Trông ngon quá! Vậy tôi xin ăn luôn lúc còn nóng.",
+              "note": ""
+            },
+            {
+              "id": "2e90a13228ebf32e",
+              "japanese": "朝のうちに宿題をしてしまったほうがいいよ。",
+              "reading": "あさのうちにしゅくだいをしてしまったほうがいいよ。",
+              "vietnamese": "Nên tranh thủ làm xong bài tập ngay trong buổi sáng đi.",
+              "note": ""
+            },
+            {
+              "id": "2796f6431e0597c8",
+              "japanese": "A：もう3月。桜が咲いているね！\nB：ええ、きれいなうちに花見をしよう。",
+              "reading": "A：もうさんがつ。さくらがさいているね！\nB：ええ、きれいなうちにはなみをしよう。",
+              "vietnamese": "A: Đã tháng 3 rồi. Hoa anh đào nở rồi kìa!\nB: Ừ, tranh thủ lúc hoa còn đẹp thì đi ngắm hoa thôi.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "Trong lúc đang… / Trong khi…",
+          "detail": "Cấu trúc: Vる／ている, Vない ＋ うちに. Trong lúc đang làm gì thì có phát sinh hoặc thay đổi. Vế sau là sự biến đổi và không có ý chí.",
+          "examples": [
+            {
+              "id": "2b806e3f850bb1da",
+              "japanese": "A：久しぶり！\nB：久しぶり！ちょっと会わないうちに、きれいになったね。",
+              "reading": "A：ひさしぶり！\nB：ひさしぶり！ちょっとあわないうちに、きれいになったね。",
+              "vietnamese": "A: Lâu quá không gặp!\nB: Lâu quá không gặp! Mới không gặp một thời gian mà cậu xinh ra hẳn nhỉ.",
+              "note": ""
+            },
+            {
+              "id": "099c727139687519",
+              "japanese": "古くからの友人とおしゃべりしているうちに、空が暗くなっちゃった。",
+              "reading": "ふるくからのゆうじんとおしゃべりしているうちに、そらがくらくなっちゃった。",
+              "vietnamese": "Trong lúc đang tán gẫu với người bạn lâu năm thì trời đã tối mất rồi.",
+              "note": ""
+            },
+            {
+              "id": "9444d191d27cf573",
+              "japanese": "A：寒くないの？\nB：寒かったが、走っているうちに体が暖かくなったよ。",
+              "reading": "A：さむくないの？\nB：さむかったが、はしっているうちにからだがあたたかくなったよ。",
+              "vietnamese": "A: Cậu không lạnh à?\nB: Lúc đầu thì lạnh, nhưng chạy một lúc thì người ấm lên rồi.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "95564b93b915a2e1",
+      "title": "～あいだ／あいだに",
+      "summary": "Trong suốt… (あいだ) · Trong khi… (あいだに)",
+      "structures": [
+        "Vている／Vない／N の ＋ あいだ",
+        "Vる／ている／Vない／N の ＋ あいだに"
+      ],
+      "explanation": [],
+      "notes": [
+        "～あいだに: có thể xác định rõ thời điểm bắt đầu và kết thúc — 10時〜11時のあいだに行きますね。／日本にいるあいだに思いがけないことがあった。"
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～あいだ：Trong suốt…",
+          "detail": "Trong suốt thời gian A xảy ra thì B cũng xảy ra (song song). B thường ở dạng 〜ている、〜ていた、ない.",
+          "examples": [
+            {
+              "id": "5deef1a849f36863",
+              "japanese": "母が料理を作っているあいだ、テレビを見て待っていた。",
+              "reading": "ははがりょうりをつくっているあいだ、てれびをみてまっていた。",
+              "vietnamese": "Trong suốt lúc mẹ nấu ăn, tôi xem tivi ngồi chờ.",
+              "note": ""
+            },
+            {
+              "id": "97bfd459325fac0e",
+              "japanese": "A：大学生のあいだは一度もアルバイトをしたことがない。\nB：ほんと？",
+              "reading": "A：だいがくせいのあいだはいちどもあるばいとをしたことがない。\nB：ほんと？",
+              "vietnamese": "A: Suốt thời sinh viên, tôi chưa làm thêm lần nào.\nB: Thật á?",
+              "note": ""
+            },
+            {
+              "id": "59c3c35208566abe",
+              "japanese": "雨が降っているあいだ、喫茶店で雨が止むのを待っていた。",
+              "reading": "あめがふっているあいだ、きっさてんであめがやむのをまっていた。",
+              "vietnamese": "Suốt lúc trời mưa, tôi ngồi trong quán cà phê chờ mưa tạnh.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "～あいだに：Trong khi…",
+          "detail": "Trong khoảng thời gian A xảy ra thì có B xảy ra (khoảnh khắc).",
+          "examples": [
+            {
+              "id": "8d62035ac1096fe4",
+              "japanese": "私が宿題をしているあいだに、彼氏がご飯を作ってくれました。",
+              "reading": "わたしがしゅくだいをしているあいだに、かれしがごはんをつくってくれました。",
+              "vietnamese": "Trong lúc tôi làm bài tập, bạn trai đã nấu cơm cho tôi.",
+              "note": ""
+            },
+            {
+              "id": "f0b40b33ba314482",
+              "japanese": "A：顔が赤いですが、大丈夫ですか。\nB：ちょっと熱があるようです。\nA：それは大変ですね。病院に行ったほうがいいですよ。\nB：そうします。お昼休みのあいだに行ってきます。",
+              "reading": "A：かおがあかいですが、だいじょうぶですか。\nB：ちょっとねつがあるようです。\nA：それはたいへんですね。びょういんにいったほうがいいですよ。\nB：そうします。おひるやすみのあいだにいってきます。",
+              "vietnamese": "A: Mặt anh đỏ thế, có sao không?\nB: Hình như tôi hơi sốt.\nA: Thế thì mệt đấy. Anh nên đi viện đi.\nB: Tôi sẽ đi. Tôi tranh thủ đi trong giờ nghỉ trưa.",
+              "note": ""
+            },
+            {
+              "id": "0fefa4513aa7d988",
+              "japanese": "今日、会社にいるあいだに友達が家に来たそうだ。",
+              "reading": "きょう、かいしゃにいるあいだにともだちがいえにきたそうだ。",
+              "vietnamese": "Nghe nói hôm nay, trong lúc tôi ở công ty thì bạn tôi đã đến nhà.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

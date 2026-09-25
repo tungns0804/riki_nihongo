@@ -5,6 +5,7 @@ import { COURSE, moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import type { ModuleId } from '../../core/models/content.model';
+import { ContentStore } from '../../core/services/content-store';
 import { loadUnit } from '../../core/services/unit-loader';
 import { PracticeSetup } from '../shared/practice-setup/practice-setup';
 import { TestStart } from '../shared/test-start/test-start';
@@ -33,6 +34,7 @@ import { TestStart } from '../shared/test-start/test-start';
 })
 export class GrammarDetail {
   private readonly lang = inject(LanguageStore);
+  private readonly content = inject(ContentStore);
 
   protected readonly t = this.lang.t.bind(this.lang);
 
@@ -48,6 +50,23 @@ export class GrammarDetail {
   protected readonly notFound = this.resource.notFound;
 
   protected readonly points = computed(() => this.unit()?.points ?? []);
+
+  /**
+   * Đề luyện tập đi kèm bài (bài con, `"parent"` trỏ về bài này). PDF của Riki in các
+   * 問題 ngay dưới từng mẫu; ở đây gom thành một đề để làm cả lượt rồi chấm.
+   */
+  protected readonly exercises = computed(() =>
+    this.content.childrenOf(this.moduleId(), this.id()),
+  );
+
+  /** Bài mẹ của bài đang mở (đề luyện tập thì về đúng bài lý thuyết của nó, không về danh sách). */
+  protected readonly parentId = computed(() => this.unit()?.parent ?? '');
+
+  protected readonly backLink = computed(() => {
+    const moduleLink = ['/', this.course.id, this.module().path];
+    const parent = this.parentId();
+    return parent ? [...moduleLink, parent] : moduleLink;
+  });
 
   /** Bảng tóm tắt chỉ có ích khi bài có nhiều hơn một mẫu; một mẫu thì nó lặp lại y nguyên thẻ bên dưới. */
   protected readonly showOverview = computed(() => this.points().length > 1);

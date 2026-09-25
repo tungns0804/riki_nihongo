@@ -131,7 +131,26 @@
   border-left: 2px solid var(--border);
 }
 
+/* Ví dụ hội thoại xuống dòng bằng 
+, mỗi người nói một dòng như PDF in; ba dòng
+   (câu Nhật, cách đọc, nghĩa) xuống dòng ở cùng chỗ để đọc song song được. */
+.example-list li p {
+  white-space: pre-line;
+}
+
 .example-jp {
   font-size: var(--fs-lg);
   font-weight: 550;
+}
+
+/* --- Đề luyện tập đi kèm bài — chép khối BTVN của trang kanji ------------- */
+
+.exercise-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.exercise-link {
+  gap: var(--sp-2);
 }

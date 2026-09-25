@@ -1,0 +1,557 @@
+{
+  "sections": [
+    {
+      "id": "b9-bia",
+      "title": "Trang bìa — Đố bạn làm đúng!",
+      "instructions": "Đố bạn làm đúng!",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-01",
+          "promptJapanese": "山頂までの道は石ころ（　　　）だ。",
+          "promptReading": "さんちょうまでのみちはいしころ（　　　）だ。",
+          "promptVietnamese": "Con đường lên tới đỉnh núi toàn là đá sỏi.",
+          "choices": [
+            "ばかり",
+            "だらけ",
+            "っぽい"
+          ],
+          "choicesVietnamese": [
+            "chỉ toàn",
+            "đầy, toàn là (nghĩa xấu)",
+            "có vẻ, ngả về"
+          ],
+          "choiceNotes": [
+            "石ころばかりだ cũng nói được, nhưng chỉ là \"chỉ có đá\"; ý đường đầy đá, khó đi (nghĩa xấu) là だらけ.",
+            "Đúng: đường đầy đá sỏi, khó đi — thứ gì đó có nhiều theo nghĩa xấu → N＋だらけだ.",
+            "っぽい là \"có vẻ giống, ngả về\" (子どもっぽい, 黒っぽい), không nói về số lượng."
+          ],
+          "answer": 2,
+          "explanation": "Trang cuối PDF khoanh đáp án 2. だらけ."
+        }
+      ]
+    },
+    {
+      "id": "b9-darake-1",
+      "title": "1. ～だらけ · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-02",
+          "promptJapanese": "先週のテストは（　　　）だらけだった。",
+          "promptReading": "せんしゅうのてすとは（　　　）だらけだった。",
+          "promptVietnamese": "Bài kiểm tra tuần trước toàn là lỗi sai.",
+          "choices": [
+            "間違い",
+            "間違う"
+          ],
+          "choicesVietnamese": [
+            "lỗi sai (danh từ)",
+            "sai, nhầm (động từ)"
+          ],
+          "choiceNotes": [
+            "Đúng: だらけ nối vào danh từ — 間違いだらけ.",
+            "間違う là động từ; だらけ không nối vào động từ."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "b9-darake-2",
+      "title": "1. ～だらけ · 問題2",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-03",
+          "promptJapanese": "その男は黒（　　　）服を着ていた。",
+          "promptReading": "そのおとこはくろ（　　　）ふくをきていた。",
+          "promptVietnamese": "Người đàn ông đó mặc bộ quần áo màu ngả đen.",
+          "choices": [
+            "だらけ",
+            "だけ",
+            "っぽい"
+          ],
+          "choicesVietnamese": [
+            "đầy, toàn là (nghĩa xấu)",
+            "chỉ",
+            "có vẻ, ngả về (màu, tính chất)"
+          ],
+          "choiceNotes": [
+            "黒だらけ là \"dính đen khắp nơi\" theo nghĩa bẩn, và trước danh từ phải là だらけの.",
+            "黒だけ服 sai cấu trúc — だけ trước danh từ phải là だけの.",
+            "Đúng: 黒っぽい服 — áo màu ngả đen, hơi đen."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "n3j-b9-04",
+          "promptJapanese": "苦労した祖父の手は固くてしわ（　　　）だ。",
+          "promptReading": "くろうしたそふのてはかたくてしわ（　　　）だ。",
+          "promptVietnamese": "Đôi bàn tay của ông tôi, người đã chịu nhiều vất vả, chai cứng và đầy nếp nhăn.",
+          "choices": [
+            "だらけ",
+            "だけ",
+            "っぽい"
+          ],
+          "choicesVietnamese": [
+            "đầy, toàn là (nghĩa xấu)",
+            "chỉ",
+            "có vẻ, ngả về (màu, tính chất)"
+          ],
+          "choiceNotes": [
+            "Đúng: しわだらけ — đầy nếp nhăn.",
+            "しわだけだ là \"chỉ có nếp nhăn\", không hợp với 固くて.",
+            "しわっぽい không phải cách nói tự nhiên."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "b9-bakari-1",
+      "title": "2. ～ばかり · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-05",
+          "promptJapanese": "彼はいつも嘘（　　　）ついているから信用されていない。",
+          "promptReading": "かれはいつもうそ（　　　）ついているからしんようされていない。",
+          "promptVietnamese": "Anh ta lúc nào cũng chỉ toàn nói dối nên không được ai tin.",
+          "choices": [
+            "ばかり",
+            "ばかりで"
+          ],
+          "choicesVietnamese": [
+            "chỉ toàn",
+            "chỉ toàn… và (nối câu)"
+          ],
+          "choiceNotes": [
+            "Đúng: 嘘ばかりつく — ばかり thay vào chỗ của を, động từ ついている theo ngay sau.",
+            "ばかりで dùng để nối sang vế khác (N ばかりで…); ở đây ついている là động từ của chính 嘘 nên không chen で vào được."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "b9-bakari-2",
+      "title": "2. ～ばかり · 問題2",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-06",
+          "promptJapanese": "この部屋はしばらく掃除していなかったら、ほこり（　　　）だ。",
+          "promptReading": "このへやはしばらくそうじしていなかったら、ほこり（　　　）だ。",
+          "promptVietnamese": "Căn phòng này không dọn một thời gian nên bụi bám đầy.",
+          "choices": [
+            "だらけ",
+            "ばかり",
+            "っぽい"
+          ],
+          "choicesVietnamese": [
+            "đầy, toàn là (nghĩa xấu)",
+            "chỉ toàn",
+            "có vẻ, ngả về"
+          ],
+          "choiceNotes": [
+            "Đúng: ほこりだらけ — thứ xấu (bụi) có nhiều, phủ khắp nơi.",
+            "ほこりばかりだ là \"chỉ có bụi mà không có gì khác\", không phải ý bụi phủ đầy.",
+            "ほこりっぽい là tính từ đuôi い: phải là ほこりっぽい, không đứng trước だ."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "n3j-b9-07",
+          "promptJapanese": "甘いものを食べて（　　　）いると、太りますよ!",
+          "promptReading": "あまいものをたべて（　　　）いると、ふとりますよ!",
+          "promptVietnamese": "Cứ chỉ toàn ăn đồ ngọt là béo lên đấy!",
+          "choices": [
+            "だらけ",
+            "ばかり",
+            "っぽい"
+          ],
+          "choicesVietnamese": [
+            "đầy, toàn là (nghĩa xấu)",
+            "chỉ toàn",
+            "có vẻ, ngả về"
+          ],
+          "choiceNotes": [
+            "だらけ không nối vào thể て.",
+            "Đúng: Vて＋ばかりいる — chỉ toàn làm V (phê phán).",
+            "っぽい không nối vào thể て."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "b9-tabini-1",
+      "title": "3. ～たびに · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-08",
+          "promptJapanese": "彼女はデートのたびに（　　　）。",
+          "promptReading": "かのじょはでーとのたびに（　　　）。",
+          "promptVietnamese": "Cô ấy cứ mỗi lần hẹn hò là lại đến muộn.",
+          "choices": [
+            "遅れてくる",
+            "遅れそうだ"
+          ],
+          "choicesVietnamese": [
+            "đến muộn",
+            "có vẻ sắp muộn"
+          ],
+          "choiceNotes": [
+            "Đúng: vế sau たびに là việc thật sự xảy ra mỗi lần — 遅れてくる.",
+            "遅れそうだ là phỏng đoán một lần, không hợp với ý \"lần nào cũng vậy\"."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "b9-tabini-2",
+      "title": "3. ～たびに · 問題2",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-09",
+          "promptJapanese": "コンビニで新しいお菓子を見る（　　　）つい買ってしまう。",
+          "promptReading": "こんびにであたらしいおかしをみる（　　　）ついかってしまう。",
+          "promptVietnamese": "Cứ mỗi lần thấy bánh kẹo mới ở cửa hàng tiện lợi là tôi lại lỡ tay mua.",
+          "choices": [
+            "ところ",
+            "たびに",
+            "とき"
+          ],
+          "choicesVietnamese": [
+            "lúc, đúng thời điểm",
+            "cứ mỗi lần",
+            "khi"
+          ],
+          "choiceNotes": [
+            "見るところ là \"đúng lúc sắp nhìn\", không nói việc lặp lại.",
+            "Đúng: 見るたびに…つい買ってしまう — lần nào cũng vậy.",
+            "見るとき hiểu được, nhưng thói quen \"lần nào cũng lỡ mua\" là đúng chỗ của たびに."
+          ],
+          "answer": 2
+        },
+        {
+          "id": "n3j-b9-10",
+          "promptJapanese": "来週京都に出張する（　　　）この書類を持っていってください。",
+          "promptReading": "らいしゅうきょうとにしゅっちょうする（　　　）このしょるいをもっていってください。",
+          "promptVietnamese": "Khi đi công tác Kyoto tuần sau, anh mang theo tài liệu này nhé.",
+          "choices": [
+            "ところ",
+            "たびに",
+            "とき"
+          ],
+          "choicesVietnamese": [
+            "lúc, đúng thời điểm",
+            "cứ mỗi lần",
+            "khi"
+          ],
+          "choiceNotes": [
+            "出張するところ không dùng cho một dịp trong tương lai kèm lời nhờ.",
+            "Chuyến công tác tuần sau chỉ là MỘT lần, không phải \"mỗi lần\" → không dùng たびに.",
+            "Đúng: 出張するとき — khi (một lần cụ thể)."
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "b9-tsuideni-1",
+      "title": "4. ～ついでに · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-11",
+          "promptJapanese": "散歩する（　　　）、図書館で借りた本を返しに行った。",
+          "promptReading": "さんぽする（　　　）、としょかんでかりたほんをかえしにいった。",
+          "promptVietnamese": "Nhân tiện đi dạo, tôi đi trả sách đã mượn ở thư viện.",
+          "choices": [
+            "のついでに",
+            "ついでに"
+          ],
+          "choicesVietnamese": [
+            "nhân tiện (sau danh từ)",
+            "nhân tiện (sau động từ)"
+          ],
+          "choiceNotes": [
+            "のついでに đi sau DANH TỪ (散歩のついでに); 散歩する là động từ.",
+            "Đúng: Vる＋ついでに — 散歩するついでに."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "b9-tsuideni-2",
+      "title": "4. ～ついでに · 問題2",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-12",
+          "promptJapanese": "「明日、近くへ行く（　　　）忘れ物を届けますよ。」",
+          "promptReading": "「あした、ちかくへいく（　　　）わすれものをとどけますよ。」",
+          "promptVietnamese": "\"Mai tôi đi gần đó, nhân tiện mang đồ bỏ quên qua cho anh nhé.\"",
+          "choices": [
+            "ついでに",
+            "ながら",
+            "たびに"
+          ],
+          "choicesVietnamese": [
+            "nhân tiện, tiện thể",
+            "vừa… vừa…",
+            "cứ mỗi lần"
+          ],
+          "choiceNotes": [
+            "Đúng: 近くへ行くついでに — việc chính là đi gần đó, tiện thể mang đồ.",
+            "ながら nối vào thân ます (行きながら) và là hai việc cùng lúc, không hợp.",
+            "たびに là mỗi lần — ngày mai chỉ là một lần."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "n3j-b9-13",
+          "promptJapanese": "私の場合、引っ越しする（　　　）物が増える。",
+          "promptReading": "わたしのばあい、ひっこしする（　　　）ものがふえる。",
+          "promptVietnamese": "Với tôi thì cứ mỗi lần chuyển nhà là đồ đạc lại nhiều thêm.",
+          "choices": [
+            "ついでに",
+            "ながら",
+            "たびに"
+          ],
+          "choicesVietnamese": [
+            "nhân tiện, tiện thể",
+            "vừa… vừa…",
+            "cứ mỗi lần"
+          ],
+          "choiceNotes": [
+            "ついでに thì vế sau phải là việc mình làm tiện thể; 物が増える không phải việc làm.",
+            "ながら nối vào thân ます, và không có nghĩa lặp lại.",
+            "Đúng: 引っ越しするたびに — mỗi lần chuyển nhà lại có một sự việc xảy ra."
+          ],
+          "answer": 3,
+          "explanation": "PDF in 「私の場会」 — lỗi gõ của 場合, đã sửa."
+        }
+      ]
+    },
+    {
+      "id": "b9-uchini-1",
+      "title": "5. ～うちに · 問題1",
+      "instructions": "Chọn cụm từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-14",
+          "promptJapanese": "（　　　）うちにほしいものを買っておこう。",
+          "promptReading": "（　　　）うちにほしいものをかっておこう。",
+          "promptVietnamese": "Tranh thủ lúc tiền vẫn còn, mua sẵn những thứ mình muốn thôi.",
+          "choices": [
+            "お金が残っている",
+            "給料をもらう",
+            "面白いと思いました",
+            "わかってきました"
+          ],
+          "choicesVietnamese": [
+            "tiền vẫn còn",
+            "nhận lương",
+            "đã thấy thú vị",
+            "đã dần hiểu ra"
+          ],
+          "choiceNotes": [
+            "Đúng: お金が残っているうちに — làm trước khi tiền hết (trước khi có thay đổi); vế sau có ý chí 買っておこう.",
+            "給料をもらううちに không tự nhiên — nhận lương là một thời điểm, không phải khoảng thời gian sắp đổi khác.",
+            "Cụm này là vế sau (kết thúc bằng ました), không đứng trước うちに.",
+            "Cụm này là vế sau (kết thúc bằng ました), không đứng trước うちに."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "n3j-b9-15",
+          "promptJapanese": "私はサッカーのルールがよくわからなかったんですが、テレビで試合を見ているうちに（　　　）。",
+          "promptReading": "わたしはさっかーのるーるがよくわからなかったんですが、てれびでしあいをみているうちに（　　　）。",
+          "promptVietnamese": "Tôi vốn không hiểu rõ luật bóng đá, nhưng trong lúc xem trận đấu trên tivi thì đã dần hiểu ra.",
+          "choices": [
+            "お金が残っている",
+            "給料をもらう",
+            "面白いと思いました",
+            "わかってきました"
+          ],
+          "choicesVietnamese": [
+            "tiền vẫn còn",
+            "nhận lương",
+            "đã thấy thú vị",
+            "đã dần hiểu ra"
+          ],
+          "choiceNotes": [
+            "Cụm này đứng trước うちに, không phải vế sau.",
+            "Cụm này đứng trước うちに, không phải vế sau.",
+            "面白いと思いました là một ý nghĩ, không phải SỰ BIẾN ĐỔI dần dần mà ～ているうちに cần.",
+            "Đúng: 〜ているうちに ＋ わかってきました — vế sau là sự biến đổi, không có ý chí."
+          ],
+          "answer": 4
+        }
+      ]
+    },
+    {
+      "id": "b9-uchini-2",
+      "title": "5. ～うちに · 問題2",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-16",
+          "promptJapanese": "この映画は、何度見ても見る（　　　）感動させられる。",
+          "promptReading": "このえいがは、なんどみてもみる（　　　）かんどうさせられる。",
+          "promptVietnamese": "Bộ phim này xem bao nhiêu lần đi nữa thì cứ mỗi lần xem tôi lại xúc động.",
+          "choices": [
+            "たびに",
+            "うちに"
+          ],
+          "choicesVietnamese": [
+            "cứ mỗi lần",
+            "trong lúc"
+          ],
+          "choiceNotes": [
+            "Đúng: 何度見ても… 見るたびに — mỗi lần xem lại xúc động.",
+            "うちに (nghĩa \"trong lúc\") đi với Vている／Vない để nói thay đổi dần; 何度見ても cho thấy ý lặp lại → たびに."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "b9-aida-1",
+      "title": "6. ～あいだ／あいだに · 問題1",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-17",
+          "promptJapanese": "私は夏休みの（　　　）、アメリカの友達の家にいた。",
+          "promptReading": "わたしはなつやすみの（　　　）、あめりかのともだちのいえにいた。",
+          "promptVietnamese": "Suốt kỳ nghỉ hè, tôi ở nhà người bạn bên Mỹ.",
+          "choices": [
+            "あいだに",
+            "あいだ"
+          ],
+          "choicesVietnamese": [
+            "trong khi (một khoảnh khắc)",
+            "trong suốt (song song)"
+          ],
+          "choiceNotes": [
+            "あいだに cần một việc xảy ra trong khoảnh khắc; いた là trạng thái kéo dài.",
+            "Đúng: 夏休みのあいだ、…いた — suốt cả kỳ nghỉ, B diễn ra song song."
+          ],
+          "answer": 2
+        },
+        {
+          "id": "n3j-b9-18",
+          "promptJapanese": "お風呂に入っている（　　　）、配達の人が来たようだ。",
+          "promptReading": "おふろにはいっている（　　　）、はいたつのひとがきたようだ。",
+          "promptVietnamese": "Hình như trong lúc tôi đang tắm thì người giao hàng đã đến.",
+          "choices": [
+            "あいだに",
+            "あいだ"
+          ],
+          "choicesVietnamese": [
+            "trong khi (một khoảnh khắc)",
+            "trong suốt (song song)"
+          ],
+          "choiceNotes": [
+            "Đúng: 来た là việc xảy ra trong khoảnh khắc → あいだに.",
+            "あいだ thì B phải kéo dài suốt khoảng đó (〜ている、〜ていた); 来た chỉ xảy ra một lúc."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "b9-on-tap",
+      "title": "Bài tập ôn tập",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b9-19",
+          "promptJapanese": "田中先生が講演している（　　　）、みんな熱心にメモをとっていた。",
+          "promptReading": "たなかせんせいがこうえんしている（　　　）、みんなねっしんにめもをとっていた。",
+          "promptVietnamese": "Suốt lúc thầy Tanaka giảng, mọi người đều chăm chú ghi chép.",
+          "choices": [
+            "あいだ",
+            "うちに",
+            "あいだに"
+          ],
+          "choicesVietnamese": [
+            "trong suốt",
+            "tranh thủ, trong lúc",
+            "trong khi (một khoảnh khắc)"
+          ],
+          "choiceNotes": [
+            "Đúng: メモをとっていた kéo dài song song suốt buổi giảng → あいだ.",
+            "うちに cần vế sau là việc tranh thủ hoặc một sự biến đổi; ở đây chỉ là hai việc song song.",
+            "あいだに thì vế sau là việc xảy ra trong khoảnh khắc, không phải とっていた."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "n3j-b9-20",
+          "promptJapanese": "一時と二時の（　　　）来てください。",
+          "promptReading": "いちじとにじの（　　　）きてください。",
+          "promptVietnamese": "Hãy đến trong khoảng từ 1 giờ đến 2 giờ.",
+          "choices": [
+            "あいだ",
+            "うちに",
+            "あいだに"
+          ],
+          "choicesVietnamese": [
+            "trong suốt",
+            "tranh thủ, trong lúc",
+            "trong khi (một khoảnh khắc)"
+          ],
+          "choiceNotes": [
+            "あいだ thì B phải kéo dài suốt khoảng đó — không phải \"đến\" suốt từ 1 tới 2 giờ.",
+            "うちに không đi với khoảng có mốc đầu và cuối rõ ràng.",
+            "Đúng: xác định rõ thời điểm bắt đầu và kết thúc, việc đến xảy ra một lúc trong đó → あいだに."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "n3j-b9-21",
+          "promptJapanese": "たこ焼きは温かい（　　　）食べてね。",
+          "promptReading": "たこやきはあたたかい（　　　）たべてね。",
+          "promptVietnamese": "Takoyaki thì tranh thủ ăn lúc còn nóng nhé.",
+          "choices": [
+            "あいだ",
+            "うちに",
+            "あいだに"
+          ],
+          "choicesVietnamese": [
+            "trong suốt",
+            "tranh thủ, trong lúc",
+            "trong khi (một khoảnh khắc)"
+          ],
+          "choiceNotes": [
+            "温かいあいだ không hợp — B không kéo dài song song, và あいだ không nối vào tính từ trong bài này.",
+            "Đúng: Aい＋うちに — ăn trước khi nguội đi (trước khi có thay đổi).",
+            "Lúc \"còn nóng\" không có mốc bắt đầu, kết thúc rõ ràng → không dùng あいだに."
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

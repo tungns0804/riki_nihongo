@@ -64,3 +64,23 @@ Vài điểm riêng của đề ngữ pháp:
 - Câu hội thoại xuống dòng bằng `\n`, mỗi người nói một dòng đúng như đề in. Bản dịch
   `promptVietnamese` xuống dòng theo đúng các dòng đó.
 - Kỳ thi gốc của từng câu ghi ngay cuối câu như đề của Riki: `… (07/2014)`.
+
+## Bài lý thuyết theo PDF buổi học, kèm đề luyện tập
+
+PDF ngữ pháp của Riki (vd. `bai-9-phan-1.pdf`, 第9課) in mỗi mẫu gồm ポイント, khung cấu
+trúc, 例 rồi các 問題 "Luyện tập". Chép thành HAI thư mục:
+
+```
+09-bai-9-phan-1/              grammar.json — ポイント → explanation, 例 → examples, ⚠ → notes
+09-bai-9-phan-1-luyen-tap/    "kind": "test", "parent": "09-bai-9-phan-1", order = order bài mẹ × 100 + n
+```
+
+- Tên thư mục và `name` theo tên file PDF ("Bài 9 · Phần 1"); `order` = số bài × 10 +
+  số phần (91), để phần 2 đứng ngay sau.
+- Câu 例 hội thoại xuống dòng bằng `\n`, mỗi người nói một dòng; `reading` và
+  `vietnamese` xuống dòng ở đúng những chỗ đó.
+- Đề luyện tập chỉ lấy các câu CHỌN được (Chọn đáp án đúng, Chọn từ trong khung, câu đố
+  trang bìa). Mỗi 問題 một `section`, `instructions` chép nguyên câu lệnh tiếng Việt của
+  PDF, lựa chọn là các từ trong khung theo đúng thứ tự in. PDF không in đáp án (trừ câu
+  đố bìa) nên đáp án tự chấm, kèm `choiceNotes`.
+- Bỏ qua: Đuổi hình bắt chữ (cần ảnh), Sắp xếp câu, チャレンジ (dịch tự do).
