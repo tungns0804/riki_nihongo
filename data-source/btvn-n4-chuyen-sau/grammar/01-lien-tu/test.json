@@ -1,0 +1,82 @@
+{
+  "sections": [
+    {
+      "id": "lien-tu-renshu-2",
+      "title": "練習2 — Chọn vế hợp với liên từ (5 câu)",
+      "instructions": "練習２　a. か b. か　いい ほうを えらんで ください。",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n4cs-lt-01",
+          "promptJapanese": "きのう　遅く　ねた。だから、＿＿＿＿＿＿＿。",
+          "promptReading": "きのう　おそく　ねた。だから、＿＿＿＿＿＿＿。",
+          "promptVietnamese": "Hôm qua tôi ngủ muộn. Vì vậy, ＿＿＿＿＿＿＿.",
+          "choices": ["ねむい", "ねむきない"],
+          "choicesVietnamese": ["buồn ngủ (眠い)", "không có từ này — phủ định của 眠い là 眠くない"],
+          "choiceNotes": [
+            "Đúng: だから nối nguyên nhân với kết quả tất nhiên — ngủ muộn thì hôm nay buồn ngủ.",
+            "Đề in ねむきない; tính từ đuôi い bỏ い thêm くない nên phải là 眠くない. Mà kể cả viết đúng thì \"không buồn ngủ\" vẫn ngược với だから — chỗ đó phải nói けれども, ねむくない."
+          ],
+          "answer": 1,
+          "explanation": "だから = vì vậy, cho nên: vế sau là KẾT QUẢ đi thuận theo vế trước. Cùng nhóm: ですから (lịch sự hơn), それで. Thấy だから mà vế sau lật ngược lại thì chắc chắn sai."
+        },
+        {
+          "id": "n4cs-lt-02",
+          "promptJapanese": "この本は　わからない　言葉が　多いです。それに、＿＿＿＿＿＿＿",
+          "promptReading": "この　ほんは　わからない　ことばが　おおいです。それに、＿＿＿＿＿＿＿",
+          "promptVietnamese": "Cuốn sách này có nhiều từ tôi không hiểu. Hơn nữa, ＿＿＿＿＿＿＿",
+          "choices": ["やくに立ちます", "字が小さいです。"],
+          "choicesVietnamese": ["có ích (役に立ちます)", "chữ nhỏ (字が小さいです)"],
+          "choiceNotes": [
+            "役に立ちます là điểm TỐT, ngược chiều với \"nhiều từ không hiểu\". Muốn nói vậy thì phải đổi liên từ: でも／けれども 役に立ちます.",
+            "Đúng: それに thêm một ý CÙNG CHIỀU — nhiều từ khó, lại còn chữ nhỏ nữa, cả hai đều là cái khó của cuốn sách."
+          ],
+          "answer": 2,
+          "explanation": "それに = hơn nữa, thêm vào đó. Hai vế phải cùng chiều: tốt thêm tốt, hoặc dở thêm dở. Cùng nhóm: そして, しかも."
+        },
+        {
+          "id": "n4cs-lt-03",
+          "promptJapanese": "初めて　この　料理を　作りました。けれども、＿＿＿＿＿＿＿",
+          "promptReading": "はじめて　この　りょうりを　つくりました。けれども、＿＿＿＿＿＿＿",
+          "promptVietnamese": "Tôi nấu món này lần đầu tiên. Nhưng, ＿＿＿＿＿＿＿",
+          "choices": ["おいしくできたと思います", "おいしくできませんでした"],
+          "choicesVietnamese": ["tôi nghĩ là nấu ngon (おいしくできたと思います)", "đã nấu không ngon (おいしくできませんでした)"],
+          "choiceNotes": [
+            "Đúng: lần đầu nấu thì ai cũng đoán là chưa ngon — けれども lật ngược lại chỗ đoán ấy.",
+            "Lần đầu nấu nên không ngon là chuyện thuận theo lẽ thường, không có gì để \"nhưng\". Câu này phải nối bằng だから."
+          ],
+          "answer": 1,
+          "explanation": "けれども = nhưng, tuy vậy. Vế sau phải đi NGƯỢC điều người nghe đang đoán. Cùng nhóm: でも, しかし, が. Đây chính là chỗ đối nhau với だから ở câu 1."
+        },
+        {
+          "id": "n4cs-lt-04",
+          "promptJapanese": "A：「今度の　日曜日は　いそがしいんです。」\nB：「では、＿＿＿＿＿＿＿」",
+          "promptReading": "A：「こんどの　にちようびは　いそがしいんです。」\nB：「では、＿＿＿＿＿＿＿」",
+          "promptVietnamese": "A: \"Chủ nhật tới tôi bận.\"\nB: \"Vậy thì, ＿＿＿＿＿＿＿\"",
+          "choices": ["月曜日はどうですか", "日曜日は何をしますか。"],
+          "choicesVietnamese": ["thứ hai thì thế nào? (月曜日はどうですか)", "chủ nhật bạn làm gì? (日曜日は何をしますか)"],
+          "choiceNotes": [
+            "Đúng: nghe đối phương bận chủ nhật nên đổi sang đề nghị ngày khác — đúng việc của では.",
+            "Vừa nghe người ta nói bận mà lại hỏi chủ nhật làm gì thì không phải là nói tiếp theo lời vừa nghe."
+          ],
+          "answer": 1,
+          "explanation": "では／じゃあ = vậy thì: dựa vào điều VỪA NGHE để đề nghị hoặc quyết định bước tiếp theo. Rất hay gặp trong hội thoại hẹn lịch."
+        },
+        {
+          "id": "n4cs-lt-05",
+          "promptJapanese": "この町には　花が　きれいな　公園が　多い。たとえば、＿＿＿＿＿＿＿",
+          "promptReading": "この　まちには　はなが　きれいな　こうえんが　おおい。たとえば、＿＿＿＿＿＿＿",
+          "promptVietnamese": "Thị trấn này có nhiều công viên hoa đẹp. Ví dụ, ＿＿＿＿＿＿＿",
+          "choices": ["私は大森公園へは行ったことがない", "大森公園はさくらの公園だ"],
+          "choicesVietnamese": ["tôi chưa từng đến công viên Omori (私は大森公園へは行ったことがない)", "công viên Omori là công viên hoa anh đào (大森公園はさくらの公園だ)"],
+          "choiceNotes": [
+            "Đây là chuyện riêng của người nói, không phải ví dụ cho \"nhiều công viên hoa đẹp\".",
+            "Đúng: nêu tên một công viên cụ thể và loại hoa của nó — đúng là một ví dụ cho câu trước."
+          ],
+          "answer": 2,
+          "explanation": "たとえば = ví dụ: vế sau phải là MỘT TRƯỜNG HỢP CỤ THỂ của điều vừa nói chung ở vế trước. Đề in 花 が với dấu cách lạ giữa 花 và が, chép lại liền thành 花が."
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
     "name": "BTVN N4 CHUYÊN SÂU",
     "level": "N4"
   },
-  "generatedAt": "2026-09-25T03:20:56.358Z",
+  "generatedAt": "2026-09-25T03:34:11.317Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -46,6 +46,22 @@
           "itemCount": 34,
           "order": 3,
           "file": "kanji/03-bai-3.json"
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "units": [
+        {
+          "id": "01-lien-tu",
+          "name": "Liên từ",
+          "description": "練習2: 5 câu chọn vế sau hợp với liên từ đứng đầu — だから, それに, けれども, では, たとえば.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 1,
+          "file": "grammar/01-lien-tu.json"
         }
       ]
     }
