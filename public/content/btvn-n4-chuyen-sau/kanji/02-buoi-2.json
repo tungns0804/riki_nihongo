@@ -1,0 +1,360 @@
+{
+  "id": "02-buoi-2",
+  "name": "Buổi 2",
+  "description": "Đề 用法 9 câu: chọn câu dùng ĐÚNG phó từ — そろそろ, たいへん, ぜひ, かならず, やっと, なるほど, どんどん, はっきり, ちっとも.",
+  "kind": "test",
+  "parent": "",
+  "group": "",
+  "sections": [
+    {
+      "id": "buoi-2-youhou",
+      "title": "文字語彙 問題 — 用法 · Buổi 2 (9 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "n4cs-b2-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "そろそろ",
+          "promptReading": "",
+          "promptTranslation": "Sắp, đến lúc (gần tới lúc làm việc gì)",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "べんきょうしましたから、そろそろ 日本語が 上手です。",
+              "translation": "Vì đã học nên tiếng Nhật sắp giỏi.",
+              "note": "そろそろ nói tới việc SẮP LÀM, không dùng cho trạng thái giỏi dần lên. Ý này là だんだん上手になります."
+            },
+            {
+              "id": "c2",
+              "text": "5 時ですから、そろそろ かえります。",
+              "translation": "Vì 5 giờ rồi nên tôi về đây.",
+              "note": "Đúng: đến giờ rồi thì そろそろ帰ります — sắp tới lúc phải làm việc đó."
+            },
+            {
+              "id": "c3",
+              "text": "7 時ですが、そろそろ 仕事が おわりません。",
+              "translation": "7 giờ rồi mà công việc sắp không xong.",
+              "note": "そろそろ hướng về việc sắp xảy ra nên không đi với phủ định; câu này phải là まだ終わりません."
+            },
+            {
+              "id": "c4",
+              "text": "もう 11 時ですから、そろそろ ねましょう。",
+              "translation": "11 giờ rồi, ngủ thôi nào.",
+              "note": "Câu này tự nó cũng là tiếng Nhật đúng (もう11時ですから、そろそろ寝ましょう nghe rất tự nhiên). Đề chỉ lấy một đáp án nên chọn câu 2 — mẫu そろそろ＋帰ります của giáo trình; chỗ này nên đối chiếu lại với đáp án của Riki."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "そろそろ = sắp đến lúc ~: そろそろ帰ります／そろそろ始めましょう. Luôn đi với câu khẳng định, và nói về HÀNH ĐỘNG sắp làm chứ không nói về trạng thái thay đổi dần (そこ là việc của だんだん).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b2-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "たいへん",
+          "promptReading": "",
+          "promptTranslation": "Vất vả, cực (な-tính từ) / Rất (phó từ)",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "結婚したと、たいへんに かんがえて います。",
+              "translation": "Đã kết hôn thì, tôi đang nghĩ một cách vất vả.",
+              "note": "Câu hỏng cả ngữ pháp lẫn cách dùng: たいへんに không bổ nghĩa cho 考える. Muốn nói suy nghĩ nghiêm túc thì まじめに考えています."
+            },
+            {
+              "id": "c2",
+              "text": "会社で たいへん はたらいて います。",
+              "translation": "Tôi làm việc rất ở công ty.",
+              "note": "たいへん nghĩa \"rất\" thì đi với tính từ (たいへん忙しい) hoặc kèm よく (たいへんよく働く); đứng trần trước 働いています thì không tự nhiên."
+            },
+            {
+              "id": "c3",
+              "text": "会社が とても とおいですから、あさ たいへんです。",
+              "translation": "Vì công ty rất xa nên buổi sáng vất vả.",
+              "note": "Đúng: ở đây たいへんです là な-tính từ \"vất vả, cực\" — nghĩa hay dùng nhất của từ này."
+            },
+            {
+              "id": "c4",
+              "text": "たなかさんは、よく はたらく たいへんな ひとです。",
+              "translation": "Anh Tanaka là người vất vả, làm việc chăm chỉ.",
+              "note": "たいへんな人 nghĩa là người ghê gớm, người gây rắc rối — không phải lời khen người chăm chỉ. Ở đây nói よく働くまじめな人."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Hai mặt của たいへん: な-tính từ = vất vả (朝はたいへんです) và phó từ = rất, đi kèm tính từ hoặc よく (たいへんよく働く). Đề này hỏi mặt thứ nhất.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b2-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "ぜひ",
+          "promptReading": "",
+          "promptTranslation": "Nhất định (mong muốn của người nói), bằng được",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "日本へ 行ったら、ぜひ 日本のすしを 食べたいと おもっています。",
+              "translation": "Nếu sang Nhật, tôi rất muốn ăn sushi của Nhật.",
+              "note": "Đúng: ぜひ＋～たい — nói nguyện vọng mạnh của chính mình."
+            },
+            {
+              "id": "c2",
+              "text": "きょうは とても さむいですから、ぜひ 出かけたくないです。",
+              "translation": "Hôm nay lạnh quá nên tôi nhất định không muốn ra ngoài.",
+              "note": "ぜひ chỉ đi với ý MUỐN làm, không đi với ～たくない. Ý này nói ぜんぜん出かけたくないです."
+            },
+            {
+              "id": "c3",
+              "text": "この ことばは たいせつですから、ぜひ わすれないで ください。",
+              "translation": "Từ này quan trọng nên nhất định đừng quên.",
+              "note": "ぜひ đi với lời mời, lời nhờ theo hướng LÀM (ぜひ来てください). Câu ngăn cấm ～ないでください thì dùng 絶対に忘れないでください."
+            },
+            {
+              "id": "c4",
+              "text": "あしたは ぜひ いい 天気に なると おもいます。",
+              "translation": "Tôi nghĩ ngày mai nhất định trời sẽ đẹp.",
+              "note": "ぜひ là nguyện vọng của người nói, không dùng cho dự đoán thời tiết; chỗ này phải là きっと."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "ぜひ đi với ～たい／～てください／～ましょう — những câu hướng tới việc MUỐN làm. Dự đoán thì きっと, ngăn cấm thì 絶対に.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b2-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "かならず",
+          "promptReading": "",
+          "promptTranslation": "Nhất định, chắc chắn (việc bắt buộc hoặc luôn xảy ra)",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "毎日 いそがしくて、たなか先生は かならず つかれているでしょう。",
+              "translation": "Vì ngày nào cũng bận nên chắc chắn thầy Tanaka đang mệt.",
+              "note": "必ず nói việc LUÔN xảy ra hoặc việc bắt buộc làm, không đi với phỏng đoán ～でしょう; ở đây dùng きっと."
+            },
+            {
+              "id": "c2",
+              "text": "あしたは かならず この ノートを 学校に もってきてください。",
+              "translation": "Ngày mai nhất định hãy mang quyển vở này đến trường.",
+              "note": "Đúng: 必ず＋～てください — dặn một việc bắt buộc phải làm."
+            },
+            {
+              "id": "c3",
+              "text": "もりくんは びょうきです。きょうは かならず 来ないと思います。",
+              "translation": "Mori bị ốm. Tôi nghĩ hôm nay cậu ấy chắc chắn không đến.",
+              "note": "Lại là phỏng đoán (～と思います) nên phải dùng きっと. 必ず来ない nghe thành \"lần nào cũng không đến\"."
+            },
+            {
+              "id": "c4",
+              "text": "しゅくだいを わすれたら、先生に かならず 注意されるかも しれません。",
+              "translation": "Nếu quên bài tập thì nhất định có thể sẽ bị thầy nhắc.",
+              "note": "必ず (chắc chắn) chọi thẳng với ～かもしれません (có thể); bỏ một trong hai thì câu mới xuôi."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Phân biệt: 必ず = quy luật hoặc mệnh lệnh (必ず持ってきてください・春には必ず花が咲く); きっと = phỏng đoán của người nói (きっと疲れているでしょう).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b2-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "やっと",
+          "promptReading": "",
+          "promptTranslation": "Mãi rồi cũng, cuối cùng cũng (việc mong đợi thành sự thật)",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "1 時間 まって、やっと 友だちは 来ませんでした。",
+              "translation": "Chờ một tiếng, cuối cùng bạn tôi đã không đến.",
+              "note": "やっと nói việc chờ mãi rồi CŨNG xảy ra, nên không đi với phủ định. Câu này phải là 結局来ませんでした."
+            },
+            {
+              "id": "c2",
+              "text": "30 分 ならんで、やっと 店に 入る ことが できました。",
+              "translation": "Xếp hàng 30 phút, cuối cùng cũng vào được quán.",
+              "note": "Đúng: mất công chờ rồi rốt cuộc cũng làm được — đúng lõi nghĩa của やっと."
+            },
+            {
+              "id": "c3",
+              "text": "いっしょうけんめい はしって、やっと 学校に おくれませんでした。",
+              "translation": "Chạy hết sức, cuối cùng đã không muộn học.",
+              "note": "Vẫn là câu phủ định. Ý \"chạy kịp\" thì nói なんとか間に合いました."
+            },
+            {
+              "id": "c4",
+              "text": "毎日 たくさん はたらいて、やっと びょうきに なりました。",
+              "translation": "Ngày nào cũng làm nhiều, cuối cùng thì đổ bệnh.",
+              "note": "やっと dành cho kết quả MONG ĐỢI; việc xấu như đổ bệnh thì nói ついに／とうとう病気になりました."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "やっと＝ cố mãi rồi cũng được, luôn là kết quả mừng và luôn ở thể khẳng định. Kết quả không mong muốn thì とうとう／ついに.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b2-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "なるほど",
+          "promptReading": "",
+          "promptTranslation": "Thì ra là vậy, ra thế (vừa nghe xong thì hiểu ra)",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "A:「かいぎの 準備、手伝って くれない？」 B:「なるほど。わかりました。」",
+              "translation": "A: \"Giúp tớ chuẩn bị cuộc họp được không?\" B: \"Thì ra vậy. Tôi hiểu rồi.\"",
+              "note": "Đáp lời nhờ vả thì nói はい／いいですよ. なるほど là phản ứng khi vừa VỠ LẼ một điều gì đó."
+            },
+            {
+              "id": "c2",
+              "text": "A:「けさは 天気が あまり よくなかったですね」 B:「なるほど。残念ですね。」",
+              "translation": "A: \"Sáng nay thời tiết không đẹp lắm nhỉ.\" B: \"Thì ra vậy. Tiếc thật.\"",
+              "note": "Chuyện thời tiết sáng nay thì B cũng đã biết, không có gì mới để vỡ lẽ; ở đây nói そうですね."
+            },
+            {
+              "id": "c3",
+              "text": "A:「おゆを 入れると ラーメンが できるんです。」 B:「なるほど。かんたんですね」",
+              "translation": "A: \"Cứ đổ nước sôi vào là có mì ramen đấy.\" B: \"Ra là vậy. Đơn giản nhỉ.\"",
+              "note": "Đúng: vừa được nghe giải thích cách làm rồi hiểu ra — đúng chỗ dùng なるほど."
+            },
+            {
+              "id": "c4",
+              "text": "A:「あした、いっしょに 映画を 見ませんか？」 B:「なるほど。いいですよ。」",
+              "translation": "A: \"Mai đi xem phim cùng nhau không?\" B: \"Thì ra vậy. Được thôi.\"",
+              "note": "Đáp lời rủ rê thì いいですね／ぜひ. なるほど không phải lời nhận lời."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "なるほど chỉ dùng khi nghe một lời GIẢI THÍCH rồi hiểu ra. Lưu ý: nói với người trên thì なるほど hơi suồng sã, nên dùng おっしゃるとおりです.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b2-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "どんどん",
+          "promptReading": "",
+          "promptTranslation": "Liên tục, tới tấp; càng lúc càng (thay đổi nhanh dần)",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "なつに なったら、どんどん あついです。",
+              "translation": "Đến hè thì càng lúc càng nóng.",
+              "note": "どんどん tả sự THAY ĐỔI nên phải đi với ～くなります: どんどん暑くなります."
+            },
+            {
+              "id": "c2",
+              "text": "新しい ことを どんどん 勉強したいです。",
+              "translation": "Tôi muốn học cái mới thật nhiều, cái này tiếp cái kia.",
+              "note": "Đúng: どんどん＋động từ ý chí = làm liên tục, cái này tiếp cái kia."
+            },
+            {
+              "id": "c3",
+              "text": "勉強は どんどん むずかしいです。",
+              "translation": "Việc học càng lúc càng khó.",
+              "note": "Cũng thiếu ～くなります: どんどん難しくなります. (Bản đề gõ nhầm むざかしい, đã sửa lại.)"
+            },
+            {
+              "id": "c4",
+              "text": "たくさん はしったので、どんどん つかれて います。",
+              "translation": "Vì chạy nhiều nên càng lúc càng mệt.",
+              "note": "疲れています là trạng thái đã mệt sẵn, không hợp với どんどん. Muốn nói mệt dần thì どんどん疲れてきました."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Hai lối dùng どんどん: với động từ ý chí = làm liên tục (どんどん食べてください); với sự thay đổi thì phải có ～くなる／～てくる chứ không đứng cạnh tính từ trần.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b2-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "はっきり",
+          "promptReading": "",
+          "promptTranslation": "Rõ ràng (nhìn rõ, nghe rõ, nói rõ)",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "時間が あったら、はっきり 来て ください。",
+              "translation": "Nếu có thời gian thì hãy đến một cách rõ ràng.",
+              "note": "はっきり nói về chuyện NHÌN, NGHE, NÓI cho rõ, không dùng cho việc đến hay không. Ý này là ぜひ来てください. (Bản đề gõ nhầm 時間が あたら, đã sửa thành あったら.)"
+            },
+            {
+              "id": "c2",
+              "text": "はっきり 食事 しました。",
+              "translation": "Tôi đã ăn cơm một cách rõ ràng.",
+              "note": "Bữa ăn không có \"rõ / không rõ\". Muốn nói ăn uống đàng hoàng thì しっかり食事しました."
+            },
+            {
+              "id": "c3",
+              "text": "母は はっきり 料理を 作ります。",
+              "translation": "Mẹ tôi nấu ăn một cách rõ ràng.",
+              "note": "Cũng vậy: nấu khéo thì 上手に作ります, nấu tử tế thì ちゃんと作ります."
+            },
+            {
+              "id": "c4",
+              "text": "東京タワーから 富士山が はっきり 見えます。",
+              "translation": "Từ tháp Tokyo nhìn thấy núi Phú Sĩ rất rõ.",
+              "note": "Đúng: はっきり見える — đúng một trong ba chỗ quen của từ này."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Nhớ はっきり theo ba cụm: はっきり見える (nhìn rõ)・はっきり聞こえる (nghe rõ)・はっきり言う (nói thẳng). Việc làm cho tử tế thì là しっかり／ちゃんと.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-b2-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "ちっとも",
+          "promptReading": "",
+          "promptTranslation": "Chẳng chút nào (luôn đi với phủ định)",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "この 本は ちっとも つまらないです。",
+              "translation": "Quyển sách này chán chẳng chút nào.",
+              "note": "Đuôi câu vẫn khẳng định. Muốn nói sách chán thì とてもつまらないです; muốn giữ ちっとも thì ちっともおもしろくないです."
+            },
+            {
+              "id": "c2",
+              "text": "この テストは ちっとも むずかしくなかったです。",
+              "translation": "Bài kiểm tra này chẳng khó chút nào.",
+              "note": "Đúng: ちっとも＋～なかった — không ~ một chút nào."
+            },
+            {
+              "id": "c3",
+              "text": "家族に 会えなくて、ちっとも さびしいです。",
+              "translation": "Không gặp được gia đình, buồn chẳng chút nào.",
+              "note": "Cũng là đuôi khẳng định; nói rất buồn thì とてもさびしいです."
+            },
+            {
+              "id": "c4",
+              "text": "へやは ちっとも きたないので、 そうじしました。",
+              "translation": "Phòng bẩn chẳng chút nào nên tôi đã dọn.",
+              "note": "Vừa sai vì đuôi khẳng định, vừa mâu thuẫn với vế sau: bẩn thì mới phải dọn."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "ちっとも bắt buộc kéo theo phủ định ở cuối câu: ちっとも知りません／ちっともおいしくない. Cùng họ với ぜんぜん～ない, chỉ thân mật hơn.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

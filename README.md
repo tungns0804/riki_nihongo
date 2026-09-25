@@ -1,6 +1,6 @@
 # Riki Nihongo
 
-Trang học tiếng Nhật cá nhân theo các học phần của Riki Nihongo. Hai học phần đã có nội
+Trang học tiếng Nhật cá nhân theo các học phần của Riki Nihongo. Ba học phần đã có nội
 dung:
 
 **N3 JUNBI** (`/n3-junbi`) — bảy phần:
@@ -21,6 +21,12 @@ dung:
   bài tập "Từ vựng 1-10" tới "61-70", mỗi bài tập một cụm.
 - Kanji (`/btvn-co-ban/kanji`): Bài 1–8, mỗi bài 8–11 chữ, chép theo thẻ kanji của Riki
   ([cách chép](data-source/btvn-co-ban/kanji/README.md)).
+
+**BTVN N4 CHUYÊN SÂU** (`/btvn-n4-chuyen-sau`) — bài tập về nhà, hiện một phần:
+
+- Kanji (`/btvn-n4-chuyen-sau/kanji`): mỗi buổi học của Riki là một ĐỀ. "Buổi 2" là 9 câu
+  用法 — cho một phó từ rồi chọn câu dùng nó đúng
+  ([cách chép](data-source/btvn-n4-chuyen-sau/kanji/README.md)).
 
 Địa chỉ cũ chưa có tên học phần (`/vocabulary/01-danh-tu`) tự chuyển sang N3 JUNBI.
 
@@ -225,12 +231,12 @@ giao diện.
 
 Website Riki có năm học phần: **N3 JUNBI**, **BTVN CƠ BẢN (MỚI)**, BTVN N4 CHUYÊN SÂU, N3
 TAISAKU, N3 LUYỆN ĐỀ. Trang gốc là trang chọn học phần; bấm một học phần thì vào trang của
-nó (`/n3-junbi`, `/btvn-co-ban`). Thanh bên và breadcrumb luôn theo đúng cấp đang đứng:
+nó (`/n3-junbi`, `/btvn-co-ban`, `/btvn-n4-chuyen-sau`). Thanh bên và breadcrumb luôn theo đúng cấp đang đứng:
 ở trang gốc thanh bên liệt kê các học phần và breadcrumb chỉ có `Riki Nihongo`; trong một
 học phần thanh bên là các phần học của nó (BTVN chỉ có Từ vựng) và breadcrumb đi đủ cấp
 `Riki Nihongo / BTVN CƠ BẢN (MỚI) ▾ / Từ vựng / Danh từ / Luyện tập`, cấp nào có trang thì
-bấm được. Nút học phần ▾ trong breadcrumb đổi học phần. Ba học phần chưa làm gắn nhãn "Sắp có" (`COURSES`
-trong `course.config.ts`).
+bấm được. Nút học phần ▾ trong breadcrumb đổi học phần. Hai học phần chưa làm gắn nhãn
+"Sắp có" (`COURSES` trong `course.config.ts`).
 
 Nút giao diện xoay vòng **Tự động → Sáng → Tối → Đèn đêm**, và trang mở lần đầu là
 **Đèn đêm**. Sáng và tối dùng bảng màu ByeTOEIC của minano_nihongo: nền trắng ngà / navy,

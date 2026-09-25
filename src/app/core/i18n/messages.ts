@@ -83,11 +83,15 @@ export const MESSAGES = {
     vi: 'Bài tập về nhà N3 cơ bản: từ vựng theo từng bài tập 10 từ và kanji theo bài, kèm cách đọc, nghĩa và ví dụ.',
     ja: 'N3基礎の宿題：1回10語ずつの語彙と課ごとの漢字。読み方・意味・例つき。',
   },
+  'course.btvn-n4-chuyen-sau.desc': {
+    vi: 'Bài tập về nhà N4 chuyên sâu: mỗi buổi một đề, chọn câu dùng đúng từ, kèm bản dịch và lời giải từng lựa chọn.',
+    ja: 'N4深掘りの宿題：1回につき1セット、用法問題。訳と選択肢ごとの解説つき。',
+  },
   'course.soon.desc': { vi: 'Nội dung đang được chuẩn bị.', ja: '教材を準備中です。' },
   'course.list.title': { vi: 'Các học phần của Riki Nihongo', ja: 'Riki Nihongo のコース' },
   'course.list.subtitle': {
-    vi: 'Chọn học phần để bắt đầu. Hiện đã có N3 JUNBI và BTVN CƠ BẢN (MỚI), các học phần khác đang được chuẩn bị.',
-    ja: 'コースを選んで始めましょう。現在は N3 JUNBI と BTVN CƠ BẢN (MỚI) を公開中で、ほかのコースは準備中です。',
+    vi: 'Chọn học phần để bắt đầu. Hiện đã có N3 JUNBI, BTVN CƠ BẢN (MỚI) và BTVN N4 CHUYÊN SÂU, các học phần khác đang được chuẩn bị.',
+    ja: 'コースを選んで始めましょう。現在は N3 JUNBI、BTVN CƠ BẢN (MỚI)、BTVN N4 CHUYÊN SÂU を公開中で、ほかのコースは準備中です。',
   },
   'course.list.all': { vi: 'Tất cả học phần', ja: 'すべてのコース' },
   'course.list.back': { vi: '← Tất cả học phần', ja: '← すべてのコース' },

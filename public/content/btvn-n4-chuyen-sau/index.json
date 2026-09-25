@@ -1,0 +1,26 @@
+{
+  "course": {
+    "id": "btvn-n4-chuyen-sau",
+    "name": "BTVN N4 CHUYÊN SÂU",
+    "level": "N4"
+  },
+  "generatedAt": "2026-09-25T03:11:33.307Z",
+  "modules": [
+    {
+      "id": "kanji",
+      "units": [
+        {
+          "id": "02-buoi-2",
+          "name": "Buổi 2",
+          "description": "Đề 用法 9 câu: chọn câu dùng ĐÚNG phó từ — そろそろ, たいへん, ぜひ, かならず, やっと, なるほど, どんどん, はっきり, ちっとも.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 9,
+          "order": 2,
+          "file": "kanji/02-buoi-2.json"
+        }
+      ]
+    }
+  ]
+}

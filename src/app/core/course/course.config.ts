@@ -60,7 +60,14 @@ export const COURSES: readonly CourseDef[] = [
     status: 'active',
     modules: ['vocabulary', 'kanji'],
   },
-  { id: 'btvn-n4-chuyen-sau', icon: '深', nameKey: 'course.btvn-n4-chuyen-sau.name', descKey: 'course.soon.desc', status: 'soon', modules: [] },
+  {
+    id: 'btvn-n4-chuyen-sau',
+    icon: '深',
+    nameKey: 'course.btvn-n4-chuyen-sau.name',
+    descKey: 'course.btvn-n4-chuyen-sau.desc',
+    status: 'active',
+    modules: ['kanji'],
+  },
   { id: 'n3-taisaku', icon: '策', nameKey: 'course.n3-taisaku.name', descKey: 'course.soon.desc', status: 'soon', modules: [] },
   { id: 'n3-luyen-de', icon: '模', nameKey: 'course.n3-luyen-de.name', descKey: 'course.soon.desc', status: 'soon', modules: [] },
 ];

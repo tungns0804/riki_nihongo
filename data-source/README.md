@@ -10,11 +10,14 @@ data-source/
 │   │   └── 01-danh-tu/           một bài
 │   ├── kanji/ grammar/ …
 │   └── mimikara/
-└── btvn-co-ban/                  BTVN CƠ BẢN (MỚI) — Từ vựng và Kanji
-    ├── vocabulary/
-    │   └── 01-danh-tu/
+├── btvn-co-ban/                  BTVN CƠ BẢN (MỚI) — Từ vựng và Kanji
+│   ├── vocabulary/
+│   │   └── 01-danh-tu/
+│   └── kanji/
+│       └── 01-bai-1/ 02-bai-2/ …
+└── btvn-n4-chuyen-sau/           BTVN N4 CHUYÊN SÂU — Kanji, mỗi buổi một đề
     └── kanji/
-        └── 01-bai-1/ 02-bai-2/ …
+        └── 02-buoi-2/
 ```
 
 Tên thư mục học phần là `id` trong `COURSES` (`src/app/core/course/course.config.ts`),
@@ -54,10 +57,14 @@ data-source/n3-junbi/vocabulary/01-danh-tu/
 └── vocabulary.txt   nội dung bài
 ```
 
-Một "bài" là một mục người học bấm vào, KHÔNG phải một buổi học. Phần Từ vựng chia
-theo loại từ (Danh từ, Động từ, Tính từ, Katakana, Phó từ) — bấm vào "Danh từ" là
-thấy toàn bộ danh từ của học phần, chứ không phải "Danh từ 1", "Danh từ 2"… Buổi học hay
-bài tập 10 từ là một CỤM trong bài (dòng `##`, xem README của phần Từ vựng).
+Một "bài" là một mục người học bấm vào, KHÔNG phải một buổi học: danh sách bài chép
+đúng danh sách bài trên web Riki. Phần Từ vựng chia theo loại từ (Danh từ, Động từ,
+Tính từ, Katakana, Phó từ, Danh từ 2) — bấm vào "Danh từ" là thấy toàn bộ danh từ của
+bài đó, chứ không phải "Danh từ phần 1", "Danh từ phần 2". Buổi học hay bài tập 10 từ
+là một CỤM trong bài (dòng `##`, xem README của phần Từ vựng).
+
+Riki tự mở thêm bài mới khi giáo trình quay lại một loại từ đã học ("Danh từ 2" gồm
+311–318) — lúc đó cũng tạo bài mới ở đây, không dồn vào bài cũ.
 
 `meta.json`:
 
@@ -86,9 +93,10 @@ trang bài chỉ có nút bắt đầu, và bấm vào là sang màn hình làm 
 }
 ```
 
-Chỉ đặt được trong hai phần `grammar` và `mimikara`, và `"test"` là giá trị DUY NHẤT
-được khai khác phần học — phần khác không có màn hình để hiện một đề, đặt nhầm vào đó
-thì script báo lỗi ngay.
+Chỉ đặt được trong bốn phần có trang bài biết hiện khung "bắt đầu làm đề" — `grammar`,
+`mimikara`, `vocabulary`, `kanji` — và `"test"` là giá trị DUY NHẤT được khai khác phần
+học. Đặt vào phần khác thì script báo lỗi ngay, vì bài vẫn sinh ra được nhưng mở lên chỉ
+thấy trang trống.
 
 Vì sao cần: trên website Riki, "ĐỀ THI THẬT ÔN TẬP N4" là một bài nằm giữa các bài của
 phần NGỮ PHÁP chứ không phải một phần riêng, nên nó phải nằm đúng chỗ ấy trong menu.

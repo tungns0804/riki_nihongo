@@ -57,6 +57,7 @@ const COURSES = [
     modules: ['entrance-test', 'vocabulary', 'kanji', 'grammar', 'reading', 'listening', 'mimikara'],
   },
   { id: 'btvn-co-ban', name: 'BTVN CƠ BẢN (MỚI)', level: 'N3', modules: ['vocabulary', 'kanji'] },
+  { id: 'btvn-n4-chuyen-sau', name: 'BTVN N4 CHUYÊN SÂU', level: 'N4', modules: ['kanji'] },
 ];
 
 /**
