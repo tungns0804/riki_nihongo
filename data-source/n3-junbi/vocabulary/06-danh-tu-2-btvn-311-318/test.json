@@ -1,0 +1,179 @@
+{
+  "sections": [
+    {
+      "id": "btvn-311-318",
+      "title": "文字語彙 — BTVN 311–318 (8 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt2-btvn-311318-01",
+          "promptJapanese": "怖い上司も（　　　）では、良いお母さんだ。",
+          "promptReading": "こわい じょうしも（　　　）では、よい おかあさんだ。",
+          "promptVietnamese": "Bà sếp đáng sợ ấy thì （　　　） lại là một người mẹ tốt.",
+          "choices": ["協力", "家庭", "握手", "世話"],
+          "choicesVietnamese": [
+            "きょうりょく · Chung sức, hợp tác",
+            "かてい · Gia đình",
+            "あくしゅ · Bắt tay",
+            "せわ · Chăm sóc"
+          ],
+          "choiceNotes": [
+            "協力 là một việc làm (協力する), không phải nơi chốn nên không đứng trước ～では để đối với chỗ làm.",
+            "Đúng: 家庭では — ở nhà thì ~, đối lại với con người ở công ty (上司). Cùng lối với câu mẫu 仕事ではきびしいが、家庭ではやさしいお父さんだ。",
+            "握手 là hành động bắt tay, không phải nơi chốn.",
+            "世話 là việc chăm sóc; 世話では không tạo được thế đối với 上司."
+          ],
+          "answer": 2,
+          "explanation": "～も…では = ngay cả ~ thì ở chỗ … cũng. 上司 (ở công ty) đặt đối với 家庭 (ở nhà) — cặp đối y như câu mẫu của 家庭."
+        },
+        {
+          "id": "dt2-btvn-311318-02",
+          "promptJapanese": "有名人に（　　　）してもらった。",
+          "promptReading": "ゆうめいじんに（　　　）してもらった。",
+          "promptVietnamese": "Tôi đã được người nổi tiếng （　　　）.",
+          "choices": ["お礼", "協力", "お詫び", "握手"],
+          "choicesVietnamese": [
+            "おれい · Cảm ơn, đáp lễ",
+            "きょうりょく · Chung sức, hợp tác",
+            "おわび · Xin lỗi",
+            "あくしゅ · Bắt tay"
+          ],
+          "choiceNotes": [
+            "Người nổi tiếng không có lý do gì để cảm ơn mình; お礼 cũng thường đi với を (お礼をする), ít khi ghép thẳng お礼する.",
+            "協力してもらう là nói được, nhưng phải có việc cần giúp; câu này không nhắc việc gì để người nổi tiếng chung sức.",
+            "Người nổi tiếng không làm gì sai với mình nên không có chuyện xin lỗi.",
+            "Đúng: 有名人に握手してもらった — được người nổi tiếng bắt tay, như câu mẫu コンサートでアイドルと握手した。"
+          ],
+          "answer": 4,
+          "explanation": "N に V てもらう = được N làm V cho mình. Hai bên cùng bắt tay thì dùng と (アイドルと握手する); được người ta bắt tay cho thì người đó đi với に."
+        },
+        {
+          "id": "dt2-btvn-311318-03",
+          "promptJapanese": "病人を毎日助けている。",
+          "promptReading": "びょうにんを まいにち たすけている。",
+          "promptVietnamese": "Ngày nào tôi cũng giúp đỡ người bệnh.",
+          "choices": ["握手", "協力", "いたずら", "お世話"],
+          "choicesVietnamese": [
+            "あくしゅ · Bắt tay",
+            "きょうりょく · Chung sức, hợp tác",
+            "いたずら · Trò nghịch ngợm, chơi khăm",
+            "おせわ · Chăm sóc"
+          ],
+          "choiceNotes": [
+            "握手 là bắt tay một lần, không phải việc giúp người bệnh mỗi ngày.",
+            "協力 là cùng nhau góp sức làm một việc chung; người bệnh không phải bên cùng làm mà là người được mình lo cho.",
+            "いたずら là trò nghịch, ngược hẳn với việc giúp đỡ.",
+            "Đúng: 病人のお世話をしている — đúng câu mẫu 病人／ペットの世話は私の仕事だ。"
+          ],
+          "answer": 4,
+          "explanation": "Đề không có chỗ trống: chọn từ thay được cho 助けている. 病人を助ける ≈ 病人のお世話をする (chăm sóc người bệnh). Chú ý đổi trợ từ: を助ける → の世話をする."
+        },
+        {
+          "id": "dt2-btvn-311318-04",
+          "promptJapanese": "180度の（　　　）は、やりすぎだ。",
+          "promptReading": "ひゃくはちじゅうどの（　　　）は、やりすぎだ。",
+          "promptVietnamese": "（　　　） 180 độ thì quá lố rồi.",
+          "choices": ["握手", "感謝", "おわび", "おじぎ"],
+          "choicesVietnamese": [
+            "あくしゅ · Bắt tay",
+            "かんしゃ · Biết ơn",
+            "おわび · Xin lỗi",
+            "おじぎ · Cúi chào"
+          ],
+          "choiceNotes": [
+            "Bắt tay không đo bằng độ.",
+            "感謝 là tấm lòng biết ơn, không có góc độ.",
+            "おわび là lời xin lỗi; có thể xin lỗi bằng cách cúi người, nhưng thứ đo bằng \"180 độ\" là cái cúi người chứ không phải lời xin lỗi.",
+            "Đúng: おじぎ có độ sâu đo bằng góc (15度・30度・45度のおじぎ); 180度 là gập hẳn người nên mới bảo quá lố."
+          ],
+          "answer": 4,
+          "explanation": "Người Nhật chia おじぎ theo góc cúi: 会釈 khoảng 15 độ, 敬礼 khoảng 30 độ, 最敬礼 khoảng 45 độ. やりすぎ = làm quá tay."
+        },
+        {
+          "id": "dt2-btvn-311318-05",
+          "promptJapanese": "申し訳ないです。（　　　）申し上げます。",
+          "promptReading": "もうしわけないです。（　　　）もうしあげます。",
+          "promptVietnamese": "Thật có lỗi. Tôi xin gửi lời （　　　）.",
+          "choices": ["いたずら", "節約", "握手", "おわび"],
+          "choicesVietnamese": [
+            "いたずら · Trò nghịch ngợm, chơi khăm",
+            "せつやく · Tiết kiệm",
+            "あくしゅ · Bắt tay",
+            "おわび · Xin lỗi"
+          ],
+          "choiceNotes": [
+            "いたずら là trò nghịch, không phải thứ \"kính gửi\" tới người khác.",
+            "節約 là tiết kiệm, không liên quan tới lời xin lỗi.",
+            "握手 là hành động, không đi với 申し上げる (thưa, nói).",
+            "Đúng: おわび申し上げます — câu xin lỗi trang trọng, đi ngay sau 申し訳ない."
+          ],
+          "answer": 4,
+          "explanation": "申し上げる là khiêm nhường ngữ của 言う. Cụm cố định: お詫び申し上げます (xin lỗi), お礼申し上げます (xin cảm ơn), お祝い申し上げます (xin chúc mừng)."
+        },
+        {
+          "id": "dt2-btvn-311318-06",
+          "promptJapanese": "佐々木さんには、心から（　　　）している。",
+          "promptReading": "ささきさんには、こころから（　　　）している。",
+          "promptVietnamese": "Tôi thật lòng （　　　） anh Sasaki.",
+          "choices": ["握手", "感謝", "世話", "おじぎ"],
+          "choicesVietnamese": [
+            "あくしゅ · Bắt tay",
+            "かんしゃ · Biết ơn",
+            "せわ · Chăm sóc",
+            "おじぎ · Cúi chào"
+          ],
+          "choiceNotes": [
+            "握手 đi với と (佐々木さんと握手する) và là hành động, không đi với 心から.",
+            "Đúng: ～に心から感謝している — đúng lối câu mẫu 先輩に、心の底から感謝しています。",
+            "世話 phải nói 佐々木さんの世話をする, không đi với に; và chăm sóc không đi với 心から.",
+            "おじぎ là động tác bên ngoài; 心から (tự đáy lòng) đi với cảm xúc."
+          ],
+          "answer": 2,
+          "explanation": "N に感謝する = biết ơn N. 心から／心の底から = từ đáy lòng, đi với cảm xúc (感謝する, 願う, 喜ぶ)."
+        },
+        {
+          "id": "dt2-btvn-311318-07",
+          "promptJapanese": "日頃の感謝を込めて、（　　　）の手紙を書いた。",
+          "promptReading": "ひごろの かんしゃを こめて、（　　　）の てがみを かいた。",
+          "promptVietnamese": "Gửi gắm lòng biết ơn thường ngày, tôi đã viết một lá thư （　　　）.",
+          "choices": ["お詫び", "お礼", "お辞儀", "握手"],
+          "choicesVietnamese": [
+            "おわび · Xin lỗi",
+            "おれい · Cảm ơn",
+            "おじぎ · Cúi chào",
+            "あくしゅ · Bắt tay"
+          ],
+          "choiceNotes": [
+            "お詫びの手紙 (thư xin lỗi) là có thật, nhưng vế trước nói 感謝 (biết ơn) chứ không phải lỗi lầm.",
+            "Đúng: 感謝を込めて → お礼の手紙 (thư cảm ơn).",
+            "お辞儀 là động tác cúi người, không viết thành thư được.",
+            "握手 là động tác bắt tay, không viết thành thư được."
+          ],
+          "answer": 2,
+          "explanation": "～を込めて = gửi gắm ~ vào. 日頃 = ngày thường. お礼の手紙／お礼の品／お礼を言う — お礼 là việc đáp lại lòng tốt của người khác."
+        },
+        {
+          "id": "dt2-btvn-311318-08",
+          "promptJapanese": "募金に（　　　）をお願いします。",
+          "promptReading": "ぼきんに（　　　）を おねがいします。",
+          "promptVietnamese": "Xin hãy （　　　） cho đợt quyên góp.",
+          "choices": ["協力", "感謝", "世話", "握手"],
+          "choicesVietnamese": [
+            "きょうりょく · Chung sức, hợp tác",
+            "かんしゃ · Biết ơn",
+            "せわ · Chăm sóc",
+            "あくしゅ · Bắt tay"
+          ],
+          "choiceNotes": [
+            "Đúng: 募金にご協力をお願いします — câu quen thuộc ở các thùng quyên góp.",
+            "Không ai đi xin người khác \"hãy biết ơn\"; 感謝 là việc của chính mình.",
+            "世話 đi với の (～の世話をする), và quyên góp không phải thứ để chăm sóc.",
+            "握手 không liên quan tới quyên góp."
+          ],
+          "answer": 1,
+          "explanation": "N に協力する = góp sức vào N. Lời kêu gọi lịch sự thường thêm ご: ご協力をお願いします／ご協力ありがとうございました."
+        }
+      ]
+    }
+  ]
+}
