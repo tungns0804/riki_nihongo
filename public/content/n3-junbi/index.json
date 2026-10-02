@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-02T05:51:46.010Z",
+  "generatedAt": "2026-10-02T06:34:10.305Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -335,6 +335,17 @@
           "itemCount": 30,
           "order": 2,
           "file": "grammar/02-de-thi-that-n4-nhiem-vu-2.json"
+        },
+        {
+          "id": "01-bai-1-phan-2",
+          "name": "Bài 1 · Phần 2",
+          "description": "第1課 Ôn tập N4 — Luyện tập tổng hợp: 29 câu 文法 trích đề thi thật 07/2010 – 07/2014 (câu 22 cũng là câu đố trang bìa).",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 29,
+          "order": 12,
+          "file": "grammar/01-bai-1-phan-2.json"
         },
         {
           "id": "04-bai-4-phan-1",

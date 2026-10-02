@@ -1,0 +1,1120 @@
+{
+  "id": "01-bai-1-phan-2",
+  "name": "Bài 1 · Phần 2",
+  "description": "第1課 Ôn tập N4 — Luyện tập tổng hợp: 29 câu 文法 trích đề thi thật 07/2010 – 07/2014 (câu 22 cũng là câu đố trang bìa).",
+  "kind": "test",
+  "parent": "",
+  "group": "",
+  "sections": [
+    {
+      "id": "b1p2-mondai-1",
+      "title": "1課 復習 — Luyện tập tổng hợp ôn tập N4 (29 câu)",
+      "instructions": "Luyện tập: Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b1p2-01",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "昨日、わたしと妹でスープを作ったんですが、塩の量が間違えて味が（　）いました。 (07/2010)",
+          "promptReading": "きのう、わたしといもうとですーぷをつくったんですが、しおのりょうがまちがえてあじが（　）いました。 (07/2010)",
+          "promptTranslation": "Hôm qua tôi với em gái nấu súp, nhưng lượng muối bị sai nên vị đã bị mặn quá.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "濃くなりやすくなって",
+              "translation": "濃くなりやすくなって · trở nên dễ đậm lên",
+              "note": "〜やすくなる là \"trở nên dễ ~\" — không nói được việc đã lỡ mặn quá."
+            },
+            {
+              "id": "c2",
+              "text": "濃くしやすくなって",
+              "translation": "濃くしやすくなって · trở nên dễ làm cho đậm",
+              "note": "濃くする là tha động từ (ai đó làm cho đậm) — chủ ngữ ở đây là 味が, cần tự động từ なる; lại còn ý \"dễ\" không hợp."
+            },
+            {
+              "id": "c3",
+              "text": "濃くなりすぎて",
+              "translation": "濃くなりすぎて · (vị) trở nên đậm quá",
+              "note": "Đúng: 味が濃くなりすぎていました — chủ ngữ 味が đi với tự động từ なる, ～すぎる = quá mức."
+            },
+            {
+              "id": "c4",
+              "text": "濃くしすぎて",
+              "translation": "濃くしすぎて · làm cho đậm quá",
+              "note": "濃くしすぎる cần người làm (を): 味を濃くしすぎた. Câu dùng 味が nên phải là なる."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Aい → く＋なる (trở nên), thêm すぎる (quá): 濃くなりすぎる. Phân biệt tự/tha: 味が濃くなる ⇔ 味を濃くする.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-02",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（喫茶店で）\nA：「何か食べようか。」\nB：「わたし、スパゲッティとコーヒー。」\nC：「わたし、おなかすいていないから、コーヒー（　）する。」",
+          "promptReading": "（きっさてんで）\nA：「なにかたべようか。」\nB：「わたし、すぱげってぃとこーひー。」\nC：「わたし、おなかすいていないから、こーひー（　）する。」",
+          "promptTranslation": "(Ở quán cà phê)\nA: \"Mình ăn gì không?\"\nB: \"Mình lấy mì Ý với cà phê.\"\nC: \"Mình không đói nên chỉ gọi cà phê thôi.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "だけ",
+              "translation": "chỉ",
+              "note": "コーヒーだけする thiếu trợ từ: chọn món thì phải là Nにする."
+            },
+            {
+              "id": "c2",
+              "text": "だけで",
+              "translation": "chỉ với",
+              "note": "コーヒーだけでする nghĩa là \"làm (việc gì đó) chỉ bằng cà phê\" — không phải gọi món."
+            },
+            {
+              "id": "c3",
+              "text": "だけを",
+              "translation": "chỉ (tân ngữ を)",
+              "note": "コーヒーだけをする: する không nhận món ăn làm tân ngữ theo nghĩa \"gọi món\"."
+            },
+            {
+              "id": "c4",
+              "text": "だけに",
+              "translation": "chỉ (chọn món: Nにする)",
+              "note": "Đúng: Nにする = chọn, quyết định lấy N; コーヒーだけにする = chỉ lấy cà phê thôi."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Nにする = quyết định chọn N (gọi món, mua hàng…). だけ chen vào giữa: コーヒーだけにする.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-03",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "学生：「先生、ご相談したいことがあるのですが、授業の後、先生の研究室に（　）よろしいでしょうか。」\n先生：「はい、いいですよ。」 (07/2011)",
+          "promptReading": "がくせい：「せんせい、ごそうだんしたいことがあるのですが、じゅぎょうのあと、せんせいのけんきゅうしつに（　）よろしいでしょうか。」\nせんせい：「はい、いいですよ。」 (07/2011)",
+          "promptTranslation": "Sinh viên: \"Thưa thầy, em có việc muốn xin ý kiến thầy, sau giờ học em đến phòng nghiên cứu của thầy có được không ạ?\"\nThầy: \"Ừ, được thôi.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "来られても",
+              "translation": "来られても · dù (người trên) đến — tôn kính của 来る",
+              "note": "来られる là tôn kính, dùng cho hành động của NGƯỜI TRÊN — ở đây người đến là sinh viên."
+            },
+            {
+              "id": "c2",
+              "text": "行かれても",
+              "translation": "行かれても · dù (người trên) đi — tôn kính của 行く",
+              "note": "行かれる cũng là tôn kính cho người trên, không dùng cho mình."
+            },
+            {
+              "id": "c3",
+              "text": "うかがっても",
+              "translation": "うかがっても · (tôi) đến thăm có được không — khiêm nhường của 行く／訪ねる",
+              "note": "Đúng: hành động của chính mình (sinh viên đến phòng thầy) → khiêm nhường ngữ 伺う: 伺ってもよろしいでしょうか."
+            },
+            {
+              "id": "c4",
+              "text": "いらっしゃっても",
+              "translation": "いらっしゃっても · dù (người trên) đến/đi — tôn kính",
+              "note": "いらっしゃる là tôn kính — tự nâng hành động của mình lên là sai."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Vてもよろしいでしょうか = xin phép lịch sự. Việc mình làm → khiêm nhường (伺う = 行く／訪ねる); việc người trên làm → tôn kính (いらっしゃる・来られる).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-04",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：「沖縄旅行はどうだった？」\nB：「海が青くて、料理もおいしくて、最高だったよ。」\nA：「いいなあ、わたしも（　）一度行ってみたいなあ。」 (07/2011)",
+          "promptReading": "A：「おきなわりょこうはどうだった？」\nB：「うみがあおくて、りょうりもおいしくて、さいこうだったよ。」\nA：「いいなあ、わたしも（　）いちどいってみたいなあ。」 (07/2011)",
+          "promptTranslation": "A: \"Chuyến đi Okinawa thế nào?\"\nB: \"Biển xanh, đồ ăn cũng ngon, tuyệt nhất luôn.\"\nA: \"Thích thật, mình cũng muốn một lúc nào đó đi thử một lần.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "いつまにか",
+              "translation": "いつまにか · (lỗi viết: phải là いつのまにか = từ lúc nào không hay)",
+              "note": "\"いつまにか\" thiếu の (いつのまにか) — mà dù đúng thì cũng chỉ chuyện đã xảy ra lúc nào không hay, không hợp với mong muốn ~てみたい."
+            },
+            {
+              "id": "c2",
+              "text": "いつ",
+              "translation": "いつ · khi nào (từ để hỏi)",
+              "note": "いつ là từ để hỏi; câu không hỏi gì."
+            },
+            {
+              "id": "c3",
+              "text": "いつでも",
+              "translation": "いつでも · lúc nào cũng được",
+              "note": "いつでも = lúc nào cũng được, không đi với 一度 (một lần)."
+            },
+            {
+              "id": "c4",
+              "text": "いつか",
+              "translation": "いつか · một lúc nào đó",
+              "note": "Đúng: いつか一度行ってみたい = muốn một lúc nào đó đi thử một lần."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "いつか (một lúc nào đó trong tương lai) hay đi với ～たい／～てみたい. Lựa chọn 1 chép đúng như đề (いつまにか).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-05",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "わたしたちがふだん使っているコインには、丸い形（　）しているものが多い。 (12/2011)",
+          "promptReading": "わたしたちがふだんつかっているこいんには、まるいかたち（　）しているものがおおい。 (12/2011)",
+          "promptTranslation": "Các đồng xu mà chúng ta thường dùng phần lớn có hình tròn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "の",
+              "translation": "của",
+              "note": "形のしている không thành câu."
+            },
+            {
+              "id": "c2",
+              "text": "も",
+              "translation": "cũng",
+              "note": "形もしている = \"cũng có hình\" — thêm も làm câu thành so sánh không có gì để so."
+            },
+            {
+              "id": "c3",
+              "text": "を",
+              "translation": "trợ từ を",
+              "note": "Đúng: N（形・色・顔）をしている = có hình dạng / màu / khuôn mặt ~."
+            },
+            {
+              "id": "c4",
+              "text": "で",
+              "translation": "bằng, ở",
+              "note": "形でしている không phải cách nói."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "N をしている tả đặc điểm bề ngoài: 丸い形をしている, きれいな色をしている, やさしい顔をしている.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-06",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "「かわいい」とか「ひとりではさびしい」（　）いう理由でペットを簡単に買い始める人がいるが、最後まで飼い続ける強い意志も必要だと思う。 (12/2011)",
+          "promptReading": "「かわいい」とか「ひとりではさびしい」（　）いうりゆうでぺっとをかんたんにかいはじめるひとがいるが、さいごまでかいつづけるつよいいしもひつようだとおもう。 (12/2011)",
+          "promptTranslation": "Có người dễ dàng mua thú cưng vì những lý do như \"dễ thương\" hay \"một mình thì buồn\", nhưng tôi nghĩ cũng cần có ý chí mạnh mẽ để nuôi đến cùng.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "などを",
+              "translation": "những… (tân ngữ を)",
+              "note": "などをいう: いう đi trước danh từ 理由 ở đây là \"gọi là\", cần と trích dẫn chứ không phải を."
+            },
+            {
+              "id": "c2",
+              "text": "などと",
+              "translation": "những… như là (trích dẫn と)",
+              "note": "Đúng: 「…」などという理由 = những lý do kiểu như \"…\" — など liệt kê, と trích dẫn nội dung."
+            },
+            {
+              "id": "c3",
+              "text": "ことを",
+              "translation": "việc… (を)",
+              "note": "ことをいう = nói về việc — không nối vào 理由 thành \"lý do là…\"."
+            },
+            {
+              "id": "c4",
+              "text": "ことと",
+              "translation": "việc… (と)",
+              "note": "ことという không phải cách nói tự nhiên."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "～とか～などという N = N kiểu như ~ hay ~. ～という＋N nêu nội dung của N. 飼い続ける = tiếp tục nuôi (Vます＋続ける).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-07",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "山口：「中川先生。」\n中川先生：「あ、山口さん。偶然ですね。」\n山口：「はい。わたしもこのパーティーで先生に（　）とは思いませんでした。」 (12/2011)",
+          "promptReading": "やまぐち：「なかがわせんせい。」\nなかがわせんせい：「あ、やまぐちさん。ぐうぜんですね。」\nやまぐち：「はい。わたしもこのぱーてぃーでせんせいに（　）とはおもいませんでした。」 (12/2011)",
+          "promptTranslation": "Yamaguchi: \"Thầy Nakagawa.\"\nThầy Nakagawa: \"À, em Yamaguchi. Tình cờ quá nhỉ.\"\nYamaguchi: \"Vâng. Em cũng không nghĩ lại được gặp thầy ở bữa tiệc này.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "お見えになる",
+              "translation": "お見えになる · (người trên) đến — tôn kính của 来る",
+              "note": "お見えになる là tôn kính cho người trên \"đến\" — người gặp ở đây là mình."
+            },
+            {
+              "id": "c2",
+              "text": "拝見できる",
+              "translation": "拝見できる · được xem — khiêm nhường của 見る",
+              "note": "拝見する là khiêm nhường của 見る (xem), không phải \"gặp\" người."
+            },
+            {
+              "id": "c3",
+              "text": "お目にかかる",
+              "translation": "お目にかかる · được gặp — khiêm nhường của 会う",
+              "note": "Đúng: 先生にお目にかかる = được gặp thầy — khiêm nhường của 会う, đi với に."
+            },
+            {
+              "id": "c4",
+              "text": "ご覧になる",
+              "translation": "ご覧になる · (người trên) xem — tôn kính của 見る",
+              "note": "ご覧になる là tôn kính của 見る, dùng cho hành động của người trên."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "会う → khiêm nhường お目にかかる (人にお目にかかる). ～とは思わなかった = không ngờ là ~.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-08",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "わたしたちは、先生にプレゼントを用意して、最後の授業の（　）計画を立てています。 (12/2011)",
+          "promptReading": "わたしたちは、せんせいにぷれぜんとをよういして、さいごのじゅぎょうの（　）けいかくをたてています。 (12/2011)",
+          "promptTranslation": "Chúng tôi chuẩn bị quà và đang lên kế hoạch tặng thầy vào buổi học cuối cùng.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "くださる",
+              "translation": "くださる · (người trên) cho mình",
+              "note": "くださる là người trên cho mình — ở đây mình tặng thầy, chiều ngược lại."
+            },
+            {
+              "id": "c2",
+              "text": "なさる",
+              "translation": "なさる · (người trên) làm",
+              "note": "なさる là tôn kính của する cho hành động của người trên."
+            },
+            {
+              "id": "c3",
+              "text": "さしあげる",
+              "translation": "さしあげる · (mình) biếu, tặng người trên",
+              "note": "Đúng: さしあげる = biếu, tặng người trên — chúng tôi tặng quà cho thầy."
+            },
+            {
+              "id": "c4",
+              "text": "いただく",
+              "translation": "いただく · (mình) nhận từ người trên",
+              "note": "いただく là mình nhận từ người trên — ngược chiều."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Cho người trên → さしあげる (khiêm nhường của あげる); người trên cho mình → くださる; mình nhận từ người trên → いただく. Đề gốc JLPT 12/2011 viết 「最後の授業の日に（　）計画」 — bản PDF thiếu 日に, chép đúng như PDF.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-09",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（会社の説明会で）\n会社の人：「これで、わたしからの説明は終わりますが、質問がある人はいますか。」\n学生：「はい、二つ、質問（　）ください。」",
+          "promptReading": "（かいしゃのせつめいかいで）\nかいしゃのひと：「これで、わたしからのせつめいはおわりますが、しつもんがあるひとはいますか。」\nがくせい：「はい、ふたつ、しつもん（　）ください。」",
+          "promptTranslation": "(Ở buổi giới thiệu công ty)\nNgười của công ty: \"Phần giới thiệu của tôi đến đây là hết, có ai có câu hỏi không ạ?\"\nSinh viên: \"Vâng, cho em hỏi hai câu ạ.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "して",
+              "translation": "hãy làm",
+              "note": "質問してください = mời người nghe đặt câu hỏi — nhưng người hỏi ở đây là chính sinh viên."
+            },
+            {
+              "id": "c2",
+              "text": "させて",
+              "translation": "hãy cho (tôi) làm",
+              "note": "Đúng: Vさせてください = xin cho tôi được ~: 質問させてください = cho em hỏi."
+            },
+            {
+              "id": "c3",
+              "text": "やって",
+              "translation": "hãy làm (văn nói)",
+              "note": "やってください cũng là nhờ người nghe làm, và không đi với 質問."
+            },
+            {
+              "id": "c4",
+              "text": "されて",
+              "translation": "hãy bị (làm)",
+              "note": "されてください không phải cách nói."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Thể sai khiến ＋てください = xin phép cho mình làm: 帰らせてください, 説明させてください.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-10",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "先輩：「また遅刻。この前も先生にこれから練習は遅刻（　）って言われたでしょう。」\n西田：「はい、本当にすみません。」",
+          "promptReading": "せんぱい：「またちこく。このまえもせんせいにこれかられんしゅうはちこく（　）っていわれたでしょう。」\nにしだ：「はい、ほんとうにすみません。」",
+          "promptTranslation": "Đàn anh: \"Lại đến muộn. Hôm trước cậu cũng bị thầy bảo là từ giờ đi tập không được đến muộn rồi còn gì.\"\nNishida: \"Vâng, em thật sự xin lỗi.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "するな",
+              "translation": "cấm làm (cấm chỉ)",
+              "note": "Đúng: Vる＋な = cấm ~ (thể cấm chỉ): 遅刻するな = cấm đến muộn — lời thầy dặn được trích lại bằng って."
+            },
+            {
+              "id": "c2",
+              "text": "するよ",
+              "translation": "làm đấy",
+              "note": "遅刻するよ = (sẽ) đến muộn đấy — không phải lời dặn của thầy."
+            },
+            {
+              "id": "c3",
+              "text": "するね",
+              "translation": "làm nhé",
+              "note": "遅刻するね = đến muộn nhé — vô lý, không ai dặn đến muộn."
+            },
+            {
+              "id": "c4",
+              "text": "するんだ",
+              "translation": "là làm đấy (giải thích)",
+              "note": "遅刻するんだ = là sẽ đến muộn đấy — cũng không phải lời răn."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Thể cấm chỉ Vる＋な (mạnh, văn nói). Trích lời người khác: 「～」って言われた = bị (ai) nói là ~.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-11",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "居間の電気が（　）しているから、新しい電球を買ってきてください。 (07/2012)",
+          "promptReading": "いまのでんきが（　）しているから、あたらしいでんきゅうをかってきてください。 (07/2012)",
+          "promptTranslation": "Đèn phòng khách cứ lúc bật lúc tắt nên hãy mua bóng đèn mới về giúp.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ついたり消えて",
+              "translation": "ついたり消えて · (thiếu たり thứ hai)",
+              "note": "Mẫu ～たり～たりする phải có たり ở cả hai vế — 消えて thiếu たり."
+            },
+            {
+              "id": "c2",
+              "text": "ついたり消えたり",
+              "translation": "ついたり消えたり · lúc sáng lúc tắt (tự động từ)",
+              "note": "Đúng: 電気が ついたり消えたりしている — chủ ngữ 電気が nên dùng tự động từ つく／消える."
+            },
+            {
+              "id": "c3",
+              "text": "つけたり消して",
+              "translation": "つけたり消して · (thiếu たり thứ hai)",
+              "note": "Vừa thiếu たり thứ hai, vừa là tha động từ."
+            },
+            {
+              "id": "c4",
+              "text": "つけたり消したり",
+              "translation": "つけたり消したり · lúc bật lúc tắt (tha động từ, có người làm)",
+              "note": "つける／消す là tha động từ (ai đó bật tắt đèn) — câu dùng 電気が, cần tự động từ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "～たり～たりする = lúc thì ~ lúc thì ~ (lặp lại). Tự/tha: 電気がつく・消える ⇔ 電気をつける・消す.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-12",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（電話で）\nA：「はい、みなみ図書館です。」\nB：「すみません、そちらの図書館は、だれでも本を借りることができますか。」\nA：「みなみ市に住んでいる方なら、どなたでも（　）よ。」 (07/2012)",
+          "promptReading": "（でんわで）\nA：「はい、みなみとしょかんです。」\nB：「すみません、そちらのとしょかんは、だれでもほんをかりることができますか。」\nA：「みなみしにすんでいるかたなら、どなたでも（　）よ。」 (07/2012)",
+          "promptTranslation": "(Qua điện thoại)\nA: \"Vâng, thư viện Minami xin nghe.\"\nB: \"Xin lỗi, thư viện bên mình thì ai cũng mượn sách được phải không ạ?\"\nA: \"Nếu là người sống ở thành phố Minami thì ai cũng mượn được ạ.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "借りられます",
+              "translation": "借りられます · mượn được (thể khả năng)",
+              "note": "Đúng: câu hỏi ～ことができますか → trả lời bằng thể khả năng: どなたでも借りられます (ai cũng mượn được)."
+            },
+            {
+              "id": "c2",
+              "text": "借りてくださいます",
+              "translation": "借りてくださいます · mượn cho mình (tôn kính)",
+              "note": "借りてくださる = (người ta) mượn giúp mình — không phải trả lời \"có mượn được không\"."
+            },
+            {
+              "id": "c3",
+              "text": "借りいたします",
+              "translation": "借りいたします · (sai dạng khiêm nhường)",
+              "note": "Khiêm nhường đúng phải là お借りします; \"借りいたします\" sai dạng, và cũng không có nghĩa khả năng."
+            },
+            {
+              "id": "c4",
+              "text": "お借りいただきます",
+              "translation": "お借りいただきます · (sai dạng)",
+              "note": "お借りいただく không phải cách nói của câu này, và không mang nghĩa \"được phép\"."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Vことができる ≒ thể khả năng (借りられる). どなたでも = bất kỳ ai (lịch sự của だれでも).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-13",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：「今週末、よかったらいっしょに食事（　）しませんか。」\nB：「いいですね。そうしましょう。」 (07/2012)",
+          "promptReading": "A：「こんしゅうまつ、よかったらいっしょにしょくじ（　）しませんか。」\nB：「いいですね。そうしましょう。」 (07/2012)",
+          "promptTranslation": "A: \"Cuối tuần này, nếu được thì mình cùng đi ăn gì đó không?\"\nB: \"Hay đấy. Đi thôi.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "でも",
+              "translation": "hay là… (gợi ý nhẹ)",
+              "note": "Đúng: Nでもしませんか = mình ~ hay gì đó nhé — でも làm lời mời nhẹ nhàng, không ép."
+            },
+            {
+              "id": "c2",
+              "text": "では",
+              "translation": "thì là",
+              "note": "食事ではしませんか không thành câu mời."
+            },
+            {
+              "id": "c3",
+              "text": "すぎる",
+              "translation": "quá",
+              "note": "すぎる đi sau thân động từ/tính từ, không đứng sau danh từ 食事 như thế này."
+            },
+            {
+              "id": "c4",
+              "text": "には",
+              "translation": "đối với",
+              "note": "食事にはしませんか không phải cách nói."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "N＋でも = ~ chẳng hạn (đưa ra một gợi ý trong nhiều cái): お茶でも飲みませんか、映画でも見ませんか.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-14",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "父：「ひろし、大きな音で音楽を聴くのはやめなさい。お隣（　）聞こえるよ。」\nひろし：「あ、ごめんなさい。」 (07/2012)",
+          "promptReading": "ちち：「ひろし、おおきなおとでおんがくをきくのはやめなさい。おとなり（　）きこえるよ。」\nひろし：「あ、ごめんなさい。」 (07/2012)",
+          "promptTranslation": "Bố: \"Hiroshi, thôi đừng nghe nhạc to thế. Nghe thấy cả sang nhà bên đấy.\"\nHiroshi: \"A, con xin lỗi.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "までで",
+              "translation": "đến… thì (kết thúc)",
+              "note": "までで = kết thúc ở ~ (今日の授業はここまでで終わり) — không hợp."
+            },
+            {
+              "id": "c2",
+              "text": "でまで",
+              "translation": "(sai thứ tự)",
+              "note": "でまで sai thứ tự trợ từ."
+            },
+            {
+              "id": "c3",
+              "text": "までに",
+              "translation": "trước (hạn)",
+              "note": "までに là hạn chót (5時までに) — không nói chỗ tiếng nhạc vang tới."
+            },
+            {
+              "id": "c4",
+              "text": "にまで",
+              "translation": "đến tận, cả ở",
+              "note": "Đúng: お隣にまで聞こえる = nghe thấy đến tận cả nhà bên — に (nơi đến) ＋ まで (đến tận, nhấn mạnh)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "に＋まで = đến tận cả ~ (vượt ngoài dự tính). Vるのはやめなさい = thôi đừng ~ nữa.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-15",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "山口：「すみませんが、この書類を広田さんに渡して（　）。お願いします。」\n北川：「いいですよ。」 (12/2012)",
+          "promptReading": "やまぐち：「すみませんが、このしょるいをひろたさんにわたして（　）。おねがいします。」\nきたがわ：「いいですよ。」 (12/2012)",
+          "promptTranslation": "Yamaguchi: \"Xin lỗi, anh đưa giúp tập giấy tờ này cho anh Hirota được không? Nhờ anh nhé.\"\nKitagawa: \"Được thôi.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "おいてあげますよ",
+              "translation": "おいてあげますよ · tôi sẽ làm sẵn cho",
+              "note": "～てあげます là mình làm cho người khác — nhưng Yamaguchi đang nhờ, sau đó còn お願いします."
+            },
+            {
+              "id": "c2",
+              "text": "おこうと思えますか",
+              "translation": "おこうと思えますか · (sai dạng)",
+              "note": "\"思えますか\" (có thể nghĩ không?) không thành lời nhờ."
+            },
+            {
+              "id": "c3",
+              "text": "おいてもらえませんか",
+              "translation": "おいてもらえませんか · anh làm sẵn giúp tôi được không",
+              "note": "Đúng: Vておいてもらえませんか = anh làm sẵn ~ giúp tôi được không — lời nhờ, khớp với お願いします và câu trả lời いいですよ."
+            },
+            {
+              "id": "c4",
+              "text": "おこうと思いませんよ",
+              "translation": "おこうと思いませんよ · tôi không định làm sẵn đâu",
+              "note": "おこうと思いません là nói ý định của mình — không phải lời nhờ."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Vてもらえませんか = nhờ người khác làm cho mình (lịch sự). Vておく = làm sẵn.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-16",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "妹：「おはよう、お兄ちゃん。あれ、お父さんはどこ？」\n兄：「昨日、遅くまで仕事をしていたから、たぶんまだ（　）よ。」 (12/2012)",
+          "promptReading": "いもうと：「おはよう、おにいちゃん。あれ、おとうさんはどこ？」\nあに：「きのう、おそくまでしごとをしていたから、たぶんまだ（　）よ。」 (12/2012)",
+          "promptTranslation": "Em gái: \"Chào buổi sáng anh. Ơ, bố đâu rồi?\"\nAnh trai: \"Hôm qua bố làm việc đến khuya nên chắc vẫn đang ngủ đấy.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "寝ている",
+              "translation": "đang ngủ",
+              "note": "Đúng: まだ寝ている = vẫn đang ngủ (trạng thái tiếp diễn ở hiện tại)."
+            },
+            {
+              "id": "c2",
+              "text": "寝ていた",
+              "translation": "đã đang ngủ",
+              "note": "寝ていた là quá khứ — câu nói về hiện tại (bây giờ bố đâu)."
+            },
+            {
+              "id": "c3",
+              "text": "寝ない",
+              "translation": "không ngủ",
+              "note": "まだ寝ない = vẫn chưa ngủ — sáng ra rồi thì ngược nghĩa."
+            },
+            {
+              "id": "c4",
+              "text": "寝なかった",
+              "translation": "đã không ngủ",
+              "note": "寝なかった = đã không ngủ — không hợp với たぶんまだ."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "まだ＋Vている = vẫn đang ~. Bản PDF thiếu dấu 」 cuối câu của em gái — đã thêm vào.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-17",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "友人とけんかをしてしまった。仲直りしたいが、謝っても許してくれない。どうしたら（　）分からない。 (12/2012)",
+          "promptReading": "ゆうじんとけんかをしてしまった。なかなおりしたいが、あやまってもゆるしてくれない。どうしたら（　）わからない。 (12/2012)",
+          "promptTranslation": "Tôi lỡ cãi nhau với bạn. Muốn làm lành nhưng xin lỗi rồi mà bạn vẫn không tha thứ. Tôi không biết phải làm thế nào nữa.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "いいと",
+              "translation": "(nghĩ) là được",
+              "note": "いいと分からない không phải cách nói — と không nối câu hỏi gián tiếp với 分からない."
+            },
+            {
+              "id": "c2",
+              "text": "いいのか",
+              "translation": "thì được (hay không)",
+              "note": "Đúng: どうしたらいいのか分からない = không biết làm sao thì được — câu hỏi lồng (～か) trước 分からない."
+            },
+            {
+              "id": "c3",
+              "text": "よくて",
+              "translation": "tốt và",
+              "note": "よくて (tốt và…) không hợp nghĩa."
+            },
+            {
+              "id": "c4",
+              "text": "よくても",
+              "translation": "dù tốt",
+              "note": "よくても (dù tốt) không hợp nghĩa."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Câu hỏi lồng: [từ để hỏi …(の)か]＋分からない／知らない. どうしたらいい = nên làm thế nào. PDF in \"誤って\" (furigana あやま) — lỗi chữ, đúng là 謝って (xin lỗi); đã sửa.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-18",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：「あの人の名前、山田さんだよね。」\nB：「違うよ。前田さんだよ。さっき教えた（　）どうして忘れちゃうの？」 (12/2012)",
+          "promptReading": "A：「あのひとのなまえ、やまださんだよね。」\nB：「ちがうよ。まえださんだよ。さっきおしえた（　）どうしてわすれちゃうの？」 (12/2012)",
+          "promptTranslation": "A: \"Người kia tên là Yamada đúng không?\"\nB: \"Sai rồi. Là Maeda. Vừa mới chỉ cho xong mà sao lại quên mất thế?\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "あとなのに",
+              "translation": "sau khi… vậy mà",
+              "note": "あとなのに nói được về trình tự nhưng không có ý \"mới vừa xong\" — với さっき (vừa nãy) thì ばかり tự nhiên hơn."
+            },
+            {
+              "id": "c2",
+              "text": "あとだから",
+              "translation": "sau khi… nên",
+              "note": "あとだから (vì là sau khi) không hợp với \"sao lại quên\"."
+            },
+            {
+              "id": "c3",
+              "text": "ばかりなのに",
+              "translation": "vừa mới… vậy mà",
+              "note": "Đúng: Vたばかりなのに = vừa mới ~ xong vậy mà — trách nhẹ, khớp với さっき và どうして忘れちゃうの."
+            },
+            {
+              "id": "c4",
+              "text": "ばかりだから",
+              "translation": "vừa mới… nên",
+              "note": "ばかりだから (vì vừa mới) — vế sau phải là kết quả hợp lý, không phải lời trách."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Vたばかり = vừa mới ~ (theo cảm nhận người nói). ～なのに = vậy mà (trái mong đợi, trách). 忘れちゃう = 忘れてしまう (văn nói).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-19",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（会社で）\n内田：「高田さんがしている指輪、すごく高そうだよね。」\n森山：「いや、高い指輪だったら、会社に（　）だよ。」 (12/2012)",
+          "promptReading": "（かいしゃで）\nうちだ：「たかださんがしているゆびわ、すごくたかそうだよね。」\nもりやま：「いや、たかいゆびわだったら、かいしゃに（　）だよ。」 (12/2012)",
+          "promptTranslation": "(Ở công ty)\nUchida: \"Cái nhẫn chị Takada đeo trông đắt lắm nhỉ.\"\nMoriyama: \"Không đâu, nếu là nhẫn đắt thì chắc chắn chị ấy không đeo đến công ty đâu.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "してこないはず",
+              "translation": "してこないはず · chắc chắn không đeo đến",
+              "note": "Đúng: (指輪を)してくる = đeo rồi đến; ～はず = chắc chắn (suy luận của người nói) — nhẫn đắt thì hẳn là không đeo đi làm."
+            },
+            {
+              "id": "c2",
+              "text": "しにこないはず",
+              "translation": "しにこないはず · chắc chắn không đến để đeo",
+              "note": "Vます＋に来る là đến để làm gì — không ai \"đến công ty để đeo nhẫn\"."
+            },
+            {
+              "id": "c3",
+              "text": "してこないつもり",
+              "translation": "してこないつもり · định không đeo đến",
+              "note": "つもり là dự định của CHÍNH người nói — Moriyama đang đoán về Takada."
+            },
+            {
+              "id": "c4",
+              "text": "しにこないつもり",
+              "translation": "しにこないつもり · định không đến để đeo",
+              "note": "Vừa sai nghĩa に来る, vừa sai つもり."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "～はずだ = chắc là ~ (suy luận có căn cứ). Vてくる = làm rồi mới đến. 指輪をする = đeo nhẫn.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-20",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（デパートで）\n客：「すみません、トイレはどこですか。」\n店員：「はい。あちらの（　）ございます。」 (07/2013)",
+          "promptReading": "（でぱーとで）\nきゃく：「すみません、といれはどこですか。」\nてんいん：「はい。あちらの（　）ございます。」 (07/2013)",
+          "promptTranslation": "(Ở trung tâm thương mại)\nKhách: \"Xin lỗi, nhà vệ sinh ở đâu ạ?\"\nNhân viên: \"Dạ, ở gần cầu thang đằng kia ạ.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "階段の近く",
+              "translation": "chỗ gần cầu thang",
+              "note": "Thiếu に: nơi chốn tồn tại cần に trước ござる (ある)."
+            },
+            {
+              "id": "c2",
+              "text": "階段の近くに",
+              "translation": "ở chỗ gần cầu thang",
+              "note": "Đúng: Nにございます = có ở N (kính ngữ của Nにあります)."
+            },
+            {
+              "id": "c3",
+              "text": "階段に近くて",
+              "translation": "gần cầu thang và",
+              "note": "階段に近くて = gần cầu thang và… — câu bị bỏ lửng, không có động từ tồn tại."
+            },
+            {
+              "id": "c4",
+              "text": "階段は近くて",
+              "translation": "cầu thang thì gần và",
+              "note": "階段は近くて không thành nghĩa."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "ございます = lịch sự của あります. Nơi tồn tại đi với に: あちらの階段の近くにございます.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-21",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（電話で）\nA：「はい。Mサッカークラブです。」\nB：「もしもし。そちらのサッカークラブに入りたいのですが、一度そちらの練習を（　）。」\nA：「ええ、いいですよ」。 (07/2013)",
+          "promptReading": "（でんわで）\nA：「はい。Mさっかーくらぶです。」\nB：「もしもし。そちらのさっかーくらぶにはいりたいのですが、いちどそちらのれんしゅうを（　）。」\nA：「ええ、いいですよ」。 (07/2013)",
+          "promptTranslation": "(Qua điện thoại)\nA: \"Vâng, câu lạc bộ bóng đá M xin nghe.\"\nB: \"Alô. Tôi muốn vào câu lạc bộ, cho tôi đến xem buổi tập một lần được không ạ?\"\nA: \"Vâng, được ạ.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "見学してはいけんませんよ",
+              "translation": "見学してはいけんませんよ · (in sai: いけません) không được đến xem đâu",
+              "note": "In sai \"いけんません\" (đúng: いけません). Dù sửa thì \"không được xem\" cũng không phải lời xin của người muốn vào câu lạc bộ."
+            },
+            {
+              "id": "c2",
+              "text": "見学しましょうよ",
+              "translation": "見学しましょうよ · cùng đi xem đi",
+              "note": "～ましょうよ là rủ người nghe cùng làm — không phải xin phép."
+            },
+            {
+              "id": "c3",
+              "text": "見学させていただけませんか",
+              "translation": "見学させていただけませんか · cho tôi được đến xem có được không ạ",
+              "note": "Đúng: Vさせていただけませんか = xin phép cho mình được ~ (rất lịch sự) — khớp với câu trả lời いいですよ."
+            },
+            {
+              "id": "c4",
+              "text": "見学ではどうですか",
+              "translation": "見学ではどうですか · (không thành câu)",
+              "note": "見学ではどうですか không phải cách xin phép."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Vさせていただけませんか = cho tôi được ~ có được không (lịch sự hơn させてください). Lựa chọn 1 chép đúng như PDF (いけんません).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-22",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "ガイドブックに金閣寺（　）行き方が書いてある。 (07/2013)",
+          "promptReading": "がいどぶっくにきんかくじ（　）いきかたがかいてある。 (07/2013)",
+          "promptTranslation": "Trong sách hướng dẫn có viết cách đi đến chùa Kinkaku-ji.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "に",
+              "translation": "đến (trợ từ に)",
+              "note": "に không nối hai danh từ được: 金閣寺に行き方 sai — trước danh từ cần thêm の."
+            },
+            {
+              "id": "c2",
+              "text": "で",
+              "translation": "ở, bằng",
+              "note": "で là nơi hành động xảy ra / phương tiện — không chỉ đích đến."
+            },
+            {
+              "id": "c3",
+              "text": "への",
+              "translation": "đến (へ＋の, bổ nghĩa danh từ)",
+              "note": "Đúng: N1への N2 — へ (hướng tới) ＋ の để bổ nghĩa cho danh từ 行き方: cách đi tới Kinkaku-ji."
+            },
+            {
+              "id": "c4",
+              "text": "とは",
+              "translation": "là (định nghĩa)",
+              "note": "とは dùng để định nghĩa (金閣寺とは… = Kinkaku-ji là…), không nối được với 行き方."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Đây cũng là câu đố ở trang bìa; trang cuối PDF khoanh đáp án 3. への. Trợ từ đứng trước danh từ thì thêm の: 友達への手紙, 東京からの電車.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-23",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "このビルは、街で一番高く、街の（　）見える。 (12/2013)",
+          "promptReading": "このびるは、まちでいちばんたかく、まちの（　）みえる。 (12/2013)",
+          "promptTranslation": "Toà nhà này cao nhất phố, từ chỗ nào trong phố cũng nhìn thấy được.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "どこまで",
+              "translation": "đến đâu",
+              "note": "どこまで là \"đến đâu\" (hỏi phạm vi) — không hợp."
+            },
+            {
+              "id": "c2",
+              "text": "どこから",
+              "translation": "từ đâu (hỏi)",
+              "note": "どこから là câu hỏi \"từ đâu\" — câu không hỏi gì."
+            },
+            {
+              "id": "c3",
+              "text": "どこへでも",
+              "translation": "đến bất cứ đâu",
+              "note": "どこへでも = đi đến đâu cũng — tòa nhà không \"đi\" đâu cả."
+            },
+            {
+              "id": "c4",
+              "text": "どこからでも",
+              "translation": "từ bất cứ đâu",
+              "note": "Đúng: どこからでも見える = nhìn từ bất cứ đâu cũng thấy — tòa nhà cao nhất phố."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Từ để hỏi＋trợ từ＋でも = bất cứ ~ nào cũng: どこからでも, だれにでも, いつまでも…",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-24",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（電話で）\nA：「すみません、そちらのアルバイトの募集についてちょっと（　）んですが。」\nB：「はい。どんなことでしょうか。」 (12/2013)",
+          "promptReading": "（でんわで）\nA：「すみません、そちらのあるばいとのぼしゅうについてちょっと（　）んですが。」\nB：「はい。どんなことでしょうか。」 (12/2013)",
+          "promptTranslation": "(Qua điện thoại)\nA: \"Xin lỗi, tôi muốn hỏi một chút về việc tuyển nhân viên làm thêm bên mình ạ.\"\nB: \"Vâng. Anh muốn hỏi gì ạ?\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "伺いたい",
+              "translation": "伺いたい · muốn hỏi (khiêm nhường của 聞く)",
+              "note": "Đúng: hỏi là hành động của mình → khiêm nhường 伺う (= 聞く): ちょっと伺いたいんですが."
+            },
+            {
+              "id": "c2",
+              "text": "いただきたい",
+              "translation": "いただきたい · muốn nhận",
+              "note": "いただく là nhận — \"muốn nhận về việc tuyển dụng\" không thành nghĩa."
+            },
+            {
+              "id": "c3",
+              "text": "ご覧になりたい",
+              "translation": "ご覧になりたい · (người trên) muốn xem",
+              "note": "ご覧になる là tôn kính của 見る, dùng cho người trên."
+            },
+            {
+              "id": "c4",
+              "text": "お聞きになりたい",
+              "translation": "お聞きになりたい · (người trên) muốn hỏi",
+              "note": "お聞きになる là tôn kính — tự nâng hành động của mình lên là sai."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "伺う là khiêm nhường của cả 聞く (hỏi) lẫn 行く／訪ねる (đến thăm, câu 3). ～んですが = mở đầu lịch sự, chờ người nghe phản hồi.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-25",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "田中：「さっき林さんが部長に怒られていたよね。」\n山下：「うん。」\n田中：「確かに林さんも悪いけど、部長の（　）言い方はひどいと思わない？」 (12/2013)",
+          "promptReading": "たなか：「さっきはやしさんがぶちょうにおこられていたよね。」\nやました：「うん。」\nたなか：「たしかにはやしさんもわるいけど、ぶちょうの（　）いいかたはひどいとおもわない？」 (12/2013)",
+          "promptTranslation": "Tanaka: \"Vừa nãy anh Hayashi bị trưởng phòng mắng nhỉ.\"\nYamashita: \"Ừ.\"\nTanaka: \"Đúng là anh Hayashi cũng có lỗi, nhưng cậu không thấy cách nói kiểu đó của trưởng phòng quá đáng à?\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "その",
+              "translation": "đó (người nghe biết)",
+              "note": "その chỉ thứ gần người nghe hoặc vừa được người kia nhắc tới — ở đây là chuyện cả hai cùng chứng kiến."
+            },
+            {
+              "id": "c2",
+              "text": "あの",
+              "translation": "đó, kia (cả hai cùng biết)",
+              "note": "Đúng: あの＋N chỉ thứ cả người nói lẫn người nghe đều biết (cùng thấy cảnh vừa nãy): 部長のあの言い方."
+            },
+            {
+              "id": "c3",
+              "text": "そう",
+              "translation": "như thế (phó từ)",
+              "note": "そう là phó từ, không đứng trực tiếp trước danh từ (phải là そういう言い方)."
+            },
+            {
+              "id": "c4",
+              "text": "ああ",
+              "translation": "như thế kia (phó từ)",
+              "note": "ああ cũng là phó từ — trước danh từ phải là ああいう言い方."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Chuyện hai người cùng biết, cùng trải qua → あ (あの・あれ). Trước danh từ dùng あの／その; ああ／そう phải thêm いう.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-26",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "父が、最近、新聞の小さい字が（　）困ると言うので、一緒に眼鏡を買いに行った。 (12/2013)",
+          "promptReading": "ちちが、さいきん、しんぶんのちいさいじが（　）こまるというので、いっしょにめがねをかいにいった。 (12/2013)",
+          "promptTranslation": "Bố tôi bảo dạo này chữ nhỏ trên báo khó nhìn nên khổ, vì vậy tôi đã cùng bố đi mua kính.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "見なくて",
+              "translation": "không xem nên",
+              "note": "見なくて = không xem — là việc mình chủ động, đi với を chứ không phải 字が."
+            },
+            {
+              "id": "c2",
+              "text": "見えにくくて",
+              "translation": "khó nhìn thấy nên",
+              "note": "Đúng: 字が見える (chữ hiện ra trong mắt, tự động từ) ＋ にくい = khó nhìn thấy — lý do phải mua kính."
+            },
+            {
+              "id": "c3",
+              "text": "見せなくて",
+              "translation": "không cho xem nên",
+              "note": "見せる là cho người khác xem — không hợp."
+            },
+            {
+              "id": "c4",
+              "text": "見られにくくて",
+              "translation": "khó bị xem nên (bị động)",
+              "note": "見られる ở đây là bị động/khả năng của 見る; \"chữ hiện ra trong mắt\" thì dùng 見える."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Nが見える = nhìn thấy (khả năng tự nhiên của mắt). Vます＋にくい = khó ~. ～て困る = ~ nên khổ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-27",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "この花は、土が乾いたら水をやる必要があるが、（　）。水が多いと根が腐ってしまう。 (12/2013)",
+          "promptReading": "このはなは、つちがかわいたらみずをやるひつようがあるが、（　）。みずがおおいとねがくさってしまう。 (12/2013)",
+          "promptTranslation": "Loại hoa này đất khô thì cần tưới nước, nhưng tưới quá nhiều cũng không tốt. Nước nhiều thì rễ sẽ bị thối.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "やりすぎるのもよくない",
+              "translation": "やりすぎるのもよくない · tưới quá nhiều cũng không tốt",
+              "note": "Đúng: やりすぎる (tưới quá) ＋ のもよくない — khớp với câu sau 水が多いと根が腐る."
+            },
+            {
+              "id": "c2",
+              "text": "やらなくていいのがいいい",
+              "translation": "やらなくていいのがいいい · (in thừa い) không cần tưới thì tốt",
+              "note": "In thừa chữ い (\"いいい\"). Nghĩa \"không cần tưới thì tốt\" mâu thuẫn với vế trước (cần tưới khi đất khô)."
+            },
+            {
+              "id": "c3",
+              "text": "やってやるのもよくない",
+              "translation": "やってやるのもよくない · tưới cho nó cũng không tốt",
+              "note": "\"tưới cho nó cũng không tốt\" mâu thuẫn với vế trước — vấn đề là tưới NHIỀU, không phải tưới."
+            },
+            {
+              "id": "c4",
+              "text": "やらないでおくのがいい",
+              "translation": "やらないでおくのがいい · cứ để không tưới thì tốt",
+              "note": "\"cứ để không tưới\" cũng mâu thuẫn với 水をやる必要がある."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Vます＋すぎる = quá mức. Vるのもよくない = việc ~ cũng không tốt. 水をやる = tưới nước (cho cây). Lựa chọn 2 chép đúng như PDF (いいい).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-28",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（レストランで）\n山田：「7時に予約をした山田ですが。」\n店員：「山田様ですね。お席にご案内（　）。どうぞこちらへ。」 (07/2014)",
+          "promptReading": "（れすとらんで）\nやまだ：「しちじによやくをしたやまだですが。」\nてんいん：「やまださまですね。おせきにごあんない（　）。どうぞこちらへ。」 (07/2014)",
+          "promptTranslation": "(Ở nhà hàng)\nYamada: \"Tôi là Yamada, đã đặt bàn lúc 7 giờ.\"\nNhân viên: \"Quý khách Yamada đúng không ạ. Tôi xin dẫn quý khách vào chỗ. Mời đi lối này ạ.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "参ります",
+              "translation": "参ります · tôi đi, đến (khiêm nhường của 行く／来る)",
+              "note": "参る là khiêm nhường của 行く／来る, không ghép sau ご＋N."
+            },
+            {
+              "id": "c2",
+              "text": "いたします",
+              "translation": "いたします · tôi làm (khiêm nhường của する)",
+              "note": "Đúng: ご＋N（漢語）＋いたします = khiêm nhường: ご案内いたします = tôi xin dẫn đường."
+            },
+            {
+              "id": "c3",
+              "text": "なさいます",
+              "translation": "なさいます · (người trên) làm (tôn kính)",
+              "note": "ご案内なさいます là tôn kính — dùng cho hành động của khách, không phải của nhân viên."
+            },
+            {
+              "id": "c4",
+              "text": "くださいます",
+              "translation": "くださいます · (người trên) cho",
+              "note": "ご案内くださいます = (người trên) dẫn đường cho mình — ngược chiều."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Khiêm nhường: お＋Vます＋する／いたします, ご＋N＋する／いたします (ご案内いたします, ご連絡いたします).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b1p2-29",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "実家がパン屋だったので、私は休みの日も親に店の掃除などを（　）ことが多く、友達とほとんど遊べなかった。",
+          "promptReading": "じっかがぱんやだったので、わたしはやすみのひもおやにみせのそうじなどを（　）ことがおおく、ともだちとほとんどあそべなかった。",
+          "promptTranslation": "Nhà bố mẹ tôi là tiệm bánh mì nên ngày nghỉ tôi cũng hay bị bố mẹ bắt phụ dọn dẹp cửa hàng, gần như không chơi được với bạn bè.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "手伝える",
+              "translation": "手伝える · giúp được (khả năng)",
+              "note": "手伝える (giúp được) — không có ai bắt, cũng không giải thích vì sao không chơi được."
+            },
+            {
+              "id": "c2",
+              "text": "手伝われる",
+              "translation": "手伝われる · được/bị giúp (bị động)",
+              "note": "手伝われる = được người khác giúp — ngược chiều: chính tôi là người phải giúp."
+            },
+            {
+              "id": "c3",
+              "text": "手伝わせる",
+              "translation": "手伝わせる · bắt (người khác) giúp (sai khiến)",
+              "note": "手伝わせる = tôi bắt người khác giúp — nhưng 私は親に… thì người bắt là bố mẹ."
+            },
+            {
+              "id": "c4",
+              "text": "手伝わされる",
+              "translation": "手伝わされる · bị bắt phải giúp (sai khiến bị động)",
+              "note": "Đúng: 私は親に～を手伝わされる = tôi bị bố mẹ bắt phụ việc — sai khiến bị động, người bắt đi với に."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Sai khiến bị động: Vさせられる／Vされる (五段 rút gọn: 手伝わせられる → 手伝わされる) = bị (ai) bắt phải ~, thường kèm cảm giác miễn cưỡng.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}
