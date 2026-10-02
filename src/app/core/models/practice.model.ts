@@ -10,7 +10,13 @@ export type AnswerMode = 'choice' | 'typing';
  * Câu hỏi có sẵn trong nội dung (đọc, nghe, kiểm tra nhập môn) không dùng tới chiều:
  * đề đã viết sẵn cả câu dẫn lẫn bốn lựa chọn.
  */
-export type PracticeDirection = 'jp-vi' | 'vi-jp' | 'jp-reading' | 'jp-sentence';
+export type PracticeDirection =
+  | 'jp-vi'
+  | 'vi-jp'
+  | 'jp-han'
+  | 'han-jp'
+  | 'jp-reading'
+  | 'jp-sentence';
 
 export interface DirectionInfo {
   id: PracticeDirection;
@@ -20,6 +26,11 @@ export interface DirectionInfo {
 export const DIRECTIONS: readonly DirectionInfo[] = [
   { id: 'jp-vi', labelKey: 'practice.direction.jpToVi' },
   { id: 'vi-jp', labelKey: 'practice.direction.viToJp' },
+  // Âm Hán Việt là cầu nối riêng của người Việt tới chữ Hán: nhớ 事故 = SỰ CỐ thì gặp
+  // 事 hay 故 ở từ khác cũng đoán được nghĩa, và ngược lại nghe SỰ CỐ là viết ra được
+  // chữ. Hai chiều này chép theo `jp-han` / `han-jp` của minano_nihongo.
+  { id: 'jp-han', labelKey: 'practice.direction.jpToHanViet' },
+  { id: 'han-jp', labelKey: 'practice.direction.hanVietToJp' },
   { id: 'jp-reading', labelKey: 'practice.direction.jpToReading' },
   // Hỏi trên CÂU VÍ DỤ: khoét từ cần học khỏi câu rồi bắt điền lại. Nhớ nghĩa của
   // một từ đứng một mình khác hẳn với dùng được nó trong câu, mà đề N3 phần 文字語彙

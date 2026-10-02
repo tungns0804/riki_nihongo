@@ -185,14 +185,22 @@ lại ý chính — đây mới là chỗ học được gì sau khi chấm.
 
 ## Luyện tập
 
-Bài từ vựng luyện được theo bốn chiều:
+Bài từ vựng luyện được theo sáu chiều:
 
 | Chiều | Câu hỏi | Đáp án |
 | --- | --- | --- |
 | Nhật → Việt | 男性 | Nam giới |
 | Việt → Nhật | Nam giới | 男性 |
+| Nhật → Hán Việt | 事故 | SỰ CỐ |
+| Hán Việt → Nhật | SỰ CỐ (gợi ý: Tai nạn, sự cố) | 事故 |
 | Nhật → Cách đọc | 男性 | だんせい |
 | **Điền từ vào câu** | 事件の（　　）を捕まえる。 | 犯人 |
+
+Hai chiều Hán Việt chỉ hỏi những từ có âm Hán Việt — từ viết thuần kana (けが, かゆい)
+tự bị bỏ qua, bài toàn katakana thì hai chiều này không hiện. Chiều Hán Việt → Nhật kèm
+nghĩa làm gợi ý, vì một âm ứng với nhiều chữ (ĐẢO là cả 倒れる lẫn 倒す), và ba đáp án
+nhiễu không bao giờ là từ cùng âm Hán Việt với đáp án. Gõ âm Hán Việt thì chấm như gõ
+nghĩa: không phân biệt hoa thường, bỏ qua dấu.
 
 Chiều cuối lấy chính câu ví dụ của giáo trình, khoét từ cần học ra rồi bắt điền lại —
 đúng dạng đề 文字語彙 của kỳ thi. Gõ cách đọc thay cho kanji cũng tính đúng.
@@ -202,7 +210,7 @@ Với động từ, chỗ bị khoét là **dạng chia trong câu** chứ khôn
 được ưu tiên chọn cùng dạng chia (`倒して・殴って・起こして`), để không loại được đáp án
 chỉ nhờ ngữ pháp.
 
-Ở ba chiều hỏi về từ, **mỗi câu có hai phần trên cùng một thẻ**: trả lời 倒れる xong thì
+Ở năm chiều hỏi về từ, **mỗi câu có hai phần trên cùng một thẻ**: trả lời 倒れる xong thì
 ngay bên dưới hiện một câu ví dụ của chính 倒れる bị khoét chỗ trống để điền luôn — nhớ
 nghĩa chưa đủ, phải đặt được từ vào câu. Câu ví dụ chọn ngẫu nhiên mỗi phiên. Số câu đếm
 theo thẻ ("10 câu" là 10 từ), và một câu chỉ tính đúng khi đúng cả hai phần; màn kết quả

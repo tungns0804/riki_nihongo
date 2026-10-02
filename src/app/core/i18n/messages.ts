@@ -318,6 +318,8 @@ export const MESSAGES = {
   'practice.direction': { vi: 'Chiều hỏi', ja: '出題の向き' },
   'practice.direction.jpToVi': { vi: 'Nhật → Việt', ja: '日本語 → ベトナム語' },
   'practice.direction.viToJp': { vi: 'Việt → Nhật', ja: 'ベトナム語 → 日本語' },
+  'practice.direction.jpToHanViet': { vi: 'Nhật → Hán Việt', ja: '日本語 → 漢越音' },
+  'practice.direction.hanVietToJp': { vi: 'Hán Việt → Nhật', ja: '漢越音 → 日本語' },
   'practice.direction.jpToReading': { vi: 'Nhật → Cách đọc', ja: '日本語 → 読み方' },
   'practice.direction.sentence': { vi: 'Điền từ vào câu', ja: '例文の穴埋め' },
   'practice.withExample': {

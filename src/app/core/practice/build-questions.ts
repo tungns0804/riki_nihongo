@@ -49,6 +49,10 @@ function vocabFields(direction: PracticeDirection): {
   switch (direction) {
     case 'vi-jp':
       return { prompt: 'vietnamese', answer: 'japanese' };
+    case 'jp-han':
+      return { prompt: 'japanese', answer: 'hanViet' };
+    case 'han-jp':
+      return { prompt: 'hanViet', answer: 'japanese' };
     case 'jp-reading':
       return { prompt: 'japanese', answer: 'reading' };
     case 'jp-vi':
@@ -66,6 +70,27 @@ function vocabFields(direction: PracticeDirection): {
  */
 function withParticle(word: VocabWord): string {
   return word.particle ? `(${word.particle})${word.japanese}` : word.japanese;
+}
+
+/** Ô này viết bằng chữ Nhật (font tiếng Nhật, chấm giữ nguyên dấu) hay tiếng Việt. */
+function isJapaneseField(field: keyof VocabWord): boolean {
+  return field !== 'vietnamese' && field !== 'hanViet';
+}
+
+/**
+ * Dòng gợi ý dưới câu dẫn, tuỳ chiều hỏi.
+ *
+ *  - Nhật → Việt: âm Hán Việt, như trước.
+ *  - Hán Việt → Nhật: NGHĨA. Một âm Hán Việt ứng với nhiều chữ — ĐẢO là cả 倒れる lẫn
+ *    倒す, TỰ là 寺 mà cũng là 飼う — nên chỉ có âm thì câu hỏi có nhiều đáp án đúng.
+ *    Nghĩa chỉ ra đúng từ nào, còn việc nhớ mặt chữ thì vẫn nguyên.
+ *  - Các chiều còn lại: không gợi ý. Âm Hán Việt là câu hỏi hay đáp án thì không đưa
+ *    nó ra làm gợi ý; Nhật → Hán Việt mà kèm nghĩa thì đoán âm từ nghĩa được.
+ */
+function vocabHint(word: VocabWord, direction: PracticeDirection): string {
+  if (direction === 'jp-vi') return word.hanViet;
+  if (direction === 'han-jp') return word.vietnamese;
+  return '';
 }
 
 /** Câu ví dụ của một từ, kèm đúng những chữ cần tô trong TỪNG câu. */
@@ -86,7 +111,7 @@ function vocabExamples(word: VocabWord): PracticeExample[] {
  * Vì sao phải có câu ví dụ: chọn đúng "倒れる = Đổ" chưa có nghĩa là dùng được nó. Câu
  * ví dụ bắt người học đưa từ vừa nhớ vào ngữ cảnh — với động từ còn phải chia cho hợp
  * câu — mà đề 文字語彙 của kỳ thi hỏi đúng theo kiểu đó. Áp dụng cho mọi chiều hỏi về
- * từ: Nhật → Việt, Việt → Nhật lẫn Nhật → Cách đọc.
+ * từ: Nhật ↔ Việt, Nhật ↔ Hán Việt lẫn Nhật → Cách đọc.
  *
  * Câu ví dụ nằm TRONG câu hỏi về từ (`followUp`) chứ không đứng thành câu kế tiếp: màn
  * luyện tập hiện nó ngay dưới phần vừa chấm, không phải bấm "Câu tiếp theo" giữa chừng.
@@ -101,7 +126,12 @@ function fromVocabulary(
   const { prompt, answer } = vocabFields(direction);
   // Từ thiếu đúng ô đang hỏi thì bỏ qua, không hỏi một câu có đáp án rỗng.
   const usable = words.filter((word) => word[prompt] && word[answer]);
-  const pool = usable.map((word) => String(word[answer]));
+  // Mồi nhiễu bỏ những từ có CÙNG câu dẫn với từ đang hỏi: hỏi ĐẢO mà lựa chọn có cả
+  // 倒れる lẫn 倒す thì bấm cái nào cũng đúng, chỉ một cái được chấm đúng.
+  const poolFor = (word: VocabWord) =>
+    usable
+      .filter((other) => String(other[prompt]) !== String(word[prompt]))
+      .map((other) => String(other[answer]));
   // Lấy trong đúng các từ đang luyện (đã lọc theo cụm), để mồi nhiễu của câu ví dụ
   // cũng nằm trong cụm như mồi nhiễu của câu hỏi về từ.
   const sentences = sentenceItems(words);
@@ -117,13 +147,14 @@ function fromVocabulary(
       id: `${word.id}:${direction}`,
       skill: 'vocabulary' as SkillId,
       prompt: prompt === 'japanese' ? withParticle(word) : String(word[prompt]),
-      promptIsJapanese: prompt !== 'vietnamese',
-      // Âm Hán Việt làm gợi ý, nhưng KHÔNG hiện khi nó chính là câu hỏi hay đáp án.
-      hint: prompt === 'japanese' && answer === 'vietnamese' ? word.hanViet : '',
+      promptIsJapanese: isJapaneseField(prompt),
+      hint: vocabHint(word, direction),
       answer: correct,
-      answerIsJapanese: answer !== 'vietnamese',
+      // Âm Hán Việt chấm như tiếng Việt: không phân biệt hoa thường và bỏ qua dấu, nên
+      // gõ "su co" cũng khớp "SỰ CỐ".
+      answerIsJapanese: isJapaneseField(answer),
       acceptedAnswers: [correct],
-      choices: withChoices ? buildChoices(correct, pool) : [],
+      choices: withChoices ? buildChoices(correct, poolFor(word)) : [],
       choiceNotes: [],
       explanation: '',
       passage: [],
@@ -502,6 +533,13 @@ export function directionIsUsable(unit: Unit, direction: PracticeDirection): boo
       unit.kind === 'vocabulary' &&
       unit.words.some((word) => word.examples.some((example) => blankOf(example).length > 0))
     );
+  }
+
+  if (direction === 'jp-han' || direction === 'han-jp') {
+    // Chỉ bài từ vựng: thẻ kanji đã hỏi âm Hán Việt ở chiều Nhật ↔ Việt khi không ghi
+    // nghĩa (xem meaningOf), còn ngữ pháp thì không có âm Hán Việt. Bài toàn từ katakana
+    // thì chiều này tự ẩn.
+    return unit.kind === 'vocabulary' && unit.words.some((word) => word.hanViet.length > 0);
   }
 
   if (direction !== 'jp-reading') {

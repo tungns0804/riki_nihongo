@@ -117,6 +117,34 @@ const VOCAB_EXAMPLE_FIELDS = new Map([
 
 /** Còn sót chữ Hán trong dòng `読:` — tức là chép thiếu, chưa chuyển hết sang kana. */
 const HAS_KANJI = /[一-龯]/;
+
+/** Mỗi ký tự có một âm Hán Việt; 々 lặp lại chữ trước nên cũng mang một âm (人々). */
+const HAN_VIET_CHARACTER = /[一-龯々]/g;
+
+/**
+ * Âm Hán Việt của một từ có khớp mặt chữ không. Trả về lời cảnh báo, rỗng là ổn.
+ *
+ * Từ có chữ Hán mà thiếu âm thì lặng lẽ biến mất khỏi hai chiều luyện Nhật ↔ Hán Việt;
+ * số âm lệch số chữ (事故 = SỰ) thì câu hỏi dạy sai. Cả hai đều không làm hỏng trang
+ * nên mắt không thấy — phải để máy đếm.
+ *
+ * Mục nhiều mặt chữ (起きる/起こる = KHỞI) dùng chung một âm nếu chỉ ghi một âm.
+ */
+function checkHanViet(japanese, hanViet) {
+  if (!HAS_KANJI.test(japanese)) return '';
+  if (!hanViet) return `${japanese} có chữ Hán nhưng chưa có âm Hán Việt`;
+
+  const readings = hanViet.split('/').map((part) => part.trim());
+  const spellings = japanese.split('/').map((part) => part.trim());
+  for (const [index, spelling] of spellings.entries()) {
+    const characters = (spelling.match(HAN_VIET_CHARACTER) ?? []).length;
+    const syllables = (readings[index] ?? readings[0]).split(/\s+/).filter(Boolean).length;
+    if (characters !== syllables) {
+      return `${spelling} có ${characters} chữ Hán nhưng âm Hán Việt "${hanViet}" có ${syllables} âm`;
+    }
+  }
+  return '';
+}
 const VOCAB_HEADER = /^(?:(\d+)\s*[.．]\s*)?(.+?)(?:\s*[(（]([^)）]+)[)）])?\s*[=＝]\s*(.+)$/;
 const VOCAB_PARTICLE = /^[(（]([^)）]{1,3})[)）]\s*(.+)$/;
 const VOCAB_MARK = /\[([^[\]]+)\]/g;
@@ -277,6 +305,9 @@ export function parseVocabulary(raw) {
       warnings.push(`dòng ${lineNumber}: thiếu từ tiếng Nhật hoặc nghĩa tiếng Việt`);
       continue;
     }
+
+    const hanVietProblem = checkHanViet(japanese, hanViet);
+    if (hanVietProblem) warnings.push(`dòng ${lineNumber}: ${hanVietProblem}`);
 
     current = {
       line: lineNumber,

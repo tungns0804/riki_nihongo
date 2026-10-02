@@ -87,6 +87,10 @@ hiện bảng, vì bảng chỉ lặp lại danh sách từ.
   đúng MỘT nghĩa là được.
 - **Âm Hán Việt** (nếu có) viết trước nghĩa, ngăn bằng dấu `;`:
   `1. 締め切り (しめきり) = ĐẾ THIẾT ; hạn chót/ kỳ hạn`
+  Từ có chữ Hán thì nên có đủ: hai chiều luyện **Nhật → Hán Việt** và **Hán Việt → Nhật**
+  chỉ hỏi những từ có âm này, từ thiếu thì lặng lẽ bị bỏ khỏi hai chiều đó. Mỗi chữ Hán
+  một âm, đúng thứ tự (`事故 = SỰ CỐ`); phần kana không có âm (`幸せな = HẠNH`). Từ thuần
+  kana thì bỏ trống.
 - **Nhãn ghi chú** dùng đúng ký hiệu của giáo trình: `合` từ ghép · `対` trái nghĩa ·
   `関` từ liên quan · `連` cách nói đi kèm · `類` từ đồng nghĩa · `使い方` / `使い分け`
   cách dùng và phân biệt. Nhãn nào cũng được, không cần khai báo trước.
