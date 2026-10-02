@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-02T02:54:09.719Z",
+  "generatedAt": "2026-10-02T03:20:20.525Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -145,6 +145,17 @@
           "itemCount": 10,
           "order": 106,
           "file": "vocabulary/01-danh-tu-btvn-51-60.json"
+        },
+        {
+          "id": "01-danh-tu-btvn-61-70",
+          "name": "BTVN 61–70",
+          "description": "Bài tập về nhà của cụm 61–70 (Bài 4.1 · Lời hứa, giữ ý và bày tỏ ý kiến) — 10 câu.",
+          "kind": "test",
+          "parent": "01-danh-tu",
+          "group": "61–70",
+          "itemCount": 10,
+          "order": 107,
+          "file": "vocabulary/01-danh-tu-btvn-61-70.json"
         },
         {
           "id": "03-tinh-tu-btvn-299-310",

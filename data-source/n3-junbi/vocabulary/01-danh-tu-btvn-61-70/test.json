@@ -1,0 +1,221 @@
+{
+  "sections": [
+    {
+      "id": "btvn-61-70",
+      "title": "文字語彙 — BTVN 61–70 (10 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-btvn-6170-01",
+          "promptJapanese": "大きな声は近所（　　　）になる。",
+          "promptReading": "おおきな こえは きんじょ（　　　）に なる。",
+          "promptVietnamese": "Nói to thì thành （　　　） hàng xóm.",
+          "choices": ["我慢", "迷惑", "希望", "賛成"],
+          "choicesVietnamese": [
+            "がまん · Chịu đựng",
+            "めいわく · Phiền toái",
+            "きぼう · Hi vọng, mong muốn",
+            "さんせい · Tán thành"
+          ],
+          "choiceNotes": [
+            "近所我慢 không phải một từ; hàng xóm phải chịu đựng thì nói 近所の人が我慢する (xem câu 10).",
+            "Đúng: 近所迷惑 (きんじょめいわく) = làm phiền hàng xóm — từ ghép có sẵn ở dòng 合 của sách.",
+            "近所希望 không phải một từ, và tiếng ồn không phải điều ai mong muốn.",
+            "近所賛成 không phải một từ; 賛成 đi với ý kiến, đề xuất (xem câu 4)."
+          ],
+          "answer": 2,
+          "explanation": "合 của sách: 近所迷惑. Câu mẫu: 人に迷惑をかけてはいけない。N になる = trở thành N — tiếng to \"trở thành\" sự phiền hà cho hàng xóm."
+        },
+        {
+          "id": "dt-btvn-6170-02",
+          "promptJapanese": "彼女と結婚の（　　　）をしたが守れなかった。",
+          "promptReading": "かのじょと けっこんの（　　　）を したが まもれなかった。",
+          "promptVietnamese": "Tôi đã （　　　） kết hôn với cô ấy, nhưng không giữ được.",
+          "choices": ["約束", "我慢", "遠慮", "おしゃべり"],
+          "choicesVietnamese": [
+            "やくそく · Lời hứa, hẹn",
+            "がまん · Chịu đựng",
+            "えんりょ · Ngại, giữ ý",
+            "おしゃべり · Nói chuyện"
+          ],
+          "choiceNotes": [
+            "Đúng: 結婚の約束をする = hứa (hẹn ước) kết hôn; 約束を守る = giữ lời hứa — câu này 守れなかった.",
+            "我慢 không \"giữ\" (守る) được, và 結婚の我慢 không thành nghĩa (xem câu 10).",
+            "遠慮 là ngại, giữ ý; không phải thứ hứa rồi giữ hay thất hứa (xem câu 6).",
+            "おしゃべり là chuyện trò; 結婚のおしゃべり chỉ là nói chuyện về hôn nhân, không có gì để \"giữ\" (xem câu 9)."
+          ],
+          "answer": 1,
+          "explanation": "Câu mẫu của sách: 彼と結婚の約束をした。連: 約束を守る ＞＜ 約束を破る (giữ lời ＞＜ thất hứa). 守れなかった = không giữ được (thể khả năng của 守る)."
+        },
+        {
+          "id": "dt-btvn-6170-03",
+          "promptJapanese": "（　　　）がやっとかなった。うれしい。",
+          "promptReading": "（　　　）が やっと かなった。うれしい。",
+          "promptVietnamese": "（　　　） cuối cùng cũng thành hiện thực. Vui quá.",
+          "choices": ["努力", "想像", "希望", "夢"],
+          "choicesVietnamese": [
+            "どりょく · Nỗ lực",
+            "そうぞう · Tưởng tượng",
+            "きぼう · Hi vọng, mong muốn",
+            "ゆめ · Giấc mơ, ước mơ"
+          ],
+          "choiceNotes": [
+            "努力 thì 実る (đơm hoa kết trái), không かなう: nỗ lực là việc mình làm, không phải điều mong được thành.",
+            "想像 là hình dung trong đầu, không phải điều mong nên không nói 想像がかなう (xem câu 5).",
+            "希望 nói 希望がかなう cũng được, nhưng đề muốn cụm cố định đi với かなう của bài là 夢; 希望 dành cho câu 8 (mỗi câu một từ).",
+            "Đúng: 夢がかなう = ước mơ thành hiện thực — dòng 連 của sách: 夢を叶える."
+          ],
+          "answer": 4,
+          "explanation": "Câu mẫu của sách: 夢が叶ってお金持ちになりました。連: 夢を叶える (tha) ⇔ 夢が叶う (tự). やっと = cuối cùng thì (sau bao chờ đợi)."
+        },
+        {
+          "id": "dt-btvn-6170-04",
+          "promptJapanese": "それは意見がいいと思いますか？",
+          "promptReading": "それは いけんが いいと おもいますか？",
+          "promptVietnamese": "Bạn có nghĩ ý kiến đó hay không?",
+          "choices": ["努力", "賛成", "想像", "反対"],
+          "choicesVietnamese": [
+            "どりょく · Nỗ lực",
+            "さんせい · Tán thành",
+            "そうぞう · Tưởng tượng",
+            "はんたい · Phản đối"
+          ],
+          "choiceNotes": [
+            "努力 là cố gắng, không phải thái độ đối với một ý kiến.",
+            "Đúng: thấy một ý kiến là hay = 賛成 (その意見に賛成ですか？).",
+            "想像 là hình dung; nghĩ ý kiến hay không phải là tưởng tượng.",
+            "反対 là phản đối — nghĩa NGƯỢC: thấy ý kiến không hay mới 反対."
+          ],
+          "answer": 2,
+          "explanation": "Câu này không có chỗ trống: chọn từ cùng nghĩa với 意見がいいと思う (thấy ý kiến hay). Câu mẫu của sách: 私はその提案／意見に賛成だ／賛成する。対: 反対."
+        },
+        {
+          "id": "dt-btvn-6170-05",
+          "promptJapanese": "10年後何をしているか（　　　）がつかない。",
+          "promptReading": "じゅうねんご なにを しているか（　　　）が つかない。",
+          "promptVietnamese": "Mười năm nữa mình đang làm gì thì （　　　） không ra.",
+          "choices": ["希望", "想像", "約束", "反対"],
+          "choicesVietnamese": [
+            "きぼう · Hi vọng, mong muốn",
+            "そうぞう · Tưởng tượng",
+            "やくそく · Lời hứa, hẹn",
+            "はんたい · Phản đối"
+          ],
+          "choiceNotes": [
+            "希望がつかない không phải cách nói; không có hi vọng thì nói 希望がない.",
+            "Đúng: 想像がつかない = không hình dung nổi — đúng câu mẫu của sách.",
+            "約束がつかない không phải cách nói; chuyện tương lai không \"hứa\" được thì nói 約束できない.",
+            "反対がつかない không phải cách nói (xem câu 7)."
+          ],
+          "answer": 2,
+          "explanation": "Câu mẫu của sách: 10年後に私がどうなっているか、全然想像がつかない。～か＋想像がつかない = không hình dung nổi là ~."
+        },
+        {
+          "id": "dt-btvn-6170-06",
+          "promptJapanese": "後輩は、部長がいなくなると（　　　）なくタバコを吸い始めた。",
+          "promptReading": "こうはいは、ぶちょうが いなくなると（　　　）なく タバコを すいはじめた。",
+          "promptVietnamese": "Trưởng phòng vừa đi khỏi là cậu đàn em （　　　） châm thuốc hút ngay.",
+          "choices": ["遠慮", "我慢", "賛成", "希望"],
+          "choicesVietnamese": [
+            "えんりょ · Ngại, giữ ý",
+            "がまん · Chịu đựng",
+            "さんせい · Tán thành",
+            "きぼう · Hi vọng, mong muốn"
+          ],
+          "choiceNotes": [
+            "Đúng: 遠慮なく = không ngần ngại, thoải mái — sếp đi rồi thì không còn phải nể ai.",
+            "我慢なく không phải cách nói; nhịn không nổi thì nói 我慢できずに.",
+            "賛成なく không phải cách nói (xem câu 4).",
+            "希望なく không hợp mạch câu: hút thuốc không liên quan tới hi vọng."
+          ],
+          "answer": 1,
+          "explanation": "Câu mẫu của sách: 遠慮しないで食べてください。上司に遠慮して、自分の意見を言えなかった。遠慮なく ≒ 遠慮しないで. ～と = hễ ~ thì; V ます bỏ ます＋始める = bắt đầu ~."
+        },
+        {
+          "id": "dt-btvn-6170-07",
+          "promptJapanese": "課長の提案に（　　　）する。",
+          "promptReading": "かちょうの ていあんに（　　　）する。",
+          "promptVietnamese": "（　　　） đề xuất của trưởng nhóm.",
+          "choices": ["創造", "反対", "希望", "迷惑"],
+          "choicesVietnamese": [
+            "そうぞう · Sáng tạo (không phải 想像 = tưởng tượng)",
+            "はんたい · Phản đối",
+            "きぼう · Hi vọng, mong muốn",
+            "めいわく · Phiền toái"
+          ],
+          "choiceNotes": [
+            "創造 (そうぞう) là SÁNG TẠO — đọc giống 想像 (tưởng tượng) nhưng khác chữ, khác nghĩa; 提案に創造する không thành câu.",
+            "Đúng: ～に反対する = phản đối ~ — đúng câu mẫu 提案／意見に反対する của sách.",
+            "希望する đi với を (～を希望する), không đi với ～に của một đề xuất.",
+            "迷惑する là bị làm phiền; 提案に迷惑する không phải cách nói thông thường (xem câu 1)."
+          ],
+          "answer": 2,
+          "explanation": "Câu mẫu của sách: 提案／意見に反対する。対: 賛成 — cùng đi với に: 提案に賛成する／反対する. 創造 (sáng tạo) không có trong bài: là bẫy đồng âm với 想像."
+        },
+        {
+          "id": "dt-btvn-6170-08",
+          "promptJapanese": "子供たちは（　　　）いっぱいの目でこちらを見てくる。",
+          "promptReading": "こどもたちは（　　　）いっぱいの めで こちらを みてくる。",
+          "promptVietnamese": "Lũ trẻ nhìn về phía này bằng đôi mắt tràn đầy （　　　）.",
+          "choices": ["夢", "約束", "希望", "賛成"],
+          "choicesVietnamese": [
+            "ゆめ · Giấc mơ, ước mơ",
+            "やくそく · Lời hứa, hẹn",
+            "きぼう · Hi vọng, mong muốn",
+            "さんせい · Tán thành"
+          ],
+          "choiceNotes": [
+            "夢いっぱい cũng là cách nói có thật, nhưng 夢 đã là đáp án của câu 3 (mỗi câu một từ); ánh mắt mong chờ thì đề muốn 希望.",
+            "約束いっぱい không phải cách nói — lời hứa không \"chứa đầy\" trong mắt (xem câu 2).",
+            "Đúng: 希望いっぱいの目 = đôi mắt tràn trề hi vọng.",
+            "賛成いっぱい không phải cách nói (xem câu 4)."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: 最後まで希望を捨ててはいけない。N いっぱい = đầy ~; V て＋くる = (hướng) về phía mình. 使い分け của sách: 希望 = điều sớm thực hiện được; 夢 = chuyện tương lai xa hơn."
+        },
+        {
+          "id": "dt-btvn-6170-09",
+          "promptJapanese": "（　　　）が好きな女性が好きだ。",
+          "promptReading": "（　　　）が すきな じょせいが すきだ。",
+          "promptVietnamese": "Tôi thích những cô gái thích （　　　）.",
+          "choices": ["約束", "希望", "我慢", "おしゃべり"],
+          "choicesVietnamese": [
+            "やくそく · Lời hứa, hẹn",
+            "きぼう · Hi vọng, mong muốn",
+            "がまん · Chịu đựng",
+            "おしゃべり · Nói chuyện, tán gẫu"
+          ],
+          "choiceNotes": [
+            "約束が好き không phải điều người ta hay nói về tính cách.",
+            "希望が好き không thành nghĩa — hi vọng không phải thứ để \"thích\".",
+            "我慢が好き = thích chịu đựng — nghe trái tự nhiên.",
+            "Đúng: おしゃべりが好き = thích trò chuyện, tán gẫu — một nét tính cách."
+          ],
+          "answer": 4,
+          "explanation": "Câu mẫu của sách: 授業中に隣の人とおしゃべりしていて、先生に怒られた。おしゃべりな子供 = đứa trẻ lắm lời. ～が好きな＋N = N thích ~ (mệnh đề bổ nghĩa)."
+        },
+        {
+          "id": "dt-btvn-6170-10",
+          "promptJapanese": "つらかったら、（　　　）しないで言ってください。",
+          "promptReading": "つらかったら、（　　　）しないで いってください。",
+          "promptVietnamese": "Nếu thấy khổ quá thì đừng （　　　）, cứ nói ra nhé.",
+          "choices": ["反対", "賛成", "我慢", "創造"],
+          "choicesVietnamese": [
+            "はんたい · Phản đối",
+            "さんせい · Tán thành",
+            "がまん · Chịu đựng",
+            "そうぞう · Sáng tạo (không phải 想像 = tưởng tượng)"
+          ],
+          "choiceNotes": [
+            "反対しないで = đừng phản đối — không nối được với つらかったら (nếu thấy khổ).",
+            "賛成しないで = đừng tán thành — cũng không hợp mạch câu.",
+            "Đúng: 我慢しないで = đừng cố chịu đựng — khổ thì nói ra, không nén trong lòng.",
+            "創造 (sáng tạo) — đọc như 想像 nhưng khác chữ; 創造しないで không hợp nghĩa (xem câu 7)."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: 痛くても我慢する。眠いのを我慢して勉強した。～たら = nếu ~; V ないで＋V = đừng ~ mà hãy ~."
+        }
+      ]
+    }
+  ]
+}
