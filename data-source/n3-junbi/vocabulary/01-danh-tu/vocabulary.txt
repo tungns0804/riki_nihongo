@@ -534,6 +534,8 @@
 文法: 夢が叶う = ước mơ thành sự thật; N ＋になる = trở thành ~
 連: 夢がある・夢を持つ
 連: 夢を叶える
+# Sách in khung 使い分け này ngay dưới 夢; chép cả ở 希望 (66) lẫn ở đây để luyện từ nào cũng thấy.
+使い分け: 希望 ≒ 望み (のぞみ) = điều sớm thực hiện được; 夢 = chuyện của tương lai xa hơn
 
 68. 賛成 (さんせい) = TÁN THÀNH ; Tán thành
 ・私はその提案／意見に賛成だ／賛成する。| Tôi tán thành đề xuất / ý kiến đó.
