@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-02T02:45:27.986Z",
+  "generatedAt": "2026-10-02T02:54:09.719Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -134,6 +134,17 @@
           "itemCount": 10,
           "order": 104,
           "file": "vocabulary/01-danh-tu-btvn-31-40.json"
+        },
+        {
+          "id": "01-danh-tu-btvn-51-60",
+          "name": "BTVN 51–60",
+          "description": "Bài tập về nhà của cụm 51–60 (Bài 3.2 · Bản thân, sở thích và chuyện trò) — 10 câu.",
+          "kind": "test",
+          "parent": "01-danh-tu",
+          "group": "51–60",
+          "itemCount": 10,
+          "order": 106,
+          "file": "vocabulary/01-danh-tu-btvn-51-60.json"
         },
         {
           "id": "03-tinh-tu-btvn-299-310",

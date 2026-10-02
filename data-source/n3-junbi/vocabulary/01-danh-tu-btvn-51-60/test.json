@@ -1,0 +1,221 @@
+{
+  "sections": [
+    {
+      "id": "btvn-51-60",
+      "title": "文字語彙 — BTVN 51–60 (10 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-btvn-5160-01",
+          "promptJapanese": "最近「体重が増えていて」心配している。",
+          "promptReading": "さいきん たいじゅうが ふえていて しんぱいしている。",
+          "promptVietnamese": "Dạo này 「cân nặng đang tăng lên」 nên tôi lo.",
+          "choices": ["少なくなっていて", "減っていて", "やせていて", "太っていて"],
+          "choicesVietnamese": [
+            "すくなくなっていて · Đang ít đi",
+            "へっていて · Đang giảm",
+            "やせていて · Đang gầy đi",
+            "ふとっていて · Đang béo lên"
+          ],
+          "choiceNotes": [
+            "少なくなる là \"ít đi\" — ngược hướng với 増える.",
+            "減る là giảm — đúng là động từ đi với 体重 (体重が減る), nhưng nghĩa NGƯỢC với 増える.",
+            "やせる là gầy đi = 体重が減る, ngược với câu gốc.",
+            "Đúng: 体重が増える = tăng cân, nói gọn về người là 太る (béo lên). 太っていて giữ đúng thể ～ていて của câu gốc."
+          ],
+          "answer": 4,
+          "explanation": "使い分け của sách: 体重が増える・減る; 体重が重い・軽い. Cặp nói về người: 太る (béo lên) ＞＜ やせる (gầy đi). ～ていて = đang ~ (kéo dài) nên ~, nối sang lý do lo lắng."
+        },
+        {
+          "id": "dt-btvn-5160-02",
+          "promptJapanese": "日本で富士山に登ったのは、いい（　　　）だ。",
+          "promptReading": "にほんで ふじさんに のぼったのは、いい（　　　）だ。",
+          "promptVietnamese": "Chuyện leo núi Phú Sĩ ở Nhật là một （　　　） đẹp.",
+          "choices": ["目的", "興味", "冗談", "思い出"],
+          "choicesVietnamese": [
+            "もくてき · Mục đích",
+            "きょうみ · Hứng thú, quan tâm",
+            "じょうだん · Lời nói đùa",
+            "おもいで · Kỷ niệm"
+          ],
+          "choiceNotes": [
+            "目的 là điều nhắm tới TRƯỚC khi làm; việc đã làm xong (登った) thì không còn là mục đích (xem câu 6).",
+            "興味 là sự hứng thú với một thứ, không phải một việc đã trải qua; không nói いい興味だ (xem câu 8).",
+            "冗談 là lời nói đùa — leo núi là việc làm thật, không phải câu đùa (xem câu 4).",
+            "Đúng: ～のは、いい思い出だ = việc ~ là một kỷ niệm đẹp — đúng câu mẫu của sách."
+          ],
+          "answer": 4,
+          "explanation": "Câu mẫu của sách: オンラインチームのみんなでピクニックに行ったのはいい思い出だ。V た＋のは = việc đã ~ (danh từ hoá); 思い出 đi với chuyện đã qua."
+        },
+        {
+          "id": "dt-btvn-5160-03",
+          "promptJapanese": "今回の（　　　）にいくらかかるか計算する。",
+          "promptReading": "こんかいの（　　　）に いくら かかるか けいさんする。",
+          "promptVietnamese": "Tính xem lần （　　　） này tốn bao nhiêu tiền.",
+          "choices": ["興味", "体重", "引っ越し", "目的"],
+          "choicesVietnamese": [
+            "きょうみ · Hứng thú, quan tâm",
+            "たいじゅう · Cân nặng",
+            "ひっこし · Chuyển nhà",
+            "もくてき · Mục đích"
+          ],
+          "choiceNotes": [
+            "興味 không tốn tiền, và không đếm theo \"lần này\" (今回の).",
+            "体重 là cân nặng — không phải việc gì để mà tốn tiền.",
+            "Đúng: 引っ越し là một việc làm theo từng lần (今回の引っ越し = lần chuyển nhà này) và tốn tiền thật (thuê xe, đồ đạc).",
+            "目的 là cái mình nhắm tới, không tính được tốn bao nhiêu tiền."
+          ],
+          "answer": 3,
+          "explanation": "～にいくらかかる = tốn bao nhiêu cho ~. Câu mẫu của sách: 引越しの準備が終わった。東京からハノイに引越しする。"
+        },
+        {
+          "id": "dt-btvn-5160-04",
+          "promptJapanese": "（　　　）のつもりだったが、彼女を怒らせてしまった。",
+          "promptReading": "（　　　）の つもりだったが、かのじょを おこらせてしまった。",
+          "promptVietnamese": "Tôi chỉ định （　　　） thôi, vậy mà lại làm cô ấy nổi giận.",
+          "choices": ["けが", "趣味", "注文", "冗談"],
+          "choicesVietnamese": [
+            "けが · Vết thương, bị thương",
+            "しゅみ · Sở thích",
+            "ちゅうもん · Đặt hàng, gọi món",
+            "じょうだん · Lời nói đùa"
+          ],
+          "choiceNotes": [
+            "けが không phải thứ người ta \"định làm\"; けがのつもり không thành nghĩa (xem câu 5).",
+            "趣味のつもり = định coi là sở thích — không giải thích được vì sao cô ấy giận.",
+            "注文のつもり = định là đặt hàng — chẳng liên quan tới chuyện làm ai nổi giận.",
+            "Đúng: 冗談のつもり = chỉ định nói đùa — mình đùa mà người kia tưởng thật nên giận, đúng mạch ～が、～てしまった."
+          ],
+          "answer": 4,
+          "explanation": "Câu mẫu của sách: 冗談を言ったら彼女が本気にした。N のつもり = định là N, tưởng là N; 怒らせる = làm cho giận (thể sai khiến); ～てしまった = lỡ ~ (tiếc)."
+        },
+        {
+          "id": "dt-btvn-5160-05",
+          "promptJapanese": "料理中におこる（　　　）で一番多いのはやけどだ。",
+          "promptReading": "りょうりちゅうに おこる（　　　）で いちばん おおいのは やけどだ。",
+          "promptVietnamese": "Trong các （　　　） xảy ra khi nấu ăn, nhiều nhất là bỏng.",
+          "choices": ["けが", "注文", "趣味", "準備"],
+          "choicesVietnamese": [
+            "けが · Vết thương, bị thương",
+            "ちゅうもん · Đặt hàng, gọi món",
+            "しゅみ · Sở thích",
+            "じゅんび · Chuẩn bị"
+          ],
+          "choiceNotes": [
+            "Đúng: やけど (bỏng) là một loại けが — dòng 関 của sách xếp chung 傷・やけど・骨折 với けが.",
+            "注文 không \"xảy ra\" (おこる) trong lúc nấu, và bỏng không phải một kiểu đặt hàng.",
+            "趣味 không phải thứ xảy ra; bỏng cũng không phải một sở thích.",
+            "準備 là việc mình chủ động làm chứ không \"xảy ra\"; bỏng không phải một kiểu chuẩn bị."
+          ],
+          "answer": 1,
+          "explanation": "Câu mẫu của sách: 転んで足にけがをした。関: 傷 (きず)・やけど・骨折 (こっせつ). ～中 (ちゅう) = trong lúc ~; ～で一番多いのは… = trong số ~, nhiều nhất là…"
+        },
+        {
+          "id": "dt-btvn-5160-06",
+          "promptJapanese": "大学へ行く（　　　）は何ですか？\n→友達作りと勉強です。",
+          "promptReading": "だいがくへ いく（　　　）は なんですか？\n→ともだちづくりと べんきょうです。",
+          "promptVietnamese": "（　　　） đi học đại học là gì?\n→ Là kết bạn và học tập.",
+          "choices": ["計画", "目的", "興味", "思い出"],
+          "choicesVietnamese": [
+            "けいかく · Kế hoạch",
+            "もくてき · Mục đích",
+            "きょうみ · Hứng thú, quan tâm",
+            "おもいで · Kỷ niệm"
+          ],
+          "choiceNotes": [
+            "計画 là kế hoạch, các bước định làm; câu trả lời \"kết bạn và học\" là lý do đi học, không phải kế hoạch.",
+            "Đúng: V る＋目的 = mục đích làm ~. Câu trả lời nêu điều muốn đạt được — đúng là mục đích.",
+            "興味 đi với に (～に興味がある), không nói 大学へ行く興味.",
+            "思い出 là chuyện đã qua; 大学へ行く là việc chưa làm (xem câu 2)."
+          ],
+          "answer": 2,
+          "explanation": "Câu mẫu của sách: 来日の目的は観光です。合: 目的地 (もくてきち) = nơi đến. 友達作り = việc kết bạn (V ます bỏ ます＋作り)."
+        },
+        {
+          "id": "dt-btvn-5160-07",
+          "promptJapanese": "彼は（　　　）が低くて困っている。",
+          "promptReading": "かれは（　　　）が ひくくて こまっている。",
+          "promptVietnamese": "Anh ấy khổ sở vì （　　　） thấp.",
+          "choices": ["体重", "整理", "身長", "成功"],
+          "choicesVietnamese": [
+            "たいじゅう · Cân nặng",
+            "せいり · Sắp xếp",
+            "しんちょう · Chiều cao",
+            "せいこう · Thành công"
+          ],
+          "choiceNotes": [
+            "体重 đi với 重い・軽い (nặng / nhẹ), không đi với 低い — xem 使い分け của sách.",
+            "整理 là sắp xếp, không có cao thấp.",
+            "Đúng: 身長が高い・低い = cao / thấp — đúng 使い分け của sách.",
+            "成功 là thành công, không nói 成功が低い."
+          ],
+          "answer": 3,
+          "explanation": "使い分け của sách: 身長が高い・低い; 身長が伸びる ⇔ 体重が重い・軽い; 体重が増える・減る. ～くて困っている = khổ sở vì ~."
+        },
+        {
+          "id": "dt-btvn-5160-08",
+          "promptJapanese": "私はかっこいい店員に（　　　）を持った。",
+          "promptReading": "わたしは かっこいい てんいんに（　　　）を もった。",
+          "promptVietnamese": "Tôi thấy （　　　） anh nhân viên bán hàng đẹp trai.",
+          "choices": ["思い出", "興味", "趣味", "冗談"],
+          "choicesVietnamese": [
+            "おもいで · Kỷ niệm",
+            "きょうみ · Hứng thú, quan tâm",
+            "しゅみ · Sở thích",
+            "じょうだん · Lời nói đùa"
+          ],
+          "choiceNotes": [
+            "思い出 thì 作る・残る, không \"mang\" (持つ) tới một người cụ thể.",
+            "Đúng: ～に興味を持つ = bắt đầu thấy quan tâm, tò mò về ~ — đúng dòng 連 của sách.",
+            "趣味を持つ là có một sở thích, nhưng không đi với ～に (người); một người không phải \"sở thích\" của mình.",
+            "冗談 thì 言う (冗談を言う), không 持つ (xem câu 4)."
+          ],
+          "answer": 2,
+          "explanation": "連 của sách: 興味がある ＞＜ 興味がない; 興味を持つ. Câu mẫu: 小さな子供は何にでも興味を持つ。Đối tượng được quan tâm đi với に."
+        },
+        {
+          "id": "dt-btvn-5160-09",
+          "promptJapanese": "毎年、誕生日（　　　）を開いている。",
+          "promptReading": "まいとし、たんじょうび（　　　）を ひらいている。",
+          "promptVietnamese": "Năm nào tôi cũng tổ chức （　　　） sinh nhật.",
+          "choices": ["会", "年", "回", "時"],
+          "choicesVietnamese": [
+            "かい · Tiệc, buổi họp mặt",
+            "とし／ねん · Năm",
+            "かい · Lần",
+            "とき／じ · Lúc, giờ"
+          ],
+          "choiceNotes": [
+            "Đúng: 誕生日会 (たんじょうびかい) = tiệc sinh nhật — từ ghép có sẵn ở dòng 合 của sách. 会を開く = mở tiệc.",
+            "年 là năm; 誕生日年 không phải một từ, và năm thì không \"mở\" (開く) được.",
+            "回 đọc giống 会 (かい) nhưng là đơn vị đếm số lần — bẫy đồng âm của câu này.",
+            "時 là lúc, giờ; 誕生日時 không phải một từ."
+          ],
+          "answer": 1,
+          "explanation": "合 của sách: 忘年会 (ぼうねんかい)・誕生日会 (たんじょうびかい)・新年会 (しんねんかい). Câu mẫu: 忘年会を開く／する。会 và 回 cùng đọc かい — phân biệt bằng nghĩa."
+        },
+        {
+          "id": "dt-btvn-5160-10",
+          "promptJapanese": "私の（　　　）は料理なので、料理教室に通っています。",
+          "promptReading": "わたしの（　　　）は りょうりなので、りょうりきょうしつに かよっています。",
+          "promptVietnamese": "（　　　） của tôi là nấu ăn nên tôi đang theo học lớp nấu ăn.",
+          "choices": ["興味", "準備", "生活", "趣味"],
+          "choicesVietnamese": [
+            "きょうみ · Hứng thú, quan tâm",
+            "じゅんび · Chuẩn bị",
+            "せいかつ · Cuộc sống, sinh hoạt",
+            "しゅみ · Sở thích"
+          ],
+          "choiceNotes": [
+            "興味 nói bằng ～に興味がある (料理に興味がある), không nói 私の興味は料理.",
+            "準備 là chuẩn bị cho một việc; 私の準備は料理 không thành nghĩa.",
+            "生活 là cuộc sống; \"cuộc sống của tôi là nấu ăn\" không phải lý do để đi học lớp nấu ăn.",
+            "Đúng: 私の趣味は～です = sở thích của tôi là ~ — đúng câu mẫu 趣味は読書です của sách."
+          ],
+          "answer": 4,
+          "explanation": "Câu mẫu của sách: 趣味は読書です。連: 趣味がいい ＞＜ 趣味が悪い (gu tốt / gu kém). Phân biệt: 趣味 = việc mình hay làm cho vui; 興味 = sự tò mò, quan tâm (～に興味がある)."
+        }
+      ]
+    }
+  ]
+}
