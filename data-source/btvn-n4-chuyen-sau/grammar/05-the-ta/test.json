@@ -1,0 +1,108 @@
+{
+  "sections": [
+    {
+      "id": "the-ta-mondai-2",
+      "title": "文法 問題2 — Ghép câu, chọn từ vào ★ (6 câu)",
+      "instructions": "問題2：★に 入る ものは どれですか。1・2・3・4から いちばん いい ものを 一つ えらんで ください。",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n4cs-ta-01",
+          "promptJapanese": "A：「友だちに　何度　メールを　おくっても　へんじが　来ないんです。　＿＿＿　＿＿＿　★　＿＿＿したら　いいですか。」\nB：「電話を　して　みたら　いいと　思います。」",
+          "promptReading": "A：「ともだちに　なんど　メールを　おくっても　へんじが　こないんです。　＿＿＿　＿＿＿　★　＿＿＿したら　いいですか。」\nB：「でんわを　して　みたら　いいと　おもいます。」",
+          "promptVietnamese": "A: \"Tôi gửi mail cho bạn bao nhiêu lần mà vẫn không thấy trả lời. Những lúc thế này thì nên làm thế nào ạ?\"\nB: \"Tôi nghĩ bạn thử gọi điện xem sao.\"",
+          "choices": ["いう", "こう", "どう", "とき"],
+          "choicesVietnamese": ["nói, (như) thế (いう)", "như thế này (こう)", "thế nào (どう)", "lúc, khi (とき)"],
+          "choiceNotes": [
+            "Ô thứ 2 — いう nối sau こう thành こういう (như thế này).",
+            "Ô thứ 1 — こう mở đầu cụm こういうとき.",
+            "Ô thứ 4 — どう đứng ngay trước したら, thành どうしたらいいですか (nên làm thế nào).",
+            "Đúng: ô ★ (ô thứ 3) — とき khép cụm こういうとき (những lúc như thế này)."
+          ],
+          "answer": 4,
+          "explanation": "Thứ tự đúng: こういうとき どうしたら いいですか (2-1-4-3). 〜たらいいですか = nên làm ~ thì được (xin lời khuyên); どうしたらいいですか = nên làm thế nào. B trả lời bằng 〜てみたらいい = thử ~ xem. こういう＋N = N như thế này."
+        },
+        {
+          "id": "n4cs-ta-02",
+          "promptJapanese": "スミスさんは　＿＿＿　＿＿＿　★　＿＿＿です。",
+          "promptReading": "スミスさんは　＿＿＿　＿＿＿　★　＿＿＿です。",
+          "promptVietnamese": "Anh Smith vừa mới từ Mỹ về.",
+          "choices": ["アメリカから", "帰って", "ばかり", "来た"],
+          "choicesVietnamese": ["từ Mỹ (アメリカから)", "trở về (帰って)", "vừa mới (ばかり)", "đã đến (来た)"],
+          "choiceNotes": [
+            "Ô thứ 1 — アメリカから (từ Mỹ) nêu nơi xuất phát, đứng đầu.",
+            "Ô thứ 2 — 帰って nối với 来た thành 帰ってきた (trở về đây).",
+            "Ô thứ 4 — ばかり đứng ngay trước です: 〜たばかりです.",
+            "Đúng: ô ★ (ô thứ 3) — 来た là thể た, phải đứng ngay trước ばかり."
+          ],
+          "answer": 4,
+          "explanation": "Thứ tự đúng: アメリカから 帰って 来た ばかりです (1-2-4-3). V た＋ばかりだ = vừa mới ~ xong (theo cảm nhận của người nói, thời gian chưa lâu). 帰ってくる = về (tới chỗ người nói)."
+        },
+        {
+          "id": "n4cs-ta-03",
+          "promptJapanese": "A：「天気よほうで、今日は　ゆうがたから　雨が　降ると　言ってたよ。」\nB：「あ、そう。じゃ、かさ　＿＿＿　＿＿＿　★　＿＿＿ね。」",
+          "promptReading": "A：「てんきよほうで、きょうは　ゆうがたから　あめが　ふると　いってたよ。」\nB：「あ、そう。じゃ、かさ　＿＿＿　＿＿＿　★　＿＿＿ね。」",
+          "promptVietnamese": "A: \"Dự báo thời tiết nói hôm nay từ chiều tối trời sẽ mưa đấy.\"\nB: \"À, vậy hả. Thế thì nên mang ô đi nhỉ.\"",
+          "choices": ["持って", "行った", "を", "ほうがいい"],
+          "choicesVietnamese": ["mang, cầm (持って)", "đã đi (行った)", "trợ từ を", "nên (ほうがいい)"],
+          "choiceNotes": [
+            "Ô thứ 2 — 持って đứng sau かさを, nối với 行った thành 持っていった.",
+            "Đúng: ô ★ (ô thứ 3) — 行った là thể た, phải đứng ngay trước ほうがいい.",
+            "Ô thứ 1 — を đi liền sau かさ, đánh dấu tân ngữ.",
+            "Ô thứ 4 — ほうがいい đứng cuối, ngay trước ね."
+          ],
+          "answer": 2,
+          "explanation": "Thứ tự đúng: かさを 持って 行った ほうがいいね (3-1-2-4). V た＋ほうがいい = nên ~ (lời khuyên). Dùng thể た chứ không phải thể từ điển: 持っていったほうがいい. 〜と言ってた = (ai đó) đã nói là ~ (văn nói của 言っていた)."
+        },
+        {
+          "id": "n4cs-ta-04",
+          "promptJapanese": "レストランを　＿＿＿　＿＿＿　★　＿＿＿気がついた。",
+          "promptReading": "レストランを　＿＿＿　＿＿＿　★　＿＿＿きが ついた。",
+          "promptVietnamese": "Sau khi ra khỏi nhà hàng, tôi mới nhận ra mình để quên đồ.",
+          "choices": ["わすれもの", "に", "出た", "あとで"],
+          "choicesVietnamese": ["đồ để quên (わすれもの)", "trợ từ に", "đã ra khỏi (出た)", "sau khi (あとで)"],
+          "choiceNotes": [
+            "Đúng: ô ★ (ô thứ 3) — わすれもの là thứ được nhận ra, đứng trước に.",
+            "Ô thứ 4 — に đứng ngay trước 気がついた: 〜に気がつく = nhận ra ~.",
+            "Ô thứ 1 — 出た đi liền sau レストランを: レストランを出る = ra khỏi nhà hàng.",
+            "Ô thứ 2 — あとで đi sau thể た 出た: 出たあとで = sau khi ra."
+          ],
+          "answer": 1,
+          "explanation": "Thứ tự đúng: レストランを 出た あとで わすれものに 気がついた (3-4-1-2). V た＋あとで = sau khi ~. 〜に気がつく = nhận ra, để ý thấy ~. Nơi rời khỏi đi với を (レストランを出る)."
+        },
+        {
+          "id": "n4cs-ta-05",
+          "promptJapanese": "山田：「田中さん、これから　食事でも　どうですか。」\n田中：「すみません。ちょうど　＿＿＿　＿＿＿　★　＿＿＿です。」",
+          "promptReading": "やまだ：「たなかさん、これから　しょくじでも　どうですか。」\nたなか：「すみません。ちょうど　＿＿＿　＿＿＿　★　＿＿＿です。」",
+          "promptVietnamese": "Yamada: \"Anh Tanaka, giờ mình đi ăn gì đó không?\"\nTanaka: \"Xin lỗi anh. Tôi vừa mới ăn xong ngay lúc này.\"",
+          "choices": ["なん", "ところ", "食べた", "今"],
+          "choicesVietnamese": ["(〜なん)です — dạng nói của 〜なのです", "đúng lúc (ところ)", "đã ăn (食べた)", "bây giờ (今)"],
+          "choiceNotes": [
+            "Ô thứ 4 — なん đứng ngay trước です: 〜ところなんです.",
+            "Đúng: ô ★ (ô thứ 3) — ところ đi sau thể た 食べた: vừa mới ăn xong.",
+            "Ô thứ 2 — 食べた là thể た, đứng ngay trước ところ.",
+            "Ô thứ 1 — 今 đi liền sau ちょうど: ちょうど今 = ngay vừa lúc này."
+          ],
+          "answer": 2,
+          "explanation": "Thứ tự đúng: ちょうど 今 食べた ところ なんです (4-3-2-1). V た＋ところだ = vừa mới ~ xong (ngay sát lúc nói, hay đi với ちょうど今・今). Khác 〜たばかり ở câu 2: ばかり là cảm nhận \"chưa lâu\", còn ところ là đúng thời điểm vừa xong. 〜なんです giải thích lý do từ chối."
+        },
+        {
+          "id": "n4cs-ta-06",
+          "promptJapanese": "朝急いでいたので　＿＿＿　＿＿＿　★　＿＿＿を出てしまったかもしれない。",
+          "promptReading": "あさ いそいでいたので　＿＿＿　＿＿＿　★　＿＿＿を でてしまったかもしれない。",
+          "promptVietnamese": "Sáng nay vội quá nên có lẽ tôi đã để nguyên tivi bật mà ra khỏi nhà mất rồi.",
+          "choices": ["つけたまま", "を", "家", "テレビ"],
+          "choicesVietnamese": ["để nguyên trạng thái bật (つけたまま)", "trợ từ を", "nhà (家)", "tivi (テレビ)"],
+          "choiceNotes": [
+            "Đúng: ô ★ (ô thứ 3) — つけたまま (thể た＋まま) đi sau テレビを.",
+            "Ô thứ 2 — を đi liền sau テレビ: テレビをつける = bật tivi.",
+            "Ô thứ 4 — 家 đứng trước を出て: 家を出る = ra khỏi nhà.",
+            "Ô thứ 1 — テレビ là thứ được bật, đứng đầu."
+          ],
+          "answer": 1,
+          "explanation": "Thứ tự đúng: テレビを つけたまま 家を 出てしまったかもしれない (4-2-1-3). V た＋まま = để nguyên trạng thái ~ (mà làm việc khác). 〜てしまった = lỡ ~ (tiếc); 〜かもしれない = có lẽ."
+        }
+      ]
+    }
+  ]
+}

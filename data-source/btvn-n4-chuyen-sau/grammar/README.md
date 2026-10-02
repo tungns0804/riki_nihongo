@@ -36,6 +36,7 @@ xem gợi ý hay không.
 | `02-tro-tu`  | Trợ từ  | 15 câu điền trợ từ: でも・は・も・と・ごろ・では・に・の・など・には・へ・が・までに |
 | `03-the-te`  | Tổng hợp ngữ pháp thể て | 問題2: 7 câu ghép câu (★) — てくる・てしまう・bị động・ないで・ておく・てある・ていく |
 | `04-the-masu` | Tổng hợp ngữ pháp thể ます | 問題2: 4 câu ghép câu (★) — すぎる・そうだ・ながら・にくい／やすい |
+| `05-the-ta` | Tổng hợp ngữ pháp thể た | 問題2: 6 câu ghép câu (★) — たら・たばかり・たほうがいい・たあとで・たところ・たまま |
 
 Bài "Liên từ" trên Riki mới chép được 練習2; thêm 練習 khác của cùng bài thì thêm một
 `section` nữa vào `test.json` (mỗi 練習 một section, `title` ghi đúng số 練習), rồi chạy

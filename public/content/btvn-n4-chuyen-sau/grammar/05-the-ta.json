@@ -1,0 +1,246 @@
+{
+  "id": "05-the-ta",
+  "name": "Tổng hợp ngữ pháp thể た",
+  "description": "問題2: 6 câu ghép câu, chọn từ vào ★ — các mẫu đi sau thể た: 〜たら, 〜たばかり, 〜たほうがいい, 〜たあとで, 〜たところ, 〜たまま.",
+  "kind": "test",
+  "parent": "",
+  "group": "",
+  "sections": [
+    {
+      "id": "the-ta-mondai-2",
+      "title": "文法 問題2 — Ghép câu, chọn từ vào ★ (6 câu)",
+      "instructions": "問題2：★に 入る ものは どれですか。1・2・3・4から いちばん いい ものを 一つ えらんで ください。",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n4cs-ta-01",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：「友だちに　何度　メールを　おくっても　へんじが　来ないんです。　＿＿＿　＿＿＿　★　＿＿＿したら　いいですか。」\nB：「電話を　して　みたら　いいと　思います。」",
+          "promptReading": "A：「ともだちに　なんど　メールを　おくっても　へんじが　こないんです。　＿＿＿　＿＿＿　★　＿＿＿したら　いいですか。」\nB：「でんわを　して　みたら　いいと　おもいます。」",
+          "promptTranslation": "A: \"Tôi gửi mail cho bạn bao nhiêu lần mà vẫn không thấy trả lời. Những lúc thế này thì nên làm thế nào ạ?\"\nB: \"Tôi nghĩ bạn thử gọi điện xem sao.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "いう",
+              "translation": "nói, (như) thế (いう)",
+              "note": "Ô thứ 2 — いう nối sau こう thành こういう (như thế này)."
+            },
+            {
+              "id": "c2",
+              "text": "こう",
+              "translation": "như thế này (こう)",
+              "note": "Ô thứ 1 — こう mở đầu cụm こういうとき."
+            },
+            {
+              "id": "c3",
+              "text": "どう",
+              "translation": "thế nào (どう)",
+              "note": "Ô thứ 4 — どう đứng ngay trước したら, thành どうしたらいいですか (nên làm thế nào)."
+            },
+            {
+              "id": "c4",
+              "text": "とき",
+              "translation": "lúc, khi (とき)",
+              "note": "Đúng: ô ★ (ô thứ 3) — とき khép cụm こういうとき (những lúc như thế này)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Thứ tự đúng: こういうとき どうしたら いいですか (2-1-4-3). 〜たらいいですか = nên làm ~ thì được (xin lời khuyên); どうしたらいいですか = nên làm thế nào. B trả lời bằng 〜てみたらいい = thử ~ xem. こういう＋N = N như thế này.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-ta-02",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "スミスさんは　＿＿＿　＿＿＿　★　＿＿＿です。",
+          "promptReading": "スミスさんは　＿＿＿　＿＿＿　★　＿＿＿です。",
+          "promptTranslation": "Anh Smith vừa mới từ Mỹ về.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "アメリカから",
+              "translation": "từ Mỹ (アメリカから)",
+              "note": "Ô thứ 1 — アメリカから (từ Mỹ) nêu nơi xuất phát, đứng đầu."
+            },
+            {
+              "id": "c2",
+              "text": "帰って",
+              "translation": "trở về (帰って)",
+              "note": "Ô thứ 2 — 帰って nối với 来た thành 帰ってきた (trở về đây)."
+            },
+            {
+              "id": "c3",
+              "text": "ばかり",
+              "translation": "vừa mới (ばかり)",
+              "note": "Ô thứ 4 — ばかり đứng ngay trước です: 〜たばかりです."
+            },
+            {
+              "id": "c4",
+              "text": "来た",
+              "translation": "đã đến (来た)",
+              "note": "Đúng: ô ★ (ô thứ 3) — 来た là thể た, phải đứng ngay trước ばかり."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Thứ tự đúng: アメリカから 帰って 来た ばかりです (1-2-4-3). V た＋ばかりだ = vừa mới ~ xong (theo cảm nhận của người nói, thời gian chưa lâu). 帰ってくる = về (tới chỗ người nói).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-ta-03",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：「天気よほうで、今日は　ゆうがたから　雨が　降ると　言ってたよ。」\nB：「あ、そう。じゃ、かさ　＿＿＿　＿＿＿　★　＿＿＿ね。」",
+          "promptReading": "A：「てんきよほうで、きょうは　ゆうがたから　あめが　ふると　いってたよ。」\nB：「あ、そう。じゃ、かさ　＿＿＿　＿＿＿　★　＿＿＿ね。」",
+          "promptTranslation": "A: \"Dự báo thời tiết nói hôm nay từ chiều tối trời sẽ mưa đấy.\"\nB: \"À, vậy hả. Thế thì nên mang ô đi nhỉ.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "持って",
+              "translation": "mang, cầm (持って)",
+              "note": "Ô thứ 2 — 持って đứng sau かさを, nối với 行った thành 持っていった."
+            },
+            {
+              "id": "c2",
+              "text": "行った",
+              "translation": "đã đi (行った)",
+              "note": "Đúng: ô ★ (ô thứ 3) — 行った là thể た, phải đứng ngay trước ほうがいい."
+            },
+            {
+              "id": "c3",
+              "text": "を",
+              "translation": "trợ từ を",
+              "note": "Ô thứ 1 — を đi liền sau かさ, đánh dấu tân ngữ."
+            },
+            {
+              "id": "c4",
+              "text": "ほうがいい",
+              "translation": "nên (ほうがいい)",
+              "note": "Ô thứ 4 — ほうがいい đứng cuối, ngay trước ね."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Thứ tự đúng: かさを 持って 行った ほうがいいね (3-1-2-4). V た＋ほうがいい = nên ~ (lời khuyên). Dùng thể た chứ không phải thể từ điển: 持っていったほうがいい. 〜と言ってた = (ai đó) đã nói là ~ (văn nói của 言っていた).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-ta-04",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "レストランを　＿＿＿　＿＿＿　★　＿＿＿気がついた。",
+          "promptReading": "レストランを　＿＿＿　＿＿＿　★　＿＿＿きが ついた。",
+          "promptTranslation": "Sau khi ra khỏi nhà hàng, tôi mới nhận ra mình để quên đồ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "わすれもの",
+              "translation": "đồ để quên (わすれもの)",
+              "note": "Đúng: ô ★ (ô thứ 3) — わすれもの là thứ được nhận ra, đứng trước に."
+            },
+            {
+              "id": "c2",
+              "text": "に",
+              "translation": "trợ từ に",
+              "note": "Ô thứ 4 — に đứng ngay trước 気がついた: 〜に気がつく = nhận ra ~."
+            },
+            {
+              "id": "c3",
+              "text": "出た",
+              "translation": "đã ra khỏi (出た)",
+              "note": "Ô thứ 1 — 出た đi liền sau レストランを: レストランを出る = ra khỏi nhà hàng."
+            },
+            {
+              "id": "c4",
+              "text": "あとで",
+              "translation": "sau khi (あとで)",
+              "note": "Ô thứ 2 — あとで đi sau thể た 出た: 出たあとで = sau khi ra."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Thứ tự đúng: レストランを 出た あとで わすれものに 気がついた (3-4-1-2). V た＋あとで = sau khi ~. 〜に気がつく = nhận ra, để ý thấy ~. Nơi rời khỏi đi với を (レストランを出る).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-ta-05",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "山田：「田中さん、これから　食事でも　どうですか。」\n田中：「すみません。ちょうど　＿＿＿　＿＿＿　★　＿＿＿です。」",
+          "promptReading": "やまだ：「たなかさん、これから　しょくじでも　どうですか。」\nたなか：「すみません。ちょうど　＿＿＿　＿＿＿　★　＿＿＿です。」",
+          "promptTranslation": "Yamada: \"Anh Tanaka, giờ mình đi ăn gì đó không?\"\nTanaka: \"Xin lỗi anh. Tôi vừa mới ăn xong ngay lúc này.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "なん",
+              "translation": "(〜なん)です — dạng nói của 〜なのです",
+              "note": "Ô thứ 4 — なん đứng ngay trước です: 〜ところなんです."
+            },
+            {
+              "id": "c2",
+              "text": "ところ",
+              "translation": "đúng lúc (ところ)",
+              "note": "Đúng: ô ★ (ô thứ 3) — ところ đi sau thể た 食べた: vừa mới ăn xong."
+            },
+            {
+              "id": "c3",
+              "text": "食べた",
+              "translation": "đã ăn (食べた)",
+              "note": "Ô thứ 2 — 食べた là thể た, đứng ngay trước ところ."
+            },
+            {
+              "id": "c4",
+              "text": "今",
+              "translation": "bây giờ (今)",
+              "note": "Ô thứ 1 — 今 đi liền sau ちょうど: ちょうど今 = ngay vừa lúc này."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Thứ tự đúng: ちょうど 今 食べた ところ なんです (4-3-2-1). V た＋ところだ = vừa mới ~ xong (ngay sát lúc nói, hay đi với ちょうど今・今). Khác 〜たばかり ở câu 2: ばかり là cảm nhận \"chưa lâu\", còn ところ là đúng thời điểm vừa xong. 〜なんです giải thích lý do từ chối.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-ta-06",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "朝急いでいたので　＿＿＿　＿＿＿　★　＿＿＿を出てしまったかもしれない。",
+          "promptReading": "あさ いそいでいたので　＿＿＿　＿＿＿　★　＿＿＿を でてしまったかもしれない。",
+          "promptTranslation": "Sáng nay vội quá nên có lẽ tôi đã để nguyên tivi bật mà ra khỏi nhà mất rồi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "つけたまま",
+              "translation": "để nguyên trạng thái bật (つけたまま)",
+              "note": "Đúng: ô ★ (ô thứ 3) — つけたまま (thể た＋まま) đi sau テレビを."
+            },
+            {
+              "id": "c2",
+              "text": "を",
+              "translation": "trợ từ を",
+              "note": "Ô thứ 2 — を đi liền sau テレビ: テレビをつける = bật tivi."
+            },
+            {
+              "id": "c3",
+              "text": "家",
+              "translation": "nhà (家)",
+              "note": "Ô thứ 4 — 家 đứng trước を出て: 家を出る = ra khỏi nhà."
+            },
+            {
+              "id": "c4",
+              "text": "テレビ",
+              "translation": "tivi (テレビ)",
+              "note": "Ô thứ 1 — テレビ là thứ được bật, đứng đầu."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Thứ tự đúng: テレビを つけたまま 家を 出てしまったかもしれない (4-2-1-3). V た＋まま = để nguyên trạng thái ~ (mà làm việc khác). 〜てしまった = lỡ ~ (tiếc); 〜かもしれない = có lẽ.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}
