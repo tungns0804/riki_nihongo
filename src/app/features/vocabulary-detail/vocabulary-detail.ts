@@ -19,6 +19,7 @@ import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import { ModuleId, VocabExample, groupsOf } from '../../core/models/content.model';
 import { ContentStore } from '../../core/services/content-store';
+import { ProgressStore } from '../../core/services/progress-store';
 import { readJson, writeJson } from '../../core/services/local-storage';
 import { loadUnit } from '../../core/services/unit-loader';
 import { matchesAllWords, normalizeSearch, splitAround } from '../../core/utils/text';
@@ -49,6 +50,7 @@ export class VocabularyDetail {
   private readonly lang = inject(LanguageStore);
   private readonly injector = inject(Injector);
   private readonly content = inject(ContentStore);
+  private readonly progress = inject(ProgressStore);
 
   protected readonly t = this.lang.t.bind(this.lang);
 
@@ -75,6 +77,11 @@ export class VocabularyDetail {
     const children = this.content.childrenOf(this.moduleId(), this.id());
     return new Map(children.filter((child) => child.group).map((child) => [child.group, child]));
   });
+
+  /** Số lần đã làm một bài (dùng cho nút BTVN của từng cụm); 0 nếu chưa làm. */
+  protected attemptsOf(unitId: string): number {
+    return this.progress.of(unitId)?.attempts ?? 0;
+  }
 
   /** Bài mẹ của bài đang mở (BTVN thì về đúng bài từ vựng của nó, không về danh sách). */
   protected readonly parentId = computed(() => this.unit()?.parent ?? '');
@@ -191,6 +198,8 @@ export class VocabularyDetail {
 
     return unit.groups.map((group) => ({
       ...group,
+      // Số lần đã luyện riêng cụm này — buổi nào chưa luyện thì thấy ngay trên dòng của nó.
+      attempts: this.progress.groupOf(unit.id, group.label)?.attempts ?? 0,
       preview: unit.words
         .filter((word) => word.group === group.label)
         .map((word) => word.japanese)

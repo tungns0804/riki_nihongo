@@ -149,6 +149,8 @@ export class App {
   protected readonly crumbs = computed<Crumb[]>(() => {
     const course = this.course();
     const [, path = '', unitId, action] = this.segments();
+    // Trang thống kê không thuộc phần học nào: một cấp duy nhất ngay sau học phần.
+    if (course && path === 'stats') return [{ label: this.t('route.stats'), link: null }];
     const module = moduleByPath(path);
     if (!course || !module || !course.modules.includes(module.id)) return [];
 

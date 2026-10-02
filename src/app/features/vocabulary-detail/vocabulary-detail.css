@@ -35,8 +35,9 @@
 /* Cả dòng là một nút: vùng bấm rộng, và bàn phím Tab qua từng cụm như một danh sách. */
 .overview-row {
   display: grid;
-  /* 7rem: vừa nhãn dài nhất "101–110" trong viên thuốc, cột chủ đề thẳng hàng. */
-  grid-template-columns: 7rem auto minmax(0, 1fr);
+  /* 7rem: vừa nhãn dài nhất "101–110" trong viên thuốc, cột chủ đề thẳng hàng. Cột
+     cuối là số lần đã luyện cụm đó. */
+  grid-template-columns: 7rem auto minmax(0, 1fr) auto;
   align-items: center;
   gap: var(--sp-2) var(--sp-4);
   width: 100%;
@@ -74,6 +75,11 @@
   color: var(--text-muted);
 }
 
+.overview-attempts {
+  justify-self: end;
+  white-space: nowrap;
+}
+
 /* Nút vào bài tập về nhà của cụm. Không co lại: tên "BTVN 1–10" phải đọc được nguyên. */
 .overview-homework {
   flex: none;
@@ -83,11 +89,17 @@
 /* Hẹp thì các mặt chữ xuống dòng riêng dưới nút cụm và chủ đề. */
 @media (max-width: 640px) {
   .overview-row {
-    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-columns: auto minmax(0, 1fr) auto;
   }
 
   .overview-words {
     grid-column: 1 / -1;
+  }
+
+  /* Số lần luyện lên cùng hàng với nút cụm và chủ đề, các mặt chữ xuống dòng dưới. */
+  .overview-attempts {
+    grid-row: 1;
+    grid-column: 3;
   }
 
   /* Khổ này không đủ cho hai nút cạnh nhau: nút BTVN xuống dòng, lùi vào cho thấy nó

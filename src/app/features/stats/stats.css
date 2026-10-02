@@ -1,0 +1,95 @@
+.stats-skeleton {
+  height: 420px;
+}
+
+/* Bộ lọc bên trái, cách xếp bên phải; hẹp thì xuống dòng. */
+.stats-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--sp-3);
+}
+
+.stats-table .num {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.stats-table td {
+  vertical-align: middle;
+}
+
+/* Dòng tên phần học (Từ vựng, Kanji…) chia bảng thành từng khúc, như mục lục. Không
+   dính đầu bảng như hàng tiêu đề cột: hai hàng dính chồng lên nhau sẽ che chữ. */
+.stats-module th {
+  position: static;
+  background: var(--accent-soft);
+  color: var(--text);
+  font-size: var(--fs-sm);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.stats-module .jp {
+  margin-right: var(--sp-2);
+}
+
+.stats-name {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 var(--sp-3);
+  color: inherit;
+  text-decoration: none;
+}
+
+.stats-name:hover .stats-label {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.stats-label {
+  font-weight: 620;
+}
+
+/* Cụm và BTVN lùi vào dưới bài của mình. */
+.is-sub td:first-child {
+  padding-left: calc(12px + var(--sp-5));
+}
+
+.is-sub .stats-label {
+  font-weight: 560;
+}
+
+.stats-context {
+  display: block;
+}
+
+.stats-date {
+  white-space: nowrap;
+  color: var(--text-muted);
+}
+
+/* Dòng chưa luyện lần nào: tên vẫn đậm như thường, chỉ con số mờ đi — tên mờ thì
+   chính những dòng cần chú ý nhất lại khó đọc nhất. */
+.is-never .num {
+  color: var(--text-muted);
+}
+
+/* Điện thoại: bỏ cột ngày để cột tên bài đủ rộng — tên mà gãy ba dòng thì bảng dài gấp
+   ba, còn ngày luyện thì là thứ ít cần nhất trong bốn cột. */
+@media (max-width: 640px) {
+  .stats-table .stats-date {
+    display: none;
+  }
+
+  .stats-table th,
+  .stats-table td {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .is-sub td:first-child {
+    padding-left: calc(10px + var(--sp-3));
+  }
+}

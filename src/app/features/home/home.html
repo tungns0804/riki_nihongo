@@ -36,6 +36,10 @@
             {{ t('unit.pendingCount', { count: totalUnits() - totalReadyUnits() }) }}
           </span>
         }
+        <span class="spacer"></span>
+        <!-- Lối vào trang thống kê đặt ở trang học phần: thống kê là của cả học phần,
+             không thuộc riêng phần học nào nên không làm thêm một mục trên menu. -->
+        <a class="btn btn-sm" [routerLink]="['/', course.id, 'stats']">{{ t('stats.open') }}</a>
       </div>
 
       @if (isEmpty()) {

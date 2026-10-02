@@ -362,6 +362,12 @@ export interface UnitIndexEntry {
   group: string;
   /** Số mục của bài: số từ, số chữ Hán, số mẫu ngữ pháp, số câu hỏi… */
   itemCount: number;
+  /**
+   * Các cụm của bài từ vựng (nhãn và chủ đề), theo thứ tự trong bài. Rỗng nếu bài không
+   * chia cụm. Có trong danh mục để trang thống kê liệt kê được cả cụm chưa luyện mà
+   * không phải tải nội dung từng bài.
+   */
+  groups: VocabGroup[];
   /** Thứ tự hiển thị. Số nhỏ lên trước. */
   order: number;
   /** Đường dẫn file nội dung, tính từ `content/`. */

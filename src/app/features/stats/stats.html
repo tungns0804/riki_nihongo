@@ -1,0 +1,121 @@
+<div class="container page">
+  <div class="stack stack-xl">
+    <section class="page-head">
+      <a class="back-link small" [routerLink]="courseHome">{{ t('common.backHome') }}</a>
+      <h1>{{ t('stats.title') }}</h1>
+      <p><app-t key="stats.subtitle" block /></p>
+    </section>
+
+    @if (status() === 'loading') {
+      <div class="skeleton stats-skeleton" role="status" [attr.aria-label]="t('common.loading')"></div>
+    }
+
+    @if (errorKey(); as key) {
+      <div class="notice notice-error">
+        <div class="stack" style="gap: 10px">
+          <strong>{{ t(key) }}</strong>
+          <div>
+            <button type="button" class="btn btn-sm" (click)="reload()">{{ t('common.retry') }}</button>
+          </div>
+        </div>
+      </div>
+    }
+
+    @if (status() === 'ready') {
+      <div class="row">
+        <span class="badge badge-success">
+          {{ t('stats.done', { done: doneCount(), total: totalCount() }) }}
+        </span>
+        <span class="badge">{{ t('stats.never', { count: totalCount() - doneCount() }) }}</span>
+        <span class="badge">{{ t('stats.totalAttempts', { count: totalAttempts() }) }}</span>
+      </div>
+
+      <div class="stats-controls">
+        <div class="chips" role="group" [attr.aria-label]="t('stats.filter')">
+          @for (item of filters; track item.id) {
+            <button
+              type="button"
+              class="chip"
+              [class.is-active]="filter() === item.id"
+              [attr.aria-pressed]="filter() === item.id"
+              (click)="filter.set(item.id)"
+            >
+              {{ t(item.key) }}
+            </button>
+          }
+        </div>
+        <div class="chips" role="group" [attr.aria-label]="t('stats.sort')">
+          @for (item of sorts; track item.id) {
+            <button
+              type="button"
+              class="chip"
+              [class.is-active]="sort() === item.id"
+              [attr.aria-pressed]="sort() === item.id"
+              (click)="sort.set(item.id)"
+            >
+              {{ t(item.key) }}
+            </button>
+          }
+        </div>
+      </div>
+
+      @if (visible().length === 0) {
+        <div class="empty-state">
+          <span class="empty-state-icon" aria-hidden="true">✓</span>
+          <p class="empty-state-title">{{ t('stats.empty') }}</p>
+        </div>
+      } @else {
+        <div class="card scroll-x">
+          <table class="data-table stats-table">
+            <thead>
+              <tr>
+                <th>{{ t('stats.col.unit') }}</th>
+                <th class="num">{{ t('stats.col.attempts') }}</th>
+                <th class="num">{{ t('stats.col.best') }}</th>
+                <th class="stats-date">{{ t('stats.col.last') }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (row of visible(); track row.key; let i = $index) {
+                @if (grouped() && startsModule(i)) {
+                  <tr class="stats-module">
+                    <th colspan="4" scope="colgroup">
+                      <span class="jp" aria-hidden="true">{{ row.module.icon }}</span>
+                      <app-t [key]="row.module.labelKey" />
+                    </th>
+                  </tr>
+                }
+                <tr [class.is-never]="row.attempts === 0" [class.is-sub]="row.level === 1 && grouped()">
+                  <td>
+                    <a class="stats-name" [routerLink]="row.link">
+                      <span class="stats-label" [class.tnum]="row.level === 1">{{ row.name }}</span>
+                      @if (row.detail) {
+                        <span class="muted">{{ row.detail }}</span>
+                      }
+                    </a>
+                    <!-- Xếp theo số lần thì các dòng không còn nằm dưới bài của mình: ghi
+                         rõ phần và bài để dòng "51–60" vẫn đọc ra là cụm nào. -->
+                    @if (!grouped()) {
+                      <span class="muted small stats-context">
+                        <app-t [key]="row.module.labelKey" />@if (row.parentName) { · {{ row.parentName }} }
+                      </span>
+                    }
+                  </td>
+                  <td class="num tnum">
+                    @if (row.attempts > 0) {
+                      <span class="badge badge-success">{{ row.attempts }}</span>
+                    } @else {
+                      <span class="muted">{{ t('progress.never') }}</span>
+                    }
+                  </td>
+                  <td class="num tnum">{{ row.best === null ? '—' : row.best + '%' }}</td>
+                  <td class="tnum stats-date">{{ formatDate(row.lastAt) || '—' }}</td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      }
+    }
+  </div>
+</div>

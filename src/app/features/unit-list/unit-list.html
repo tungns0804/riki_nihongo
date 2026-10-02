@@ -121,6 +121,15 @@
                   <span class="badge">{{ t('unit.pending') }}</span>
                 } @else {
                   <span class="badge">{{ itemLabel(unit) }}</span>
+                  <!-- Số lần luyện cạnh số mục: nhìn cả lưới là thấy bài nào luyện nhiều,
+                       bài nào chưa đụng tới — vòng % chỉ nói kết quả tốt nhất, không nói
+                       đã luyện bao nhiêu lần. -->
+                  @let attempts = attemptsOf(unit.id);
+                  @if (attempts > 0) {
+                    <span class="badge badge-success">{{ t('progress.attempts', { count: attempts }) }}</span>
+                  } @else {
+                    <span class="badge">{{ t('progress.never') }}</span>
+                  }
                   <span class="spacer"></span>
                   <span class="card-go" aria-hidden="true">→</span>
                 }

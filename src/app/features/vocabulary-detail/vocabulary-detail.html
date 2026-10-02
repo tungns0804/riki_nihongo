@@ -68,6 +68,14 @@
                       </span>
                       <span class="overview-title">{{ item.title }}</span>
                       <span class="jp overview-words">{{ item.preview }}</span>
+                      <!-- Số lần luyện của RIÊNG cụm này (luyện cả bài không tính vào đây). -->
+                      @if (item.attempts > 0) {
+                        <span class="badge badge-success overview-attempts">
+                          {{ t('progress.attempts', { count: item.attempts }) }}
+                        </span>
+                      } @else {
+                        <span class="badge overview-attempts">{{ t('progress.never') }}</span>
+                      }
                     </button>
 
                     <!-- Bài tập về nhà của ĐÚNG cụm đó, ngay trên dòng của cụm: BTVN ra theo
@@ -80,6 +88,9 @@
                       >
                         {{ homework.name }}
                         <span class="badge">{{ t('test.questionCount', { count: homework.itemCount }) }}</span>
+                        @if (attemptsOf(homework.id); as done) {
+                          <span class="badge badge-success">{{ t('progress.attempts', { count: done }) }}</span>
+                        }
                       </a>
                     }
                   </li>

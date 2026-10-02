@@ -183,6 +183,19 @@ năng, và danh sách từng câu để xem lại. Câu nào có `choiceNotes` t
 bốn lựa chọn kèm dấu ✔ / ✘ và lời giải thích của từng cái, rồi tới `explanation` chốt
 lại ý chính — đây mới là chỗ học được gì sau khi chấm.
 
+## Thống kê luyện tập
+
+Trang `/<học phần>/stats` (nút **Thống kê luyện tập** ở trang học phần) liệt kê mọi bài,
+mọi cụm của bài từ vựng và mọi BTVN, kèm số lần đã luyện, kết quả tốt nhất và ngày luyện
+gần nhất. Lọc được "Chưa luyện / Đã luyện", xếp được theo thứ tự bài hoặc theo số lần.
+Danh sách lấy từ danh mục bài (`index.json` có thêm `groups` của bài từ vựng), nên dòng
+chưa luyện lần nào vẫn hiện — đó mới là thứ trang này cần chỉ ra.
+
+Số lần còn hiện ngay trên thẻ bài ("Luyện 3 lần" / "Chưa luyện"), trên từng dòng cụm của
+bảng Tóm tắt bài và trên nút BTVN. Một phiên luyện theo cụm tính cho cả cụm lẫn bài;
+luyện cả bài thì chỉ tính cho bài. Tiến độ lưu trong localStorage của trình duyệt, nên
+các lần luyện trước khi có thống kê theo cụm chỉ còn tính cho cả bài.
+
 ## Luyện tập
 
 Bài từ vựng luyện được theo sáu chiều:

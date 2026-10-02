@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-02T03:20:20.525Z",
+  "generatedAt": "2026-10-02T03:25:33.379Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -34,7 +34,57 @@
           "group": "",
           "itemCount": 120,
           "order": 1,
-          "file": "vocabulary/01-danh-tu.json"
+          "file": "vocabulary/01-danh-tu.json",
+          "groups": [
+            {
+              "label": "01–10",
+              "title": "Bài 1.1 · Con người và thứ bậc trên dưới"
+            },
+            {
+              "label": "11–20",
+              "title": "Bài 1.2 · Thân thế, tuổi tác và các mốc trưởng thành"
+            },
+            {
+              "label": "21–30",
+              "title": "Bài 2.1 · Học lên, đi làm và nghỉ việc"
+            },
+            {
+              "label": "31–40",
+              "title": "Bài 2.2 · Đi về, có mặt và vắng mặt"
+            },
+            {
+              "label": "41–50",
+              "title": "Bài 3.1 · Việc thường ngày: kế hoạch, thành và bại"
+            },
+            {
+              "label": "51–60",
+              "title": "Bài 3.2 · Bản thân, sở thích và chuyện trò"
+            },
+            {
+              "label": "61–70",
+              "title": "Bài 4.1 · Lời hứa, giữ ý và bày tỏ ý kiến"
+            },
+            {
+              "label": "71–80",
+              "title": "Bài 4.2 · Trời đất, thời tiết và hơi ẩm"
+            },
+            {
+              "label": "81–90",
+              "title": "Bài 5.1 · Tin tức, khu phố và đồ quanh nhà"
+            },
+            {
+              "label": "91–100",
+              "title": "Bài 5.2 · Đồ vật, nơi chốn và đường sá"
+            },
+            {
+              "label": "101–110",
+              "title": "Bài 6.1 · Giấy tờ và cách nói thứ tự, mức độ"
+            },
+            {
+              "label": "111–120",
+              "title": "Bài 6.2 · Tính chất, thứ tự và hàng hoá"
+            }
+          ]
         },
         {
           "id": "02-dong-tu",
@@ -45,7 +95,17 @@
           "group": "",
           "itemCount": 20,
           "order": 2,
-          "file": "vocabulary/02-dong-tu.json"
+          "file": "vocabulary/02-dong-tu.json",
+          "groups": [
+            {
+              "label": "121–130",
+              "title": "Bài 7.1 · Tác động lên người và vật: đánh, ôm, làm đổ"
+            },
+            {
+              "label": "131–140",
+              "title": "Bài 7.2 · Nói năng, chăm sóc và việc nhà"
+            }
+          ]
         },
         {
           "id": "03-tinh-tu",
@@ -56,7 +116,25 @@
           "group": "",
           "itemCount": 34,
           "order": 3,
-          "file": "vocabulary/03-tinh-tu.json"
+          "file": "vocabulary/03-tinh-tu.json",
+          "groups": [
+            {
+              "label": "259–265",
+              "title": "Bài 14.1 · Cảm xúc, thái độ và sở trường"
+            },
+            {
+              "label": "266–273",
+              "title": "Bài 14.2 · Cảm giác, cảm xúc và tính cách"
+            },
+            {
+              "label": "274–280",
+              "title": "Bài 14.3 · Tính cách, sự hài lòng và nỗi lo"
+            },
+            {
+              "label": "299–310",
+              "title": "Tự động từ và tha động từ sinh ra từ tính từ"
+            }
+          ]
         },
         {
           "id": "04-katakana",
@@ -89,7 +167,21 @@
           "group": "",
           "itemCount": 28,
           "order": 6,
-          "file": "vocabulary/06-danh-tu-2.json"
+          "file": "vocabulary/06-danh-tu-2.json",
+          "groups": [
+            {
+              "label": "311–318",
+              "title": "Chăm sóc, biết ơn và phép xã giao"
+            },
+            {
+              "label": "351–359",
+              "title": "Bài 19.1 · Sự cố, hỏng hóc và trạng thái bản thân"
+            },
+            {
+              "label": "360–370",
+              "title": "Bài 19.2 · Cảm xúc, nhận định và tìm nguyên nhân"
+            }
+          ]
         },
         {
           "id": "01-danh-tu-btvn-01-10",

@@ -92,6 +92,11 @@ export class UnitList {
     return this.progress.bestPercent(unitId);
   }
 
+  /** Số lần đã luyện một bài; 0 nếu chưa luyện lần nào. */
+  protected attemptsOf(unitId: string): number {
+    return this.progress.of(unitId)?.attempts ?? 0;
+  }
+
   /**
    * Nhãn số mục trên thẻ bài: "30 câu" với bài dạng đề, "30 mục" với bài thường.
    *

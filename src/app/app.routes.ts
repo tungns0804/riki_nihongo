@@ -54,6 +54,7 @@ const practice: LoadComponent = () => import('./features/practice/practice').the
 const testRun: LoadComponent = () =>
   import('./features/test-run/test-run').then((m) => m.TestRun);
 const result: LoadComponent = () => import('./features/result/result').then((m) => m.Result);
+const stats: LoadComponent = () => import('./features/stats/stats').then((m) => m.Stats);
 
 /**
  * Màn hình chi tiết của từng hình dạng dữ liệu. Phần Mimikara có `kind: 'grammar'` nên
@@ -133,6 +134,9 @@ function courseRoute(course: CourseDef): Route {
     children: [
       // Trang của học phần: các phần học của nó.
       { path: '', pathMatch: 'full', title: course.nameKey, loadComponent: home },
+      // Thống kê luyện tập của cả học phần. Không trùng đoạn địa chỉ của phần học nào
+      // (vocabulary, kanji…), nên đứng ngang hàng với chúng được.
+      { path: 'stats', title: 'route.stats', loadComponent: stats },
       ...modulesOf(course).flatMap(moduleRoutes),
     ],
   };

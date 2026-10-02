@@ -306,7 +306,21 @@ function buildUnit(course, module, folderName) {
 
   return {
     // `file` tính từ thư mục của học phần, nên danh mục không phải lặp lại tên học phần.
-    entry: { id, name, description, kind, parent, group, itemCount, order, file: `${module.folder}/${id}.json` },
+    entry: {
+      id,
+      name,
+      description,
+      kind,
+      parent,
+      group,
+      itemCount,
+      order,
+      file: `${module.folder}/${id}.json`,
+      // Các cụm của bài từ vựng cũng nằm trong danh mục: trang thống kê luyện tập liệt
+      // kê từng cụm (kể cả cụm chưa luyện lần nào), mà mở danh mục thì không phải tải
+      // nội dung của từng bài chỉ để biết bài đó có những cụm nào.
+      ...(payload.groups?.length ? { groups: payload.groups } : {}),
+    },
     content: { id, name, description, kind, parent, group, ...payload },
     placeholder: false,
   };

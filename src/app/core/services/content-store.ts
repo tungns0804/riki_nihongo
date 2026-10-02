@@ -8,6 +8,7 @@ import {
   ModuleId,
   Unit,
   UnitIndexEntry,
+  VocabGroup,
   countItems,
   isModuleId,
 } from '../models/content.model';
@@ -168,6 +169,20 @@ function countBy(entries: readonly UnitIndexEntry[]): Record<ModuleId, number> {
   return result;
 }
 
+/** Các cụm ghi trong danh mục: chỉ nhận cụm có nhãn, bỏ cụm trùng nhãn. */
+function sanitizeIndexGroups(raw: unknown): VocabGroup[] {
+  if (!Array.isArray(raw)) return [];
+  const seen = new Set<string>();
+  return raw.flatMap((item): VocabGroup[] => {
+    if (!item || typeof item !== 'object') return [];
+    const record = item as Record<string, unknown>;
+    const label = typeof record['label'] === 'string' ? record['label'].trim() : '';
+    if (!label || seen.has(label)) return [];
+    seen.add(label);
+    return [{ label, title: typeof record['title'] === 'string' ? record['title'].trim() : '' }];
+  });
+}
+
 /**
  * Đọc danh mục.
  *
@@ -202,6 +217,7 @@ function sanitizeIndex(raw: unknown): UnitIndexEntry[] {
           parent: typeof entry['parent'] === 'string' ? (entry['parent'] as string) : '',
           group: typeof entry['group'] === 'string' ? (entry['group'] as string) : '',
           itemCount: typeof entry['itemCount'] === 'number' ? (entry['itemCount'] as number) : 0,
+          groups: sanitizeIndexGroups(entry['groups']),
           order: typeof entry['order'] === 'number' ? (entry['order'] as number) : 0,
           file,
         },

@@ -4,7 +4,7 @@
     "name": "BTVN CƠ BẢN (MỚI)",
     "level": "N3"
   },
-  "generatedAt": "2026-10-02T03:20:20.558Z",
+  "generatedAt": "2026-10-02T03:25:33.395Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -18,7 +18,37 @@
           "group": "",
           "itemCount": 70,
           "order": 1,
-          "file": "vocabulary/01-danh-tu.json"
+          "file": "vocabulary/01-danh-tu.json",
+          "groups": [
+            {
+              "label": "01–10",
+              "title": "Từ vựng 1–10 · Giới tính, tuổi tác và vai vế"
+            },
+            {
+              "label": "11–20",
+              "title": "Từ vựng 11–20 · Bạn bè, quê quán và các mốc đời người"
+            },
+            {
+              "label": "21–30",
+              "title": "Từ vựng 21–30 · Học hành, việc làm và cuộc sống"
+            },
+            {
+              "label": "31–40",
+              "title": "Từ vựng 31–40 · Phỏng vấn, về nước về quê và chuyên cần"
+            },
+            {
+              "label": "41–50",
+              "title": "Từ vựng 41–50 · Kế hoạch, chuẩn bị và thành bại"
+            },
+            {
+              "label": "51–60",
+              "title": "Từ vựng 51–60 · Cơ thể, sở thích và kỷ niệm"
+            },
+            {
+              "label": "61–70",
+              "title": "Từ vựng 61–70 · Cư xử, ước mơ và ý kiến"
+            }
+          ]
         },
         {
           "id": "02-tinh-tu-btvn-259-310",
