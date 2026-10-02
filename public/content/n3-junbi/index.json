@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-02T02:13:05.162Z",
+  "generatedAt": "2026-10-02T02:37:28.886Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -83,11 +83,11 @@
         {
           "id": "06-danh-tu-2",
           "name": "Danh từ 2",
-          "description": "Danh từ N3準備 文字語彙 — 311–318 · Chăm sóc, biết ơn và phép xã giao",
+          "description": "Danh từ N3準備 文字語彙 — 311–318 và 第19課 (351–370)",
           "kind": "vocabulary",
           "parent": "",
           "group": "",
-          "itemCount": 8,
+          "itemCount": 28,
           "order": 6,
           "file": "vocabulary/06-danh-tu-2.json"
         },

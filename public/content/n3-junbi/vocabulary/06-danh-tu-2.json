@@ -1,7 +1,7 @@
 {
   "id": "06-danh-tu-2",
   "name": "Danh từ 2",
-  "description": "Danh từ N3準備 文字語彙 — 311–318 · Chăm sóc, biết ơn và phép xã giao",
+  "description": "Danh từ N3準備 文字語彙 — 311–318 và 第19課 (351–370)",
   "kind": "vocabulary",
   "parent": "",
   "group": "",
@@ -9,6 +9,14 @@
     {
       "label": "311–318",
       "title": "Chăm sóc, biết ơn và phép xã giao"
+    },
+    {
+      "label": "351–359",
+      "title": "Bài 19.1 · Sự cố, hỏng hóc và trạng thái bản thân"
+    },
+    {
+      "label": "360–370",
+      "title": "Bài 19.2 · Cảm xúc, nhận định và tìm nguyên nhân"
     }
   ],
   "words": [
@@ -195,6 +203,726 @@
         }
       ],
       "notes": []
+    },
+    {
+      "id": "fd7041b7f1163dcd",
+      "number": 351,
+      "group": "351–359",
+      "particle": "",
+      "japanese": "事故",
+      "reading": "じこ",
+      "hanViet": "SỰ CỐ",
+      "vietnamese": "Tai nạn, sự cố",
+      "examples": [
+        {
+          "id": "d88524e2df5a0cc6",
+          "japanese": "交通事故の原因を調べる。",
+          "vietnamese": "Điều tra nguyên nhân vụ tai nạn giao thông.",
+          "reading": "こうつうじこのげんいんをしらべる。",
+          "grammar": "～の原因を調べる = tìm hiểu, điều tra nguyên nhân của ~",
+          "targets": [
+            "事故"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "交通事故 (こうつうじこ) = Tai nạn giao thông"
+        },
+        {
+          "label": "連",
+          "text": "事故が起こる／を起こす／にあう = Tai nạn xảy ra / gây ra tai nạn / gặp tai nạn (≒ が発生する (はっせいする))"
+        }
+      ]
+    },
+    {
+      "id": "a483901ed9b42c41",
+      "number": 352,
+      "group": "351–359",
+      "particle": "",
+      "japanese": "事件",
+      "reading": "じけん",
+      "hanViet": "SỰ KIỆN",
+      "vietnamese": "Vụ án, vụ kiện/ Vụ ~",
+      "examples": [
+        {
+          "id": "db24c8844b489bb5",
+          "japanese": "近所で子どもが次々といなくなるという事件が起こった。",
+          "vietnamese": "Ở khu gần nhà đã xảy ra vụ trẻ em lần lượt mất tích.",
+          "reading": "きんじょでこどもがつぎつぎといなくなるというじけんがおこった。",
+          "grammar": "～という＋N = N có nội dung là ~; 次々と = lần lượt, hết người này tới người khác",
+          "targets": [
+            "事件"
+          ]
+        },
+        {
+          "id": "87221c99c9583452",
+          "japanese": "事件を解決するために、警察が動く。",
+          "vietnamese": "Cảnh sát vào cuộc để phá vụ án.",
+          "reading": "じけんをかいけつするために、けいさつがうごく。",
+          "grammar": "V る＋ために = để ~ (mục đích)",
+          "targets": [
+            "事件"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "事件が発生する (はっせいする)・事件を起こす = Vụ án xảy ra / gây án"
+        },
+        {
+          "label": "合",
+          "text": "殺人事件 (さつじんじけん) = Vụ giết người"
+        },
+        {
+          "label": "合",
+          "text": "盗難事件 (とうなんじけん) = Vụ trộm cắp"
+        },
+        {
+          "label": "合",
+          "text": "未解決事件 (みかいけつじけん) = Vụ án chưa giải quyết"
+        }
+      ]
+    },
+    {
+      "id": "38b2718212a6d189",
+      "number": 353,
+      "group": "351–359",
+      "particle": "",
+      "japanese": "故障",
+      "reading": "こしょう",
+      "hanViet": "CỐ CHƯỚNG",
+      "vietnamese": "Bị hỏng",
+      "examples": [
+        {
+          "id": "ed88f7f682a50381",
+          "japanese": "洗濯機が故障したので、コインランドリーへ行った。",
+          "vietnamese": "Máy giặt bị hỏng nên tôi đã ra tiệm giặt tự động.",
+          "reading": "せんたくきがこしょうしたので、コインランドリーへいった。",
+          "grammar": "～が故障する = ~ bị hỏng (máy móc); ～ので = vì ~ nên",
+          "targets": [
+            "故障"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "0a396526d6dfedcf",
+      "number": 354,
+      "group": "351–359",
+      "particle": "",
+      "japanese": "修理",
+      "reading": "しゅうり",
+      "hanViet": "TU LÝ",
+      "vietnamese": "Sửa",
+      "examples": [
+        {
+          "id": "5cfcff3b23008803",
+          "japanese": "パソコンがこわれたので、（パソコンを）修理に出した。",
+          "vietnamese": "Máy tính bị hỏng nên tôi đã đem (máy tính) đi sửa.",
+          "reading": "パソコンがこわれたので、（パソコンを）しゅうりにだした。",
+          "grammar": "～を修理に出す = đem ~ đi sửa (gửi cho thợ sửa, không tự sửa)",
+          "targets": [
+            "修理"
+          ]
+        },
+        {
+          "id": "2a4dc2cfde80d4da",
+          "japanese": "iPhone修理なら、修理屋さんに21におまかせください。",
+          "vietnamese": "Sửa iPhone thì xin cứ giao cho tiệm sửa chữa 21.",
+          "reading": "iPhoneしゅうりなら、しゅうりやさんに21におまかせください。",
+          "grammar": "～なら = nếu là chuyện ~ thì; お＋V ます bỏ ます＋ください = xin hãy ~ (kính ngữ: おまかせください = xin cứ giao cho)",
+          "targets": [
+            "修理"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "修理屋 (しゅうりや) = Tiệm sửa chữa"
+        }
+      ]
+    },
+    {
+      "id": "1f90ad6fb5d7786f",
+      "number": 355,
+      "group": "351–359",
+      "particle": "",
+      "japanese": "停電",
+      "reading": "ていでん",
+      "hanViet": "ĐÌNH ĐIỆN",
+      "vietnamese": "Mất điện",
+      "examples": [
+        {
+          "id": "37cf80b3f42d3d7c",
+          "japanese": "雷が落ちて停電した。",
+          "vietnamese": "Sét đánh nên bị mất điện.",
+          "reading": "かみなりがおちてていでんした。",
+          "grammar": "雷が落ちる = sét đánh; ～て = vì ~ nên",
+          "targets": [
+            "停電"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "5033fb6ddca76c12",
+      "number": 356,
+      "group": "351–359",
+      "particle": "",
+      "japanese": "調子",
+      "reading": "ちょうし",
+      "hanViet": "ĐIỀU TỬ",
+      "vietnamese": "Tình trạng/ Phong độ/ Giọng điệu",
+      "examples": [
+        {
+          "id": "cecedab70f4a358e",
+          "japanese": "（体／声／お腹）の調子がいい ＞＜ が悪い",
+          "vietnamese": "Tình trạng (cơ thể / giọng / bụng) tốt ＞＜ không tốt",
+          "reading": "（からだ／こえ／おなか）のちょうしがいい ＞＜ がわるい",
+          "grammar": "",
+          "targets": [
+            "調子"
+          ]
+        },
+        {
+          "id": "00b6b80525e7e831",
+          "japanese": "あの選手は最近調子がいい ＞＜ が悪い",
+          "vietnamese": "Dạo này tuyển thủ đó đang có phong độ tốt ＞＜ phong độ kém",
+          "reading": "あのせんしゅはさいきんちょうしがいい ＞＜ がわるい",
+          "grammar": "",
+          "targets": [
+            "調子"
+          ]
+        },
+        {
+          "id": "adb666c3b6f11cc2",
+          "japanese": "仕事に慣れて調子が上がってきた。",
+          "vietnamese": "Quen việc rồi nên phong độ dần lên.",
+          "reading": "しごとになれてちょうしがあがってきた。",
+          "grammar": "～に慣れる = quen với ~; V て＋くる = dần dần ~ (thay đổi từ trước tới giờ)",
+          "targets": [
+            "調子"
+          ]
+        },
+        {
+          "id": "c99bb7910d673c3c",
+          "japanese": "強い調子で話す。（≒ 語調）",
+          "vietnamese": "Nói bằng giọng gay gắt. (≒ 語調 = giọng điệu)",
+          "reading": "つよいちょうしではなす。（≒ ごちょう）",
+          "grammar": "",
+          "targets": [
+            "調子"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "調子が上がる (他: を上げる) ＞＜ 調子が下がる (他: を下げる)"
+        },
+        {
+          "label": "関",
+          "text": "仕事の調子がいい ≒ 好調 (こうちょう)"
+        },
+        {
+          "label": "関",
+          "text": "仕事の調子が悪い ≒ 不調 (ふちょう)"
+        },
+        {
+          "label": "関",
+          "text": "体の調子 ≒ 体調 (たいちょう)"
+        }
+      ]
+    },
+    {
+      "id": "b395c14340561439",
+      "number": 357,
+      "group": "351–359",
+      "particle": "",
+      "japanese": "緊張",
+      "reading": "きんちょう",
+      "hanViet": "KHẨN TRƯƠNG",
+      "vietnamese": "Căng thẳng",
+      "examples": [
+        {
+          "id": "778958983766dfc4",
+          "japanese": "面接では緊張して、うまく答えられなかった。",
+          "vietnamese": "Ở buổi phỏng vấn tôi căng thẳng nên không trả lời trôi chảy được.",
+          "reading": "めんせつではきんちょうして、うまくこたえられなかった。",
+          "grammar": "～て = vì ~ nên; 答えられる = trả lời được (thể khả năng)",
+          "targets": [
+            "緊張"
+          ]
+        },
+        {
+          "id": "5c7de196d1c54449",
+          "japanese": "試験の前なので、みんな緊張している。",
+          "vietnamese": "Vì sắp thi nên ai cũng đang căng thẳng.",
+          "reading": "しけんのまえなので、みんなきんちょうしている。",
+          "grammar": "緊張 là danh từ đi với する — tả trạng thái thì dùng ～している, không nói ～緊張だ",
+          "targets": [
+            "緊張"
+          ]
+        },
+        {
+          "id": "4bac25fefac6f274",
+          "japanese": "緊張が解ける・緊張がゆるんだと同時に、お腹が鳴った。",
+          "vietnamese": "Ngay khi hết căng thẳng / căng thẳng dịu xuống thì bụng sôi lên.",
+          "reading": "きんちょうがとける・きんちょうがゆるんだとどうじに、おなかがなった。",
+          "grammar": "～と同時に = cùng lúc với ~, ngay khi ~; 緊張が解ける・ゆるむ = hết / bớt căng thẳng",
+          "targets": [
+            "緊張"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "使い方",
+          "text": "みんな（緊張している）○ ／ みんな（緊張だ）✕"
+        }
+      ]
+    },
+    {
+      "id": "7bdc5b30db58104e",
+      "number": 358,
+      "group": "351–359",
+      "particle": "",
+      "japanese": "自信",
+      "reading": "じしん",
+      "hanViet": "TỰ TÍN",
+      "vietnamese": "Tự tin",
+      "examples": [
+        {
+          "id": "8f2bdc3a78955df0",
+          "japanese": "体力に自信がある／を持つ。",
+          "vietnamese": "Tự tin vào thể lực.",
+          "reading": "たいりょくにじしんがある／をもつ。",
+          "grammar": "～に自信がある = tự tin về ~; 自信を持つ = có (giữ) sự tự tin",
+          "targets": [
+            "自信"
+          ]
+        },
+        {
+          "id": "1b2d0ba71a38e65b",
+          "japanese": "「この成績なら合格しますよ、もっと自信をつけて」",
+          "vietnamese": "\"Thành tích thế này thì đỗ thôi, tự tin hơn nữa đi.\"",
+          "reading": "「このせいせきならごうかくしますよ、もっとじしんをつけて」",
+          "grammar": "～なら = nếu là ~ thì; 自信をつける = tạo thêm tự tin; V て cuối câu = lời khuyên thân mật (lược ください)",
+          "targets": [
+            "自信"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "6eb572430af12d82",
+      "number": 359,
+      "group": "351–359",
+      "particle": "",
+      "japanese": "自慢",
+      "reading": "じまん",
+      "hanViet": "TỰ MẠN",
+      "vietnamese": "Tự hào/ Tự mãn, tự kiêu",
+      "examples": [
+        {
+          "id": "376e970e49cd8390",
+          "japanese": "その店の自慢の一品を頼む。",
+          "vietnamese": "Gọi món tâm đắc nhất của quán đó.",
+          "reading": "そのみせのじまんのひとしなをたのむ。",
+          "grammar": "自慢の＋N = N đáng tự hào, món \"tủ\"",
+          "targets": [
+            "自慢"
+          ]
+        },
+        {
+          "id": "b833581054873622",
+          "japanese": "酒を飲んでも酔わないことだけが自慢だったのに…",
+          "vietnamese": "Thứ duy nhất tôi tự hào là uống rượu không say, vậy mà…",
+          "reading": "さけをのんでもよわないことだけがじまんだったのに…",
+          "grammar": "V ても = dù ~ cũng; ～だけ = chỉ ~; ～のに = vậy mà (tiếc nuối, trái mong đợi)",
+          "targets": [
+            "自慢"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "e75cfa44067d3a59",
+      "number": 360,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "感心",
+      "reading": "かんしん",
+      "hanViet": "CẢM TÂM",
+      "vietnamese": "Khâm phục/ Giỏi, ngoan",
+      "examples": [
+        {
+          "id": "ae96d589ae5e83bd",
+          "japanese": "チンさんの進歩の速さに感心した。",
+          "vietnamese": "Tôi khâm phục tốc độ tiến bộ của anh Chin.",
+          "reading": "チンさんのしんぽのはやさにかんしんした。",
+          "grammar": "～に感心する = khâm phục ~; tính từ い bỏ い＋さ = danh từ hoá (速さ = độ nhanh)",
+          "targets": [
+            "感心"
+          ]
+        },
+        {
+          "id": "5b7a259e40888c39",
+          "japanese": "太郎君はよく親の手伝いをする、感心な子どもだ。",
+          "vietnamese": "Taro là đứa trẻ ngoan, hay giúp đỡ bố mẹ.",
+          "reading": "たろうくんはよくおやのてつだいをする、かんしんなこどもだ。",
+          "grammar": "感心な＋N = N giỏi giang, đáng khen — 感心 dùng như tính từ な",
+          "targets": [
+            "感心"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "ナ形",
+          "text": "感心な (かんしんな)"
+        }
+      ]
+    },
+    {
+      "id": "6ecc554b88410e5d",
+      "number": 361,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "感動",
+      "reading": "かんどう",
+      "hanViet": "CẢM ĐỘNG",
+      "vietnamese": "Cảm động",
+      "examples": [
+        {
+          "id": "a089fd56dfe47e81",
+          "japanese": "ピカソの絵に感動し／感動させられ、若いころは画家を目指していた。",
+          "vietnamese": "Cảm động / bị lay động trước tranh Picasso, hồi trẻ tôi từng muốn trở thành hoạ sĩ.",
+          "reading": "ピカソのえにかんどうし／かんどうさせられ、わかいころはがかをめざしていた。",
+          "grammar": "～に感動する = cảm động trước ~; 感動させられる = bị làm cho cảm động (sai khiến bị động); V ます bỏ ます = nối câu kiểu văn viết; ～を目指す = nhắm tới ~",
+          "targets": [
+            "感動"
+          ]
+        },
+        {
+          "id": "1ae3bc230c0c5a67",
+          "japanese": "感動的な作品",
+          "vietnamese": "Tác phẩm cảm động",
+          "reading": "かんどうてきなさくひん",
+          "grammar": "N＋的な = mang tính ~ (biến danh từ thành tính từ な)",
+          "targets": [
+            "感動"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "感動的な (かんどうてきな)"
+        }
+      ]
+    },
+    {
+      "id": "2c69f408a1b5450a",
+      "number": 362,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "興奮",
+      "reading": "こうふん",
+      "hanViet": "HƯNG PHẤN",
+      "vietnamese": "Xúc động, quá khích",
+      "examples": [
+        {
+          "id": "18390518698d72d4",
+          "japanese": "試合を見ていた観客たちは、興奮して大声を出した。",
+          "vietnamese": "Khán giả đang xem trận đấu phấn khích hét lớn.",
+          "reading": "しあいをみていたかんきゃくたちは、こうふんしておおごえをだした。",
+          "grammar": "V ていた＋N = N đang ~ (mệnh đề bổ nghĩa); 大声を出す = hét to",
+          "targets": [
+            "興奮"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "e4293471c788ce16",
+      "number": 363,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "感想",
+      "reading": "かんそう",
+      "hanViet": "CẢM TƯỞNG",
+      "vietnamese": "Suy nghĩ, cảm nhận",
+      "examples": [
+        {
+          "id": "7159b82fabf9b73e",
+          "japanese": "記者：「ご感想をお願いします。」選手：「サイコーでした！！！」",
+          "vietnamese": "Phóng viên: \"Xin anh cho biết cảm nghĩ.\" Tuyển thủ: \"Tuyệt vời nhất!!!\"",
+          "reading": "きしゃ：「ごかんそうをおねがいします。」せんしゅ：「サイコーでした！！！」",
+          "grammar": "ご＋N＋をお願いします = xin (cho) ~ (lịch sự); サイコー = 最高, viết katakana cho mạnh",
+          "targets": [
+            "感想"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "感想を述べる (かんそうをのべる) = Nêu cảm nghĩ"
+        }
+      ]
+    },
+    {
+      "id": "d6ba37985a006b19",
+      "number": 364,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "予想",
+      "reading": "よそう",
+      "hanViet": "DỰ TƯỞNG",
+      "vietnamese": "Dự đoán",
+      "examples": [
+        {
+          "id": "dfd0ca2bea67ca5f",
+          "japanese": "選挙の結果は予想を裏切るものだった。（≒ 予測）",
+          "vietnamese": "Kết quả bầu cử đã đi ngược dự đoán. (≒ 予測 = dự báo)",
+          "reading": "せんきょのけっかはよそうをうらぎるものだった。（≒ よそく）",
+          "grammar": "予想を裏切る = trái với dự đoán (nghĩa đen: phản bội dự đoán)",
+          "targets": [
+            "予想"
+          ]
+        },
+        {
+          "id": "809931833c387350",
+          "japanese": "予想通り、２人は付き合ってしまった。",
+          "vietnamese": "Đúng như dự đoán, hai người đã hẹn hò với nhau.",
+          "reading": "よそうどおり、ふたりはつきあってしまった。",
+          "grammar": "N＋通り = đúng như ~; V てしまう = rốt cuộc đã ~",
+          "targets": [
+            "予想"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "予想通り (よそうどおり) = Đúng với dự đoán ＞＜ 予想外 (よそうがい) = Trái với dự đoán"
+        },
+        {
+          "label": "使い分け",
+          "text": "予想 = 自分の考え (mang tính chủ quan); 予測 (よそく) = データ (mang tính khách quan)"
+        }
+      ]
+    },
+    {
+      "id": "024241a4263a92e3",
+      "number": 365,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "専門",
+      "reading": "せんもん",
+      "hanViet": "CHUYÊN MÔN",
+      "vietnamese": "Chuyên môn (học vấn, nghề nghiệp)",
+      "examples": [
+        {
+          "id": "a5395b9b7c2cf473",
+          "japanese": "専門は言語学です。",
+          "vietnamese": "Chuyên môn của tôi là ngôn ngữ học.",
+          "reading": "せんもんはげんごがくです。",
+          "grammar": "",
+          "targets": [
+            "専門"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "専門家 (せんもんか)・専門知識 (せんもんちしき)・専門分野 (せんもんぶんや)"
+        }
+      ]
+    },
+    {
+      "id": "2f4d920e4e3c1f0c",
+      "number": 366,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "研究",
+      "reading": "けんきゅう",
+      "hanViet": "NGHIÊN CỨU",
+      "vietnamese": "Học tập, nghiên cứu",
+      "examples": [
+        {
+          "id": "c81f0d42ff8dd512",
+          "japanese": "大学で日本の政治について研究している。",
+          "vietnamese": "Tôi đang nghiên cứu về chính trị Nhật Bản ở trường đại học.",
+          "reading": "だいがくでにほんのせいじについてけんきゅうしている。",
+          "grammar": "～について = về ~",
+          "targets": [
+            "研究"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "研究者 (けんきゅうしゃ)"
+        }
+      ]
+    },
+    {
+      "id": "139c92c10ffa04f0",
+      "number": 367,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "調査",
+      "reading": "ちょうさ",
+      "hanViet": "ĐIỀU TRA",
+      "vietnamese": "Điều tra",
+      "examples": [
+        {
+          "id": "a44071d1afb760ac",
+          "japanese": "学生の希望を調査する。",
+          "vietnamese": "Khảo sát nguyện vọng của sinh viên.",
+          "reading": "がくせいのきぼうをちょうさする。",
+          "grammar": "",
+          "targets": [
+            "調査"
+          ]
+        },
+        {
+          "id": "8f98643c2459466d",
+          "japanese": "市場調査を行う。",
+          "vietnamese": "Tiến hành khảo sát thị trường.",
+          "reading": "しじょうちょうさをおこなう。",
+          "grammar": "～を行う = tiến hành ~ (cách nói văn viết của ～をする)",
+          "targets": [
+            "調査"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "使い分け",
+          "text": "アンケート ＜ 調査"
+        },
+        {
+          "label": "使い分け",
+          "text": "調査 = khảo sát, điều tra (cụ thể, chi tiết hơn); アンケート = phiếu điều tra"
+        }
+      ]
+    },
+    {
+      "id": "128eec2886ce467e",
+      "number": 368,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "原因",
+      "reading": "げんいん",
+      "hanViet": "NGUYÊN NHÂN",
+      "vietnamese": "Nguyên nhân",
+      "examples": [
+        {
+          "id": "6b8006f133bd0628",
+          "japanese": "警察が事故の原因を調べている。",
+          "vietnamese": "Cảnh sát đang điều tra nguyên nhân vụ tai nạn.",
+          "reading": "けいさつがじこのげんいんをしらべている。",
+          "grammar": "",
+          "targets": [
+            "原因"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "結果 (けっか)"
+        },
+        {
+          "label": "類",
+          "text": "理由 (りゆう)"
+        }
+      ]
+    },
+    {
+      "id": "1759902b13cd3af9",
+      "number": 369,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "結果",
+      "reading": "けっか",
+      "hanViet": "KẾT QUẢ",
+      "vietnamese": "Kết quả",
+      "examples": [
+        {
+          "id": "ab75aefb86afd11c",
+          "japanese": "コロナが原因で、多くの飲食店が閉店する結果となった。",
+          "vietnamese": "Vì dịch Corona mà rốt cuộc nhiều quán ăn đã phải đóng cửa.",
+          "reading": "コロナがげんいんで、おおくのいんしょくてんがへいてんするけっかとなった。",
+          "grammar": "～が原因で = do ~ (nêu nguyên nhân); ～結果となる = kết cục là ~",
+          "targets": [
+            "結果"
+          ]
+        },
+        {
+          "id": "0c2c1b49b6d23b27",
+          "japanese": "努力した結果、初めはできなかったことが、できるようになった。（≒ 努力が実る）",
+          "vietnamese": "Nhờ nỗ lực mà những việc lúc đầu không làm được nay đã làm được. (≒ nỗ lực đơm hoa kết trái)",
+          "reading": "どりょくしたけっか、はじめはできなかったことが、できるようになった。（≒ どりょくがみのる）",
+          "grammar": "V た＋結果 = kết quả của việc đã ~ là…; V る＋ようになる = trở nên (làm được) ~",
+          "targets": [
+            "結果"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "e5cc45081d98fd8c",
+      "number": 370,
+      "group": "360–370",
+      "particle": "",
+      "japanese": "解決",
+      "reading": "かいけつ",
+      "hanViet": "GIẢI QUYẾT",
+      "vietnamese": "Giải quyết",
+      "examples": [
+        {
+          "id": "e12d5e0efe56e385",
+          "japanese": "大きな問題が解決した。",
+          "vietnamese": "Vấn đề lớn đã được giải quyết.",
+          "reading": "おおきなもんだいがかいけつした。",
+          "grammar": "～が解決する = ~ được giải quyết (自 — tự động từ, đi với が)",
+          "targets": [
+            "解決"
+          ]
+        },
+        {
+          "id": "04ad5b7c083ce71d",
+          "japanese": "トラブルを解決する。",
+          "vietnamese": "Giải quyết rắc rối.",
+          "reading": "トラブルをかいけつする。",
+          "grammar": "～を解決する = giải quyết ~ (他 — tha động từ, đi với を)",
+          "targets": [
+            "解決"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "※",
+          "text": "Hay đi với 問題 (もんだい)・トラブル・事件 (じけん)・悩み (なやみ)"
+        }
+      ]
     }
   ]
 }

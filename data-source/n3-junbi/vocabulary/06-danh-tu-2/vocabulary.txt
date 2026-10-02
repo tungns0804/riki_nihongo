@@ -1,14 +1,17 @@
-# N3 JUNBI — 文字語彙 · DANH TỪ 2 (311–318)
-# Nguồn: ảnh chụp trang từ vựng Riki (thẻ "311–318"), người dùng gửi 2026-09-24.
+# N3 JUNBI — 文字語彙 · DANH TỪ 2 (311–318, 351–370)
+# Nguồn: ảnh chụp trang từ vựng Riki (thẻ "311–318"), người dùng gửi 2026-09-24;
+# PDF 第19課 (351–370), người dùng gửi 2026-10-02.
 # Định dạng: xem data-source/n3-junbi/vocabulary/README.md
 #
 # Đây là bài danh từ THỨ HAI, đứng riêng với bài "Danh từ" (01–120) đúng như trên web
-# Riki. Chưa biết số bài trong giáo trình nên nhãn cụm chỉ ghi khoảng số từ.
+# Riki. Cụm 311–318 chưa biết số bài trong giáo trình nên nhãn chỉ ghi khoảng số từ.
 #
 # Danh từ thì câu ví dụ không cần đánh dấu [ ]: máy tự tìm nguyên mặt chữ trong câu.
 # Chỉ 317 phải đánh dấu, vì thẻ in tiêu đề bằng chữ Hán (お辞儀) mà câu lại viết kana.
 #
 # Bản dịch, dòng 読 (cách đọc cả câu) và dòng 文法 là phần viết thêm, không có trên thẻ.
+
+# ── 311〜318 (ảnh thẻ Riki) ────────────────────────────────────
 
 ## 311–318 = Chăm sóc, biết ơn và phép xã giao
 311. 世話 (せわ) = THẾ THOẠI ; Chăm sóc/ Hỗ trợ, giúp đỡ
@@ -52,3 +55,181 @@
 ・コンサートでアイドルと握手した。| Tôi đã bắt tay thần tượng ở buổi hoà nhạc.
 読: コンサートでアイドルとあくしゅした。
 文法: N と握手する = bắt tay với ai — người cùng làm đi với と chứ không phải を
+
+# ── 第19課：351〜370 ────────────────────────────────────────────
+
+# nguồn: bai-192-tu-vung-cai-thien-360-370.pdf (bản PDF này in trọn 第19課: 351–370;
+# chỉ tên file cho biết buổi 19.2 bắt đầu từ 360, nên 351–359 là buổi 19.1)
+# Sách in nhãn 連 thành 蓮 ở mọi chỗ — chép lại đúng nhãn 連.
+## 351–359 = Bài 19.1 · Sự cố, hỏng hóc và trạng thái bản thân
+351. 事故 (じこ) = SỰ CỐ ; Tai nạn, sự cố
+・交通事故の原因を調べる。| Điều tra nguyên nhân vụ tai nạn giao thông.
+読: こうつうじこのげんいんをしらべる。
+文法: ～の原因を調べる = tìm hiểu, điều tra nguyên nhân của ~
+合: 交通事故 (こうつうじこ) = Tai nạn giao thông
+連: 事故が起こる／を起こす／にあう = Tai nạn xảy ra / gây ra tai nạn / gặp tai nạn (≒ が発生する (はっせいする))
+
+352. 事件 (じけん) = SỰ KIỆN ; Vụ án, vụ kiện/ Vụ ~
+# 意味① Vụ án: hai câu ví dụ. 意味② Vụ ~: ba từ ghép ở dòng 合.
+# Câu thứ hai sách in trong mục 連; chép thành câu ví dụ vì nó là một câu trọn vẹn.
+・近所で子どもが次々といなくなるという事件が起こった。| Ở khu gần nhà đã xảy ra vụ trẻ em lần lượt mất tích.
+読: きんじょでこどもがつぎつぎといなくなるというじけんがおこった。
+文法: ～という＋N = N có nội dung là ~; 次々と = lần lượt, hết người này tới người khác
+・事件を解決するために、警察が動く。| Cảnh sát vào cuộc để phá vụ án.
+読: じけんをかいけつするために、けいさつがうごく。
+文法: V る＋ために = để ~ (mục đích)
+連: 事件が発生する (はっせいする)・事件を起こす = Vụ án xảy ra / gây án
+合: 殺人事件 (さつじんじけん) = Vụ giết người
+合: 盗難事件 (とうなんじけん) = Vụ trộm cắp
+合: 未解決事件 (みかいけつじけん) = Vụ án chưa giải quyết
+
+353. 故障 (こしょう) = CỐ CHƯỚNG ; Bị hỏng
+・洗濯機が故障したので、コインランドリーへ行った。| Máy giặt bị hỏng nên tôi đã ra tiệm giặt tự động.
+読: せんたくきがこしょうしたので、コインランドリーへいった。
+文法: ～が故障する = ~ bị hỏng (máy móc); ～ので = vì ~ nên
+
+354. 修理 (しゅうり) = TU LÝ ; Sửa
+・パソコンがこわれたので、（パソコンを）修理に出した。| Máy tính bị hỏng nên tôi đã đem (máy tính) đi sửa.
+読: パソコンがこわれたので、（パソコンを）しゅうりにだした。
+文法: ～を修理に出す = đem ~ đi sửa (gửi cho thợ sửa, không tự sửa)
+# "修理屋さん21" là tên một tiệm sửa chữa — câu quảng cáo, chép đúng như sách.
+・iPhone修理なら、修理屋さんに21におまかせください。| Sửa iPhone thì xin cứ giao cho tiệm sửa chữa 21.
+読: iPhoneしゅうりなら、しゅうりやさんに21におまかせください。
+文法: ～なら = nếu là chuyện ~ thì; お＋V ます bỏ ます＋ください = xin hãy ~ (kính ngữ: おまかせください = xin cứ giao cho)
+合: 修理屋 (しゅうりや) = Tiệm sửa chữa
+
+355. 停電 (ていでん) = ĐÌNH ĐIỆN ; Mất điện
+・雷が落ちて停電した。| Sét đánh nên bị mất điện.
+読: かみなりがおちてていでんした。
+文法: 雷が落ちる = sét đánh; ～て = vì ~ nên
+
+356. 調子 (ちょうし) = ĐIỀU TỬ ; Tình trạng/ Phong độ/ Giọng điệu
+# 意味① Tình trạng: câu đầu. 意味② Phong độ: hai câu tiếp và các dòng 対, 関. 意味③ Giọng điệu: câu cuối.
+# Sách ghi "（他：を上げる） ＞＜ が下がり／を下げる" ngay sau câu thứ ba; chuyển xuống dòng 対.
+・（体／声／お腹）の調子がいい ＞＜ が悪い | Tình trạng (cơ thể / giọng / bụng) tốt ＞＜ không tốt
+読: （からだ／こえ／おなか）のちょうしがいい ＞＜ がわるい
+・あの選手は最近調子がいい ＞＜ が悪い | Dạo này tuyển thủ đó đang có phong độ tốt ＞＜ phong độ kém
+読: あのせんしゅはさいきんちょうしがいい ＞＜ がわるい
+・仕事に慣れて調子が上がってきた。| Quen việc rồi nên phong độ dần lên.
+読: しごとになれてちょうしがあがってきた。
+文法: ～に慣れる = quen với ~; V て＋くる = dần dần ~ (thay đổi từ trước tới giờ)
+・強い調子で話す。（≒ 語調）| Nói bằng giọng gay gắt. (≒ 語調 = giọng điệu)
+読: つよいちょうしではなす。（≒ ごちょう）
+対: 調子が上がる (他: を上げる) ＞＜ 調子が下がる (他: を下げる)
+関: 仕事の調子がいい ≒ 好調 (こうちょう)
+関: 仕事の調子が悪い ≒ 不調 (ふちょう)
+関: 体の調子 ≒ 体調 (たいちょう)
+
+357. 緊張 (きんちょう) = KHẨN TRƯƠNG ; Căng thẳng
+・面接では緊張して、うまく答えられなかった。| Ở buổi phỏng vấn tôi căng thẳng nên không trả lời trôi chảy được.
+読: めんせつではきんちょうして、うまくこたえられなかった。
+文法: ～て = vì ~ nên; 答えられる = trả lời được (thể khả năng)
+・試験の前なので、みんな緊張している。| Vì sắp thi nên ai cũng đang căng thẳng.
+読: しけんのまえなので、みんなきんちょうしている。
+文法: 緊張 là danh từ đi với する — tả trạng thái thì dùng ～している, không nói ～緊張だ
+・緊張が解ける・緊張がゆるんだと同時に、お腹が鳴った。| Ngay khi hết căng thẳng / căng thẳng dịu xuống thì bụng sôi lên.
+読: きんちょうがとける・きんちょうがゆるんだとどうじに、おなかがなった。
+文法: ～と同時に = cùng lúc với ~, ngay khi ~; 緊張が解ける・ゆるむ = hết / bớt căng thẳng
+使い方: みんな（緊張している）○ ／ みんな（緊張だ）✕
+
+358. 自信 (じしん) = TỰ TÍN ; Tự tin
+・体力に自信がある／を持つ。| Tự tin vào thể lực.
+読: たいりょくにじしんがある／をもつ。
+文法: ～に自信がある = tự tin về ~; 自信を持つ = có (giữ) sự tự tin
+・「この成績なら合格しますよ、もっと自信をつけて」| "Thành tích thế này thì đỗ thôi, tự tin hơn nữa đi."
+読: 「このせいせきならごうかくしますよ、もっとじしんをつけて」
+文法: ～なら = nếu là ~ thì; 自信をつける = tạo thêm tự tin; V て cuối câu = lời khuyên thân mật (lược ください)
+
+359. 自慢 (じまん) = TỰ MẠN ; Tự hào/ Tự mãn, tự kiêu
+・その店の自慢の一品を頼む。| Gọi món tâm đắc nhất của quán đó.
+読: そのみせのじまんのひとしなをたのむ。
+文法: 自慢の＋N = N đáng tự hào, món "tủ"
+・酒を飲んでも酔わないことだけが自慢だったのに…| Thứ duy nhất tôi tự hào là uống rượu không say, vậy mà…
+読: さけをのんでもよわないことだけがじまんだったのに…
+文法: V ても = dù ~ cũng; ～だけ = chỉ ~; ～のに = vậy mà (tiếc nuối, trái mong đợi)
+
+# nguồn: bai-192-tu-vung-cai-thien-360-370.pdf
+## 360–370 = Bài 19.2 · Cảm xúc, nhận định và tìm nguyên nhân
+360. 感心 (かんしん) = CẢM TÂM ; Khâm phục/ Giỏi, ngoan
+# 意味① Khâm phục: câu đầu. 意味② Giỏi, ngoan: câu sau, dùng như tính từ な (dòng ナ形).
+・チンさんの進歩の速さに感心した。| Tôi khâm phục tốc độ tiến bộ của anh Chin.
+読: チンさんのしんぽのはやさにかんしんした。
+文法: ～に感心する = khâm phục ~; tính từ い bỏ い＋さ = danh từ hoá (速さ = độ nhanh)
+・太郎君はよく親の手伝いをする、感心な子どもだ。| Taro là đứa trẻ ngoan, hay giúp đỡ bố mẹ.
+読: たろうくんはよくおやのてつだいをする、かんしんなこどもだ。
+文法: 感心な＋N = N giỏi giang, đáng khen — 感心 dùng như tính từ な
+ナ形: 感心な (かんしんな)
+
+361. 感動 (かんどう) = CẢM ĐỘNG ; Cảm động
+・ピカソの絵に感動し／感動させられ、若いころは画家を目指していた。| Cảm động / bị lay động trước tranh Picasso, hồi trẻ tôi từng muốn trở thành hoạ sĩ.
+読: ピカソのえにかんどうし／かんどうさせられ、わかいころはがかをめざしていた。
+文法: ～に感動する = cảm động trước ~; 感動させられる = bị làm cho cảm động (sai khiến bị động); V ます bỏ ます = nối câu kiểu văn viết; ～を目指す = nhắm tới ~
+・感動的な作品 | Tác phẩm cảm động
+読: かんどうてきなさくひん
+文法: N＋的な = mang tính ~ (biến danh từ thành tính từ な)
+合: 感動的な (かんどうてきな)
+
+362. 興奮 (こうふん) = HƯNG PHẤN ; Xúc động, quá khích
+・試合を見ていた観客たちは、興奮して大声を出した。| Khán giả đang xem trận đấu phấn khích hét lớn.
+読: しあいをみていたかんきゃくたちは、こうふんしておおごえをだした。
+文法: V ていた＋N = N đang ~ (mệnh đề bổ nghĩa); 大声を出す = hét to
+
+363. 感想 (かんそう) = CẢM TƯỞNG ; Suy nghĩ, cảm nhận
+・記者：「ご感想をお願いします。」選手：「サイコーでした！！！」| Phóng viên: "Xin anh cho biết cảm nghĩ." Tuyển thủ: "Tuyệt vời nhất!!!"
+読: きしゃ：「ごかんそうをおねがいします。」せんしゅ：「サイコーでした！！！」
+文法: ご＋N＋をお願いします = xin (cho) ~ (lịch sự); サイコー = 最高, viết katakana cho mạnh
+連: 感想を述べる (かんそうをのべる) = Nêu cảm nghĩ
+
+364. 予想 (よそう) = DỰ TƯỞNG ; Dự đoán
+・選挙の結果は予想を裏切るものだった。（≒ 予測）| Kết quả bầu cử đã đi ngược dự đoán. (≒ 予測 = dự báo)
+読: せんきょのけっかはよそうをうらぎるものだった。（≒ よそく）
+文法: 予想を裏切る = trái với dự đoán (nghĩa đen: phản bội dự đoán)
+・予想通り、２人は付き合ってしまった。| Đúng như dự đoán, hai người đã hẹn hò với nhau.
+読: よそうどおり、ふたりはつきあってしまった。
+文法: N＋通り = đúng như ~; V てしまう = rốt cuộc đã ~
+合: 予想通り (よそうどおり) = Đúng với dự đoán ＞＜ 予想外 (よそうがい) = Trái với dự đoán
+使い分け: 予想 = 自分の考え (mang tính chủ quan); 予測 (よそく) = データ (mang tính khách quan)
+
+365. 専門 (せんもん) = CHUYÊN MÔN ; Chuyên môn (học vấn, nghề nghiệp)
+・専門は言語学です。| Chuyên môn của tôi là ngôn ngữ học.
+読: せんもんはげんごがくです。
+合: 専門家 (せんもんか)・専門知識 (せんもんちしき)・専門分野 (せんもんぶんや)
+
+366. 研究 (けんきゅう) = NGHIÊN CỨU ; Học tập, nghiên cứu
+・大学で日本の政治について研究している。| Tôi đang nghiên cứu về chính trị Nhật Bản ở trường đại học.
+読: だいがくでにほんのせいじについてけんきゅうしている。
+文法: ～について = về ~
+合: 研究者 (けんきゅうしゃ)
+
+367. 調査 (ちょうさ) = ĐIỀU TRA ; Điều tra
+・学生の希望を調査する。| Khảo sát nguyện vọng của sinh viên.
+読: がくせいのきぼうをちょうさする。
+・市場調査を行う。| Tiến hành khảo sát thị trường.
+読: しじょうちょうさをおこなう。
+文法: ～を行う = tiến hành ~ (cách nói văn viết của ～をする)
+使い分け: アンケート ＜ 調査
+使い分け: 調査 = khảo sát, điều tra (cụ thể, chi tiết hơn); アンケート = phiếu điều tra
+
+368. 原因 (げんいん) = NGUYÊN NHÂN ; Nguyên nhân
+・警察が事故の原因を調べている。| Cảnh sát đang điều tra nguyên nhân vụ tai nạn.
+読: けいさつがじこのげんいんをしらべている。
+対: 結果 (けっか)
+類: 理由 (りゆう)
+
+369. 結果 (けっか) = KẾT QUẢ ; Kết quả
+・コロナが原因で、多くの飲食店が閉店する結果となった。| Vì dịch Corona mà rốt cuộc nhiều quán ăn đã phải đóng cửa.
+読: コロナがげんいんで、おおくのいんしょくてんがへいてんするけっかとなった。
+文法: ～が原因で = do ~ (nêu nguyên nhân); ～結果となる = kết cục là ~
+・努力した結果、初めはできなかったことが、できるようになった。（≒ 努力が実る）| Nhờ nỗ lực mà những việc lúc đầu không làm được nay đã làm được. (≒ nỗ lực đơm hoa kết trái)
+読: どりょくしたけっか、はじめはできなかったことが、できるようになった。（≒ どりょくがみのる）
+文法: V た＋結果 = kết quả của việc đã ~ là…; V る＋ようになる = trở nên (làm được) ~
+
+# Sách ghi (自) sau câu đầu, (他) sau câu sau; ghi lại ở dòng 文法 cho khỏi lẫn vào câu.
+370. 解決 (かいけつ) = GIẢI QUYẾT ; Giải quyết
+・大きな問題が解決した。| Vấn đề lớn đã được giải quyết.
+読: おおきなもんだいがかいけつした。
+文法: ～が解決する = ~ được giải quyết (自 — tự động từ, đi với が)
+・トラブルを解決する。| Giải quyết rắc rối.
+読: トラブルをかいけつする。
+文法: ～を解決する = giải quyết ~ (他 — tha động từ, đi với を)
+※: Hay đi với 問題 (もんだい)・トラブル・事件 (じけん)・悩み (なやみ)

@@ -157,7 +157,7 @@ một loại từ đã học, nên phần này có cả "Danh từ" (01–120) l
 | `03-tinh-tu`   | Tính từ      | 34 từ · 第14課 (259–280) chia 3 cụm 259–265 (bài 14.1), 266–273 (bài 14.2), 274–280 (bài 14.3); thêm cụm 299–310 (sáu cặp tự/tha động từ sinh ra từ tính từ), có chủ đề |
 | `04-katakana`  | Katakana     | chờ nội dung |
 | `05-pho-tu`    | Phó từ       | chờ nội dung |
-| `06-danh-tu-2` | Danh từ 2    | 8 từ · 311–318, một cụm "Chăm sóc, biết ơn và phép xã giao", có chủ đề |
+| `06-danh-tu-2` | Danh từ 2    | 28 từ · 311–318 (cụm "Chăm sóc, biết ơn và phép xã giao") và 第19課 (351–370) chia 2 cụm 351–359 (bài 19.1), 360–370 (bài 19.2), có chủ đề |
 
 Thêm nội dung cho một bài = đặt file `vocabulary.txt` vào đúng thư mục của bài đó rồi
 chạy `npm run generate`. Động từ mới của 第8課 trở đi thì viết nối vào cuối
