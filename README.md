@@ -199,8 +199,9 @@ Bài từ vựng luyện được theo sáu chiều:
 Hai chiều Hán Việt chỉ hỏi những từ có âm Hán Việt — từ viết thuần kana (けが, かゆい)
 tự bị bỏ qua, bài toàn katakana thì hai chiều này không hiện. Chiều Hán Việt → Nhật kèm
 nghĩa làm gợi ý, vì một âm ứng với nhiều chữ (ĐẢO là cả 倒れる lẫn 倒す), và ba đáp án
-nhiễu không bao giờ là từ cùng âm Hán Việt với đáp án. Gõ âm Hán Việt thì chấm như gõ
-nghĩa: không phân biệt hoa thường, bỏ qua dấu.
+nhiễu không bao giờ là từ cùng âm Hán Việt với đáp án. Gõ âm Hán Việt thì phải đúng
+dấu (không phân biệt hoa thường): khác với nghĩa, dấu là chỗ phân biệt chữ — TỰ, TỪ, TỨ
+bỏ dấu đều thành "tu". Thẻ kanji chỉ ghi âm Hán Việt (任 = NHIỆM) cũng chấm như vậy.
 
 Chiều cuối lấy chính câu ví dụ của giáo trình, khoét từ cần học ra rồi bắt điền lại —
 đúng dạng đề 文字語彙 của kỳ thi. Gõ cách đọc thay cho kanji cũng tính đúng.

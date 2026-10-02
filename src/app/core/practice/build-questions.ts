@@ -150,9 +150,9 @@ function fromVocabulary(
       promptIsJapanese: isJapaneseField(prompt),
       hint: vocabHint(word, direction),
       answer: correct,
-      // Âm Hán Việt chấm như tiếng Việt: không phân biệt hoa thường và bỏ qua dấu, nên
-      // gõ "su co" cũng khớp "SỰ CỐ".
       answerIsJapanese: isJapaneseField(answer),
+      // Gõ "sự cố" khớp "SỰ CỐ", còn "su co" thì không.
+      answerIsHanViet: answer === 'hanViet',
       acceptedAnswers: [correct],
       choices: withChoices ? buildChoices(correct, poolFor(word)) : [],
       choiceNotes: [],
@@ -292,6 +292,7 @@ function sentenceQuestion(
     hint: word.vietnamese,
     answer: blank,
     answerIsJapanese: true,
+    answerIsHanViet: false,
     // Gõ cách đọc cũng tính đúng: người học nhớ từ mà chưa gõ được kanji thì vẫn là
     // nhớ từ.
     acceptedAnswers: reading ? [blank, reading] : [blank],
@@ -372,6 +373,9 @@ function fromKanji(
       hint: askForCharacter || hanVietIsAnswer ? '' : entry.hanViet,
       answer: correct,
       answerIsJapanese: isReadingQuestion || askForCharacter,
+      // Thẻ kanji không ghi nghĩa thì đáp án Nhật → Việt chính là âm Hán Việt (任 =
+      // NHIỆM), nên cũng phải gõ đúng dấu như chiều Nhật → Hán Việt của từ vựng.
+      answerIsHanViet: hanVietIsAnswer && !askForCharacter,
       // Chữ có nhiều âm On/Kun thì gõ đúng MỘT âm là đủ.
       acceptedAnswers: isReadingQuestion ? readings : [correct],
       choices: withChoices
@@ -437,6 +441,7 @@ function fromGrammar(
       hint: point.title,
       answer: correct,
       answerIsJapanese: askForJapanese,
+      answerIsHanViet: false,
       acceptedAnswers: [correct],
       choices: withChoices ? buildChoices(correct, pool) : [],
       choiceNotes: [],
@@ -486,6 +491,7 @@ export function fromQuizQuestions(questions: readonly QuizQuestion[]): PracticeQ
         hint: question.promptJapanese ? question.prompt : '',
         answer: answer.text,
         answerIsJapanese: true,
+        answerIsHanViet: false,
         acceptedAnswers: [answer.text],
         choices: question.choices.map((choice) => choice.text),
         choiceNotes: question.choices.map((choice) => choice.note),

@@ -80,6 +80,15 @@ export interface PracticeQuestion {
   /** Đáp án đúng, dạng hiển thị. */
   answer: string;
   answerIsJapanese: boolean;
+  /**
+   * Đáp án là âm Hán Việt: gõ tay thì phải đúng DẤU (hoa thường vẫn không tính).
+   *
+   * Nghĩa tiếng Việt được bỏ qua dấu vì gõ dấu trên bàn phím Nhật rất cực, mà sai dấu
+   * hiếm khi đổi nghĩa. Âm Hán Việt thì ngược lại: dấu chính là chỗ phân biệt chữ —
+   * TỰ (自), TỪ (辞), TỨ (四) bỏ dấu ra đều thành "tu". Bỏ qua dấu ở đây là chấm đúng
+   * cả khi người học chưa nhớ âm.
+   */
+  answerIsHanViet: boolean;
   /** Mọi cách viết được chấp nhận khi gõ tay. Luôn chứa `answer`. */
   acceptedAnswers: string[];
   /** Lựa chọn cho chế độ trắc nghiệm, đã trộn. Rỗng ở chế độ gõ. */

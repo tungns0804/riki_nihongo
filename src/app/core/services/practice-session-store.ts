@@ -189,7 +189,8 @@ export class PracticeSessionStore {
 function grade(question: PracticeQuestion, given: string): boolean {
   return isAnswerCorrect(given, question.acceptedAnswers, {
     // Đáp án tiếng Nhật thì không có dấu tiếng Việt để mà bỏ qua; đáp án tiếng
-    // Việt thì bỏ qua dấu, vì gõ tiếng Việt có dấu trên bàn phím Nhật rất cực.
-    ignoreDiacritics: !question.answerIsJapanese,
+    // Việt thì bỏ qua dấu, vì gõ tiếng Việt có dấu trên bàn phím Nhật rất cực — trừ
+    // âm Hán Việt, nơi dấu là chỗ phân biệt chữ (xem `answerIsHanViet`).
+    ignoreDiacritics: !question.answerIsJapanese && !question.answerIsHanViet,
   });
 }

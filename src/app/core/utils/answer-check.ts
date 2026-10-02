@@ -35,7 +35,9 @@ export interface CompareOptions {
 
 /** Đưa một câu trả lời về dạng dùng để so sánh. */
 function normalize(value: string, options: CompareOptions): string {
-  let result = foldFullwidthDigits(String(value ?? ''))
+  // NFC: bộ gõ tiếng Việt có thể gửi dấu dạng tổ hợp (u + dấu nặng) trong khi dữ liệu
+  // viết dạng dựng sẵn (ự). Khi chấm giữ dấu (âm Hán Việt), hai dạng đó phải là một.
+  let result = foldFullwidthDigits(String(value ?? '').normalize('NFC'))
     .split(FULLWIDTH_SPACE)
     .join(' ')
     .replace(PUNCTUATION, ' ')
