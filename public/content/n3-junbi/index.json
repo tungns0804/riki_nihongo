@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-02T04:45:25.292Z",
+  "generatedAt": "2026-10-02T05:36:08.294Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -248,6 +248,17 @@
           "itemCount": 10,
           "order": 107,
           "file": "vocabulary/01-danh-tu-btvn-61-70.json"
+        },
+        {
+          "id": "01-danh-tu-btvn-71-80",
+          "name": "BTVN 71–80",
+          "description": "Bài tập về nhà của cụm 71–80 (Bài 4.2 · Trời đất, thời tiết và hơi ẩm) — 10 câu.",
+          "kind": "test",
+          "parent": "01-danh-tu",
+          "group": "71–80",
+          "itemCount": 10,
+          "order": 108,
+          "file": "vocabulary/01-danh-tu-btvn-71-80.json"
         },
         {
           "id": "03-tinh-tu-btvn-299-310",

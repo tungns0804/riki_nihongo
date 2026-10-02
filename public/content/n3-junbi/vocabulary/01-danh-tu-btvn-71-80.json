@@ -1,0 +1,398 @@
+{
+  "id": "01-danh-tu-btvn-71-80",
+  "name": "BTVN 71–80",
+  "description": "Bài tập về nhà của cụm 71–80 (Bài 4.2 · Trời đất, thời tiết và hơi ẩm) — 10 câu.",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "71–80",
+  "sections": [
+    {
+      "id": "btvn-71-80",
+      "title": "文字語彙 — BTVN 71–80 (10 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-btvn-7180-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "寒いですね。（　　　）をつけましょうか。",
+          "promptReading": "さむいですね。（　　　）を つけましょうか。",
+          "promptTranslation": "Lạnh nhỉ. Mình bật （　　　） lên nhé?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "画面",
+              "translation": "がめん · Màn hình",
+              "note": "画面 là màn hình; không \"bật màn hình\" vì trời lạnh."
+            },
+            {
+              "id": "c2",
+              "text": "番組",
+              "translation": "ばんぐみ · Chương trình (TV, radio)",
+              "note": "番組 là chương trình TV; trời lạnh thì bật chương trình cũng không ấm lên."
+            },
+            {
+              "id": "c3",
+              "text": "冷房",
+              "translation": "れいぼう · Máy lạnh",
+              "note": "冷房 là máy lạnh — cũng đi với つける, nhưng nghĩa NGƯỢC: lạnh mà còn bật máy lạnh."
+            },
+            {
+              "id": "c4",
+              "text": "暖房",
+              "translation": "だんぼう · Máy sưởi",
+              "note": "Đúng: 寒い → 暖房をつける (bật máy sưởi) — đúng câu mẫu của sách."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Câu mẫu của sách: 寒いので暖房をつける ＞＜ 暖房を消す。対: 冷房 (れいぼう) ＝ クーラー／エアコン. V ましょうか = để tôi ~ nhé? (đề nghị làm giúp).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-7180-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "デートの約束の時間に間に合うよう（　　　）しているが仕事が終わらない",
+          "promptReading": "デートの やくそくの じかんに まにあうよう（　　　）しているが しごとが おわらない",
+          "promptTranslation": "Tôi đang （　　　） cho kịp giờ hẹn hò, nhưng công việc mãi không xong.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "我慢",
+              "translation": "がまん · Chịu đựng",
+              "note": "我慢 là cố nhịn, chịu đựng một thứ khó chịu; muốn kịp giờ thì phải cố làm cho nhanh, không phải \"nhịn\"."
+            },
+            {
+              "id": "c2",
+              "text": "努力",
+              "translation": "どりょく · Nỗ lực, cố gắng",
+              "note": "Đúng: ～ように努力する = cố gắng để ~ — làm hết sức cho kịp giờ hẹn."
+            },
+            {
+              "id": "c3",
+              "text": "創造",
+              "translation": "そうぞう · Sáng tạo (không phải 想像 = tưởng tượng)",
+              "note": "創造 (sáng tạo) — đọc giống 想像 nhưng khác chữ, không hợp nghĩa câu."
+            },
+            {
+              "id": "c4",
+              "text": "賛成",
+              "translation": "さんせい · Tán thành",
+              "note": "賛成 là tán thành một ý kiến, không đi với ～ように."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Câu mẫu của sách: 一生懸命、努力をする。努力を重ねて、希望の大学に入れました。V る＋よう(に) = để ~ (mục đích); ～が = nhưng. Đề in không có dấu 。 cuối câu, chép đúng như đề.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-7180-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）が昇って、温かくなった。",
+          "promptReading": "（　　　）が のぼって、あたたかく なった。",
+          "promptTranslation": "（　　　） lên cao nên trời đã ấm hơn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "太陽",
+              "translation": "たいよう · Mặt trời",
+              "note": "Đúng: 太陽が昇る = mặt trời mọc lên — và chỉ mặt trời mới làm trời ấm lên."
+            },
+            {
+              "id": "c2",
+              "text": "星",
+              "translation": "ほし · Ngôi sao",
+              "note": "星 cũng mọc, nhưng sao không làm trời ấm lên."
+            },
+            {
+              "id": "c3",
+              "text": "月",
+              "translation": "つき · Mặt trăng",
+              "note": "月が昇る nói được, nhưng trăng lên thì không ấm hơn."
+            },
+            {
+              "id": "c4",
+              "text": "地球",
+              "translation": "ちきゅう · Trái đất",
+              "note": "地球 là trái đất mình đang đứng, không \"mọc\" (昇る) được (xem câu 6)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Câu mẫu của sách: 太陽が出る。太陽が昇る ＞＜ 太陽が沈む。～て = vì ~ nên; 温かくなる = trở nên ấm (い-tính từ bỏ い＋くなる).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-7180-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "A：今日蒸し暑いね。\nB：（　　　）が７０％らしいよ。",
+          "promptReading": "A：きょう むしあついね。\nB：（　　　）が ななじゅっパーセント らしいよ。",
+          "promptTranslation": "A: Hôm nay oi bức nhỉ.\nB: Nghe nói （　　　） là 70% đấy.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "気温",
+              "translation": "きおん · Nhiệt độ không khí",
+              "note": "気温 là nhiệt độ không khí, đo bằng độ (℃) chứ không bằng %."
+            },
+            {
+              "id": "c2",
+              "text": "湿度",
+              "translation": "しつど · Độ ẩm",
+              "note": "Đúng: 湿度 đo bằng % — độ ẩm cao là thứ làm trời 蒸し暑い (oi bức)."
+            },
+            {
+              "id": "c3",
+              "text": "温度",
+              "translation": "おんど · Nhiệt độ",
+              "note": "温度 tính bằng ℃, không bằng % (xem câu 7)."
+            },
+            {
+              "id": "c4",
+              "text": "体温",
+              "translation": "たいおん · Thân nhiệt",
+              "note": "体温 là nhiệt độ cơ thể, cũng tính bằng ℃ và không nói chuyện thời tiết."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Câu mẫu của sách: 今日は湿度が90％で蒸し暑い。連: 湿度が高い ＞＜ 湿度が低い. ～らしい = nghe nói ~ (thông tin nghe được).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-7180-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "りんごの（　　　）をむく。",
+          "promptReading": "りんごの（　　　）を むく。",
+          "promptTranslation": "Gọt （　　　） táo.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "かび",
+              "translation": "かび · Nấm mốc",
+              "note": "かび là nấm mốc; mốc thì vứt đi chứ không \"gọt\" (xem câu 10)."
+            },
+            {
+              "id": "c2",
+              "text": "温度",
+              "translation": "おんど · Nhiệt độ",
+              "note": "温度 là nhiệt độ — không gọt được."
+            },
+            {
+              "id": "c3",
+              "text": "皮",
+              "translation": "かわ · Vỏ, da",
+              "note": "Đúng: 皮をむく = gọt vỏ — đúng câu mẫu của sách."
+            },
+            {
+              "id": "c4",
+              "text": "湿度",
+              "translation": "しつど · Độ ẩm",
+              "note": "湿度 là độ ẩm — không gọt được."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Câu mẫu của sách: 果物の皮をむく。むく = gọt, bóc (vỏ). 皮 đọc かわ, cùng âm với 川 (sông) nhưng khác chữ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-7180-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）は回り続けている。",
+          "promptReading": "（　　　）は まわりつづけている。",
+          "promptTranslation": "（　　　） vẫn không ngừng quay.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "地球",
+              "translation": "ちきゅう · Trái đất",
+              "note": "Đúng: 地球は回り続けている = trái đất vẫn quay mãi."
+            },
+            {
+              "id": "c2",
+              "text": "太陽",
+              "translation": "たいよう · Mặt trời",
+              "note": "太陽 là thứ trái đất quay quanh; đề muốn nói thứ đang quay là 地球 (xem câu 3)."
+            },
+            {
+              "id": "c3",
+              "text": "温度",
+              "translation": "おんど · Nhiệt độ",
+              "note": "温度 không \"quay\" được."
+            },
+            {
+              "id": "c4",
+              "text": "梅雨",
+              "translation": "つゆ · Mùa mưa",
+              "note": "梅雨 là mùa mưa — không quay (xem câu 9)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Câu mẫu của sách: 地球の環境が悪化している。地球温暖化。V ます bỏ ます＋続ける = tiếp tục ~ mãi.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-7180-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "おいしい揚げ物をつくる油の（　　　）は180℃だ。",
+          "promptReading": "おいしい あげものを つくる あぶらの（　　　）は ひゃくはちじゅうどだ。",
+          "promptTranslation": "（　　　） của dầu để làm món chiên ngon là 180℃.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "湿気",
+              "translation": "しっけ · Hơi ẩm",
+              "note": "湿気 là hơi ẩm, không đo bằng ℃ (xem câu 8)."
+            },
+            {
+              "id": "c2",
+              "text": "湿度",
+              "translation": "しつど · Độ ẩm",
+              "note": "湿度 đo bằng %, không phải ℃ (xem câu 4)."
+            },
+            {
+              "id": "c3",
+              "text": "温度",
+              "translation": "おんど · Nhiệt độ",
+              "note": "Đúng: 温度 tính bằng ℃ — nhiệt độ của dầu chiên."
+            },
+            {
+              "id": "c4",
+              "text": "かび",
+              "translation": "かび · Nấm mốc",
+              "note": "かび là nấm mốc — không có \"180℃\"."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Câu mẫu của sách: 温度を測る。連: 温度が高い ＞＜ 低い; 温度が上がる ＞＜ 下がる. 温度 dùng cho mọi vật (dầu, nước, phòng); nhiệt độ không khí thì là 気温.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-7180-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "梅雨は（　　　）が多いので髪の毛がハネてしまう。",
+          "promptReading": "つゆは（　　　）が おおいので かみのけが ハネてしまう。",
+          "promptTranslation": "Mùa mưa nhiều （　　　） nên tóc bị vểnh lên.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "湿気",
+              "translation": "しっけ · Hơi ẩm",
+              "note": "Đúng: 湿気が多い = nhiều hơi ẩm — đúng câu mẫu của sách; hơi ẩm làm tóc xù, vểnh."
+            },
+            {
+              "id": "c2",
+              "text": "湿度",
+              "translation": "しつど · Độ ẩm",
+              "note": "湿度 là con số độ ẩm, đi với 高い・低い chứ không với 多い (xem câu 4)."
+            },
+            {
+              "id": "c3",
+              "text": "温度",
+              "translation": "おんど · Nhiệt độ",
+              "note": "温度 đi với 高い・低い, không nói 温度が多い."
+            },
+            {
+              "id": "c4",
+              "text": "かび",
+              "translation": "かび · Nấm mốc",
+              "note": "かび đi với 生える (mọc), không phải thứ làm tóc vểnh (xem câu 10)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Câu mẫu của sách: 湿気が多い ＞＜ 湿気が少ない. Phân biệt: 湿気 (hơi ẩm, 多い・少ない) ⇔ 湿度 (độ ẩm, con số %, 高い・低い). ハネる = (tóc) vểnh, xù lên; ～てしまう = lỡ, bị ~.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-7180-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "今年は（　　　）が明けるのが早い。",
+          "promptReading": "ことしは（　　　）が あけるのが はやい。",
+          "promptTranslation": "Năm nay （　　　） kết thúc sớm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "温度",
+              "translation": "おんど · Nhiệt độ",
+              "note": "温度 không \"明ける\" (kết thúc) được."
+            },
+            {
+              "id": "c2",
+              "text": "梅雨",
+              "translation": "つゆ · Mùa mưa",
+              "note": "Đúng: 梅雨が明ける = hết mùa mưa — dòng 連 của sách: 梅雨に入る ＞＜ 梅雨が明ける."
+            },
+            {
+              "id": "c3",
+              "text": "太陽",
+              "translation": "たいよう · Mặt trời",
+              "note": "太陽 thì 昇る・沈む, không 明ける (xem câu 3)."
+            },
+            {
+              "id": "c4",
+              "text": "地球",
+              "translation": "ちきゅう · Trái đất",
+              "note": "地球 không 明ける được (xem câu 6)."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "連 của sách: 梅雨に入る (vào mùa mưa) ＞＜ 梅雨が明ける (hết mùa mưa). Câu mẫu: 6月から7月は梅雨の時期だ。V る＋のが早い = ~ sớm.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-7180-10",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "湿気が多い場所に（　　　）は生えやすい。",
+          "promptReading": "しっけが おおい ばしょに（　　　）は はえやすい。",
+          "promptTranslation": "Ở chỗ nhiều hơi ẩm thì （　　　） dễ mọc.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "かび",
+              "translation": "かび · Nấm mốc",
+              "note": "Đúng: かびが生える = mốc mọc — đúng câu mẫu của sách."
+            },
+            {
+              "id": "c2",
+              "text": "皮",
+              "translation": "かわ · Vỏ, da",
+              "note": "皮 là vỏ, không \"mọc\" (生える) ở chỗ ẩm (xem câu 5)."
+            },
+            {
+              "id": "c3",
+              "text": "湿気",
+              "translation": "しっけ · Hơi ẩm",
+              "note": "湿気 đã có ở đầu câu; hơi ẩm không \"mọc\" được (xem câu 8)."
+            },
+            {
+              "id": "c4",
+              "text": "梅雨",
+              "translation": "つゆ · Mùa mưa",
+              "note": "梅雨 là mùa, không mọc được (xem câu 9)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Câu mẫu của sách: 梅雨の時期はかびが生えやすい。生える = mọc (tóc, cỏ, mốc); V ます bỏ ます＋やすい = dễ ~.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}
