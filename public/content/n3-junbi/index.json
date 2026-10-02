@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-09-25T13:58:43.237Z",
+  "generatedAt": "2026-10-02T01:59:23.973Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -212,6 +212,17 @@
           "file": "grammar/02-de-thi-that-n4-nhiem-vu-2.json"
         },
         {
+          "id": "04-bai-4-phan-1",
+          "name": "Bài 4 · Phần 1",
+          "description": "朝ご飯を食べずに来たの？— ～がる · ～てほしい／～てもらいたい／～ていただきたい · ～って · ～ずに",
+          "kind": "grammar",
+          "parent": "",
+          "group": "",
+          "itemCount": 4,
+          "order": 41,
+          "file": "grammar/04-bai-4-phan-1.json"
+        },
+        {
           "id": "09-bai-9-phan-1",
           "name": "Bài 9 · Phần 1",
           "description": "この部屋、ゴミだらけじゃないですか。— ～だらけ · ～ばかり · ～たびに · ～ついでに · ～うちに · ～あいだ／あいだに",
@@ -221,6 +232,17 @@
           "itemCount": 6,
           "order": 91,
           "file": "grammar/09-bai-9-phan-1.json"
+        },
+        {
+          "id": "04-bai-4-phan-1-luyen-tap",
+          "name": "Luyện tập Bài 4 · Phần 1",
+          "description": "Các câu chọn đáp án của Bài 4 · Phần 1 — 12 câu, kể cả câu đố ở trang bìa.",
+          "kind": "test",
+          "parent": "04-bai-4-phan-1",
+          "group": "",
+          "itemCount": 12,
+          "order": 4101,
+          "file": "grammar/04-bai-4-phan-1-luyen-tap.json"
         },
         {
           "id": "09-bai-9-phan-1-luyen-tap",

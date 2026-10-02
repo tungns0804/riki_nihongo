@@ -1,0 +1,368 @@
+{
+  "id": "04-bai-4-phan-1-luyen-tap",
+  "name": "Luyện tập Bài 4 · Phần 1",
+  "description": "Các câu chọn đáp án của Bài 4 · Phần 1 — 12 câu, kể cả câu đố ở trang bìa.",
+  "kind": "test",
+  "parent": "04-bai-4-phan-1",
+  "group": "",
+  "sections": [
+    {
+      "id": "b4-bia",
+      "title": "Trang bìa — Đố bạn làm đúng!",
+      "instructions": "Đố bạn làm đúng!",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b4-01",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "「すみません、ここに（　　　）もらえませんか。」",
+          "promptReading": "「すみません、ここに（　　　）もらえませんか。」",
+          "promptTranslation": "\"Xin lỗi, cho tôi ngồi ở đây được không ạ?\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "座られて",
+              "translation": "bị (ai đó) ngồi (bị động)",
+              "note": "座られて là bị động — \"bị người khác ngồi\", không phải xin phép cho mình ngồi."
+            },
+            {
+              "id": "c2",
+              "text": "座らせて",
+              "translation": "cho/để (tôi) ngồi (sai khiến)",
+              "note": "Đúng: Vさせてもらえませんか — xin người nghe cho phép mình làm: 座らせてもらえませんか = cho tôi ngồi được không."
+            },
+            {
+              "id": "c3",
+              "text": "座らされて",
+              "translation": "bị bắt phải ngồi (sai khiến bị động)",
+              "note": "座らされて là bị bắt phải ngồi — không ai lại xin \"được bị bắt ngồi\"."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Trang cuối PDF khoanh đáp án 2. 座らせて.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b4-garu-1",
+      "title": "1. ～がる · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b4-02",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "兄は来られなくて、とても（　　　）がっていました。",
+          "promptReading": "あにはこられなくて、とても（　　　）がっていました。",
+          "promptTranslation": "Anh trai tôi không đến được nên đã rất tiếc.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "残念",
+              "translation": "đáng tiếc (bỏ な)",
+              "note": "Đúng: tính từ đuôi な bỏ な rồi nối がる — 残念がる."
+            },
+            {
+              "id": "c2",
+              "text": "残念な",
+              "translation": "đáng tiếc (giữ な)",
+              "note": "がる không nối vào dạng có な."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-03",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "私は（　　　）なので、いつも靴下を二枚はいています。",
+          "promptReading": "わたしは（　　　）なので、いつもくつしたをにまいはいています。",
+          "promptTranslation": "Tôi là người hay lạnh nên lúc nào cũng đi hai đôi tất.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "暑がり",
+              "translation": "người hay nóng, chịu nóng kém",
+              "note": "暑がり thì sẽ mặc ít đi, không đi hai đôi tất."
+            },
+            {
+              "id": "c2",
+              "text": "寒がり",
+              "translation": "người hay lạnh, chịu lạnh kém",
+              "note": "Đúng: 寒がり — người hay thấy lạnh nên đi hai đôi tất."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-04",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "外食するとき、私はピザを（1）のに、彼氏はいつもラーメン屋へ（2）。",
+          "promptReading": "がいしょくするとき、わたしはぴざを（1）のに、かれしはいつもらーめんやへ（2）。",
+          "promptTranslation": "Khi đi ăn ngoài, tôi muốn ăn pizza (1), vậy mà bạn trai tôi lúc nào cũng muốn đi quán ramen (2).",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "（1）食べたがる",
+              "translation": "(người khác) muốn ăn",
+              "note": "がる dùng cho mong muốn của NGƯỜI THỨ 3; chủ ngữ ở đây là 私."
+            },
+            {
+              "id": "c2",
+              "text": "（1）食べたい",
+              "translation": "(tôi) muốn ăn",
+              "note": "Đúng: mong muốn của chính mình → 食べたい."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-05",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "外食するとき、私はピザを（1）のに、彼氏はいつもラーメン屋へ（2）。",
+          "promptReading": "がいしょくするとき、わたしはぴざを（1）のに、かれしはいつもらーめんやへ（2）。",
+          "promptTranslation": "Khi đi ăn ngoài, tôi muốn ăn pizza (1), vậy mà bạn trai tôi lúc nào cũng muốn đi quán ramen (2).",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "（2）行きたがる",
+              "translation": "(người khác) muốn đi",
+              "note": "Đúng: 彼氏 là người thứ 3, lại có いつも (thói quen) → 行きたがる."
+            },
+            {
+              "id": "c2",
+              "text": "（2）行きたい",
+              "translation": "(tôi) muốn đi",
+              "note": "たい chỉ dùng cho mong muốn của người nói (hoặc câu hỏi người nghe), không dùng kể về 彼氏."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b4-hoshii-1",
+      "title": "2. ～てほしい／～てもらいたい · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b4-06",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "ずっと（　　　）所に父が連れていってくれた。とても楽しかった。",
+          "promptReading": "ずっと（　　　）ところにちちがつれていってくれた。とてもたのしかった。",
+          "promptTranslation": "Bố đã đưa tôi đến nơi tôi muốn đi từ lâu. Vui lắm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "行きたかった",
+              "translation": "(tôi) đã muốn đi",
+              "note": "Đúng: người muốn đi là chính tôi → 行きたかった."
+            },
+            {
+              "id": "c2",
+              "text": "行ってもらいたかった",
+              "translation": "đã muốn (ai đó) đi",
+              "note": "てもらいたい là muốn NGƯỜI KHÁC làm; ở đây không phải mong bố tự đi đến đó."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-07",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "卒業式では写真を撮ったんでしょう。ぜひ（　　　）ほしいです。",
+          "promptReading": "そつぎょうしきではしゃしんをとったんでしょう。ぜひ（　　　）ほしいです。",
+          "promptTranslation": "Ở lễ tốt nghiệp cậu có chụp ảnh đúng không. Nhất định cho mình xem nhé.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "見て",
+              "translation": "xem",
+              "note": "見てほしい là muốn người nghe XEM (cái gì đó của mình), ngược với ý ở đây."
+            },
+            {
+              "id": "c2",
+              "text": "見せて",
+              "translation": "cho xem",
+              "note": "Đúng: muốn người nghe CHO mình xem ảnh của họ → 見せてほしい."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "PDF in 「ほしいてす」 — lỗi gõ của です, đã sửa.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b4-tte-1",
+      "title": "3. ～って · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b4-08",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "この学校の田中（　　　）人、昨日テレビで見たよ。",
+          "promptReading": "このがっこうのたなか（　　　）ひと、きのうてれびでみたよ。",
+          "promptTranslation": "Cái người tên Tanaka ở trường này, hôm qua mình thấy trên tivi đấy.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "って",
+              "translation": "gọi là, tên là",
+              "note": "Đúng: N ＋ って ＋ N — gọi tên người: 田中って人."
+            },
+            {
+              "id": "c2",
+              "text": "だって",
+              "translation": "nghe nói là / cũng",
+              "note": "だって sau danh từ là \"nghe nói là N\" hoặc \"ngay cả N\", không nối được vào 人."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-09",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "Ａ：「ニュースで言ってたけど明日は（　　　）。」\nＢ：「えぇ！いやだなあ。明日は野球の練習があるのに。」",
+          "promptReading": "Ａ：「にゅーすでいってたけどあしたは（　　　）。」\nＢ：「えぇ！いやだなあ。あしたはやきゅうのれんしゅうがあるのに。」",
+          "promptTranslation": "A: \"Tin tức nói là mai trời nóng đấy.\"\nB: \"Hả! Chán thế. Mai còn có buổi tập bóng chày nữa chứ.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "暑いって",
+              "translation": "nghe nói là nóng",
+              "note": "Đúng: 普通形 ＋ って — truyền đạt tin nghe từ bản tin: 暑いって."
+            },
+            {
+              "id": "c2",
+              "text": "暑くって",
+              "translation": "nóng và… (thể て nói nhấn)",
+              "note": "暑くって là thể て của tính từ (nóng quá nên…), không phải \"nghe nói\"."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-10",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "Ａ：佐藤さん、今日（　　　）って。\nＢ：そうなんだ。",
+          "promptReading": "Ａ：さとうさん、きょう（　　　）って。\nＢ：そうなんだ。",
+          "promptTranslation": "A: Nghe nói hôm nay là sinh nhật Sato đấy.\nB: Thế à.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "誕生日だ",
+              "translation": "là sinh nhật (thể thường)",
+              "note": "Đúng: N ＋ だ là thể thường → 誕生日だって."
+            },
+            {
+              "id": "c2",
+              "text": "誕生日な",
+              "translation": "dạng な — chỉ đứng trước ん",
+              "note": "誕生日な chỉ dùng khi có ん theo sau (誕生日なんだって); đứng thẳng trước って thì sai."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b4-zuni-1",
+      "title": "4. ～ずに · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b4-11",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "昨日、エアコンを（　　　）寝たから、朝から頭が痛い。",
+          "promptReading": "きのう、えあこんを（　　　）ねたから、あさからあたまがいたい。",
+          "promptTranslation": "Hôm qua tôi ngủ mà không tắt điều hoà nên từ sáng đã đau đầu.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "消せずに",
+              "translation": "không tắt được (từ thể khả năng)",
+              "note": "消せずに đi từ thể khả năng 消せる — \"không thể tắt\", không hợp ý quên tắt rồi ngủ."
+            },
+            {
+              "id": "c2",
+              "text": "消さずに",
+              "translation": "không tắt",
+              "note": "Đúng: 消さない → 消さずに."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-12",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "雨の中を、彼は傘を（　　　）歩いている。",
+          "promptReading": "あめのなかを、かれはかさを（　　　）あるいている。",
+          "promptTranslation": "Anh ấy đang đi bộ dưới mưa mà không che ô.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "せずに",
+              "translation": "không làm (する)",
+              "note": "傘をする không phải cách nói; che ô là 傘をさす."
+            },
+            {
+              "id": "c2",
+              "text": "ささずに",
+              "translation": "không che (さす)",
+              "note": "Đúng: さす → ささない → ささずに."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

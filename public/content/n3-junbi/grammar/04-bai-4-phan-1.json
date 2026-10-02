@@ -1,0 +1,254 @@
+{
+  "id": "04-bai-4-phan-1",
+  "name": "Bài 4 · Phần 1",
+  "description": "朝ご飯を食べずに来たの？— ～がる · ～てほしい／～てもらいたい／～ていただきたい · ～って · ～ずに",
+  "kind": "grammar",
+  "parent": "",
+  "group": "",
+  "points": [
+    {
+      "id": "073d50db110ae7b1",
+      "title": "～がる／～がっている",
+      "summary": "Mong muốn… (người thứ 3) · Cảm thấy…",
+      "structures": [
+        "Vたい → Vた ＋ がる／がっている",
+        "Aい → A ＋ がる／がっている",
+        "Aな → A ＋ がる／がっている"
+      ],
+      "explanation": [],
+      "notes": [
+        "Phân biệt: いつも～がる — đặc tính chung, xu hướng, thói quen (きたない部屋で生活する女と結婚したがる人は一人もいないよ。); 今～がっている — cảm xúc ở thời điểm hiện tại (友達のハリーにあやかのこと話したら、彼、すごく会いたがっているよ。).",
+        "Có thể dùng 「～ようだ」「～そうだ」「～がほしいと言っています」 để nói về mong muốn, cảm xúc của người thứ 3. 例：彼女はドレスがほしいようだ。",
+        "「～がる」→「～がり」: 「～がり」 sẽ trở thành N, để nói về một người thường xuyên cảm thấy như thế. 例：彼は怖がりだから、お化け屋敷には絶対に入らない。"
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "Mong muốn… (ai đó muốn)",
+          "detail": "Diễn tả mong muốn của người thứ 3. Không sử dụng với người trên.",
+          "examples": [
+            {
+              "id": "65364cab16428977",
+              "japanese": "A：あたし、とてもかわいいのに、なんで彼氏がいないのかな．．．\nB：きたない部屋で生活する女と結婚したがる人は一人もいないよ。",
+              "reading": "A：あたし、とてもかわいいのに、なんでかれしがいないのかな．．．\nB：きたないへやでせいかつするおんなとけっこんしたがるひとはひとりもいないよ。",
+              "vietnamese": "A: Mình dễ thương thế này mà sao lại chẳng có bạn trai nhỉ…\nB: Chẳng có ai muốn cưới một cô gái sống trong căn phòng bừa bộn đâu.",
+              "note": ""
+            },
+            {
+              "id": "982a51c0727302f9",
+              "japanese": "A：あのさー、明日の夜、ひま？\nB：特に何も。何かあるの？\nA：えっと、友達のハリーにあやかのこと話したら、彼、すごく会いたがっているよ。",
+              "reading": "A：あのさー、あしたのよる、ひま？\nB：とくになにも。なにかあるの？\nA：えっと、ともだちのはりーにあやかのことはなしたら、かれ、すごくあいたがっているよ。",
+              "vietnamese": "A: Này, tối mai cậu rảnh không?\nB: Cũng chẳng có gì. Có chuyện gì à?\nA: À thì, mình kể chuyện Ayaka cho bạn mình là Harry nghe, thế là cậu ấy đang rất muốn gặp cậu đấy.",
+              "note": ""
+            },
+            {
+              "id": "578cf7c434782bfe",
+              "japanese": "子供がおもちゃを欲しがって泣いている。",
+              "reading": "こどもがおもちゃをほしがってないている。",
+              "vietnamese": "Đứa bé đang khóc vì muốn có đồ chơi.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "Cảm thấy…",
+          "detail": "Diễn tả cảm xúc, cảm giác của người thứ 3. Không sử dụng với người trên.",
+          "examples": [
+            {
+              "id": "ec8ea29866a76288",
+              "japanese": "A：俺犬、苦手なんだよ。\nB：大丈夫。うちの犬はおとなしいから、怖がらないで～。",
+              "reading": "A：おれいぬ、にがてなんだよ。\nB：だいじょうぶ。うちのいぬはおとなしいから、こわがらないで～。",
+              "vietnamese": "A: Tao sợ chó lắm.\nB: Không sao đâu. Chó nhà mình hiền lắm, đừng sợ~.",
+              "note": ""
+            },
+            {
+              "id": "a15d6de914668860",
+              "japanese": "恥ずかしがらないで、正直に「好き」と言ったらいいよ。",
+              "reading": "はずかしがらないで、しょうじきに「すき」といったらいいよ。",
+              "vietnamese": "Đừng ngại ngùng, cứ thật lòng nói \"thích\" là được mà.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e23aa5923e67b9d8",
+      "title": "～てほしい／～てもらいたい／～ていただきたい",
+      "summary": "Muốn (ai đó) làm…",
+      "structures": [
+        "Vて／Vないで ＋ ほしい",
+        "Vて／Vないで ＋ もらいたい",
+        "Vて／Vないで ＋ いただきたい"
+      ],
+      "explanation": [
+        "Mong muốn của bản thân với người khác.",
+        "Người làm hành động: Đối phương（に）.",
+        "Mức độ lịch sự: して（友達） ＜ てほしい（部下や仲が良い友人） ＜ てもらいたい（誰にも使える丁寧な表現） ＜ ていただきたい（会社で上司やお客さんに）."
+      ],
+      "notes": [
+        "Ngoài 「～ないでほしい」 còn cách khác là 「～てほしくない」. 例：あなたの体が心配だから、あまりたばこは吸わないでほしい・吸ってほしくない。",
+        "「～が ＋ Vてほしい」: Mong muốn một hiện tượng nào đó xảy ra. 例：明日はディズニーランドへ行くから雨が降らないでほしいなぁ。"
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～てほしい／～てもらいたい／～ていただきたい",
+          "detail": "",
+          "examples": [
+            {
+              "id": "83beb69d66d93fd2",
+              "japanese": "家族にはずっと元気でいてほしいです。",
+              "reading": "かぞくにはずっとげんきでいてほしいです。",
+              "vietnamese": "Tôi mong gia đình mình lúc nào cũng khoẻ mạnh.",
+              "note": ""
+            },
+            {
+              "id": "9287c32ad5103e43",
+              "japanese": "(恋人と別れるシーン)\n会えなくても、君には絶対幸せになってもらいたい。",
+              "reading": "(こいびととわかれるしーん)\nあえなくても、きみにはぜったいしあわせになってもらいたい。",
+              "vietnamese": "(Cảnh chia tay người yêu)\nDù không gặp nhau được nữa, anh vẫn nhất định mong em được hạnh phúc.",
+              "note": ""
+            },
+            {
+              "id": "9c97a2541c8684f5",
+              "japanese": "A：先生、テストの前に復習をしていただきたいんですが、…。\nB：いいですよ。じゃ、第15課から始めましょうね！",
+              "reading": "A：せんせい、てすとのまえにふくしゅうをしていただきたいんですが、…。\nB：いいですよ。じゃ、だいじゅうごかからはじめましょうね！",
+              "vietnamese": "A: Thưa thầy, em muốn nhờ thầy cho ôn tập trước bài kiểm tra ạ…\nB: Được thôi. Vậy mình bắt đầu từ bài 15 nhé!",
+              "note": ""
+            },
+            {
+              "id": "2b6c7ddcc2e4c938",
+              "japanese": "(秘密を話しているシーン)\nA：このことはだれにも話さないでほしいんだけど、…。\nB：えっ、何の話ですか？",
+              "reading": "(ひみつをはなしているしーん)\nA：このことはだれにもはなさないでほしいんだけど、…。\nB：えっ、なんのはなしですか？",
+              "vietnamese": "(Cảnh kể chuyện bí mật)\nA: Chuyện này tôi mong cậu đừng kể với ai nhé…\nB: Ơ, chuyện gì vậy?",
+              "note": ""
+            },
+            {
+              "id": "0cf032eb81c67e5d",
+              "japanese": "新型コロナワクチンについて若い世代の皆さまに知ってほしいこと。",
+              "reading": "しんがたころなわくちんについてわかいせだいのみなさまにしってほしいこと。",
+              "vietnamese": "Những điều mong các bạn thế hệ trẻ biết về vắc-xin COVID-19.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "58b2d0a357d765c8",
+      "title": "～って",
+      "summary": "Nghe nói là… / (Ai đó) nói rằng… · Gọi là…",
+      "structures": [
+        "普通形 ＋（んだ）って",
+        "N ＋ って ＋ N"
+      ],
+      "explanation": [],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "(Ai đó) nói rằng… / Nghe nói là…",
+          "detail": "Cấu trúc: 普通形 ＋（んだ）って. Dùng khi muốn truyền đạt thông tin. Cách nói thân mật của 「と言いました」「と聞きました」「そうです」. V đằng sau có thể bỏ. Nữ giới thường dùng ở dạng 「～ですって・～んですって」 (ここはずいぶん静かだね。でも、夜はにぎやかなんですって。). Dạng này có 「です」 nhưng không dùng với người trên: 部長、日本語がペラペラなんですって。✖ → 部長、日本語がペラペラなんだそうです。○",
+          "examples": [
+            {
+              "id": "3a318d3af6d0dfe4",
+              "japanese": "A：お母さん、お父さんがお酒が飲みたいって（言ってるよ）。\nB：すぐ持っていくって（言っといて）。",
+              "reading": "A：おかあさん、おとうさんがおさけがのみたいって（いってるよ）。\nB：すぐもっていくって（いっといて）。",
+              "vietnamese": "A: Mẹ ơi, bố bảo muốn uống rượu (đấy).\nB: (Con nói với bố là) mẹ mang ra ngay.",
+              "note": ""
+            },
+            {
+              "id": "7155249e1c44d144",
+              "japanese": "課長：田中さん、ちょっとあきさん呼んでもらえる？\n田中：えっと、あきさん。課長が「ちょっときてください」って。\nあき：あ、はい。すぐ参ります。",
+              "reading": "かちょう：たなかさん、ちょっとあきさんよんでもらえる？\nたなか：えっと、あきさん。かちょうが「ちょっときてください」って。\nあき：あ、はい。すぐまいります。",
+              "vietnamese": "Trưởng phòng: Tanaka, gọi giúp tôi Aki một chút được không?\nTanaka: À, chị Aki ơi. Trưởng phòng bảo \"qua đây một chút\".\nAki: À, vâng. Tôi đến ngay ạ.",
+              "note": ""
+            },
+            {
+              "id": "e5c88301db20d74d",
+              "japanese": "A：アキさん、来月結婚するんだって？\nB：いやーよかったね。めでたい、めでたい！",
+              "reading": "A：あきさん、らいげつけっこんするんだって？\nB：いやーよかったね。めでたい、めでたい！",
+              "vietnamese": "A: Nghe nói Aki tháng sau cưới à?\nB: Ôi tốt quá nhỉ. Đáng mừng, đáng mừng!",
+              "note": "PDF in 「アキさん、、来月」 — thừa một dấu phẩy, đã bỏ."
+            },
+            {
+              "id": "ba7d1cf9ee80bb47",
+              "japanese": "A：ここはずいぶん静かだね。\nB：でも、夜はにぎやかなんだって。",
+              "reading": "A：ここはずいぶんしずかだね。\nB：でも、よるはにぎやかなんだって。",
+              "vietnamese": "A: Chỗ này yên tĩnh ghê nhỉ.\nB: Nhưng nghe nói buổi tối thì nhộn nhịp lắm.",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "u2",
+          "title": "Gọi là…",
+          "detail": "Cấu trúc: N ＋ って ＋ N. Dùng khi nói tên của người hoặc sự vật, sự việc. Sử dụng trong văn nói. Là cách nói thân mật của 「～という」. Không dùng với người trên. Có thể xuất hiện ở dạng N っていう N (田中さんっていう人から電話があったよ。). Khi đi với 「何」 thì sẽ thành 何て（なんて）: A：会社の人から電話があったよ。B：何て人から？ — 何って人（なんって人）✖, 何て人（なんて人）○",
+          "examples": [
+            {
+              "id": "437aacc9edaa16d4",
+              "japanese": "A：ティックトックってアプリ、知ってる？\nB：うん。最近人気だって聞いたよ。",
+              "reading": "A：てぃっくとっくってあぷり、しってる？\nB：うん。さいきんにんきだってきいたよ。",
+              "vietnamese": "A: Cậu biết cái ứng dụng tên là TikTok không?\nB: Ừ. Mình nghe nói dạo này nó nổi lắm.",
+              "note": ""
+            },
+            {
+              "id": "e383778bfce11a3c",
+              "japanese": "A：会社の近くの「The Coffee House」ってカフェに行ったことがある？\nB：まだ行ったことないよ。今すぐ行こう！",
+              "reading": "A：かいしゃのちかくの「ざ こーひー はうす」ってかふぇにいったことがある？\nB：まだいったことないよ。いますぐいこう！",
+              "vietnamese": "A: Cậu đã đến quán cà phê tên là \"The Coffee House\" gần công ty chưa?\nB: Mình chưa đi bao giờ. Đi ngay bây giờ thôi!",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "55361c7c621f9ed6",
+      "title": "～ずに",
+      "summary": "Không… (làm V2 mà không làm V1)",
+      "structures": [
+        "Vない ＋ ずに",
+        "する → せずに",
+        "来る → こずに"
+      ],
+      "explanation": [
+        "Làm V2 mà không làm V1.",
+        "Thường dùng trong văn viết."
+      ],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～ずに",
+          "detail": "",
+          "examples": [
+            {
+              "id": "57b96844187f52f2",
+              "japanese": "A：わからないことがあれば、遠慮せずに聞いてください。\nB：はい、わかりました。",
+              "reading": "A：わからないことがあれば、えんりょせずにきいてください。\nB：はい、わかりました。",
+              "vietnamese": "A: Có gì không hiểu thì cứ hỏi, đừng ngại nhé.\nB: Vâng, tôi hiểu rồi.",
+              "note": ""
+            },
+            {
+              "id": "c43faa93cf0f3a09",
+              "japanese": "A：どうしたの？目が赤くなってるよ。\nB：昨日、寝ずにShopeeの割引クーポンを見てたんだ。",
+              "reading": "A：どうしたの？めがあかくなってるよ。\nB：きのう、ねずにしょっぴーのわりびきくーぽんをみてたんだ。",
+              "vietnamese": "A: Sao thế? Mắt cậu đỏ hết rồi kìa.\nB: Hôm qua mình không ngủ mà ngồi xem mã giảm giá trên Shopee.",
+              "note": ""
+            },
+            {
+              "id": "ae75427c66e94a6a",
+              "japanese": "A：先生、すみません。宿題を家に忘れてきてしまいました。\nB：Aさんが忘れることは珍しいですね。\nA：明日は必ず持ってきます。\nB：はい、明日は忘れずに持ってきてくださいね。",
+              "reading": "A：せんせい、すみません。しゅくだいをいえにわすれてきてしまいました。\nB：Aさんがわすれることはめずらしいですね。\nA：あしたはかならずもってきます。\nB：はい、あしたはわすれずにもってきてくださいね。",
+              "vietnamese": "A: Thưa cô, em xin lỗi. Em để quên bài tập ở nhà mất rồi.\nB: A mà quên thì hiếm đấy nhỉ.\nA: Mai em nhất định sẽ mang đến.\nB: Ừ, mai đừng quên mang đến nhé.",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
