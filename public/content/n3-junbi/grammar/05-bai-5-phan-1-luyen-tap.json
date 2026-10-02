@@ -1,0 +1,376 @@
+{
+  "id": "05-bai-5-phan-1-luyen-tap",
+  "name": "Luyện tập Bài 5 · Phần 1",
+  "description": "Các câu chọn đáp án của Bài 5 · Phần 1 — 12 câu, kể cả câu đố ở trang bìa.",
+  "kind": "test",
+  "parent": "05-bai-5-phan-1",
+  "group": "",
+  "sections": [
+    {
+      "id": "b5-bia",
+      "title": "Trang bìa — Đố bạn làm đúng!",
+      "instructions": "Đố bạn làm đúng!",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b5-01",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "健康のため、毎朝牛乳を飲む（　　　）。",
+          "promptReading": "けんこうのため、まいあさぎゅうにゅうをのむ（　　　）。",
+          "promptTranslation": "Vì sức khoẻ, sáng nào tôi cũng uống sữa (đó là lệ tôi tự đặt ra).",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "こと",
+              "translation": "việc (danh từ hoá)",
+              "note": "飲むこと chỉ là \"việc uống\" — không nói được đây là thói quen mình tự đặt ra."
+            },
+            {
+              "id": "c2",
+              "text": "ことにして",
+              "translation": "(tự) quyết định… — dạng nói lược của ことにしている",
+              "note": "Đúng: ことにして(いる) — thói quen do chính mình quyết định (vì sức khoẻ nên sáng nào cũng uống sữa)."
+            },
+            {
+              "id": "c3",
+              "text": "ことになって",
+              "translation": "được quyết định, quy định… — dạng nói lược của ことになっている",
+              "note": "ことになって(いる) là quy định do người khác, tổ chức đặt ra — việc uống sữa vì sức khoẻ của bản thân là mình tự chọn."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Trang cuối PDF khoanh đáp án 2. ことにして. Câu đố viết lửng (ことにして… = ことにしている): thói quen tự đặt ra cho mình thì dùng ～ことにしている, quy định từ bên ngoài mới dùng ～ことになっている.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b5-kotonishiteiru-1",
+      "title": "1. ～ことにしている · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b5-02",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "休みの日は家で仕事を（　　　）ことにしているが、急ぎの仕事が入ったので、家に持って帰ってきた。",
+          "promptReading": "やすみのひはいえでしごとを（　　　）ことにしているが、いそぎのしごとがはいったので、いえにもってかえってきた。",
+          "promptTranslation": "Ngày nghỉ tôi có lệ là không làm việc ở nhà, nhưng vì có việc gấp nên đã mang về nhà.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "する",
+              "translation": "làm",
+              "note": "する thì vế sau 〜が (nhưng) không còn ngược lại: đã có lệ làm việc ở nhà thì mang việc về là chuyện bình thường."
+            },
+            {
+              "id": "c2",
+              "text": "しない",
+              "translation": "không làm",
+              "note": "Đúng: しないことにしている = có lệ KHÔNG làm việc ở nhà; 〜が cho thấy lần này đành phá lệ vì việc gấp."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Vない＋ことにしている = tự đặt lệ không làm ~. Mấu chốt là 〜が (nhưng): vế sau trái với thói quen ở vế trước.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b5-kotoninatteiru-1",
+      "title": "2. ～ことになっている · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b5-03",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "急に国へ帰ることに（　　　）。",
+          "promptReading": "きゅうにくにへかえることに（　　　）。",
+          "promptTranslation": "Tôi đột ngột phải về nước.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "なりました",
+              "translation": "đã được quyết định (là)",
+              "note": "Đúng: ことになりました — một quyết định vừa mới có (急に = đột ngột), báo kết quả."
+            },
+            {
+              "id": "c2",
+              "text": "なっています",
+              "translation": "quy định là, theo lệ là",
+              "note": "ことになっています là quy định, lịch đã định sẵn từ trước — không hợp với 急に (đột ngột)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "～ことになった = (sự việc) đã được quyết định là ~, thường do hoàn cảnh hay người khác quyết; ～ことになっている = quy định, lịch đã có sẵn. 急に báo đây là chuyện vừa xảy ra.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b5-04",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "日本では、車は道の左側を走る（　　　）。",
+          "promptReading": "にほんでは、くるまはみちのひだりがわをはしる（　　　）。",
+          "promptTranslation": "Ở Nhật, theo quy định xe chạy bên trái đường.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ことにしている",
+              "translation": "(tự) đặt lệ cho mình là",
+              "note": "ことにしている là thói quen do bản thân tự quyết — xe chạy bên trái không phải ý riêng của ai."
+            },
+            {
+              "id": "c2",
+              "text": "ことになっている",
+              "translation": "quy định là",
+              "note": "Đúng: ことになっている — luật lệ của xã hội: ở Nhật xe chạy bên trái."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Luật lệ, quy định chung (日本では…) → ～ことになっている. Thói quen tự đặt → ～ことにしている.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b5-05",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "太らないように夜9時を過ぎたら、なにも食べないことに（　　　）います。",
+          "promptReading": "ふとらないようによるくじをすぎたら、なにもたべないことに（　　　）います。",
+          "promptTranslation": "Để không bị béo, tôi đặt lệ là quá 9 giờ tối thì không ăn gì cả.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "して",
+              "translation": "(tự) quyết định → ことにしています",
+              "note": "Đúng: ことにしています — 太らないように (để mình không béo) cho thấy đây là quy tắc tự mình đặt ra."
+            },
+            {
+              "id": "c2",
+              "text": "なって",
+              "translation": "được quy định → ことになっています",
+              "note": "ことになっています là quy định từ bên ngoài; chuyện ăn uống để giữ dáng của bản thân thì không phải ai quy định."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "～ように (để ~) + thói quen của bản thân → ～ことにしている. Vたら = hễ ~ thì.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b5-dakedenaku-1",
+      "title": "3. ～だけでなく／～ばかりでなく · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b5-06",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "このテレビ番組は（　　　）ばかりでなく、色々なことも学べる。",
+          "promptReading": "このてれびばんぐみは（　　　）ばかりでなく、いろいろなこともまなべる。",
+          "promptTranslation": "Chương trình TV này không chỉ thú vị mà còn học được nhiều điều.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "面白い",
+              "translation": "thú vị",
+              "note": "Đúng: ～ばかりでなく～も cộng thêm một điểm CÙNG CHIỀU — thú vị, lại còn học được nhiều thứ (đều là điểm tốt)."
+            },
+            {
+              "id": "c2",
+              "text": "つまらない",
+              "translation": "nhàm chán",
+              "note": "つまらない (chán) là điểm xấu, còn \"học được nhiều điều\" là điểm tốt — hai vế ngược chiều thì không nối bằng ばかりでなく."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "～だけでなく／～ばかりでなく～も nối hai ý cùng chiều (tốt + tốt, xấu + xấu), vế sau mở rộng thêm. Ý trái ngược thì dùng ～のに／～けど.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b5-07",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "そのレストランは値段が高い（　　　）あまりおいしくない。",
+          "promptReading": "そのれすとらんはねだんがたかい（　　　）あまりおいしくない。",
+          "promptTranslation": "Nhà hàng đó không chỉ đắt mà còn chẳng ngon lắm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "なのに",
+              "translation": "vậy mà (sai dạng nối)",
+              "note": "Tính từ い nối với のに trực tiếp: 高いのに; 高いなのに là sai ngữ pháp."
+            },
+            {
+              "id": "c2",
+              "text": "だけじゃなく",
+              "translation": "không chỉ… (dạng nói của だけでなく)",
+              "note": "Đúng: 高いだけじゃなく — đắt (xấu) + không ngon (xấu): hai điểm cùng chiều, だけじゃなく là dạng nói của だけでなく."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Aい ＋ だけでなく／だけじゃなく. Hai điểm trừ cộng dồn → だけでなく. Nếu muốn nói \"đắt mà lại không ngon\" (trái mong đợi) thì phải là 高いのに, không có な.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b5-youtosuru-1",
+      "title": "4. ～ようとする／～ようとしない · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b5-08",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "うちの犬は、ぼくが出かけ（　　　）と、ほえる。",
+          "promptReading": "うちのいぬは、ぼくがでかけ（　　　）と、ほえる。",
+          "promptTranslation": "Con chó nhà tôi hễ tôi định ra ngoài là sủa.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ようとする",
+              "translation": "định (làm)",
+              "note": "Đúng: ～ようとすると — hễ định ~ là…: việc lặp lại nhiều lần, vế sau ほえる cũng ở thì hiện tại."
+            },
+            {
+              "id": "c2",
+              "text": "ようとした",
+              "translation": "đã định (làm)",
+              "note": "と (hễ… là) đi sau thể từ điển, không đi sau thể た: 出かけようとしたと là sai."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Vようとすると、～ = hễ định ~ thì… (thói quen lặp lại). Giống ví dụ của bài: この猫は、私が触ろうとすると、すぐ逃げる。",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b5-09",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "電車に（　　　）ときに、ドアが閉まって、乗れなかった。",
+          "promptReading": "でんしゃに（　　　）ときに、どあがしまって、のれなかった。",
+          "promptTranslation": "Đúng lúc tôi định lên tàu thì cửa đóng lại, thế là không lên được.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "乗りろうと思っている",
+              "translation": "đang định lên (lựa chọn in sai: phải là 乗ろうと思っている)",
+              "note": "Lựa chọn in \"乗りろう\" — thể ý chí đúng là 乗ろう. Dù viết đúng thì 〜と思っている cũng là dự định chưa làm, thường đứng cuối câu; ở đây việc đã xảy ra và còn hành động thứ hai đi sau."
+            },
+            {
+              "id": "c2",
+              "text": "乗ろうとした",
+              "translation": "đã định lên",
+              "note": "Đúng: 乗ろうとしたときに — đúng lúc định lên thì cửa đóng: việc đã xảy ra, kết quả không như ý."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Phân biệt ở mục プラス của bài: V（よう）と思っている = dự định chưa làm, đứng cuối câu; V（よう）とする = việc đã xảy ra, có hành động thứ hai theo sau (家を出ようとしたとき、電話がかかってきました). Lựa chọn a của PDF in \"乗りろう\", chép nguyên vì đó là lựa chọn sai.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b5-10",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "山田くんだったら、みんなに迷惑をかけたのに（　　　）のよ。",
+          "promptReading": "やまだくんだったら、みんなにめいわくをかけたのに（　　　）のよ。",
+          "promptTranslation": "Cái cậu Yamada ấy, gây phiền cho mọi người thế mà không chịu xin lỗi đấy.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "謝ろうとしない",
+              "translation": "không chịu xin lỗi",
+              "note": "Đúng: ～のに cho thấy người nói bực mình — gây phiền mà KHÔNG CHỊU xin lỗi: 謝ろうとしない."
+            },
+            {
+              "id": "c2",
+              "text": "謝ろうとする",
+              "translation": "định xin lỗi",
+              "note": "謝ろうとする (định xin lỗi) là chuyện nên làm, không đi với のに (vậy mà) để trách móc."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Vようとしない = không chịu ~, hoàn toàn không có ý làm. Nだったら (ở đây) = cái cậu N ấy mà — mở đầu lời than phiền về ai đó.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b5-tsumoridatta-1",
+      "title": "5. ～つもりだった · 問題1",
+      "instructions": "Chọn đáp án đúng",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b5-11",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "猫の絵を（　　　）んだけど、友達に「可愛い犬だね」と言われた。",
+          "promptReading": "ねこのえを（　　　）んだけど、ともだちに「かわいいいぬだね」といわれた。",
+          "promptTranslation": "Tôi cứ tưởng mình vẽ con mèo, vậy mà bạn lại bảo \"Con chó dễ thương nhỉ\".",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "描いたつもりだった",
+              "translation": "cứ tưởng là đã vẽ",
+              "note": "Đúng: Vたつもりだった — tưởng là đã vẽ mèo, thực tế người khác nhìn ra chó."
+            },
+            {
+              "id": "c2",
+              "text": "描くつもりな",
+              "translation": "định vẽ",
+              "note": "描くつもり là dự định sẽ vẽ — nhưng tranh đã vẽ xong và bị nhận xét rồi."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Vた＋つもりだった = cứ tưởng là đã ~ (thực tế không phải vậy). Khác Vる＋つもり = định sẽ ~ (dự định).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b5-12",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "エアコンを（　　　）が、消えていなかった。",
+          "promptReading": "えあこんを（　　　）が、きえていなかった。",
+          "promptTranslation": "Tôi cứ tưởng đã tắt điều hoà, nhưng hoá ra nó chưa tắt.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "消したつもりだった",
+              "translation": "cứ tưởng là đã tắt",
+              "note": "Đúng: 消したつもりだった — tưởng đã tắt, thực tế 消えていなかった (vẫn chưa tắt)."
+            },
+            {
+              "id": "c2",
+              "text": "消そうと思っている",
+              "translation": "đang định tắt",
+              "note": "消そうと思っている là dự định sẽ tắt (hiện tại) — không khớp vế sau ở thì quá khứ 消えていなかった."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Vたつもりだった＋が、～ = tưởng đã ~ nhưng thực tế ngược lại. 消す (tắt, tha động từ) ⇔ 消える (tắt, tự động từ).",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

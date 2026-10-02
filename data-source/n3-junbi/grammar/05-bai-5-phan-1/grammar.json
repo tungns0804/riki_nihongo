@@ -1,0 +1,169 @@
+{
+  "points": [
+    {
+      "title": "～ことにしている",
+      "summary": "Quyết tâm, cố gắng làm… (thói quen tự đặt ra)",
+      "structures": ["Vる／Vない ＋ ことにしている"],
+      "explanation": [
+        "Diễn tả thói quen do bản thân tự quyết định.",
+        "〜ことにした: Đã quyết định.",
+        "〜ことにする: Quyết định tại thời điểm nói.",
+        "〜ことにしている: Quyết tâm (hành động lặp đi lặp lại)."
+      ],
+      "examples": [
+        {
+          "japanese": "毎日、寝る前に、Quyen先生のビデオを見ることにしている。",
+          "reading": "まいにち、ねるまえに、Quyenせんせいのびでおをみることにしている。",
+          "vietnamese": "Ngày nào trước khi ngủ tôi cũng xem video của cô Quyên — đó là lệ tôi tự đặt ra."
+        },
+        {
+          "japanese": "勉強に集中するために、フェイスブックを使わないことにしている。",
+          "reading": "べんきょうにしゅうちゅうするために、ふぇいすぶっくをつかわないことにしている。",
+          "vietnamese": "Để tập trung học, tôi đặt quy tắc cho mình là không dùng Facebook."
+        },
+        {
+          "japanese": "A：今夜、一杯どうですか。\nB：すみません、今夜はちょっと．．．\nA：何か約束があるんですか。\nB：最近は、健康のために飲まないことにしているんです。",
+          "reading": "A：こんや、いっぱいどうですか。\nB：すみません、こんやはちょっと．．．\nA：なにかやくそくがあるんですか。\nB：さいきんは、けんこうのためにのまないことにしているんです。",
+          "vietnamese": "A: Tối nay làm một ly không?\nB: Xin lỗi, tối nay thì hơi…\nA: Anh có hẹn gì à?\nB: Dạo này vì sức khoẻ nên tôi giữ lệ là không uống."
+        }
+      ]
+    },
+    {
+      "title": "～ことになっている",
+      "summary": "Được quyết định… / Quy định là…",
+      "structures": ["Vる／Vない ＋ ことになっている"],
+      "explanation": [
+        "Quy tắc, luật lệ, thói quen, dự định đã được quyết định, quy định trong công ty, trường học, xã hội,…"
+      ],
+      "examples": [
+        {
+          "japanese": "今日は10時に歯医者へ行くことになっている。",
+          "reading": "きょうはじゅうじにはいしゃへいくことになっている。",
+          "vietnamese": "Hôm nay tôi có lịch (đã hẹn sẵn) đi nha sĩ lúc 10 giờ."
+        },
+        {
+          "japanese": "法律では、20歳未満はお酒を飲んではいけないことになっている。",
+          "reading": "ほうりつでは、はたちみまんはおさけをのんではいけないことになっている。",
+          "vietnamese": "Theo luật, người dưới 20 tuổi không được uống rượu."
+        },
+        {
+          "japanese": "A：すみませんが、このゴミを持って帰ってくれませんか。\nB：どうしてですか。\nA：燃えないゴミは毎週月曜日に出すことになっているんです。\nB：そうでしたか。まだ引っ越してきたばかりで、すみません。",
+          "reading": "A：すみませんが、このごみをもってかえってくれませんか。\nB：どうしてですか。\nA：もえないごみはまいしゅうげつようびにだすことになっているんです。\nB：そうでしたか。まだひっこしてきたばかりで、すみません。",
+          "vietnamese": "A: Xin lỗi, anh mang túi rác này về giúp tôi được không?\nB: Sao vậy ạ?\nA: Rác không cháy được thì quy định là bỏ vào thứ Hai hằng tuần.\nB: Ra vậy. Tôi mới chuyển đến nên chưa biết, xin lỗi anh."
+        }
+      ]
+    },
+    {
+      "title": "～だけでなく／～ばかりでなく～も",
+      "summary": "Không chỉ… / Không những… mà còn…",
+      "structures": [
+        "V普通形 ＋ だけでなく／ばかりでなく〜も",
+        "Aい ＋ だけでなく／ばかりでなく〜も",
+        "Aな／である ＋ だけでなく／ばかりでなく〜も",
+        "N ＋ だけでなく／ばかりでなく〜も"
+      ],
+      "explanation": [
+        "Không chỉ có A mà còn có B nữa (phạm vi còn rộng hơn).",
+        "Thường đi với も、まで、でも、…"
+      ],
+      "examples": [
+        {
+          "japanese": "兄は留学でフランス語を学んだばかりでなく、結婚相手まで見つけてきた。",
+          "reading": "あにはりゅうがくでふらんすごをまなんだばかりでなく、けっこんあいてまでみつけてきた。",
+          "vietnamese": "Anh tôi đi du học không chỉ học được tiếng Pháp mà còn tìm được cả người để cưới về."
+        },
+        {
+          "japanese": "今日は風が強いばかりでなく、雨も降るそうだ。",
+          "reading": "きょうはかぜがつよいばかりでなく、あめもふるそうだ。",
+          "vietnamese": "Nghe nói hôm nay không chỉ gió mạnh mà còn có mưa nữa."
+        },
+        {
+          "japanese": "会社の飲み会は時間の無駄であるばかりでなく、健康にも悪い。",
+          "reading": "かいしゃののみかいはじかんのむだであるばかりでなく、けんこうにもわるい。",
+          "vietnamese": "Tiệc nhậu của công ty không chỉ phí thời gian mà còn hại cho sức khoẻ."
+        },
+        {
+          "japanese": "A：この映画、知ってますか。\nB：もちろんです。Aさんはまだ見ていないんですか。\nA：ぜひ見てください。日本ばかりでなく海外でも人気の映画なんですよ。\nB：はい。",
+          "reading": "A：このえいが、しってますか。\nB：もちろんです。Aさんはまだみていないんですか。\nA：ぜひみてください。にほんばかりでなくかいがいでもにんきのえいがなんですよ。\nB：はい。",
+          "vietnamese": "A: Anh biết bộ phim này không?\nB: Tất nhiên rồi. Anh A vẫn chưa xem à?\nA: Nhất định hãy xem nhé. Đây là bộ phim được yêu thích không chỉ ở Nhật mà cả ở nước ngoài đấy.\nB: Vâng."
+        }
+      ]
+    },
+    {
+      "title": "～ようとする／～ようとしない",
+      "summary": "Định làm… / Cố gắng làm… · Không định… / Không chịu…",
+      "structures": ["V(よう) ＋ とする", "V(よう) ＋ としない"],
+      "notes": [
+        "Phân biệt 「V（よう）と思っている」 và 「V（よう）とする」: V（よう）と思っている — những việc chưa xảy ra, là dự định; thường đứng cuối câu. 例：日本で仕事を見つけようと思っています。",
+        "V（よう）とする — việc đã xảy ra hoặc những việc lặp lại nhiều lần; sau 〜ようとする có hành động thứ 2, thường đứng giữa câu. 例：家を出ようとしたとき、電話がかかってきました。"
+      ],
+      "usages": [
+        {
+          "title": "～ようとする: Định làm… / Cố gắng làm…",
+          "detail": "Vừa mới định… / Cố gắng làm… (ý định). 〜ようとした: Đã cố gắng làm gì (kết quả không như ý). 〜ようとしている: Đang chuẩn bị, cố gắng làm gì.",
+          "examples": [
+            {
+              "japanese": "この猫は、私が触ろうとすると、すぐ逃げる。",
+              "reading": "このねこは、わたしがさわろうとすると、すぐにげる。",
+              "vietnamese": "Con mèo này hễ tôi định chạm vào là nó chạy mất ngay."
+            },
+            {
+              "japanese": "彼は、仕事も学校も決まってないのに「日本に行く！」と言っている。\n彼が何をやろうとしているのかわかりません。",
+              "reading": "かれは、しごともがっこうもきまってないのに「にほんにいく！」といっている。\nかれがなにをやろうとしているのかわかりません。",
+              "vietnamese": "Anh ấy chưa có việc làm, cũng chưa có trường, vậy mà cứ nói \"Tôi sẽ đi Nhật!\".\nTôi không hiểu anh ấy đang định làm gì."
+            },
+            {
+              "japanese": "A：Bさん、遅いじゃないですか。\nB：ごめん、ごめん。\nA：今日は残業ないと言ってたのに。\nB：帰ろうとしたら部長に呼ばれてしまってさ。",
+              "reading": "A：Bさん、おそいじゃないですか。\nB：ごめん、ごめん。\nA：きょうはざんぎょうないといってたのに。\nB：かえろうとしたらぶちょうによばれてしまってさ。",
+              "vietnamese": "A: Anh B, muộn thế!\nB: Xin lỗi, xin lỗi.\nA: Anh bảo hôm nay không phải tăng ca cơ mà.\nB: Đang định về thì bị trưởng phòng gọi lại."
+            }
+          ]
+        },
+        {
+          "title": "～ようとしない: Không định… / Không chịu…",
+          "detail": "Hoàn toàn không muốn hay không có ý định làm gì.",
+          "examples": [
+            {
+              "japanese": "私は、彼と出会って一年たちましたが、名前しか知りません。\n（誕生日や好きな食べ物を知らない）\n彼は自分の事は何も言おうとしない。",
+              "reading": "わたしは、かれとであっていちねんたちましたが、なまえしかしりません。\n（たんじょうびやすきなたべものをしらない）\nかれはじぶんのことはなにもいおうとしない。",
+              "vietnamese": "Tôi quen anh ấy đã một năm rồi mà chỉ biết mỗi cái tên.\n(Không biết sinh nhật hay món ăn anh ấy thích)\nAnh ấy chẳng chịu nói gì về bản thân cả."
+            },
+            {
+              "japanese": "A：彼女にちゃんと説明した？\nB：うん。でも、ぼくの話を聞こうとしないんだ．．．",
+              "reading": "A：かのじょにちゃんとせつめいした？\nB：うん。でも、ぼくのはなしをきこうとしないんだ．．．",
+              "vietnamese": "A: Cậu đã giải thích đàng hoàng với cô ấy chưa?\nB: Rồi. Nhưng cô ấy không chịu nghe tớ nói…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "～つもりだった",
+      "summary": "Tưởng là… / Cứ nghĩ là…",
+      "structures": ["Vた／Vている ＋ つもり", "Aい／Aな ＋ つもり", "Nの ＋ つもり"],
+      "explanation": ["Nghĩ đã làm / nghĩ như vậy nhưng thực tế không phải vậy."],
+      "examples": [
+        {
+          "japanese": "まだまだ若いつもりだったのに、電車で席を譲られてしまった。",
+          "reading": "まだまだわかいつもりだったのに、でんしゃでせきをゆずられてしまった。",
+          "vietnamese": "Cứ tưởng mình còn trẻ chán, vậy mà lại được người ta nhường ghế trên tàu."
+        },
+        {
+          "japanese": "A：なんでメールしてくれなかったの？\nB：メールしたつもりだったんだけど、送れてなかったんだ．．．ごめんね！",
+          "reading": "A：なんでめーるしてくれなかったの？\nB：めーるしたつもりだったんだけど、おくれてなかったんだ．．．ごめんね！",
+          "vietnamese": "A: Sao cậu không mail cho tớ?\nB: Tớ cứ tưởng đã gửi rồi, hoá ra chưa gửi được… Xin lỗi nhé!"
+        },
+        {
+          "japanese": "彼とは友達のつもりなのに、「好きだ」と言われた。",
+          "reading": "かれとはともだちのつもりなのに、「すきだ」といわれた。",
+          "vietnamese": "Tôi chỉ coi anh ấy là bạn thôi, vậy mà lại bị anh ấy nói \"Anh thích em\"."
+        },
+        {
+          "japanese": "A：コロナウイルスのワクチンを打った後、大丈夫でしたか？\nB：自分では大丈夫なつもりだったけど、熱は少しあったよ！",
+          "reading": "A：ころなういるすのわくちんをうったあと、だいじょうぶでしたか？\nB：じぶんではだいじょうぶなつもりだったけど、ねつはすこしあったよ！",
+          "vietnamese": "A: Sau khi tiêm vắc-xin COVID, anh có ổn không?\nB: Tự tôi thì cứ tưởng là ổn, nhưng hoá ra cũng hơi sốt đấy!"
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-02T05:36:08.294Z",
+  "generatedAt": "2026-10-02T05:51:46.010Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -348,6 +348,17 @@
           "file": "grammar/04-bai-4-phan-1.json"
         },
         {
+          "id": "05-bai-5-phan-1",
+          "name": "Bài 5 · Phần 1",
+          "description": "甘い物もたべないことにしているの！— ～ことにしている · ～ことになっている · ～だけでなく／～ばかりでなく · ～ようとする／～ようとしない · ～つもりだった",
+          "kind": "grammar",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 51,
+          "file": "grammar/05-bai-5-phan-1.json"
+        },
+        {
           "id": "09-bai-9-phan-1",
           "name": "Bài 9 · Phần 1",
           "description": "この部屋、ゴミだらけじゃないですか。— ～だらけ · ～ばかり · ～たびに · ～ついでに · ～うちに · ～あいだ／あいだに",
@@ -379,6 +390,17 @@
           "itemCount": 10,
           "order": 4102,
           "file": "grammar/04-bai-4-phan-1-btvn.json"
+        },
+        {
+          "id": "05-bai-5-phan-1-luyen-tap",
+          "name": "Luyện tập Bài 5 · Phần 1",
+          "description": "Các câu chọn đáp án của Bài 5 · Phần 1 — 12 câu, kể cả câu đố ở trang bìa.",
+          "kind": "test",
+          "parent": "05-bai-5-phan-1",
+          "group": "",
+          "itemCount": 12,
+          "order": 5101,
+          "file": "grammar/05-bai-5-phan-1-luyen-tap.json"
         },
         {
           "id": "09-bai-9-phan-1-luyen-tap",
