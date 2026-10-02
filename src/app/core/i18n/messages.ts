@@ -239,8 +239,8 @@ export const MESSAGES = {
   'grammar.structure': { vi: 'Cấu trúc', ja: '接続' },
   'grammar.meaning': { vi: 'Ý nghĩa', ja: '意味' },
   'grammar.notes': { vi: 'Lưu ý', ja: '注意' },
-  // Đề gom các 問題 in dưới từng mẫu trong PDF — sách gọi là "Luyện tập".
-  'grammar.exercises': { vi: 'Luyện tập trong bài', ja: '練習問題' },
+  // Đề con của bài: các 問題 "Luyện tập" in trong PDF và BTVN dán từ web Riki.
+  'grammar.exercises': { vi: 'Bài tập của bài', ja: '練習問題・宿題' },
   'grammar.overview': { vi: 'Tóm tắt ngữ pháp', ja: '文法のまとめ' },
 
   // ── Đọc hiểu ───────────────────────────────────────────────────────────

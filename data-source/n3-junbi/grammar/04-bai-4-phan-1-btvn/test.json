@@ -1,0 +1,163 @@
+{
+  "sections": [
+    {
+      "id": "b4-btvn",
+      "title": "BTVN Bài 4 · Phần 1 — 10 câu trắc nghiệm",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b4-btvn-01",
+          "promptJapanese": "赤ちゃんは、つかんだものは何でも口に（　　　）たがるので、危ないものは近くに置かないよう注意が必要だ。",
+          "promptReading": "あかちゃんは、つかんだものはなんでもくちに（　　　）たがるので、あぶないものはちかくにおかないようちゅういがひつようだ。",
+          "promptVietnamese": "Em bé thì cái gì nắm được cũng muốn cho vào miệng, nên phải chú ý đừng để đồ nguy hiểm ở gần.",
+          "choices": ["入れる", "入り", "入れ", "入る"],
+          "choicesVietnamese": ["cho vào (thể từ điển)", "vào (thân ます của 入る)", "cho vào (thân ます của 入れる)", "vào (thể từ điển, tự động từ)"],
+          "choiceNotes": [
+            "たがる nối vào thân ます (Vたい bỏ い), không nối vào thể từ điển.",
+            "入る là tự động từ (tự đi vào); đồ vật được bé CHO vào miệng (口に～を) cần tha động từ 入れる.",
+            "Đúng: 入れたい → 入れた ＋ がる = 入れたがる — mong muốn của người thứ 3 (em bé).",
+            "Vừa sai dạng (thể từ điển) vừa sai loại động từ (tự động từ)."
+          ],
+          "answer": 3
+        },
+        {
+          "id": "n3j-b4-btvn-02",
+          "promptJapanese": "これは子供が（　　　）がっていたアニメ映画です。",
+          "promptReading": "これはこどもが（　　　）がっていたあにめえいがです。",
+          "promptVietnamese": "Đây là bộ phim hoạt hình mà bọn trẻ đã rất muốn xem.",
+          "choices": ["見た", "買いた", "聞きた", "見えた"],
+          "choicesVietnamese": ["(muốn) xem — 見たい bỏ い", "(muốn) mua — 買いたい bỏ い", "(muốn) nghe — 聞きたい bỏ い", "nhìn thấy được — không có dạng 見えたい"],
+          "choiceNotes": [
+            "Đúng: 見たい → 見た ＋ がる; phim thì để XEM — 見たがっていたアニメ映画.",
+            "Đúng dạng (買いたい → 買いたがる), nhưng phim hoạt hình là thứ để xem chứ không phải để mua — nghĩa không hợp bằng 見た.",
+            "Đúng dạng (聞きたい → 聞きたがる), nhưng phim không phải thứ để \"nghe\".",
+            "見える là động từ khả năng tự phát (nhìn thấy được), không đi với たい — không có 見えたがる."
+          ],
+          "answer": 1,
+          "explanation": "Ba lựa chọn đầu đều là Vたい bỏ い nên đều nối được với がる; chỉ có nghĩa quyết định. Đối chiếu với đáp án Riki nếu khác."
+        },
+        {
+          "id": "n3j-b4-btvn-03",
+          "promptJapanese": "（　　　）私の留学は一年だけだから",
+          "promptReading": "（　　　）わたしのりゅうがくはいちねんだけだから",
+          "promptVietnamese": "Đừng buồn nhé! Mình đi du học có một năm thôi mà.",
+          "choices": ["寂しがって!", "寂しがらないで!", "寂しくないで!", "寂しくがっていないで!"],
+          "choicesVietnamese": ["Hãy buồn đi!", "Đừng buồn nhé!", "(sai dạng)", "(sai dạng)"],
+          "choiceNotes": [
+            "Bảo người ta \"hãy buồn đi\" thì ngược với vế sau (chỉ có một năm thôi).",
+            "Đúng: 寂しい → 寂し ＋ がる → 寂しがらないで — khuyên người khác đừng buồn (như 怖がらないで, 恥ずかしがらないで trong bài).",
+            "ないで không nối vào dạng 寂しく của tính từ đuôi い.",
+            "がる nối vào tính từ đã bỏ い (寂し), không nối vào 寂しく."
+          ],
+          "answer": 2
+        },
+        {
+          "id": "n3j-b4-btvn-04",
+          "promptJapanese": "すみません、アンさんにちょっと（　　　）ものがあるんですけど。",
+          "promptReading": "すみません、あんさんにちょっと（　　　）ものがあるんですけど。",
+          "promptVietnamese": "Xin lỗi, tôi có thứ này muốn nhờ chị An xem giúp một chút.",
+          "choices": ["見たい", "見てもらいたい", "見たがっている", "見ていた"],
+          "choicesVietnamese": ["(tôi) muốn xem", "muốn (ai đó) xem giúp", "(người thứ 3) đang muốn xem", "đã đang xem"],
+          "choiceNotes": [
+            "見たい là chính tôi muốn xem; アンさんに (người làm hành động là đối phương) không hợp.",
+            "Đúng: アンさんに ＋ Vてもらいたい — muốn chị An làm (xem giúp) cho mình.",
+            "見たがっている là mong muốn của người thứ 3, không phải lời nhờ của người nói.",
+            "見ていたもの là \"thứ đã đang xem\", không khớp với lời mở đầu すみません nhờ vả."
+          ],
+          "answer": 2
+        },
+        {
+          "id": "n3j-b4-btvn-05",
+          "promptJapanese": "夫（　　　）もう少し家事を協力したりしてほしい。",
+          "promptReading": "おっと（　　　）もうすこしかじをきょうりょくしたりしてほしい。",
+          "promptVietnamese": "Tôi mong chồng tôi cũng phụ giúp việc nhà thêm một chút.",
+          "choices": ["にも", "が", "では", "へと"],
+          "choicesVietnamese": ["(với chồng) cũng", "(chồng) — trợ từ chủ ngữ", "ở chồng thì", "về phía (chồng)"],
+          "choiceNotes": [
+            "Đúng: người làm hành động trong ～てほしい là đối phương, đánh dấu bằng に — 夫にも…してほしい.",
+            "が ＋ Vてほしい dùng cho một hiện tượng muốn xảy ra (雨が降らないでほしい), không dùng cho người mình nhờ.",
+            "では không đánh dấu người làm hành động.",
+            "へと chỉ hướng di chuyển/biến đổi, không hợp."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "n3j-b4-btvn-06",
+          "promptJapanese": "彼はそんなことを知らない（　　　）言った。",
+          "promptReading": "かれはそんなことをしらない（　　　）いった。",
+          "promptVietnamese": "Anh ấy nói là không biết chuyện đó.",
+          "choices": ["で", "っていう", "だって", "って"],
+          "choicesVietnamese": ["(trợ từ で)", "gọi là / rằng (っていう)", "nghe nói / ngay cả", "rằng (って = と, thân mật)"],
+          "choiceNotes": [
+            "で không dẫn nội dung lời nói.",
+            "っていう đã chứa sẵn いう; theo sau lại là 言った thì thừa động từ.",
+            "Sau động từ thể thường không thêm だ — 知らないだって sai.",
+            "Đúng: 普通形 ＋ って ＋ 言った — って là cách nói thân mật của と."
+          ],
+          "answer": 4
+        },
+        {
+          "id": "n3j-b4-btvn-07",
+          "promptJapanese": "「夜にかける」（　　　）歌を聞いたことがありますか。",
+          "promptReading": "「よるにかける」（　　　）うたをきいたことがありますか。",
+          "promptVietnamese": "Bạn đã từng nghe bài hát tên là \"Yoru ni Kakeru\" chưa?",
+          "choices": ["っていう", "だって", "など", "あれ"],
+          "choicesVietnamese": ["tên là, gọi là", "nghe nói / ngay cả", "chẳng hạn như", "cái kia"],
+          "choiceNotes": [
+            "Đúng: N っていう N — gọi tên bài hát (田中さんっていう人 trong bài).",
+            "だって không nối tên gọi vào danh từ.",
+            "など là liệt kê ví dụ, không dùng để gọi tên một bài cụ thể.",
+            "あれ là đại từ chỉ định, không nối được giữa tên bài và 歌."
+          ],
+          "answer": 1
+        },
+        {
+          "id": "n3j-b4-btvn-08",
+          "promptJapanese": "明日から雪が降る（　　　）",
+          "promptReading": "あしたからゆきがふる（　　　）",
+          "promptVietnamese": "Nghe nói từ mai trời sẽ có tuyết đấy.",
+          "choices": ["なんで", "だって", "になる", "んだって"],
+          "choicesVietnamese": ["tại sao", "nghe nói (nhưng sai dạng ở đây)", "trở thành", "nghe nói là"],
+          "choiceNotes": [
+            "なんで là \"tại sao\", đặt sau câu thì không thành nghĩa.",
+            "Động từ thể thường không nối trực tiếp với だって — phải là 降るって hoặc 降るんだって.",
+            "になる nối vào danh từ, không nối vào động từ 降る.",
+            "Đúng: 普通形 ＋ んだって — truyền đạt tin nghe được."
+          ],
+          "answer": 4
+        },
+        {
+          "id": "n3j-b4-btvn-09",
+          "promptJapanese": "宿題を（　　　）遊びに行った。",
+          "promptReading": "しゅくだいを（　　　）あそびにいった。",
+          "promptVietnamese": "Tôi đã đi chơi mà không làm bài tập.",
+          "choices": ["さずに", "せずに", "しずに", "しさずに"],
+          "choicesVietnamese": ["(sai dạng)", "không làm (する → せずに)", "(sai dạng)", "(sai dạng)"],
+          "choiceNotes": [
+            "Không có dạng さずに của する.",
+            "Đúng: する là bất quy tắc — する → せずに.",
+            "しない → しずに là lỗi hay gặp; する phải thành せずに.",
+            "Không có dạng しさずに."
+          ],
+          "answer": 2
+        },
+        {
+          "id": "n3j-b4-btvn-10",
+          "promptJapanese": "卵がまだあるから、スーパーへ（　　　）うちに帰った。",
+          "promptReading": "たまごがまだあるから、すーぱーへ（　　　）うちにかえった。",
+          "promptVietnamese": "Vì vẫn còn trứng nên tôi không ghé siêu thị mà về thẳng nhà.",
+          "choices": ["行かずに", "行きたがらなくて", "行くんだって", "行ってしまって"],
+          "choicesVietnamese": ["không đi (mà…)", "(người thứ 3) không muốn đi nên…", "nghe nói là sẽ đi", "lỡ đi mất rồi"],
+          "choiceNotes": [
+            "Đúng: làm V2 (về nhà) mà không làm V1 (đi siêu thị) → 行かずに.",
+            "たがる dùng cho người thứ 3; người kể đang nói về chính mình.",
+            "\"Nghe nói là sẽ đi\" không nối được với vế sau うちに帰った.",
+            "Còn trứng thì không cần đi; 行ってしまって ngược với lý do 卵がまだあるから."
+          ],
+          "answer": 1,
+          "explanation": "うち ở đây là \"nhà\" (うちに帰った = về nhà), không phải mẫu ～うちに (tranh thủ) của Bài 9."
+        }
+      ]
+    }
+  ]
+}

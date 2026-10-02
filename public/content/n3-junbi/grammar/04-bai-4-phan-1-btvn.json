@@ -1,0 +1,398 @@
+{
+  "id": "04-bai-4-phan-1-btvn",
+  "name": "BTVN Bài 4 · Phần 1",
+  "description": "Bài tập về nhà của Bài 4 · Phần 1 — 10 câu trắc nghiệm ～がる · ～てほしい／～てもらいたい · ～って · ～ずに.",
+  "kind": "test",
+  "parent": "04-bai-4-phan-1",
+  "group": "",
+  "sections": [
+    {
+      "id": "b4-btvn",
+      "title": "BTVN Bài 4 · Phần 1 — 10 câu trắc nghiệm",
+      "instructions": "",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b4-btvn-01",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "赤ちゃんは、つかんだものは何でも口に（　　　）たがるので、危ないものは近くに置かないよう注意が必要だ。",
+          "promptReading": "あかちゃんは、つかんだものはなんでもくちに（　　　）たがるので、あぶないものはちかくにおかないようちゅういがひつようだ。",
+          "promptTranslation": "Em bé thì cái gì nắm được cũng muốn cho vào miệng, nên phải chú ý đừng để đồ nguy hiểm ở gần.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "入れる",
+              "translation": "cho vào (thể từ điển)",
+              "note": "たがる nối vào thân ます (Vたい bỏ い), không nối vào thể từ điển."
+            },
+            {
+              "id": "c2",
+              "text": "入り",
+              "translation": "vào (thân ます của 入る)",
+              "note": "入る là tự động từ (tự đi vào); đồ vật được bé CHO vào miệng (口に～を) cần tha động từ 入れる."
+            },
+            {
+              "id": "c3",
+              "text": "入れ",
+              "translation": "cho vào (thân ます của 入れる)",
+              "note": "Đúng: 入れたい → 入れた ＋ がる = 入れたがる — mong muốn của người thứ 3 (em bé)."
+            },
+            {
+              "id": "c4",
+              "text": "入る",
+              "translation": "vào (thể từ điển, tự động từ)",
+              "note": "Vừa sai dạng (thể từ điển) vừa sai loại động từ (tự động từ)."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-btvn-02",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "これは子供が（　　　）がっていたアニメ映画です。",
+          "promptReading": "これはこどもが（　　　）がっていたあにめえいがです。",
+          "promptTranslation": "Đây là bộ phim hoạt hình mà bọn trẻ đã rất muốn xem.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "見た",
+              "translation": "(muốn) xem — 見たい bỏ い",
+              "note": "Đúng: 見たい → 見た ＋ がる; phim thì để XEM — 見たがっていたアニメ映画."
+            },
+            {
+              "id": "c2",
+              "text": "買いた",
+              "translation": "(muốn) mua — 買いたい bỏ い",
+              "note": "Đúng dạng (買いたい → 買いたがる), nhưng phim hoạt hình là thứ để xem chứ không phải để mua — nghĩa không hợp bằng 見た."
+            },
+            {
+              "id": "c3",
+              "text": "聞きた",
+              "translation": "(muốn) nghe — 聞きたい bỏ い",
+              "note": "Đúng dạng (聞きたい → 聞きたがる), nhưng phim không phải thứ để \"nghe\"."
+            },
+            {
+              "id": "c4",
+              "text": "見えた",
+              "translation": "nhìn thấy được — không có dạng 見えたい",
+              "note": "見える là động từ khả năng tự phát (nhìn thấy được), không đi với たい — không có 見えたがる."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Ba lựa chọn đầu đều là Vたい bỏ い nên đều nối được với がる; chỉ có nghĩa quyết định. Đối chiếu với đáp án Riki nếu khác.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-btvn-03",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "（　　　）私の留学は一年だけだから",
+          "promptReading": "（　　　）わたしのりゅうがくはいちねんだけだから",
+          "promptTranslation": "Đừng buồn nhé! Mình đi du học có một năm thôi mà.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "寂しがって!",
+              "translation": "Hãy buồn đi!",
+              "note": "Bảo người ta \"hãy buồn đi\" thì ngược với vế sau (chỉ có một năm thôi)."
+            },
+            {
+              "id": "c2",
+              "text": "寂しがらないで!",
+              "translation": "Đừng buồn nhé!",
+              "note": "Đúng: 寂しい → 寂し ＋ がる → 寂しがらないで — khuyên người khác đừng buồn (như 怖がらないで, 恥ずかしがらないで trong bài)."
+            },
+            {
+              "id": "c3",
+              "text": "寂しくないで!",
+              "translation": "(sai dạng)",
+              "note": "ないで không nối vào dạng 寂しく của tính từ đuôi い."
+            },
+            {
+              "id": "c4",
+              "text": "寂しくがっていないで!",
+              "translation": "(sai dạng)",
+              "note": "がる nối vào tính từ đã bỏ い (寂し), không nối vào 寂しく."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-btvn-04",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "すみません、アンさんにちょっと（　　　）ものがあるんですけど。",
+          "promptReading": "すみません、あんさんにちょっと（　　　）ものがあるんですけど。",
+          "promptTranslation": "Xin lỗi, tôi có thứ này muốn nhờ chị An xem giúp một chút.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "見たい",
+              "translation": "(tôi) muốn xem",
+              "note": "見たい là chính tôi muốn xem; アンさんに (người làm hành động là đối phương) không hợp."
+            },
+            {
+              "id": "c2",
+              "text": "見てもらいたい",
+              "translation": "muốn (ai đó) xem giúp",
+              "note": "Đúng: アンさんに ＋ Vてもらいたい — muốn chị An làm (xem giúp) cho mình."
+            },
+            {
+              "id": "c3",
+              "text": "見たがっている",
+              "translation": "(người thứ 3) đang muốn xem",
+              "note": "見たがっている là mong muốn của người thứ 3, không phải lời nhờ của người nói."
+            },
+            {
+              "id": "c4",
+              "text": "見ていた",
+              "translation": "đã đang xem",
+              "note": "見ていたもの là \"thứ đã đang xem\", không khớp với lời mở đầu すみません nhờ vả."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-btvn-05",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "夫（　　　）もう少し家事を協力したりしてほしい。",
+          "promptReading": "おっと（　　　）もうすこしかじをきょうりょくしたりしてほしい。",
+          "promptTranslation": "Tôi mong chồng tôi cũng phụ giúp việc nhà thêm một chút.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "にも",
+              "translation": "(với chồng) cũng",
+              "note": "Đúng: người làm hành động trong ～てほしい là đối phương, đánh dấu bằng に — 夫にも…してほしい."
+            },
+            {
+              "id": "c2",
+              "text": "が",
+              "translation": "(chồng) — trợ từ chủ ngữ",
+              "note": "が ＋ Vてほしい dùng cho một hiện tượng muốn xảy ra (雨が降らないでほしい), không dùng cho người mình nhờ."
+            },
+            {
+              "id": "c3",
+              "text": "では",
+              "translation": "ở chồng thì",
+              "note": "では không đánh dấu người làm hành động."
+            },
+            {
+              "id": "c4",
+              "text": "へと",
+              "translation": "về phía (chồng)",
+              "note": "へと chỉ hướng di chuyển/biến đổi, không hợp."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-btvn-06",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "彼はそんなことを知らない（　　　）言った。",
+          "promptReading": "かれはそんなことをしらない（　　　）いった。",
+          "promptTranslation": "Anh ấy nói là không biết chuyện đó.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "で",
+              "translation": "(trợ từ で)",
+              "note": "で không dẫn nội dung lời nói."
+            },
+            {
+              "id": "c2",
+              "text": "っていう",
+              "translation": "gọi là / rằng (っていう)",
+              "note": "っていう đã chứa sẵn いう; theo sau lại là 言った thì thừa động từ."
+            },
+            {
+              "id": "c3",
+              "text": "だって",
+              "translation": "nghe nói / ngay cả",
+              "note": "Sau động từ thể thường không thêm だ — 知らないだって sai."
+            },
+            {
+              "id": "c4",
+              "text": "って",
+              "translation": "rằng (って = と, thân mật)",
+              "note": "Đúng: 普通形 ＋ って ＋ 言った — って là cách nói thân mật của と."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-btvn-07",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "「夜にかける」（　　　）歌を聞いたことがありますか。",
+          "promptReading": "「よるにかける」（　　　）うたをきいたことがありますか。",
+          "promptTranslation": "Bạn đã từng nghe bài hát tên là \"Yoru ni Kakeru\" chưa?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "っていう",
+              "translation": "tên là, gọi là",
+              "note": "Đúng: N っていう N — gọi tên bài hát (田中さんっていう人 trong bài)."
+            },
+            {
+              "id": "c2",
+              "text": "だって",
+              "translation": "nghe nói / ngay cả",
+              "note": "だって không nối tên gọi vào danh từ."
+            },
+            {
+              "id": "c3",
+              "text": "など",
+              "translation": "chẳng hạn như",
+              "note": "など là liệt kê ví dụ, không dùng để gọi tên một bài cụ thể."
+            },
+            {
+              "id": "c4",
+              "text": "あれ",
+              "translation": "cái kia",
+              "note": "あれ là đại từ chỉ định, không nối được giữa tên bài và 歌."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-btvn-08",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "明日から雪が降る（　　　）",
+          "promptReading": "あしたからゆきがふる（　　　）",
+          "promptTranslation": "Nghe nói từ mai trời sẽ có tuyết đấy.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "なんで",
+              "translation": "tại sao",
+              "note": "なんで là \"tại sao\", đặt sau câu thì không thành nghĩa."
+            },
+            {
+              "id": "c2",
+              "text": "だって",
+              "translation": "nghe nói (nhưng sai dạng ở đây)",
+              "note": "Động từ thể thường không nối trực tiếp với だって — phải là 降るって hoặc 降るんだって."
+            },
+            {
+              "id": "c3",
+              "text": "になる",
+              "translation": "trở thành",
+              "note": "になる nối vào danh từ, không nối vào động từ 降る."
+            },
+            {
+              "id": "c4",
+              "text": "んだって",
+              "translation": "nghe nói là",
+              "note": "Đúng: 普通形 ＋ んだって — truyền đạt tin nghe được."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-btvn-09",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "宿題を（　　　）遊びに行った。",
+          "promptReading": "しゅくだいを（　　　）あそびにいった。",
+          "promptTranslation": "Tôi đã đi chơi mà không làm bài tập.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "さずに",
+              "translation": "(sai dạng)",
+              "note": "Không có dạng さずに của する."
+            },
+            {
+              "id": "c2",
+              "text": "せずに",
+              "translation": "không làm (する → せずに)",
+              "note": "Đúng: する là bất quy tắc — する → せずに."
+            },
+            {
+              "id": "c3",
+              "text": "しずに",
+              "translation": "(sai dạng)",
+              "note": "しない → しずに là lỗi hay gặp; する phải thành せずに."
+            },
+            {
+              "id": "c4",
+              "text": "しさずに",
+              "translation": "(sai dạng)",
+              "note": "Không có dạng しさずに."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b4-btvn-10",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "卵がまだあるから、スーパーへ（　　　）うちに帰った。",
+          "promptReading": "たまごがまだあるから、すーぱーへ（　　　）うちにかえった。",
+          "promptTranslation": "Vì vẫn còn trứng nên tôi không ghé siêu thị mà về thẳng nhà.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "行かずに",
+              "translation": "không đi (mà…)",
+              "note": "Đúng: làm V2 (về nhà) mà không làm V1 (đi siêu thị) → 行かずに."
+            },
+            {
+              "id": "c2",
+              "text": "行きたがらなくて",
+              "translation": "(người thứ 3) không muốn đi nên…",
+              "note": "たがる dùng cho người thứ 3; người kể đang nói về chính mình."
+            },
+            {
+              "id": "c3",
+              "text": "行くんだって",
+              "translation": "nghe nói là sẽ đi",
+              "note": "\"Nghe nói là sẽ đi\" không nối được với vế sau うちに帰った."
+            },
+            {
+              "id": "c4",
+              "text": "行ってしまって",
+              "translation": "lỡ đi mất rồi",
+              "note": "Còn trứng thì không cần đi; 行ってしまって ngược với lý do 卵がまだあるから."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "うち ở đây là \"nhà\" (うちに帰った = về nhà), không phải mẫu ～うちに (tranh thủ) của Bài 9.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-02T01:59:23.973Z",
+  "generatedAt": "2026-10-02T02:13:05.162Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -243,6 +243,17 @@
           "itemCount": 12,
           "order": 4101,
           "file": "grammar/04-bai-4-phan-1-luyen-tap.json"
+        },
+        {
+          "id": "04-bai-4-phan-1-btvn",
+          "name": "BTVN Bài 4 · Phần 1",
+          "description": "Bài tập về nhà của Bài 4 · Phần 1 — 10 câu trắc nghiệm ～がる · ～てほしい／～てもらいたい · ～って · ～ずに.",
+          "kind": "test",
+          "parent": "04-bai-4-phan-1",
+          "group": "",
+          "itemCount": 10,
+          "order": 4102,
+          "file": "grammar/04-bai-4-phan-1-btvn.json"
         },
         {
           "id": "09-bai-9-phan-1-luyen-tap",
