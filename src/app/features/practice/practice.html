@@ -35,9 +35,34 @@
           }
 
           <div class="stack stack-sm">
-            <p class="prompt" [class.jp]="q.promptIsJapanese">{{ q.prompt }}</p>
+            <!-- Viết dồn một dòng cùng lý do với câu ví dụ ở cuối thẻ: xuống dòng giữa các
+                 mảnh thì thành dấu cách giữa câu tiếng Nhật. -->
+            <!-- prettier-ignore -->
+            <p class="prompt" [class.jp]="q.promptIsJapanese" [class.is-sentence]="q.isSentence">@for (part of promptParts(q); track $index) {@if (part.hit) {<mark>{{ part.text }}</mark>} @else {<span>{{ part.text }}</span>}}</p>
             @if (q.hint) {
-              <p class="muted small">{{ q.hint }}</p>
+              <p class="muted small" [class.jp]="q.hintIsJapanese">{{ q.hint }}</p>
+            }
+            <!-- Cách đọc của câu đem ra dịch: ẩn sẵn, mở sớm hay không là việc của người
+                 học, và bấm lại là ẩn đi. Vẫn còn sau khi chấm — lúc đó là lúc đọc lại câu. -->
+            @if (q.promptReading) {
+              <div class="prompt-reading">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-ghost reading-toggle"
+                  [class.is-on]="showPromptReading()"
+                  [attr.aria-pressed]="showPromptReading()"
+                  (click)="togglePromptReading()"
+                >
+                  @if (showPromptReading()) {
+                    {{ t('practice.hideReading') }}
+                  } @else {
+                    {{ t('practice.showReading') }}
+                  }
+                </button>
+                @if (showPromptReading()) {
+                  <p class="jp prompt-reading-text">{{ q.promptReading }}</p>
+                }
+              </div>
             }
           </div>
 
@@ -68,22 +93,44 @@
                    $event.preventDefault() cũng là bắt buộc: chấm xong thì focus nhảy ngay
                    sang ô câu ví dụ (hoặc nút "Câu tiếp theo"). Không chặn thì keypress của
                    CHÍNH lần nhấn Enter đó rơi vào phần tử vừa nhận focus và bấm luôn nút —
-                   màn hình nhảy sang câu sau trước khi người học kịp nhìn đáp án. -->
-              <input
-                #answerInput
-                type="text"
-                class="input answer-input"
-                [class.jp]="q.answerIsJapanese"
-                [placeholder]="t('practice.typeHere')"
-                [attr.aria-label]="t('practice.typeHere')"
-                [readOnly]="checked()"
-                [ngModel]="given()"
-                (ngModelChange)="given.set($event)"
-                (keydown.enter)="$event.preventDefault(); check()"
-                autocomplete="off"
-                autocapitalize="off"
-                spellcheck="false"
-              />
+                   màn hình nhảy sang câu sau trước khi người học kịp nhìn đáp án.
+
+                   Câu dịch dùng <textarea> để chữ tự xuống dòng (chép theo minano_nihongo):
+                   trong ô một dòng, phần đầu câu bị đẩy khuất, gõ xong không soát lại được.
+                   Enter vẫn nộp bài; Shift+Enter mới xuống dòng. -->
+              @if (q.isSentence) {
+                <textarea
+                  #answerInput
+                  rows="3"
+                  class="input answer-input answer-textarea"
+                  [class.jp]="q.answerIsJapanese"
+                  [placeholder]="t('practice.typeHere')"
+                  [attr.aria-label]="t('practice.typeHere')"
+                  [readOnly]="checked()"
+                  [ngModel]="given()"
+                  (ngModelChange)="given.set($event)"
+                  (keydown.enter)="isSubmitEnter($event) && check()"
+                  autocomplete="off"
+                  autocapitalize="off"
+                  spellcheck="false"
+                ></textarea>
+              } @else {
+                <input
+                  #answerInput
+                  type="text"
+                  class="input answer-input"
+                  [class.jp]="q.answerIsJapanese"
+                  [placeholder]="t('practice.typeHere')"
+                  [attr.aria-label]="t('practice.typeHere')"
+                  [readOnly]="checked()"
+                  [ngModel]="given()"
+                  (ngModelChange)="given.set($event)"
+                  (keydown.enter)="isSubmitEnter($event) && check()"
+                  autocomplete="off"
+                  autocapitalize="off"
+                  spellcheck="false"
+                />
+              }
               @if (!checked()) {
                 <button
                   type="button"
@@ -102,11 +149,20 @@
               <strong>
                 @if (wasCorrect()) {
                   <app-t key="practice.correct" />
+                  @if (selfGraded()) {
+                    <span class="self-graded">{{ t('practice.selfGraded') }}</span>
+                  }
+                } @else if (q.selfGradable) {
+                  <!-- Câu dịch: máy chỉ so được với một câu mẫu, nên "chưa khớp" chứ
+                       chưa chắc đã sai — nút tự xác nhận nằm ngay bên dưới. -->
+                  <app-t key="practice.wrongSentence" />
                 } @else {
                   <app-t key="practice.wrong" />
                 }
               </strong>
-              @if (!wasCorrect()) {
+              <!-- Tự xác nhận xong vẫn giữ câu mẫu: lúc này người học đang so câu của mình
+                   với nó, không có lý do gì để nó biến mất. -->
+              @if (!wasCorrect() || selfGraded()) {
                 <span [class.jp]="q.answerIsJapanese">
                   {{ t('practice.answerWas', { answer: q.answer }) }}
                 </span>
@@ -115,6 +171,18 @@
                 <span class="muted small" [class.jp]="q.promptIsJapanese">{{ q.explanation }}</span>
               }
             </div>
+
+            <!-- Tự chấm chỉ có ở câu dịch gõ tay — chép theo khu Luyện dịch của
+                 minano_nihongo: dịch đúng ý mà khác câu mẫu ở cách chọn từ thì máy không
+                 biết, người học thì biết, vì đã thấy câu mẫu ngay phía trên. -->
+            @if (canAcceptOwnAnswer()) {
+              <div class="self-grade">
+                <button type="button" class="btn btn-sm" (click)="acceptOwnAnswer()">
+                  {{ t('practice.acceptOwn') }}
+                </button>
+                <span class="small muted">{{ t('practice.acceptOwnHint') }}</span>
+              </div>
+            }
 
             <!-- Cách đọc và ghi chú của sách: hiện ngay khi vừa chấm, không đợi chấm
                  xong cả thẻ như danh sách câu ví dụ. Biết nghĩa mà không biết đọc thì
@@ -163,7 +231,7 @@
                     [readOnly]="followChecked()"
                     [ngModel]="followGiven()"
                     (ngModelChange)="followGiven.set($event)"
-                    (keydown.enter)="$event.preventDefault(); checkFollowUp()"
+                    (keydown.enter)="isSubmitEnter($event) && checkFollowUp()"
                     autocomplete="off"
                     autocapitalize="off"
                     spellcheck="false"

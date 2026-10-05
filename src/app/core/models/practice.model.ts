@@ -16,7 +16,9 @@ export type PracticeDirection =
   | 'jp-han'
   | 'han-jp'
   | 'jp-reading'
-  | 'jp-sentence';
+  | 'jp-sentence'
+  | 'translate-jp-vi'
+  | 'translate-vi-jp';
 
 export interface DirectionInfo {
   id: PracticeDirection;
@@ -36,6 +38,11 @@ export const DIRECTIONS: readonly DirectionInfo[] = [
   // một từ đứng một mình khác hẳn với dùng được nó trong câu, mà đề N3 phần 文字語彙
   // hỏi đúng theo kiểu này.
   { id: 'jp-sentence', labelKey: 'practice.direction.sentence' },
+  // Dịch CẢ câu ví dụ, mỗi câu một thẻ — chép theo khu Luyện dịch của minano_nihongo.
+  // Điền một từ vào câu chỉ hỏi về một chữ; dịch được cả câu mới là hiểu câu, và chiều
+  // Việt → Nhật bắt người học tự đặt từ vào câu chứ không chọn từ một chỗ trống có sẵn.
+  { id: 'translate-jp-vi', labelKey: 'practice.direction.translateJpToVi' },
+  { id: 'translate-vi-jp', labelKey: 'practice.direction.translateViToJp' },
 ];
 
 /** Số lựa chọn của một câu trắc nghiệm tự dựng (1 đúng + 3 nhiễu). */
@@ -75,8 +82,24 @@ export interface PracticeQuestion {
   prompt: string;
   /** Vẽ câu dẫn bằng font tiếng Nhật hay font giao diện. */
   promptIsJapanese: boolean;
+  /**
+   * Chữ cần tô trong câu dẫn — từ đang học trong câu ví dụ đem ra dịch, đúng như chữ
+   * in đỏ của giáo trình. Rỗng nghĩa là không tô.
+   */
+  promptHighlights: string[];
+  /**
+   * Cách đọc kana của CÂU DẪN tiếng Nhật, nằm sau nút hiện / ẩn ngay dưới câu dẫn.
+   * Rỗng nghĩa là không có nút.
+   *
+   * Chỉ câu đem ra dịch mới có: đọc được chữ Hán là một nửa của việc dịch, nên mở cách
+   * đọc sớm hay không là quyết định của người học — mặc định ẩn, bấm lại là ẩn đi. Khác
+   * `reading` (hiện sau khi chấm), vì đây là cách đọc của đề chứ không của đáp án.
+   */
+  promptReading: string;
   /** Dòng phụ dưới câu dẫn (âm Hán Việt, tên mẫu ngữ pháp…). Rỗng nghĩa là không có. */
   hint: string;
+  /** Dòng phụ là chữ Nhật (tên mẫu ngữ pháp, từ phải dùng khi dịch sang tiếng Nhật). */
+  hintIsJapanese: boolean;
   /** Đáp án đúng, dạng hiển thị. */
   answer: string;
   answerIsJapanese: boolean;
@@ -91,6 +114,19 @@ export interface PracticeQuestion {
   answerIsHanViet: boolean;
   /** Mọi cách viết được chấp nhận khi gõ tay. Luôn chứa `answer`. */
   acceptedAnswers: string[];
+  /**
+   * Đáp án là CẢ MỘT CÂU (dịch câu ví dụ): gõ vào ô nhiều dòng, và chấm bỏ qua mọi dấu
+   * câu, khoảng trắng lẫn phần chú thích sách in kèm câu (xem `isSentenceCorrect`).
+   */
+  isSentence: boolean;
+  /**
+   * Gõ sai thì người học được TỰ xác nhận "câu của tôi cũng đúng" — chép theo khu Luyện
+   * dịch của minano_nihongo.
+   *
+   * Chỉ có ở câu dịch: một ý nói được nhiều cách, máy chỉ so được với một câu mẫu, còn
+   * người học — đã thấy câu mẫu — mới biết câu mình lệch ở cách chọn từ hay sai nghĩa.
+   */
+  selfGradable: boolean;
   /** Lựa chọn cho chế độ trắc nghiệm, đã trộn. Rỗng ở chế độ gõ. */
   choices: string[];
   /**
@@ -117,6 +153,10 @@ export interface PracticeQuestion {
    * tiếp theo" giữa chừng mới tới câu ví dụ, thanh tiến độ đếm gấp đôi số từ, và người
    * học tưởng chỗ trống là một từ mới. Lồng vào đây thì câu ví dụ cũng không bao giờ bị
    * trộn lệch hay bị cắt rời khỏi từ của nó khi giới hạn số câu.
+   *
+   * Chỉ có ở chiều mà mặt chữ Nhật là ĐÁP ÁN (Việt → Nhật, Hán Việt → Nhật). Ở chiều hỏi
+   * bằng chính mặt chữ (Nhật → Việt, Nhật → Hán Việt, Nhật → Cách đọc), từ cần điền
+   * đang in to ở đầu thẻ — điền vào chỉ là chép lại, không luyện được gì.
    */
   followUp: PracticeQuestion | null;
   /**
@@ -129,7 +169,8 @@ export interface PracticeQuestion {
    */
   examples: PracticeExample[];
   /**
-   * Cách đọc kana của mục đang hỏi, hiện NGAY khi chấm xong phần này.
+   * Cách đọc kana của mục đang hỏi, hiện NGAY khi chấm xong phần này. Với câu dịch thì
+   * là cách đọc cả câu tiếng Nhật.
    *
    * Rỗng khi từ vốn đã là kana (katakana, ごちそう), và khi chính cách đọc là đáp án —
    * chiều Nhật → Cách đọc thì dòng này chỉ lặp lại đáp án vừa hiện.
@@ -180,6 +221,8 @@ export interface AnswerRecord {
   /** Chuỗi người học đã trả lời. Rỗng nghĩa là bỏ qua. */
   given: string;
   isCorrect: boolean;
+  /** Đúng là do người học tự xác nhận chứ không phải máy chấm (xem `selfGradable`). */
+  selfGraded?: boolean;
 }
 
 export interface QuestionResult {

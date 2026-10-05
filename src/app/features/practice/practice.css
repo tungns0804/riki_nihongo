@@ -23,6 +23,47 @@
   white-space: pre-line;
 }
 
+/* Câu đem ra dịch dài gấp nhiều lần một từ: giữ cỡ chữ to như từ vựng thì một câu
+   tràn kín màn hình điện thoại và đẩy ô trả lời ra ngoài. Cỡ chữ theo .prompt.is-sentence
+   của minano_nihongo, ngang với câu ví dụ đi kèm (.follow-prompt). */
+.prompt.is-sentence {
+  font-size: clamp(1.15rem, 1rem + 0.9vw, 1.6rem);
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/* Từ đang học tô giữa câu dẫn, cùng kiểu với danh sách câu ví dụ sau khi chấm. */
+.prompt mark {
+  padding: 0 2px;
+  border-radius: 3px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Nút hiện / ẩn cách đọc của câu dẫn. Chỉ rộng bằng chữ: .stack là cột flex nên mặc
+   định kéo nút dãn hết bề ngang. Bật thì mang màu nhấn như nút "Hiện bản dịch" của
+   trang làm đề, để thấy ngay nó đang bật. */
+.prompt-reading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--sp-2);
+}
+
+.reading-toggle.is-on {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 620;
+}
+
+.prompt-reading-text {
+  font-size: var(--fs-md);
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
 /* --- Bài đọc của đề --------------------------------------------------------
    Trình bày như trang Đọc hiểu (features/reading-detail): chữ lớn hơn phần còn lại
    và dòng thưa, vì đây là khối duy nhất người học phải đọc liền mạch vài trăm chữ,
@@ -109,6 +150,34 @@
 .answer-input {
   flex: 1 1 240px;
   font-size: var(--fs-lg);
+}
+
+/* Ô gõ cả một câu dịch — chép theo .answer-textarea của minano_nihongo: chữ tự xuống
+   dòng nên thấy trọn câu vừa viết, kéo cao thêm được nhưng không kéo ngang để không
+   phá hàng. Nút Kiểm tra bám đáy ô thay vì nằm giữa chiều cao của nó. */
+.answer-textarea {
+  min-height: 96px;
+  font-size: var(--fs-md);
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.field:has(.answer-textarea) {
+  align-items: flex-end;
+}
+
+/* Nút "Câu của tôi cũng đúng" và lời giải thích ngắn bên cạnh. */
+.self-grade {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+/* "(bạn tự xác nhận)" đứng sau chữ "Chính xác" in đậm, nhưng chỉ là chú thích. */
+.self-graded {
+  margin-left: 6px;
+  font-weight: 400;
 }
 
 /* Khối phản hồi bật lên chứ không hiện im lìm: đây là câu trả lời cho đúng câu hỏi

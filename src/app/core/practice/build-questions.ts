@@ -14,7 +14,7 @@ import {
   PracticeExample,
   PracticeQuestion,
 } from '../models/practice.model';
-import { splitAlternatives } from '../utils/answer-check';
+import { splitAlternatives, withoutAnnotations } from '../utils/answer-check';
 import { pickRandom, shuffle } from '../utils/random';
 import { readingOfForm } from '../utils/text';
 
@@ -93,6 +93,18 @@ function vocabHint(word: VocabWord, direction: PracticeDirection): string {
   return '';
 }
 
+/**
+ * Chiều này có kèm câu ví dụ để điền (`followUp`) không: chỉ khi mặt chữ Nhật là ĐÁP ÁN.
+ *
+ * Ở Nhật → Việt / Hán Việt / Cách đọc, từ cần điền đang in to ở đầu thẻ, nên câu điền
+ * chỉ là chép lại chữ ngay phía trên. Ở Việt → Nhật và Hán Việt → Nhật thì người học
+ * vừa phải tự nhớ ra mặt chữ, và câu ví dụ bắt đặt nó vào ngữ cảnh — với động từ còn
+ * phải chia cho hợp câu.
+ */
+export function pairsWithExample(direction: PracticeDirection): boolean {
+  return direction === 'vi-jp' || direction === 'han-jp';
+}
+
 /** Câu ví dụ của một từ, kèm đúng những chữ cần tô trong TỪNG câu. */
 function vocabExamples(word: VocabWord): PracticeExample[] {
   return word.examples.map((example) => ({
@@ -106,12 +118,12 @@ function vocabExamples(word: VocabWord): PracticeExample[] {
 }
 
 /**
- * Hỏi về từ, kèm NGAY TRÊN CÙNG THẺ một câu ví dụ của chính từ đó.
+ * Hỏi về từ; ở chiều đáp án là mặt chữ Nhật thì kèm NGAY TRÊN CÙNG THẺ một câu ví dụ
+ * của chính từ đó để điền (xem `pairsWithExample`).
  *
- * Vì sao phải có câu ví dụ: chọn đúng "倒れる = Đổ" chưa có nghĩa là dùng được nó. Câu
- * ví dụ bắt người học đưa từ vừa nhớ vào ngữ cảnh — với động từ còn phải chia cho hợp
- * câu — mà đề 文字語彙 của kỳ thi hỏi đúng theo kiểu đó. Áp dụng cho mọi chiều hỏi về
- * từ: Nhật ↔ Việt, Nhật ↔ Hán Việt lẫn Nhật → Cách đọc.
+ * Vì sao phải có câu ví dụ: viết đúng 倒れる từ nghĩa "Đổ" chưa có nghĩa là dùng được
+ * nó. Câu ví dụ bắt người học đưa từ vừa nhớ vào ngữ cảnh — với động từ còn phải chia
+ * cho hợp câu — mà đề 文字語彙 của kỳ thi hỏi đúng theo kiểu đó.
  *
  * Câu ví dụ nằm TRONG câu hỏi về từ (`followUp`) chứ không đứng thành câu kế tiếp: màn
  * luyện tập hiện nó ngay dưới phần vừa chấm, không phải bấm "Câu tiếp theo" giữa chừng.
@@ -134,7 +146,7 @@ function fromVocabulary(
       .map((other) => String(other[answer]));
   // Lấy trong đúng các từ đang luyện (đã lọc theo cụm), để mồi nhiễu của câu ví dụ
   // cũng nằm trong cụm như mồi nhiễu của câu hỏi về từ.
-  const sentences = sentenceItems(words);
+  const sentences = pairsWithExample(direction) ? sentenceItems(words) : [];
 
   return usable.map((word) => {
     const correct = String(word[answer]);
@@ -148,12 +160,17 @@ function fromVocabulary(
       skill: 'vocabulary' as SkillId,
       prompt: prompt === 'japanese' ? withParticle(word) : String(word[prompt]),
       promptIsJapanese: isJapaneseField(prompt),
+      promptHighlights: [],
+      promptReading: '',
       hint: vocabHint(word, direction),
+      hintIsJapanese: false,
       answer: correct,
       answerIsJapanese: isJapaneseField(answer),
       // Gõ "sự cố" khớp "SỰ CỐ", còn "su co" thì không.
       answerIsHanViet: answer === 'hanViet',
       acceptedAnswers: [correct],
+      isSentence: false,
+      selfGradable: false,
       choices: withChoices ? buildChoices(correct, poolFor(word)) : [],
       choiceNotes: [],
       explanation: '',
@@ -287,15 +304,21 @@ function sentenceQuestion(
     skill: 'vocabulary',
     prompt: example.japanese.split(blank).join(BLANK),
     promptIsJapanese: true,
+    promptHighlights: [],
+    // Không có nút hiện cách đọc cả câu: cách đọc đó đọc thẳng ra từ cần điền.
+    promptReading: '',
     // Gợi ý là NGHĨA của từ cần điền: không có nó thì nhiều câu điền từ nào cũng
     // xuôi, nhất là khi bốn lựa chọn đều cùng loại từ.
     hint: word.vietnamese,
+    hintIsJapanese: false,
     answer: blank,
     answerIsJapanese: true,
     answerIsHanViet: false,
     // Gõ cách đọc cũng tính đúng: người học nhớ từ mà chưa gõ được kanji thì vẫn là
     // nhớ từ.
     acceptedAnswers: reading ? [blank, reading] : [blank],
+    isSentence: false,
+    selfGradable: false,
     choices: withChoices ? buildBlankChoices(blank, pool) : [],
     choiceNotes: [],
     explanation: '',
@@ -322,6 +345,77 @@ function fromVocabularySentences(
 ): PracticeQuestion[] {
   const items = sentenceItems(words);
   return items.map((item) => sentenceQuestion(item, items, withChoices, false));
+}
+
+// ── Từ vựng: dịch câu ví dụ ────────────────────────────────────────────────
+
+/** Câu ví dụ đem ra dịch được: phải có đủ cả câu tiếng Nhật lẫn bản dịch. */
+function translatableExamples(word: VocabWord): VocabExample[] {
+  return word.examples.filter((example) => example.japanese && example.vietnamese);
+}
+
+/**
+ * Chiều "Dịch câu": mỗi câu ví dụ một thẻ, dịch cả câu sang thứ tiếng kia — chép theo
+ * khu Luyện dịch của minano_nihongo (`translation-questions.ts`).
+ *
+ * Gõ đáp án thì chấm theo câu mẫu, bỏ qua dấu câu và phần chú thích sách in kèm; chưa
+ * khớp thì người học được tự xác nhận câu của mình (`selfGradable`). Trắc nghiệm thì
+ * chọn bản dịch đúng trong bốn câu, ba câu nhiễu là bản dịch của câu khác cùng cụm —
+ * như chiều Nhật ↔ Việt của phần Ngữ pháp.
+ */
+function fromVocabularyTranslations(
+  words: readonly VocabWord[],
+  direction: PracticeDirection,
+  withChoices: boolean,
+): PracticeQuestion[] {
+  const toJapanese = direction === 'translate-vi-jp';
+  const items = words.flatMap((word) =>
+    translatableExamples(word).map((example) => ({ word, example })),
+  );
+  // Trắc nghiệm thì bỏ lời chú của sách khỏi đáp án và mồi nhiễu: chú thích "(≒ 語調 =
+  // giọng điệu)" nhắc lại đúng chữ Nhật trong câu dẫn, nhìn là chọn được. Gõ đáp án thì
+  // giữ nguyên, vì lúc đó đáp án chỉ hiện ra để đọc lại — lời chú là phần đáng đọc.
+  const answerOf = (example: VocabExample) => {
+    const text = toJapanese ? example.japanese : example.vietnamese;
+    return withChoices ? withoutAnnotations(text) : text;
+  };
+  const pool = items.map(({ example }) => answerOf(example));
+
+  return items.map(({ word, example }): PracticeQuestion => {
+    const correct = answerOf(example);
+    return {
+      id: `${word.id}:${example.id}:${direction}`,
+      skill: 'vocabulary',
+      prompt: toJapanese ? example.vietnamese : example.japanese,
+      promptIsJapanese: !toJapanese,
+      // Từ đang học tô trong câu tiếng Nhật, như chữ in đỏ của giáo trình.
+      promptHighlights: toJapanese ? [] : example.targets,
+      promptReading: toJapanese ? '' : example.reading,
+      // Dịch sang tiếng Nhật thì gợi ý TỪ phải dùng: câu nằm trong bài từ vựng để luyện
+      // đúng từ đó, mà một ý tiếng Việt thường nói được bằng vài từ khác nhau.
+      hint: toJapanese ? withParticle(word) : '',
+      hintIsJapanese: toJapanese,
+      answer: correct,
+      answerIsJapanese: toJapanese,
+      answerIsHanViet: false,
+      // Gõ toàn kana cũng tính đúng, như câu điền từ.
+      acceptedAnswers: toJapanese && example.reading ? [correct, example.reading] : [correct],
+      isSentence: true,
+      selfGradable: !withChoices,
+      choices: withChoices ? buildChoices(correct, pool) : [],
+      choiceNotes: [],
+      explanation: '',
+      passage: [],
+      examples: [],
+      // Cách đọc của câu tiếng Nhật vừa viết ra. Chiều ngược lại thì cách đọc thuộc về
+      // câu dẫn, đã có nút riêng (`promptReading`).
+      reading: toJapanese ? example.reading : '',
+      // Mẫu ngữ pháp của câu: tài liệu 文字語彙 chỉ dạy từ, nên câu ví dụ hay dùng mẫu
+      // người học chưa gặp — dịch sai vì mẫu đó thì phải biết là mẫu đó.
+      notes: example.grammar ? [{ label: '文法', text: example.grammar }] : [],
+      followUp: null,
+    };
+  });
 }
 
 // ── Kanji ──────────────────────────────────────────────────────────────────
@@ -370,7 +464,10 @@ function fromKanji(
       skill: 'kanji' as SkillId,
       prompt: askForCharacter ? meaningOf(entry) : entry.character,
       promptIsJapanese: !askForCharacter,
+      promptHighlights: [],
+      promptReading: '',
       hint: askForCharacter || hanVietIsAnswer ? '' : entry.hanViet,
+      hintIsJapanese: false,
       answer: correct,
       answerIsJapanese: isReadingQuestion || askForCharacter,
       // Thẻ kanji không ghi nghĩa thì đáp án Nhật → Việt chính là âm Hán Việt (任 =
@@ -378,6 +475,8 @@ function fromKanji(
       answerIsHanViet: hanVietIsAnswer && !askForCharacter,
       // Chữ có nhiều âm On/Kun thì gõ đúng MỘT âm là đủ.
       acceptedAnswers: isReadingQuestion ? readings : [correct],
+      isSentence: false,
+      selfGradable: false,
       choices: withChoices
         ? buildChoices(
             correct,
@@ -438,16 +537,27 @@ function fromGrammar(
       skill: 'grammar' as SkillId,
       prompt: askForJapanese ? example.vietnamese : example.japanese,
       promptIsJapanese: !askForJapanese,
+      promptHighlights: [],
+      // Câu dẫn tiếng Nhật thì cách đọc cả câu nằm sau nút hiện / ẩn dưới câu, như câu
+      // dịch của phần Từ vựng — không đợi chấm xong mới hiện.
+      promptReading: askForJapanese ? '' : example.reading,
       hint: point.title,
+      hintIsJapanese: true,
       answer: correct,
       answerIsJapanese: askForJapanese,
       answerIsHanViet: false,
-      acceptedAnswers: [correct],
+      acceptedAnswers: askForJapanese && example.reading ? [correct, example.reading] : [correct],
+      // Hai chiều của phần Ngữ pháp vốn là dịch cả câu ví dụ, nên chấm và tự xác nhận
+      // như chiều "Dịch câu" của Từ vựng.
+      isSentence: true,
+      selfGradable: !withChoices,
       choices: withChoices ? buildChoices(correct, pool) : [],
       choiceNotes: [],
       explanation: example.note,
       passage: [],
-      examples: example.reading
+      // Chiều Việt → Nhật: cách đọc của câu vừa viết ra, hiện sau khi chấm. Chiều ngược
+      // lại đã có nút cách đọc ngay dưới câu dẫn.
+      examples: askForJapanese && example.reading
         ? [
             {
               id: `${example.id}:r`,
@@ -488,11 +598,16 @@ export function fromQuizQuestions(questions: readonly QuizQuestion[]): PracticeQ
         skill: question.skill,
         prompt: question.promptJapanese || question.prompt,
         promptIsJapanese: question.promptJapanese.length > 0,
+        promptHighlights: [],
+        promptReading: '',
         hint: question.promptJapanese ? question.prompt : '',
+        hintIsJapanese: false,
         answer: answer.text,
         answerIsJapanese: true,
         answerIsHanViet: false,
         acceptedAnswers: [answer.text],
+        isSentence: false,
+        selfGradable: false,
         choices: question.choices.map((choice) => choice.text),
         choiceNotes: question.choices.map((choice) => choice.note),
         explanation: question.explanation,
@@ -533,6 +648,15 @@ export function testConfig(unit: Unit): PracticeConfig {
 
 /** Phần này có luyện được theo chiều đó không (bài thiếu cách đọc thì không). */
 export function directionIsUsable(unit: Unit, direction: PracticeDirection): boolean {
+  if (direction === 'translate-jp-vi' || direction === 'translate-vi-jp') {
+    // Chỉ bài từ vựng có câu ví dụ đã dịch. Phần Ngữ pháp không cần hai chiều này: hai
+    // chiều Nhật ↔ Việt của nó đã là dịch câu ví dụ.
+    return (
+      unit.kind === 'vocabulary' &&
+      unit.words.some((word) => translatableExamples(word).length > 0)
+    );
+  }
+
   if (direction === 'jp-sentence') {
     // Chỉ bài từ vựng mới khoét câu được, và chỉ khi có câu khoét được (xem blankOf).
     return (
@@ -577,9 +701,15 @@ export function buildQuestions(unit: Unit, config: PracticeConfig): PracticeQues
   const all = (() => {
     switch (unit.kind) {
       case 'vocabulary':
-        return config.direction === 'jp-sentence'
-          ? fromVocabularySentences(words, withChoices)
-          : fromVocabulary(words, config.direction, withChoices);
+        switch (config.direction) {
+          case 'jp-sentence':
+            return fromVocabularySentences(words, withChoices);
+          case 'translate-jp-vi':
+          case 'translate-vi-jp':
+            return fromVocabularyTranslations(words, config.direction, withChoices);
+          default:
+            return fromVocabulary(words, config.direction, withChoices);
+        }
       case 'kanji':
         return fromKanji(unit.kanji, config.direction, withChoices);
       case 'grammar':

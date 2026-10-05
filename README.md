@@ -8,7 +8,7 @@ dung:
 | Phần                          | Đường dẫn               | Nội dung                                              |
 | ----------------------------- | ----------------------- | ----------------------------------------------------- |
 | Bài kiểm tra nhập môn N3      | `/n3-junbi/test`        | Đề đầu vào: làm cả bài rồi nộp, chấm theo từng kỹ năng  |
-| Từ vựng                       | `/n3-junbi/vocabulary`  | Bảng từ + luyện tập bốn chiều                           |
+| Từ vựng                       | `/n3-junbi/vocabulary`  | Bảng từ + luyện tập tám chiều                           |
 | KANJI                         | `/n3-junbi/kanji`       | Thẻ chữ Hán: âm On/Kun, âm Hán Việt, số nét, từ ghép — Bài 1 và BTVN |
 | Ngữ pháp                      | `/n3-junbi/grammar`     | Trang lý thuyết: công thức, cách dùng, ví dụ — và đề thi thật |
 | Đọc hiểu                      | `/n3-junbi/reading`     | Bài đọc + câu hỏi trả lời tại chỗ + bản dịch ẩn         |
@@ -198,7 +198,7 @@ các lần luyện trước khi có thống kê theo cụm chỉ còn tính cho 
 
 ## Luyện tập
 
-Bài từ vựng luyện được theo sáu chiều:
+Bài từ vựng luyện được theo tám chiều:
 
 | Chiều | Câu hỏi | Đáp án |
 | --- | --- | --- |
@@ -208,6 +208,8 @@ Bài từ vựng luyện được theo sáu chiều:
 | Hán Việt → Nhật | SỰ CỐ (gợi ý: Tai nạn, sự cố) | 事故 |
 | Nhật → Cách đọc | 男性 | だんせい |
 | **Điền từ vào câu** | 事件の（　　）を捕まえる。 | 犯人 |
+| **Dịch câu: Nhật → Việt** | 迷惑をかけた人にお詫びをした。 | Tôi đã xin lỗi người mà mình gây phiền. |
+| **Dịch câu: Việt → Nhật** | Tôi đã xin lỗi người mà mình gây phiền. (gợi ý: お詫び) | 迷惑をかけた人にお詫びをした。 |
 
 Hai chiều Hán Việt chỉ hỏi những từ có âm Hán Việt — từ viết thuần kana (けが, かゆい)
 tự bị bỏ qua, bài toàn katakana thì hai chiều này không hiện. Chiều Hán Việt → Nhật kèm
@@ -226,12 +228,25 @@ Với động từ, chỗ bị khoét là **dạng chia trong câu** chứ khôn
 được ưu tiên chọn cùng dạng chia (`倒して・殴って・起こして`), để không loại được đáp án
 chỉ nhờ ngữ pháp.
 
-Ở năm chiều hỏi về từ, **mỗi câu có hai phần trên cùng một thẻ**: trả lời 倒れる xong thì
-ngay bên dưới hiện một câu ví dụ của chính 倒れる bị khoét chỗ trống để điền luôn — nhớ
-nghĩa chưa đủ, phải đặt được từ vào câu. Câu ví dụ chọn ngẫu nhiên mỗi phiên. Số câu đếm
-theo thẻ ("10 câu" là 10 từ), và một câu chỉ tính đúng khi đúng cả hai phần; màn kết quả
-chỉ ra phần nào sai. Gõ đáp án thì Enter đưa con trỏ lần lượt từ ô từ, xuống ô câu ví dụ,
-tới nút sang câu sau.
+Ở hai chiều đáp án là mặt chữ Nhật (Việt → Nhật, Hán Việt → Nhật), **mỗi câu có hai phần
+trên cùng một thẻ**: viết ra 倒れる xong thì ngay bên dưới hiện một câu ví dụ của chính
+倒れる bị khoét chỗ trống để điền luôn — nhớ mặt chữ chưa đủ, phải đặt được từ vào câu.
+Câu ví dụ chọn ngẫu nhiên mỗi phiên. Số câu đếm theo thẻ ("10 câu" là 10 từ), và một câu
+chỉ tính đúng khi đúng cả hai phần; màn kết quả chỉ ra phần nào sai. Gõ đáp án thì Enter
+đưa con trỏ lần lượt từ ô từ, xuống ô câu ví dụ, tới nút sang câu sau. Ba chiều hỏi bằng
+chính mặt chữ (Nhật → Việt, Nhật → Hán Việt, Nhật → Cách đọc) không kèm câu điền: từ cần
+điền đang in to ở đầu thẻ, điền vào chỉ là chép lại.
+
+Hai chiều **Dịch câu** (chép theo khu Luyện dịch của minano_nihongo) lấy từng câu ví dụ có
+bản dịch, mỗi câu một thẻ, từ đang học tô trong câu tiếng Nhật. Câu tiếng Nhật có nút
+"Hiện cách đọc" (ẩn sẵn, bấm lại là ẩn); dịch sang tiếng Nhật thì gợi ý từ phải dùng, và
+gõ toàn kana cũng được. Gõ đáp án thì chấm theo câu mẫu, bỏ qua dấu câu, khoảng trắng,
+dấu tiếng Việt và lời chú sách in kèm câu — `（≒ 語調）`, `→ 動物`, `＞＜ が悪い`. Chưa khớp
+thì báo "Chưa khớp câu mẫu — tạm tính là sai" kèm nút **Câu của tôi cũng đúng** để tự xác
+nhận, vì một ý nói được nhiều cách. Trắc nghiệm thì chọn bản dịch đúng trong bốn câu của
+cùng cụm, đã bỏ lời chú (chú thích tiếng Việt hay nhắc lại đúng chữ Nhật trong câu dẫn).
+Sau khi chấm hiện mẫu ngữ pháp của câu (`文法`). Hai chiều Nhật ↔ Việt của phần Ngữ pháp
+vốn là dịch câu ví dụ nên chấm và tự xác nhận theo cùng cách.
 
 Chấm xong cả thẻ thì hiện **toàn bộ câu ví dụ** của từ đó, có tô đậm từ đang học trong
 câu — hiện sớm hơn thì câu điền chỉ còn là chép lại chỗ vừa đọc. Bài kanji hiện danh

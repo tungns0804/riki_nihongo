@@ -21,7 +21,11 @@ import {
   PracticeDirection,
   QUESTION_LIMITS,
 } from '../../../core/models/practice.model';
-import { buildQuestions, directionIsUsable } from '../../../core/practice/build-questions';
+import {
+  buildQuestions,
+  directionIsUsable,
+  pairsWithExample,
+} from '../../../core/practice/build-questions';
 import { PracticeSessionStore } from '../../../core/services/practice-session-store';
 
 /**
@@ -93,14 +97,14 @@ export class PracticeSetup {
   });
 
   /**
-   * Bài từ vựng đang kèm một câu ví dụ vào mỗi câu hỏi về từ — ở mọi chiều trừ chiều
-   * chỉ có câu ví dụ. Nói ra ngay trong khung thiết lập, để người học biết trước là mỗi
-   * câu có hai phần trên cùng một thẻ.
+   * Bài từ vựng đang kèm một câu ví dụ để điền vào mỗi câu hỏi về từ — chỉ ở chiều đáp
+   * án là mặt chữ Nhật (xem `pairsWithExample`). Nói ra ngay trong khung thiết lập, để
+   * người học biết trước là mỗi câu có hai phần trên cùng một thẻ.
    */
   protected readonly pairsWithExample = computed(
     () =>
       this.unit().kind === 'vocabulary' &&
-      this.direction() !== 'jp-sentence' &&
+      pairsWithExample(this.direction()) &&
       directionIsUsable(this.unit(), 'jp-sentence'),
   );
 

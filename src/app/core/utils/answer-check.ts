@@ -115,3 +115,122 @@ export function isAnswerCorrect(
     .flatMap(acceptedForms)
     .some((answer) => normalize(answer, options) === normalizedGiven);
 }
+
+// ── Chấm cả một câu (luyện dịch câu ví dụ) ───────────────────────────────────
+
+/**
+ * Dấu bỏ qua khi chấm một câu: ngoài dấu câu thường còn các ký hiệu sách dùng để chú
+ * thích câu ví dụ (／ ＞＜ → ＝ ≒ ～). Người dịch không gõ những thứ đó, và thiếu
+ * chúng cũng không làm câu dịch sai đi.
+ */
+const SENTENCE_PUNCTUATION = /[、。，．！？!?,.;:；：'"“”‘’「」『』（）()…‥⋯・／/～〜＞＜<>→＝=≒\-–—]/g;
+
+/**
+ * Đuôi chú thích của câu ví dụ: "…決してほえない。→ 動物", "仲がいい ＞＜ 仲が悪い".
+ * Phần sau dấu là ghi chú về cách dùng hoặc từ trái nghĩa, không phải một phần của câu.
+ */
+const ANNOTATION_TAIL = /\s*(?:→|＞＜)[\s\S]*$/;
+
+/**
+ * Đưa một câu về dạng dùng để so sánh — chép theo bộ chấm câu của minano_nihongo.
+ *
+ * Bỏ HẾT khoảng trắng chứ không gom lại: tiếng Nhật không có dấu cách giữa từ, còn
+ * xoá dấu câu đi thì chỗ nó đứng có thành ranh giới từ hay không là chuyện không đoán
+ * được ("15.000 yên" gõ thành "15000 yên"). Đổi dấu thành dấu cách như khi chấm từ
+ * đơn thì mỗi trường hợp đó lại bị chấm sai một kiểu.
+ */
+function normalizeSentence(value: string, options: CompareOptions): string {
+  let result = foldFullwidthDigits(String(value ?? '').normalize('NFC'))
+    .replace(SENTENCE_PUNCTUATION, '')
+    .replace(/[\s　]+/g, '')
+    .toLowerCase();
+
+  if (options.ignoreDiacritics) result = stripDiacritics(result);
+  return result;
+}
+
+/** Dấu cho biết ngoặc là lời chú của sách chứ không phải một phần của câu. */
+const NOTE_MARK = /[＝=≒]|＞＜/;
+
+/**
+ * Ngoặc đứng ở CUỐI chuỗi, tính cả ngoặc lồng bên trong: "（≒ 周囲・周辺（N2））".
+ * null nghĩa là chuỗi không kết thúc bằng ngoặc.
+ */
+function trailingParenthetical(text: string): { start: number; content: string } | null {
+  const last = text[text.length - 1];
+  if (last !== ')' && last !== '）') return null;
+
+  let depth = 0;
+  for (let index = text.length - 1; index >= 0; index--) {
+    const ch = text[index];
+    if (ch === ')' || ch === '）') depth++;
+    if ((ch === '(' || ch === '（') && --depth === 0) {
+      return { start: index, content: text.slice(index + 1, -1) };
+    }
+  }
+  return null;
+}
+
+/**
+ * Câu ví dụ đã bỏ lời chú của sách: đuôi "→ 動物" / "＞＜ が悪い", và ngoặc chú ở cuối
+ * câu — "（＝拍手）", "(≒ 語調 = giọng điệu)".
+ *
+ * Chỉ bỏ ngoặc ở CUỐI câu và có dấu chú (＝ ≒ ＞＜): ngoặc giữa câu hay ngoặc liệt kê
+ * là nội dung — "（パソコンを）修理に出した", "東洋（文化／芸術／医学）" — bỏ đi thì câu cụt.
+ *
+ * Lựa chọn trắc nghiệm của câu dịch phải qua hàm này: lời chú tiếng Việt thường nhắc
+ * lại đúng chữ Nhật có trong câu dẫn (語調), nhìn chữ là chọn được mà không cần dịch.
+ */
+export function withoutAnnotations(sentence: string): string {
+  // Gỡ ngoặc chú TRƯỚC rồi mới cắt đuôi: ngoặc chú có thể chứa chính dấu của đuôi —
+  // cắt từ ＞＜ trong "（＞＜ 狭い ≒ 幅）" thì còn trơ lại nửa ngoặc "（".
+  const withoutTail = withoutTrailingNotes(sentence.trimEnd()).replace(ANNOTATION_TAIL, '');
+  return withoutTrailingNotes(withoutTail.trimEnd());
+}
+
+/** Gỡ lần lượt các ngoặc chú ở cuối chuỗi; dừng ở ngoặc đầu tiên là nội dung. */
+function withoutTrailingNotes(text: string): string {
+  let result = text;
+  for (
+    let note = trailingParenthetical(result);
+    note && NOTE_MARK.test(note.content);
+    note = trailingParenthetical(result)
+  ) {
+    result = result.slice(0, note.start).trimEnd();
+  }
+  return result;
+}
+
+/**
+ * Các cách viết được chấp nhận của MỘT câu mẫu: nguyên câu, câu đã bỏ lời chú của
+ * sách, và cả hai khi bỏ hết phần trong ngoặc (chữ có thể lược như "(の)", "（お）").
+ *
+ * KHÔNG tách theo "/" như ô nghĩa: trong câu, "/" là một phần của câu (cơ thể / giọng
+ * / bụng), tách ra thì một mảnh lửng như "bụng) tốt" cũng thành đáp án đúng.
+ */
+function sentenceForms(sentence: string): string[] {
+  return [sentence, withoutAnnotations(sentence)].flatMap((form) => [
+    form,
+    withoutParenthetical(form),
+  ]);
+}
+
+/**
+ * Câu dịch có khớp một trong các câu mẫu không.
+ *
+ * Khớp chuỗi không bao giờ đủ cho một câu dịch tự do — cùng một ý có nhiều cách nói,
+ * nên chấm trượt ở đây chỉ là "chưa khớp câu mẫu". Phần còn lại do người học tự xác
+ * nhận sau khi đã thấy câu mẫu (xem `PracticeQuestion.selfGradable`).
+ */
+export function isSentenceCorrect(
+  given: string,
+  accepted: readonly string[],
+  options: CompareOptions,
+): boolean {
+  const normalizedGiven = normalizeSentence(given, options);
+  if (!normalizedGiven) return false;
+
+  return accepted
+    .flatMap(sentenceForms)
+    .some((answer) => normalizeSentence(answer, options) === normalizedGiven);
+}

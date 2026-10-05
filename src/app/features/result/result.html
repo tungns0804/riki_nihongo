@@ -66,6 +66,12 @@
                       {{ t('result.skipped') }}
                     }
                   </p>
+                } @else if (item.main.selfGraded) {
+                  <!-- Câu dịch người học tự tính là đúng: hiện lại câu họ viết, để xem lại
+                       thì so được với câu mẫu ngay phía trên. -->
+                  <p class="muted small" [class.jp]="item.question.answerIsJapanese">
+                    {{ t('result.selfGraded', { answer: item.main.given }) }}
+                  </p>
                 }
 
                 <!-- Vì sao TỪNG lựa chọn đúng hay sai. Chỉ câu viết sẵn trong đề mới có:

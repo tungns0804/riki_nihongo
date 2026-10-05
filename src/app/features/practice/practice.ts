@@ -91,7 +91,27 @@ export class Practice {
 
   protected readonly isChoiceMode = computed(() => this.config()?.answerMode === 'choice');
 
-  private readonly answerInput = viewChild<ElementRef<HTMLInputElement>>('answerInput');
+  /** Đang hiện cách đọc của câu dẫn (nút dưới câu đem ra dịch). Mỗi câu mới lại ẩn. */
+  protected readonly showPromptReading = signal(false);
+
+  /** Câu vừa đúng là do người học tự xác nhận, không phải máy chấm. */
+  protected readonly selfGraded = signal(false);
+
+  /**
+   * Hiện nút "Câu của tôi cũng đúng": câu dịch gõ tay vừa bị chấm chưa khớp câu mẫu.
+   * Bỏ trống mà bấm kiểm tra thì không có — chưa viết gì thì không có gì để xác nhận.
+   */
+  protected readonly canAcceptOwnAnswer = computed(
+    () =>
+      this.checked() &&
+      !this.wasCorrect() &&
+      (this.question()?.selfGradable ?? false) &&
+      this.given().trim().length > 0,
+  );
+
+  /** Ô một dòng, hoặc ô nhiều dòng khi đáp án là cả một câu dịch. */
+  private readonly answerInput =
+    viewChild<ElementRef<HTMLInputElement | HTMLTextAreaElement>>('answerInput');
   private readonly followInput = viewChild<ElementRef<HTMLInputElement>>('followInput');
   private readonly nextButton = viewChild<ElementRef<HTMLButtonElement>>('nextButton');
 
@@ -109,6 +129,39 @@ export class Practice {
     // Có câu ví dụ thì đưa con trỏ xuống ô của nó luôn: gõ từ, Enter, gõ tiếp vào câu
     // mà không phải với tay ra chuột. Không có thì đưa tới nút sang câu sau.
     this.focusAfterRender(this.followUp() ? this.followInput : this.nextButton);
+  }
+
+  /**
+   * Câu dịch của người học đúng ý mà khác câu mẫu: tính là đúng, rồi đưa focus tới nút
+   * sang câu sau như mọi lần chấm đúng khác.
+   */
+  protected acceptOwnAnswer(): void {
+    if (!this.session.acceptOwnAnswer()) return;
+    this.wasCorrect.set(true);
+    this.selfGraded.set(true);
+    this.focusAfterRender(this.nextButton);
+  }
+
+  /**
+   * Enter này có phải để nộp bài không. Không, khi bộ gõ tiếng Nhật đang chốt chữ: Enter
+   * lúc đó là để chọn chữ Hán, mà một câu dịch phải chốt chữ nhiều lần — nộp luôn thì
+   * câu bị gửi đi khi mới viết được nửa.
+   *
+   * preventDefault khi nộp: xem chú thích ở ô nhập trong practice.html.
+   */
+  protected isSubmitEnter(event: Event): boolean {
+    if ((event as KeyboardEvent).isComposing) return false;
+    event.preventDefault();
+    return true;
+  }
+
+  protected togglePromptReading(): void {
+    this.showPromptReading.update((shown) => !shown);
+  }
+
+  /** Câu dẫn cắt quanh chữ cần tô (từ đang học trong câu đem ra dịch). */
+  protected promptParts(question: PracticeQuestion): { text: string; hit: boolean }[] {
+    return splitAround(question.prompt, question.promptHighlights);
   }
 
   protected chooseFollowUp(choice: string): void {
@@ -135,6 +188,8 @@ export class Practice {
     this.checked.set(false);
     this.wasCorrect.set(false);
     this.given.set('');
+    this.selfGraded.set(false);
+    this.showPromptReading.set(false);
     this.followChecked.set(false);
     this.followCorrect.set(false);
     this.followGiven.set('');

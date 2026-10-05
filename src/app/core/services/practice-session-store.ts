@@ -7,7 +7,7 @@ import {
   QuestionResult,
   SessionSummary,
 } from '../models/practice.model';
-import { isAnswerCorrect } from '../utils/answer-check';
+import { isAnswerCorrect, isSentenceCorrect } from '../utils/answer-check';
 
 /**
  * Phiên luyện tập đang diễn ra.
@@ -84,6 +84,30 @@ export class PracticeSessionStore {
       { question, main, followUp, isCorrect: main.isCorrect && followUp === null },
     ]);
     return main.isCorrect;
+  }
+
+  /**
+   * Người học tự xác nhận câu dịch vừa bị chấm "chưa khớp câu mẫu" là đúng — chép theo
+   * `acceptOwnAnswer` của minano_nihongo.
+   *
+   * Chỉ nhận khi câu cho phép tự chấm VÀ người học đã thật sự gõ gì đó: bỏ trống thì
+   * không có câu nào để xác nhận.
+   *
+   * @returns false khi câu hiện tại không đủ điều kiện.
+   */
+  acceptOwnAnswer(): boolean {
+    const question = this.current();
+    const results = this.resultsRef();
+    const last = results[results.length - 1];
+    if (!question?.selfGradable || last?.question !== question) return false;
+    if (last.main.isCorrect || !last.main.given.trim()) return false;
+
+    const main: AnswerRecord = { given: last.main.given, isCorrect: true, selfGraded: true };
+    this.resultsRef.set([
+      ...results.slice(0, -1),
+      { ...last, main, isCorrect: last.followUp === null || last.followUp.isCorrect },
+    ]);
+    return true;
   }
 
   /** Chấm câu ví dụ đi kèm của câu đang hỏi. Chỉ có nghĩa sau khi đã gọi `answer`. */
@@ -187,7 +211,8 @@ export class PracticeSessionStore {
 
 /** Chấm một chuỗi trả lời cho một câu hỏi. */
 function grade(question: PracticeQuestion, given: string): boolean {
-  return isAnswerCorrect(given, question.acceptedAnswers, {
+  const check = question.isSentence ? isSentenceCorrect : isAnswerCorrect;
+  return check(given, question.acceptedAnswers, {
     // Đáp án tiếng Nhật thì không có dấu tiếng Việt để mà bỏ qua; đáp án tiếng
     // Việt thì bỏ qua dấu, vì gõ tiếng Việt có dấu trên bàn phím Nhật rất cực — trừ
     // âm Hán Việt, nơi dấu là chỗ phân biệt chữ (xem `answerIsHanViet`).

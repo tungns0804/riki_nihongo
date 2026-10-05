@@ -347,6 +347,8 @@ export const MESSAGES = {
   'practice.direction.hanVietToJp': { vi: 'Hán Việt → Nhật', ja: '漢越音 → 日本語' },
   'practice.direction.jpToReading': { vi: 'Nhật → Cách đọc', ja: '日本語 → 読み方' },
   'practice.direction.sentence': { vi: 'Điền từ vào câu', ja: '例文の穴埋め' },
+  'practice.direction.translateJpToVi': { vi: 'Dịch câu: Nhật → Việt', ja: '例文訳 日本語 → ベトナム語' },
+  'practice.direction.translateViToJp': { vi: 'Dịch câu: Việt → Nhật', ja: '例文訳 ベトナム語 → 日本語' },
   'practice.withExample': {
     vi: 'Mỗi câu có hai phần trên cùng một thẻ: trả lời từ, rồi điền luôn từ đó vào một câu ví dụ.',
     ja: '1問は同じカードで2つ：単語に答えたら、そのまま例文の穴埋めに進みます。',
@@ -363,6 +365,19 @@ export const MESSAGES = {
   'practice.wrong': { vi: 'Chưa đúng', ja: '不正解' },
   'practice.answerWas': { vi: 'Đáp án: {answer}', ja: '正解：{answer}' },
   'practice.typeHere': { vi: 'Gõ đáp án rồi nhấn Enter', ja: '答えを入力して Enter' },
+  // Câu dịch: chép chữ của khu Luyện dịch bên minano_nihongo.
+  'practice.wrongSentence': {
+    vi: 'Chưa khớp câu mẫu — tạm tính là sai.',
+    ja: '模範解答と一致しません（ひとまず不正解）。',
+  },
+  'practice.selfGraded': { vi: '(bạn tự xác nhận)', ja: '（自己採点）' },
+  'practice.acceptOwn': { vi: 'Câu của tôi cũng đúng', ja: '自分の訳も正しい' },
+  'practice.acceptOwnHint': {
+    vi: 'Dịch đúng ý mà khác câu mẫu ở cách chọn từ thì tự xác nhận.',
+    ja: '意味は合っていて言い回しだけが違う場合は、自分で正解にできます。',
+  },
+  'practice.showReading': { vi: 'Hiện cách đọc', ja: '読み方を表示' },
+  'practice.hideReading': { vi: 'Ẩn cách đọc', ja: '読み方を隠す' },
   'practice.examples': { vi: 'Câu ví dụ', ja: '例文' },
   'practice.quit': { vi: 'Dừng luyện', ja: '練習をやめる' },
   'practice.noQuestion': {
@@ -377,6 +392,10 @@ export const MESSAGES = {
   'result.review': { vi: 'Xem lại từng câu', ja: '問題を振り返る' },
   'result.yourAnswer': { vi: 'Bạn trả lời: {answer}', ja: 'あなたの解答：{answer}' },
   'result.skipped': { vi: 'Bỏ qua', ja: '未解答' },
+  'result.selfGraded': {
+    vi: 'Bạn tự xác nhận câu này đúng: {answer}',
+    ja: '自己採点で正解にした解答：{answer}',
+  },
   'result.bySkill': { vi: 'Theo kỹ năng', ja: '技能別' },
 
   // ── Lỗi ────────────────────────────────────────────────────────────────
