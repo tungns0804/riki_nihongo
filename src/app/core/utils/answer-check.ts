@@ -65,15 +65,40 @@ export function splitAlternatives(value: string): string[] {
     .filter((part) => part.length > 0);
 }
 
+/** Phần trong ngoặc, kể cả ngoặc toàn chiều: "Phương Đông (người châu Á)". */
+const PARENTHETICAL = /\s*[(（][^()（）]*[)）]/g;
+
+/**
+ * Bỏ phần trong ngoặc. Ngoặc trong ô nghĩa là chú thích bổ sung ("Phương Đông
+ * (người châu Á)"), không phải phần nghĩa bắt buộc — gõ "phương đông" là đã nhớ nghĩa.
+ */
+function withoutParenthetical(value: string): string {
+  return value.replace(PARENTHETICAL, ' ').trim();
+}
+
+/**
+ * Mọi cách trả lời được chấp nhận sinh ra từ một đáp án.
+ *
+ * Bỏ ngoặc TRƯỚC khi tách theo "/" để dấu / nằm trong ngoặc ("A (x/ y)") không cắt
+ * đáp án thành mảnh lửng; bỏ ngoặc cả SAU khi tách để từng nghĩa cũng được rút gọn.
+ */
+function acceptedForms(answer: string): string[] {
+  return [answer, withoutParenthetical(answer)]
+    .flatMap((base) => [base, ...splitAlternatives(base)])
+    .flatMap((form) => [form, withoutParenthetical(form)]);
+}
+
 /**
  * Câu trả lời có khớp một trong các đáp án được chấp nhận không.
  *
- * Mỗi đáp án sinh ra HAI loại cách trả lời được chấp nhận, và phải có đủ cả hai:
+ * Mỗi đáp án sinh ra các cách trả lời được chấp nhận sau, và phải có đủ cả ba:
  *
  *  - từng nghĩa tách rời ("hạn chót", "kỳ hạn") — cho chế độ GÕ, vì gõ đủ cả cụm
  *    "hạn chót/ kỳ hạn" là đang kiểm tra trí nhớ về cách sách in;
  *  - nguyên cả cụm ("hạn chót/ kỳ hạn") — cho chế độ TRẮC NGHIỆM, vì nút lựa chọn
- *    hiện đúng chuỗi trong dữ liệu, tức là cả cụm.
+ *    hiện đúng chuỗi trong dữ liệu, tức là cả cụm;
+ *  - bản đã bỏ phần trong ngoặc ("Phương Đông" cho "Phương Đông (người châu Á)") —
+ *    phần trong ngoặc chỉ là chú thích, gõ thiếu nó vẫn là nhớ đúng nghĩa.
  *
  * Thiếu vế thứ hai thì mọi từ có dấu / bị chấm sai ngay cả khi người học bấm trúng
  * nút đáp án đúng — sai ở đúng chỗ người học không thể nào ngờ tới.
@@ -87,6 +112,6 @@ export function isAnswerCorrect(
   if (!normalizedGiven) return false;
 
   return accepted
-    .flatMap((answer) => [answer, ...splitAlternatives(answer)])
+    .flatMap(acceptedForms)
     .some((answer) => normalize(answer, options) === normalizedGiven);
 }

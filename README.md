@@ -215,6 +215,8 @@ nghĩa làm gợi ý, vì một âm ứng với nhiều chữ (ĐẢO là cả �
 nhiễu không bao giờ là từ cùng âm Hán Việt với đáp án. Gõ âm Hán Việt thì phải đúng
 dấu (không phân biệt hoa thường): khác với nghĩa, dấu là chỗ phân biệt chữ — TỰ, TỪ, TỨ
 bỏ dấu đều thành "tu". Thẻ kanji chỉ ghi âm Hán Việt (任 = NHIỆM) cũng chấm như vậy.
+Nghĩa có phần trong ngoặc là chú thích thêm — `Phương Đông (người châu Á)` — nên gõ
+`phương đông` là đủ; nghĩa có nhiều cách nói ngăn bằng `/` thì gõ một cách là đủ.
 
 Chiều cuối lấy chính câu ví dụ của giáo trình, khoét từ cần học ra rồi bắt điền lại —
 đúng dạng đề 文字語彙 của kỳ thi. Gõ cách đọc thay cho kanji cũng tính đúng.
