@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-05T05:26:46.346Z",
+  "generatedAt": "2026-10-05T16:46:29.345Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -289,6 +289,17 @@
           "itemCount": 8,
           "order": 601,
           "file": "vocabulary/06-danh-tu-2-btvn-311-318.json"
+        },
+        {
+          "id": "06-danh-tu-2-btvn-399-410",
+          "name": "BTVN 399–410",
+          "description": "Bài tập về nhà của cụm 399–410 (Bài 21.2 · Thường lệ, khác biệt, quốc tế và thiên nhiên) — 12 câu.",
+          "kind": "test",
+          "parent": "06-danh-tu-2",
+          "group": "399–410",
+          "itemCount": 12,
+          "order": 605,
+          "file": "vocabulary/06-danh-tu-2-btvn-399-410.json"
         }
       ]
     },

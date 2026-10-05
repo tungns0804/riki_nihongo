@@ -1,0 +1,263 @@
+{
+  "sections": [
+    {
+      "id": "btvn-399-410",
+      "title": "文字語彙 — BTVN 399–410 (12 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt2-btvn-399410-01",
+          "promptJapanese": "（　　　）の文化を研究している。",
+          "promptReading": "（　　　）の ぶんかを けんきゅうしている。",
+          "promptVietnamese": "Tôi đang nghiên cứu văn hoá （　　　）.",
+          "choices": ["自然", "国籍", "東洋", "景色"],
+          "choicesVietnamese": [
+            "しぜん · Thiên nhiên/ Tự nhiên",
+            "こくせき · Quốc tịch",
+            "とうよう · Phương Đông",
+            "けしき · Phong cảnh"
+          ],
+          "choiceNotes": [
+            "自然 là thiên nhiên, không có \"văn hoá của thiên nhiên\".",
+            "国籍 là quốc tịch ghi trên giấy tờ, không phải một nền văn hoá.",
+            "Đúng: 東洋の文化 = văn hoá phương Đông — đúng dòng 東洋（文化／芸術／医学） của sách.",
+            "景色 là cảnh vật nhìn thấy trước mắt, không có văn hoá."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: 東洋の文化と西洋の文化を比べる。V ている = đang ~ (việc kéo dài). 東洋 ＞＜ 西洋 (せいよう)."
+        },
+        {
+          "id": "dt2-btvn-399410-02",
+          "promptJapanese": "あの店は、（　　　）物のブランド品を普通に売っている。",
+          "promptReading": "あの みせは、（　　　）ものの ブランドひんを ふつうに うっている。",
+          "promptVietnamese": "Cửa hàng đó bán hàng hiệu （　　　） một cách công khai như chẳng có gì.",
+          "choices": ["偽", "別", "穴", "愛"],
+          "choicesVietnamese": [
+            "にせ · Giả (偽札 = tiền giả, 偽物 = đồ giả)",
+            "べつ · Khác/ Riêng",
+            "あな · Hố, lỗ thủng",
+            "あい · Tình yêu"
+          ],
+          "choiceNotes": [
+            "Đúng: 偽物 (にせもの) = hàng giả — cùng chữ 偽 với 偽札 (にせさつ) trong bài.",
+            "別物 (べつもの) là từ có thật nhưng nghĩa là \"thứ khác hẳn\"; \"hàng hiệu khác hẳn\" thì chẳng có gì đáng nói khi bán.",
+            "穴 là cái lỗ; không có từ 穴物.",
+            "愛 là tình yêu; không có từ 愛物 để nói về hàng hoá."
+          ],
+          "answer": 1,
+          "explanation": "偽＋N = N giả: 偽札 (tiền giả), 偽物 (đồ giả). ブランド品 = hàng hiệu. 普通に ở đây = cứ thế bình thường, như chuyện chẳng có gì (điều lẽ ra không được làm)."
+        },
+        {
+          "id": "dt2-btvn-399410-03",
+          "promptJapanese": "ここから見る（　　　）は最高だ。",
+          "promptReading": "ここから みる（　　　）は さいこうだ。",
+          "promptVietnamese": "（　　　） nhìn từ đây là tuyệt nhất.",
+          "choices": ["西洋", "宗教", "普通", "景色"],
+          "choicesVietnamese": [
+            "せいよう · Phương Tây",
+            "しゅうきょう · Tôn giáo",
+            "ふつう · Bình thường",
+            "けしき · Phong cảnh"
+          ],
+          "choiceNotes": [
+            "西洋 là phương Tây, không đứng ở một chỗ mà \"nhìn\" được.",
+            "宗教 là tôn giáo, không nhìn bằng mắt được.",
+            "普通 là bình thường — \"cái bình thường là tuyệt nhất\" thì mâu thuẫn.",
+            "Đúng: ここから見る景色 = phong cảnh nhìn từ chỗ này — 景色 là thứ để ngắm."
+          ],
+          "answer": 4,
+          "explanation": "Câu mẫu của sách: 初めて日本の山に行った。素晴らしい景色だった。V る＋N = N mà (mình) ~ (mệnh đề bổ nghĩa). 最高 = tuyệt nhất."
+        },
+        {
+          "id": "dt2-btvn-399410-04",
+          "promptJapanese": "（　　　）の絵画が好きだ。",
+          "promptReading": "（　　　）の かいがが すきだ。",
+          "promptVietnamese": "Tôi thích hội hoạ （　　　）.",
+          "choices": ["国際", "国籍", "西洋", "景色"],
+          "choicesVietnamese": [
+            "こくさい · Quốc tế",
+            "こくせき · Quốc tịch",
+            "せいよう · Phương Tây",
+            "けしき · Phong cảnh"
+          ],
+          "choiceNotes": [
+            "国際 chỉ việc giữa các nước (国際問題, 国際結婚); \"hội hoạ quốc tế\" không phải một dòng tranh.",
+            "Tranh không có quốc tịch.",
+            "Đúng: 西洋の絵画 = hội hoạ phương Tây — như dòng 西洋（人／文化／芸術） của sách.",
+            "Tranh phong cảnh thì nói 風景画 (ふうけいが); 景色 đã là đáp án câu 3."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: 西洋（人／文化／芸術／医学）。絵画 (かいが) = tranh, hội hoạ. N が好きだ = thích N."
+        },
+        {
+          "id": "dt2-btvn-399410-05",
+          "promptJapanese": "（　　　）、カップラーメンは3分でできる。",
+          "promptReading": "（　　　）、カップラーメンは さんぷんで できる。",
+          "promptVietnamese": "（　　　）, mì ly mất 3 phút là ăn được.",
+          "choices": ["普通", "当たり前", "別々", "自然"],
+          "choicesVietnamese": [
+            "ふつう · Thông thường, bình thường",
+            "あたりまえ · Đương nhiên",
+            "べつべつ · Riêng rẽ",
+            "しぜん · Thiên nhiên/ Tự nhiên"
+          ],
+          "choiceNotes": [
+            "Đúng: 普通、～ = thông thường thì ~ — 普通 đứng đầu câu như phó từ, đúng như câu mẫu 日本人はふつう、集合時間の…",
+            "当たり前 phải đi với だ／の (当たり前だ, 当たり前のこと), không đứng một mình đầu câu như phó từ.",
+            "別々 (riêng rẽ) không hợp nghĩa câu.",
+            "自然 đứng một mình đầu câu không thành phó từ; muốn nói \"tự nhiên\" thì phải 自然に／自然と, mà nghĩa cũng không hợp."
+          ],
+          "answer": 1,
+          "explanation": "Câu mẫu của sách: 日本人はふつう、集合時間の５～10分前に全員がそろう。N で (3分で) = mất N (thời gian); できる = làm xong, có thể ăn."
+        },
+        {
+          "id": "dt2-btvn-399410-06",
+          "promptJapanese": "（　　　）をたっぷりに育てた野菜。",
+          "promptReading": "（　　　）を たっぷりに そだてた やさい。",
+          "promptVietnamese": "Rau được trồng bằng thật nhiều （　　　）.",
+          "choices": ["感心", "愛情", "感動", "感想"],
+          "choicesVietnamese": [
+            "かんしん · Khâm phục",
+            "あいじょう · Tình yêu thương",
+            "かんどう · Cảm động",
+            "かんそう · Cảm tưởng"
+          ],
+          "choiceNotes": [
+            "感心 là khâm phục người khác; trồng rau không cần \"khâm phục\".",
+            "Đúng: 愛情たっぷりに育てる = nuôi trồng bằng cả tấm lòng — đúng câu mẫu 愛情たっぷりに育てた果物.",
+            "感動 là xúc động khi xem, nghe gì đó; không dồn vào việc trồng rau.",
+            "感想 là cảm tưởng nói ra sau khi xem, đọc; không dùng để trồng."
+          ],
+          "answer": 2,
+          "explanation": "Câu mẫu của sách: 愛情たっぷりに育てた果物を盗んでいった猿が憎い。Câu mẫu không có を (愛情たっぷりに), đề in 愛情をたっぷりに — chép đúng như đề. V た＋N = N đã được ~."
+        },
+        {
+          "id": "dt2-btvn-399410-07",
+          "promptJapanese": "彼とケンカしたので、お昼は（　　　）に食べた。",
+          "promptReading": "かれと ケンカしたので、おひるは（　　　）に たべた。",
+          "promptVietnamese": "Vì cãi nhau với anh ấy nên bữa trưa chúng tôi ăn （　　　）.",
+          "choices": ["行列", "当たり前", "普通", "別々"],
+          "choicesVietnamese": [
+            "ぎょうれつ · Hàng người xếp dài",
+            "あたりまえ · Đương nhiên",
+            "ふつう · Bình thường",
+            "べつべつ · Riêng rẽ"
+          ],
+          "choiceNotes": [
+            "行列 là hàng người; không nói 行列に食べる.",
+            "当たり前に食べた không có nghĩa.",
+            "普通に食べた nói được, nhưng \"vì cãi nhau nên ăn bình thường\" thì vế ので không ăn với vế sau.",
+            "Đúng: 別々に食べる = ăn riêng, mỗi người một nơi — cãi nhau nên không ăn chung."
+          ],
+          "answer": 4,
+          "explanation": "Câu mẫu của sách: 結婚したが、夫と姓を別にする。（≒ 別々にする）別々に＋V = làm ~ riêng ra. ～ので = vì ~ nên; N とケンカする = cãi nhau với N."
+        },
+        {
+          "id": "dt2-btvn-399410-08",
+          "promptJapanese": "職場で朝のあいさつをするのは（　　　）のことだ。",
+          "promptReading": "しょくばで あさの あいさつを するのは（　　　）の ことだ。",
+          "promptVietnamese": "Chào buổi sáng ở chỗ làm là chuyện （　　　）.",
+          "choices": ["普通", "当たり前", "別々", "自然"],
+          "choicesVietnamese": [
+            "ふつう · Bình thường",
+            "あたりまえ · Đương nhiên",
+            "べつべつ · Riêng rẽ",
+            "しぜん · Thiên nhiên/ Tự nhiên"
+          ],
+          "choiceNotes": [
+            "普通のこと cũng nói được (sách ghi あたりまえ ≒ ふつう), nhưng 普通 đã là đáp án câu 5; câu này nhấn \"phải làm, không làm là sai\" thì 当たり前 sát hơn.",
+            "Đúng: V るのは当たり前のことだ = làm ~ là chuyện đương nhiên — cùng lối với câu mẫu 怒るのがあたりまえだ.",
+            "別々のこと = những chuyện riêng rẽ, không hợp nghĩa.",
+            "\"Chuyện tự nhiên\" phải nói 自然なこと (đuôi な, như câu mẫu); 自然のこと thì thành \"chuyện của thiên nhiên\"."
+          ],
+          "answer": 2,
+          "explanation": "Câu mẫu của sách: そんなひどいことをされたら、怒るのがあたりまえだ。（≒ 当然）V る＋のは～だ = việc ~ là… Hai lựa chọn 1 và 2 đều nói được; chọn 当たり前 theo lối mỗi câu một từ khác nhau trong cụm."
+        },
+        {
+          "id": "dt2-btvn-399410-09",
+          "promptJapanese": "日本人は無（　　　）の人が多い。",
+          "promptReading": "にほんじんは む（　　　）の ひとが おおい。",
+          "promptVietnamese": "Người Nhật có nhiều người không theo （　　　） nào.",
+          "choices": ["国際", "自然", "宗教", "国籍"],
+          "choicesVietnamese": [
+            "こくさい · Quốc tế",
+            "しぜん · Thiên nhiên/ Tự nhiên",
+            "しゅうきょう · Tôn giáo",
+            "こくせき · Quốc tịch"
+          ],
+          "choiceNotes": [
+            "Không có từ 無国際.",
+            "Không có từ 無自然 (trái nghĩa của 自然 là 不自然 hoặc 人工).",
+            "Đúng: 無宗教 (むしゅうきょう) = không theo tôn giáo nào — điều hay được nói về người Nhật.",
+            "無国籍 (không quốc tịch) là từ có thật, nhưng người Nhật thì có quốc tịch Nhật; nói \"nhiều người Nhật không quốc tịch\" là sai sự thật."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: 世界にはいろいろな宗教がある。無＋N = không có N (無料, 無理, 無宗教). N は N の人が多い = trong N có nhiều người ~."
+        },
+        {
+          "id": "dt2-btvn-399410-10",
+          "promptJapanese": "日本で暮らしているが、ベトナム（　　　）をもっている。",
+          "promptReading": "にほんで くらしているが、ベトナム（　　　）を もっている。",
+          "promptVietnamese": "Tôi sống ở Nhật nhưng mang （　　　） Việt Nam.",
+          "choices": ["国籍", "国際", "景色", "宗教"],
+          "choicesVietnamese": [
+            "こくせき · Quốc tịch",
+            "こくさい · Quốc tế",
+            "けしき · Phong cảnh",
+            "しゅうきょう · Tôn giáo"
+          ],
+          "choiceNotes": [
+            "Đúng: ベトナム国籍をもっている = có quốc tịch Việt Nam — đúng lối câu mẫu ずっとアメリカで暮らしているが、国籍は日本だ.",
+            "Không nói ベトナム国際.",
+            "\"Mang phong cảnh Việt Nam\" không có nghĩa; vế が (sống ở Nhật nhưng ~) cần một thứ gắn với nước mình.",
+            "Không nói ベトナム宗教; tôn giáo thì gọi theo tên đạo (仏教 …)."
+          ],
+          "answer": 1,
+          "explanation": "Câu mẫu của sách: ずっとアメリカで暮らしているが、国籍は日本だ。Tên nước＋国籍 = quốc tịch nước đó (日本国籍). 国籍をもっている／国籍を取る = có / lấy quốc tịch."
+        },
+        {
+          "id": "dt2-btvn-399410-11",
+          "promptJapanese": "（　　　）結婚をするので、国籍に関する書類をそろえる。",
+          "promptReading": "（　　　）けっこんを するので、こくせきに かんする しょるいを そろえる。",
+          "promptVietnamese": "Vì sắp kết hôn （　　　） nên tôi chuẩn bị đủ giấy tờ liên quan đến quốc tịch.",
+          "choices": ["帰国", "国際", "外国", "国々"],
+          "choicesVietnamese": [
+            "きこく · Về nước",
+            "こくさい · Quốc tế",
+            "がいこく · Nước ngoài",
+            "くにぐに · Các nước"
+          ],
+          "choiceNotes": [
+            "帰国 là về nước; không có từ 帰国結婚.",
+            "Đúng: 国際結婚 = kết hôn với người nước ngoài — đúng câu mẫu 国際結婚で日本国籍を取った.",
+            "外国 nghe hợp nghĩa nhưng không ghép thành 外国結婚; muốn nói thì phải 外国人と結婚する.",
+            "国々 là \"các nước\", không ghép với 結婚."
+          ],
+          "answer": 2,
+          "explanation": "Câu mẫu của sách: 国際結婚で日本国籍を取った。N に関する N = N liên quan đến ~; 書類をそろえる = chuẩn bị đủ giấy tờ."
+        },
+        {
+          "id": "dt2-btvn-399410-12",
+          "promptJapanese": "（　　　）の多いところへ旅行に行きたい。",
+          "promptReading": "（　　　）の おおい ところへ りょこうに いきたい。",
+          "promptVietnamese": "Tôi muốn đi du lịch đến nơi có nhiều （　　　）.",
+          "choices": ["宗教", "自然", "東洋", "国籍"],
+          "choicesVietnamese": [
+            "しゅうきょう · Tôn giáo",
+            "しぜん · Thiên nhiên/ Tự nhiên",
+            "とうよう · Phương Đông",
+            "こくせき · Quốc tịch"
+          ],
+          "choiceNotes": [
+            "\"Nơi nhiều tôn giáo\" không phải lý do thường gặp để đi du lịch, và 宗教 không đếm nhiều ít theo nơi chốn như thế.",
+            "Đúng: 自然の多いところ = nơi có nhiều thiên nhiên — cùng ý với câu mẫu 山や海へ行って、大自然の中で過ごしたい！",
+            "東洋 là cả một vùng phương Đông, không \"nhiều\" ở một chỗ được.",
+            "国籍 là giấy tờ của từng người, không phải thứ một vùng đất có nhiều."
+          ],
+          "answer": 2,
+          "explanation": "Câu mẫu của sách: 山や海へ行って、大自然の中で過ごしたい！N の多い＋chỗ = chỗ có nhiều N (の thay が trong mệnh đề bổ nghĩa). ～へ旅行に行く = đi du lịch đến ~; V ます bỏ ます＋たい = muốn ~."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "id": "06-danh-tu-2-btvn-399-410",
+  "name": "BTVN 399–410",
+  "description": "Bài tập về nhà của cụm 399–410 (Bài 21.2 · Thường lệ, khác biệt, quốc tế và thiên nhiên) — 12 câu.",
+  "kind": "test",
+  "parent": "06-danh-tu-2",
+  "group": "399–410",
+  "sections": [
+    {
+      "id": "btvn-399-410",
+      "title": "文字語彙 — BTVN 399–410 (12 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt2-btvn-399410-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）の文化を研究している。",
+          "promptReading": "（　　　）の ぶんかを けんきゅうしている。",
+          "promptTranslation": "Tôi đang nghiên cứu văn hoá （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "自然",
+              "translation": "しぜん · Thiên nhiên/ Tự nhiên",
+              "note": "自然 là thiên nhiên, không có \"văn hoá của thiên nhiên\"."
+            },
+            {
+              "id": "c2",
+              "text": "国籍",
+              "translation": "こくせき · Quốc tịch",
+              "note": "国籍 là quốc tịch ghi trên giấy tờ, không phải một nền văn hoá."
+            },
+            {
+              "id": "c3",
+              "text": "東洋",
+              "translation": "とうよう · Phương Đông",
+              "note": "Đúng: 東洋の文化 = văn hoá phương Đông — đúng dòng 東洋（文化／芸術／医学） của sách."
+            },
+            {
+              "id": "c4",
+              "text": "景色",
+              "translation": "けしき · Phong cảnh",
+              "note": "景色 là cảnh vật nhìn thấy trước mắt, không có văn hoá."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Câu mẫu của sách: 東洋の文化と西洋の文化を比べる。V ている = đang ~ (việc kéo dài). 東洋 ＞＜ 西洋 (せいよう).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "あの店は、（　　　）物のブランド品を普通に売っている。",
+          "promptReading": "あの みせは、（　　　）ものの ブランドひんを ふつうに うっている。",
+          "promptTranslation": "Cửa hàng đó bán hàng hiệu （　　　） một cách công khai như chẳng có gì.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "偽",
+              "translation": "にせ · Giả (偽札 = tiền giả, 偽物 = đồ giả)",
+              "note": "Đúng: 偽物 (にせもの) = hàng giả — cùng chữ 偽 với 偽札 (にせさつ) trong bài."
+            },
+            {
+              "id": "c2",
+              "text": "別",
+              "translation": "べつ · Khác/ Riêng",
+              "note": "別物 (べつもの) là từ có thật nhưng nghĩa là \"thứ khác hẳn\"; \"hàng hiệu khác hẳn\" thì chẳng có gì đáng nói khi bán."
+            },
+            {
+              "id": "c3",
+              "text": "穴",
+              "translation": "あな · Hố, lỗ thủng",
+              "note": "穴 là cái lỗ; không có từ 穴物."
+            },
+            {
+              "id": "c4",
+              "text": "愛",
+              "translation": "あい · Tình yêu",
+              "note": "愛 là tình yêu; không có từ 愛物 để nói về hàng hoá."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "偽＋N = N giả: 偽札 (tiền giả), 偽物 (đồ giả). ブランド品 = hàng hiệu. 普通に ở đây = cứ thế bình thường, như chuyện chẳng có gì (điều lẽ ra không được làm).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "ここから見る（　　　）は最高だ。",
+          "promptReading": "ここから みる（　　　）は さいこうだ。",
+          "promptTranslation": "（　　　） nhìn từ đây là tuyệt nhất.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "西洋",
+              "translation": "せいよう · Phương Tây",
+              "note": "西洋 là phương Tây, không đứng ở một chỗ mà \"nhìn\" được."
+            },
+            {
+              "id": "c2",
+              "text": "宗教",
+              "translation": "しゅうきょう · Tôn giáo",
+              "note": "宗教 là tôn giáo, không nhìn bằng mắt được."
+            },
+            {
+              "id": "c3",
+              "text": "普通",
+              "translation": "ふつう · Bình thường",
+              "note": "普通 là bình thường — \"cái bình thường là tuyệt nhất\" thì mâu thuẫn."
+            },
+            {
+              "id": "c4",
+              "text": "景色",
+              "translation": "けしき · Phong cảnh",
+              "note": "Đúng: ここから見る景色 = phong cảnh nhìn từ chỗ này — 景色 là thứ để ngắm."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Câu mẫu của sách: 初めて日本の山に行った。素晴らしい景色だった。V る＋N = N mà (mình) ~ (mệnh đề bổ nghĩa). 最高 = tuyệt nhất.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）の絵画が好きだ。",
+          "promptReading": "（　　　）の かいがが すきだ。",
+          "promptTranslation": "Tôi thích hội hoạ （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "国際",
+              "translation": "こくさい · Quốc tế",
+              "note": "国際 chỉ việc giữa các nước (国際問題, 国際結婚); \"hội hoạ quốc tế\" không phải một dòng tranh."
+            },
+            {
+              "id": "c2",
+              "text": "国籍",
+              "translation": "こくせき · Quốc tịch",
+              "note": "Tranh không có quốc tịch."
+            },
+            {
+              "id": "c3",
+              "text": "西洋",
+              "translation": "せいよう · Phương Tây",
+              "note": "Đúng: 西洋の絵画 = hội hoạ phương Tây — như dòng 西洋（人／文化／芸術） của sách."
+            },
+            {
+              "id": "c4",
+              "text": "景色",
+              "translation": "けしき · Phong cảnh",
+              "note": "Tranh phong cảnh thì nói 風景画 (ふうけいが); 景色 đã là đáp án câu 3."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Câu mẫu của sách: 西洋（人／文化／芸術／医学）。絵画 (かいが) = tranh, hội hoạ. N が好きだ = thích N.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）、カップラーメンは3分でできる。",
+          "promptReading": "（　　　）、カップラーメンは さんぷんで できる。",
+          "promptTranslation": "（　　　）, mì ly mất 3 phút là ăn được.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "普通",
+              "translation": "ふつう · Thông thường, bình thường",
+              "note": "Đúng: 普通、～ = thông thường thì ~ — 普通 đứng đầu câu như phó từ, đúng như câu mẫu 日本人はふつう、集合時間の…"
+            },
+            {
+              "id": "c2",
+              "text": "当たり前",
+              "translation": "あたりまえ · Đương nhiên",
+              "note": "当たり前 phải đi với だ／の (当たり前だ, 当たり前のこと), không đứng một mình đầu câu như phó từ."
+            },
+            {
+              "id": "c3",
+              "text": "別々",
+              "translation": "べつべつ · Riêng rẽ",
+              "note": "別々 (riêng rẽ) không hợp nghĩa câu."
+            },
+            {
+              "id": "c4",
+              "text": "自然",
+              "translation": "しぜん · Thiên nhiên/ Tự nhiên",
+              "note": "自然 đứng một mình đầu câu không thành phó từ; muốn nói \"tự nhiên\" thì phải 自然に／自然と, mà nghĩa cũng không hợp."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Câu mẫu của sách: 日本人はふつう、集合時間の５～10分前に全員がそろう。N で (3分で) = mất N (thời gian); できる = làm xong, có thể ăn.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）をたっぷりに育てた野菜。",
+          "promptReading": "（　　　）を たっぷりに そだてた やさい。",
+          "promptTranslation": "Rau được trồng bằng thật nhiều （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "感心",
+              "translation": "かんしん · Khâm phục",
+              "note": "感心 là khâm phục người khác; trồng rau không cần \"khâm phục\"."
+            },
+            {
+              "id": "c2",
+              "text": "愛情",
+              "translation": "あいじょう · Tình yêu thương",
+              "note": "Đúng: 愛情たっぷりに育てる = nuôi trồng bằng cả tấm lòng — đúng câu mẫu 愛情たっぷりに育てた果物."
+            },
+            {
+              "id": "c3",
+              "text": "感動",
+              "translation": "かんどう · Cảm động",
+              "note": "感動 là xúc động khi xem, nghe gì đó; không dồn vào việc trồng rau."
+            },
+            {
+              "id": "c4",
+              "text": "感想",
+              "translation": "かんそう · Cảm tưởng",
+              "note": "感想 là cảm tưởng nói ra sau khi xem, đọc; không dùng để trồng."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Câu mẫu của sách: 愛情たっぷりに育てた果物を盗んでいった猿が憎い。Câu mẫu không có を (愛情たっぷりに), đề in 愛情をたっぷりに — chép đúng như đề. V た＋N = N đã được ~.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "彼とケンカしたので、お昼は（　　　）に食べた。",
+          "promptReading": "かれと ケンカしたので、おひるは（　　　）に たべた。",
+          "promptTranslation": "Vì cãi nhau với anh ấy nên bữa trưa chúng tôi ăn （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "行列",
+              "translation": "ぎょうれつ · Hàng người xếp dài",
+              "note": "行列 là hàng người; không nói 行列に食べる."
+            },
+            {
+              "id": "c2",
+              "text": "当たり前",
+              "translation": "あたりまえ · Đương nhiên",
+              "note": "当たり前に食べた không có nghĩa."
+            },
+            {
+              "id": "c3",
+              "text": "普通",
+              "translation": "ふつう · Bình thường",
+              "note": "普通に食べた nói được, nhưng \"vì cãi nhau nên ăn bình thường\" thì vế ので không ăn với vế sau."
+            },
+            {
+              "id": "c4",
+              "text": "別々",
+              "translation": "べつべつ · Riêng rẽ",
+              "note": "Đúng: 別々に食べる = ăn riêng, mỗi người một nơi — cãi nhau nên không ăn chung."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Câu mẫu của sách: 結婚したが、夫と姓を別にする。（≒ 別々にする）別々に＋V = làm ~ riêng ra. ～ので = vì ~ nên; N とケンカする = cãi nhau với N.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "職場で朝のあいさつをするのは（　　　）のことだ。",
+          "promptReading": "しょくばで あさの あいさつを するのは（　　　）の ことだ。",
+          "promptTranslation": "Chào buổi sáng ở chỗ làm là chuyện （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "普通",
+              "translation": "ふつう · Bình thường",
+              "note": "普通のこと cũng nói được (sách ghi あたりまえ ≒ ふつう), nhưng 普通 đã là đáp án câu 5; câu này nhấn \"phải làm, không làm là sai\" thì 当たり前 sát hơn."
+            },
+            {
+              "id": "c2",
+              "text": "当たり前",
+              "translation": "あたりまえ · Đương nhiên",
+              "note": "Đúng: V るのは当たり前のことだ = làm ~ là chuyện đương nhiên — cùng lối với câu mẫu 怒るのがあたりまえだ."
+            },
+            {
+              "id": "c3",
+              "text": "別々",
+              "translation": "べつべつ · Riêng rẽ",
+              "note": "別々のこと = những chuyện riêng rẽ, không hợp nghĩa."
+            },
+            {
+              "id": "c4",
+              "text": "自然",
+              "translation": "しぜん · Thiên nhiên/ Tự nhiên",
+              "note": "\"Chuyện tự nhiên\" phải nói 自然なこと (đuôi な, như câu mẫu); 自然のこと thì thành \"chuyện của thiên nhiên\"."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Câu mẫu của sách: そんなひどいことをされたら、怒るのがあたりまえだ。（≒ 当然）V る＋のは～だ = việc ~ là… Hai lựa chọn 1 và 2 đều nói được; chọn 当たり前 theo lối mỗi câu một từ khác nhau trong cụm.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "日本人は無（　　　）の人が多い。",
+          "promptReading": "にほんじんは む（　　　）の ひとが おおい。",
+          "promptTranslation": "Người Nhật có nhiều người không theo （　　　） nào.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "国際",
+              "translation": "こくさい · Quốc tế",
+              "note": "Không có từ 無国際."
+            },
+            {
+              "id": "c2",
+              "text": "自然",
+              "translation": "しぜん · Thiên nhiên/ Tự nhiên",
+              "note": "Không có từ 無自然 (trái nghĩa của 自然 là 不自然 hoặc 人工)."
+            },
+            {
+              "id": "c3",
+              "text": "宗教",
+              "translation": "しゅうきょう · Tôn giáo",
+              "note": "Đúng: 無宗教 (むしゅうきょう) = không theo tôn giáo nào — điều hay được nói về người Nhật."
+            },
+            {
+              "id": "c4",
+              "text": "国籍",
+              "translation": "こくせき · Quốc tịch",
+              "note": "無国籍 (không quốc tịch) là từ có thật, nhưng người Nhật thì có quốc tịch Nhật; nói \"nhiều người Nhật không quốc tịch\" là sai sự thật."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Câu mẫu của sách: 世界にはいろいろな宗教がある。無＋N = không có N (無料, 無理, 無宗教). N は N の人が多い = trong N có nhiều người ~.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-10",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "日本で暮らしているが、ベトナム（　　　）をもっている。",
+          "promptReading": "にほんで くらしているが、ベトナム（　　　）を もっている。",
+          "promptTranslation": "Tôi sống ở Nhật nhưng mang （　　　） Việt Nam.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "国籍",
+              "translation": "こくせき · Quốc tịch",
+              "note": "Đúng: ベトナム国籍をもっている = có quốc tịch Việt Nam — đúng lối câu mẫu ずっとアメリカで暮らしているが、国籍は日本だ."
+            },
+            {
+              "id": "c2",
+              "text": "国際",
+              "translation": "こくさい · Quốc tế",
+              "note": "Không nói ベトナム国際."
+            },
+            {
+              "id": "c3",
+              "text": "景色",
+              "translation": "けしき · Phong cảnh",
+              "note": "\"Mang phong cảnh Việt Nam\" không có nghĩa; vế が (sống ở Nhật nhưng ~) cần một thứ gắn với nước mình."
+            },
+            {
+              "id": "c4",
+              "text": "宗教",
+              "translation": "しゅうきょう · Tôn giáo",
+              "note": "Không nói ベトナム宗教; tôn giáo thì gọi theo tên đạo (仏教 …)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Câu mẫu của sách: ずっとアメリカで暮らしているが、国籍は日本だ。Tên nước＋国籍 = quốc tịch nước đó (日本国籍). 国籍をもっている／国籍を取る = có / lấy quốc tịch.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-11",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）結婚をするので、国籍に関する書類をそろえる。",
+          "promptReading": "（　　　）けっこんを するので、こくせきに かんする しょるいを そろえる。",
+          "promptTranslation": "Vì sắp kết hôn （　　　） nên tôi chuẩn bị đủ giấy tờ liên quan đến quốc tịch.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "帰国",
+              "translation": "きこく · Về nước",
+              "note": "帰国 là về nước; không có từ 帰国結婚."
+            },
+            {
+              "id": "c2",
+              "text": "国際",
+              "translation": "こくさい · Quốc tế",
+              "note": "Đúng: 国際結婚 = kết hôn với người nước ngoài — đúng câu mẫu 国際結婚で日本国籍を取った."
+            },
+            {
+              "id": "c3",
+              "text": "外国",
+              "translation": "がいこく · Nước ngoài",
+              "note": "外国 nghe hợp nghĩa nhưng không ghép thành 外国結婚; muốn nói thì phải 外国人と結婚する."
+            },
+            {
+              "id": "c4",
+              "text": "国々",
+              "translation": "くにぐに · Các nước",
+              "note": "国々 là \"các nước\", không ghép với 結婚."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Câu mẫu của sách: 国際結婚で日本国籍を取った。N に関する N = N liên quan đến ~; 書類をそろえる = chuẩn bị đủ giấy tờ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt2-btvn-399410-12",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）の多いところへ旅行に行きたい。",
+          "promptReading": "（　　　）の おおい ところへ りょこうに いきたい。",
+          "promptTranslation": "Tôi muốn đi du lịch đến nơi có nhiều （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "宗教",
+              "translation": "しゅうきょう · Tôn giáo",
+              "note": "\"Nơi nhiều tôn giáo\" không phải lý do thường gặp để đi du lịch, và 宗教 không đếm nhiều ít theo nơi chốn như thế."
+            },
+            {
+              "id": "c2",
+              "text": "自然",
+              "translation": "しぜん · Thiên nhiên/ Tự nhiên",
+              "note": "Đúng: 自然の多いところ = nơi có nhiều thiên nhiên — cùng ý với câu mẫu 山や海へ行って、大自然の中で過ごしたい！"
+            },
+            {
+              "id": "c3",
+              "text": "東洋",
+              "translation": "とうよう · Phương Đông",
+              "note": "東洋 là cả một vùng phương Đông, không \"nhiều\" ở một chỗ được."
+            },
+            {
+              "id": "c4",
+              "text": "国籍",
+              "translation": "こくせき · Quốc tịch",
+              "note": "国籍 là giấy tờ của từng người, không phải thứ một vùng đất có nhiều."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Câu mẫu của sách: 山や海へ行って、大自然の中で過ごしたい！N の多い＋chỗ = chỗ có nhiều N (の thay が trong mệnh đề bổ nghĩa). ～へ旅行に行く = đi du lịch đến ~; V ます bỏ ます＋たい = muốn ~.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}
