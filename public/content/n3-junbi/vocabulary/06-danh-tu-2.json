@@ -1,7 +1,7 @@
 {
   "id": "06-danh-tu-2",
   "name": "Danh từ 2",
-  "description": "Danh từ N3準備 文字語彙 — 311–318 và 第19課 (351–370)",
+  "description": "Danh từ N3準備 文字語彙 — 311–318 và 第19課 (351–370), 第21課 (391–410)",
   "kind": "vocabulary",
   "parent": "",
   "group": "",
@@ -17,6 +17,14 @@
     {
       "label": "360–370",
       "title": "Bài 19.2 · Cảm xúc, nhận định và tìm nguyên nhân"
+    },
+    {
+      "label": "391–398",
+      "title": "Bài 21.1 · Xung quanh, kích thước và nội dung"
+    },
+    {
+      "label": "399–410",
+      "title": "Bài 21.2 · Thường lệ, khác biệt, quốc tế và thiên nhiên"
     }
   ],
   "words": [
@@ -921,6 +929,852 @@
         {
           "label": "※",
           "text": "Hay đi với 問題 (もんだい)・トラブル・事件 (じけん)・悩み (なやみ)"
+        }
+      ]
+    },
+    {
+      "id": "2e5dcba86ba6c152",
+      "number": 391,
+      "group": "391–398",
+      "particle": "",
+      "japanese": "周り/回り",
+      "reading": "まわり/まわり",
+      "hanViet": "CHU/ HỒI",
+      "vietnamese": "Xung quanh/ Quanh",
+      "examples": [
+        {
+          "id": "8e0b212f12a9f018",
+          "japanese": "周りの人",
+          "vietnamese": "Những người xung quanh",
+          "reading": "まわりのひと",
+          "grammar": "",
+          "targets": [
+            "周り"
+          ]
+        },
+        {
+          "id": "32d493987d55ae24",
+          "japanese": "周りをよく見る。",
+          "vietnamese": "Nhìn kỹ xung quanh.",
+          "reading": "まわりをよくみる。",
+          "grammar": "",
+          "targets": [
+            "周り"
+          ]
+        },
+        {
+          "id": "1dcf4b90174480aa",
+          "japanese": "時計回り",
+          "vietnamese": "Theo chiều kim đồng hồ",
+          "reading": "とけいまわり",
+          "grammar": "",
+          "targets": [
+            "回り"
+          ]
+        },
+        {
+          "id": "3720bd9293078347",
+          "japanese": "池の周りを散歩する。（≒ 周囲・周辺（N2））",
+          "vietnamese": "Đi dạo quanh hồ. (≒ 周囲・周辺 (N2))",
+          "reading": "いけのまわりをさんぽする。（≒ しゅうい・しゅうへん（N2））",
+          "grammar": "N の周りを＋V di chuyển = đi ~ vòng quanh N (を chỉ nơi đi qua)",
+          "targets": [
+            "周り"
+          ]
+        },
+        {
+          "id": "f96841f5cce337d7",
+          "japanese": "腰(の)回りを測る。",
+          "vietnamese": "Đo vòng eo.",
+          "reading": "こし(の)まわりをはかる。",
+          "grammar": "",
+          "targets": [
+            "回り"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "2afbb8bc671447e2",
+      "number": 392,
+      "group": "391–398",
+      "particle": "",
+      "japanese": "穴",
+      "reading": "あな",
+      "hanViet": "HUYỆT",
+      "vietnamese": "Hố, lỗ thủng",
+      "examples": [
+        {
+          "id": "69deddb69c2f81ca",
+          "japanese": "地面にあなを掘る",
+          "vietnamese": "Đào hố dưới đất",
+          "reading": "じめんにあなをほる",
+          "grammar": "",
+          "targets": [
+            "あな"
+          ]
+        },
+        {
+          "id": "3db9e86f0313c81e",
+          "japanese": "イライラして、かべにあなを空ける／が空く。",
+          "vietnamese": "Bực bội nên đục thủng tường / tường bị thủng.",
+          "reading": "イライラして、かべにあなをあける／があく。",
+          "grammar": "穴を空ける (他) ＞＜ 穴が空く (自) = đục lỗ / bị thủng lỗ",
+          "targets": [
+            "あな"
+          ]
+        },
+        {
+          "id": "904f7404db054c21",
+          "japanese": "あなの空いたくつしたを捨てる。",
+          "vietnamese": "Vứt đôi tất bị thủng.",
+          "reading": "あなのあいたくつしたをすてる。",
+          "grammar": "穴の空いた＋N = N bị thủng — trong mệnh đề bổ nghĩa, が đổi thành の",
+          "targets": [
+            "あな"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "穴を掘る (あなをほる) = Đào lỗ"
+        }
+      ]
+    },
+    {
+      "id": "f2b86a6e35d333a0",
+      "number": 393,
+      "group": "391–398",
+      "particle": "",
+      "japanese": "列",
+      "reading": "れつ",
+      "hanViet": "LIỆT",
+      "vietnamese": "Hàng",
+      "examples": [
+        {
+          "id": "5bc216288f83e650",
+          "japanese": "マスクを買うために、店の前には長い列ができている。（≒ 行列（N2））",
+          "vietnamese": "Để mua khẩu trang, trước cửa hàng có một hàng người dài. (≒ 行列 (N2))",
+          "reading": "マスクをかうために、みせのまえにはながいれつができている。（≒ ぎょうれつ（N2））",
+          "grammar": "V る＋ために = để ~; 列ができる = hình thành hàng (người xếp hàng)",
+          "targets": [
+            "列"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "e7e30924df561767",
+      "number": 394,
+      "group": "391–398",
+      "particle": "",
+      "japanese": "幅",
+      "reading": "はば",
+      "hanViet": "PHÚC",
+      "vietnamese": "Chiều rộng/ Khoảng/ Phạm vi",
+      "examples": [
+        {
+          "id": "ce0fb73c57276591",
+          "japanese": "道(の)はばを広げる工事。",
+          "vietnamese": "Công trình mở rộng lòng đường.",
+          "reading": "みち(の)はばをひろげるこうじ。",
+          "grammar": "",
+          "targets": [
+            "はば"
+          ]
+        },
+        {
+          "id": "fc319542ea596c34",
+          "japanese": "値下げのはばが（大きい／小さい）。",
+          "vietnamese": "Mức giảm giá (lớn / nhỏ).",
+          "reading": "ねさげのはばが（おおきい／ちいさい）。",
+          "grammar": "",
+          "targets": [
+            "はば"
+          ]
+        },
+        {
+          "id": "4e8025dc8aecdf72",
+          "japanese": "趣味のはばを広めたい。",
+          "vietnamese": "Tôi muốn mở rộng phạm vi sở thích.",
+          "reading": "しゅみのはばをひろめたい。",
+          "grammar": "V ます bỏ ます＋たい = muốn ~",
+          "targets": [
+            "はば"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "幅を広げる ＞＜ 狭める (せばめる) (N2)"
+        },
+        {
+          "label": "連",
+          "text": "幅が広い ＞＜ 狭い (せまい)"
+        },
+        {
+          "label": "合",
+          "text": "スーツケースの横幅 (よこはば) を測る = Đo chiều ngang vali"
+        },
+        {
+          "label": "合",
+          "text": "肩幅 (かたはば) が広い = Vai rộng"
+        }
+      ]
+    },
+    {
+      "id": "b9c10c0e81f111c3",
+      "number": 395,
+      "group": "391–398",
+      "particle": "",
+      "japanese": "範囲",
+      "reading": "はんい",
+      "hanViet": "PHẠM VI",
+      "vietnamese": "Phạm vi",
+      "examples": [
+        {
+          "id": "23770dfa6f68bd68",
+          "japanese": "この漢字はテスト範囲に入るらしい．．．",
+          "vietnamese": "Hình như chữ Hán này nằm trong phạm vi bài kiểm tra...",
+          "reading": "このかんじはテストはんいにはいるらしい．．．",
+          "grammar": "～らしい = hình như ~ (phỏng đoán dựa trên thông tin nghe được)",
+          "targets": [
+            "範囲"
+          ]
+        },
+        {
+          "id": "bbe12b960e431056",
+          "japanese": "彼女は趣味の範囲が広い。（＞＜ 狭い ≒ 幅）",
+          "vietnamese": "Cô ấy có nhiều sở thích. (＞＜ 狭い, ≒ 幅)",
+          "reading": "かのじょはしゅみのはんいがひろい。（＞＜ せまい ≒ はば）",
+          "grammar": "",
+          "targets": [
+            "範囲"
+          ]
+        },
+        {
+          "id": "c64c73854c00a6c4",
+          "japanese": "コロナの流行で休日の活動範囲／行動範囲が狭まる",
+          "vietnamese": "Vì dịch Corona mà phạm vi hoạt động / phạm vi đi lại ngày nghỉ bị thu hẹp",
+          "reading": "コロナのりゅうこうできゅうじつのかつどうはんい／こうどうはんいがせばまる",
+          "grammar": "N＋で = vì N; 狭まる (自) = bị thu hẹp ＞＜ 狭める (他)",
+          "targets": [
+            "範囲"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "活動範囲 (かつどうはんい)・行動範囲 (こうどうはんい)"
+        }
+      ]
+    },
+    {
+      "id": "b86c07629646ea34",
+      "number": 396,
+      "group": "391–398",
+      "particle": "",
+      "japanese": "内容",
+      "reading": "ないよう",
+      "hanViet": "NỘI DUNG",
+      "vietnamese": "Nội dung",
+      "examples": [
+        {
+          "id": "f072c0a3571f5b22",
+          "japanese": "(話／授業／本／ニュース／映画...)の内容を見直す。（≒ 中身）",
+          "vietnamese": "Xem lại nội dung (câu chuyện / giờ học / sách / tin tức / phim...). (≒ 中身)",
+          "reading": "(はなし／じゅぎょう／ほん／ニュース／えいが...)のないようをみなおす。（≒ なかみ）",
+          "grammar": "V ます bỏ ます＋直す = làm lại ~ (見直す = xem lại)",
+          "targets": [
+            "内容"
+          ]
+        },
+        {
+          "id": "a8f82ea7c7c4b23b",
+          "japanese": "このレポートは内容は良い／濃いが、形式は少し直したほうがいい。",
+          "vietnamese": "Bản báo cáo này nội dung tốt / sâu, nhưng hình thức nên sửa lại một chút.",
+          "reading": "このレポートはないようはよい／こいが、けいしきはすこしなおしたほうがいい。",
+          "grammar": "～は…が、～は… = cái này thì…, nhưng cái kia thì… (đối chiếu); V た＋ほうがいい = nên ~",
+          "targets": [
+            "内容"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "3bb324c187191b6e",
+      "number": 397,
+      "group": "391–398",
+      "particle": "",
+      "japanese": "中身",
+      "reading": "なかみ",
+      "hanViet": "TRUNG THÂN",
+      "vietnamese": "Nội dung/ Bên trong",
+      "examples": [
+        {
+          "id": "68d7162061f39062",
+          "japanese": "話の中身が理解できない。（≒ 内容）",
+          "vietnamese": "Không hiểu được nội dung câu chuyện. (≒ 内容)",
+          "reading": "はなしのなかみがりかいできない。（≒ ないよう）",
+          "grammar": "",
+          "targets": [
+            "中身"
+          ]
+        },
+        {
+          "id": "debe281f36432aad",
+          "japanese": "箱を開けて中身を見る。",
+          "vietnamese": "Mở hộp ra xem bên trong.",
+          "reading": "はこをあけてなかみをみる。",
+          "grammar": "",
+          "targets": [
+            "中身"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "403cfc1a8ad27e61",
+      "number": 398,
+      "group": "391–398",
+      "particle": "",
+      "japanese": "特徴",
+      "reading": "とくちょう",
+      "hanViet": "ĐẶC TRƯNG",
+      "vietnamese": "Đặc trưng",
+      "examples": [
+        {
+          "id": "92a4e0353f8b352e",
+          "japanese": "商品の特徴を教えてもらう。",
+          "vietnamese": "Nhờ (người ta) cho biết đặc điểm của sản phẩm.",
+          "reading": "しょうひんのとくちょうをおしえてもらう。",
+          "grammar": "V て＋もらう = được ai làm cho ~",
+          "targets": [
+            "特徴"
+          ]
+        },
+        {
+          "id": "61c35e1aca3f31d9",
+          "japanese": "彼女は特徴のある顔をしている。（＞＜ 特徴がない）",
+          "vietnamese": "Cô ấy có khuôn mặt rất đặc biệt. (＞＜ 特徴がない = không có gì nổi bật)",
+          "reading": "かのじょはとくちょうのあるかおをしている。（＞＜ とくちょうがない）",
+          "grammar": "特徴のある＋N = N có nét riêng; ～顔をしている = có khuôn mặt ~",
+          "targets": [
+            "特徴"
+          ]
+        },
+        {
+          "id": "ea6b899f6fcc9412",
+          "japanese": "A：あの特徴的な形の建物は何ですか？ B：あれは郵便局ですよ。",
+          "vietnamese": "A: Toà nhà có hình dáng đặc biệt kia là gì vậy? B: Đó là bưu điện đấy.",
+          "reading": "A：あのとくちょうてきなかたちのたてものはなんですか？ B：あれはゆうびんきょくですよ。",
+          "grammar": "",
+          "targets": [
+            "特徴"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "特徴的 (とくちょうてき) = Nét đặc trưng"
+        },
+        {
+          "label": "類",
+          "text": "特色 (とくしょく) (N2)"
+        }
+      ]
+    },
+    {
+      "id": "ba5115be7385b283",
+      "number": 399,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "普通",
+      "reading": "ふつう",
+      "hanViet": "PHỔ THÔNG",
+      "vietnamese": "Bình thường",
+      "examples": [
+        {
+          "id": "f964f3ddc5eba461",
+          "japanese": "パスポートの申請には１週間かかるのが普通だ。",
+          "vietnamese": "Làm hộ chiếu thì mất một tuần là chuyện bình thường.",
+          "reading": "パスポートのしんせいにはいっしゅうかんかかるのがふつうだ。",
+          "grammar": "V る＋のが普通だ = ~ là chuyện thường; ～には = để làm ~ thì",
+          "targets": [
+            "普通"
+          ]
+        },
+        {
+          "id": "aaf294a748d9beac",
+          "japanese": "日本人はふつう、集合時間の５～10分前に全員がそろう。",
+          "vietnamese": "Người Nhật thường có mặt đủ cả trước giờ tập trung 5–10 phút.",
+          "reading": "にほんじんはふつう、しゅうごうじかんのごからじゅっぷんまえにぜんいんがそろう。",
+          "grammar": "ふつう đứng đầu câu như phó từ = thông thường; 全員がそろう = đông đủ mọi người",
+          "targets": [
+            "ふつう"
+          ]
+        },
+        {
+          "id": "3747f23824d79a90",
+          "japanese": "A：「しんさんって、ちょっと変じゃない？」B：「そう？ふつうの人だと思うけど」",
+          "vietnamese": "A: \"Anh Shin hơi lạ nhỉ?\" B: \"Thế à? Tôi thấy là người bình thường mà.\"",
+          "reading": "A：「しんさんって、ちょっとへんじゃない？」B：「そう？ふつうのひとだとおもうけど」",
+          "grammar": "N って = nói đến N thì (văn nói của は); ～じゃない？ = chẳng phải ~ sao?; ～けど cuối câu = làm câu mềm đi",
+          "targets": [
+            "ふつう"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "56e71b989b61585d",
+      "number": 400,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "当たり前",
+      "reading": "あたりまえ",
+      "hanViet": "ĐƯƠNG TIỀN",
+      "vietnamese": "Đương nhiên",
+      "examples": [
+        {
+          "id": "6b1d3aad35a81525",
+          "japanese": "そんなひどいことをされたら、怒るのがあたりまえだ。（≒ 当然）",
+          "vietnamese": "Bị đối xử tệ như thế thì nổi giận là đương nhiên. (≒ 当然)",
+          "reading": "そんなひどいことをされたら、おこるのがあたりまえだ。（≒ とうぜん）",
+          "grammar": "V られる (bị động) ＋たら = nếu bị ~ thì; V る＋のが当たり前だ = ~ là điều đương nhiên",
+          "targets": [
+            "あたりまえ"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "使い分け",
+          "text": "あたりまえ ≒ ふつう → 話し言葉 (văn nói) → 年上の人 ✕ (không dùng với người trên)"
+        },
+        {
+          "label": "使い分け",
+          "text": "とうぜん (当然) → 少し固め、書き言葉 (hơi trang trọng, văn viết) → 年上の人と話す ○ (dùng được với người trên)"
+        }
+      ]
+    },
+    {
+      "id": "6185b46d2f2dfe53",
+      "number": 401,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "偽札",
+      "reading": "にせさつ",
+      "hanViet": "NGỤY TRÁT",
+      "vietnamese": "Tiền giả",
+      "examples": [
+        {
+          "id": "0a50068e54f4e865",
+          "japanese": "これはにせ札だよ。ふつう気づくでしょ？！",
+          "vietnamese": "Đây là tiền giả đấy. Bình thường thì phải nhận ra chứ?!",
+          "reading": "これはにせさつだよ。ふつうきづくでしょ？！",
+          "grammar": "～でしょ？ = chắc chắn ~ chứ? (văn nói của でしょう, đòi người nghe đồng ý)",
+          "targets": [
+            "にせ札"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "23cca9eaa01a25e4",
+      "number": 402,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "別",
+      "reading": "べつ",
+      "hanViet": "BIỆT",
+      "vietnamese": "Khác/ Riêng",
+      "examples": [
+        {
+          "id": "7cdb3e533cf4fb53",
+          "japanese": "「昔の彼女」と「今の彼女」とはまるで別人だ。",
+          "vietnamese": "\"Cô ấy ngày xưa\" và \"cô ấy bây giờ\" cứ như hai người khác nhau.",
+          "reading": "「むかしのかのじょ」と「いまのかのじょ」とはまるでべつじんだ。",
+          "grammar": "まるで～だ = cứ như là ~; AとBとは = A và B (so sánh hai thứ)",
+          "targets": [
+            "別"
+          ]
+        },
+        {
+          "id": "f6e8c937408b77ae",
+          "japanese": "恋愛と結婚は別(の)ものだ。",
+          "vietnamese": "Yêu đương và kết hôn là hai chuyện khác nhau.",
+          "reading": "れんあいとけっこんはべつ(の)ものだ。",
+          "grammar": "",
+          "targets": [
+            "別"
+          ]
+        },
+        {
+          "id": "25962d4831476ea3",
+          "japanese": "結婚したが、夫と姓を別にする。（≒ 別々にする）",
+          "vietnamese": "Đã kết hôn nhưng giữ họ riêng với chồng. (≒ 別々にする)",
+          "reading": "けっこんしたが、おっととせいをべつにする。（≒ べつべつにする）",
+          "grammar": "～を別にする = để ~ riêng ra",
+          "targets": [
+            "別"
+          ]
+        },
+        {
+          "id": "54cae21476ba4a89",
+          "japanese": "性別／年齢別／国別／階級別に試合が行われた。",
+          "vietnamese": "Các trận đấu được tổ chức chia theo giới tính / độ tuổi / quốc gia / hạng cân.",
+          "reading": "せいべつ／ねんれいべつ／くにべつ／かいきゅうべつにしあいがおこなわれた。",
+          "grammar": "N＋別に = chia theo N; 行われる = được tổ chức (bị động của 行う)",
+          "targets": [
+            "別"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "8273fbd7102cb12e",
+      "number": 403,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "国籍",
+      "reading": "こくせき",
+      "hanViet": "QUỐC TỊCH",
+      "vietnamese": "Quốc tịch",
+      "examples": [
+        {
+          "id": "a1c9449d51953473",
+          "japanese": "ずっとアメリカで暮らしているが、国籍は日本だ。",
+          "vietnamese": "Tôi sống ở Mỹ suốt nhưng quốc tịch là Nhật.",
+          "reading": "ずっとアメリカでくらしているが、こくせきはにほんだ。",
+          "grammar": "",
+          "targets": [
+            "国籍"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "f2fc6b6d3baf3784",
+      "number": 404,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "東洋",
+      "reading": "とうよう",
+      "hanViet": "ĐÔNG DƯƠNG",
+      "vietnamese": "Phương Đông (người châu Á)",
+      "examples": [
+        {
+          "id": "0aa2173b2a754174",
+          "japanese": "東洋（文化／芸術／医学）",
+          "vietnamese": "(Văn hoá / nghệ thuật / y học) phương Đông",
+          "reading": "とうよう（ぶんか／げいじゅつ／いがく）",
+          "grammar": "",
+          "targets": [
+            "東洋"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "関",
+          "text": "アジア"
+        }
+      ]
+    },
+    {
+      "id": "18988d3357c962a6",
+      "number": 405,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "西洋",
+      "reading": "せいよう",
+      "hanViet": "TÂY DƯƠNG",
+      "vietnamese": "Phương Tây",
+      "examples": [
+        {
+          "id": "863b9367f009fef4",
+          "japanese": "東洋の文化と西洋の文化を比べる。",
+          "vietnamese": "So sánh văn hoá phương Đông với văn hoá phương Tây.",
+          "reading": "とうようのぶんかとせいようのぶんかをくらべる。",
+          "grammar": "AとBを比べる = so sánh A với B",
+          "targets": [
+            "西洋"
+          ]
+        },
+        {
+          "id": "85553e3abc83ed68",
+          "japanese": "西洋（人／文化／芸術／医学）",
+          "vietnamese": "(Người / văn hoá / nghệ thuật / y học) phương Tây",
+          "reading": "せいよう（じん／ぶんか／げいじゅつ／いがく）",
+          "grammar": "",
+          "targets": [
+            "西洋"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "6a8ef6d7a98e124c",
+      "number": 406,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "国際",
+      "reading": "こくさい",
+      "hanViet": "QUỐC TẾ",
+      "vietnamese": "Quốc tế",
+      "examples": [
+        {
+          "id": "56ab5b363d11fca9",
+          "japanese": "日本企業の海外支社でのトラブルが国際問題に発展した。",
+          "vietnamese": "Rắc rối ở chi nhánh nước ngoài của một công ty Nhật đã phát triển thành vấn đề quốc tế.",
+          "reading": "にほんきぎょうのかいがいししゃでのトラブルがこくさいもんだいにはってんした。",
+          "grammar": "N での＋N = N xảy ra ở ~; ～に発展する = phát triển thành ~",
+          "targets": [
+            "国際"
+          ]
+        },
+        {
+          "id": "1c3a72f806d25d2d",
+          "japanese": "国際結婚で日本国籍を取った。",
+          "vietnamese": "Nhờ kết hôn với người nước ngoài mà tôi đã lấy được quốc tịch Nhật.",
+          "reading": "こくさいけっこんでにほんこくせきをとった。",
+          "grammar": "",
+          "targets": [
+            "国際"
+          ]
+        },
+        {
+          "id": "06976672aaf467d7",
+          "japanese": "国際交流／国際連合",
+          "vietnamese": "Giao lưu quốc tế / Liên hợp quốc",
+          "reading": "こくさいこうりゅう／こくさいれんごう",
+          "grammar": "",
+          "targets": [
+            "国際"
+          ]
+        },
+        {
+          "id": "abb629c91cda9176",
+          "japanese": "国際化教育をすすめる学校",
+          "vietnamese": "Trường học đẩy mạnh giáo dục quốc tế hoá",
+          "reading": "こくさいかきょういくをすすめるがっこう",
+          "grammar": "",
+          "targets": [
+            "国際"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "国際交流 (こくさいこうりゅう) = Giao lưu quốc tế"
+        },
+        {
+          "label": "合",
+          "text": "国際連合 (こくさいれんごう) = Liên hợp quốc"
+        }
+      ]
+    },
+    {
+      "id": "dcc819f9dca902b0",
+      "number": 407,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "自然",
+      "reading": "しぜん",
+      "hanViet": "TỰ NHIÊN",
+      "vietnamese": "Thiên nhiên/ Tự nhiên",
+      "examples": [
+        {
+          "id": "ccc30b9dc3db8ead",
+          "japanese": "山や海へ行って、大自然の中で過ごしたい！",
+          "vietnamese": "Muốn đi núi, đi biển, sống giữa thiên nhiên bao la!",
+          "reading": "やまやうみへいって、だいしぜんのなかですごしたい！",
+          "grammar": "V ます bỏ ます＋たい = muốn ~",
+          "targets": [
+            "自然"
+          ]
+        },
+        {
+          "id": "79264ca7bcb62d42",
+          "japanese": "自然保護区の生き物たち。",
+          "vietnamese": "Các loài sinh vật trong khu bảo tồn thiên nhiên.",
+          "reading": "しぜんほごくのいきものたち。",
+          "grammar": "",
+          "targets": [
+            "自然"
+          ]
+        },
+        {
+          "id": "b4e4364d7cafd392",
+          "japanese": "好きな人とずっといっしょにいたいと思うのは、自然なことだ。",
+          "vietnamese": "Muốn ở bên người mình thích mãi mãi là chuyện tự nhiên.",
+          "reading": "すきなひととずっといっしょにいたいとおもうのは、しぜんなことだ。",
+          "grammar": "～と思うのは…だ = việc nghĩ rằng ~ là…; 自然な＋N = N tự nhiên (dùng như tính từ な)",
+          "targets": [
+            "自然"
+          ]
+        },
+        {
+          "id": "3137dfdc0d690563",
+          "japanese": "意地が悪い人は、自然（に／と）、友だちが少なくなる。",
+          "vietnamese": "Người xấu tính thì tự nhiên bạn bè sẽ ít đi.",
+          "reading": "いじがわるいひとは、しぜん（に／と）、ともだちがすくなくなる。",
+          "grammar": "自然に／自然と = một cách tự nhiên, tự khắc; tính từ い bỏ い＋くなる = trở nên ~",
+          "targets": [
+            "自然"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "自然環境 (しぜんかんきょう) = Môi trường tự nhiên"
+        },
+        {
+          "label": "合",
+          "text": "自然保護 (しぜんほご) = Bảo tồn thiên nhiên"
+        },
+        {
+          "label": "合",
+          "text": "大自然 (だいしぜん)・自然保護区 (しぜんほごく)"
+        },
+        {
+          "label": "対",
+          "text": "自然 ＞＜ 人工 (じんこう)"
+        },
+        {
+          "label": "対",
+          "text": "自然な ＞＜ 不自然な (ふしぜんな)"
+        }
+      ]
+    },
+    {
+      "id": "b892ed02698801e9",
+      "number": 408,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "景色",
+      "reading": "けしき",
+      "hanViet": "CẢNH SẮC",
+      "vietnamese": "Phong cảnh",
+      "examples": [
+        {
+          "id": "e48d0fbf32065e5c",
+          "japanese": "初めて日本の山に行った。素晴らしい景色だった。",
+          "vietnamese": "Lần đầu tôi đi núi ở Nhật. Phong cảnh thật tuyệt vời.",
+          "reading": "はじめてにほんのやまにいった。すばらしいけしきだった。",
+          "grammar": "",
+          "targets": [
+            "景色"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "使い分け",
+          "text": "景色 (けしき) = Cảnh thiên nhiên (biển, núi, sông)"
+        },
+        {
+          "label": "使い分け",
+          "text": "風景 (ふうけい) = Cảnh tự nhiên (thành phố, con người)"
+        },
+        {
+          "label": "使い分け",
+          "text": "光景 (こうけい) = Quang cảnh cụ thể trước mắt"
+        }
+      ]
+    },
+    {
+      "id": "23d6233df3d5bb32",
+      "number": 409,
+      "group": "399–410",
+      "particle": "",
+      "japanese": "宗教",
+      "reading": "しゅうきょう",
+      "hanViet": "TÔN GIÁO",
+      "vietnamese": "Tôn giáo",
+      "examples": [
+        {
+          "id": "a55ec2d35cfd68cb",
+          "japanese": "世界にはいろいろな宗教がある。",
+          "vietnamese": "Trên thế giới có nhiều tôn giáo.",
+          "reading": "せかいにはいろいろなしゅうきょうがある。",
+          "grammar": "",
+          "targets": [
+            "宗教"
+          ]
+        },
+        {
+          "id": "3fb4b597732d6403",
+          "japanese": "ベトナム人の８割の人が信じている宗教は、仏教らしい。",
+          "vietnamese": "Nghe nói tôn giáo mà 80% người Việt Nam tin theo là đạo Phật.",
+          "reading": "ベトナムじんのはちわりのひとがしんじているしゅうきょうは、ぶっきょうらしい。",
+          "grammar": "～割 = mười phần trăm (８割 = 80%); ～らしい = nghe nói, hình như ~",
+          "targets": [
+            "宗教"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "6d4e2f66e7f8b204",
+      "number": 410,
+      "group": "399–410",
+      "particle": "を",
+      "japanese": "愛する",
+      "reading": "あいする",
+      "hanViet": "ÁI",
+      "vietnamese": "Yêu",
+      "examples": [
+        {
+          "id": "b9f7c2ce84141f6d",
+          "japanese": "私は（家族/夫・妻/自然/．．．）を愛してる。",
+          "vietnamese": "Tôi yêu (gia đình / chồng・vợ / thiên nhiên / ...).",
+          "reading": "わたしは（かぞく/おっと・つま/しぜん/．．．）をあいしてる。",
+          "grammar": "愛してる = 愛している lược い (văn nói)",
+          "targets": [
+            "愛してる"
+          ]
+        },
+        {
+          "id": "6368bb6258ed819d",
+          "japanese": "愛情たっぷりに育てた果物を盗んでいった猿が憎い",
+          "vietnamese": "Ghét con khỉ đã trộm mất trái cây tôi nuôi trồng bằng cả tấm lòng",
+          "reading": "あいじょうたっぷりにそだてたくだものをぬすんでいったさるがにくい",
+          "grammar": "～たっぷりに = đầy ~, chan chứa ~; V ていく = làm ~ rồi đi mất; ～が憎い = ghét ~",
+          "targets": [
+            "愛情"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "愛する ＞＜ 憎い (にくい)"
+        },
+        {
+          "label": "合",
+          "text": "愛情 (あいじょう)・愛読書 (あいどくしょ)・愛国心 (あいこくしん)"
+        },
+        {
+          "label": "※",
+          "text": "話し言葉では使わない。少し古い表現。(Không dùng trong văn nói, là cách nói hơi cũ.)"
         }
       ]
     }

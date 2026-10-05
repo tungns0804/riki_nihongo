@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-02T06:34:10.305Z",
+  "generatedAt": "2026-10-05T05:26:46.346Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -161,11 +161,11 @@
         {
           "id": "06-danh-tu-2",
           "name": "Danh từ 2",
-          "description": "Danh từ N3準備 文字語彙 — 311–318 và 第19課 (351–370)",
+          "description": "Danh từ N3準備 文字語彙 — 311–318 và 第19課 (351–370), 第21課 (391–410)",
           "kind": "vocabulary",
           "parent": "",
           "group": "",
-          "itemCount": 28,
+          "itemCount": 48,
           "order": 6,
           "file": "vocabulary/06-danh-tu-2.json",
           "groups": [
@@ -180,6 +180,14 @@
             {
               "label": "360–370",
               "title": "Bài 19.2 · Cảm xúc, nhận định và tìm nguyên nhân"
+            },
+            {
+              "label": "391–398",
+              "title": "Bài 21.1 · Xung quanh, kích thước và nội dung"
+            },
+            {
+              "label": "399–410",
+              "title": "Bài 21.2 · Thường lệ, khác biệt, quốc tế và thiên nhiên"
             }
           ]
         },

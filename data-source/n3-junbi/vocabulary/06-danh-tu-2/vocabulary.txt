@@ -1,13 +1,14 @@
-# N3 JUNBI — 文字語彙 · DANH TỪ 2 (311–318, 351–370)
+# N3 JUNBI — 文字語彙 · DANH TỪ 2 (311–318, 351–370, 391–410)
 # Nguồn: ảnh chụp trang từ vựng Riki (thẻ "311–318"), người dùng gửi 2026-09-24;
-# PDF 第19課 (351–370), người dùng gửi 2026-10-02.
+# PDF 第19課 (351–370), người dùng gửi 2026-10-02;
+# PDF 第21課 (391–410), người dùng gửi 2026-10-05.
 # Định dạng: xem data-source/n3-junbi/vocabulary/README.md
 #
 # Đây là bài danh từ THỨ HAI, đứng riêng với bài "Danh từ" (01–120) đúng như trên web
 # Riki. Cụm 311–318 chưa biết số bài trong giáo trình nên nhãn chỉ ghi khoảng số từ.
 #
 # Danh từ thì câu ví dụ không cần đánh dấu [ ]: máy tự tìm nguyên mặt chữ trong câu.
-# Chỉ 317 phải đánh dấu, vì thẻ in tiêu đề bằng chữ Hán (お辞儀) mà câu lại viết kana.
+# Chỉ đánh dấu khi tiêu đề in chữ Hán mà câu lại viết kana (317 お辞儀, 392 穴, 394 幅…).
 #
 # Bản dịch, dòng 読 (cách đọc cả câu) và dòng 文法 là phần viết thêm, không có trên thẻ.
 
@@ -233,3 +234,207 @@
 読: トラブルをかいけつする。
 文法: ～を解決する = giải quyết ~ (他 — tha động từ, đi với を)
 ※: Hay đi với 問題 (もんだい)・トラブル・事件 (じけん)・悩み (なやみ)
+
+# ── 第21課：391〜410 ────────────────────────────────────────────
+
+# nguồn: bai-212-tu-vung-cai-thien-399-410.pdf (bản PDF này in trọn 第21課: 391–410;
+# chỉ tên file cho biết buổi 21.2 bắt đầu từ 399, nên 391–398 là buổi 21.1)
+# Sách in nhãn 連 thành 蓮 ở mọi chỗ — chép lại đúng nhãn 連.
+# Nhiều câu viết kana (あな, はば, ふつう…) trong khi tiêu đề in chữ Hán, nên đánh dấu [ ].
+## 391–398 = Bài 21.1 · Xung quanh, kích thước và nội dung
+391. 周り/回り (まわり/まわり) = CHU/ HỒI ; Xung quanh/ Quanh
+# 意味① Xung quanh: ba câu đầu. 意味② Quanh (vòng quanh một vật): hai câu cuối.
+・[周り]の人 | Những người xung quanh
+読: まわりのひと
+・[周り]をよく見る。| Nhìn kỹ xung quanh.
+読: まわりをよくみる。
+・時計[回り] | Theo chiều kim đồng hồ
+読: とけいまわり
+・池の[周り]を散歩する。（≒ 周囲・周辺（N2））| Đi dạo quanh hồ. (≒ 周囲・周辺 (N2))
+読: いけのまわりをさんぽする。（≒ しゅうい・しゅうへん（N2））
+文法: N の周りを＋V di chuyển = đi ~ vòng quanh N (を chỉ nơi đi qua)
+・腰(の)[回り]を測る。| Đo vòng eo.
+読: こし(の)まわりをはかる。
+
+392. 穴 (あな) = HUYỆT ; Hố, lỗ thủng
+・地面に[あな]を掘る | Đào hố dưới đất
+読: じめんにあなをほる
+・イライラして、かべに[あな]を空ける／が空く。| Bực bội nên đục thủng tường / tường bị thủng.
+読: イライラして、かべにあなをあける／があく。
+文法: 穴を空ける (他) ＞＜ 穴が空く (自) = đục lỗ / bị thủng lỗ
+・[あな]の空いたくつしたを捨てる。| Vứt đôi tất bị thủng.
+読: あなのあいたくつしたをすてる。
+文法: 穴の空いた＋N = N bị thủng — trong mệnh đề bổ nghĩa, が đổi thành の
+連: 穴を掘る (あなをほる) = Đào lỗ
+
+393. 列 (れつ) = LIỆT ; Hàng
+・マスクを買うために、店の前には長い列ができている。（≒ 行列（N2））| Để mua khẩu trang, trước cửa hàng có một hàng người dài. (≒ 行列 (N2))
+読: マスクをかうために、みせのまえにはながいれつができている。（≒ ぎょうれつ（N2））
+文法: V る＋ために = để ~; 列ができる = hình thành hàng (người xếp hàng)
+
+394. 幅 (はば) = PHÚC ; Chiều rộng/ Khoảng/ Phạm vi
+# 意味① Chiều rộng: câu đầu và các dòng 対, 連, 合. 意味② Khoảng (mức chênh): câu thứ hai.
+# 意味③ Phạm vi: câu cuối.
+・道(の)[はば]を広げる工事。| Công trình mở rộng lòng đường.
+読: みち(の)はばをひろげるこうじ。
+・値下げの[はば]が（大きい／小さい）。| Mức giảm giá (lớn / nhỏ).
+読: ねさげのはばが（おおきい／ちいさい）。
+・趣味の[はば]を広めたい。| Tôi muốn mở rộng phạm vi sở thích.
+読: しゅみのはばをひろめたい。
+文法: V ます bỏ ます＋たい = muốn ~
+対: 幅を広げる ＞＜ 狭める (せばめる) (N2)
+連: 幅が広い ＞＜ 狭い (せまい)
+合: スーツケースの横幅 (よこはば) を測る = Đo chiều ngang vali
+合: 肩幅 (かたはば) が広い = Vai rộng
+
+395. 範囲 (はんい) = PHẠM VI ; Phạm vi
+・この漢字はテスト範囲に入るらしい．．．| Hình như chữ Hán này nằm trong phạm vi bài kiểm tra...
+読: このかんじはテストはんいにはいるらしい．．．
+文法: ～らしい = hình như ~ (phỏng đoán dựa trên thông tin nghe được)
+・彼女は趣味の範囲が広い。（＞＜ 狭い ≒ 幅）| Cô ấy có nhiều sở thích. (＞＜ 狭い, ≒ 幅)
+読: かのじょはしゅみのはんいがひろい。（＞＜ せまい ≒ はば）
+・コロナの流行で休日の活動範囲／行動範囲が狭まる | Vì dịch Corona mà phạm vi hoạt động / phạm vi đi lại ngày nghỉ bị thu hẹp
+読: コロナのりゅうこうできゅうじつのかつどうはんい／こうどうはんいがせばまる
+文法: N＋で = vì N; 狭まる (自) = bị thu hẹp ＞＜ 狭める (他)
+合: 活動範囲 (かつどうはんい)・行動範囲 (こうどうはんい)
+
+396. 内容 (ないよう) = NỘI DUNG ; Nội dung
+・(話／授業／本／ニュース／映画...)の内容を見直す。（≒ 中身）| Xem lại nội dung (câu chuyện / giờ học / sách / tin tức / phim...). (≒ 中身)
+読: (はなし／じゅぎょう／ほん／ニュース／えいが...)のないようをみなおす。（≒ なかみ）
+文法: V ます bỏ ます＋直す = làm lại ~ (見直す = xem lại)
+・このレポートは内容は良い／濃いが、形式は少し直したほうがいい。| Bản báo cáo này nội dung tốt / sâu, nhưng hình thức nên sửa lại một chút.
+読: このレポートはないようはよい／こいが、けいしきはすこしなおしたほうがいい。
+文法: ～は…が、～は… = cái này thì…, nhưng cái kia thì… (đối chiếu); V た＋ほうがいい = nên ~
+
+397. 中身 (なかみ) = TRUNG THÂN ; Nội dung/ Bên trong
+# 意味① Nội dung: câu đầu. 意味② Bên trong: câu sau.
+・話の中身が理解できない。（≒ 内容）| Không hiểu được nội dung câu chuyện. (≒ 内容)
+読: はなしのなかみがりかいできない。（≒ ないよう）
+・箱を開けて中身を見る。| Mở hộp ra xem bên trong.
+読: はこをあけてなかみをみる。
+
+398. 特徴 (とくちょう) = ĐẶC TRƯNG ; Đặc trưng
+・商品の特徴を教えてもらう。| Nhờ (người ta) cho biết đặc điểm của sản phẩm.
+読: しょうひんのとくちょうをおしえてもらう。
+文法: V て＋もらう = được ai làm cho ~
+・彼女は特徴のある顔をしている。（＞＜ 特徴がない）| Cô ấy có khuôn mặt rất đặc biệt. (＞＜ 特徴がない = không có gì nổi bật)
+読: かのじょはとくちょうのあるかおをしている。（＞＜ とくちょうがない）
+文法: 特徴のある＋N = N có nét riêng; ～顔をしている = có khuôn mặt ~
+・A：あの特徴的な形の建物は何ですか？ B：あれは郵便局ですよ。| A: Toà nhà có hình dáng đặc biệt kia là gì vậy? B: Đó là bưu điện đấy.
+読: A：あのとくちょうてきなかたちのたてものはなんですか？ B：あれはゆうびんきょくですよ。
+類: 特徴的 (とくちょうてき) = Nét đặc trưng
+類: 特色 (とくしょく) (N2)
+
+# nguồn: bai-212-tu-vung-cai-thien-399-410.pdf
+## 399–410 = Bài 21.2 · Thường lệ, khác biệt, quốc tế và thiên nhiên
+399. 普通 (ふつう) = PHỔ THÔNG ; Bình thường
+・パスポートの申請には１週間かかるのが普通だ。| Làm hộ chiếu thì mất một tuần là chuyện bình thường.
+読: パスポートのしんせいにはいっしゅうかんかかるのがふつうだ。
+文法: V る＋のが普通だ = ~ là chuyện thường; ～には = để làm ~ thì
+・日本人は[ふつう]、集合時間の５～10分前に全員がそろう。| Người Nhật thường có mặt đủ cả trước giờ tập trung 5–10 phút.
+読: にほんじんはふつう、しゅうごうじかんのごからじゅっぷんまえにぜんいんがそろう。
+文法: ふつう đứng đầu câu như phó từ = thông thường; 全員がそろう = đông đủ mọi người
+・A：「しんさんって、ちょっと変じゃない？」B：「そう？[ふつう]の人だと思うけど」| A: "Anh Shin hơi lạ nhỉ?" B: "Thế à? Tôi thấy là người bình thường mà."
+読: A：「しんさんって、ちょっとへんじゃない？」B：「そう？ふつうのひとだとおもうけど」
+文法: N って = nói đến N thì (văn nói của は); ～じゃない？ = chẳng phải ~ sao?; ～けど cuối câu = làm câu mềm đi
+
+400. 当たり前 (あたりまえ) = ĐƯƠNG TIỀN ; Đương nhiên
+・そんなひどいことをされたら、怒るのが[あたりまえ]だ。（≒ 当然）| Bị đối xử tệ như thế thì nổi giận là đương nhiên. (≒ 当然)
+読: そんなひどいことをされたら、おこるのがあたりまえだ。（≒ とうぜん）
+文法: V られる (bị động) ＋たら = nếu bị ~ thì; V る＋のが当たり前だ = ~ là điều đương nhiên
+使い分け: あたりまえ ≒ ふつう → 話し言葉 (văn nói) → 年上の人 ✕ (không dùng với người trên)
+使い分け: とうぜん (当然) → 少し固め、書き言葉 (hơi trang trọng, văn viết) → 年上の人と話す ○ (dùng được với người trên)
+
+401. 偽札 (にせさつ) = NGỤY TRÁT ; Tiền giả
+・これは[にせ札]だよ。ふつう気づくでしょ？！| Đây là tiền giả đấy. Bình thường thì phải nhận ra chứ?!
+読: これはにせさつだよ。ふつうきづくでしょ？！
+文法: ～でしょ？ = chắc chắn ~ chứ? (văn nói của でしょう, đòi người nghe đồng ý)
+
+402. 別 (べつ) = BIỆT ; Khác/ Riêng
+# 意味① Khác: hai câu đầu. 意味② Riêng: hai câu cuối.
+・「昔の彼女」と「今の彼女」とはまるで別人だ。| "Cô ấy ngày xưa" và "cô ấy bây giờ" cứ như hai người khác nhau.
+読: 「むかしのかのじょ」と「いまのかのじょ」とはまるでべつじんだ。
+文法: まるで～だ = cứ như là ~; AとBとは = A và B (so sánh hai thứ)
+・恋愛と結婚は別(の)ものだ。| Yêu đương và kết hôn là hai chuyện khác nhau.
+読: れんあいとけっこんはべつ(の)ものだ。
+# Sách in "（≒ 別々にす）", thiếu る — chép lại thành 別々にする.
+・結婚したが、夫と姓を別にする。（≒ 別々にする）| Đã kết hôn nhưng giữ họ riêng với chồng. (≒ 別々にする)
+読: けっこんしたが、おっととせいをべつにする。（≒ べつべつにする）
+文法: ～を別にする = để ~ riêng ra
+・性別／年齢別／国別／階級別に試合が行われた。| Các trận đấu được tổ chức chia theo giới tính / độ tuổi / quốc gia / hạng cân.
+読: せいべつ／ねんれいべつ／くにべつ／かいきゅうべつにしあいがおこなわれた。
+文法: N＋別に = chia theo N; 行われる = được tổ chức (bị động của 行う)
+
+403. 国籍 (こくせき) = QUỐC TỊCH ; Quốc tịch
+・ずっとアメリカで暮らしているが、国籍は日本だ。| Tôi sống ở Mỹ suốt nhưng quốc tịch là Nhật.
+読: ずっとアメリカでくらしているが、こくせきはにほんだ。
+
+404. 東洋 (とうよう) = ĐÔNG DƯƠNG ; Phương Đông (người châu Á)
+・東洋（文化／芸術／医学） | (Văn hoá / nghệ thuật / y học) phương Đông
+読: とうよう（ぶんか／げいじゅつ／いがく）
+関: アジア
+
+405. 西洋 (せいよう) = TÂY DƯƠNG ; Phương Tây
+・東洋の文化と西洋の文化を比べる。| So sánh văn hoá phương Đông với văn hoá phương Tây.
+読: とうようのぶんかとせいようのぶんかをくらべる。
+文法: AとBを比べる = so sánh A với B
+・西洋（人／文化／芸術／医学） | (Người / văn hoá / nghệ thuật / y học) phương Tây
+読: せいよう（じん／ぶんか／げいじゅつ／いがく）
+
+406. 国際 (こくさい) = QUỐC TẾ ; Quốc tế
+・日本企業の海外支社でのトラブルが国際問題に発展した。| Rắc rối ở chi nhánh nước ngoài của một công ty Nhật đã phát triển thành vấn đề quốc tế.
+読: にほんきぎょうのかいがいししゃでのトラブルがこくさいもんだいにはってんした。
+文法: N での＋N = N xảy ra ở ~; ～に発展する = phát triển thành ~
+・国際結婚で日本国籍を取った。| Nhờ kết hôn với người nước ngoài mà tôi đã lấy được quốc tịch Nhật.
+読: こくさいけっこんでにほんこくせきをとった。
+# Sách in "交際交流" (chú âm こうさいこうりゅう) — lỗi in của 国際交流, đúng như dòng 合 ngay trên.
+・国際交流／国際連合 | Giao lưu quốc tế / Liên hợp quốc
+読: こくさいこうりゅう／こくさいれんごう
+・国際化教育をすすめる学校 | Trường học đẩy mạnh giáo dục quốc tế hoá
+読: こくさいかきょういくをすすめるがっこう
+合: 国際交流 (こくさいこうりゅう) = Giao lưu quốc tế
+合: 国際連合 (こくさいれんごう) = Liên hợp quốc
+
+407. 自然 (しぜん) = TỰ NHIÊN ; Thiên nhiên/ Tự nhiên
+# 意味① Thiên nhiên: hai câu đầu và các dòng 合, 対 人工. 意味② Tự nhiên: hai câu cuối và dòng 対 不自然な.
+・山や海へ行って、大自然の中で過ごしたい！| Muốn đi núi, đi biển, sống giữa thiên nhiên bao la!
+読: やまやうみへいって、だいしぜんのなかですごしたい！
+文法: V ます bỏ ます＋たい = muốn ~
+・自然保護区の生き物たち。| Các loài sinh vật trong khu bảo tồn thiên nhiên.
+読: しぜんほごくのいきものたち。
+・好きな人とずっといっしょにいたいと思うのは、自然なことだ。| Muốn ở bên người mình thích mãi mãi là chuyện tự nhiên.
+読: すきなひととずっといっしょにいたいとおもうのは、しぜんなことだ。
+文法: ～と思うのは…だ = việc nghĩ rằng ~ là…; 自然な＋N = N tự nhiên (dùng như tính từ な)
+・意地が悪い人は、自然（に／と）、友だちが少なくなる。| Người xấu tính thì tự nhiên bạn bè sẽ ít đi.
+読: いじがわるいひとは、しぜん（に／と）、ともだちがすくなくなる。
+文法: 自然に／自然と = một cách tự nhiên, tự khắc; tính từ い bỏ い＋くなる = trở nên ~
+合: 自然環境 (しぜんかんきょう) = Môi trường tự nhiên
+合: 自然保護 (しぜんほご) = Bảo tồn thiên nhiên
+合: 大自然 (だいしぜん)・自然保護区 (しぜんほごく)
+対: 自然 ＞＜ 人工 (じんこう)
+対: 自然な ＞＜ 不自然な (ふしぜんな)
+
+408. 景色 (けしき) = CẢNH SẮC ; Phong cảnh
+・初めて日本の山に行った。素晴らしい景色だった。| Lần đầu tôi đi núi ở Nhật. Phong cảnh thật tuyệt vời.
+読: はじめてにほんのやまにいった。すばらしいけしきだった。
+使い分け: 景色 (けしき) = Cảnh thiên nhiên (biển, núi, sông)
+使い分け: 風景 (ふうけい) = Cảnh tự nhiên (thành phố, con người)
+使い分け: 光景 (こうけい) = Quang cảnh cụ thể trước mắt
+
+409. 宗教 (しゅうきょう) = TÔN GIÁO ; Tôn giáo
+・世界にはいろいろな宗教がある。| Trên thế giới có nhiều tôn giáo.
+読: せかいにはいろいろなしゅうきょうがある。
+・ベトナム人の８割の人が信じている宗教は、仏教らしい。| Nghe nói tôn giáo mà 80% người Việt Nam tin theo là đạo Phật.
+読: ベトナムじんのはちわりのひとがしんじているしゅうきょうは、ぶっきょうらしい。
+文法: ～割 = mười phần trăm (８割 = 80%); ～らしい = nghe nói, hình như ~
+
+410. (を)愛する (あいする) = ÁI ; Yêu
+・私は（家族/夫・妻/自然/．．．）を[愛してる]。| Tôi yêu (gia đình / chồng・vợ / thiên nhiên / ...).
+読: わたしは（かぞく/おっと・つま/しぜん/．．．）をあいしてる。
+文法: 愛してる = 愛している lược い (văn nói)
+・[愛情]たっぷりに育てた果物を盗んでいった猿が憎い | Ghét con khỉ đã trộm mất trái cây tôi nuôi trồng bằng cả tấm lòng
+読: あいじょうたっぷりにそだてたくだものをぬすんでいったさるがにくい
+文法: ～たっぷりに = đầy ~, chan chứa ~; V ていく = làm ~ rồi đi mất; ～が憎い = ghét ~
+対: 愛する ＞＜ 憎い (にくい)
+合: 愛情 (あいじょう)・愛読書 (あいどくしょ)・愛国心 (あいこくしん)
+※: 話し言葉では使わない。少し古い表現。(Không dùng trong văn nói, là cách nói hơi cũ.)
