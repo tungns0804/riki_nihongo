@@ -39,12 +39,19 @@ Phần nội dung sau dấu `·` do người soạn tự đặt theo nghĩa các
 | Thư mục      | Tên hiển thị | Trạng thái |
 | ------------ | ------------ | ---------- |
 | `01-danh-tu` | Danh từ      | 70 từ · bài tập Từ vựng 1–10 tới 61–70 (01–70), bảy cụm có chủ đề |
+| `01-danh-tu-btvn-1-70-1` | BTVN 1–70 (1) | Đề 10 câu, bài con của `01-danh-tu` (cụm 41–50); người dùng dán trong chat 2026-10-06 với tên "BTVN từ vựng N3 1-70 (1)" |
 | `02-tinh-tu-btvn-259-310` | BTVN 259–310 | Đề 7 câu trắc nghiệm (`test.json`), người dùng dán trong chat 2026-09-25; không có bài mẹ vì học phần chưa có thẻ tính từ |
 
 Đề BTVN dạng trắc nghiệm (không phải thẻ từ) là bài `kind: "test"` đứng riêng, chép như
 BTVN của N3 JUNBI (xem mục "Bài tập về nhà" ở README N3 JUNBI). Chữ furigana dính vào đề
 khi dán (`頑張がんばった`, `平気へいきな`) đã bỏ; số câu Riki in lệch (hai câu "3.", thiếu "5.")
 thì đánh lại 1–7 theo thứ tự trên trang.
+
+Đề trắc nghiệm hỏi đúng các từ đã có trong `01-danh-tu` thì là **bài con** của bài đó
+(`"parent": "01-danh-tu"`, `"group"` = cụm mà các câu hỏi tới, `order` = 100＋số thứ tự
+đề), như BTVN N3 JUNBI. "BTVN từ vựng N3 1-70 (1)" tuy tên là 1–70 nhưng cả 10 câu đều hỏi
+từ của cụm 41–50 nên gắn vào cụm đó; phần (2), (3)… nếu có thì order 102, 103…. Câu 6 Riki in
+`じっこう` bằng hiragana — giữ nguyên, phần giải thích ghi chữ Hán 実行.
 
 Bài tập mới (71–80…) thì viết NỐI vào cuối `01-danh-tu/vocabulary.txt` kèm mốc cụm `##`,
 không tạo thư mục bài mới. Bài tập sang loại từ khác (động từ…) thì mở thư mục mới cùng

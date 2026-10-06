@@ -4,7 +4,7 @@
     "name": "BTVN CƠ BẢN (MỚI)",
     "level": "N3"
   },
-  "generatedAt": "2026-10-05T16:46:29.368Z",
+  "generatedAt": "2026-10-06T05:27:08.678Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -60,6 +60,17 @@
           "itemCount": 7,
           "order": 2,
           "file": "vocabulary/02-tinh-tu-btvn-259-310.json"
+        },
+        {
+          "id": "01-danh-tu-btvn-1-70-1",
+          "name": "BTVN 1–70 (1)",
+          "description": "Bài tập về nhà \"BTVN từ vựng N3 1-70 (1)\" — 10 câu, cả 10 hỏi các từ của cụm 41–50 (Kế hoạch, chuẩn bị và thành bại).",
+          "kind": "test",
+          "parent": "01-danh-tu",
+          "group": "41–50",
+          "itemCount": 10,
+          "order": 101,
+          "file": "vocabulary/01-danh-tu-btvn-1-70-1.json"
         }
       ]
     },

@@ -1,0 +1,221 @@
+{
+  "sections": [
+    {
+      "id": "btvn-1-70-1",
+      "title": "文字語彙 — BTVN 1–70 (1) (10 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "cb-dt-btvn-170-1-01",
+          "promptJapanese": "弟は数学が好きだから、（　　　）は得意です。",
+          "promptReading": "おとうとは すうがくが すきだから、（　　　）は とくいです。",
+          "promptVietnamese": "Em trai tôi thích môn toán nên giỏi （　　　）.",
+          "choices": ["注文", "成功", "化粧", "計算"],
+          "choicesVietnamese": [
+            "ちゅうもん · Đặt hàng, gọi món",
+            "せいこう · Thành công",
+            "けしょう · Trang điểm",
+            "けいさん · Tính toán"
+          ],
+          "choiceNotes": [
+            "注文 là đặt hàng / gọi món — chẳng liên quan gì tới việc thích môn toán.",
+            "成功 là kết quả của một việc, không phải một môn hay một kỹ năng để 得意.",
+            "化粧 là trang điểm, không dính gì tới 数学.",
+            "Đúng: thích toán nên giỏi 計算 (tính toán) — 計算が得意."
+          ],
+          "answer": 4,
+          "explanation": "～が得意 = giỏi, mạnh về ~ (計算／料理／英語が得意). Ngược lại là ～が苦手. Trong đề dùng は để đối chiếu: 計算は得意."
+        },
+        {
+          "id": "cb-dt-btvn-170-1-02",
+          "promptJapanese": "明日の会議のために資料を（　　　）ください。",
+          "promptReading": "あしたの かいぎの ために しりょうを（　　　）ください。",
+          "promptVietnamese": "Hãy （　　　） tài liệu cho cuộc họp ngày mai.",
+          "choices": ["観光", "遅刻", "準備", "参加"],
+          "choicesVietnamese": [
+            "かんこう · Du lịch, tham quan",
+            "ちこく · Đến muộn",
+            "じゅんび · Chuẩn bị",
+            "さんか · Tham gia"
+          ],
+          "choiceNotes": [
+            "観光 là đi tham quan; 資料を観光する không thành nghĩa.",
+            "遅刻 là đến muộn, không nhận tân ngữ を — không thể \"đến muộn tài liệu\".",
+            "Đúng: 資料を準備する — chuẩn bị tài liệu cho cuộc họp (～のために = để phục vụ ~).",
+            "参加 đi với に (会議に参加する), và người tham gia là cuộc họp chứ không phải tài liệu."
+          ],
+          "answer": 3,
+          "explanation": "Đề in （　　　）ください và cho chọn danh từ; câu đủ là 準備してください (lịch sự hơn: ご準備ください). ～のために準備する = chuẩn bị cho ~. 準備 đi với を: 資料／引越しの準備をする."
+        },
+        {
+          "id": "cb-dt-btvn-170-1-03",
+          "promptJapanese": "（　　　）で仕事をした後は、体がとても疲れます。",
+          "promptReading": "（　　　）で しごとを した あとは、からだが とても つかれます。",
+          "promptVietnamese": "Sau khi （　　　） làm việc thì người rất mệt.",
+          "choices": ["化粧", "運動", "計画", "徹夜"],
+          "choicesVietnamese": [
+            "けしょう · Trang điểm",
+            "うんどう · Vận động, tập thể dục",
+            "けいかく · Kế hoạch",
+            "てつや · Thức đêm, thức trắng"
+          ],
+          "choiceNotes": [
+            "化粧で仕事をする không phải cách nói.",
+            "運動 mệt thật, nhưng 運動で仕事をする không thành nghĩa — vận động và làm việc là hai việc khác nhau.",
+            "計画で仕事をする không tự nhiên; làm theo kế hoạch là 計画どおりに仕事をする.",
+            "Đúng: 徹夜で仕事をする — thức trắng đêm làm việc, xong thì người rã rời. Đúng câu ví dụ trên thẻ: 徹夜で仕事する／勉強する。"
+          ],
+          "answer": 4,
+          "explanation": "徹夜で＋động từ = thức suốt đêm để ~ (徹夜で勉強する). Cũng nói 徹夜する như một động từ: 昨日は徹夜した."
+        },
+        {
+          "id": "cb-dt-btvn-170-1-04",
+          "promptJapanese": "ボーナスは半分（　　　）して、半分旅行に使う。",
+          "promptReading": "ボーナスは はんぶん（　　　）して、はんぶん りょこうに つかう。",
+          "promptVietnamese": "Tiền thưởng thì một nửa （　　　）, một nửa dùng để đi du lịch.",
+          "choices": ["貯金", "計算", "化粧", "生活"],
+          "choicesVietnamese": [
+            "ちょきん · Tích tiền, tiết kiệm",
+            "けいさん · Tính toán",
+            "けしょう · Trang điểm",
+            "せいかつ · Cuộc sống, sinh hoạt"
+          ],
+          "choiceNotes": [
+            "Đúng: một nửa 貯金 (để dành), một nửa tiêu — cặp đối 貯金する ⇔ 使う.",
+            "半分計算する không thành nghĩa — tiền thưởng không phải phép tính.",
+            "化粧 không dính gì tới tiền thưởng.",
+            "生活する là sống; \"sống một nửa tiền thưởng\" không thành câu. Muốn nói tiêu cho sinh hoạt phải là 生活費に使う."
+          ],
+          "answer": 1,
+          "explanation": "Hai vế đối nhau: 半分貯金して、半分〜に使う. Thẻ có câu cùng ý: 銀行にボーナスを貯金する。"
+        },
+        {
+          "id": "cb-dt-btvn-170-1-05",
+          "promptJapanese": "デパートで口紅などの（　　　）を買う。",
+          "promptReading": "デパートで くちべになどの（　　　）を かう。",
+          "promptVietnamese": "Mua （　　　） như son môi ở trung tâm thương mại.",
+          "choices": ["準備品", "化粧品", "注文品", "整理品"],
+          "choicesVietnamese": [
+            "じゅんびひん · Đồ chuẩn bị",
+            "けしょうひん · Mỹ phẩm, đồ trang điểm",
+            "ちゅうもんひん · Hàng đặt",
+            "せいりひん · không có từ này"
+          ],
+          "choiceNotes": [
+            "準備品 (đồ cần chuẩn bị) có thể gặp, nhưng son môi không phải \"đồ chuẩn bị\".",
+            "Đúng: 口紅 (son môi) là một loại 化粧品 — mỹ phẩm.",
+            "注文品 là hàng khách đã đặt, không phải một loại hàng như son môi.",
+            "整理品 không phải từ thông dụng; 整理 là sắp xếp, không tạo ra loại hàng nào."
+          ],
+          "answer": 2,
+          "explanation": "～品 (ひん) = đồ, hàng loại ~: 化粧品, 食料品, 日用品. ～などの〜 = những ~ như là ~, nên chỗ trống là loại lớn chứa 口紅."
+        },
+        {
+          "id": "cb-dt-btvn-170-1-06",
+          "promptJapanese": "失敗例のことも考えて、しっかり（　　　）を立ててじっこうしたい。",
+          "promptReading": "しっぱいれいの ことも かんがえて、しっかり（　　　）を たてて じっこう したい。",
+          "promptVietnamese": "Tôi muốn nghĩ cả tới những trường hợp thất bại, lập （　　　） thật kỹ rồi mới thực hiện.",
+          "choices": ["生活", "貯金", "計画", "準備"],
+          "choicesVietnamese": [
+            "せいかつ · Cuộc sống, sinh hoạt",
+            "ちょきん · Tích tiền, tiết kiệm",
+            "けいかく · Kế hoạch",
+            "じゅんび · Chuẩn bị"
+          ],
+          "choiceNotes": [
+            "生活を立てる (lo cái ăn cái mặc) có nói, nhưng nghĩa là kiếm sống, không phải thứ đem đi 実行.",
+            "貯金 đi với する／ためる, không đi với 立てる.",
+            "Đúng: 計画を立てる — lập kế hoạch, rồi 実行する (thực hiện). Đúng câu ví dụ trên thẻ: 来年の計画を立てる。",
+            "準備 đi với する (準備をする), không đi với 立てる."
+          ],
+          "answer": 3,
+          "explanation": "Cụm cố định: 計画を立てる (lập kế hoạch) → 計画を実行する (thực hiện kế hoạch). 予定を立てる, 目標を立てる cũng dùng 立てる. Đề in じっこう bằng hiragana, chữ Hán là 実行."
+        },
+        {
+          "id": "cb-dt-btvn-170-1-07",
+          "promptJapanese": "彼の会社は（　　　）し、彼は金持ちになった。",
+          "promptReading": "かれの かいしゃは（　　　）し、かれは かねもちに なった。",
+          "promptVietnamese": "Công ty của anh ấy （　　　）, và anh ấy trở nên giàu có.",
+          "choices": ["大失敗", "大成功", "大準備", "大計画"],
+          "choicesVietnamese": [
+            "だいしっぱい · Thất bại nặng nề",
+            "だいせいこう · Thành công vang dội",
+            "だいじゅんび · không phải cách nói",
+            "だいけいかく · Kế hoạch lớn"
+          ],
+          "choiceNotes": [
+            "大失敗 thì phải nghèo đi chứ không thể 金持ちになった.",
+            "Đúng: 会社が大成功する → trở nên giàu có.",
+            "大準備 không phải cách nói; chuẩn bị lớn là 大がかりな準備.",
+            "大計画 (kế hoạch lớn) là một danh từ, nhưng 会社が大計画する không thành câu, và lập kế hoạch chưa làm ai giàu."
+          ],
+          "answer": 2,
+          "explanation": "大～ (だい) gắn trước danh từ để nói mức độ lớn: 大成功, 大失敗, 大好き. ～し、～ là nối hai vế theo trình tự / nguyên nhân."
+        },
+        {
+          "id": "cb-dt-btvn-170-1-08",
+          "promptJapanese": "机の上の資料を（　　　）する。",
+          "promptReading": "つくえの うえの しりょうを（　　　）する。",
+          "promptVietnamese": "（　　　） tài liệu trên bàn.",
+          "choices": ["計画", "計算", "化粧", "整理"],
+          "choicesVietnamese": [
+            "けいかく · Kế hoạch",
+            "けいさん · Tính toán",
+            "けしょう · Trang điểm",
+            "せいり · Sắp xếp, thu dọn"
+          ],
+          "choiceNotes": [
+            "資料を計画する không thành nghĩa — kế hoạch là cho một việc sắp làm.",
+            "資料を計算する không thành nghĩa — tính toán là với con số, chi phí.",
+            "化粧 không dính gì tới tài liệu.",
+            "Đúng: 資料を整理する — sắp xếp tài liệu cho gọn. Đúng câu ví dụ trên thẻ."
+          ],
+          "answer": 4,
+          "explanation": "整理する = sắp xếp, dọn cho gọn: 机の上／部屋／資料を整理する. Gần nghĩa: 片付ける (dọn dẹp)."
+        },
+        {
+          "id": "cb-dt-btvn-170-1-09",
+          "promptJapanese": "Shopeeで（　　　）した品が届く。",
+          "promptReading": "Shopeeで（　　　）した しなが とどく。",
+          "promptVietnamese": "Món hàng đã （　　　） trên Shopee được giao tới.",
+          "choices": ["整理", "注文", "貯金", "成功"],
+          "choicesVietnamese": [
+            "せいり · Sắp xếp, thu dọn",
+            "ちゅうもん · Đặt hàng, gọi món",
+            "ちょきん · Tích tiền, tiết kiệm",
+            "せいこう · Thành công"
+          ],
+          "choiceNotes": [
+            "整理した品 là đồ đã sắp xếp — không phải thứ được giao tới.",
+            "Đúng: đặt hàng trên Shopee rồi hàng được giao — 注文した品が届く. Cùng lối câu trên thẻ: アマゾンで本を注文する。",
+            "貯金した品 không thành nghĩa — 貯金 là để dành tiền.",
+            "成功した品 không thành nghĩa — 成功 nói về việc làm, không nói về món hàng."
+          ],
+          "answer": 2,
+          "explanation": "注文する = đặt hàng (trên mạng, ở cửa hàng) hoặc gọi món (ở quán). 品 (しな) = món hàng; 届く = được gửi tới nơi."
+        },
+        {
+          "id": "cb-dt-btvn-170-1-10",
+          "promptJapanese": "（　　　）を何回も繰り返して、大きな成功につながる。",
+          "promptReading": "（　　　）を なんかいも くりかえして、おおきな せいこうに つながる。",
+          "promptVietnamese": "Lặp đi lặp lại （　　　） nhiều lần, dẫn tới thành công lớn.",
+          "choices": ["面接", "休憩", "失敗", "準備"],
+          "choicesVietnamese": [
+            "めんせつ · Phỏng vấn",
+            "きゅうけい · Nghỉ giải lao",
+            "しっぱい · Thất bại",
+            "じゅんび · Chuẩn bị"
+          ],
+          "choiceNotes": [
+            "面接を繰り返す nói được (đi phỏng vấn nhiều lần), nhưng câu đang nói ý \"thất bại là mẹ thành công\" — và 面接 không thuộc cụm 41–50 đề đang hỏi.",
+            "Nghỉ giải lao nhiều lần không dẫn tới thành công lớn.",
+            "Đúng: thất bại nhiều lần rồi mới đi tới thành công — đúng ý câu trên thẻ 失敗は成功の元。",
+            "準備を繰り返す không tự nhiên — chuẩn bị là làm một lần cho một việc."
+          ],
+          "answer": 3,
+          "explanation": "失敗 ⇔ 成功 là cặp đối. 失敗は成功の元 (もと) = thất bại là mẹ thành công. ～につながる = dẫn tới, gắn liền với ~."
+        }
+      ]
+    }
+  ]
+}

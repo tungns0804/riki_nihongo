@@ -1,0 +1,8 @@
+{
+  "name": "BTVN 1–70 (1)",
+  "description": "Bài tập về nhà \"BTVN từ vựng N3 1-70 (1)\" — 10 câu, cả 10 hỏi các từ của cụm 41–50 (Kế hoạch, chuẩn bị và thành bại).",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "41–50",
+  "order": 101
+}
