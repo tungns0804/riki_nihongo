@@ -38,7 +38,9 @@
           "reading": "ひかんてき",
           "vietnamese": "Tính bi quan"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "3033946642d293a9",
@@ -63,7 +65,9 @@
           "reading": "せいしつ",
           "vietnamese": "Tính chất"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "9a42f77c73674919",
@@ -90,7 +94,9 @@
           "reading": "なやむ",
           "vietnamese": "Lo lắng, băn khoăn"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "b7c04ffc5864b54e",
@@ -121,7 +127,9 @@
           "reading": "あいじょう",
           "vietnamese": "Tình thương"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "64f2abf2f95cbef1",
@@ -146,7 +154,9 @@
           "reading": "せいいっぱい",
           "vietnamese": "Dốc hết sức"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "9eeeeb26396146de",
@@ -179,7 +189,9 @@
           "reading": "しじする",
           "vietnamese": "Ủng hộ"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "cabfbc79630ac609",
@@ -204,7 +216,9 @@
           "reading": "えんぎ",
           "vietnamese": "Trình diễn"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "8e1819ad91156ef7",
@@ -235,7 +249,9 @@
           "reading": "ざせき",
           "vietnamese": "Chỗ ngồi"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "64141635d813870f",
@@ -268,7 +284,9 @@
           "reading": "たびたび",
           "vietnamese": "Thường xuyên, nhiều lần"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "ed3e3b75f7205cce",
@@ -296,7 +314,9 @@
           "reading": "わたす",
           "vietnamese": "Trao đổi"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     }
   ]
 }

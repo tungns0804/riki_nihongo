@@ -167,6 +167,17 @@ export interface KanjiWord {
   vietnamese: string;
 }
 
+/** Một câu ví dụ của chữ Hán, kèm cách đọc cả câu và một dòng chú thích. */
+export interface KanjiExample {
+  id: string;
+  japanese: string;
+  /** Cách đọc CẢ CÂU bằng kana, như câu ví dụ của từ vựng. Rỗng = chưa có. */
+  reading: string;
+  vietnamese: string;
+  /** Chú thích của giáo trình cho câu (từ cứng / mềm, cấp độ N2…). Rỗng = không có. */
+  note: string;
+}
+
 export interface KanjiEntry {
   id: string;
   /** Đúng một chữ Hán, ví dụ "険". */
@@ -181,6 +192,12 @@ export interface KanjiEntry {
   /** Số nét. 0 nghĩa là chưa khai báo. */
   strokes: number;
   words: KanjiWord[];
+  /**
+   * Câu chuyện cách nhớ chữ, ví dụ "Dùng tiền (貝) để THUÊ người có trách nhiệm (任)…".
+   * Giáo trình 漢字ハンバーガー in nó trên mỗi thẻ. Rỗng = bài không có.
+   */
+  mnemonic: string;
+  examples: KanjiExample[];
 }
 
 // ── Ngữ pháp (dùng chung cho phần Ngữ pháp và phần Mimikara Oboeru) ─────────

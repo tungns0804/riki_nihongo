@@ -1,0 +1,104 @@
+# N3 JUNBI — KANJI · Bài 9
+# Nguồn: PDF "N3 準備 ― 漢字 ―「漢字ハンバーガー」 · BUỔI 09" (download.pdf), thẻ 1–10.
+#
+# Chữ, âm Hán Việt, 音, 訓, cách nhớ (覚:) và câu ví dụ chép từ PDF. NGHĨA lấy đúng chữ
+# in HOA trong câu cách nhớ (THUÊ, CHO MƯỢN…). PDF không in số nét nên để trống.
+# Từ ghép là các từ gạch chân trong câu ví dụ. Bản dịch câu ví dụ và dòng 読: (cách đọc
+# cả câu) là phần thêm vào — PDF chỉ chú âm vài chữ. "(N2)" của PDF chép thành 注: N2.
+# 毎月 đọc まいつき.
+
+賃,NHẪM,thuê,チン,,|賃金 (ちんぎん)=tiền lương, tiền công;最低賃金 (さいていちんぎん)=lương tối thiểu;家賃 (やちん)=tiền thuê nhà
+覚: Dùng tiền (貝) để THUÊ người có trách nhiệm (任) về làm việc.
+・東京都の最低賃金は1013円である。| Lương tối thiểu của Tokyo là 1013 yên.
+読: とうきょうとのさいていちんぎんは1013えんである。
+注: N2
+・東京は家賃が高い。| Ở Tokyo tiền thuê nhà đắt.
+読: とうきょうはやちんがたかい。
+・賃金（月給、日給、時給を表す言葉）| Tiền lương (từ chỉ chung lương tháng, lương ngày, lương theo giờ).
+読: ちんぎん（げっきゅう、にっきゅう、じきゅうをあらわすことば）
+
+貸,THẢI,cho mượn,タイ,か.す,|貸す (かす)=cho mượn, cho vay;貸し借り (かしかり)=vay mượn qua lại;賃貸 (ちんたい)=cho thuê, đi thuê
+覚: Khi đi vay tiền (貝) phải gửi lại đồ vật đại diện (代) làm thế chấp để người ta CHO MƯỢN tiền.
+・知り合いにお金を貸したけど、返してもらえない。| Tôi cho người quen vay tiền mà mãi không được trả lại.
+読: しりあいにおかねをかしたけど、かえしてもらえない。
+・この本1日だけ貸してくれませんか。| Cho tôi mượn cuốn sách này một ngày thôi được không?
+読: このほんいちにちだけかしてくれませんか。
+・これで貸し借り無しだ。| Thế là không ai nợ ai nữa nhé.
+読: これでかしかりなしだ。
+・去年から賃貸のアパートに住んでいる。| Từ năm ngoái tôi sống ở căn hộ đi thuê.
+読: きょねんからちんたいのアパートにすんでいる。
+注: N2
+
+費,PHÍ,phí/ chi phí,ヒ,つい.やす,|費用 (ひよう)=chi phí;結婚費用 (けっこんひよう)=chi phí đám cưới;食費 (しょくひ)=tiền ăn;交通費 (こうつうひ)=tiền đi lại;消費量 (しょうひりょう)=lượng tiêu thụ;費やす (ついやす)=tiêu tốn, dành (thời gian, tiền)
+覚: Người (儿) đi bán cung (弓) kiếm tiền (貝) trả HỌC PHÍ.
+・日本人の結婚費用は一般的に200万円ほどです。| Chi phí đám cưới của người Nhật thường vào khoảng 2 triệu yên.
+読: にほんじんのけっこんひようはいっぱんてきににひゃくまんえんほどです。
+・毎月食費、交通費を合わせて4万円ぐらいかかる。| Mỗi tháng tiền ăn với tiền đi lại cộng lại tốn khoảng 40 nghìn yên.
+読: まいつきしょくひ、こうつうひをあわせてよんまんえんぐらいかかる。
+・今月は電気の消費量が多かった。| Tháng này lượng điện tiêu thụ nhiều.
+読: こんげつはでんきのしょうひりょうがおおかった。
+・SNSに多くの時間を費やす人が多い。| Có nhiều người dành rất nhiều thời gian cho mạng xã hội.
+読: エスエヌエスにおおくのじかんをついやすひとがおおい。
+注: N2 · 使う ＜ 費やす (費やす là văn viết, trang trọng hơn 使う)
+
+員,VIÊN,nhân viên,イン,,|正社員 (せいしゃいん)=nhân viên chính thức;公務員 (こうむいん)=công chức;全員 (ぜんいん)=tất cả mọi người;満員 (まんいん)=chật kín người
+覚: NHÂN VIÊN đi làm kiếm tiền (貝) nuôi miệng (口) ăn cả nhà.
+・アルバイトから正社員になった！| Từ làm thêm, tôi đã lên nhân viên chính thức!
+読: アルバイトからせいしゃいんになった！
+・日本では公務員の人気が下がっている。| Ở Nhật, nghề công chức đang giảm sức hút.
+読: にほんではこうむいんのにんきがさがっている。
+・全員が同意する。| Tất cả mọi người đều đồng ý.
+読: ぜんいんがどういする。
+・満員のライブ会場 | Hội trường biểu diễn chật kín người
+読: まんいんのライブかいじょう
+
+貧,BẦN,nghèo,ヒン,まず.しい,|貧困 (ひんこん)=nghèo khó, nghèo đói;貧困問題 (ひんこんもんだい)=vấn đề nghèo đói;貧しい (まずしい)=nghèo, nghèo nàn
+覚: Tiền bạc (貝) phân chia (分) ra cho con cái nên cha mẹ trở nên NGHÈO ĐÓI.
+・世界中で深刻化する子どもの貧困問題。| Vấn đề trẻ em nghèo đói đang ngày càng nghiêm trọng trên khắp thế giới.
+読: せかいじゅうでしんこくかするこどものひんこんもんだい。
+・彼女はお金持ちだが、心は貧しい。| Cô ấy giàu có nhưng tâm hồn thì nghèo nàn.
+読: かのじょはおかねもちだが、こころはまずしい。
+・彼は貧しい家で生まれたが、自分の会社を作り、大成功した。| Anh ấy sinh ra trong một gia đình nghèo nhưng đã tự lập công ty và thành công lớn.
+読: かれはまずしいいえでうまれたが、じぶんのかいしゃをつくり、だいせいこうした。
+
+賛,TÁN,tán thành,サン,,|賛成 (さんせい)=tán thành
+覚: Ngày xưa việc lấy 2 người chồng (夫) có nhiều tiền (貝) được TÁN THÀNH.
+・賛成の方は手をあげてください。| Ai tán thành xin hãy giơ tay.
+読: さんせいのかたはてをあげてください。
+・賛成 ＞＜ 反対 | Tán thành ⇔ phản đối
+読: さんせい ＞＜ はんたい
+
+財,TÀI,tài sản,サイ・ザイ,,|財布 (さいふ)=cái ví;全財産 (ぜんざいさん)=toàn bộ tài sản;長財布 (ながざいふ)=ví dài
+覚: Những người có tài năng (才) tạo ra nhiều tiền bạc (貝) thì có rất nhiều TÀI SẢN.
+・実は、財布の中に入っている1万円が全財産なんです。| Thật ra 10 nghìn yên trong ví là toàn bộ tài sản của tôi đấy.
+読: じつは、さいふのなかにはいっているいちまんえんがぜんざいさんなんです。
+・長財布を買う。| Mua một chiếc ví dài.
+読: ながざいふをかう。
+
+貯,TRỮ,tích trữ,チョ,た.める・た.まる,|貯める (ためる)=để dành, tích (tiền);貯まる (たまる)=(tiền) được tích lại;貯金 (ちょきん)=tiền tiết kiệm, tiết kiệm tiền
+覚: Tiền bạc (貝) TÍCH TRỮ ở nhà (宀) sử dụng đinh (丁) để chốt khóa cửa lại.
+・毎月1万円ずつ貯めている。| Mỗi tháng tôi để dành 10 nghìn yên.
+読: まいつきいちまんえんずつためている。
+注: (を) た.める — tha động từ
+・なぜだろう。お金が全然貯まらない…| Sao vậy nhỉ? Tiền chẳng để dành được chút nào…
+読: なぜだろう。おかねがぜんぜんたまらない…
+注: (が) た.まる — tự động từ
+・今までいくら貯金できましたか？| Tới giờ bạn đã tiết kiệm được bao nhiêu tiền rồi?
+読: いままでいくらちょきんできましたか？
+
+敗,BẠI,thất bại,ハイ,やぶ.れる,|失敗 (しっぱい)=thất bại, sai lầm;敗れる (やぶれる)=thua, bại;3勝1敗 (さんしょういっぱい)=3 thắng 1 thua
+覚: Đánh (攵) vào vấn đề tài chính (貝) thì chắc chắn đối phương sẽ THẤT BẠI.
+・私の失敗のせいで、チームは敗れた。| Vì sai lầm của tôi mà cả đội đã thua.
+読: わたしのしっぱいのせいで、チームはやぶれた。
+注: 負けた ＜ 敗れた (敗れた cứng, trang trọng hơn 負けた)
+・これで、3勝1敗になった。| Vậy là thành 3 thắng 1 thua.
+読: これで、さんしょういっぱいになった。
+
+販,PHIẾN,buôn bán,ハン,,|通販 (つうはん)=mua bán qua mạng (viết tắt của 通信販売);通信販売 (つうしんはんばい)=bán hàng từ xa (qua mạng, bưu điện);販売 (はんばい)=bán hàng
+覚: Phản đối (反) việc BUÔN BÁN tiền giả (貝).
+・服は通販でよく買います。| Quần áo thì tôi hay mua qua mạng.
+読: ふくはつうはんでよくかいます。
+注: 通販 = 通信販売 (つうしんはんばい) — Shopee, Lazada…
+・車を販売する仕事 | Công việc bán ô tô
+読: くるまをはんばいするしごと
+注: 売る ＜ 販売 (販売 cứng, trang trọng hơn 売る)

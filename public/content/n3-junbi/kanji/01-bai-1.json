@@ -29,7 +29,9 @@
           "reading": "しかた",
           "vietnamese": "Cách làm"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "8eb02232a641d35e",
@@ -62,7 +64,9 @@
           "reading": "せきにん",
           "vietnamese": "Trách nhiệm"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "ab0226a06ad601e5",
@@ -93,7 +97,9 @@
           "reading": "しんごう",
           "vietnamese": "Tín hiệu"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "b82270f93d3ee84e",
@@ -121,7 +127,9 @@
           "reading": "あしをのばす",
           "vietnamese": "Duỗi chân"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "c8600e0f832bc572",
@@ -154,7 +162,9 @@
           "reading": "つく",
           "vietnamese": "Dính vào"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "6d83cc9c3a4a17e3",
@@ -188,7 +198,9 @@
           "reading": "かえる",
           "vietnamese": "Đổi, thế chỗ"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "34d2036f6c57774f",
@@ -219,7 +231,9 @@
           "reading": "ようけん",
           "vietnamese": "Công việc"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "36c07e1c66853416",
@@ -250,7 +264,9 @@
           "reading": "ちい",
           "vietnamese": "Địa vị"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "10b35e0138aa5fbf",
@@ -275,7 +291,9 @@
           "reading": "ばいがえし",
           "vietnamese": "Trả gấp bội"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "3e66e6f0fa956aec",
@@ -308,7 +326,9 @@
           "reading": "たもつ",
           "vietnamese": "Giữ, duy trì"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "cd86915548f25c77",
@@ -339,7 +359,9 @@
           "reading": "いっこ",
           "vietnamese": "Một cái"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "e8fedd0bebc517de",
@@ -372,7 +394,9 @@
           "reading": "ちゅうかい",
           "vietnamese": "Môi giới"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "07e618c1df95f9bc",
@@ -399,7 +423,9 @@
           "reading": "かりる",
           "vietnamese": "Vay"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "6bfac250812a5fba",
@@ -432,7 +458,9 @@
           "reading": "ていきょう",
           "vietnamese": "Cung cấp"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "8eb1494340919191",
@@ -465,7 +493,9 @@
           "reading": "ほかに",
           "vietnamese": "Ngoài ra"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "60ed5668abc3510f",
@@ -490,7 +520,9 @@
           "reading": "こうほ",
           "vietnamese": "Ứng cử"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "5e5ff6d9fed0cdd6",
@@ -521,7 +553,9 @@
           "reading": "かかく",
           "vietnamese": "Giá cả"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "2079e8a7016d38df",
@@ -553,7 +587,9 @@
           "reading": "ゆうびんきょく",
           "vietnamese": "Bưu điện"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "b7aaa40289d3c7a9",
@@ -578,7 +614,9 @@
           "reading": "ていし",
           "vietnamese": "Tạm dừng"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "021c9c71c3f5d249",
@@ -605,7 +643,9 @@
           "reading": "かかりいん",
           "vietnamese": "Người phụ trách"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "2aed1eb963117c9b",
@@ -636,7 +676,9 @@
           "reading": "ゆうしゅう",
           "vietnamese": "Ưu tú"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     }
   ]
 }

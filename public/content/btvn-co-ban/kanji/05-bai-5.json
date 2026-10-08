@@ -35,7 +35,9 @@
           "reading": "いがい",
           "vietnamese": "Ngoài dự kiến"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "9bba013db4847a9b",
@@ -60,7 +62,9 @@
           "reading": "おくまんちょうじゃ",
           "vietnamese": "Tỷ phú"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "04863be395bc7590",
@@ -85,7 +89,9 @@
           "reading": "ざんねん",
           "vietnamese": "Đáng tiếc"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "77cd0cae75d9a8ff",
@@ -118,7 +124,9 @@
           "reading": "わるい",
           "vietnamese": "Xấu, không tốt"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "6261b8105d5ba7a9",
@@ -151,7 +159,9 @@
           "reading": "こいしい",
           "vietnamese": "Nhớ nhung, thương nhớ"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "85671089c5e28f2b",
@@ -185,7 +195,9 @@
           "reading": "へんか",
           "vietnamese": "Biến đổi"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "9e9c4540d6bc6e88",
@@ -218,7 +230,9 @@
           "reading": "どなる",
           "vietnamese": "Quát tháo, hét lớn"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "abd9fb22ba1b4987",
@@ -249,7 +263,9 @@
           "reading": "あい",
           "vietnamese": "Tình yêu"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     }
   ]
 }

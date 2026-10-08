@@ -258,6 +258,8 @@ export const MESSAGES = {
   'kanji.kunyomi': { vi: 'Âm Kun', ja: '訓読み' },
   'kanji.strokes': { vi: '{count} nét', ja: '{count}画' },
   'kanji.words': { vi: 'Từ ghép', ja: '熟語' },
+  'kanji.mnemonic': { vi: 'Cách nhớ', ja: '覚え方' },
+  'kanji.examples': { vi: 'Ví dụ', ja: '例文' },
 
   // ── Ngữ pháp (dùng chung cho cả Mimikara) ──────────────────────────────
   // "Ý nghĩa" / "Cấu trúc": đúng hai nhãn trên slide bài giảng của Riki.

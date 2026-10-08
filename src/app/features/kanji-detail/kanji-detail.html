@@ -98,6 +98,15 @@
                 }
               </dl>
 
+              <!-- Cách nhớ đứng ngay dưới âm đọc, như cột trái của thẻ 漢字ハンバーガー:
+                   nó giải thích nghĩa của chữ qua các bộ, nên đọc trước từ ghép. -->
+              @if (entry.mnemonic) {
+                <div class="kanji-mnemonic">
+                  <span class="label"><app-t key="kanji.mnemonic" /></span>
+                  <p>{{ entry.mnemonic }}</p>
+                </div>
+              }
+
               @if (entry.words.length > 0) {
                 <div class="kanji-words">
                   <span class="label"><app-t key="kanji.words" /></span>
@@ -109,6 +118,28 @@
                           <span class="jp muted small">（{{ word.reading }}）</span>
                         }
                         <span class="muted small">{{ word.vietnamese }}</span>
+                      </li>
+                    }
+                  </ul>
+                </div>
+              }
+
+              @if (entry.examples.length > 0) {
+                <div class="kanji-examples">
+                  <span class="label"><app-t key="kanji.examples" /></span>
+                  <ul>
+                    @for (example of entry.examples; track example.id) {
+                      <li>
+                        <span class="jp">{{ example.japanese }}</span>
+                        @if (example.reading) {
+                          <span class="jp small example-reading">{{ example.reading }}</span>
+                        }
+                        @if (example.vietnamese) {
+                          <span class="muted small">{{ example.vietnamese }}</span>
+                        }
+                        @if (example.note) {
+                          <span class="small example-note">{{ example.note }}</span>
+                        }
                       </li>
                     }
                   </ul>

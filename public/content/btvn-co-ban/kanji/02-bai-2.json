@@ -37,7 +37,9 @@
           "reading": "ちゅうかい",
           "vietnamese": "Môi giới"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "07e618c1df95f9bc",
@@ -64,7 +66,9 @@
           "reading": "かりる",
           "vietnamese": "Vay"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "6bfac250812a5fba",
@@ -97,7 +101,9 @@
           "reading": "ていきょう",
           "vietnamese": "Cung cấp"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "8eb1494340919191",
@@ -130,7 +136,9 @@
           "reading": "ほかに",
           "vietnamese": "Ngoài ra"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "60ed5668abc3510f",
@@ -155,7 +163,9 @@
           "reading": "こうほ",
           "vietnamese": "Ứng cử"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "5e5ff6d9fed0cdd6",
@@ -186,7 +196,9 @@
           "reading": "かかく",
           "vietnamese": "Giá cả"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "2079e8a7016d38df",
@@ -218,7 +230,9 @@
           "reading": "ゆうびんきょく",
           "vietnamese": "Bưu điện"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "b7aaa40289d3c7a9",
@@ -243,7 +257,9 @@
           "reading": "ていし",
           "vietnamese": "Tạm dừng"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "021c9c71c3f5d249",
@@ -270,7 +286,9 @@
           "reading": "かかりいん",
           "vietnamese": "Người phụ trách"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "2aed1eb963117c9b",
@@ -301,7 +319,9 @@
           "reading": "ゆうしゅう",
           "vietnamese": "Ưu tú"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     }
   ]
 }

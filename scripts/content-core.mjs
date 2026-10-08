@@ -340,7 +340,27 @@ function parseKanjiWord(raw) {
 }
 
 /**
- * Mỗi dòng: `CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP;TỪ GHÉP`
+ * Các dòng PHỤ viết ngay dưới dòng của một chữ, giống khối từ vựng:
+ *
+ *   賃,NHẪM,thuê,チン,,|賃金 (ちんぎん)=tiền công
+ *   覚: Dùng tiền (貝) để THUÊ người có trách nhiệm (任) về làm việc.
+ *   ・東京は家賃が高い。| Ở Tokyo tiền thuê nhà đắt.
+ *   読: とうきょうはやちんがたかい。
+ *   注: 家賃 = tiền thuê nhà
+ *
+ * `覚:` là câu chuyện cách nhớ của chữ (giáo trình 漢字ハンバーガー in ở cột trái mỗi
+ * thẻ). `読:` và `注:` thuộc về câu ví dụ NGAY TRÊN: cách đọc cả câu bằng kana, và
+ * một dòng chú thích (từ cứng / mềm, cấp độ N2…).
+ *
+ * Nhận diện bằng nhãn + dấu hai chấm chứ không bằng chữ đầu dòng: 覚 và 読 cũng là chữ
+ * Hán, mà dòng của chính chữ 覚 bắt đầu bằng "覚," chứ không phải "覚:".
+ */
+const KANJI_EXAMPLE = /^[・･\-]\s*(.+)$/;
+const KANJI_FIELD = /^(覚|読|注)\s*[:：]\s*(.+)$/;
+
+/**
+ * Mỗi dòng: `CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP;TỪ GHÉP`, rồi các dòng
+ * phụ của chữ đó (xem KANJI_FIELD).
  *
  * Nhiều âm On (hoặc Kun) ngăn nhau bằng dấu ・ như trong từ điển tiếng Nhật, chứ
  * không dùng dấu phẩy — dấu phẩy đã là dấu ngăn cột.
@@ -349,8 +369,50 @@ export function parseKanji(raw) {
   const entries = [];
   const warnings = [];
   const seen = new Set();
+  let current = null;
 
   for (const { text, lineNumber } of contentLines(raw)) {
+    const example = text.match(KANJI_EXAMPLE);
+    if (example) {
+      if (!current) {
+        warnings.push(`dòng ${lineNumber}: câu ví dụ nhưng chưa có chữ nào ở trên`);
+        continue;
+      }
+      const [japanese = '', vietnamese = ''] = example[1].split('|').map((part) => part.trim());
+      if (japanese) {
+        current.examples.push({ id: hashId('ex', japanese), japanese, reading: '', vietnamese, note: '' });
+      }
+      continue;
+    }
+
+    const field = text.match(KANJI_FIELD);
+    if (field) {
+      const [, label, value] = field;
+      if (!current) {
+        warnings.push(`dòng ${lineNumber}: "${label}:" nhưng chưa có chữ nào ở trên`);
+        continue;
+      }
+      if (label === '覚') {
+        current.mnemonic = current.mnemonic ? `${current.mnemonic} ${value.trim()}` : value.trim();
+        continue;
+      }
+      const target = current.examples[current.examples.length - 1];
+      if (!target) {
+        warnings.push(`dòng ${lineNumber}: "${label}:" phải viết ngay dưới một câu ví dụ`);
+        continue;
+      }
+      if (label === '読') {
+        target.reading = value.trim();
+        // Cùng chốt chặn với dòng 読 của file từ vựng: còn chữ Hán là chép thiếu.
+        if (HAS_KANJI.test(target.reading)) {
+          warnings.push(`dòng ${lineNumber}: "読:" còn chữ Hán, cách đọc phải viết hết bằng kana`);
+        }
+      } else {
+        target.note = target.note ? `${target.note} · ${value.trim()}` : value.trim();
+      }
+      continue;
+    }
+
     const [main, wordsPart = ''] = text.split('|');
     const columns = main.split(',').map((part) => part.trim());
     const [character = '', hanViet = '', meaning = '', onyomi = '', kunyomi = '', strokes = ''] =
@@ -358,10 +420,12 @@ export function parseKanji(raw) {
 
     if (!character) {
       warnings.push(`dòng ${lineNumber}: thiếu chữ Hán ở cột đầu`);
+      current = null;
       continue;
     }
     if (seen.has(character)) {
       warnings.push(`dòng ${lineNumber}: chữ ${character} đã có ở trên`);
+      current = null;
       continue;
     }
     seen.add(character);
@@ -372,7 +436,7 @@ export function parseKanji(raw) {
         .map((part) => part.trim())
         .filter((part) => part.length > 0);
 
-    entries.push({
+    current = {
       id: hashId('kanji', character),
       character,
       hanViet,
@@ -386,7 +450,10 @@ export function parseKanji(raw) {
         .filter((part) => part.length > 0)
         .map(parseKanjiWord)
         .filter((word) => word !== null),
-    });
+      mnemonic: '',
+      examples: [],
+    };
+    entries.push(current);
   }
 
   return { entries, warnings };

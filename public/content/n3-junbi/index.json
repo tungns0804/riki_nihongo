@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-08T03:40:18.387Z",
+  "generatedAt": "2026-10-08T04:16:43.462Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -316,6 +316,17 @@
           "itemCount": 21,
           "order": 1,
           "file": "kanji/01-bai-1.json"
+        },
+        {
+          "id": "09-bai-9",
+          "name": "Bài 9",
+          "description": "10 chữ đều mang bộ Bối 貝 (tiền bạc): 賃 貸 費 員 貧 賛 財 貯 敗 販",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 10,
+          "order": 9,
+          "file": "kanji/09-bai-9.json"
         },
         {
           "id": "01-bai-1-btvn",

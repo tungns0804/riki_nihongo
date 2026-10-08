@@ -32,7 +32,9 @@
           "reading": "きえる",
           "vietnamese": "Biến mất, tan đi"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "16751e2022cb2719",
@@ -57,7 +59,9 @@
           "reading": "ほうほう",
           "vietnamese": "Phương pháp"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "8405aa6bb699f66a",
@@ -91,7 +95,9 @@
           "reading": "きまる",
           "vietnamese": "Được quyết định"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "63f56f0173f7d9c5",
@@ -112,7 +118,9 @@
           "reading": "あさい",
           "vietnamese": "Nông"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "7385ce99899af0bd",
@@ -146,7 +154,9 @@
           "reading": "みたす",
           "vietnamese": "Đáp ứng, làm thỏa mãn"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "8460b05126d4bd1a",
@@ -177,7 +187,9 @@
           "reading": "こうえんかい",
           "vietnamese": "Buổi thuyết trình"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "aa45094952b235c8",
@@ -212,7 +224,9 @@
           "reading": "こんらん",
           "vietnamese": "Hỗn loạn"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "11b20bb56442730e",
@@ -245,7 +259,9 @@
           "reading": "しつど",
           "vietnamese": "Độ ẩm"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "2e4d874eea731e94",
@@ -280,7 +296,9 @@
           "reading": "あたためる",
           "vietnamese": "Làm ấm"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "a952ef51bdb27ace",
@@ -307,7 +325,9 @@
           "reading": "しおみず",
           "vietnamese": "Nước muối"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     }
   ]
 }

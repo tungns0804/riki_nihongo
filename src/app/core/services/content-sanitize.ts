@@ -16,6 +16,7 @@ import {
   GrammarPoint,
   GrammarUsage,
   KanjiEntry,
+  KanjiExample,
   KanjiWord,
   ListeningTrack,
   QuizChoice,
@@ -162,6 +163,20 @@ function sanitizeKanjiWords(raw: unknown): KanjiWord[] {
   });
 }
 
+function sanitizeKanjiExamples(raw: unknown): KanjiExample[] {
+  return each(raw, new Set<string>(), (item, id) => {
+    const japanese = text(item['japanese']);
+    if (!japanese) return null;
+    return {
+      id,
+      japanese,
+      reading: text(item['reading']),
+      vietnamese: text(item['vietnamese']),
+      note: text(item['note']),
+    };
+  });
+}
+
 export function sanitizeKanji(raw: unknown): KanjiEntry[] {
   return each(raw, new Set<string>(), (item, id) => {
     const character = text(item['character']);
@@ -176,6 +191,9 @@ export function sanitizeKanji(raw: unknown): KanjiEntry[] {
       kunyomi: textList(item['kunyomi']),
       strokes: typeof item['strokes'] === 'number' ? (item['strokes'] as number) : 0,
       words: sanitizeKanjiWords(item['words']),
+      // File JSON sinh từ trước khi có hai trường này thì không có: chuỗi rỗng, mảng rỗng.
+      mnemonic: text(item['mnemonic']),
+      examples: sanitizeKanjiExamples(item['examples']),
     };
   });
 }

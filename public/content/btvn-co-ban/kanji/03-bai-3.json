@@ -29,7 +29,9 @@
           "reading": "せいと",
           "vietnamese": "Học sinh"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "94188e2e8ee22c52",
@@ -60,7 +62,9 @@
           "reading": "びじゅつ",
           "vietnamese": "Mỹ thuật"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "8586945ed3feaac8",
@@ -87,7 +91,9 @@
           "reading": "える",
           "vietnamese": "Lấy được, có được"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "2d666e40c43a4b5b",
@@ -118,7 +124,9 @@
           "reading": "やくわり",
           "vietnamese": "Vai trò"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "6aff313e126a87c1",
@@ -145,7 +153,9 @@
           "reading": "なげる",
           "vietnamese": "Ném"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "58259deca10f2b95",
@@ -164,7 +174,9 @@
           "reading": "いっぱん",
           "vietnamese": "Thông thường, bình thường"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "a23591b5563e1cab",
@@ -195,7 +207,9 @@
           "reading": "しゅだん",
           "vietnamese": "Phương pháp"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "91496d54febbd5cd",
@@ -230,7 +244,9 @@
           "reading": "なおす",
           "vietnamese": "Làm lại, sửa chữa"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "1b96712416363412",
@@ -263,7 +279,9 @@
           "reading": "ねあげ",
           "vietnamese": "Tăng giá"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "a27093c49c55bfda",
@@ -296,7 +314,9 @@
           "reading": "せっち",
           "vietnamese": "Lắp đặt"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     }
   ]
 }

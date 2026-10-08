@@ -99,6 +99,49 @@
   font-weight: 600;
 }
 
+/* Cách nhớ: khung nền nhạt cho tách khỏi bảng âm đọc, chữ thường cỡ đọc được — đây là
+   một câu chuyện để đọc, không phải chú thích. */
+.kanji-mnemonic {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: var(--sp-3);
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+}
+
+.kanji-mnemonic p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Câu ví dụ: mỗi câu một khối dọc (câu, cách đọc, nghĩa, chú thích), kẻ mảnh giữa các
+   câu như danh sách từ ghép. */
+.kanji-examples ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.kanji-examples li {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 6px;
+  border-top: 1px solid var(--border);
+}
+
+.example-reading {
+  color: var(--text-muted);
+}
+
+.example-note {
+  color: var(--warning);
+}
+
 /* --- Bài tập về nhà --------------------------------------------------------
    Một bài kanji thường chỉ có một BTVN, nhưng để dạng hàng xuống dòng được: bài về sau
    có thể ra hai ba đề mà khối này không phải đổi. */

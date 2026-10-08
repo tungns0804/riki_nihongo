@@ -18,6 +18,28 @@ Ví dụ:
 険,HIỂM,hiểm/ nguy hiểm,ケン,けわ.しい,11|危険 (きけん)=nguy hiểm;保険 (ほけん)=bảo hiểm
 ```
 
+### Cách nhớ và câu ví dụ (tuỳ chọn)
+
+Dưới dòng của một chữ được viết thêm các dòng phụ, giống khối từ vựng:
+
+```
+賃,NHẪM,thuê,チン,,|賃金 (ちんぎん)=tiền lương, tiền công;家賃 (やちん)=tiền thuê nhà
+覚: Dùng tiền (貝) để THUÊ người có trách nhiệm (任) về làm việc.
+・東京は家賃が高い。| Ở Tokyo tiền thuê nhà đắt.
+読: とうきょうはやちんがたかい。
+注: N2
+```
+
+| Dòng | Là gì |
+| --- | --- |
+| `覚: …` | Câu chuyện cách nhớ của chữ — hiện trong khung "Cách nhớ" trên thẻ |
+| `・câu \| bản dịch` | Một câu ví dụ (bắt đầu bằng `・` hoặc `-`), bản dịch sau dấu `\|` |
+| `読: …` | Cách đọc CẢ CÂU bằng kana của câu ví dụ ngay trên; còn chữ Hán là bộ sinh báo cảnh báo |
+| `注: …` | Chú thích của câu ví dụ ngay trên (cấp độ N2, từ cứng / mềm…) |
+
+Cột NGHĨA không được chứa dấu phẩy (dấu phẩy là dấu ngăn cột): nhiều nghĩa thì ngăn bằng
+`/` như `hiểm/ nguy hiểm`.
+
 ## Nguồn và cách chép
 
 Nguồn là **thẻ kanji** của từng "Bài N" trong phần KANJI trên website Riki, lấy từ ảnh
@@ -35,6 +57,7 @@ của đúng những chữ đó bên `btvn-co-ban/kanji/` — cùng một websit
 | ---------------- | ---------- | ------------------------------------------------- |
 | `01-bai-1`       | Bài 1      | 21 chữ bộ Nhân đứng 亻 (gộp Bài 1 và Bài 2 của website) |
 | `01-bai-1-btvn`  | BTVN Bài 1 | Đề 20 câu, bài CON của `01-bai-1`                 |
+| `09-bai-9`       | Bài 9      | 10 chữ bộ Bối 貝, chép từ PDF 漢字ハンバーガー BUỔI 09, có cách nhớ và câu ví dụ |
 
 `meta.json` của mỗi bài ghi `description` là một dòng **tóm tắt bài học gì** — trang bài
 hiện nó ngay dưới tên bài, nên đọc một dòng đó là biết bài gồm những chữ nào và chúng

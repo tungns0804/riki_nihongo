@@ -38,7 +38,9 @@
           "reading": "さいわい",
           "vietnamese": "May mắn"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "b0f1b9a9c84a00cf",
@@ -69,7 +71,9 @@
           "reading": "ほうこく",
           "vietnamese": "Thông báo"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "50bfb185c1360383",
@@ -102,7 +106,9 @@
           "reading": "あらう",
           "vietnamese": "Rửa"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "da0f8d6667648492",
@@ -136,7 +142,9 @@
           "reading": "おせんする",
           "vietnamese": "Ô nhiễm"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "f6bd337c57f888f2",
@@ -167,7 +175,9 @@
           "reading": "かっき",
           "vietnamese": "Hoạt bát"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "7f892f303e49a6b3",
@@ -192,7 +202,9 @@
           "reading": "けつえきけんさ",
           "vietnamese": "Kiểm tra máu"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "6047a7fe2d97121c",
@@ -226,7 +238,9 @@
           "reading": "ながす",
           "vietnamese": "Xả, làm chảy"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "0e989d196ab55738",
@@ -245,7 +259,9 @@
           "reading": "なみだ",
           "vietnamese": "Nước mắt"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "e169e09bd8a33e8d",
@@ -278,7 +294,9 @@
           "reading": "しんこく",
           "vietnamese": "Nghiêm trọng"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     }
   ]
 }

@@ -37,7 +37,9 @@
           "reading": "せきにん",
           "vietnamese": "Trách nhiệm"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "ab0226a06ad601e5",
@@ -68,7 +70,9 @@
           "reading": "しんごう",
           "vietnamese": "Tín hiệu"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "b82270f93d3ee84e",
@@ -94,7 +98,9 @@
           "reading": "あしをのばす",
           "vietnamese": "Duỗi chân"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "c8600e0f832bc572",
@@ -127,7 +133,9 @@
           "reading": "つく",
           "vietnamese": "Dính vào"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "6d83cc9c3a4a17e3",
@@ -161,7 +169,9 @@
           "reading": "かえる",
           "vietnamese": "Đổi, thế chỗ"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "34d2036f6c57774f",
@@ -192,7 +202,9 @@
           "reading": "ようけん",
           "vietnamese": "Công việc"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "36c07e1c66853416",
@@ -223,7 +235,9 @@
           "reading": "ちい",
           "vietnamese": "Địa vị"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "10b35e0138aa5fbf",
@@ -248,7 +262,9 @@
           "reading": "ばいがえし",
           "vietnamese": "Trả gấp bội"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "3e66e6f0fa956aec",
@@ -281,7 +297,9 @@
           "reading": "たもつ",
           "vietnamese": "Giữ, duy trì"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     },
     {
       "id": "cd86915548f25c77",
@@ -312,7 +330,9 @@
           "reading": "いっこ",
           "vietnamese": "Một cái"
         }
-      ]
+      ],
+      "mnemonic": "",
+      "examples": []
     }
   ]
 }
