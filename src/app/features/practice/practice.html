@@ -311,6 +311,19 @@
               </button>
             </div>
           }
+
+          <!-- Ghi chú riêng của người học, ở cuối thẻ, có từ trước khi chấm: mở ra là thấy
+               lại điều đã ghi về đúng từ / chữ này ở lần luyện trước. Khoá theo `noteId`
+               chứ không theo câu hỏi, nên luyện chiều nào cũng mở đúng một ghi chú. Mặc
+               định đóng — ghi chú hay chứa luôn đáp án. -->
+          @if (config(); as data) {
+            <app-question-note
+              class="card-note"
+              [moduleId]="data.moduleId"
+              [unitId]="data.unitId"
+              [questionId]="q.noteId"
+            />
+          }
         </div>
       </section>
     }

@@ -89,7 +89,7 @@
             }
 
             @if (passage.questions.length > 0) {
-              <app-quiz-block [questions]="passage.questions" />
+              <app-quiz-block [questions]="passage.questions" [moduleId]="moduleId()" [unitId]="id()" />
             }
           </div>
         </article>

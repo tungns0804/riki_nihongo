@@ -5,14 +5,16 @@ import type { ModuleId } from '../../../core/models/content.model';
 import { NoteStore } from '../../../core/services/note-store';
 
 /**
- * Ghi chú riêng của người học cho MỘT câu của đề: nút hiện / ẩn và một ô viết rộng.
+ * Ghi chú riêng của người học cho MỘT câu: nút hiện / ẩn và một ô viết rộng.
  *
  * Mặc định ĐÓNG, kể cả câu đã có ghi chú: ba mươi ô ghi chú mở sẵn thì trang làm đề dài
  * gấp đôi, và ghi chú viết sau khi chấm thường chứa luôn đáp án. Câu đã có ghi chú thì
  * nút có thêm một chấm để biết mà mở ra xem lại.
  *
- * Dùng ở cả màn hình làm đề lẫn màn hình kết quả — cùng một kho (NoteStore), nên ghi ở
- * màn này thì mở màn kia vẫn thấy.
+ * Dùng ở màn hình làm đề, màn hình luyện tập, khối câu hỏi của bài đọc / bài nghe và
+ * màn hình kết quả — cùng một kho (NoteStore), nên ghi ở màn này thì mở màn kia vẫn thấy.
+ * Câu luyện tập tự dựng truyền vào `noteId` của nó (id từ / chữ / câu ví dụ) làm
+ * `questionId`, xem `PracticeQuestion.noteId`.
  */
 @Component({
   selector: 'app-question-note',

@@ -73,6 +73,19 @@
           <span class="lang-label">{{ lang.short() }}</span>
         </button>
 
+        <!-- Tiếng báo khi chấm câu. Chỉ có biểu tượng, không nhãn: nó là một công
+             tắc bật/tắt, nhìn cái loa bị gạch là biết đang ở đâu. -->
+        <button
+          type="button"
+          class="icon-btn"
+          (click)="sound.toggle()"
+          [attr.aria-pressed]="sound.enabled()"
+          [title]="t(sound.titleKey())"
+          [attr.aria-label]="t(sound.titleKey())"
+        >
+          <app-icon [name]="sound.icon()" />
+        </button>
+
         <button
           type="button"
           class="icon-btn"

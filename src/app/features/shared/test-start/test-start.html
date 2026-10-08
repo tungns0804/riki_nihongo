@@ -9,6 +9,11 @@
       @if (percent !== null) {
         <span class="badge badge-success">{{ t('result.percent', { percent: percent }) }}</span>
       }
+      @if (attempts() > 0) {
+        <span class="badge badge-success">{{ t('progress.attempts', { count: attempts() }) }}</span>
+      } @else {
+        <span class="badge">{{ t('progress.never') }}</span>
+      }
     </div>
 
     <p class="hint"><app-t key="test.unitHint" block /></p>

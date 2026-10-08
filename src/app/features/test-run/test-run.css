@@ -207,6 +207,15 @@
   border-color: var(--accent);
 }
 
+/* Câu đã kiểm tra: viền theo kết quả, để cuộn qua cả trang vẫn thấy câu nào sai. */
+.test-question.is-right {
+  border-color: var(--success);
+}
+
+.test-question.is-wrong {
+  border-color: var(--danger);
+}
+
 /* Số câu · câu hỏi (và bản dịch ngay dưới) · nút bản dịch nằm phải. */
 .test-question-head {
   display: flex;
@@ -274,6 +283,7 @@
 /* Mọi thứ bên dưới câu hỏi lùi vào đúng bằng bề rộng số câu + khoảng cách, để thẳng
    hàng với chữ của câu hỏi. */
 .test-choices,
+.test-check,
 .test-note {
   margin-left: calc(26px + var(--sp-3));
 }
@@ -337,6 +347,77 @@
   box-shadow: inset 0 0 0 4px var(--accent);
 }
 
+/* --- Kiểm tra từng câu --------------------------------------------------- */
+
+/* Đã kiểm tra thì bốn lựa chọn khoá lại, nhưng phải đọc rõ như thường: mờ đi như nút
+   disabled thì cả khối đáp án trông như bị vô hiệu hoá. */
+.test-choice:disabled {
+  opacity: 1;
+  cursor: default;
+}
+
+/* Đáp án đúng luôn xanh, kể cả khi chọn sai — thấy được đáp án đúng mới học được gì. */
+.test-choice.is-correct {
+  border-color: var(--success);
+  background: var(--success-soft);
+  color: var(--success);
+  box-shadow: none;
+}
+
+.test-choice.is-wrong {
+  border-color: var(--danger);
+  background: var(--danger-soft);
+  color: var(--danger);
+  box-shadow: none;
+}
+
+.test-choice.is-correct .test-radio {
+  border-color: var(--success);
+  box-shadow: inset 0 0 0 4px var(--success);
+}
+
+.test-choice.is-wrong .test-radio {
+  border-color: var(--danger);
+  box-shadow: inset 0 0 0 4px var(--danger);
+}
+
+/* Lý do đúng / sai của từng lựa chọn: chữ thường, không ăn màu của nút. */
+.test-choice-note {
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  font-weight: 450;
+  line-height: 1.6;
+}
+
+.test-check {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--sp-2);
+}
+
+.test-verdict {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin: 0;
+  color: var(--danger);
+}
+
+.test-verdict.is-right {
+  color: var(--success);
+}
+
+.test-explanation {
+  margin: 0;
+  padding: var(--sp-3);
+  border-radius: var(--radius-sm);
+  background: var(--bg-inset);
+  font-size: var(--fs-sm);
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
 /* --- Chân trang --------------------------------------------------------- */
 
 .test-foot {
@@ -398,6 +479,7 @@
   }
 
   .test-choices,
+  .test-check,
   .test-note {
     margin-left: 0;
   }

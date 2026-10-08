@@ -2,7 +2,43 @@
   <!-- `.setup` (styles.css): nhãn cột trái, nút co theo nội dung — cùng bố cục với
        khung thiết lập của minano_nihongo. -->
   <div class="card-body stack setup">
-    <h2>{{ t('practice.setup') }}</h2>
+    <div class="section-head">
+      <h2>{{ t('practice.setup') }}</h2>
+      <span class="spacer"></span>
+      @if (attempts() > 0) {
+        <span class="badge badge-success">{{ t('progress.attempts', { count: attempts() }) }}</span>
+      } @else {
+        <span class="badge">{{ t('progress.never') }}</span>
+      }
+    </div>
+
+    <!-- Chỉ bài kanji có từ ghép: luyện chữ, hay luyện các từ ghép in trên thẻ. Đứng
+         đầu khung vì nó đổi luôn các chiều hỏi bên dưới. -->
+    @if (wordCount() > 0) {
+      <div class="field">
+        <span class="label">{{ t('practice.target') }}</span>
+        <div class="options">
+          <button
+            type="button"
+            class="option"
+            [class.is-active]="target() === 'kanji'"
+            [attr.aria-pressed]="target() === 'kanji'"
+            (click)="setTarget('kanji')"
+          >
+            {{ t('practice.target.kanji') }}
+          </button>
+          <button
+            type="button"
+            class="option"
+            [class.is-active]="target() === 'words'"
+            [attr.aria-pressed]="target() === 'words'"
+            (click)="setTarget('words')"
+          >
+            {{ t('practice.target.words', { count: wordCount() }) }}
+          </button>
+        </div>
+      </div>
+    }
 
     <div class="field">
       <span class="label">{{ t('practice.mode') }}</span>

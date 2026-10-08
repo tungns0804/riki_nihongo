@@ -300,3 +300,10 @@
   font-family: var(--font-ui);
   color: var(--accent);
 }
+
+/* Ô ghi chú tách khỏi phần câu hỏi bằng một vạch đứt, như trên màn hình kết quả. */
+.card-note {
+  display: block;
+  padding-top: var(--sp-3);
+  border-top: 1px dashed var(--border-strong);
+}

@@ -41,6 +41,9 @@ export class TestStart {
   /** Tỉ lệ đúng tốt nhất của bài này; null nghĩa là chưa làm lần nào (0% cũng là đã làm). */
   protected readonly best = computed(() => this.progress.bestPercent(this.unit().id));
 
+  /** Số lần đã làm đề này. */
+  protected readonly attempts = computed(() => this.progress.of(this.unit().id)?.attempts ?? 0);
+
   protected start(): void {
     const unit = this.unit();
     const questions = this.questions();

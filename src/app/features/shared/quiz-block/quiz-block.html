@@ -50,6 +50,8 @@
           <p class="muted small">{{ question.explanation }}</p>
         }
       }
+
+      <app-question-note [moduleId]="moduleId()" [unitId]="unitId()" [questionId]="question.id" />
     </div>
   }
 </div>

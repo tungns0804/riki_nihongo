@@ -5,7 +5,8 @@ import type { ModuleId } from '../models/content.model';
 import { readJson, writeJson } from './local-storage';
 
 /**
- * Ghi chú người học tự viết cho từng câu của một đề, lưu trong trình duyệt.
+ * Ghi chú người học tự viết cho từng câu của một đề — và cho từng từ / chữ Hán / câu ví
+ * dụ khi luyện tập (xem `PracticeQuestion.noteId`) — lưu trong trình duyệt.
  *
  * Khoá theo phần học + bài + id câu: id câu chỉ không trùng trong MỘT đề, mà hai đề
  * khác nhau hoàn toàn có thể cùng đặt `q-01`. Mỗi học phần một khoá localStorage riêng

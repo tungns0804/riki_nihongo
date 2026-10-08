@@ -20,6 +20,20 @@
         }
       </button>
 
+      <!-- Chọn là chấm luôn, khỏi bấm "Kiểm tra" từng câu — cho lúc đang luyện. Không có
+           ở bài kiểm tra nhập môn (xem `canCheck`). -->
+      @if (canCheck()) {
+        <button
+          type="button"
+          class="btn btn-sm toggle"
+          [class.is-on]="instantCheck()"
+          [attr.aria-pressed]="instantCheck()"
+          (click)="toggleInstantCheck()"
+        >
+          {{ t('test.instantCheck') }}
+        </button>
+      }
+
       <button type="button" class="btn btn-primary btn-sm" (click)="submit()">
         {{ t('test.submit') }}
       </button>
@@ -43,6 +57,10 @@
       {{ t('test.sectionProgress', { done: activeDone(), total: activeTotal() }) }}
       <span class="dot">·</span>
       {{ t('test.wholeProgress', { done: answeredCount(), total: totalCount() }) }}
+      @if (checkedCount() > 0) {
+        <span class="dot">·</span>
+        {{ t('test.checkedProgress', { correct: checkedCorrect(), checked: checkedCount() }) }}
+      }
     </p>
 
     <div class="progress-track">
@@ -142,7 +160,12 @@
                   }
 
                   @for (question of group.questions; track question.id) {
-                    <article class="test-question" [class.is-answered]="isAnswered(question.id)">
+                    <article
+                      class="test-question"
+                      [class.is-answered]="isAnswered(question.id)"
+                      [class.is-right]="isChecked(question.id) && isRight(question)"
+                      [class.is-wrong]="isChecked(question.id) && !isRight(question)"
+                    >
                       <div class="test-question-head">
                         <span class="test-number tnum">{{ question.number }}</span>
                         <div class="test-question-text">
@@ -180,11 +203,15 @@
 
                       <div class="test-choices">
                         @for (choice of question.choices; track choice.id; let c = $index) {
+                          @let state = choiceState(question, choice.text);
                           <button
                             type="button"
                             class="option test-choice"
                             [class.is-active]="isPicked(question.id, choice.text)"
-                            (click)="pick(question.id, choice.text)"
+                            [class.is-correct]="state === 'correct'"
+                            [class.is-wrong]="state === 'wrong'"
+                            [disabled]="isChecked(question.id)"
+                            (click)="pick(question, choice.text)"
                           >
                             <span class="test-radio" aria-hidden="true"></span>
                             <span class="test-choice-body">
@@ -192,10 +219,48 @@
                               @if (isRevealed(question.id) && choice.translation) {
                                 <span class="test-choice-vi">{{ choice.translation }}</span>
                               }
+                              <!-- Vì sao lựa chọn này đúng / sai: chỉ sau khi kiểm tra, như
+                                   màn kết quả — hiện sớm là đọc được đáp án. -->
+                              @if (isChecked(question.id) && choice.note) {
+                                <span class="test-choice-note">{{ choice.note }}</span>
+                              }
                             </span>
                           </button>
                         }
                       </div>
+
+                      <!-- Kiểm tra RIÊNG câu này, không đợi nộp cả đề. Đã kiểm tra thì
+                           thay nút bằng kết quả và lời giải; bốn lựa chọn khoá lại. -->
+                      @if (isCheckable(question)) {
+                        <div class="test-check">
+                          @if (isChecked(question.id)) {
+                            <p class="test-verdict" [class.is-right]="isRight(question)">
+                              <strong>
+                                @if (isRight(question)) {
+                                  <app-t key="practice.correct" />
+                                } @else {
+                                  <app-t key="practice.wrong" />
+                                }
+                              </strong>
+                              @if (!isRight(question)) {
+                                <span class="jp">{{ t('practice.answerWas', { answer: question.answer }) }}</span>
+                              }
+                            </p>
+                            @if (question.explanation) {
+                              <p class="test-explanation">{{ question.explanation }}</p>
+                            }
+                          } @else if (!instantCheck()) {
+                            <button
+                              type="button"
+                              class="btn btn-sm"
+                              [disabled]="!isAnswered(question.id)"
+                              (click)="check(question)"
+                            >
+                              {{ t('test.check') }}
+                            </button>
+                          }
+                        </div>
+                      }
 
                       <!-- Ghi chú riêng của câu này: đóng sẵn, bấm mới mở; lưu ngay khi
                            gõ, mở lại đề hay sang màn kết quả vẫn còn. -->

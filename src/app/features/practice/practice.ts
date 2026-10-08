@@ -17,9 +17,11 @@ import { COURSE, moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import { PracticeExample, PracticeQuestion } from '../../core/models/practice.model';
+import { FeedbackSound } from '../../core/services/feedback-sound';
 import { PracticeSessionStore } from '../../core/services/practice-session-store';
 import { ProgressStore } from '../../core/services/progress-store';
 import { splitAround } from '../../core/utils/text';
+import { QuestionNote } from '../shared/question-note/question-note';
 
 /**
  * Màn hình làm bài: mỗi lúc một câu.
@@ -37,7 +39,7 @@ import { splitAround } from '../../core/utils/text';
  */
 @Component({
   selector: 'app-practice',
-  imports: [FormsModule, NgTemplateOutlet, T],
+  imports: [FormsModule, NgTemplateOutlet, QuestionNote, T],
   templateUrl: './practice.html',
   styleUrl: './practice.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -45,6 +47,7 @@ import { splitAround } from '../../core/utils/text';
 export class Practice {
   private readonly session = inject(PracticeSessionStore);
   private readonly progress = inject(ProgressStore);
+  private readonly sound = inject(FeedbackSound);
   private readonly router = inject(Router);
   private readonly lang = inject(LanguageStore);
   private readonly injector = inject(Injector);
@@ -124,7 +127,9 @@ export class Practice {
 
   protected check(): void {
     if (this.checked() || !this.given().trim()) return;
-    this.wasCorrect.set(this.session.answer(this.given()));
+    const correct = this.session.answer(this.given());
+    this.sound.verdict(correct);
+    this.wasCorrect.set(correct);
     this.checked.set(true);
     // Có câu ví dụ thì đưa con trỏ xuống ô của nó luôn: gõ từ, Enter, gõ tiếp vào câu
     // mà không phải với tay ra chuột. Không có thì đưa tới nút sang câu sau.
@@ -137,6 +142,7 @@ export class Practice {
    */
   protected acceptOwnAnswer(): void {
     if (!this.session.acceptOwnAnswer()) return;
+    this.sound.verdict(true);
     this.wasCorrect.set(true);
     this.selfGraded.set(true);
     this.focusAfterRender(this.nextButton);
@@ -172,7 +178,9 @@ export class Practice {
 
   protected checkFollowUp(): void {
     if (!this.checked() || this.followChecked() || !this.followGiven().trim()) return;
-    this.followCorrect.set(this.session.answerFollowUp(this.followGiven()));
+    const correct = this.session.answerFollowUp(this.followGiven());
+    this.sound.verdict(correct);
+    this.followCorrect.set(correct);
     this.followChecked.set(true);
     this.focusAfterRender(this.nextButton);
   }

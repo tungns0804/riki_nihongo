@@ -2,7 +2,9 @@ import { ChangeDetectionStrategy, Component, computed, inject, input, signal } f
 
 import { LanguageStore } from '../../../core/i18n/language-store';
 import { T } from '../../../core/i18n/t';
-import type { QuizQuestion } from '../../../core/models/content.model';
+import type { ModuleId, QuizQuestion } from '../../../core/models/content.model';
+import { FeedbackSound } from '../../../core/services/feedback-sound';
+import { QuestionNote } from '../question-note/question-note';
 
 /**
  * Khối câu hỏi trả lời tại chỗ, dùng cho bài đọc và bài nghe.
@@ -14,17 +16,22 @@ import type { QuizQuestion } from '../../../core/models/content.model';
  */
 @Component({
   selector: 'app-quiz-block',
-  imports: [T],
+  imports: [QuestionNote, T],
   templateUrl: './quiz-block.html',
   styleUrl: './quiz-block.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class QuizBlock {
   private readonly lang = inject(LanguageStore);
+  private readonly sound = inject(FeedbackSound);
 
   protected readonly t = this.lang.t.bind(this.lang);
 
   readonly questions = input.required<readonly QuizQuestion[]>();
+
+  /** Bài đang mở — khoá của ô "Ghi chú của tôi" dưới mỗi câu (xem NoteStore). */
+  readonly moduleId = input.required<ModuleId>();
+  readonly unitId = input.required<string>();
 
   /** { [questionId]: id lựa chọn đã chọn }. Một câu chỉ trả lời được một lần. */
   private readonly picked = signal<Record<string, string>>({});
@@ -44,6 +51,7 @@ export class QuizBlock {
     // "đúng mấy câu" không còn nghĩa gì.
     if (this.isAnswered(question.id)) return;
     this.picked.update((current) => ({ ...current, [question.id]: choiceId }));
+    this.sound.verdict(choiceId === question.answerId);
   }
 
   /** Lớp CSS của một lựa chọn sau khi đã chấm. */

@@ -6,6 +6,7 @@ import { LanguageStore } from '../../core/i18n/language-store';
 import { T } from '../../core/i18n/t';
 import type { ModuleId } from '../../core/models/content.model';
 import { ContentStore } from '../../core/services/content-store';
+import { ProgressStore } from '../../core/services/progress-store';
 import { loadUnit } from '../../core/services/unit-loader';
 import { PracticeSetup } from '../shared/practice-setup/practice-setup';
 import { TestStart } from '../shared/test-start/test-start';
@@ -31,6 +32,7 @@ import { TestStart } from '../shared/test-start/test-start';
 export class KanjiDetail {
   private readonly lang = inject(LanguageStore);
   private readonly content = inject(ContentStore);
+  private readonly progress = inject(ProgressStore);
 
   protected readonly t = this.lang.t.bind(this.lang);
 
@@ -57,6 +59,11 @@ export class KanjiDetail {
   protected readonly homework = computed(() =>
     this.content.childrenOf(this.moduleId(), this.id()),
   );
+
+  /** Số lần đã làm một BTVN, như nút BTVN bên trang từ vựng. */
+  protected attemptsOf(unitId: string): number {
+    return this.progress.of(unitId)?.attempts ?? 0;
+  }
 
   /** Bài mẹ của bài đang mở (BTVN thì về đúng bài kanji của nó, không về danh sách). */
   protected readonly parentId = computed(() => this.unit()?.parent ?? '');

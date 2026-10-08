@@ -22,9 +22,14 @@ import type {
   TestSection,
 } from '../../core/models/content.model';
 import { ContentStore } from '../../core/services/content-store';
+import { FeedbackSound } from '../../core/services/feedback-sound';
+import { readJson, writeJson } from '../../core/services/local-storage';
 import { PracticeSessionStore } from '../../core/services/practice-session-store';
 import { ProgressStore } from '../../core/services/progress-store';
 import { QuestionNote } from '../shared/question-note/question-note';
+
+/** Công tắc "Chấm ngay khi chọn", nhớ qua các lần mở đề (xem `instantCheck`). */
+const INSTANT_CHECK_KEY = 'riki:test-instant-check';
 
 /** Nhãn của một kỹ năng lấy luôn từ tên phần học tương ứng, như màn hình kết quả. */
 const SKILL_LABEL_KEY: Record<string, MessageKey> = Object.fromEntries(
@@ -42,6 +47,10 @@ interface QuestionView {
   choices: readonly QuizChoice[];
   /** Câu này có gì để dịch không — không có thì không hiện nút bản dịch. */
   hasTranslation: boolean;
+  /** CHỮ của lựa chọn đúng, cùng thứ đem đi chấm. Rỗng = đề lỗi, câu không kiểm tra được. */
+  answer: string;
+  /** Lời giải thích chốt lại, hiện sau khi kiểm tra câu. Rỗng nghĩa là không có. */
+  explanation: string;
 }
 
 /**
@@ -96,6 +105,13 @@ interface TabView {
  *  - **Ghi chú của tôi** (QuestionNote): ô viết rộng, đóng sẵn, LƯU LẠI trong trình
  *    duyệt — làm lại đề hay xem màn hình kết quả vẫn thấy.
  *
+ * Riêng khi LUYỆN thì làm hết mới biết đúng sai là quá xa: mỗi câu có nút **Kiểm tra**
+ * chấm riêng câu đó ngay tại chỗ — tô đáp án đúng / sai, hiện lý do của từng lựa chọn và
+ * lời giải — và công tắc **Chấm ngay khi chọn** trên thanh đầu bỏ luôn cú bấm đó. Câu đã
+ * kiểm tra thì khoá lại: đã thấy đáp án mà còn đổi được thì điểm lúc nộp không còn
+ * nghĩa gì. Nộp bài vẫn chấm cả đề như cũ. Bài kiểm tra nhập môn không có hai thứ này:
+ * nó đo trình độ, xem đáp án giữa chừng thì không đo được gì.
+ *
  * Phiên vẫn là PracticeSessionStore để dùng lại màn hình kết quả và phần ghi tiến độ,
  * nhưng chấm một lượt lúc nộp bằng `submitAll` chứ không `answer` từng câu. Nội dung
  * đề lấy lại từ ContentStore (đã nằm trong bộ nhớ vì trang danh sách đề vừa tải nó)
@@ -115,10 +131,26 @@ export class TestRun {
   private readonly router = inject(Router);
   private readonly lang = inject(LanguageStore);
   private readonly course = inject(COURSE);
+  private readonly sound = inject(FeedbackSound);
 
   protected readonly t = this.lang.t.bind(this.lang);
 
   protected readonly config = this.session.config;
+
+  /** Đề này có cho kiểm tra từng câu không — mọi đề, trừ bài kiểm tra nhập môn. */
+  protected readonly canCheck = computed(() => {
+    const moduleId = this.config()?.moduleId;
+    return moduleId !== undefined && moduleId !== 'entrance-test';
+  });
+
+  /** Câu đã bấm "Kiểm tra": hiện đúng sai và lời giải, khoá không cho đổi đáp án. */
+  private readonly checked = signal<ReadonlySet<string>>(new Set());
+
+  /**
+   * Chọn đáp án là chấm câu đó luôn, không phải bấm "Kiểm tra". Mặc định tắt: mở đề ra
+   * thì vẫn là làm đề. Nhớ trong trình duyệt, vì ai đã bật để luyện thì thường bật mãi.
+   */
+  protected readonly instantCheck = signal(readJson<boolean>(INSTANT_CHECK_KEY, false) === true);
 
   /** Phần tử xin toàn màn hình: cả trang làm bài, không riêng khối câu hỏi. */
   private readonly root = viewChild<ElementRef<HTMLElement>>('root');
@@ -152,6 +184,15 @@ export class TestRun {
   );
 
   protected readonly answeredCount = computed(() => this.answers().size);
+
+  /** Số câu đã kiểm tra, và số câu đúng trong đó — dòng tiến độ trên thanh đầu. */
+  protected readonly checkedCount = computed(() => this.checked().size);
+
+  protected readonly checkedCorrect = computed(() => {
+    const checked = this.checked();
+    return this.allQuestions().filter((question) => checked.has(question.id) && this.isRight(question))
+      .length;
+  });
 
   protected readonly unansweredCount = computed(() => this.totalCount() - this.answeredCount());
 
@@ -257,11 +298,13 @@ export class TestRun {
   /**
    * Chọn (hoặc đổi) đáp án của một câu.
    *
-   * Không chấm gì ở đây: đúng sai chỉ biết sau khi nộp. Bấm lại chính lựa chọn đang
-   * chọn thì BỎ chọn — đề cho phép để trống, mà chọn lỡ một câu rồi không bỏ được thì
-   * người làm buộc phải trả lời bừa.
+   * Không chấm gì ở đây, trừ khi đang bật "Chấm ngay khi chọn". Bấm lại chính lựa chọn
+   * đang chọn thì BỎ chọn — đề cho phép để trống, mà chọn lỡ một câu rồi không bỏ được
+   * thì người làm buộc phải trả lời bừa. Câu đã kiểm tra thì không đổi được nữa.
    */
-  protected pick(questionId: string, choiceText: string): void {
+  protected pick(question: QuestionView, choiceText: string): void {
+    const questionId = question.id;
+    if (this.isChecked(questionId)) return;
     this.answers.update((current) => {
       const next = new Map(current);
       if (next.get(questionId) === choiceText) next.delete(questionId);
@@ -270,6 +313,71 @@ export class TestRun {
     });
     // Vừa điền thêm một câu thì lời nhắc "còn N câu chưa trả lời" không còn đúng số.
     this.confirming.set(false);
+    if (this.instantCheck()) this.check(question);
+  }
+
+  // ── Kiểm tra từng câu ────────────────────────────────────────────────────
+
+  protected isChecked(questionId: string): boolean {
+    return this.checked().has(questionId);
+  }
+
+  /** Câu này có hiện nút "Kiểm tra" không: đề cho phép, và câu có đáp án để so. */
+  protected isCheckable(question: QuestionView): boolean {
+    return this.canCheck() && question.answer.length > 0;
+  }
+
+  /** Lựa chọn đang chọn của câu này là đáp án đúng. */
+  protected isRight(question: QuestionView): boolean {
+    return this.answers().get(question.id) === question.answer;
+  }
+
+  /**
+   * Chấm riêng một câu. Chưa chọn gì thì không có gì để chấm — nút đó cũng đang khoá.
+   * Chấm cùng một cách với lúc nộp (so chữ của lựa chọn), nên kết quả hai chỗ khớp nhau.
+   */
+  protected check(question: QuestionView): void {
+    if (!this.isCheckable(question) || this.isChecked(question.id)) return;
+    if (!this.isAnswered(question.id)) return;
+    this.checked.update((current) => new Set(current).add(question.id));
+    this.sound.verdict(this.isRight(question));
+  }
+
+  /** Trạng thái một lựa chọn sau khi kiểm tra: đáp án đúng luôn xanh, lựa chọn sai đã chọn thì đỏ. */
+  protected choiceState(question: QuestionView, choiceText: string): 'correct' | 'wrong' | '' {
+    if (!this.isChecked(question.id)) return '';
+    if (choiceText === question.answer) return 'correct';
+    return this.isPicked(question.id, choiceText) ? 'wrong' : '';
+  }
+
+  /**
+   * Bật thì những câu ĐÃ chọn mà chưa kiểm tra cũng được chấm luôn: bật công tắc giữa
+   * chừng là muốn biết ngay mấy câu vừa làm, không phải bấm lại từng câu.
+   */
+  protected toggleInstantCheck(): void {
+    const next = !this.instantCheck();
+    this.instantCheck.set(next);
+    writeJson(INSTANT_CHECK_KEY, next);
+    if (!next) return;
+
+    const pending = this.allQuestions().filter(
+      (question) =>
+        this.isAnswered(question.id) && !this.isChecked(question.id) && this.isCheckable(question),
+    );
+    if (pending.length === 0) return;
+    this.checked.update((current) => {
+      const nextSet = new Set(current);
+      for (const question of pending) nextSet.add(question.id);
+      return nextSet;
+    });
+    // Một tiếng cho cả loạt, không phải chục tiếng chồng lên nhau.
+    this.sound.verdict(pending.every((question) => this.isRight(question)));
+  }
+
+  private allQuestions(): QuestionView[] {
+    return this.tabs().flatMap((tab) =>
+      tab.sections.flatMap((section) => section.groups.flatMap((group) => group.questions)),
+    );
   }
 
   // ── Bản dịch ─────────────────────────────────────────────────────────────
@@ -407,6 +515,8 @@ function groupByPassage(questions: readonly QuizQuestion[], startNumber: number)
         question.promptReading.length > 0 ||
         question.promptTranslation.length > 0 ||
         question.choices.some((choice) => choice.translation.length > 0),
+      answer: question.choices.find((choice) => choice.id === question.answerId)?.text ?? '',
+      explanation: question.explanation,
     };
 
     const key = question.passage.join('\n');

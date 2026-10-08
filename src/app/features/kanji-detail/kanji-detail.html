@@ -60,6 +60,9 @@
                   >
                     {{ item.name }}
                     <span class="badge">{{ t('test.questionCount', { count: item.itemCount }) }}</span>
+                    @if (attemptsOf(item.id); as done) {
+                      <span class="badge badge-success">{{ t('progress.attempts', { count: done }) }}</span>
+                    }
                   </a>
                 }
               </div>

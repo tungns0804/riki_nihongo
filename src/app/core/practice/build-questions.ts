@@ -1,6 +1,7 @@
 import {
   GrammarPoint,
   KanjiEntry,
+  KanjiWord,
   QuizQuestion,
   SkillId,
   Unit,
@@ -157,6 +158,7 @@ function fromVocabulary(
 
     return {
       id: `${word.id}:${direction}`,
+      noteId: word.id,
       skill: 'vocabulary' as SkillId,
       prompt: prompt === 'japanese' ? withParticle(word) : String(word[prompt]),
       promptIsJapanese: isJapaneseField(prompt),
@@ -301,6 +303,8 @@ function sentenceQuestion(
     // Có cả id của từ: hai từ dùng chung một câu ví dụ (成功 và 失敗 cùng câu
     // 失敗は成功の元) thì vẫn là hai câu hỏi khác nhau.
     id: `${word.id}:${example.id}:blank`,
+    // Ghi chú là của TỪ cần điền, cùng ghi chú với câu hỏi về từ đó.
+    noteId: word.id,
     skill: 'vocabulary',
     prompt: example.japanese.split(blank).join(BLANK),
     promptIsJapanese: true,
@@ -385,6 +389,9 @@ function fromVocabularyTranslations(
     const correct = answerOf(example);
     return {
       id: `${word.id}:${example.id}:${direction}`,
+      // Câu dịch thì ghi chú là của CÂU: id câu ví dụ sinh từ chính câu đó, nên hai từ
+      // dùng chung một câu thì cũng dùng chung một ghi chú.
+      noteId: example.id,
       skill: 'vocabulary',
       prompt: toJapanese ? example.vietnamese : example.japanese,
       promptIsJapanese: !toJapanese,
@@ -461,6 +468,7 @@ function fromKanji(
 
     return {
       id: `${entry.id}:${direction}`,
+      noteId: entry.id,
       skill: 'kanji' as SkillId,
       prompt: askForCharacter ? meaningOf(entry) : entry.character,
       promptIsJapanese: !askForCharacter,
@@ -505,6 +513,104 @@ function fromKanji(
   });
 }
 
+// ── Kanji: luyện từ ghép ───────────────────────────────────────────────────
+
+/**
+ * Các chiều luyện được với từ ghép của bài kanji.
+ *
+ * Không có Hán Việt ↔ Nhật: từ ghép không ghi âm Hán Việt, mà ghép từ âm của từng chữ
+ * thì chỉ được những từ có đủ mọi chữ trong bài (家賃 thì 家 không thuộc bài nào). Không
+ * có hai chiều dịch câu: một câu ví dụ thường chứa hai ba từ ghép (毎月食費、交通費を…),
+ * dịch theo từng từ thì cùng một câu ra hai ba lần.
+ */
+export const KANJI_WORD_DIRECTIONS: readonly PracticeDirection[] = [
+  'jp-vi',
+  'vi-jp',
+  'jp-reading',
+  'jp-sentence',
+];
+
+/**
+ * Từ ghép của các thẻ trong một bài kanji, dựng thành TỪ VỰNG để luyện bằng đúng các
+ * chiều của phần Từ vựng — học chữ 賃 mà không đọc được 家賃 thì vào phòng thi phần 漢字
+ * 読み vẫn trượt.
+ *
+ * Một từ nằm dưới hai chữ (賃貸 có cả 賃 lẫn 貸) chỉ hỏi một lần: id của từ ghép sinh từ
+ * mặt chữ và cách đọc, nên hai thẻ cho ra cùng một id.
+ *
+ * Câu ví dụ lấy từ MỌI thẻ của bài chứ không riêng thẻ chứa từ: 賃貸 đứng dưới thẻ 貸 mà
+ * câu có nó có thể nằm ở thẻ khác. Từ chỉ được tô và khoét khi câu chứa đúng mặt chữ của
+ * nó — 貸す trong 貸した thì không, vì đoán sai chỗ dừng của đuôi chia còn tệ hơn không
+ * khoét (xem `blankOf`). Câu đó vẫn hiện ở danh sách ví dụ của chữ trên trang bài.
+ */
+export function kanjiWords(entries: readonly KanjiEntry[]): VocabWord[] {
+  const words = new Map<string, KanjiWord>();
+  for (const word of entries.flatMap((entry) => entry.words)) {
+    const seen = words.get(word.id);
+    if (!seen) words.set(word.id, word);
+    // Thẻ trước để trống nghĩa thì lấy của thẻ sau.
+    else if (!seen.vietnamese && word.vietnamese) words.set(word.id, word);
+  }
+
+  const examples = [
+    ...new Map(entries.flatMap((entry) => entry.examples).map((item) => [item.id, item])).values(),
+  ];
+  const spellings = [...words.values()].map((word) => word.japanese);
+  const kanjiByChar = new Map(entries.map((entry) => [entry.character, entry]));
+
+  return [...words.values()].map((word) => ({
+    id: word.id,
+    number: 0,
+    group: '',
+    particle: '',
+    japanese: word.japanese,
+    reading: word.reading,
+    hanViet: '',
+    vietnamese: word.vietnamese,
+    examples: examples
+      .filter((example) => containsWord(example.japanese, word.japanese, spellings))
+      .map((example) => ({
+        id: example.id,
+        japanese: example.japanese,
+        vietnamese: example.vietnamese,
+        reading: example.reading,
+        grammar: '',
+        targets: [word.japanese],
+      })),
+    // Chữ Hán của bài có trong từ, hiện sau khi chấm: nối từ vừa học về đúng thẻ chữ.
+    notes: [...new Set(word.japanese)]
+      .map((char) => kanjiByChar.get(char))
+      .filter((entry): entry is KanjiEntry => entry !== undefined)
+      .map((entry) => ({
+        label: entry.character,
+        text: [entry.hanViet, entry.meaning].filter(Boolean).join(' · '),
+      })),
+  }));
+}
+
+/**
+ * Câu có chứa từ này như một từ đứng riêng không. Không, khi nó chỉ xuất hiện bên trong
+ * một từ ghép dài hơn của bài cũng có mặt trong câu: câu 東京都の最低賃金は… là câu của
+ * 最低賃金 — tính nó cho cả 賃金 thì khoét ra "最低（　　）", chỗ trống đứng giữa một từ.
+ */
+function containsWord(sentence: string, word: string, spellings: readonly string[]): boolean {
+  if (!sentence.includes(word)) return false;
+  return !spellings.some(
+    (other) => other.length > word.length && other.includes(word) && sentence.includes(other),
+  );
+}
+
+/**
+ * Bài kanji nhìn như một bài từ vựng gồm các từ ghép của nó — khung thiết lập đưa bài
+ * này vào `buildQuestions` khi người học chọn luyện từ vựng thay vì luyện chữ.
+ *
+ * Giữ nguyên id và phần học của bài: phiên luyện vẫn thuộc về bài kanji đó, tiến độ ghi
+ * vào bài đó, và "Luyện lại" quay về đúng trang bài kanji.
+ */
+export function kanjiWordsUnit(unit: Unit): Unit {
+  return { ...unit, kind: 'vocabulary', words: kanjiWords(unit.kanji), kanji: [] };
+}
+
 // ── Ngữ pháp (và Mimikara Oboeru) ──────────────────────────────────────────
 
 /**
@@ -534,6 +640,7 @@ function fromGrammar(
     const correct = askForJapanese ? example.japanese : example.vietnamese;
     return {
       id: `${example.id}:${direction}`,
+      noteId: example.id,
       skill: 'grammar' as SkillId,
       prompt: askForJapanese ? example.vietnamese : example.japanese,
       promptIsJapanese: !askForJapanese,
@@ -595,6 +702,7 @@ export function fromQuizQuestions(questions: readonly QuizQuestion[]): PracticeQ
     return [
       {
         id: question.id,
+        noteId: question.id,
         skill: question.skill,
         prompt: question.promptJapanese || question.prompt,
         promptIsJapanese: question.promptJapanese.length > 0,

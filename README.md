@@ -152,8 +152,15 @@ làm bài của Riki:
 - Mỗi câu bốn lựa chọn xếp **hai cột** với vòng tròn kiểu radio; bấm lại lựa chọn
   đang chọn thì bỏ chọn. Viền thẻ đổi màu khi câu đã có đáp án, nhưng **không** nói
   gì về đúng sai.
-- **Không chấm cho tới khi bấm NỘP BÀI.** Chấm ngay từng câu thì những câu sau của
+- **Không tự chấm cho tới khi bấm NỘP BÀI.** Chấm ngay từng câu thì những câu sau của
   cùng một 問題 đã bị gợi ý mất rồi. Còn câu trống thì nút nộp hỏi lại một nhịp.
+- Nhưng khi đang **luyện**, mỗi câu có nút **Kiểm tra** để chấm riêng câu đó ngay: đáp
+  án đúng tô xanh, lựa chọn sai đã chọn tô đỏ, viền câu đổi theo, hiện lý do đúng / sai
+  của từng lựa chọn (`choiceNotes`) và lời giải, kèm tiếng báo. Câu đã kiểm tra thì khoá,
+  không đổi đáp án được nữa — nộp bài vẫn chấm cả đề như thường. Công tắc **Chấm ngay khi
+  chọn** trên thanh đầu bỏ luôn cú bấm "Kiểm tra" (bật giữa chừng thì chấm luôn các câu
+  đã chọn), nhớ trong localStorage (`riki:test-instant-check`). Thanh đầu đếm thêm "Đã
+  kiểm tra: đúng X/Y". Bài kiểm tra nhập môn không có hai thứ này: nó đo trình độ.
 - Phần 読解: các câu dùng chung một bài đọc được gom lại, bài đọc in **một lần** cho
   cả nhóm.
 - Nút **toàn màn hình** cho lúc muốn làm bài mà không thấy gì khác.
@@ -176,6 +183,12 @@ localStorage (`riki:notes:<học phần>`, khoá theo phần học / bài / id c
 có ghi chú thì nút có thêm một chấm. Xoá trắng ô là xoá ghi chú (`core/services/note-store.ts`,
 `features/shared/question-note`).
 
+Ô ghi chú này có ở mọi chỗ trả lời trắc nghiệm: màn hình làm đề, thẻ luyện tập (cả khi gõ
+đáp án), khối câu hỏi của bài đọc / bài nghe, và màn hình kết quả. Ở thẻ luyện tập, ghi
+chú khoá theo **từ / chữ Hán / câu ví dụ** đang hỏi (`PracticeQuestion.noteId`) chứ không
+theo câu hỏi: 家賃 hỏi Nhật → Việt hay hỏi cách đọc đều mở ra cùng một ghi chú, và phiên
+sau gặp lại từ đó vẫn thấy.
+
 Xong bài thì sang màn hình kết quả dùng chung với luyện tập: điểm tổng, điểm từng kỹ
 năng, và danh sách từng câu để xem lại. Câu nào có `choiceNotes` thì phần xem lại in cả
 bốn lựa chọn kèm dấu ✔ / ✘ và lời giải thích của từng cái, rồi tới `explanation` chốt
@@ -189,8 +202,9 @@ gần nhất. Lọc được "Chưa luyện / Đã luyện", xếp được theo
 Danh sách lấy từ danh mục bài (`index.json` có thêm `groups` của bài từ vựng), nên dòng
 chưa luyện lần nào vẫn hiện — đó mới là thứ trang này cần chỉ ra.
 
-Số lần còn hiện ngay trên thẻ bài ("Luyện 3 lần" / "Chưa luyện"), trên từng dòng cụm của
-bảng Tóm tắt bài và trên nút BTVN. Một phiên luyện theo cụm tính cho cả cụm lẫn bài;
+Số lần còn hiện ngay trên thẻ bài ("Luyện 3 lần" / "Chưa luyện"), trên đầu khung thiết
+lập luyện tập và khung làm đề của trang bài, trên từng dòng cụm của bảng Tóm tắt bài, trên
+nút BTVN (cả của bài kanji), và màn kết quả ghi "Lần luyện thứ N". Một phiên luyện theo cụm tính cho cả cụm lẫn bài;
 luyện cả bài thì chỉ tính cho bài. Tiến độ lưu trong localStorage của trình duyệt, nên
 các lần luyện trước khi có thống kê theo cụm chỉ còn tính cho cả bài.
 
@@ -249,6 +263,26 @@ vốn là dịch câu ví dụ nên chấm và tự xác nhận theo cùng cách
 Chấm xong cả thẻ thì hiện **toàn bộ câu ví dụ** của từ đó, có tô đậm từ đang học trong
 câu — hiện sớm hơn thì câu điền chỉ còn là chép lại chỗ vừa đọc. Bài kanji hiện danh
 sách từ ghép theo cùng cách.
+
+Chấm xong mỗi câu thì phát **tiếng báo đúng / sai** (hai nốt sin tổng hợp bằng Web Audio,
+chép từ riki_N4): quãng năm đi lên khi đúng, quãng ba thứ đi xuống khi sai. Khối câu hỏi
+của bài đọc / bài nghe cũng vậy; màn hình làm đề thì không, vì đề chỉ chấm lúc nộp. Nút
+loa trên thanh đầu trang bật / tắt, nhớ trong localStorage (`riki:sound`).
+
+### Luyện từ ghép của bài kanji
+
+Khung thiết lập của bài kanji có thêm hàng **Luyện: Chữ Hán / Từ vựng (N từ)**. Chọn Từ vựng
+thì các từ ghép in trên thẻ (家賃, 賃貸, 費やす…) thành một bài từ vựng, luyện theo bốn chiều
+của phần Từ vựng: Nhật → Việt, Việt → Nhật (kèm câu ví dụ đi kèm để điền), Nhật → Cách đọc
+và Điền từ vào câu. Từ nằm dưới hai chữ (賃貸) chỉ hỏi một lần; sau khi chấm, thẻ in các
+chữ Hán của bài có trong từ (`賃 NHẪM · thuê`, `貸 THẢI · cho mượn`).
+
+Câu ví dụ lấy từ mọi thẻ của bài, và chỉ tính cho một từ khi câu chứa **đúng mặt chữ** của
+nó: 貸す trong 貸した thì không khoét (đoán chỗ dừng của đuôi chia dễ sai), 賃金 nằm trong
+最低賃金 cũng không. Không có hai chiều Hán Việt (từ ghép không ghi âm Hán Việt) và hai chiều
+dịch câu (một câu thường chứa vài từ ghép, dịch theo từng từ thì một câu ra mấy lần). Phiên
+luyện từ vẫn tính vào tiến độ của bài kanji đó (`kanjiWordsUnit` trong
+`core/practice/build-questions.ts`).
 
 Trang luyện tập và trang kết quả nằm dưới địa chỉ của bài đang luyện, ví dụ
 `/n3-junbi/vocabulary/02-dong-tu/practice`, nên mục menu của phần đó vẫn sáng. F5 giữa

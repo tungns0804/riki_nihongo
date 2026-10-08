@@ -6,8 +6,8 @@ import { LanguageStore } from '../../core/i18n/language-store';
 import type { MessageKey } from '../../core/i18n/messages';
 import { T } from '../../core/i18n/t';
 import { scoreBySkill } from '../../core/models/practice.model';
-import { ContentStore } from '../../core/services/content-store';
 import { PracticeSessionStore } from '../../core/services/practice-session-store';
+import { ProgressStore } from '../../core/services/progress-store';
 import { QuestionNote } from '../shared/question-note/question-note';
 
 /** Nhãn của một kỹ năng lấy luôn từ tên phần học tương ứng. */
@@ -31,7 +31,7 @@ const SKILL_LABEL_KEY: Record<string, MessageKey> = Object.fromEntries(
 })
 export class Result {
   private readonly session = inject(PracticeSessionStore);
-  private readonly content = inject(ContentStore);
+  private readonly progress = inject(ProgressStore);
   private readonly lang = inject(LanguageStore);
 
   protected readonly t = this.lang.t.bind(this.lang);
@@ -67,21 +67,12 @@ export class Result {
   });
 
   /**
-   * Phiên vừa rồi là một ĐỀ (bài có `"kind": "test"`) — chỉ khi đó mỗi câu mới có ô
-   * "Ghi chú của tôi", cùng ghi chú đã viết lúc làm đề.
-   *
-   * Câu luyện tập tự dựng từ bảng từ vựng thì không: mỗi lần luyện là một bộ câu trộn
-   * khác, ghi chú gắn vào đó thì lần sau không bao giờ gặp lại.
+   * Phiên vừa xong là lần luyện thứ mấy của bài. Đọc SAU khi màn luyện tập đã ghi tiến
+   * độ (xem `Practice.finish`), nên con số đã gồm cả lần này.
    */
-  protected readonly isTest = computed(() => {
-    const config = this.summary()?.config;
-    if (!config) return false;
-    return this.content
-      .units()
-      .some(
-        (entry) =>
-          entry.moduleId === config.moduleId && entry.id === config.unitId && entry.kind === 'test',
-      );
+  protected readonly attempts = computed(() => {
+    const unitId = this.summary()?.config.unitId;
+    return unitId ? (this.progress.of(unitId)?.attempts ?? 0) : 0;
   });
 
   protected readonly skillScores = computed(() => {

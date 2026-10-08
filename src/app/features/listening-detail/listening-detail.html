@@ -81,7 +81,7 @@
             }
 
             @if (track.questions.length > 0) {
-              <app-quiz-block [questions]="track.questions" />
+              <app-quiz-block [questions]="track.questions" [moduleId]="moduleId()" [unitId]="id()" />
             }
           </div>
         </article>

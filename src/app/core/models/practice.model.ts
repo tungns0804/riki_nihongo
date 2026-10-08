@@ -77,6 +77,17 @@ export interface PracticeConfig {
  */
 export interface PracticeQuestion {
   id: string;
+  /**
+   * Khoá của ô "Ghi chú của tôi" trên thẻ: id của TỪ, CHỮ HÁN hay CÂU VÍ DỤ đang hỏi,
+   * không phải id câu hỏi.
+   *
+   * Câu hỏi tự dựng đổi id theo chiều hỏi (家賃 hỏi Nhật → Việt và hỏi cách đọc là hai
+   * câu), và mỗi phiên trộn một bộ câu khác. Ghi chú gắn vào câu hỏi thì lần sau gặp
+   * lại đúng từ đó ở chiều khác sẽ không thấy. Gắn vào từ thì luyện chiều nào, phiên nào
+   * cũng mở ra đúng ghi chú đã viết. Câu viết sẵn trong đề thì là chính id câu hỏi —
+   * cùng khoá với ghi chú trên màn hình làm đề.
+   */
+  noteId: string;
   skill: SkillId;
   /** Câu dẫn. Với câu tự dựng thì đây chính là từ/chữ được hỏi. */
   prompt: string;

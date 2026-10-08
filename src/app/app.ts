@@ -18,6 +18,7 @@ import { COURSES, courseById, moduleByPath, modulesOf } from './core/course/cour
 import { LanguageStore } from './core/i18n/language-store';
 import type { MessageKey } from './core/i18n/messages';
 import { T } from './core/i18n/t';
+import { FeedbackSound } from './core/services/feedback-sound';
 import { NavigationProgress } from './core/services/navigation-progress';
 import { ThemeStore } from './core/services/theme-store';
 import { UnitDirectory } from './core/services/unit-directory';
@@ -69,6 +70,7 @@ interface Crumb {
 export class App {
   protected readonly theme = inject(ThemeStore);
   protected readonly lang = inject(LanguageStore);
+  protected readonly sound = inject(FeedbackSound);
   private readonly router = inject(Router);
   private readonly units = inject(UnitDirectory);
 

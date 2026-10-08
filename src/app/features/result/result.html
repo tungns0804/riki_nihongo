@@ -3,6 +3,9 @@
     <div class="stack stack-xl">
       <section class="page-head">
         <h1>{{ data.config.unitName }}</h1>
+        @if (attempts() > 0) {
+          <p><span class="badge badge-success">{{ t('result.attemptNumber', { count: attempts() }) }}</span></p>
+        }
       </section>
 
       <section class="card">
@@ -124,16 +127,15 @@
                   </div>
                 }
 
-                <!-- Ghi chú riêng của câu, cùng kho với màn hình làm đề: viết lúc làm
-                     đề thì ở đây đọc lại được, và ngược lại. -->
-                @if (isTest()) {
-                  <app-question-note
-                    class="result-note"
-                    [moduleId]="data.config.moduleId"
-                    [unitId]="data.config.unitId"
-                    [questionId]="item.question.id"
-                  />
-                }
+                <!-- Ghi chú riêng của câu, cùng kho với màn hình làm đề và màn luyện tập:
+                     viết ở đó thì ở đây đọc lại được, và ngược lại. Khoá theo `noteId` — từ,
+                     chữ Hán hay câu ví dụ đang hỏi — nên phiên sau gặp lại vẫn thấy. -->
+                <app-question-note
+                  class="result-note"
+                  [moduleId]="data.config.moduleId"
+                  [unitId]="data.config.unitId"
+                  [questionId]="item.question.noteId"
+                />
               </div>
             </li>
           }

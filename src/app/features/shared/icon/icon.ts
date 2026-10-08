@@ -1,6 +1,14 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 
-export type IconName = 'globe' | 'contrast' | 'sun' | 'moon' | 'candle' | 'chevron';
+export type IconName =
+  | 'globe'
+  | 'contrast'
+  | 'sun'
+  | 'moon'
+  | 'candle'
+  | 'chevron'
+  | 'volume'
+  | 'volume-off';
 
 /**
  * Biểu tượng nét mảnh, vẽ bằng SVG nội tuyến — lấy nguyên từ minano_nihongo.
@@ -9,7 +17,7 @@ export type IconName = 'globe' | 'contrast' | 'sun' | 'moon' | 'candle' | 'chevr
  * rỗng trên nhiều máy Windows, mà đó lại là dấu hiệu duy nhất của đèn đêm khi nút thu
  * gọn nhãn — và đổi `<html lang>` là trình duyệt chọn font khác, nút nhảy kích thước.
  *
- * Chỉ có năm hình cho hai nút trên thanh trên cùng. Mục menu thì dùng chữ Hán của
+ * Chỉ có vài hình cho ba nút trên thanh trên cùng. Mục menu thì dùng chữ Hán của
  * từng phần học (xem `icon` trong course.config.ts): chữ vuông của font Nhật vẽ ổn
  * định, và là cùng chữ trên thẻ ở trang chủ.
  *
@@ -54,6 +62,16 @@ export type IconName = 'globe' | 'contrast' | 'sun' | 'moon' | 'candle' | 'chevr
         @case ('candle') {
           <path d="M12 2.5c2 2.4 3 4.1 3 5.6a3 3 0 0 1-6 0c0-1.5 1-3.2 3-5.6z" />
           <rect x="8.5" y="13" width="7" height="8.5" rx="1" />
+        }
+        @case ('volume') {
+          <path d="M3.5 9.5h3.2L11.5 5.5v13L6.7 14.5H3.5z" />
+          <path d="M15 9.4a4 4 0 0 1 0 5.2" />
+          <path d="M17.8 7a7.5 7.5 0 0 1 0 10" />
+        }
+        @case ('volume-off') {
+          <path d="M3.5 9.5h3.2L11.5 5.5v13L6.7 14.5H3.5z" />
+          <path d="m15.5 10 5 4" />
+          <path d="m20.5 10-5 4" />
         }
       }
     </svg>

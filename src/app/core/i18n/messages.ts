@@ -60,6 +60,8 @@ export const MESSAGES = {
     vi: 'Giao diện: {current} — bấm để chuyển sang {next}',
     ja: 'テーマ: {current} — クリックで{next}に切り替え',
   },
+  'sound.turnOff': { vi: 'Tắt tiếng báo đúng/sai', ja: '正誤音をオフにする' },
+  'sound.turnOn': { vi: 'Bật tiếng báo đúng/sai', ja: '正誤音をオンにする' },
 
   // ── Khoá học ───────────────────────────────────────────────────────────
   'course.label': { vi: 'Học phần', ja: 'コース' },
@@ -318,6 +320,12 @@ export const MESSAGES = {
     ja: '未解答が{count}問あります。',
   },
   'test.submitAnyway': { vi: 'Nộp luôn', ja: 'このまま提出' },
+  'test.check': { vi: 'Kiểm tra', ja: '答え合わせ' },
+  'test.instantCheck': { vi: 'Chấm ngay khi chọn', ja: '選んだらすぐ採点' },
+  'test.checkedProgress': {
+    vi: 'Đã kiểm tra: đúng {correct}/{checked}',
+    ja: '答え合わせ：{checked}問中{correct}問正解',
+  },
   'test.keepGoing': { vi: 'Làm tiếp', ja: '続ける' },
   // Học thêm trên màn hình làm đề: bản dịch của từng câu.
   'test.showAllTranslations': { vi: 'Hiện tất cả bản dịch', ja: 'すべての訳を表示' },
@@ -341,6 +349,9 @@ export const MESSAGES = {
 
   // ── Luyện tập ──────────────────────────────────────────────────────────
   'practice.setup': { vi: 'Thiết lập luyện tập', ja: '練習の設定' },
+  'practice.target': { vi: 'Luyện', ja: '練習する内容' },
+  'practice.target.kanji': { vi: 'Chữ Hán', ja: '漢字' },
+  'practice.target.words': { vi: 'Từ vựng ({count} từ)', ja: '熟語（{count}語）' },
   'practice.mode': { vi: 'Kiểu trả lời', ja: '解答方式' },
   'practice.mode.choice': { vi: 'Trắc nghiệm', ja: '選択式' },
   'practice.mode.typing': { vi: 'Gõ đáp án', ja: '入力式' },
@@ -391,6 +402,7 @@ export const MESSAGES = {
 
   // ── Kết quả ────────────────────────────────────────────────────────────
   'result.percent': { vi: '{percent}%', ja: '{percent}%' },
+  'result.attemptNumber': { vi: 'Lần luyện thứ {count}', ja: '{count}回目の練習' },
   'result.score': { vi: '{correct}/{total} câu đúng', ja: '{total}問中{correct}問正解' },
   'result.again': { vi: 'Luyện lại', ja: 'もう一度' },
   'result.review': { vi: 'Xem lại từng câu', ja: '問題を振り返る' },
