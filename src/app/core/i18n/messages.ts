@@ -334,6 +334,22 @@ export const MESSAGES = {
   },
   'test.original': { vi: 'Bản gốc', ja: '原文' },
   'test.referenceTranslation': { vi: 'Bản dịch tham khảo', ja: '参考訳' },
+  // Ghi chú riêng của người học ở từng câu đề: màn hình làm đề và màn hình kết quả.
+  'note.show': { vi: 'Ghi chú của tôi', ja: '自分のメモ' },
+  'note.hide': { vi: 'Ẩn ghi chú', ja: 'メモを隠す' },
+  'note.has': { vi: 'Câu này đã có ghi chú', ja: 'メモあり' },
+  'note.placeholder': {
+    vi: 'Ghi lại điều cần nhớ ở câu này: mẫu ngữ pháp, chỗ hay nhầm, câu ví dụ…',
+    ja: 'この問題で覚えておきたいこと：文型、間違えやすい点、例文など',
+  },
+  'note.autosave': {
+    vi: 'Tự động lưu trên trình duyệt này.',
+    ja: 'このブラウザに自動保存されます。',
+  },
+  'note.saveFailed': {
+    vi: 'Trình duyệt đang chặn bộ nhớ (ẩn danh hoặc đầy) — ghi chú này chưa được lưu.',
+    ja: 'ブラウザの保存領域が使えません（シークレットモードや容量不足）。メモは保存されていません。',
+  },
 
   // ── Luyện tập ──────────────────────────────────────────────────────────
   'practice.setup': { vi: 'Thiết lập luyện tập', ja: '練習の設定' },

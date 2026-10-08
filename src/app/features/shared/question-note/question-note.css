@@ -1,0 +1,63 @@
+.note {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.note-toggle {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Cùng kiểu với nút bản dịch đang bật trên trang làm đề. */
+.note-toggle.is-on {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 620;
+}
+
+/* Câu đã có ghi chú: một chấm nhỏ trên nút, đủ để biết mà không phải mở từng câu. */
+.note-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.note-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Ô viết rộng và cao sẵn tám dòng: ghi chú ngữ pháp thường dài, mà ô thấp thì vừa gõ
+   vừa phải cuộn trong ô. Vẫn kéo cao thêm được. Font chữ Nhật (có đủ dấu tiếng Việt)
+   vì ghi chú trộn cả hai thứ tiếng. */
+.note-input {
+  width: 100%;
+  min-height: 11rem;
+  resize: vertical;
+  font-family: var(--font-jp);
+  font-size: var(--fs-md);
+  line-height: 1.7;
+}
+
+.note-status {
+  margin: 0;
+}
+
+.note-status.is-error {
+  color: var(--danger);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

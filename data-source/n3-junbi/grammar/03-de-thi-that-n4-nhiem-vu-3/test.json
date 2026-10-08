@@ -1,0 +1,736 @@
+{
+  "sections": [
+    {
+      "id": "n4-nv3",
+      "title": "文法 — Đề thi thật ôn tập N4 · Nhiệm vụ 3 (28 câu)",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n4-3-01",
+          "promptJapanese": "留学中、ときどき家族（　）手紙が届き、本当にうれしかった。 (12/2017)",
+          "promptReading": "りゅうがくちゅう、ときどきかぞく（　）てがみがとどき、ほんとうにうれしかった。 (12/2017)",
+          "promptVietnamese": "Trong thời gian du học, thỉnh thoảng lại nhận được thư （　） gia đình, tôi thật sự rất vui.",
+          "choices": [
+            "と",
+            "から",
+            "との",
+            "からの"
+          ],
+          "choicesVietnamese": [
+            "と · và, cùng với",
+            "から · từ (gắn vào động từ: 家族から届く)",
+            "との · với… (bổ nghĩa cho danh từ: 友達との約束)",
+            "からの · từ… (bổ nghĩa cho danh từ: 家族からの手紙)"
+          ],
+          "choiceNotes": [
+            "家族と手紙 = \"gia đình VÀ lá thư\" — thành ra cả gia đình lẫn lá thư cùng được gửi tới. Vô nghĩa.",
+            "Đứng riêng thì 家族から手紙が届き vẫn đúng ngữ pháp (から gắn vào động từ 届く). Nhưng đề đặt hai cặp と／との và から／からの để hỏi chỗ trống nằm GIỮA HAI DANH TỪ 家族 và 手紙 — nối hai danh từ thì phải có の.",
+            "との chỉ đi với danh từ là việc làm CÙNG ai đó (友達との約束, 先生との話). Lá thư không phải việc làm cùng gia đình.",
+            "Đúng: N1からのN2 = N2 đến từ N1: 家族からの手紙 = thư từ gia đình gửi."
+          ],
+          "answer": 4,
+          "explanation": "Trợ từ (から, で, へ, と…) muốn bổ nghĩa cho một danh từ thì phải thêm の: 家族からの手紙, 東京での生活, 友達への手紙, 先生との約束. Lưu ý: với câu chép ở đây (có 届き), 家族から手紙が届き cũng là câu đúng — đáp án theo ý đề là からの."
+        },
+        {
+          "id": "n4-3-02",
+          "promptJapanese": "旅行の楽しみの一つは、そこ（　）食べられない料理を食べることだ。 (12/2017)",
+          "promptReading": "りょこうのたのしみのひとつは、そこ（　）たべられないりょうりをたべることだ。 (12/2017)",
+          "promptVietnamese": "Một trong những niềm vui của du lịch là được ăn những món （　） ở đó mới ăn được.",
+          "choices": [
+            "でしか",
+            "だけの",
+            "にだけ",
+            "での"
+          ],
+          "choicesVietnamese": [
+            "でしか · chỉ (ở nơi đó) — luôn đi với thể phủ định",
+            "だけの · chỉ có… (bổ nghĩa cho danh từ)",
+            "にだけ · chỉ ở / chỉ cho (に＋だけ)",
+            "での · ở… (bổ nghĩa cho danh từ)"
+          ],
+          "choiceNotes": [
+            "Đúng: Nでしか＋V phủ định = chỉ ở N mới V được: そこでしか食べられない = chỉ ở đó mới ăn được. しか luôn đi với phủ định — và vế sau đúng là 食べられない.",
+            "だけの phải đứng sát danh từ nó bổ nghĩa (そこだけの料理), không chen 食べられない vào giữa được; nghĩa cũng thành \"món không ăn được\" thật.",
+            "Nơi diễn ra hành động 食べる dùng で, không dùng に; và だけ＋phủ định thành \"chỉ ở đó là KHÔNG ăn được\" — ngược ý.",
+            "での bổ nghĩa cho danh từ, chen 食べられない vào giữa thì câu gãy; nghĩa cũng thành \"món không ăn được\"."
+          ],
+          "answer": 1,
+          "explanation": "～しか＋phủ định = chỉ… mà thôi (nhấn mạnh sự ít ỏi). Đứng sau trợ từ được: でしか, にしか, からしか. Dịch sang tiếng Việt thành câu khẳng định: そこでしか食べられない = chỉ ở đó mới ăn được."
+        },
+        {
+          "id": "n4-3-03",
+          "promptJapanese": "りんごはそのまま食べるのもおいしいが、ジャム（　）おいしい。 (12/2017)",
+          "promptReading": "りんごはそのままたべるのもおいしいが、ジャム（　）おいしい。 (12/2017)",
+          "promptVietnamese": "Táo ăn ngay như thế cũng ngon, nhưng （　） mứt cũng ngon.",
+          "choices": [
+            "にしても",
+            "にするのに",
+            "になると",
+            "になって"
+          ],
+          "choicesVietnamese": [
+            "にしても · (dù) làm thành… thì cũng (に＋して＋も)",
+            "にするのに · để làm thành… / làm thành… vậy mà",
+            "になると · hễ trở thành… thì",
+            "になって · trở thành… rồi / vì trở thành…"
+          ],
+          "choiceNotes": [
+            "Đúng: ジャムにする = làm thành mứt; thêm ～ても: ジャムにしても = làm thành mứt THÌ CŨNG (ngon). も ở đây song song với も trong 食べるのもおいしい ở vế trước.",
+            "～のに có hai nghĩa: \"để (làm)\" (ジャムにするのに砂糖を使う) và \"vậy mà\". Cả hai đều không nối thẳng vào おいしい được.",
+            "Chủ ngữ là りんご: ジャムになる = táo TỰ biến thành mứt — táo không tự thành mứt, phải có người làm (する). Lại mất ý \"cũng\" song song với vế trước.",
+            "Thể て ở đây chỉ nguyên nhân — \"vì thành mứt nên ngon\" — không hợp với ý \"ăn ngay cũng ngon, làm mứt cũng ngon\"."
+          ],
+          "answer": 1,
+          "explanation": "Nにする = làm cho thành N (có người tác động); Nになる = trở thành N (tự biến đổi). Vて＋も = kể cả khi… cũng. Câu đặt hai cách ăn song song: そのまま食べるのもおいしいが、ジャムにしてもおいしい."
+        },
+        {
+          "id": "n4-3-04",
+          "promptJapanese": "中村：「課長、昨日（　）お土産のチョコレート、とてもおいしかったです。ありがとうございました。」\n課長：「ああ、それはよかった。」 (12/2017)",
+          "promptReading": "なかむら：「かちょう、きのう（　）おみやげのチョコレート、とてもおいしかったです。ありがとうございました。」\nかちょう：「ああ、それはよかった。」 (12/2017)",
+          "promptVietnamese": "Nakamura: 「Trưởng phòng ơi, hộp sô-cô-la quà mà hôm qua em （　） ngon lắm ạ. Em cảm ơn anh.」\nTrưởng phòng: 「À, thế thì tốt quá.」",
+          "choices": [
+            "おりました",
+            "まいりました",
+            "なさった",
+            "いただいた"
+          ],
+          "choicesVietnamese": [
+            "おりました · (tôi) đã ở — khiêm nhường của いた",
+            "まいりました · (tôi) đã đi / đến — khiêm nhường của 行った／来た",
+            "なさった · (người trên) đã làm — tôn kính của した",
+            "いただいた · (tôi) đã nhận — khiêm nhường của もらった"
+          ],
+          "choiceNotes": [
+            "おる là khiêm nhường của いる (ở). \"Món quà mà hôm qua tôi ở\" — vô nghĩa.",
+            "まいる là khiêm nhường của 行く／来る, không có nghĩa nhận quà.",
+            "なさる là tôn kính của する. \"Món quà mà trưởng phòng đã LÀM\" thì không đúng — nếu nói theo chiều trưởng phòng tặng thì phải là くださった.",
+            "Đúng: người nhận là Nakamura (mình), người tặng là trưởng phòng (người trên) → khiêm nhường của もらう là いただく: 昨日いただいたお土産."
+          ],
+          "answer": 4,
+          "explanation": "Mình nhận đồ của người trên: もらう → いただく (khiêm nhường, chủ ngữ là mình). Người trên cho mình: くれる → くださる (tôn kính, chủ ngữ là người trên). Câu nói theo góc nhìn của Nakamura: 課長に昨日いただいたお土産."
+        },
+        {
+          "id": "n4-3-05",
+          "promptJapanese": "（電話で）\n店員：「お電話ありがとうございます。さくら美容院（　）。」\n客：「すみません、今日予約したいんですが。」\n店員：「はい、ありがとうございます。何時ごろがよろしいでしょうか。」 (12/2017)",
+          "promptReading": "（でんわで）\nてんいん：「おでんわありがとうございます。さくらびよういん（　）。」\nきゃく：「すみません、きょうよやくしたいんですが。」\nてんいん：「はい、ありがとうございます。なんじごろがよろしいでしょうか。」 (12/2017)",
+          "promptVietnamese": "(Qua điện thoại)\nNhân viên: 「Cảm ơn quý khách đã gọi điện. Tiệm làm tóc Sakura （　）.」\nKhách: 「Xin lỗi, tôi muốn đặt lịch hôm nay.」\nNhân viên: 「Vâng, cảm ơn quý khách. Khoảng mấy giờ thì tiện cho quý khách ạ?」",
+          "choices": [
+            "でいらっしゃいます",
+            "でございます",
+            "と申し上げます",
+            "とおっしゃいます"
+          ],
+          "choicesVietnamese": [
+            "でいらっしゃいます · là (tôn kính, nói về người khác)",
+            "でございます · xin thưa là (dạng rất lịch sự của です)",
+            "と申し上げます · xin thưa rằng (khiêm nhường của 言う)",
+            "とおっしゃいます · (người trên) nói là / tên là (tôn kính của 言う)"
+          ],
+          "choiceNotes": [
+            "でいらっしゃる là tôn kính của だ／である, chỉ dùng cho NGƯỜI (田中様でいらっしゃいますか). Nhân viên nói về tiệm của chính mình thì không nâng lên được.",
+            "Đúng: でございます là dạng rất lịch sự của です — nhân viên xưng tên nơi làm khi nhấc máy: さくら美容院でございます.",
+            "申し上げる là khiêm nhường của 言う khi nói VỚI người trên (お礼を申し上げます). Xưng tên tiệm thì dùng でございます (hoặc ～と申します khi xưng tên người).",
+            "おっしゃる là tôn kính của 言う, dành cho lời của khách / người trên; nhân viên không tự tôn kính mình."
+          ],
+          "answer": 2,
+          "explanation": "Nghe điện thoại ở công ty, cửa hàng: ○○でございます (lịch sự), hoặc ○○の△△と申します (khiêm nhường, khi xưng tên mình). いらっしゃる・おっしゃる là tôn kính — chỉ dùng cho người khác."
+        },
+        {
+          "id": "n4-3-06",
+          "promptJapanese": "駅前にできた喫茶店はコーヒーが20種類以上あるそうだ。友達に（　）と誘われたので、今度一緒に行くことにした。 (07/2018)",
+          "promptReading": "えきまえにできたきっさてんはコーヒーがにじゅっしゅるいいじょうあるそうだ。ともだちに（　）とさそわれたので、こんどいっしょにいくことにした。 (07/2018)",
+          "promptVietnamese": "Nghe nói quán cà phê mới mở trước ga có hơn 20 loại cà phê. Được bạn rủ 「（　）」 nên tôi quyết định lần tới sẽ đi cùng.",
+          "choices": [
+            "行ってみないか",
+            "行ったらいい",
+            "行っただろう",
+            "行ってみて"
+          ],
+          "choicesVietnamese": [
+            "行ってみないか · đi thử không? (lời rủ)",
+            "行ったらいい · cứ đi thì được (lời khuyên)",
+            "行っただろう · chắc là đã đi rồi (phỏng đoán)",
+            "行ってみて · đi thử đi (bảo người nghe)"
+          ],
+          "choiceNotes": [
+            "Đúng: Vてみないか = \"(cùng) đi thử không?\" — lời RỦ, khớp với 誘われた (được rủ) và 一緒に行く (đi cùng).",
+            "行ったらいい là lời KHUYÊN người nghe tự đi (\"cậu cứ đi thử xem\") — không phải rủ đi cùng.",
+            "～ただろう là phỏng đoán chuyện đã xảy ra, không dùng để rủ.",
+            "行ってみて là bảo người nghe đi thử (một mình) — không có ý cùng đi, nên không gọi là 誘う."
+          ],
+          "answer": 1,
+          "explanation": "誘う = rủ, mời cùng làm. Lời rủ thường là Vませんか／Vないか, Vましょう／Vよう. Vてみる = thử làm: 行ってみないか = đi thử (với tớ) không?"
+        },
+        {
+          "id": "n4-3-07",
+          "promptJapanese": "（レストランで）\n客：「ランチセットを一つお願いします。」\n店員：「AセットとBセットのどちらに（　）か。」\n客：「あ、Aセットをお願いします。」",
+          "promptReading": "（レストランで）\nきゃく：「ランチセットをひとつおねがいします。」\nてんいん：「AセットとBセットのどちらに（　）か。」\nきゃく：「あ、Aセットをおねがいします。」",
+          "promptVietnamese": "(Ở nhà hàng)\nKhách: 「Cho tôi một suất cơm trưa.」\nNhân viên: 「Quý khách （　） suất A hay suất B ạ?」\nKhách: 「À, cho tôi suất A.」",
+          "choices": [
+            "食べられます",
+            "差し上げます",
+            "なさいます",
+            "ございます"
+          ],
+          "choicesVietnamese": [
+            "食べられます · ăn được / (người trên) ăn — thể khả năng hoặc tôn kính",
+            "差し上げます · (tôi) biếu — khiêm nhường của あげる",
+            "なさいます · (quý khách) làm, chọn — tôn kính của する",
+            "ございます · có / là — dạng lịch sự của ある／です"
+          ],
+          "choiceNotes": [
+            "食べる đi với を (Aセットを食べる), không đi với に; mẫu \"どちらに～か\" cần động từ chọn là する.",
+            "差し上げる là khiêm nhường của あげる (mình biếu người trên) — người chọn món là khách, không phải nhân viên biếu.",
+            "Đúng: Nにする = chọn N; tôn kính của する là なさる → どちらになさいますか = quý khách chọn cái nào ạ.",
+            "どちらにございますか = \"ở đâu ạ\" (hỏi vị trí) — không phải hỏi chọn món."
+          ],
+          "answer": 3,
+          "explanation": "Nにする = chọn / quyết định lấy N (gọi món, mua hàng). Nói với khách thì nâng động từ của khách lên: する → なさる. Mẫu quen: 何になさいますか／どちらになさいますか."
+        },
+        {
+          "id": "n4-3-08",
+          "promptJapanese": "今年は夏休みに国へ帰りません。日本で夏休み（　）過ごすのは今年が初めてです。 (07/2018)",
+          "promptReading": "ことしはなつやすみにくにへかえりません。にほんでなつやすみ（　）すごすのはことしがはじめてです。 (07/2018)",
+          "promptVietnamese": "Năm nay nghỉ hè tôi không về nước. Năm nay là lần đầu tiên tôi （　） kỳ nghỉ hè ở Nhật.",
+          "choices": [
+            "と",
+            "が",
+            "へ",
+            "を"
+          ],
+          "choicesVietnamese": [
+            "と · và, cùng với",
+            "が · trợ từ chủ ngữ",
+            "へ · về phía (hướng di chuyển)",
+            "を · trợ từ tân ngữ (khoảng thời gian được trải qua)"
+          ],
+          "choiceNotes": [
+            "夏休みと過ごす = \"trải qua cùng với kỳ nghỉ hè\" — と chỉ người cùng làm (家族と過ごす), không chỉ khoảng thời gian.",
+            "が đánh dấu chủ ngữ; kỳ nghỉ hè không phải thứ \"trải qua\" — người nói mới là người trải qua.",
+            "へ chỉ hướng di chuyển, không đi với 過ごす.",
+            "Đúng: 過ごす là tha động từ, khoảng thời gian được trải qua là tân ngữ → 夏休みを過ごす."
+          ],
+          "answer": 4,
+          "explanation": "時間を過ごす = trải qua (một khoảng thời gian): 休みを過ごす, 楽しい時間を過ごす. Nơi chốn dùng で (日本で), người cùng dùng と (家族と)."
+        },
+        {
+          "id": "n4-3-09",
+          "promptJapanese": "昨日、孫はとても疲れていたので、夕飯の後、電気（　）消さないでソファーで寝てしまった。 (12/2018)",
+          "promptReading": "きのう、まごはとてもつかれていたので、ゆうはんのあと、でんき（　）けさないでソファーでねてしまった。 (12/2018)",
+          "promptVietnamese": "Hôm qua cháu tôi mệt quá nên sau bữa tối đã ngủ luôn trên sofa mà （　） tắt đèn.",
+          "choices": [
+            "も",
+            "と",
+            "が",
+            "で"
+          ],
+          "choicesVietnamese": [
+            "も · đến cả, ngay cả (nhấn mạnh)",
+            "と · và, cùng với",
+            "が · trợ từ chủ ngữ",
+            "で · bằng / ở"
+          ],
+          "choiceNotes": [
+            "Đúng: Nも＋phủ định = đến cả N cũng không…: 電気も消さないで = đến đèn cũng không tắt — mệt tới mức việc đơn giản nhất cũng bỏ qua. も thay vào chỗ của を.",
+            "電気と消さないで = \"cùng với đèn\" — と không thay được を của tân ngữ.",
+            "消す là tha động từ, cần tân ngữ を. Muốn dùng が thì phải là tự động từ 消える (電気が消えない).",
+            "で chỉ công cụ / nơi chốn; \"tắt bằng đèn\" vô nghĩa."
+          ],
+          "answer": 1,
+          "explanation": "Vないで = không làm V mà (làm việc khác). も đặt vào chỗ を／が để nhấn mạnh \"đến cả\": 電気も消さないで寝た, 朝ご飯も食べないで出かけた."
+        },
+        {
+          "id": "n4-3-10",
+          "promptJapanese": "隣の席の山川さんは、文句が多い。いつも（　）言っています。 (12/2018)",
+          "promptReading": "となりのせきのやまかわさんは、もんくがおおい。いつも（　）いっています。 (12/2018)",
+          "promptVietnamese": "Anh Yamakawa ngồi bàn bên cạnh hay phàn nàn lắm. Lúc nào cũng nói （　）.",
+          "choices": [
+            "疲れて仕事が多くて",
+            "疲れたし仕事が多いし",
+            "疲れたり仕事が多かったり",
+            "疲れたとか仕事が多いとか"
+          ],
+          "choicesVietnamese": [
+            "疲れて仕事が多くて · mệt rồi nhiều việc (nối câu bằng thể て)",
+            "疲れたし仕事が多いし · vừa mệt lại vừa nhiều việc (kể lý do)",
+            "疲れたり仕事が多かったり · lúc thì mệt, lúc thì nhiều việc (kể việc / trạng thái)",
+            "疲れたとか仕事が多いとか · nào là \"mệt\", nào là \"nhiều việc\" (kể lời nói)"
+          ],
+          "choiceNotes": [
+            "Thể て chỉ nối câu (nguyên nhân, thứ tự); không dẫn được nội dung của 言う.",
+            "～し～し liệt kê lý do để đi tới một kết luận (疲れたし、仕事が多いし、帰りたい); không làm phần trích dẫn cho 言う được.",
+            "～たり～たり liệt kê việc / trạng thái và phải kết bằng する (疲れたり忙しかったりする). Ở đây động từ là 言う nên không hợp.",
+            "Đúng: ～とか～とか言う = nói nào là… nào là… (dẫn ví dụ những điều người khác hay nói). とか làm việc như と trích dẫn."
+          ],
+          "answer": 4,
+          "explanation": "Dẫn lời nói: 「…」と言う. Kể vài ví dụ lời nói: ～とか～とか言う — hay dùng khi phàn nàn về ai đó: 忙しいとか疲れたとか、文句ばかり言っている."
+        },
+        {
+          "id": "n4-3-11",
+          "promptJapanese": "私はダンスが大好きで、毎日練習している。私より上手な人はたくさんいるが、ダンスが好きだという気持ちは（　）負けない。 (12/2018)",
+          "promptReading": "わたしはダンスがだいすきで、まいにちれんしゅうしている。わたしよりじょうずなひとはたくさんいるが、ダンスがすきだというきもちは（　）まけない。 (12/2018)",
+          "promptVietnamese": "Tôi rất mê nhảy và ngày nào cũng tập. Người nhảy giỏi hơn tôi thì nhiều, nhưng về tình yêu với nhảy thì tôi không thua （　）.",
+          "choices": [
+            "誰には",
+            "誰にも",
+            "誰かは",
+            "誰かも"
+          ],
+          "choicesVietnamese": [
+            "誰には · (không có cách dùng này)",
+            "誰にも · (không…) với bất kỳ ai — đi với phủ định",
+            "誰かは · ai đó thì…",
+            "誰かも · (không có cách dùng này)"
+          ],
+          "choiceNotes": [
+            "Từ để hỏi＋には không tạo ra nghĩa \"bất kỳ ai\".",
+            "Đúng: 誰にも＋phủ định = không… với bất kỳ ai. 負ける đi với に (Nに負ける = thua N) → 誰にも負けない = không thua bất cứ ai.",
+            "誰か = ai đó (một người không xác định) — \"ai đó thì không thua\" không hợp ý.",
+            "誰かも không phải dạng có trong tiếng Nhật."
+          ],
+          "answer": 2,
+          "explanation": "Từ để hỏi＋(trợ từ)＋も＋phủ định = hoàn toàn không: 誰も来ない, 何も食べない, どこにも行かない, 誰にも負けない. Trợ từ của động từ (に, と, から…) giữ lại, chen giữa từ để hỏi và も."
+        },
+        {
+          "id": "n4-3-12",
+          "promptJapanese": "（さくらホテルのホームページで）\nさくらホテルの会員に（　）「ホームページからのお申し込み」、または「郵送でのお申し込み」の二つの方法があります。 (12/2018)",
+          "promptReading": "（さくらホテルのホームページで）\nさくらホテルのかいいんに（　）「ホームページからのおもうしこみ」、または「ゆうそうでのおもうしこみ」のふたつのほうほうがあります。 (12/2018)",
+          "promptVietnamese": "(Trên trang web của khách sạn Sakura)\n（　） hội viên của khách sạn Sakura thì có hai cách: \"Đăng ký qua trang web\" hoặc \"Đăng ký qua đường bưu điện\".",
+          "choices": [
+            "なるには",
+            "するよりは",
+            "なるかどうか",
+            "することは"
+          ],
+          "choicesVietnamese": [
+            "なるには · để trở thành… thì",
+            "するよりは · so với việc làm… thì",
+            "なるかどうか · có trở thành… hay không",
+            "することは · việc làm… thì"
+          ],
+          "choiceNotes": [
+            "Đúng: Vる＋には = để (đạt được) V thì…: 会員になるには、二つの方法があります. Vế sau nói cách thức / điều kiện cần.",
+            "会員にする = biến (ai đó) thành hội viên — chủ thể thành khách sạn; よりは là so sánh, mà vế sau không có gì để so.",
+            "なるかどうか = có thành hội viên hay không — vế sau phải là chưa biết / chưa quyết (…かどうか決めていない), không phải \"có hai cách\".",
+            "会員にすることは cũng là \"khách sạn biến ai đó thành hội viên\"; và ～ことは không nói được mục đích."
+          ],
+          "answer": 1,
+          "explanation": "Vる＋には＋(cần / có cách / mất bao lâu…) = để V thì…: 駅へ行くには、バスが便利です. Khác ために ở chỗ vế sau của には thường nói về cách thức, điều kiện, đánh giá."
+        },
+        {
+          "id": "n4-3-13",
+          "promptJapanese": "（会社で）\nA：「松さん、この書類、ここにもサインを（　）ですか。」\nB：「あ、忘れてしまった、すぐします。」 (12/2018)",
+          "promptReading": "（かいしゃで）\nA：「まつさん、このしょるい、ここにもサインを（　）ですか。」\nB：「あ、わすれてしまった、すぐします。」 (12/2018)",
+          "promptVietnamese": "(Ở công ty)\nA: 「Anh Matsu ơi, tập giấy tờ này, （　） anh ký thêm vào chỗ này nữa được không?」\nB: 「À, tôi quên mất, tôi ký ngay đây.」",
+          "choices": [
+            "してあげてもいい",
+            "してくれたらいい",
+            "してやったらいい",
+            "してもらってもいい"
+          ],
+          "choicesVietnamese": [
+            "してあげてもいい · (tôi) làm giúp (anh) có được không",
+            "してくれたらいい · (anh) làm cho thì được / ước gì (anh) làm cho",
+            "してやったらいい · làm cho (người dưới) thì được",
+            "してもらってもいい · (tôi) nhờ (anh) làm có được không"
+          ],
+          "choiceNotes": [
+            "Vてあげてもいいですか = \"tôi làm giúp anh nhé?\" — người ký thành A. Nhưng B mới là người phải ký (B trả lời すぐします).",
+            "Vてくれたらいいですか không phải mẫu nhờ vả; nhờ người khác thì là Vてくれませんか.",
+            "やる là dạng suồng sã của あげる (cho người dưới, con vật) — vừa sai người ký vừa thô với đồng nghiệp.",
+            "Đúng: Vてもらってもいいですか = cho tôi nhờ anh V được không — lời nhờ lịch sự; người ký là B, khớp với câu trả lời すぐします."
+          ],
+          "answer": 4,
+          "explanation": "Nhờ người khác làm: Vてもらえませんか／Vてもらってもいいですか／Vていただけませんか. Phân biệt chiều: Vてあげる (mình làm cho người), Vてくれる (người làm cho mình), Vてもらう (mình nhờ người làm)."
+        },
+        {
+          "id": "n4-3-14",
+          "promptJapanese": "祖母は、20年以上前に買った掃除機をまだ（　）。壊れて使えなくなるまで、新しいのは買わないと言っていた。 (12/2018)",
+          "promptReading": "そぼは、にじゅうねんいじょうまえにかったそうじきをまだ（　）。こわれてつかえなくなるまで、あたらしいのはかわないといっていた。 (12/2018)",
+          "promptVietnamese": "Bà tôi vẫn （　） chiếc máy hút bụi mua từ hơn 20 năm trước. Bà bảo chưa hỏng tới mức không dùng được thì chưa mua cái mới.",
+          "choices": [
+            "使った",
+            "使わない",
+            "使っている",
+            "使っていなかった"
+          ],
+          "choicesVietnamese": [
+            "使った · đã dùng",
+            "使わない · không dùng",
+            "使っている · đang dùng, vẫn dùng",
+            "使っていなかった · (lúc đó) đã không dùng"
+          ],
+          "choiceNotes": [
+            "まだ không đi với thể た khẳng định (まだ chỉ trạng thái đang kéo dài, hoặc việc chưa xảy ra).",
+            "まだ使わない = \"vẫn chưa dùng (tới)\" — ngược với ý bà vẫn dùng máy cũ tới khi hỏng.",
+            "Đúng: まだ＋Vている = vẫn còn đang V: まだ使っている = vẫn đang dùng. Khớp với vế sau: chưa hỏng thì chưa mua cái mới.",
+            "まだ使っていなかった = \"(lúc đó) vẫn chưa dùng\" — ngược nghĩa, và sai thời."
+          ],
+          "answer": 3,
+          "explanation": "まだ＋Vている = vẫn còn (trạng thái kéo dài tới giờ). まだ＋Vていない = vẫn chưa (việc chưa xảy ra). Gặp まだ thì nhìn vế sau để biết là \"vẫn còn\" hay \"vẫn chưa\"."
+        },
+        {
+          "id": "n4-3-15",
+          "promptJapanese": "（料理教室で）\n先生：「沸騰したら、お湯に塩とキャベツを入れて、キャベツが（　）まで待ってください。」",
+          "promptReading": "（りょうりきょうしつで）\nせんせい：「ふっとうしたら、おゆにしおとキャベツをいれて、キャベツが（　）までまってください。」",
+          "promptVietnamese": "(Ở lớp dạy nấu ăn)\nGiáo viên: 「Nước sôi thì cho muối và bắp cải vào, rồi đợi cho tới khi bắp cải （　）.」",
+          "choices": [
+            "柔らかく",
+            "柔らかくする",
+            "柔らかくになる",
+            "柔らかくなる"
+          ],
+          "choicesVietnamese": [
+            "柔らかく · mềm (dạng phó từ, chưa có động từ)",
+            "柔らかくする · làm cho mềm",
+            "柔らかくになる · (sai hình thức)",
+            "柔らかくなる · trở nên mềm"
+          ],
+          "choiceNotes": [
+            "柔らかく là dạng phó từ, phải có động từ đi sau (柔らかくなる, 柔らかく煮る); đứng trơ trước まで thì không thành câu.",
+            "柔らかくする = LÀM cho mềm, cần người làm và tân ngữ を (キャベツを柔らかくする). Câu dùng キャベツが nên phải là tự động từ.",
+            "Aい → bỏ い thêm く＋なる, không chen に: 柔らかくになる là sai. (に＋なる chỉ dùng cho tính từ な và danh từ: 静かになる.)",
+            "Đúng: キャベツが柔らかくなるまで = cho tới khi bắp cải mềm ra. Vる＋まで = cho tới khi."
+          ],
+          "answer": 4,
+          "explanation": "Aい → ～くなる (trở nên), Aな／N → ～になる. Tự động từ なる đi với が (キャベツが柔らかくなる), tha động từ する đi với を (キャベツを柔らかくする). Vる＋まで待つ = đợi cho tới khi."
+        },
+        {
+          "id": "n4-3-16",
+          "promptJapanese": "社長はいつも私たちのために、出張帰りにお土産を買ってきて（　）。 (07/2019)",
+          "promptReading": "しゃちょうはいつもわたしたちのために、しゅっちょうがえりにおみやげをかってきて（　）。 (07/2019)",
+          "promptVietnamese": "Giám đốc lúc nào cũng vì chúng tôi mà （　） quà mua về mỗi lần đi công tác.",
+          "choices": [
+            "くださいます",
+            "いただきます",
+            "さしあげます",
+            "召し上がります"
+          ],
+          "choicesVietnamese": [
+            "くださいます · (người trên) làm cho tôi — tôn kính của くれる",
+            "いただきます · (tôi) được nhận / được làm cho — khiêm nhường của もらう",
+            "さしあげます · (tôi) làm cho người trên — khiêm nhường của あげる",
+            "召し上がります · (người trên) ăn, uống — tôn kính của 食べる／飲む"
+          ],
+          "choiceNotes": [
+            "Đúng: chủ ngữ là 社長 (người trên), việc làm hướng về phía \"chúng tôi\" → Vてくださる (tôn kính của Vてくれる).",
+            "Vていただく có chủ ngữ là MÌNH (私たちは社長に買ってきていただく). Câu này chủ ngữ là 社長は nên không dùng được.",
+            "Vてさしあげる là mình làm cho người trên — chiều ngược lại.",
+            "召し上がる = ăn / uống (tôn kính) — không nối sau 買ってきて với nghĩa \"làm cho\" được."
+          ],
+          "answer": 1,
+          "explanation": "Chủ ngữ là người trên, làm cho mình: 社長が～てくださる. Chủ ngữ là mình, được người trên làm cho: 社長に～ていただく. Cùng một sự việc, đổi chủ ngữ là đổi động từ."
+        },
+        {
+          "id": "n4-3-17",
+          "promptJapanese": "高校の友達に会ったら、うれしくて何時間（　）話してしまった。 (07/2019)",
+          "promptReading": "こうこうのともだちにあったら、うれしくてなんじかん（　）はなしてしまった。 (07/2019)",
+          "promptVietnamese": "Gặp lại bạn thời cấp ba, vui quá nên tôi đã nói chuyện （　） mấy tiếng liền.",
+          "choices": [
+            "も",
+            "は",
+            "が",
+            "を"
+          ],
+          "choicesVietnamese": [
+            "も · đến (mấy tiếng) — nhấn mạnh số lượng nhiều",
+            "は · thì (chủ đề, đối chiếu)",
+            "が · trợ từ chủ ngữ",
+            "を · trợ từ tân ngữ"
+          ],
+          "choiceNotes": [
+            "Đúng: 何＋đơn vị＋も = nhiều đến mấy… (nhấn mạnh nhiều): 何時間も話した = nói chuyện hàng mấy tiếng liền.",
+            "何時間は không có nghĩa \"nhiều tiếng\"; は sau từ để hỏi không dùng như vậy.",
+            "Khoảng thời gian không làm chủ ngữ của 話す được.",
+            "話す lấy tân ngữ là nội dung / ngôn ngữ (日本語を話す), không phải khoảng thời gian."
+          ],
+          "answer": 1,
+          "explanation": "Số lượng＋も nhấn mạnh \"nhiều đến thế\": 3時間も待った, 何回も電話した, 何時間も話した. Khác với 何も＋phủ định (何も食べない = không ăn gì)."
+        },
+        {
+          "id": "n4-3-18",
+          "promptJapanese": "私の大学の近くには、森中駅と南川駅がありますが、（　）大学に行けます。 (07/2019)",
+          "promptReading": "わたしのだいがくのちかくには、もりなかえきとみなみかわえきがありますが、（　）だいがくにいけます。 (07/2019)",
+          "promptVietnamese": "Gần trường đại học của tôi có ga Morinaka và ga Minamikawa, （　） cũng đến trường được.",
+          "choices": [
+            "あっちこっちから",
+            "どちらからも",
+            "どっちかも",
+            "どちらかどうか"
+          ],
+          "choicesVietnamese": [
+            "あっちこっちから · từ khắp nơi, chỗ này chỗ kia",
+            "どちらからも · từ cái nào (trong hai) cũng…",
+            "どっちかも · (không có cách dùng này)",
+            "どちらかどうか · (không có cách dùng này)"
+          ],
+          "choiceNotes": [
+            "あっちこっち = khắp chỗ này chỗ kia (nhiều nơi, không xác định); câu chỉ nói tới đúng HAI ga.",
+            "Đúng: chọn trong hai thứ dùng どちら; どちら＋から＋も＋khẳng định = từ cái nào cũng…: 二つの駅のどちらからも行ける.",
+            "どっちか = một trong hai; thêm も thành どっちかも — không phải dạng đúng.",
+            "～かどうか đứng sau động từ / tính từ / danh từ để nói \"có… hay không\" (行けるかどうか); không ghép với từ để hỏi どちら."
+          ],
+          "answer": 2,
+          "explanation": "Từ để hỏi＋(trợ từ)＋も＋khẳng định = cái nào cũng: どちらも好き, どこからも見える. Hai thứ thì dùng どちら／どっち; nhiều thứ thì どれ／どこ."
+        },
+        {
+          "id": "n4-3-19",
+          "promptJapanese": "昨日はじめてパンを作ってみた。インターネットに書いてあったレシピ通りに作った（　）失敗した。 (07/2019)",
+          "promptReading": "きのうはじめてパンをつくってみた。インターネットにかいてあったレシピどおりにつくった（　）しっぱいした。 (07/2019)",
+          "promptVietnamese": "Hôm qua lần đầu tôi thử làm bánh mì. Đã làm đúng theo công thức viết trên mạng （　） vẫn hỏng.",
+          "choices": [
+            "から",
+            "のに",
+            "のは"
+          ],
+          "choicesVietnamese": [
+            "から · vì… nên",
+            "のに · vậy mà, thế mà",
+            "のは · việc… thì (danh từ hoá làm chủ đề)"
+          ],
+          "choiceNotes": [
+            "から chỉ nguyên nhân: \"vì làm đúng công thức nên hỏng\" — ngược logic.",
+            "Đúng: ～のに = vậy mà (kết quả trái với điều chờ đợi, kèm tiếc nuối): làm đúng công thức VẬY MÀ vẫn hỏng.",
+            "のは biến vế trước thành chủ đề, vế sau phải là lời nhận xét / danh từ (作ったのは私です); 失敗した không ghép như vậy."
+          ],
+          "answer": 2,
+          "explanation": "AのにB = A vậy mà B (B trái với điều A khiến người ta chờ đợi; thường kèm tiếc nuối, bất mãn). Khác けど／が ở sắc thái tiếc nuối mạnh hơn; vế sau của のに không dùng ý chí, mệnh lệnh."
+        },
+        {
+          "id": "n4-3-20",
+          "promptJapanese": "うちの近くにある美術館は9時まで営業しているから、仕事が（　）行けて便利だ。 (12/2019)",
+          "promptReading": "うちのちかくにあるびじゅつかんはくじまでえいぎょうしているから、しごとが（　）いけてべんりだ。 (12/2019)",
+          "promptVietnamese": "Bảo tàng mỹ thuật gần nhà tôi mở cửa tới 9 giờ, nên （　） vẫn đi được, rất tiện.",
+          "choices": [
+            "終わる前は",
+            "終わってからは",
+            "終わる前でも",
+            "終わってからでも"
+          ],
+          "choicesVietnamese": [
+            "終わる前は · trước khi xong thì",
+            "終わってからは · kể từ sau khi xong (thì — thay đổi từ đó về sau)",
+            "終わる前でも · kể cả trước khi xong",
+            "終わってからでも · kể cả sau khi xong"
+          ],
+          "choiceNotes": [
+            "Lý do \"mở tới 9 giờ\" không liên quan tới lúc TRƯỚC khi tan làm.",
+            "Vてからは = kể từ sau khi V (một thay đổi kéo dài: 日本に来てからは…). Không có ý \"kể cả\" để nói sự tiện lợi.",
+            "Trước khi tan làm thì đang làm việc, không đi được; \"mở tới 9 giờ\" là lý do cho việc đi SAU giờ làm.",
+            "Đúng: Vてから＋でも = kể cả sau khi V (vẫn kịp): mở tới 9 giờ nên tan làm rồi vẫn đi được."
+          ],
+          "answer": 4,
+          "explanation": "～でも = kể cả, ngay cả (khi tưởng là không được): 今からでも間に合う, 仕事が終わってからでも行ける. Vてから = sau khi V."
+        },
+        {
+          "id": "n4-3-21",
+          "promptJapanese": "先生：「田中さんが留学へ行くと言ったとき、ご両親は何と（　）。」\n田中さん：「頑張れと応援してくれました。」 (12/2019)",
+          "promptReading": "せんせい：「たなかさんがりゅうがくへいくといったとき、ごりょうしんはなんと（　）。」\nたなかさん：「がんばれとおうえんしてくれました。」 (12/2019)",
+          "promptVietnamese": "Thầy giáo: 「Khi em nói sẽ đi du học, bố mẹ em đã （　） gì?」\nTanaka: 「Bố mẹ động viên em là \"cố lên\" ạ.」",
+          "choices": [
+            "うかがいましたか",
+            "おっしゃいましたか",
+            "もうしあげましたか",
+            "お聞きになりましたか"
+          ],
+          "choicesVietnamese": [
+            "うかがいましたか · (tôi) đã hỏi / nghe / đến thăm — khiêm nhường",
+            "おっしゃいましたか · (người khác) đã nói — tôn kính của 言う",
+            "もうしあげましたか · (tôi) đã thưa — khiêm nhường của 言う",
+            "お聞きになりましたか · (người khác) đã nghe / hỏi — tôn kính của 聞く"
+          ],
+          "choiceNotes": [
+            "うかがう là khiêm nhường (mình hạ mình), không dùng cho hành động của bố mẹ Tanaka.",
+            "Đúng: người nói là bố mẹ của Tanaka, thầy nói một cách tôn trọng → tôn kính của 言う là おっしゃる: 何とおっしゃいましたか.",
+            "申し上げる là khiêm nhường của 言う — chỉ dùng cho lời của chính mình (hoặc người phía mình) nói với người trên.",
+            "お聞きになる là tôn kính của 聞く (nghe / hỏi). Nhưng 何と～ hỏi về LỜI NÓI của bố mẹ — câu trả lời 頑張れと… cũng là lời nói."
+          ],
+          "answer": 2,
+          "explanation": "Kính ngữ của 言う: おっしゃる (tôn kính, người khác nói) ⇔ 申す／申し上げる (khiêm nhường, mình nói). Giáo viên nói về bố mẹ học sinh vẫn dùng tôn kính (ご両親) vì đó là người ngoài và là người lớn."
+        },
+        {
+          "id": "n4-3-22",
+          "promptJapanese": "うちには大きさの違うフライパンが（　）あるが、使っているのは一番小さいサイズのだけだ。 (12/2019)",
+          "promptReading": "うちにはおおきさのちがうフライパンが（　）あるが、つかっているのはいちばんちいさいサイズのだけだ。 (12/2019)",
+          "promptVietnamese": "Nhà tôi có （　） cái chảo to nhỏ khác nhau, nhưng cái tôi dùng chỉ có cái cỡ nhỏ nhất.",
+          "choices": [
+            "どれ",
+            "いくつ",
+            "どれか",
+            "いくつか"
+          ],
+          "choicesVietnamese": [
+            "どれ · cái nào (từ để hỏi)",
+            "いくつ · mấy cái (từ để hỏi)",
+            "どれか · một cái nào đó",
+            "いくつか · vài cái, mấy cái"
+          ],
+          "choiceNotes": [
+            "どれ là từ để hỏi \"cái nào\" — câu này không phải câu hỏi.",
+            "いくつ một mình là để hỏi \"bao nhiêu cái\" (いくつありますか).",
+            "どれか = một cái nào đó (trong số đã biết) — chỉ một cái, không hợp với \"có các chảo cỡ khác nhau\".",
+            "Đúng: từ để hỏi＋か = không xác định: いくつか = vài cái, một số cái: フライパンがいくつかある."
+          ],
+          "answer": 4,
+          "explanation": "Từ để hỏi＋か = (một / vài)… nào đó: 誰か (ai đó), 何か (cái gì đó), どこか (đâu đó), いくつか (vài cái). いくつか đứng trước động từ như một lượng từ: 本がいくつかある."
+        },
+        {
+          "id": "n4-3-23",
+          "promptJapanese": "授業の後、昼ご飯を（　）大学の食堂に行ったが、とても込んでいたので、大学の近くのラーメン屋に食べに行った。 (12/2019)",
+          "promptReading": "じゅぎょうのあと、ひるごはんを（　）だいがくのしょくどうにいったが、とてもこんでいたので、だいがくのちかくのラーメンやにたべにいった。 (12/2019)",
+          "promptVietnamese": "Sau giờ học, tôi （　） bữa trưa nên đến nhà ăn của trường, nhưng ở đó đông quá nên tôi đi ăn ở quán ramen gần trường.",
+          "choices": [
+            "食べていて",
+            "食べようと思って",
+            "食べているのに",
+            "食べようと思うのに"
+          ],
+          "choicesVietnamese": [
+            "食べていて · đang ăn (thì / nên)",
+            "食べようと思って · định ăn nên…",
+            "食べているのに · đang ăn vậy mà",
+            "食べようと思うのに · định ăn vậy mà"
+          ],
+          "choiceNotes": [
+            "食べていて = đang ăn rồi — nhưng người nói chưa ăn được ở nhà ăn (vì đông).",
+            "Đúng: Vようと思う = định làm V; thể て nối lý do / mục đích của hành động sau: 食べようと思って食堂に行った = định ăn trưa nên đi nhà ăn.",
+            "食べているのに = \"đang ăn vậy mà\" — vô lý, chưa ăn.",
+            "\"Định ăn vậy mà lại đi nhà ăn\" — không có gì trái ngược để dùng のに; thời cũng lệch với 行った."
+          ],
+          "answer": 2,
+          "explanation": "Vよう (thể ý chí)＋と思う = định V. Nối với hành động tiếp theo bằng thể て: ～ようと思って、～ = định V nên (làm việc khác)."
+        },
+        {
+          "id": "n4-3-24",
+          "promptJapanese": "子供のころ、いつも親に絵本を（　）寝ていた。 (12/2020)",
+          "promptReading": "こどものころ、いつもおやにえほんを（　）ねていた。 (12/2020)",
+          "promptVietnamese": "Hồi nhỏ, lúc nào tôi cũng （　） truyện tranh rồi mới ngủ.",
+          "choices": [
+            "読んでくれてから",
+            "読んでもらってから",
+            "読んでくれるから",
+            "読んでもらうか"
+          ],
+          "choicesVietnamese": [
+            "読んでくれてから · (người khác) đọc cho tôi xong rồi",
+            "読んでもらってから · (tôi) được đọc cho xong rồi",
+            "読んでくれるから · vì (người khác) đọc cho",
+            "読んでもらうか · có nhờ đọc không / hay là nhờ đọc"
+          ],
+          "choiceNotes": [
+            "Vてくれる có chủ ngữ là người làm (親が読んでくれた); câu dùng 親に (người được nhờ) thì phải là もらう. Chủ ngữ của 寝ていた là \"tôi\" — hai vế lệch chủ ngữ.",
+            "Đúng: 親に～てもらう = được bố mẹ làm cho; Vてから = sau khi V: 親に絵本を読んでもらってから寝ていた = được bố mẹ đọc truyện cho rồi mới ngủ.",
+            "読んでくれるから = vì (ai đó) đọc cho — vừa sai trợ từ に vừa không có quan hệ nguyên nhân.",
+            "～か là nghi vấn / lựa chọn — không nối được với 寝ていた."
+          ],
+          "answer": 2,
+          "explanation": "NにVてもらう: chủ ngữ là MÌNH, N là người làm cho mình. NがVてくれる: chủ ngữ là người làm. Mẹo nhận nhanh: thấy [người]に → もらう."
+        },
+        {
+          "id": "n4-3-25",
+          "promptJapanese": "赤ちゃんがなかなか寝ないときは、赤ちゃんにクラシック音楽を（　）とよく寝ると聞いた。 (12/2020)",
+          "promptReading": "あかちゃんがなかなかねないときは、あかちゃんにクラシックおんがくを（　）とよくねるときいた。 (12/2020)",
+          "promptVietnamese": "Tôi nghe nói khi em bé mãi không chịu ngủ, （　） em bé nghe nhạc cổ điển thì bé sẽ ngủ ngon.",
+          "choices": [
+            "聞かせる",
+            "聞かれる",
+            "聞かされる",
+            "聞いている"
+          ],
+          "choicesVietnamese": [
+            "聞かせる · cho (ai) nghe — thể sai khiến",
+            "聞かれる · bị hỏi / bị nghe — thể bị động",
+            "聞かされる · bị bắt phải nghe — bị động sai khiến",
+            "聞いている · đang nghe"
+          ],
+          "choiceNotes": [
+            "Đúng: [người]に[vật]を聞かせる = cho người đó nghe (sai khiến): 赤ちゃんに音楽を聞かせる = cho em bé nghe nhạc. Người làm là người lớn.",
+            "聞かれる (bị động) = bị hỏi / bị nghe thấy — chủ ngữ phải là người chịu tác động; không khớp với 赤ちゃんに音楽を.",
+            "聞かされる = bị bắt nghe (thường là chuyện không muốn nghe) — chủ ngữ là em bé, sai góc nhìn và mang nghĩa tiêu cực.",
+            "聞いている cần chủ ngữ là người nghe; 赤ちゃんに音楽を聞いている sai trợ từ."
+          ],
+          "answer": 1,
+          "explanation": "Thể sai khiến V(ない)せる／させる = cho phép / bắt / làm cho ai làm gì. Động từ có tân ngữ: [người]に[vật]をVせる: 子供に本を読ませる, 赤ちゃんに音楽を聞かせる."
+        },
+        {
+          "id": "n4-3-26",
+          "promptJapanese": "日本に来たのは2度目だ。前に来たのは20年前だが、そのとき入った喫茶店がまだ（　）驚いた。 (12/2020)",
+          "promptReading": "にほんにきたのはにどめだ。まえにきたのはにじゅうねんまえだが、そのときはいったきっさてんがまだ（　）おどろいた。 (12/2020)",
+          "promptVietnamese": "Đây là lần thứ hai tôi đến Nhật. Lần trước là 20 năm về trước, vậy mà quán cà phê tôi từng vào lúc đó vẫn （　） nên tôi rất ngạc nhiên.",
+          "choices": [
+            "営業して",
+            "営業しなくて",
+            "営業していて",
+            "営業していなくて"
+          ],
+          "choicesVietnamese": [
+            "営業して · kinh doanh, mở cửa (thể て)",
+            "営業しなくて · không kinh doanh (thể て phủ định)",
+            "営業していて · vẫn đang mở cửa (nên…)",
+            "営業していなくて · không còn mở cửa (nên…)"
+          ],
+          "choiceNotes": [
+            "営業して thiếu いる: まだ cần trạng thái đang kéo dài (～ている).",
+            "まだ＋phủ định nghĩa là \"vẫn chưa\" (chưa khai trương) — vô lý với quán đã vào từ 20 năm trước.",
+            "Đúng: まだ＋Vている = vẫn còn đang…; thể て chỉ nguyên nhân của 驚いた: まだ営業していて驚いた = vẫn còn mở nên ngạc nhiên.",
+            "営業していなくて = đã đóng cửa — sau 20 năm thì chuyện bình thường, không có gì để ngạc nhiên; まだ cũng không đi với nghĩa này."
+          ],
+          "answer": 3,
+          "explanation": "Vて／Aくて／Nで＋cảm xúc (驚いた, うれしい, 困った…) = vì… nên (cảm thấy). まだ＋Vている = vẫn còn."
+        },
+        {
+          "id": "n4-3-27",
+          "promptJapanese": "今朝、電車で隣に座った人から、シャンプー（　）何（　）分からないが、とにかくいい香りがしてきた。 (12/2020)",
+          "promptReading": "けさ、でんしゃでとなりにすわったひとから、シャンプー（　）なに（　）わからないが、とにかくいいかおりがしてきた。 (12/2020)",
+          "promptVietnamese": "Sáng nay, từ người ngồi cạnh tôi trên tàu toả ra một mùi rất thơm — không biết là dầu gội （　） cái gì （　）.",
+          "choices": [
+            "は・は",
+            "か・か",
+            "が・が",
+            "で・で"
+          ],
+          "choicesVietnamese": [
+            "は・は · … thì …, … thì … (đối chiếu)",
+            "か・か · (không biết) là A hay là B",
+            "が・が · trợ từ chủ ngữ ×2",
+            "で・で · bằng / ở ×2"
+          ],
+          "choiceNotes": [
+            "は・は dùng để đối chiếu hai chủ đề (AはBだが、CはDだ) — không làm thành câu hỏi gián tiếp cho 分からない.",
+            "Đúng: AかBか分からない = không biết là A hay B; 何か = cái gì đó: シャンプーか何か = dầu gội hay cái gì đó (đại loại vậy).",
+            "が・が chỉ chủ ngữ — \"dầu gội là chủ ngữ, cái gì là chủ ngữ\" không thành câu.",
+            "で・で chỉ phương tiện / nơi chốn — vô nghĩa ở đây."
+          ],
+          "answer": 2,
+          "explanation": "Câu hỏi lồng trong câu: [mệnh đề]か分からない／知らない. Hai khả năng: AかBか分からない. Cụm quen: Nか何か = N hay cái gì đó tương tự (コーヒーか何か飲みませんか)."
+        },
+        {
+          "id": "n4-3-28",
+          "promptJapanese": "課長：「森さん、急で悪いけど出張のレポートと明日の会議の資料、今日のお昼ごろまでにできる？」\n森：「両方は難しそうです。会議の資料（　）できると思いますが。」 (12/2020)",
+          "promptReading": "かちょう：「もりさん、きゅうでわるいけどしゅっちょうのレポートとあしたのかいぎのしりょう、きょうのおひるごろまでにできる？」\nもり：「りょうほうはむずかしそうです。かいぎのしりょう（　）できるとおもいますが。」 (12/2020)",
+          "promptVietnamese": "Trưởng phòng: 「Mori này, gấp quá xin lỗi nhé, nhưng báo cáo chuyến công tác và tài liệu cho cuộc họp ngày mai, khoảng trưa nay cậu xong được không?」\nMori: 「Cả hai thì có vẻ khó ạ. （　） tài liệu cuộc họp thì tôi nghĩ là làm được.」",
+          "choices": [
+            "とても",
+            "となら",
+            "だけでも",
+            "だけなら"
+          ],
+          "choicesVietnamese": [
+            "とても · rất / (đi với phủ định) không thể nào",
+            "となら · nếu là cùng với…",
+            "だけでも · dù chỉ… thôi cũng (mức tối thiểu mong muốn)",
+            "だけなら · nếu chỉ… thôi thì"
+          ],
+          "choiceNotes": [
+            "とても là phó từ (rất), không đứng sau danh từ để nối với できる; とても＋phủ định lại thành \"hoàn toàn không thể\".",
+            "Nとなら = nếu là cùng với N (あなたとなら行く) — tài liệu không phải người cùng làm.",
+            "Nだけでも = ít nhất N cũng… — dùng khi mong muốn / đề nghị mức tối thiểu (資料だけでも先に送ってください). Ở đây Mori đang giới hạn phạm vi để nói khả năng của mình, không phải mong muốn.",
+            "Đúng: Nだけなら = nếu chỉ N thôi thì (làm được): 両方は難しいが、会議の資料だけならできる — khoanh phạm vi lại rồi mới khẳng định khả năng."
+          ],
+          "answer": 4,
+          "explanation": "～だけなら＋(khả năng) = nếu chỉ… thôi thì được: 少しだけなら飲めます. ～だけでも＋(mong muốn / đề nghị) = ít nhất… cũng: 一口だけでも食べてみて. Mẹo: vế sau là khả năng → なら; là mong muốn → でも."
+        }
+      ]
+    }
+  ]
+}

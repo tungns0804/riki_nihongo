@@ -26,6 +26,7 @@ import { ContentStore } from '../../core/services/content-store';
 import { PracticeSessionStore } from '../../core/services/practice-session-store';
 import { ProgressStore } from '../../core/services/progress-store';
 import { type TextPart, diffAgainst } from '../../core/utils/text';
+import { QuestionNote } from '../shared/question-note/question-note';
 
 /** Nhãn của một kỹ năng lấy luôn từ tên phần học tương ứng, như màn hình kết quả. */
 const SKILL_LABEL_KEY: Record<string, MessageKey> = Object.fromEntries(
@@ -100,7 +101,7 @@ interface Comparison {
  * Bố cục theo đúng trang làm bài của Riki: hàng tab theo kỹ năng, câu lệnh 問題 trong
  * khung nét đứt, mỗi câu bốn lựa chọn xếp hai cột.
  *
- * Hai thứ học thêm ở từng câu, không dính gì tới phần chấm:
+ * Ba thứ học thêm ở từng câu, không dính gì tới phần chấm:
  *
  *  - **Bản dịch** của câu hỏi và của cả bốn đáp án. Mỗi câu một nút hiện / ẩn riêng,
  *    và một nút trên thanh đầu hiện / ẩn tất cả. Mặc định ẩn: dịch đáp án ra là gần
@@ -109,6 +110,8 @@ interface Comparison {
  *    hoặc tự dịch sang tiếng Việt. So với bản gốc: viết tiếng Nhật thì tô từng chữ
  *    lệch, viết tiếng Việt thì hiện bản dịch tham khảo để tự đối chiếu — một câu dịch
  *    có nhiều cách đúng, so từng chữ thì vô nghĩa.
+ *  - **Ghi chú của tôi** (QuestionNote): ô viết rộng, đóng sẵn, LƯU LẠI trong trình
+ *    duyệt — khác ô tự viết ở trên, thứ chỉ sống tới lúc nộp bài.
  *
  * Phiên vẫn là PracticeSessionStore để dùng lại màn hình kết quả và phần ghi tiến độ,
  * nhưng chấm một lượt lúc nộp bằng `submitAll` chứ không `answer` từng câu. Nội dung
@@ -117,7 +120,7 @@ interface Comparison {
  */
 @Component({
   selector: 'app-test-run',
-  imports: [FormsModule, T],
+  imports: [FormsModule, QuestionNote, T],
   templateUrl: './test-run.html',
   styleUrl: './test-run.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -98,7 +98,8 @@ chứ không đứng ngang hàng với nó — xem "Bài tập về nhà" bên d
 
 Phần **Ngữ pháp** của N3 JUNBI có bài "Đề thi thật ôn tập N4 · Nhiệm vụ 2" — 30 câu
 文法 chép theo các đề thật 07/2014 – 07/2017, mỗi câu có bản dịch của câu hỏi và của cả
-bốn đáp án. Đây là bài dạng ĐỀ nằm giữa các bài lý thuyết, đúng như trên website Riki:
+bốn đáp án — và "Nhiệm vụ 3" (28 câu, 12/2017 – 12/2020), có thêm cách đọc, lý do
+đúng / sai của từng lựa chọn và giải thích sau khi chấm. Đây là bài dạng ĐỀ nằm giữa các bài lý thuyết, đúng như trên website Riki:
 trang bài chỉ có nút bắt đầu, bấm vào là sang màn hình làm đề
 ([cách nạp](data-source/n3-junbi/grammar/README.md)).
 
@@ -177,6 +178,13 @@ câu tiếng Nhật để luyện chữ Hán, hoặc tự dịch sang tiếng Vi
   giữa các từ và dùng 「」 thay cho gạch chân, người gõ thì không.
 - Viết **tiếng Việt**: KHÔNG chấm khớp (một câu dịch có nhiều cách đúng), chỉ hiện câu
   gốc và bản dịch tham khảo để tự đối chiếu.
+
+**Ghi chú của tôi** — nút dưới mỗi câu, bấm mới mở ra một ô viết rộng (tám dòng, kéo
+cao thêm được). Khác ô tự viết ở trên, ghi chú **được lưu**: lưu ngay mỗi lần gõ vào
+localStorage (`riki:notes:<học phần>`, khoá theo phần học / bài / id câu), nên làm lại
+đề hay mở màn hình kết quả đều thấy lại. Mặc định đóng kể cả khi đã có ghi chú — câu đã
+có ghi chú thì nút có thêm một chấm. Xoá trắng ô là xoá ghi chú (`core/services/note-store.ts`,
+`features/shared/question-note`).
 
 Xong bài thì sang màn hình kết quả dùng chung với luyện tập: điểm tổng, điểm từng kỹ
 năng, và danh sách từng câu để xem lại. Câu nào có `choiceNotes` thì phần xem lại in cả
@@ -311,7 +319,7 @@ src/app/
 │   ├── i18n/                       từ điển vi/ja, đổi ngôn ngữ lúc chạy
 │   ├── models/                     hình dạng dữ liệu học và dữ liệu luyện tập
 │   ├── practice/build-questions.ts dựng câu hỏi từ nội dung bài
-│   ├── services/                   tải nội dung, phiên luyện tập, tiến độ, tông màu
+│   ├── services/                   tải nội dung, phiên luyện tập, tiến độ, ghi chú, tông màu
 │   └── utils/                      chấm đáp án, chuẩn hoá chữ, trộn ngẫu nhiên
 └── features/
     ├── course-list/                trang gốc: năm học phần
@@ -322,7 +330,7 @@ src/app/
     ├── test-run/                   MÀN HÌNH LÀM ĐỀ: tab theo kỹ năng, nộp bài mới chấm
     ├── practice/ result/           màn hình luyện tập và màn hình kết quả (dùng chung)
     └── shared/                     bộ chọn học phần, khung thiết lập luyện tập, khung
-                                    bắt đầu làm đề, khối câu hỏi
+                                    bắt đầu làm đề, khối câu hỏi, ô ghi chú của từng câu
 ```
 
 Những điểm đáng nhớ khi sửa về sau:
@@ -335,10 +343,11 @@ Những điểm đáng nhớ khi sửa về sau:
    script, các khoá `module.<id>.*` trong `core/i18n/messages.ts`, rồi thêm id vào
    `modules` của học phần cần nó. Hình dạng dữ liệu mới thì thêm màn hình vào `DETAIL`
    của `app.routes.ts`.
-3. **Mỗi học phần một bộ store.** `ContentStore`, `ProgressStore`, `PracticeSessionStore`
-   cấp ở route cha của học phần chứ không ở gốc, vì id bài trùng nhau giữa các học phần.
-   Component vẫn `inject` như thường; học phần đang mở lấy qua token `COURSE`. Tiến độ N3
-   JUNBI giữ khoá `riki:progress` có từ trước, học phần khác là `riki:progress:<id>`.
+3. **Mỗi học phần một bộ store.** `ContentStore`, `ProgressStore`, `NoteStore`,
+   `PracticeSessionStore` cấp ở route cha của học phần chứ không ở gốc, vì id bài trùng
+   nhau giữa các học phần. Component vẫn `inject` như thường; học phần đang mở lấy qua
+   token `COURSE`. Tiến độ N3 JUNBI giữ khoá `riki:progress` có từ trước, học phần khác là
+   `riki:progress:<id>`; ghi chú luôn là `riki:notes:<id>`.
 4. **Danh sách bài dùng chung một component** (`features/unit-list`), phân biệt bằng
    `data.moduleId` của route. Màn hình chi tiết thì tách riêng theo hình dạng dữ liệu.
 5. **Phần Mimikara dùng lại màn hình Ngữ pháp** vì cùng hình dạng dữ liệu; nó là hai

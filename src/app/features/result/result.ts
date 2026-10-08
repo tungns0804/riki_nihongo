@@ -6,7 +6,9 @@ import { LanguageStore } from '../../core/i18n/language-store';
 import type { MessageKey } from '../../core/i18n/messages';
 import { T } from '../../core/i18n/t';
 import { scoreBySkill } from '../../core/models/practice.model';
+import { ContentStore } from '../../core/services/content-store';
 import { PracticeSessionStore } from '../../core/services/practice-session-store';
+import { QuestionNote } from '../shared/question-note/question-note';
 
 /** Nhãn của một kỹ năng lấy luôn từ tên phần học tương ứng. */
 const SKILL_LABEL_KEY: Record<string, MessageKey> = Object.fromEntries(
@@ -22,13 +24,14 @@ const SKILL_LABEL_KEY: Record<string, MessageKey> = Object.fromEntries(
  */
 @Component({
   selector: 'app-result',
-  imports: [RouterLink, T],
+  imports: [QuestionNote, RouterLink, T],
   templateUrl: './result.html',
   styleUrl: './result.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class Result {
   private readonly session = inject(PracticeSessionStore);
+  private readonly content = inject(ContentStore);
   private readonly lang = inject(LanguageStore);
 
   protected readonly t = this.lang.t.bind(this.lang);
@@ -61,6 +64,24 @@ export class Result {
     if (!data || !module) return this.courseHome;
     const list = ['/', this.course.id, module.path];
     return module.kind === 'test' ? list : [...list, data.config.unitId];
+  });
+
+  /**
+   * Phiên vừa rồi là một ĐỀ (bài có `"kind": "test"`) — chỉ khi đó mỗi câu mới có ô
+   * "Ghi chú của tôi", cùng ghi chú đã viết lúc làm đề.
+   *
+   * Câu luyện tập tự dựng từ bảng từ vựng thì không: mỗi lần luyện là một bộ câu trộn
+   * khác, ghi chú gắn vào đó thì lần sau không bao giờ gặp lại.
+   */
+  protected readonly isTest = computed(() => {
+    const config = this.summary()?.config;
+    if (!config) return false;
+    return this.content
+      .units()
+      .some(
+        (entry) =>
+          entry.moduleId === config.moduleId && entry.id === config.unitId && entry.kind === 'test',
+      );
   });
 
   protected readonly skillScores = computed(() => {

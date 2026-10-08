@@ -11,6 +11,7 @@ import {
 import { practiceGuard, resultGuard } from './core/guards/session.guards';
 import type { UnitKind } from './core/models/content.model';
 import { ContentStore } from './core/services/content-store';
+import { NoteStore } from './core/services/note-store';
 import { PracticeSessionStore } from './core/services/practice-session-store';
 import { ProgressStore } from './core/services/progress-store';
 
@@ -24,7 +25,7 @@ import { ProgressStore } from './core/services/progress-store';
  * một trang trắng mà không ai báo.
  *
  * Mỗi học phần là một route cha có `providers` riêng: học phần, ContentStore,
- * ProgressStore, PracticeSessionStore. Hai học phần có bài trùng id (cả hai đều có
+ * ProgressStore, NoteStore, PracticeSessionStore. Hai học phần có bài trùng id (cả hai đều có
  * `vocabulary/01-danh-tu`), mà danh mục, tiến độ và phiên luyện đều tra theo id bài —
  * dùng chung một store ở gốc thì tiến độ BTVN ghi đè lên N3 JUNBI. Tách ở cấp route
  * thì component vẫn `inject(ContentStore)` như cũ, không phải truyền học phần đi khắp nơi.
@@ -129,6 +130,7 @@ function courseRoute(course: CourseDef): Route {
       { provide: COURSE, useValue: course },
       ContentStore,
       ProgressStore,
+      NoteStore,
       PracticeSessionStore,
     ],
     children: [

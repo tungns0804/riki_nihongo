@@ -274,8 +274,14 @@
 /* Mọi thứ bên dưới câu hỏi lùi vào đúng bằng bề rộng số câu + khoảng cách, để thẳng
    hàng với chữ của câu hỏi. */
 .test-choices,
-.test-write {
+.test-write,
+.test-note {
   margin-left: calc(26px + var(--sp-3));
+}
+
+/* Thẻ của component mặc định là inline: phải là khối thì lề trái mới có tác dụng. */
+.test-note {
+  display: block;
 }
 
 /* Hai cột như đề in: bốn lựa chọn xếp một cột thì mỗi câu cao gấp đôi, mà cả tab
@@ -461,7 +467,8 @@
   }
 
   .test-choices,
-  .test-write {
+  .test-write,
+  .test-note {
     margin-left: 0;
   }
 

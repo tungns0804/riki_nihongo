@@ -123,6 +123,17 @@
                     }
                   </div>
                 }
+
+                <!-- Ghi chú riêng của câu, cùng kho với màn hình làm đề: viết lúc làm
+                     đề thì ở đây đọc lại được, và ngược lại. -->
+                @if (isTest()) {
+                  <app-question-note
+                    class="result-note"
+                    [moduleId]="data.config.moduleId"
+                    [unitId]="data.config.unitId"
+                    [questionId]="item.question.id"
+                  />
+                }
               </div>
             </li>
           }

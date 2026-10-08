@@ -1,0 +1,42 @@
+<div class="note">
+  <button
+    type="button"
+    class="btn btn-sm btn-ghost note-toggle"
+    [class.is-on]="open()"
+    [attr.aria-expanded]="open()"
+    [attr.aria-controls]="fieldId()"
+    (click)="toggle()"
+  >
+    @if (open()) {
+      {{ t('note.hide') }}
+    } @else {
+      {{ t('note.show') }}
+    }
+    @if (hasNote() && !open()) {
+      <span class="note-dot" [title]="t('note.has')" aria-hidden="true"></span>
+      <span class="visually-hidden">{{ t('note.has') }}</span>
+    }
+  </button>
+
+  @if (open()) {
+    <div class="note-panel">
+      <!-- Không dùng ngModel: chỉ cần đọc chữ lúc gõ rồi ghi vào kho, mà [value] lấy lại
+           từ kho thì mở / đóng bao nhiêu lần cũng thấy đúng chữ đã lưu. -->
+      <textarea
+        class="input note-input"
+        rows="8"
+        [id]="fieldId()"
+        [attr.aria-label]="t('note.show')"
+        [placeholder]="t('note.placeholder')"
+        [value]="text()"
+        (input)="save($any($event.target).value)"
+        spellcheck="false"
+      ></textarea>
+      @if (saveFailed()) {
+        <p class="note-status is-error small">{{ t('note.saveFailed') }}</p>
+      } @else {
+        <p class="note-status muted small">{{ t('note.autosave') }}</p>
+      }
+    </div>
+  }
+</div>

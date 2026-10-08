@@ -256,6 +256,17 @@
                           </button>
                         }
                       </div>
+
+                      <!-- Ghi chú riêng của câu này: đóng sẵn, bấm mới mở; lưu ngay khi
+                           gõ, mở lại đề hay sang màn kết quả vẫn còn. -->
+                      @if (config(); as cfg) {
+                        <app-question-note
+                          class="test-note"
+                          [moduleId]="cfg.moduleId"
+                          [unitId]="cfg.unitId"
+                          [questionId]="question.id"
+                        />
+                      }
                     </article>
                   }
                 </div>
