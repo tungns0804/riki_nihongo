@@ -4,7 +4,7 @@
     "name": "BTVN CƠ BẢN (MỚI)",
     "level": "N3"
   },
-  "generatedAt": "2026-10-08T14:54:19.223Z",
+  "generatedAt": "2026-10-08T15:58:31.980Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -164,6 +164,28 @@
           "itemCount": 10,
           "order": 8,
           "file": "kanji/08-bai-8.json"
+        },
+        {
+          "id": "09-bai-9",
+          "name": "Bài 9",
+          "description": "10 chữ đều mang bộ Bối 貝 (tiền bạc): 賃 貸 費 員 貧 賛 財 貯 敗 販",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 10,
+          "order": 9,
+          "file": "kanji/09-bai-9.json"
+        },
+        {
+          "id": "09-bai-9-btvn",
+          "name": "BTVN Bài 9",
+          "description": "Bài tập về nhà \"BTVN N3 CƠ BẢN - Kanji - Bài 9\" — 7 câu: 5 câu viết bằng chữ Hán (家賃, 貧しい, 賛成, 貯金, 敗れる), 2 câu chọn cách đọc (財布, 貯める).",
+          "kind": "test",
+          "parent": "09-bai-9",
+          "group": "",
+          "itemCount": 7,
+          "order": 901,
+          "file": "kanji/09-bai-9-btvn.json"
         }
       ]
     }

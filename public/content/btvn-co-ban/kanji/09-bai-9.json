@@ -1,0 +1,577 @@
+{
+  "id": "09-bai-9",
+  "name": "Bài 9",
+  "description": "10 chữ đều mang bộ Bối 貝 (tiền bạc): 賃 貸 費 員 貧 賛 財 貯 敗 販",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "5d503003add59979",
+      "character": "賃",
+      "hanViet": "NHẪM",
+      "meaning": "thuê",
+      "onyomi": [
+        "チン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "fd28998092534a77",
+          "japanese": "賃金",
+          "reading": "ちんぎん",
+          "vietnamese": "tiền lương, tiền công"
+        },
+        {
+          "id": "47bda3f977c80566",
+          "japanese": "最低賃金",
+          "reading": "さいていちんぎん",
+          "vietnamese": "lương tối thiểu"
+        },
+        {
+          "id": "3371583ec584c6e8",
+          "japanese": "家賃",
+          "reading": "やちん",
+          "vietnamese": "tiền thuê nhà"
+        }
+      ],
+      "mnemonic": "Dùng tiền (貝) để THUÊ người có trách nhiệm (任) về làm việc.",
+      "examples": [
+        {
+          "id": "3703b622bfe8e2a2",
+          "japanese": "東京都の最低賃金は1013円である。",
+          "reading": "とうきょうとのさいていちんぎんは1013えんである。",
+          "vietnamese": "Lương tối thiểu của Tokyo là 1013 yên.",
+          "note": "N2"
+        },
+        {
+          "id": "c95c034f510f26b7",
+          "japanese": "東京は家賃が高い。",
+          "reading": "とうきょうはやちんがたかい。",
+          "vietnamese": "Ở Tokyo tiền thuê nhà đắt.",
+          "note": ""
+        },
+        {
+          "id": "7ac1c5ea9021e24e",
+          "japanese": "賃金（月給、日給、時給を表す言葉）",
+          "reading": "ちんぎん（げっきゅう、にっきゅう、じきゅうをあらわすことば）",
+          "vietnamese": "Tiền lương (từ chỉ chung lương tháng, lương ngày, lương theo giờ).",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "a0cf26da85a74bf5",
+      "character": "貸",
+      "hanViet": "THẢI",
+      "meaning": "cho mượn",
+      "onyomi": [
+        "タイ"
+      ],
+      "kunyomi": [
+        "か.す"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d31b4142e98922e7",
+          "japanese": "貸す",
+          "reading": "かす",
+          "vietnamese": "cho mượn, cho vay"
+        },
+        {
+          "id": "7c39ed885129159b",
+          "japanese": "貸し借り",
+          "reading": "かしかり",
+          "vietnamese": "vay mượn qua lại"
+        },
+        {
+          "id": "5527a9fb9f40db3d",
+          "japanese": "賃貸",
+          "reading": "ちんたい",
+          "vietnamese": "cho thuê, đi thuê"
+        }
+      ],
+      "mnemonic": "Khi đi vay tiền (貝) phải gửi lại đồ vật đại diện (代) làm thế chấp để người ta CHO MƯỢN tiền.",
+      "examples": [
+        {
+          "id": "52b51a62765ce9e6",
+          "japanese": "知り合いにお金を貸したけど、返してもらえない。",
+          "reading": "しりあいにおかねをかしたけど、かえしてもらえない。",
+          "vietnamese": "Tôi cho người quen vay tiền mà mãi không được trả lại.",
+          "note": ""
+        },
+        {
+          "id": "c98e6585337ff35a",
+          "japanese": "この本1日だけ貸してくれませんか。",
+          "reading": "このほんいちにちだけかしてくれませんか。",
+          "vietnamese": "Cho tôi mượn cuốn sách này một ngày thôi được không?",
+          "note": ""
+        },
+        {
+          "id": "f730dda82b106e20",
+          "japanese": "これで貸し借り無しだ。",
+          "reading": "これでかしかりなしだ。",
+          "vietnamese": "Thế là không ai nợ ai nữa nhé.",
+          "note": ""
+        },
+        {
+          "id": "62e9ae79c1aa10ad",
+          "japanese": "去年から賃貸のアパートに住んでいる。",
+          "reading": "きょねんからちんたいのアパートにすんでいる。",
+          "vietnamese": "Từ năm ngoái tôi sống ở căn hộ đi thuê.",
+          "note": "N2"
+        }
+      ]
+    },
+    {
+      "id": "41c99a97a154be16",
+      "character": "費",
+      "hanViet": "PHÍ",
+      "meaning": "phí/ chi phí",
+      "onyomi": [
+        "ヒ"
+      ],
+      "kunyomi": [
+        "つい.やす"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d2c814556144bd54",
+          "japanese": "費用",
+          "reading": "ひよう",
+          "vietnamese": "chi phí"
+        },
+        {
+          "id": "712744ff9544e487",
+          "japanese": "結婚費用",
+          "reading": "けっこんひよう",
+          "vietnamese": "chi phí đám cưới"
+        },
+        {
+          "id": "c03ecd1c6ccb2d14",
+          "japanese": "食費",
+          "reading": "しょくひ",
+          "vietnamese": "tiền ăn"
+        },
+        {
+          "id": "6146301721696669",
+          "japanese": "交通費",
+          "reading": "こうつうひ",
+          "vietnamese": "tiền đi lại"
+        },
+        {
+          "id": "67776c4bbc1e3b9d",
+          "japanese": "消費量",
+          "reading": "しょうひりょう",
+          "vietnamese": "lượng tiêu thụ"
+        },
+        {
+          "id": "2665164fdf64eb71",
+          "japanese": "費やす",
+          "reading": "ついやす",
+          "vietnamese": "tiêu tốn, dành (thời gian, tiền)"
+        }
+      ],
+      "mnemonic": "Người (儿) đi bán cung (弓) kiếm tiền (貝) trả HỌC PHÍ.",
+      "examples": [
+        {
+          "id": "6d7f72f0af565e0a",
+          "japanese": "日本人の結婚費用は一般的に200万円ほどです。",
+          "reading": "にほんじんのけっこんひようはいっぱんてきににひゃくまんえんほどです。",
+          "vietnamese": "Chi phí đám cưới của người Nhật thường vào khoảng 2 triệu yên.",
+          "note": ""
+        },
+        {
+          "id": "099346ca79a74e98",
+          "japanese": "毎月食費、交通費を合わせて4万円ぐらいかかる。",
+          "reading": "まいつきしょくひ、こうつうひをあわせてよんまんえんぐらいかかる。",
+          "vietnamese": "Mỗi tháng tiền ăn với tiền đi lại cộng lại tốn khoảng 40 nghìn yên.",
+          "note": ""
+        },
+        {
+          "id": "92a669bb441702a0",
+          "japanese": "今月は電気の消費量が多かった。",
+          "reading": "こんげつはでんきのしょうひりょうがおおかった。",
+          "vietnamese": "Tháng này lượng điện tiêu thụ nhiều.",
+          "note": ""
+        },
+        {
+          "id": "440837dcbe032afb",
+          "japanese": "SNSに多くの時間を費やす人が多い。",
+          "reading": "エスエヌエスにおおくのじかんをついやすひとがおおい。",
+          "vietnamese": "Có nhiều người dành rất nhiều thời gian cho mạng xã hội.",
+          "note": "N2 · 使う ＜ 費やす (費やす là văn viết, trang trọng hơn 使う)"
+        }
+      ]
+    },
+    {
+      "id": "e040daf5de0061a8",
+      "character": "員",
+      "hanViet": "VIÊN",
+      "meaning": "nhân viên",
+      "onyomi": [
+        "イン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "52d70dd2d7cab035",
+          "japanese": "正社員",
+          "reading": "せいしゃいん",
+          "vietnamese": "nhân viên chính thức"
+        },
+        {
+          "id": "e953da86f997e580",
+          "japanese": "公務員",
+          "reading": "こうむいん",
+          "vietnamese": "công chức"
+        },
+        {
+          "id": "56296667f8964447",
+          "japanese": "全員",
+          "reading": "ぜんいん",
+          "vietnamese": "tất cả mọi người"
+        },
+        {
+          "id": "986d743e4ba03b35",
+          "japanese": "満員",
+          "reading": "まんいん",
+          "vietnamese": "chật kín người"
+        }
+      ],
+      "mnemonic": "NHÂN VIÊN đi làm kiếm tiền (貝) nuôi miệng (口) ăn cả nhà.",
+      "examples": [
+        {
+          "id": "cdd3e18faf6ad0e0",
+          "japanese": "アルバイトから正社員になった！",
+          "reading": "アルバイトからせいしゃいんになった！",
+          "vietnamese": "Từ làm thêm, tôi đã lên nhân viên chính thức!",
+          "note": ""
+        },
+        {
+          "id": "c77b381b7fd04d29",
+          "japanese": "日本では公務員の人気が下がっている。",
+          "reading": "にほんではこうむいんのにんきがさがっている。",
+          "vietnamese": "Ở Nhật, nghề công chức đang giảm sức hút.",
+          "note": ""
+        },
+        {
+          "id": "77187928e762ad15",
+          "japanese": "全員が同意する。",
+          "reading": "ぜんいんがどういする。",
+          "vietnamese": "Tất cả mọi người đều đồng ý.",
+          "note": ""
+        },
+        {
+          "id": "96ddfde6b78a503c",
+          "japanese": "満員のライブ会場",
+          "reading": "まんいんのライブかいじょう",
+          "vietnamese": "Hội trường biểu diễn chật kín người",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "554f6ad28621fb58",
+      "character": "貧",
+      "hanViet": "BẦN",
+      "meaning": "nghèo",
+      "onyomi": [
+        "ヒン"
+      ],
+      "kunyomi": [
+        "まず.しい"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "197edd6141f96a87",
+          "japanese": "貧困",
+          "reading": "ひんこん",
+          "vietnamese": "nghèo khó, nghèo đói"
+        },
+        {
+          "id": "6f0dc7a55861bf06",
+          "japanese": "貧困問題",
+          "reading": "ひんこんもんだい",
+          "vietnamese": "vấn đề nghèo đói"
+        },
+        {
+          "id": "9358d9f2eab58e96",
+          "japanese": "貧しい",
+          "reading": "まずしい",
+          "vietnamese": "nghèo, nghèo nàn"
+        }
+      ],
+      "mnemonic": "Tiền bạc (貝) phân chia (分) ra cho con cái nên cha mẹ trở nên NGHÈO ĐÓI.",
+      "examples": [
+        {
+          "id": "f96189c5a27bff1b",
+          "japanese": "世界中で深刻化する子どもの貧困問題。",
+          "reading": "せかいじゅうでしんこくかするこどものひんこんもんだい。",
+          "vietnamese": "Vấn đề trẻ em nghèo đói đang ngày càng nghiêm trọng trên khắp thế giới.",
+          "note": ""
+        },
+        {
+          "id": "ec250e7cb449ddc1",
+          "japanese": "彼女はお金持ちだが、心は貧しい。",
+          "reading": "かのじょはおかねもちだが、こころはまずしい。",
+          "vietnamese": "Cô ấy giàu có nhưng tâm hồn thì nghèo nàn.",
+          "note": ""
+        },
+        {
+          "id": "bbba4ce42a4d3fc5",
+          "japanese": "彼は貧しい家で生まれたが、自分の会社を作り、大成功した。",
+          "reading": "かれはまずしいいえでうまれたが、じぶんのかいしゃをつくり、だいせいこうした。",
+          "vietnamese": "Anh ấy sinh ra trong một gia đình nghèo nhưng đã tự lập công ty và thành công lớn.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "d26870a7b4f12b9f",
+      "character": "賛",
+      "hanViet": "TÁN",
+      "meaning": "tán thành",
+      "onyomi": [
+        "サン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0511ad983bd087a2",
+          "japanese": "賛成",
+          "reading": "さんせい",
+          "vietnamese": "tán thành"
+        }
+      ],
+      "mnemonic": "Ngày xưa việc lấy 2 người chồng (夫) có nhiều tiền (貝) được TÁN THÀNH.",
+      "examples": [
+        {
+          "id": "a1b9d6fed2844ef4",
+          "japanese": "賛成の方は手をあげてください。",
+          "reading": "さんせいのかたはてをあげてください。",
+          "vietnamese": "Ai tán thành xin hãy giơ tay.",
+          "note": ""
+        },
+        {
+          "id": "109e17f676d45b31",
+          "japanese": "賛成 ＞＜ 反対",
+          "reading": "さんせい ＞＜ はんたい",
+          "vietnamese": "Tán thành ⇔ phản đối",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "8ebd95be4fdb62fb",
+      "character": "財",
+      "hanViet": "TÀI",
+      "meaning": "tài sản",
+      "onyomi": [
+        "サイ",
+        "ザイ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "62fcc2ada3da0f2a",
+          "japanese": "財布",
+          "reading": "さいふ",
+          "vietnamese": "cái ví"
+        },
+        {
+          "id": "41ada0f5621676a4",
+          "japanese": "全財産",
+          "reading": "ぜんざいさん",
+          "vietnamese": "toàn bộ tài sản"
+        },
+        {
+          "id": "5cf8324c26632d9e",
+          "japanese": "長財布",
+          "reading": "ながざいふ",
+          "vietnamese": "ví dài"
+        }
+      ],
+      "mnemonic": "Những người có tài năng (才) tạo ra nhiều tiền bạc (貝) thì có rất nhiều TÀI SẢN.",
+      "examples": [
+        {
+          "id": "31b6725160e078c4",
+          "japanese": "実は、財布の中に入っている1万円が全財産なんです。",
+          "reading": "じつは、さいふのなかにはいっているいちまんえんがぜんざいさんなんです。",
+          "vietnamese": "Thật ra 10 nghìn yên trong ví là toàn bộ tài sản của tôi đấy.",
+          "note": ""
+        },
+        {
+          "id": "adc3fc743543ead5",
+          "japanese": "長財布を買う。",
+          "reading": "ながざいふをかう。",
+          "vietnamese": "Mua một chiếc ví dài.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "6b5459a008d0aed3",
+      "character": "貯",
+      "hanViet": "TRỮ",
+      "meaning": "tích trữ",
+      "onyomi": [
+        "チョ"
+      ],
+      "kunyomi": [
+        "た.める",
+        "た.まる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "50058f271ef85937",
+          "japanese": "貯める",
+          "reading": "ためる",
+          "vietnamese": "để dành, tích (tiền)"
+        },
+        {
+          "id": "1b6974ec24b97690",
+          "japanese": "貯まる",
+          "reading": "たまる",
+          "vietnamese": "(tiền) được tích lại"
+        },
+        {
+          "id": "8692bb372ad6a3c7",
+          "japanese": "貯金",
+          "reading": "ちょきん",
+          "vietnamese": "tiền tiết kiệm, tiết kiệm tiền"
+        }
+      ],
+      "mnemonic": "Tiền bạc (貝) TÍCH TRỮ ở nhà (宀) sử dụng đinh (丁) để chốt khóa cửa lại.",
+      "examples": [
+        {
+          "id": "8572eb7c9888d4e9",
+          "japanese": "毎月1万円ずつ貯めている。",
+          "reading": "まいつきいちまんえんずつためている。",
+          "vietnamese": "Mỗi tháng tôi để dành 10 nghìn yên.",
+          "note": "(を) た.める — tha động từ"
+        },
+        {
+          "id": "ec32212172cd4d7e",
+          "japanese": "なぜだろう。お金が全然貯まらない…",
+          "reading": "なぜだろう。おかねがぜんぜんたまらない…",
+          "vietnamese": "Sao vậy nhỉ? Tiền chẳng để dành được chút nào…",
+          "note": "(が) た.まる — tự động từ"
+        },
+        {
+          "id": "5d020758207a7ee3",
+          "japanese": "今までいくら貯金できましたか？",
+          "reading": "いままでいくらちょきんできましたか？",
+          "vietnamese": "Tới giờ bạn đã tiết kiệm được bao nhiêu tiền rồi?",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "10fcd8a119bed938",
+      "character": "敗",
+      "hanViet": "BẠI",
+      "meaning": "thất bại",
+      "onyomi": [
+        "ハイ"
+      ],
+      "kunyomi": [
+        "やぶ.れる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "574d2c2d11d34ac5",
+          "japanese": "失敗",
+          "reading": "しっぱい",
+          "vietnamese": "thất bại, sai lầm"
+        },
+        {
+          "id": "4b80c6cacd013ecf",
+          "japanese": "敗れる",
+          "reading": "やぶれる",
+          "vietnamese": "thua, bại"
+        },
+        {
+          "id": "bcd79e4e19acfa3a",
+          "japanese": "3勝1敗",
+          "reading": "さんしょういっぱい",
+          "vietnamese": "3 thắng 1 thua"
+        }
+      ],
+      "mnemonic": "Đánh (攵) vào vấn đề tài chính (貝) thì chắc chắn đối phương sẽ THẤT BẠI.",
+      "examples": [
+        {
+          "id": "57cc528ae1cf03dd",
+          "japanese": "私の失敗のせいで、チームは敗れた。",
+          "reading": "わたしのしっぱいのせいで、チームはやぶれた。",
+          "vietnamese": "Vì sai lầm của tôi mà cả đội đã thua.",
+          "note": "負けた ＜ 敗れた (敗れた cứng, trang trọng hơn 負けた)"
+        },
+        {
+          "id": "f7e27f9916540b54",
+          "japanese": "これで、3勝1敗になった。",
+          "reading": "これで、さんしょういっぱいになった。",
+          "vietnamese": "Vậy là thành 3 thắng 1 thua.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "99fcb3734186cb04",
+      "character": "販",
+      "hanViet": "PHIẾN",
+      "meaning": "buôn bán",
+      "onyomi": [
+        "ハン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "c246c73bb23beb0a",
+          "japanese": "通販",
+          "reading": "つうはん",
+          "vietnamese": "mua bán qua mạng (viết tắt của 通信販売)"
+        },
+        {
+          "id": "cda60482757d41ce",
+          "japanese": "通信販売",
+          "reading": "つうしんはんばい",
+          "vietnamese": "bán hàng từ xa (qua mạng, bưu điện)"
+        },
+        {
+          "id": "c723158421d5eb77",
+          "japanese": "販売",
+          "reading": "はんばい",
+          "vietnamese": "bán hàng"
+        }
+      ],
+      "mnemonic": "Phản đối (反) việc BUÔN BÁN tiền giả (貝).",
+      "examples": [
+        {
+          "id": "f0c85b73135ba99c",
+          "japanese": "服は通販でよく買います。",
+          "reading": "ふくはつうはんでよくかいます。",
+          "vietnamese": "Quần áo thì tôi hay mua qua mạng.",
+          "note": "通販 = 通信販売 (つうしんはんばい) — Shopee, Lazada…"
+        },
+        {
+          "id": "cbc3b012e3a76670",
+          "japanese": "車を販売する仕事",
+          "reading": "くるまをはんばいするしごと",
+          "vietnamese": "Công việc bán ô tô",
+          "note": "売る ＜ 販売 (販売 cứng, trang trọng hơn 売る)"
+        }
+      ]
+    }
+  ]
+}

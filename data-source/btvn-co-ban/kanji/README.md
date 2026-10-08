@@ -43,6 +43,17 @@ Mỗi "Bài N" của Riki là MỘT thư mục:
 | `06-bai-6`  | Bài 6 | 悲 性 悩 情 精 支 技 席 度 渡 |
 | `07-bai-7`  | Bài 7 | 幸 報 洗 汚 活 液 流 涙 深 |
 | `08-bai-8`  | Bài 8 | 消 法 決 浅 満 演 混 湿 温 塩 |
+| `09-bai-9`  | Bài 9 | 賃 貸 費 員 貧 賛 財 貯 敗 販 |
+| `09-bai-9-btvn` | BTVN Bài 9 | Đề 7 câu, bài CON của `09-bai-9` |
 
-Bài mới thì tạo thư mục `09-bai-9/` gồm `meta.json` (`"name": "Bài 9"`, `"order": 9`) và
+Bài 9 không chép từ ảnh thẻ của website mà dùng lại nguyên thẻ của Bài 9 bên N3 JUNBI
+(`n3-junbi/kanji/09-bai-9/kanji.txt`, có cách nhớ và câu ví dụ): cùng 10 chữ, và đề BTVN
+hỏi đúng các từ ghép trên đó. Sửa thẻ thì sửa cả hai nơi.
+
+BTVN là bài con của bài kanji, định dạng và cách viết như BTVN bên N3 JUNBI (xem mục
+"Bài tập về nhà" trong README của phần Kanji N3 JUNBI): `"kind": "test"`, `"parent"`, file
+`test.json`. Từ cần viết bằng chữ Hán đặt trong 「」. Đề Riki không in đáp án nên đáp án
+tự chấm, kèm `choiceNotes` cho từng lựa chọn.
+
+Bài mới thì tạo thư mục `10-bai-10/` gồm `meta.json` (`"name": "Bài 10"`, `"order": 10`) và
 `kanji.txt`, rồi chạy `npm run generate`.

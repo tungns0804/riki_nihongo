@@ -1,0 +1,292 @@
+{
+  "id": "09-bai-9-btvn",
+  "name": "BTVN Bài 9",
+  "description": "Bài tập về nhà \"BTVN N3 CƠ BẢN - Kanji - Bài 9\" — 7 câu: 5 câu viết bằng chữ Hán (家賃, 貧しい, 賛成, 貯金, 敗れる), 2 câu chọn cách đọc (財布, 貯める).",
+  "kind": "test",
+  "parent": "09-bai-9",
+  "group": "",
+  "sections": [
+    {
+      "id": "cb-btvn-b9-viet",
+      "title": "漢字 — Viết bằng chữ Hán (5 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "cb-kj-b9-01",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「やちん」を節約するために、もっと安いアパートを探しています。",
+          "promptReading": "やちんを せつやくする ために、もっと やすい アパートを さがして います。",
+          "promptTranslation": "Để tiết kiệm tiền thuê nhà, tôi đang tìm một căn hộ rẻ hơn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "家賃",
+              "translation": "やちん · Tiền thuê nhà",
+              "note": "Đúng: 家 (GIA) đọc や trong từ này + 賃 (NHẪM) チン → 家賃 (やちん) = tiền thuê nhà. Tìm căn hộ rẻ hơn để bớt tiền nhà."
+            },
+            {
+              "id": "c2",
+              "text": "運賃",
+              "translation": "うんちん · Tiền vé, cước vận chuyển",
+              "note": "運賃 đọc うんちん — tiền vé tàu xe, cước chở hàng. Cùng chữ 賃 nhưng chữ đầu là 運 (vận chuyển)."
+            },
+            {
+              "id": "c3",
+              "text": "無賃",
+              "translation": "むちん · Không mất tiền (無賃乗車 = đi tàu không mua vé)",
+              "note": "無賃 đọc むちん — không trả tiền, như 無賃乗車 (đi tàu lậu vé)."
+            },
+            {
+              "id": "c4",
+              "text": "貸賃",
+              "translation": "かしちん · Tiền cho thuê (thường viết 貸し賃)",
+              "note": "貸賃 đọc かしちん — tiền cho thuê (phía người cho thuê thu), không phải やちん."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "賃 (NHẪM) âm On チン, các từ đều nói về tiền trả cho việc thuê / dùng: 家賃 (やちん) tiền nhà, 運賃 (うんちん) tiền vé, 賃金 (ちんぎん) tiền lương, 賃貸 (ちんたい) cho thuê. 節約 (せつやく) = tiết kiệm (chi tiêu).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "cb-kj-b9-02",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "彼女はお金持ちですが、心が「まずしい」。",
+          "promptReading": "かのじょは おかねもち ですが、こころが まずしい。",
+          "promptTranslation": "Cô ấy giàu có nhưng tâm hồn thì nghèo nàn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "楽しい",
+              "translation": "たのしい · Vui",
+              "note": "楽しい đọc たのしい — vui."
+            },
+            {
+              "id": "c2",
+              "text": "悲しい",
+              "translation": "かなしい · Buồn",
+              "note": "悲しい đọc かなしい — buồn (悲 = BI, Bài 6)."
+            },
+            {
+              "id": "c3",
+              "text": "貧しい",
+              "translation": "まずしい · Nghèo, nghèo nàn",
+              "note": "Đúng: 貧 (BẦN) âm Kun まず.しい → 貧しい = nghèo. 心が貧しい = tâm hồn nghèo nàn, đối lại với お金持ち ở vế trước."
+            },
+            {
+              "id": "c4",
+              "text": "恥ずかしい",
+              "translation": "はずかしい · Xấu hổ",
+              "note": "恥ずかしい đọc はずかしい — xấu hổ, ngượng."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "貧 (BẦN) = nghèo. Âm Kun まず.しい: 貧しい家 (nhà nghèo), 心が貧しい. Âm On ヒン / ビン: 貧困 (ひんこん) nghèo đói, 貧乏 (びんぼう) nghèo. Câu gần giống câu ví dụ trên thẻ: 彼女はお金持ちだが、心は貧しい。",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "cb-kj-b9-03",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "留学することを親も「さんせい」してくれている。",
+          "promptReading": "りゅうがくする ことを おやも さんせいして くれて いる。",
+          "promptTranslation": "Bố mẹ cũng tán thành việc tôi đi du học.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "賛成",
+              "translation": "さんせい · Tán thành, đồng ý",
+              "note": "Đúng: 賛 (TÁN) サン + 成 (THÀNH) セイ → 賛成 = tán thành. 親も賛成してくれている = bố mẹ cũng ủng hộ."
+            },
+            {
+              "id": "c2",
+              "text": "賛制",
+              "translation": "không có từ này",
+              "note": "Không có từ này: 制 (CHẾ) cũng đọc セイ nhưng là \"chế độ, quy định\" (制度, 制服)."
+            },
+            {
+              "id": "c3",
+              "text": "三世",
+              "translation": "さんせい · Thế hệ thứ ba (日系三世 = người gốc Nhật đời thứ ba)",
+              "note": "三世 cũng đọc さんせい nhưng là thế hệ thứ ba — đồng âm, khác nghĩa."
+            },
+            {
+              "id": "c4",
+              "text": "産生",
+              "translation": "さんせい · Sinh ra, tạo ra (từ chuyên môn y sinh)",
+              "note": "産生 cũng đọc さんせい nhưng là từ chuyên môn \"sản sinh\" (ホルモンを産生する) — đồng âm, khác nghĩa."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Cả bốn đều đọc さんせい, nên phải nhớ đúng mặt chữ. 賛成 (さんせい) tán thành ↔ 反対 (はんたい) phản đối. 賛 (TÁN) chỉ có âm On サン.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "cb-kj-b9-04",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "毎月、給料から５万円ずつ「ちょきん」することにした。",
+          "promptReading": "まいつき、きゅうりょうから ごまんえんずつ ちょきんする ことに した。",
+          "promptTranslation": "Tôi đã quyết định mỗi tháng trích từ lương ra 50.000 yên để tiết kiệm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "貯金",
+              "translation": "ちょきん · Tiền tiết kiệm, tiết kiệm tiền",
+              "note": "Đúng: 貯 (TRỮ) チョ + 金 (KIM) キン → 貯金 = tiết kiệm tiền."
+            },
+            {
+              "id": "c2",
+              "text": "財金",
+              "translation": "không có từ này",
+              "note": "Không có từ này: 財 (TÀI) đọc ザイ / サイ (財産, 財布), không đọc ちょ."
+            },
+            {
+              "id": "c3",
+              "text": "敗金",
+              "translation": "không có từ này",
+              "note": "Không có từ này: 敗 (BẠI) đọc ハイ (失敗), nghĩa là thua."
+            },
+            {
+              "id": "c4",
+              "text": "貯近",
+              "translation": "không có từ này",
+              "note": "Không có từ này: 近 (CẬN) cũng đọc キン nhưng nghĩa là \"gần\" — tiền thì phải là 金."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "貯 (TRỮ) = tích trữ: 貯金 (ちょきん) tiết kiệm tiền, 貯める (ためる) để dành, 貯まる (たまる) được tích lại. Bẫy của câu là 近 cùng đọc きん với 金. ～ことにした = đã quyết định ~ (Ngữ pháp Bài 5).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "cb-kj-b9-05",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "一点差で相手チームに「やぶれた」。",
+          "promptReading": "いってんさで あいて チームに やぶれた。",
+          "promptTranslation": "Chúng tôi đã thua đội bạn với cách biệt một điểm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "破れた",
+              "translation": "やぶれた · Bị rách, bị thủng",
+              "note": "破れた cũng đọc やぶれた nhưng là rách, thủng (紙が破れた, 服が破れた) — không dùng cho thua trận."
+            },
+            {
+              "id": "c2",
+              "text": "倒れた",
+              "translation": "たおれた · Bị đổ, ngã",
+              "note": "倒れた đọc たおれた — đổ, ngã (木が倒れた)."
+            },
+            {
+              "id": "c3",
+              "text": "折れた",
+              "translation": "おれた · Bị gãy, gập",
+              "note": "折れた đọc おれた — gãy, gập (骨が折れた)."
+            },
+            {
+              "id": "c4",
+              "text": "敗れた",
+              "translation": "やぶれた · Thua, bại",
+              "note": "Đúng: 敗 (BẠI) âm Kun やぶ.れる → 敗れる = thua. Có 相手チーム và 一点差 (cách một điểm) nên là thua trận."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Hai chữ cùng đọc やぶれる: 敗れる = thua (trận đấu, cuộc thi): 相手に敗れる, 決勝で敗れる; 破れる = rách, vỡ: 紙が破れる, 夢が破れる. 敗 (BẠI) còn có âm On ハイ / パイ: 失敗 (しっぱい), 3勝1敗 (さんしょういっぱい).",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "cb-btvn-b9-doc",
+      "title": "漢字 — Cách đọc (2 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "cb-kj-b9-06",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "彼女は「財布」を忘れてしまったようです。",
+          "promptReading": "かのじょは さいふを わすれて しまった ようです。",
+          "promptTranslation": "Hình như cô ấy để quên ví mất rồi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "さいふう",
+              "translation": "không có từ này",
+              "note": "布 (BỐ) đọc フ ngắn, không kéo dài thành ふう."
+            },
+            {
+              "id": "c2",
+              "text": "ざいふ",
+              "translation": "không có từ này",
+              "note": "財 trong 財布 đọc さい không đục; ざい là âm của 財産 (ざいさん)."
+            },
+            {
+              "id": "c3",
+              "text": "さいふ",
+              "translation": "財布 · Cái ví",
+              "note": "Đúng: 財 サイ + 布 フ → さいふ."
+            },
+            {
+              "id": "c4",
+              "text": "ざいふう",
+              "translation": "không có từ này",
+              "note": "Sai cả hai chỗ: さい không đục, ふ không kéo dài."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "財 (TÀI) có hai âm On: サイ trong 財布 (さいふ), ザイ trong 財産 (ざいさん), 全財産 (ぜんざいさん). 長財布 (ví dài) đọc ながざいふ vì さ đục thành ざ khi ghép sau 長.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "cb-kj-b9-07",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "彼は将来のためにお金を「貯めて」います。",
+          "promptReading": "かれは しょうらいの ために おかねを ためて います。",
+          "promptTranslation": "Anh ấy đang để dành tiền cho tương lai.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "とめて",
+              "translation": "とめて · Dừng lại, cho ở nhờ (止めて／泊めて)",
+              "note": "とめて là cách đọc của 止めて (dừng), 泊めて (cho ở nhờ) — 貯 không đọc と."
+            },
+            {
+              "id": "c2",
+              "text": "しめて",
+              "translation": "しめて · Đóng, thắt (閉めて／締めて)",
+              "note": "しめて là cách đọc của 閉めて (đóng), 締めて (thắt)."
+            },
+            {
+              "id": "c3",
+              "text": "つとめて",
+              "translation": "つとめて · Làm việc, cố gắng (勤めて／努めて)",
+              "note": "つとめて là cách đọc của 勤めて (làm việc ở), 努めて (nỗ lực)."
+            },
+            {
+              "id": "c4",
+              "text": "ためて",
+              "translation": "ためて · Để dành, tích (貯めて)",
+              "note": "Đúng: 貯 (TRỮ) âm Kun た.める → 貯めて = để dành. お金を貯める = tích tiền."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "貯める (ためる) là tha động từ: お金を貯める; tự động từ là 貯まる (たまる): お金が貯まる. Âm On チョ: 貯金 (ちょきん).",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}
