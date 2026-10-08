@@ -58,6 +58,7 @@ của đúng những chữ đó bên `btvn-co-ban/kanji/` — cùng một websit
 | `01-bai-1`       | Bài 1      | 21 chữ bộ Nhân đứng 亻 (gộp Bài 1 và Bài 2 của website) |
 | `01-bai-1-btvn`  | BTVN Bài 1 | Đề 20 câu, bài CON của `01-bai-1`                 |
 | `09-bai-9`       | Bài 9      | 10 chữ bộ Bối 貝, chép từ PDF 漢字ハンバーガー BUỔI 09, có cách nhớ và câu ví dụ |
+| `09-bai-9-btvn`  | BTVN Bài 9 | Đề 20 câu (10 viết chữ Hán, 10 cách đọc), bài CON của `09-bai-9` |
 
 `meta.json` của mỗi bài ghi `description` là một dòng **tóm tắt bài học gì** — trang bài
 hiện nó ngay dưới tên bài, nên đọc một dòng đó là biết bài gồm những chữ nào và chúng
