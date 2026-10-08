@@ -1,14 +1,14 @@
 {
-  "id": "04-bai-4-phan-1-btvn",
-  "name": "BTVN Bài 4 · Phần 1",
-  "description": "Bài tập về nhà của Bài 4 · Phần 1 — 10 câu trắc nghiệm ～がる · ～てほしい／～てもらいたい · ～って · ～ずに.",
+  "id": "04-bai-4-btvn",
+  "name": "BTVN Bài 4",
+  "description": "Bài tập về nhà của Bài 4 — 10 câu trắc nghiệm ～がる · ～てほしい／～てもらいたい · ～って · ～ずに.",
   "kind": "test",
-  "parent": "04-bai-4-phan-1",
+  "parent": "04-bai-4",
   "group": "",
   "sections": [
     {
       "id": "b4-btvn",
-      "title": "BTVN Bài 4 · Phần 1 — 10 câu trắc nghiệm",
+      "title": "BTVN Bài 4 — 10 câu trắc nghiệm",
       "instructions": "",
       "skill": "grammar",
       "questions": [

@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-08T04:16:43.462Z",
+  "generatedAt": "2026-10-08T14:54:19.196Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -338,23 +338,23 @@
           "itemCount": 20,
           "order": 101,
           "file": "kanji/01-bai-1-btvn.json"
+        },
+        {
+          "id": "09-bai-9-btvn",
+          "name": "BTVN Bài 9",
+          "description": "Bài tập về nhà của Bài 9 — 20 câu: 10 câu viết bằng chữ Hán, 10 câu chọn cách đọc.",
+          "kind": "test",
+          "parent": "09-bai-9",
+          "group": "",
+          "itemCount": 20,
+          "order": 901,
+          "file": "kanji/09-bai-9-btvn.json"
         }
       ]
     },
     {
       "id": "grammar",
       "units": [
-        {
-          "id": "00-bai-mau",
-          "name": "Bài mẫu · Ngữ pháp N3",
-          "description": "Bài mẫu để kiểm tra đường ống nội dung. Xoá thư mục này khi đã có bài thật.",
-          "kind": "grammar",
-          "parent": "",
-          "group": "",
-          "itemCount": 2,
-          "order": 0,
-          "file": "grammar/00-bai-mau.json"
-        },
         {
           "id": "02-de-thi-that-n4-nhiem-vu-2",
           "name": "Đề thi thật ôn tập N4 · Nhiệm vụ 2",
@@ -378,92 +378,92 @@
           "file": "grammar/03-de-thi-that-n4-nhiem-vu-3.json"
         },
         {
-          "id": "01-bai-1-phan-2",
-          "name": "Bài 1 · Phần 2",
+          "id": "01-bai-1",
+          "name": "Bài 1",
           "description": "第1課 Ôn tập N4 — Luyện tập tổng hợp: 29 câu 文法 trích đề thi thật 07/2010 – 07/2014 (câu 22 cũng là câu đố trang bìa).",
           "kind": "test",
           "parent": "",
           "group": "",
           "itemCount": 29,
-          "order": 12,
-          "file": "grammar/01-bai-1-phan-2.json"
+          "order": 10,
+          "file": "grammar/01-bai-1.json"
         },
         {
-          "id": "04-bai-4-phan-1",
-          "name": "Bài 4 · Phần 1",
+          "id": "04-bai-4",
+          "name": "Bài 4",
           "description": "朝ご飯を食べずに来たの？— ～がる · ～てほしい／～てもらいたい／～ていただきたい · ～って · ～ずに",
           "kind": "grammar",
           "parent": "",
           "group": "",
           "itemCount": 4,
-          "order": 41,
-          "file": "grammar/04-bai-4-phan-1.json"
+          "order": 40,
+          "file": "grammar/04-bai-4.json"
         },
         {
-          "id": "05-bai-5-phan-1",
-          "name": "Bài 5 · Phần 1",
+          "id": "05-bai-5",
+          "name": "Bài 5",
           "description": "甘い物もたべないことにしているの！— ～ことにしている · ～ことになっている · ～だけでなく／～ばかりでなく · ～ようとする／～ようとしない · ～つもりだった",
           "kind": "grammar",
           "parent": "",
           "group": "",
           "itemCount": 5,
-          "order": 51,
-          "file": "grammar/05-bai-5-phan-1.json"
+          "order": 50,
+          "file": "grammar/05-bai-5.json"
         },
         {
-          "id": "09-bai-9-phan-1",
-          "name": "Bài 9 · Phần 1",
+          "id": "09-bai-9",
+          "name": "Bài 9",
           "description": "この部屋、ゴミだらけじゃないですか。— ～だらけ · ～ばかり · ～たびに · ～ついでに · ～うちに · ～あいだ／あいだに",
           "kind": "grammar",
           "parent": "",
           "group": "",
           "itemCount": 6,
-          "order": 91,
-          "file": "grammar/09-bai-9-phan-1.json"
+          "order": 90,
+          "file": "grammar/09-bai-9.json"
         },
         {
-          "id": "04-bai-4-phan-1-luyen-tap",
-          "name": "Luyện tập Bài 4 · Phần 1",
-          "description": "Các câu chọn đáp án của Bài 4 · Phần 1 — 12 câu, kể cả câu đố ở trang bìa.",
+          "id": "04-bai-4-luyen-tap",
+          "name": "Luyện tập Bài 4",
+          "description": "Các câu chọn đáp án của Bài 4 — 12 câu, kể cả câu đố ở trang bìa.",
           "kind": "test",
-          "parent": "04-bai-4-phan-1",
+          "parent": "04-bai-4",
           "group": "",
           "itemCount": 12,
-          "order": 4101,
-          "file": "grammar/04-bai-4-phan-1-luyen-tap.json"
+          "order": 4001,
+          "file": "grammar/04-bai-4-luyen-tap.json"
         },
         {
-          "id": "04-bai-4-phan-1-btvn",
-          "name": "BTVN Bài 4 · Phần 1",
-          "description": "Bài tập về nhà của Bài 4 · Phần 1 — 10 câu trắc nghiệm ～がる · ～てほしい／～てもらいたい · ～って · ～ずに.",
+          "id": "04-bai-4-btvn",
+          "name": "BTVN Bài 4",
+          "description": "Bài tập về nhà của Bài 4 — 10 câu trắc nghiệm ～がる · ～てほしい／～てもらいたい · ～って · ～ずに.",
           "kind": "test",
-          "parent": "04-bai-4-phan-1",
+          "parent": "04-bai-4",
           "group": "",
           "itemCount": 10,
-          "order": 4102,
-          "file": "grammar/04-bai-4-phan-1-btvn.json"
+          "order": 4002,
+          "file": "grammar/04-bai-4-btvn.json"
         },
         {
-          "id": "05-bai-5-phan-1-luyen-tap",
-          "name": "Luyện tập Bài 5 · Phần 1",
-          "description": "Các câu chọn đáp án của Bài 5 · Phần 1 — 12 câu, kể cả câu đố ở trang bìa.",
+          "id": "05-bai-5-luyen-tap",
+          "name": "Luyện tập Bài 5",
+          "description": "Các câu chọn đáp án của Bài 5 — 12 câu, kể cả câu đố ở trang bìa.",
           "kind": "test",
-          "parent": "05-bai-5-phan-1",
+          "parent": "05-bai-5",
           "group": "",
           "itemCount": 12,
-          "order": 5101,
-          "file": "grammar/05-bai-5-phan-1-luyen-tap.json"
+          "order": 5001,
+          "file": "grammar/05-bai-5-luyen-tap.json"
         },
         {
-          "id": "09-bai-9-phan-1-luyen-tap",
-          "name": "Luyện tập Bài 9 · Phần 1",
-          "description": "Các câu chọn đáp án và chọn từ trong khung của Bài 9 · Phần 1 — 21 câu, kể cả câu đố ở trang bìa.",
+          "id": "09-bai-9-luyen-tap",
+          "name": "Luyện tập Bài 9",
+          "description": "Các câu chọn đáp án và chọn từ trong khung của Bài 9 — 21 câu, kể cả câu đố ở trang bìa.",
           "kind": "test",
-          "parent": "09-bai-9-phan-1",
+          "parent": "09-bai-9",
           "group": "",
           "itemCount": 21,
-          "order": 9101,
-          "file": "grammar/09-bai-9-phan-1-luyen-tap.json"
+          "order": 9001,
+          "file": "grammar/09-bai-9-luyen-tap.json"
         }
       ]
     },

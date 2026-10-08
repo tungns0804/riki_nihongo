@@ -1,6 +1,6 @@
 {
-  "id": "05-bai-5-phan-1",
-  "name": "Bài 5 · Phần 1",
+  "id": "05-bai-5",
+  "name": "Bài 5",
   "description": "甘い物もたべないことにしているの！— ～ことにしている · ～ことになっている · ～だけでなく／～ばかりでなく · ～ようとする／～ようとしない · ～つもりだった",
   "kind": "grammar",
   "parent": "",
@@ -46,6 +46,20 @@
               "reading": "A：こんや、いっぱいどうですか。\nB：すみません、こんやはちょっと．．．\nA：なにかやくそくがあるんですか。\nB：さいきんは、けんこうのためにのまないことにしているんです。",
               "vietnamese": "A: Tối nay làm một ly không?\nB: Xin lỗi, tối nay thì hơi…\nA: Anh có hẹn gì à?\nB: Dạo này vì sức khoẻ nên tôi giữ lệ là không uống.",
               "note": ""
+            },
+            {
+              "id": "9bac0dd66ab3b9c7",
+              "japanese": "健康のために、毎日フラフープをすることにしている。",
+              "reading": "けんこうのために、まいにちふらふーぷをすることにしている。",
+              "vietnamese": "Vì sức khoẻ, ngày nào tôi cũng tập lắc vòng.",
+              "note": "Luyện tập 問題2 · Đuổi hình bắt chữ (tranh Totoro lắc vòng): 健康のために、＿＿＿。— câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
+            },
+            {
+              "id": "0f39da90d31c9293",
+              "japanese": "できるだけエスカレーターを使わないで、階段を使うことにしている。",
+              "reading": "できるだけえすかれーたーをつかわないで、かいだんをつかうことにしている。",
+              "vietnamese": "Tôi cố gắng hết sức không dùng thang cuốn mà sẽ dùng thang bộ.",
+              "note": "チャレンジ 1 · Dịch sang tiếng Nhật — câu tiếng Việt của PDF, câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
             }
           ]
         }
@@ -88,6 +102,20 @@
               "reading": "A：すみませんが、このごみをもってかえってくれませんか。\nB：どうしてですか。\nA：もえないごみはまいしゅうげつようびにだすことになっているんです。\nB：そうでしたか。まだひっこしてきたばかりで、すみません。",
               "vietnamese": "A: Xin lỗi, anh mang túi rác này về giúp tôi được không?\nB: Sao vậy ạ?\nA: Rác không cháy được thì quy định là bỏ vào thứ Hai hằng tuần.\nB: Ra vậy. Tôi mới chuyển đến nên chưa biết, xin lỗi anh.",
               "note": ""
+            },
+            {
+              "id": "dc88342a6ce6d23c",
+              "japanese": "このマンションでは、犬や猫を飼ってはいけないことになっている。",
+              "reading": "このまんしょんでは、いぬやねこをかってはいけないことになっている。",
+              "vietnamese": "Ở chung cư này có quy định là không được nuôi chó mèo.",
+              "note": "Luyện tập 問題2 · Đuổi hình bắt chữ (tranh chung cư và biển \"Cấm nuôi chó - mèo trong chung cư\"): このマンションでは、＿＿＿。— câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
+            },
+            {
+              "id": "5f8584b23654e6ee",
+              "japanese": "うちでは、毎年家族みんなで温泉に行くことになっている。",
+              "reading": "うちでは、まいとしかぞくみんなでおんせんにいくことになっている。",
+              "vietnamese": "Nhà tôi có quy định là hàng năm cả gia đình sẽ cùng đi tắm suối nước nóng.",
+              "note": "チャレンジ 2 · Dịch sang tiếng Nhật — câu tiếng Việt của PDF, câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
             }
           ]
         }
@@ -141,6 +169,20 @@
               "reading": "A：このえいが、しってますか。\nB：もちろんです。Aさんはまだみていないんですか。\nA：ぜひみてください。にほんばかりでなくかいがいでもにんきのえいがなんですよ。\nB：はい。",
               "vietnamese": "A: Anh biết bộ phim này không?\nB: Tất nhiên rồi. Anh A vẫn chưa xem à?\nA: Nhất định hãy xem nhé. Đây là bộ phim được yêu thích không chỉ ở Nhật mà cả ở nước ngoài đấy.\nB: Vâng.",
               "note": ""
+            },
+            {
+              "id": "b3389bd43f79f02d",
+              "japanese": "マンガは子供だけでなく、大人にも人気がある。",
+              "reading": "まんがはこどもだけでなく、おとなにもにんきがある。",
+              "vietnamese": "Truyện tranh không chỉ được trẻ em mà cả người lớn cũng yêu thích.",
+              "note": "Luyện tập 問題2 · Hoàn thành câu với từ gợi ý（マンガ・子供・大人）— câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
+            },
+            {
+              "id": "d792b09dcde3a6c9",
+              "japanese": "前に進むだけでなく、時々後ろを振り返ることも大切だ。",
+              "reading": "まえにすすむだけでなく、ときどきうしろをふりかえることもたいせつだ。",
+              "vietnamese": "Không chỉ tiến lên mà việc thỉnh thoảng nhìn lại phía sau cũng quan trọng không kém.",
+              "note": "チャレンジ 3 · Dịch sang tiếng Nhật — câu tiếng Việt của PDF, câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
             }
           ]
         }
@@ -185,6 +227,20 @@
               "reading": "A：Bさん、おそいじゃないですか。\nB：ごめん、ごめん。\nA：きょうはざんぎょうないといってたのに。\nB：かえろうとしたらぶちょうによばれてしまってさ。",
               "vietnamese": "A: Anh B, muộn thế!\nB: Xin lỗi, xin lỗi.\nA: Anh bảo hôm nay không phải tăng ca cơ mà.\nB: Đang định về thì bị trưởng phòng gọi lại.",
               "note": ""
+            },
+            {
+              "id": "ba3d34802beae6d7",
+              "japanese": "二度寝しようとしたけど、外がうるさくて寝れなかった。",
+              "reading": "にどねしようとしたけど、そとがうるさくてねれなかった。",
+              "vietnamese": "Tôi định ngủ nướng thêm một giấc nữa, nhưng bên ngoài ồn quá nên không ngủ được.",
+              "note": "Luyện tập 問題2 · Dịch câu — câu tiếng Nhật của PDF, bản dịch tự viết. 寝れない là cách nói khẩu ngữ của 寝られない."
+            },
+            {
+              "id": "cb205bd4e3e36d4a",
+              "japanese": "バスに乗ろうとしたとき、財布を忘れたことに気づいた。",
+              "reading": "ばすにのろうとしたとき、さいふをわすれたことにきづいた。",
+              "vietnamese": "Khi tôi định lên xe bus thì tôi nhận ra rằng tôi đã quên ví.",
+              "note": "チャレンジ 4 · Dịch sang tiếng Nhật — câu tiếng Việt của PDF, câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
             }
           ]
         },
@@ -257,6 +313,20 @@
               "reading": "A：ころなういるすのわくちんをうったあと、だいじょうぶでしたか？\nB：じぶんではだいじょうぶなつもりだったけど、ねつはすこしあったよ！",
               "vietnamese": "A: Sau khi tiêm vắc-xin COVID, anh có ổn không?\nB: Tự tôi thì cứ tưởng là ổn, nhưng hoá ra cũng hơi sốt đấy!",
               "note": ""
+            },
+            {
+              "id": "27fdafd1981340dd",
+              "japanese": "トイレの水を流したつもりだったけど、わすれちゃった。",
+              "reading": "といれのみずをながしたつもりだったけど、わすれちゃった。",
+              "vietnamese": "Tôi cứ tưởng mình đã giật nước bồn cầu rồi, hoá ra lại quên mất.",
+              "note": "Luyện tập 問題2 · Đuổi hình bắt chữ (tranh quên giật nước bồn cầu): ＿＿を＿＿＿、わすれちゃった。— câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
+            },
+            {
+              "id": "1d86361602f0251c",
+              "japanese": "化粧してきれいになったつもりだったのに、彼に「いつもと変わらないね」と言われた。",
+              "reading": "けしょうしてきれいになったつもりだったのに、かれに「いつもとかわらないね」といわれた。",
+              "vietnamese": "Cứ nghĩ là trang điểm sẽ xinh đẹp nhưng anh ấy lại nói chẳng khác gì (y như mọi khi).",
+              "note": "チャレンジ 5 · Dịch sang tiếng Nhật — câu tiếng Việt của PDF, câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
             }
           ]
         }

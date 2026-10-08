@@ -1,9 +1,9 @@
 {
-  "id": "09-bai-9-phan-1-luyen-tap",
-  "name": "Luyện tập Bài 9 · Phần 1",
-  "description": "Các câu chọn đáp án và chọn từ trong khung của Bài 9 · Phần 1 — 21 câu, kể cả câu đố ở trang bìa.",
+  "id": "09-bai-9-luyen-tap",
+  "name": "Luyện tập Bài 9",
+  "description": "Các câu chọn đáp án và chọn từ trong khung của Bài 9 — 21 câu, kể cả câu đố ở trang bìa.",
   "kind": "test",
-  "parent": "09-bai-9-phan-1",
+  "parent": "09-bai-9",
   "group": "",
   "sections": [
     {

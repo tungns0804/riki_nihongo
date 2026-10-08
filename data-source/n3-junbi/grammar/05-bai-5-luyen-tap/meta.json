@@ -1,7 +1,7 @@
 {
-  "name": "Luyện tập Bài 5 · Phần 1",
-  "description": "Các câu chọn đáp án của Bài 5 · Phần 1 — 12 câu, kể cả câu đố ở trang bìa.",
+  "name": "Luyện tập Bài 5",
+  "description": "Các câu chọn đáp án của Bài 5 — 12 câu, kể cả câu đố ở trang bìa.",
   "kind": "test",
-  "parent": "05-bai-5-phan-1",
-  "order": 5101
+  "parent": "05-bai-5",
+  "order": 5001
 }

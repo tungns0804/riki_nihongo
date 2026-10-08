@@ -1,7 +1,7 @@
 {
-  "name": "Luyện tập Bài 4 · Phần 1",
-  "description": "Các câu chọn đáp án của Bài 4 · Phần 1 — 12 câu, kể cả câu đố ở trang bìa.",
+  "name": "Luyện tập Bài 4",
+  "description": "Các câu chọn đáp án của Bài 4 — 12 câu, kể cả câu đố ở trang bìa.",
   "kind": "test",
-  "parent": "04-bai-4-phan-1",
-  "order": 4101
+  "parent": "04-bai-4",
+  "order": 4001
 }

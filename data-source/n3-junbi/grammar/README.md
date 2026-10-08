@@ -67,20 +67,29 @@ Vài điểm riêng của đề ngữ pháp:
 
 ## Bài lý thuyết theo PDF buổi học, kèm đề luyện tập
 
-PDF ngữ pháp của Riki (vd. `bai-9-phan-1.pdf`, 第9課) in mỗi mẫu gồm ポイント, khung cấu
-trúc, 例 rồi các 問題 "Luyện tập". Chép thành HAI thư mục:
+PDF ngữ pháp của Riki (vd. 第5課, `bai-5-phan-4.pdf`) in mỗi mẫu gồm ポイント, khung cấu
+trúc, 例 rồi các 問題 "Luyện tập", cuối PDF là チャレンジ. **Mỗi 課 là MỘT bài**, dù Riki
+phát tài liệu thành nhiều phần: phần sau của cùng 課 thì nối thêm mẫu vào đúng
+`grammar.json` đó và thêm `section` vào đúng đề luyện tập đó, không mở bài "Phần 2".
 
 ```
-09-bai-9-phan-1/              grammar.json — ポイント → explanation, 例 → examples, ⚠ → notes
-09-bai-9-phan-1-luyen-tap/    "kind": "test", "parent": "09-bai-9-phan-1", order = order bài mẹ × 100 + n
+05-bai-5/               grammar.json — ポイント → explanation, 例 → examples, ⚠ → notes
+05-bai-5-luyen-tap/     "kind": "test", "parent": "05-bai-5", order = order bài mẹ × 100 + n
+04-bai-4-btvn/          BTVN cũng là bài con, cùng cách đặt tên
 ```
 
-- Tên thư mục và `name` theo tên file PDF ("Bài 9 · Phần 1"); `order` = số bài × 10 +
-  số phần (91), để phần 2 đứng ngay sau.
+- Tên thư mục `NN-bai-N`, `name` là "Bài N", `order` = số bài × 10 (50). Bài con tên
+  "Luyện tập Bài N" / "BTVN Bài N".
 - Câu 例 hội thoại xuống dòng bằng `\n`, mỗi người nói một dòng; `reading` và
-  `vietnamese` xuống dòng ở đúng những chỗ đó.
+  `vietnamese` xuống dòng ở đúng những chỗ đó. `reading` viết toàn hiragana, kể cả chữ
+  katakana trong câu.
 - Đề luyện tập chỉ lấy các câu CHỌN được (Chọn đáp án đúng, Chọn từ trong khung, câu đố
   trang bìa). Mỗi 問題 một `section`, `instructions` chép nguyên câu lệnh tiếng Việt của
   PDF, lựa chọn là các từ trong khung theo đúng thứ tự in. PDF không in đáp án (trừ câu
   đố bìa) nên đáp án tự chấm, kèm `choiceNotes`.
-- Bỏ qua: Đuổi hình bắt chữ (cần ảnh), Sắp xếp câu, チャレンジ (dịch tự do).
+- Bài tập TỰ VIẾT (問題2 Đuổi hình bắt chữ, Hoàn thành câu, Dịch câu, チャレンジ) không
+  thành câu trắc nghiệm mà nối vào cuối `examples` của đúng mẫu đó, `note` ghi rõ nguồn:
+  "Luyện tập 問題2 · …" / "チャレンジ N · …" và phần nào là đáp án gợi ý tự viết (PDF không
+  in đáp án). Nhờ vậy chúng có trên trang bài và vào luôn hai chiều luyện Nhật ↔ Việt —
+  チャレンジ vốn là bài dịch Việt → Nhật. Đuổi hình bắt chữ thì `note` tả lại tranh.
+- Bỏ qua: Sắp xếp câu.
