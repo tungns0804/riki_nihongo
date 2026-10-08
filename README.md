@@ -169,18 +169,8 @@ gần như đọc được đáp án, nên mở lúc nào là do người học 
 đóng hết từng câu chứ không đè lên chúng, nên đang "hiện tất cả" vẫn ẩn riêng được
 từng câu.
 
-**Ô tự viết** — LUÔN có sẵn dưới mọi câu (không phải bật), **không tính điểm**. Gõ lại
-câu tiếng Nhật để luyện chữ Hán, hoặc tự dịch sang tiếng Việt, rồi bấm "So với bản gốc":
-
-- Viết **tiếng Nhật**: báo khớp / chưa khớp và tô từng chữ viết thiếu hoặc viết khác.
-  So bằng LCS nên thiếu một chữ ở đầu câu không làm lệch cả phần sau (`diffAgainst`
-  trong `core/utils/text.ts`). Khoảng trắng và ngoặc 「」 bị bỏ qua — đề in có dấu cách
-  giữa các từ và dùng 「」 thay cho gạch chân, người gõ thì không.
-- Viết **tiếng Việt**: KHÔNG chấm khớp (một câu dịch có nhiều cách đúng), chỉ hiện câu
-  gốc và bản dịch tham khảo để tự đối chiếu.
-
 **Ghi chú của tôi** — nút dưới mỗi câu, bấm mới mở ra một ô viết rộng (tám dòng, kéo
-cao thêm được). Khác ô tự viết ở trên, ghi chú **được lưu**: lưu ngay mỗi lần gõ vào
+cao thêm được), không tính điểm. Ghi chú **được lưu**: lưu ngay mỗi lần gõ vào
 localStorage (`riki:notes:<học phần>`, khoá theo phần học / bài / id câu), nên làm lại
 đề hay mở màn hình kết quả đều thấy lại. Mặc định đóng kể cả khi đã có ghi chú — câu đã
 có ghi chú thì nút có thêm một chấm. Xoá trắng ô là xoá ghi chú (`core/services/note-store.ts`,

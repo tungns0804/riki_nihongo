@@ -197,66 +197,6 @@
                         }
                       </div>
 
-                      <!-- Ô tự viết: LUÔN có ở mọi câu. Gõ lại câu tiếng Nhật để luyện chữ
-                           Hán, hoặc tự dịch sang tiếng Việt. Không tính điểm. -->
-                      <div class="test-write">
-                        <label class="test-write-field">
-                          <span class="label">{{ t('test.writeLabel') }}</span>
-                          <textarea
-                            class="input write-input"
-                            rows="2"
-                            [placeholder]="t('test.writePlaceholder')"
-                            [ngModel]="typedOf(question.id)"
-                            (ngModelChange)="setTyped(question.id, $event)"
-                            autocomplete="off"
-                            spellcheck="false"
-                          ></textarea>
-                        </label>
-
-                        @if (isCompared(question.id)) {
-                          @if (comparisonOf(question); as result) {
-                            <div class="test-compare">
-                              <span class="label">{{ t('test.original') }}</span>
-                              @if (result.japanese) {
-                                <p class="test-verdict" [class.is-right]="result.matches">
-                                  @if (result.matches) {
-                                    {{ t('test.matched') }}
-                                  } @else {
-                                    {{ t('test.notMatched') }}
-                                  }
-                                </p>
-                                <!-- prettier-ignore -->
-                                <p class="jp test-original">@for (part of result.parts; track $index) {@if (part.hit) {<span>{{ part.text }}</span>} @else {<mark>{{ part.text }}</mark>}}</p>
-                              } @else {
-                                <p class="jp test-original">{{ question.promptJapanese }}</p>
-                              }
-
-                              @if (question.promptTranslation) {
-                                <span class="label">{{ t('test.referenceTranslation') }}</span>
-                                <p class="test-reference">{{ question.promptTranslation }}</p>
-                              }
-
-                              <button
-                                type="button"
-                                class="btn btn-sm btn-ghost"
-                                (click)="closeComparison(question.id)"
-                              >
-                                {{ t('test.compareAgain') }}
-                              </button>
-                            </div>
-                          }
-                        } @else {
-                          <button
-                            type="button"
-                            class="btn btn-sm compare-btn"
-                            [disabled]="!typedOf(question.id).trim()"
-                            (click)="compare(question.id)"
-                          >
-                            {{ t('test.compare') }}
-                          </button>
-                        }
-                      </div>
-
                       <!-- Ghi chú riêng của câu này: đóng sẵn, bấm mới mở; lưu ngay khi
                            gõ, mở lại đề hay sang màn kết quả vẫn còn. -->
                       @if (config(); as cfg) {

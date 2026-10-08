@@ -8,7 +8,6 @@ import {
   signal,
   viewChild,
 } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 
 import { COURSE, MODULES, moduleOf } from '../../core/course/course.config';
@@ -25,16 +24,12 @@ import type {
 import { ContentStore } from '../../core/services/content-store';
 import { PracticeSessionStore } from '../../core/services/practice-session-store';
 import { ProgressStore } from '../../core/services/progress-store';
-import { type TextPart, diffAgainst } from '../../core/utils/text';
 import { QuestionNote } from '../shared/question-note/question-note';
 
 /** Nhãn của một kỹ năng lấy luôn từ tên phần học tương ứng, như màn hình kết quả. */
 const SKILL_LABEL_KEY: Record<string, MessageKey> = Object.fromEntries(
   MODULES.map((module) => [module.id, module.shortKey]),
 );
-
-/** Có chữ tiếng Nhật (kana hoặc chữ Hán) không — để biết người học đang viết gì. */
-const JAPANESE = /[぀-ヿ㐀-䶿一-鿿ｦ-ﾟ]/u;
 
 /** Một câu hỏi trên trang làm đề, kèm số thứ tự trong tab. */
 interface QuestionView {
@@ -79,14 +74,6 @@ interface TabView {
   questionIds: readonly string[];
 }
 
-/** Kết quả so câu người học tự viết với câu gốc. */
-interface Comparison {
-  /** Người học viết tiếng Nhật: so được từng chữ. Viết tiếng Việt thì không. */
-  japanese: boolean;
-  matches: boolean;
-  parts: TextPart[];
-}
-
 /**
  * Màn hình LÀM ĐỀ kiểm tra nhập môn.
  *
@@ -101,17 +88,13 @@ interface Comparison {
  * Bố cục theo đúng trang làm bài của Riki: hàng tab theo kỹ năng, câu lệnh 問題 trong
  * khung nét đứt, mỗi câu bốn lựa chọn xếp hai cột.
  *
- * Ba thứ học thêm ở từng câu, không dính gì tới phần chấm:
+ * Hai thứ học thêm ở từng câu, không dính gì tới phần chấm:
  *
  *  - **Bản dịch** của câu hỏi và của cả bốn đáp án. Mỗi câu một nút hiện / ẩn riêng,
  *    và một nút trên thanh đầu hiện / ẩn tất cả. Mặc định ẩn: dịch đáp án ra là gần
  *    như đọc được đáp án, nên mở lúc nào là do người học chọn.
- *  - **Ô tự viết** LUÔN có sẵn dưới mỗi câu, để gõ lại câu tiếng Nhật (luyện chữ Hán)
- *    hoặc tự dịch sang tiếng Việt. So với bản gốc: viết tiếng Nhật thì tô từng chữ
- *    lệch, viết tiếng Việt thì hiện bản dịch tham khảo để tự đối chiếu — một câu dịch
- *    có nhiều cách đúng, so từng chữ thì vô nghĩa.
  *  - **Ghi chú của tôi** (QuestionNote): ô viết rộng, đóng sẵn, LƯU LẠI trong trình
- *    duyệt — khác ô tự viết ở trên, thứ chỉ sống tới lúc nộp bài.
+ *    duyệt — làm lại đề hay xem màn hình kết quả vẫn thấy.
  *
  * Phiên vẫn là PracticeSessionStore để dùng lại màn hình kết quả và phần ghi tiến độ,
  * nhưng chấm một lượt lúc nộp bằng `submitAll` chứ không `answer` từng câu. Nội dung
@@ -120,7 +103,7 @@ interface Comparison {
  */
 @Component({
   selector: 'app-test-run',
-  imports: [FormsModule, QuestionNote, T],
+  imports: [QuestionNote, T],
   templateUrl: './test-run.html',
   styleUrl: './test-run.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -154,10 +137,6 @@ export class TestRun {
   private readonly revealedQuestions = signal<ReadonlySet<string>>(new Set());
   /** Bài đọc đang mở bản dịch, theo id nhóm. Tách riêng vì bài đọc có nút riêng. */
   private readonly revealedPassages = signal<ReadonlySet<string>>(new Set());
-
-  /** Chữ người học tự viết ở từng câu, và những câu đang hiện phần so với bản gốc. */
-  private readonly typed = signal<ReadonlyMap<string, string>>(new Map());
-  private readonly compared = signal<ReadonlySet<string>>(new Set());
 
   /** Đã bấm nộp khi còn câu trống: hỏi lại một nhịp thay vì nộp luôn. */
   protected readonly confirming = signal(false);
@@ -324,43 +303,6 @@ export class TestRun {
     const { questions, passages } = this.translatable();
     this.revealedQuestions.set(new Set(questions));
     this.revealedPassages.set(new Set(passages));
-  }
-
-  // ── Ô tự viết (không tính điểm) ──────────────────────────────────────────
-
-  protected typedOf(questionId: string): string {
-    return this.typed().get(questionId) ?? '';
-  }
-
-  protected setTyped(questionId: string, value: string): void {
-    this.typed.update((current) => new Map(current).set(questionId, value));
-    // Sửa chữ thì phần so sánh đang hiện là so với chữ cũ.
-    this.compared.update((current) => remove(current, questionId));
-  }
-
-  protected isCompared(questionId: string): boolean {
-    return this.compared().has(questionId);
-  }
-
-  protected compare(questionId: string): void {
-    this.compared.update((current) => new Set(current).add(questionId));
-  }
-
-  protected closeComparison(questionId: string): void {
-    this.compared.update((current) => remove(current, questionId));
-  }
-
-  /**
-   * So chữ người học vừa viết với câu gốc.
-   *
-   * Viết tiếng Nhật thì so từng chữ và tô chỗ lệch. Viết tiếng Việt (tự dịch) thì
-   * KHÔNG chấm khớp / không khớp: một câu dịch có nhiều cách viết đúng, chỉ hiện bản
-   * dịch tham khảo để người học tự đối chiếu.
-   */
-  protected comparisonOf(question: QuestionView): Comparison {
-    const typed = this.typedOf(question.id);
-    const { parts, matches } = diffAgainst(question.promptJapanese, typed);
-    return { japanese: JAPANESE.test(typed), matches, parts };
   }
 
   // ── Nộp bài ──────────────────────────────────────────────────────────────

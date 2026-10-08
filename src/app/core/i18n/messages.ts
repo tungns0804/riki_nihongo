@@ -294,8 +294,8 @@ export const MESSAGES = {
   // Bài dạng đề nằm trong phần lý thuyết: khung bắt đầu thay cho khung thiết lập luyện tập.
   'test.run': { vi: 'Làm đề', ja: '問題を解く' },
   'test.unitHint': {
-    vi: 'Làm hết cả đề rồi nộp một lượt, không chấm từng câu. Mỗi câu có bản dịch ẩn và ô tự viết không tính điểm.',
-    ja: '最後まで解いてから提出します（1問ずつは採点しません）。各問に非表示の訳と、採点なしの記入欄があります。',
+    vi: 'Làm hết cả đề rồi nộp một lượt, không chấm từng câu. Mỗi câu có bản dịch ẩn và ô ghi chú riêng, tự lưu lại.',
+    ja: '最後まで解いてから提出します（1問ずつは採点しません）。各問に非表示の訳と、自動保存される自分のメモ欄があります。',
   },
   'test.empty.title': { vi: 'Chưa có đề kiểm tra', ja: 'テストがまだありません' },
   'test.empty.text': {
@@ -317,23 +317,9 @@ export const MESSAGES = {
   },
   'test.submitAnyway': { vi: 'Nộp luôn', ja: 'このまま提出' },
   'test.keepGoing': { vi: 'Làm tiếp', ja: '続ける' },
-  // Học thêm trên màn hình làm đề: bản dịch, và ô tự viết ở từng câu.
+  // Học thêm trên màn hình làm đề: bản dịch của từng câu.
   'test.showAllTranslations': { vi: 'Hiện tất cả bản dịch', ja: 'すべての訳を表示' },
   'test.hideAllTranslations': { vi: 'Ẩn tất cả bản dịch', ja: 'すべての訳を隠す' },
-  'test.writeLabel': { vi: 'Tự viết (không tính điểm)', ja: '自分で書く（採点なし）' },
-  'test.writePlaceholder': {
-    vi: 'Gõ lại câu tiếng Nhật để luyện chữ Hán, hoặc tự dịch sang tiếng Việt',
-    ja: '日本語で書き写すか、ベトナム語に訳してみましょう',
-  },
-  'test.compare': { vi: 'So với bản gốc', ja: '原文と比べる' },
-  'test.compareAgain': { vi: 'Sửa lại', ja: '書き直す' },
-  'test.matched': { vi: 'Khớp với bản gốc', ja: '原文と一致' },
-  'test.notMatched': {
-    vi: 'Chưa khớp — chỗ tô đậm là chữ còn thiếu hoặc viết khác.',
-    ja: '不一致 — 印の文字が不足または相違しています。',
-  },
-  'test.original': { vi: 'Bản gốc', ja: '原文' },
-  'test.referenceTranslation': { vi: 'Bản dịch tham khảo', ja: '参考訳' },
   // Ghi chú riêng của người học ở từng câu đề: màn hình làm đề và màn hình kết quả.
   'note.show': { vi: 'Ghi chú của tôi', ja: '自分のメモ' },
   'note.hide': { vi: 'Ẩn ghi chú', ja: 'メモを隠す' },

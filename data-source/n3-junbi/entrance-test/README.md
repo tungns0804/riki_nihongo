@@ -148,5 +148,4 @@ bài đọc GIỐNG HỆT NHAU được gom lại và bài đọc chỉ in một
 ## Dấu 「」 thay cho gạch chân
 
 File nguồn không giữ được gạch chân của đề in, nên phần 文字語彙 đánh dấu từ đang hỏi
-bằng 「」: `つよい「台風」が 来る そうです。`. Ô tự viết trên màn hình làm đề bỏ qua
-「」 (và khoảng trắng) khi so với bản gốc — người học không gõ chúng.
+bằng 「」: `つよい「台風」が 来る そうです。`.
