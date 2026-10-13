@@ -1,5 +1,5 @@
-# N3 JUNBI — 文字語彙 · ĐỘNG TỪ (121–140)
-# Nguồn: 第7課 của tài liệu N3準備 文字語彙
+# N3 JUNBI — 文字語彙 · ĐỘNG TỪ (121–140, 452–470)
+# Nguồn: 第7課 và 第24課 (PDF người dùng gửi 2026-10-13) của tài liệu N3準備 文字語彙
 # Định dạng: xem data-source/n3-junbi/vocabulary/README.md
 #
 # Khác file danh từ ở hai chỗ:
@@ -194,3 +194,231 @@
 読: こんど、かのじょをしょくじにさそおうとおもう。
 文法: thể ý chí ＋と思う = định sẽ ~ — ý định vừa nảy ra lúc nói
 連: 誘いを受ける ＞＜ 誘いを断る (ことわる) = Nhận lời mời ＞＜ Từ chối lời mời
+
+# ── 第24課：452〜470 ────────────────────────────────────────────
+
+# nguồn: bai-242-tu-vung-cai-thien-461-470.pdf (bản PDF này in trọn 第24課: 452–470;
+# chỉ tên file cho biết buổi 24.2 bắt đầu từ 461, nên 452–460 là buổi 24.1)
+# Nhiều câu viết kana (うまって, つめる, ふる…) trong khi tiêu đề in chữ Hán: chỗ [ ] chép
+# đúng chữ của câu.
+## 452–460 = Bài 24.1 · Lấp, vây, nhồi; mở, đóng và bay
+452. (が)埋まる (うまる) = MAI ; Bị chôn vùi
+・山が崩れて家が[うまって]しまった。| Núi lở làm ngôi nhà bị vùi lấp mất.
+読: やまがくずれていえがうまってしまった。
+文法: V て (nguyên nhân) = vì ~ nên; ～てしまう = ~ mất rồi (việc đáng tiếc)
+
+453. (を)埋める (うめる) = MAI ; Chôn, chôn lấp/ Tô kín (lấp chỗ trống)
+# 意味① Chôn, chôn lấp: hai câu đầu. 意味② Tô kín (lấp chỗ trống): câu cuối.
+・あなを掘ってごみを[うめた]。| Đào hố rồi chôn rác.
+読: あなをほってごみをうめた。
+文法: V て＋V = làm việc này rồi tới việc kia
+・彼を砂に[うめた]。| Vùi anh ấy vào cát.
+読: かれをすなにうめた。
+文法: N に埋める = vùi vào N — に chỉ chỗ vật bị vùi vào
+・(テストで)解答欄はいちおう全部[うめた]が、自信がない。| (Trong bài kiểm tra) tôi đã điền kín hết các ô trả lời, nhưng không tự tin.
+読: (テストで)かいとうらんはいちおうぜんぶうめたが、じしんがない。
+文法: いちおう = tạm gọi là đã ~ (làm cho có, chưa chắc ổn); ～が = nhưng
+
+454. (を)囲む (かこむ) = VI ; Vây quanh/ Bao quanh
+・テーブルを[囲んで]座る。| Ngồi quây quanh bàn.
+読: テーブルをかこんですわる。
+文法: V て＋V = làm việc sau theo cách của việc trước (ngồi theo kiểu quây quanh)
+・日本は海に[囲まれて]いる。| Nhật Bản được biển bao quanh.
+読: にほんはうみにかこまれている。
+文法: thể bị động 囲まれる＋ている = được ~ bao quanh (trạng thái kéo dài)
+
+455. (が)詰まる (つまる) = CẬT ; Đầy chặt, kín mít/ Tắc
+# Sách chèn ＋ giữa chủ ngữ và 詰まる ở ba câu đầu để nhấn mẫu "N が詰まる"; chép thành câu liền.
+・荷物が[詰まって]いて重い。| Đồ đạc nhồi chặt nên nặng.
+読: にもつがつまっていておもい。
+文法: ～ていて = thể て của ～ている, nối sang vế sau để nêu lý do
+・来週まで予定が[詰まって]いる。| Lịch kín mít tới tận tuần sau.
+読: らいしゅうまでよていがつまっている。
+文法: ～まで = tới tận ~; ～ている = trạng thái đang kéo dài
+・トイレが[詰まった]！| Bồn cầu bị tắc rồi!
+読: トイレがつまった！
+・前の選手と後ろの選手の差が[つまって]きた。| Khoảng cách giữa vận động viên phía trước và phía sau đã dần được rút ngắn.
+読: まえのせんしゅとうしろのせんしゅのさがつまってきた。
+文法: ～てくる = dần dần ~ (thay đổi tiến tới hiện tại)
+連: 差が詰まる (さがつまる) = Khoảng cách được rút ngắn
+
+456. (を)詰める (つめる) = CẬT ; Nhét/ Nhồi/ Lèn/ Rút ngắn
+# 意味① Nhét, nhồi, lèn: hai câu đầu và dòng 合. 意味② Rút ngắn: hai câu cuối.
+・かばんに荷物を[つめる]。| Nhét đồ vào cặp.
+読: かばんににもつをつめる。
+文法: N1 に N2 を詰める = nhét N2 vào N1
+・弁当箱にごはんを[つめる]。| Lèn cơm vào hộp cơm.
+読: べんとうばこにごはんをつめる。
+・前の車との距離を[つめる]。| Rút ngắn khoảng cách với xe phía trước.
+読: まえのくるまとのきょりをつめる。
+文法: N との距離 = khoảng cách với N
+・ズボンの(ウエスト／丈)を[つめる]。| Thu nhỏ (vòng eo / độ dài) của quần.
+読: ズボンの(ウエスト／たけ)をつめる。
+合: 知識を詰め込む (ちしきをつめこむ) = Nhồi nhét kiến thức
+
+457. (が・を)開く (ひらく) = KHAI ; Mở/ Mở rộng (khoảng cách)/ Mở (khai trương), tổ chức
+# 意味① Mở: bốn câu đầu. 意味② Mở rộng (khoảng cách): câu thứ năm. 意味③ Mở, tổ chức: hai câu cuối.
+# Sách không tô đỏ 花が開く và 本を開いて; vẫn đánh dấu [ ] cho mọi câu đều tô và khoét được.
+# (△) sau 花が開く: nói được nhưng không phải cách nói thường dùng (thường nói 花が咲く).
+・ドアが[開く]。| Cửa mở.
+読: ドアがひらく。
+・カーテンを[開く]。| Mở rèm.
+読: カーテンをひらく。
+・花が[開く]。（△）| Hoa nở. (△)
+読: はながひらく。（△）
+・本を[開いて]読む。| Mở sách ra đọc.
+読: ほんをひらいてよむ。
+・1位と2位の差が、どんどん[開いて]いった。| Khoảng cách giữa hạng 1 và hạng 2 ngày càng bị nới rộng.
+読: いちいとにいのさが、どんどんひらいていった。
+文法: どんどん = (thay đổi) nhanh và liên tục; ～ていく = dần dần ~ (thay đổi đi tiếp về sau)
+・（会／パーティー／会議）を[開く]。| Tổ chức (buổi họp mặt / bữa tiệc / cuộc họp).
+読: （かい／パーティー／かいぎ）をひらく。
+・父は駅前にクリーニング店を[開いた]。| Bố tôi đã mở tiệm giặt là trước nhà ga.
+読: ちちはえきまえにクリーニングてんをひらいた。
+
+458. (が・を)閉じる (とじる) = BẾ ; Đóng/ Đóng cửa (ngừng kinh doanh)
+# 意味① Đóng: ba câu đầu. 意味② Đóng cửa (ngừng kinh doanh): câu cuối.
+# Sách in "夜になる閉じられる", thiếu と — chép lại thành 夜になると.
+・エレベーターのドアが[閉じた]。| Cửa thang máy đã đóng.
+読: エレベーターのドアがとじた。
+・寒いのでドアを[閉じた]。| Trời lạnh nên tôi đóng cửa lại.
+読: さむいのでドアをとじた。
+文法: ～ので = vì ~ nên
+・公園の門は夜になると[閉じられる]。| Đêm xuống là cổng công viên được đóng lại.
+読: こうえんのもんはよるになるととじられる。
+文法: ～と = hễ ~ là; thể bị động 閉じられる = được đóng (không nói ai đóng)
+・売り上げが減ったので、店を[閉じる]ことにした。| Doanh thu giảm nên tôi đã quyết định đóng cửa tiệm.
+読: うりあげがへったので、みせをとじることにした。
+文法: V る＋ことにした = đã quyết định ~ (quyết định của bản thân)
+対: 開く (ひらく)
+使い分け: 本／目を閉じる (ほん／めをとじる) = gấp sách / nhắm mắt ; 鍵／蓋を閉める (かぎ／ふたをしめる) = khoá cửa / đậy nắp
+
+459. (が)飛ぶ (とぶ) = PHI ; Bay/ Bắn/ Lao đến, phi đến/ Bay đến, bay sang/ Mất/ Biến mất
+# 意味① Bay: hai câu đầu. 意味② Bắn: câu thứ ba. 意味③ Lao đến: câu thứ tư.
+# 意味④ Bay sang: câu thứ năm. 意味⑤ Mất, biến mất: câu cuối.
+・鳥が空を[飛んで]いる。| Chim đang bay trên trời.
+読: とりがそらをとんでいる。
+文法: 空を飛ぶ = bay trên trời — を chỉ không gian di chuyển qua
+・ボールが[飛んで]きて、頭に当たった。| Quả bóng bay tới và trúng vào đầu.
+読: ボールがとんできて、あたまにあたった。
+文法: V て＋くる = ~ về phía mình
+・みかんの汁が[飛ぶ]。| Nước cam bắn ra.
+読: みかんのしるがとぶ。
+・子どもが事故にあったと聞いて病院へ[飛んで]行った。| Nghe tin con bị tai nạn, tôi lao ngay tới bệnh viện.
+読: こどもがじこにあったときいてびょういんへとんでいった。
+文法: 事故にあう = gặp tai nạn; ～と聞いて = nghe tin ~ nên; 飛んで行く = vội vàng lao tới
+・彼女は彼を追ってパリへ[飛んだ]。| Cô ấy đã bay sang Paris theo anh ấy.
+読: かのじょはかれをおってパリへとんだ。
+文法: N を追って = đuổi theo N
+・資料のページが[飛んで]いないかどうか、確認してください。| Hãy kiểm tra xem tài liệu có bị sót trang nào không.
+読: しりょうのページがとんでいないかどうか、かくにんしてください。
+文法: ～かどうか = có ~ hay không
+
+460. (を)飛ばす (とばす) = PHI ; Làm bay/ Thả bay/ Bắn/ Bay/ Bỏ qua
+# 意味① Làm bay, thả bay: hai câu đầu. 意味② Bắn: câu thứ ba. 意味③ Bay (bị thổi bay): câu thứ tư.
+# 意味④ Bỏ qua: câu cuối.
+・紙飛行機を[飛ばす]。| Phi máy bay giấy.
+読: かみひこうきをとばす。
+・風船を[飛ばす]。| Thả bóng bay.
+読: ふうせんをとばす。
+・つばを[飛ばして]話す。| Vừa nói vừa bắn nước bọt.
+読: つばをとばしてはなす。
+文法: V て＋V = làm việc sau kèm theo việc trước (cách thức)
+・風で洗たく物が[飛ばされて]しまった。| Quần áo phơi bị gió thổi bay mất.
+読: かぜでせんたくものがとばされてしまった。
+文法: ～で = vì ~; thể bị động 飛ばされる = bị thổi bay; ～てしまう = ~ mất rồi
+・文章を1行[飛ばして]読んでしまった。| Tôi lỡ đọc sót mất một dòng của đoạn văn.
+読: ぶんしょうをいちぎょうとばしてよんでしまった。
+文法: ～てしまう = lỡ ~ (ngoài ý muốn)
+
+# nguồn: bai-242-tu-vung-cai-thien-461-470.pdf
+## 461–470 = Bài 24.2 · Lắc, lật, thấy; thử, lặp, dịch và làm sai
+461. (を)振る (ふる) = CHẤN ; Vẫy, rung, lắc (đầu, cổ…)/ Lắc (đồ uống)/ Rắc/ Từ chối
+# 意味① Vẫy, lắc: câu đầu. 意味② Lắc (đồ uống): câu thứ hai. 意味③ Rắc: câu thứ ba.
+# 意味④ Từ chối: câu cuối.
+・手／しっぽ／首を[ふる]。| Vẫy tay / vẫy đuôi / lắc đầu.
+読: て／しっぽ／くびをふる。
+・「この飲み物は、よく[ふって]からお飲みください。」| "Đồ uống này xin hãy lắc kỹ rồi mới uống."
+読: 「こののみものは、よくふってからおのみください。」
+文法: ～てから = sau khi ~; お＋V ます bỏ ます＋ください = cách nói tôn kính của ～てください
+・肉に塩を[ふる]。| Rắc muối lên thịt.
+読: にくにしおをふる。
+・片思いの彼女に告白したが、[ふられて]しまった。| Tôi tỏ tình với cô gái mình thầm thương nhưng bị từ chối mất rồi.
+読: かたおもいのかのじょにこくはくしたが、ふられてしまった。
+文法: thể bị động ふられる = bị từ chối (bị "đá"); 片思い = yêu đơn phương
+
+462. (を)めくる = Lật
+・(カード／ページ／カレンダー…)を[めくる]。| Lật (thẻ bài / trang sách / tờ lịch…).
+
+463. (を)見かける (みかける) = KIẾN ; Tình cờ nhìn thấy/ Nhìn thấy
+# 意味① Tình cờ nhìn thấy: câu đầu. 意味② Nhìn thấy (bắt gặp quanh mình): câu thứ hai.
+# Câu cuối dùng danh từ 見かけ ở dòng 名.
+・街で偶然、昔の友だちを[見かけた]。| Tình cờ thấy người bạn cũ ngoài phố.
+読: まちでぐうぜん、むかしのともだちをみかけた。
+・最近、公衆電話を[見かけなく]なった。| Dạo này không còn thấy điện thoại công cộng nữa.
+読: さいきん、こうしゅうでんわをみかけなくなった。
+文法: V ない bỏ い＋くなる = không còn ~ nữa
+・このりんごは[見かけ]は甘そうだったが、食べてみるとすっぱかった。| Quả táo này trông bề ngoài có vẻ ngọt, nhưng ăn thử thì lại chua.
+読: このりんごはみかけはあまそうだったが、たべてみるとすっぱかった。
+文法: tính từ い bỏ い＋そうだ = trông có vẻ ~; ～てみると = thử ~ thì (mới biết)
+名: 見かけ (みかけ) (≒ 見た目 (みため)) = Vẻ ngoài
+
+464. (を)確かめる (たしかめる) = XÁC ; Xác nhận
+# Hai câu cuối là câu của dòng 関 và 類, không đánh dấu [ ] nên không đem khoét: chỗ tô đỏ
+# là 確かな / 確認する, từ khác chứ không phải 確かめる.
+# Sách in "新聞に聞かれてあった" — chữ 聞 in nhầm, chép lại thành 書かれてあった.
+・メールが届いたかどうか、相手に電話して[確かめた]。| Tôi gọi điện cho bên kia để xác nhận xem email đã tới chưa.
+読: メールがとどいたかどうか、あいてにでんわしてたしかめた。
+文法: ～かどうか = có ~ hay không
+・飲み会の参加人数を[確かめた]。| Tôi đã xác nhận số người tham gia buổi nhậu.
+読: のみかいのさんかにんずうをたしかめた。
+・新聞に書かれてあったから確かな情報だ。| Vì đã được viết trên báo nên đó là thông tin chính xác.
+読: しんぶんにかかれてあったからたしかなじょうほうだ。
+文法: 書かれてある = đã được viết sẵn (kết quả còn lưu lại); 確かな＋N = N chính xác
+・事実を確認する。| Xác nhận sự thật.
+読: じじつをかくにんする。
+関: 確かな (たしかな) = Chính xác
+類: 確認する (かくにんする) = Kiểm tra, xác nhận
+
+465. (を)試す (ためす) = THÍ ; Thử
+・洋服が似合うかどうか、着て[試して]みた。| Tôi đã mặc thử xem bộ quần áo có hợp không.
+読: ようふくがにあうかどうか、きてためしてみた。
+文法: ～かどうか = có ~ hay không; ～てみる = thử ~
+関: 試しに (ためしに) = Thử (làm) xem
+
+466. (を)繰り返す (くりかえす) = SÀO PHẢN ; Lặp lại
+・この本は大好きなので、[繰り返し]読みました。| Tôi rất thích cuốn sách này nên đã đọc đi đọc lại.
+読: このほんはだいすきなので、くりかえしよみました。
+文法: ～なので = vì ~ (sau tính từ な, danh từ); 繰り返し＋V = ~ đi ~ lại (thể ます bỏ ます dùng như phó từ)
+
+467. (を)訳す (やくす) = DỊCH ; Dịch
+# Câu thứ hai dùng danh từ 訳 ở dòng 名.
+・英語を日本語に[訳す]。| Dịch tiếng Anh sang tiếng Nhật.
+読: えいごをにほんごにやくす。
+文法: A を B に訳す = dịch A sang B
+・英語の文に日本語の[訳]をつける。| Thêm bản dịch tiếng Nhật cho câu tiếng Anh.
+読: えいごのぶんににほんごのやくをつける。
+文法: N に訳をつける = kèm bản dịch cho N
+名: 訳 (やく) = Bản dịch (đọc わけ thì là "lý do", từ khác)
+類: 文字を翻訳(を)する (もじをほんやく(を)する) = Dịch chữ viết
+類: 会話を通訳(を)する (かいわをつうやく(を)する) = Phiên dịch hội thoại
+
+468. (を)行う (おこなう) = HÀNH ; Tổ chức, tiến hành
+・(試験／会議／スピーチ／イベント…)を[行う]。| Tổ chức (kỳ thi / cuộc họp / bài phát biểu / sự kiện…).
+読: (しけん／かいぎ／スピーチ／イベント…)をおこなう。
+※: 「する」より改まった言い方 (Cách nói trang trọng hơn する)
+
+469. (が・を)間違う (まちがう) = GIAN VI ; Sai, nhầm
+・この計算は[間違って]いる。| Phép tính này sai.
+読: このけいさんはまちがっている。
+文法: ～ている = trạng thái (đang sai)
+・お金があれば幸せになれるというのは[間違った]考えだ。| Cho rằng có tiền là sẽ hạnh phúc là một suy nghĩ sai lầm.
+読: おかねがあればしあわせになれるというのはまちがったかんがえだ。
+文法: ～ば = nếu ~; なれる = thể khả năng của なる; ～というのは = cái việc (cho rằng) ~ thì; 間違った＋N = N sai lầm
+
+470. (を)間違える (まちがえる) = GIAN VI ; Làm sai, nhầm
+・テストの答え・簡単な計算を[間違えた]。| Tôi làm sai đáp án bài kiểm tra / phép tính đơn giản.
+読: テストのこたえ・かんたんなけいさんをまちがえた。
+・塩とさとうを[間違えて]なべに入れてしまった。| Tôi nhầm muối với đường rồi lỡ cho vào nồi.
+読: しおとさとうをまちがえてなべにいれてしまった。
+文法: A と B を間違える = nhầm A với B; ～てしまう = lỡ ~

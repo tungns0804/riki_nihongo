@@ -1,7 +1,7 @@
 {
   "id": "02-dong-tu",
   "name": "Động từ",
-  "description": "Động từ N3準備 文字語彙 — 第7課 (121–140)",
+  "description": "Động từ N3準備 文字語彙 — 第7課 (121–140) và 第24課 (452–470)",
   "kind": "vocabulary",
   "parent": "",
   "group": "",
@@ -13,6 +13,14 @@
     {
       "label": "131–140",
       "title": "Bài 7.2 · Nói năng, chăm sóc và việc nhà"
+    },
+    {
+      "label": "452–460",
+      "title": "Bài 24.1 · Lấp, vây, nhồi; mở, đóng và bay"
+    },
+    {
+      "label": "461–470",
+      "title": "Bài 24.2 · Lắc, lật, thấy; thử, lặp, dịch và làm sai"
     }
   ],
   "words": [
@@ -761,6 +769,875 @@
           "text": "誘いを受ける ＞＜ 誘いを断る (ことわる) = Nhận lời mời ＞＜ Từ chối lời mời"
         }
       ]
+    },
+    {
+      "id": "d93a76ff4e0381c0",
+      "number": 452,
+      "group": "452–460",
+      "particle": "が",
+      "japanese": "埋まる",
+      "reading": "うまる",
+      "hanViet": "MAI",
+      "vietnamese": "Bị chôn vùi",
+      "examples": [
+        {
+          "id": "ef82449eb8be4d6c",
+          "japanese": "山が崩れて家がうまってしまった。",
+          "vietnamese": "Núi lở làm ngôi nhà bị vùi lấp mất.",
+          "reading": "やまがくずれていえがうまってしまった。",
+          "grammar": "V て (nguyên nhân) = vì ~ nên; ～てしまう = ~ mất rồi (việc đáng tiếc)",
+          "targets": [
+            "うまって"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "df254ac4f565cd1e",
+      "number": 453,
+      "group": "452–460",
+      "particle": "を",
+      "japanese": "埋める",
+      "reading": "うめる",
+      "hanViet": "MAI",
+      "vietnamese": "Chôn, chôn lấp/ Tô kín (lấp chỗ trống)",
+      "examples": [
+        {
+          "id": "f5fe1cb67d8cde6e",
+          "japanese": "あなを掘ってごみをうめた。",
+          "vietnamese": "Đào hố rồi chôn rác.",
+          "reading": "あなをほってごみをうめた。",
+          "grammar": "V て＋V = làm việc này rồi tới việc kia",
+          "targets": [
+            "うめた"
+          ]
+        },
+        {
+          "id": "407bdaf0c825fbc8",
+          "japanese": "彼を砂にうめた。",
+          "vietnamese": "Vùi anh ấy vào cát.",
+          "reading": "かれをすなにうめた。",
+          "grammar": "N に埋める = vùi vào N — に chỉ chỗ vật bị vùi vào",
+          "targets": [
+            "うめた"
+          ]
+        },
+        {
+          "id": "dc958a855930f7ef",
+          "japanese": "(テストで)解答欄はいちおう全部うめたが、自信がない。",
+          "vietnamese": "(Trong bài kiểm tra) tôi đã điền kín hết các ô trả lời, nhưng không tự tin.",
+          "reading": "(テストで)かいとうらんはいちおうぜんぶうめたが、じしんがない。",
+          "grammar": "いちおう = tạm gọi là đã ~ (làm cho có, chưa chắc ổn); ～が = nhưng",
+          "targets": [
+            "うめた"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "38c0aea529262f32",
+      "number": 454,
+      "group": "452–460",
+      "particle": "を",
+      "japanese": "囲む",
+      "reading": "かこむ",
+      "hanViet": "VI",
+      "vietnamese": "Vây quanh/ Bao quanh",
+      "examples": [
+        {
+          "id": "7c95d1f1c1ddf2e8",
+          "japanese": "テーブルを囲んで座る。",
+          "vietnamese": "Ngồi quây quanh bàn.",
+          "reading": "テーブルをかこんですわる。",
+          "grammar": "V て＋V = làm việc sau theo cách của việc trước (ngồi theo kiểu quây quanh)",
+          "targets": [
+            "囲んで"
+          ]
+        },
+        {
+          "id": "a8218291d0b95568",
+          "japanese": "日本は海に囲まれている。",
+          "vietnamese": "Nhật Bản được biển bao quanh.",
+          "reading": "にほんはうみにかこまれている。",
+          "grammar": "thể bị động 囲まれる＋ている = được ~ bao quanh (trạng thái kéo dài)",
+          "targets": [
+            "囲まれて"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "b9cf45da3b646fa0",
+      "number": 455,
+      "group": "452–460",
+      "particle": "が",
+      "japanese": "詰まる",
+      "reading": "つまる",
+      "hanViet": "CẬT",
+      "vietnamese": "Đầy chặt, kín mít/ Tắc",
+      "examples": [
+        {
+          "id": "d0ac65e9284a6717",
+          "japanese": "荷物が詰まっていて重い。",
+          "vietnamese": "Đồ đạc nhồi chặt nên nặng.",
+          "reading": "にもつがつまっていておもい。",
+          "grammar": "～ていて = thể て của ～ている, nối sang vế sau để nêu lý do",
+          "targets": [
+            "詰まって"
+          ]
+        },
+        {
+          "id": "5620b5d9784f85ec",
+          "japanese": "来週まで予定が詰まっている。",
+          "vietnamese": "Lịch kín mít tới tận tuần sau.",
+          "reading": "らいしゅうまでよていがつまっている。",
+          "grammar": "～まで = tới tận ~; ～ている = trạng thái đang kéo dài",
+          "targets": [
+            "詰まって"
+          ]
+        },
+        {
+          "id": "a4fdc6595470f678",
+          "japanese": "トイレが詰まった！",
+          "vietnamese": "Bồn cầu bị tắc rồi!",
+          "reading": "トイレがつまった！",
+          "grammar": "",
+          "targets": [
+            "詰まった"
+          ]
+        },
+        {
+          "id": "fcede35d9d82a5bc",
+          "japanese": "前の選手と後ろの選手の差がつまってきた。",
+          "vietnamese": "Khoảng cách giữa vận động viên phía trước và phía sau đã dần được rút ngắn.",
+          "reading": "まえのせんしゅとうしろのせんしゅのさがつまってきた。",
+          "grammar": "～てくる = dần dần ~ (thay đổi tiến tới hiện tại)",
+          "targets": [
+            "つまって"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "差が詰まる (さがつまる) = Khoảng cách được rút ngắn"
+        }
+      ]
+    },
+    {
+      "id": "9610cf885fcc5ca5",
+      "number": 456,
+      "group": "452–460",
+      "particle": "を",
+      "japanese": "詰める",
+      "reading": "つめる",
+      "hanViet": "CẬT",
+      "vietnamese": "Nhét/ Nhồi/ Lèn/ Rút ngắn",
+      "examples": [
+        {
+          "id": "bc9eadb28fe9d7e5",
+          "japanese": "かばんに荷物をつめる。",
+          "vietnamese": "Nhét đồ vào cặp.",
+          "reading": "かばんににもつをつめる。",
+          "grammar": "N1 に N2 を詰める = nhét N2 vào N1",
+          "targets": [
+            "つめる"
+          ]
+        },
+        {
+          "id": "37b014ebd442ad1e",
+          "japanese": "弁当箱にごはんをつめる。",
+          "vietnamese": "Lèn cơm vào hộp cơm.",
+          "reading": "べんとうばこにごはんをつめる。",
+          "grammar": "",
+          "targets": [
+            "つめる"
+          ]
+        },
+        {
+          "id": "d8bb9c2d3fb0fbc1",
+          "japanese": "前の車との距離をつめる。",
+          "vietnamese": "Rút ngắn khoảng cách với xe phía trước.",
+          "reading": "まえのくるまとのきょりをつめる。",
+          "grammar": "N との距離 = khoảng cách với N",
+          "targets": [
+            "つめる"
+          ]
+        },
+        {
+          "id": "d759197b17d29c88",
+          "japanese": "ズボンの(ウエスト／丈)をつめる。",
+          "vietnamese": "Thu nhỏ (vòng eo / độ dài) của quần.",
+          "reading": "ズボンの(ウエスト／たけ)をつめる。",
+          "grammar": "",
+          "targets": [
+            "つめる"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "知識を詰め込む (ちしきをつめこむ) = Nhồi nhét kiến thức"
+        }
+      ]
+    },
+    {
+      "id": "3f3df63318bc29f1",
+      "number": 457,
+      "group": "452–460",
+      "particle": "が・を",
+      "japanese": "開く",
+      "reading": "ひらく",
+      "hanViet": "KHAI",
+      "vietnamese": "Mở/ Mở rộng (khoảng cách)/ Mở (khai trương), tổ chức",
+      "examples": [
+        {
+          "id": "60d250ea69a93f1c",
+          "japanese": "ドアが開く。",
+          "vietnamese": "Cửa mở.",
+          "reading": "ドアがひらく。",
+          "grammar": "",
+          "targets": [
+            "開く"
+          ]
+        },
+        {
+          "id": "8811ec9fd413ce2b",
+          "japanese": "カーテンを開く。",
+          "vietnamese": "Mở rèm.",
+          "reading": "カーテンをひらく。",
+          "grammar": "",
+          "targets": [
+            "開く"
+          ]
+        },
+        {
+          "id": "a783877d6e990b2e",
+          "japanese": "花が開く。（△）",
+          "vietnamese": "Hoa nở. (△)",
+          "reading": "はながひらく。（△）",
+          "grammar": "",
+          "targets": [
+            "開く"
+          ]
+        },
+        {
+          "id": "2621d0552f6198a8",
+          "japanese": "本を開いて読む。",
+          "vietnamese": "Mở sách ra đọc.",
+          "reading": "ほんをひらいてよむ。",
+          "grammar": "",
+          "targets": [
+            "開いて"
+          ]
+        },
+        {
+          "id": "6f55b502e241ab5c",
+          "japanese": "1位と2位の差が、どんどん開いていった。",
+          "vietnamese": "Khoảng cách giữa hạng 1 và hạng 2 ngày càng bị nới rộng.",
+          "reading": "いちいとにいのさが、どんどんひらいていった。",
+          "grammar": "どんどん = (thay đổi) nhanh và liên tục; ～ていく = dần dần ~ (thay đổi đi tiếp về sau)",
+          "targets": [
+            "開いて"
+          ]
+        },
+        {
+          "id": "281ef08ec0e63c3a",
+          "japanese": "（会／パーティー／会議）を開く。",
+          "vietnamese": "Tổ chức (buổi họp mặt / bữa tiệc / cuộc họp).",
+          "reading": "（かい／パーティー／かいぎ）をひらく。",
+          "grammar": "",
+          "targets": [
+            "開く"
+          ]
+        },
+        {
+          "id": "ce5b01846adc1289",
+          "japanese": "父は駅前にクリーニング店を開いた。",
+          "vietnamese": "Bố tôi đã mở tiệm giặt là trước nhà ga.",
+          "reading": "ちちはえきまえにクリーニングてんをひらいた。",
+          "grammar": "",
+          "targets": [
+            "開いた"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "2f8a20883b86a065",
+      "number": 458,
+      "group": "452–460",
+      "particle": "が・を",
+      "japanese": "閉じる",
+      "reading": "とじる",
+      "hanViet": "BẾ",
+      "vietnamese": "Đóng/ Đóng cửa (ngừng kinh doanh)",
+      "examples": [
+        {
+          "id": "cef26b11527c43a0",
+          "japanese": "エレベーターのドアが閉じた。",
+          "vietnamese": "Cửa thang máy đã đóng.",
+          "reading": "エレベーターのドアがとじた。",
+          "grammar": "",
+          "targets": [
+            "閉じた"
+          ]
+        },
+        {
+          "id": "930d97a08e517bdd",
+          "japanese": "寒いのでドアを閉じた。",
+          "vietnamese": "Trời lạnh nên tôi đóng cửa lại.",
+          "reading": "さむいのでドアをとじた。",
+          "grammar": "～ので = vì ~ nên",
+          "targets": [
+            "閉じた"
+          ]
+        },
+        {
+          "id": "b9172401941ea06d",
+          "japanese": "公園の門は夜になると閉じられる。",
+          "vietnamese": "Đêm xuống là cổng công viên được đóng lại.",
+          "reading": "こうえんのもんはよるになるととじられる。",
+          "grammar": "～と = hễ ~ là; thể bị động 閉じられる = được đóng (không nói ai đóng)",
+          "targets": [
+            "閉じられる"
+          ]
+        },
+        {
+          "id": "7f589dcde38b9065",
+          "japanese": "売り上げが減ったので、店を閉じることにした。",
+          "vietnamese": "Doanh thu giảm nên tôi đã quyết định đóng cửa tiệm.",
+          "reading": "うりあげがへったので、みせをとじることにした。",
+          "grammar": "V る＋ことにした = đã quyết định ~ (quyết định của bản thân)",
+          "targets": [
+            "閉じる"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "開く (ひらく)"
+        },
+        {
+          "label": "使い分け",
+          "text": "本／目を閉じる (ほん／めをとじる) = gấp sách / nhắm mắt ; 鍵／蓋を閉める (かぎ／ふたをしめる) = khoá cửa / đậy nắp"
+        }
+      ]
+    },
+    {
+      "id": "051c0fdb7030b645",
+      "number": 459,
+      "group": "452–460",
+      "particle": "が",
+      "japanese": "飛ぶ",
+      "reading": "とぶ",
+      "hanViet": "PHI",
+      "vietnamese": "Bay/ Bắn/ Lao đến, phi đến/ Bay đến, bay sang/ Mất/ Biến mất",
+      "examples": [
+        {
+          "id": "ec2fc0a9a6fdde7a",
+          "japanese": "鳥が空を飛んでいる。",
+          "vietnamese": "Chim đang bay trên trời.",
+          "reading": "とりがそらをとんでいる。",
+          "grammar": "空を飛ぶ = bay trên trời — を chỉ không gian di chuyển qua",
+          "targets": [
+            "飛んで"
+          ]
+        },
+        {
+          "id": "67a782cb7d7c331b",
+          "japanese": "ボールが飛んできて、頭に当たった。",
+          "vietnamese": "Quả bóng bay tới và trúng vào đầu.",
+          "reading": "ボールがとんできて、あたまにあたった。",
+          "grammar": "V て＋くる = ~ về phía mình",
+          "targets": [
+            "飛んで"
+          ]
+        },
+        {
+          "id": "95970f61576a355f",
+          "japanese": "みかんの汁が飛ぶ。",
+          "vietnamese": "Nước cam bắn ra.",
+          "reading": "みかんのしるがとぶ。",
+          "grammar": "",
+          "targets": [
+            "飛ぶ"
+          ]
+        },
+        {
+          "id": "5c2fcec86c484728",
+          "japanese": "子どもが事故にあったと聞いて病院へ飛んで行った。",
+          "vietnamese": "Nghe tin con bị tai nạn, tôi lao ngay tới bệnh viện.",
+          "reading": "こどもがじこにあったときいてびょういんへとんでいった。",
+          "grammar": "事故にあう = gặp tai nạn; ～と聞いて = nghe tin ~ nên; 飛んで行く = vội vàng lao tới",
+          "targets": [
+            "飛んで"
+          ]
+        },
+        {
+          "id": "e4b899586500996e",
+          "japanese": "彼女は彼を追ってパリへ飛んだ。",
+          "vietnamese": "Cô ấy đã bay sang Paris theo anh ấy.",
+          "reading": "かのじょはかれをおってパリへとんだ。",
+          "grammar": "N を追って = đuổi theo N",
+          "targets": [
+            "飛んだ"
+          ]
+        },
+        {
+          "id": "7ad431aea256f0e7",
+          "japanese": "資料のページが飛んでいないかどうか、確認してください。",
+          "vietnamese": "Hãy kiểm tra xem tài liệu có bị sót trang nào không.",
+          "reading": "しりょうのページがとんでいないかどうか、かくにんしてください。",
+          "grammar": "～かどうか = có ~ hay không",
+          "targets": [
+            "飛んで"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "96aecaf427c1acc5",
+      "number": 460,
+      "group": "452–460",
+      "particle": "を",
+      "japanese": "飛ばす",
+      "reading": "とばす",
+      "hanViet": "PHI",
+      "vietnamese": "Làm bay/ Thả bay/ Bắn/ Bay/ Bỏ qua",
+      "examples": [
+        {
+          "id": "7d610a7fa488ccf2",
+          "japanese": "紙飛行機を飛ばす。",
+          "vietnamese": "Phi máy bay giấy.",
+          "reading": "かみひこうきをとばす。",
+          "grammar": "",
+          "targets": [
+            "飛ばす"
+          ]
+        },
+        {
+          "id": "82c0c1f19524831f",
+          "japanese": "風船を飛ばす。",
+          "vietnamese": "Thả bóng bay.",
+          "reading": "ふうせんをとばす。",
+          "grammar": "",
+          "targets": [
+            "飛ばす"
+          ]
+        },
+        {
+          "id": "3a5e04f04e255de8",
+          "japanese": "つばを飛ばして話す。",
+          "vietnamese": "Vừa nói vừa bắn nước bọt.",
+          "reading": "つばをとばしてはなす。",
+          "grammar": "V て＋V = làm việc sau kèm theo việc trước (cách thức)",
+          "targets": [
+            "飛ばして"
+          ]
+        },
+        {
+          "id": "f530b79fe295a5f6",
+          "japanese": "風で洗たく物が飛ばされてしまった。",
+          "vietnamese": "Quần áo phơi bị gió thổi bay mất.",
+          "reading": "かぜでせんたくものがとばされてしまった。",
+          "grammar": "～で = vì ~; thể bị động 飛ばされる = bị thổi bay; ～てしまう = ~ mất rồi",
+          "targets": [
+            "飛ばされて"
+          ]
+        },
+        {
+          "id": "06bb0199575ae566",
+          "japanese": "文章を1行飛ばして読んでしまった。",
+          "vietnamese": "Tôi lỡ đọc sót mất một dòng của đoạn văn.",
+          "reading": "ぶんしょうをいちぎょうとばしてよんでしまった。",
+          "grammar": "～てしまう = lỡ ~ (ngoài ý muốn)",
+          "targets": [
+            "飛ばして"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "5aa4b9dffdae65d6",
+      "number": 461,
+      "group": "461–470",
+      "particle": "を",
+      "japanese": "振る",
+      "reading": "ふる",
+      "hanViet": "CHẤN",
+      "vietnamese": "Vẫy, rung, lắc (đầu, cổ…)/ Lắc (đồ uống)/ Rắc/ Từ chối",
+      "examples": [
+        {
+          "id": "adcae85f8fd02c8f",
+          "japanese": "手／しっぽ／首をふる。",
+          "vietnamese": "Vẫy tay / vẫy đuôi / lắc đầu.",
+          "reading": "て／しっぽ／くびをふる。",
+          "grammar": "",
+          "targets": [
+            "ふる"
+          ]
+        },
+        {
+          "id": "ae4fda9f5868e714",
+          "japanese": "「この飲み物は、よくふってからお飲みください。」",
+          "vietnamese": "\"Đồ uống này xin hãy lắc kỹ rồi mới uống.\"",
+          "reading": "「こののみものは、よくふってからおのみください。」",
+          "grammar": "～てから = sau khi ~; お＋V ます bỏ ます＋ください = cách nói tôn kính của ～てください",
+          "targets": [
+            "ふって"
+          ]
+        },
+        {
+          "id": "26f89d37438b7590",
+          "japanese": "肉に塩をふる。",
+          "vietnamese": "Rắc muối lên thịt.",
+          "reading": "にくにしおをふる。",
+          "grammar": "",
+          "targets": [
+            "ふる"
+          ]
+        },
+        {
+          "id": "580e5ba832610615",
+          "japanese": "片思いの彼女に告白したが、ふられてしまった。",
+          "vietnamese": "Tôi tỏ tình với cô gái mình thầm thương nhưng bị từ chối mất rồi.",
+          "reading": "かたおもいのかのじょにこくはくしたが、ふられてしまった。",
+          "grammar": "thể bị động ふられる = bị từ chối (bị \"đá\"); 片思い = yêu đơn phương",
+          "targets": [
+            "ふられて"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "a37d3778adf17806",
+      "number": 462,
+      "group": "461–470",
+      "particle": "を",
+      "japanese": "めくる",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Lật",
+      "examples": [
+        {
+          "id": "d4e73bfc22a0002a",
+          "japanese": "(カード／ページ／カレンダー…)をめくる。",
+          "vietnamese": "Lật (thẻ bài / trang sách / tờ lịch…).",
+          "reading": "",
+          "grammar": "",
+          "targets": [
+            "めくる"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "196aee6fb35906c7",
+      "number": 463,
+      "group": "461–470",
+      "particle": "を",
+      "japanese": "見かける",
+      "reading": "みかける",
+      "hanViet": "KIẾN",
+      "vietnamese": "Tình cờ nhìn thấy/ Nhìn thấy",
+      "examples": [
+        {
+          "id": "cf3d91cae1025f5b",
+          "japanese": "街で偶然、昔の友だちを見かけた。",
+          "vietnamese": "Tình cờ thấy người bạn cũ ngoài phố.",
+          "reading": "まちでぐうぜん、むかしのともだちをみかけた。",
+          "grammar": "",
+          "targets": [
+            "見かけた"
+          ]
+        },
+        {
+          "id": "6e8327a4f4cf6bab",
+          "japanese": "最近、公衆電話を見かけなくなった。",
+          "vietnamese": "Dạo này không còn thấy điện thoại công cộng nữa.",
+          "reading": "さいきん、こうしゅうでんわをみかけなくなった。",
+          "grammar": "V ない bỏ い＋くなる = không còn ~ nữa",
+          "targets": [
+            "見かけなく"
+          ]
+        },
+        {
+          "id": "e13c384caa38fe5c",
+          "japanese": "このりんごは見かけは甘そうだったが、食べてみるとすっぱかった。",
+          "vietnamese": "Quả táo này trông bề ngoài có vẻ ngọt, nhưng ăn thử thì lại chua.",
+          "reading": "このりんごはみかけはあまそうだったが、たべてみるとすっぱかった。",
+          "grammar": "tính từ い bỏ い＋そうだ = trông có vẻ ~; ～てみると = thử ~ thì (mới biết)",
+          "targets": [
+            "見かけ"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "名",
+          "text": "見かけ (みかけ) (≒ 見た目 (みため)) = Vẻ ngoài"
+        }
+      ]
+    },
+    {
+      "id": "81cf0721c388b584",
+      "number": 464,
+      "group": "461–470",
+      "particle": "を",
+      "japanese": "確かめる",
+      "reading": "たしかめる",
+      "hanViet": "XÁC",
+      "vietnamese": "Xác nhận",
+      "examples": [
+        {
+          "id": "a09a778badf16a5d",
+          "japanese": "メールが届いたかどうか、相手に電話して確かめた。",
+          "vietnamese": "Tôi gọi điện cho bên kia để xác nhận xem email đã tới chưa.",
+          "reading": "メールがとどいたかどうか、あいてにでんわしてたしかめた。",
+          "grammar": "～かどうか = có ~ hay không",
+          "targets": [
+            "確かめた"
+          ]
+        },
+        {
+          "id": "4cf4676260a1e169",
+          "japanese": "飲み会の参加人数を確かめた。",
+          "vietnamese": "Tôi đã xác nhận số người tham gia buổi nhậu.",
+          "reading": "のみかいのさんかにんずうをたしかめた。",
+          "grammar": "",
+          "targets": [
+            "確かめた"
+          ]
+        },
+        {
+          "id": "aed0ab37e7023653",
+          "japanese": "新聞に書かれてあったから確かな情報だ。",
+          "vietnamese": "Vì đã được viết trên báo nên đó là thông tin chính xác.",
+          "reading": "しんぶんにかかれてあったからたしかなじょうほうだ。",
+          "grammar": "書かれてある = đã được viết sẵn (kết quả còn lưu lại); 確かな＋N = N chính xác",
+          "targets": []
+        },
+        {
+          "id": "ff68c26929df022f",
+          "japanese": "事実を確認する。",
+          "vietnamese": "Xác nhận sự thật.",
+          "reading": "じじつをかくにんする。",
+          "grammar": "",
+          "targets": []
+        }
+      ],
+      "notes": [
+        {
+          "label": "関",
+          "text": "確かな (たしかな) = Chính xác"
+        },
+        {
+          "label": "類",
+          "text": "確認する (かくにんする) = Kiểm tra, xác nhận"
+        }
+      ]
+    },
+    {
+      "id": "3a8677a14731f4e5",
+      "number": 465,
+      "group": "461–470",
+      "particle": "を",
+      "japanese": "試す",
+      "reading": "ためす",
+      "hanViet": "THÍ",
+      "vietnamese": "Thử",
+      "examples": [
+        {
+          "id": "dcc0ac19b4c4214a",
+          "japanese": "洋服が似合うかどうか、着て試してみた。",
+          "vietnamese": "Tôi đã mặc thử xem bộ quần áo có hợp không.",
+          "reading": "ようふくがにあうかどうか、きてためしてみた。",
+          "grammar": "～かどうか = có ~ hay không; ～てみる = thử ~",
+          "targets": [
+            "試して"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "関",
+          "text": "試しに (ためしに) = Thử (làm) xem"
+        }
+      ]
+    },
+    {
+      "id": "fa064e508786e132",
+      "number": 466,
+      "group": "461–470",
+      "particle": "を",
+      "japanese": "繰り返す",
+      "reading": "くりかえす",
+      "hanViet": "SÀO PHẢN",
+      "vietnamese": "Lặp lại",
+      "examples": [
+        {
+          "id": "30bbb2b87a81e3a6",
+          "japanese": "この本は大好きなので、繰り返し読みました。",
+          "vietnamese": "Tôi rất thích cuốn sách này nên đã đọc đi đọc lại.",
+          "reading": "このほんはだいすきなので、くりかえしよみました。",
+          "grammar": "～なので = vì ~ (sau tính từ な, danh từ); 繰り返し＋V = ~ đi ~ lại (thể ます bỏ ます dùng như phó từ)",
+          "targets": [
+            "繰り返し"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "1372c66b6950ef07",
+      "number": 467,
+      "group": "461–470",
+      "particle": "を",
+      "japanese": "訳す",
+      "reading": "やくす",
+      "hanViet": "DỊCH",
+      "vietnamese": "Dịch",
+      "examples": [
+        {
+          "id": "c32749e060393be8",
+          "japanese": "英語を日本語に訳す。",
+          "vietnamese": "Dịch tiếng Anh sang tiếng Nhật.",
+          "reading": "えいごをにほんごにやくす。",
+          "grammar": "A を B に訳す = dịch A sang B",
+          "targets": [
+            "訳す"
+          ]
+        },
+        {
+          "id": "1432f7e95eecb027",
+          "japanese": "英語の文に日本語の訳をつける。",
+          "vietnamese": "Thêm bản dịch tiếng Nhật cho câu tiếng Anh.",
+          "reading": "えいごのぶんににほんごのやくをつける。",
+          "grammar": "N に訳をつける = kèm bản dịch cho N",
+          "targets": [
+            "訳"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "名",
+          "text": "訳 (やく) = Bản dịch (đọc わけ thì là \"lý do\", từ khác)"
+        },
+        {
+          "label": "類",
+          "text": "文字を翻訳(を)する (もじをほんやく(を)する) = Dịch chữ viết"
+        },
+        {
+          "label": "類",
+          "text": "会話を通訳(を)する (かいわをつうやく(を)する) = Phiên dịch hội thoại"
+        }
+      ]
+    },
+    {
+      "id": "ebaaff4a4f0da7fb",
+      "number": 468,
+      "group": "461–470",
+      "particle": "を",
+      "japanese": "行う",
+      "reading": "おこなう",
+      "hanViet": "HÀNH",
+      "vietnamese": "Tổ chức, tiến hành",
+      "examples": [
+        {
+          "id": "86023dc89f3bb4d2",
+          "japanese": "(試験／会議／スピーチ／イベント…)を行う。",
+          "vietnamese": "Tổ chức (kỳ thi / cuộc họp / bài phát biểu / sự kiện…).",
+          "reading": "(しけん／かいぎ／スピーチ／イベント…)をおこなう。",
+          "grammar": "",
+          "targets": [
+            "行う"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "※",
+          "text": "「する」より改まった言い方 (Cách nói trang trọng hơn する)"
+        }
+      ]
+    },
+    {
+      "id": "b65dde8afe1e29ba",
+      "number": 469,
+      "group": "461–470",
+      "particle": "が・を",
+      "japanese": "間違う",
+      "reading": "まちがう",
+      "hanViet": "GIAN VI",
+      "vietnamese": "Sai, nhầm",
+      "examples": [
+        {
+          "id": "d4a2de332cc87258",
+          "japanese": "この計算は間違っている。",
+          "vietnamese": "Phép tính này sai.",
+          "reading": "このけいさんはまちがっている。",
+          "grammar": "～ている = trạng thái (đang sai)",
+          "targets": [
+            "間違って"
+          ]
+        },
+        {
+          "id": "f5e311e91ab427d6",
+          "japanese": "お金があれば幸せになれるというのは間違った考えだ。",
+          "vietnamese": "Cho rằng có tiền là sẽ hạnh phúc là một suy nghĩ sai lầm.",
+          "reading": "おかねがあればしあわせになれるというのはまちがったかんがえだ。",
+          "grammar": "～ば = nếu ~; なれる = thể khả năng của なる; ～というのは = cái việc (cho rằng) ~ thì; 間違った＋N = N sai lầm",
+          "targets": [
+            "間違った"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "e46c35c54855baf3",
+      "number": 470,
+      "group": "461–470",
+      "particle": "を",
+      "japanese": "間違える",
+      "reading": "まちがえる",
+      "hanViet": "GIAN VI",
+      "vietnamese": "Làm sai, nhầm",
+      "examples": [
+        {
+          "id": "72b0938ed6f61bc8",
+          "japanese": "テストの答え・簡単な計算を間違えた。",
+          "vietnamese": "Tôi làm sai đáp án bài kiểm tra / phép tính đơn giản.",
+          "reading": "テストのこたえ・かんたんなけいさんをまちがえた。",
+          "grammar": "",
+          "targets": [
+            "間違えた"
+          ]
+        },
+        {
+          "id": "e18a6ffabee3a982",
+          "japanese": "塩とさとうを間違えてなべに入れてしまった。",
+          "vietnamese": "Tôi nhầm muối với đường rồi lỡ cho vào nồi.",
+          "reading": "しおとさとうをまちがえてなべにいれてしまった。",
+          "grammar": "A と B を間違える = nhầm A với B; ～てしまう = lỡ ~",
+          "targets": [
+            "間違えて"
+          ]
+        }
+      ],
+      "notes": []
     }
   ]
 }

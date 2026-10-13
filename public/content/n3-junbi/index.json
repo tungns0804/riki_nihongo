@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-08T15:58:31.963Z",
+  "generatedAt": "2026-10-13T05:46:55.090Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -89,11 +89,11 @@
         {
           "id": "02-dong-tu",
           "name": "Động từ",
-          "description": "Động từ N3準備 文字語彙 — 第7課 (121–140)",
+          "description": "Động từ N3準備 文字語彙 — 第7課 (121–140) và 第24課 (452–470)",
           "kind": "vocabulary",
           "parent": "",
           "group": "",
-          "itemCount": 20,
+          "itemCount": 39,
           "order": 2,
           "file": "vocabulary/02-dong-tu.json",
           "groups": [
@@ -104,6 +104,14 @@
             {
               "label": "131–140",
               "title": "Bài 7.2 · Nói năng, chăm sóc và việc nhà"
+            },
+            {
+              "label": "452–460",
+              "title": "Bài 24.1 · Lấp, vây, nhồi; mở, đóng và bay"
+            },
+            {
+              "label": "461–470",
+              "title": "Bài 24.2 · Lắc, lật, thấy; thử, lặp, dịch và làm sai"
             }
           ]
         },
