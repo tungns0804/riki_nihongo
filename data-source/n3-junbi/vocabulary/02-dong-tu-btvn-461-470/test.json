@@ -1,0 +1,226 @@
+{
+  "sections": [
+    {
+      "id": "btvn-461-470",
+      "title": "文字語彙 — BTVN 461–470 (10 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dgt-btvn-461470-01",
+          "promptJapanese": "単語を覚える一番いい方法は「何回も」見ることです。",
+          "promptReading": "たんごを おぼえる いちばん いい ほうほうは「なんかいも」みる ことです。",
+          "promptVietnamese": "Cách tốt nhất để nhớ từ vựng là xem 「nhiều lần」.",
+          "choices": ["繰り返し", "見かけて", "めくって", "振って"],
+          "choicesVietnamese": [
+            "くりかえし · Lặp đi lặp lại (thể ます của 繰り返す dùng như phó từ)",
+            "みかけて · Tình cờ nhìn thấy",
+            "めくって · Lật",
+            "ふって · Vẫy, lắc"
+          ],
+          "choiceNotes": [
+            "Đúng: 何回も見る ≒ 繰り返し見る = xem đi xem lại — đúng lối câu mẫu この本は大好きなので、繰り返し読みました。",
+            "見かける là tình cờ bắt gặp, không mang nghĩa \"nhiều lần\"; 見かけて見る cũng không thành câu.",
+            "めくって見る (lật ra xem) là câu có thật, nhưng nói về việc lật trang chứ không phải \"nhiều lần\".",
+            "振る là vẫy, lắc; 振って見る không mang nghĩa \"nhiều lần\"."
+          ],
+          "answer": 1,
+          "explanation": "Dạng chọn từ gần nghĩa với phần trong 「」 (đề in là gạch chân). 繰り返し＋V = ~ đi ~ lại: thể ます bỏ ます của 繰り返す dùng như phó từ. V る＋方法 = cách để ~; V る＋ことです = là việc ~."
+        },
+        {
+          "id": "dgt-btvn-461470-02",
+          "promptJapanese": "ビールを（　　　）から瓶を開けると、大変なことになる。",
+          "promptReading": "ビールを（　　　）から びんを あけると、たいへんな ことに なる。",
+          "promptVietnamese": "Nếu （　　　） bia rồi mới mở chai thì sẽ thành chuyện to.",
+          "choices": ["めくって", "確かめて", "振って", "行って"],
+          "choicesVietnamese": [
+            "めくって · Lật",
+            "たしかめて · Xác nhận",
+            "ふって · Lắc",
+            "おこなって · Tổ chức, tiến hành"
+          ],
+          "choiceNotes": [
+            "めくる là lật trang, lật thẻ, lật tờ lịch; chai bia không lật kiểu đó.",
+            "確かめてから開ける (xác nhận rồi mới mở) là việc cẩn thận, không dẫn tới \"chuyện to\" ở vế sau.",
+            "Đúng: ビールを振る = lắc chai bia — lắc xong mà mở thì bọt phun ra. Đây là nghĩa ② của 振る (lắc đồ uống) trong câu mẫu よくふってからお飲みください。",
+            "行う là tổ chức, tiến hành một việc (試験・会議を行う), không dùng cho đồ vật như bia."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: 「この飲み物は、よくふってからお飲みください。」～てから = sau khi ~ rồi mới; ～と = hễ ~ thì (kết quả tất yếu); 大変なことになる = thành chuyện gay go."
+        },
+        {
+          "id": "dgt-btvn-461470-03",
+          "promptJapanese": "その答えは（　　　）います。もう一度考えてください。",
+          "promptReading": "その こたえは（　　　）います。もう いちど かんがえて ください。",
+          "promptVietnamese": "Câu trả lời đó （　　　）. Hãy nghĩ lại một lần nữa.",
+          "choices": ["慣れて", "立って", "割れて", "間違って"],
+          "choicesVietnamese": [
+            "なれて · Quen với",
+            "たって · Đứng",
+            "われて · Vỡ, nứt",
+            "まちがって · Sai, nhầm"
+          ],
+          "choiceNotes": [
+            "慣れる là quen với ~ (仕事に慣れる); câu trả lời không \"đang quen\".",
+            "立っている là đang đứng; câu trả lời không đứng được.",
+            "割れている là đang bị vỡ, nứt (コップ・皿); câu trả lời không vỡ.",
+            "Đúng: 答えが間違っている = câu trả lời đang sai — nên mới bảo nghĩ lại. Đúng lối câu mẫu この計算は間違っている。"
+          ],
+          "answer": 4,
+          "explanation": "Câu mẫu của sách: この計算は間違っている。～ている ở đây chỉ trạng thái (đang sai), không phải việc đang diễn ra. 間違う (が・を): 答えが間違っている ⇔ 間違える (を, mình làm sai): 答えを間違えた. Đề in もう、一度 — dấu phẩy thừa, chép lại thành もう一度."
+        },
+        {
+          "id": "dgt-btvn-461470-04",
+          "promptJapanese": "その話が本当かどうか相手に電話して（　　　）必要があります。",
+          "promptReading": "その はなしが ほんとうか どうか あいてに でんわして（　　　）ひつようが あります。",
+          "promptVietnamese": "Cần gọi điện cho bên kia để （　　　） xem chuyện đó có thật hay không.",
+          "choices": ["詰まる", "振る", "訳す", "確かめる"],
+          "choicesVietnamese": [
+            "つまる · Đầy chặt, kín mít/ Tắc",
+            "ふる · Vẫy, lắc",
+            "やくす · Dịch",
+            "たしかめる · Xác nhận"
+          ],
+          "choiceNotes": [
+            "詰まる là tự động từ (bị tắc, bị nhồi kín: 鼻が詰まる), không dùng để kiểm tra một chuyện.",
+            "振る là vẫy, lắc; không dùng để kiểm tra thật giả.",
+            "訳す là dịch (A を B に訳す); gọi điện để \"dịch\" thì không ăn với ～かどうか.",
+            "Đúng: ～かどうか確かめる = xác nhận xem có ~ hay không — đúng câu mẫu メールが届いたかどうか、相手に電話して確かめた。"
+          ],
+          "answer": 4,
+          "explanation": "Câu mẫu của sách: メールが届いたかどうか、相手に電話して確かめた。～かどうか = có ~ hay không; V る＋必要がある = cần phải ~. Từ đồng nghĩa: 確認する (かくにんする)."
+        },
+        {
+          "id": "dgt-btvn-461470-05",
+          "promptJapanese": "行う",
+          "promptReading": "おこなう",
+          "promptVietnamese": "Tổ chức, tiến hành (cách nói trang trọng hơn する)",
+          "choices": [
+            "日本語をベトナム語に行う",
+            "この服が似合うか、着て行ってみた",
+            "試験は12月の第一週目の日曜日に行われる予定です",
+            "同じ失敗を何回も行ってはいけません"
+          ],
+          "choicesVietnamese": [
+            "\"Tiến hành\" tiếng Nhật sang tiếng Việt.",
+            "Tôi đã mặc vào \"tiến hành\" xem bộ đồ này có hợp không.",
+            "Kỳ thi dự kiến được tổ chức vào Chủ nhật tuần đầu tiên của tháng 12.",
+            "Không được \"tiến hành\" cùng một thất bại nhiều lần."
+          ],
+          "choiceNotes": [
+            "Dịch từ tiếng này sang tiếng kia là 訳す: 日本語をベトナム語に訳す (mẫu A を B に訳す của từ 467).",
+            "Mặc thử xem có hợp không là 着て試してみた — đúng câu mẫu của 試す: 洋服が似合うかどうか、着て試してみた。 Nếu đọc 行って là いって (mặc đi ra ngoài thử) thì câu đúng tiếng Nhật, nhưng đó là động từ 行く chứ không phải 行う.",
+            "Đúng: 試験を行う → bị động 試験が行われる = kỳ thi được tổ chức. 行う đi với việc có quy củ: 試験・会議・スピーチ・イベント.",
+            "Lặp lại một sai lầm là 失敗を繰り返す: 同じ失敗を何回も繰り返してはいけません。 失敗 không phải sự kiện để \"tổ chức\"."
+          ],
+          "answer": 3,
+          "explanation": "Dạng 用法: chọn câu dùng đúng từ đang hỏi. 行う = tổ chức, tiến hành (試験／会議／スピーチ／イベント…を行う), trang trọng hơn する. Ba câu sai mượn chỗ của ba từ cùng cụm: 訳す (câu 1), 試す (câu 2), 繰り返す (câu 4). V る＋予定です = dự định ~; ～てはいけません = không được ~. Đề in 差て, 第一周目 và にお行われる — chữ gõ nhầm, chép lại thành 着て, 第一週目, に行われる."
+        },
+        {
+          "id": "dgt-btvn-461470-06",
+          "promptJapanese": "日めくりカレンダーを（　　　）。",
+          "promptReading": "ひめくり カレンダーを（　　　）。",
+          "promptVietnamese": "（　　　） tờ lịch bóc.",
+          "choices": ["振る", "めくる", "繰り返す", "間違う"],
+          "choicesVietnamese": [
+            "ふる · Vẫy, lắc",
+            "めくる · Lật",
+            "くりかえす · Lặp lại",
+            "まちがう · Sai, nhầm"
+          ],
+          "choiceNotes": [
+            "振る là vẫy, lắc; tờ lịch không đem lắc.",
+            "Đúng: カレンダーをめくる = lật (bóc) tờ lịch — đúng dòng (カード／ページ／カレンダー…)をめくる của sách. Chính tên 日めくり đã chứa めくり.",
+            "繰り返す là lặp lại một việc, không đi với đồ vật như tờ lịch.",
+            "間違う là sai, nhầm; カレンダーを間違う không có nghĩa."
+          ],
+          "answer": 2,
+          "explanation": "Câu mẫu của sách: (カード／ページ／カレンダー…)をめくる。日めくり(カレンダー) = lịch bóc, mỗi ngày lật đi một tờ: 日 (ngày) ＋ めくり (danh từ từ thể ます của めくる)."
+        },
+        {
+          "id": "dgt-btvn-461470-07",
+          "promptJapanese": "電話をかける人を（　　　）しまった。",
+          "promptReading": "でんわを かける ひとを（　　　）しまった。",
+          "promptVietnamese": "Tôi lỡ （　　　） người mình định gọi điện.",
+          "choices": ["間違えて", "行って", "確かめて", "試して"],
+          "choicesVietnamese": [
+            "まちがえて · Làm nhầm",
+            "おこなって · Tổ chức, tiến hành",
+            "たしかめて · Xác nhận",
+            "ためして · Thử"
+          ],
+          "choiceNotes": [
+            "Đúng: 人を間違える = nhầm người — gọi nhầm số. ～てしまった nói việc lỡ làm, đáng tiếc; cùng lối câu mẫu 塩とさとうを間違えてなべに入れてしまった。",
+            "行う đi với sự kiện (試験・会議), không đi với người.",
+            "確かめる (xác nhận) là việc nên làm; đi với ～てしまった (lỡ ~) thì vô lý.",
+            "人を試す là thử lòng một người — không hợp với 電話をかける人 và cũng không phải chuyện \"lỡ\"."
+          ],
+          "answer": 1,
+          "explanation": "Câu mẫu của sách: 塩とさとうを間違えてなべに入れてしまった。～てしまう = lỡ ~ (tiếc nuối). 間違える là tha động từ nên đi với を: 人／答え／道を間違える. V る＋N: 電話をかける人 = người (mình) gọi điện tới."
+        },
+        {
+          "id": "dgt-btvn-461470-08",
+          "promptJapanese": "日本語に（　　　）読んでください。",
+          "promptReading": "にほんごに（　　　）よんで ください。",
+          "promptVietnamese": "Hãy （　　　） sang tiếng Nhật rồi đọc.",
+          "choices": ["繰り返して", "間違えて", "訳して", "めくって"],
+          "choicesVietnamese": [
+            "くりかえして · Lặp lại",
+            "まちがえて · Làm nhầm",
+            "やくして · Dịch",
+            "めくって · Lật"
+          ],
+          "choiceNotes": [
+            "繰り返して読む (đọc đi đọc lại) nói được, nhưng không đi với 日本語に (sang tiếng Nhật).",
+            "Không ai nhờ người khác \"làm nhầm rồi đọc\"; ～てください là lời nhờ.",
+            "Đúng: 日本語に訳す = dịch sang tiếng Nhật — mẫu A を B に訳す của sách; 日本語に chỉ đích của việc dịch.",
+            "めくって読む (lật ra đọc) nói được, nhưng 日本語にめくる không có nghĩa."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: 英語を日本語に訳す。A を B に訳す = dịch A sang B. V て＋V = làm ~ rồi ~ (訳して読む = dịch rồi đọc); ～てください = hãy ~."
+        },
+        {
+          "id": "dgt-btvn-461470-09",
+          "promptJapanese": "駅前で姉によく似ている人を（　　　）。",
+          "promptReading": "えきまえで あねに よく にている ひとを（　　　）。",
+          "promptVietnamese": "Ở trước nhà ga, tôi đã （　　　） một người rất giống chị gái mình.",
+          "choices": ["振った", "間違えた", "見かけた", "確かめた"],
+          "choicesVietnamese": [
+            "ふった · Đã vẫy/ Đã từ chối",
+            "まちがえた · Đã nhầm",
+            "みかけた · Đã tình cờ nhìn thấy",
+            "たしかめた · Đã xác nhận"
+          ],
+          "choiceNotes": [
+            "人を振る là từ chối (\"đá\") người tỏ tình với mình — không ăn với một người lạ chỉ trông giống chị mình.",
+            "Muốn nói nhầm người đó là chị mình thì phải có と: 姉と間違えた (A を B と間違える). Không có と thì câu thiếu ý \"nhầm thành ai\".",
+            "Đúng: 人を見かける = tình cờ nhìn thấy ai đó — đúng câu mẫu 街で偶然、昔の友だちを見かけた。",
+            "確かめる cần một điều để xác nhận (～かどうか確かめる); 人を確かめた không hợp."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: 街で偶然、昔の友だちを見かけた。N に似ている = giống N (luôn dùng dạng ている); 駅前 = trước nhà ga."
+        },
+        {
+          "id": "dgt-btvn-461470-10",
+          "promptJapanese": "（　　　）に食べてみてください。",
+          "promptReading": "（　　　）に たべて みて ください。",
+          "promptVietnamese": "Hãy （　　　） ăn xem.",
+          "choices": ["訳し", "行い", "間違い", "ためし"],
+          "choicesVietnamese": [
+            "やくし · Thể ます của 訳す (dịch)",
+            "おこない · Việc làm, hạnh kiểm (danh từ của 行う)",
+            "まちがい · Lỗi sai (danh từ của 間違う)",
+            "ためし · Sự thử (試しに = thử xem)"
+          ],
+          "choiceNotes": [
+            "Không có cách nói 訳しに đứng đầu câu như phó từ.",
+            "行い là danh từ (日ごろの行い = việc làm thường ngày); 行いに食べる không có nghĩa.",
+            "間違いに食べる không có nghĩa. 間違って食べる (ăn nhầm) thì có, nhưng chỗ trống đứng trước に.",
+            "Đúng: 試しに＋V = thử ~ xem — dòng 関: 試しに của từ 465 試す, đi cùng ～てみる."
+          ],
+          "answer": 4,
+          "explanation": "関: 試しに (ためしに) = thử (làm) xem. 試しに＋V てみる = cứ thử ~ xem: 試しに食べてみてください。～てみる = thử ~; ～てください = hãy ~."
+        }
+      ]
+    }
+  ]
+}

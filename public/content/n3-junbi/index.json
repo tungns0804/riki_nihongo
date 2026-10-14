@@ -285,6 +285,17 @@
           "file": "vocabulary/01-danh-tu-btvn-71-80.json"
         },
         {
+          "id": "02-dong-tu-btvn-461-470",
+          "name": "BTVN 461–470",
+          "description": "Bài tập về nhà của cụm 461–470 (Bài 24.2 · Lắc, lật, thấy; thử, lặp, dịch và làm sai) — 10 câu.",
+          "kind": "test",
+          "parent": "02-dong-tu",
+          "group": "461–470",
+          "itemCount": 10,
+          "order": 204,
+          "file": "vocabulary/02-dong-tu-btvn-461-470.json"
+        },
+        {
           "id": "03-tinh-tu-btvn-299-310",
           "name": "BTVN 299–310",
           "description": "Bài tập về nhà của cụm 299–310 (Tự động từ và tha động từ sinh ra từ tính từ) — 12 câu.",
