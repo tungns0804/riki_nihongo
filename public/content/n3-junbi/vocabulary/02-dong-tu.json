@@ -1,7 +1,7 @@
 {
   "id": "02-dong-tu",
   "name": "Động từ",
-  "description": "Động từ N3準備 文字語彙 — 第7課 (121–140) và 第24課 (452–470)",
+  "description": "Động từ N3準備 文字語彙 — 第7課 (121–140), 第24課 (452–470) và 第25課 (471–491)",
   "kind": "vocabulary",
   "parent": "",
   "group": "",
@@ -21,6 +21,14 @@
     {
       "label": "461–470",
       "title": "Bài 24.2 · Lắc, lật, thấy; thử, lặp, dịch và làm sai"
+    },
+    {
+      "label": "471–481",
+      "title": "Bài 25.1 · Tha thứ, làm quen; đứng, dựng, xây; lớn lên và mọc"
+    },
+    {
+      "label": "482–491",
+      "title": "Bài 25.2 · Bẩn, hỏng, vỡ, gãy và rách"
     }
   ],
   "words": [
@@ -1638,6 +1646,754 @@
         }
       ],
       "notes": []
+    },
+    {
+      "id": "1cbf6847e0247a6a",
+      "number": 471,
+      "group": "471–481",
+      "particle": "を",
+      "japanese": "許す",
+      "reading": "ゆるす",
+      "hanViet": "HỨA",
+      "vietnamese": "Tha thứ/ Cho phép",
+      "examples": [
+        {
+          "id": "9ba633722bf6148b",
+          "japanese": "彼女に浮気されてけんかになったが、(彼女のことが)好きなので許してあげた。",
+          "vietnamese": "Bị bạn gái cắm sừng nên hai người cãi nhau, nhưng vì (vẫn) thích cô ấy nên tôi đã tha thứ.",
+          "reading": "かのじょにうわきされてけんかになったが、(かのじょのことが)すきなのでゆるしてあげた。",
+          "grammar": "彼女に浮気される = bị bạn gái ngoại tình — bị động chịu thiệt (người nói là nạn nhân); ～てあげる = làm ~ cho người khác",
+          "targets": [
+            "許して"
+          ]
+        },
+        {
+          "id": "f5186f2ebaa5fc17",
+          "japanese": "子供だからといって、何をしても許されるわけではない。（≒ 許可）",
+          "vietnamese": "Không phải cứ là trẻ con thì làm gì cũng được cho phép. (≒ 許可)",
+          "reading": "こどもだからといって、なにをしてもゆるされるわけではない。（≒ きょか）",
+          "grammar": "～からといって = dù là ~ đi nữa (thì cũng không hẳn); 何をしても = làm gì cũng; ～わけではない = không phải là ~",
+          "targets": [
+            "許される"
+          ]
+        },
+        {
+          "id": "06b17d194e69f9b4",
+          "japanese": "子供には、1日1時間だけゲームをすることを許している。",
+          "vietnamese": "Tôi cho phép con chơi game mỗi ngày chỉ 1 tiếng.",
+          "reading": "こどもには、いちにちいちじかんだけゲームをすることをゆるしている。",
+          "grammar": "V る＋こと = danh từ hoá động từ (việc ~); 人に～を許す = cho phép ai việc ~",
+          "targets": [
+            "許して"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "許可をもらう (きょかをもらう) = Được cho phép"
+        }
+      ]
+    },
+    {
+      "id": "beed4b2c1874c468",
+      "number": 472,
+      "group": "471–481",
+      "particle": "が",
+      "japanese": "慣れる",
+      "reading": "なれる",
+      "hanViet": "QUÁN",
+      "vietnamese": "Quen với",
+      "examples": [
+        {
+          "id": "cddc3bb17d539450",
+          "japanese": "だんだん日本の生活にも慣れてきた。",
+          "vietnamese": "Tôi đã dần quen cả với cuộc sống ở Nhật.",
+          "reading": "だんだんにほんのせいかつにもなれてきた。",
+          "grammar": "N に慣れる = quen với N; ～てくる = dần dần ~ (thay đổi tiến tới hiện tại)",
+          "targets": [
+            "慣れて"
+          ]
+        },
+        {
+          "id": "cd669d0dcf9f62f3",
+          "japanese": "はき慣れた靴なので、何時間でも歩ける。",
+          "vietnamese": "Đôi giày đã đi quen chân nên đi bao nhiêu tiếng cũng được.",
+          "reading": "はきなれたくつなので、なんじかんでもあるける。",
+          "grammar": "V ます bỏ ます＋慣れる = quen ~ (はき慣れた靴 = giày đã đi quen); 何時間でも = bao nhiêu tiếng cũng",
+          "targets": [
+            "慣れた"
+          ]
+        },
+        {
+          "id": "28acc2abf7031527",
+          "japanese": "使い慣れたペンをなくしてしまった。",
+          "vietnamese": "Tôi lỡ làm mất cây bút đã dùng quen tay.",
+          "reading": "つかいなれたペンをなくしてしまった。",
+          "grammar": "",
+          "targets": [
+            "慣れた"
+          ]
+        },
+        {
+          "id": "14d5faf1af7bf0b7",
+          "japanese": "住み慣れた町なので、引っ越したくない。",
+          "vietnamese": "Đây là thị trấn tôi đã sống quen nên không muốn chuyển đi.",
+          "reading": "すみなれたまちなので、ひっこしたくない。",
+          "grammar": "～なので = vì ~ (sau danh từ, tính từ な)",
+          "targets": [
+            "慣れた"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "4687a730f714ca27",
+      "number": 473,
+      "group": "471–481",
+      "particle": "を",
+      "japanese": "慣らす",
+      "reading": "ならす",
+      "hanViet": "QUÁN",
+      "vietnamese": "Làm cho quen với",
+      "examples": [
+        {
+          "id": "09cfc83250421e84",
+          "japanese": "富士山に登る前には、低い山で体を慣らしたほうがいいらしい。",
+          "vietnamese": "Nghe nói trước khi leo núi Phú Sĩ thì nên tập cho cơ thể quen ở những ngọn núi thấp.",
+          "reading": "ふじさんにのぼるまえには、ひくいやまでからだをならしたほうがいいらしい。",
+          "grammar": "V た＋ほうがいい = nên ~; ～らしい = nghe nói ~ (thông tin nghe được)",
+          "targets": [
+            "慣らした"
+          ]
+        },
+        {
+          "id": "a3502c4d7544ec8e",
+          "japanese": "犬を慣らして散歩します。",
+          "vietnamese": "Cho chó làm quen rồi mới dắt đi dạo.",
+          "reading": "いぬをならしてさんぽします。",
+          "grammar": "",
+          "targets": [
+            "慣らして"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "aadef14988562247",
+      "number": 474,
+      "group": "471–481",
+      "particle": "が",
+      "japanese": "立つ",
+      "reading": "たつ",
+      "hanViet": "LẬP",
+      "vietnamese": "(Người) Đứng/ Được dựng/ (Vật) Đứng, ở",
+      "examples": [
+        {
+          "id": "84ddc0c47ecf53d0",
+          "japanese": "「名前を呼ばれたら立ってください。」",
+          "vietnamese": "\"Khi được gọi tên thì hãy đứng dậy.\"",
+          "reading": "「なまえをよばれたらたってください。」",
+          "grammar": "thể bị động 呼ばれる = được gọi; ～たら = khi ~ thì",
+          "targets": [
+            "立って"
+          ]
+        },
+        {
+          "id": "ec06fabbacd32540",
+          "japanese": "店の前に大きな看板が立っている。",
+          "vietnamese": "Trước cửa tiệm có dựng một tấm biển lớn.",
+          "reading": "みせのまえにおおきなかんばんがたっている。",
+          "grammar": "N1 に N2 が立っている = ở N1 có N2 dựng (đứng) đó — ～ている chỉ trạng thái",
+          "targets": [
+            "立って"
+          ]
+        },
+        {
+          "id": "8e29443af5c01503",
+          "japanese": "丘の上に白いホテルが立っている。",
+          "vietnamese": "Trên đồi có một khách sạn màu trắng.",
+          "reading": "おかのうえにしろいホテルがたっている。",
+          "grammar": "",
+          "targets": [
+            "立って"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "30bc9184bd7eb319",
+      "number": 475,
+      "group": "471–481",
+      "particle": "を",
+      "japanese": "立てる",
+      "reading": "たてる",
+      "hanViet": "LẬP",
+      "vietnamese": "Dựng/ Dựng đứng",
+      "examples": [
+        {
+          "id": "9f0505e9edbae1ea",
+          "japanese": "うまく話せない自分に腹を立てる。",
+          "vietnamese": "Bực mình với bản thân vì không nói được trôi chảy.",
+          "reading": "うまくはなせないじぶんにはらをたてる。",
+          "grammar": "腹を立てる = nổi giận (thành ngữ); 話せない = không nói được (thể khả năng phủ định)",
+          "targets": [
+            "立てる"
+          ]
+        },
+        {
+          "id": "6f146d1bfc62eeb6",
+          "japanese": "玄関のかさ立てに傘を置く。",
+          "vietnamese": "Để ô vào giá cắm ô ở lối vào.",
+          "reading": "げんかんのかさたてにかさをおく。",
+          "grammar": "かさ立て (傘立て) = giá cắm ô — V ます bỏ ます (立て) ghép sau danh từ thành đồ vật",
+          "targets": [
+            "立て"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "00908b70fb88fe13",
+      "number": 476,
+      "group": "471–481",
+      "particle": "が",
+      "japanese": "建つ",
+      "reading": "たつ",
+      "hanViet": "KIẾN",
+      "vietnamese": "Được xây dựng",
+      "examples": [
+        {
+          "id": "2ffe9ef1d1ba403f",
+          "japanese": "家の前に大きなマンションが建った。",
+          "vietnamese": "Trước nhà đã mọc lên một toà chung cư lớn.",
+          "reading": "いえのまえにおおきなマンションがたった。",
+          "grammar": "",
+          "targets": [
+            "建った"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "c44848d4503aeeb7",
+      "number": 477,
+      "group": "471–481",
+      "particle": "を",
+      "japanese": "建てる",
+      "reading": "たてる",
+      "hanViet": "KIẾN",
+      "vietnamese": "Xây dựng",
+      "examples": [
+        {
+          "id": "2571df2b1635fc14",
+          "japanese": "都心に家を建てるには、どんなに安くても5000万円はかかる。",
+          "vietnamese": "Muốn xây nhà ở trung tâm thành phố thì dù rẻ đến đâu cũng tốn 50 triệu yên.",
+          "reading": "としんにいえをたてるには、どんなにやすくてもごせんまんえんはかかる。",
+          "grammar": "V る＋には = để ~ thì; どんなに～ても = dù ~ đến đâu cũng; 数量＋は = ít nhất cũng ~",
+          "targets": [
+            "建てる"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "使い分け",
+          "text": "立てる (たてる) = まっすぐにする (dựng thẳng) ; 建てる (たてる) = 建物をつくる (たてものをつくる, xây công trình)"
+        }
+      ]
+    },
+    {
+      "id": "21ad334025a5b0a9",
+      "number": 478,
+      "group": "471–481",
+      "particle": "が",
+      "japanese": "育つ",
+      "reading": "そだつ",
+      "hanViet": "DỤC",
+      "vietnamese": "Lớn, phát triển/ Lớn, được nuôi dạy",
+      "examples": [
+        {
+          "id": "a40dc5c1e519fac0",
+          "japanese": "雨が多い年は、米がよく育つそうだ。（≒ 成長している）",
+          "vietnamese": "Nghe nói năm nào mưa nhiều thì lúa phát triển tốt. (≒ 成長している)",
+          "reading": "あめがおおいとしは、こめがよくそだつそうだ。（≒ せいちょうしている）",
+          "grammar": "V る＋そうだ = nghe nói ~ (truyền đạt thông tin)",
+          "targets": [
+            "育つ"
+          ]
+        },
+        {
+          "id": "24ee4b00f67b790c",
+          "japanese": "親は子供が元気に育つのを望んでいる。",
+          "vietnamese": "Bố mẹ mong con lớn lên khoẻ mạnh.",
+          "reading": "おやはこどもがげんきにそだつのをのぞんでいる。",
+          "grammar": "V る＋の = danh từ hoá động từ; 元気に = một cách khoẻ mạnh (tính từ な＋に thành phó từ)",
+          "targets": [
+            "育つ"
+          ]
+        },
+        {
+          "id": "0b5d52663e6e6001",
+          "japanese": "あの大学では優秀な研究者がたくさん育っている。",
+          "vietnamese": "Trường đại học đó đang đào tạo ra rất nhiều nhà nghiên cứu xuất sắc.",
+          "reading": "あのだいがくではゆうしゅうなけんきゅうしゃがたくさんそだっている。",
+          "grammar": "",
+          "targets": [
+            "育って"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "c196f13b745da7a9",
+      "number": 479,
+      "group": "471–481",
+      "particle": "を",
+      "japanese": "育てる",
+      "reading": "そだてる",
+      "hanViet": "DỤC",
+      "vietnamese": "Nuôi dạy/ Nuôi trồng/ Đào tạo, dạy dỗ",
+      "examples": [
+        {
+          "id": "652083c77f93c64d",
+          "japanese": "私の母は1人で5人の子どもを育てあげた。",
+          "vietnamese": "Mẹ tôi một mình nuôi lớn năm người con.",
+          "reading": "わたしのははははひとりでごにんのこどもをそだてあげた。",
+          "grammar": "V ます bỏ ます＋あげる (上げる) = làm ~ cho tới khi xong hẳn (育てあげる = nuôi tới khi trưởng thành)",
+          "targets": [
+            "育てあげた"
+          ]
+        },
+        {
+          "id": "28bcb840306bc363",
+          "japanese": "このレタスは、農家の人たちが心をこめて育てた野菜だ。",
+          "vietnamese": "Rau xà lách này là rau do nông dân dồn hết tâm huyết trồng nên.",
+          "reading": "このレタスは、のうかのひとたちがこころをこめてそだてたやさいだ。",
+          "grammar": "心をこめて = dồn hết tâm huyết, tận tâm; V た＋N = N đã được ~",
+          "targets": [
+            "育てた"
+          ]
+        },
+        {
+          "id": "45e4dfb28e434add",
+          "japanese": "あの会社は人材を育てるのが上手だ。",
+          "vietnamese": "Công ty đó giỏi đào tạo nhân lực.",
+          "reading": "あのかいしゃはじんざいをそだてるのがじょうずだ。",
+          "grammar": "V る＋のが上手だ = giỏi (làm) ~",
+          "targets": [
+            "育てる"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "a295f70ef6304e86",
+      "number": 480,
+      "group": "471–481",
+      "particle": "が",
+      "japanese": "生える",
+      "reading": "はえる",
+      "hanViet": "SINH",
+      "vietnamese": "Mọc, lớn",
+      "examples": [
+        {
+          "id": "4a14bb972ab76971",
+          "japanese": "髪、ひげ、歯、草、かび…が生える。",
+          "vietnamese": "Tóc, râu, răng, cỏ, nấm mốc… mọc.",
+          "reading": "かみ、ひげ、は、くさ、かび…がはえる。",
+          "grammar": "",
+          "targets": [
+            "生える"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "8ce86f775315a01f",
+      "number": 481,
+      "group": "471–481",
+      "particle": "を",
+      "japanese": "生やす",
+      "reading": "はやす",
+      "hanViet": "SINH",
+      "vietnamese": "Nuôi (để râu, tóc… mọc)",
+      "examples": [
+        {
+          "id": "c8af1a484c03e388",
+          "japanese": "家で働くので、ひげを生やしてみた。",
+          "vietnamese": "Vì làm việc ở nhà nên tôi thử để râu.",
+          "reading": "いえではたらくので、ひげをはやしてみた。",
+          "grammar": "～てみる = thử ~",
+          "targets": [
+            "生やして"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "a615d81c952c07e0",
+      "number": 482,
+      "group": "482–491",
+      "particle": "が",
+      "japanese": "汚れる",
+      "reading": "よごれる",
+      "hanViet": "Ô",
+      "vietnamese": "Bị bẩn",
+      "examples": [
+        {
+          "id": "19d9f160dde2d092",
+          "japanese": "車が汚れていたので車を洗ったら、次の日、雨が降った。（≒ 汚い）",
+          "vietnamese": "Xe bẩn nên tôi rửa xe, thế mà hôm sau trời mưa. (≒ 汚い)",
+          "reading": "くるまがよごれていたのでくるまをあらったら、つぎのひ、あめがふった。（≒ きたない）",
+          "grammar": "～たら = (làm ~) thì (kết quả bất ngờ xảy ra sau đó); ～ていた = trạng thái lúc đó",
+          "targets": [
+            "汚れて"
+          ]
+        },
+        {
+          "id": "dcc9a38330892c37",
+          "japanese": "服に汚れがつく。",
+          "vietnamese": "Quần áo dính vết bẩn.",
+          "reading": "ふくによごれがつく。",
+          "grammar": "",
+          "targets": [
+            "汚れ"
+          ]
+        },
+        {
+          "id": "79b98c3c39a95b0c",
+          "japanese": "洗剤で服の汚れが落ちる。",
+          "vietnamese": "Vết bẩn trên quần áo được tẩy sạch bằng bột giặt.",
+          "reading": "せんざいでふくのよごれがおちる。",
+          "grammar": "汚れが落ちる (自) = vết bẩn sạch đi ＞＜ 汚れを落とす (他)",
+          "targets": [
+            "汚れ"
+          ]
+        },
+        {
+          "id": "0375df056d61255b",
+          "japanese": "服についた汚れを落とす。",
+          "vietnamese": "Tẩy vết bẩn dính trên quần áo.",
+          "reading": "ふくについたよごれをおとす。",
+          "grammar": "V た＋N = N đã ~ (ついた汚れ = vết bẩn đã dính vào)",
+          "targets": [
+            "汚れ"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "名",
+          "text": "汚れ (よごれ) = Vết bẩn"
+        }
+      ]
+    },
+    {
+      "id": "de7cb446b2c646a5",
+      "number": 483,
+      "group": "482–491",
+      "particle": "を",
+      "japanese": "汚す",
+      "reading": "よごす",
+      "hanViet": "Ô",
+      "vietnamese": "Làm bẩn",
+      "examples": [
+        {
+          "id": "5b9e3c38988d14fb",
+          "japanese": "川の水を汚さないようにしよう。",
+          "vietnamese": "Hãy cố gắng đừng làm bẩn nước sông.",
+          "reading": "かわのみずをよごさないようにしよう。",
+          "grammar": "V ない＋ようにする = cố gắng không ~; しよう = thể ý chí (cùng ~ nhé)",
+          "targets": [
+            "汚さない"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "d86fdb03dc1cc2bc",
+      "number": 484,
+      "group": "482–491",
+      "particle": "が",
+      "japanese": "壊れる",
+      "reading": "こわれる",
+      "hanViet": "HOẠI",
+      "vietnamese": "Bị hỏng",
+      "examples": [
+        {
+          "id": "2ea82fc4ac67b49b",
+          "japanese": "(家／家具／電気製品／スマホ…）が壊れる。",
+          "vietnamese": "(Nhà / đồ nội thất / đồ điện / điện thoại…) bị hỏng.",
+          "reading": "(いえ／かぐ／でんきせいひん／スマホ…）がこわれる。",
+          "grammar": "",
+          "targets": [
+            "壊れる"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "e31b972b44a828c5",
+      "number": 485,
+      "group": "482–491",
+      "particle": "を",
+      "japanese": "壊す",
+      "reading": "こわす",
+      "hanViet": "HOẠI",
+      "vietnamese": "Làm hỏng",
+      "examples": [
+        {
+          "id": "ece640ef563b3b5c",
+          "japanese": "買ったばかりのスマホを落として壊してしまった…。",
+          "vietnamese": "Tôi đánh rơi làm hỏng mất chiếc điện thoại vừa mới mua...",
+          "reading": "かったばかりのスマホをおとしてこわしてしまった…。",
+          "grammar": "V た＋ばかり = vừa mới ~; ～てしまう = ~ mất rồi (đáng tiếc)",
+          "targets": [
+            "壊して"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "450133197797f0a0",
+      "number": 486,
+      "group": "482–491",
+      "particle": "が",
+      "japanese": "割れる",
+      "reading": "われる",
+      "hanViet": "CÁT",
+      "vietnamese": "Vỡ, nứt/ Chia, rẽ ra",
+      "examples": [
+        {
+          "id": "bdccd9429e9beff9",
+          "japanese": "(ガラス/お皿/コップ…）が割れないように新聞紙で包む。",
+          "vietnamese": "Gói (kính / đĩa / cốc…) bằng giấy báo để không bị vỡ.",
+          "reading": "(ガラス/おさら/コップ…）がわれないようにしんぶんしでつつむ。",
+          "grammar": "V ない＋ように = để không ~ (mục đích)",
+          "targets": [
+            "割れない"
+          ]
+        },
+        {
+          "id": "fc87e6bbf602c696",
+          "japanese": "羊のひづめは先が二つに割れている。",
+          "vietnamese": "Móng guốc của cừu chẻ làm đôi ở đầu.",
+          "reading": "ひつじのひづめはさきがふたつにわれている。",
+          "grammar": "",
+          "targets": [
+            "割れて"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "28961f1303998303",
+      "number": 487,
+      "group": "482–491",
+      "particle": "を",
+      "japanese": "割る",
+      "reading": "わる",
+      "hanViet": "CÁT",
+      "vietnamese": "Làm vỡ/ Chia, tách/ Chia",
+      "examples": [
+        {
+          "id": "01041bb348593102",
+          "japanese": "思い出の（ガラス/皿/コップ…）を割ってしまった。",
+          "vietnamese": "Tôi lỡ làm vỡ (tấm kính / cái đĩa / cái cốc…) đầy kỷ niệm.",
+          "reading": "おもいでの（ガラス/さら/コップ…）をわってしまった。",
+          "grammar": "思い出の＋N = N gắn với kỷ niệm",
+          "targets": [
+            "割って"
+          ]
+        },
+        {
+          "id": "479fe60d662663ff",
+          "japanese": "肉まんを半分に割って食べた。",
+          "vietnamese": "Bẻ đôi chiếc bánh bao nhân thịt ra ăn.",
+          "reading": "にくまんをはんぶんにわってたべた。",
+          "grammar": "N に割る = chia thành N (半分に = làm đôi)",
+          "targets": [
+            "割って"
+          ]
+        },
+        {
+          "id": "3940e119a1a22ea9",
+          "japanese": "10を5でわると2になる。",
+          "vietnamese": "10 chia cho 5 thì được 2.",
+          "reading": "じゅうをごでわるとにになる。",
+          "grammar": "A を B で割る = chia A cho B; ～と = hễ ~ là (kết quả tất yếu)",
+          "targets": [
+            "わる"
+          ]
+        },
+        {
+          "id": "4310e18a504ab1d7",
+          "japanese": "10わる5は2だ。",
+          "vietnamese": "10 chia 5 bằng 2.",
+          "reading": "じゅうわるごはにだ。",
+          "grammar": "",
+          "targets": [
+            "わる"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "→",
+          "text": "割り算 (わりざん) = Phép chia"
+        }
+      ]
+    },
+    {
+      "id": "07079f0a2b626d5f",
+      "number": 488,
+      "group": "482–491",
+      "particle": "が",
+      "japanese": "折れる",
+      "reading": "おれる",
+      "hanViet": "CHIẾT",
+      "vietnamese": "Bị gãy",
+      "examples": [
+        {
+          "id": "7f330c61f4019848",
+          "japanese": "風が強いので傘が折れた。",
+          "vietnamese": "Gió mạnh nên ô bị gãy.",
+          "reading": "かぜがつよいのでかさがおれた。",
+          "grammar": "",
+          "targets": [
+            "折れた"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "53e0b99d58f8c1e3",
+      "number": 489,
+      "group": "482–491",
+      "particle": "を",
+      "japanese": "折る",
+      "reading": "おる",
+      "hanViet": "CHIẾT",
+      "vietnamese": "Làm gãy/ Gấp",
+      "examples": [
+        {
+          "id": "917a44266d6a30b9",
+          "japanese": "スノボで転んで、足の骨を折った。",
+          "vietnamese": "Tôi ngã khi trượt ván tuyết và bị gãy xương chân.",
+          "reading": "スノボでころんで、あしのほねをおった。",
+          "grammar": "骨を折る = gãy xương (dù là việc không muốn, tiếng Nhật vẫn dùng tha động từ)",
+          "targets": [
+            "折った"
+          ]
+        },
+        {
+          "id": "5b042a191f04896e",
+          "japanese": "便せんを三つ折りにして封筒に入れた。",
+          "vietnamese": "Gấp tờ giấy viết thư làm ba rồi cho vào phong bì.",
+          "reading": "びんせんをみっつおりにしてふうとうにいれた。",
+          "grammar": "三つ折り = gấp làm ba; N にする = làm thành N",
+          "targets": [
+            "折り"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "折り紙 (おりがみ) = Gấp giấy nghệ thuật"
+        }
+      ]
+    },
+    {
+      "id": "c76bd31235d65134",
+      "number": 490,
+      "group": "482–491",
+      "particle": "が",
+      "japanese": "破れる",
+      "reading": "やぶれる",
+      "hanViet": "PHÁ",
+      "vietnamese": "Bị rách",
+      "examples": [
+        {
+          "id": "49a0ed8df768464e",
+          "japanese": "(紙／本／布／服…）が破れる。",
+          "vietnamese": "(Giấy / sách / vải / quần áo…) bị rách.",
+          "reading": "(かみ／ほん／ぬの／ふく…）がやぶれる。",
+          "grammar": "",
+          "targets": [
+            "破れる"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "破る (やぶる) = Làm rách"
+        }
+      ]
+    },
+    {
+      "id": "d60926d53ed83698",
+      "number": 491,
+      "group": "482–491",
+      "particle": "を",
+      "japanese": "破る",
+      "reading": "やぶる",
+      "hanViet": "PHÁ",
+      "vietnamese": "Làm rách/ Thất hứa, không tuân thủ/ Phá (kỷ lục)",
+      "examples": [
+        {
+          "id": "bbfdf07c1bdbb8dc",
+          "japanese": "(紙／本／布／服…）を破る。",
+          "vietnamese": "Làm rách (giấy / sách / vải / quần áo…).",
+          "reading": "(かみ／ほん／ぬの／ふく…）をやぶる。",
+          "grammar": "",
+          "targets": [
+            "破る"
+          ]
+        },
+        {
+          "id": "6fa8ad2714e3f2d8",
+          "japanese": "(約束／規則…)を破る。",
+          "vietnamese": "Thất hứa / vi phạm quy tắc.",
+          "reading": "(やくそく／きそく…)をやぶる。",
+          "grammar": "",
+          "targets": [
+            "破る"
+          ]
+        },
+        {
+          "id": "1d6f6cf6e97b1e65",
+          "japanese": "水泳の世界記録が破られた。",
+          "vietnamese": "Kỷ lục thế giới môn bơi đã bị phá.",
+          "reading": "すいえいのせかいきろくがやぶられた。",
+          "grammar": "thể bị động 破られる = bị phá",
+          "targets": [
+            "破られた"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "(約束／規則…)を守る (まもる) = Giữ (lời hứa / quy tắc)"
+        }
+      ]
     }
   ]
 }

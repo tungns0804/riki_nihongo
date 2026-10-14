@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-13T05:46:55.090Z",
+  "generatedAt": "2026-10-14T10:24:10.248Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -89,11 +89,11 @@
         {
           "id": "02-dong-tu",
           "name": "Động từ",
-          "description": "Động từ N3準備 文字語彙 — 第7課 (121–140) và 第24課 (452–470)",
+          "description": "Động từ N3準備 文字語彙 — 第7課 (121–140), 第24課 (452–470) và 第25課 (471–491)",
           "kind": "vocabulary",
           "parent": "",
           "group": "",
-          "itemCount": 39,
+          "itemCount": 60,
           "order": 2,
           "file": "vocabulary/02-dong-tu.json",
           "groups": [
@@ -112,6 +112,14 @@
             {
               "label": "461–470",
               "title": "Bài 24.2 · Lắc, lật, thấy; thử, lặp, dịch và làm sai"
+            },
+            {
+              "label": "471–481",
+              "title": "Bài 25.1 · Tha thứ, làm quen; đứng, dựng, xây; lớn lên và mọc"
+            },
+            {
+              "label": "482–491",
+              "title": "Bài 25.2 · Bẩn, hỏng, vỡ, gãy và rách"
             }
           ]
         },

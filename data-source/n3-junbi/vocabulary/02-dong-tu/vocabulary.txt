@@ -1,5 +1,5 @@
-# N3 JUNBI — 文字語彙 · ĐỘNG TỪ (121–140, 452–470)
-# Nguồn: 第7課 và 第24課 (PDF người dùng gửi 2026-10-13) của tài liệu N3準備 文字語彙
+# N3 JUNBI — 文字語彙 · ĐỘNG TỪ (121–140, 452–491)
+# Nguồn: 第7課, 第24課 và 第25課 (PDF người dùng gửi 2026-10-13) của tài liệu N3準備 文字語彙
 # Định dạng: xem data-source/n3-junbi/vocabulary/README.md
 #
 # Khác file danh từ ở hai chỗ:
@@ -422,3 +422,194 @@
 ・塩とさとうを[間違えて]なべに入れてしまった。| Tôi nhầm muối với đường rồi lỡ cho vào nồi.
 読: しおとさとうをまちがえてなべにいれてしまった。
 文法: A と B を間違える = nhầm A với B; ～てしまう = lỡ ~
+
+# ── 第25課：471〜491 ────────────────────────────────────────────
+
+# nguồn: bai-251-tu-vung-cai-thien-471-481.pdf (bản PDF này in trọn 第25課: 471–491;
+# chỉ tên file cho biết buổi 25.1 dừng ở 481, nên 482–491 là buổi 25.2)
+## 471–481 = Bài 25.1 · Tha thứ, làm quen; đứng, dựng, xây; lớn lên và mọc
+471. (を)許す (ゆるす) = HỨA ; Tha thứ/ Cho phép
+# 意味① Tha thứ: câu đầu. 意味② Cho phép: hai câu sau và dòng 類.
+・彼女に浮気されてけんかになったが、(彼女のことが)好きなので[許して]あげた。| Bị bạn gái cắm sừng nên hai người cãi nhau, nhưng vì (vẫn) thích cô ấy nên tôi đã tha thứ.
+読: かのじょにうわきされてけんかになったが、(かのじょのことが)すきなのでゆるしてあげた。
+文法: 彼女に浮気される = bị bạn gái ngoại tình — bị động chịu thiệt (người nói là nạn nhân); ～てあげる = làm ~ cho người khác
+・子供だからといって、何をしても[許される]わけではない。（≒ 許可）| Không phải cứ là trẻ con thì làm gì cũng được cho phép. (≒ 許可)
+読: こどもだからといって、なにをしてもゆるされるわけではない。（≒ きょか）
+文法: ～からといって = dù là ~ đi nữa (thì cũng không hẳn); 何をしても = làm gì cũng; ～わけではない = không phải là ~
+・子供には、1日1時間だけゲームをすることを[許して]いる。| Tôi cho phép con chơi game mỗi ngày chỉ 1 tiếng.
+読: こどもには、いちにちいちじかんだけゲームをすることをゆるしている。
+文法: V る＋こと = danh từ hoá động từ (việc ~); 人に～を許す = cho phép ai việc ~
+類: 許可をもらう (きょかをもらう) = Được cho phép
+
+472. (が)慣れる (なれる) = QUÁN ; Quen với
+# Sách in (を)慣れる và (が)慣らす — đảo trợ từ của hai mục: 慣れる là tự động từ (N に慣れる),
+# 慣らす là tha động từ (N を慣らす). Chép lại thành (が)慣れる, (を)慣らす.
+・だんだん日本の生活にも[慣れて]きた。| Tôi đã dần quen cả với cuộc sống ở Nhật.
+読: だんだんにほんのせいかつにもなれてきた。
+文法: N に慣れる = quen với N; ～てくる = dần dần ~ (thay đổi tiến tới hiện tại)
+・はき[慣れた]靴なので、何時間でも歩ける。| Đôi giày đã đi quen chân nên đi bao nhiêu tiếng cũng được.
+読: はきなれたくつなので、なんじかんでもあるける。
+文法: V ます bỏ ます＋慣れる = quen ~ (はき慣れた靴 = giày đã đi quen); 何時間でも = bao nhiêu tiếng cũng
+・使い[慣れた]ペンをなくしてしまった。| Tôi lỡ làm mất cây bút đã dùng quen tay.
+読: つかいなれたペンをなくしてしまった。
+・住み[慣れた]町なので、引っ越したくない。| Đây là thị trấn tôi đã sống quen nên không muốn chuyển đi.
+読: すみなれたまちなので、ひっこしたくない。
+文法: ～なので = vì ~ (sau danh từ, tính từ な)
+
+473. (を)慣らす (ならす) = QUÁN ; Làm cho quen với
+・富士山に登る前には、低い山で体を[慣らした]ほうがいいらしい。| Nghe nói trước khi leo núi Phú Sĩ thì nên tập cho cơ thể quen ở những ngọn núi thấp.
+読: ふじさんにのぼるまえには、ひくいやまでからだをならしたほうがいいらしい。
+文法: V た＋ほうがいい = nên ~; ～らしい = nghe nói ~ (thông tin nghe được)
+・犬を[慣らして]散歩します。| Cho chó làm quen rồi mới dắt đi dạo.
+読: いぬをならしてさんぽします。
+
+474. (が)立つ (たつ) = LẬP ; (Người) Đứng/ Được dựng/ (Vật) Đứng, ở
+# 意味① (Người) Đứng: câu đầu. 意味② Được dựng: câu thứ hai. 意味③ (Vật) Đứng, ở: câu cuối.
+・「名前を呼ばれたら[立って]ください。」| "Khi được gọi tên thì hãy đứng dậy."
+読: 「なまえをよばれたらたってください。」
+文法: thể bị động 呼ばれる = được gọi; ～たら = khi ~ thì
+・店の前に大きな看板が[立って]いる。| Trước cửa tiệm có dựng một tấm biển lớn.
+読: みせのまえにおおきなかんばんがたっている。
+文法: N1 に N2 が立っている = ở N1 có N2 dựng (đứng) đó — ～ている chỉ trạng thái
+・丘の上に白いホテルが[立って]いる。| Trên đồi có một khách sạn màu trắng.
+読: おかのうえにしろいホテルがたっている。
+
+475. (を)立てる (たてる) = LẬP ; Dựng/ Dựng đứng
+# Sách tô đỏ cả 腹を立てる và cả かさ立て; chỉ đánh dấu phần của từ 立てる.
+・うまく話せない自分に腹を[立てる]。| Bực mình với bản thân vì không nói được trôi chảy.
+読: うまくはなせないじぶんにはらをたてる。
+文法: 腹を立てる = nổi giận (thành ngữ); 話せない = không nói được (thể khả năng phủ định)
+・玄関のかさ[立て]に傘を置く。| Để ô vào giá cắm ô ở lối vào.
+読: げんかんのかさたてにかさをおく。
+文法: かさ立て (傘立て) = giá cắm ô — V ます bỏ ます (立て) ghép sau danh từ thành đồ vật
+
+476. (が)建つ (たつ) = KIẾN ; Được xây dựng
+・家の前に大きなマンションが[建った]。| Trước nhà đã mọc lên một toà chung cư lớn.
+読: いえのまえにおおきなマンションがたった。
+
+477. (を)建てる (たてる) = KIẾN ; Xây dựng
+・都心に家を[建てる]には、どんなに安くても5000万円はかかる。| Muốn xây nhà ở trung tâm thành phố thì dù rẻ đến đâu cũng tốn 50 triệu yên.
+読: としんにいえをたてるには、どんなにやすくてもごせんまんえんはかかる。
+文法: V る＋には = để ~ thì; どんなに～ても = dù ~ đến đâu cũng; 数量＋は = ít nhất cũng ~
+使い分け: 立てる (たてる) = まっすぐにする (dựng thẳng) ; 建てる (たてる) = 建物をつくる (たてものをつくる, xây công trình)
+
+478. (が)育つ (そだつ) = DỤC ; Lớn, phát triển/ Lớn, được nuôi dạy
+# 意味① Lớn, phát triển: câu đầu. 意味② Lớn, được nuôi dạy: hai câu sau.
+・雨が多い年は、米がよく[育つ]そうだ。（≒ 成長している）| Nghe nói năm nào mưa nhiều thì lúa phát triển tốt. (≒ 成長している)
+読: あめがおおいとしは、こめがよくそだつそうだ。（≒ せいちょうしている）
+文法: V る＋そうだ = nghe nói ~ (truyền đạt thông tin)
+・親は子供が元気に[育つ]のを望んでいる。| Bố mẹ mong con lớn lên khoẻ mạnh.
+読: おやはこどもがげんきにそだつのをのぞんでいる。
+文法: V る＋の = danh từ hoá động từ; 元気に = một cách khoẻ mạnh (tính từ な＋に thành phó từ)
+・あの大学では優秀な研究者がたくさん[育って]いる。| Trường đại học đó đang đào tạo ra rất nhiều nhà nghiên cứu xuất sắc.
+読: あのだいがくではゆうしゅうなけんきゅうしゃがたくさんそだっている。
+
+479. (を)育てる (そだてる) = DỤC ; Nuôi dạy/ Nuôi trồng/ Đào tạo, dạy dỗ
+# 意味① Nuôi dạy: câu đầu. 意味② Nuôi trồng: câu thứ hai. 意味③ Đào tạo: câu cuối.
+・私の母は1人で5人の子どもを[育てあげた]。| Mẹ tôi một mình nuôi lớn năm người con.
+読: わたしのははははひとりでごにんのこどもをそだてあげた。
+文法: V ます bỏ ます＋あげる (上げる) = làm ~ cho tới khi xong hẳn (育てあげる = nuôi tới khi trưởng thành)
+・このレタスは、農家の人たちが心をこめて[育てた]野菜だ。| Rau xà lách này là rau do nông dân dồn hết tâm huyết trồng nên.
+読: このレタスは、のうかのひとたちがこころをこめてそだてたやさいだ。
+文法: 心をこめて = dồn hết tâm huyết, tận tâm; V た＋N = N đã được ~
+・あの会社は人材を[育てる]のが上手だ。| Công ty đó giỏi đào tạo nhân lực.
+読: あのかいしゃはじんざいをそだてるのがじょうずだ。
+文法: V る＋のが上手だ = giỏi (làm) ~
+
+480. (が)生える (はえる) = SINH ; Mọc, lớn
+・髪、ひげ、歯、草、かび…が[生える]。| Tóc, râu, răng, cỏ, nấm mốc… mọc.
+読: かみ、ひげ、は、くさ、かび…がはえる。
+
+481. (を)生やす (はやす) = SINH ; Nuôi (để râu, tóc… mọc)
+・家で働くので、ひげを[生やして]みた。| Vì làm việc ở nhà nên tôi thử để râu.
+読: いえではたらくので、ひげをはやしてみた。
+文法: ～てみる = thử ~
+
+# nguồn: bai-251-tu-vung-cai-thien-471-481.pdf (cùng bản PDF với cụm trên)
+## 482–491 = Bài 25.2 · Bẩn, hỏng, vỡ, gãy và rách
+482. (が)汚れる (よごれる) = Ô ; Bị bẩn
+# Ba câu cuối dùng danh từ 汚れ ở dòng 名.
+・車が[汚れて]いたので車を洗ったら、次の日、雨が降った。（≒ 汚い）| Xe bẩn nên tôi rửa xe, thế mà hôm sau trời mưa. (≒ 汚い)
+読: くるまがよごれていたのでくるまをあらったら、つぎのひ、あめがふった。（≒ きたない）
+文法: ～たら = (làm ~) thì (kết quả bất ngờ xảy ra sau đó); ～ていた = trạng thái lúc đó
+・服に[汚れ]がつく。| Quần áo dính vết bẩn.
+読: ふくによごれがつく。
+・洗剤で服の[汚れ]が落ちる。| Vết bẩn trên quần áo được tẩy sạch bằng bột giặt.
+読: せんざいでふくのよごれがおちる。
+文法: 汚れが落ちる (自) = vết bẩn sạch đi ＞＜ 汚れを落とす (他)
+・服についた[汚れ]を落とす。| Tẩy vết bẩn dính trên quần áo.
+読: ふくについたよごれをおとす。
+文法: V た＋N = N đã ~ (ついた汚れ = vết bẩn đã dính vào)
+名: 汚れ (よごれ) = Vết bẩn
+
+483. (を)汚す (よごす) = Ô ; Làm bẩn
+・川の水を[汚さない]ようにしよう。| Hãy cố gắng đừng làm bẩn nước sông.
+読: かわのみずをよごさないようにしよう。
+文法: V ない＋ようにする = cố gắng không ~; しよう = thể ý chí (cùng ~ nhé)
+
+484. (が)壊れる (こわれる) = HOẠI ; Bị hỏng
+・(家／家具／電気製品／スマホ…）が[壊れる]。| (Nhà / đồ nội thất / đồ điện / điện thoại…) bị hỏng.
+読: (いえ／かぐ／でんきせいひん／スマホ…）がこわれる。
+
+485. (を)壊す (こわす) = HOẠI ; Làm hỏng
+・買ったばかりのスマホを落として[壊して]しまった…。| Tôi đánh rơi làm hỏng mất chiếc điện thoại vừa mới mua...
+読: かったばかりのスマホをおとしてこわしてしまった…。
+文法: V た＋ばかり = vừa mới ~; ～てしまう = ~ mất rồi (đáng tiếc)
+
+486. (が)割れる (われる) = CÁT ; Vỡ, nứt/ Chia, rẽ ra
+# 意味① Vỡ, nứt: câu đầu. 意味② Chia, rẽ ra: câu sau.
+・(ガラス/お皿/コップ…）が[割れない]ように新聞紙で包む。| Gói (kính / đĩa / cốc…) bằng giấy báo để không bị vỡ.
+読: (ガラス/おさら/コップ…）がわれないようにしんぶんしでつつむ。
+文法: V ない＋ように = để không ~ (mục đích)
+・羊のひづめは先が二つに[割れて]いる。| Móng guốc của cừu chẻ làm đôi ở đầu.
+読: ひつじのひづめはさきがふたつにわれている。
+
+487. (を)割る (わる) = CÁT ; Làm vỡ/ Chia, tách/ Chia
+# 意味① Làm vỡ: câu đầu. 意味② Chia, tách: câu thứ hai. 意味③ Chia (phép chia): hai câu cuối.
+・思い出の（ガラス/皿/コップ…）を[割って]しまった。| Tôi lỡ làm vỡ (tấm kính / cái đĩa / cái cốc…) đầy kỷ niệm.
+読: おもいでの（ガラス/さら/コップ…）をわってしまった。
+文法: 思い出の＋N = N gắn với kỷ niệm
+・肉まんを半分に[割って]食べた。| Bẻ đôi chiếc bánh bao nhân thịt ra ăn.
+読: にくまんをはんぶんにわってたべた。
+文法: N に割る = chia thành N (半分に = làm đôi)
+・10を5で[わる]と2になる。| 10 chia cho 5 thì được 2.
+読: じゅうをごでわるとにになる。
+文法: A を B で割る = chia A cho B; ～と = hễ ~ là (kết quả tất yếu)
+・10[わる]5は2だ。| 10 chia 5 bằng 2.
+読: じゅうわるごはにだ。
+→: 割り算 (わりざん) = Phép chia
+
+488. (が)折れる (おれる) = CHIẾT ; Bị gãy
+・風が強いので傘が[折れた]。| Gió mạnh nên ô bị gãy.
+読: かぜがつよいのでかさがおれた。
+
+489. (を)折る (おる) = CHIẾT ; Làm gãy/ Gấp
+# Sách chỉ ghi nghĩa "Làm gãy"; câu thứ hai và dòng 合 dùng nghĩa gấp nên thêm nghĩa "Gấp".
+・スノボで転んで、足の骨を[折った]。| Tôi ngã khi trượt ván tuyết và bị gãy xương chân.
+読: スノボでころんで、あしのほねをおった。
+文法: 骨を折る = gãy xương (dù là việc không muốn, tiếng Nhật vẫn dùng tha động từ)
+・便せんを三つ[折り]にして封筒に入れた。| Gấp tờ giấy viết thư làm ba rồi cho vào phong bì.
+読: びんせんをみっつおりにしてふうとうにいれた。
+文法: 三つ折り = gấp làm ba; N にする = làm thành N
+合: 折り紙 (おりがみ) = Gấp giấy nghệ thuật
+
+490. (が)破れる (やぶれる) = PHÁ ; Bị rách
+# Sách in cặp 破れる／破る chung một mục 490, rồi mục 491 riêng cho 破る với nghĩa khác.
+# Ở đây 490 chỉ giữ 破れる; 破る gộp hết vào 491, để luyện tập không có hai thẻ cùng
+# mặt chữ 破る mà nghĩa lại khác nhau.
+・(紙／本／布／服…）が[破れる]。| (Giấy / sách / vải / quần áo…) bị rách.
+読: (かみ／ほん／ぬの／ふく…）がやぶれる。
+対: 破る (やぶる) = Làm rách
+
+491. (を)破る (やぶる) = PHÁ ; Làm rách/ Thất hứa, không tuân thủ/ Phá (kỷ lục)
+# 意味 Làm rách: câu đầu (sách in ở mục 490). Thất hứa, không tuân thủ: câu thứ hai và dòng 対.
+# Phá (kỷ lục): câu cuối.
+# Câu đầu sách in "を破れる" — chép lại thành を破る.
+・(紙／本／布／服…）を[破る]。| Làm rách (giấy / sách / vải / quần áo…).
+読: (かみ／ほん／ぬの／ふく…）をやぶる。
+・(約束／規則…)を[破る]。| Thất hứa / vi phạm quy tắc.
+読: (やくそく／きそく…)をやぶる。
+・水泳の世界記録が[破られた]。| Kỷ lục thế giới môn bơi đã bị phá.
+読: すいえいのせかいきろくがやぶられた。
+文法: thể bị động 破られる = bị phá
+対: (約束／規則…)を守る (まもる) = Giữ (lời hứa / quy tắc)
