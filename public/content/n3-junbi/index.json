@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-14T10:24:10.248Z",
+  "generatedAt": "2026-10-14T10:36:42.885Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -294,6 +294,17 @@
           "itemCount": 10,
           "order": 204,
           "file": "vocabulary/02-dong-tu-btvn-461-470.json"
+        },
+        {
+          "id": "02-dong-tu-btvn-471-481",
+          "name": "BTVN 471–481",
+          "description": "Bài tập về nhà của cụm 471–481 (Bài 25.1 · Tha thứ, làm quen; đứng, dựng, xây; lớn lên và mọc) — 11 câu.",
+          "kind": "test",
+          "parent": "02-dong-tu",
+          "group": "471–481",
+          "itemCount": 11,
+          "order": 205,
+          "file": "vocabulary/02-dong-tu-btvn-471-481.json"
         },
         {
           "id": "03-tinh-tu-btvn-299-310",

@@ -1,0 +1,247 @@
+{
+  "sections": [
+    {
+      "id": "btvn-471-481",
+      "title": "文字語彙 — BTVN 471–481 (11 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dgt-btvn-471481-01",
+          "promptJapanese": "家の前に大きなデパートが「できた」。",
+          "promptReading": "いえの まえに おおきな デパートが「できた」。",
+          "promptVietnamese": "Trước nhà đã 「có」 một trung tâm thương mại lớn.",
+          "choices": ["建った", "生えた", "壊れた", "立った"],
+          "choicesVietnamese": [
+            "たった · Đã được xây lên",
+            "はえた · Đã mọc",
+            "こわれた · Đã bị hỏng",
+            "たった · Đã đứng/ Đã được dựng"
+          ],
+          "choiceNotes": [
+            "Đúng: デパートができた ≒ デパートが建った = toà nhà mới được xây xong — đúng câu mẫu 家の前に大きなマンションが建った。",
+            "生える dùng cho tóc, râu, cỏ, nấm mốc mọc ra; nhà cửa không 生える.",
+            "壊れる là bị hỏng, đổ — ngược nghĩa với できた (mới có).",
+            "立つ nói vật đang đứng đó (丘の上にホテルが立っている), nhưng công trình mới XÂY lên thì viết 建つ. Hai chữ đọc y hệt たつ."
+          ],
+          "answer": 1,
+          "explanation": "Dạng chọn từ gần nghĩa với phần trong 「」 (đề in là gạch chân). できる ở đây = được làm ra, mới có. 使い分け của sách: 立てる = まっすぐにする (dựng thẳng); 建てる = 建物をつくる (xây công trình) — cặp tự động từ 立つ／建つ chia việc y như vậy."
+        },
+        {
+          "id": "dgt-btvn-471481-02",
+          "promptJapanese": "許す",
+          "promptReading": "ゆるす",
+          "promptVietnamese": "Tha thứ/ Cho phép",
+          "choices": [
+            "相手のミスを許してあげる",
+            "テストの答えを許す",
+            "新しい環境に許す",
+            "三人の意見が許して、なかなか決まらなかった。"
+          ],
+          "choicesVietnamese": [
+            "Tha thứ cho lỗi của đối phương.",
+            "\"Tha thứ\" đáp án bài kiểm tra.",
+            "\"Tha thứ\" với môi trường mới.",
+            "Ý kiến của ba người \"tha thứ\" nên mãi không quyết được."
+          ],
+          "choiceNotes": [
+            "Đúng: ミスを許す = tha thứ lỗi; ～てあげる = làm ~ cho người khác — cùng lối câu mẫu (彼女のことが)好きなので許してあげた。",
+            "Đáp án bài kiểm tra thì 確かめる (kiểm tra lại) hoặc 間違える (làm sai); 許す cần một lỗi hay một việc để tha, để cho phép.",
+            "Quen với môi trường mới là 慣れる: 新しい環境に慣れる (mẫu N に慣れる). 許す không đi với ～に kiểu này.",
+            "Ý kiến chia rẽ là 意見が割れる (từ 486 割れる, nghĩa Chia, rẽ ra): 三人の意見が割れて、なかなか決まらなかった。"
+          ],
+          "answer": 1,
+          "explanation": "Dạng 用法: chọn câu dùng đúng từ đang hỏi. 許す (を) = tha thứ (ミス／浮気を許す) hoặc cho phép (ゲームをすることを許す ≒ 許可する). Ba câu sai mượn chỗ của 確かめる (câu 2), 慣れる (câu 3) và 割れる (câu 4). なかなか＋V ない = mãi mà không ~."
+        },
+        {
+          "id": "dgt-btvn-471481-03",
+          "promptJapanese": "日本の寒さにも（　　　）きた。",
+          "promptReading": "にほんの さむさにも（　　　）きた。",
+          "promptVietnamese": "Tôi đã dần （　　　） cả với cái lạnh của Nhật.",
+          "choices": ["立って", "慣れて", "育って", "建って"],
+          "choicesVietnamese": [
+            "たって · Đứng",
+            "なれて · Quen với",
+            "そだって · Lớn lên",
+            "たって · Được xây lên"
+          ],
+          "choiceNotes": [
+            "立つ là đứng; 寒さに立つ không có nghĩa.",
+            "Đúng: N に慣れる = quen với N; ～てきた = dần dần ~ — đúng câu mẫu だんだん日本の生活にも慣れてきた。",
+            "育つ là lớn lên, phát triển; 寒さに育つ không có nghĩa (寒さの中で育つ = lớn lên trong giá lạnh thì nói được, nhưng nghĩa khác hẳn).",
+            "建つ chỉ dùng cho công trình được xây; người không 建つ."
+          ],
+          "answer": 2,
+          "explanation": "Câu mẫu của sách: だんだん日本の生活にも慣れてきた。N に慣れる = quen với N; ～にも = cả với ~ (ngoài những thứ khác); ～てくる = dần dần ~ (thay đổi tiến tới hiện tại). 寒さ = cái lạnh (tính từ い bỏ い＋さ thành danh từ)."
+        },
+        {
+          "id": "dgt-btvn-471481-04",
+          "promptJapanese": "仕事がうまくいかない自分に腹を（　　　）。",
+          "promptReading": "しごとが うまく いかない じぶんに はらを（　　　）。",
+          "promptVietnamese": "（　　　） với bản thân vì công việc không suôn sẻ.",
+          "choices": ["立てる", "建てる", "生やす", "育てる"],
+          "choicesVietnamese": [
+            "たてる · Dựng (腹を立てる = nổi giận)",
+            "たてる · Xây dựng",
+            "はやす · Để (râu, tóc) mọc",
+            "そだてる · Nuôi dạy"
+          ],
+          "choiceNotes": [
+            "Đúng: 腹を立てる = nổi giận, bực mình (thành ngữ) — đúng câu mẫu うまく話せない自分に腹を立てる。",
+            "建てる là xây công trình; thành ngữ này luôn viết 立てる dù đọc giống nhau.",
+            "生やす là để râu, tóc mọc; 腹を生やす không có nghĩa.",
+            "育てる là nuôi con, trồng cây, đào tạo người; không đi với 腹."
+          ],
+          "answer": 1,
+          "explanation": "Câu mẫu của sách: うまく話せない自分に腹を立てる。N に腹を立てる = nổi giận với N; tự động từ tương ứng là 腹が立つ (bực mình). うまくいかない = không suôn sẻ; V ない＋N = N mà không ~."
+        },
+        {
+          "id": "dgt-btvn-471481-05",
+          "promptJapanese": "両親が（　　　）野菜が送られてきた。",
+          "promptReading": "りょうしんが（　　　）やさいが おくられて きた。",
+          "promptVietnamese": "Rau do bố mẹ （　　　） đã được gửi tới cho tôi.",
+          "choices": ["建てた", "建った", "育てた", "育った"],
+          "choicesVietnamese": [
+            "たてた · Đã xây",
+            "たった · Đã được xây lên",
+            "そだてた · Đã nuôi trồng",
+            "そだった · Đã lớn lên"
+          ],
+          "choiceNotes": [
+            "建てる là xây công trình; rau không xây được.",
+            "Vừa sai nghĩa vừa sai dạng: 建つ là tự động từ (công trình được xây), không có người làm như 両親が.",
+            "Đúng: 両親が育てた野菜 = rau bố mẹ trồng — đúng nghĩa ② Nuôi trồng, như câu mẫu 農家の人たちが心をこめて育てた野菜だ。",
+            "Đúng từ nhưng sai dạng: 育つ là tự động từ, 両親が育った là \"bố mẹ lớn lên\" — 両親が育った町 (thị trấn bố mẹ lớn lên) thì được, còn 両親が育った野菜 không thành nghĩa."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: このレタスは、農家の人たちが心をこめて育てた野菜だ。Có người làm (両親が) thì dùng tha động từ: 育てる (を) ⇔ 育つ (が). V た＋N = N đã được ~; 送られてきた = được gửi tới (bị động ＋ ～てくる: hướng về phía mình)."
+        },
+        {
+          "id": "dgt-btvn-471481-06",
+          "promptJapanese": "海に入る前に水に体を（　　　）。",
+          "promptReading": "うみに はいる まえに みずに からだを（　　　）。",
+          "promptVietnamese": "Trước khi xuống biển, （　　　） cơ thể với nước.",
+          "choices": ["生やす", "許す", "慣らす", "立てる"],
+          "choicesVietnamese": [
+            "はやす · Để (râu, tóc) mọc",
+            "ゆるす · Tha thứ/ Cho phép",
+            "ならす · Làm cho quen với",
+            "たてる · Dựng"
+          ],
+          "choiceNotes": [
+            "生やす chỉ dùng cho râu, tóc; 体を生やす không có nghĩa.",
+            "許す là tha thứ, cho phép; không hợp với việc chuẩn bị xuống biển.",
+            "Đúng: N に体を慣らす = cho cơ thể quen dần với N — đúng câu mẫu 低い山で体を慣らしたほうがいいらしい。",
+            "立てる là dựng thẳng (旗・傘) hay trong 腹を立てる; 体を立てる không dùng."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: 富士山に登る前には、低い山で体を慣らしたほうがいいらしい。Cặp tự / tha: N に慣れる (mình quen) ⇔ N を慣らす (làm cho N quen). V る＋前に = trước khi ~."
+        },
+        {
+          "id": "dgt-btvn-471481-07",
+          "promptJapanese": "テト休み中、ひげを（　　　）みた。",
+          "promptReading": "テトやすみちゅう、ひげを（　　　）みた。",
+          "promptVietnamese": "Trong kỳ nghỉ Tết, tôi đã thử （　　　） râu.",
+          "choices": ["立てて", "建てて", "育てて", "生やして"],
+          "choicesVietnamese": [
+            "たてて · Dựng",
+            "たてて · Xây",
+            "そだてて · Nuôi dạy",
+            "はやして · Để (râu) mọc"
+          ],
+          "choiceNotes": [
+            "立てる là dựng thẳng một vật; không nói ひげを立てる.",
+            "建てる là xây công trình.",
+            "育てる dùng cho con cái, cây trồng, nhân lực; râu tóc để dài thì dùng 生やす.",
+            "Đúng: ひげを生やす = để râu — đúng câu mẫu 家で働くので、ひげを生やしてみた。"
+          ],
+          "answer": 4,
+          "explanation": "Câu mẫu của sách: 家で働くので、ひげを生やしてみた。Cặp tự / tha: ひげが生える (râu mọc) ⇔ ひげを生やす (để râu). ～中 (ちゅう) = trong suốt ~; ～てみる = thử ~."
+        },
+        {
+          "id": "dgt-btvn-471481-08",
+          "promptJapanese": "家族のために家を（　　　）ことが目標だ。",
+          "promptReading": "かぞくの ために いえを（　　　）ことが もくひょうだ。",
+          "promptVietnamese": "Mục tiêu của tôi là （　　　） nhà cho gia đình.",
+          "choices": ["建てる", "立てる", "慣れる", "育てる"],
+          "choicesVietnamese": [
+            "たてる · Xây dựng",
+            "たてる · Dựng (dựng thẳng)",
+            "なれる · Quen với",
+            "そだてる · Nuôi dạy"
+          ],
+          "choiceNotes": [
+            "Đúng: 家を建てる = xây nhà — đúng câu mẫu 都心に家を建てるには、どんなに安くても5000万円はかかる。",
+            "立てる đọc giống nhưng là dựng thẳng (旗・傘を立てる) hoặc 計画を立てる (lập kế hoạch); nhà là công trình nên viết 建てる.",
+            "慣れる là tự động từ (N に慣れる), không đi với を.",
+            "育てる là nuôi con, trồng cây; 家を育てる không có nghĩa."
+          ],
+          "answer": 1,
+          "explanation": "使い分け của sách: 立てる = まっすぐにする (dựng thẳng); 建てる = 建物をつくる (xây công trình). N のために = vì N; V る＋ことが目標だ = mục tiêu là ~."
+        },
+        {
+          "id": "dgt-btvn-471481-09",
+          "promptJapanese": "久しぶりにタンスを開けたら、かびが（　　　）いた。",
+          "promptReading": "ひさしぶりに タンスを あけたら、かびが（　　　）いた。",
+          "promptVietnamese": "Lâu lắm mới mở tủ quần áo ra thì thấy nấm mốc đã （　　　）.",
+          "choices": ["育って", "生えて", "立って", "建って"],
+          "choicesVietnamese": [
+            "そだって · Lớn lên",
+            "はえて · Mọc",
+            "たって · Đứng",
+            "たって · Được xây lên"
+          ],
+          "choiceNotes": [
+            "育つ là lớn lên, phát triển (lúa, trẻ con, nhân tài); mốc mọc ra thì dùng 生える.",
+            "Đúng: かびが生える = nấm mốc mọc — đúng dòng 髪、ひげ、歯、草、かび…が生える của sách.",
+            "立つ là đứng; かびが立つ không có nghĩa.",
+            "建つ chỉ dùng cho công trình."
+          ],
+          "answer": 2,
+          "explanation": "Câu mẫu của sách: 髪、ひげ、歯、草、かび…が生える。～たら = khi ~ thì (mới phát hiện ra); V ている ở đây chỉ trạng thái (mốc đã mọc sẵn). 久しぶりに = lâu lắm mới ~."
+        },
+        {
+          "id": "dgt-btvn-471481-10",
+          "promptJapanese": "課長は会議中、ずっと（　　　）いた。",
+          "promptReading": "かちょうは かいぎちゅう、ずっと（　　　）いた。",
+          "promptVietnamese": "Trưởng phòng （　　　） suốt cả buổi họp.",
+          "choices": ["立って", "許して", "建って", "育って"],
+          "choicesVietnamese": [
+            "たって · Đứng",
+            "ゆるして · Tha thứ/ Cho phép",
+            "たって · Được xây lên",
+            "そだって · Lớn lên"
+          ],
+          "choiceNotes": [
+            "Đúng: (người) 立つ = đứng; ずっと立っていた = đứng suốt — nghĩa ① của 立つ, như câu mẫu 名前を呼ばれたら立ってください。",
+            "許す cần một việc để tha hay cho phép (～を許す); câu không có gì để tha.",
+            "建つ chỉ dùng cho công trình; người thì 立つ dù đọc giống nhau.",
+            "育つ là lớn lên trong một thời gian dài; \"lớn lên suốt buổi họp\" vô lý."
+          ],
+          "answer": 1,
+          "explanation": "Câu mẫu của sách: 「名前を呼ばれたら立ってください。」ずっと＋V ている = ~ suốt; ～中 (ちゅう) = trong lúc ~ (会議中 = trong lúc họp)."
+        },
+        {
+          "id": "dgt-btvn-471481-11",
+          "promptJapanese": "この辺りでは、果物がとても甘く（　　　）。",
+          "promptReading": "この あたりでは、くだものが とても あまく（　　　）。",
+          "promptVietnamese": "Ở vùng này, trái cây （　　　） rất ngọt.",
+          "choices": ["立つ", "なれる", "育つ", "生える"],
+          "choicesVietnamese": [
+            "たつ · Đứng",
+            "なれる · Quen với (慣れる)/ Có thể trở nên (なる)",
+            "そだつ · Lớn, phát triển",
+            "はえる · Mọc"
+          ],
+          "choiceNotes": [
+            "立つ là đứng; 甘く立つ không có nghĩa.",
+            "Viết bằng kana nên đọc kiểu nào cũng sai: 慣れる (quen với) thì 甘く慣れる vô nghĩa; なれる (thể khả năng của なる) thì 甘くなれる nghe như trái cây tự cố gắng ngọt lên — nói tự nhiên là 甘くなる.",
+            "Đúng: 果物が甘く育つ = trái cây lớn lên ngọt — nghĩa ① Lớn, phát triển, như câu mẫu 雨が多い年は、米がよく育つそうだ。",
+            "生える dùng cho tóc, râu, cỏ, nấm mốc; trái kết trên cây thì nói 実がなる."
+          ],
+          "answer": 3,
+          "explanation": "Câu mẫu của sách: 雨が多い年は、米がよく育つそうだ。Tính từ い bỏ い＋く＋V = phó từ (甘く育つ = lớn lên ngọt). この辺り = vùng quanh đây; ～では = ở ~ (thì)."
+        }
+      ]
+    }
+  ]
+}
