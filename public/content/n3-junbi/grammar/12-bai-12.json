@@ -1,0 +1,275 @@
+{
+  "id": "12-bai-12",
+  "name": "Bài 12",
+  "description": "部屋やっと掃除し終わった — ～始める · ～終わる · ～続ける · ～直す · ～出す",
+  "kind": "grammar",
+  "parent": "",
+  "group": "",
+  "points": [
+    {
+      "id": "46e73226644826fa",
+      "title": "～始める",
+      "summary": "Bắt đầu…",
+      "structures": [
+        "Vます ＋ 始める"
+      ],
+      "explanation": [
+        "Bắt đầu việc gì."
+      ],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～始める",
+          "detail": "",
+          "examples": [
+            {
+              "id": "9bf686cc8f4d51d1",
+              "japanese": "A：えっ！かわいい犬ですね。いつ飼ったんですか？\nB：実は先週から飼い始めたんです。",
+              "reading": "A：えっ！かわいいいぬですね。いつかったんですか？\nB：じつはせんしゅうからかいはじめたんです。",
+              "vietnamese": "A: Ôi! Con chó dễ thương quá. Anh nuôi từ bao giờ vậy?\nB: Thật ra tôi mới bắt đầu nuôi từ tuần trước.",
+              "note": ""
+            },
+            {
+              "id": "042d7ecd88d05664",
+              "japanese": "A：たいへんだ！家の中に水が入ってきた！！！\nB：ほんとだ．．．！雨が降り始めたのは３日前．．．。それからずっと降り続いているもんね。",
+              "reading": "A：たいへんだ！いえのなかにみずがはいってきた！！！\nB：ほんとだ．．．！あめがふりはじめたのはみっかまえ．．．。それからずっとふりつづいているもんね。",
+              "vietnamese": "A: Chết rồi! Nước tràn vào trong nhà rồi!!!\nB: Thật này…! Mưa bắt đầu từ 3 hôm trước… Từ đó tới giờ cứ mưa suốt nhỉ.",
+              "note": ""
+            },
+            {
+              "id": "d994cde29c2ffc0c",
+              "japanese": "（電話で）\nA：もしもし、どこいるの？みんな待っているよ。急いで！\nB：ごめん、ちょっと遅れそうなので、先に食べ始めてね。",
+              "reading": "（でんわで）\nA：もしもし、どこいるの？みんなまっているよ。いそいで！\nB：ごめん、ちょっとおくれそうなので、さきにたべはじめてね。",
+              "vietnamese": "(Qua điện thoại)\nA: Alô, cậu đang ở đâu đấy? Mọi người đang đợi kìa. Nhanh lên!\nB: Xin lỗi, chắc tớ đến muộn một chút, mọi người cứ ăn trước đi nhé.",
+              "note": "PDF in もし、— chép lại thành もしもし、(câu chào khi gọi điện). どこいるの là văn nói, lược trợ từ に."
+            },
+            {
+              "id": "99b57f219293c303",
+              "japanese": "明日から英語の勉強をし始めよう。",
+              "reading": "あしたからえいごのべんきょうをしはじめよう。",
+              "vietnamese": "Từ mai mình sẽ bắt đầu học tiếng Anh.",
+              "note": "プラス · Phân biệt ～出す và ～始める: câu 〇 của bảng. Việc mình định làm, có kế hoạch thì dùng ～始める; nói 勉強をし出そう là ✕."
+            },
+            {
+              "id": "994e36239e382039",
+              "japanese": "A：空が暗くなり始めたから、そろそろ帰りましょう。\nB：ええ、ちょっと待ってくださいね。",
+              "reading": "A：そらがくらくなりはじめたから、そろそろかえりましょう。\nB：ええ、ちょっとまってくださいね。",
+              "vietnamese": "A: Trời bắt đầu tối rồi, mình về thôi.\nB: Vâng, đợi tôi một chút nhé.",
+              "note": "Luyện tập 問題3 · Đuổi hình bắt chữ (tranh trời chạng vạng, một nhân viên mặc vest xách cặp chạy vội về, một ông đeo kính ngồi giơ tay gọi lại) với từ gợi ý（空・暗い・帰る）— câu của A là đáp án gợi ý, PDF không in đáp án."
+            },
+            {
+              "id": "15e2b34ac1e3b3f5",
+              "japanese": "娘は1歳のときに歩き始めました。",
+              "reading": "むすめはいっさいのときにあるきはじめました。",
+              "vietnamese": "Con gái tôi bắt đầu biết đi từ khi lên 1 tuổi.",
+              "note": "チャレンジ 1 · Dịch sang tiếng Nhật — câu tiếng Việt của PDF, câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5c04047b2ca8dca0",
+      "title": "～終わる",
+      "summary": "…xong",
+      "structures": [
+        "Vます ＋ 終わる"
+      ],
+      "explanation": [
+        "Việc nào đó kết thúc, hoàn thành."
+      ],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～終わる",
+          "detail": "",
+          "examples": [
+            {
+              "id": "a3668b86dc0779fc",
+              "japanese": "A：ない！お気に入りのえんぴつがない！\nB：ペンケースの中は？\nA：ないよ〜〜〜〜\nB：使い終わったらちゃんと元の場所に戻しておきなさいって言ってたでしょ？きちんと探しなさい！",
+              "reading": "A：ない！おきにいりのえんぴつがない！\nB：ぺんけーすのなかは？\nA：ないよ〜〜〜〜\nB：つかいおわったらちゃんともとのばしょにもどしておきなさいっていってたでしょ？きちんとさがしなさい！",
+              "vietnamese": "A: Không có! Cây bút chì yêu thích của con không thấy đâu!\nB: Trong hộp bút thì sao?\nA: Không có mà~~~\nB: Mẹ đã dặn dùng xong thì phải cất lại đúng chỗ cũ rồi còn gì? Tìm cho kỹ vào!",
+              "note": ""
+            },
+            {
+              "id": "5ffd4785be0bcd05",
+              "japanese": "A：ねえ、「1リットルの涙」っていう本、もう読み終わった？\nB：ごめん、まだ読んでいない。\nA：そっか。じゃ読み終わったら貸してくれない？\nB：うん、いいよ！",
+              "reading": "A：ねえ、「いちりっとるのなみだ」っていうほん、もうよみおわった？\nB：ごめん、まだよんでいない。\nA：そっか。じゃよみおわったらかしてくれない？\nB：うん、いいよ！",
+              "vietnamese": "A: Này, cuốn \"1 lít nước mắt\" cậu đọc xong chưa?\nB: Xin lỗi, tớ vẫn chưa đọc.\nA: Vậy à. Thế đọc xong thì cho tớ mượn được không?\nB: Ừ, được thôi!",
+              "note": ""
+            },
+            {
+              "id": "d0f9ea70749a9358",
+              "japanese": "（テストのとき）\nA：答えを書き終わったら、もう一度よく見てチェックしてください。\nB：はい、分かりました。",
+              "reading": "（てすとのとき）\nA：こたえをかきおわったら、もういちどよくみてちぇっくしてください。\nB：はい、わかりました。",
+              "vietnamese": "(Lúc làm bài kiểm tra)\nA: Viết xong câu trả lời thì hãy xem kỹ lại một lần nữa để kiểm tra nhé.\nB: Vâng, em hiểu rồi.",
+              "note": "Luyện tập 問題2 · Hoàn thành câu với từ gợi ý（答え・書く・見る・チェックする）— câu của A là đáp án gợi ý, PDF không in đáp án."
+            },
+            {
+              "id": "13f861421d769d60",
+              "japanese": "レポートを書き終わったので、チェックしていただけませんか。",
+              "reading": "れぽーとをかきおわったので、ちぇっくしていただけませんか。",
+              "vietnamese": "Em đã viết xong báo cáo rồi, sếp kiểm tra giúp em được không?",
+              "note": "チャレンジ 2 · Dịch sang tiếng Nhật — câu tiếng Việt của PDF, câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ee17647b06754bcf",
+      "title": "～続ける",
+      "summary": "Tiếp tục/ Liên tục…",
+      "structures": [
+        "Vます ＋ 続ける"
+      ],
+      "explanation": [
+        "Lặp đi lặp lại hoặc duy trì việc gì."
+      ],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～続ける",
+          "detail": "",
+          "examples": [
+            {
+              "id": "1162b02920ed0c1b",
+              "japanese": "A：コロナは2020年から今までずっと流行し続けているね。\nB：ね、いつ終わるんだろう。",
+              "reading": "A：ころなはにせんにじゅうねんからいままでずっとりゅうこうしつづけているね。\nB：ね、いつおわるんだろう。",
+              "vietnamese": "A: Dịch Corona từ năm 2020 tới giờ cứ lan mãi nhỉ.\nB: Ừ, không biết bao giờ mới hết đây.",
+              "note": ""
+            },
+            {
+              "id": "101863c03fa5f1e7",
+              "japanese": "A：やめてよ！きみ、よっぱらっちゃったんだよ。帰ろう！\nB：ううん、ほっといて、まだ飲みつづけたい。",
+              "reading": "A：やめてよ！きみ、よっぱらっちゃったんだよ。かえろう！\nB：ううん、ほっといて、まだのみつづけたい。",
+              "vietnamese": "A: Thôi đi! Cậu say rồi đấy. Về thôi!\nB: Không, kệ tớ, tớ vẫn muốn uống tiếp.",
+              "note": "PDF in よっぱらちゃった — thiếu っ, chép lại thành よっぱらっちゃった (酔っ払っちゃった = say mất rồi)."
+            },
+            {
+              "id": "135a5ac54e8be9eb",
+              "japanese": "A：スマホを見続けると目が悪くなるよ。\nB：わかってるけどゲームおもしろいんだよ。",
+              "reading": "A：すまほをみつづけるとめがわるくなるよ。\nB：わかってるけどげーむおもしろいんだよ。",
+              "vietnamese": "A: Cứ nhìn điện thoại mãi là hỏng mắt đấy.\nB: Biết rồi, nhưng game hay lắm mà.",
+              "note": ""
+            },
+            {
+              "id": "afbc397c910411e9",
+              "japanese": "A：その靴、すてきだね。\nB：新しくないよ。もう5年以上履き続けているんだ。",
+              "reading": "A：そのくつ、すてきだね。\nB：あたらしくないよ。もうごねんいじょうはきつづけているんだ。",
+              "vietnamese": "A: Đôi giày đó đẹp nhỉ.\nB: Không mới đâu. Tớ đi nó hơn 5 năm rồi.",
+              "note": "Luyện tập 問題2 · Hoàn thành câu với từ gợi ý（新しい・5年以上・履く）— câu của B là đáp án gợi ý, PDF không in đáp án."
+            },
+            {
+              "id": "2ee5a0a36fb504fd",
+              "japanese": "1時間も待ち続けているのに、彼女はまだ来ない。",
+              "reading": "いちじかんもまちつづけているのに、かのじょはまだこない。",
+              "vietnamese": "Tôi đợi cả tiếng rồi mà cô ấy vẫn chưa đến.",
+              "note": "チャレンジ 3 · Dịch sang tiếng Nhật — câu tiếng Việt của PDF, câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a60ac29a8ecc21e7",
+      "title": "～直す",
+      "summary": "Lại… (làm lại)",
+      "structures": [
+        "Vます ＋ 直す"
+      ],
+      "explanation": [
+        "Làm lại 1 lần nữa.",
+        "Thường đi với「もう一度」、「もう一回」."
+      ],
+      "notes": [],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～直す",
+          "detail": "",
+          "examples": [
+            {
+              "id": "b91461bc329268bd",
+              "japanese": "A：この漢字間違っているよ！\nB：あ！ほんとだ。ありがとう。書き直すね！",
+              "reading": "A：このかんじまちがっているよ！\nB：あ！ほんとだ。ありがとう。かきなおすね！",
+              "vietnamese": "A: Chữ Hán này sai rồi kìa!\nB: A! Đúng thật. Cảm ơn nhé. Tớ viết lại đây!",
+              "note": ""
+            },
+            {
+              "id": "f59a86aea086fcfb",
+              "japanese": "A：彼氏と別れようと思っているの。\nB：え！？彼はイケメンだし、とてもやさしいじゃん！考え直したら？",
+              "reading": "A：かれしとわかれようとおもっているの。\nB：え！？かれはいけめんだし、とてもやさしいじゃん！かんがえなおしたら？",
+              "vietnamese": "A: Tớ đang định chia tay bạn trai.\nB: Hả!? Anh ấy vừa đẹp trai lại rất hiền mà! Cậu nghĩ lại xem?",
+              "note": ""
+            },
+            {
+              "id": "3142617ae05dce46",
+              "japanese": "A：子どもの時に、遊ばないで、よく勉強したらよかったのに〜あのころに戻れないかなあ。\nB：人生は一度しかないから、やり直すことはできないよ。今から頑張ろう！",
+              "reading": "A：こどものときに、あそばないで、よくべんきょうしたらよかったのに〜あのころにもどれないかなあ。\nB：じんせいはいちどしかないから、やりなおすことはできないよ。いまからがんばろう！",
+              "vietnamese": "A: Hồi bé giá mà đừng ham chơi, chăm học thì tốt biết mấy~ Không quay lại được thời đó nhỉ.\nB: Đời người chỉ có một lần nên không làm lại được đâu. Từ giờ cố gắng thôi!",
+              "note": ""
+            },
+            {
+              "id": "43f506edceb89453",
+              "japanese": "間違いがないか、もう一度見直してから出してください。",
+              "reading": "まちがいがないか、もういちどみなおしてからだしてください。",
+              "vietnamese": "Hãy xem lại xem còn lỗi sai nào không rồi mới nộp.",
+              "note": "チャレンジ 4 · Dịch sang tiếng Nhật — câu tiếng Việt của PDF, câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3c29abbe6da55d19",
+      "title": "～出す",
+      "summary": "Bắt đầu…/ Đột nhiên…",
+      "structures": [
+        "Vます ＋ 出す"
+      ],
+      "explanation": [
+        "Đột nhiên xảy ra.",
+        "Bắt đầu.",
+        "Đi với「急に」、「突然」、「いきなり」."
+      ],
+      "notes": [
+        "Phân biệt「～出す」và「～始める」: ～出す — không thể hiện ý chí người nói; bất ngờ, ngoài dự đoán. ～始める — ý chí người nói; mang tính kế hoạch.",
+        "例：明日から英語の勉強をし出そう。✕ ／ 明日から英語の勉強をし始めよう。〇"
+      ],
+      "usages": [
+        {
+          "id": "u1",
+          "title": "～出す",
+          "detail": "",
+          "examples": [
+            {
+              "id": "f0102afd19ce6be1",
+              "japanese": "A：もしもし、急に雨が降り出して．．．傘持ってないの。\nB：ちょっと待ってね、すぐそっちに着くから。",
+              "reading": "A：もしもし、きゅうにあめがふりだして．．．かさもってないの。\nB：ちょっとまってね、すぐそっちにつくから。",
+              "vietnamese": "A: Alô, tự nhiên trời đổ mưa… mà tớ không mang ô.\nB: Đợi chút nhé, tớ tới chỗ cậu ngay đây.",
+              "note": ""
+            },
+            {
+              "id": "b721645607a505b7",
+              "japanese": "A：昨日話していたら彼女が突然泣き出してびっくりしたよ。\nB：えぇ、Aさんがなにか嫌なこと言ったんじゃない？",
+              "reading": "A：きのうはなしていたらかのじょがとつぜんなきだしてびっくりしたよ。\nB：えぇ、Aさんがなにかいやなこといったんじゃない？",
+              "vietnamese": "A: Hôm qua đang nói chuyện thì bạn gái tớ đột nhiên bật khóc, giật cả mình.\nB: Hả, chắc anh A đã nói gì khó nghe phải không?",
+              "note": ""
+            },
+            {
+              "id": "2195f513152e538a",
+              "japanese": "子どもは急に走り出すことがあるので、よく注意しなければならない。",
+              "reading": "こどもはきゅうにはしりだすことがあるので、よくちゅういしなければならない。",
+              "vietnamese": "Vì trẻ con hay đột ngột chạy ra nên phải chú ý thật kỹ.",
+              "note": "チャレンジ 5 · Dịch sang tiếng Nhật — câu tiếng Việt của PDF, câu tiếng Nhật là đáp án gợi ý, PDF không in đáp án. 飛び出す (lao ra) cũng hợp câu Việt, nhưng ở đó 出す là \"ra ngoài\" chứ không phải mẫu \"đột nhiên bắt đầu\" của bài."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

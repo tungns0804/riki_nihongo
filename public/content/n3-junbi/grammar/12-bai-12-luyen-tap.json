@@ -1,0 +1,214 @@
+{
+  "id": "12-bai-12-luyen-tap",
+  "name": "Luyện tập Bài 12",
+  "description": "Các câu chọn từ trong khung của Bài 12 — 6 câu, kể cả câu đố ở trang bìa.",
+  "kind": "test",
+  "parent": "12-bai-12",
+  "group": "",
+  "sections": [
+    {
+      "id": "b12-bia",
+      "title": "Trang bìa — Đố bạn làm đúng!",
+      "instructions": "Đố bạn làm đúng!",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b12-01",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "そのゲームをやり（　　　）までに５時間くらいかかる。",
+          "promptReading": "そのげーむをやり（　　　）までにごじかんくらいかかる。",
+          "promptTranslation": "Phải mất khoảng 5 tiếng mới chơi xong trò chơi đó.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "終わる",
+              "translation": "…xong",
+              "note": "Đúng: やり終わるまでに５時間かかる = mất 5 tiếng mới chơi xong — ～までに＋かかる đo thời gian tới lúc hoàn thành."
+            },
+            {
+              "id": "c2",
+              "text": "始める",
+              "translation": "bắt đầu…",
+              "note": "やり始めるまでに５時間 = mất 5 tiếng mới bắt đầu chơi — không hợp lẽ thường: thời gian của một trò chơi tính tới lúc chơi xong."
+            },
+            {
+              "id": "c3",
+              "text": "直す",
+              "translation": "…lại (làm lại)",
+              "note": "やり直す là chơi lại từ đầu; \"mất 5 tiếng mới chơi lại\" không có nghĩa."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Trang cuối PDF khoanh đáp án 1. 終わる. V る＋までに～かかる = mất ~ (thời gian) cho tới khi ~. Bìa in そもゲーム — chữ gõ nhầm, chép lại thành そのゲーム.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b12-hajimeru-owaru-1",
+      "title": "1–2. ～始める・～終わる · 問題1",
+      "instructions": "Chọn từ thích hợp trong khung điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b12-02",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "「いただきます」と言って、みんな一緒に食べ（　　　）。",
+          "promptReading": "「いただきます」といって、みんないっしょにたべ（　　　）。",
+          "promptTranslation": "Nói \"Itadakimasu\" xong, mọi người cùng nhau bắt đầu ăn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "始める",
+              "translation": "bắt đầu…",
+              "note": "Đúng: いただきます là câu nói TRƯỚC khi ăn → 食べ始める. Điền vào chỗ trống ở dạng 始めた／始めます."
+            },
+            {
+              "id": "c2",
+              "text": "終わる",
+              "translation": "…xong",
+              "note": "食べ終わる là ăn xong; ăn xong thì người Nhật nói ごちそうさまでした chứ không phải いただきます."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "V ます bỏ ます＋始める = bắt đầu ~. ～と言って = nói ~ rồi…",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-03",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "作文を書き（　　　）人は出してください。",
+          "promptReading": "さくぶんをかき（　　　）ひとはだしてください。",
+          "promptTranslation": "Ai viết xong bài văn rồi thì nộp đi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "始める",
+              "translation": "bắt đầu…",
+              "note": "書き始めた人 là người vừa bắt đầu viết — chưa có gì để nộp."
+            },
+            {
+              "id": "c2",
+              "text": "終わる",
+              "translation": "…xong",
+              "note": "Đúng: 書き終わった人は出してください — viết xong rồi mới nộp được. Điền vào chỗ trống ở dạng 終わった (V た＋N = người đã ~)."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "V ます bỏ ます＋終わる = ~ xong. 書き終わった人 = người đã viết xong; 出す ở đây = nộp.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "b12-tsuzukeru-dasu-naosu-1",
+      "title": "3–5. ～続ける・～直す・～出す · 問題1",
+      "instructions": "Chọn từ thích hợp trong khung điền vào ô trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b12-04",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "長い時間働き（　　　）ので、少し休んだほうがいいですよ。",
+          "promptReading": "ながいじかんはたらき（　　　）ので、すこしやすんだほうがいいですよ。",
+          "promptTranslation": "Anh đã làm việc liên tục suốt thời gian dài rồi, nên nghỉ một chút thì hơn đấy.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "続ける",
+              "translation": "tiếp tục, liên tục…",
+              "note": "Đúng: 長い時間働き続けた = làm việc liên tục suốt thời gian dài — nên mới khuyên nghỉ. Điền vào chỗ trống ở dạng 続けた／続けている."
+            },
+            {
+              "id": "c2",
+              "text": "出す",
+              "translation": "đột nhiên…, bắt đầu…",
+              "note": "働き出す là bắt đầu đi làm (18歳から働き出した); \"bắt đầu làm việc\" không dẫn tới lời khuyên nghỉ ngơi."
+            },
+            {
+              "id": "c3",
+              "text": "直す",
+              "translation": "…lại (làm lại)",
+              "note": "働き直す (làm lại) không ăn với 長い時間."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "V ます bỏ ます＋続ける = cứ ~ liên tục. V た＋ほうがいい = nên ~.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-05",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "冷めたスープをもう一度温め（　　　）。",
+          "promptReading": "さめたすーぷをもういちどあたため（　　　）。",
+          "promptTranslation": "Hâm lại món súp đã nguội thêm một lần nữa.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "続ける",
+              "translation": "tiếp tục, liên tục…",
+              "note": "温め続ける (hâm mãi không thôi) không ăn với もう一度 (một lần nữa)."
+            },
+            {
+              "id": "c2",
+              "text": "出す",
+              "translation": "đột nhiên…, bắt đầu…",
+              "note": "Hâm súp là việc mình chủ động làm, không phải chuyện đột nhiên xảy ra, nên không dùng ～出す."
+            },
+            {
+              "id": "c3",
+              "text": "直す",
+              "translation": "…lại (làm lại)",
+              "note": "Đúng: もう一度温め直す = hâm lại — ～直す hay đi với もう一度／もう一回."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "V ます bỏ ます＋直す = làm lại ~. 冷めた＋N = N đã nguội.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-06",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "何もしていないのに、急にエレベーターが動き（　　　）。",
+          "promptReading": "なにもしていないのに、きゅうにえれべーたーがうごき（　　　）。",
+          "promptTranslation": "Tôi chẳng làm gì cả mà thang máy tự nhiên chạy.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "続ける",
+              "translation": "tiếp tục, liên tục…",
+              "note": "動き続ける (cứ chạy mãi) không ăn với 急に (đột nhiên)."
+            },
+            {
+              "id": "c2",
+              "text": "出す",
+              "translation": "đột nhiên…, bắt đầu…",
+              "note": "Đúng: 急に動き出した = đột nhiên chạy — ～出す đi với 急に／突然／いきなり, việc bất ngờ ngoài ý mình. Điền vào chỗ trống ở dạng 出した."
+            },
+            {
+              "id": "c3",
+              "text": "直す",
+              "translation": "…lại (làm lại)",
+              "note": "動き直す (chạy lại) không hợp với 急に và vế ～のに."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "V ます bỏ ます＋出す = đột nhiên ~ (ngoài dự đoán). ～のに = vậy mà ~ (trái với điều đáng lẽ).",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

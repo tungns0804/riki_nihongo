@@ -1,0 +1,7 @@
+{
+  "name": "Luyện tập Bài 12",
+  "description": "Các câu chọn từ trong khung của Bài 12 — 6 câu, kể cả câu đố ở trang bìa.",
+  "kind": "test",
+  "parent": "12-bai-12",
+  "order": 12001
+}
