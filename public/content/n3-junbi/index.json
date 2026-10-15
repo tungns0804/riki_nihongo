@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-15T16:49:31.878Z",
+  "generatedAt": "2026-10-15T18:26:38.282Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -502,6 +502,17 @@
           "itemCount": 12,
           "order": 5001,
           "file": "grammar/05-bai-5-luyen-tap.json"
+        },
+        {
+          "id": "05-bai-5-btvn",
+          "name": "BTVN Bài 5",
+          "description": "Bài tập về nhà của Bài 5 — 11 câu trắc nghiệm ～ことにしている · ～ことになっている · ～だけでなく · ～ようとする／～ようとしない · ～つもりだった.",
+          "kind": "test",
+          "parent": "05-bai-5",
+          "group": "",
+          "itemCount": 11,
+          "order": 5002,
+          "file": "grammar/05-bai-5-btvn.json"
         },
         {
           "id": "09-bai-9-luyen-tap",
