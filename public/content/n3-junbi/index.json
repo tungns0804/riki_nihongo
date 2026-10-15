@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-14T10:46:13.038Z",
+  "generatedAt": "2026-10-15T16:49:31.878Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -524,6 +524,17 @@
           "itemCount": 6,
           "order": 12001,
           "file": "grammar/12-bai-12-luyen-tap.json"
+        },
+        {
+          "id": "12-bai-12-btvn",
+          "name": "BTVN Bài 12",
+          "description": "Bài tập về nhà của Bài 12 — 11 câu trắc nghiệm ～始める · ～終わる · ～続ける · ～直す · ～出す.",
+          "kind": "test",
+          "parent": "12-bai-12",
+          "group": "",
+          "itemCount": 11,
+          "order": 12002,
+          "file": "grammar/12-bai-12-btvn.json"
         }
       ]
     },

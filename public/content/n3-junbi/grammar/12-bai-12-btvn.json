@@ -1,0 +1,364 @@
+{
+  "id": "12-bai-12-btvn",
+  "name": "BTVN Bài 12",
+  "description": "Bài tập về nhà của Bài 12 — 11 câu trắc nghiệm ～始める · ～終わる · ～続ける · ～直す · ～出す.",
+  "kind": "test",
+  "parent": "12-bai-12",
+  "group": "",
+  "sections": [
+    {
+      "id": "b12-btvn",
+      "title": "BTVN Bài 12 — 11 câu trắc nghiệm",
+      "instructions": "",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n3j-b12-btvn-01",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "「かんぱい！」したら、みんな一緒に飲み（　　　）ましょう。",
+          "promptReading": "「かんぱい！」したら、みんないっしょにのみ（　　　）ましょう。",
+          "promptTranslation": "Hô \"Kanpai!\" xong thì mọi người cùng bắt đầu uống nhé.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "始め",
+              "translation": "bắt đầu… (có ý chí, kế hoạch)",
+              "note": "Đúng: 飲み始めましょう — rủ nhau cùng bắt đầu uống sau khi cụng ly. ～ましょう là lời rủ, có ý chí → ～始める."
+            },
+            {
+              "id": "c2",
+              "text": "終わり",
+              "translation": "…xong",
+              "note": "飲み終わりましょう = cùng uống xong; かんぱい là câu hô lúc MỞ đầu cuộc uống chứ không phải lúc kết thúc."
+            },
+            {
+              "id": "c3",
+              "text": "出し",
+              "translation": "đột nhiên…, bắt đầu… (ngoài dự đoán)",
+              "note": "～出す không mang ý chí người nói (chuyện bất ngờ, ngoài dự đoán) nên không đi với lời rủ ～ましょう — giống 勉強をし出そう ✕ trong bảng プラス của bài."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Bảng プラス phân biệt ～出す／～始める: ～始める có ý chí, mang tính kế hoạch; ～出す bất ngờ, không có ý chí. Câu rủ rê ～ましょう／～よう chỉ đi với ～始める.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-btvn-02",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "来年、会社を辞めて、海外旅行し（　　　）",
+          "promptReading": "らいねん、かいしゃをやめて、かいがいりょこうし（　　　）",
+          "promptTranslation": "Sang năm tôi sẽ nghỉ việc ở công ty rồi bắt đầu đi du lịch nước ngoài.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "終わる",
+              "translation": "…xong",
+              "note": "海外旅行し終わる = đi du lịch nước ngoài xong; người nói đang kể dự định sang năm, chưa đi thì chưa có gì để \"xong\"."
+            },
+            {
+              "id": "c2",
+              "text": "出す",
+              "translation": "đột nhiên…, bắt đầu… (ngoài dự đoán)",
+              "note": "～出す là chuyện bất ngờ, không có ý chí người nói; nghỉ việc để đi du lịch là dự định của chính mình nên không dùng ～出す."
+            },
+            {
+              "id": "c3",
+              "text": "始める",
+              "translation": "bắt đầu… (có ý chí, kế hoạch)",
+              "note": "Đúng: 来年、会社を辞めて… là kế hoạch tính trước của người nói → ～始める."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "来年 ＋ 会社を辞めて cho thấy đây là việc đã lên kế hoạch — đúng chỗ của ～始める trong bảng プラス phân biệt ～出す／～始める.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-btvn-03",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：これ、借りてもいいですか。\nB：ええ、どうぞ。使い（　　　）ら、元のところにしまっておいてください。",
+          "promptReading": "A：これ、かりてもいいですか。\nB：ええ、どうぞ。つかい（　　　）ら、もとのところにしまっておいてください。",
+          "promptTranslation": "A: Tôi mượn cái này được không?\nB: Vâng, xin mời. Dùng xong thì cất lại vào chỗ cũ giúp tôi nhé.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "始めた",
+              "translation": "đã bắt đầu…",
+              "note": "使い始めたら = hễ bắt đầu dùng thì cất đi — vừa bắt đầu dùng đã cất thì vô lý."
+            },
+            {
+              "id": "c2",
+              "text": "終わった",
+              "translation": "đã …xong",
+              "note": "Đúng: 使い終わったら元のところにしまっておいて — dùng xong thì cất lại chỗ cũ, như câu 使い終わったらちゃんと元の場所に戻しておきなさい trong bài."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "～たら = sau khi ~ thì…; ～ておく = làm sẵn cho xong. しまう ở đây là động từ \"cất đi\", không phải ～てしまう.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-btvn-04",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "作文を書き（　　　）人は出してください。",
+          "promptReading": "さくぶんをかき（　　　）ひとはだしてください。",
+          "promptTranslation": "Ai viết xong bài văn rồi thì nộp đi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "始めた",
+              "translation": "đã bắt đầu…",
+              "note": "書き始めた人 là người mới bắt đầu viết — chưa viết xong thì chưa có bài để nộp."
+            },
+            {
+              "id": "c2",
+              "text": "終わった",
+              "translation": "đã …xong",
+              "note": "Đúng: 書き終わった人は出してください — ai đã viết xong thì nộp. Câu này cũng có ở 問題1 của Luyện tập Bài 12."
+            },
+            {
+              "id": "c3",
+              "text": "終わる",
+              "translation": "(sẽ) …xong",
+              "note": "書き終わる人 (thể từ điển) nói việc chưa xảy ra; người được bảo nộp là người ĐÃ viết xong lúc nghe lệnh nên phải dùng thể た."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Mệnh đề bổ nghĩa cho danh từ dùng thể た khi việc đó xong trước hành động của câu chính: viết xong (終わった) rồi mới nộp (出す). 出す ở đây = nộp.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-btvn-05",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "長い時間、（　　　）続けているので、少し休んだほうがいいですよ。",
+          "promptReading": "ながいじかん、（　　　）つづけているので、すこしやすんだほうがいいですよ。",
+          "promptTranslation": "Anh đã làm việc liên tục suốt một thời gian dài rồi, nên nghỉ một chút thì hơn đấy.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "守り",
+              "translation": "giữ, bảo vệ (守る)",
+              "note": "守り続ける cần tân ngữ (約束を守り続ける = giữ lời hứa mãi); câu không nói giữ cái gì, và \"giữ mãi\" cũng không dẫn tới lời khuyên nghỉ ngơi."
+            },
+            {
+              "id": "c2",
+              "text": "働き",
+              "translation": "làm việc (働く)",
+              "note": "Đúng: 長い時間働き続けている → mệt nên khuyên nghỉ một chút. Câu này cũng có ở 問題1 của Luyện tập Bài 12."
+            },
+            {
+              "id": "c3",
+              "text": "寝",
+              "translation": "ngủ (寝る)",
+              "note": "寝続けている = ngủ suốt; đã ngủ mãi rồi mà còn khuyên \"nghỉ một chút\" thì ngược nghĩa."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Vます bỏ ます ＋ 続ける: 守る → 守り, 働く → 働き, 寝る → 寝. Cả ba đều đúng dạng, chỉ có nghĩa quyết định. Vた ＋ ほうがいい = nên ~.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-btvn-06",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "もう時間なので、書き（　　　）でください。",
+          "promptReading": "もうじかんなので、かき（　　　）でください。",
+          "promptTranslation": "Đã hết giờ rồi, xin đừng viết tiếp nữa.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "続けない",
+              "translation": "không tiếp tục…",
+              "note": "Đúng: 書き続けないでください = đừng viết tiếp — câu giám thị nói khi hết giờ làm bài."
+            },
+            {
+              "id": "c2",
+              "text": "始めない",
+              "translation": "không bắt đầu…",
+              "note": "書き始めないで = đừng bắt đầu viết; もう時間 là đã HẾT giờ, lúc đó người ta đang viết dở chứ không phải sắp bắt đầu."
+            },
+            {
+              "id": "c3",
+              "text": "終わらない",
+              "translation": "không …xong",
+              "note": "書き終わらないでください = \"xin đừng viết xong\" — không thành lời yêu cầu nào hợp lý, nhất là khi đã hết giờ."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Vない ＋ でください = xin đừng ~. もう時間だ = đã đến giờ (ở đây là hết giờ làm bài).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-btvn-07",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "冷めたスープをもう一度（　　　）",
+          "promptReading": "さめたすーぷをもういちど（　　　）",
+          "promptTranslation": "Hâm nóng lại món súp đã nguội thêm một lần nữa.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "作り直す",
+              "translation": "nấu lại (từ đầu)",
+              "note": "作り直す là nấu lại từ đầu; súp chỉ bị nguội, vẫn còn nguyên thì không cần nấu lại."
+            },
+            {
+              "id": "c2",
+              "text": "温め直す",
+              "translation": "hâm nóng lại",
+              "note": "Đúng: もう一度温め直す — súp nguội thì hâm lại. Câu này cũng có ở 問題1 của Luyện tập Bài 12."
+            },
+            {
+              "id": "c3",
+              "text": "冷やし直す",
+              "translation": "làm lạnh lại",
+              "note": "Súp đã nguội (冷めた) rồi, làm lạnh lại là ngược với điều cần làm."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "冷める (tự động từ) = nguội đi; 冷やす (tha động từ) = làm lạnh; 温める = hâm nóng. ～直す hay đi với もう一度／もう一回.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-btvn-08",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "暇だったから、好きなアニメを1話から（　　　）",
+          "promptReading": "ひまだったから、すきなあにめをいちわから（　　　）",
+          "promptTranslation": "Vì rảnh nên tôi đã xem lại bộ anime yêu thích từ tập 1.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "見直した",
+              "translation": "đã xem lại",
+              "note": "Đúng: 見る → 見 ＋ 直す = xem lại; 1話から = từ tập 1."
+            },
+            {
+              "id": "c2",
+              "text": "見せ直した",
+              "translation": "đã cho (ai) xem lại",
+              "note": "見せる là cho người khác xem; câu không có ai được cho xem (～に), người rảnh và xem là chính mình."
+            },
+            {
+              "id": "c3",
+              "text": "見て直した",
+              "translation": "(sai dạng)",
+              "note": "～直す nối vào thân ます, không nối vào thể て — không có dạng 見て直す."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "見直す còn có nghĩa \"xem lại để soát lỗi\" như チャレンジ 4 của bài (もう一度見直してから出して). Ở câu này là xem lại từ đầu.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-btvn-09",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "仕事に夢中だと思っていた娘が（　　　）。",
+          "promptReading": "しごとにむちゅうだとおもっていたむすめが（　　　）。",
+          "promptTranslation": "Đứa con gái mà tôi cứ tưởng chỉ mải mê công việc bỗng nhiên nói là sẽ kết hôn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "晩ご飯を作り出した",
+              "translation": "bắt đầu nấu bữa tối",
+              "note": "Nấu bữa tối là việc thường ngày, chẳng trái gì với \"mải mê công việc\" — vế ～と思っていた không có điều bất ngờ nào để nối vào."
+            },
+            {
+              "id": "c2",
+              "text": "急に結婚すると言い出した",
+              "translation": "đột nhiên nói là sẽ kết hôn",
+              "note": "Đúng: 仕事に夢中だと思っていた (cứ tưởng chỉ mải mê công việc) báo trước một điều trái dự đoán; 急に…言い出した = đột nhiên nói ra — ～出す đi với 急に, chuyện bất ngờ."
+            },
+            {
+              "id": "c3",
+              "text": "出張し出した",
+              "translation": "bắt đầu đi công tác",
+              "note": "出張 là việc của công việc, hợp với \"mải mê công việc\" chứ không trái với nó; đi công tác cũng theo lịch, không phải chuyện bất ngờ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "～と思っていた = (đã) cứ tưởng là ~ — thường báo trước một sự thật trái ngược. 言い出す = nói ra (một chuyện bất ngờ).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-btvn-10",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "コンサートが終わると、観客はいっせいに駅に（　　　）",
+          "promptReading": "こんさーとがおわると、かんきゃくはいっせいにえきに（　　　）",
+          "promptTranslation": "Buổi hòa nhạc vừa kết thúc, khán giả đồng loạt đi về phía nhà ga.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "歩き続けた",
+              "translation": "cứ tiếp tục đi bộ",
+              "note": "歩き続けた = cứ đi tiếp; khán giả đang ngồi xem, chưa đi thì không có gì để \"tiếp tục\"."
+            },
+            {
+              "id": "c2",
+              "text": "歩き出した",
+              "translation": "(đồng loạt) bắt đầu đi bộ",
+              "note": "Đúng: コンサートが終わると (vừa kết thúc thì) ＋ いっせいに (đồng loạt) → mọi người cùng lúc cất bước — 歩き出した."
+            },
+            {
+              "id": "c3",
+              "text": "歩き終わった",
+              "translation": "đi bộ xong",
+              "note": "歩き終わった = đi bộ xong; vừa tan buổi diễn đã đi xong tới ga thì không khớp với いっせいに và ～と."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Vる ＋ と、～た = vừa ~ thì (xảy ra) ~. いっせいに = đồng loạt, cùng một lúc.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n3j-b12-btvn-11",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "彼は短気で急に怒り（　　　）から、付き合いにくい。",
+          "promptReading": "かれはたんきできゅうにおこり（　　　）から、つきあいにくい。",
+          "promptTranslation": "Anh ta nóng tính, hay đột nhiên nổi giận nên khó chơi cùng.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "出す",
+              "translation": "đột nhiên…, bắt đầu… (ngoài dự đoán)",
+              "note": "Đúng: 急に怒り出す — ～出す đi với 急に／突然／いきなり, chuyện bất ngờ; người 短気 (nóng tính) hay nổi giận bất chợt."
+            },
+            {
+              "id": "c2",
+              "text": "始める",
+              "translation": "bắt đầu… (có ý chí, kế hoạch)",
+              "note": "～始める mang ý chí, kế hoạch; nổi giận bất chợt không phải việc tính trước, câu lại có 急に — theo bảng プラス của bài đó là chỗ của ～出す."
+            },
+            {
+              "id": "c3",
+              "text": "終わる",
+              "translation": "…xong",
+              "note": "怒り終わる = giận xong; \"hay đột nhiên giận xong\" không có nghĩa, cũng không giải thích được vì sao khó chơi cùng."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "短気 = nóng tính. Vます ＋ にくい = khó ~ (付き合いにくい = khó giao du, khó chơi cùng).",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}
