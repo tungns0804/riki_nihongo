@@ -1,0 +1,829 @@
+{
+  "id": "06-bai-6",
+  "name": "Bài 6",
+  "description": "時 · 分 · 半 · 間 · 週 — đề 20 câu: 問題1 đọc 10 từ chỉ giờ giấc, thời gian; 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana. Có bảng tóm tắt cách đọc từng chữ.",
+  "kind": "test",
+  "parent": "",
+  "group": "",
+  "sections": [
+    {
+      "id": "ck-b6-mondai-1",
+      "title": "問題1 — Đọc chữ Hán (10 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b6-01",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "九時　三十「分」に　ともだちに　あいます。",
+          "promptReading": "",
+          "promptTranslation": "Tôi gặp bạn lúc 9 giờ 30 phút.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ふう",
+              "translation": "(không phải cách đọc của 分)",
+              "note": "ふう không phải cách đọc của 分."
+            },
+            {
+              "id": "c2",
+              "text": "ふん",
+              "translation": "phút (sau 2, 5, 7, 9)",
+              "note": "ふん dùng sau 2, 5, 7, 9 (にふん, ごふん); sau 十 thì đổi thành ぷん."
+            },
+            {
+              "id": "c3",
+              "text": "ぶん",
+              "translation": "phần (半分, 四分の一)",
+              "note": "ぶん là \"phần\" (半分, 四分の一), không phải phút."
+            },
+            {
+              "id": "c4",
+              "text": "ぷん",
+              "translation": "phút (sau 1, 3, 4, 6, 8, 10)",
+              "note": "Đúng: 三十分 = さんじゅっぷん — 十 thành じゅっ, 分 thành ぷん."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "分 (phút): いっぷん, にふん, さんぷん, よんぷん, ごふん, ろっぷん, ななふん, はっぷん, きゅうふん, じゅっぷん. 九時 = くじ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-02",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "かれは　ひる「間」　かいしゃで　はたらきます。",
+          "promptReading": "",
+          "promptTranslation": "Ban ngày anh ấy làm việc ở công ty.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ひるみ",
+              "translation": "(không có cách đọc này)",
+              "note": "み không phải cách đọc của 間."
+            },
+            {
+              "id": "c2",
+              "text": "ひるま",
+              "translation": "ban ngày (昼間)",
+              "note": "Đúng: 昼間 = ひるま (ban ngày) — 間 đọc ま."
+            },
+            {
+              "id": "c3",
+              "text": "ひるも",
+              "translation": "(không có cách đọc này)",
+              "note": "も không phải cách đọc của 間."
+            },
+            {
+              "id": "c4",
+              "text": "ひるあいだ",
+              "translation": "(あいだ là \"giữa\", không dùng ở đây)",
+              "note": "あいだ là 間 đứng riêng (giữa, khoảng); trong từ 昼間 thì đọc ま."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "間: あいだ (giữa), かん (時間), ま (昼間). Đề viết ひる間 (昼 để bằng hiragana).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-03",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "お姉さんは　「何時」から　何時まで　はたらきますか。",
+          "promptReading": "",
+          "promptTranslation": "Chị gái bạn làm việc từ mấy giờ đến mấy giờ?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "なんじ",
+              "translation": "mấy giờ",
+              "note": "Đúng: 何時 = なんじ."
+            },
+            {
+              "id": "c2",
+              "text": "なんし",
+              "translation": "(sai: thiếu dấu)",
+              "note": "Thiếu dấu: 時 đọc じ."
+            },
+            {
+              "id": "c3",
+              "text": "なにじ",
+              "translation": "(何 trước từ đếm đọc なん)",
+              "note": "Trước từ đếm như 時, 何 đọc なん chứ không phải なに."
+            },
+            {
+              "id": "c4",
+              "text": "なにし",
+              "translation": "(sai cả hai chữ)",
+              "note": "Sai cả hai chữ: phải là なん ＋ じ."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "何 đọc なん trước từ đếm và trước です (何時, 何分, 何ですか); なに trước を・が. ～から～まで = từ ~ đến ~.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-04",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「今週」の　木曜日に　映画館へ　行きます。",
+          "promptReading": "",
+          "promptTranslation": "Thứ Năm tuần này tôi đi rạp chiếu phim.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ここうしゅう",
+              "translation": "(không có cách đọc này)",
+              "note": "ここう không phải cách đọc của 今."
+            },
+            {
+              "id": "c2",
+              "text": "こんしゅう",
+              "translation": "tuần này",
+              "note": "Đúng: 今週 = こんしゅう."
+            },
+            {
+              "id": "c3",
+              "text": "こんしゅ",
+              "translation": "(sai: thiếu う)",
+              "note": "Thiếu う: 週 là しゅう, âm dài."
+            },
+            {
+              "id": "c4",
+              "text": "こしゅう",
+              "translation": "(sai: thiếu ん)",
+              "note": "Thiếu ん: 今 là こん."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "今 (こん) ＋ 週 (しゅう): 今週 tuần này, 先週 tuần trước, 来週 tuần sau, 毎週 mỗi tuần.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-05",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "母は　ごみを　「分」けます。",
+          "promptReading": "",
+          "promptTranslation": "Mẹ tôi phân loại rác.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "まけ",
+              "translation": "(負ける = thua)",
+              "note": "まける (負ける) là \"thua\", chữ khác."
+            },
+            {
+              "id": "c2",
+              "text": "もけ",
+              "translation": "(không có từ này)",
+              "note": "もけ không phải cách đọc của 分."
+            },
+            {
+              "id": "c3",
+              "text": "ねけ",
+              "translation": "(không có từ này)",
+              "note": "ねけ không phải cách đọc của 分."
+            },
+            {
+              "id": "c4",
+              "text": "わけ",
+              "translation": "chia, phân loại (分ける)",
+              "note": "Đúng: 分ける = わける (chia, phân loại) — ごみを分ける = phân loại rác."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "分 đọc わ trong động từ: 分ける (わける: chia), 分かる (わかる: hiểu).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-06",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "毎朝　「六時」に　おきます。",
+          "promptReading": "",
+          "promptTranslation": "Sáng nào tôi cũng dậy lúc 6 giờ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ろっし",
+              "translation": "(sai cả hai chỗ)",
+              "note": "Vừa ngắt âm vừa thiếu dấu — sai cả hai chỗ."
+            },
+            {
+              "id": "c2",
+              "text": "ろくし",
+              "translation": "(sai: thiếu dấu)",
+              "note": "Thiếu dấu: 時 đọc じ."
+            },
+            {
+              "id": "c3",
+              "text": "ろっじ",
+              "translation": "(không ngắt âm trước じ)",
+              "note": "六 chỉ ngắt thành ろっ trước k / p / h; trước じ giữ nguyên ろく."
+            },
+            {
+              "id": "c4",
+              "text": "ろくじ",
+              "translation": "6 giờ",
+              "note": "Đúng: 六時 = ろくじ."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "毎朝 (まいあさ) = mỗi sáng. Giờ với 時: ろくじ, しちじ, はちじ, くじ…",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-07",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "今年の　「半年」まえに　日本へ　きました。",
+          "promptReading": "",
+          "promptTranslation": "Tôi đến Nhật nửa năm trước.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "はんねん",
+              "translation": "(年 đọc ねん trong 一年, 半年 thì là とし)",
+              "note": "年 đọc ねん trong 一年 (いちねん), nhưng 半年 đọc はんとし."
+            },
+            {
+              "id": "c2",
+              "text": "はんれん",
+              "translation": "(không có cách đọc này)",
+              "note": "れん không phải cách đọc của 年."
+            },
+            {
+              "id": "c3",
+              "text": "はんとし",
+              "translation": "nửa năm",
+              "note": "Đúng: 半年 = はんとし (nửa năm)."
+            },
+            {
+              "id": "c4",
+              "text": "はんどし",
+              "translation": "(không biến âm ở đây)",
+              "note": "とし không biến thành どし trong 半年."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "半 (はん) = nửa: 半年 (はんとし), 半分 (はんぶん), 五時半 (ごじはん). 今年 (ことし) = năm nay.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-08",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「時々」　お父さんに　でんわを　かけます。",
+          "promptReading": "",
+          "promptTranslation": "Thỉnh thoảng tôi gọi điện cho bố.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ときとき",
+              "translation": "(thiếu biến âm)",
+              "note": "Chữ thứ hai lặp lại (々) thì biến âm: とき → どき."
+            },
+            {
+              "id": "c2",
+              "text": "ときどき",
+              "translation": "thỉnh thoảng",
+              "note": "Đúng: 時々 = ときどき."
+            },
+            {
+              "id": "c3",
+              "text": "どきとき",
+              "translation": "(sai)",
+              "note": "Chữ đầu không biến âm."
+            },
+            {
+              "id": "c4",
+              "text": "どきどき",
+              "translation": "(どきどき = hồi hộp, tim đập thình thịch)",
+              "note": "どきどき là từ tượng thanh \"hồi hộp\", không phải 時々."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "々 là dấu lặp lại chữ trước; chữ lặp thường biến âm: 時々 (ときどき), 人々 (ひとびと).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-09",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「先週」　図書館で　勉強しました。",
+          "promptReading": "",
+          "promptTranslation": "Tuần trước tôi đã học ở thư viện.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "せんしゅ",
+              "translation": "(sai: thiếu う)",
+              "note": "Thiếu う: 週 là しゅう."
+            },
+            {
+              "id": "c2",
+              "text": "ぜんしゅう",
+              "translation": "(sai: thừa dấu)",
+              "note": "先 đọc せん, không có dấu."
+            },
+            {
+              "id": "c3",
+              "text": "せいしゅう",
+              "translation": "(không có cách đọc này)",
+              "note": "せい không phải cách đọc của 先."
+            },
+            {
+              "id": "c4",
+              "text": "せんしゅう",
+              "translation": "tuần trước",
+              "note": "Đúng: 先週 = せんしゅう."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "先 (せん) = trước: 先週 (tuần trước), 先月 (tháng trước), 先生. Đề dán in 勉強ました — thiếu し, đã sửa thành 勉強しました.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-10",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "わたしは　毎日　2「時間」　えいごを　べんきょうします。",
+          "promptReading": "",
+          "promptTranslation": "Ngày nào tôi cũng học tiếng Anh 2 tiếng.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "しかん",
+              "translation": "(sai: thiếu dấu)",
+              "note": "Thiếu dấu: 時 đọc じ."
+            },
+            {
+              "id": "c2",
+              "text": "しがん",
+              "translation": "(sai cả hai chỗ)",
+              "note": "Sai cả hai chỗ."
+            },
+            {
+              "id": "c3",
+              "text": "じかん",
+              "translation": "thời gian, tiếng đồng hồ",
+              "note": "Đúng: 時間 = じかん."
+            },
+            {
+              "id": "c4",
+              "text": "じがん",
+              "translation": "(sai: thừa dấu)",
+              "note": "間 đọc かん, không có dấu."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "時間 (じかん) = thời gian; số ＋ 時間 = số tiếng: 2時間 (にじかん) = 2 tiếng. Khác 2時 (にじ) = 2 giờ.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "ck-b6-mondai-2",
+      "title": "問題2 — Chọn chữ Hán (10 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b6-11",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "かいしゃは　5「じはん」に　おわります。",
+          "promptReading": "",
+          "promptTranslation": "Công ty tan làm lúc 5 giờ rưỡi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "字牛",
+              "translation": "(字 = chữ, 牛 = bò)",
+              "note": "Sai cả hai: 字 (じ) là \"chữ\", 牛 (うし) là \"con bò\"."
+            },
+            {
+              "id": "c2",
+              "text": "字半",
+              "translation": "(字 = chữ)",
+              "note": "字 cũng đọc じ nhưng nghĩa là chữ viết."
+            },
+            {
+              "id": "c3",
+              "text": "時牛",
+              "translation": "(牛 = bò)",
+              "note": "牛 trông giống 半 nhưng là \"con bò\"."
+            },
+            {
+              "id": "c4",
+              "text": "時半",
+              "translation": "giờ rưỡi",
+              "note": "Đúng: じはん = 時半 → 5時半."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "時 (giờ) và 字 (chữ) cùng đọc じ; 半 (nửa) và 牛 (bò) trông giống nhau — 半 có hai chấm trên đầu.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-12",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "こどもの「とき」は　りんごが　すきです。",
+          "promptReading": "",
+          "promptTranslation": "Hồi còn nhỏ tôi thích táo.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "字",
+              "translation": "chữ (じ)",
+              "note": "字 (じ) = chữ, không đọc とき."
+            },
+            {
+              "id": "c2",
+              "text": "分",
+              "translation": "phút, phần (ふん／ぶん)",
+              "note": "分 (ふん, わ.ける) không đọc とき."
+            },
+            {
+              "id": "c3",
+              "text": "時",
+              "translation": "lúc, giờ (とき／じ)",
+              "note": "Đúng: とき = 時 (lúc, khi)."
+            },
+            {
+              "id": "c4",
+              "text": "回",
+              "translation": "lần (かい)",
+              "note": "回 (かい) = lần, không đọc とき."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "時 đứng sau の (～のとき) đọc とき = lúc, khi.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-13",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "ぎんこうは　スーパーと　本屋の　「あいだ」に　あります。",
+          "promptReading": "",
+          "promptTranslation": "Ngân hàng ở giữa siêu thị và hiệu sách.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "間",
+              "translation": "giữa (あいだ)",
+              "note": "Đúng: あいだ = 間 (khung cổng 門 có 日 ở trong)."
+            },
+            {
+              "id": "c2",
+              "text": "門",
+              "translation": "cổng (もん)",
+              "note": "門 (もん) = cổng — chỉ có khung, không có gì bên trong."
+            },
+            {
+              "id": "c3",
+              "text": "聞",
+              "translation": "nghe (き.く)",
+              "note": "聞 (きく) = nghe — trong khung là 耳 (tai)."
+            },
+            {
+              "id": "c4",
+              "text": "問",
+              "translation": "hỏi (もん, と.う)",
+              "note": "問 (もん) = hỏi — trong khung là 口 (miệng)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Bốn chữ cùng có 門: 間 (日 bên trong), 聞 (耳), 問 (口). AとBの間 = giữa A và B.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-14",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "図書館で　「はちじ」まで　はたらきます。",
+          "promptReading": "",
+          "promptTranslation": "Tôi làm việc ở thư viện đến 8 giờ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "四時",
+              "translation": "4 giờ (よじ)",
+              "note": "四時 đọc よじ."
+            },
+            {
+              "id": "c2",
+              "text": "三時",
+              "translation": "3 giờ (さんじ)",
+              "note": "三時 đọc さんじ."
+            },
+            {
+              "id": "c3",
+              "text": "二時",
+              "translation": "2 giờ (にじ)",
+              "note": "二時 đọc にじ."
+            },
+            {
+              "id": "c4",
+              "text": "八時",
+              "translation": "8 giờ (はちじ)",
+              "note": "Đúng: はちじ = 八時."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "8 giờ = はちじ (không ngắt âm trước じ).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-15",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "ケーキを　「よんぶん」の一　たべました。",
+          "promptReading": "",
+          "promptTranslation": "Tôi đã ăn một phần tư cái bánh.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "四刀",
+              "translation": "(刀 = dao)",
+              "note": "刀 (かたな) = dao — là phần dưới của 分, thiếu nét 八 trên đầu."
+            },
+            {
+              "id": "c2",
+              "text": "二分",
+              "translation": "(二分 = にぶん / にふん)",
+              "note": "二分の一 = một phần hai, không phải よんぶん."
+            },
+            {
+              "id": "c3",
+              "text": "三分",
+              "translation": "(三分 = さんぶん / さんぷん)",
+              "note": "三分の一 = một phần ba."
+            },
+            {
+              "id": "c4",
+              "text": "四分",
+              "translation": "bốn phần (四分)",
+              "note": "Đúng: よんぶん = 四分 → 四分の一 (một phần tư)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Phân số: Aぶんの B = B phần A — 四分の一 (よんぶんのいち) = 1/4. 分 = 八 ＋ 刀 (dùng dao chia ra).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-16",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "バンコクは　今　何時ですか。\nごご　「しちじ」です。",
+          "promptReading": "",
+          "promptTranslation": "Ở Bangkok bây giờ là mấy giờ?\n— 7 giờ chiều.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "七寺",
+              "translation": "(寺 = chùa)",
+              "note": "寺 (てら) = chùa — là phần bên phải của 時, thiếu bộ 日."
+            },
+            {
+              "id": "c2",
+              "text": "六時",
+              "translation": "6 giờ (ろくじ)",
+              "note": "六時 đọc ろくじ."
+            },
+            {
+              "id": "c3",
+              "text": "七時",
+              "translation": "7 giờ (しちじ)",
+              "note": "Đúng: しちじ = 七時."
+            },
+            {
+              "id": "c4",
+              "text": "八寺",
+              "translation": "(寺 = chùa)",
+              "note": "Sai cả hai: 八 là 8, 寺 là chùa."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "時 = 日 ＋ 寺. 7 giờ đọc しちじ. Đề dán dùng dấu ngoặc kép lẫn lộn (\"…″); ở đây viết thành hai dòng hội thoại.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-17",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "毎日　９「じ」に　ねます。",
+          "promptReading": "",
+          "promptTranslation": "Ngày nào tôi cũng đi ngủ lúc 9 giờ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "時",
+              "translation": "giờ (じ)",
+              "note": "Đúng: じ = 時 → 9時 (くじ)."
+            },
+            {
+              "id": "c2",
+              "text": "自",
+              "translation": "tự (じ — 自分)",
+              "note": "自 (じ) = tự, bản thân (自分) — cùng âm じ nhưng không phải giờ."
+            },
+            {
+              "id": "c3",
+              "text": "字",
+              "translation": "chữ (じ)",
+              "note": "字 (じ) = chữ viết — cùng âm じ."
+            },
+            {
+              "id": "c4",
+              "text": "話",
+              "translation": "nói (わ)",
+              "note": "話 (はなし, わ) = nói chuyện, không đọc じ."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "時, 自, 字 đều đọc じ; chỉ 時 là giờ. 9時 đọc くじ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-18",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「らいしゅう」　日本へ　行きます。",
+          "promptReading": "",
+          "promptTranslation": "Tuần sau tôi đi Nhật.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "来分",
+              "translation": "(không có từ này)",
+              "note": "分 (ふん, ぶん) không đọc しゅう."
+            },
+            {
+              "id": "c2",
+              "text": "来週",
+              "translation": "tuần sau",
+              "note": "Đúng: らいしゅう = 来週."
+            },
+            {
+              "id": "c3",
+              "text": "来時",
+              "translation": "(không có từ này)",
+              "note": "時 (じ, とき) không đọc しゅう."
+            },
+            {
+              "id": "c4",
+              "text": "来間",
+              "translation": "(không có từ này)",
+              "note": "間 (かん, あいだ) không đọc しゅう."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "来 (らい) = tới: 来週 (tuần sau), 来月 (tháng sau), 来年 (năm sau).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-19",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "母は　すこし　にほんごが　「わ」かります。",
+          "promptReading": "",
+          "promptTranslation": "Mẹ tôi hiểu một chút tiếng Nhật.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "回かります",
+              "translation": "(回 = lần)",
+              "note": "回 (かい, まわ.る) không đọc わ."
+            },
+            {
+              "id": "c2",
+              "text": "分かります",
+              "translation": "hiểu (分かる)",
+              "note": "Đúng: 分かる = わかる (hiểu)."
+            },
+            {
+              "id": "c3",
+              "text": "間かります",
+              "translation": "(間 = khoảng)",
+              "note": "間 (かん, あいだ, ま) không đọc わ."
+            },
+            {
+              "id": "c4",
+              "text": "半かります",
+              "translation": "(半 = nửa)",
+              "note": "半 (はん) không đọc わ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "分 = chia ra; hiểu là \"tách bạch được\" nên 分かる = hiểu. Cùng gốc với 分ける (chia).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b6-20",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "チョコレートを　「はんぶん」　おとうとに　あげました。",
+          "promptReading": "",
+          "promptTranslation": "Tôi đã cho em trai một nửa thanh sô-cô-la.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "半時",
+              "translation": "(半時 không đọc はんぶん)",
+              "note": "時 đọc じ／とき, không đọc ぶん."
+            },
+            {
+              "id": "c2",
+              "text": "洋時",
+              "translation": "(洋 = Tây, đại dương)",
+              "note": "Sai cả hai: 洋 (よう) = phương Tây, đại dương."
+            },
+            {
+              "id": "c3",
+              "text": "半分",
+              "translation": "một nửa",
+              "note": "Đúng: はんぶん = 半分 (một nửa)."
+            },
+            {
+              "id": "c4",
+              "text": "洋分",
+              "translation": "(洋 = Tây)",
+              "note": "洋 (よう) không đọc はん — trông có phần giống 半 bên phải."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "半分 (はんぶん) = một nửa: 半 (nửa) ＋ 分 (phần). 洋 = 氵 ＋ 羊, dễ nhìn nhầm với 半.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "title": "時",
+      "meaning": "THỜI · giờ, lúc",
+      "lines": [
+        "じ — 六時 (ろくじ), 何時 (なんじ), 時間 (じかん: thời gian, tiếng đồng hồ)",
+        "とき — こどものとき (lúc còn nhỏ); 時々 (ときどき: thỉnh thoảng)",
+        "Hay sai: 4時 よじ · 7時 しちじ · 9時 くじ"
+      ]
+    },
+    {
+      "title": "分",
+      "meaning": "PHÂN · phút, phần, chia",
+      "lines": [
+        "ふん／ぷん — phút: 五分 (ごふん), 三十分 (さんじゅっぷん), 六分 (ろっぷん)",
+        "ぶん — phần: 半分 (はんぶん: một nửa), 四分の一 (よんぶんのいち: một phần tư)",
+        "わ — 分ける (わける: chia, phân loại), 分かる (わかる: hiểu)"
+      ]
+    },
+    {
+      "title": "半",
+      "meaning": "BÁN · nửa, rưỡi",
+      "lines": [
+        "はん — 五時半 (ごじはん: 5 giờ rưỡi), 半分 (はんぶん), 半年 (はんとし: nửa năm)"
+      ]
+    },
+    {
+      "title": "間",
+      "meaning": "GIAN · khoảng, giữa",
+      "lines": [
+        "あいだ — AとBの間 (giữa A và B)",
+        "かん — 時間 (じかん), 二時間 (にじかん: 2 tiếng)",
+        "ま — 昼間 (ひるま: ban ngày)"
+      ]
+    },
+    {
+      "title": "週",
+      "meaning": "CHU · tuần",
+      "lines": [
+        "しゅう — 今週 (こんしゅう: tuần này), 先週 (せんしゅう: tuần trước), 来週 (らいしゅう: tuần sau), 毎週 (まいしゅう: mỗi tuần)"
+      ]
+    }
+  ]
+}

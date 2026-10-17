@@ -4,7 +4,7 @@
     "name": "Combo Kanji N5-N4",
     "level": "N5-N4"
   },
-  "generatedAt": "2026-10-17T02:59:09.317Z",
+  "generatedAt": "2026-10-17T03:20:14.484Z",
   "modules": [
     {
       "id": "kanji",
@@ -41,6 +41,17 @@
           "itemCount": 20,
           "order": 5,
           "file": "kanji/05-bai-5.json"
+        },
+        {
+          "id": "06-bai-6",
+          "name": "Bài 6",
+          "description": "時 · 分 · 半 · 間 · 週 — đề 20 câu: 問題1 đọc 10 từ chỉ giờ giấc, thời gian; 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana. Có bảng tóm tắt cách đọc từng chữ.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 20,
+          "order": 6,
+          "file": "kanji/06-bai-6.json"
         }
       ]
     }
