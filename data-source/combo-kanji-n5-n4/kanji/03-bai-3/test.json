@@ -1,0 +1,362 @@
+{
+  "summary": [
+    {
+      "title": "百",
+      "meaning": "BÁCH · trăm",
+      "lines": [
+        "ひゃく — 百, 二百 (にひゃく), 四百 (よんひゃく), 五百, 七百 (ななひゃく), 九百 (きゅうひゃく)",
+        "びゃく — 三百 (さんびゃく), 何百 (なんびゃく)",
+        "ぴゃく — 六百 (ろっぴゃく), 八百 (はっぴゃく)"
+      ]
+    },
+    {
+      "title": "千",
+      "meaning": "THIÊN · nghìn",
+      "lines": [
+        "せん — 千, 二千, 四千 (よんせん), 六千 (ろくせん), 九千 (きゅうせん)",
+        "ぜん — 三千 (さんぜん), 何千 (なんぜん)",
+        "っせん — 八千 (はっせん)"
+      ]
+    },
+    {
+      "title": "万",
+      "meaning": "VẠN · mười nghìn",
+      "lines": [
+        "まん — không biến âm: 一万 (いちまん), 五万 (ごまん), 八万 (はちまん)",
+        "一万 = 10.000 · 十万 = 100.000 · 百万 = 1.000.000",
+        "Phải có số đứng trước: 一万 (không nói 万 trơn); còn 百, 千 thì không cần 一"
+      ]
+    },
+    {
+      "title": "円",
+      "meaning": "VIÊN · yên (tiền Nhật)",
+      "lines": [
+        "えん — 百円 (ひゃくえん), 千円 (せんえん), 一万円さつ (いちまんえんさつ: tờ 10.000 yên)"
+      ]
+    },
+    {
+      "title": "何",
+      "meaning": "HÀ · cái gì, mấy",
+      "lines": [
+        "なん — trước です và từ đếm: 何ですか, 何時 (なんじ), 何本 (なんぼん), 何曜日",
+        "なに — trước を・が・も: 何を, 何が"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "ck-b3-mondai-1",
+      "title": "問題1 — Đọc chữ Hán (10 câu)",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b3-01",
+          "promptJapanese": "いま　「一万」円さつを　もちます。",
+          "promptVietnamese": "Bây giờ tôi cầm tờ 10.000 yên.",
+          "choices": ["いまん", "いいまん", "いっまい", "いちまん"],
+          "choicesVietnamese": ["(sai: thiếu ち)", "(không có cách đọc này)", "(まい là từ đếm tờ)", "mười nghìn"],
+          "choiceNotes": [
+            "Thiếu ち: 一 đọc いち.",
+            "いいまん không phải cách đọc nào.",
+            "いち chỉ thành いっ trước âm k / s / t / p (いっぽん, いっさい); còn まい là từ đếm tờ (枚), không phải 万.",
+            "Đúng: 一万 = いちまん. Tiếng Nhật đếm theo 万 (10.000) và luôn nói いちまん, không bỏ 一."
+          ],
+          "answer": 4,
+          "explanation": "一万円さつ (いちまんえんさつ) = tờ 10.000 yên; さつ (札) = tờ tiền giấy. 万 phải có số đứng trước, khác 百 và 千 (100 = 百, 1.000 = 千)."
+        },
+        {
+          "id": "ck-b3-02",
+          "promptJapanese": "これは「何」ですか。",
+          "promptVietnamese": "Đây là cái gì?",
+          "choices": ["なん", "なに", "ない", "なお"],
+          "choicesVietnamese": ["cái gì (なん)", "cái gì (なに)", "(không phải cách đọc của 何)", "(không phải cách đọc của 何)"],
+          "choiceNotes": [
+            "Đúng: trước です thì 何 đọc なん — なんですか.",
+            "なに dùng khi 何 đứng trước を・が・も (何を食べますか); trước です thì nói なんですか.",
+            "ない không phải cách đọc của 何.",
+            "なお không phải cách đọc của 何."
+          ],
+          "answer": 1,
+          "explanation": "何 đọc なん trước âm d / t / n và trước từ đếm (何ですか, 何時, 何人, 何本); đọc なに trước を, が, も (何を, 何が)."
+        },
+        {
+          "id": "ck-b3-03",
+          "promptJapanese": "いちねんは　「三百」六十五日です。",
+          "promptVietnamese": "Một năm có 365 ngày.",
+          "choices": ["さんひゃく", "さんびゃく", "さんぴゃく", "さびゃく"],
+          "choicesVietnamese": ["(thiếu biến âm)", "ba trăm", "(ぴゃく là sau 六, 八)", "(sai: thiếu ん)"],
+          "choiceNotes": [
+            "百 đứng sau 三 thì biến âm thành びゃく, không giữ ひゃく.",
+            "Đúng: 三百 = さんびゃく.",
+            "ぴゃく chỉ đứng sau 六 và 八 (ろっぴゃく, はっぴゃく).",
+            "Thiếu ん: 三 là さん."
+          ],
+          "answer": 2,
+          "explanation": "百: ひゃく (百, 二百, 四百…), びゃく (三百, 何百), ぴゃく (六百, 八百). 三百六十五日 = さんびゃくろくじゅうごにち."
+        },
+        {
+          "id": "ck-b3-04",
+          "promptJapanese": "いま　さいふに　「千」えんさつが　ありません。",
+          "promptVietnamese": "Bây giờ trong ví tôi không có tờ 1.000 yên nào.",
+          "choices": ["せい", "せん", "ぜん", "ぜい"],
+          "choicesVietnamese": ["(không phải cách đọc của 千)", "nghìn", "(ぜん là sau 三, 何)", "(không phải cách đọc của 千)"],
+          "choiceNotes": [
+            "せい không phải cách đọc của 千.",
+            "Đúng: 千 = せん; 千えん (1.000 yên) không cần いち ở trước.",
+            "ぜん là 千 đứng sau 三 (さんぜん) và 何 (なんぜん); đứng một mình thì là せん.",
+            "ぜい không phải cách đọc của 千."
+          ],
+          "answer": 2,
+          "explanation": "千: せん (千, 二千, 六千…), ぜん (三千, 何千). 千えんさつ = tờ 1.000 yên."
+        },
+        {
+          "id": "ck-b3-05",
+          "promptJapanese": "ここから　しぶやまで　「四百」円です。",
+          "promptVietnamese": "Từ đây đến Shibuya mất 400 yên.",
+          "choices": ["よんひゃく", "よっひゃく", "ようひゃく", "よんびゃく"],
+          "choicesVietnamese": ["bốn trăm", "(không ngắt âm ở đây)", "(よう là âm trong 八日)", "(びゃく chỉ sau 三, 何)"],
+          "choiceNotes": [
+            "Đúng: 四百 = よんひゃく.",
+            "よっ chỉ gặp trong よっか (四日), よっつ (四つ); trước ひゃく là よん.",
+            "よう không phải cách đọc của 四 (ようか là 八日).",
+            "びゃく chỉ đứng sau 三 và 何; sau 四 vẫn là ひゃく."
+          ],
+          "answer": 1,
+          "explanation": "Số 4 trước 百 / 千 / 万 đọc よん: よんひゃく, よんせん, よんまん."
+        },
+        {
+          "id": "ck-b3-06",
+          "promptJapanese": "わたしの　コンピュータは　八「万」円です。",
+          "promptVietnamese": "Máy tính của tôi giá 80.000 yên.",
+          "choices": ["ま", "まい", "まう", "まん"],
+          "choicesVietnamese": ["(sai: thiếu ん)", "(まい là từ đếm tờ)", "(không phải cách đọc của 万)", "vạn (mười nghìn)"],
+          "choiceNotes": [
+            "Thiếu ん: 万 là まん.",
+            "まい là từ đếm tờ, vật mỏng (枚), không phải 万.",
+            "まう không phải cách đọc của 万.",
+            "Đúng: 万 = まん → 八万 (はちまん) = 80.000."
+          ],
+          "answer": 4,
+          "explanation": "万 luôn đọc まん, không biến âm theo số đứng trước: いちまん, さんまん, はちまん."
+        },
+        {
+          "id": "ck-b3-07",
+          "promptJapanese": "その　ノートは　200「円」です。",
+          "promptVietnamese": "Quyển vở đó giá 200 yên.",
+          "choices": ["えん", "えい", "ぜん", "ぜい"],
+          "choicesVietnamese": ["yên", "(không phải cách đọc của 円)", "(ぜん là 千 sau 三)", "(không phải cách đọc của 円)"],
+          "choiceNotes": [
+            "Đúng: 円 = えん — đơn vị tiền Nhật.",
+            "えい không phải cách đọc của 円.",
+            "ぜん là cách đọc của 千 sau 三 (さんぜん), không phải 円.",
+            "ぜい không phải cách đọc của 円."
+          ],
+          "answer": 1,
+          "explanation": "円 đọc えん sau mọi con số, không biến âm: ひゃくえん, にひゃくえん, せんえん."
+        },
+        {
+          "id": "ck-b3-08",
+          "promptJapanese": "このくつは　いくらですか。　このくつは　「六千」えんです。",
+          "promptVietnamese": "Đôi giày này bao nhiêu tiền? — Đôi giày này 6.000 yên.",
+          "choices": ["ろくせん", "ろくぜん", "ろっせん", "ろっぜん"],
+          "choicesVietnamese": ["sáu nghìn", "(ぜん chỉ sau 三, 何)", "(六 không ngắt âm trước 千)", "(sai cả hai chỗ)"],
+          "choiceNotes": [
+            "Đúng: 六千 = ろくせん.",
+            "ぜん chỉ đứng sau 三 và 何 (さんぜん, なんぜん).",
+            "六 không ngắt âm trước せん; ろっ là trước ひゃく (ろっぴゃく).",
+            "Vừa ngắt âm vừa đổi せ thành ぜ — sai cả hai chỗ."
+          ],
+          "answer": 1,
+          "explanation": "六 ngắt âm trước 百 (ろっぴゃく) nhưng không ngắt trước 千 (ろくせん); 八 thì ngắt cả hai (はっぴゃく, はっせん)."
+        },
+        {
+          "id": "ck-b3-09",
+          "promptJapanese": "ベトナムの　人口は　99「百万」人ぐらいです。",
+          "promptVietnamese": "Dân số Việt Nam khoảng 99 triệu người.",
+          "choices": ["びゃくまん", "ぴゃくまん", "ひゃくまん", "びくまん"],
+          "choicesVietnamese": ["(びゃく chỉ sau 三, 何)", "(ぴゃく chỉ sau 六, 八)", "một triệu", "(không phải cách đọc của 百)"],
+          "choiceNotes": [
+            "びゃく chỉ đứng sau 三 và 何; ở đây 百万 đi sau con số 99 viết bằng chữ số, nên giữ ひゃく.",
+            "ぴゃく chỉ đứng sau 六 và 八 (ろっぴゃく, はっぴゃく).",
+            "Đúng: 百万 = ひゃくまん (1.000.000).",
+            "びく không phải cách đọc nào của 百."
+          ],
+          "answer": 3,
+          "explanation": "百万 (ひゃくまん) = một triệu; 人口 (じんこう) = dân số. Cách viết 99百万人 của đề ít gặp — người Nhật thường viết 9900万人 (きゅうせんきゅうひゃくまんにん)."
+        },
+        {
+          "id": "ck-b3-10",
+          "promptJapanese": "あの　てちょうは　「七百」円ですか。",
+          "promptVietnamese": "Cuốn sổ tay kia giá 700 yên à?",
+          "choices": ["ななひゃく", "ろっびゃく", "ごひゃく", "よんひゃく"],
+          "choicesVietnamese": ["bảy trăm", "(六百, mà viết sai: phải là ろっぴゃく)", "năm trăm", "bốn trăm"],
+          "choiceNotes": [
+            "Đúng: 七百 = ななひゃく.",
+            "Đây là số 6, mà còn viết sai — 六百 đọc ろっぴゃく chứ không phải ろっびゃく.",
+            "ごひゃく là 五百.",
+            "よんひゃく là 四百."
+          ],
+          "answer": 1,
+          "explanation": "七 trước 百 / 千 / 万 đọc なな: ななひゃく, ななせん, ななまん. Đề dán in 円でか — thiếu す, đã sửa thành 円ですか."
+        }
+      ]
+    },
+    {
+      "id": "ck-b3-mondai-2",
+      "title": "問題2 — Chọn chữ Hán (10 câu)",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b3-11",
+          "promptJapanese": "この　おべんとうは　「ろっぴゃく」えんでした。",
+          "promptVietnamese": "Hộp cơm này giá 600 yên.",
+          "choices": ["八白", "八百", "六百", "六白"],
+          "choicesVietnamese": ["(白 = trắng, không phải 百)", "800 (はっぴゃく)", "600 (ろっぴゃく)", "(白 = trắng, không phải 百)"],
+          "choiceNotes": [
+            "Sai cả hai chữ: 八 là 8, còn 白 (しろ, trắng) thiếu nét ngang trên đầu so với 百.",
+            "八百 đọc はっぴゃく — cũng có ぴゃく nên dễ lẫn; nhìn âm đầu ろっ／はっ.",
+            "Đúng: ろっぴゃく = 六百.",
+            "Số đúng nhưng 白 (trắng) không phải 百 (trăm) — 百 có thêm một nét ngang trên đầu."
+          ],
+          "answer": 3,
+          "explanation": "百 = một nét ngang (一) ＋ 白. ろっぴゃく (六百) và はっぴゃく (八百) đều có ぴゃく."
+        },
+        {
+          "id": "ck-b3-12",
+          "promptJapanese": "がくせいが　「にひゃく」にん　います。",
+          "promptVietnamese": "Có 200 học sinh.",
+          "choices": ["二百", "三百", "四百", "五百"],
+          "choicesVietnamese": ["200 (にひゃく)", "300 (さんびゃく)", "400 (よんひゃく)", "500 (ごひゃく)"],
+          "choiceNotes": [
+            "Đúng: にひゃく = 二百.",
+            "三百 đọc さんびゃく.",
+            "四百 đọc よんひゃく.",
+            "五百 đọc ごひゃく."
+          ],
+          "answer": 1,
+          "explanation": "二百人 (にひゃくにん) = 200 người."
+        },
+        {
+          "id": "ck-b3-13",
+          "promptJapanese": "パーティーの　かいひは　「きゅうせん」えんです。",
+          "promptVietnamese": "Hội phí của bữa tiệc là 9.000 yên.",
+          "choices": ["九百", "九千", "九万", "九円"],
+          "choicesVietnamese": ["900 (きゅうひゃく)", "9.000 (きゅうせん)", "90.000 (きゅうまん)", "9 yên (きゅうえん)"],
+          "choiceNotes": [
+            "九百 đọc きゅうひゃく (900).",
+            "Đúng: きゅうせん = 九千 (9.000).",
+            "九万 đọc きゅうまん (90.000).",
+            "九円 đọc きゅうえん (9 yên)."
+          ],
+          "answer": 2,
+          "explanation": "かいひ (会費) = hội phí, tiền góp khi dự tiệc hay tham gia hội."
+        },
+        {
+          "id": "ck-b3-14",
+          "promptJapanese": "そのかさは　300「えん」です。",
+          "promptVietnamese": "Cái ô đó giá 300 yên.",
+          "choices": ["間", "門", "千", "円"],
+          "choicesVietnamese": ["khoảng, giữa (あいだ／かん)", "cổng (もん)", "nghìn (せん)", "yên (えん)"],
+          "choiceNotes": [
+            "間 (あいだ, かん) = khoảng, giữa — khung chữ giống 円 nhưng không phải.",
+            "門 (もん) = cổng.",
+            "千 (せん) = nghìn; 300千 không thành giá tiền.",
+            "Đúng: えん = 円."
+          ],
+          "answer": 4,
+          "explanation": "円, 間, 門 đều có dạng khung bao nên đề dùng làm bẫy."
+        },
+        {
+          "id": "ck-b3-15",
+          "promptJapanese": "これは　「はっぴゃく」えんです。",
+          "promptVietnamese": "Cái này giá 800 yên.",
+          "choices": ["六百", "八百", "九百", "七百"],
+          "choicesVietnamese": ["600 (ろっぴゃく)", "800 (はっぴゃく)", "900 (きゅうひゃく)", "700 (ななひゃく)"],
+          "choiceNotes": [
+            "六百 đọc ろっぴゃく — cũng có ぴゃく nên dễ lẫn.",
+            "Đúng: はっぴゃく = 八百.",
+            "九百 đọc きゅうひゃく.",
+            "七百 đọc ななひゃく."
+          ],
+          "answer": 2,
+          "explanation": "八 trước 百 bị ngắt âm thành はっ, và 百 thành ぴゃく: はっぴゃく."
+        },
+        {
+          "id": "ck-b3-16",
+          "promptJapanese": "あした　「なんじ」に　べんきょうしますか。",
+          "promptVietnamese": "Ngày mai mấy giờ bạn học?",
+          "choices": ["何じ", "同じ", "荷じ", "向じ"],
+          "choicesVietnamese": ["mấy giờ (なんじ)", "(同 = giống, đọc おな／どう)", "(荷 = hành lý, đọc に)", "(向 = hướng, đọc む／こう)"],
+          "choiceNotes": [
+            "Đúng: なん = 何 → 何じ (何時).",
+            "同 (おな.じ, どう) = giống nhau — 同じ đọc おなじ, không phải なんじ.",
+            "荷 (に) = hành lý — 何 nằm dưới bộ thảo 艹 nên trông rất giống.",
+            "向 (む.く, こう) = hướng — dáng chữ gần với 同."
+          ],
+          "answer": 1,
+          "explanation": "何時 (なんじ) = mấy giờ. Bốn chữ nhìn gần giống nhau: 何 (bộ nhân 亻 bên trái), 荷 (thêm 艹 trên đầu), 同, 向."
+        },
+        {
+          "id": "ck-b3-17",
+          "promptJapanese": "「じゅうまん」えんの　パソコンを　かいました。",
+          "promptVietnamese": "Tôi đã mua cái máy tính 100.000 yên.",
+          "choices": ["一万", "三万", "五万", "十万"],
+          "choicesVietnamese": ["10.000 (いちまん)", "30.000 (さんまん)", "50.000 (ごまん)", "100.000 (じゅうまん)"],
+          "choiceNotes": [
+            "一万 đọc いちまん.",
+            "三万 đọc さんまん.",
+            "五万 đọc ごまん.",
+            "Đúng: じゅうまん = 十万."
+          ],
+          "answer": 4,
+          "explanation": "Đếm theo 万: 一万 = 10.000, 十万 = 100.000, 百万 = 1.000.000."
+        },
+        {
+          "id": "ck-b3-18",
+          "promptJapanese": "このふくは　「さんぜん」えんです。",
+          "promptVietnamese": "Bộ quần áo này giá 3.000 yên.",
+          "choices": ["一千", "二千", "三千", "四千"],
+          "choicesVietnamese": ["1.000 (thường chỉ viết 千)", "2.000 (にせん)", "3.000 (さんぜん)", "4.000 (よんせん)"],
+          "choiceNotes": [
+            "1.000 thường chỉ viết 千 (せん); 一千 (いっせん) rất ít dùng.",
+            "二千 đọc にせん.",
+            "Đúng: さんぜん = 三千.",
+            "四千 đọc よんせん."
+          ],
+          "answer": 3,
+          "explanation": "Chỉ sau 三 (và 何) thì 千 đổi thành ぜん: さんぜん, なんぜん."
+        },
+        {
+          "id": "ck-b3-19",
+          "promptJapanese": "そのノートは　「ひゃく」えんです。",
+          "promptVietnamese": "Quyển vở đó giá 100 yên.",
+          "choices": ["一百円", "百円", "千円", "万円"],
+          "choicesVietnamese": ["(tiếng Nhật không nói 一百)", "100 yên (ひゃくえん)", "1.000 yên (せんえん)", "(万 phải có số đứng trước)"],
+          "choiceNotes": [
+            "Tiếng Nhật không thêm 一 trước 百 — 100 chỉ là 百 (ひゃく). Hán Việt nói \"nhất bách\" nên dễ viết nhầm.",
+            "Đúng: ひゃくえん = 百円.",
+            "千円 đọc せんえん (1.000 yên).",
+            "万円 đứng trơn không thành số — phải là 一万円 (いちまんえん)."
+          ],
+          "answer": 2,
+          "explanation": "百 và 千 không cần 一 ở trước (百 = 100, 千 = 1.000); 万 thì luôn phải có số: 一万 = 10.000. Lựa chọn in cả 円, nên chọn cả cụm ひゃくえん."
+        },
+        {
+          "id": "ck-b3-20",
+          "promptJapanese": "かばんの　なかに　「ごまん」えん　が　あります。",
+          "promptVietnamese": "Trong cặp có 50.000 yên.",
+          "choices": ["五万", "五方", "五千", "五百"],
+          "choicesVietnamese": ["50.000 (ごまん)", "(方 = phía, đọc ほう)", "5.000 (ごせん)", "500 (ごひゃく)"],
+          "choiceNotes": [
+            "Đúng: ごまん = 五万.",
+            "方 (ほう, かた) = phía, cách — trông giống 万 nhưng có chấm trên đầu; 五方 không phải số.",
+            "五千 đọc ごせん.",
+            "五百 đọc ごひゃく."
+          ],
+          "answer": 1,
+          "explanation": "万 và 方 chỉ khác nét chấm trên đầu: 方 có chấm (、), 万 thì không."
+        }
+      ]
+    }
+  ]
+}

@@ -349,6 +349,22 @@ export interface TestSection {
   questions: QuizQuestion[];
 }
 
+/**
+ * Một dòng của bảng "Tóm tắt bài" trên trang một bài dạng đề, đứng trên khung bắt đầu.
+ *
+ * Đề chỉ có câu hỏi, mà một bài kanji như "百・千・万" thì phải nắm được cách đọc của từng
+ * chữ (ひゃく／びゃく／ぴゃく) rồi mới làm — bảng này là phần ôn nhanh đó. Không bắt buộc:
+ * đề không khai `summary` thì trang vẫn chỉ có khung bắt đầu như cũ.
+ */
+export interface TestSummaryItem {
+  /** Chữ hay mẫu được tóm tắt, ví dụ 百. */
+  title: string;
+  /** Một dòng ngắn: âm Hán Việt, nghĩa. */
+  meaning: string;
+  /** Cách đọc và ví dụ, mỗi dòng một ý. */
+  lines: string[];
+}
+
 // ── Bài học và danh mục ────────────────────────────────────────────────────
 
 /**
@@ -407,6 +423,8 @@ export interface Unit extends Omit<UnitIndexEntry, 'file'> {
   passages: ReadingPassage[];
   tracks: ListeningTrack[];
   sections: TestSection[];
+  /** Bảng tóm tắt của bài dạng đề. Rỗng nếu đề không khai, và luôn rỗng ở loại bài khác. */
+  summary: TestSummaryItem[];
 }
 
 /** Đếm số mục của một bài theo đúng loại của nó. */
@@ -440,6 +458,7 @@ export function emptyUnit(entry: Omit<UnitIndexEntry, 'file'>): Unit {
     passages: [],
     tracks: [],
     sections: [],
+    summary: [],
   };
 }
 

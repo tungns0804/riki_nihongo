@@ -1,6 +1,6 @@
 # Riki Nihongo
 
-Trang học tiếng Nhật cá nhân theo các học phần của Riki Nihongo. Ba học phần đã có nội
+Trang học tiếng Nhật cá nhân theo các học phần của Riki Nihongo. Bốn học phần đã có nội
 dung:
 
 **N3 JUNBI** (`/n3-junbi`) — bảy phần:
@@ -15,12 +15,15 @@ dung:
 | Nghe hiểu                     | `/n3-junbi/listening`   | Trình phát + câu hỏi + lời thoại ẩn                     |
 | Ngữ pháp MIMIKARA OBOERU      | `/n3-junbi/mimikara`    | Như phần Ngữ pháp, theo giáo trình 耳から覚える          |
 
-**BTVN CƠ BẢN (MỚI)** (`/btvn-co-ban`) — bài tập về nhà, hai phần:
+**BTVN CƠ BẢN (MỚI)** (`/btvn-co-ban`) — bài tập về nhà, ba phần:
 
 - Từ vựng (`/btvn-co-ban/vocabulary`): bài "Danh từ" 01–70, chép theo thẻ từ vựng của các
   bài tập "Từ vựng 1-10" tới "61-70", mỗi bài tập một cụm.
 - Kanji (`/btvn-co-ban/kanji`): Bài 1–8, mỗi bài 8–11 chữ, chép theo thẻ kanji của Riki
   ([cách chép](data-source/btvn-co-ban/kanji/README.md)).
+- Ngữ pháp (`/btvn-co-ban/grammar`): mỗi bài là một ĐỀ trắc nghiệm, như phần Ngữ pháp
+  của BTVN N4 CHUYÊN SÂU. Bài 9 là 15 câu về ～始める・～終わる・～続ける・～直す・～出す
+  ([cách chép](data-source/btvn-co-ban/grammar/README.md)).
 
 **BTVN N4 CHUYÊN SÂU** (`/btvn-n4-chuyen-sau`) — bài tập về nhà, hai phần. Ở học phần này
 mỗi bài là một ĐỀ chứ không phải bảng từ hay bảng chữ:
@@ -31,6 +34,11 @@ mỗi bài là một ĐỀ chứ không phải bảng từ hay bảng chữ:
 - Kanji (`/btvn-n4-chuyen-sau/kanji`): mỗi buổi học của Riki là một đề. "Buổi 2" là 9 câu
   用法 — cho một phó từ rồi chọn câu dùng nó đúng
   ([cách chép](data-source/btvn-n4-chuyen-sau/kanji/README.md)).
+
+**Combo Kanji N5-N4** (`/combo-kanji-n5-n4`) — khoá kanji sơ cấp, chỉ một phần Kanji, mỗi
+bài là một ĐỀ đọc chữ Hán và chọn chữ Hán. "Chữ số 一〜十" là 20 câu: 問題1 đọc 10 từ có
+chữ số, 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana
+([cách chép](data-source/combo-kanji-n5-n4/kanji/README.md)).
 
 Địa chỉ cũ chưa có tên học phần (`/vocabulary/01-danh-tu`) tự chuyển sang N3 JUNBI.
 
@@ -305,8 +313,9 @@ trên cùng chỉ còn breadcrumb (`Riki Nihongo / N3 JUNBI ▾ / Từ vựng`) 
 giao diện.
 
 Website Riki có năm học phần: **N3 JUNBI**, **BTVN CƠ BẢN (MỚI)**, BTVN N4 CHUYÊN SÂU, N3
-TAISAKU, N3 LUYỆN ĐỀ. Trang gốc là trang chọn học phần; bấm một học phần thì vào trang của
-nó (`/n3-junbi`, `/btvn-co-ban`, `/btvn-n4-chuyen-sau`). Thanh bên và breadcrumb luôn theo đúng cấp đang đứng:
+TAISAKU, N3 LUYỆN ĐỀ — cộng khoá kanji sơ cấp **Combo Kanji N5-N4**, xếp ngay sau các học
+phần đã mở. Trang gốc là trang chọn học phần; bấm một học phần thì vào trang của
+nó (`/n3-junbi`, `/btvn-co-ban`, `/btvn-n4-chuyen-sau`, `/combo-kanji-n5-n4`). Thanh bên và breadcrumb luôn theo đúng cấp đang đứng:
 ở trang gốc thanh bên liệt kê các học phần và breadcrumb chỉ có `Riki Nihongo`; trong một
 học phần thanh bên là các phần học của nó (BTVN chỉ có Từ vựng) và breadcrumb đi đủ cấp
 `Riki Nihongo / BTVN CƠ BẢN (MỚI) ▾ / Từ vựng / Danh từ / Luyện tập`, cấp nào có trang thì

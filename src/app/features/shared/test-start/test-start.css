@@ -1,0 +1,47 @@
+/* --- Tóm tắt bài -----------------------------------------------------------
+   Mỗi chữ một hàng hai cột: chữ thật to bên trái, nghĩa và các dòng cách đọc bên
+   phải — liếc dọc cột trái là thấy bài gồm những chữ nào. */
+
+.summary-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.summary-item {
+  display: grid;
+  /* 4.5rem: vừa một chữ Hán cỡ lớn, hay một cụm hai chữ như 何時. */
+  grid-template-columns: minmax(4.5rem, max-content) minmax(0, 1fr);
+  gap: var(--sp-1) var(--sp-4);
+  align-items: start;
+  padding-block: var(--sp-3);
+  border-top: 1px solid var(--border);
+}
+
+.summary-item:first-child {
+  border-top: none;
+}
+
+.summary-title {
+  color: var(--accent);
+  font-size: var(--fs-2xl);
+  font-weight: 650;
+  line-height: 1.1;
+}
+
+.summary-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.summary-meaning {
+  font-weight: 620;
+}
+
+.summary-line {
+  color: var(--text-muted);
+}

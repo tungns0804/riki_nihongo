@@ -1,0 +1,258 @@
+{
+  "sections": [
+    {
+      "id": "cb-ng-b9-chon",
+      "title": "1–10. Chọn từ điền vào chỗ trống",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "cb-ng-b9-01",
+          "promptJapanese": "この本、さっき（　　　）ところなんですが、おもしろくてやめられないんです。",
+          "promptReading": "このほん、さっき（　　　）ところなんですが、おもしろくてやめられないんです。",
+          "promptVietnamese": "Cuốn sách này tôi vừa mới bắt đầu đọc lúc nãy, mà hay quá không dừng được.",
+          "choices": ["読みかける", "読みはじめた", "読もうとした", "読みそうになる"],
+          "choicesVietnamese": ["đọc dở, sắp đọc", "đã bắt đầu đọc", "đã định đọc", "suýt đọc"],
+          "choiceNotes": [
+            "Vる ＋ ところ = sắp ~, mâu thuẫn với さっき (lúc nãy); Vます ＋ かける (làm dở) cũng không phải nghĩa \"vừa bắt đầu\".",
+            "Đúng: Vた ＋ ところ = vừa mới ~ xong — さっき読み始めたところ = vừa mới bắt đầu đọc lúc nãy, mới đọc mà đã hay tới mức không dừng được.",
+            "Vようとしたところ = đúng lúc định ~ thì (có chuyện khác chen vào); vế sau phải là chuyện cắt ngang, không phải \"hay quá không dừng được\".",
+            "Vます ＋ そうになる = suýt ~ (chuyện không mong muốn); \"suýt đọc\" không có nghĩa, lại ở thể hiện tại không đi với さっき."
+          ],
+          "answer": 2,
+          "explanation": "Vた ＋ ところだ = vừa mới ~ xong. ～んです giải thích hoàn cảnh; やめられない = không thể dừng (thể khả năng phủ định của やめる)."
+        },
+        {
+          "id": "cb-ng-b9-02",
+          "promptJapanese": "来年、会社を辞めて、海外旅行し（　　　）。",
+          "promptReading": "らいねん、かいしゃをやめて、かいがいりょこうし（　　　）。",
+          "promptVietnamese": "Sang năm tôi sẽ nghỉ việc ở công ty rồi bắt đầu đi du lịch nước ngoài.",
+          "choices": ["終わる", "出す", "始める", "続ける"],
+          "choicesVietnamese": ["…xong", "đột nhiên…, bắt đầu… (ngoài dự đoán)", "bắt đầu… (có ý chí, kế hoạch)", "tiếp tục…"],
+          "choiceNotes": [
+            "海外旅行し終わる = đi du lịch nước ngoài xong; người nói đang kể dự định sang năm, chưa đi thì chưa có gì để \"xong\".",
+            "～出す là chuyện bất ngờ, không có ý chí người nói; nghỉ việc để đi du lịch là kế hoạch của chính mình nên không dùng ～出す.",
+            "Đúng: 来年、会社を辞めて… là kế hoạch tính trước của người nói → ～始める (có ý chí, mang tính kế hoạch).",
+            "～続ける là tiếp tục một việc ĐANG làm; người nói còn đang đi làm, chưa đi du lịch thì không có gì để tiếp tục."
+          ],
+          "answer": 3,
+          "explanation": "Phân biệt ～出す／～始める: ～始める có ý chí, mang tính kế hoạch; ～出す bất ngờ, ngoài dự đoán, không thể hiện ý chí người nói."
+        },
+        {
+          "id": "cb-ng-b9-03",
+          "promptJapanese": "雨が（　　　）うちに早く家に帰ろう。",
+          "promptReading": "あめが（　　　）うちにはやくいえにかえろう。",
+          "promptVietnamese": "Mình về nhà nhanh thôi, tranh thủ lúc trời chưa đổ mưa.",
+          "choices": ["降り出さない", "降りかける", "降り始める", "降り続ける"],
+          "choicesVietnamese": ["chưa đổ mưa", "mưa dở (?)", "bắt đầu mưa", "mưa mãi"],
+          "choiceNotes": [
+            "Đúng: Vない ＋ うちに = tranh thủ trước khi ~ xảy ra — về trước khi trời đổ mưa. Mưa là chuyện tự nhiên, ngoài ý mình nên đi với ～出す.",
+            "Vます ＋ かける là việc làm dở; 雨が降りかける rất gượng, và 降りかけるうちに không phải cách nói \"trước khi mưa\".",
+            "うちに cần một quãng trạng thái kéo dài (Vている／Vない／Aい); 降り始める chỉ là một khoảnh khắc nên 降り始めるうちに không thành câu.",
+            "降り続けるうちに = trong lúc mưa cứ rơi mãi — đang mưa thì chẳng còn gì để tranh thủ, không khớp với 早く家に帰ろう."
+          ],
+          "answer": 1,
+          "explanation": "Vない ＋ うちに = tranh thủ lúc chưa ~ (kẻo ~ thì không làm được nữa). Vよう (帰ろう) = rủ rê: về thôi."
+        },
+        {
+          "id": "cb-ng-b9-04",
+          "promptJapanese": "作文を書き（　　　）人は出してください。",
+          "promptReading": "さくぶんをかき（　　　）ひとはだしてください。",
+          "promptVietnamese": "Ai viết xong bài văn rồi thì nộp đi.",
+          "choices": ["始めた", "終わった", "直す", "やすい"],
+          "choicesVietnamese": ["đã bắt đầu…", "đã …xong", "…lại (làm lại)", "dễ…"],
+          "choiceNotes": [
+            "書き始めた人 là người mới bắt đầu viết — chưa viết xong thì chưa có bài để nộp.",
+            "Đúng: 書き終わった人は出してください — ai đã viết xong thì nộp.",
+            "書き直す人 = người (sẽ) viết lại — còn phải viết lại thì chưa nộp được; lệnh nộp bài dành cho người ĐÃ xong.",
+            "Vます ＋ やすい = dễ ~, nói tính chất của sự vật; \"người dễ viết\" không có nghĩa gì với lệnh nộp bài."
+          ],
+          "answer": 2,
+          "explanation": "Mệnh đề bổ nghĩa cho danh từ dùng thể た khi việc đó xong trước hành động chính: viết xong (終わった) rồi mới nộp (出す). 出す ở đây = nộp."
+        },
+        {
+          "id": "cb-ng-b9-05",
+          "promptJapanese": "今日はもう＿＿＿＿＿＿ので、ゆっくり映画でも見ます。",
+          "promptReading": "きょうはもう＿＿＿＿＿＿ので、ゆっくりえいがでもみます。",
+          "promptVietnamese": "Hôm nay tôi đã học xong rồi nên sẽ thong thả xem phim hay gì đó.",
+          "choices": ["勉強し終わった", "勉強し続けた", "勉強し始めた", "勉強する"],
+          "choicesVietnamese": ["đã học xong", "đã học liên tục", "đã bắt đầu học", "sẽ học"],
+          "choiceNotes": [
+            "Đúng: もう (đã… rồi) ＋ 勉強し終わった → học xong rồi nên thong thả xem phim.",
+            "勉強し続けた (đã học liên tục) không đi với もう — もう ở đây cần một việc đã hoàn tất.",
+            "Mới bắt đầu học thì chưa xong, chưa có lý do để nghỉ xem phim.",
+            "Thể từ điển nói việc sắp làm; もう勉強するので (sắp học rồi nên…) mâu thuẫn với ゆっくり映画でも見ます."
+          ],
+          "answer": 1,
+          "explanation": "もう ＋ Vた = đã ~ rồi. N ＋ でも = ~ chẳng hạn (gợi ý nhẹ nhàng). Câu 12 là chính câu này ở dạng ghép câu."
+        },
+        {
+          "id": "cb-ng-b9-06",
+          "promptJapanese": "もう時間なので、書き（　　　）でください。",
+          "promptReading": "もうじかんなので、かき（　　　）でください。",
+          "promptVietnamese": "Đã hết giờ rồi, xin đừng viết tiếp nữa.",
+          "choices": ["続けない", "始めない", "終わらない", "直さない"],
+          "choicesVietnamese": ["không tiếp tục…", "không bắt đầu…", "không …xong", "không …lại"],
+          "choiceNotes": [
+            "Đúng: 書き続けないでください = đừng viết tiếp — câu giám thị nói khi hết giờ làm bài.",
+            "書き始めないで = đừng bắt đầu viết; もう時間 là đã HẾT giờ, lúc đó người ta đang viết dở chứ không phải sắp bắt đầu.",
+            "書き終わらないでください = \"xin đừng viết xong\" — không thành lời yêu cầu nào hợp lý.",
+            "書き直さないで = đừng viết lại — chỉ cấm sửa bài, vẫn để người ta viết tiếp; hết giờ thì phải dừng viết hẳn."
+          ],
+          "answer": 1,
+          "explanation": "Vない ＋ でください = xin đừng ~. もう時間だ = đã đến giờ (ở đây là hết giờ làm bài)."
+        },
+        {
+          "id": "cb-ng-b9-07",
+          "promptJapanese": "冷めたスープをもう一度（　　　）。",
+          "promptReading": "さめたすーぷをもういちど（　　　）。",
+          "promptVietnamese": "Hâm nóng lại món súp đã nguội thêm một lần nữa.",
+          "choices": ["作り直す", "温め直す", "冷やし直す", "書き直す"],
+          "choicesVietnamese": ["nấu lại (từ đầu)", "hâm nóng lại", "làm lạnh lại", "viết lại"],
+          "choiceNotes": [
+            "作り直す là nấu lại từ đầu; súp chỉ bị nguội, vẫn còn nguyên thì không cần nấu lại.",
+            "Đúng: もう一度温め直す — súp nguội thì hâm lại.",
+            "Súp đã nguội (冷めた) rồi, làm lạnh lại là ngược với điều cần làm.",
+            "書き直す = viết lại — súp không phải thứ để viết."
+          ],
+          "answer": 2,
+          "explanation": "冷める (tự động từ) = nguội đi; 冷やす (tha động từ) = làm lạnh; 温める = hâm nóng. ～直す hay đi với もう一度／もう一回. Bản dán in 温あたため直す, 冷ひやし直す — furigana dính vào chữ, đã bỏ."
+        },
+        {
+          "id": "cb-ng-b9-08",
+          "promptJapanese": "暇だったから、好きなアニメを1話から（　　　）。",
+          "promptReading": "ひまだったから、すきなあにめをいちわから（　　　）。",
+          "promptVietnamese": "Vì rảnh nên tôi đã xem lại bộ anime yêu thích từ tập 1.",
+          "choices": ["見直した", "とり直した", "かけ直した", "話し直した"],
+          "choicesVietnamese": ["đã xem lại", "đã chụp / lấy lại", "đã gọi lại, treo lại", "đã nói lại"],
+          "choiceNotes": [
+            "Đúng: 見る → 見 ＋ 直す = xem lại; 1話から = từ tập 1.",
+            "撮り直す = chụp / quay lại, 取り直す = lấy lại; xem anime thì không phải chụp hay lấy.",
+            "かけ直す = gọi lại (điện thoại), treo / đeo lại; không đi với アニメ.",
+            "話し直す = nói lại, kể lại; anime là thứ để xem, không phải để kể."
+          ],
+          "answer": 1,
+          "explanation": "Vます ＋ 直す = làm lại ~. 1話 (いちわ) = tập 1."
+        },
+        {
+          "id": "cb-ng-b9-09",
+          "promptJapanese": "私はこの街が大好きですから、結婚してもここに＿＿＿＿＿つもりです。",
+          "promptReading": "わたしはこのまちがだいすきですから、けっこんしてもここに＿＿＿＿＿つもりです。",
+          "promptVietnamese": "Tôi rất thích thành phố này nên dù có kết hôn tôi vẫn định tiếp tục sống ở đây.",
+          "choices": ["住み終わる", "住み続ける", "住み始める", "住まない"],
+          "choicesVietnamese": ["sống xong (?)", "tiếp tục sống", "bắt đầu sống", "không sống"],
+          "choiceNotes": [
+            "Không nói 住み終わる — sống ở đâu không phải việc có điểm \"xong\" như đọc xong một cuốn sách.",
+            "Đúng: đang sống ở đây và rất thích → kết hôn rồi vẫn tiếp tục sống — ～ても (dù… vẫn) báo một việc giữ nguyên.",
+            "Người nói đang sống ở đây (この街が大好き) nên không phải \"bắt đầu sống\"; ～ても cũng cần một việc đã có sẵn.",
+            "Rất thích thành phố này mà lại định không sống ở đây thì ngược với vế ～から (vì)."
+          ],
+          "answer": 2,
+          "explanation": "Vる ＋ つもりです = định ~. Vても = dù ~ cũng. Vます ＋ 続ける = tiếp tục ~."
+        },
+        {
+          "id": "cb-ng-b9-10",
+          "promptJapanese": "コンサートが終わると、観客はいっせいに駅に（　　　）。",
+          "promptReading": "こんさーとがおわると、かんきゃくはいっせいにえきに（　　　）。",
+          "promptVietnamese": "Buổi hòa nhạc vừa kết thúc, khán giả đồng loạt đi về phía nhà ga.",
+          "choices": ["歩き続けた", "歩き出した", "歩き終わった", "見直す"],
+          "choicesVietnamese": ["cứ tiếp tục đi bộ", "(đồng loạt) bắt đầu đi bộ", "đi bộ xong", "xem lại"],
+          "choiceNotes": [
+            "歩き続けた = cứ đi tiếp; khán giả đang ngồi xem, chưa đi thì không có gì để \"tiếp tục\".",
+            "Đúng: コンサートが終わると (vừa kết thúc thì) ＋ いっせいに (đồng loạt) → mọi người cùng lúc cất bước — 歩き出した.",
+            "歩き終わった = đi bộ xong; vừa tan buổi diễn đã đi xong tới ga thì không khớp với いっせいに và ～と.",
+            "見直す (xem lại) không đi với 駅に, và thể từ điển không khớp với câu kể chuyện đã xảy ra."
+          ],
+          "answer": 2,
+          "explanation": "Vる ＋ と、～た = vừa ~ thì (xảy ra) ~. いっせいに = đồng loạt, cùng một lúc."
+        }
+      ]
+    },
+    {
+      "id": "cb-ng-b9-ghep",
+      "title": "11–15. Ghép câu, chọn từ vào ★",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "cb-ng-b9-11",
+          "promptJapanese": "妹は＿＿＿　＿＿＿　★　＿＿＿なります。",
+          "promptReading": "いもうとは＿＿＿　＿＿＿　★　＿＿＿なります。",
+          "promptVietnamese": "Em gái tôi hễ bắt đầu đọc sách là không nghe thấy tiếng động xung quanh nữa.",
+          "choices": ["周りの音が", "始めると", "聞こえなく", "本を読み"],
+          "choicesVietnamese": ["tiếng động xung quanh", "hễ bắt đầu… là", "không nghe thấy", "đọc sách (thân ます)"],
+          "choiceNotes": [
+            "Đúng: ô ★ (ô thứ 3) — 周りの音が là chủ ngữ của 聞こえなくなる, đứng ngay sau vế điều kiện.",
+            "Ô thứ 2 — 始めると nối vào 本を読み thành 読み始めると (hễ bắt đầu đọc là…).",
+            "Ô thứ 4 — 聞こえなく đứng ngay trước なります: 聞こえなくなる = không nghe thấy nữa.",
+            "Ô thứ 1 — 本を読み (thân ます) mở đầu, chờ 始める nối vào."
+          ],
+          "answer": 1,
+          "explanation": "Thứ tự đúng: 本を読み 始めると 周りの音が 聞こえなく なります (4-2-1-3). Vます ＋ 始める = bắt đầu ~; ～と = hễ ~ là; Vない → Vなくなる = không còn ~ nữa."
+        },
+        {
+          "id": "cb-ng-b9-12",
+          "promptJapanese": "今日は★　＿＿＿　＿＿＿　＿＿＿でも見ます。",
+          "promptReading": "きょうは★　＿＿＿　＿＿＿　＿＿＿でもみます。",
+          "promptVietnamese": "Hôm nay tôi đã học xong rồi nên sẽ thong thả xem phim hay gì đó.",
+          "choices": ["ゆっくり映画", "勉強し", "もう", "終わったので"],
+          "choicesVietnamese": ["thong thả (xem) phim", "học (thân ます)", "đã… rồi", "vì đã xong"],
+          "choiceNotes": [
+            "Ô thứ 4 — ゆっくり映画 đứng ngay trước でも見ます: ゆっくり映画でも見ます.",
+            "Ô thứ 2 — 勉強し (thân ます của 勉強する) chờ 終わる nối vào.",
+            "Đúng: ô ★ (ô thứ 1) — もう (đã… rồi) đứng đầu, bổ nghĩa cho 勉強し終わった.",
+            "Ô thứ 3 — 終わったので nối vào 勉強し thành 勉強し終わったので (vì đã học xong)."
+          ],
+          "answer": 3,
+          "explanation": "Thứ tự đúng: もう 勉強し 終わったので ゆっくり映画 でも見ます (3-2-4-1). Cùng câu với câu 5. N ＋ でも = ~ chẳng hạn."
+        },
+        {
+          "id": "cb-ng-b9-13",
+          "promptJapanese": "父は＿＿＿　＿＿＿　★　＿＿＿続けます。",
+          "promptReading": "ちちは＿＿＿　＿＿＿　★　＿＿＿つづけます。",
+          "promptVietnamese": "Bố tôi vẫn dùng mãi cái máy tính được người ta cho từ 20 năm trước.",
+          "choices": ["パソコンを", "今使い", "20年前に", "もらった"],
+          "choicesVietnamese": ["máy tính (tân ngữ)", "giờ vẫn dùng (thân ます)", "từ 20 năm trước", "đã được cho"],
+          "choiceNotes": [
+            "Đúng: ô ★ (ô thứ 3) — パソコンを là danh từ được 20年前にもらった bổ nghĩa, làm tân ngữ của 使い続ける.",
+            "Ô thứ 4 — 今使い (thân ます) đứng ngay trước 続けます: 使い続けます.",
+            "Ô thứ 1 — 20年前に nói thời điểm được cho, mở đầu cụm bổ nghĩa.",
+            "Ô thứ 2 — もらった bổ nghĩa cho パソコン: 20年前にもらったパソコン."
+          ],
+          "answer": 1,
+          "explanation": "Thứ tự đúng: 20年前に もらった パソコンを 今使い 続けます (3-4-1-2). Vた ＋ N = N đã ~ (mệnh đề bổ nghĩa). Vます ＋ 続ける = cứ ~ mãi. Nói tự nhiên hơn sẽ là 今も使い続けています."
+        },
+        {
+          "id": "cb-ng-b9-14",
+          "promptJapanese": "電池を＿＿＿　★　＿＿＿　＿＿＿。",
+          "promptReading": "でんちを＿＿＿　★　＿＿＿　＿＿＿。",
+          "promptVietnamese": "Thay pin xong thì chiếc ô tô đồ chơi đột nhiên chạy.",
+          "choices": ["動き出した", "おもちゃの車が", "入れ替えたら", "急に"],
+          "choicesVietnamese": ["(đột nhiên) chạy", "chiếc ô tô đồ chơi", "thay (pin) xong thì", "đột nhiên"],
+          "choiceNotes": [
+            "Ô thứ 4 — 動き出した khép câu: (đột nhiên) chạy.",
+            "Ô thứ 3 — おもちゃの車が là chủ ngữ, đứng ngay trước 動き出した.",
+            "Ô thứ 1 — 入れ替えたら nối vào 電池を: 電池を入れ替えたら (thay pin xong thì…).",
+            "Đúng: ô ★ (ô thứ 2) — 急に mở đầu vế sau, ngay sau vế điều kiện, như 急に雨が降り出して／急にエレベーターが動き出した."
+          ],
+          "answer": 4,
+          "explanation": "Thứ tự chọn: 入れ替えたら 急に おもちゃの車が 動き出した (3-4-2-1). Vたら、～た = (làm) ~ thì (xảy ra) ~; ～出す đi với 急に — chuyện bất ngờ. Đặt 急に sát động từ — 入れ替えたら おもちゃの車が 急に 動き出した (3-2-4-1, ★ là おもちゃの車が) — cũng là câu tự nhiên; ở đây chọn trật tự 急に ＋ N が ＋ V出す như các câu ví dụ của mẫu ～出す. Đối chiếu với đáp án Riki nếu khác. Bản dán in 電池でんち, 入いれ替かえたら — furigana dính vào chữ, đã bỏ."
+        },
+        {
+          "id": "cb-ng-b9-15",
+          "promptJapanese": "★　＿＿＿　＿＿＿　＿＿＿ください。",
+          "promptReading": "★　＿＿＿　＿＿＿　＿＿＿ください。",
+          "promptVietnamese": "Ai làm xong sớm thì hãy xem lại một lần nữa xem có chỗ nào sai không.",
+          "choices": ["見直して", "もう一度", "早く終わった人は", "間違いがないか"],
+          "choicesVietnamese": ["xem lại", "một lần nữa", "người nào xong sớm thì", "xem có sai không"],
+          "choiceNotes": [
+            "Ô thứ 4 — 見直して đứng ngay trước ください: 見直してください.",
+            "Ô thứ 3 — もう一度 bổ nghĩa cho 見直す, đứng sát động từ (～直す hay đi với もう一度).",
+            "Đúng: ô ★ (ô thứ 1) — 早く終わった人は là chủ đề (ai xong sớm thì…), đứng đầu câu.",
+            "Ô thứ 2 — 間違いがないか là nội dung cần xem lại (xem có chỗ sai không)."
+          ],
+          "answer": 3,
+          "explanation": "Thứ tự đúng: 早く終わった人は 間違いがないか もう一度 見直して ください (3-4-2-1). Đổi chỗ 間違いがないか và もう一度 (3-2-4-1) cũng được, ô ★ vẫn là 早く終わった人は. ～か lồng trong câu = xem có ~ không."
+        }
+      ]
+    }
+  ]
+}

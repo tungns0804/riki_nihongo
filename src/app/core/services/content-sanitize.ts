@@ -24,6 +24,7 @@ import {
   ReadingPassage,
   ScriptLine,
   TestSection,
+  TestSummaryItem,
   UnitKind,
   VocabExample,
   VocabGroup,
@@ -381,5 +382,18 @@ export function sanitizeTestSections(raw: unknown): TestSection[] {
       skill: isSkillId(item['skill']) ? item['skill'] : 'grammar',
       questions,
     };
+  });
+}
+
+/** Bảng tóm tắt của đề. Dòng không có `title` thì bỏ: không biết đang tóm tắt cái gì. */
+export function sanitizeTestSummary(raw: unknown): TestSummaryItem[] {
+  if (!Array.isArray(raw)) return [];
+
+  return raw.flatMap((item): TestSummaryItem[] => {
+    if (!item || typeof item !== 'object') return [];
+    const record = item as Record<string, unknown>;
+    const title = text(record['title']);
+    if (!title) return [];
+    return [{ title, meaning: text(record['meaning']), lines: textList(record['lines']) }];
   });
 }

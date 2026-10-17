@@ -1,32 +1,59 @@
-<section class="card">
-  <div class="card-body stack setup">
-    <div class="section-head">
-      <h2><app-t key="test.run" /></h2>
-      <span class="spacer"></span>
-      <span class="badge">{{ t('test.questionCount', { count: questions().length }) }}</span>
-      <!-- So với null chứ không dùng `as`: 0% cũng là một lần đã làm bài. -->
-      @let percent = best();
-      @if (percent !== null) {
-        <span class="badge badge-success">{{ t('result.percent', { percent: percent }) }}</span>
-      }
-      @if (attempts() > 0) {
-        <span class="badge badge-success">{{ t('progress.attempts', { count: attempts() }) }}</span>
-      } @else {
-        <span class="badge">{{ t('progress.never') }}</span>
-      }
-    </div>
+<div class="stack">
+  <!-- Tóm tắt đứng TRƯỚC khung bắt đầu: ôn lại cách đọc từng chữ rồi mới vào làm, như
+       bảng tóm tắt đầu bài từ vựng. Đề không khai `summary` thì không có khung này. -->
+  @if (unit().summary.length > 0) {
+    <section class="card" [attr.aria-label]="t('test.summary')">
+      <div class="card-body stack stack-sm">
+        <h2>{{ t('test.summary') }}</h2>
+        <ol class="summary-list">
+          @for (row of unit().summary; track $index) {
+            <li class="summary-item">
+              <span class="summary-title jp">{{ row.title }}</span>
+              <div class="summary-body">
+                @if (row.meaning) {
+                  <span class="summary-meaning">{{ row.meaning }}</span>
+                }
+                @for (line of row.lines; track $index) {
+                  <span class="summary-line jp">{{ line }}</span>
+                }
+              </div>
+            </li>
+          }
+        </ol>
+      </div>
+    </section>
+  }
 
-    <p class="hint"><app-t key="test.unitHint" block /></p>
+  <section class="card">
+    <div class="card-body stack setup">
+      <div class="section-head">
+        <h2><app-t key="test.run" /></h2>
+        <span class="spacer"></span>
+        <span class="badge">{{ t('test.questionCount', { count: questions().length }) }}</span>
+        <!-- So với null chứ không dùng `as`: 0% cũng là một lần đã làm bài. -->
+        @let percent = best();
+        @if (percent !== null) {
+          <span class="badge badge-success">{{ t('result.percent', { percent: percent }) }}</span>
+        }
+        @if (attempts() > 0) {
+          <span class="badge badge-success">{{ t('progress.attempts', { count: attempts() }) }}</span>
+        } @else {
+          <span class="badge">{{ t('progress.never') }}</span>
+        }
+      </div>
 
-    <div class="row">
-      <button
-        type="button"
-        class="btn btn-primary btn-lg"
-        [disabled]="questions().length === 0"
-        (click)="start()"
-      >
-        {{ t('test.start') }}
-      </button>
+      <p class="hint"><app-t key="test.unitHint" block /></p>
+
+      <div class="row">
+        <button
+          type="button"
+          class="btn btn-primary btn-lg"
+          [disabled]="questions().length === 0"
+          (click)="start()"
+        >
+          {{ t('test.start') }}
+        </button>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>

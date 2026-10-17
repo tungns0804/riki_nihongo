@@ -1,0 +1,6 @@
+{
+  "name": "Chữ số 一〜十",
+  "description": "Đề 20 câu về chữ số: 問題1 đọc 10 từ có chữ số (分, 月, 日, 人, 回, 時…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana.",
+  "kind": "test",
+  "order": 1
+}

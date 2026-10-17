@@ -18,11 +18,15 @@ import { ProgressStore } from '../../../core/services/progress-store';
  * Không có gì để thiết lập: đề làm cả bài, giữ nguyên thứ tự, trả lời bằng bốn lựa
  * chọn của đề. Nên khung này chỉ nói bài dài bao nhiêu câu, lần làm tốt nhất được bao
  * nhiêu, rồi đưa thẳng sang màn hình làm đề.
+ *
+ * Đề có khai `summary` thì bảng "Tóm tắt bài" hiện ngay trên khung — đặt ở đây chứ
+ * không ở từng trang chi tiết, vì mọi trang của bài dạng đề đều chỉ có khung này.
  */
 @Component({
   selector: 'app-test-start',
   imports: [T],
   templateUrl: './test-start.html',
+  styleUrl: './test-start.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TestStart {

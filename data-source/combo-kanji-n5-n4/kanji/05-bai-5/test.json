@@ -1,0 +1,370 @@
+{
+  "summary": [
+    {
+      "title": "日",
+      "meaning": "NHẬT · ngày, mặt trời",
+      "lines": [
+        "にち — 毎日 (まいにち), 日曜日 (にちようび); にっ — 日記 (にっき)",
+        "ひ — đứng sau の: 母の日 (ははのひ), 休みの日; び — liền sau từ khác: 誕生日 (たんじょうび), 曜日 (ようび)",
+        "か — ngày trong tháng: 八日 (ようか), 十日 (とおか)"
+      ]
+    },
+    {
+      "title": "月",
+      "meaning": "NGUYỆT · mặt trăng, tháng",
+      "lines": [
+        "つき — 月 (mặt trăng), 毎月 (まいつき)",
+        "げつ — 月曜日 (げつようび)",
+        "がつ — tên tháng: 一月 (いちがつ), 九月 (くがつ), お正月 (おしょうがつ)"
+      ]
+    },
+    {
+      "title": "火",
+      "meaning": "HỎA · lửa",
+      "lines": [
+        "ひ — 火をつける (châm lửa); び — 花火 (はなび: pháo hoa)",
+        "か — 火曜日 (かようび)"
+      ]
+    },
+    {
+      "title": "水",
+      "meaning": "THỦY · nước",
+      "lines": [
+        "みず — 水 (nước)",
+        "すい — 水曜日 (すいようび), 水道 (すいどう: nước máy)"
+      ]
+    },
+    {
+      "title": "木",
+      "meaning": "MỘC · cây",
+      "lines": [
+        "き — 木 (cây), さくらの木, 木村 (きむら)",
+        "もく — 木曜日 (もくようび)"
+      ]
+    },
+    {
+      "title": "曜日",
+      "meaning": "DIỆU NHẬT · thứ trong tuần",
+      "lines": [
+        "月曜日 げつ (thứ Hai) · 火曜日 か (thứ Ba) · 水曜日 すい (thứ Tư) · 木曜日 もく (thứ Năm)",
+        "金曜日 きん (thứ Sáu) · 土曜日 ど (thứ Bảy) · 日曜日 にち (Chủ nhật) · 何曜日 なん (thứ mấy)"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "ck-b5-mondai-1",
+      "title": "問題1 — Đọc chữ Hán (10 câu)",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b5-01",
+          "promptJapanese": "さんとさんの　誕生「日」は　こんしゅうの　きんようびですね。",
+          "promptVietnamese": "Sinh nhật của (hai bạn) là thứ Sáu tuần này nhỉ.",
+          "choices": ["にち", "ひ", "び", "ぴ"],
+          "choicesVietnamese": ["(âm On: 毎日, 日曜日)", "(âm Kun khi đứng sau の)", "ngày (biến âm của ひ)", "(không phải cách đọc của 日)"],
+          "choiceNotes": [
+            "にち là âm On (毎日, 日曜日); trong 誕生日 thì 日 đọc び.",
+            "ひ là âm Kun khi đứng một mình hoặc sau の (母の日); đi liền sau 誕生 thì biến âm thành び.",
+            "Đúng: 誕生日 = たんじょうび.",
+            "ぴ không phải cách đọc nào của 日."
+          ],
+          "answer": 3,
+          "explanation": "誕生日 (たんじょうび) = sinh nhật. ひ đứng liền sau một từ khác thường đổi thành び: 誕生日, 曜日 (ようび). Đề dán in さんとさんの — có lẽ tên hai người bị mất khi chép; câu vẫn đọc được."
+        },
+        {
+          "id": "ck-b5-02",
+          "promptJapanese": "こんやの　「月」は　とても　きれいです。",
+          "promptVietnamese": "Trăng đêm nay rất đẹp.",
+          "choices": ["がつ", "げつ", "つき", "つぎ"],
+          "choicesVietnamese": ["(tên tháng: 一月)", "(trong 月曜日)", "mặt trăng", "(次 = tiếp theo)"],
+          "choiceNotes": [
+            "がつ là cách đọc trong tên tháng (一月 いちがつ).",
+            "げつ là cách đọc trong 月曜日 (げつようび).",
+            "Đúng: 月 đứng một mình (mặt trăng) đọc つき.",
+            "つぎ (次) = tiếp theo — chỉ khác つき một dấu."
+          ],
+          "answer": 3,
+          "explanation": "月: つき (mặt trăng; 毎月 まいつき), げつ (月曜日), がつ (tên tháng)."
+        },
+        {
+          "id": "ck-b5-03",
+          "promptJapanese": "わたしは　毎日　「水」を　2リットル　のみます。",
+          "promptVietnamese": "Mỗi ngày tôi uống 2 lít nước.",
+          "choices": ["すい", "すう", "みす", "みず"],
+          "choicesVietnamese": ["(âm On: 水曜日, 水道)", "(không phải cách đọc của 水)", "(sai: thiếu dấu)", "nước"],
+          "choiceNotes": [
+            "すい là âm On, chỉ dùng khi ghép: 水曜日, 水道.",
+            "すう không phải cách đọc của 水.",
+            "Thiếu dấu: phải là みず.",
+            "Đúng: 水 đứng một mình (nước) đọc みず."
+          ],
+          "answer": 4,
+          "explanation": "水: みず (nước), すい (水曜日, 水道). Đề dán in 2リット — thiếu ル, đã sửa thành 2リットル."
+        },
+        {
+          "id": "ck-b5-04",
+          "promptJapanese": "としょかんの　やすみは　「火ようび」です。",
+          "promptVietnamese": "Thư viện nghỉ vào thứ Ba.",
+          "choices": ["げつようび", "かようび", "すいようび", "もくようび"],
+          "choicesVietnamese": ["thứ Hai (月曜日)", "thứ Ba (火曜日)", "thứ Tư (水曜日)", "thứ Năm (木曜日)"],
+          "choiceNotes": [
+            "げつようび là 月曜日 (thứ Hai).",
+            "Đúng: 火ようび = かようび (thứ Ba).",
+            "すいようび là 水曜日 (thứ Tư).",
+            "もくようび là 木曜日 (thứ Năm)."
+          ],
+          "answer": 2,
+          "explanation": "火 chỉ đọc か trong 火曜日; đứng một mình (lửa) thì là ひ."
+        },
+        {
+          "id": "ck-b5-05",
+          "promptJapanese": "たばこに　「火」を　つけます。",
+          "promptVietnamese": "Châm lửa điếu thuốc.",
+          "choices": ["か", "ひ", "び", "ぴ"],
+          "choicesVietnamese": ["(chỉ trong 火曜日)", "lửa", "(biến âm trong 花火)", "(không phải cách đọc của 火)"],
+          "choiceNotes": [
+            "か chỉ dùng trong 火曜日 (かようび).",
+            "Đúng: 火 đứng một mình (lửa) đọc ひ — 火をつける = châm lửa.",
+            "び là ひ biến âm khi đứng liền sau từ khác (花火 はなび); đứng một mình thì không.",
+            "ぴ không phải cách đọc của 火."
+          ],
+          "answer": 2,
+          "explanation": "火: ひ (lửa), び (花火), か (火曜日)."
+        },
+        {
+          "id": "ck-b5-06",
+          "promptJapanese": "「お正月」は　1月1日です。",
+          "promptVietnamese": "Tết là ngày 1 tháng 1.",
+          "choices": ["おしょうかつ", "おしょうけつ", "おしょうがつ", "おしょうげつ"],
+          "choicesVietnamese": ["(sai: thiếu dấu)", "(không phải cách đọc này)", "Tết, năm mới", "(げつ là âm trong 月曜日)"],
+          "choiceNotes": [
+            "Thiếu dấu: phải là がつ.",
+            "けつ không phải cách đọc của 月.",
+            "Đúng: お正月 = おしょうがつ — 月 đọc がつ như trong tên tháng.",
+            "げつ là cách đọc của 月 trong 月曜日, không dùng ở đây."
+          ],
+          "answer": 3,
+          "explanation": "お正月 (おしょうがつ) = Tết, mấy ngày đầu năm mới. 1月1日 = いちがつ ついたち."
+        },
+        {
+          "id": "ck-b5-07",
+          "promptJapanese": "このえいがは　こんしゅうの　「水ようび」に　おわります。",
+          "promptVietnamese": "Bộ phim này chiếu đến thứ Tư tuần này là hết.",
+          "choices": ["むいようび", "すうようび", "すようび", "すいようび"],
+          "choicesVietnamese": ["(むい là âm trong 六日)", "(không phải cách đọc này)", "(sai: thiếu い)", "thứ Tư"],
+          "choiceNotes": [
+            "むい là âm của 六 trong 六日 (むいか), không liên quan tới 水.",
+            "すう không phải cách đọc của 水.",
+            "Thiếu い: 水 là すい.",
+            "Đúng: 水ようび = すいようび (thứ Tư)."
+          ],
+          "answer": 4,
+          "explanation": "水曜日 (すいようび) = thứ Tư. 水 đứng một mình đọc みず."
+        },
+        {
+          "id": "ck-b5-08",
+          "promptJapanese": "こんばん　ともだちと　「花火」を　みます。",
+          "promptVietnamese": "Tối nay tôi đi xem pháo hoa với bạn.",
+          "choices": ["はなび", "はなひ", "はなぴ", "はなか"],
+          "choicesVietnamese": ["pháo hoa", "(thiếu biến âm)", "(không phải cách đọc này)", "(か chỉ trong 火曜日)"],
+          "choiceNotes": [
+            "Đúng: 花火 = はなび — ひ biến âm thành び khi đứng liền sau 花.",
+            "Thiếu biến âm: ghép với 花 thì ひ thành び.",
+            "ぴ không phải cách đọc của 火.",
+            "か chỉ dùng trong 火曜日."
+          ],
+          "answer": 1,
+          "explanation": "花 (はな, hoa) ＋ 火 (ひ, lửa) → 花火 (はなび) — \"hoa lửa\" = pháo hoa."
+        },
+        {
+          "id": "ck-b5-09",
+          "promptJapanese": "「毎日」　日本語を　べんきょうします。",
+          "promptVietnamese": "Ngày nào tôi cũng học tiếng Nhật.",
+          "choices": ["まいにち", "まいひ", "まいび", "まいぴ"],
+          "choicesVietnamese": ["mỗi ngày", "(không có cách đọc này)", "(không có cách đọc này)", "(không có cách đọc này)"],
+          "choiceNotes": [
+            "Đúng: 毎日 = まいにち — 日 đọc âm On にち khi ghép với 毎.",
+            "ひ là âm Kun, không ghép với 毎.",
+            "び là ひ biến âm (誕生日), không dùng trong 毎日.",
+            "ぴ không phải cách đọc của 日."
+          ],
+          "answer": 1,
+          "explanation": "毎 (まい) = mỗi: 毎日 (まいにち), 毎月 (まいつき), 毎年 (まいとし), 毎週 (まいしゅう)."
+        },
+        {
+          "id": "ck-b5-10",
+          "promptJapanese": "かいぎは　何曜日ですか。　「木」よう日です。",
+          "promptVietnamese": "Cuộc họp là thứ mấy? — Thứ Năm.",
+          "choices": ["にち", "もく", "か", "すい"],
+          "choicesVietnamese": ["(日曜日 — Chủ nhật)", "(木曜日 — thứ Năm)", "(火曜日 — thứ Ba)", "(水曜日 — thứ Tư)"],
+          "choiceNotes": [
+            "にち là 日 trong 日曜日 (Chủ nhật).",
+            "Đúng: 木 trong 木曜日 đọc もく.",
+            "か là 火 trong 火曜日 (thứ Ba).",
+            "すい là 水 trong 水曜日 (thứ Tư)."
+          ],
+          "answer": 2,
+          "explanation": "木 đọc もく trong 木曜日; đứng một mình (cây) đọc き. 何曜日 (なんようび) = thứ mấy."
+        }
+      ]
+    },
+    {
+      "id": "ck-b5-mondai-2",
+      "title": "問題2 — Chọn chữ Hán (10 câu)",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b5-11",
+          "promptJapanese": "「げつ」ようびに　がっこうへ　いきます。",
+          "promptVietnamese": "Thứ Hai tôi đi học.",
+          "choices": ["日", "月", "火", "水"],
+          "choicesVietnamese": ["日 (にち)", "月 (げつ)", "火 (か)", "水 (すい)"],
+          "choiceNotes": [
+            "日曜日 đọc にちようび (Chủ nhật).",
+            "Đúng: げつ = 月 → 月曜日 (thứ Hai).",
+            "火曜日 đọc かようび (thứ Ba).",
+            "水曜日 đọc すいようび (thứ Tư)."
+          ],
+          "answer": 2,
+          "explanation": "月曜日 (げつようび) = thứ Hai."
+        },
+        {
+          "id": "ck-b5-12",
+          "promptJapanese": "こうえんに　さくらの「き」が　たくさん　あります。",
+          "promptVietnamese": "Trong công viên có nhiều cây anh đào.",
+          "choices": ["休", "体", "本", "木"],
+          "choicesVietnamese": ["nghỉ (休)", "cơ thể (体)", "sách, gốc (本)", "cây (木)"],
+          "choiceNotes": [
+            "休 (やす.む) = nghỉ — người 亻 tựa vào cây 木.",
+            "体 (からだ) = cơ thể — 亻 ＋ 本.",
+            "本 (ほん) = sách, gốc — 木 thêm một nét ngang ở gốc.",
+            "Đúng: き = 木 (cây)."
+          ],
+          "answer": 4,
+          "explanation": "Bốn chữ đều có 木 bên trong: 木 (cây), 本 (thêm nét gạch ở gốc), 休 (người tựa gốc cây = nghỉ), 体 (người ＋ 本)."
+        },
+        {
+          "id": "ck-b5-13",
+          "promptJapanese": "ははの「ひ」は　なんにちですか。",
+          "promptVietnamese": "Ngày của Mẹ là ngày bao nhiêu?",
+          "choices": ["日", "口", "目", "火"],
+          "choicesVietnamese": ["ngày (日)", "miệng (口)", "mắt (目)", "lửa (火)"],
+          "choiceNotes": [
+            "Đúng: 母の日 = Ngày của Mẹ — ひ ở đây là 日 (ngày).",
+            "口 (くち) = miệng.",
+            "目 (め) = mắt.",
+            "火 cũng đọc ひ nhưng nghĩa là lửa."
+          ],
+          "answer": 1,
+          "explanation": "日 và 火 đều đọc ひ: ngày → 日, lửa → 火. Câu 14 là cặp ngược lại."
+        },
+        {
+          "id": "ck-b5-14",
+          "promptJapanese": "だんろの　「ひ」は　あたたかいです。",
+          "promptVietnamese": "Lửa trong lò sưởi thật ấm.",
+          "choices": ["日", "口", "目", "火"],
+          "choicesVietnamese": ["ngày (日)", "miệng (口)", "mắt (目)", "lửa (火)"],
+          "choiceNotes": [
+            "日 cũng đọc ひ nhưng nghĩa là ngày, mặt trời — lò sưởi thì có lửa.",
+            "口 (くち) = miệng.",
+            "目 (め) = mắt.",
+            "Đúng: だんろの火 = lửa lò sưởi."
+          ],
+          "answer": 4,
+          "explanation": "だんろ (暖炉) = lò sưởi. Cùng âm ひ: 日 (ngày) ở câu 13, 火 (lửa) ở câu này."
+        },
+        {
+          "id": "ck-b5-15",
+          "promptJapanese": "９「がつ」に　くにへ　かえります。",
+          "promptVietnamese": "Tháng 9 tôi về nước.",
+          "choices": ["日", "月", "火", "水"],
+          "choicesVietnamese": ["ngày (日)", "tháng (月)", "lửa (火)", "nước (水)"],
+          "choiceNotes": [
+            "日 sau số chỉ ngày (9日 ここのか), không phải tháng.",
+            "Đúng: がつ = 月 → 9月 (くがつ).",
+            "火 đọc ひ, か — không đọc がつ.",
+            "水 đọc みず, すい — không đọc がつ."
+          ],
+          "answer": 2,
+          "explanation": "9月 đọc くがつ, không phải きゅうがつ."
+        },
+        {
+          "id": "ck-b5-16",
+          "promptJapanese": "「にっき」を　かきます。",
+          "promptVietnamese": "Tôi viết nhật ký.",
+          "choices": ["口き", "目き", "日き", "火き"],
+          "choicesVietnamese": ["(口 = miệng)", "(目 = mắt)", "nhật ký (日き)", "(火 = lửa)"],
+          "choiceNotes": [
+            "口 (くち) = miệng — không đọc にっ.",
+            "目 (め, もく) = mắt — không đọc にっ.",
+            "Đúng: にっ = 日 → 日き (日記, にっき).",
+            "火 (ひ, か) = lửa — không đọc にっ."
+          ],
+          "answer": 3,
+          "explanation": "日記 (にっき) = nhật ký; 日 (にち) đứng trước き bị ngắt âm thành にっ."
+        },
+        {
+          "id": "ck-b5-17",
+          "promptJapanese": "「にち」ようびは　やすみのひです。",
+          "promptVietnamese": "Chủ nhật là ngày nghỉ.",
+          "choices": ["月", "火", "日", "木"],
+          "choicesVietnamese": ["月 (げつ)", "火 (か)", "日 (にち)", "木 (もく)"],
+          "choiceNotes": [
+            "月曜日 đọc げつようび (thứ Hai).",
+            "火曜日 đọc かようび (thứ Ba).",
+            "Đúng: にち = 日 → 日曜日 (Chủ nhật).",
+            "木曜日 đọc もくようび (thứ Năm)."
+          ],
+          "answer": 3,
+          "explanation": "Câu có hai lần 日: にちようび (日曜日) và やすみのひ (休みの日)."
+        },
+        {
+          "id": "ck-b5-18",
+          "promptJapanese": "「まいつき」　テストが　あります。",
+          "promptVietnamese": "Tháng nào cũng có bài kiểm tra.",
+          "choices": ["毎日", "毎月", "毎年", "毎週"],
+          "choicesVietnamese": ["mỗi ngày (まいにち)", "mỗi tháng (まいつき)", "mỗi năm (まいとし)", "mỗi tuần (まいしゅう)"],
+          "choiceNotes": [
+            "毎日 đọc まいにち.",
+            "Đúng: まいつき = 毎月.",
+            "毎年 đọc まいとし (hoặc まいねん).",
+            "毎週 đọc まいしゅう."
+          ],
+          "answer": 2,
+          "explanation": "毎月 đọc まいつき — 月 ở đây đọc âm Kun つき."
+        },
+        {
+          "id": "ck-b5-19",
+          "promptJapanese": "「すいどう」のせんをとじます。",
+          "promptVietnamese": "Khóa vòi nước lại.",
+          "choices": ["水道", "火道", "川道", "氷道"],
+          "choicesVietnamese": ["nước máy (すいどう)", "(không có từ này)", "(川 = sông)", "(氷 = băng)"],
+          "choiceNotes": [
+            "Đúng: すいどう = 水道 (nước máy, đường ống nước).",
+            "火道 không phải từ thường dùng; 火 đọc ひ, か.",
+            "川 (かわ) = sông — không đọc すい.",
+            "氷 (こおり) = băng — trông như 水 thêm một chấm."
+          ],
+          "answer": 1,
+          "explanation": "水 và 氷 chỉ khác một chấm: 氷 (băng) có thêm nét chấm bên trái. せん (栓) = nút, vòi; 水道のせん = vòi nước (thường nói せんをしめます)."
+        },
+        {
+          "id": "ck-b5-20",
+          "promptJapanese": "「き」むらさんは　バスで　かいしゃへ　いきます。",
+          "promptVietnamese": "Anh Kimura đi làm bằng xe buýt.",
+          "choices": ["休むら", "体むら", "本むら", "木むら"],
+          "choicesVietnamese": ["(休 = nghỉ)", "(体 = cơ thể)", "(本 = sách)", "Kimura (木村)"],
+          "choiceNotes": [
+            "休 (やす.む) = nghỉ — không đọc き.",
+            "体 (からだ, たい) = cơ thể — không đọc き.",
+            "本 (ほん, もと) = sách, gốc — không đọc き.",
+            "Đúng: き = 木 → 木むら (木村, きむら)."
+          ],
+          "answer": 4,
+          "explanation": "木村 (きむら) là một họ của người Nhật; き = 木 (cây). Bốn chữ cùng có 木, giống câu 12."
+        }
+      ]
+    }
+  ]
+}

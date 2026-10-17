@@ -145,6 +145,13 @@ Trên màn hình LÀM ĐỀ thì ngược lại — cả phần hiện cùng lú
 bài đọc GIỐNG HỆT NHAU được gom lại và bài đọc chỉ in một lần. Vì vậy phải chép lại
 đúng từng chữ, lệch một dấu câu là nó tách thành hai bài đọc.
 
+## Bảng "Tóm tắt bài" (tuỳ chọn)
+
+Đề nằm trong một phần học (bài dạng đề có trang riêng với khung bắt đầu) có thể khai thêm
+`summary` ở cấp gốc, cạnh `sections` — mảng các dòng `{ title, meaning, lines }`. Trang
+bài hiện nó thành bảng "Tóm tắt bài" ngay trên khung bắt đầu. Dòng thiếu `title` bị bỏ
+kèm cảnh báo. Ví dụ: `data-source/combo-kanji-n5-n4/kanji/03-bai-3/test.json`.
+
 ## Dấu 「」 thay cho gạch chân
 
 File nguồn không giữ được gạch chân của đề in, nên phần 文字語彙 đánh dấu từ đang hỏi

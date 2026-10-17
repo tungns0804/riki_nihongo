@@ -56,13 +56,19 @@ const COURSES = [
     level: 'N3',
     modules: ['entrance-test', 'vocabulary', 'kanji', 'grammar', 'reading', 'listening', 'mimikara'],
   },
-  { id: 'btvn-co-ban', name: 'BTVN CƠ BẢN (MỚI)', level: 'N3', modules: ['vocabulary', 'kanji'] },
+  {
+    id: 'btvn-co-ban',
+    name: 'BTVN CƠ BẢN (MỚI)',
+    level: 'N3',
+    modules: ['vocabulary', 'kanji', 'grammar'],
+  },
   {
     id: 'btvn-n4-chuyen-sau',
     name: 'BTVN N4 CHUYÊN SÂU',
     level: 'N4',
     modules: ['vocabulary', 'kanji', 'grammar'],
   },
+  { id: 'combo-kanji-n5-n4', name: 'Combo Kanji N5-N4', level: 'N5-N4', modules: ['kanji'] },
 ];
 
 /**
@@ -286,7 +292,10 @@ function buildUnit(course, module, folderName) {
         warnings = parsed.warnings;
       } else {
         const parsed = normalizeTest(json);
-        payload = { sections: parsed.sections };
+        payload = {
+          sections: parsed.sections,
+          ...(parsed.summary.length ? { summary: parsed.summary } : {}),
+        };
         warnings = parsed.warnings;
       }
     }

@@ -75,6 +75,7 @@ export const MESSAGES = {
   'course.n3-junbi.name': { vi: 'N3 JUNBI', ja: 'N3 JUNBI' },
   'course.btvn-co-ban.name': { vi: 'BTVN CƠ BẢN (MỚI)', ja: 'BTVN CƠ BẢN (MỚI)' },
   'course.btvn-n4-chuyen-sau.name': { vi: 'BTVN N4 CHUYÊN SÂU', ja: 'BTVN N4 CHUYÊN SÂU' },
+  'course.combo-kanji-n5-n4.name': { vi: 'Combo Kanji N5-N4', ja: 'Combo Kanji N5-N4' },
   'course.n3-taisaku.name': { vi: 'N3 TAISAKU', ja: 'N3 TAISAKU' },
   'course.n3-luyen-de.name': { vi: 'N3 LUYỆN ĐỀ', ja: 'N3 LUYỆN ĐỀ' },
   'course.n3-junbi.desc': {
@@ -82,18 +83,22 @@ export const MESSAGES = {
     ja: 'N3準備：入門テスト、語彙、漢字、文法、読解、聴解、耳から覚える文法。',
   },
   'course.btvn-co-ban.desc': {
-    vi: 'Bài tập về nhà N3 cơ bản: từ vựng theo từng bài tập 10 từ và kanji theo bài, kèm cách đọc, nghĩa và ví dụ.',
-    ja: 'N3基礎の宿題：1回10語ずつの語彙と課ごとの漢字。読み方・意味・例つき。',
+    vi: 'Bài tập về nhà N3 cơ bản: từ vựng theo từng bài tập 10 từ, kanji theo bài kèm cách đọc, nghĩa và ví dụ, và đề ngữ pháp theo bài.',
+    ja: 'N3基礎の宿題：1回10語ずつの語彙、課ごとの漢字（読み方・意味・例つき）、課ごとの文法問題。',
   },
   'course.btvn-n4-chuyen-sau.desc': {
     vi: 'Bài tập về nhà N4 chuyên sâu: mỗi bài là một đề — chọn câu cùng nghĩa và chọn câu dùng đúng từ, kèm bản dịch và lời giải từng lựa chọn.',
     ja: 'N4深掘りの宿題：1課につき1セットの問題（言い換え・用法）。訳と選択肢ごとの解説つき。',
   },
+  'course.combo-kanji-n5-n4.desc': {
+    vi: 'Kanji sơ cấp N5–N4: mỗi bài một đề đọc chữ Hán và chọn chữ Hán, kèm bản dịch và lời giải từng lựa chọn.',
+    ja: 'N5〜N4の漢字：1課につき1セット、漢字の読み方・書き方の問題。訳と選択肢ごとの解説つき。',
+  },
   'course.soon.desc': { vi: 'Nội dung đang được chuẩn bị.', ja: '教材を準備中です。' },
   'course.list.title': { vi: 'Các học phần của Riki Nihongo', ja: 'Riki Nihongo のコース' },
   'course.list.subtitle': {
-    vi: 'Chọn học phần để bắt đầu. Hiện đã có N3 JUNBI, BTVN CƠ BẢN (MỚI) và BTVN N4 CHUYÊN SÂU, các học phần khác đang được chuẩn bị.',
-    ja: 'コースを選んで始めましょう。現在は N3 JUNBI、BTVN CƠ BẢN (MỚI)、BTVN N4 CHUYÊN SÂU を公開中で、ほかのコースは準備中です。',
+    vi: 'Chọn học phần để bắt đầu. Hiện đã có N3 JUNBI, BTVN CƠ BẢN (MỚI), BTVN N4 CHUYÊN SÂU và Combo Kanji N5-N4, các học phần khác đang được chuẩn bị.',
+    ja: 'コースを選んで始めましょう。現在は N3 JUNBI、BTVN CƠ BẢN (MỚI)、BTVN N4 CHUYÊN SÂU、Combo Kanji N5-N4 を公開中で、ほかのコースは準備中です。',
   },
   'course.list.all': { vi: 'Tất cả học phần', ja: 'すべてのコース' },
   'course.list.back': { vi: '← Tất cả học phần', ja: '← すべてのコース' },
@@ -297,6 +302,8 @@ export const MESSAGES = {
   'test.start': { vi: 'Bắt đầu làm bài', ja: 'テストを始める' },
   // Bài dạng đề nằm trong phần lý thuyết: khung bắt đầu thay cho khung thiết lập luyện tập.
   'test.run': { vi: 'Làm đề', ja: '問題を解く' },
+  // Cùng tên với bảng tóm tắt của bài từ vựng: hai bảng làm cùng một việc.
+  'test.summary': { vi: 'Tóm tắt bài', ja: '課のまとめ' },
   'test.unitHint': {
     vi: 'Làm hết cả đề rồi nộp một lượt, không chấm từng câu. Mỗi câu có bản dịch ẩn và ô ghi chú riêng, tự lưu lại.',
     ja: '最後まで解いてから提出します（1問ずつは採点しません）。各問に非表示の訳と、自動保存される自分のメモ欄があります。',

@@ -1,0 +1,48 @@
+{
+  "course": {
+    "id": "combo-kanji-n5-n4",
+    "name": "Combo Kanji N5-N4",
+    "level": "N5-N4"
+  },
+  "generatedAt": "2026-10-17T02:59:09.317Z",
+  "modules": [
+    {
+      "id": "kanji",
+      "units": [
+        {
+          "id": "01-chu-so",
+          "name": "Chữ số 一〜十",
+          "description": "Đề 20 câu về chữ số: 問題1 đọc 10 từ có chữ số (分, 月, 日, 人, 回, 時…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 20,
+          "order": 1,
+          "file": "kanji/01-chu-so.json"
+        },
+        {
+          "id": "03-bai-3",
+          "name": "Bài 3",
+          "description": "百 · 千 · 万 · 円 · 何 — đề 20 câu: 問題1 đọc 10 từ chỉ số tiền, số lượng; 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana. Có bảng tóm tắt cách đọc từng chữ.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 20,
+          "order": 3,
+          "file": "kanji/03-bai-3.json"
+        },
+        {
+          "id": "05-bai-5",
+          "name": "Bài 5",
+          "description": "日 · 月 · 火 · 水 · 木 — đề 20 câu: 問題1 đọc 10 từ (thứ trong tuần, 花火, お正月…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana. Có bảng tóm tắt cách đọc từng chữ.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 20,
+          "order": 5,
+          "file": "kanji/05-bai-5.json"
+        }
+      ]
+    }
+  ]
+}

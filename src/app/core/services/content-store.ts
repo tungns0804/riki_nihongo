@@ -18,6 +18,7 @@ import {
   sanitizeListeningTracks,
   sanitizeReadingPassages,
   sanitizeTestSections,
+  sanitizeTestSummary,
   sanitizeVocabGroups,
   sanitizeVocabulary,
   sanitizeUnitKind,
@@ -258,6 +259,7 @@ function sanitizeUnit(raw: unknown, entry: UnitIndexEntry): Unit | null {
     passages: kind === 'reading' ? sanitizeReadingPassages(data['passages']) : [],
     tracks: kind === 'listening' ? sanitizeListeningTracks(data['tracks']) : [],
     sections: kind === 'test' ? sanitizeTestSections(data['sections']) : [],
+    summary: kind === 'test' ? sanitizeTestSummary(data['summary']) : [],
   };
 
   unit.itemCount = countItems(unit);

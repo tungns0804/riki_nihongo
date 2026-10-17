@@ -792,5 +792,30 @@ export function normalizeTest(raw) {
     });
   }
 
-  return { sections, warnings };
+  const summary = normalizeTestSummary(Array.isArray(raw) ? undefined : raw?.summary, warnings);
+
+  return { sections, summary, warnings };
+}
+
+/**
+ * Bảng "Tóm tắt bài" của đề (tuỳ chọn): mỗi dòng `{ title, meaning, lines }` — chữ được
+ * tóm tắt, một dòng nghĩa, rồi cách đọc và ví dụ. Hiện trên trang bài, trên khung bắt đầu.
+ */
+function normalizeTestSummary(raw, warnings) {
+  if (raw === undefined) return [];
+  if (!Array.isArray(raw)) {
+    warnings.push('"summary" phải là một mảng các dòng { title, meaning, lines }');
+    return [];
+  }
+
+  const items = [];
+  for (const [index, item] of raw.entries()) {
+    const title = asText(item?.title);
+    if (!title) {
+      warnings.push(`"summary" dòng ${index + 1}: thiếu "title", bỏ qua`);
+      continue;
+    }
+    items.push({ title, meaning: asText(item?.meaning), lines: asLines(item?.lines) });
+  }
+  return items;
 }

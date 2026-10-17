@@ -1,0 +1,874 @@
+{
+  "id": "01-chu-so",
+  "name": "Chữ số 一〜十",
+  "description": "Đề 20 câu về chữ số: 問題1 đọc 10 từ có chữ số (分, 月, 日, 人, 回, 時…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana.",
+  "kind": "test",
+  "parent": "",
+  "group": "",
+  "sections": [
+    {
+      "id": "ck-so-mondai-1",
+      "title": "問題1 — Đọc chữ Hán (10 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-so-01",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "うちから　かいしゃまで　でんしゃで　「二十分」です。",
+          "promptReading": "",
+          "promptTranslation": "Từ nhà tôi đến công ty đi tàu điện mất 20 phút.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "さんじゅうぷん",
+              "translation": "30 phút (三十分)",
+              "note": "さんじゅうぷん là 三十分 (30 phút) — 三 là さん, còn chữ trong câu là 二 (に)."
+            },
+            {
+              "id": "c2",
+              "text": "にじゅぷん",
+              "translation": "(sai: thiếu っ)",
+              "note": "Thiếu âm ngắt: 十 đứng trước ぷん thì đọc じゅっ (hoặc じっ), không phải じゅ."
+            },
+            {
+              "id": "c3",
+              "text": "にじゅつぷん",
+              "translation": "(sai: つ viết to)",
+              "note": "つ viết to là sai — âm ngắt phải là っ nhỏ: にじゅっぷん."
+            },
+            {
+              "id": "c4",
+              "text": "にじゅっぷん",
+              "translation": "20 phút (二十分)",
+              "note": "Đúng: 二十分 = にじゅっぷん. 十 ＋ 分 → 十 thành じゅっ, 分 thành ぷん."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "分 (ふん) đổi âm theo số đứng trước: いっぷん, にふん, さんぷん, よんぷん, ごふん, ろっぷん, ななふん, はっぷん, きゅうふん, じゅっぷん (じっぷん).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-02",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "父の　でんわばんごうは　「八八」五二ー三四六四です。",
+          "promptReading": "",
+          "promptTranslation": "Số điện thoại của bố tôi là 8852-3464.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "はちはち",
+              "translation": "8-8",
+              "note": "Đúng: 八 = はち; số điện thoại đọc từng chữ số, nên 八八 = はちはち."
+            },
+            {
+              "id": "c2",
+              "text": "はちはし",
+              "translation": "(はし không phải số)",
+              "note": "はし không phải cách đọc nào của 八 — chỉ là はち bị đổi một âm."
+            },
+            {
+              "id": "c3",
+              "text": "はちしち",
+              "translation": "8-7",
+              "note": "しち là 七 (bảy); chữ thứ hai cũng là 八 nên phải là はち."
+            },
+            {
+              "id": "c4",
+              "text": "しちしち",
+              "translation": "7-7",
+              "note": "しちしち là 七七. 七 (しち) và 八 (はち) nghe gần nhau nên hay nhầm."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Số điện thoại đọc theo từng chữ số, dấu gạch đọc là の. Đề dán in でんわばんご — thiếu う, đã sửa thành でんわばんごう (電話番号).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-03",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「七月」に　たなばたが　あります。",
+          "promptReading": "",
+          "promptTranslation": "Tháng 7 có lễ Tanabata (Thất tịch).",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "しちがつ",
+              "translation": "tháng 7",
+              "note": "Đúng: 七月 = しちがつ. Tên tháng dùng âm しち."
+            },
+            {
+              "id": "c2",
+              "text": "しっがつ",
+              "translation": "(không có cách đọc này)",
+              "note": "七 không bị ngắt âm trước がつ — không có しっがつ."
+            },
+            {
+              "id": "c3",
+              "text": "なながつ",
+              "translation": "(七 đọc なな, nhưng không dùng cho tháng)",
+              "note": "七 có âm なな (ななにん, ななかい), nhưng tên tháng thì luôn là しちがつ."
+            },
+            {
+              "id": "c4",
+              "text": "ないがつ",
+              "translation": "(không có cách đọc này)",
+              "note": "ないがつ không phải cách đọc nào của 七."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Tên các tháng: いちがつ, にがつ, さんがつ, しがつ, ごがつ, ろくがつ, しちがつ, はちがつ, くがつ, じゅうがつ… Ba tháng hay sai: tháng 4 = しがつ, tháng 7 = しちがつ, tháng 9 = くがつ. たなばた (七夕) là lễ Thất tịch ngày 7/7.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-04",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "わたしの　たんじょうびは　「六月」六日です。",
+          "promptReading": "",
+          "promptTranslation": "Sinh nhật tôi là ngày 6 tháng 6.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "むいがつ",
+              "translation": "(むい là âm của 六日)",
+              "note": "むい là âm của 六 trong 六日 (むいか — ngày 6), không dùng cho tháng."
+            },
+            {
+              "id": "c2",
+              "text": "ろくがつ",
+              "translation": "tháng 6",
+              "note": "Đúng: 六月 = ろくがつ."
+            },
+            {
+              "id": "c3",
+              "text": "むうがつ",
+              "translation": "(không có cách đọc này)",
+              "note": "むう không phải cách đọc của 六 (âm Kun là む, như 六つ むっつ)."
+            },
+            {
+              "id": "c4",
+              "text": "ろっがつ",
+              "translation": "(không ngắt âm trước が)",
+              "note": "ろっ chỉ xuất hiện trước âm k / p / h (ろっかい, ろっぽん); trước が thì giữ nguyên ろく."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "六 có ba kiểu đọc hay gặp: ろく (六月, 六時), ろっ (六回, 六本), む／むい (六つ むっつ, 六日 むいか). Cả cụm: 六月六日 = ろくがつ むいか.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-05",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "やきゅうは　「九人」で　一つの　チームです。",
+          "promptReading": "",
+          "promptTranslation": "Bóng chày thì 9 người là một đội.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "しちにん",
+              "translation": "7 người (七人)",
+              "note": "しちにん là 七人 (7 người)."
+            },
+            {
+              "id": "c2",
+              "text": "はちにん",
+              "translation": "8 người (八人)",
+              "note": "はちにん là 八人 (8 người)."
+            },
+            {
+              "id": "c3",
+              "text": "きゅうにん",
+              "translation": "9 người (九人)",
+              "note": "Đúng: 九人 = きゅうにん. Một đội bóng chày có 9 người."
+            },
+            {
+              "id": "c4",
+              "text": "くにん",
+              "translation": "(く dùng cho 九月, 九時)",
+              "note": "く là âm của 九 trong 九月 (くがつ), 九時 (くじ); đếm người thì đọc きゅうにん."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "九 đọc きゅう hoặc く: く dùng cho 九月 (くがつ), 九時 (くじ); hầu hết chỗ khác là きゅう — 九人, 九回, 九本. 一つ (ひとつ) = một (cái).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-06",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "にほんに　「六回」　きました。",
+          "promptReading": "",
+          "promptTranslation": "Tôi đã đến Nhật 6 lần.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ろくかい",
+              "translation": "(thiếu ngắt âm)",
+              "note": "六 đứng trước かい (âm k) thì biến thành ろっ, nên ろくかい sai."
+            },
+            {
+              "id": "c2",
+              "text": "ろっかい",
+              "translation": "6 lần",
+              "note": "Đúng: 六回 = ろっかい."
+            },
+            {
+              "id": "c3",
+              "text": "むいかい",
+              "translation": "(むい là âm của 六日)",
+              "note": "むい là âm của 六 trong 六日 (むいか), không dùng với 回."
+            },
+            {
+              "id": "c4",
+              "text": "むっかい",
+              "translation": "(む là âm Kun, không ghép với 回)",
+              "note": "む／むっ là âm Kun (六つ むっつ), không ghép với 回 (âm On)."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Đếm số lần với 回: いっかい, にかい, さんかい, よんかい, ごかい, ろっかい, ななかい, はっかい, きゅうかい, じゅっかい. Số 1, 6, 8, 10 bị ngắt âm.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-07",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「七」五三は　日本で　こどもの　おいわいです。",
+          "promptReading": "",
+          "promptTranslation": "Shichi-go-san là lễ mừng cho trẻ em ở Nhật.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "しち",
+              "translation": "bảy (しち)",
+              "note": "Đúng: 七五三 = しちごさん — 七 đọc しち."
+            },
+            {
+              "id": "c2",
+              "text": "はち",
+              "translation": "tám (八)",
+              "note": "はち là 八."
+            },
+            {
+              "id": "c3",
+              "text": "なな",
+              "translation": "bảy (なな)",
+              "note": "なな cũng là cách đọc của 七, nhưng tên lễ 七五三 cố định là しちごさん."
+            },
+            {
+              "id": "c4",
+              "text": "ろく",
+              "translation": "sáu (六)",
+              "note": "ろく là 六."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "七五三 (しちごさん) là lễ cho trẻ 3, 5, 7 tuổi vào ngày 15/11. 七 có hai âm: しち (七月, 七五三) và なな (七つ ななつ, 七人 ななにん). Đề in 「七五三」 trong ngoặc; ở đây chỉ để 「」 quanh 七 vì câu hỏi cách đọc riêng chữ này.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-08",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「六時」に　にほんごを　べんきょうします。",
+          "promptReading": "",
+          "promptTranslation": "Tôi học tiếng Nhật lúc 6 giờ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ろっじ",
+              "translation": "(không ngắt âm trước じ)",
+              "note": "ろっ chỉ đứng trước âm k / p / h (ろっかい, ろっぷん); trước じ thì giữ nguyên ろく."
+            },
+            {
+              "id": "c2",
+              "text": "ろくじ",
+              "translation": "6 giờ",
+              "note": "Đúng: 六時 = ろくじ."
+            },
+            {
+              "id": "c3",
+              "text": "ろうじ",
+              "translation": "(sai: kéo dài)",
+              "note": "ろう là kéo dài sai — 六 đọc ろく."
+            },
+            {
+              "id": "c4",
+              "text": "ろじ",
+              "translation": "(sai: thiếu く)",
+              "note": "Thiếu く: 六 là ろく, không phải ろ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Giờ với 時: いちじ, にじ, さんじ, よじ, ごじ, ろくじ, しちじ, はちじ, くじ, じゅうじ. Hay sai: 4 giờ = よじ, 7 giờ = しちじ, 9 giờ = くじ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-09",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "なつやすみは　こんげつ　「十日」からです。",
+          "promptReading": "",
+          "promptTranslation": "Kỳ nghỉ hè bắt đầu từ ngày 10 tháng này.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "じゅうか",
+              "translation": "(không có cách đọc này)",
+              "note": "Ngày 10 không đọc theo âm On じゅう — 十日 là とおか."
+            },
+            {
+              "id": "c2",
+              "text": "じゅか",
+              "translation": "(không có cách đọc này)",
+              "note": "じゅか không phải cách đọc nào của 十日."
+            },
+            {
+              "id": "c3",
+              "text": "じゅっか",
+              "translation": "(không có cách đọc này)",
+              "note": "じゅっ chỉ xuất hiện trong じゅっぷん, じゅっかい…; không có じゅっか."
+            },
+            {
+              "id": "c4",
+              "text": "とおか",
+              "translation": "ngày mùng 10",
+              "note": "Đúng: 十日 = とおか."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Ngày 1–10 có âm riêng: ついたち, ふつか, みっか, よっか, いつか, むいか, なのか, ようか, ここのか, とおか. Từ ngày 11 trở đi mới là số ＋ にち (じゅういちにち), trừ ngày 14 (じゅうよっか), 20 (はつか), 24 (にじゅうよっか).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-10",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "タクシーで　「九」しゅうまで　じゅっぷんです。",
+          "promptReading": "",
+          "promptTranslation": "Đi taxi tới Kyushu mất 10 phút.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "きゅう",
+              "translation": "chín (きゅう)",
+              "note": "Đúng: 九州 = きゅうしゅう — 九 đọc きゅう."
+            },
+            {
+              "id": "c2",
+              "text": "きゅ",
+              "translation": "(sai: thiếu う)",
+              "note": "Thiếu う: 九 là きゅう, âm dài."
+            },
+            {
+              "id": "c3",
+              "text": "く",
+              "translation": "chín (く — dùng cho 九月, 九時)",
+              "note": "く là âm của 九 trong 九月 (くがつ), 九時 (くじ); tên đảo 九州 đọc きゅうしゅう."
+            },
+            {
+              "id": "c4",
+              "text": "くう",
+              "translation": "(không có cách đọc này)",
+              "note": "くう không phải cách đọc nào của 九."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "九州 (きゅうしゅう) = đảo Kyushu; đề viết 九しゅう, chữ 州 để bằng hiragana. じゅっぷん = 10 phút.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "ck-so-mondai-2",
+      "title": "問題2 — Chọn chữ Hán (10 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-so-11",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "このこどもは　らいねん　「はっさい」　です。",
+          "promptReading": "",
+          "promptTranslation": "Đứa trẻ này sang năm lên 8 tuổi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "八さい",
+              "translation": "8 tuổi (はっさい)",
+              "note": "Đúng: 八さい = はっさい — 八 đứng trước さい biến thành はっ."
+            },
+            {
+              "id": "c2",
+              "text": "七さい",
+              "translation": "7 tuổi (ななさい)",
+              "note": "七さい đọc ななさい."
+            },
+            {
+              "id": "c3",
+              "text": "六さい",
+              "translation": "6 tuổi (ろくさい)",
+              "note": "六さい đọc ろくさい."
+            },
+            {
+              "id": "c4",
+              "text": "五さい",
+              "translation": "5 tuổi (ごさい)",
+              "note": "五さい đọc ごさい."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Tuổi với さい (才／歳): いっさい, にさい, さんさい, よんさい, ごさい, ろくさい, ななさい, はっさい, きゅうさい, じゅっさい. Số 1, 8, 10 bị ngắt âm.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-12",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "きょうしつは　どこですか。　きょうしつは　「ななかい」です。",
+          "promptReading": "",
+          "promptTranslation": "Phòng học ở đâu vậy? — Phòng học ở tầng 7.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "一かい",
+              "translation": "tầng 1 (いっかい)",
+              "note": "一かい đọc いっかい."
+            },
+            {
+              "id": "c2",
+              "text": "五かい",
+              "translation": "tầng 5 (ごかい)",
+              "note": "五かい đọc ごかい."
+            },
+            {
+              "id": "c3",
+              "text": "四かい",
+              "translation": "tầng 4 (よんかい)",
+              "note": "四かい đọc よんかい."
+            },
+            {
+              "id": "c4",
+              "text": "七かい",
+              "translation": "tầng 7 (ななかい)",
+              "note": "Đúng: なな = 七 → 七かい (tầng 7)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "かい (階) = tầng: いっかい, にかい, さんがい (tầng 3 đọc がい), よんかい, ごかい, ろっかい, ななかい, はっかい, きゅうかい, じゅっかい.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-13",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "わたしは　りんごを　「ここのつ」　かいました。",
+          "promptReading": "",
+          "promptTranslation": "Tôi đã mua 9 quả táo.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "丸つ",
+              "translation": "(丸 = tròn, không phải chữ số)",
+              "note": "丸 (まる, tròn) trông gần giống 九 nhưng có thêm một chấm; không phải chữ số."
+            },
+            {
+              "id": "c2",
+              "text": "九つ",
+              "translation": "9 cái (ここのつ)",
+              "note": "Đúng: 九つ = ここのつ."
+            },
+            {
+              "id": "c3",
+              "text": "八つ",
+              "translation": "8 cái (やっつ)",
+              "note": "八つ đọc やっつ."
+            },
+            {
+              "id": "c4",
+              "text": "七つ",
+              "translation": "7 cái (ななつ)",
+              "note": "七つ đọc ななつ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Đếm đồ vật bằng つ: ひとつ, ふたつ, みっつ, よっつ, いつつ, むっつ, ななつ, やっつ, ここのつ, とお (10 không có つ).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-14",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「しち」月に　にほんへ　いきます。",
+          "promptReading": "",
+          "promptTranslation": "Tháng 7 tôi sẽ đi Nhật.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "七",
+              "translation": "7 (しち／なな)",
+              "note": "Đúng: しち = 七 → 七月 (しちがつ)."
+            },
+            {
+              "id": "c2",
+              "text": "六",
+              "translation": "6 (ろく)",
+              "note": "六月 đọc ろくがつ."
+            },
+            {
+              "id": "c3",
+              "text": "五",
+              "translation": "5 (ご)",
+              "note": "五月 đọc ごがつ."
+            },
+            {
+              "id": "c4",
+              "text": "四",
+              "translation": "4 (し／よん)",
+              "note": "四 cũng có âm し (四月 = しがつ), dễ lẫn với しち — nhưng しち là 七."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "しがつ (四月, tháng 4) và しちがつ (七月, tháng 7) chỉ khác nhau một âm ち.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-15",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "わたしの　たんじょうびは　ろくがつ　「むいか」です。",
+          "promptReading": "",
+          "promptTranslation": "Sinh nhật tôi là ngày 6 tháng 6.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "七日",
+              "translation": "ngày 7 (なのか)",
+              "note": "七日 đọc なのか."
+            },
+            {
+              "id": "c2",
+              "text": "六日",
+              "translation": "ngày 6 (むいか)",
+              "note": "Đúng: むいか = 六日."
+            },
+            {
+              "id": "c3",
+              "text": "五日",
+              "translation": "ngày 5 (いつか)",
+              "note": "五日 đọc いつか."
+            },
+            {
+              "id": "c4",
+              "text": "八日",
+              "translation": "ngày 8 (ようか)",
+              "note": "八日 đọc ようか."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Ngày 5–8 hay lẫn: いつか (5), むいか (6), なのか (7), ようか (8).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-16",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "そこに　ワインが　なんぼん　ありますか。　「ろっぽん」　あります。",
+          "promptReading": "",
+          "promptTranslation": "Ở đó có mấy chai rượu vang? — Có 6 chai.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "二本",
+              "translation": "2 chai (にほん)",
+              "note": "二本 đọc にほん."
+            },
+            {
+              "id": "c2",
+              "text": "四本",
+              "translation": "4 chai (よんほん)",
+              "note": "四本 đọc よんほん."
+            },
+            {
+              "id": "c3",
+              "text": "六本",
+              "translation": "6 chai (ろっぽん)",
+              "note": "Đúng: ろっぽん = 六本."
+            },
+            {
+              "id": "c4",
+              "text": "八本",
+              "translation": "8 chai (はっぽん)",
+              "note": "八本 đọc はっぽん (hoặc はちほん)."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "本 (ほん) đếm vật dài (chai, bút, cây…), đổi âm theo số: いっぽん, にほん, さんぼん, よんほん, ごほん, ろっぽん, ななほん, はっぽん, きゅうほん, じゅっぽん; hỏi số lượng là なんぼん. Đề dán in なんほん — đã sửa thành なんぼん (何本).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-17",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "きのう　「くじ」から　じゅうじまで　べんきょうしました。",
+          "promptReading": "",
+          "promptTranslation": "Hôm qua tôi đã học từ 9 giờ đến 10 giờ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "九じ",
+              "translation": "9 giờ (くじ)",
+              "note": "Đúng: くじ = 九じ (9 giờ)."
+            },
+            {
+              "id": "c2",
+              "text": "八じ",
+              "translation": "8 giờ (はちじ)",
+              "note": "八じ đọc はちじ."
+            },
+            {
+              "id": "c3",
+              "text": "七じ",
+              "translation": "7 giờ (しちじ)",
+              "note": "七じ đọc しちじ."
+            },
+            {
+              "id": "c4",
+              "text": "六じ",
+              "translation": "6 giờ (ろくじ)",
+              "note": "六じ đọc ろくじ."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "9 giờ đọc くじ chứ không phải きゅうじ; cùng kiểu với 九月 (くがつ).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-18",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "きのうは　「はちがつ」　ようかでした。",
+          "promptReading": "",
+          "promptTranslation": "Hôm qua là ngày 8 tháng 8.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "一がつ",
+              "translation": "tháng 1 (いちがつ)",
+              "note": "一がつ đọc いちがつ."
+            },
+            {
+              "id": "c2",
+              "text": "三がつ",
+              "translation": "tháng 3 (さんがつ)",
+              "note": "三がつ đọc さんがつ."
+            },
+            {
+              "id": "c3",
+              "text": "四がつ",
+              "translation": "tháng 4 (しがつ)",
+              "note": "四がつ đọc しがつ."
+            },
+            {
+              "id": "c4",
+              "text": "八がつ",
+              "translation": "tháng 8 (はちがつ)",
+              "note": "Đúng: はちがつ = 八がつ."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "はち = 八; ようか (八日) = ngày 8 — cả câu là ngày 8 tháng 8.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-19",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "きょうは　「じゅうさん」にちですか。",
+          "promptReading": "",
+          "promptTranslation": "Hôm nay là ngày 13 à?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "十一",
+              "translation": "11 (じゅういち)",
+              "note": "十一 đọc じゅういち."
+            },
+            {
+              "id": "c2",
+              "text": "十二",
+              "translation": "12 (じゅうに)",
+              "note": "十二 đọc じゅうに."
+            },
+            {
+              "id": "c3",
+              "text": "十三",
+              "translation": "13 (じゅうさん)",
+              "note": "Đúng: じゅうさん = 十三 → 十三日 (じゅうさんにち)."
+            },
+            {
+              "id": "c4",
+              "text": "十四",
+              "translation": "14 (じゅうよん)",
+              "note": "十四 đọc じゅうよん; riêng ngày 14 là じゅうよっか."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Từ ngày 11 trở đi đọc số ＋ にち: じゅうさんにち. Ngoại lệ: ngày 14 (じゅうよっか), 20 (はつか), 24 (にじゅうよっか).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-so-20",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "たんじょうびは　いつですか。　九月　「ようか」です。",
+          "promptReading": "",
+          "promptTranslation": "Sinh nhật bạn là khi nào? — Ngày 8 tháng 9.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "十",
+              "translation": "10 (十日 = とおか)",
+              "note": "十日 đọc とおか."
+            },
+            {
+              "id": "c2",
+              "text": "九",
+              "translation": "9 (九日 = ここのか)",
+              "note": "九日 đọc ここのか."
+            },
+            {
+              "id": "c3",
+              "text": "八",
+              "translation": "8 (八日 = ようか)",
+              "note": "Đúng: ようか = 八日."
+            },
+            {
+              "id": "c4",
+              "text": "七",
+              "translation": "7 (七日 = なのか)",
+              "note": "七日 đọc なのか."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Lựa chọn chỉ in chữ số; ようか = 八日 (ngày 8). 九月 đọc くがつ.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "title": "一",
+      "meaning": "NHẤT · 1",
+      "lines": [
+        "いち; いっ trước k / s / t / p — いっぷん, いっかい, いっさい",
+        "ひと — 一つ (ひとつ)"
+      ]
+    },
+    {
+      "title": "二",
+      "meaning": "NHỊ · 2",
+      "lines": [
+        "に — 二十分 (にじゅっぷん), 二本 (にほん)",
+        "ふた — 二つ (ふたつ)"
+      ]
+    },
+    {
+      "title": "三",
+      "meaning": "TAM · 3",
+      "lines": [
+        "さん — 三月 (さんがつ)",
+        "みっ — 三つ (みっつ), 三日 (みっか)"
+      ]
+    },
+    {
+      "title": "四",
+      "meaning": "TỨ · 4",
+      "lines": [
+        "よん — 四本, 四かい; よ — 四時 (よじ)",
+        "し — 四月 (しがつ)",
+        "よっ — 四つ (よっつ), 四日 (よっか)"
+      ]
+    },
+    {
+      "title": "五",
+      "meaning": "NGŨ · 5",
+      "lines": [
+        "ご — 五月, 五さい",
+        "いつ — 五つ (いつつ), 五日 (いつか)"
+      ]
+    },
+    {
+      "title": "六",
+      "meaning": "LỤC · 6",
+      "lines": [
+        "ろく — 六月, 六時",
+        "ろっ — 六回 (ろっかい), 六本 (ろっぽん)",
+        "む／むい — 六つ (むっつ), 六日 (むいか)"
+      ]
+    },
+    {
+      "title": "七",
+      "meaning": "THẤT · 7",
+      "lines": [
+        "しち — 七月, 七時, 七五三 (しちごさん)",
+        "なな — 七つ (ななつ), 七人, 七かい",
+        "なの — 七日 (なのか)"
+      ]
+    },
+    {
+      "title": "八",
+      "meaning": "BÁT · 8",
+      "lines": [
+        "はち — 八月, 八時",
+        "はっ — 八さい (はっさい), 八本 (はっぽん)",
+        "や／よう — 八つ (やっつ), 八日 (ようか)"
+      ]
+    },
+    {
+      "title": "九",
+      "meaning": "CỬU · 9",
+      "lines": [
+        "きゅう — 九人, 九州 (きゅうしゅう)",
+        "く — 九月 (くがつ), 九時 (くじ)",
+        "ここの — 九つ (ここのつ), 九日 (ここのか)"
+      ]
+    },
+    {
+      "title": "十",
+      "meaning": "THẬP · 10",
+      "lines": [
+        "じゅう — 十時 (じゅうじ)",
+        "じゅっ／じっ — 十分 (じゅっぷん)",
+        "とお — 十 (とお), 十日 (とおか)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "id": "05-bai-5",
+  "name": "Bài 5",
+  "description": "日 · 月 · 火 · 水 · 木 — đề 20 câu: 問題1 đọc 10 từ (thứ trong tuần, 花火, お正月…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana. Có bảng tóm tắt cách đọc từng chữ.",
+  "kind": "test",
+  "parent": "",
+  "group": "",
+  "sections": [
+    {
+      "id": "ck-b5-mondai-1",
+      "title": "問題1 — Đọc chữ Hán (10 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b5-01",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "さんとさんの　誕生「日」は　こんしゅうの　きんようびですね。",
+          "promptReading": "",
+          "promptTranslation": "Sinh nhật của (hai bạn) là thứ Sáu tuần này nhỉ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "にち",
+              "translation": "(âm On: 毎日, 日曜日)",
+              "note": "にち là âm On (毎日, 日曜日); trong 誕生日 thì 日 đọc び."
+            },
+            {
+              "id": "c2",
+              "text": "ひ",
+              "translation": "(âm Kun khi đứng sau の)",
+              "note": "ひ là âm Kun khi đứng một mình hoặc sau の (母の日); đi liền sau 誕生 thì biến âm thành び."
+            },
+            {
+              "id": "c3",
+              "text": "び",
+              "translation": "ngày (biến âm của ひ)",
+              "note": "Đúng: 誕生日 = たんじょうび."
+            },
+            {
+              "id": "c4",
+              "text": "ぴ",
+              "translation": "(không phải cách đọc của 日)",
+              "note": "ぴ không phải cách đọc nào của 日."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "誕生日 (たんじょうび) = sinh nhật. ひ đứng liền sau một từ khác thường đổi thành び: 誕生日, 曜日 (ようび). Đề dán in さんとさんの — có lẽ tên hai người bị mất khi chép; câu vẫn đọc được.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-02",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "こんやの　「月」は　とても　きれいです。",
+          "promptReading": "",
+          "promptTranslation": "Trăng đêm nay rất đẹp.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "がつ",
+              "translation": "(tên tháng: 一月)",
+              "note": "がつ là cách đọc trong tên tháng (一月 いちがつ)."
+            },
+            {
+              "id": "c2",
+              "text": "げつ",
+              "translation": "(trong 月曜日)",
+              "note": "げつ là cách đọc trong 月曜日 (げつようび)."
+            },
+            {
+              "id": "c3",
+              "text": "つき",
+              "translation": "mặt trăng",
+              "note": "Đúng: 月 đứng một mình (mặt trăng) đọc つき."
+            },
+            {
+              "id": "c4",
+              "text": "つぎ",
+              "translation": "(次 = tiếp theo)",
+              "note": "つぎ (次) = tiếp theo — chỉ khác つき một dấu."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "月: つき (mặt trăng; 毎月 まいつき), げつ (月曜日), がつ (tên tháng).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-03",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "わたしは　毎日　「水」を　2リットル　のみます。",
+          "promptReading": "",
+          "promptTranslation": "Mỗi ngày tôi uống 2 lít nước.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "すい",
+              "translation": "(âm On: 水曜日, 水道)",
+              "note": "すい là âm On, chỉ dùng khi ghép: 水曜日, 水道."
+            },
+            {
+              "id": "c2",
+              "text": "すう",
+              "translation": "(không phải cách đọc của 水)",
+              "note": "すう không phải cách đọc của 水."
+            },
+            {
+              "id": "c3",
+              "text": "みす",
+              "translation": "(sai: thiếu dấu)",
+              "note": "Thiếu dấu: phải là みず."
+            },
+            {
+              "id": "c4",
+              "text": "みず",
+              "translation": "nước",
+              "note": "Đúng: 水 đứng một mình (nước) đọc みず."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "水: みず (nước), すい (水曜日, 水道). Đề dán in 2リット — thiếu ル, đã sửa thành 2リットル.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-04",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "としょかんの　やすみは　「火ようび」です。",
+          "promptReading": "",
+          "promptTranslation": "Thư viện nghỉ vào thứ Ba.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "げつようび",
+              "translation": "thứ Hai (月曜日)",
+              "note": "げつようび là 月曜日 (thứ Hai)."
+            },
+            {
+              "id": "c2",
+              "text": "かようび",
+              "translation": "thứ Ba (火曜日)",
+              "note": "Đúng: 火ようび = かようび (thứ Ba)."
+            },
+            {
+              "id": "c3",
+              "text": "すいようび",
+              "translation": "thứ Tư (水曜日)",
+              "note": "すいようび là 水曜日 (thứ Tư)."
+            },
+            {
+              "id": "c4",
+              "text": "もくようび",
+              "translation": "thứ Năm (木曜日)",
+              "note": "もくようび là 木曜日 (thứ Năm)."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "火 chỉ đọc か trong 火曜日; đứng một mình (lửa) thì là ひ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-05",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "たばこに　「火」を　つけます。",
+          "promptReading": "",
+          "promptTranslation": "Châm lửa điếu thuốc.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "か",
+              "translation": "(chỉ trong 火曜日)",
+              "note": "か chỉ dùng trong 火曜日 (かようび)."
+            },
+            {
+              "id": "c2",
+              "text": "ひ",
+              "translation": "lửa",
+              "note": "Đúng: 火 đứng một mình (lửa) đọc ひ — 火をつける = châm lửa."
+            },
+            {
+              "id": "c3",
+              "text": "び",
+              "translation": "(biến âm trong 花火)",
+              "note": "び là ひ biến âm khi đứng liền sau từ khác (花火 はなび); đứng một mình thì không."
+            },
+            {
+              "id": "c4",
+              "text": "ぴ",
+              "translation": "(không phải cách đọc của 火)",
+              "note": "ぴ không phải cách đọc của 火."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "火: ひ (lửa), び (花火), か (火曜日).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-06",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「お正月」は　1月1日です。",
+          "promptReading": "",
+          "promptTranslation": "Tết là ngày 1 tháng 1.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "おしょうかつ",
+              "translation": "(sai: thiếu dấu)",
+              "note": "Thiếu dấu: phải là がつ."
+            },
+            {
+              "id": "c2",
+              "text": "おしょうけつ",
+              "translation": "(không phải cách đọc này)",
+              "note": "けつ không phải cách đọc của 月."
+            },
+            {
+              "id": "c3",
+              "text": "おしょうがつ",
+              "translation": "Tết, năm mới",
+              "note": "Đúng: お正月 = おしょうがつ — 月 đọc がつ như trong tên tháng."
+            },
+            {
+              "id": "c4",
+              "text": "おしょうげつ",
+              "translation": "(げつ là âm trong 月曜日)",
+              "note": "げつ là cách đọc của 月 trong 月曜日, không dùng ở đây."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "お正月 (おしょうがつ) = Tết, mấy ngày đầu năm mới. 1月1日 = いちがつ ついたち.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-07",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "このえいがは　こんしゅうの　「水ようび」に　おわります。",
+          "promptReading": "",
+          "promptTranslation": "Bộ phim này chiếu đến thứ Tư tuần này là hết.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "むいようび",
+              "translation": "(むい là âm trong 六日)",
+              "note": "むい là âm của 六 trong 六日 (むいか), không liên quan tới 水."
+            },
+            {
+              "id": "c2",
+              "text": "すうようび",
+              "translation": "(không phải cách đọc này)",
+              "note": "すう không phải cách đọc của 水."
+            },
+            {
+              "id": "c3",
+              "text": "すようび",
+              "translation": "(sai: thiếu い)",
+              "note": "Thiếu い: 水 là すい."
+            },
+            {
+              "id": "c4",
+              "text": "すいようび",
+              "translation": "thứ Tư",
+              "note": "Đúng: 水ようび = すいようび (thứ Tư)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "水曜日 (すいようび) = thứ Tư. 水 đứng một mình đọc みず.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-08",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "こんばん　ともだちと　「花火」を　みます。",
+          "promptReading": "",
+          "promptTranslation": "Tối nay tôi đi xem pháo hoa với bạn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "はなび",
+              "translation": "pháo hoa",
+              "note": "Đúng: 花火 = はなび — ひ biến âm thành び khi đứng liền sau 花."
+            },
+            {
+              "id": "c2",
+              "text": "はなひ",
+              "translation": "(thiếu biến âm)",
+              "note": "Thiếu biến âm: ghép với 花 thì ひ thành び."
+            },
+            {
+              "id": "c3",
+              "text": "はなぴ",
+              "translation": "(không phải cách đọc này)",
+              "note": "ぴ không phải cách đọc của 火."
+            },
+            {
+              "id": "c4",
+              "text": "はなか",
+              "translation": "(か chỉ trong 火曜日)",
+              "note": "か chỉ dùng trong 火曜日."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "花 (はな, hoa) ＋ 火 (ひ, lửa) → 花火 (はなび) — \"hoa lửa\" = pháo hoa.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-09",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「毎日」　日本語を　べんきょうします。",
+          "promptReading": "",
+          "promptTranslation": "Ngày nào tôi cũng học tiếng Nhật.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "まいにち",
+              "translation": "mỗi ngày",
+              "note": "Đúng: 毎日 = まいにち — 日 đọc âm On にち khi ghép với 毎."
+            },
+            {
+              "id": "c2",
+              "text": "まいひ",
+              "translation": "(không có cách đọc này)",
+              "note": "ひ là âm Kun, không ghép với 毎."
+            },
+            {
+              "id": "c3",
+              "text": "まいび",
+              "translation": "(không có cách đọc này)",
+              "note": "び là ひ biến âm (誕生日), không dùng trong 毎日."
+            },
+            {
+              "id": "c4",
+              "text": "まいぴ",
+              "translation": "(không có cách đọc này)",
+              "note": "ぴ không phải cách đọc của 日."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "毎 (まい) = mỗi: 毎日 (まいにち), 毎月 (まいつき), 毎年 (まいとし), 毎週 (まいしゅう).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-10",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "かいぎは　何曜日ですか。　「木」よう日です。",
+          "promptReading": "",
+          "promptTranslation": "Cuộc họp là thứ mấy? — Thứ Năm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "にち",
+              "translation": "(日曜日 — Chủ nhật)",
+              "note": "にち là 日 trong 日曜日 (Chủ nhật)."
+            },
+            {
+              "id": "c2",
+              "text": "もく",
+              "translation": "(木曜日 — thứ Năm)",
+              "note": "Đúng: 木 trong 木曜日 đọc もく."
+            },
+            {
+              "id": "c3",
+              "text": "か",
+              "translation": "(火曜日 — thứ Ba)",
+              "note": "か là 火 trong 火曜日 (thứ Ba)."
+            },
+            {
+              "id": "c4",
+              "text": "すい",
+              "translation": "(水曜日 — thứ Tư)",
+              "note": "すい là 水 trong 水曜日 (thứ Tư)."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "木 đọc もく trong 木曜日; đứng một mình (cây) đọc き. 何曜日 (なんようび) = thứ mấy.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "ck-b5-mondai-2",
+      "title": "問題2 — Chọn chữ Hán (10 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b5-11",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「げつ」ようびに　がっこうへ　いきます。",
+          "promptReading": "",
+          "promptTranslation": "Thứ Hai tôi đi học.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "日",
+              "translation": "日 (にち)",
+              "note": "日曜日 đọc にちようび (Chủ nhật)."
+            },
+            {
+              "id": "c2",
+              "text": "月",
+              "translation": "月 (げつ)",
+              "note": "Đúng: げつ = 月 → 月曜日 (thứ Hai)."
+            },
+            {
+              "id": "c3",
+              "text": "火",
+              "translation": "火 (か)",
+              "note": "火曜日 đọc かようび (thứ Ba)."
+            },
+            {
+              "id": "c4",
+              "text": "水",
+              "translation": "水 (すい)",
+              "note": "水曜日 đọc すいようび (thứ Tư)."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "月曜日 (げつようび) = thứ Hai.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-12",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "こうえんに　さくらの「き」が　たくさん　あります。",
+          "promptReading": "",
+          "promptTranslation": "Trong công viên có nhiều cây anh đào.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "休",
+              "translation": "nghỉ (休)",
+              "note": "休 (やす.む) = nghỉ — người 亻 tựa vào cây 木."
+            },
+            {
+              "id": "c2",
+              "text": "体",
+              "translation": "cơ thể (体)",
+              "note": "体 (からだ) = cơ thể — 亻 ＋ 本."
+            },
+            {
+              "id": "c3",
+              "text": "本",
+              "translation": "sách, gốc (本)",
+              "note": "本 (ほん) = sách, gốc — 木 thêm một nét ngang ở gốc."
+            },
+            {
+              "id": "c4",
+              "text": "木",
+              "translation": "cây (木)",
+              "note": "Đúng: き = 木 (cây)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Bốn chữ đều có 木 bên trong: 木 (cây), 本 (thêm nét gạch ở gốc), 休 (người tựa gốc cây = nghỉ), 体 (người ＋ 本).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-13",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "ははの「ひ」は　なんにちですか。",
+          "promptReading": "",
+          "promptTranslation": "Ngày của Mẹ là ngày bao nhiêu?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "日",
+              "translation": "ngày (日)",
+              "note": "Đúng: 母の日 = Ngày của Mẹ — ひ ở đây là 日 (ngày)."
+            },
+            {
+              "id": "c2",
+              "text": "口",
+              "translation": "miệng (口)",
+              "note": "口 (くち) = miệng."
+            },
+            {
+              "id": "c3",
+              "text": "目",
+              "translation": "mắt (目)",
+              "note": "目 (め) = mắt."
+            },
+            {
+              "id": "c4",
+              "text": "火",
+              "translation": "lửa (火)",
+              "note": "火 cũng đọc ひ nhưng nghĩa là lửa."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "日 và 火 đều đọc ひ: ngày → 日, lửa → 火. Câu 14 là cặp ngược lại.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-14",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "だんろの　「ひ」は　あたたかいです。",
+          "promptReading": "",
+          "promptTranslation": "Lửa trong lò sưởi thật ấm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "日",
+              "translation": "ngày (日)",
+              "note": "日 cũng đọc ひ nhưng nghĩa là ngày, mặt trời — lò sưởi thì có lửa."
+            },
+            {
+              "id": "c2",
+              "text": "口",
+              "translation": "miệng (口)",
+              "note": "口 (くち) = miệng."
+            },
+            {
+              "id": "c3",
+              "text": "目",
+              "translation": "mắt (目)",
+              "note": "目 (め) = mắt."
+            },
+            {
+              "id": "c4",
+              "text": "火",
+              "translation": "lửa (火)",
+              "note": "Đúng: だんろの火 = lửa lò sưởi."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "だんろ (暖炉) = lò sưởi. Cùng âm ひ: 日 (ngày) ở câu 13, 火 (lửa) ở câu này.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-15",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "９「がつ」に　くにへ　かえります。",
+          "promptReading": "",
+          "promptTranslation": "Tháng 9 tôi về nước.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "日",
+              "translation": "ngày (日)",
+              "note": "日 sau số chỉ ngày (9日 ここのか), không phải tháng."
+            },
+            {
+              "id": "c2",
+              "text": "月",
+              "translation": "tháng (月)",
+              "note": "Đúng: がつ = 月 → 9月 (くがつ)."
+            },
+            {
+              "id": "c3",
+              "text": "火",
+              "translation": "lửa (火)",
+              "note": "火 đọc ひ, か — không đọc がつ."
+            },
+            {
+              "id": "c4",
+              "text": "水",
+              "translation": "nước (水)",
+              "note": "水 đọc みず, すい — không đọc がつ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "9月 đọc くがつ, không phải きゅうがつ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-16",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「にっき」を　かきます。",
+          "promptReading": "",
+          "promptTranslation": "Tôi viết nhật ký.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "口き",
+              "translation": "(口 = miệng)",
+              "note": "口 (くち) = miệng — không đọc にっ."
+            },
+            {
+              "id": "c2",
+              "text": "目き",
+              "translation": "(目 = mắt)",
+              "note": "目 (め, もく) = mắt — không đọc にっ."
+            },
+            {
+              "id": "c3",
+              "text": "日き",
+              "translation": "nhật ký (日き)",
+              "note": "Đúng: にっ = 日 → 日き (日記, にっき)."
+            },
+            {
+              "id": "c4",
+              "text": "火き",
+              "translation": "(火 = lửa)",
+              "note": "火 (ひ, か) = lửa — không đọc にっ."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "日記 (にっき) = nhật ký; 日 (にち) đứng trước き bị ngắt âm thành にっ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-17",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「にち」ようびは　やすみのひです。",
+          "promptReading": "",
+          "promptTranslation": "Chủ nhật là ngày nghỉ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "月",
+              "translation": "月 (げつ)",
+              "note": "月曜日 đọc げつようび (thứ Hai)."
+            },
+            {
+              "id": "c2",
+              "text": "火",
+              "translation": "火 (か)",
+              "note": "火曜日 đọc かようび (thứ Ba)."
+            },
+            {
+              "id": "c3",
+              "text": "日",
+              "translation": "日 (にち)",
+              "note": "Đúng: にち = 日 → 日曜日 (Chủ nhật)."
+            },
+            {
+              "id": "c4",
+              "text": "木",
+              "translation": "木 (もく)",
+              "note": "木曜日 đọc もくようび (thứ Năm)."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Câu có hai lần 日: にちようび (日曜日) và やすみのひ (休みの日).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-18",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「まいつき」　テストが　あります。",
+          "promptReading": "",
+          "promptTranslation": "Tháng nào cũng có bài kiểm tra.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "毎日",
+              "translation": "mỗi ngày (まいにち)",
+              "note": "毎日 đọc まいにち."
+            },
+            {
+              "id": "c2",
+              "text": "毎月",
+              "translation": "mỗi tháng (まいつき)",
+              "note": "Đúng: まいつき = 毎月."
+            },
+            {
+              "id": "c3",
+              "text": "毎年",
+              "translation": "mỗi năm (まいとし)",
+              "note": "毎年 đọc まいとし (hoặc まいねん)."
+            },
+            {
+              "id": "c4",
+              "text": "毎週",
+              "translation": "mỗi tuần (まいしゅう)",
+              "note": "毎週 đọc まいしゅう."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "毎月 đọc まいつき — 月 ở đây đọc âm Kun つき.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-19",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「すいどう」のせんをとじます。",
+          "promptReading": "",
+          "promptTranslation": "Khóa vòi nước lại.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "水道",
+              "translation": "nước máy (すいどう)",
+              "note": "Đúng: すいどう = 水道 (nước máy, đường ống nước)."
+            },
+            {
+              "id": "c2",
+              "text": "火道",
+              "translation": "(không có từ này)",
+              "note": "火道 không phải từ thường dùng; 火 đọc ひ, か."
+            },
+            {
+              "id": "c3",
+              "text": "川道",
+              "translation": "(川 = sông)",
+              "note": "川 (かわ) = sông — không đọc すい."
+            },
+            {
+              "id": "c4",
+              "text": "氷道",
+              "translation": "(氷 = băng)",
+              "note": "氷 (こおり) = băng — trông như 水 thêm một chấm."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "水 và 氷 chỉ khác một chấm: 氷 (băng) có thêm nét chấm bên trái. せん (栓) = nút, vòi; 水道のせん = vòi nước (thường nói せんをしめます).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b5-20",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「き」むらさんは　バスで　かいしゃへ　いきます。",
+          "promptReading": "",
+          "promptTranslation": "Anh Kimura đi làm bằng xe buýt.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "休むら",
+              "translation": "(休 = nghỉ)",
+              "note": "休 (やす.む) = nghỉ — không đọc き."
+            },
+            {
+              "id": "c2",
+              "text": "体むら",
+              "translation": "(体 = cơ thể)",
+              "note": "体 (からだ, たい) = cơ thể — không đọc き."
+            },
+            {
+              "id": "c3",
+              "text": "本むら",
+              "translation": "(本 = sách)",
+              "note": "本 (ほん, もと) = sách, gốc — không đọc き."
+            },
+            {
+              "id": "c4",
+              "text": "木むら",
+              "translation": "Kimura (木村)",
+              "note": "Đúng: き = 木 → 木むら (木村, きむら)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "木村 (きむら) là một họ của người Nhật; き = 木 (cây). Bốn chữ cùng có 木, giống câu 12.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "title": "日",
+      "meaning": "NHẬT · ngày, mặt trời",
+      "lines": [
+        "にち — 毎日 (まいにち), 日曜日 (にちようび); にっ — 日記 (にっき)",
+        "ひ — đứng sau の: 母の日 (ははのひ), 休みの日; び — liền sau từ khác: 誕生日 (たんじょうび), 曜日 (ようび)",
+        "か — ngày trong tháng: 八日 (ようか), 十日 (とおか)"
+      ]
+    },
+    {
+      "title": "月",
+      "meaning": "NGUYỆT · mặt trăng, tháng",
+      "lines": [
+        "つき — 月 (mặt trăng), 毎月 (まいつき)",
+        "げつ — 月曜日 (げつようび)",
+        "がつ — tên tháng: 一月 (いちがつ), 九月 (くがつ), お正月 (おしょうがつ)"
+      ]
+    },
+    {
+      "title": "火",
+      "meaning": "HỎA · lửa",
+      "lines": [
+        "ひ — 火をつける (châm lửa); び — 花火 (はなび: pháo hoa)",
+        "か — 火曜日 (かようび)"
+      ]
+    },
+    {
+      "title": "水",
+      "meaning": "THỦY · nước",
+      "lines": [
+        "みず — 水 (nước)",
+        "すい — 水曜日 (すいようび), 水道 (すいどう: nước máy)"
+      ]
+    },
+    {
+      "title": "木",
+      "meaning": "MỘC · cây",
+      "lines": [
+        "き — 木 (cây), さくらの木, 木村 (きむら)",
+        "もく — 木曜日 (もくようび)"
+      ]
+    },
+    {
+      "title": "曜日",
+      "meaning": "DIỆU NHẬT · thứ trong tuần",
+      "lines": [
+        "月曜日 げつ (thứ Hai) · 火曜日 か (thứ Ba) · 水曜日 すい (thứ Tư) · 木曜日 もく (thứ Năm)",
+        "金曜日 きん (thứ Sáu) · 土曜日 ど (thứ Bảy) · 日曜日 にち (Chủ nhật) · 何曜日 なん (thứ mấy)"
+      ]
+    }
+  ]
+}

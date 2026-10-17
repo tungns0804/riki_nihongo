@@ -4,7 +4,7 @@
     "name": "BTVN CƠ BẢN (MỚI)",
     "level": "N3"
   },
-  "generatedAt": "2026-10-15T18:26:38.561Z",
+  "generatedAt": "2026-10-17T02:59:09.295Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -186,6 +186,22 @@
           "itemCount": 7,
           "order": 901,
           "file": "kanji/09-bai-9-btvn.json"
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "units": [
+        {
+          "id": "09-bai-9",
+          "name": "Bài 9",
+          "description": "Bài tập về nhà \"BTVN N3 CƠ BẢN - Bài 9\" — 15 câu: 10 câu chọn từ và 5 câu ghép câu (★) về ～始める · ～終わる · ～続ける · ～直す · ～出す.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 15,
+          "order": 9,
+          "file": "grammar/09-bai-9.json"
         }
       ]
     }

@@ -10,16 +10,21 @@ data-source/
 │   │   └── 01-danh-tu/           một bài
 │   ├── kanji/ grammar/ …
 │   └── mimikara/
-├── btvn-co-ban/                  BTVN CƠ BẢN (MỚI) — Từ vựng và Kanji
+├── btvn-co-ban/                  BTVN CƠ BẢN (MỚI) — Từ vựng, Kanji và Ngữ pháp
+│   ├── vocabulary/
+│   │   └── 01-danh-tu/
+│   ├── kanji/
+│   │   └── 01-bai-1/ 02-bai-2/ …
+│   └── grammar/
+│       └── 09-bai-9/
+├── btvn-n4-chuyen-sau/           BTVN N4 CHUYÊN SÂU — mỗi bài là một đề
 │   ├── vocabulary/
 │   │   └── 01-danh-tu/
 │   └── kanji/
-│       └── 01-bai-1/ 02-bai-2/ …
-└── btvn-n4-chuyen-sau/           BTVN N4 CHUYÊN SÂU — mỗi bài là một đề
-    ├── vocabulary/
-    │   └── 01-danh-tu/
+│       └── 02-buoi-2/
+└── combo-kanji-n5-n4/            Combo Kanji N5-N4 — chỉ có Kanji, mỗi bài là một đề
     └── kanji/
-        └── 02-buoi-2/
+        └── 01-chu-so/
 ```
 
 Tên thư mục học phần là `id` trong `COURSES` (`src/app/core/course/course.config.ts`),

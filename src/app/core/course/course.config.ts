@@ -36,14 +36,15 @@ export interface CourseDef {
 }
 
 /**
- * Năm học phần của website Riki Nihongo, đúng thứ tự Riki liệt kê.
+ * Các học phần của website Riki Nihongo: năm học phần theo đúng thứ tự Riki liệt kê, cộng
+ * Combo Kanji N5-N4 (khoá kanji sơ cấp riêng) xếp ngay sau các học phần đã mở.
  *
  * Học phần chưa làm VẪN hiện trong bộ chọn, mờ đi kèm nhãn "Sắp có": người học phải
  * thấy trang gồm những học phần nào ngay từ đầu, ẩn đi thì trang trông như chỉ có
  * đúng những khoá đã làm.
  */
 export const COURSES: readonly CourseDef[] = [
-  // 準備 · 基本 · 深 (chuyên sâu) · 対策 · 模試 (luyện đề)
+  // 準備 · 基本 · 深 (chuyên sâu) · 字 (combo kanji) · 対策 · 模試 (luyện đề)
   {
     id: 'n3-junbi',
     icon: '準',
@@ -58,7 +59,7 @@ export const COURSES: readonly CourseDef[] = [
     nameKey: 'course.btvn-co-ban.name',
     descKey: 'course.btvn-co-ban.desc',
     status: 'active',
-    modules: ['vocabulary', 'kanji'],
+    modules: ['vocabulary', 'kanji', 'grammar'],
   },
   {
     id: 'btvn-n4-chuyen-sau',
@@ -67,6 +68,14 @@ export const COURSES: readonly CourseDef[] = [
     descKey: 'course.btvn-n4-chuyen-sau.desc',
     status: 'active',
     modules: ['vocabulary', 'kanji', 'grammar'],
+  },
+  {
+    id: 'combo-kanji-n5-n4',
+    icon: '字',
+    nameKey: 'course.combo-kanji-n5-n4.name',
+    descKey: 'course.combo-kanji-n5-n4.desc',
+    status: 'active',
+    modules: ['kanji'],
   },
   { id: 'n3-taisaku', icon: '策', nameKey: 'course.n3-taisaku.name', descKey: 'course.soon.desc', status: 'soon', modules: [] },
   { id: 'n3-luyen-de', icon: '模', nameKey: 'course.n3-luyen-de.name', descKey: 'course.soon.desc', status: 'soon', modules: [] },
