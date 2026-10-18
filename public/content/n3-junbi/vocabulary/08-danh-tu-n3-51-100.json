@@ -1,37 +1,16 @@
 {
   "id": "08-danh-tu-n3-51-100",
   "name": "名詞 51–100",
-  "description": "Từ vựng N3 — 50 danh từ 51–100 của bảng \"Bài 1 名詞 120\": chữ Hán, hiragana, nghĩa; luyện theo cụm 10 từ.",
+  "description": "Từ vựng N3 — 50 danh từ 51–100 của bảng \"Bài 1 名詞 120\": chữ Hán, hiragana, nghĩa; luyện cả bài một lượt.",
   "kind": "vocabulary",
   "parent": "",
   "group": "",
-  "groups": [
-    {
-      "label": "51–60",
-      "title": ""
-    },
-    {
-      "label": "61–70",
-      "title": ""
-    },
-    {
-      "label": "71–80",
-      "title": ""
-    },
-    {
-      "label": "81–90",
-      "title": ""
-    },
-    {
-      "label": "91–100",
-      "title": ""
-    }
-  ],
+  "groups": [],
   "words": [
     {
       "id": "cae7f6d75294f116",
       "number": 51,
-      "group": "51–60",
+      "group": "",
       "particle": "",
       "japanese": "引っ越し",
       "reading": "ひっこし",
@@ -43,7 +22,7 @@
     {
       "id": "a1c021c72dff9959",
       "number": 52,
-      "group": "51–60",
+      "group": "",
       "particle": "",
       "japanese": "身長",
       "reading": "しんちょう",
@@ -55,7 +34,7 @@
     {
       "id": "60439aa0480de5e5",
       "number": 53,
-      "group": "51–60",
+      "group": "",
       "particle": "",
       "japanese": "体重",
       "reading": "たいじゅう",
@@ -67,7 +46,7 @@
     {
       "id": "e0c7ac23cf2bef63",
       "number": 54,
-      "group": "51–60",
+      "group": "",
       "particle": "",
       "japanese": "けが",
       "reading": "",
@@ -79,7 +58,7 @@
     {
       "id": "d7a5e3131bb4fe46",
       "number": 55,
-      "group": "51–60",
+      "group": "",
       "particle": "",
       "japanese": "会",
       "reading": "かい",
@@ -91,7 +70,7 @@
     {
       "id": "8bf8bb2fb75d4f25",
       "number": 56,
-      "group": "51–60",
+      "group": "",
       "particle": "",
       "japanese": "趣味",
       "reading": "しゅみ",
@@ -103,7 +82,7 @@
     {
       "id": "fda02ca1f67908dd",
       "number": 57,
-      "group": "51–60",
+      "group": "",
       "particle": "",
       "japanese": "興味",
       "reading": "きょうみ",
@@ -115,7 +94,7 @@
     {
       "id": "f2a755e88fe7efdb",
       "number": 58,
-      "group": "51–60",
+      "group": "",
       "particle": "",
       "japanese": "思い出",
       "reading": "おもいで",
@@ -127,7 +106,7 @@
     {
       "id": "87fc6249ee7dc1e4",
       "number": 59,
-      "group": "51–60",
+      "group": "",
       "particle": "",
       "japanese": "冗談",
       "reading": "じょうだん",
@@ -139,7 +118,7 @@
     {
       "id": "e9725957021b876d",
       "number": 60,
-      "group": "51–60",
+      "group": "",
       "particle": "",
       "japanese": "目的",
       "reading": "もくてき",
@@ -151,7 +130,7 @@
     {
       "id": "2465958024566188",
       "number": 61,
-      "group": "61–70",
+      "group": "",
       "particle": "",
       "japanese": "約束",
       "reading": "やくそく",
@@ -163,7 +142,7 @@
     {
       "id": "de45f18d9dd7f8ad",
       "number": 62,
-      "group": "61–70",
+      "group": "",
       "particle": "",
       "japanese": "おしゃべり",
       "reading": "",
@@ -175,7 +154,7 @@
     {
       "id": "2ec8c9d06bb2ad02",
       "number": 63,
-      "group": "61–70",
+      "group": "",
       "particle": "",
       "japanese": "遠慮",
       "reading": "えんりょ",
@@ -187,7 +166,7 @@
     {
       "id": "7e55250dbd71b386",
       "number": 64,
-      "group": "61–70",
+      "group": "",
       "particle": "",
       "japanese": "我慢",
       "reading": "がまん",
@@ -199,7 +178,7 @@
     {
       "id": "7ec9f7baa730a187",
       "number": 65,
-      "group": "61–70",
+      "group": "",
       "particle": "",
       "japanese": "迷惑",
       "reading": "めいわく",
@@ -211,7 +190,7 @@
     {
       "id": "772e91b7cae4d488",
       "number": 66,
-      "group": "61–70",
+      "group": "",
       "particle": "",
       "japanese": "希望",
       "reading": "きぼう",
@@ -223,7 +202,7 @@
     {
       "id": "ca121ed042e0f0a7",
       "number": 67,
-      "group": "61–70",
+      "group": "",
       "particle": "",
       "japanese": "夢",
       "reading": "ゆめ",
@@ -235,7 +214,7 @@
     {
       "id": "ecd5b9803098ff38",
       "number": 68,
-      "group": "61–70",
+      "group": "",
       "particle": "",
       "japanese": "賛成",
       "reading": "さんせい",
@@ -247,7 +226,7 @@
     {
       "id": "95a1808a9b1e2d78",
       "number": 69,
-      "group": "61–70",
+      "group": "",
       "particle": "",
       "japanese": "反対",
       "reading": "はんたい",
@@ -259,7 +238,7 @@
     {
       "id": "b1ae19a2d11807c4",
       "number": 70,
-      "group": "61–70",
+      "group": "",
       "particle": "",
       "japanese": "想像",
       "reading": "そうぞう",
@@ -271,7 +250,7 @@
     {
       "id": "b4d606df3253b856",
       "number": 71,
-      "group": "71–80",
+      "group": "",
       "particle": "",
       "japanese": "努力",
       "reading": "どりょく",
@@ -283,7 +262,7 @@
     {
       "id": "6b7999badec36a51",
       "number": 72,
-      "group": "71–80",
+      "group": "",
       "particle": "",
       "japanese": "太陽",
       "reading": "たいよう",
@@ -295,7 +274,7 @@
     {
       "id": "a7e8756de8165304",
       "number": 73,
-      "group": "71–80",
+      "group": "",
       "particle": "",
       "japanese": "地球",
       "reading": "ちきゅう",
@@ -307,7 +286,7 @@
     {
       "id": "e28b31af650cccfe",
       "number": 74,
-      "group": "71–80",
+      "group": "",
       "particle": "",
       "japanese": "温度",
       "reading": "おんど",
@@ -319,7 +298,7 @@
     {
       "id": "1586194f38dc5e9a",
       "number": 75,
-      "group": "71–80",
+      "group": "",
       "particle": "",
       "japanese": "湿度",
       "reading": "しつど",
@@ -331,7 +310,7 @@
     {
       "id": "70d9052a55efb71b",
       "number": 76,
-      "group": "71–80",
+      "group": "",
       "particle": "",
       "japanese": "湿気",
       "reading": "しっけ",
@@ -343,7 +322,7 @@
     {
       "id": "6019aeee9b8a2390",
       "number": 77,
-      "group": "71–80",
+      "group": "",
       "particle": "",
       "japanese": "梅雨",
       "reading": "つゆ",
@@ -355,7 +334,7 @@
     {
       "id": "981d18481c2e2841",
       "number": 78,
-      "group": "71–80",
+      "group": "",
       "particle": "",
       "japanese": "かび",
       "reading": "",
@@ -367,7 +346,7 @@
     {
       "id": "8a7731639421e568",
       "number": 79,
-      "group": "71–80",
+      "group": "",
       "particle": "",
       "japanese": "暖房",
       "reading": "だんぼう",
@@ -379,7 +358,7 @@
     {
       "id": "eecfe4c65a5143a7",
       "number": 80,
-      "group": "71–80",
+      "group": "",
       "particle": "",
       "japanese": "皮",
       "reading": "かわ",
@@ -391,7 +370,7 @@
     {
       "id": "19eb5ec5781ab06c",
       "number": 81,
-      "group": "81–90",
+      "group": "",
       "particle": "",
       "japanese": "缶",
       "reading": "かん",
@@ -403,7 +382,7 @@
     {
       "id": "eecb35a12ec38f84",
       "number": 82,
-      "group": "81–90",
+      "group": "",
       "particle": "",
       "japanese": "画面",
       "reading": "がめん",
@@ -415,7 +394,7 @@
     {
       "id": "7f54dda56d620c0e",
       "number": 83,
-      "group": "81–90",
+      "group": "",
       "particle": "",
       "japanese": "番組",
       "reading": "ばんぐみ",
@@ -427,7 +406,7 @@
     {
       "id": "0945cc5e253d9f13",
       "number": 84,
-      "group": "81–90",
+      "group": "",
       "particle": "",
       "japanese": "記事",
       "reading": "きじ",
@@ -439,7 +418,7 @@
     {
       "id": "3a3a9b5cee733ced",
       "number": 85,
-      "group": "81–90",
+      "group": "",
       "particle": "",
       "japanese": "近所",
       "reading": "きんじょ",
@@ -451,7 +430,7 @@
     {
       "id": "47d9f4a2617c51c0",
       "number": 86,
-      "group": "81–90",
+      "group": "",
       "particle": "",
       "japanese": "警察",
       "reading": "けいさつ",
@@ -463,7 +442,7 @@
     {
       "id": "32617b3ad3cb2739",
       "number": 87,
-      "group": "81–90",
+      "group": "",
       "particle": "",
       "japanese": "犯人",
       "reading": "はんにん",
@@ -475,7 +454,7 @@
     {
       "id": "e512a0d975868b9d",
       "number": 88,
-      "group": "81–90",
+      "group": "",
       "particle": "",
       "japanese": "小銭",
       "reading": "こぜに",
@@ -487,7 +466,7 @@
     {
       "id": "41f7f93db1652a42",
       "number": 89,
-      "group": "81–90",
+      "group": "",
       "particle": "",
       "japanese": "ごちそう",
       "reading": "",
@@ -499,7 +478,7 @@
     {
       "id": "8f8865c594d0a723",
       "number": 90,
-      "group": "81–90",
+      "group": "",
       "particle": "",
       "japanese": "作者",
       "reading": "さくしゃ",
@@ -511,7 +490,7 @@
     {
       "id": "d3a5088102e7535a",
       "number": 91,
-      "group": "91–100",
+      "group": "",
       "particle": "",
       "japanese": "作品",
       "reading": "さくひん",
@@ -523,7 +502,7 @@
     {
       "id": "c27c75297b21fd41",
       "number": 92,
-      "group": "91–100",
+      "group": "",
       "particle": "",
       "japanese": "制服",
       "reading": "せいふく",
@@ -535,7 +514,7 @@
     {
       "id": "d065c3351e16e14f",
       "number": 93,
-      "group": "91–100",
+      "group": "",
       "particle": "",
       "japanese": "洗剤",
       "reading": "せんざい",
@@ -547,7 +526,7 @@
     {
       "id": "48dcc696091af6c8",
       "number": 94,
-      "group": "91–100",
+      "group": "",
       "particle": "",
       "japanese": "底",
       "reading": "そこ",
@@ -559,7 +538,7 @@
     {
       "id": "2566f4a4b22c55cb",
       "number": 95,
-      "group": "91–100",
+      "group": "",
       "particle": "",
       "japanese": "地下",
       "reading": "ちか",
@@ -571,7 +550,7 @@
     {
       "id": "7c8f886186ce493b",
       "number": 96,
-      "group": "91–100",
+      "group": "",
       "particle": "",
       "japanese": "寺",
       "reading": "てら",
@@ -583,7 +562,7 @@
     {
       "id": "32e6739bd7544503",
       "number": 97,
-      "group": "91–100",
+      "group": "",
       "particle": "",
       "japanese": "道路",
       "reading": "どうろ",
@@ -595,7 +574,7 @@
     {
       "id": "47c299f58a34c8f1",
       "number": 98,
-      "group": "91–100",
+      "group": "",
       "particle": "",
       "japanese": "坂",
       "reading": "さか",
@@ -607,7 +586,7 @@
     {
       "id": "b45f6a10323b4e7b",
       "number": 99,
-      "group": "91–100",
+      "group": "",
       "particle": "",
       "japanese": "煙",
       "reading": "けむり",
@@ -619,7 +598,7 @@
     {
       "id": "ff0ff1e8086e2d61",
       "number": 100,
-      "group": "91–100",
+      "group": "",
       "particle": "",
       "japanese": "灰",
       "reading": "はい",

@@ -2,7 +2,6 @@
 # Nguồn: ảnh bảng "Bài 1 名詞 120" người dùng gửi 2026-10-18 (Kanji · Hiragana · Meaning).
 # Bảng gọn: chỉ mặt chữ, cách đọc và nghĩa như ảnh; câu ví dụ đầy đủ nằm ở bài "Danh từ".
 
-## 51–60
 51. 引っ越し (ひっこし) = DẪN VIỆT ; Chuyển nhà
 52. 身長 (しんちょう) = THÂN TRƯỜNG ; Chiều cao
 53. 体重 (たいじゅう) = THỂ TRỌNG ; Cân nặng
@@ -14,7 +13,6 @@
 59. 冗談 (じょうだん) = NHŨNG ĐÀM ; Đùa cợt
 60. 目的 (もくてき) = MỤC ĐÍCH ; Mục đích
 
-## 61–70
 61. 約束 (やくそく) = ƯỚC THÚC ; Lời hứa
 62. おしゃべり = Nói chuyện riêng
 63. 遠慮 (えんりょ) = VIỄN LỰ ; Ngại ngần
@@ -26,7 +24,6 @@
 69. 反対 (はんたい) = PHẢN ĐỐI ; Đối lập
 70. 想像 (そうぞう) = TƯỞNG TƯỢNG ; Tưởng tượng
 
-## 71–80
 71. 努力 (どりょく) = NỖ LỰC ; Nỗ lực
 72. 太陽 (たいよう) = THÁI DƯƠNG ; Mặt trời
 73. 地球 (ちきゅう) = ĐỊA CẦU ; Trái đất
@@ -38,7 +35,6 @@
 79. 暖房 (だんぼう) = NOÃN PHÒNG ; Điều hòa ấm
 80. 皮 (かわ) = BÌ ; Vỏ
 
-## 81–90
 81. 缶 (かん) = PHỮU ; Đồ hộp
 82. 画面 (がめん) = HOẠ DIỆN ; Màn hình
 83. 番組 (ばんぐみ) = PHIÊN TỔ ; Chương trình
@@ -50,7 +46,6 @@
 89. ごちそう = Chiêu đãi
 90. 作者 (さくしゃ) = TÁC GIẢ ; Tác giả
 
-## 91–100
 91. 作品 (さくひん) = TÁC PHẨM ; Tác phẩm
 92. 制服 (せいふく) = CHẾ PHỤC ; Đồng phục
 93. 洗剤 (せんざい) = TẨY TỄ ; Bột giặt
