@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-17T03:20:14.360Z",
+  "generatedAt": "2026-10-18T02:27:57.290Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -204,6 +204,93 @@
             {
               "label": "399–410",
               "title": "Bài 21.2 · Thường lệ, khác biệt, quốc tế và thiên nhiên"
+            }
+          ]
+        },
+        {
+          "id": "07-danh-tu-n3-1-50",
+          "name": "名詞 1–50",
+          "description": "Từ vựng N3 — 50 danh từ 1–50 của bảng \"Bài 1 名詞 120\": chữ Hán, hiragana, nghĩa; luyện theo cụm 10 từ.",
+          "kind": "vocabulary",
+          "parent": "",
+          "group": "",
+          "itemCount": 50,
+          "order": 7,
+          "file": "vocabulary/07-danh-tu-n3-1-50.json",
+          "groups": [
+            {
+              "label": "1–10",
+              "title": ""
+            },
+            {
+              "label": "11–20",
+              "title": ""
+            },
+            {
+              "label": "21–30",
+              "title": ""
+            },
+            {
+              "label": "31–40",
+              "title": ""
+            },
+            {
+              "label": "41–50",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "id": "08-danh-tu-n3-51-100",
+          "name": "名詞 51–100",
+          "description": "Từ vựng N3 — 50 danh từ 51–100 của bảng \"Bài 1 名詞 120\": chữ Hán, hiragana, nghĩa; luyện theo cụm 10 từ.",
+          "kind": "vocabulary",
+          "parent": "",
+          "group": "",
+          "itemCount": 50,
+          "order": 8,
+          "file": "vocabulary/08-danh-tu-n3-51-100.json",
+          "groups": [
+            {
+              "label": "51–60",
+              "title": ""
+            },
+            {
+              "label": "61–70",
+              "title": ""
+            },
+            {
+              "label": "71–80",
+              "title": ""
+            },
+            {
+              "label": "81–90",
+              "title": ""
+            },
+            {
+              "label": "91–100",
+              "title": ""
+            }
+          ]
+        },
+        {
+          "id": "09-danh-tu-n3-101-120",
+          "name": "名詞 101–120",
+          "description": "Từ vựng N3 — 20 danh từ 101–120 của bảng \"Bài 1 名詞 120\": chữ Hán, hiragana, nghĩa; luyện theo cụm 10 từ.",
+          "kind": "vocabulary",
+          "parent": "",
+          "group": "",
+          "itemCount": 20,
+          "order": 9,
+          "file": "vocabulary/09-danh-tu-n3-101-120.json",
+          "groups": [
+            {
+              "label": "101–110",
+              "title": ""
+            },
+            {
+              "label": "111–120",
+              "title": ""
             }
           ]
         },

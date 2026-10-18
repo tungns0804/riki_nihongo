@@ -1,0 +1,63 @@
+# N3 JUNBI — 名詞 51–100
+# Nguồn: ảnh bảng "Bài 1 名詞 120" người dùng gửi 2026-10-18 (Kanji · Hiragana · Meaning).
+# Bảng gọn: chỉ mặt chữ, cách đọc và nghĩa như ảnh; câu ví dụ đầy đủ nằm ở bài "Danh từ".
+
+## 51–60
+51. 引っ越し (ひっこし) = DẪN VIỆT ; Chuyển nhà
+52. 身長 (しんちょう) = THÂN TRƯỜNG ; Chiều cao
+53. 体重 (たいじゅう) = THỂ TRỌNG ; Cân nặng
+54. けが = Vết thương
+55. 会 (かい) = HỘI ; Hội, tiệc
+56. 趣味 (しゅみ) = THÚ VỊ ; Sở thích
+57. 興味 (きょうみ) = HƯNG VỊ ; Hứng thú
+58. 思い出 (おもいで) = TƯ XUẤT ; Nhớ lại
+59. 冗談 (じょうだん) = NHŨNG ĐÀM ; Đùa cợt
+60. 目的 (もくてき) = MỤC ĐÍCH ; Mục đích
+
+## 61–70
+61. 約束 (やくそく) = ƯỚC THÚC ; Lời hứa
+62. おしゃべり = Nói chuyện riêng
+63. 遠慮 (えんりょ) = VIỄN LỰ ; Ngại ngần
+64. 我慢 (がまん) = NGÃ MẠN ; Chịu đựng
+65. 迷惑 (めいわく) = MÊ HOẶC ; Làm phiền
+66. 希望 (きぼう) = HY VỌNG ; Hi vọng
+67. 夢 (ゆめ) = MỘNG ; Giấc mơ
+68. 賛成 (さんせい) = TÁN THÀNH ; Đồng ý
+69. 反対 (はんたい) = PHẢN ĐỐI ; Đối lập
+70. 想像 (そうぞう) = TƯỞNG TƯỢNG ; Tưởng tượng
+
+## 71–80
+71. 努力 (どりょく) = NỖ LỰC ; Nỗ lực
+72. 太陽 (たいよう) = THÁI DƯƠNG ; Mặt trời
+73. 地球 (ちきゅう) = ĐỊA CẦU ; Trái đất
+74. 温度 (おんど) = ÔN ĐỘ ; Nhiệt độ
+75. 湿度 (しつど) = THẤP ĐỘ ; Độ ẩm
+76. 湿気 (しっけ) = THẤP KHÍ ; Hơi ẩm
+77. 梅雨 (つゆ) = MAI VŨ ; Mùa mưa
+78. かび = Nấm mốc
+79. 暖房 (だんぼう) = NOÃN PHÒNG ; Điều hòa ấm
+80. 皮 (かわ) = BÌ ; Vỏ
+
+## 81–90
+81. 缶 (かん) = PHỮU ; Đồ hộp
+82. 画面 (がめん) = HOẠ DIỆN ; Màn hình
+83. 番組 (ばんぐみ) = PHIÊN TỔ ; Chương trình
+84. 記事 (きじ) = KÝ SỰ ; Ký sự
+85. 近所 (きんじょ) = CẬN SỞ ; Xung quanh
+86. 警察 (けいさつ) = CẢNH SÁT ; Cảnh sát
+87. 犯人 (はんにん) = PHẠM NHÂN ; Tội phạm
+88. 小銭 (こぜに) = TIỂU TIỀN ; Tiền lẻ
+89. ごちそう = Chiêu đãi
+90. 作者 (さくしゃ) = TÁC GIẢ ; Tác giả
+
+## 91–100
+91. 作品 (さくひん) = TÁC PHẨM ; Tác phẩm
+92. 制服 (せいふく) = CHẾ PHỤC ; Đồng phục
+93. 洗剤 (せんざい) = TẨY TỄ ; Bột giặt
+94. 底 (そこ) = ĐỂ ; Đáy
+95. 地下 (ちか) = ĐỊA HẠ ; Ngầm
+96. 寺 (てら) = TỰ ; Chùa
+97. 道路 (どうろ) = ĐẠO LỘ ; Đường
+98. 坂 (さか) = BẢN ; Dốc
+99. 煙 (けむり) = YÊN ; Khói
+100. 灰 (はい) = HÔI ; Tàn

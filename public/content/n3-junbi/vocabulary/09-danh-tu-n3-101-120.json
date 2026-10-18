@@ -1,0 +1,260 @@
+{
+  "id": "09-danh-tu-n3-101-120",
+  "name": "名詞 101–120",
+  "description": "Từ vựng N3 — 20 danh từ 101–120 của bảng \"Bài 1 名詞 120\": chữ Hán, hiragana, nghĩa; luyện theo cụm 10 từ.",
+  "kind": "vocabulary",
+  "parent": "",
+  "group": "",
+  "groups": [
+    {
+      "label": "101–110",
+      "title": ""
+    },
+    {
+      "label": "111–120",
+      "title": ""
+    }
+  ],
+  "words": [
+    {
+      "id": "85fed6c7d260dfc1",
+      "number": 101,
+      "group": "101–110",
+      "particle": "",
+      "japanese": "判",
+      "reading": "はん",
+      "hanViet": "PHÁN",
+      "vietnamese": "Con dấu",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "83ff713bb7af9999",
+      "number": 102,
+      "group": "101–110",
+      "particle": "",
+      "japanese": "名刺",
+      "reading": "めいし",
+      "hanViet": "DANH THÍCH",
+      "vietnamese": "Danh thiếp",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "02657bc17ae3bf34",
+      "number": 103,
+      "group": "101–110",
+      "particle": "",
+      "japanese": "免許",
+      "reading": "めんきょ",
+      "hanViet": "MIỄN HỨA",
+      "vietnamese": "Giấy phép",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "31d12ab4f069bce3",
+      "number": 104,
+      "group": "101–110",
+      "particle": "",
+      "japanese": "多く",
+      "reading": "おおく",
+      "hanViet": "ĐA",
+      "vietnamese": "Nhiều",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "a63e58cd241760a8",
+      "number": 105,
+      "group": "101–110",
+      "particle": "",
+      "japanese": "前半",
+      "reading": "ぜんはん",
+      "hanViet": "TIỀN BÁN",
+      "vietnamese": "Phần đầu",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "19e38287edd62cbf",
+      "number": 106,
+      "group": "101–110",
+      "particle": "",
+      "japanese": "後半",
+      "reading": "こうはん",
+      "hanViet": "HẬU BÁN",
+      "vietnamese": "Phần cuối",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "98bbc86888487d08",
+      "number": 107,
+      "group": "101–110",
+      "particle": "",
+      "japanese": "最高",
+      "reading": "さいこう",
+      "hanViet": "TỐI CAO",
+      "vietnamese": "Cao nhất",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "d92242b820876ae6",
+      "number": 108,
+      "group": "101–110",
+      "particle": "",
+      "japanese": "最低",
+      "reading": "さいてい",
+      "hanViet": "TỐI ĐÊ",
+      "vietnamese": "Thấp nhất",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "0e086edf5a20ed29",
+      "number": 109,
+      "group": "101–110",
+      "particle": "",
+      "japanese": "最初",
+      "reading": "さいしょ",
+      "hanViet": "TỐI SƠ",
+      "vietnamese": "Đầu tiên",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "8aaec1da7f9c1178",
+      "number": 110,
+      "group": "101–110",
+      "particle": "",
+      "japanese": "最後",
+      "reading": "さいご",
+      "hanViet": "TỐI HẬU",
+      "vietnamese": "Cuối cùng",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "123a2e8bde215bab",
+      "number": 111,
+      "group": "111–120",
+      "particle": "",
+      "japanese": "自動",
+      "reading": "じどう",
+      "hanViet": "TỰ ĐỘNG",
+      "vietnamese": "Tự động",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "8b9f05c46c5d28e8",
+      "number": 112,
+      "group": "111–120",
+      "particle": "",
+      "japanese": "種類",
+      "reading": "しゅるい",
+      "hanViet": "CHỦNG LOẠI",
+      "vietnamese": "Loại",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "7207b3b03c3abb59",
+      "number": 113,
+      "group": "111–120",
+      "particle": "",
+      "japanese": "性格",
+      "reading": "せいかく",
+      "hanViet": "TÍNH CÁCH",
+      "vietnamese": "Tính cách",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "3e2fac7641255b56",
+      "number": 114,
+      "group": "111–120",
+      "particle": "",
+      "japanese": "性質",
+      "reading": "せいしつ",
+      "hanViet": "TÍNH CHẤT",
+      "vietnamese": "Tính chất",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "d00f69cc2bf6670e",
+      "number": 115,
+      "group": "111–120",
+      "particle": "",
+      "japanese": "順番",
+      "reading": "じゅんばん",
+      "hanViet": "THUẬN PHIÊN",
+      "vietnamese": "Thứ tự",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "5e40187dd40d5bb8",
+      "number": 116,
+      "group": "111–120",
+      "particle": "",
+      "japanese": "番",
+      "reading": "ばん",
+      "hanViet": "PHIÊN",
+      "vietnamese": "Lượt",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "ea2e0903fc24572d",
+      "number": 117,
+      "group": "111–120",
+      "particle": "",
+      "japanese": "方法",
+      "reading": "ほうほう",
+      "hanViet": "PHƯƠNG PHÁP",
+      "vietnamese": "Phương pháp",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "f1e2e48c5e9574c3",
+      "number": 118,
+      "group": "111–120",
+      "particle": "",
+      "japanese": "製品",
+      "reading": "せいひん",
+      "hanViet": "CHẾ PHẨM",
+      "vietnamese": "Sản phẩm",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "31e030d8661bd668",
+      "number": 119,
+      "group": "111–120",
+      "particle": "",
+      "japanese": "値上がり",
+      "reading": "ねあがり",
+      "hanViet": "TRỊ THƯỢNG",
+      "vietnamese": "Tăng giá",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "b4e6c32adfa98e0b",
+      "number": 120,
+      "group": "111–120",
+      "particle": "",
+      "japanese": "生",
+      "reading": "なま",
+      "hanViet": "SINH",
+      "vietnamese": "Tươi",
+      "examples": [],
+      "notes": []
+    }
+  ]
+}
