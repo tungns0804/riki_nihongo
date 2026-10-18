@@ -1,16 +1,37 @@
 {
   "id": "07-danh-tu-n3-1-50",
   "name": "名詞 1–50",
-  "description": "Từ vựng N3 — 50 danh từ 1–50 của bảng \"Bài 1 名詞 120\": chữ Hán, hiragana, nghĩa; luyện cả bài một lượt.",
+  "description": "Từ vựng N3 — 50 danh từ 1–50 của bảng \"Bài 1 名詞 120\": chữ Hán, hiragana, nghĩa; luyện theo cụm 10 từ.",
   "kind": "vocabulary",
   "parent": "",
   "group": "",
-  "groups": [],
+  "groups": [
+    {
+      "label": "1–10",
+      "title": ""
+    },
+    {
+      "label": "11–20",
+      "title": ""
+    },
+    {
+      "label": "21–30",
+      "title": ""
+    },
+    {
+      "label": "31–40",
+      "title": ""
+    },
+    {
+      "label": "41–50",
+      "title": ""
+    }
+  ],
   "words": [
     {
       "id": "0c4e9a3169cb4dfa",
       "number": 1,
-      "group": "",
+      "group": "1–10",
       "particle": "",
       "japanese": "男性",
       "reading": "だんせい",
@@ -22,7 +43,7 @@
     {
       "id": "0f4e9a7327e3ad87",
       "number": 2,
-      "group": "",
+      "group": "1–10",
       "particle": "",
       "japanese": "女性",
       "reading": "じょせい",
@@ -34,7 +55,7 @@
     {
       "id": "c0471bc27938f47a",
       "number": 3,
-      "group": "",
+      "group": "1–10",
       "particle": "",
       "japanese": "高齢",
       "reading": "こうれい",
@@ -46,7 +67,7 @@
     {
       "id": "d61b828c139fc8e7",
       "number": 4,
-      "group": "",
+      "group": "1–10",
       "particle": "",
       "japanese": "年上",
       "reading": "としうえ",
@@ -58,7 +79,7 @@
     {
       "id": "5cf9f2420619acf6",
       "number": 5,
-      "group": "",
+      "group": "1–10",
       "particle": "",
       "japanese": "目上",
       "reading": "めうえ",
@@ -70,7 +91,7 @@
     {
       "id": "a3ea7b2d618a23c3",
       "number": 6,
-      "group": "",
+      "group": "1–10",
       "particle": "",
       "japanese": "先輩",
       "reading": "せんぱい",
@@ -82,7 +103,7 @@
     {
       "id": "16d23a93f8b46f25",
       "number": 7,
-      "group": "",
+      "group": "1–10",
       "particle": "",
       "japanese": "後輩",
       "reading": "こうはい",
@@ -94,7 +115,7 @@
     {
       "id": "db31cc33cdbe909d",
       "number": 8,
-      "group": "",
+      "group": "1–10",
       "particle": "",
       "japanese": "上司",
       "reading": "じょうし",
@@ -106,7 +127,7 @@
     {
       "id": "01e6cb9f58866cf0",
       "number": 9,
-      "group": "",
+      "group": "1–10",
       "particle": "",
       "japanese": "相手",
       "reading": "あいて",
@@ -118,7 +139,7 @@
     {
       "id": "0be089cafbcc9c3b",
       "number": 10,
-      "group": "",
+      "group": "1–10",
       "particle": "",
       "japanese": "知り合い",
       "reading": "しりあい",
@@ -130,7 +151,7 @@
     {
       "id": "bc7b39a8cabb8b8b",
       "number": 11,
-      "group": "",
+      "group": "11–20",
       "particle": "",
       "japanese": "友人",
       "reading": "ゆうじん",
@@ -142,7 +163,7 @@
     {
       "id": "f97d3aef0124a944",
       "number": 12,
-      "group": "",
+      "group": "11–20",
       "particle": "",
       "japanese": "仲",
       "reading": "なか",
@@ -154,7 +175,7 @@
     {
       "id": "97a92d9b9718f34a",
       "number": 13,
-      "group": "",
+      "group": "11–20",
       "particle": "",
       "japanese": "生年月日",
       "reading": "せいねんがっぴ",
@@ -166,7 +187,7 @@
     {
       "id": "3c5148fd7a184773",
       "number": 14,
-      "group": "",
+      "group": "11–20",
       "particle": "",
       "japanese": "誕生",
       "reading": "たんじょう",
@@ -178,7 +199,7 @@
     {
       "id": "f47c31d902809116",
       "number": 15,
-      "group": "",
+      "group": "11–20",
       "particle": "",
       "japanese": "年",
       "reading": "とし",
@@ -190,7 +211,7 @@
     {
       "id": "eb127c78334176eb",
       "number": 16,
-      "group": "",
+      "group": "11–20",
       "particle": "",
       "japanese": "出身",
       "reading": "しゅっしん",
@@ -202,7 +223,7 @@
     {
       "id": "e5355e07325d4f5a",
       "number": 17,
-      "group": "",
+      "group": "11–20",
       "particle": "",
       "japanese": "故郷",
       "reading": "こきょう",
@@ -214,7 +235,7 @@
     {
       "id": "7f0bb861084c5ee8",
       "number": 18,
-      "group": "",
+      "group": "11–20",
       "particle": "",
       "japanese": "成長",
       "reading": "せいちょう",
@@ -226,7 +247,7 @@
     {
       "id": "9d094220bf4711bd",
       "number": 19,
-      "group": "",
+      "group": "11–20",
       "particle": "",
       "japanese": "成人",
       "reading": "せいじん",
@@ -238,7 +259,7 @@
     {
       "id": "1d20543c29297ba7",
       "number": 20,
-      "group": "",
+      "group": "11–20",
       "particle": "",
       "japanese": "合格",
       "reading": "ごうかく",
@@ -250,7 +271,7 @@
     {
       "id": "8ccb84a5c80de1d9",
       "number": 21,
-      "group": "",
+      "group": "21–30",
       "particle": "",
       "japanese": "進学",
       "reading": "しんがく",
@@ -262,7 +283,7 @@
     {
       "id": "d266c5d83346109c",
       "number": 22,
-      "group": "",
+      "group": "21–30",
       "particle": "",
       "japanese": "退学",
       "reading": "たいがく",
@@ -274,7 +295,7 @@
     {
       "id": "54900d1ed2c29bdb",
       "number": 23,
-      "group": "",
+      "group": "21–30",
       "particle": "",
       "japanese": "就職",
       "reading": "しゅうしょく",
@@ -286,7 +307,7 @@
     {
       "id": "ca63cbff8fe99b3a",
       "number": 24,
-      "group": "",
+      "group": "21–30",
       "particle": "",
       "japanese": "退職",
       "reading": "たいしょく",
@@ -298,7 +319,7 @@
     {
       "id": "7dfac270e870f428",
       "number": 25,
-      "group": "",
+      "group": "21–30",
       "particle": "",
       "japanese": "失業",
       "reading": "しつぎょう",
@@ -310,7 +331,7 @@
     {
       "id": "a3a2d53bf425c2f5",
       "number": 26,
-      "group": "",
+      "group": "21–30",
       "particle": "",
       "japanese": "残業",
       "reading": "ざんぎょう",
@@ -322,7 +343,7 @@
     {
       "id": "7f65208b8a520a43",
       "number": 27,
-      "group": "",
+      "group": "21–30",
       "particle": "",
       "japanese": "生活",
       "reading": "せいかつ",
@@ -334,7 +355,7 @@
     {
       "id": "1f6439ddf732b73e",
       "number": 28,
-      "group": "",
+      "group": "21–30",
       "particle": "",
       "japanese": "通勤",
       "reading": "つうきん",
@@ -346,7 +367,7 @@
     {
       "id": "68c3fc27b63d380b",
       "number": 29,
-      "group": "",
+      "group": "21–30",
       "particle": "",
       "japanese": "学歴",
       "reading": "がくれき",
@@ -358,7 +379,7 @@
     {
       "id": "996640cbbe723253",
       "number": 30,
-      "group": "",
+      "group": "21–30",
       "particle": "",
       "japanese": "給料",
       "reading": "きゅうりょう",
@@ -370,7 +391,7 @@
     {
       "id": "51d21e01891560e0",
       "number": 31,
-      "group": "",
+      "group": "31–40",
       "particle": "",
       "japanese": "面接",
       "reading": "めんせつ",
@@ -382,7 +403,7 @@
     {
       "id": "43e9ad4a06c50271",
       "number": 32,
-      "group": "",
+      "group": "31–40",
       "particle": "",
       "japanese": "休憩",
       "reading": "きゅうけい",
@@ -394,7 +415,7 @@
     {
       "id": "e344cd1858fa2aa4",
       "number": 33,
-      "group": "",
+      "group": "31–40",
       "particle": "",
       "japanese": "観光",
       "reading": "かんこう",
@@ -406,7 +427,7 @@
     {
       "id": "3f8e9e36796ed363",
       "number": 34,
-      "group": "",
+      "group": "31–40",
       "particle": "",
       "japanese": "帰国",
       "reading": "きこく",
@@ -418,7 +439,7 @@
     {
       "id": "d034166978054b93",
       "number": 35,
-      "group": "",
+      "group": "31–40",
       "particle": "",
       "japanese": "帰省",
       "reading": "きせい",
@@ -430,7 +451,7 @@
     {
       "id": "436410751e90dcd2",
       "number": 36,
-      "group": "",
+      "group": "31–40",
       "particle": "",
       "japanese": "帰宅",
       "reading": "きたく",
@@ -442,7 +463,7 @@
     {
       "id": "d00191d2d129caf0",
       "number": 37,
-      "group": "",
+      "group": "31–40",
       "particle": "",
       "japanese": "参加",
       "reading": "さんか",
@@ -454,7 +475,7 @@
     {
       "id": "913953882118dab9",
       "number": 38,
-      "group": "",
+      "group": "31–40",
       "particle": "",
       "japanese": "出席",
       "reading": "しゅっせき",
@@ -466,7 +487,7 @@
     {
       "id": "892eab6df282257d",
       "number": 39,
-      "group": "",
+      "group": "31–40",
       "particle": "",
       "japanese": "欠席",
       "reading": "けっせき",
@@ -478,7 +499,7 @@
     {
       "id": "1b4aef4b78168f6d",
       "number": 40,
-      "group": "",
+      "group": "31–40",
       "particle": "",
       "japanese": "遅刻",
       "reading": "ちこく",
@@ -490,7 +511,7 @@
     {
       "id": "ccc9b11311b9af20",
       "number": 41,
-      "group": "",
+      "group": "41–50",
       "particle": "",
       "japanese": "化粧",
       "reading": "けしょう",
@@ -502,7 +523,7 @@
     {
       "id": "3bf01d97a9826fa9",
       "number": 42,
-      "group": "",
+      "group": "41–50",
       "particle": "",
       "japanese": "計算",
       "reading": "けいさん",
@@ -514,7 +535,7 @@
     {
       "id": "240b81ceba819498",
       "number": 43,
-      "group": "",
+      "group": "41–50",
       "particle": "",
       "japanese": "計画",
       "reading": "けいかく",
@@ -526,7 +547,7 @@
     {
       "id": "7ea5e9a3f4470b93",
       "number": 44,
-      "group": "",
+      "group": "41–50",
       "particle": "",
       "japanese": "成功",
       "reading": "せいこう",
@@ -538,7 +559,7 @@
     {
       "id": "b13dd7e12e8c6cdf",
       "number": 45,
-      "group": "",
+      "group": "41–50",
       "particle": "",
       "japanese": "失敗",
       "reading": "しっぱい",
@@ -550,7 +571,7 @@
     {
       "id": "82676aa7f6ead017",
       "number": 46,
-      "group": "",
+      "group": "41–50",
       "particle": "",
       "japanese": "準備",
       "reading": "じゅんび",
@@ -562,7 +583,7 @@
     {
       "id": "336f151f61d57061",
       "number": 47,
-      "group": "",
+      "group": "41–50",
       "particle": "",
       "japanese": "整理",
       "reading": "せいり",
@@ -574,7 +595,7 @@
     {
       "id": "8587b85b93ed85d9",
       "number": 48,
-      "group": "",
+      "group": "41–50",
       "particle": "",
       "japanese": "注文",
       "reading": "ちゅうもん",
@@ -586,7 +607,7 @@
     {
       "id": "5ac9ddb820cb9425",
       "number": 49,
-      "group": "",
+      "group": "41–50",
       "particle": "",
       "japanese": "貯金",
       "reading": "ちょきん",
@@ -598,7 +619,7 @@
     {
       "id": "39f40673cf80f44c",
       "number": 50,
-      "group": "",
+      "group": "41–50",
       "particle": "",
       "japanese": "徹夜",
       "reading": "てつや",

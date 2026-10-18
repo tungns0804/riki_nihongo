@@ -2,6 +2,7 @@
 # Nguồn: ảnh bảng "Bài 1 名詞 120" người dùng gửi 2026-10-18 (Kanji · Hiragana · Meaning).
 # Bảng gọn: chỉ mặt chữ, cách đọc và nghĩa như ảnh; câu ví dụ đầy đủ nằm ở bài "Danh từ".
 
+## 101–110
 101. 判 (はん) = PHÁN ; Con dấu
 102. 名刺 (めいし) = DANH THÍCH ; Danh thiếp
 103. 免許 (めんきょ) = MIỄN HỨA ; Giấy phép
@@ -13,6 +14,7 @@
 109. 最初 (さいしょ) = TỐI SƠ ; Đầu tiên
 110. 最後 (さいご) = TỐI HẬU ; Cuối cùng
 
+## 111–120
 111. 自動 (じどう) = TỰ ĐỘNG ; Tự động
 112. 種類 (しゅるい) = CHỦNG LOẠI ; Loại
 113. 性格 (せいかく) = TÍNH CÁCH ; Tính cách
