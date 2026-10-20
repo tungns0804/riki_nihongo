@@ -14,6 +14,7 @@ Kanji của BTVN N4 CHUYÊN SÂU ([README](../../btvn-n4-chuyen-sau/kanji/README
 | `03-bai-3`  | Bài 3        | 20 câu: 百・千・万・円・何 — số tiền, số lượng                                   |
 | `05-bai-5`  | Bài 5        | 20 câu: 日・月・火・水・木 — thứ trong tuần, 花火, お正月…                        |
 | `06-bai-6`  | Bài 6        | 20 câu: 時・分・半・間・週 — giờ giấc, thời gian                                 |
+| `07-bai-7`  | Bài 7        | 20 câu: 先・生・学・友・名 — 先生, 友達, 名前, 学校…                               |
 
 Đề "Chữ số" dán vào không kèm tên bài trên web Riki, nên tạm đặt tên theo nội dung (nhiều
 khả năng là Bài 2). Biết tên Riki in thì đổi `name` (và tên thư mục nếu cần) cho khớp.

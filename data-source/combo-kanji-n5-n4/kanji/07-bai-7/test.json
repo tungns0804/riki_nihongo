@@ -1,0 +1,336 @@
+{
+  "summary": [
+    {
+      "title": "先",
+      "meaning": "TIÊN · trước",
+      "lines": [
+        "せん — 先生 (せんせい), 先週 (せんしゅう), 先月 (せんげつ), 先日 (せんじつ: hôm nọ)",
+        "さき — お先に (おさきに: xin phép đi trước)"
+      ]
+    },
+    {
+      "title": "生",
+      "meaning": "SINH · sống, sinh ra",
+      "lines": [
+        "せい — 先生 (せんせい), 学生 (がくせい), 一年生 (いちねんせい)",
+        "う — 生まれる (うまれる: được sinh ra)"
+      ]
+    },
+    {
+      "title": "学",
+      "meaning": "HỌC · học",
+      "lines": [
+        "がく — 学生 (がくせい), 入学 (にゅうがく), 中学生 (ちゅうがくせい)",
+        "がっ — 学校 (がっこう)",
+        "まな — 学ぶ (まなぶ: học)"
+      ]
+    },
+    {
+      "title": "友",
+      "meaning": "HỮU · bạn",
+      "lines": [
+        "ゆう — 友人 (ゆうじん), 親友 (しんゆう: bạn thân)",
+        "とも — 友達 (ともだち)"
+      ]
+    },
+    {
+      "title": "名",
+      "meaning": "DANH · tên",
+      "lines": [
+        "な — 名前 (なまえ)",
+        "めい — 名刺 (めいし: danh thiếp), 有名 (ゆうめい: nổi tiếng)"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "ck-b7-mondai-1",
+      "title": "問題1 — Đọc chữ Hán (10 câu)",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b7-01",
+          "promptJapanese": "あの人は　「先生」じゃありません。",
+          "promptVietnamese": "Người kia không phải là giáo viên.",
+          "choices": ["せせい", "せんせ", "せんせい", "せせ"],
+          "choicesVietnamese": ["(sai: thiếu ん)", "(sai: thiếu い)", "giáo viên", "(sai: thiếu cả ん lẫn い)"],
+          "choiceNotes": [
+            "Thiếu ん: 先 là せん.",
+            "Thiếu い: 生 là せい, âm dài.",
+            "Đúng: 先生 = せんせい.",
+            "Thiếu cả ん lẫn い."
+          ],
+          "answer": 3,
+          "explanation": "先 (せん, trước) ＋ 生 (せい, sinh) → 先生 = người sinh ra trước = thầy, cô giáo."
+        },
+        {
+          "id": "ck-b7-02",
+          "promptJapanese": "あなたの「名前」は　何ですか。",
+          "promptVietnamese": "Tên bạn là gì?",
+          "choices": ["なまえ", "なぜまえ", "めいまえ", "めまえ"],
+          "choicesVietnamese": ["tên", "(không có cách đọc này)", "(めい là âm On, không dùng ở đây)", "(không có cách đọc này)"],
+          "choiceNotes": [
+            "Đúng: 名前 = なまえ.",
+            "なぜ là \"tại sao\", không phải cách đọc của 名.",
+            "めい là âm On của 名 (名刺, 有名); trong 名前 thì đọc な.",
+            "め không phải cách đọc của 名."
+          ],
+          "answer": 1,
+          "explanation": "名: な (名前), めい (名刺, 有名)."
+        },
+        {
+          "id": "ck-b7-03",
+          "promptJapanese": "わたしは　「友人」に　メールを　おくりました。",
+          "promptVietnamese": "Tôi đã gửi email cho một người bạn.",
+          "choices": ["ゆうじん", "ゆじん", "ようじん", "よじん"],
+          "choicesVietnamese": ["bạn bè", "(sai: thiếu う)", "(用心 = cẩn thận)", "(không có cách đọc này)"],
+          "choiceNotes": [
+            "Đúng: 友人 = ゆうじん — cách nói trang trọng của 友達.",
+            "Thiếu う: 友 là ゆう, âm dài.",
+            "ようじん (用心) = cẩn thận — từ khác.",
+            "よ không phải cách đọc của 友."
+          ],
+          "answer": 1,
+          "explanation": "友: ゆう (友人, 親友), とも (友達)."
+        },
+        {
+          "id": "ck-b7-04",
+          "promptJapanese": "クラスに　「学生」は　何人　いますか。",
+          "promptVietnamese": "Trong lớp có bao nhiêu học sinh?",
+          "choices": ["かっせ", "がっせい", "かくせ", "がくせい"],
+          "choicesVietnamese": ["(sai)", "(không ngắt âm trước せ)", "(sai: thiếu dấu và い)", "học sinh, sinh viên"],
+          "choiceNotes": [
+            "Sai cả dấu, ngắt âm lẫn âm dài.",
+            "学 chỉ ngắt thành がっ trước âm k (学校 がっこう); trước せい vẫn là がく.",
+            "Thiếu dấu: 学 là がく; và thiếu い ở せい.",
+            "Đúng: 学生 = がくせい."
+          ],
+          "answer": 4,
+          "explanation": "学: がく (学生, 入学), がっ (学校), まな.ぶ (学ぶ)."
+        },
+        {
+          "id": "ck-b7-05",
+          "promptJapanese": "「先週」、日本の　レストランで　夕食を　食べました。",
+          "promptVietnamese": "Tuần trước tôi đã ăn tối ở một nhà hàng Nhật.",
+          "choices": ["ぜしゅう", "せいしゅう", "せしゅう", "せんしゅう"],
+          "choicesVietnamese": ["(sai)", "(không có cách đọc này)", "(sai: thiếu ん)", "tuần trước"],
+          "choiceNotes": [
+            "先 không có dấu và không thiếu ん.",
+            "せい không phải cách đọc của 先.",
+            "Thiếu ん: 先 là せん.",
+            "Đúng: 先週 = せんしゅう."
+          ],
+          "answer": 4,
+          "explanation": "先 (せん) = trước: 先週 (tuần trước), 先月 (tháng trước), 先日 (hôm nọ). 夕食 (ゆうしょく) = bữa tối."
+        },
+        {
+          "id": "ck-b7-06",
+          "promptJapanese": "わたしは　「友達」に　シャツを　あげました。",
+          "promptVietnamese": "Tôi đã tặng bạn một cái áo sơ mi.",
+          "choices": ["ゆだち", "ゆうだち", "ともだち", "どもだち"],
+          "choicesVietnamese": ["(không có cách đọc này)", "(夕立 = mưa rào chiều)", "bạn bè", "(sai: thừa dấu)"],
+          "choiceNotes": [
+            "ゆ không phải cách đọc của 友 trong 友達.",
+            "ゆうだち (夕立) = cơn mưa rào buổi chiều — từ khác, nghe gần giống.",
+            "Đúng: 友達 = ともだち.",
+            "と không có dấu: ともだち."
+          ],
+          "answer": 3,
+          "explanation": "友 đọc とも trong 友達 (âm Kun), đọc ゆう trong 友人, 親友 (âm On)."
+        },
+        {
+          "id": "ck-b7-07",
+          "promptJapanese": "9月27日に　あにが　「生まれ」ました。",
+          "promptVietnamese": "Anh trai tôi sinh ngày 27 tháng 9.",
+          "choices": ["しまれ", "きまれ", "もまれ", "うまれ"],
+          "choicesVietnamese": ["(không có cách đọc này)", "(không có cách đọc này)", "(揉まれる = bị xoa bóp)", "được sinh ra"],
+          "choiceNotes": [
+            "し không phải cách đọc của 生 trong động từ này.",
+            "き không phải cách đọc của 生 trong động từ này.",
+            "もまれる (揉まれる) là từ khác.",
+            "Đúng: 生まれる = うまれる (được sinh ra)."
+          ],
+          "answer": 4,
+          "explanation": "生: う.まれる (sinh ra), せい (学生, 先生), なま (生: tươi, sống)."
+        },
+        {
+          "id": "ck-b7-08",
+          "promptJapanese": "いえで　日本語を　「学び」ました。",
+          "promptVietnamese": "Tôi đã học tiếng Nhật ở nhà.",
+          "choices": ["まなび", "はなび", "ばなび", "まなんび"],
+          "choicesVietnamese": ["học", "(花火 = pháo hoa)", "(không có từ này)", "(sai: thừa ん)"],
+          "choiceNotes": [
+            "Đúng: 学ぶ = まなぶ → 学びました (まなびました).",
+            "はなび (花火) = pháo hoa — từ khác.",
+            "ばなび không phải từ nào.",
+            "Thừa ん: thân ます của まなぶ là まなび."
+          ],
+          "answer": 1,
+          "explanation": "学ぶ (まなぶ) = học (văn viết hơn 勉強する)."
+        },
+        {
+          "id": "ck-b7-09",
+          "promptJapanese": "「お先」に　しつれいします。",
+          "promptVietnamese": "Tôi xin phép về trước.",
+          "choices": ["おさっき", "おさき", "おさきい", "おさっきい"],
+          "choicesVietnamese": ["(さっき = lúc nãy)", "trước (お先に)", "(sai: thừa い)", "(sai)"],
+          "choiceNotes": [
+            "さっき (lúc nãy) là từ khác, không phải 先.",
+            "Đúng: お先に = おさきに — câu chào khi về trước đồng nghiệp.",
+            "Thừa い: 先 là さき.",
+            "Vừa thêm っ vừa thừa い."
+          ],
+          "answer": 2,
+          "explanation": "お先に失礼します (おさきにしつれいします) = tôi xin phép về trước. 先 đứng một mình đọc さき."
+        },
+        {
+          "id": "ck-b7-10",
+          "promptJapanese": "わたしは　かれに　「名刺」を　もらいました。",
+          "promptVietnamese": "Tôi đã nhận danh thiếp từ anh ấy.",
+          "choices": ["めし", "めうし", "めいし", "めえし"],
+          "choicesVietnamese": ["(飯 = cơm)", "(không có cách đọc này)", "danh thiếp", "(sai: viết えし)"],
+          "choiceNotes": [
+            "めし (飯) = cơm — thiếu い.",
+            "めう không phải cách đọc của 名.",
+            "Đúng: 名刺 = めいし.",
+            "Âm dài của め viết bằng い (めい), không viết bằng え."
+          ],
+          "answer": 3,
+          "explanation": "名: めい (名刺, 有名), な (名前)."
+        }
+      ]
+    },
+    {
+      "id": "ck-b7-mondai-2",
+      "title": "問題2 — Chọn chữ Hán (10 câu)",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b7-11",
+          "promptJapanese": "山田さんと　わたしは　しん「ゆう」です。",
+          "promptVietnamese": "Anh Yamada và tôi là bạn thân.",
+          "choices": ["しん友", "しん生", "しん学", "しん名"],
+          "choicesVietnamese": ["bạn thân (親友)", "(生 = sinh, đọc せい)", "(学 = học, đọc がく)", "(名 = tên, đọc めい)"],
+          "choiceNotes": [
+            "Đúng: ゆう = 友 → 親友 (しんゆう: bạn thân).",
+            "生 đọc せい／う.まれる, không đọc ゆう.",
+            "学 đọc がく, không đọc ゆう.",
+            "名 đọc めい／な, không đọc ゆう."
+          ],
+          "answer": 1,
+          "explanation": "親友 (しんゆう) = bạn thân; đề để 親 bằng hiragana."
+        },
+        {
+          "id": "ck-b7-12",
+          "promptJapanese": "ピアーズさんは　アーク大学の　「がくせい」です。",
+          "promptVietnamese": "Anh Pierce là sinh viên Đại học Ark.",
+          "choices": ["先生", "友達", "友人", "学生"],
+          "choicesVietnamese": ["giáo viên (せんせい)", "bạn (ともだち)", "bạn (ゆうじん)", "sinh viên (がくせい)"],
+          "choiceNotes": ["先生 đọc せんせい.", "友達 đọc ともだち.", "友人 đọc ゆうじん.", "Đúng: がくせい = 学生."],
+          "answer": 4,
+          "explanation": "学生 (がくせい) = học sinh, sinh viên."
+        },
+        {
+          "id": "ck-b7-13",
+          "promptJapanese": "うちの　ちかくに　ゆう「めい」な　こうえんが　あります。",
+          "promptVietnamese": "Gần nhà tôi có một công viên nổi tiếng.",
+          "choices": ["ゆう友", "ゆう名", "ゆう生", "ゆう学"],
+          "choicesVietnamese": ["(友 đọc ゆう／とも)", "nổi tiếng (有名)", "(生 đọc せい)", "(学 đọc がく)"],
+          "choiceNotes": [
+            "友 đọc ゆう／とも, không đọc めい.",
+            "Đúng: めい = 名 → 有名 (ゆうめい: nổi tiếng).",
+            "生 đọc せい, không đọc めい.",
+            "学 đọc がく, không đọc めい."
+          ],
+          "answer": 2,
+          "explanation": "有名な (ゆうめいな) = nổi tiếng; đề để 有 bằng hiragana. Chữ ゆう ở đầu là 有 chứ không phải 友, đề cố ý đặt bẫy."
+        },
+        {
+          "id": "ck-b7-14",
+          "promptJapanese": "わたしの　おとうとは　ちゅう「がく」せいです。",
+          "promptVietnamese": "Em trai tôi là học sinh cấp hai.",
+          "choices": ["生", "先", "学", "友"],
+          "choicesVietnamese": ["sinh (せい)", "tiên (せん)", "học (がく)", "hữu (ゆう)"],
+          "choiceNotes": [
+            "生 đọc せい — là chữ cuối của 中学生, không phải がく.",
+            "先 đọc せん／さき.",
+            "Đúng: がく = 学 → 中学生 (ちゅうがくせい).",
+            "友 đọc ゆう／とも."
+          ],
+          "answer": 3,
+          "explanation": "中学生 (ちゅうがくせい) = học sinh cấp hai. Bản dán không giữ gạch chân; cả 学 lẫn 生 đều có trong từ này. Ở đây chọn phần がく — nếu đề gốc gạch chân せい thì đáp án là 生."
+        },
+        {
+          "id": "ck-b7-15",
+          "promptJapanese": "「せんげつ」　あめが　おおかったです。",
+          "promptVietnamese": "Tháng trước mưa nhiều.",
+          "choices": ["先日", "先週", "先月", "先年"],
+          "choicesVietnamese": ["hôm nọ (せんじつ)", "tuần trước (せんしゅう)", "tháng trước (せんげつ)", "năm trước (せんねん)"],
+          "choiceNotes": ["先日 đọc せんじつ.", "先週 đọc せんしゅう.", "Đúng: せんげつ = 先月.", "先年 đọc せんねん."],
+          "answer": 3,
+          "explanation": "月 đọc げつ trong 先月, 月曜日."
+        },
+        {
+          "id": "ck-b7-16",
+          "promptJapanese": "このてらは　「せんねん」まえから　あります。",
+          "promptVietnamese": "Ngôi chùa này có từ một nghìn năm trước.",
+          "choices": ["千年", "千日", "先月", "先日"],
+          "choicesVietnamese": ["một nghìn năm (せんねん)", "một nghìn ngày (せんにち)", "tháng trước (せんげつ)", "hôm nọ (せんじつ)"],
+          "choiceNotes": [
+            "Đúng: せんねん = 千年 — 千 (nghìn) cũng đọc せん như 先.",
+            "千日 đọc せんにち (1.000 ngày).",
+            "先月 đọc せんげつ.",
+            "先日 đọc せんじつ."
+          ],
+          "answer": 1,
+          "explanation": "千 (nghìn) và 先 (trước) cùng đọc せん; \"chùa có từ ~ năm trước\" thì là 千年 (1.000 năm)."
+        },
+        {
+          "id": "ck-b7-17",
+          "promptJapanese": "たなかさんは　今年　「いちねんせい」に　なります。",
+          "promptVietnamese": "Năm nay Tanaka lên năm thứ nhất.",
+          "choices": ["一年先", "一年生", "一年学", "一年友"],
+          "choicesVietnamese": ["(先 đọc せん)", "học sinh năm nhất", "(学 đọc がく)", "(友 đọc ゆう)"],
+          "choiceNotes": ["先 đọc せん, không đọc せい.", "Đúng: いちねんせい = 一年生.", "学 đọc がく.", "友 đọc ゆう／とも."],
+          "answer": 2,
+          "explanation": "～年生 (ねんせい) = học sinh năm thứ ~: 一年生, 二年生."
+        },
+        {
+          "id": "ck-b7-18",
+          "promptJapanese": "今、どこへ　行きますか。　「がっこう」へ　行きます。",
+          "promptVietnamese": "Bây giờ bạn đi đâu? — Tôi đi đến trường.",
+          "choices": ["先校", "字校", "友校", "学校"],
+          "choicesVietnamese": ["(không có từ này)", "(字 = chữ)", "(không có từ này)", "trường học (がっこう)"],
+          "choiceNotes": [
+            "先 đọc せん, không đọc がっ.",
+            "字 (じ) = chữ — trông giống 学 ở phần trên.",
+            "友 đọc ゆう／とも.",
+            "Đúng: がっこう = 学校."
+          ],
+          "answer": 4,
+          "explanation": "学 trước 校 (âm k) ngắt thành がっ: 学校 (がっこう). 学 và 字 có phần dưới giống nhau (子)."
+        },
+        {
+          "id": "ck-b7-19",
+          "promptJapanese": "にゅう「がく」しきに　スーツを　きます。",
+          "promptVietnamese": "Tôi mặc vest đi dự lễ nhập học.",
+          "choices": ["にゅう先", "にゅう生", "にゅう学", "にゅう友"],
+          "choicesVietnamese": ["(先 đọc せん)", "(生 đọc せい)", "nhập học (入学)", "(友 đọc ゆう)"],
+          "choiceNotes": ["先 đọc せん, không đọc がく.", "生 đọc せい, không đọc がく.", "Đúng: がく = 学 → 入学 (にゅうがく).", "友 đọc ゆう, không đọc がく."],
+          "answer": 3,
+          "explanation": "入学式 (にゅうがくしき) = lễ nhập học; đề để 入 và 式 bằng hiragana."
+        },
+        {
+          "id": "ck-b7-20",
+          "promptJapanese": "「せんじつ」は　ありがとうございます。",
+          "promptVietnamese": "Cảm ơn anh chị về hôm trước.",
+          "choices": ["先日", "先週", "先月", "先生"],
+          "choicesVietnamese": ["hôm nọ (せんじつ)", "tuần trước (せんしゅう)", "tháng trước (せんげつ)", "giáo viên (せんせい)"],
+          "choiceNotes": ["Đúng: せんじつ = 先日 — 日 đọc じつ.", "先週 đọc せんしゅう.", "先月 đọc せんげつ.", "先生 đọc せんせい."],
+          "answer": 1,
+          "explanation": "先日 (せんじつ) = hôm nọ, hôm trước. Câu cảm ơn chuyện đã qua thường nói 先日はありがとうございました."
+        }
+      ]
+    }
+  ]
+}

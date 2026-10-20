@@ -4,7 +4,7 @@
     "name": "Combo Kanji N5-N4",
     "level": "N5-N4"
   },
-  "generatedAt": "2026-10-17T03:20:14.484Z",
+  "generatedAt": "2026-10-20T02:50:58.794Z",
   "modules": [
     {
       "id": "kanji",
@@ -52,6 +52,17 @@
           "itemCount": 20,
           "order": 6,
           "file": "kanji/06-bai-6.json"
+        },
+        {
+          "id": "07-bai-7",
+          "name": "Bài 7",
+          "description": "先 · 生 · 学 · 友 · 名 — đề 20 câu: 問題1 đọc 10 từ (先生, 友達, 名刺, 学ぶ…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana. Có bảng tóm tắt cách đọc từng chữ.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 20,
+          "order": 7,
+          "file": "kanji/07-bai-7.json"
         }
       ]
     }
