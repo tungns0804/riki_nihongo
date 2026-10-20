@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-20T02:50:58.699Z",
+  "generatedAt": "2026-10-20T06:58:40.309Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -304,6 +304,17 @@
           "itemCount": 10,
           "order": 108,
           "file": "vocabulary/01-danh-tu-btvn-71-80.json"
+        },
+        {
+          "id": "01-danh-tu-btvn-81-90",
+          "name": "BTVN 81–90",
+          "description": "Bài tập về nhà của cụm 81–90 (Bài 5.1 · Tin tức, khu phố và đồ quanh nhà) — 10 câu. Đề Riki ra toàn động từ (ぶつかる・こぼす・離す・片付く・動かす…), không hỏi các danh từ 81–90.",
+          "kind": "test",
+          "parent": "01-danh-tu",
+          "group": "81–90",
+          "itemCount": 10,
+          "order": 109,
+          "file": "vocabulary/01-danh-tu-btvn-81-90.json"
         },
         {
           "id": "02-dong-tu-btvn-461-470",

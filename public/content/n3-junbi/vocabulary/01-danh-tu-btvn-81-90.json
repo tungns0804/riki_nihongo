@@ -1,0 +1,398 @@
+{
+  "id": "01-danh-tu-btvn-81-90",
+  "name": "BTVN 81–90",
+  "description": "Bài tập về nhà của cụm 81–90 (Bài 5.1 · Tin tức, khu phố và đồ quanh nhà) — 10 câu. Đề Riki ra toàn động từ (ぶつかる・こぼす・離す・片付く・動かす…), không hỏi các danh từ 81–90.",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "81–90",
+  "sections": [
+    {
+      "id": "btvn-81-90",
+      "title": "文字語彙 — BTVN 81–90 (10 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-btvn-8190-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "あっ！ごめん。お茶を机の上に（　　　　）ちゃった。",
+          "promptReading": "あっ！ごめん。おちゃを つくえの うえに（　　　　）ちゃった。",
+          "promptTranslation": "Á! Xin lỗi. Tớ （　　　　） trà ra bàn mất rồi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ぶつかっ",
+              "translation": "ぶつかる · Va, đụng (tự động từ)",
+              "note": "ぶつかる là tự động từ, không đi với お茶を; va vào bàn thì phải nói 机にぶつかる."
+            },
+            {
+              "id": "c2",
+              "text": "離し",
+              "translation": "はなす · Buông, rời tay; tách ra",
+              "note": "離す là buông tay ra, tách xa; \"buông trà lên bàn\" không thành nghĩa."
+            },
+            {
+              "id": "c3",
+              "text": "こぼし",
+              "translation": "こぼす · Làm đổ, làm tràn (tha động từ)",
+              "note": "Đúng: お茶をこぼす = làm đổ trà — tha động từ đi với を, người nói làm đổ nên mới xin lỗi."
+            },
+            {
+              "id": "c4",
+              "text": "片付い",
+              "translation": "かたづく · (Đồ đạc, việc) được dọn, xong xuôi (tự động từ)",
+              "note": "片付く là tự động từ (đồ đã được dọn), không đi với お茶を."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "（を）こぼす = làm đổ ＞＜ （が）こぼれる = bị đổ (xem câu 5). ～ちゃった là văn nói của ～てしまった: lỡ ~ mất rồi (tiếc, ân hận). こぼして＋しまった → こぼしちゃった.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-8190-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "お母さんと意見が（　　　　）喧嘩になった。",
+          "promptReading": "おかあさんと いけんが（　　　　）けんかに なった。",
+          "promptTranslation": "Ý kiến của tôi với mẹ （　　　　） nên thành ra cãi nhau.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "生まれて",
+              "translation": "うまれる · Được sinh ra",
+              "note": "意見が生まれる (nảy ra ý kiến) có nói được, nhưng nảy ra ý kiến thì không dẫn tới cãi nhau."
+            },
+            {
+              "id": "c2",
+              "text": "ぶつかって",
+              "translation": "ぶつかる · Va chạm; (ý kiến) xung đột",
+              "note": "Đúng: 意見がぶつかる = ý kiến va chạm, bất đồng — lý do dẫn tới 喧嘩."
+            },
+            {
+              "id": "c3",
+              "text": "見つかって",
+              "translation": "みつかる · Được tìm thấy",
+              "note": "意見が見つかる không phải cách nói tự nhiên; tìm thấy thì không gây cãi nhau."
+            },
+            {
+              "id": "c4",
+              "text": "離れて",
+              "translation": "はなれる · Rời xa, cách xa",
+              "note": "意見が離れる không phải cách nói tự nhiên; muốn nói hai ý kiến khác xa nhau thì dùng 意見が分かれる."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "ぶつかる ngoài nghĩa va đụng vật lý (車が壁にぶつかる) còn dùng cho ý kiến, lợi ích xung đột: 意見がぶつかる. ～て = vì ~ nên; ～になる = trở thành, dẫn tới.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-8190-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "何をしても携帯が（　　　　）。",
+          "promptReading": "なにを しても けいたいが（　　　　）。",
+          "promptTranslation": "Làm gì đi nữa thì điện thoại cũng （　　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "治らない",
+              "translation": "なおる (治る) · (Bệnh) khỏi",
+              "note": "治る dùng cho bệnh tật, vết thương; máy móc hỏng thì 直る (khác chữ)."
+            },
+            {
+              "id": "c2",
+              "text": "直さない",
+              "translation": "なおす (直す) · Sửa (tha động từ)",
+              "note": "直す là tha động từ: phải là 携帯を直す; 携帯が直さない sai trợ từ."
+            },
+            {
+              "id": "c3",
+              "text": "効かない",
+              "translation": "きく (効く) · (Thuốc, máy lạnh) có tác dụng, có hiệu quả",
+              "note": "効く dùng cho thuốc, máy lạnh, phanh xe có tác dụng; không nói điện thoại \"không có tác dụng\"."
+            },
+            {
+              "id": "c4",
+              "text": "動かない",
+              "translation": "うごく · Chạy, hoạt động; nhúc nhích",
+              "note": "Đúng: 携帯が動かない = điện thoại không chạy, đơ — máy móc ngừng hoạt động thì dùng 動く."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "動く = (máy móc) chạy, hoạt động: 時計が動かない、パソコンが動かない. 何をしても = dù làm gì đi nữa (疑問詞＋ても).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-8190-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "遊園地では、子どもの手を（　　　　）ように！",
+          "promptReading": "ゆうえんちでは、こどもの てを（　　　　）ように！",
+          "promptTranslation": "Ở công viên giải trí, nhớ （　　　　） tay con nhé!",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "離さない",
+              "translation": "はなす · Buông, rời tay (tha động từ)",
+              "note": "Đúng: 手を離さない = không buông tay — giữ chặt tay con để con khỏi lạc."
+            },
+            {
+              "id": "c2",
+              "text": "動かない",
+              "translation": "うごく · Nhúc nhích, cử động (tự động từ)",
+              "note": "動く là tự động từ, không đi với 手を."
+            },
+            {
+              "id": "c3",
+              "text": "動かさない",
+              "translation": "うごかす · Làm chuyển động, cử động (tha động từ)",
+              "note": "手を動かさない = không cử động tay — không liên quan tới việc giữ con ở công viên."
+            },
+            {
+              "id": "c4",
+              "text": "離れない",
+              "translation": "はなれる · Rời xa (tự động từ)",
+              "note": "離れる là tự động từ, đi với を chỉ nơi rời đi (国を離れる); 子どもの手を離れない không đúng nghĩa."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "（を）離す = buông ra, tách ra ＞＜ （が/を）離れる = rời xa (xem câu 9). ～ないように！= nhớ đừng ~ nhé (lời dặn, nhắc nhở).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-8190-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "コーヒーが（　　　　）しまった！服が汚れた！",
+          "promptReading": "コーヒーが（　　　　）しまった！ふくが よごれた！",
+          "promptTranslation": "Cà phê （　　　　） mất rồi! Bẩn hết áo rồi!",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "こぼして",
+              "translation": "こぼす · Làm đổ (tha động từ)",
+              "note": "こぼす là tha động từ, phải là コーヒーをこぼす; ở đây trợ từ là が."
+            },
+            {
+              "id": "c2",
+              "text": "こぼれて",
+              "translation": "こぼれる · Bị đổ, tràn ra (tự động từ)",
+              "note": "Đúng: コーヒーがこぼれる = cà phê bị đổ — tự động từ đi với が, và đổ ra nên áo mới bẩn."
+            },
+            {
+              "id": "c3",
+              "text": "片付けて",
+              "translation": "かたづける · Dọn dẹp (tha động từ)",
+              "note": "片付ける là tha động từ đi với を, và dọn dẹp thì áo không bẩn."
+            },
+            {
+              "id": "c4",
+              "text": "片付いて",
+              "translation": "かたづく · Được dọn xong (tự động từ)",
+              "note": "片付く đi với が được nhưng nghĩa là \"được dọn xong\", không làm áo bẩn."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Cặp tự/tha: （が）こぼれる ＞＜ （を）こぼす (xem câu 1). Nhìn trợ từ trước chỗ trống: が → tự động từ. ～てしまった = lỡ ~ mất rồi.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-8190-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "服についた汚れを（　　　　）。",
+          "promptReading": "ふくに ついた よごれを（　　　　）。",
+          "promptTranslation": "（　　　　） vết bẩn dính trên áo.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "起こして",
+              "translation": "おこす · Đánh thức; gây ra",
+              "note": "起こす là đánh thức, gây ra; không \"đánh thức vết bẩn\". Đuôi て cũng không kết thúc câu được ở đây."
+            },
+            {
+              "id": "c2",
+              "text": "片付く",
+              "translation": "かたづく · Được dọn xong (tự động từ)",
+              "note": "片付く là tự động từ, không đi với 汚れを."
+            },
+            {
+              "id": "c3",
+              "text": "ふく",
+              "translation": "ふく (拭く) · Lau, chùi",
+              "note": "Đúng: 汚れをふく = lau vết bẩn — ふく (拭く) đi với を chỉ thứ cần lau đi."
+            },
+            {
+              "id": "c4",
+              "text": "直して",
+              "translation": "なおす · Sửa, chữa",
+              "note": "直す là sửa đồ hỏng; vết bẩn thì lau chứ không sửa. Đuôi て cũng không kết thúc câu được ở đây."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "拭く (ふく) = lau: テーブルを拭く、涙を拭く、汚れを拭く. 服についた = (vết bẩn) đã dính vào áo; ～につく = dính vào ~. Chỉ ふく ở dạng từ điển kết thúc được câu này.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-8190-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "昨日、小指を柱に（　　　　）！痛かった！",
+          "promptReading": "きのう、こゆびを はしらに（　　　　）！いたかった！",
+          "promptTranslation": "Hôm qua tôi （　　　　） ngón út vào cột nhà! Đau quá!",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "掛かった",
+              "translation": "かかる · Treo; tốn (tự động từ)",
+              "note": "掛かる là tự động từ, không đi với 小指を."
+            },
+            {
+              "id": "c2",
+              "text": "倒れた",
+              "translation": "たおれる · Đổ, ngã (tự động từ)",
+              "note": "倒れる là tự động từ (bị đổ, ngã), không đi với 小指を."
+            },
+            {
+              "id": "c3",
+              "text": "ぶつけた",
+              "translation": "ぶつける · Va, đập (cái gì vào cái gì) (tha động từ)",
+              "note": "Đúng: AをBにぶつける = va A vào B — 小指を柱にぶつけた: đập ngón út vào cột nên mới đau."
+            },
+            {
+              "id": "c4",
+              "text": "離した",
+              "translation": "はなす · Buông, tách ra",
+              "note": "小指を柱に離す không thành nghĩa; va vào cột thì không phải \"tách ra\"."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Cặp tự/tha: （が）ぶつかる ＞＜ （を）ぶつける (xem câu 2). Mẫu: AをBにぶつける = va A vào B; AがBにぶつかる = A va vào B.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-8190-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "たくさんあった仕事が、やっと昨日（　　　　）。",
+          "promptReading": "たくさん あった しごとが、やっと きのう（　　　　）。",
+          "promptTranslation": "Đống việc chất chồng, cuối cùng hôm qua cũng đã （　　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "片付いた",
+              "translation": "かたづく · (Việc) xong xuôi; (đồ) được dọn gọn",
+              "note": "Đúng: 仕事が片付く = công việc được giải quyết xong — đống việc dồn lại cuối cùng cũng xong."
+            },
+            {
+              "id": "c2",
+              "text": "間に合った",
+              "translation": "まにあう · Kịp giờ",
+              "note": "間に合う là kịp giờ; câu không nói tới hạn chót, và 仕事が間に合った không nói lên \"làm xong đống việc\"."
+            },
+            {
+              "id": "c3",
+              "text": "間に合わせた",
+              "translation": "まにあわせる · Làm cho kịp",
+              "note": "間に合わせる là tha động từ, đi với を (仕事を間に合わせる); ở đây trợ từ là が."
+            },
+            {
+              "id": "c4",
+              "text": "預けた",
+              "translation": "あずける · Gửi (đồ, tiền)",
+              "note": "預ける là gửi đồ, gửi tiền, đi với を; không hợp nghĩa."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "片付く ngoài nghĩa phòng ốc được dọn gọn (部屋が片付く) còn dùng cho công việc, vấn đề được giải quyết xong (仕事が片付く、問題が片付く). Cặp tự/tha: （が）片付く ＞＜ （を）片付ける. やっと = cuối cùng thì (sau bao vất vả).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-8190-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "「ベトナムを（　　　　）、もう何年になるかなあ。日本の生活もずいぶん慣れた。",
+          "promptReading": "「ベトナムを（　　　　）、もう なんねんに なるかなあ。にほんの せいかつも ずいぶん なれた。",
+          "promptTranslation": "\"Từ khi （　　　　） Việt Nam tới giờ đã mấy năm rồi nhỉ. Cuộc sống ở Nhật mình cũng đã quen nhiều rồi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "通って",
+              "translation": "かよう · Đi lại thường xuyên (đi học, đi làm)",
+              "note": "通う đi với に chỉ nơi hay lui tới (学校に通う); ベトナムを通う không đúng, và đang sống ở Nhật thì không \"đi lại\" Việt Nam."
+            },
+            {
+              "id": "c2",
+              "text": "思い出して",
+              "translation": "おもいだす · Nhớ ra, nhớ lại",
+              "note": "思い出してから何年 không hợp: câu đếm thời gian từ lúc rời quê sang Nhật."
+            },
+            {
+              "id": "c3",
+              "text": "離して",
+              "translation": "はなす · Buông, tách ra (tha động từ)",
+              "note": "離す là buông, tách một vật ra; không dùng cho người rời khỏi một nơi."
+            },
+            {
+              "id": "c4",
+              "text": "離れて",
+              "translation": "はなれる · Rời xa, rời khỏi",
+              "note": "Đúng: 国を離れる = rời xa quê hương — を chỉ nơi rời đi; đã lâu rồi nên mới quen cuộc sống Nhật."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "（を）離れる = rời khỏi (một nơi): 故郷を離れる、親元を離れる ＞＜ 離す = buông ra (xem câu 4). Vて、もう～になる = từ khi ~ đã được (bao lâu) rồi. Đề in có 「 mở mà không có 」 đóng, chép đúng như đề.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-btvn-8190-10",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "ホーチミンさんはベトナムの歴史を大きく（　　　　）。",
+          "promptReading": "ホーチミンさんは ベトナムの れきしを おおきく（　　　　）。",
+          "promptTranslation": "Bác Hồ đã （　　　　） lịch sử Việt Nam một cách to lớn.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "決まった",
+              "translation": "きまる · Được quyết định (tự động từ)",
+              "note": "決まる là tự động từ, không đi với 歴史を."
+            },
+            {
+              "id": "c2",
+              "text": "はやった",
+              "translation": "はやる · Thịnh hành, phổ biến",
+              "note": "はやる là tự động từ (mốt thịnh hành), không đi với 歴史を."
+            },
+            {
+              "id": "c3",
+              "text": "動いた",
+              "translation": "うごく · Chuyển động (tự động từ)",
+              "note": "動く là tự động từ; muốn dùng thì phải là 歴史が動いた."
+            },
+            {
+              "id": "c4",
+              "text": "動かした",
+              "translation": "うごかす · Làm chuyển động, làm thay đổi (tha động từ)",
+              "note": "Đúng: 歴史を動かす = xoay chuyển lịch sử — tha động từ đi với を, chủ ngữ là người làm thay đổi."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Cặp tự/tha: （が）動く ＞＜ （を）動かす (xem câu 3, 4). 動かす ngoài nghĩa di chuyển vật (机を動かす) còn là làm lay chuyển, thay đổi: 歴史を動かす、人の心を動かす. 大きく = (một cách) to lớn.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

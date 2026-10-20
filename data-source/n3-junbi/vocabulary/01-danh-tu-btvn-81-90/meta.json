@@ -1,0 +1,8 @@
+{
+  "name": "BTVN 81–90",
+  "description": "Bài tập về nhà của cụm 81–90 (Bài 5.1 · Tin tức, khu phố và đồ quanh nhà) — 10 câu. Đề Riki ra toàn động từ (ぶつかる・こぼす・離す・片付く・動かす…), không hỏi các danh từ 81–90.",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "81–90",
+  "order": 109
+}
