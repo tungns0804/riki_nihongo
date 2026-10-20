@@ -1,0 +1,588 @@
+{
+  "id": "06-the-thuong-1",
+  "name": "Tổng hợp ngữ pháp thể thường (1)",
+  "description": "問題1: 15 câu điền vào chỗ trống — các mẫu đi sau thể thường: 〜んです, 〜ので, 〜のに, 〜し, 〜かどうか, 〜か, 〜ために, 〜ように, 〜ようになる, 〜ようにする.",
+  "kind": "test",
+  "parent": "",
+  "group": "",
+  "sections": [
+    {
+      "id": "the-thuong-1-mondai-1",
+      "title": "文法 問題1 — Điền vào chỗ trống (15 câu)",
+      "instructions": "問題１：（　　）に　何を　入れますか。1・2・3・4から　いちばん　いい　ものを　一つ　えらんで　ください。",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n4cs-tth-01",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "今朝　会社に　電話（　　　）んですが、だれも　出ませんでしたよ。",
+          "promptReading": "けさ　かいしゃに　でんわ（　　　）んですが、だれも　でませんでしたよ。",
+          "promptTranslation": "Sáng nay tôi đã gọi điện đến công ty, nhưng chẳng có ai nghe máy cả.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "して",
+              "translation": "thể て (して)",
+              "note": "Thể て không đứng trước ん（の）です được."
+            },
+            {
+              "id": "c2",
+              "text": "した",
+              "translation": "thể た (した)",
+              "note": "Đúng: chuyện đã xảy ra sáng nay nên dùng thể thường quá khứ した＋んですが."
+            },
+            {
+              "id": "c3",
+              "text": "する",
+              "translation": "thể từ điển (する)",
+              "note": "Đúng ngữ pháp (するんですが) nhưng là hiện tại / tương lai — không khớp với 今朝 và 出ませんでした."
+            },
+            {
+              "id": "c4",
+              "text": "します",
+              "translation": "thể ます (します)",
+              "note": "ん（の）です đi sau THỂ THƯỜNG, không đi sau thể ます."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "〜んですが: thể thường ＋ んですが — nêu hoàn cảnh để dẫn vào chuyện muốn kể. Mốc 今朝 và vế sau 出ませんでした đều là quá khứ nên phải là 電話したんですが.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-02",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "これから　すぐ　行く（　　　）、待って　いて　ください。",
+          "promptReading": "これから　すぐ　いく（　　　）、まって　いて　ください。",
+          "promptTranslation": "Tôi sẽ đi ngay bây giờ, nên anh hãy đợi nhé.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "のに",
+              "translation": "vậy mà (のに)",
+              "note": "のに là \"vậy mà\", trái với mong đợi — \"đi ngay vậy mà hãy đợi\" vô nghĩa."
+            },
+            {
+              "id": "c2",
+              "text": "でも",
+              "translation": "nhưng / ngay cả (でも)",
+              "note": "でも không nối thẳng sau động từ thể từ điển (行くでも ✗)."
+            },
+            {
+              "id": "c3",
+              "text": "ので",
+              "translation": "vì… nên (ので)",
+              "note": "Đúng: \"vì tôi đi ngay\" là lý do để nhờ \"hãy đợi\"."
+            },
+            {
+              "id": "c4",
+              "text": "で",
+              "translation": "trợ từ で",
+              "note": "で không đi sau động từ thể từ điển (行くで ✗)."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "〜ので: thể thường ＋ ので — nêu lý do khách quan, mềm mỏng, rất hợp khi vế sau là lời nhờ vả 〜てください. Đề in 「待まって」 là furigana dính vào chữ, chép lại là 待って.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-03",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "国に　帰りたい（　　　）帰れません。",
+          "promptReading": "くにに　かえりたい（　　　）かえれません。",
+          "promptTranslation": "Muốn về nước vậy mà không về được.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "のに",
+              "translation": "vậy mà (のに)",
+              "note": "Đúng: \"muốn về\" mà \"không về được\" — kết quả trái mong muốn, kèm cảm giác tiếc nuối, bức bối."
+            },
+            {
+              "id": "c2",
+              "text": "ので",
+              "translation": "vì… nên (ので)",
+              "note": "\"Vì muốn về nên không về được\" ngược nghĩa."
+            },
+            {
+              "id": "c3",
+              "text": "んですが",
+              "translation": "… nhưng (んですが)",
+              "note": "帰りたいんですが、帰れません cũng nói được, nhưng chỉ là nêu sự việc nhẹ nhàng; câu đề không có dấu phẩy và bài đang luyện のに nên đáp án tốt nhất là のに."
+            },
+            {
+              "id": "c4",
+              "text": "かどうか",
+              "translation": "có… hay không (かどうか)",
+              "note": "かどうか phải đi với động từ như わからない・知らない, không hợp với 帰れません."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "〜のに: thể thường ＋ のに — \"vậy mà, thế mà\": vế sau trái với điều vế trước khiến người ta chờ đợi, thường mang sắc thái tiếc nuối hoặc bất mãn của người nói.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-04",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "カルロスは　サッカーが　上手なのに、試合に（　　　）。",
+          "promptReading": "カルロスは　サッカーが　じょうずなのに、しあいに（　　　）。",
+          "promptTranslation": "Carlos giỏi bóng đá vậy mà lại không được ra sân trong trận đấu.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "頑張った",
+              "translation": "đã cố gắng",
+              "note": "\"Giỏi vậy mà đã cố gắng\" không có gì trái ngược; vả lại 頑張る đi với を・で chứ không đi với 試合に."
+            },
+            {
+              "id": "c2",
+              "text": "勝った",
+              "translation": "đã thắng",
+              "note": "\"Giỏi vậy mà thắng\" là điều đương nhiên, không phải trái mong đợi."
+            },
+            {
+              "id": "c3",
+              "text": "出た",
+              "translation": "đã ra sân / tham gia",
+              "note": "\"Giỏi vậy mà được ra sân\" cũng là điều đương nhiên."
+            },
+            {
+              "id": "c4",
+              "text": "出なかった",
+              "translation": "đã không ra sân",
+              "note": "Đúng: giỏi thì đáng được ra sân, vậy mà KHÔNG được — đúng kiểu trái ngược của のに."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "Tính từ な ＋ のに: 上手なのに (giữ な, giống ので). Vế sau của のに phải là kết quả ngược với điều vế trước khiến ta chờ đợi → 試合に出なかった (試合に出る: ra sân, tham gia trận đấu).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-05",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：　「リンさん、昨日は　授業中　静かでしたね。」\nB：　「おととい　遅くまで　起きて　いたので、（　　　）よ。」",
+          "promptReading": "A：　「リンさん、きのうは　じゅぎょうちゅう　しずかでしたね。」\nB：　「おととい　おそくまで　おきて　いたので、（　　　）よ。」",
+          "promptTranslation": "A: \"Lin này, hôm qua trong giờ học bạn im lặng quá nhỉ.\"\nB: \"Vì hôm kia tôi thức khuya nên (hôm qua) buồn ngủ ấy mà.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "眠かったんです",
+              "translation": "(là vì) đã buồn ngủ",
+              "note": "Đúng: giải thích lý do cho chuyện HÔM QUA → quá khứ 眠かった＋んです (giọng giải thích)."
+            },
+            {
+              "id": "c2",
+              "text": "眠いです",
+              "translation": "buồn ngủ (hiện tại)",
+              "note": "Hiện tại — không khớp với chuyện hôm qua, và thiếu んです để giải thích."
+            },
+            {
+              "id": "c3",
+              "text": "眠いです",
+              "translation": "buồn ngủ (hiện tại)",
+              "note": "Đề in trùng với lựa chọn 2 (có lẽ bản gốc là một dạng khác); giữ nguyên, cũng sai vì cùng lý do."
+            },
+            {
+              "id": "c4",
+              "text": "眠くなかったんです",
+              "translation": "(là vì) đã không buồn ngủ",
+              "note": "Thức khuya thì phải buồn ngủ, \"không buồn ngủ\" ngược nghĩa."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "〜んです dùng để GIẢI THÍCH lý do khi bị hỏi hoặc bị nhận xét. A nhận xét chuyện hôm qua nên B trả lời bằng quá khứ: 眠かったんです. Đề in lựa chọn 2 và 3 giống hệt nhau (眠いです), chép nguyên như đề.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-06",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "この　答えは　正しい（　　　）わからない。",
+          "promptReading": "この　こたえは　ただしい（　　　）わからない。",
+          "promptTranslation": "Tôi không biết câu trả lời này có đúng hay không.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "のに",
+              "translation": "vậy mà (のに)",
+              "note": "\"Đúng vậy mà không biết\" vô nghĩa."
+            },
+            {
+              "id": "c2",
+              "text": "ので",
+              "translation": "vì… nên (ので)",
+              "note": "\"Vì đúng nên không biết\" vô nghĩa."
+            },
+            {
+              "id": "c3",
+              "text": "し",
+              "translation": "vừa… lại (し)",
+              "note": "し dùng để liệt kê lý do, không làm tân ngữ cho わからない."
+            },
+            {
+              "id": "c4",
+              "text": "かどうか",
+              "translation": "có… hay không (かどうか)",
+              "note": "Đúng: câu hỏi có/không lồng vào câu — \"có đúng hay không\" + わからない."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "〜かどうか: thể thường ＋ かどうか — lồng một câu hỏi CÓ/KHÔNG vào câu lớn, thường đi với わからない・知らない・覚えていない・聞いてみる. Tính từ い giữ nguyên: 正しいかどうか.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-07",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：　「大学の　近くの　新しい　アパートに　住みたいです。」\nB：　「あの　アパートは（　　　）まわりも　うるさいから、やめたほうが　いいですよ。」",
+          "promptReading": "A：　「だいがくの　ちかくの　あたらしい　アパートに　すみたいです。」\nB：　「あの　アパートは（　　　）まわりも　うるさいから、やめたほうが　いいですよ。」",
+          "promptTranslation": "A: \"Tôi muốn sống ở căn hộ mới gần trường đại học.\"\nB: \"Căn hộ đó vừa chật, xung quanh lại ồn, nên bỏ đi thì hơn.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "狭かったり",
+              "translation": "lúc thì chật (〜たり)",
+              "note": "〜たり phải đi thành cặp 〜たり〜たりする, ở đây không có vế たり thứ hai."
+            },
+            {
+              "id": "c2",
+              "text": "狭いし",
+              "translation": "vừa chật, lại… (〜し)",
+              "note": "Đúng: し liệt kê lý do, đi cặp với も ở まわりも — \"vừa chật, xung quanh cũng ồn\"."
+            },
+            {
+              "id": "c3",
+              "text": "狭いと",
+              "translation": "hễ chật thì (〜と)",
+              "note": "〜と là điều kiện \"hễ… thì\", không hợp để kể lý do."
+            },
+            {
+              "id": "c4",
+              "text": "狭かったら",
+              "translation": "nếu chật thì (〜たら)",
+              "note": "〜たら là \"nếu… thì\", trong khi B đang nói về sự thật của căn hộ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "〜し: thể thường ＋ し — liệt kê nhiều lý do, thường đi với も ở vế sau (AもBし、Cも〜). Câu A trong đề thiếu dấu 」 ở cuối, chép bổ sung vào.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-08",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "山田：　「パクさん、元気が　ありませんね。（　　　）したんですか。」\nパク：　「アルバイトで　失敗して、怒られたんです。」",
+          "promptReading": "やまだ：　「パクさん、げんきが　ありませんね。（　　　）したんですか。」\nパク：　「アルバイトで　しっぱいして、おこられたんです。」",
+          "promptTranslation": "Yamada: \"Park này, trông bạn không được khỏe nhỉ. Có chuyện gì vậy?\"\nPark: \"Tôi làm hỏng việc ở chỗ làm thêm nên bị mắng.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "どうして",
+              "translation": "tại sao",
+              "note": "どうして đứng trước したんですか thành \"tại sao đã làm\" — không thành câu hỏi thăm."
+            },
+            {
+              "id": "c2",
+              "text": "どのぐらい",
+              "translation": "khoảng bao nhiêu",
+              "note": "どのぐらい hỏi mức độ, thời lượng, không hợp."
+            },
+            {
+              "id": "c3",
+              "text": "どう",
+              "translation": "thế nào",
+              "note": "Đúng: どうしたんですか là câu cố định \"có chuyện gì vậy?\" khi thấy người khác khác thường."
+            },
+            {
+              "id": "c4",
+              "text": "どちら",
+              "translation": "cái nào / phía nào",
+              "note": "どちら hỏi lựa chọn hoặc phương hướng."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "どうしたんですか: どう ＋ した ＋ んですか — hỏi chuyện khi thấy đối phương có vẻ khác thường (mệt, buồn, đau…). Người trả lời cũng dùng 〜んです để giải thích: 怒られたんです.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-09",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：　「どうして　その　アパートに　引っ越したんですか。」\nB：　「駅から（　　　）、家賃も　安いからです。」",
+          "promptReading": "A：　「どうして　その　アパートに　ひっこしたんですか。」\nB：　「えきから（　　　）、やちんも　やすいからです。」",
+          "promptTranslation": "A: \"Tại sao bạn lại chuyển đến căn hộ đó vậy?\"\nB: \"Vì nó vừa gần ga, tiền nhà lại rẻ.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "近いし",
+              "translation": "vừa gần, lại… (〜し)",
+              "note": "Đúng: liệt kê hai lý do — 近いし、家賃も安い."
+            },
+            {
+              "id": "c2",
+              "text": "近いか",
+              "translation": "gần không / hay (〜か)",
+              "note": "か biến vế trước thành câu hỏi lồng, không dùng để nêu lý do."
+            },
+            {
+              "id": "c3",
+              "text": "近いで",
+              "translation": "(sai ngữ pháp)",
+              "note": "Tính từ い không nối thẳng với で (近いで ✗); dạng nối là 近くて."
+            },
+            {
+              "id": "c4",
+              "text": "近いに",
+              "translation": "(sai ngữ pháp)",
+              "note": "Tính từ い không nối thẳng với に (近いに ✗)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Lại là 〜し liệt kê lý do, đi cặp với も ở vế sau (家賃も), kết thúc bằng 〜からです để trả lời câu hỏi どうして. Đề in 「A；」 (chấm phẩy) — sửa thành 「A：」.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-10",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "本当に　宇宙人が　いる（　　　）、だれも　わかりません。",
+          "promptReading": "ほんとうに　うちゅうじんが　いる（　　　）、だれも　わかりません。",
+          "promptTranslation": "Người ngoài hành tinh có thật sự tồn tại hay không thì không ai biết.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "し",
+              "translation": "vừa… lại (し)",
+              "note": "し liệt kê lý do, không làm tân ngữ cho わかりません."
+            },
+            {
+              "id": "c2",
+              "text": "のに",
+              "translation": "vậy mà (のに)",
+              "note": "\"Có người ngoài hành tinh vậy mà không ai biết\" — sai ý câu."
+            },
+            {
+              "id": "c3",
+              "text": "かどうか",
+              "translation": "có… hay không (かどうか)",
+              "note": "Đúng: câu không có từ để hỏi → câu hỏi có/không lồng vào câu phải dùng かどうか."
+            },
+            {
+              "id": "c4",
+              "text": "か",
+              "translation": "(từ để hỏi) … (か)",
+              "note": "〜か (không có どうか) chỉ dùng khi câu lồng có TỪ ĐỂ HỎI: 何がいるか・どこにいるか. Câu này không có nên sai."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "Phân biệt: có từ để hỏi (何・だれ・どこ・いつ…) ＋ か; không có từ để hỏi → かどうか. いる + かどうか → いるかどうか、だれもわかりません.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-11",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：　「あれ、キムさん、もう　食べないんですか。」\nB：　「はい。食べすぎて（　　　）ように　気を　つけています。」",
+          "promptReading": "A：　「あれ、キムさん、もう　たべないんですか。」\nB：　「はい。たべすぎて（　　　）ように　きを　つけています。」",
+          "promptTranslation": "A: \"Ơ, Kim ơi, bạn không ăn nữa à?\"\nB: \"Vâng. Tôi đang chú ý để không bị béo vì ăn quá nhiều.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "太らなかった",
+              "translation": "đã không béo",
+              "note": "〜ように (mục đích) không đi sau thể quá khứ."
+            },
+            {
+              "id": "c2",
+              "text": "太る",
+              "translation": "béo lên",
+              "note": "\"Để béo lên\" ngược với ý không ăn nữa."
+            },
+            {
+              "id": "c3",
+              "text": "太らない",
+              "translation": "không béo lên",
+              "note": "Đúng: mục đích là KHÔNG béo — thể ない ＋ ように."
+            },
+            {
+              "id": "c4",
+              "text": "太った",
+              "translation": "đã béo",
+              "note": "〜ように (mục đích) không đi sau thể quá khứ."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "〜ように: động từ thể từ điển / thể ない ＋ ように — \"để (đạt trạng thái) …\", thường với động từ không ý chí (太る・忘れる・見える…). 〜ないように気をつける: chú ý để không ….",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-12",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "ここに　いるのは、みんな　文学を（　　　）集まった　学生たちです。",
+          "promptReading": "ここに　いるのは、みんな　ぶんがくを（　　　）あつまった　がくせいたちです。",
+          "promptTranslation": "Những người ở đây đều là sinh viên tập trung về để nghiên cứu văn học.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "研究したように",
+              "translation": "như đã nghiên cứu",
+              "note": "〜たように là \"giống như đã…\", không chỉ mục đích."
+            },
+            {
+              "id": "c2",
+              "text": "研究するために",
+              "translation": "để nghiên cứu",
+              "note": "Đúng: 研究する là hành động có ý chí của chính các sinh viên → mục đích dùng ために."
+            },
+            {
+              "id": "c3",
+              "text": "研究するようになって",
+              "translation": "trở nên (có thói quen) nghiên cứu",
+              "note": "〜ようになる chỉ sự thay đổi \"trở nên…\", không hợp với 集まった."
+            },
+            {
+              "id": "c4",
+              "text": "研究したようにして",
+              "translation": "làm giống như đã nghiên cứu",
+              "note": "Kết hợp sai — ようにする phải đi sau thể từ điển / thể ない, không đi sau thể た."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Phân biệt ために và ように chỉ mục đích: ために đi với động từ CÓ Ý CHÍ (研究する・買う・行く), cùng chủ ngữ với vế sau; ように đi với động từ không ý chí, thể khả năng hoặc thể ない (見えるように・忘れないように).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-13",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "大川：　「ボブさん、もう　日本の　生活に　なれましたか。」\nボブ：　「はい。日本語も　だいぶ　わかる　ように（　　　）。」",
+          "promptReading": "おおかわ：　「ボブさん、もう　にほんの　せいかつに　なれましたか。」\nボブ：　「はい。にほんごも　だいぶ　わかる　ように（　　　）。」",
+          "promptTranslation": "Okawa: \"Bob này, bạn đã quen với cuộc sống ở Nhật chưa?\"\nBob: \"Rồi ạ. Tiếng Nhật tôi cũng đã hiểu được kha khá rồi.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "します",
+              "translation": "sẽ cố gắng (〜ようにします)",
+              "note": "〜ようにする là cố gắng tạo thói quen, mà わかる (hiểu) không phải việc tự quyết được."
+            },
+            {
+              "id": "c2",
+              "text": "しました",
+              "translation": "đã cố gắng (〜ようにしました)",
+              "note": "Cùng lý do — わかる không đi với ようにする."
+            },
+            {
+              "id": "c3",
+              "text": "なります",
+              "translation": "sẽ trở nên (〜ようになります)",
+              "note": "Đúng mẫu nhưng là tương lai; Bob đang kể sự thay đổi ĐÃ xảy ra (だいぶ, đáp もう〜ましたか)."
+            },
+            {
+              "id": "c4",
+              "text": "なりました",
+              "translation": "đã trở nên (〜ようになりました)",
+              "note": "Đúng: sự thay đổi năng lực đã diễn ra — \"đã trở nên hiểu được\"."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "〜ようになる: thể từ điển / thể khả năng ＋ ようになる — chỉ sự THAY ĐỔI năng lực, thói quen (trước không… nay thì…). Câu hỏi dùng もう〜ましたか nên trả lời bằng quá khứ ようになりました.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-14",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "私は　エレベーターや　エスカレーターは　使わないで、階段を（　　　）ように　して　います。",
+          "promptReading": "わたしは　エレベーターや　エスカレーターは　つかわないで、かいだんを（　　　）ように　して　います。",
+          "promptTranslation": "Tôi không dùng thang máy hay thang cuốn mà cố gắng đi cầu thang bộ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "使う",
+              "translation": "dùng",
+              "note": "Đúng: thể từ điển ＋ ようにしている — đang cố duy trì thói quen dùng cầu thang."
+            },
+            {
+              "id": "c2",
+              "text": "使わない",
+              "translation": "không dùng",
+              "note": "Đúng ngữ pháp nhưng ngược nghĩa: đã không dùng thang máy thì phải dùng cầu thang."
+            },
+            {
+              "id": "c3",
+              "text": "使って",
+              "translation": "thể て (dùng và…)",
+              "note": "ようにする không đi sau thể て."
+            },
+            {
+              "id": "c4",
+              "text": "使った",
+              "translation": "đã dùng",
+              "note": "ようにする không đi sau thể た."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "〜ようにする: thể từ điển / thể ない ＋ ようにする — cố gắng, chú ý để làm (hoặc không làm) gì; dạng ようにしている là đang duy trì thành thói quen.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "n4cs-tth-15",
+          "skill": "grammar",
+          "prompt": "",
+          "promptJapanese": "A：　「家から　駅まで　近いですか。」\nB：　「ちょっと　遠いですが、バスを　使わないで（　　　）います。」",
+          "promptReading": "A：　「いえから　えきまで　ちかいですか。」\nB：　「ちょっと　とおいですが、バスを　つかわないで（　　　）います。」",
+          "promptTranslation": "A: \"Từ nhà đến ga có gần không?\"\nB: \"Hơi xa một chút, nhưng tôi cố gắng không đi xe buýt mà đi bộ.\"",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "歩くように行って",
+              "translation": "đi như là đi bộ",
+              "note": "歩くように行く là \"đi giống như đi bộ\" — không có nghĩa ở đây."
+            },
+            {
+              "id": "c2",
+              "text": "歩いて行くようにして",
+              "translation": "cố gắng đi bộ (đến ga)",
+              "note": "Đúng: chủ động chọn đi bộ thay vì đi xe buýt, đang duy trì thói quen → ようにしている."
+            },
+            {
+              "id": "c3",
+              "text": "歩くようになって",
+              "translation": "trở nên đi bộ",
+              "note": "ようになっている chỉ sự thay đổi tự nhiên, không hợp với việc chủ động 使わないで."
+            },
+            {
+              "id": "c4",
+              "text": "歩いて行くようになって",
+              "translation": "trở nên đi bộ (đến ga)",
+              "note": "Cùng lý do — ようになる không diễn tả nỗ lực có chủ đích."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "Phân biệt: 〜ようにする = cố gắng, chủ động tạo thói quen; 〜ようになる = sự thay đổi tự diễn ra. Câu này người nói chủ động bỏ xe buýt nên dùng 歩いて行くようにしています.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

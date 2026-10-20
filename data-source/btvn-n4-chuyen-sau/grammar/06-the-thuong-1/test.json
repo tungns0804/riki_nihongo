@@ -1,0 +1,252 @@
+{
+  "sections": [
+    {
+      "id": "the-thuong-1-mondai-1",
+      "title": "文法 問題1 — Điền vào chỗ trống (15 câu)",
+      "instructions": "問題１：（　　）に　何を　入れますか。1・2・3・4から　いちばん　いい　ものを　一つ　えらんで　ください。",
+      "skill": "grammar",
+      "questions": [
+        {
+          "id": "n4cs-tth-01",
+          "promptJapanese": "今朝　会社に　電話（　　　）んですが、だれも　出ませんでしたよ。",
+          "promptReading": "けさ　かいしゃに　でんわ（　　　）んですが、だれも　でませんでしたよ。",
+          "promptVietnamese": "Sáng nay tôi đã gọi điện đến công ty, nhưng chẳng có ai nghe máy cả.",
+          "choices": ["して", "した", "する", "します"],
+          "choicesVietnamese": ["thể て (して)", "thể た (した)", "thể từ điển (する)", "thể ます (します)"],
+          "choiceNotes": [
+            "Thể て không đứng trước ん（の）です được.",
+            "Đúng: chuyện đã xảy ra sáng nay nên dùng thể thường quá khứ した＋んですが.",
+            "Đúng ngữ pháp (するんですが) nhưng là hiện tại / tương lai — không khớp với 今朝 và 出ませんでした.",
+            "ん（の）です đi sau THỂ THƯỜNG, không đi sau thể ます."
+          ],
+          "answer": 2,
+          "explanation": "〜んですが: thể thường ＋ んですが — nêu hoàn cảnh để dẫn vào chuyện muốn kể. Mốc 今朝 và vế sau 出ませんでした đều là quá khứ nên phải là 電話したんですが."
+        },
+        {
+          "id": "n4cs-tth-02",
+          "promptJapanese": "これから　すぐ　行く（　　　）、待って　いて　ください。",
+          "promptReading": "これから　すぐ　いく（　　　）、まって　いて　ください。",
+          "promptVietnamese": "Tôi sẽ đi ngay bây giờ, nên anh hãy đợi nhé.",
+          "choices": ["のに", "でも", "ので", "で"],
+          "choicesVietnamese": ["vậy mà (のに)", "nhưng / ngay cả (でも)", "vì… nên (ので)", "trợ từ で"],
+          "choiceNotes": [
+            "のに là \"vậy mà\", trái với mong đợi — \"đi ngay vậy mà hãy đợi\" vô nghĩa.",
+            "でも không nối thẳng sau động từ thể từ điển (行くでも ✗).",
+            "Đúng: \"vì tôi đi ngay\" là lý do để nhờ \"hãy đợi\".",
+            "で không đi sau động từ thể từ điển (行くで ✗)."
+          ],
+          "answer": 3,
+          "explanation": "〜ので: thể thường ＋ ので — nêu lý do khách quan, mềm mỏng, rất hợp khi vế sau là lời nhờ vả 〜てください. Đề in 「待まって」 là furigana dính vào chữ, chép lại là 待って."
+        },
+        {
+          "id": "n4cs-tth-03",
+          "promptJapanese": "国に　帰りたい（　　　）帰れません。",
+          "promptReading": "くにに　かえりたい（　　　）かえれません。",
+          "promptVietnamese": "Muốn về nước vậy mà không về được.",
+          "choices": ["のに", "ので", "んですが", "かどうか"],
+          "choicesVietnamese": ["vậy mà (のに)", "vì… nên (ので)", "… nhưng (んですが)", "có… hay không (かどうか)"],
+          "choiceNotes": [
+            "Đúng: \"muốn về\" mà \"không về được\" — kết quả trái mong muốn, kèm cảm giác tiếc nuối, bức bối.",
+            "\"Vì muốn về nên không về được\" ngược nghĩa.",
+            "帰りたいんですが、帰れません cũng nói được, nhưng chỉ là nêu sự việc nhẹ nhàng; câu đề không có dấu phẩy và bài đang luyện のに nên đáp án tốt nhất là のに.",
+            "かどうか phải đi với động từ như わからない・知らない, không hợp với 帰れません."
+          ],
+          "answer": 1,
+          "explanation": "〜のに: thể thường ＋ のに — \"vậy mà, thế mà\": vế sau trái với điều vế trước khiến người ta chờ đợi, thường mang sắc thái tiếc nuối hoặc bất mãn của người nói."
+        },
+        {
+          "id": "n4cs-tth-04",
+          "promptJapanese": "カルロスは　サッカーが　上手なのに、試合に（　　　）。",
+          "promptReading": "カルロスは　サッカーが　じょうずなのに、しあいに（　　　）。",
+          "promptVietnamese": "Carlos giỏi bóng đá vậy mà lại không được ra sân trong trận đấu.",
+          "choices": ["頑張った", "勝った", "出た", "出なかった"],
+          "choicesVietnamese": ["đã cố gắng", "đã thắng", "đã ra sân / tham gia", "đã không ra sân"],
+          "choiceNotes": [
+            "\"Giỏi vậy mà đã cố gắng\" không có gì trái ngược; vả lại 頑張る đi với を・で chứ không đi với 試合に.",
+            "\"Giỏi vậy mà thắng\" là điều đương nhiên, không phải trái mong đợi.",
+            "\"Giỏi vậy mà được ra sân\" cũng là điều đương nhiên.",
+            "Đúng: giỏi thì đáng được ra sân, vậy mà KHÔNG được — đúng kiểu trái ngược của のに."
+          ],
+          "answer": 4,
+          "explanation": "Tính từ な ＋ のに: 上手なのに (giữ な, giống ので). Vế sau của のに phải là kết quả ngược với điều vế trước khiến ta chờ đợi → 試合に出なかった (試合に出る: ra sân, tham gia trận đấu)."
+        },
+        {
+          "id": "n4cs-tth-05",
+          "promptJapanese": "A：　「リンさん、昨日は　授業中　静かでしたね。」\nB：　「おととい　遅くまで　起きて　いたので、（　　　）よ。」",
+          "promptReading": "A：　「リンさん、きのうは　じゅぎょうちゅう　しずかでしたね。」\nB：　「おととい　おそくまで　おきて　いたので、（　　　）よ。」",
+          "promptVietnamese": "A: \"Lin này, hôm qua trong giờ học bạn im lặng quá nhỉ.\"\nB: \"Vì hôm kia tôi thức khuya nên (hôm qua) buồn ngủ ấy mà.\"",
+          "choices": ["眠かったんです", "眠いです", "眠いです", "眠くなかったんです"],
+          "choicesVietnamese": ["(là vì) đã buồn ngủ", "buồn ngủ (hiện tại)", "buồn ngủ (hiện tại)", "(là vì) đã không buồn ngủ"],
+          "choiceNotes": [
+            "Đúng: giải thích lý do cho chuyện HÔM QUA → quá khứ 眠かった＋んです (giọng giải thích).",
+            "Hiện tại — không khớp với chuyện hôm qua, và thiếu んです để giải thích.",
+            "Đề in trùng với lựa chọn 2 (có lẽ bản gốc là một dạng khác); giữ nguyên, cũng sai vì cùng lý do.",
+            "Thức khuya thì phải buồn ngủ, \"không buồn ngủ\" ngược nghĩa."
+          ],
+          "answer": 1,
+          "explanation": "〜んです dùng để GIẢI THÍCH lý do khi bị hỏi hoặc bị nhận xét. A nhận xét chuyện hôm qua nên B trả lời bằng quá khứ: 眠かったんです. Đề in lựa chọn 2 và 3 giống hệt nhau (眠いです), chép nguyên như đề."
+        },
+        {
+          "id": "n4cs-tth-06",
+          "promptJapanese": "この　答えは　正しい（　　　）わからない。",
+          "promptReading": "この　こたえは　ただしい（　　　）わからない。",
+          "promptVietnamese": "Tôi không biết câu trả lời này có đúng hay không.",
+          "choices": ["のに", "ので", "し", "かどうか"],
+          "choicesVietnamese": ["vậy mà (のに)", "vì… nên (ので)", "vừa… lại (し)", "có… hay không (かどうか)"],
+          "choiceNotes": [
+            "\"Đúng vậy mà không biết\" vô nghĩa.",
+            "\"Vì đúng nên không biết\" vô nghĩa.",
+            "し dùng để liệt kê lý do, không làm tân ngữ cho わからない.",
+            "Đúng: câu hỏi có/không lồng vào câu — \"có đúng hay không\" + わからない."
+          ],
+          "answer": 4,
+          "explanation": "〜かどうか: thể thường ＋ かどうか — lồng một câu hỏi CÓ/KHÔNG vào câu lớn, thường đi với わからない・知らない・覚えていない・聞いてみる. Tính từ い giữ nguyên: 正しいかどうか."
+        },
+        {
+          "id": "n4cs-tth-07",
+          "promptJapanese": "A：　「大学の　近くの　新しい　アパートに　住みたいです。」\nB：　「あの　アパートは（　　　）まわりも　うるさいから、やめたほうが　いいですよ。」",
+          "promptReading": "A：　「だいがくの　ちかくの　あたらしい　アパートに　すみたいです。」\nB：　「あの　アパートは（　　　）まわりも　うるさいから、やめたほうが　いいですよ。」",
+          "promptVietnamese": "A: \"Tôi muốn sống ở căn hộ mới gần trường đại học.\"\nB: \"Căn hộ đó vừa chật, xung quanh lại ồn, nên bỏ đi thì hơn.\"",
+          "choices": ["狭かったり", "狭いし", "狭いと", "狭かったら"],
+          "choicesVietnamese": ["lúc thì chật (〜たり)", "vừa chật, lại… (〜し)", "hễ chật thì (〜と)", "nếu chật thì (〜たら)"],
+          "choiceNotes": [
+            "〜たり phải đi thành cặp 〜たり〜たりする, ở đây không có vế たり thứ hai.",
+            "Đúng: し liệt kê lý do, đi cặp với も ở まわりも — \"vừa chật, xung quanh cũng ồn\".",
+            "〜と là điều kiện \"hễ… thì\", không hợp để kể lý do.",
+            "〜たら là \"nếu… thì\", trong khi B đang nói về sự thật của căn hộ."
+          ],
+          "answer": 2,
+          "explanation": "〜し: thể thường ＋ し — liệt kê nhiều lý do, thường đi với も ở vế sau (AもBし、Cも〜). Câu A trong đề thiếu dấu 」 ở cuối, chép bổ sung vào."
+        },
+        {
+          "id": "n4cs-tth-08",
+          "promptJapanese": "山田：　「パクさん、元気が　ありませんね。（　　　）したんですか。」\nパク：　「アルバイトで　失敗して、怒られたんです。」",
+          "promptReading": "やまだ：　「パクさん、げんきが　ありませんね。（　　　）したんですか。」\nパク：　「アルバイトで　しっぱいして、おこられたんです。」",
+          "promptVietnamese": "Yamada: \"Park này, trông bạn không được khỏe nhỉ. Có chuyện gì vậy?\"\nPark: \"Tôi làm hỏng việc ở chỗ làm thêm nên bị mắng.\"",
+          "choices": ["どうして", "どのぐらい", "どう", "どちら"],
+          "choicesVietnamese": ["tại sao", "khoảng bao nhiêu", "thế nào", "cái nào / phía nào"],
+          "choiceNotes": [
+            "どうして đứng trước したんですか thành \"tại sao đã làm\" — không thành câu hỏi thăm.",
+            "どのぐらい hỏi mức độ, thời lượng, không hợp.",
+            "Đúng: どうしたんですか là câu cố định \"có chuyện gì vậy?\" khi thấy người khác khác thường.",
+            "どちら hỏi lựa chọn hoặc phương hướng."
+          ],
+          "answer": 3,
+          "explanation": "どうしたんですか: どう ＋ した ＋ んですか — hỏi chuyện khi thấy đối phương có vẻ khác thường (mệt, buồn, đau…). Người trả lời cũng dùng 〜んです để giải thích: 怒られたんです."
+        },
+        {
+          "id": "n4cs-tth-09",
+          "promptJapanese": "A：　「どうして　その　アパートに　引っ越したんですか。」\nB：　「駅から（　　　）、家賃も　安いからです。」",
+          "promptReading": "A：　「どうして　その　アパートに　ひっこしたんですか。」\nB：　「えきから（　　　）、やちんも　やすいからです。」",
+          "promptVietnamese": "A: \"Tại sao bạn lại chuyển đến căn hộ đó vậy?\"\nB: \"Vì nó vừa gần ga, tiền nhà lại rẻ.\"",
+          "choices": ["近いし", "近いか", "近いで", "近いに"],
+          "choicesVietnamese": ["vừa gần, lại… (〜し)", "gần không / hay (〜か)", "(sai ngữ pháp)", "(sai ngữ pháp)"],
+          "choiceNotes": [
+            "Đúng: liệt kê hai lý do — 近いし、家賃も安い.",
+            "か biến vế trước thành câu hỏi lồng, không dùng để nêu lý do.",
+            "Tính từ い không nối thẳng với で (近いで ✗); dạng nối là 近くて.",
+            "Tính từ い không nối thẳng với に (近いに ✗)."
+          ],
+          "answer": 1,
+          "explanation": "Lại là 〜し liệt kê lý do, đi cặp với も ở vế sau (家賃も), kết thúc bằng 〜からです để trả lời câu hỏi どうして. Đề in 「A；」 (chấm phẩy) — sửa thành 「A：」."
+        },
+        {
+          "id": "n4cs-tth-10",
+          "promptJapanese": "本当に　宇宙人が　いる（　　　）、だれも　わかりません。",
+          "promptReading": "ほんとうに　うちゅうじんが　いる（　　　）、だれも　わかりません。",
+          "promptVietnamese": "Người ngoài hành tinh có thật sự tồn tại hay không thì không ai biết.",
+          "choices": ["し", "のに", "かどうか", "か"],
+          "choicesVietnamese": ["vừa… lại (し)", "vậy mà (のに)", "có… hay không (かどうか)", "(từ để hỏi) … (か)"],
+          "choiceNotes": [
+            "し liệt kê lý do, không làm tân ngữ cho わかりません.",
+            "\"Có người ngoài hành tinh vậy mà không ai biết\" — sai ý câu.",
+            "Đúng: câu không có từ để hỏi → câu hỏi có/không lồng vào câu phải dùng かどうか.",
+            "〜か (không có どうか) chỉ dùng khi câu lồng có TỪ ĐỂ HỎI: 何がいるか・どこにいるか. Câu này không có nên sai."
+          ],
+          "answer": 3,
+          "explanation": "Phân biệt: có từ để hỏi (何・だれ・どこ・いつ…) ＋ か; không có từ để hỏi → かどうか. いる + かどうか → いるかどうか、だれもわかりません."
+        },
+        {
+          "id": "n4cs-tth-11",
+          "promptJapanese": "A：　「あれ、キムさん、もう　食べないんですか。」\nB：　「はい。食べすぎて（　　　）ように　気を　つけています。」",
+          "promptReading": "A：　「あれ、キムさん、もう　たべないんですか。」\nB：　「はい。たべすぎて（　　　）ように　きを　つけています。」",
+          "promptVietnamese": "A: \"Ơ, Kim ơi, bạn không ăn nữa à?\"\nB: \"Vâng. Tôi đang chú ý để không bị béo vì ăn quá nhiều.\"",
+          "choices": ["太らなかった", "太る", "太らない", "太った"],
+          "choicesVietnamese": ["đã không béo", "béo lên", "không béo lên", "đã béo"],
+          "choiceNotes": [
+            "〜ように (mục đích) không đi sau thể quá khứ.",
+            "\"Để béo lên\" ngược với ý không ăn nữa.",
+            "Đúng: mục đích là KHÔNG béo — thể ない ＋ ように.",
+            "〜ように (mục đích) không đi sau thể quá khứ."
+          ],
+          "answer": 3,
+          "explanation": "〜ように: động từ thể từ điển / thể ない ＋ ように — \"để (đạt trạng thái) …\", thường với động từ không ý chí (太る・忘れる・見える…). 〜ないように気をつける: chú ý để không …."
+        },
+        {
+          "id": "n4cs-tth-12",
+          "promptJapanese": "ここに　いるのは、みんな　文学を（　　　）集まった　学生たちです。",
+          "promptReading": "ここに　いるのは、みんな　ぶんがくを（　　　）あつまった　がくせいたちです。",
+          "promptVietnamese": "Những người ở đây đều là sinh viên tập trung về để nghiên cứu văn học.",
+          "choices": ["研究したように", "研究するために", "研究するようになって", "研究したようにして"],
+          "choicesVietnamese": ["như đã nghiên cứu", "để nghiên cứu", "trở nên (có thói quen) nghiên cứu", "làm giống như đã nghiên cứu"],
+          "choiceNotes": [
+            "〜たように là \"giống như đã…\", không chỉ mục đích.",
+            "Đúng: 研究する là hành động có ý chí của chính các sinh viên → mục đích dùng ために.",
+            "〜ようになる chỉ sự thay đổi \"trở nên…\", không hợp với 集まった.",
+            "Kết hợp sai — ようにする phải đi sau thể từ điển / thể ない, không đi sau thể た."
+          ],
+          "answer": 2,
+          "explanation": "Phân biệt ために và ように chỉ mục đích: ために đi với động từ CÓ Ý CHÍ (研究する・買う・行く), cùng chủ ngữ với vế sau; ように đi với động từ không ý chí, thể khả năng hoặc thể ない (見えるように・忘れないように)."
+        },
+        {
+          "id": "n4cs-tth-13",
+          "promptJapanese": "大川：　「ボブさん、もう　日本の　生活に　なれましたか。」\nボブ：　「はい。日本語も　だいぶ　わかる　ように（　　　）。」",
+          "promptReading": "おおかわ：　「ボブさん、もう　にほんの　せいかつに　なれましたか。」\nボブ：　「はい。にほんごも　だいぶ　わかる　ように（　　　）。」",
+          "promptVietnamese": "Okawa: \"Bob này, bạn đã quen với cuộc sống ở Nhật chưa?\"\nBob: \"Rồi ạ. Tiếng Nhật tôi cũng đã hiểu được kha khá rồi.\"",
+          "choices": ["します", "しました", "なります", "なりました"],
+          "choicesVietnamese": ["sẽ cố gắng (〜ようにします)", "đã cố gắng (〜ようにしました)", "sẽ trở nên (〜ようになります)", "đã trở nên (〜ようになりました)"],
+          "choiceNotes": [
+            "〜ようにする là cố gắng tạo thói quen, mà わかる (hiểu) không phải việc tự quyết được.",
+            "Cùng lý do — わかる không đi với ようにする.",
+            "Đúng mẫu nhưng là tương lai; Bob đang kể sự thay đổi ĐÃ xảy ra (だいぶ, đáp もう〜ましたか).",
+            "Đúng: sự thay đổi năng lực đã diễn ra — \"đã trở nên hiểu được\"."
+          ],
+          "answer": 4,
+          "explanation": "〜ようになる: thể từ điển / thể khả năng ＋ ようになる — chỉ sự THAY ĐỔI năng lực, thói quen (trước không… nay thì…). Câu hỏi dùng もう〜ましたか nên trả lời bằng quá khứ ようになりました."
+        },
+        {
+          "id": "n4cs-tth-14",
+          "promptJapanese": "私は　エレベーターや　エスカレーターは　使わないで、階段を（　　　）ように　して　います。",
+          "promptReading": "わたしは　エレベーターや　エスカレーターは　つかわないで、かいだんを（　　　）ように　して　います。",
+          "promptVietnamese": "Tôi không dùng thang máy hay thang cuốn mà cố gắng đi cầu thang bộ.",
+          "choices": ["使う", "使わない", "使って", "使った"],
+          "choicesVietnamese": ["dùng", "không dùng", "thể て (dùng và…)", "đã dùng"],
+          "choiceNotes": [
+            "Đúng: thể từ điển ＋ ようにしている — đang cố duy trì thói quen dùng cầu thang.",
+            "Đúng ngữ pháp nhưng ngược nghĩa: đã không dùng thang máy thì phải dùng cầu thang.",
+            "ようにする không đi sau thể て.",
+            "ようにする không đi sau thể た."
+          ],
+          "answer": 1,
+          "explanation": "〜ようにする: thể từ điển / thể ない ＋ ようにする — cố gắng, chú ý để làm (hoặc không làm) gì; dạng ようにしている là đang duy trì thành thói quen."
+        },
+        {
+          "id": "n4cs-tth-15",
+          "promptJapanese": "A：　「家から　駅まで　近いですか。」\nB：　「ちょっと　遠いですが、バスを　使わないで（　　　）います。」",
+          "promptReading": "A：　「いえから　えきまで　ちかいですか。」\nB：　「ちょっと　とおいですが、バスを　つかわないで（　　　）います。」",
+          "promptVietnamese": "A: \"Từ nhà đến ga có gần không?\"\nB: \"Hơi xa một chút, nhưng tôi cố gắng không đi xe buýt mà đi bộ.\"",
+          "choices": ["歩くように行って", "歩いて行くようにして", "歩くようになって", "歩いて行くようになって"],
+          "choicesVietnamese": ["đi như là đi bộ", "cố gắng đi bộ (đến ga)", "trở nên đi bộ", "trở nên đi bộ (đến ga)"],
+          "choiceNotes": [
+            "歩くように行く là \"đi giống như đi bộ\" — không có nghĩa ở đây.",
+            "Đúng: chủ động chọn đi bộ thay vì đi xe buýt, đang duy trì thói quen → ようにしている.",
+            "ようになっている chỉ sự thay đổi tự nhiên, không hợp với việc chủ động 使わないで.",
+            "Cùng lý do — ようになる không diễn tả nỗ lực có chủ đích."
+          ],
+          "answer": 2,
+          "explanation": "Phân biệt: 〜ようにする = cố gắng, chủ động tạo thói quen; 〜ようになる = sự thay đổi tự diễn ra. Câu này người nói chủ động bỏ xe buýt nên dùng 歩いて行くようにしています."
+        }
+      ]
+    }
+  ]
+}

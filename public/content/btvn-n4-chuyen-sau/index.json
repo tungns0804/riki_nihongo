@@ -4,7 +4,7 @@
     "name": "BTVN N4 CHUYÊN SÂU",
     "level": "N4"
   },
-  "generatedAt": "2026-10-17T03:20:14.474Z",
+  "generatedAt": "2026-10-20T02:50:58.778Z",
   "modules": [
     {
       "id": "vocabulary",
@@ -106,6 +106,17 @@
           "itemCount": 6,
           "order": 5,
           "file": "grammar/05-the-ta.json"
+        },
+        {
+          "id": "06-the-thuong-1",
+          "name": "Tổng hợp ngữ pháp thể thường (1)",
+          "description": "問題1: 15 câu điền vào chỗ trống — các mẫu đi sau thể thường: 〜んです, 〜ので, 〜のに, 〜し, 〜かどうか, 〜か, 〜ために, 〜ように, 〜ようになる, 〜ようにする.",
+          "kind": "test",
+          "parent": "",
+          "group": "",
+          "itemCount": 15,
+          "order": 6,
+          "file": "grammar/06-the-thuong-1.json"
         }
       ]
     }
