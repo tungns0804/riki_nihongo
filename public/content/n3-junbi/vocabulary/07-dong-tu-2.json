@@ -1,0 +1,801 @@
+{
+  "id": "07-dong-tu-2",
+  "name": "Động từ 2",
+  "description": "Động từ N3準備 文字語彙 — 第26課 (492–510)",
+  "kind": "vocabulary",
+  "parent": "",
+  "group": "",
+  "groups": [
+    {
+      "label": "492–499",
+      "title": "Bài 26.1 · Cong, rẽ; trượt, tháo; rung lắc; chảy, trôi"
+    },
+    {
+      "label": "500–510",
+      "title": "Bài 26.2 · Ướt; lạc, trăn trở, hoảng; tỉnh, ngủ; cầu, mừng, cảm thấy"
+    }
+  ],
+  "words": [
+    {
+      "id": "575548590650f91a",
+      "number": 492,
+      "group": "492–499",
+      "particle": "が",
+      "japanese": "曲がる",
+      "reading": "まがる",
+      "hanViet": "KHÚC",
+      "vietnamese": "Cong, uốn lượn/ Lệch/ Còng/ Rẽ",
+      "examples": [
+        {
+          "id": "4ba048cca5a11626",
+          "japanese": "曲がった道。",
+          "vietnamese": "Con đường quanh co.",
+          "reading": "まがったみち。",
+          "grammar": "V た＋N = N đã / đang ở trạng thái ~",
+          "targets": [
+            "曲がった"
+          ]
+        },
+        {
+          "id": "2f82b38e28b63628",
+          "japanese": "「ネクタイが曲がっていますよ。」",
+          "vietnamese": "\"Cà vạt bị lệch kìa.\"",
+          "reading": "「ネクタイがまがっていますよ。」",
+          "grammar": "～ている = trạng thái (đang bị lệch)",
+          "targets": [
+            "曲がって"
+          ]
+        },
+        {
+          "id": "bac000881280a292",
+          "japanese": "腰の曲がったおばあさん。",
+          "vietnamese": "Bà cụ lưng còng.",
+          "reading": "こしのまがったおばあさん。",
+          "grammar": "trong cụm bổ nghĩa cho danh từ, が đổi thành の (腰が曲がった → 腰の曲がった)",
+          "targets": [
+            "曲がった"
+          ]
+        },
+        {
+          "id": "e3b2259d7c76db85",
+          "japanese": "「この角を右に曲がって50mほど行くと、病院があります。」",
+          "vietnamese": "\"Rẽ phải ở góc này, đi khoảng 50 m là tới bệnh viện.\"",
+          "reading": "「このかどをみぎにまがってごじゅうメートルほどいくと、びょういんがあります。」",
+          "grammar": "角を曲がる = rẽ ở góc — chỗ đi qua dùng を; ～ほど = khoảng; ～と = hễ ~ thì",
+          "targets": [
+            "曲がって"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "17db7eea1b0b7155",
+      "number": 493,
+      "group": "492–499",
+      "particle": "を",
+      "japanese": "曲げる",
+      "reading": "まげる",
+      "hanViet": "KHÚC",
+      "vietnamese": "Uốn",
+      "examples": [
+        {
+          "id": "cbc5fe4bf1758154",
+          "japanese": "（針金／ひざ／腰…）を曲げる。",
+          "vietnamese": "Uốn (dây thép) / co (đầu gối) / cúi (lưng)…",
+          "reading": "（はりがね／ひざ／こし…）をまげる。",
+          "grammar": "",
+          "targets": [
+            "曲げる"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dff974bf0ae1e8ee",
+      "number": 494,
+      "group": "492–499",
+      "particle": "が",
+      "japanese": "外れる",
+      "reading": "はずれる",
+      "hanViet": "NGOẠI",
+      "vietnamese": "Chệch, lệch, không trúng/ Bị loại ra/ Tuột",
+      "examples": [
+        {
+          "id": "99f58df0aaece471",
+          "japanese": "天気予報がはずれる。",
+          "vietnamese": "Dự báo thời tiết sai.",
+          "reading": "てんきよほうがはずれる。",
+          "grammar": "",
+          "targets": [
+            "はずれる"
+          ]
+        },
+        {
+          "id": "b7ff1034ab3f329b",
+          "japanese": "宝くじがはずれた。",
+          "vietnamese": "Vé số không trúng.",
+          "reading": "たからくじがはずれた。",
+          "grammar": "",
+          "targets": [
+            "はずれた"
+          ]
+        },
+        {
+          "id": "303c4db576fae80b",
+          "japanese": "矢が的を外れる。",
+          "vietnamese": "Mũi tên trượt khỏi đích.",
+          "reading": "やがまとをはずれる。",
+          "grammar": "N を外れる = trượt ra khỏi N — chỗ rời khỏi dùng を",
+          "targets": [
+            "外れる"
+          ]
+        },
+        {
+          "id": "a6f50c80964f8b6a",
+          "japanese": "けがをした選手は、チームのメンバーからはずれた。",
+          "vietnamese": "Cầu thủ bị chấn thương đã bị loại khỏi đội.",
+          "reading": "けがをしたせんしゅは、チームのメンバーからはずれた。",
+          "grammar": "V た＋N = N đã ~ (けがをした選手 = cầu thủ đã bị thương)",
+          "targets": [
+            "はずれた"
+          ]
+        },
+        {
+          "id": "bfdebfb680c6d02d",
+          "japanese": "ボタンがはずれる。",
+          "vietnamese": "Cúc áo bị tuột.",
+          "reading": "",
+          "grammar": "",
+          "targets": [
+            "はずれる"
+          ]
+        },
+        {
+          "id": "4a557f6ee50fe14b",
+          "japanese": "イアフォンが外れた。",
+          "vietnamese": "Tai nghe bị tuột ra.",
+          "reading": "イアフォンがはずれた。",
+          "grammar": "",
+          "targets": [
+            "外れた"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "名",
+          "text": "はずれ (không trúng) ＞＜ 当たり (あたり: trúng)"
+        }
+      ]
+    },
+    {
+      "id": "a0e39b795cfecbeb",
+      "number": 495,
+      "group": "492–499",
+      "particle": "を",
+      "japanese": "外す",
+      "reading": "はずす",
+      "hanViet": "NGOẠI",
+      "vietnamese": "Làm chệch/ Loại ra/ Tháo",
+      "examples": [
+        {
+          "id": "8c396bd6849f46e6",
+          "japanese": "予想を外す。",
+          "vietnamese": "Đoán trật.",
+          "reading": "よそうをはずす。",
+          "grammar": "",
+          "targets": [
+            "外す"
+          ]
+        },
+        {
+          "id": "94f6dcbaf7376bd5",
+          "japanese": "監督は選手をチームから外した。",
+          "vietnamese": "Huấn luyện viên đã loại cầu thủ khỏi đội.",
+          "reading": "かんとくはせんしゅをチームからはずした。",
+          "grammar": "N1 を N2 から外す = loại N1 ra khỏi N2",
+          "targets": [
+            "外した"
+          ]
+        },
+        {
+          "id": "584be03599f2b527",
+          "japanese": "（メガネ／腕時計…）を外す。",
+          "vietnamese": "Tháo (kính / đồng hồ đeo tay…).",
+          "reading": "（メガネ／うでどけい…）をはずす。",
+          "grammar": "",
+          "targets": [
+            "外す"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "3ae2d242d1c6ec0d",
+      "number": 496,
+      "group": "492–499",
+      "particle": "が",
+      "japanese": "揺れる",
+      "reading": "ゆれる",
+      "hanViet": "DAO",
+      "vietnamese": "Rung, lung lay/ Dao động",
+      "examples": [
+        {
+          "id": "e3e762e03dd2ab00",
+          "japanese": "風で木の葉が揺れている。",
+          "vietnamese": "Lá cây đang đung đưa trong gió.",
+          "reading": "かぜできのはがゆれている。",
+          "grammar": "N で = vì N (nguyên nhân); ～ている = đang ~",
+          "targets": [
+            "揺れて"
+          ]
+        },
+        {
+          "id": "0701aecbee08381f",
+          "japanese": "彼と結婚するかしないか、気持ちが揺れている。",
+          "vietnamese": "Cưới anh ấy hay không, lòng tôi đang dao động.",
+          "reading": "かれとけっこんするかしないか、きもちがゆれている。",
+          "grammar": "V るか V ないか = ~ hay không ~ (lựa chọn chưa quyết)",
+          "targets": [
+            "揺れて"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "f203670f7bd43d15",
+      "number": 497,
+      "group": "492–499",
+      "particle": "を",
+      "japanese": "揺らす",
+      "reading": "ゆらす",
+      "hanViet": "DAO",
+      "vietnamese": "Rung, lắc, đẩy đung đưa",
+      "examples": [
+        {
+          "id": "06e78ce37bf42322",
+          "japanese": "子どもの乗ったブランコを揺らしてあそばせた。",
+          "vietnamese": "Tôi đẩy xích đu có con ngồi để cho con chơi.",
+          "reading": "こどものったブランコをゆらしてあそばせた。",
+          "grammar": "子どもの乗った＝子どもが乗った (が → の trong cụm bổ nghĩa); 遊ばせる = thể sai khiến (cho chơi)",
+          "targets": [
+            "揺らして"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "d87cd0e5a58c8112",
+      "number": 498,
+      "group": "492–499",
+      "particle": "が",
+      "japanese": "流れる",
+      "reading": "ながれる",
+      "hanViet": "LƯU",
+      "vietnamese": "Chảy/ Trôi/ (Nhạc) vang lên/ Lan truyền",
+      "examples": [
+        {
+          "id": "ff65b720a0f70deb",
+          "japanese": "（汗／涙／血）が流れる。",
+          "vietnamese": "(Mồ hôi / nước mắt / máu) chảy.",
+          "reading": "（あせ／なみだ／ち）がながれる。",
+          "grammar": "",
+          "targets": [
+            "流れる"
+          ]
+        },
+        {
+          "id": "09e2c77da9bb19ff",
+          "japanese": "川にたくさんのごみが流れている。",
+          "vietnamese": "Rất nhiều rác đang trôi trên sông.",
+          "reading": "かわにたくさんのごみがながれている。",
+          "grammar": "",
+          "targets": [
+            "流れて"
+          ]
+        },
+        {
+          "id": "694888b06f71e939",
+          "japanese": "彼の部屋にはいつも音楽が流れている。",
+          "vietnamese": "Phòng anh ấy lúc nào cũng mở nhạc.",
+          "reading": "かれのへやにはいつもおんがくがながれている。",
+          "grammar": "N には = ở N thì (nhấn nơi chốn)",
+          "targets": [
+            "流れて"
+          ]
+        },
+        {
+          "id": "3fb41dad98cbfbca",
+          "japanese": "（うわさ／情報…）が流れる。",
+          "vietnamese": "(Tin đồn / thông tin…) lan truyền.",
+          "reading": "（うわさ／じょうほう…）がながれる。",
+          "grammar": "",
+          "targets": [
+            "流れる"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "24e0e9e1b1b7f6d6",
+      "number": 499,
+      "group": "492–499",
+      "particle": "を",
+      "japanese": "流す",
+      "reading": "ながす",
+      "hanViet": "LƯU",
+      "vietnamese": "Xả, thả trôi/ Bật (nhạc)",
+      "examples": [
+        {
+          "id": "d87c9aaf3a7cbeae",
+          "japanese": "トイレの水を流す。",
+          "vietnamese": "Xả nước bồn cầu.",
+          "reading": "トイレのみずをながす。",
+          "grammar": "",
+          "targets": [
+            "流す"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "d99359fe5b92df8e",
+      "number": 500,
+      "group": "500–510",
+      "particle": "が",
+      "japanese": "濡れる",
+      "reading": "ぬれる",
+      "hanViet": "NHU",
+      "vietnamese": "Ướt",
+      "examples": [
+        {
+          "id": "cc85ab97cdb4a62e",
+          "japanese": "水がこぼれて、服が濡れてしまった。（自）",
+          "vietnamese": "Nước đổ ra làm áo bị ướt mất. (tự động từ)",
+          "reading": "みずがこぼれて、ふくがぬれてしまった。（じ）",
+          "grammar": "V て (nguyên nhân) = vì ~ nên; ～てしまう = ~ mất rồi",
+          "targets": [
+            "濡れて"
+          ]
+        },
+        {
+          "id": "6a820c99abfd68bd",
+          "japanese": "雨に濡れて、風邪をひいた。",
+          "vietnamese": "Bị mưa ướt nên tôi bị cảm.",
+          "reading": "あめにぬれて、かぜをひいた。",
+          "grammar": "雨に濡れる = bị mưa làm ướt — tác nhân đi với に",
+          "targets": [
+            "濡れて"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "4c511cc4baf1360b",
+      "number": 501,
+      "group": "500–510",
+      "particle": "を",
+      "japanese": "濡らす",
+      "reading": "ぬらす",
+      "hanViet": "NHU",
+      "vietnamese": "Làm ướt",
+      "examples": [
+        {
+          "id": "c6bae980b38f46ed",
+          "japanese": "水をこぼして、服をぬらしてしまった。（他）",
+          "vietnamese": "Tôi làm đổ nước, làm ướt mất áo. (tha động từ)",
+          "reading": "みずをこぼして、ふくをぬらしてしまった。（た）",
+          "grammar": "so với câu của 濡れる: 水がこぼれる／服が濡れる (tự) ⇔ 水をこぼす／服を濡らす (tha)",
+          "targets": [
+            "ぬらして"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "a0488fee1e98c3ac",
+      "number": 502,
+      "group": "500–510",
+      "particle": "",
+      "japanese": "迷う",
+      "reading": "まよう",
+      "hanViet": "MÊ",
+      "vietnamese": "Lạc, lạc đường/ Phân vân, băn khoăn",
+      "examples": [
+        {
+          "id": "65d48a034106eb2a",
+          "japanese": "道に迷う。",
+          "vietnamese": "Lạc đường.",
+          "reading": "みちにまよう。",
+          "grammar": "",
+          "targets": [
+            "迷う"
+          ]
+        },
+        {
+          "id": "57d0643c7f0d4dfd",
+          "japanese": "冬山で迷ってしまい、もう少しで死ぬところだった。",
+          "vietnamese": "Bị lạc trên núi mùa đông, suýt nữa thì chết.",
+          "reading": "ふゆやまでまよってしまい、もうすこしでしぬところだった。",
+          "grammar": "もう少しで V るところだった = suýt nữa thì ~; V ます (しまい) ngắt câu = cách nối văn viết",
+          "targets": [
+            "迷って"
+          ]
+        },
+        {
+          "id": "85a8f645c8725597",
+          "japanese": "日本で就職するか、国に帰るか、迷っている。",
+          "vietnamese": "Tôi đang phân vân nên đi làm ở Nhật hay về nước.",
+          "reading": "にほんでしゅうしょくするか、くににかえるか、まよっている。",
+          "grammar": "～か、～か = ~ hay ~ (hai lựa chọn)",
+          "targets": [
+            "迷って"
+          ]
+        },
+        {
+          "id": "1573c59b12673134",
+          "japanese": "心に迷いがある。やるか、やらないか。",
+          "vietnamese": "Trong lòng còn do dự. Làm hay không làm.",
+          "reading": "こころにまよいがある。やるか、やらないか。",
+          "grammar": "",
+          "targets": [
+            "迷い"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "名",
+          "text": "迷い (まよい) = Sự do dự"
+        },
+        {
+          "label": "類",
+          "text": "悩んでいる (なやんでいる) — xem 503"
+        }
+      ]
+    },
+    {
+      "id": "2112d27bd0b43b6b",
+      "number": 503,
+      "group": "500–510",
+      "particle": "に",
+      "japanese": "悩む",
+      "reading": "なやむ",
+      "hanViet": "NÃO",
+      "vietnamese": "Trăn trở với ~",
+      "examples": [
+        {
+          "id": "04eda81f54bf1b06",
+          "japanese": "彼女は苦しい恋に悩んでいる。",
+          "vietnamese": "Cô ấy đang khổ sở vì một mối tình đau khổ.",
+          "reading": "かのじょはくるしいこいになやんでいる。",
+          "grammar": "N に悩む = trăn trở, khổ sở vì N",
+          "targets": [
+            "悩んで"
+          ]
+        },
+        {
+          "id": "b3ca7730d929e04c",
+          "japanese": "最近、仕事のことで悩みがある。",
+          "vietnamese": "Dạo này tôi có chuyện phiền muộn về công việc.",
+          "reading": "さいきん、しごとのことでなやみがある。",
+          "grammar": "～のことで = về chuyện ~",
+          "targets": [
+            "悩み"
+          ]
+        },
+        {
+          "id": "3790f8044df3d138",
+          "japanese": "特に悩みがない。",
+          "vietnamese": "Chẳng có gì phải phiền lòng cả.",
+          "reading": "とくになやみがない。",
+          "grammar": "",
+          "targets": [
+            "悩みがない"
+          ]
+        },
+        {
+          "id": "4c1edebe83e9665e",
+          "japanese": "みんなに悩みを打ち明ける。(N2)",
+          "vietnamese": "Thổ lộ nỗi lòng với mọi người. (N2)",
+          "reading": "みんなになやみをうちあける。",
+          "grammar": "",
+          "targets": [
+            "悩み"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "名",
+          "text": "悩み (なやみ) = Phiền não, trăn trở"
+        }
+      ]
+    },
+    {
+      "id": "1685313e6d871992",
+      "number": 504,
+      "group": "500–510",
+      "particle": "が",
+      "japanese": "慌てる",
+      "reading": "あわてる",
+      "hanViet": "HOẢNG",
+      "vietnamese": "Hoảng loạn, vội vội vàng vàng",
+      "examples": [
+        {
+          "id": "d147fd4dc69417f4",
+          "japanese": "学校に遅れそうになって、大慌てで家を出た。",
+          "vietnamese": "Sắp trễ học nên tôi cuống cuồng ra khỏi nhà.",
+          "reading": "がっこうにおくれそうになって、おおあわてでいえをでた。",
+          "grammar": "V ます＋そうになる = suýt ~, sắp ~; 大慌てで = hết sức vội vàng",
+          "targets": [
+            "大慌てで"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "c5a3c3c19728a017",
+      "number": 505,
+      "group": "500–510",
+      "particle": "が",
+      "japanese": "覚める",
+      "reading": "さめる",
+      "hanViet": "GIÁC",
+      "vietnamese": "Tỉnh giấc",
+      "examples": [
+        {
+          "id": "83ae63cd323f249d",
+          "japanese": "昨夜は暑くて、夜中に何度も目が覚めた。",
+          "vietnamese": "Đêm qua nóng quá, nửa đêm tôi tỉnh giấc mấy lần.",
+          "reading": "さくやはあつくて、よなかになんどもめがさめた。",
+          "grammar": "A くて = vì ~ nên; 何度も = nhiều lần",
+          "targets": [
+            "覚めた"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "d048c4bc6fc2bf64",
+      "number": 506,
+      "group": "500–510",
+      "particle": "を",
+      "japanese": "覚ます",
+      "reading": "さます",
+      "hanViet": "GIÁC",
+      "vietnamese": "Thức dậy, làm cho tỉnh",
+      "examples": [
+        {
+          "id": "444016fa108a25a6",
+          "japanese": "目を覚ますともう10時だった。",
+          "vietnamese": "Mở mắt ra thì đã 10 giờ rồi.",
+          "reading": "めをさますともうじゅうじだった。",
+          "grammar": "V る＋と、～た = vừa ~ thì (phát hiện) ~",
+          "targets": [
+            "覚ます"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "bddaf2722605f473",
+      "number": 507,
+      "group": "500–510",
+      "particle": "",
+      "japanese": "眠る",
+      "reading": "ねむる",
+      "hanViet": "MIÊN",
+      "vietnamese": "Ngủ",
+      "examples": [
+        {
+          "id": "1ca4aae3844bbd26",
+          "japanese": "入試の前の日、緊張してよく眠れなかった。",
+          "vietnamese": "Hôm trước kỳ thi tuyển sinh, tôi căng thẳng nên không ngủ ngon được.",
+          "reading": "にゅうしのまえのひ、きんちょうしてよくねむれなかった。",
+          "grammar": "眠れる = thể khả năng (ngủ được); V て (nguyên nhân) = vì ~ nên",
+          "targets": [
+            "眠れなかった"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "名",
+          "text": "眠り (ねむり) = Giấc ngủ"
+        },
+        {
+          "label": "連",
+          "text": "眠りにつく = Bắt đầu ngủ"
+        },
+        {
+          "label": "連",
+          "text": "眠りに落ちる = Chìm vào giấc ngủ"
+        },
+        {
+          "label": "連",
+          "text": "眠りが浅い (ねむりがあさい) = Ngủ chập chờn"
+        },
+        {
+          "label": "使い分け",
+          "text": "眠る / 寝る — 「寝る」 còn có nghĩa là 「横になる」 (nằm xuống), 眠る chỉ là ngủ"
+        }
+      ]
+    },
+    {
+      "id": "7f3d044999400a59",
+      "number": 508,
+      "group": "500–510",
+      "particle": "を",
+      "japanese": "祈る",
+      "reading": "いのる",
+      "hanViet": "KỲ",
+      "vietnamese": "Cầu nguyện",
+      "examples": [
+        {
+          "id": "80ab63118b9c6953",
+          "japanese": "家族の健康を神に祈った。",
+          "vietnamese": "Tôi đã cầu xin thần linh cho gia đình được khoẻ mạnh.",
+          "reading": "かぞくのけんこうをかみにいのった。",
+          "grammar": "N1 を N2 に祈る = cầu N1 với N2",
+          "targets": [
+            "祈った"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "40e5d6520935571d",
+      "number": 509,
+      "group": "500–510",
+      "particle": "を",
+      "japanese": "祝う",
+      "reading": "いわう",
+      "hanViet": "CHÚC",
+      "vietnamese": "Chúc mừng",
+      "examples": [
+        {
+          "id": "ca516645c2536854",
+          "japanese": "（新年／誕生日／成功…）を祝って乾杯した。",
+          "vietnamese": "Chúng tôi nâng ly chúc mừng (năm mới / sinh nhật / thành công…).",
+          "reading": "（しんねん／たんじょうび／せいこう…）をいわってかんぱいした。",
+          "grammar": "V て＋V = làm việc sau nhân dịp / bằng cách của việc trước",
+          "targets": [
+            "祝って"
+          ]
+        },
+        {
+          "id": "6f316f4b8b9d5715",
+          "japanese": "結婚の(お)祝いにワイングラスをもらった。",
+          "vietnamese": "Tôi nhận được ly rượu vang làm quà mừng cưới.",
+          "reading": "けっこんの(お)いわいにワイングラスをもらった。",
+          "grammar": "N に (もらう) = (nhận) để làm N",
+          "targets": [
+            "結婚の(お)祝い"
+          ]
+        },
+        {
+          "id": "d3d0ed276b2968f0",
+          "japanese": "入学祝い、結婚祝い、誕生祝い。",
+          "vietnamese": "Quà mừng nhập học, quà mừng cưới, quà mừng sinh nhật.",
+          "reading": "にゅうがくいわい、けっこんいわい、たんじょういわい。",
+          "grammar": "",
+          "targets": [
+            "祝い"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "名",
+          "text": "N ＋ 祝い (いわい) = Quà mừng, tiệc mừng N"
+        }
+      ]
+    },
+    {
+      "id": "d2f047ee04f102aa",
+      "number": 510,
+      "group": "500–510",
+      "particle": "を",
+      "japanese": "感じる",
+      "reading": "かんじる",
+      "hanViet": "CẢM",
+      "vietnamese": "Cảm giác, cảm thấy",
+      "examples": [
+        {
+          "id": "5339de0d137e068b",
+          "japanese": "（寒さ／痛み／空腹／甘み／ゆれ…）を感じる。",
+          "vietnamese": "Cảm thấy (lạnh / đau / đói / vị ngọt / rung lắc…).",
+          "reading": "（さむさ／いたみ／くうふく／あまみ／ゆれ…）をかんじる。",
+          "grammar": "",
+          "targets": [
+            "感じる"
+          ]
+        },
+        {
+          "id": "cee6272a83635913",
+          "japanese": "私のミスで試合に負けてしまい、責任を感じている。",
+          "vietnamese": "Vì lỗi của tôi mà thua trận, tôi thấy mình có trách nhiệm.",
+          "reading": "わたしのミスでしあいにまけてしまい、せきにんをかんじている。",
+          "grammar": "N で = vì N; 責任を感じる = thấy có trách nhiệm",
+          "targets": [
+            "感じて"
+          ]
+        },
+        {
+          "id": "991cbcc3d73760bc",
+          "japanese": "あの父親には子どもへの愛情が感じられない。",
+          "vietnamese": "Ở ông bố đó không thấy chút tình thương nào dành cho con.",
+          "reading": "あのちちおやにはこどもへのあいじょうがかんじられない。",
+          "grammar": "感じられる = thể khả năng / tự phát (cảm nhận được); N への＋N = N dành cho N",
+          "targets": [
+            "感じられない"
+          ]
+        },
+        {
+          "id": "776955ccca1f4ec5",
+          "japanese": "彼女は少し冷たい感じがする。",
+          "vietnamese": "Tôi thấy cô ấy hơi lạnh lùng.",
+          "reading": "かのじょはすこしつめたいかんじがする。",
+          "grammar": "～感じがする = có cảm giác ~",
+          "targets": [
+            "感じがする"
+          ]
+        },
+        {
+          "id": "7486b94a93427f77",
+          "japanese": "今日は何かいいことが起こりそうな感じがする。",
+          "vietnamese": "Hôm nay tôi có cảm giác sắp có chuyện gì tốt.",
+          "reading": "きょうはなにかいいことがおこりそうなかんじがする。",
+          "grammar": "V ます＋そうな＋N = N có vẻ sắp ~",
+          "targets": [
+            "感じがする"
+          ]
+        },
+        {
+          "id": "66ea120c4f8b2087",
+          "japanese": "彼は感じのいい人だ。",
+          "vietnamese": "Anh ấy là người dễ mến.",
+          "reading": "かれはかんじのいいひとだ。",
+          "grammar": "",
+          "targets": [
+            "感じ"
+          ]
+        },
+        {
+          "id": "b8792e51b62ae5aa",
+          "japanese": "「いい感じです！」",
+          "vietnamese": "\"Ổn đấy!\"",
+          "reading": "「いいかんじです！」",
+          "grammar": "",
+          "targets": [
+            "感じ"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "責任感が強い人 (せきにんかんがつよいひと) = Người có tinh thần trách nhiệm cao"
+        },
+        {
+          "label": "連",
+          "text": "感じがいい ＞＜ 感じが悪い = Dễ mến ＞＜ Khó ưa"
+        }
+      ]
+    }
+  ]
+}

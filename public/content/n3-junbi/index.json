@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-17T03:20:14.360Z",
+  "generatedAt": "2026-10-20T02:50:58.699Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -204,6 +204,27 @@
             {
               "label": "399–410",
               "title": "Bài 21.2 · Thường lệ, khác biệt, quốc tế và thiên nhiên"
+            }
+          ]
+        },
+        {
+          "id": "07-dong-tu-2",
+          "name": "Động từ 2",
+          "description": "Động từ N3準備 文字語彙 — 第26課 (492–510)",
+          "kind": "vocabulary",
+          "parent": "",
+          "group": "",
+          "itemCount": 19,
+          "order": 7,
+          "file": "vocabulary/07-dong-tu-2.json",
+          "groups": [
+            {
+              "label": "492–499",
+              "title": "Bài 26.1 · Cong, rẽ; trượt, tháo; rung lắc; chảy, trôi"
+            },
+            {
+              "label": "500–510",
+              "title": "Bài 26.2 · Ướt; lạc, trăn trở, hoảng; tỉnh, ngủ; cầu, mừng, cảm thấy"
             }
           ]
         },
