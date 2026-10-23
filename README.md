@@ -47,6 +47,10 @@ bất kỳ học phần nào đều được đếm, đủ mục tiêu 10/20/30/
 mục tiêu hôm nay và các bài mở gần đây để học tiếp. Chip 🔥 trên thanh trên cùng hiện
 chuỗi ở mọi trang; `npm run verify:streak` kiểm tra cách tính chuỗi.
 
+Trang **Tiến độ** (`/progress`) là tổng quan mọi học phần: % bài đã luyện, số lượt
+luyện, điểm tốt nhất trung bình, biểu đồ số câu mỗi ngày trong 30 ngày, tiến độ từng
+học phần và từng phần học, và các bài nên luyện lại (kết quả tốt nhất dưới 70%).
+
 Trang chạy hoàn toàn trong trình duyệt: không có máy chủ, không có tài khoản. Tiến
 độ học lưu trong `localStorage` của chính máy đang dùng, mỗi học phần một khoá riêng.
 

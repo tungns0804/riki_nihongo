@@ -122,6 +122,7 @@ export const MESSAGES = {
     vi: 'Trả lời {count} câu hôm nay để bắt đầu chuỗi',
     ja: '今日{count}問解いて連続記録をスタート',
   },
+  'streak.today': { vi: 'Hôm nay', ja: '今日' },
   'streak.todayCount': { vi: 'Hôm nay {answered}/{goal} câu', ja: '今日 {answered}/{goal}問' },
   'streak.best': { vi: 'Kỷ lục: {count} ngày', ja: '最長記録: {count}日' },
   'streak.weekAria': { vi: 'Bảy ngày gần nhất', ja: '直近7日間' },
@@ -280,6 +281,68 @@ export const MESSAGES = {
   'stats.col.last': { vi: 'Lần gần nhất', ja: '最終練習日' },
   'stats.empty': { vi: 'Không có mục nào khớp bộ lọc.', ja: '該当する項目はありません。' },
   'route.stats': { vi: 'Thống kê luyện tập', ja: '練習の記録' },
+  'route.progress': { vi: 'Tiến độ', ja: '進捗' },
+
+  // ── Trang Tiến độ: tổng quan mọi học phần (features/overview) ──────────
+  'overview.open': { vi: 'Xem tiến độ →', ja: '進捗を見る →' },
+  'overview.title': { vi: 'Tiến độ học tập', ja: '学習の進捗' },
+  'overview.subtitle': {
+    vi: 'Nhìn chung mọi học phần: đã luyện được bao nhiêu bài, học đều tới đâu, chỗ nào còn yếu.',
+    ja: 'すべてのコースの全体像：練習したレッスン数、学習のペース、弱いところ。',
+  },
+  'overview.total.title': { vi: 'Tổng quan', ja: '全体' },
+  'overview.total.ringUnit': { vi: 'bài đã luyện', ja: '練習済み' },
+  'overview.total.ringAria': {
+    vi: 'Đã luyện {percent}% số bài có nội dung',
+    ja: '教材のあるレッスンの{percent}%を練習済み',
+  },
+  'overview.tile.practised': { vi: 'Bài đã luyện', ja: '練習したレッスン' },
+  'overview.tile.solid': { vi: 'Bài đạt từ 80%', ja: '80%以上のレッスン' },
+  'overview.tile.attempts': { vi: 'Lượt luyện', ja: '練習回数' },
+  'overview.tile.average': { vi: 'Điểm tốt nhất trung bình', ja: '最高スコアの平均' },
+  'overview.chart.title': { vi: '30 ngày gần nhất', ja: '直近30日' },
+  'overview.chart.streak': {
+    vi: 'Chuỗi {count} ngày · kỷ lục {best}',
+    ja: '{count}日連続・最長{best}日',
+  },
+  'overview.chart.aria': {
+    vi: 'Số câu đã làm mỗi ngày trong 30 ngày gần nhất',
+    ja: '直近30日間の1日あたりの解答数',
+  },
+  'overview.chart.goal': { vi: 'mục tiêu {goal}', ja: '目標 {goal}' },
+  'overview.chart.none': { vi: 'không học', ja: '学習なし' },
+  'overview.chart.tip': { vi: '{answered} câu · đúng {accuracy}%', ja: '{answered}問・正答率{accuracy}%' },
+  'overview.chart.tipMet': {
+    vi: '{answered} câu · đúng {accuracy}% · đạt mục tiêu',
+    ja: '{answered}問・正答率{accuracy}%・目標達成',
+  },
+  'overview.month.week': { vi: 'Câu trong 7 ngày', ja: '7日間の解答数' },
+  'overview.month.answered': { vi: 'Câu trong 30 ngày', ja: '30日間の解答数' },
+  'overview.month.accuracy': { vi: 'Tỉ lệ đúng 30 ngày', ja: '30日間の正答率' },
+  'overview.month.days': { vi: 'Ngày có học', ja: '学習した日' },
+  'overview.courses.title': { vi: 'Theo học phần', ja: 'コース別' },
+  'overview.course.summary': {
+    vi: 'Đã luyện {practised}/{ready} bài · {attempts} lượt luyện',
+    ja: '{ready}レッスン中{practised}練習済み・{attempts}回',
+  },
+  'overview.module.average': { vi: 'TB {percent}%', ja: '平均{percent}%' },
+  'overview.module.averageTitle': {
+    vi: 'Trung bình kết quả tốt nhất của các bài đã luyện',
+    ja: '練習したレッスンの最高スコアの平均',
+  },
+  'overview.weak.title': { vi: 'Nên luyện lại', ja: 'もう一度練習したいレッスン' },
+  'overview.weak.hint': {
+    vi: 'Các bài đã luyện mà kết quả tốt nhất còn dưới 70%, thấp nhất trước.',
+    ja: '最高スコアが70%未満のレッスン（低い順）。',
+  },
+  'overview.weak.none': {
+    vi: 'Mọi bài đã luyện đều đạt từ 70% trở lên. Tốt lắm!',
+    ja: '練習したレッスンはすべて70%以上です。すばらしい！',
+  },
+  'overview.weak.empty': {
+    vi: 'Chưa luyện bài nào. Luyện xong một bài là số liệu hiện ra ở đây.',
+    ja: 'まだ練習していません。練習するとここに表示されます。',
+  },
   'unit.progress': { vi: 'Kết quả tốt nhất: {percent}%', ja: '最高スコア：{percent}%' },
   // BTVN là bài CON của một bài (một cụm từ vựng, một bài kanji), nên nút quay lại của
   // nó là bài mẹ chứ không phải danh sách bài.

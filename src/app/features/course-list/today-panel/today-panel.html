@@ -28,7 +28,10 @@
         }
       </ol>
 
-      <p class="small muted streak-best">{{ t('streak.best', { count: streak().best }) }}</p>
+      <div class="streak-foot">
+        <span class="small muted">{{ t('streak.best', { count: streak().best }) }}</span>
+        <a class="small" routerLink="/progress">{{ t('overview.open') }}</a>
+      </div>
     </div>
   </section>
 

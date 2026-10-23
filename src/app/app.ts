@@ -28,6 +28,9 @@ import { Icon } from './features/shared/icon/icon';
 /** Cuộn quá ngưỡng này thì nút "lên đầu trang" hiện ra (đơn vị: px). */
 const BACK_TO_TOP_AT = 700;
 
+/** Đoạn địa chỉ của trang Tiến độ (`/progress`), trang duy nhất ở gốc ngoài trang chọn học phần. */
+const ROOT_PROGRESS = 'progress';
+
 /** Nhãn breadcrumb của đoạn cuối địa chỉ: luyện tập, làm đề hay kết quả. */
 const ACTION_KEY: Readonly<Record<string, MessageKey>> = {
   practice: 'route.practice',
@@ -114,6 +117,9 @@ export class App {
    * Phần học đang mở (`vocabulary`), tính cả các trang chi tiết, luyện tập, kết quả nằm
    * dưới nó. Rỗng ở trang gốc và trang của học phần.
    */
+  /** Đang ở trang Tiến độ — breadcrumb ghi thêm một cấp sau "Riki Nihongo". */
+  protected readonly onProgress = computed(() => this.segments()[0] === ROOT_PROGRESS);
+
   protected readonly section = computed(() => (this.course() ? (this.segments()[1] ?? '') : ''));
 
   /**
@@ -129,7 +135,7 @@ export class App {
     const course = this.course();
 
     if (!course) {
-      return COURSES.filter((item) => item.status === 'active').map((item) => ({
+      const courses = COURSES.filter((item) => item.status === 'active').map((item) => ({
         id: item.id,
         link: ['/', item.id],
         icon: item.icon,
@@ -137,6 +143,19 @@ export class App {
         shortKey: item.nameKey,
         active: false,
       }));
+      // Trang Tiến độ đứng ở gốc, ngang hàng với các học phần trên menu.
+      const onProgress = this.segments()[0] === ROOT_PROGRESS;
+      return [
+        ...courses,
+        {
+          id: ROOT_PROGRESS,
+          link: ['/', ROOT_PROGRESS],
+          icon: '進',
+          labelKey: 'route.progress' as MessageKey,
+          shortKey: 'route.progress' as MessageKey,
+          active: onProgress,
+        },
+      ];
     }
 
     const section = this.section();

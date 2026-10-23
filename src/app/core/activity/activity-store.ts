@@ -6,6 +6,7 @@ import {
   DayActivity,
   applyGoal,
   lastWeek,
+  recentDays,
   recordAnswer,
   sanitizeGoal,
   sanitizeLog,
@@ -40,6 +41,8 @@ export class ActivityStore {
   readonly today = computed<DayActivity>(() => this.logRef()[this.todayRef()] ?? EMPTY_DAY);
   readonly streak = computed(() => streakOf(this.logRef(), this.todayRef()));
   readonly week = computed(() => lastWeek(this.logRef(), this.todayRef()));
+  /** Ba mươi ngày gần nhất, cũ trước — biểu đồ hoạt động của trang Tiến độ. */
+  readonly month = computed(() => recentDays(this.logRef(), this.todayRef(), 30));
   /** Còn bao nhiêu câu nữa thì đạt mục tiêu hôm nay; 0 khi đã đạt. */
   readonly remaining = computed(() =>
     this.today().met ? 0 : Math.max(0, this.goalRef() - this.today().answered),

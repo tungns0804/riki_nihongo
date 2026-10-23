@@ -42,9 +42,17 @@
            thoại chỉ còn lại nút chọn học phần (xem app.css). -->
       <nav class="crumbs" [attr.aria-label]="t('app.breadcrumb')">
         <!-- Ở trang gốc, "Riki Nihongo" chính là trang đang mở: không có cấp nào sau nó. -->
-        <a routerLink="/" class="crumb-home" [attr.aria-current]="course() ? null : 'page'">
+        <a
+          routerLink="/"
+          class="crumb-home"
+          [attr.aria-current]="course() || onProgress() ? null : 'page'"
+        >
           <app-t key="app.name" />
         </a>
+        @if (onProgress()) {
+          <span class="crumb-sep" aria-hidden="true">/</span>
+          <span class="crumb-current" aria-current="page"><app-t key="route.progress" /></span>
+        }
         @if (course(); as current) {
           <span class="crumb-sep" aria-hidden="true">/</span>
           <app-course-switcher [current]="current" />

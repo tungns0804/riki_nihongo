@@ -1,0 +1,217 @@
+<div class="container page">
+  <div class="stack stack-xl">
+    <section class="page-head">
+      <a class="back-link small" routerLink="/">{{ t('course.list.back') }}</a>
+      <h1>{{ t('overview.title') }}</h1>
+      <p>{{ t('overview.subtitle') }}</p>
+    </section>
+
+    @if (failed()) {
+      <div class="notice notice-error">
+        <div class="stack" style="gap: 10px">
+          <strong>{{ t('error.contentIndex') }}</strong>
+          <div>
+            <button type="button" class="btn btn-sm" (click)="reload()">
+              {{ t('common.retry') }}
+            </button>
+          </div>
+        </div>
+      </div>
+    }
+
+    <!-- ── Tổng quan + hoạt động 30 ngày ─────────────────────────────────────── -->
+    <div class="hero-grid">
+      <section class="card">
+        <div class="card-body stack hero-body">
+          <h2 class="card-heading">{{ t('overview.total.title') }}</h2>
+
+          @if (loading()) {
+            <div class="skeleton sk-hero" role="status" [attr.aria-label]="t('common.loading')"></div>
+          } @else {
+            <div class="hero-main">
+              <span
+                class="big-ring"
+                [style.--p]="total().percent"
+                role="img"
+                [attr.aria-label]="t('overview.total.ringAria', { percent: total().percent })"
+              >
+                <span class="big-ring-label">
+                  <strong class="tnum">{{ total().percent }}%</strong>
+                  <span>{{ t('overview.total.ringUnit') }}</span>
+                </span>
+              </span>
+
+              <dl class="tiles">
+                <div class="tile">
+                  <dt>{{ t('overview.tile.practised') }}</dt>
+                  <dd class="tnum">{{ total().practised }}<small>/{{ total().ready }}</small></dd>
+                </div>
+                <div class="tile">
+                  <dt>{{ t('overview.tile.solid') }}</dt>
+                  <dd class="tnum">{{ total().solid }}</dd>
+                </div>
+                <div class="tile">
+                  <dt>{{ t('overview.tile.attempts') }}</dt>
+                  <dd class="tnum">{{ total().attempts }}</dd>
+                </div>
+                <div class="tile">
+                  <dt>{{ t('overview.tile.average') }}</dt>
+                  <dd class="tnum">
+                    @if (total().average !== null) {
+                      {{ total().average }}%
+                    } @else {
+                      –
+                    }
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          }
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-body stack hero-body">
+          <div class="section-head">
+            <h2 class="card-heading">{{ t('overview.chart.title') }}</h2>
+            <span class="spacer"></span>
+            <a class="streak-link" routerLink="/" [attr.data-state]="streak().state">
+              <app-icon name="flame" />
+              {{ t('overview.chart.streak', { count: streak().current, best: streak().best }) }}
+            </a>
+          </div>
+
+          <!-- Một chuỗi số liệu nên một màu; vạch đứt là mục tiêu mỗi ngày. Mỗi cột nhận
+               focus và hiện chú thích khi rê chuột / focus. Bản đọc được cho trình đọc màn
+               hình là danh sách ẩn ngay trong từng cột. -->
+          <div class="chart" [attr.aria-label]="t('overview.chart.aria')" role="group">
+            <span class="chart-goal" [style.bottom.%]="goalLine()" aria-hidden="true">
+              <span>{{ t('overview.chart.goal', { goal: goal() }) }}</span>
+            </span>
+            <ol class="chart-bars">
+              @for (day of days(); track day.day) {
+                <li class="chart-col" [class.is-today]="day.isToday" tabindex="0">
+                  <span
+                    class="chart-bar"
+                    [class.is-empty]="day.answered === 0"
+                    [style.height.%]="day.height"
+                  ></span>
+                  <span class="chart-tip" role="tooltip">
+                    <strong>{{ day.label }}</strong> · {{ dayTip(day) }}
+                  </span>
+                </li>
+              }
+            </ol>
+          </div>
+          <div class="chart-axis small muted" aria-hidden="true">
+            <span>{{ days()[0].label }}</span>
+            <span>{{ t('streak.today') }}</span>
+          </div>
+
+          <dl class="month-stats">
+            <div>
+              <dt>{{ t('overview.month.week') }}</dt>
+              <dd class="tnum">{{ monthTotals().week }}</dd>
+            </div>
+            <div>
+              <dt>{{ t('overview.month.answered') }}</dt>
+              <dd class="tnum">{{ monthTotals().answered }}</dd>
+            </div>
+            <div>
+              <dt>{{ t('overview.month.accuracy') }}</dt>
+              <dd class="tnum">
+                @if (monthTotals().accuracy !== null) {
+                  {{ monthTotals().accuracy }}%
+                } @else {
+                  –
+                }
+              </dd>
+            </div>
+            <div>
+              <dt>{{ t('overview.month.days') }}</dt>
+              <dd class="tnum">{{ monthTotals().activeDays }}<small>/30</small></dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </div>
+
+    <!-- ── Từng học phần ──────────────────────────────────────────────────────── -->
+    <section class="stack">
+      <h2>{{ t('overview.courses.title') }}</h2>
+      <div class="course-grid">
+        @for (row of courses(); track row.course.id) {
+          <article class="card">
+            <div class="card-body stack course-body">
+              <div class="course-head">
+                <span class="card-icon jp" aria-hidden="true">{{ row.course.icon }}</span>
+                <a class="course-name" [routerLink]="courseLink(row.course)">{{ t(row.course.nameKey) }}</a>
+                <span class="spacer"></span>
+                <strong class="tnum course-percent">{{ row.tally.percent }}%</strong>
+              </div>
+              <p class="small muted">
+                {{ t('overview.course.summary', { practised: row.tally.practised, ready: row.tally.ready, attempts: row.tally.attempts }) }}
+              </p>
+
+              <ul class="module-list">
+                @for (item of row.modules; track item.module.id) {
+                  <li>
+                    <a class="module-row" [routerLink]="moduleLink(row.course, item.module)">
+                      <span class="module-glyph jp" aria-hidden="true">{{ item.module.icon }}</span>
+                      <span class="module-name">{{ t(item.module.shortKey) }}</span>
+                      <span class="progress-track module-track" aria-hidden="true">
+                        <span class="progress-fill" [style.width.%]="item.tally.percent"></span>
+                      </span>
+                      <span class="module-count tnum">{{ item.tally.practised }}/{{ item.tally.ready }}</span>
+                      <span class="module-best tnum" [title]="t('overview.module.averageTitle')">
+                        @if (item.tally.average !== null) {
+                          {{ t('overview.module.average', { percent: item.tally.average }) }}
+                        }
+                      </span>
+                    </a>
+                  </li>
+                } @empty {
+                  @if (loading()) {
+                    <li class="skeleton sk-row"></li>
+                  }
+                }
+              </ul>
+
+              <div class="course-foot">
+                <a class="btn btn-sm" [routerLink]="statsLink(row.course)">{{ t('stats.open') }}</a>
+              </div>
+            </div>
+          </article>
+        }
+      </div>
+    </section>
+
+    <!-- ── Nên luyện lại ─────────────────────────────────────────────────────── -->
+    <section class="stack">
+      <div class="stack stack-sm">
+        <h2>{{ t('overview.weak.title') }}</h2>
+        <p class="muted small">{{ t('overview.weak.hint') }}</p>
+      </div>
+      @if (weak().length > 0) {
+        <ul class="weak-list">
+          @for (item of weak(); track item.key) {
+            <li>
+              <a class="card weak-item" [routerLink]="item.link">
+                <span class="weak-best tnum" [class.is-low]="item.best < 50">{{ item.best }}%</span>
+                <span class="weak-text">
+                  <span class="weak-name">{{ item.name }}</span>
+                  <span class="small muted">
+                    {{ item.meta }} · {{ t('progress.attempts', { count: item.attempts }) }}
+                  </span>
+                </span>
+                <span class="card-go" aria-hidden="true">→</span>
+              </a>
+            </li>
+          }
+        </ul>
+      } @else if (!loading()) {
+        <p class="notice">{{ t(total().practised > 0 ? 'overview.weak.none' : 'overview.weak.empty') }}</p>
+      }
+    </section>
+  </div>
+</div>

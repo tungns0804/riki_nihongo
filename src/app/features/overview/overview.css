@@ -1,0 +1,405 @@
+/* Trang Tiến độ — tổng quan mọi học phần. */
+
+.back-link {
+  color: var(--text-muted);
+  width: fit-content;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.card-heading {
+  font-size: var(--fs-lg);
+}
+
+/* --- Hai thẻ đầu: tổng quan + hoạt động; xếp dọc trên điện thoại -------------- */
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: var(--sp-4);
+}
+
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.hero-body {
+  height: 100%;
+  gap: var(--sp-4);
+}
+
+.hero-main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-5);
+}
+
+/* Vòng % lớn: cùng cách vẽ với vòng nhỏ trên thẻ bài (conic-gradient theo --p). */
+.big-ring {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 136px;
+  height: 136px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: conic-gradient(var(--accent) calc(var(--p, 0) * 1%), var(--bg-inset) 0);
+}
+
+.big-ring::before {
+  content: '';
+  position: absolute;
+  inset: 10px;
+  border-radius: inherit;
+  background: var(--bg-elevated);
+}
+
+.big-ring-label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.1;
+}
+
+.big-ring-label strong {
+  font-family: var(--font-display);
+  font-size: 2rem;
+}
+
+.big-ring-label span {
+  color: var(--text-muted);
+  font-size: var(--fs-xs);
+}
+
+.tiles {
+  display: grid;
+  flex: 1 1 220px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sp-3);
+  margin: 0;
+}
+
+.tile dt,
+.month-stats dt {
+  color: var(--text-muted);
+  font-size: var(--fs-xs);
+}
+
+.tile dd,
+.month-stats dd {
+  margin: 2px 0 0;
+  font-size: var(--fs-xl);
+  font-weight: 700;
+}
+
+.tile small,
+.month-stats small {
+  color: var(--text-faint);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.sk-hero {
+  height: 136px;
+}
+
+/* --- Biểu đồ 30 ngày -----------------------------------------------------------
+   Một chuỗi nên một màu (--accent); cột rỗng chỉ là một vạch mảnh trên đáy. Đầu cột
+   bo 4px, chân cột vuông bám đáy; 2px khoảng trống giữa hai cột. */
+.streak-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.streak-link[data-state='done'],
+.streak-link[data-state='at-risk'] {
+  color: var(--star);
+}
+
+.chart {
+  position: relative;
+  height: 150px;
+  border-bottom: 1px solid var(--border);
+}
+
+.chart-goal {
+  position: absolute;
+  inset-inline: 0;
+  z-index: 1;
+  border-top: 1px dashed var(--border-strong);
+  pointer-events: none;
+}
+
+/* Nhãn ở mép trái, nằm TRÊN cột (z-index của vạch) để không bị cột cao che. */
+.chart-goal span {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  padding: 0 4px;
+  border-radius: 4px;
+  background: var(--bg-elevated);
+  color: var(--text-muted);
+  font-size: var(--fs-2xs);
+}
+
+.chart-bars {
+  display: grid;
+  grid-template-columns: repeat(30, minmax(0, 1fr));
+  gap: 2px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chart-col {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  outline: none;
+}
+
+.chart-bar {
+  width: 100%;
+  min-height: 2px;
+  border-radius: 4px 4px 0 0;
+  background: var(--accent);
+  transition: opacity var(--dur) var(--ease);
+}
+
+.chart-bar.is-empty {
+  background: var(--border);
+}
+
+.chart-col.is-today .chart-bar:not(.is-empty) {
+  background: var(--accent-hover);
+}
+
+.chart-col:hover .chart-bar,
+.chart-col:focus-visible .chart-bar {
+  opacity: 0.75;
+}
+
+.chart-col:focus-visible {
+  box-shadow: 0 0 0 2px var(--accent-ring);
+  border-radius: 4px;
+}
+
+/* Chú thích của một cột: ẩn bằng độ mờ (vẫn trong cây truy cập), hiện khi rê chuột
+   hoặc focus. Cột ở mép phải neo chú thích về bên trái để không tràn khỏi thẻ. */
+.chart-tip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  z-index: 2;
+  width: max-content;
+  max-width: 220px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  font-size: var(--fs-xs);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%);
+  transition: opacity var(--dur) var(--ease);
+}
+
+.chart-col:nth-child(n + 24) .chart-tip {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+
+.chart-col:nth-child(-n + 6) .chart-tip {
+  left: 0;
+  transform: none;
+}
+
+.chart-col:hover .chart-tip,
+.chart-col:focus-visible .chart-tip {
+  opacity: 1;
+}
+
+.chart-axis {
+  display: flex;
+  justify-content: space-between;
+  margin-top: calc(-1 * var(--sp-3));
+}
+
+.month-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--sp-3);
+  margin: 0;
+}
+
+@media (max-width: 520px) {
+  .month-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* --- Từng học phần --------------------------------------------------------------- */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--sp-4);
+}
+
+@media (max-width: 400px) {
+  .course-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.course-body {
+  height: 100%;
+  gap: var(--sp-3);
+}
+
+.course-body p {
+  margin: 0;
+}
+
+.course-head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.course-name {
+  color: var(--text);
+  font-size: var(--fs-lg);
+  font-weight: 700;
+}
+
+.course-percent {
+  color: var(--accent);
+  font-size: var(--fs-lg);
+}
+
+.module-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.module-row {
+  display: grid;
+  grid-template-columns: 1.6rem 5.2rem minmax(40px, 1fr) 3.2rem 4.4rem;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: 6px 8px;
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: var(--fs-sm);
+}
+
+.module-row:hover {
+  background: var(--bg-subtle);
+  text-decoration: none;
+}
+
+.module-glyph {
+  color: var(--accent);
+  font-weight: 600;
+  text-align: center;
+}
+
+.module-name {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.module-count,
+.module-best {
+  color: var(--text-muted);
+  font-size: var(--fs-xs);
+  text-align: right;
+}
+
+.sk-row {
+  height: 28px;
+}
+
+.course-foot {
+  margin-top: auto;
+}
+
+/* --- Nên luyện lại ----------------------------------------------------------------- */
+.weak-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--sp-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 400px) {
+  .weak-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.weak-item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  height: 100%;
+  padding: 10px 14px;
+  color: var(--text);
+}
+
+.weak-item:hover {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  text-decoration: none;
+}
+
+/* Điểm thấp là trạng thái "cần chú ý" nên dùng màu cảnh báo — kèm con số, không chỉ
+   mỗi màu. */
+.weak-best {
+  flex-shrink: 0;
+  min-width: 3.2rem;
+  padding: 4px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--warning-soft);
+  color: var(--text);
+  font-weight: 700;
+  text-align: center;
+}
+
+.weak-best.is-low {
+  background: var(--danger-soft);
+}
+
+.weak-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.weak-name {
+  font-family: var(--font-jp);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}

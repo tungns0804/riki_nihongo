@@ -112,6 +112,19 @@ export function lastWeek(log: ActivityLog, today: DayNumber): { day: DayNumber; 
   });
 }
 
+/** `count` ngày gần nhất, cũ trước, kể cả ngày không học — biểu đồ của trang Tiến độ. */
+export function recentDays(
+  log: ActivityLog,
+  today: DayNumber,
+  count: number,
+): ({ day: DayNumber; isToday: boolean } & DayActivity)[] {
+  return Array.from({ length: count }, (_, index) => {
+    const day = today - count + 1 + index;
+    const entry = log[day] ?? { answered: 0, correct: 0, met: false };
+    return { day, isToday: day === today, ...entry };
+  });
+}
+
 /** Đọc lại nhật ký từ localStorage, bỏ mọi thứ không đúng dạng. */
 export function sanitizeLog(raw: unknown): ActivityLog {
   if (typeof raw !== 'object' || raw === null || Array.isArray(raw)) return {};

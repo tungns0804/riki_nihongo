@@ -56,6 +56,8 @@ const testRun: LoadComponent = () =>
   import('./features/test-run/test-run').then((m) => m.TestRun);
 const result: LoadComponent = () => import('./features/result/result').then((m) => m.Result);
 const stats: LoadComponent = () => import('./features/stats/stats').then((m) => m.Stats);
+const overview: LoadComponent = () =>
+  import('./features/overview/overview').then((m) => m.Overview);
 
 /**
  * Màn hình chi tiết của từng hình dạng dữ liệu. Phần Mimikara có `kind: 'grammar'` nên
@@ -160,6 +162,10 @@ export const routes: Routes = [
     pathMatch: 'full',
     loadComponent: courseList,
   },
+
+  // Tiến độ của MỌI học phần — đứng ở gốc vì không thuộc học phần nào. Không trùng id
+  // học phần nào (n3-junbi, btvn-co-ban…).
+  { path: 'progress', title: 'route.progress', loadComponent: overview },
 
   ...COURSES.filter((course) => course.status === 'active').map(courseRoute),
 

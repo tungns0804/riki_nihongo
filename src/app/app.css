@@ -595,6 +595,14 @@ a.icon-btn.streak-chip[data-state='done'] {
   }
 }
 
+/* Thêm chip 🔥 thì từ 560px trở xuống tên ứng dụng cạnh logo đã bị cắt: bỏ chữ, giữ logo
+   力 (vẫn dẫn về trang chủ). */
+@media (max-width: 560px) {
+  .topbar-brand .brand-name {
+    display: none;
+  }
+}
+
 /* Hàng trên của điện thoại hẹp: bỏ chữ của nút sáng/tối và tên ứng dụng cạnh logo (logo
    力 vẫn dẫn về trang chủ) để đủ chỗ cho nút chọn học phần. Giữ chữ của nút ngôn ngữ vì
    biểu tượng quả cầu một mình không cho biết đang ở ngôn ngữ nào. */

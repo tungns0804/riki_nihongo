@@ -124,8 +124,12 @@
   color: var(--text);
 }
 
-.streak-best {
-  margin: auto 0 0;
+.streak-foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--sp-2);
+  margin-top: auto;
 }
 
 /* --- Kế hoạch hôm nay ---------------------------------------------------------- */
