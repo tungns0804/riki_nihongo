@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-23T02:10:38.710Z",
+  "generatedAt": "2026-10-23T03:09:00.856Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -337,6 +337,17 @@
           "itemCount": 10,
           "order": 110.5,
           "file": "vocabulary/01-danh-tu-trac-nghiem-91-100.json"
+        },
+        {
+          "id": "01-danh-tu-trac-nghiem-111-120",
+          "name": "Trắc nghiệm 111–120",
+          "description": "Bài tập trắc nghiệm của cụm 111–120 (Bài 6.2 · Tính chất, thứ tự và hàng hoá) — 10 câu về 自動・種類・性格・性質・順番・番・方法・製品・値上がり・生. Câu 3 là câu chọn cách nói cùng nghĩa, đề không có chỗ trống.",
+          "kind": "test",
+          "parent": "01-danh-tu",
+          "group": "111–120",
+          "itemCount": 10,
+          "order": 112.5,
+          "file": "vocabulary/01-danh-tu-trac-nghiem-111-120.json"
         },
         {
           "id": "02-dong-tu-btvn-461-470",

@@ -1,0 +1,398 @@
+{
+  "id": "01-danh-tu-trac-nghiem-111-120",
+  "name": "Trắc nghiệm 111–120",
+  "description": "Bài tập trắc nghiệm của cụm 111–120 (Bài 6.2 · Tính chất, thứ tự và hàng hoá) — 10 câu về 自動・種類・性格・性質・順番・番・方法・製品・値上がり・生. Câu 3 là câu chọn cách nói cùng nghĩa, đề không có chỗ trống.",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "111–120",
+  "sections": [
+    {
+      "id": "trac-nghiem-111-120",
+      "title": "文字語彙 — Trắc nghiệm 111–120 (10 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-tn-111120-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "このドアは押さなくても（　　　）で開きますよ。",
+          "promptReading": "この ドアは おさなくても（　　　）で あきますよ。",
+          "promptTranslation": "Cửa này không cần đẩy cũng tự mở （　　　） đấy.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "運転",
+              "translation": "うんてん · Lái xe; vận hành",
+              "note": "運転 là lái xe, vận hành máy; ドアが運転で開く không thành nghĩa."
+            },
+            {
+              "id": "c2",
+              "text": "運動",
+              "translation": "うんどう · Vận động, tập thể dục",
+              "note": "運動 là tập thể dục, không dùng cho cửa."
+            },
+            {
+              "id": "c3",
+              "text": "自動",
+              "translation": "じどう · Tự động",
+              "note": "Đúng: 自動で開く = mở tự động — khớp với 押さなくても (không cần đẩy)."
+            },
+            {
+              "id": "c4",
+              "text": "手動",
+              "translation": "しゅどう · Thủ công, bằng tay",
+              "note": "Bẫy: 手動 là trái nghĩa của 自動 — mở bằng tay thì phải đẩy, mâu thuẫn với 押さなくても."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "自動 (じどう) ＞＜ 手動 (しゅどう). ～で開く = mở bằng cách ~. Vなくても = dù không ~ thì vẫn. Từ ghép: 自動ドア・自動販売機 (自販機)・全自動洗濯機.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-111120-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "やっぱり女性は、顔より（　　　）だね。",
+          "promptReading": "やっぱり じょせいは、かおより（　　　）だね。",
+          "promptTranslation": "Quả nhiên phụ nữ thì （　　　） quan trọng hơn khuôn mặt nhỉ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "体",
+              "translation": "からだ · Cơ thể",
+              "note": "顔より体 cũng là ngoại hình, câu nói thô và không phải ý so sánh bề ngoài với bên trong."
+            },
+            {
+              "id": "c2",
+              "text": "性質",
+              "translation": "せいしつ · Tính chất; bản tính",
+              "note": "Bẫy: 性質 dùng được cho người nhưng thiên về bản tính bẩm sinh, cũng dùng cho đồ vật; nói về con người đáng yêu hay không thì dùng 性格."
+            },
+            {
+              "id": "c3",
+              "text": "性格",
+              "translation": "せいかく · Tính cách",
+              "note": "Đúng: 顔より性格 = tính cách quan trọng hơn khuôn mặt — 性格 chỉ dùng cho người."
+            },
+            {
+              "id": "c4",
+              "text": "種類",
+              "translation": "しゅるい · Chủng loại",
+              "note": "種類 là chủng loại, không dùng để đánh giá một người."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "性格 = tính cách, chỉ dùng cho người (明るい性格・まじめな性格). 性質 = tính chất, dùng cho người, động vật và cả đồ vật (燃えにくい性質). AよりB = B hơn A. やっぱり = quả nhiên, rốt cuộc thì.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-111120-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "えっと、次の人、前に出てください。発表の時間です。",
+          "promptReading": "えっと、つぎの ひと、まえに でてください。はっぴょうの じかんです。",
+          "promptTranslation": "À, người tiếp theo lên phía trước nhé. Đến giờ phát biểu rồi. — Chọn cách nói cùng nghĩa với 「次の人」.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "次の製",
+              "translation": "つぎのせい · (không thành nghĩa)",
+              "note": "製 chỉ đứng sau danh từ (日本製・プラスチック製); 次の製 không thành nghĩa."
+            },
+            {
+              "id": "c2",
+              "text": "次の手段",
+              "translation": "つぎのしゅだん · Phương tiện tiếp theo",
+              "note": "手段 là phương tiện, biện pháp, không chỉ người."
+            },
+            {
+              "id": "c3",
+              "text": "次の方法",
+              "translation": "つぎのほうほう · Cách tiếp theo",
+              "note": "方法 là cách làm, không chỉ người."
+            },
+            {
+              "id": "c4",
+              "text": "次の番",
+              "translation": "つぎのばん · Lượt tiếp theo",
+              "note": "Đúng: 次の番 (の人) = người đến lượt tiếp theo — gọi người lên phát biểu theo lượt."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "番 (ばん) = lượt: 次は私の番だ (tiếp theo đến lượt tôi). Liên quan: 順番 = thứ tự (発表の順番を決める); 留守番 = trông nhà. Đề in không có chỗ trống, chép đúng như đề.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-111120-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "え？肉を（　　）で食べるの？お腹大丈夫？",
+          "promptReading": "え？にくを（　　）で たべるの？おなか だいじょうぶ？",
+          "promptTranslation": "Hả? Ăn thịt （　　） á? Bụng có sao không đấy?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ごみ",
+              "translation": "ごみ · Rác",
+              "note": "ごみで食べる không thành nghĩa."
+            },
+            {
+              "id": "c2",
+              "text": "野菜",
+              "translation": "やさい · Rau",
+              "note": "野菜で食べる (ăn kèm rau) không phải lý do khiến lo đau bụng."
+            },
+            {
+              "id": "c3",
+              "text": "物",
+              "translation": "もの · Đồ vật",
+              "note": "物で食べる không thành nghĩa."
+            },
+            {
+              "id": "c4",
+              "text": "生",
+              "translation": "なま · Sống, tươi sống",
+              "note": "Đúng: 肉を生で食べる = ăn thịt sống — nên mới lo お腹大丈夫？"
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "生で = để nguyên sống (魚を生で食べる). 生 còn ghép: 生肉・生野菜・生魚・生ビール・生ゴミ. ～の？ = hỏi lại vì ngạc nhiên (văn nói). お腹 (おなか) = bụng.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-111120-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "あのお店のフォーが（　　）した。",
+          "promptReading": "あの おみせの フォーが（　　）した。",
+          "promptTranslation": "Phở ở quán đó đã （　　） rồi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "希望",
+              "translation": "きぼう · Hi vọng, mong muốn",
+              "note": "希望する cần người làm chủ ngữ; フォーが希望した không thành nghĩa."
+            },
+            {
+              "id": "c2",
+              "text": "値上がり",
+              "translation": "ねあがり · Tăng giá",
+              "note": "Đúng: フォーが値上がりした = phở tăng giá — 値上がりする là tự động từ, chủ ngữ là món hàng."
+            },
+            {
+              "id": "c3",
+              "text": "ごちそう",
+              "translation": "ごちそう · Thiết đãi, chiêu đãi",
+              "note": "ごちそうする cần người đãi (人に～をごちそうする); フォーが ごちそうした không thành nghĩa."
+            },
+            {
+              "id": "c4",
+              "text": "おしゃべり",
+              "translation": "おしゃべり · Tán gẫu",
+              "note": "おしゃべりする là người nói chuyện, phở không tán gẫu được."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "（が）値上がりする = (hàng) tăng giá ≒ 値段が上がる. Phân biệt: （を）値上げする = (người bán) nâng giá — お店がフォーを値上げした. Trái nghĩa: 値下がり／値下げ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-111120-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "この洗剤は水にとけやすい（　　）らしい。",
+          "promptReading": "この せんざいは みずに とけやすい（　　）らしい。",
+          "promptTranslation": "Nghe nói loại nước tẩy này có （　　） dễ tan trong nước.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "製品",
+              "translation": "せいひん · Sản phẩm",
+              "note": "Bẫy: 水にとけやすい製品 về ngữ pháp được, nhưng 洗剤 đã là sản phẩm rồi; câu đang nói đặc tính của nó nên 性質 mới đúng ý."
+            },
+            {
+              "id": "c2",
+              "text": "性格",
+              "translation": "せいかく · Tính cách",
+              "note": "性格 chỉ dùng cho người, không dùng cho 洗剤."
+            },
+            {
+              "id": "c3",
+              "text": "作品",
+              "translation": "さくひん · Tác phẩm",
+              "note": "作品 là tác phẩm nghệ thuật, không phải nước tẩy."
+            },
+            {
+              "id": "c4",
+              "text": "性質",
+              "translation": "せいしつ · Tính chất",
+              "note": "Đúng: 水にとけやすい性質 = tính chất dễ tan trong nước — 性質 dùng được cho đồ vật."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "性質 = tính chất (người, động vật, đồ vật): この布は燃えにくい性質を持っている. 性格 chỉ dùng cho người. Vます＋やすい = dễ ~ ＞＜ ～にくい = khó ~. 溶ける (とける) = tan. ～らしい = nghe nói.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-111120-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "タピオカミルクティーには、いろいろな（　　）がある。",
+          "promptReading": "タピオカミルクティーには、いろいろな（　　）が ある。",
+          "promptTranslation": "Trà sữa trân châu có nhiều （　　） khác nhau.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "性質",
+              "translation": "せいしつ · Tính chất",
+              "note": "いろいろな性質 không hợp với đồ uống; trà sữa không có \"nhiều tính chất\"."
+            },
+            {
+              "id": "c2",
+              "text": "性格",
+              "translation": "せいかく · Tính cách",
+              "note": "性格 chỉ dùng cho người."
+            },
+            {
+              "id": "c3",
+              "text": "方法",
+              "translation": "ほうほう · Phương pháp, cách",
+              "note": "いろいろな方法 (nhiều cách) không khớp — câu nói về các loại trà sữa chứ không phải cách làm."
+            },
+            {
+              "id": "c4",
+              "text": "種類",
+              "translation": "しゅるい · Chủng loại, loại",
+              "note": "Đúng: いろいろな種類がある = có nhiều loại (vị, topping khác nhau)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "種類 (しゅるい) = loại, chủng loại: 形容詞は2種類ある. Đếm: 1種類・2種類…; hỏi: 何種類 (なんしゅるい)? ～には…がある = ở ~ thì có…",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-111120-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "いろいろな（　　）を試したが、この（　　）が一番やりやすい。",
+          "promptReading": "いろいろな（　　）を ためしたが、この（　　）が いちばん やりやすい。",
+          "promptTranslation": "Tôi đã thử nhiều （　　） rồi, nhưng （　　） này là dễ làm nhất.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "方法",
+              "translation": "ほうほう · Phương pháp, cách",
+              "note": "Đúng: 方法を試す = thử các cách; この方法がやりやすい = cách này dễ làm — やりやすい nói về cách làm."
+            },
+            {
+              "id": "c2",
+              "text": "種類",
+              "translation": "しゅるい · Chủng loại",
+              "note": "種類を試す thì được, nhưng この種類がやりやすい không tự nhiên: やりやすい (dễ làm) đi với cách làm, không đi với loại."
+            },
+            {
+              "id": "c3",
+              "text": "順番",
+              "translation": "じゅんばん · Thứ tự",
+              "note": "順番 là thứ tự; いろいろな順番を試す gượng và không phải ý câu."
+            },
+            {
+              "id": "c4",
+              "text": "作品",
+              "translation": "さくひん · Tác phẩm",
+              "note": "作品 là tác phẩm, không phải thứ để 試す và やりやすい."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "Hai chỗ trống điền cùng một từ. 方法 = cách, phương pháp: いい方法を探す・色々な方法を試す・新しい方法でやってみる. Vます＋やすい = dễ ~. ～が = nhưng (văn viết).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-111120-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "電化（　　）を同じ色でそろえる。",
+          "promptReading": "でんか（　　）を おなじ いろで そろえる。",
+          "promptTranslation": "Sắm đồng bộ các （　　） điện gia dụng cùng một màu.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "作品",
+              "translation": "さくひん · Tác phẩm",
+              "note": "電化作品 không phải từ."
+            },
+            {
+              "id": "c2",
+              "text": "製品",
+              "translation": "せいひん · Sản phẩm",
+              "note": "Đúng: 電化製品 (でんかせいひん) = đồ điện gia dụng."
+            },
+            {
+              "id": "c3",
+              "text": "種類",
+              "translation": "しゅるい · Chủng loại",
+              "note": "電化種類 không phải từ."
+            },
+            {
+              "id": "c4",
+              "text": "番組",
+              "translation": "ばんぐみ · Chương trình tivi",
+              "note": "電化番組 không phải từ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "製品 = sản phẩm (làm ra trong nhà máy): 電化製品・電気製品・家電製品・プラスチック製品. ～製 = sản xuất tại / làm bằng ~ (日本製・プラスチック製). そろえる = sắm cho đồng bộ, xếp cho đều.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-111120-10",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "持っている漫画は「ア行」から（　　）に並べたい。",
+          "promptReading": "もっている まんがは「アぎょう」から（　　）に ならべたい。",
+          "promptTranslation": "Truyện tranh tôi có thì tôi muốn xếp （　　） bắt đầu từ hàng 「ア」.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "性質",
+              "translation": "せいしつ · Tính chất",
+              "note": "性質に並べる không thành nghĩa."
+            },
+            {
+              "id": "c2",
+              "text": "方法",
+              "translation": "ほうほう · Phương pháp, cách",
+              "note": "方法に並べる không thành nghĩa; muốn nói theo cách nào thì là この方法で並べる."
+            },
+            {
+              "id": "c3",
+              "text": "順番",
+              "translation": "じゅんばん · Thứ tự, lần lượt",
+              "note": "Đúng: ～から順番に並べる = xếp lần lượt theo thứ tự bắt đầu từ ~."
+            },
+            {
+              "id": "c4",
+              "text": "番",
+              "translation": "ばん · Lượt",
+              "note": "Bẫy: 番 là lượt của một người (次は私の番); không nói 番に並べる."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "順番に = lần lượt, theo thứ tự: 大きい商品から順番に並べる. 順番 còn là thứ tự, lượt chờ: 発表の順番を決める・順番を待つ. ア行 (あぎょう) = hàng あいうえお trong bảng chữ cái. Vたい = muốn ~.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "sections": [
+    {
+      "id": "trac-nghiem-111-120",
+      "title": "文字語彙 — Trắc nghiệm 111–120 (10 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-tn-111120-01",
+          "promptJapanese": "このドアは押さなくても（　　　）で開きますよ。",
+          "promptReading": "この ドアは おさなくても（　　　）で あきますよ。",
+          "promptVietnamese": "Cửa này không cần đẩy cũng tự mở （　　　） đấy.",
+          "choices": ["運転", "運動", "自動", "手動"],
+          "choicesVietnamese": [
+            "うんてん · Lái xe; vận hành",
+            "うんどう · Vận động, tập thể dục",
+            "じどう · Tự động",
+            "しゅどう · Thủ công, bằng tay"
+          ],
+          "choiceNotes": [
+            "運転 là lái xe, vận hành máy; ドアが運転で開く không thành nghĩa.",
+            "運動 là tập thể dục, không dùng cho cửa.",
+            "Đúng: 自動で開く = mở tự động — khớp với 押さなくても (không cần đẩy).",
+            "Bẫy: 手動 là trái nghĩa của 自動 — mở bằng tay thì phải đẩy, mâu thuẫn với 押さなくても."
+          ],
+          "answer": 3,
+          "explanation": "自動 (じどう) ＞＜ 手動 (しゅどう). ～で開く = mở bằng cách ~. Vなくても = dù không ~ thì vẫn. Từ ghép: 自動ドア・自動販売機 (自販機)・全自動洗濯機."
+        },
+        {
+          "id": "dt-tn-111120-02",
+          "promptJapanese": "やっぱり女性は、顔より（　　　）だね。",
+          "promptReading": "やっぱり じょせいは、かおより（　　　）だね。",
+          "promptVietnamese": "Quả nhiên phụ nữ thì （　　　） quan trọng hơn khuôn mặt nhỉ.",
+          "choices": ["体", "性質", "性格", "種類"],
+          "choicesVietnamese": [
+            "からだ · Cơ thể",
+            "せいしつ · Tính chất; bản tính",
+            "せいかく · Tính cách",
+            "しゅるい · Chủng loại"
+          ],
+          "choiceNotes": [
+            "顔より体 cũng là ngoại hình, câu nói thô và không phải ý so sánh bề ngoài với bên trong.",
+            "Bẫy: 性質 dùng được cho người nhưng thiên về bản tính bẩm sinh, cũng dùng cho đồ vật; nói về con người đáng yêu hay không thì dùng 性格.",
+            "Đúng: 顔より性格 = tính cách quan trọng hơn khuôn mặt — 性格 chỉ dùng cho người.",
+            "種類 là chủng loại, không dùng để đánh giá một người."
+          ],
+          "answer": 3,
+          "explanation": "性格 = tính cách, chỉ dùng cho người (明るい性格・まじめな性格). 性質 = tính chất, dùng cho người, động vật và cả đồ vật (燃えにくい性質). AよりB = B hơn A. やっぱり = quả nhiên, rốt cuộc thì."
+        },
+        {
+          "id": "dt-tn-111120-03",
+          "promptJapanese": "えっと、次の人、前に出てください。発表の時間です。",
+          "promptReading": "えっと、つぎの ひと、まえに でてください。はっぴょうの じかんです。",
+          "promptVietnamese": "À, người tiếp theo lên phía trước nhé. Đến giờ phát biểu rồi. — Chọn cách nói cùng nghĩa với 「次の人」.",
+          "choices": ["次の製", "次の手段", "次の方法", "次の番"],
+          "choicesVietnamese": [
+            "つぎのせい · (không thành nghĩa)",
+            "つぎのしゅだん · Phương tiện tiếp theo",
+            "つぎのほうほう · Cách tiếp theo",
+            "つぎのばん · Lượt tiếp theo"
+          ],
+          "choiceNotes": [
+            "製 chỉ đứng sau danh từ (日本製・プラスチック製); 次の製 không thành nghĩa.",
+            "手段 là phương tiện, biện pháp, không chỉ người.",
+            "方法 là cách làm, không chỉ người.",
+            "Đúng: 次の番 (の人) = người đến lượt tiếp theo — gọi người lên phát biểu theo lượt."
+          ],
+          "answer": 4,
+          "explanation": "番 (ばん) = lượt: 次は私の番だ (tiếp theo đến lượt tôi). Liên quan: 順番 = thứ tự (発表の順番を決める); 留守番 = trông nhà. Đề in không có chỗ trống, chép đúng như đề."
+        },
+        {
+          "id": "dt-tn-111120-04",
+          "promptJapanese": "え？肉を（　　）で食べるの？お腹大丈夫？",
+          "promptReading": "え？にくを（　　）で たべるの？おなか だいじょうぶ？",
+          "promptVietnamese": "Hả? Ăn thịt （　　） á? Bụng có sao không đấy?",
+          "choices": ["ごみ", "野菜", "物", "生"],
+          "choicesVietnamese": [
+            "ごみ · Rác",
+            "やさい · Rau",
+            "もの · Đồ vật",
+            "なま · Sống, tươi sống"
+          ],
+          "choiceNotes": [
+            "ごみで食べる không thành nghĩa.",
+            "野菜で食べる (ăn kèm rau) không phải lý do khiến lo đau bụng.",
+            "物で食べる không thành nghĩa.",
+            "Đúng: 肉を生で食べる = ăn thịt sống — nên mới lo お腹大丈夫？"
+          ],
+          "answer": 4,
+          "explanation": "生で = để nguyên sống (魚を生で食べる). 生 còn ghép: 生肉・生野菜・生魚・生ビール・生ゴミ. ～の？ = hỏi lại vì ngạc nhiên (văn nói). お腹 (おなか) = bụng."
+        },
+        {
+          "id": "dt-tn-111120-05",
+          "promptJapanese": "あのお店のフォーが（　　）した。",
+          "promptReading": "あの おみせの フォーが（　　）した。",
+          "promptVietnamese": "Phở ở quán đó đã （　　） rồi.",
+          "choices": ["希望", "値上がり", "ごちそう", "おしゃべり"],
+          "choicesVietnamese": [
+            "きぼう · Hi vọng, mong muốn",
+            "ねあがり · Tăng giá",
+            "ごちそう · Thiết đãi, chiêu đãi",
+            "おしゃべり · Tán gẫu"
+          ],
+          "choiceNotes": [
+            "希望する cần người làm chủ ngữ; フォーが希望した không thành nghĩa.",
+            "Đúng: フォーが値上がりした = phở tăng giá — 値上がりする là tự động từ, chủ ngữ là món hàng.",
+            "ごちそうする cần người đãi (人に～をごちそうする); フォーが ごちそうした không thành nghĩa.",
+            "おしゃべりする là người nói chuyện, phở không tán gẫu được."
+          ],
+          "answer": 2,
+          "explanation": "（が）値上がりする = (hàng) tăng giá ≒ 値段が上がる. Phân biệt: （を）値上げする = (người bán) nâng giá — お店がフォーを値上げした. Trái nghĩa: 値下がり／値下げ."
+        },
+        {
+          "id": "dt-tn-111120-06",
+          "promptJapanese": "この洗剤は水にとけやすい（　　）らしい。",
+          "promptReading": "この せんざいは みずに とけやすい（　　）らしい。",
+          "promptVietnamese": "Nghe nói loại nước tẩy này có （　　） dễ tan trong nước.",
+          "choices": ["製品", "性格", "作品", "性質"],
+          "choicesVietnamese": [
+            "せいひん · Sản phẩm",
+            "せいかく · Tính cách",
+            "さくひん · Tác phẩm",
+            "せいしつ · Tính chất"
+          ],
+          "choiceNotes": [
+            "Bẫy: 水にとけやすい製品 về ngữ pháp được, nhưng 洗剤 đã là sản phẩm rồi; câu đang nói đặc tính của nó nên 性質 mới đúng ý.",
+            "性格 chỉ dùng cho người, không dùng cho 洗剤.",
+            "作品 là tác phẩm nghệ thuật, không phải nước tẩy.",
+            "Đúng: 水にとけやすい性質 = tính chất dễ tan trong nước — 性質 dùng được cho đồ vật."
+          ],
+          "answer": 4,
+          "explanation": "性質 = tính chất (người, động vật, đồ vật): この布は燃えにくい性質を持っている. 性格 chỉ dùng cho người. Vます＋やすい = dễ ~ ＞＜ ～にくい = khó ~. 溶ける (とける) = tan. ～らしい = nghe nói."
+        },
+        {
+          "id": "dt-tn-111120-07",
+          "promptJapanese": "タピオカミルクティーには、いろいろな（　　）がある。",
+          "promptReading": "タピオカミルクティーには、いろいろな（　　）が ある。",
+          "promptVietnamese": "Trà sữa trân châu có nhiều （　　） khác nhau.",
+          "choices": ["性質", "性格", "方法", "種類"],
+          "choicesVietnamese": [
+            "せいしつ · Tính chất",
+            "せいかく · Tính cách",
+            "ほうほう · Phương pháp, cách",
+            "しゅるい · Chủng loại, loại"
+          ],
+          "choiceNotes": [
+            "いろいろな性質 không hợp với đồ uống; trà sữa không có \"nhiều tính chất\".",
+            "性格 chỉ dùng cho người.",
+            "いろいろな方法 (nhiều cách) không khớp — câu nói về các loại trà sữa chứ không phải cách làm.",
+            "Đúng: いろいろな種類がある = có nhiều loại (vị, topping khác nhau)."
+          ],
+          "answer": 4,
+          "explanation": "種類 (しゅるい) = loại, chủng loại: 形容詞は2種類ある. Đếm: 1種類・2種類…; hỏi: 何種類 (なんしゅるい)? ～には…がある = ở ~ thì có…"
+        },
+        {
+          "id": "dt-tn-111120-08",
+          "promptJapanese": "いろいろな（　　）を試したが、この（　　）が一番やりやすい。",
+          "promptReading": "いろいろな（　　）を ためしたが、この（　　）が いちばん やりやすい。",
+          "promptVietnamese": "Tôi đã thử nhiều （　　） rồi, nhưng （　　） này là dễ làm nhất.",
+          "choices": ["方法", "種類", "順番", "作品"],
+          "choicesVietnamese": [
+            "ほうほう · Phương pháp, cách",
+            "しゅるい · Chủng loại",
+            "じゅんばん · Thứ tự",
+            "さくひん · Tác phẩm"
+          ],
+          "choiceNotes": [
+            "Đúng: 方法を試す = thử các cách; この方法がやりやすい = cách này dễ làm — やりやすい nói về cách làm.",
+            "種類を試す thì được, nhưng この種類がやりやすい không tự nhiên: やりやすい (dễ làm) đi với cách làm, không đi với loại.",
+            "順番 là thứ tự; いろいろな順番を試す gượng và không phải ý câu.",
+            "作品 là tác phẩm, không phải thứ để 試す và やりやすい."
+          ],
+          "answer": 1,
+          "explanation": "Hai chỗ trống điền cùng một từ. 方法 = cách, phương pháp: いい方法を探す・色々な方法を試す・新しい方法でやってみる. Vます＋やすい = dễ ~. ～が = nhưng (văn viết)."
+        },
+        {
+          "id": "dt-tn-111120-09",
+          "promptJapanese": "電化（　　）を同じ色でそろえる。",
+          "promptReading": "でんか（　　）を おなじ いろで そろえる。",
+          "promptVietnamese": "Sắm đồng bộ các （　　） điện gia dụng cùng một màu.",
+          "choices": ["作品", "製品", "種類", "番組"],
+          "choicesVietnamese": [
+            "さくひん · Tác phẩm",
+            "せいひん · Sản phẩm",
+            "しゅるい · Chủng loại",
+            "ばんぐみ · Chương trình tivi"
+          ],
+          "choiceNotes": [
+            "電化作品 không phải từ.",
+            "Đúng: 電化製品 (でんかせいひん) = đồ điện gia dụng.",
+            "電化種類 không phải từ.",
+            "電化番組 không phải từ."
+          ],
+          "answer": 2,
+          "explanation": "製品 = sản phẩm (làm ra trong nhà máy): 電化製品・電気製品・家電製品・プラスチック製品. ～製 = sản xuất tại / làm bằng ~ (日本製・プラスチック製). そろえる = sắm cho đồng bộ, xếp cho đều."
+        },
+        {
+          "id": "dt-tn-111120-10",
+          "promptJapanese": "持っている漫画は「ア行」から（　　）に並べたい。",
+          "promptReading": "もっている まんがは「アぎょう」から（　　）に ならべたい。",
+          "promptVietnamese": "Truyện tranh tôi có thì tôi muốn xếp （　　） bắt đầu từ hàng 「ア」.",
+          "choices": ["性質", "方法", "順番", "番"],
+          "choicesVietnamese": [
+            "せいしつ · Tính chất",
+            "ほうほう · Phương pháp, cách",
+            "じゅんばん · Thứ tự, lần lượt",
+            "ばん · Lượt"
+          ],
+          "choiceNotes": [
+            "性質に並べる không thành nghĩa.",
+            "方法に並べる không thành nghĩa; muốn nói theo cách nào thì là この方法で並べる.",
+            "Đúng: ～から順番に並べる = xếp lần lượt theo thứ tự bắt đầu từ ~.",
+            "Bẫy: 番 là lượt của một người (次は私の番); không nói 番に並べる."
+          ],
+          "answer": 3,
+          "explanation": "順番に = lần lượt, theo thứ tự: 大きい商品から順番に並べる. 順番 còn là thứ tự, lượt chờ: 発表の順番を決める・順番を待つ. ア行 (あぎょう) = hàng あいうえお trong bảng chữ cái. Vたい = muốn ~."
+        }
+      ]
+    }
+  ]
+}
