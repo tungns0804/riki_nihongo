@@ -1,0 +1,398 @@
+{
+  "id": "01-danh-tu-trac-nghiem-81-90",
+  "name": "Trắc nghiệm 81–90",
+  "description": "Bài tập trắc nghiệm của cụm 81–90 (Bài 5.1 · Tin tức, khu phố và đồ quanh nhà) — 10 câu, mỗi câu hỏi đúng một danh từ trong cụm: 缶・画面・番組・記事・近所・警察・犯人・小銭・ごちそう・作者.",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "81–90",
+  "sections": [
+    {
+      "id": "trac-nghiem-81-90",
+      "title": "文字語彙 — Trắc nghiệm 81–90 (10 câu)",
+      "instructions": "",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-tn-8190-01",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "記事で読んだけど、あの事件の（　　　）、やっとつかまったらしいね。",
+          "promptReading": "きじで よんだけど、あの じけんの（　　　）、やっと つかまったらしいね。",
+          "promptTranslation": "Tớ đọc trên báo, hình như （　　　） của vụ án đó cuối cùng cũng bị bắt rồi nhỉ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "おまわりさん",
+              "translation": "おまわりさん · Chú cảnh sát (cách gọi thân mật)",
+              "note": "おまわりさん là người đi bắt chứ không phải người bị bắt (つかまる)."
+            },
+            {
+              "id": "c2",
+              "text": "小銭",
+              "translation": "こぜに · Tiền lẻ",
+              "note": "小銭 không phải người, không thể \"bị bắt\"."
+            },
+            {
+              "id": "c3",
+              "text": "犯人",
+              "translation": "はんにん · Hung thủ, tội phạm",
+              "note": "Đúng: 事件の犯人がつかまる = hung thủ của vụ án bị bắt — khớp với 事件の và つかまった."
+            },
+            {
+              "id": "c4",
+              "text": "警察",
+              "translation": "けいさつ · Cảnh sát",
+              "note": "警察 là bên bắt tội phạm; 警察がつかまる ngược nghĩa."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "事件の犯人を捕まえる (bắt hung thủ) ＞＜ 犯人が捕まる (hung thủ bị bắt). ～けど ở đây là dẫn chuyện: \"tớ đọc trên báo, thì…\". ～らしい = hình như, nghe nói (dựa trên thông tin nghe, đọc được). やっと = cuối cùng thì (sau khi chờ đợi).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-8190-02",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "彼はスマホの（　　　）を何時間も見つめている。",
+          "promptReading": "かれは スマホの（　　　）を なんじかんも みつめている。",
+          "promptTranslation": "Anh ấy cứ nhìn chằm chằm vào （　　　） điện thoại hàng mấy tiếng đồng hồ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "画面",
+              "translation": "がめん · Màn hình",
+              "note": "Đúng: スマホの画面 = màn hình điện thoại — thứ để 見つめる."
+            },
+            {
+              "id": "c2",
+              "text": "番組",
+              "translation": "ばんぐみ · Chương trình tivi",
+              "note": "番組 là chương trình tivi, radio; スマホの番組 không phải cách nói tự nhiên."
+            },
+            {
+              "id": "c3",
+              "text": "作品",
+              "translation": "さくひん · Tác phẩm",
+              "note": "作品 là tác phẩm (tranh, sách…); スマホの作品 không thành nghĩa."
+            },
+            {
+              "id": "c4",
+              "text": "記事",
+              "translation": "きじ · Bài báo",
+              "note": "Đọc báo trên điện thoại thì nói スマホで記事を読む; 記事 đi với 読む hơn là 見つめる."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "画面 đi với thiết bị: スマホの画面・テレビの画面・パソコンの画面. 見つめる = nhìn chằm chằm. 何時間も = hàng mấy tiếng (も nhấn mạnh số lượng nhiều).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-8190-03",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "自販機でジュースを買おうと思ったのに、財布に（　　　）がなかった。",
+          "promptReading": "じはんきで ジュースを かおうと おもったのに、さいふに（　　　）が なかった。",
+          "promptTranslation": "Định mua nước ở máy bán hàng tự động thế mà trong ví lại không có （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "貯金",
+              "translation": "ちょきん · Tiền tiết kiệm",
+              "note": "貯金 là tiền gửi tiết kiệm — không nằm trong ví."
+            },
+            {
+              "id": "c2",
+              "text": "小銭",
+              "translation": "こぜに · Tiền lẻ",
+              "note": "Đúng: 財布に小銭がない = trong ví không có tiền lẻ — máy bán hàng cần tiền xu."
+            },
+            {
+              "id": "c3",
+              "text": "ごちそう",
+              "translation": "ごちそう · Đồ thiết đãi, món ngon",
+              "note": "ごちそう là đồ ăn thiết đãi, không ở trong ví."
+            },
+            {
+              "id": "c4",
+              "text": "夢",
+              "translation": "ゆめ · Giấc mơ, ước mơ",
+              "note": "夢 không ở trong ví, không liên quan việc mua nước."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "小銭 = tiền lẻ, tiền xu (〜円玉). Vよう＋と思う = định làm ~; ～のに = thế mà (kết quả trái mong đợi). 自販機 là dạng tắt của 自動販売機.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-8190-04",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "あの（　　　）の描く絵が好きなんだよね。",
+          "promptReading": "あの（　　　）の えがく えが すきなんだよね。",
+          "promptTranslation": "Tớ thích tranh do （　　　） đó vẽ lắm.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "警察",
+              "translation": "けいさつ · Cảnh sát",
+              "note": "警察 là cơ quan cảnh sát, không phải người vẽ tranh."
+            },
+            {
+              "id": "c2",
+              "text": "作者",
+              "translation": "さくしゃ · Tác giả",
+              "note": "Đúng: 作者の描く絵 = bức tranh tác giả vẽ — 作者 dùng cho tranh, tượng, tiểu thuyết."
+            },
+            {
+              "id": "c3",
+              "text": "高齢",
+              "translation": "こうれい · Cao tuổi",
+              "note": "高齢 là danh từ chỉ tuổi cao (高齢の人), không chỉ một người cụ thể."
+            },
+            {
+              "id": "c4",
+              "text": "目上",
+              "translation": "めうえ · Người bề trên",
+              "note": "目上 chỉ quan hệ trên–dưới (目上の人), không liên quan việc sáng tác."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "作者 = tác giả của tranh, tượng, tiểu thuyết, kịch bản. Trong cụm bổ nghĩa danh từ, が đổi thành の: 作者が描く絵 → 作者の描く絵. 描く (えがく／かく) = vẽ. ～んだよね = giọng tâm sự, chia sẻ cảm nhận.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-8190-05",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）表で好きな俳優の名前をチェックする。",
+          "promptReading": "（　　　）ひょうで すきな はいゆうの なまえを チェックする。",
+          "promptTranslation": "Dò tên diễn viên mình thích trên bảng （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "画面",
+              "translation": "がめん · Màn hình",
+              "note": "画面表 không phải từ có thật."
+            },
+            {
+              "id": "c2",
+              "text": "番組",
+              "translation": "ばんぐみ · Chương trình tivi",
+              "note": "Đúng: 番組表 = lịch phát sóng — xem để biết diễn viên mình thích đóng chương trình nào."
+            },
+            {
+              "id": "c3",
+              "text": "記事",
+              "translation": "きじ · Bài báo",
+              "note": "記事表 không phải từ có thật."
+            },
+            {
+              "id": "c4",
+              "text": "面接",
+              "translation": "めんせつ · Phỏng vấn",
+              "note": "面接表 không phải từ thông dụng, và không ghi tên diễn viên."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "番組表 (ばんぐみひょう) = bảng lịch phát sóng; trên báo còn gọi là 番組欄 (mục lịch phát sóng). 俳優 (はいゆう) = diễn viên. チェックする = kiểm tra, dò tìm.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-8190-06",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "空き（　　　）（ペットボトル・ビン・プラスチック）をリサイクルする。",
+          "promptReading": "あき（　　　）（ペットボトル・ビン・プラスチック）を リサイクルする。",
+          "promptTranslation": "Tái chế （　　　） rỗng (cùng chai nhựa, chai thuỷ tinh, đồ nhựa).",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "皮",
+              "translation": "かわ · Vỏ, da",
+              "note": "空き皮 không phải từ có thật; vỏ trái cây là 果物の皮, không tái chế cùng chai lọ."
+            },
+            {
+              "id": "c2",
+              "text": "夢",
+              "translation": "ゆめ · Giấc mơ",
+              "note": "空き夢 không phải từ có thật."
+            },
+            {
+              "id": "c3",
+              "text": "会",
+              "translation": "かい · Hội, buổi họp",
+              "note": "空き会 không phải từ có thật."
+            },
+            {
+              "id": "c4",
+              "text": "缶",
+              "translation": "かん · Lon, hộp",
+              "note": "Đúng: 空き缶 (あきかん) = lon rỗng — rác tái chế cùng nhóm với ペットボトル・ビン."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "空き＋N = N rỗng, trống: 空き缶・空き瓶 (あきびん)・空き家 (あきや)・空き部屋. Liên quan: 缶詰 (かんづめ) = đồ hộp.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-8190-07",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "（　　　）を散歩していたら、新しいカフェを見つけた。",
+          "promptReading": "（　　　）を さんぽしていたら、あたらしい カフェを みつけた。",
+          "promptTranslation": "Đang đi dạo quanh （　　　） thì tôi phát hiện ra một quán cà phê mới.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "おしゃべり",
+              "translation": "おしゃべり · Nói chuyện, tán gẫu",
+              "note": "おしゃべり là hành động nói chuyện, không phải nơi để 散歩."
+            },
+            {
+              "id": "c2",
+              "text": "近所",
+              "translation": "きんじょ · Khu gần nhà, hàng xóm",
+              "note": "Đúng: 近所を散歩する = đi dạo quanh khu gần nhà — nơi đi bộ hằng ngày, dễ bắt gặp quán mới."
+            },
+            {
+              "id": "c3",
+              "text": "地球",
+              "translation": "ちきゅう · Trái đất",
+              "note": "地球を散歩する quá lớn, không thành nghĩa."
+            },
+            {
+              "id": "c4",
+              "text": "故郷",
+              "translation": "ふるさと／こきょう · Quê hương",
+              "note": "故郷 là cả vùng quê; với quê thường nói 故郷に帰る, không tự nhiên bằng 近所 cho việc đi dạo hằng ngày."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "～を散歩する: nơi đi qua đi lại dùng を (公園を散歩する、近所を散歩する). Vていたら、～た = đang ~ thì (phát hiện) ~. 近所 = khu nhà ở gần, có quan hệ với mình; 近く dùng cho mọi chỗ gần.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-8190-08",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "スマホが落ちていたので、（　　　）に届けた。",
+          "promptReading": "スマホが おちていたので、（　　　）に とどけた。",
+          "promptTranslation": "Thấy có chiếc điện thoại bị rơi nên tôi đem nộp cho （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "上司",
+              "translation": "じょうし · Cấp trên",
+              "note": "上司 là sếp ở công ty, không phải nơi nộp đồ nhặt được."
+            },
+            {
+              "id": "c2",
+              "text": "年上",
+              "translation": "としうえ · Người lớn tuổi hơn",
+              "note": "年上 chỉ người lớn tuổi hơn mình, không phải nơi nhận đồ thất lạc."
+            },
+            {
+              "id": "c3",
+              "text": "警察",
+              "translation": "けいさつ · Cảnh sát",
+              "note": "Đúng: 落とし物を警察に届ける = đem đồ nhặt được nộp cho cảnh sát."
+            },
+            {
+              "id": "c4",
+              "text": "知り合い",
+              "translation": "しりあい · Người quen",
+              "note": "知り合い là người quen; đồ của người lạ thì không đem nộp cho người quen."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "～に届ける = đem nộp, báo cho (cơ quan): 警察に届ける、交番に届ける. 落ちている = (đồ) đang nằm rơi ở đó. ～ので = vì ~ nên. Liên quan: 警察官・警察署・交番.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-8190-09",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "この（　　　）によると、世界のコロナ感染者数は１億人を超えたらしい。",
+          "promptReading": "この（　　　）に よると、せかいの コロナ かんせんしゃすうは いちおくにんを こえたらしい。",
+          "promptTranslation": "Theo （　　　） này thì hình như số người nhiễm Covid trên thế giới đã vượt 100 triệu.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "記事",
+              "translation": "きじ · Bài báo",
+              "note": "Đúng: この記事によると = theo bài báo này — 記事 là nguồn tin, đi với ～によると…らしい."
+            },
+            {
+              "id": "c2",
+              "text": "画面",
+              "translation": "がめん · Màn hình",
+              "note": "画面 là màn hình, không phải nguồn tin để dẫn bằng によると."
+            },
+            {
+              "id": "c3",
+              "text": "目上",
+              "translation": "めうえ · Người bề trên",
+              "note": "目上 là người bề trên, không đi với この～によると."
+            },
+            {
+              "id": "c4",
+              "text": "高齢",
+              "translation": "こうれい · Cao tuổi",
+              "note": "高齢 là tuổi cao, không phải nguồn tin."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "～によると…らしい／そうだ = theo ~ thì nghe nói… — cặp dẫn nguồn tin. 記事 đi với 新聞記事・ネットの記事. 感染者数 (かんせんしゃすう) = số người nhiễm bệnh; 超える (こえる) = vượt quá.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "dt-tn-8190-10",
+          "skill": "vocabulary",
+          "prompt": "",
+          "promptJapanese": "今日は父の誕生日なので食卓に（　　　）が並んだ。",
+          "promptReading": "きょうは ちちの たんじょうびなので しょくたくに（　　　）が ならんだ。",
+          "promptTranslation": "Hôm nay là sinh nhật bố nên trên bàn ăn bày đầy （　　　）.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "小銭",
+              "translation": "こぜに · Tiền lẻ",
+              "note": "小銭 không bày trên bàn ăn ngày sinh nhật."
+            },
+            {
+              "id": "c2",
+              "text": "ごちそう",
+              "translation": "ごちそう · Đồ thiết đãi, món ngon",
+              "note": "Đúng: 食卓にごちそうが並ぶ = món ngon bày đầy bàn ăn — hợp với dịp sinh nhật."
+            },
+            {
+              "id": "c3",
+              "text": "夢",
+              "translation": "ゆめ · Giấc mơ",
+              "note": "夢 là thứ trừu tượng, không \"bày\" trên bàn ăn."
+            },
+            {
+              "id": "c4",
+              "text": "希望",
+              "translation": "きぼう · Hi vọng, mong muốn",
+              "note": "希望 là thứ trừu tượng, không \"bày\" trên bàn ăn."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "ごちそう = đồ ăn thiết đãi, bữa ngon dịp đặc biệt. Cách dùng khác: 人に～をごちそうする (đãi ai món ~), 人にごちそうになる (được ai khao). 食卓 (しょくたく) = bàn ăn; （が）並ぶ = được bày ra.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ]
+}

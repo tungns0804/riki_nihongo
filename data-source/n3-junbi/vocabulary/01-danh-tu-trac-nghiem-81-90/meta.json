@@ -1,0 +1,8 @@
+{
+  "name": "Trắc nghiệm 81–90",
+  "description": "Bài tập trắc nghiệm của cụm 81–90 (Bài 5.1 · Tin tức, khu phố và đồ quanh nhà) — 10 câu, mỗi câu hỏi đúng một danh từ trong cụm: 缶・画面・番組・記事・近所・警察・犯人・小銭・ごちそう・作者.",
+  "kind": "test",
+  "parent": "01-danh-tu",
+  "group": "81–90",
+  "order": 109.5
+}

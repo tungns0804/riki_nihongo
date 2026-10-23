@@ -1,0 +1,221 @@
+{
+  "sections": [
+    {
+      "id": "trac-nghiem-91-100",
+      "title": "文字語彙 — Trắc nghiệm 91–100 (10 câu)",
+      "skill": "vocabulary",
+      "questions": [
+        {
+          "id": "dt-tn-91100-01",
+          "promptJapanese": "たばこを吸おうとしているのに（　　　）がない",
+          "promptReading": "たばこを すおうと しているのに（　　　）が ない",
+          "promptVietnamese": "Đang định hút thuốc thế mà lại không có （　　　）.",
+          "choices": ["洗剤", "制服", "作品", "灰皿"],
+          "choicesVietnamese": [
+            "せんざい · Chất tẩy rửa",
+            "せいふく · Đồng phục",
+            "さくひん · Tác phẩm",
+            "はいざら · Gạt tàn"
+          ],
+          "choiceNotes": [
+            "洗剤 dùng để rửa bát, giặt đồ — không liên quan hút thuốc.",
+            "制服 là đồng phục, không cần khi hút thuốc.",
+            "作品 là tác phẩm, không liên quan hút thuốc.",
+            "Đúng: 灰皿 = gạt tàn (灰 tàn + 皿 đĩa) — muốn hút thuốc mà không có chỗ gạt tàn."
+          ],
+          "answer": 4,
+          "explanation": "灰 (はい) = tro, tàn; 灰皿 (はいざら, 皿 đọc biến âm ざら) = gạt tàn; 携帯灰皿 = gạt tàn bỏ túi. Vよう＋とする = định, sắp làm ~; ～のに = thế mà. Đề in không có dấu 。 cuối câu, chép đúng như đề."
+        },
+        {
+          "id": "dt-tn-91100-02",
+          "promptJapanese": "この絵は学生が描いた絵です。すごいでしょ？",
+          "promptReading": "この えは がくせいが かいた えです。すごいでしょ？",
+          "promptVietnamese": "Bức tranh này là tranh do sinh viên vẽ. Giỏi chưa? — Chọn cách nói cùng nghĩa với 「学生が描いた絵」.",
+          "choices": ["学生のごちそう", "学生の制服", "学生の作者", "学生の作品"],
+          "choicesVietnamese": [
+            "がくせいのごちそう · Bữa tiệc của sinh viên",
+            "がくせいのせいふく · Đồng phục của sinh viên",
+            "がくせいのさくしゃ · Tác giả của sinh viên",
+            "がくせいのさくひん · Tác phẩm của sinh viên"
+          ],
+          "choiceNotes": [
+            "ごちそう là đồ ăn thiết đãi, không phải bức tranh.",
+            "制服 là quần áo, không phải bức tranh.",
+            "Bẫy: 作者 là NGƯỜI làm ra (tác giả) — sinh viên mới là 作者; \"tác giả của sinh viên\" không thành nghĩa.",
+            "Đúng: 学生が描いた絵 = 学生の作品 — thứ do sinh viên làm ra."
+          ],
+          "answer": 4,
+          "explanation": "作品 (さくひん) = thứ làm ra (tranh, sách, tượng…) ＞＜ 作者 (さくしゃ) = người làm ra. 学生の作品をロビーに展示する (trưng bày tác phẩm sinh viên ở sảnh). ～でしょ？ = văn nói của ～でしょう？, rủ người nghe đồng tình."
+        },
+        {
+          "id": "dt-tn-91100-03",
+          "promptJapanese": "たばこの（　　　　）は体に良くないんですよ。",
+          "promptReading": "たばこの（　　　　）は からだに よくないんですよ。",
+          "promptVietnamese": "（　　　　） thuốc lá không tốt cho cơ thể đâu.",
+          "choices": ["道路", "坂", "煙", "灰"],
+          "choicesVietnamese": [
+            "どうろ · Đường (ô tô)",
+            "さか · Con dốc",
+            "けむり · Khói",
+            "はい · Tro, tàn"
+          ],
+          "choiceNotes": [
+            "道路 là đường xá, không đi với たばこの.",
+            "坂 là con dốc, không đi với たばこの.",
+            "Đúng: たばこの煙は体に悪い = khói thuốc có hại cho cơ thể — hít khói mới ảnh hưởng sức khoẻ.",
+            "Bẫy: たばこの灰 (tàn thuốc) có nói được, nhưng tàn không đi vào người nên không nói 体に良くない."
+          ],
+          "answer": 3,
+          "explanation": "煙 (けむり) = khói: タバコの煙・火事の煙. 灰 (はい) = tro, tàn: タバコの灰・灰皿. ～に良くない／悪い = có hại cho ~. ～んですよ = giải thích, nhắc nhở người nghe."
+        },
+        {
+          "id": "dt-tn-91100-04",
+          "promptJapanese": "来月、ホーチミン（　　　）鉄が開通する。",
+          "promptReading": "らいげつ、ホーチミン（　　　）てつが かいつうする。",
+          "promptVietnamese": "Tháng sau, tàu （　　　） Hồ Chí Minh sẽ thông tuyến.",
+          "choices": ["目下", "地下", "年下", "地上"],
+          "choicesVietnamese": [
+            "めした · Người dưới (cấp bậc)",
+            "ちか · Dưới mặt đất",
+            "としした · Người ít tuổi hơn",
+            "ちじょう · Trên mặt đất"
+          ],
+          "choiceNotes": [
+            "目下 là người cấp dưới; 目下鉄 không phải từ.",
+            "Đúng: 地下鉄 (ちかてつ) = tàu điện ngầm — ホーチミン地下鉄 = metro Hồ Chí Minh.",
+            "年下 là người ít tuổi hơn; 年下鉄 không phải từ.",
+            "Bẫy: 地上 là trái nghĩa của 地下, nhưng 地上鉄 không phải từ dùng trong tiếng Nhật."
+          ],
+          "answer": 2,
+          "explanation": "地下 (ちか) ＞＜ 地上 (ちじょう). Từ ghép: 地下鉄・地下街 (ちかがい, khu phố ngầm)・地下室. 開通する (かいつうする) = thông tuyến, khánh thành (đường, tàu). Ba chữ 下 đọc khác nhau: 地下 ちか・目下 めした・年下 としした."
+        },
+        {
+          "id": "dt-tn-91100-05",
+          "promptJapanese": "すみません、（　　　）一つください。",
+          "promptReading": "すみません、（　　　）ひとつ ください。",
+          "promptVietnamese": "Xin lỗi, cho tôi một cái （　　　）.",
+          "choices": ["煙", "坂", "道路", "灰皿"],
+          "choicesVietnamese": [
+            "けむり · Khói",
+            "さか · Con dốc",
+            "どうろ · Đường (ô tô)",
+            "はいざら · Gạt tàn"
+          ],
+          "choiceNotes": [
+            "煙 là khói, không đếm 一つ và không xin được.",
+            "坂 là con dốc, không xin được.",
+            "道路 là đường xá, không xin được.",
+            "Đúng: 灰皿を一つください = cho tôi một cái gạt tàn — câu hay nói ở quán ăn, quán cà phê."
+          ],
+          "answer": 4,
+          "explanation": "N＋一つください = cho tôi một cái N (bỏ trợ từ を trong văn nói). 灰皿 = 灰 (はい, tàn) ＋ 皿 (さら→ざら, đĩa)."
+        },
+        {
+          "id": "dt-tn-91100-06",
+          "promptJapanese": "（　　　）にシミをつけてしまった。",
+          "promptReading": "（　　　）に シミを つけて しまった。",
+          "promptVietnamese": "Tôi lỡ làm dính vết bẩn lên （　　　） mất rồi.",
+          "choices": ["制服", "洗剤", "作品", "小銭"],
+          "choicesVietnamese": [
+            "せいふく · Đồng phục",
+            "せんざい · Chất tẩy rửa",
+            "さくひん · Tác phẩm",
+            "こぜに · Tiền lẻ"
+          ],
+          "choiceNotes": [
+            "Đúng: 制服にシミをつける = làm dính vết bẩn lên đồng phục — シミ thường nói với quần áo, vải.",
+            "洗剤 là thứ dùng để TẨY vết bẩn, không phải chỗ bị dính bẩn.",
+            "作品 có thể bị bẩn, nhưng シミをつける nói về quần áo, vải tự nhiên hơn nhiều.",
+            "小銭 là tiền xu, không nói シミをつける."
+          ],
+          "answer": 1,
+          "explanation": "シミ (染み) = vết bẩn, vết ố. ～にシミをつける = làm dính vết bẩn lên ~; シミが落ちる = vết bẩn sạch đi (khi giặt bằng 洗剤). Vてしまった = lỡ ~ mất rồi. 制服 = đồng phục công ty, trường học; đồ thể thao là ユニフォーム."
+        },
+        {
+          "id": "dt-tn-91100-07",
+          "promptJapanese": "あの人、心の中で何を考えているか分からない",
+          "promptReading": "あのひと、こころの なかで なにを かんがえているか わからない",
+          "promptVietnamese": "Không biết trong lòng người đó nghĩ gì. — Chọn từ thay được cho 「中」 trong 「心の中」.",
+          "choices": ["地下", "地上", "寺", "底"],
+          "choicesVietnamese": [
+            "ちか · Dưới mặt đất",
+            "ちじょう · Trên mặt đất",
+            "てら · Chùa",
+            "そこ · Đáy"
+          ],
+          "choiceNotes": [
+            "心の地下 không phải cách nói.",
+            "心の地上 không phải cách nói.",
+            "心の寺 không thành nghĩa.",
+            "Đúng: 心の底 = đáy lòng, thâm tâm — 心の底では何を考えているかわからない = không biết thâm tâm nghĩ gì."
+          ],
+          "answer": 4,
+          "explanation": "底 (そこ) = đáy, đế: 靴の底・箱の底・コップの底・海の底; nghĩa bóng 心の底 = thâm tâm, tận đáy lòng (心の底から感謝する = biết ơn từ tận đáy lòng). ～か＋分からない = không biết ~ gì. Đề in không có chỗ trống và không có dấu 。, chép đúng như đề."
+        },
+        {
+          "id": "dt-tn-91100-08",
+          "promptJapanese": "お（　　　）参りをする。",
+          "promptReading": "お（　　　）まいりを する。",
+          "promptVietnamese": "Đi lễ （　　　）.",
+          "choices": ["道路", "坂", "寺", "会"],
+          "choicesVietnamese": [
+            "どうろ · Đường (ô tô)",
+            "さか · Con dốc",
+            "てら · Chùa",
+            "かい · Hội, buổi họp"
+          ],
+          "choiceNotes": [
+            "お道路参り không phải từ.",
+            "お坂参り không phải từ.",
+            "Đúng: お寺参り (おてらまいり) = đi lễ chùa.",
+            "お会参り không phải từ."
+          ],
+          "answer": 3,
+          "explanation": "寺 gần như luôn nói kèm お: お寺. お寺に参る／お参りする = đi lễ chùa (参る là khiêm nhường ngữ của 行く). 参り đọc まいり; khi đi đền Thần đạo thì nói 神社にお参りする."
+        },
+        {
+          "id": "dt-tn-91100-09",
+          "promptJapanese": "自転車で（　　　）を下る。",
+          "promptReading": "じてんしゃで（　　　）を くだる。",
+          "promptVietnamese": "Đạp xe xuống （　　　）.",
+          "choices": ["坂", "底", "道路", "地下"],
+          "choicesVietnamese": [
+            "さか · Con dốc",
+            "そこ · Đáy",
+            "どうろ · Đường (ô tô)",
+            "ちか · Dưới mặt đất"
+          ],
+          "choiceNotes": [
+            "Đúng: 坂を下る = xuống dốc ＞＜ 坂を上る = leo dốc.",
+            "底 là đáy, không phải quãng đường để 下る.",
+            "道路 là đường bằng; 下る cần có độ dốc, nên 道路を下る không tự nhiên.",
+            "地下 là không gian dưới đất; xuống tầng hầm thì nói 地下に下りる, không dùng を下る."
+          ],
+          "answer": 1,
+          "explanation": "～を下る (くだる) = đi xuống theo ~ (quãng đường đi qua dùng を): 坂を下る・川を下る・階段を下りる. Cặp: 坂を上る (のぼる) ＞＜ 坂を下る. 急な坂 (dốc đứng) ＞＜ 緩やかな坂 (dốc thoai thoải)."
+        },
+        {
+          "id": "dt-tn-91100-10",
+          "promptJapanese": "高速（　　　）に乗ったのに渋滞していた。",
+          "promptReading": "こうそく（　　　）に のったのに じゅうたいしていた。",
+          "promptVietnamese": "Đã lên đường （　　　） cao tốc rồi mà vẫn bị tắc.",
+          "choices": ["坂", "底", "道路", "地下"],
+          "choicesVietnamese": [
+            "さか · Con dốc",
+            "そこ · Đáy",
+            "どうろ · Đường (ô tô)",
+            "ちか · Dưới mặt đất"
+          ],
+          "choiceNotes": [
+            "高速坂 không phải từ.",
+            "高速底 không phải từ.",
+            "Đúng: 高速道路 (こうそくどうろ) = đường cao tốc; 高速道路に乗る = lên cao tốc.",
+            "高速地下 không phải từ."
+          ],
+          "answer": 3,
+          "explanation": "高速道路に乗る = lên (đi vào) đường cao tốc; nói tắt là 高速に乗る. 道路 = đường cho ô tô; 道 = đường nói chung, đi bộ được. ～のに = thế mà; 渋滞する (じゅうたいする) = tắc đường."
+        }
+      ]
+    }
+  ]
+}
