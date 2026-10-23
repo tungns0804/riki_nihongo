@@ -30,6 +30,7 @@ import {
 } from '../../../core/practice/build-questions';
 import { PracticeSessionStore } from '../../../core/services/practice-session-store';
 import { ProgressStore } from '../../../core/services/progress-store';
+import { SetupMorePreference } from '../../../core/services/setup-more-preference';
 
 /**
  * Khung thiết lập luyện tập, đặt ở đầu mọi màn hình chi tiết bài có luyện được.
@@ -51,6 +52,9 @@ export class PracticeSetup {
   private readonly course = inject(COURSE);
   private readonly router = inject(Router);
   private readonly lang = inject(LanguageStore);
+
+  /** "Tuỳ chỉnh thêm" (kiểu trả lời, số câu) đang mở hay gập — nhớ chung cho mọi bài. */
+  protected readonly more = inject(SetupMorePreference);
 
   protected readonly t = this.lang.t.bind(this.lang);
 
@@ -159,6 +163,16 @@ export class PracticeSetup {
       }).length,
   );
 
+  /**
+   * Số câu sẽ thực sự hỏi: số câu đã chọn, không quá số câu dựng được. Hiện cạnh nút bắt
+   * đầu thay cho tổng số câu, vì lựa chọn số câu giờ nằm gập trong "Tuỳ chỉnh thêm" — dòng
+   * tóm tắt phải nói được phiên sắp tới dài bao nhiêu mà không phải mở ra xem.
+   */
+  protected readonly plannedCount = computed(() => {
+    const limit = this.limit();
+    return limit === null ? this.available() : Math.min(limit, this.available());
+  });
+
   private config(): PracticeConfig {
     const unit = this.unit();
     return {
@@ -170,6 +184,10 @@ export class PracticeSetup {
       questionLimit: this.limit(),
       group: this.group(),
     };
+  }
+
+  protected onMoreToggle(event: Event): void {
+    this.more.set((event.target as HTMLDetailsElement).open);
   }
 
   protected setTarget(target: 'kanji' | 'words'): void {

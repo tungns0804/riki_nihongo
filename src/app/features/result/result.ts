@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
+import { ActivityStore } from '../../core/activity/activity-store';
 import { COURSE, MODULES, moduleOf } from '../../core/course/course.config';
 import { LanguageStore } from '../../core/i18n/language-store';
 import type { MessageKey } from '../../core/i18n/messages';
@@ -8,6 +9,7 @@ import { T } from '../../core/i18n/t';
 import { scoreBySkill } from '../../core/models/practice.model';
 import { PracticeSessionStore } from '../../core/services/practice-session-store';
 import { ProgressStore } from '../../core/services/progress-store';
+import { Icon } from '../shared/icon/icon';
 import { QuestionNote } from '../shared/question-note/question-note';
 
 /** Nhãn của một kỹ năng lấy luôn từ tên phần học tương ứng. */
@@ -24,7 +26,7 @@ const SKILL_LABEL_KEY: Record<string, MessageKey> = Object.fromEntries(
  */
 @Component({
   selector: 'app-result',
-  imports: [QuestionNote, RouterLink, T],
+  imports: [Icon, QuestionNote, RouterLink, T],
   templateUrl: './result.html',
   styleUrl: './result.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -41,6 +43,35 @@ export class Result {
   protected readonly courseHome = ['/', this.course.id];
 
   protected readonly summary = this.session.summary;
+
+  protected readonly activity = inject(ActivityStore);
+
+  /**
+   * Phiên này vừa đưa hôm nay chạm mục tiêu — chụp lại một lần lúc mở màn hình rồi báo
+   * kho là đã chúc mừng (xem constructor), để các phiên sau trong ngày không chúc lại.
+   */
+  private readonly justMetGoal = this.activity.justMet();
+
+  protected readonly streakTone = computed(() =>
+    this.justMetGoal ? 'celebrate' : this.activity.today().met ? 'done' : 'pending',
+  );
+
+  /** Một dòng về chuỗi ngày: chúc mừng, đã giữ chuỗi, hay còn bao nhiêu câu nữa. */
+  protected readonly streakMessage = computed(() => {
+    const today = this.activity.today();
+    const count = this.activity.streak().current;
+    if (this.justMetGoal) return this.t('result.streak.met', { count });
+    if (today.met) return this.t('result.streak.done', { answered: today.answered, count });
+    return this.t('result.streak.remaining', {
+      answered: today.answered,
+      goal: this.activity.goal(),
+      remaining: this.activity.remaining(),
+    });
+  });
+
+  constructor() {
+    this.activity.acknowledgeGoal();
+  }
 
   protected readonly percent = computed(() => {
     const data = this.summary();

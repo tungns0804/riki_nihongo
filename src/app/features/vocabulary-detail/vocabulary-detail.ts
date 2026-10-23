@@ -25,6 +25,7 @@ import { loadUnit } from '../../core/services/unit-loader';
 import { matchesAllWords, normalizeSearch, splitAround } from '../../core/utils/text';
 import { PracticeSetup } from '../shared/practice-setup/practice-setup';
 import { TestStart } from '../shared/test-start/test-start';
+import { UnitPager } from '../shared/unit-pager/unit-pager';
 
 /**
  * Một bài từ vựng: tóm tắt bài, khung thiết lập luyện tập, rồi BẢNG từ.
@@ -41,7 +42,7 @@ import { TestStart } from '../shared/test-start/test-start';
  */
 @Component({
   selector: 'app-vocabulary-detail',
-  imports: [RouterLink, T, PracticeSetup, TestStart],
+  imports: [RouterLink, T, PracticeSetup, TestStart, UnitPager],
   templateUrl: './vocabulary-detail.html',
   styleUrl: './vocabulary-detail.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

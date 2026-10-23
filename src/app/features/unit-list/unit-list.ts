@@ -7,6 +7,7 @@ import { T } from '../../core/i18n/t';
 import type { ModuleId, UnitIndexEntry } from '../../core/models/content.model';
 import { ContentStore } from '../../core/services/content-store';
 import { ProgressStore } from '../../core/services/progress-store';
+import { RecentStore } from '../../core/services/recent-store';
 import { matchesAllWords, normalizeSearch } from '../../core/utils/text';
 
 /**
@@ -28,6 +29,7 @@ export class UnitList {
   private readonly content = inject(ContentStore);
   private readonly progress = inject(ProgressStore);
   private readonly lang = inject(LanguageStore);
+  private readonly recent = inject(RecentStore);
 
   protected readonly t = this.lang.t.bind(this.lang);
 
@@ -63,6 +65,20 @@ export class UnitList {
     return this.allUnits().filter((unit) =>
       matchesAllWords(`${unit.name} ${unit.description} ${unit.id}`, needle),
     );
+  });
+
+  /**
+   * Bài mở gần nhất của học phần, nếu nó thuộc phần đang liệt kê — thẻ của nó mang nhãn
+   * "Đang học". Bài con (BTVN của một cụm) thì nhãn nằm trên bài mẹ, vì chỉ bài mẹ có
+   * thẻ ở danh sách này.
+   */
+  protected readonly currentUnitId = computed(() => {
+    const latest = this.recent.latestIn(this.course.id);
+    if (!latest || latest.moduleId !== this.moduleId()) return null;
+    const entry = this.content.units().find(
+      (unit) => unit.moduleId === latest.moduleId && unit.id === latest.unitId,
+    );
+    return entry?.parent || latest.unitId;
   });
 
   protected readonly noMatch = computed(

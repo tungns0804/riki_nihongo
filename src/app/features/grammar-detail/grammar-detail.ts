@@ -9,6 +9,7 @@ import { ContentStore } from '../../core/services/content-store';
 import { loadUnit } from '../../core/services/unit-loader';
 import { PracticeSetup } from '../shared/practice-setup/practice-setup';
 import { TestStart } from '../shared/test-start/test-start';
+import { UnitPager } from '../shared/unit-pager/unit-pager';
 
 /**
  * Một bài ngữ pháp — dùng cho cả phần "Ngữ pháp" và phần "Ngữ pháp MIMIKARA
@@ -27,7 +28,7 @@ import { TestStart } from '../shared/test-start/test-start';
  */
 @Component({
   selector: 'app-grammar-detail',
-  imports: [RouterLink, T, PracticeSetup, TestStart],
+  imports: [RouterLink, T, PracticeSetup, TestStart, UnitPager],
   templateUrl: './grammar-detail.html',
   styleUrl: './grammar-detail.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -1,0 +1,110 @@
+<div class="hero-grid">
+  <!-- ── Chuỗi ngày học ───────────────────────────────────────────────────── -->
+  <section class="card streak-card" [attr.data-state]="streak().state">
+    <div class="card-body stack">
+      <h2 class="today-card-title">
+        <app-icon name="flame" />
+        {{ t('streak.title') }}
+      </h2>
+
+      <div class="streak-figure">
+        <strong>{{ streak().current }}</strong>
+        <span>{{ t('streak.unit') }}</span>
+      </div>
+      <p class="streak-hint">{{ streakHint() }}</p>
+
+      <!-- Bảy ngày gần nhất: chấm đặc là ngày đạt mục tiêu. -->
+      <ol class="streak-week" [attr.aria-label]="t('streak.weekAria')">
+        @for (day of week(); track day.day) {
+          <li [class.is-met]="day.met" [class.is-today]="day.isToday">
+            <span class="streak-dot" aria-hidden="true">
+              @if (day.met) {
+                <app-icon name="flame" />
+              }
+            </span>
+            <span class="streak-dow">{{ t(day.label) }}</span>
+            <span class="sr-only">{{ t(day.met ? 'streak.dayMet' : 'streak.dayMissed') }}</span>
+          </li>
+        }
+      </ol>
+
+      <p class="small muted streak-best">{{ t('streak.best', { count: streak().best }) }}</p>
+    </div>
+  </section>
+
+  <!-- ── Kế hoạch hôm nay ─────────────────────────────────────────────────── -->
+  <section class="card plan-card">
+    <div class="card-body stack">
+      <h2 class="today-card-title">
+        <app-icon name="calendar" />
+        {{ t('plan.title') }}
+      </h2>
+
+      <div class="plan-item" [class.is-done]="activity.today().met">
+        <span class="plan-check" aria-hidden="true">
+          @if (activity.today().met) {
+            ✓
+          } @else {
+            <app-icon name="target" />
+          }
+        </span>
+        <div class="plan-main">
+          <span class="plan-title">{{ t('plan.goal', { goal: goal() }) }}</span>
+          <span class="plan-detail">
+            {{ t('streak.todayCount', { answered: answered(), goal: goal() }) }}
+          </span>
+          <span class="plan-bar" aria-hidden="true">
+            <span [style.width.%]="goalPercent()"></span>
+          </span>
+        </div>
+        @if (!activity.today().met) {
+          <a class="btn btn-sm btn-primary" [routerLink]="continuePath()">
+            {{ t('plan.go.learn') }}
+          </a>
+        }
+      </div>
+
+      <!-- Học tiếp: các bài mở gần đây, vào thẳng không qua học phần → phần học. -->
+      <div class="stack recent-block">
+        <span class="label">{{ t('today.continue.title') }}</span>
+        @if (recent().length > 0) {
+          <ul class="recent-list">
+            @for (entry of recent(); track entry.path) {
+              <li>
+                <a class="recent-item" [routerLink]="entry.path">
+                  <span class="recent-name">{{ entry.name }}</span>
+                  <span class="recent-meta">{{ t(entry.courseKey) }} · {{ t(entry.moduleKey) }}</span>
+                  <span class="card-go" aria-hidden="true">→</span>
+                </a>
+              </li>
+            }
+          </ul>
+        } @else {
+          <p class="small muted">{{ t('today.continue.empty') }}</p>
+        }
+      </div>
+
+      <!-- Mục tiêu số câu mỗi ngày + cách tính chuỗi. -->
+      <div class="goal-row">
+        <span class="small muted">{{ t('streak.goal') }}</span>
+        <div class="goal-options" role="group" [attr.aria-label]="t('streak.goal')">
+          @for (choice of goalChoices; track choice) {
+            <button
+              type="button"
+              class="goal-option"
+              [class.is-active]="goal() === choice"
+              [attr.aria-pressed]="goal() === choice"
+              (click)="setGoal(choice)"
+            >
+              {{ choice }}
+            </button>
+          }
+        </div>
+      </div>
+      <details class="how-it-works">
+        <summary>{{ t('streak.how.title') }}</summary>
+        <p class="small muted">{{ t('streak.how.body', { goal: goal() }) }}</p>
+      </details>
+    </div>
+  </section>
+</div>

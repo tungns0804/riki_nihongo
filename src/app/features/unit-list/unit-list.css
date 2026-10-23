@@ -109,3 +109,14 @@ h1 {
 .unit-card.is-empty .progress-ring {
   background: var(--bg-inset);
 }
+
+/* "Đang học" trên thẻ của bài mở gần nhất. */
+.current-pill {
+  align-self: flex-start;
+  padding: 1px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--brand-soft);
+  color: var(--brand);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}

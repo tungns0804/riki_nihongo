@@ -172,5 +172,10 @@
         </div>
       }
     }
+
+    <!-- Bài trước / bài sau: học xong bài này thì sang thẳng bài kề. -->
+    @if (unit()) {
+      <app-unit-pager [moduleId]="moduleId()" [unitId]="id()" />
+    }
   </div>
 </div>

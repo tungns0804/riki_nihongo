@@ -42,6 +42,11 @@ chữ số, 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana
 
 Địa chỉ cũ chưa có tên học phần (`/vocabulary/01-danh-tu`) tự chuyển sang N3 JUNBI.
 
+Trang gốc (`/`) mở đầu bằng khối **Hôm nay**: chuỗi ngày học (mỗi câu trả lời xong ở
+bất kỳ học phần nào đều được đếm, đủ mục tiêu 10/20/30/50 câu một ngày là giữ chuỗi),
+mục tiêu hôm nay và các bài mở gần đây để học tiếp. Chip 🔥 trên thanh trên cùng hiện
+chuỗi ở mọi trang; `npm run verify:streak` kiểm tra cách tính chuỗi.
+
 Trang chạy hoàn toàn trong trình duyệt: không có máy chủ, không có tài khoản. Tiến
 độ học lưu trong `localStorage` của chính máy đang dùng, mỗi học phần một khoá riêng.
 

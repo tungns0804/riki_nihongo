@@ -112,6 +112,11 @@
                 <span class="card-title unit-name">{{ unit.name }}</span>
               </div>
 
+              <!-- Bài mở gần nhất của học phần: quay lại đúng chỗ đang dở. -->
+              @if (unit.id === currentUnitId()) {
+                <span class="current-pill">{{ t('progress.current') }}</span>
+              }
+
               @if (unit.description) {
                 <p class="muted small clamp-2">{{ unit.description }}</p>
               }

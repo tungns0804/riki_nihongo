@@ -1,7 +1,9 @@
 import { Signal, effect, inject, signal } from '@angular/core';
 
+import { COURSE, moduleOf } from '../course/course.config';
 import type { ModuleId, Unit } from '../models/content.model';
 import { ContentStore } from './content-store';
+import { RecentStore } from './recent-store';
 
 export interface UnitResource {
   unit: Signal<Unit | null>;
@@ -17,11 +19,17 @@ export interface UnitResource {
  * không có bài) và đều phải tải lại khi người dùng bấm sang bài khác mà không rời
  * component. Viết một lần ở đây thay vì năm lần trong năm component.
  *
+ * Bài tải được thì ghi vào "bài mở gần đây" (RecentStore) — nguồn của khối "Học tiếp"
+ * ở trang gốc và nhãn "Đang học" trên thẻ bài. Ghi ở đây vì đây là chỗ DUY NHẤT cả năm
+ * màn hình chi tiết đi qua.
+ *
  * Phải gọi trong ngữ cảnh khởi tạo (field initializer hoặc constructor) vì bên
  * trong có `inject` và `effect`.
  */
 export function loadUnit(moduleId: Signal<ModuleId>, id: Signal<string>): UnitResource {
   const content = inject(ContentStore);
+  const course = inject(COURSE);
+  const recent = inject(RecentStore);
 
   const unit = signal<Unit | null>(null);
   const loading = signal(true);
@@ -43,6 +51,16 @@ export function loadUnit(moduleId: Signal<ModuleId>, id: Signal<string>): UnitRe
       unit.set(loaded);
       loading.set(false);
       notFound.set(loaded === null);
+
+      if (loaded) {
+        recent.record({
+          courseId: course.id,
+          moduleId: currentModule,
+          unitId: currentId,
+          name: loaded.name,
+          path: `/${course.id}/${moduleOf(currentModule).path}/${currentId}`,
+        });
+      }
     });
   });
 

@@ -11,9 +11,10 @@
     "generate": "node scripts/generate-content.mjs",
     "generate:clean": "node scripts/generate-content.mjs --clean",
     "generate:check": "node scripts/generate-content.mjs --check",
-    "verify": "npm run verify:content && npm run verify:i18n",
+    "verify": "npm run verify:content && npm run verify:i18n && npm run verify:streak",
     "verify:content": "node scripts/generate-content.mjs --check",
-    "verify:i18n": "node --experimental-strip-types --no-warnings scripts/verify-i18n.mjs"
+    "verify:i18n": "node --experimental-strip-types --no-warnings scripts/verify-i18n.mjs",
+    "verify:streak": "node --experimental-strip-types --no-warnings scripts/verify-streak.mjs"
   },
   "prettier": {
     "overrides": [

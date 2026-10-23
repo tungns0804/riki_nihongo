@@ -100,6 +100,54 @@ export const MESSAGES = {
     vi: 'Chọn học phần để bắt đầu. Hiện đã có N3 JUNBI, BTVN CƠ BẢN (MỚI), BTVN N4 CHUYÊN SÂU và Combo Kanji N5-N4, các học phần khác đang được chuẩn bị.',
     ja: 'コースを選んで始めましょう。現在は N3 JUNBI、BTVN CƠ BẢN (MỚI)、BTVN N4 CHUYÊN SÂU、Combo Kanji N5-N4 を公開中で、ほかのコースは準備中です。',
   },
+  // ── Khối "Hôm nay" ở trang gốc (features/course-list/today-panel) ──────
+  'today.title': { vi: 'Hôm nay học gì?', ja: '今日は何を学ぶ？' },
+  'today.subtitle': {
+    vi: 'Giữ chuỗi ngày học, học tiếp bài đang dở, hoặc chọn một học phần bên dưới.',
+    ja: '連続記録をキープして、続きから学ぶか、下のコースを選びましょう。',
+  },
+  'today.continue.title': { vi: 'Học tiếp', ja: '続きから' },
+  'today.continue.empty': {
+    vi: 'Chưa mở bài nào. Chọn một học phần bên dưới để bắt đầu.',
+    ja: 'まだレッスンを開いていません。下のコースから始めましょう。',
+  },
+  'streak.title': { vi: 'Chuỗi ngày học', ja: '連続学習' },
+  'streak.unit': { vi: 'ngày liên tiếp', ja: '日連続' },
+  'streak.state.done': { vi: 'Hôm nay đã giữ chuỗi — tuyệt vời! 🎉', ja: '今日の目標達成！🎉' },
+  'streak.state.atRisk': {
+    vi: 'Còn {count} câu nữa để giữ chuỗi hôm nay',
+    ja: '今日あと{count}問で連続記録キープ',
+  },
+  'streak.state.none': {
+    vi: 'Trả lời {count} câu hôm nay để bắt đầu chuỗi',
+    ja: '今日{count}問解いて連続記録をスタート',
+  },
+  'streak.todayCount': { vi: 'Hôm nay {answered}/{goal} câu', ja: '今日 {answered}/{goal}問' },
+  'streak.best': { vi: 'Kỷ lục: {count} ngày', ja: '最長記録: {count}日' },
+  'streak.weekAria': { vi: 'Bảy ngày gần nhất', ja: '直近7日間' },
+  'streak.dayMet': { vi: 'đạt mục tiêu', ja: '目標達成' },
+  'streak.dayMissed': { vi: 'chưa đạt', ja: '未達成' },
+  'streak.dow.0': { vi: 'CN', ja: '日' },
+  'streak.dow.1': { vi: 'T2', ja: '月' },
+  'streak.dow.2': { vi: 'T3', ja: '火' },
+  'streak.dow.3': { vi: 'T4', ja: '水' },
+  'streak.dow.4': { vi: 'T5', ja: '木' },
+  'streak.dow.5': { vi: 'T6', ja: '金' },
+  'streak.dow.6': { vi: 'T7', ja: '土' },
+  'streak.goal': { vi: 'Mục tiêu mỗi ngày (câu)', ja: '1日の目標（問）' },
+  'streak.how.title': { vi: 'Chuỗi ngày tính thế nào?', ja: '連続記録のしくみ' },
+  'streak.how.body': {
+    vi: 'Mỗi câu bạn trả lời xong — đúng hay sai, ở bất kỳ học phần nào: luyện từ vựng, kanji, ngữ pháp hay làm đề — đều được đếm (làm đề thì đếm các câu đã chọn đáp án lúc nộp bài). Đủ {goal} câu trong ngày là giữ được chuỗi. Hôm nay chưa học thì chuỗi vẫn còn tới hết ngày; bỏ trọn một ngày thì chuỗi về 0, nhưng kỷ lục vẫn được giữ. Đổi mục tiêu chỉ áp dụng từ hôm nay.',
+    ja: '答え終えた問題は、正解・不正解を問わず、どのコースでも（単語・漢字・文法の練習やテスト）数えられます（テストは提出時に解答した問題）。1日{goal}問に達すると連続記録が続きます。今日まだ学習していなくても、その日のうちなら記録は途切れません。丸一日休むと0に戻りますが、最長記録は残ります。目標の変更は今日から適用されます。',
+  },
+  'streak.chip': {
+    vi: 'Chuỗi {count} ngày · hôm nay {answered}/{goal} câu',
+    ja: '{count}日連続・今日 {answered}/{goal}問',
+  },
+  'plan.title': { vi: 'Kế hoạch hôm nay', ja: '今日のプラン' },
+  'plan.goal': { vi: 'Trả lời {goal} câu', ja: '{goal}問に答える' },
+  'plan.go.learn': { vi: 'Học tiếp', ja: '続きを学ぶ' },
+
   'course.list.all': { vi: 'Tất cả học phần', ja: 'すべてのコース' },
   'course.list.back': { vi: '← Tất cả học phần', ja: '← すべてのコース' },
 
@@ -203,6 +251,12 @@ export const MESSAGES = {
   'unit.pendingCount': { vi: '{count} bài đang chờ nội dung', ja: '{count}課は教材待ち' },
   'progress.attempts': { vi: 'Luyện {count} lần', ja: '{count}回練習' },
   'progress.never': { vi: 'Chưa luyện', ja: '未練習' },
+  // Nhãn trên thẻ của bài mở gần nhất (RecentStore).
+  'progress.current': { vi: 'Đang học', ja: '学習中' },
+  // Bài trước / bài sau ở cuối trang chi tiết (features/shared/unit-pager).
+  'pager.aria': { vi: 'Bài kề', ja: '前後のレッスン' },
+  'pager.prev': { vi: 'Bài trước', ja: '前のレッスン' },
+  'pager.next': { vi: 'Bài sau', ja: '次のレッスン' },
   'stats.title': { vi: 'Thống kê luyện tập', ja: '練習の記録' },
   'stats.subtitle': {
     vi: 'Mỗi bài, mỗi cụm từ và mỗi BTVN đã luyện bao nhiêu lần — để biết chỗ nào luyện nhiều, chỗ nào chưa luyện. Số liệu lưu trong trình duyệt này.',
@@ -378,6 +432,9 @@ export const MESSAGES = {
   'practice.exampleStep': { vi: 'Điền từ vừa trả lời vào câu ví dụ', ja: '今の単語を例文に入れる' },
   'practice.group': { vi: 'Cụm từ', ja: 'グループ' },
   'practice.count': { vi: 'Số câu', ja: '問題数' },
+  // Phần gập lại của khung thiết lập và dòng kể những gì nằm trong đó.
+  'practice.more': { vi: 'Tuỳ chỉnh thêm', ja: '詳細設定' },
+  'practice.moreHint': { vi: 'kiểu trả lời, số câu', ja: '解答方式・問題数' },
   'practice.start': { vi: 'Bắt đầu luyện', ja: '練習を始める' },
   'practice.progress': { vi: 'Câu {current}/{total}', ja: '{current}/{total}問' },
   'practice.check': { vi: 'Kiểm tra', ja: '答え合わせ' },
@@ -420,6 +477,19 @@ export const MESSAGES = {
     ja: '自己採点で正解にした解答：{answer}',
   },
   'result.bySkill': { vi: 'Theo kỹ năng', ja: '技能別' },
+  // Dải chuỗi ngày học ở màn kết quả (core/activity).
+  'result.streak.met': {
+    vi: 'Đạt mục tiêu hôm nay! Chuỗi {count} ngày liên tiếp 🎉',
+    ja: '今日の目標達成！{count}日連続 🎉',
+  },
+  'result.streak.done': {
+    vi: 'Hôm nay {answered} câu · chuỗi {count} ngày đang giữ vững',
+    ja: '今日 {answered}問・{count}日連続キープ中',
+  },
+  'result.streak.remaining': {
+    vi: 'Hôm nay {answered}/{goal} câu · còn {remaining} câu nữa để giữ chuỗi',
+    ja: '今日 {answered}/{goal}問・あと{remaining}問で連続記録キープ',
+  },
 
   // ── Lỗi ────────────────────────────────────────────────────────────────
   'error.contentIndex': {

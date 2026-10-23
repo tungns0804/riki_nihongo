@@ -7,6 +7,7 @@ import { T } from '../../core/i18n/t';
 import type { ModuleId } from '../../core/models/content.model';
 import { loadUnit } from '../../core/services/unit-loader';
 import { QuizBlock } from '../shared/quiz-block/quiz-block';
+import { UnitPager } from '../shared/unit-pager/unit-pager';
 
 /** Ghép đường dẫn file âm thanh theo <base href>, để chạy đúng cả khi deploy vào thư mục con. */
 function assetUrl(path: string): string {
@@ -22,7 +23,7 @@ function assetUrl(path: string): string {
  */
 @Component({
   selector: 'app-listening-detail',
-  imports: [RouterLink, T, QuizBlock],
+  imports: [RouterLink, T, QuizBlock, UnitPager],
   templateUrl: './listening-detail.html',
   styleUrl: './listening-detail.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

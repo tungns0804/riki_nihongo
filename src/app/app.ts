@@ -1,6 +1,5 @@
 import {
   afterNextRender,
-  afterRenderEffect,
   ChangeDetectionStrategy,
   Component,
   computed,
@@ -14,6 +13,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { filter, map } from 'rxjs';
 
+import { ActivityStore } from './core/activity/activity-store';
 import { COURSES, courseById, moduleByPath, modulesOf } from './core/course/course.config';
 import { LanguageStore } from './core/i18n/language-store';
 import type { MessageKey } from './core/i18n/messages';
@@ -43,7 +43,7 @@ function segmentsOf(url: string): string[] {
   return url.split(/[?#;]/)[0].split('/').filter(Boolean);
 }
 
-/** Một mục của thanh bên (và dải menu trên điện thoại). */
+/** Một mục của thanh bên (và thanh menu đáy của điện thoại). */
 interface NavItem {
   id: string;
   link: string[];
@@ -83,6 +83,17 @@ export class App {
 
   protected readonly t = this.lang.t.bind(this.lang);
 
+  protected readonly activity = inject(ActivityStore);
+
+  /** Chú thích của chip 🔥: chuỗi mấy ngày, hôm nay đã làm bao nhiêu câu. */
+  protected readonly streakChipLabel = computed(() =>
+    this.t('streak.chip', {
+      count: this.activity.streak().current,
+      answered: this.activity.today().answered,
+      goal: this.activity.goal(),
+    }),
+  );
+
   private readonly segments = toSignal(
     this.router.events.pipe(
       filter((event) => event instanceof NavigationEnd),
@@ -110,8 +121,8 @@ export class App {
    * gốc là các học phần. Dựng từ cấu hình chứ không viết tay trong template: thêm một
    * phần học là thêm một dòng ở course.config.ts, menu tự có mục mới.
    *
-   * Vì sao tự tính `active` thay cho `routerLinkActive`: menu vẽ HAI lần (thanh bên và dải
-   * điện thoại) và breadcrumb cũng cần biết đang ở phần nào. Một tín hiệu dùng chung cho
+   * Vì sao tự tính `active` thay cho `routerLinkActive`: menu vẽ HAI lần (thanh bên và thanh
+   * đáy) và breadcrumb cũng cần biết đang ở phần nào. Một tín hiệu dùng chung cho
    * cả ba chỗ thì không có chuyện menu sáng mục này mà breadcrumb ghi tên mục khác.
    */
   protected readonly navItems = computed<NavItem[]>(() => {
@@ -137,6 +148,15 @@ export class App {
       shortKey: module.shortKey,
       active: module.path === section,
     }));
+  });
+
+  /**
+   * Có vẽ thanh menu đáy (điện thoại) không: chỉ trong một học phần, và không ở màn hình
+   * luyện tập, làm đề, kết quả — đoạn cuối địa chỉ là một trong ACTION_KEY.
+   */
+  protected readonly showBottomNav = computed(() => {
+    const action = this.segments()[3];
+    return this.course() !== null && !(action && action in ACTION_KEY);
   });
 
   /**
@@ -200,20 +220,10 @@ export class App {
   /** Chính thẻ <header>, để đo chiều cao thật của nó. Xem `trackHeaderHeight`. */
   private readonly headerRef = viewChild.required<ElementRef<HTMLElement>>('appHeader');
 
-  /** Dải menu cuộn ngang, chỉ hiện trên điện thoại. Xem `revealActiveTab`. */
-  private readonly tabStrip = viewChild.required<ElementRef<HTMLElement>>('tabStrip');
-
   constructor() {
     // Chạy sau lần vẽ đầu tiên vì lúc này <header> chưa tồn tại. Trên máy chủ thì
     // không chạy, nên không cần tự kiểm tra `window`.
     afterNextRender(() => this.trackHeaderHeight());
-
-    // Đọc section() để Angular chạy lại sau mỗi lần đổi mục — lúc đó class
-    // is-active đã nằm đúng chỗ trong DOM.
-    afterRenderEffect(() => {
-      this.section();
-      this.revealActiveTab();
-    });
 
     if (typeof window === 'undefined') return;
 
@@ -231,10 +241,10 @@ export class App {
    * cả trang, thanh tìm từ dính trong bài từ vựng, mục lục dính trong bài ngữ pháp,
    * thanh tiến độ lúc luyện tập, và vệt báo đang chuyển trang.
    *
-   * Vì sao phải ĐO thay vì viết sẵn một con số cho mỗi breakpoint: trên điện thoại
-   * header gồm cả dải menu, còn trên máy tính thì không; chữ trong đó lại dài ngắn
-   * theo ngôn ngữ. Con số viết sẵn trước đây (104px cho khổ ≤800px) đã sai ngay khi
-   * menu xếp thành ba hàng.
+   * Vì sao phải ĐO thay vì viết sẵn một con số cho mỗi breakpoint: header cao thấp
+   * theo khổ màn hình (có tai thỏ hay không), chữ trong đó lại dài ngắn theo ngôn ngữ.
+   * Con số viết sẵn trước đây (104px cho khổ ≤800px) đã sai ngay khi dải menu cũ xếp
+   * thành ba hàng.
    *
    * ResizeObserver chứ không phải sự kiện `resize` của cửa sổ: header còn cao thấp
    * theo cả những thứ không liên quan tới cửa sổ, như đổi ngôn ngữ.
@@ -251,22 +261,6 @@ export class App {
 
     apply();
     new ResizeObserver(apply).observe(header);
-  }
-
-  /**
-   * Trên điện thoại menu là một dải cuộn ngang, và mục đang mở có thể nằm khuất
-   * ngoài mép — mở thẳng /n3-junbi/mimikara là mục thứ bảy. Kéo nó vào giữa dải, không
-   * thì người dùng không thấy mình đang ở mục nào.
-   */
-  private revealActiveTab(): void {
-    const strip = this.tabStrip().nativeElement;
-    // Dải đang ẩn (màn hình rộng) hoặc vừa khít thì không có gì để cuộn.
-    if (strip.scrollWidth <= strip.clientWidth) return;
-
-    const active = strip.querySelector<HTMLElement>('.is-active');
-    if (!active) return;
-
-    strip.scrollLeft = active.offsetLeft - (strip.clientWidth - active.offsetWidth) / 2;
   }
 
   /**

@@ -8,7 +8,10 @@ export type IconName =
   | 'candle'
   | 'chevron'
   | 'volume'
-  | 'volume-off';
+  | 'volume-off'
+  | 'flame'
+  | 'calendar'
+  | 'target';
 
 /**
  * Biểu tượng nét mảnh, vẽ bằng SVG nội tuyến — lấy nguyên từ minano_nihongo.
@@ -17,9 +20,9 @@ export type IconName =
  * rỗng trên nhiều máy Windows, mà đó lại là dấu hiệu duy nhất của đèn đêm khi nút thu
  * gọn nhãn — và đổi `<html lang>` là trình duyệt chọn font khác, nút nhảy kích thước.
  *
- * Chỉ có vài hình cho ba nút trên thanh trên cùng. Mục menu thì dùng chữ Hán của
- * từng phần học (xem `icon` trong course.config.ts): chữ vuông của font Nhật vẽ ổn
- * định, và là cùng chữ trên thẻ ở trang chủ.
+ * Chỉ có vài hình cho các nút trên thanh trên cùng và khối chuỗi ngày học. Mục menu
+ * thì dùng chữ Hán của từng phần học (xem `icon` trong course.config.ts): chữ vuông
+ * của font Nhật vẽ ổn định, và là cùng chữ trên thẻ ở trang chủ.
  *
  * Màu lấy `currentColor`, cỡ lấy theo `font-size` của chỗ đặt (1.25em), nên nơi gọi
  * chỉnh bằng CSS như chỉnh chữ.
@@ -72,6 +75,25 @@ export type IconName =
           <path d="M3.5 9.5h3.2L11.5 5.5v13L6.7 14.5H3.5z" />
           <path d="m15.5 10 5 4" />
           <path d="m20.5 10-5 4" />
+        }
+        @case ('flame') {
+          <path
+            d="M12 21.5c-4 0-7-2.7-7-6.6 0-3.3 2.2-5.4 3.6-7.2.3 1.6 1 2.8 2.2 3.6-.2-3.4 1.2-6.5 3.9-8.8.2 3 1.6 4.8 3 6.6 1.3 1.6 2.3 3.3 2.3 5.6 0 4-3 6.8-8 6.8z"
+          />
+          <path
+            d="M12 21.5c-1.9 0-3.3-1.3-3.3-3.1 0-1.7 1.3-2.8 2.3-4 .4 1 1 1.6 1.8 2 .2-1 .8-1.9 1.6-2.5.6 1.4 1 2.4 1 3.4 0 2.4-1.6 4.2-3.4 4.2z"
+          />
+        }
+        @case ('calendar') {
+          <rect x="3.5" y="5" width="17" height="15.5" rx="2" />
+          <path d="M3.5 10h17" />
+          <path d="M8 3v4M16 3v4" />
+          <path d="m9 15 2 2 4-4" />
+        }
+        @case ('target') {
+          <circle cx="12" cy="12" r="9" />
+          <circle cx="12" cy="12" r="5" />
+          <circle cx="12" cy="12" r="1" />
         }
       }
     </svg>

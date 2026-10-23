@@ -10,6 +10,7 @@ import { ProgressStore } from '../../core/services/progress-store';
 import { loadUnit } from '../../core/services/unit-loader';
 import { PracticeSetup } from '../shared/practice-setup/practice-setup';
 import { TestStart } from '../shared/test-start/test-start';
+import { UnitPager } from '../shared/unit-pager/unit-pager';
 
 /**
  * Một bài kanji: mỗi chữ là một thẻ riêng chứ không phải một dòng bảng.
@@ -24,7 +25,7 @@ import { TestStart } from '../shared/test-start/test-start';
  */
 @Component({
   selector: 'app-kanji-detail',
-  imports: [RouterLink, T, PracticeSetup, TestStart],
+  imports: [RouterLink, T, PracticeSetup, TestStart, UnitPager],
   templateUrl: './kanji-detail.html',
   styleUrl: './kanji-detail.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

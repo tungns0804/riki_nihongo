@@ -40,30 +40,6 @@
       </div>
     }
 
-    <div class="field">
-      <span class="label">{{ t('practice.mode') }}</span>
-      <div class="options">
-        <button
-          type="button"
-          class="option"
-          [class.is-active]="answerMode() === 'choice'"
-          [attr.aria-pressed]="answerMode() === 'choice'"
-          (click)="setMode('choice')"
-        >
-          <app-t key="practice.mode.choice" />
-        </button>
-        <button
-          type="button"
-          class="option"
-          [class.is-active]="answerMode() === 'typing'"
-          [attr.aria-pressed]="answerMode() === 'typing'"
-          (click)="setMode('typing')"
-        >
-          <app-t key="practice.mode.typing" />
-        </button>
-      </div>
-    </div>
-
     @if (directions().length > 1) {
       <div class="field">
         <span class="label">{{ t('practice.direction') }}</span>
@@ -120,27 +96,64 @@
       </div>
     }
 
-    <div class="field">
-      <span class="label">{{ t('practice.count') }}</span>
-      <div class="options">
-        @for (value of limits; track value) {
-          <button
-            type="button"
-            class="option tnum"
-            [class.is-active]="limit() === value"
-            [attr.aria-pressed]="limit() === value"
-            [disabled]="value !== null && value > available()"
-            (click)="setLimit(value)"
-          >
-            @if (value === null) {
-              {{ t('common.all') }}
-            } @else {
-              {{ value }}
+    <!-- Các lựa chọn chỉnh CÁCH luyện (kiểu trả lời, số câu) gập vào "Tuỳ chỉnh thêm",
+         mặc định đóng và nhớ chung cho mọi bài (SetupMorePreference) — chép theo
+         minano_nihongo. Người chỉ muốn bấm Bắt đầu không phải lướt qua chúng; giá trị
+         đang chọn vẫn đọc được ở dòng tóm tắt cạnh nút Bắt đầu. Bên trong là một .setup
+         nữa nên các nhóm giữ đúng bố cục nhãn-trái / nút-phải. -->
+    <details class="setup-more" [open]="more.open()" (toggle)="onMoreToggle($event)">
+      <summary class="setup-more-toggle">
+        <span>{{ t('practice.more') }}</span>
+        <span class="setup-more-hint">{{ t('practice.moreHint') }}</span>
+      </summary>
+      <div class="stack setup setup-more-body">
+        <div class="field">
+          <span class="label">{{ t('practice.mode') }}</span>
+          <div class="options">
+            <button
+              type="button"
+              class="option"
+              [class.is-active]="answerMode() === 'choice'"
+              [attr.aria-pressed]="answerMode() === 'choice'"
+              (click)="setMode('choice')"
+            >
+              <app-t key="practice.mode.choice" />
+            </button>
+            <button
+              type="button"
+              class="option"
+              [class.is-active]="answerMode() === 'typing'"
+              [attr.aria-pressed]="answerMode() === 'typing'"
+              (click)="setMode('typing')"
+            >
+              <app-t key="practice.mode.typing" />
+            </button>
+          </div>
+        </div>
+
+        <div class="field">
+          <span class="label">{{ t('practice.count') }}</span>
+          <div class="options">
+            @for (value of limits; track value) {
+              <button
+                type="button"
+                class="option tnum"
+                [class.is-active]="limit() === value"
+                [attr.aria-pressed]="limit() === value"
+                [disabled]="value !== null && value > available()"
+                (click)="setLimit(value)"
+              >
+                @if (value === null) {
+                  {{ t('common.all') }}
+                } @else {
+                  {{ value }}
+                }
+              </button>
             }
-          </button>
-        }
+          </div>
+        </div>
       </div>
-    </div>
+    </details>
 
     <div class="row">
       <button
@@ -151,7 +164,10 @@
       >
         {{ t('practice.start') }}
       </button>
-      <span class="badge">{{ t('test.questionCount', { count: available() }) }}</span>
+      <span class="badge">{{ t('test.questionCount', { count: plannedCount() }) }}</span>
+      <span class="badge">
+        <app-t [key]="answerMode() === 'choice' ? 'practice.mode.choice' : 'practice.mode.typing'" />
+      </span>
     </div>
 
     @if (available() === 0) {

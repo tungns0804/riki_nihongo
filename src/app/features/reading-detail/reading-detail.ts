@@ -7,6 +7,7 @@ import { T } from '../../core/i18n/t';
 import type { ModuleId } from '../../core/models/content.model';
 import { loadUnit } from '../../core/services/unit-loader';
 import { QuizBlock } from '../shared/quiz-block/quiz-block';
+import { UnitPager } from '../shared/unit-pager/unit-pager';
 
 /**
  * Một bài đọc hiểu: bài đọc, câu hỏi trả lời tại chỗ, từ vựng của bài.
@@ -17,7 +18,7 @@ import { QuizBlock } from '../shared/quiz-block/quiz-block';
  */
 @Component({
   selector: 'app-reading-detail',
-  imports: [RouterLink, T, QuizBlock],
+  imports: [RouterLink, T, QuizBlock, UnitPager],
   templateUrl: './reading-detail.html',
   styleUrl: './reading-detail.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

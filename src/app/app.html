@@ -9,8 +9,8 @@
   <app-t key="app.skipToContent" />
 </button>
 
-<!-- Thanh bên: menu chính trên màn hình từ 768px trở lên. Điện thoại dùng dải
-     .tab-strip trong header thay cho nó. -->
+<!-- Thanh bên: menu chính trên màn hình từ 768px trở lên. Điện thoại dùng thanh
+     menu đáy (.bottom-nav) thay cho nó. -->
 <aside class="app-sidebar">
   <a routerLink="/" class="brand" [title]="t('app.title')">
     <span class="brand-mark jp" aria-hidden="true">力</span>
@@ -62,6 +62,19 @@
       </nav>
 
       <div class="app-actions">
+        <!-- Chuỗi ngày học: luôn trong tầm mắt, bấm vào là về khối "Hôm nay" ở trang
+             gốc. Sáng màu lửa khi hôm nay đã đạt mục tiêu, nhạt khi còn phải học. -->
+        <a
+          routerLink="/"
+          class="icon-btn streak-chip"
+          [attr.data-state]="activity.streak().state"
+          [title]="streakChipLabel()"
+          [attr.aria-label]="streakChipLabel()"
+        >
+          <app-icon name="flame" />
+          <span class="tnum">{{ activity.streak().current }}</span>
+        </a>
+
         <button
           type="button"
           class="icon-btn"
@@ -102,10 +115,6 @@
         </button>
       </div>
     </div>
-
-    <nav class="tab-strip" #tabStrip [attr.aria-label]="t('app.nav')">
-      <ng-container [ngTemplateOutlet]="navLinks" />
-    </nav>
   </header>
 
   <!-- Thanh tiến trình chuyển trang. Luôn nằm trong DOM và chỉ đổi độ mờ, cùng lý do
@@ -125,10 +134,24 @@
     <span class="route-progress-bar" aria-hidden="true"></span>
   </div>
 
-  <main id="main-content" tabindex="-1">
+  <main id="main-content" tabindex="-1" [class.has-bottom-nav]="showBottomNav()">
     <router-outlet />
   </main>
 </div>
+
+<!-- Menu đáy của điện thoại: các phần học của học phần đang mở, luôn trong tầm ngón
+     cái. Không có ở trang gốc (chính trang đó là danh sách học phần) và ẩn ở màn hình
+     luyện tập, làm đề, kết quả — để người học tập trung, và bàn phím ảo không đẩy nó lên
+     che câu hỏi. -->
+@if (showBottomNav()) {
+  <nav
+    class="bottom-nav"
+    [style.--nav-count]="navItems().length"
+    [attr.aria-label]="t('app.nav')"
+  >
+    <ng-container [ngTemplateOutlet]="navLinks" />
+  </nav>
+}
 
 <!-- Nút quay lên đầu trang. Luôn nằm trong DOM, chỉ mờ đi và không nhận chuột khi
      chưa cuộn đủ xa — bật/tắt bằng @if thì nó bụp một cái, không có gì để chuyển. -->
@@ -145,8 +168,8 @@
   <span aria-hidden="true">↑</span>
 </button>
 
-<!-- Một bộ mục menu cho cả thanh bên lẫn dải trên điện thoại: hai nơi chỉ khác nhau ở
-     CSS. Nơi nào không hợp khổ màn hình thì display: none, nên trình đọc màn hình luôn
+<!-- Một bộ mục menu cho cả thanh bên lẫn thanh đáy của điện thoại: hai nơi chỉ khác
+     nhau ở CSS. Nơi nào không hợp khổ màn hình thì display: none, nên trình đọc màn hình luôn
      chỉ gặp đúng một menu.
 
      Nhãn là tên NGẮN của phần học; tên đầy đủ nằm ở `title` (hiện khi rê chuột, và là

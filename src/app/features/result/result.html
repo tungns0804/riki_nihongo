@@ -44,6 +44,16 @@
         </div>
       </section>
 
+      <!-- Chuỗi ngày học: phiên này đã đưa mục tiêu hôm nay tới đâu. Bấm vào là về khối
+           "Hôm nay" ở trang gốc. -->
+      <a class="streak-banner" routerLink="/" [attr.data-state]="streakTone()">
+        <span class="streak-banner-icon" aria-hidden="true"><app-icon name="flame" /></span>
+        <span class="streak-banner-text">{{ streakMessage() }}</span>
+        <span class="streak-banner-bar" aria-hidden="true">
+          <span [style.width.%]="activity.goalPercent()"></span>
+        </span>
+      </a>
+
       <section class="stack">
         <div class="section-head">
           <h2>{{ t('result.review') }}</h2>

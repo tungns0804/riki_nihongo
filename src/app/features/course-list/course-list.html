@@ -1,39 +1,48 @@
 <div class="container page">
   <div class="stack stack-xl">
     <section class="page-head">
-      <h1>{{ t('course.list.title') }}</h1>
-      <p>{{ t('course.list.subtitle') }}</p>
+      <h1>{{ t('today.title') }}</h1>
+      <p>{{ t('today.subtitle') }}</p>
     </section>
 
-    <div class="card-grid">
-      @for (course of courses; track course.id) {
-        @if (course.status === 'active') {
-          <a class="card link-card" [routerLink]="['/', course.id]">
-            <span class="card-title">
-              <span class="card-icon jp" aria-hidden="true">{{ course.icon }}</span>
-              <app-t [key]="course.nameKey" />
-            </span>
-            <p class="muted small course-desc"><app-t [key]="course.descKey" block /></p>
-            <div class="card-foot">
-              <span class="badge badge-accent">{{ t('course.open') }}</span>
-              <span class="spacer"></span>
-              <span class="card-go" aria-hidden="true">→</span>
+    <!-- Hôm nay: chuỗi ngày học, mục tiêu số câu và các bài đang học dở. -->
+    <app-today-panel />
+
+    <section class="stack">
+      <div class="stack stack-sm">
+        <h2>{{ t('course.list.title') }}</h2>
+        <p class="muted">{{ t('course.list.subtitle') }}</p>
+      </div>
+      <div class="card-grid">
+        @for (course of courses; track course.id) {
+          @if (course.status === 'active') {
+            <a class="card link-card" [routerLink]="['/', course.id]">
+              <span class="card-title">
+                <span class="card-icon jp" aria-hidden="true">{{ course.icon }}</span>
+                <app-t [key]="course.nameKey" />
+              </span>
+              <p class="muted small course-desc"><app-t [key]="course.descKey" block /></p>
+              <div class="card-foot">
+                <span class="badge badge-accent">{{ t('course.open') }}</span>
+                <span class="spacer"></span>
+                <span class="card-go" aria-hidden="true">→</span>
+              </div>
+            </a>
+          } @else {
+            <!-- Không phải liên kết: chưa có trang nào để dẫn tới. -->
+            <div class="card link-card is-empty" aria-disabled="true">
+              <span class="card-title">
+                <span class="card-icon jp" aria-hidden="true">{{ course.icon }}</span>
+                <app-t [key]="course.nameKey" />
+              </span>
+              <p class="muted small course-desc"><app-t [key]="course.descKey" block /></p>
+              <div class="card-foot">
+                <span class="badge">{{ t('course.soon') }}</span>
+              </div>
             </div>
-          </a>
-        } @else {
-          <!-- Không phải liên kết: chưa có trang nào để dẫn tới. -->
-          <div class="card link-card is-empty" aria-disabled="true">
-            <span class="card-title">
-              <span class="card-icon jp" aria-hidden="true">{{ course.icon }}</span>
-              <app-t [key]="course.nameKey" />
-            </span>
-            <p class="muted small course-desc"><app-t [key]="course.descKey" block /></p>
-            <div class="card-foot">
-              <span class="badge">{{ t('course.soon') }}</span>
-            </div>
-          </div>
+          }
         }
-      }
-    </div>
+      </div>
+    </section>
   </div>
 </div>

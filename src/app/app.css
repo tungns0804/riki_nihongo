@@ -311,8 +311,29 @@ main:focus-visible {
   text-align: center;
 }
 
-/* Dải menu của điện thoại; ẩn ở mọi khổ khác. */
-.tab-strip {
+/* Chip 🔥 chuỗi ngày học: nhạt khi chưa có chuỗi, màu lửa khi chuỗi đang sống, nền ấm
+   khi hôm nay đã đạt mục tiêu. */
+a.icon-btn.streak-chip {
+  gap: 4px;
+  color: var(--text-faint);
+}
+
+a.icon-btn.streak-chip:hover {
+  text-decoration: none;
+}
+
+a.icon-btn.streak-chip[data-state='at-risk'] {
+  color: var(--star);
+}
+
+a.icon-btn.streak-chip[data-state='done'] {
+  border-color: color-mix(in srgb, var(--star) 55%, var(--border));
+  background: color-mix(in srgb, var(--star) 14%, var(--bg-elevated));
+  color: var(--star);
+}
+
+/* Thanh menu đáy của điện thoại; ẩn ở mọi khổ khác. */
+.bottom-nav {
   display: none;
 }
 
@@ -429,10 +450,10 @@ main:focus-visible {
   color: var(--accent);
 }
 
-/* --- 768–1479px: thanh bên chỉ còn biểu tượng -------------------------------
-   Nhãn và tên ứng dụng ẩn bằng cách cắt khung chứ không display: none: chúng vẫn
-   là tên đọc được của liên kết cho trình đọc màn hình, và `title` hiện tên đầy đủ
-   khi rê chuột. Breadcrumb trên thanh trên cùng cho biết đang ở phần nào. */
+/* --- 768–1479px: thanh bên hẹp, biểu tượng với nhãn nhỏ bên dưới ------------
+   Tên ứng dụng ẩn bằng cách cắt khung chứ không display: none: nó vẫn là tên đọc
+   được của liên kết cho trình đọc màn hình. Nhãn NGẮN của phần học thì vẫn hiện, cỡ
+   nhỏ dưới chữ Hán — biểu tượng trơ phải rê chuột mới biết là phần nào. */
 @media (max-width: 1479px) {
   :host {
     --sidebar-w: 76px;
@@ -447,8 +468,7 @@ main:focus-visible {
     padding: 0;
   }
 
-  .app-sidebar .brand-text,
-  .side-nav .nav-label {
+  .app-sidebar .brand-text {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -459,13 +479,19 @@ main:focus-visible {
 
   .side-nav {
     align-items: center;
+    gap: 4px;
   }
 
   .side-nav .nav-link {
+    flex-direction: column;
     justify-content: center;
-    width: 48px;
-    height: 44px;
-    padding: 0;
+    gap: 3px;
+    width: 64px;
+    padding: 8px 0 7px;
+    font-size: 0.68rem;
+    line-height: 1.2;
+    text-align: center;
+    white-space: normal;
   }
 
   .side-nav .nav-glyph {
@@ -480,7 +506,7 @@ main:focus-visible {
   }
 
   /* Breadcrumb chỉ giữ lại nút chọn học phần: đường dẫn đầy đủ không vừa một hàng cạnh
-     logo và hai nút, mà dải menu bên dưới đã cho biết đang ở phần nào. Học phần thì
+     logo và các nút, mà thanh menu đáy đã cho biết đang ở phần nào. Học phần thì
      không nơi nào khác trên điện thoại cho thấy. */
   .app-sidebar,
   .crumb-home,
@@ -505,37 +531,54 @@ main:focus-visible {
     font-size: 1.05rem;
   }
 
-  /* Cuộn ngang TRONG dải chứ không xuống hàng: một hàng chip luôn cao 44px, còn
-     lưới bốn cột trước đây xếp bảy mục thành hai ba hàng — mà header thì dính trên
-     đỉnh suốt lúc đọc. `position: relative` để offsetLeft của từng mục tính theo dải
-     (xem App.revealActiveTab). */
-  .tab-strip {
-    position: relative;
-    display: flex;
-    gap: 6px;
-    padding: 0 max(14px, env(safe-area-inset-right)) 10px max(14px, env(safe-area-inset-left));
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    scrollbar-width: none;
+  /* Các phần học của học phần ở đáy màn hình, trong tầm ngón cái. Trước đây là dải chip
+     cuộn ngang dưới thanh trên: mục đang mở hay nằm khuất ngoài mép (Mimikara là mục
+     thứ bảy), và header dính cao thêm 44px suốt lúc đọc. Số cột theo số phần học của
+     học phần (--nav-count, đặt trong app.html). */
+  .bottom-nav {
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 30;
+    display: grid;
+    grid-template-columns: repeat(var(--nav-count, 5), minmax(0, 1fr));
+    padding: 4px max(4px, env(safe-area-inset-right)) max(4px, env(safe-area-inset-bottom))
+      max(4px, env(safe-area-inset-left));
+    background: color-mix(in srgb, var(--bg-elevated) 92%, transparent);
+    backdrop-filter: blur(12px) saturate(1.4);
+    border-top: 1px solid var(--border);
   }
 
-  .tab-strip::-webkit-scrollbar {
-    display: none;
+  .bottom-nav .nav-link {
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    min-width: 0;
+    min-height: 52px;
+    padding: 6px 1px;
+    border-radius: var(--radius-sm);
+    font-size: 0.66rem;
+    line-height: 1.15;
+    text-align: center;
+    white-space: normal;
   }
 
-  .tab-strip .nav-link {
-    flex-shrink: 0;
-    gap: 6px;
-    padding: 6px 12px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius-pill);
-    background: var(--bg-elevated);
-    font-size: var(--fs-xs);
+  .bottom-nav .nav-glyph {
+    font-size: 1.15rem;
   }
 
-  .tab-strip .nav-link.is-active {
-    border-color: color-mix(in srgb, var(--brand) 40%, var(--border));
+  .bottom-nav .nav-link.is-active {
+    background: transparent;
+  }
+
+  .bottom-nav .nav-link.is-active .nav-glyph {
+    border-radius: 6px;
     background: var(--brand-soft);
+    box-shadow: 0 0 0 4px var(--brand-soft);
+  }
+
+  /* Chừa chỗ cho thanh đáy để dòng cuối của trang không nằm dưới nó. */
+  main.has-bottom-nav {
+    padding-bottom: calc(60px + env(safe-area-inset-bottom));
   }
 
   /* Nút lên đầu trang lùi vào sát góc hơn, nhường chỗ cho nội dung. */
@@ -544,6 +587,11 @@ main:focus-visible {
     bottom: max(var(--sp-3), env(safe-area-inset-bottom));
     width: 42px;
     height: 42px;
+  }
+
+  /* Có thanh đáy thì nút nằm ngay trên nó. */
+  .bottom-nav ~ .to-top {
+    bottom: calc(68px + env(safe-area-inset-bottom));
   }
 }
 
@@ -558,5 +606,18 @@ main:focus-visible {
 
   .icon-btn {
     padding-inline: 10px;
+  }
+}
+
+/* Điện thoại khổ 360–400px: thêm chip 🔥 thì hàng trên chật — thu khoảng cách và lề nút
+   thay vì để nút chọn học phần bị ép hay cả hàng tràn ngang. */
+@media (max-width: 400px) {
+  .topbar,
+  .app-actions {
+    gap: 6px;
+  }
+
+  .icon-btn {
+    padding-inline: 8px;
   }
 }

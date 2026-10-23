@@ -1,5 +1,6 @@
-import { Injectable, computed, signal } from '@angular/core';
+import { Injectable, computed, inject, signal } from '@angular/core';
 
+import { ActivityStore } from '../activity/activity-store';
 import {
   AnswerRecord,
   PracticeConfig,
@@ -26,6 +27,9 @@ import { isAnswerCorrect, isSentenceCorrect } from '../utils/answer-check';
  */
 @Injectable()
 export class PracticeSessionStore {
+  /** Số câu đã làm hôm nay — chuỗi ngày học (core/activity). */
+  private readonly activity = inject(ActivityStore);
+
   private readonly configRef = signal<PracticeConfig | null>(null);
   private readonly questionsRef = signal<PracticeQuestion[]>([]);
   private readonly resultsRef = signal<QuestionResult[]>([]);
@@ -83,6 +87,8 @@ export class PracticeSessionStore {
       ...results,
       { question, main, followUp, isCorrect: main.isCorrect && followUp === null },
     ]);
+    // Câu có câu ví dụ đi kèm thì chưa xong: đếm lúc chấm nốt phần đó.
+    if (!followUp) this.activity.recordAnswer(main.isCorrect);
     return main.isCorrect;
   }
 
@@ -122,6 +128,7 @@ export class PracticeSessionStore {
       ...results.slice(0, -1),
       { ...last, followUp, isCorrect: last.main.isCorrect && followUp.isCorrect },
     ]);
+    this.activity.recordAnswer(last.main.isCorrect && followUp.isCorrect);
     return followUp.isCorrect;
   }
 
@@ -142,13 +149,17 @@ export class PracticeSessionStore {
     const questions = this.questionsRef();
     if (questions.length === 0) return null;
 
-    this.resultsRef.set(
-      questions.map((question): QuestionResult => {
-        const given = givenById.get(question.id) ?? '';
-        const isCorrect = given.length > 0 && grade(question, given);
-        return { question, main: { given, isCorrect }, followUp: null, isCorrect };
-      }),
-    );
+    const results = questions.map((question): QuestionResult => {
+      const given = givenById.get(question.id) ?? '';
+      const isCorrect = given.length > 0 && grade(question, given);
+      return { question, main: { given, isCorrect }, followUp: null, isCorrect };
+    });
+    this.resultsRef.set(results);
+
+    // Chuỗi ngày học chỉ đếm câu đã chọn đáp án: nộp một đề bỏ trống không phải là học.
+    for (const result of results) {
+      if (result.main.given) this.activity.recordAnswer(result.isCorrect);
+    }
 
     return this.finish();
   }
