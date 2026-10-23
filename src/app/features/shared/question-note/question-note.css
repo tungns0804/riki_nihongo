@@ -35,14 +35,25 @@
 
 /* Ô viết rộng và cao sẵn tám dòng: ghi chú ngữ pháp thường dài, mà ô thấp thì vừa gõ
    vừa phải cuộn trong ô. Vẫn kéo cao thêm được. Font chữ Nhật (có đủ dấu tiếng Việt)
-   vì ghi chú trộn cả hai thứ tiếng. */
+   vì ghi chú trộn cả hai thứ tiếng.
+
+   Cỡ chữ nhỏ hơn chữ của đề (--fs-sm): ghi chú là chữ phụ của người học, cỡ 1rem với
+   font Nhật trông to và nặng hơn cả câu hỏi phía trên. */
 .note-input {
   width: 100%;
-  min-height: 11rem;
+  min-height: 10rem;
   resize: vertical;
   font-family: var(--font-jp);
-  font-size: var(--fs-md);
-  line-height: 1.7;
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+}
+
+/* Điện thoại cảm ứng: Safari trên iPhone tự phóng to cả trang khi chạm vào ô nhập có
+   chữ dưới 16px, nên ở đó giữ đúng 16px. */
+@media (pointer: coarse) {
+  .note-input {
+    font-size: 16px;
+  }
 }
 
 .note-status {
