@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-23T03:09:00.856Z",
+  "generatedAt": "2026-10-27T05:12:13.889Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -225,6 +225,31 @@
             {
               "label": "500–510",
               "title": "Bài 26.2 · Ướt; lạc, trăn trở, hoảng; tỉnh, ngủ; cầu, mừng, cảm thấy"
+            }
+          ]
+        },
+        {
+          "id": "08-tinh-tu-2",
+          "name": "Tính từ 2",
+          "description": "Tính từ N3準備 文字語彙 — 第29課 (551–570)",
+          "kind": "vocabulary",
+          "parent": "",
+          "group": "",
+          "itemCount": 20,
+          "order": 8,
+          "file": "vocabulary/08-tinh-tu-2.json",
+          "groups": [
+            {
+              "label": "551–558",
+              "title": "Bài 29.1 · Vị và mùi; lạ, ngầu, giỏi và thân thiết"
+            },
+            {
+              "label": "559–563",
+              "title": "Bài 29.2 · Chi tiết, nông sâu, cứng và nguội"
+            },
+            {
+              "label": "564–570",
+              "title": "Bài 29.3 · Chói, oi bức, sạch, tươi, phong phú và chính xác"
             }
           ]
         },

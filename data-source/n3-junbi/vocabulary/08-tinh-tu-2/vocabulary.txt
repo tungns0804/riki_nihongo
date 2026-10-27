@@ -1,0 +1,234 @@
+# N3 JUNBI — 文字語彙 · TÍNH TỪ 2 (551–570)
+# Nguồn: 第29課 của tài liệu N3準備 文字語彙 (PDF người dùng gửi 2026-10-27)
+# Định dạng: xem data-source/n3-junbi/vocabulary/README.md — giống bài "Tính từ":
+# chữ in đỏ gạch chân trong câu viết trong [ ], mặt chữ và cách đọc giữ đuôi な.
+#
+# Bản dịch, dòng 読 và dòng 文法 là phần viết thêm, không có trong bản PDF.
+
+# ── 第29課：551〜570 ────────────────────────────────────────────
+
+# nguồn: bai-292-tu-vung-cai-thien-559-563.pdf (bản PDF này in trọn 第29課: 551–570;
+# chỉ tên file cho biết buổi 29.2 là 559–563, nên 551–558 là buổi 29.1 và 564–570
+# xếp vào buổi 29.3)
+## 551–558 = Bài 29.1 · Vị và mùi; lạ, ngầu, giỏi và thân thiết
+551. 濃い (こい) = NỒNG ; Nồng/ Đậm/ Rậm
+・（色／味／コーヒー／お茶／化粧／ひげ…）が[濃い]。| (Màu / vị / cà phê / trà / lớp trang điểm / râu…) đậm, rậm.
+読: （いろ／あじ／コーヒー／おちゃ／けしょう／ひげ…）がこい。
+対: 薄い (うすい) (552)
+名: 濃さ (こさ) = Độ đậm
+
+552. 薄い (うすい) = BẠC ; Mỏng
+・[薄く]切った肉 ＞＜ 厚く切った肉 | Thịt thái mỏng ＞＜ thịt thái dày
+読: うすくきったにく ＞＜ あつくきったにく
+文法: い-tính từ bỏ い ＋く＋V = làm một cách ~ (薄い → 薄く切る); V た＋N = N đã được ~
+
+553. 酸っぱい (すっぱい) = TOAN ; Chua
+・このみかん、[すっぱい]！！！ | Quả quýt này chua quá!!!
+読: このみかん、すっぱい！！！
+合: 甘酸っぱい (あまずっぱい) = Buồn vui lẫn lộn
+・初恋を思い出して、[甘酸っぱい]気持ちになる。| Nhớ lại mối tình đầu, lòng thấy buồn vui lẫn lộn.
+読: はつこいをおもいだして、あまずっぱいきもちになる。
+文法: ～て = vì ~ nên (nối nguyên nhân); い-tính từ ＋気持ちになる = trong lòng thấy ~
+
+554. 臭い (くさい) = XÚ ; Hôi, thối/ Tanh
+# 意味① Hôi, thối: câu đầu. 意味② Tanh: câu thứ hai.
+・食べた後、口が[くさく]なるから嫌いだという人も多い。| Cũng nhiều người bảo ghét (món đó) vì ăn xong miệng bị hôi.
+読: たべたあと、くちがくさくなるからきらいだというひともおおい。
+文法: V た後 = sau khi ~; い-tính từ bỏ い ＋くなる = trở nên ~; ～という人 = người nói rằng ~
+・魚を焼いたので台所が[くさく]なった。| Vì nướng cá nên nhà bếp bị tanh.
+読: さかなをやいたのでだいどころがくさくなった。
+文法: ～ので = vì ~
+合: N ＋臭い = Nồng nặc mùi ~
+・ガス[くさい]ですね。| Nồng nặc mùi ga nhỉ.
+読: ガスくさいですね。
+・風呂場がかび[くさい]。| Phòng tắm nồng nặc mùi mốc.
+読: ふろばがかびくさい。
+使い分け: 臭い (くさい) = chỉ dùng khi mùi khó chịu (悪い時だけ)
+使い分け: 匂い (におい) = dùng cho cả mùi thơm lẫn mùi khó chịu (いい○、悪い○)
+
+555. おかしい = Lạ, buồn cười/ Lạ, không bình thường/ Lạ, không hợp lý
+# 意味① Buồn cười: câu đầu và dòng 類. 意味② Không bình thường: câu thứ hai. 意味③ Không hợp lý: câu cuối.
+・山本君は、いつも[おかしい]・おもしろいことを言って、みんなを笑わせている。| Cậu Yamamoto lúc nào cũng nói chuyện buồn cười, thú vị, làm mọi người cười.
+読: やまもとくんは、いつもおかしい・おもしろいことをいって、みんなをわらわせている。
+文法: V させる = làm cho ai ~ (笑う → 笑わせる: chọc cười)
+類: おもしろい
+・彼氏の様子が[おかしい]。| Bạn trai tôi có vẻ lạ lạ.
+読: かれしのようすがおかしい。
+・A：「うちの会社、子どもができたら、やめなきゃいけないんだよね。」B：「そんなの[おかしい]よ。」| A: "Công ty tôi hễ có con là phải nghỉ việc đấy." B: "Thế thì vô lý quá."
+読: A：「うちのかいしゃ、こどもができたら、やめなきゃいけないんだよね。」B：「そんなのおかしいよ。」
+文法: ～たら = hễ / khi ~; ～なきゃいけない = ～なければいけない (phải ~), văn nói
+
+556. かっこいい = Đẹp trai/ Ngầu/ Phong cách/ Bảnh
+・山田先輩は、[かっこいい]から学年で1番人気がある。| Anh khoá trên Yamada đẹp trai nên được yêu thích nhất khối.
+読: やまだせんぱいは、かっこいいからがくねんでいちばんにんきがある。
+対: かっこ悪い (かっこわるい)
+・何歳になっても夢を追いかけるのは、[かっこいい]生き方だと思う。| Dù bao nhiêu tuổi vẫn theo đuổi ước mơ — tôi nghĩ đó là một lối sống thật ngầu.
+読: なんさいになってもゆめをおいかけるのは、かっこいいいきかただとおもう。
+文法: ～ても = dù ~ cũng; V る＋のは = việc ~ thì
+
+557. うまい = Giỏi/ Ngon/ Thuận lợi, suôn sẻ
+# 意味① Giỏi: hai câu đầu. 意味② Ngon: câu thứ ba và dòng 類. 意味③ Suôn sẻ: dòng 連 và câu cuối.
+・母は料理が[うまい]。| Mẹ tôi nấu ăn giỏi.
+読: はははりょうりがうまい。
+文法: 人は～がうまい = ai đó giỏi ~, như ～が上手だ
+・この前のスピーチコンテストで、とても[うまく]話せた。| Ở cuộc thi hùng biện hôm trước, tôi đã nói rất tốt.
+読: このまえのスピーチコンテストで、とてもうまくはなせた。
+文法: い-tính từ bỏ い ＋く＋V = ~ một cách…; 話せた = đã nói được (thể khả năng)
+・仕事終わりに飲むビールは何よりも[うまい]。| Bia uống sau giờ làm thì ngon hơn bất cứ thứ gì.
+読: しごとおわりにのむビールはなによりもうまい。
+文法: 何よりも = hơn bất cứ thứ gì
+類: ≒ 美味しい (おいしい)
+連: うまくいく = Thuận lợi, suôn sẻ
+・「面接は[うまくいきました]か。」「うーん、まあまあでした。」| "Buổi phỏng vấn suôn sẻ chứ?" "Ừm, cũng tàm tạm."
+読: 「めんせつはうまくいきましたか。」「うーん、まあまあでした。」
+
+558. 親しい (したしい) = THÂN ; Thân thiết
+・母親同士が親友なので、家族みんなで[親しく]つき合っている。| Hai bà mẹ là bạn thân nên cả nhà chơi thân với nhau.
+読: ははおやどうしがしんゆうなので、かぞくみんなでしたしくつきあっている。
+文法: N 同士 = những N với nhau; い-tính từ bỏ い ＋く＋V = ~ một cách…
+類: ＝ 仲良く (なかよく)
+
+# nguồn: bai-292-tu-vung-cai-thien-559-563.pdf
+## 559–563 = Bài 29.2 · Chi tiết, nông sâu, cứng và nguội
+559. 詳しい (くわしい) = TƯỜNG ; Chi tiết/ Biết rõ, am hiểu về…
+# 意味① Chi tiết: câu đầu. 意味② Am hiểu: câu sau.
+・この地図はスーパーまでの道がとても[くわしく]書かれている。| Tấm bản đồ này vẽ đường đến siêu thị rất chi tiết.
+読: このちずはスーパーまでのみちがとてもくわしくかかれている。
+文法: 書かれている = được viết (bị động ＋ている: trạng thái)
+・姉はアイドルにとても[くわしい]です。| Chị tôi rất rành về thần tượng.
+読: あねはアイドルにとてもくわしいです。
+文法: N に詳しい = am hiểu về N — dùng に
+
+560. 細かい (こまかい) = TẾ ; Nhỏ, vụn/ Chi tiết
+# 意味① Nhỏ, vụn: hai câu đầu. 意味② Chi tiết: câu thứ ba. Dòng 合 là cách nói riêng.
+# Sách in 読みづら, thiếu い ở cuối; chép thành 読みづらい.
+・新聞の字は[細かくて]、お年よりには読みづらい。| Chữ trên báo nhỏ, người già đọc khó.
+読: しんぶんのじはこまかくて、おとしよりにはよみづらい。
+文法: い-tính từ bỏ い ＋くて = ~ nên (nối nguyên nhân); V ます bỏ ます＋づらい = khó ~
+・玉ねぎを[細かく]きざんだ。| Tôi đã băm nhỏ hành tây.
+読: たまねぎをこまかくきざんだ。
+・履歴書に学歴と職歴を[細かく]丁寧に書く。| Ghi quá trình học tập và làm việc vào sơ yếu lý lịch thật chi tiết, cẩn thận.
+読: りれきしょにがくれきとしょくれきをこまかくていねいにかく。
+合: 細かいお金 (こまかいおかね) = Tiền lẻ
+・A：130円です。B：[細かい]お金がないので、一万円でもいいですか？| A: 130 yên ạ. B: Tôi không có tiền lẻ, đưa tờ 1 man có được không?
+読: A：ひゃくさんじゅうえんです。B：こまかいおかねがないので、いちまんえんでもいいですか？
+文法: ～でもいいですか = ~ cũng được chứ?
+類: ＝ 小さい (ちいさい)・小銭 (こぜに)
+
+561. 浅い (あさい) = THIỂN ; Nông/ Nông, cạn, ít, hời hợt/ Nông, nhẹ/ Nông, (ngồi) ghé
+# 意味① Nông: câu đầu. 意味② Nông cạn, ít, hời hợt: câu thứ hai. 意味③ Nhẹ: câu thứ ba. 意味④ Ngồi ghé: câu cuối.
+・この川は[浅い]ので、子どもが泳いでも危なくない。| Con sông này nông nên trẻ con bơi cũng không nguy hiểm.
+読: このかわはあさいので、こどもがおよいでもあぶなくない。
+文法: ～ので = vì; V ても = dù ~ cũng
+・（眠り／経験／知識／考え／関係／つき合い…）が[浅い]。| (Giấc ngủ) chập chờn / (kinh nghiệm, kiến thức) ít / (suy nghĩ) nông cạn / (quan hệ, giao du) hời hợt…
+読: （ねむり／けいけん／ちしき／かんがえ／かんけい／つきあい…）があさい。
+対: 深い (ふかい)
+# Sách in "(内容変更)" trước câu này — ghi chú biên tập sót lại, không phải nội dung; bỏ đi.
+・転んだが、傷は[浅かった]。| Tôi bị ngã nhưng vết thương nhẹ.
+読: ころんだが、きずはあさかった。
+文法: ～が = nhưng
+・[浅く]座る ＞＜ 深く座る | Ngồi ghé (mép ghế) ＞＜ ngồi sâu (vào ghế)
+読: あさくすわる ＞＜ ふかくすわる
+
+562. 固い (かたい) = CỐ ; Cứng/ Chắc chắn, chặt/ Nghiêm ngặt, nghiêm khắc
+# Sách ghi mặt chữ かたい, chia hai cách viết: 【固い】 với ba nghĩa, và 【硬い】 ở dòng 硬い và hai câu cuối.
+# 意味① Cứng: câu đầu, dòng 対 và hai dòng 慣. 意味② Chắc chắn, chặt: ba câu tiếp theo. 意味③ Nghiêm ngặt: câu sau đó.
+・部長にもらったパンはとても[固かった]…。| Cái bánh mì trưởng phòng cho cứng quá…
+読: ぶちょうにもらったパンはとてもかたかった…。
+文法: 人にもらった N = N được ai đó cho
+対: 柔らかい (やわらかい)
+慣: 頭が固い (あたまがかたい) = Cứng đầu, bảo thủ
+・私は頭が[固い]から、いいアイデアがなかなか浮かばない。| Tôi đầu óc cứng nhắc nên mãi không nghĩ ra ý tưởng hay.
+読: わたしはあたまがかたいから、いいアイデアがなかなかうかばない。
+文法: なかなか～ない = mãi mà không ~
+慣: 口が固い (くちがかたい) = Biết giữ miệng ＞＜ 口が軽い (くちがかるい)
+・彼女は口が[固い]から信用できる。| Cô ấy kín miệng nên có thể tin được.
+読: かのじょはくちがかたいからしんようできる。
+・[固い]握手を交わした。| Hai bên đã bắt tay thật chặt.
+読: かたいあくしゅをかわした。
+・親友との[固い]約束。| Lời hứa chắc chắn với bạn thân.
+読: しんゆうとのかたいやくそく。
+・彼女を守ると[固く]決心した。| Tôi đã quyết tâm chắc chắn sẽ bảo vệ cô ấy.
+読: かのじょをまもるとかたくけっしんした。
+文法: ～と決心する = quyết tâm rằng ~
+・この部屋で火を使うことは[固く]禁止されている。| Việc dùng lửa trong phòng này bị cấm nghiêm ngặt.
+読: このへやでひをつかうことはかたくきんしされている。
+文法: V る＋こと = việc ~; 禁止されている = bị cấm (bị động ＋ている)
+硬い: 硬い (かたい) = NGẠNH ; Cứng/ Cứng nhắc
+・体が[硬い]。＞＜ 柔らかい | Người cứng (không dẻo). ＞＜ dẻo
+読: からだがかたい。＞＜ やわらかい
+・（表情／文章／内容…）が[硬い]。| (Nét mặt / câu văn / nội dung…) cứng nhắc.
+読: （ひょうじょう／ぶんしょう／ないよう…）がかたい。
+
+563. ぬるい = Nguội (không ngon)
+・[ぬるい]コーヒー／ビールはおいしくない。| Cà phê / bia nguội thì không ngon.
+読: ぬるいコーヒー／ビールはおいしくない。
+
+# nguồn: bai-292-tu-vung-cai-thien-559-563.pdf (cùng bản PDF trọn 第29課)
+## 564–570 = Bài 29.3 · Chói, oi bức, sạch, tươi, phong phú và chính xác
+564. まぶしい = Chói/ Rạng ngời
+# 意味① Chói: hai câu đầu. 意味② Rạng ngời: câu cuối.
+・カーテンを開けたら、太陽が[まぶしかった]。| Mở rèm ra thì nắng chói chang.
+読: カーテンをあけたら、たいようがまぶしかった。
+文法: V たら～た = vừa ~ thì (thấy)
+・電気がついたので[まぶしかった]。| Đèn bật lên nên chói mắt.
+読: でんきがついたのでまぶしかった。
+・彼女は[まぶしい]ほどの笑顔だった。| Cô ấy cười rạng rỡ đến loá mắt.
+読: かのじょはまぶしいほどのえがおだった。
+文法: ～ほどの N = N đến mức ~
+
+565. 蒸し暑い (むしあつい) = CHƯNG THỬ ; Nóng nực, oi bức
+・日本の夏は、[蒸し暑い]。| Mùa hè Nhật Bản oi bức.
+読: にほんのなつは、むしあつい。
+
+566. 清潔な (せいけつな) = THANH KHIẾT ; Sạch sẽ
+・トイレはいつも[清潔に]しておきたい。| Tôi muốn lúc nào nhà vệ sinh cũng sạch sẽ.
+読: トイレはいつもせいけつにしておきたい。
+文法: な-tính từ ＋にする = làm cho ~; ～ておく = giữ sẵn trạng thái; ～たい = muốn
+合: 清潔感 (せいけつかん) = Vẻ sạch sẽ, tươm tất
+・[清潔感]がある人はモテる ＞＜ 清潔感がない人（≒ 不潔な人）| Người trông sạch sẽ, tươm tất thì được yêu thích ＞＜ người trông không sạch sẽ (≒ người bẩn thỉu)
+読: せいけつかんがあるひとはモテる ＞＜ せいけつかんがないひと（≒ ふけつなひと）
+文法: モテる = được (người khác giới) thích, đắt khách
+
+567. 新鮮な (しんせんな) = TÂN TIÊN ; Tươi, sống (đồ ăn)/ Tươi mới (không khí)/ Tươi mới (tâm trạng)
+# 意味① Đồ ăn: hai câu đầu. 意味② Không khí: câu thứ ba. 意味③ Tâm trạng: câu cuối.
+・[新鮮な]魚はおいしい。| Cá tươi thì ngon.
+読: しんせんなさかなはおいしい。
+・「この冷蔵庫は野菜の[新鮮さ]を保ちます」| "Chiếc tủ lạnh này giữ được độ tươi của rau."
+読: 「このれいぞうこはやさいのしんせんさをたもちます」
+文法: な-tính từ bỏ な ＋さ = danh từ hoá (新鮮 → 新鮮さ: độ tươi)
+・山で[新鮮な]空気を胸一杯に吸いこんだ。| Trên núi, tôi hít căng lồng ngực bầu không khí trong lành.
+読: やまでしんせんなくうきをむねいっぱいにすいこんだ。
+文法: 胸一杯に = căng đầy lồng ngực; V ます bỏ ます＋こむ = ~ vào (吸いこむ: hít vào)
+・[新鮮な]気持ちで新学期を迎えた。| Tôi đón học kỳ mới với tâm trạng tươi mới.
+読: しんせんなきもちでしんがっきをむかえた。
+文法: N で = với (trạng thái) N
+
+568. 豊かな (ゆたかな) = PHONG ; Giàu có, phong phú
+・人生をより[豊かに]生きるためにはどうしたらいいか考える。| Suy nghĩ xem phải làm thế nào để sống một cuộc đời phong phú hơn.
+読: じんせいをよりゆたかにいきるためにはどうしたらいいかかんがえる。
+文法: より～ = ~ hơn; V る＋ために = để ~; どうしたらいいか = nên làm thế nào
+・彼女は想像力が[豊かだ]。| Cô ấy giàu trí tưởng tượng.
+読: かのじょはそうぞうりょくがゆたかだ。
+・[豊かな]（資源／自然／緑／暮らし／心／才能／個性／表情／感性／表現…）| (Tài nguyên / thiên nhiên / cây xanh / cuộc sống / tâm hồn / tài năng / cá tính / biểu cảm / cảm nhận / cách diễn đạt…) phong phú, dồi dào
+読: ゆたかな（しげん／しぜん／みどり／くらし／こころ／さいのう／こせい／ひょうじょう／かんせい／ひょうげん…）
+合: 個性豊かなメンバー (こせいゆたかなメンバー) = Những thành viên giàu cá tính
+
+569. 立派な (りっぱな) = LẬP PHÁI ; Tuyệt vời/ Ra dáng, tuyệt vời
+# 意味① Tuyệt vời: câu đầu. 意味② Ra dáng: câu sau.
+・[りっぱな]（人／仕事／成績／行動／建物…）ですね。| (Con người / công việc / thành tích / hành động / toà nhà…) thật tuyệt vời nhỉ.
+読: りっぱな（ひと／しごと／せいせき／こうどう／たてもの…）ですね。
+・あなたも[りっぱな]大人なんだから、自分のことは自分で決めなさい。| Con cũng đã là người lớn ra dáng rồi, việc của mình thì tự mình quyết đi.
+読: あなたもりっぱなおとななんだから、じぶんのことはじぶんできめなさい。
+文法: ～なんだから = vì đã là ~ rồi (thì…); V ます bỏ ます＋なさい = hãy ~ (người trên bảo người dưới)
+
+570. 正確な (せいかくな) = CHÍNH XÁC ; Chính xác
+# Sách in 犬が 30匹ほどが, thừa một が; chép thành 犬が30匹ほど.
+合: 正確な ＋情報 = Chính xác (đi với thông tin, con số)
+・[正確な]数はわからないが、犬が30匹ほど集まってきた。| Không rõ con số chính xác, nhưng có khoảng 30 con chó đã kéo đến.
+読: せいかくなかずはわからないが、いぬがさんじゅっぴきほどあつまってきた。
+文法: ～ほど = khoảng; V てくる = ~ lại (hướng về phía người nói)
+合: 時間に正確な (じかんにせいかくな) = Chính xác, đúng giờ
+・山本さんは時間に[正確で]、待ち合わせに絶対遅れない。| Anh Yamamoto rất đúng giờ, không bao giờ đến muộn buổi hẹn.
+読: やまもとさんはじかんにせいかくで、まちあわせにぜったいおくれない。
+文法: な-tính từ ＋で = ~ và (nối câu); 絶対～ない = tuyệt đối không ~

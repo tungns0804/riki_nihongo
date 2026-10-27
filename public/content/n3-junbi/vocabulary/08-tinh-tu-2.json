@@ -1,0 +1,935 @@
+{
+  "id": "08-tinh-tu-2",
+  "name": "Tính từ 2",
+  "description": "Tính từ N3準備 文字語彙 — 第29課 (551–570)",
+  "kind": "vocabulary",
+  "parent": "",
+  "group": "",
+  "groups": [
+    {
+      "label": "551–558",
+      "title": "Bài 29.1 · Vị và mùi; lạ, ngầu, giỏi và thân thiết"
+    },
+    {
+      "label": "559–563",
+      "title": "Bài 29.2 · Chi tiết, nông sâu, cứng và nguội"
+    },
+    {
+      "label": "564–570",
+      "title": "Bài 29.3 · Chói, oi bức, sạch, tươi, phong phú và chính xác"
+    }
+  ],
+  "words": [
+    {
+      "id": "92cb3d370500644d",
+      "number": 551,
+      "group": "551–558",
+      "particle": "",
+      "japanese": "濃い",
+      "reading": "こい",
+      "hanViet": "NỒNG",
+      "vietnamese": "Nồng/ Đậm/ Rậm",
+      "examples": [
+        {
+          "id": "66880fec34e1bd6a",
+          "japanese": "（色／味／コーヒー／お茶／化粧／ひげ…）が濃い。",
+          "vietnamese": "(Màu / vị / cà phê / trà / lớp trang điểm / râu…) đậm, rậm.",
+          "reading": "（いろ／あじ／コーヒー／おちゃ／けしょう／ひげ…）がこい。",
+          "grammar": "",
+          "targets": [
+            "濃い"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "薄い (うすい) (552)"
+        },
+        {
+          "label": "名",
+          "text": "濃さ (こさ) = Độ đậm"
+        }
+      ]
+    },
+    {
+      "id": "36f9611814d67b98",
+      "number": 552,
+      "group": "551–558",
+      "particle": "",
+      "japanese": "薄い",
+      "reading": "うすい",
+      "hanViet": "BẠC",
+      "vietnamese": "Mỏng",
+      "examples": [
+        {
+          "id": "c56fa37b3a69f9ce",
+          "japanese": "薄く切った肉 ＞＜ 厚く切った肉",
+          "vietnamese": "Thịt thái mỏng ＞＜ thịt thái dày",
+          "reading": "うすくきったにく ＞＜ あつくきったにく",
+          "grammar": "い-tính từ bỏ い ＋く＋V = làm một cách ~ (薄い → 薄く切る); V た＋N = N đã được ~",
+          "targets": [
+            "薄く"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "631d98fbcb13205e",
+      "number": 553,
+      "group": "551–558",
+      "particle": "",
+      "japanese": "酸っぱい",
+      "reading": "すっぱい",
+      "hanViet": "TOAN",
+      "vietnamese": "Chua",
+      "examples": [
+        {
+          "id": "42c04b5591fae3e1",
+          "japanese": "このみかん、すっぱい！！！",
+          "vietnamese": "Quả quýt này chua quá!!!",
+          "reading": "",
+          "grammar": "",
+          "targets": [
+            "すっぱい"
+          ]
+        },
+        {
+          "id": "bf4bf12dce43e498",
+          "japanese": "初恋を思い出して、甘酸っぱい気持ちになる。",
+          "vietnamese": "Nhớ lại mối tình đầu, lòng thấy buồn vui lẫn lộn.",
+          "reading": "はつこいをおもいだして、あまずっぱいきもちになる。",
+          "grammar": "～て = vì ~ nên (nối nguyên nhân); い-tính từ ＋気持ちになる = trong lòng thấy ~",
+          "targets": [
+            "甘酸っぱい"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "甘酸っぱい (あまずっぱい) = Buồn vui lẫn lộn"
+        }
+      ]
+    },
+    {
+      "id": "a2731d30f5eaed68",
+      "number": 554,
+      "group": "551–558",
+      "particle": "",
+      "japanese": "臭い",
+      "reading": "くさい",
+      "hanViet": "XÚ",
+      "vietnamese": "Hôi, thối/ Tanh",
+      "examples": [
+        {
+          "id": "d87d60993d2ca55f",
+          "japanese": "食べた後、口がくさくなるから嫌いだという人も多い。",
+          "vietnamese": "Cũng nhiều người bảo ghét (món đó) vì ăn xong miệng bị hôi.",
+          "reading": "たべたあと、くちがくさくなるからきらいだというひともおおい。",
+          "grammar": "V た後 = sau khi ~; い-tính từ bỏ い ＋くなる = trở nên ~; ～という人 = người nói rằng ~",
+          "targets": [
+            "くさく"
+          ]
+        },
+        {
+          "id": "f4d7c3461b686f49",
+          "japanese": "魚を焼いたので台所がくさくなった。",
+          "vietnamese": "Vì nướng cá nên nhà bếp bị tanh.",
+          "reading": "さかなをやいたのでだいどころがくさくなった。",
+          "grammar": "～ので = vì ~",
+          "targets": [
+            "くさく"
+          ]
+        },
+        {
+          "id": "ad603b41144f579f",
+          "japanese": "ガスくさいですね。",
+          "vietnamese": "Nồng nặc mùi ga nhỉ.",
+          "reading": "",
+          "grammar": "",
+          "targets": [
+            "くさい"
+          ]
+        },
+        {
+          "id": "2b095a1c882a002d",
+          "japanese": "風呂場がかびくさい。",
+          "vietnamese": "Phòng tắm nồng nặc mùi mốc.",
+          "reading": "ふろばがかびくさい。",
+          "grammar": "",
+          "targets": [
+            "くさい"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "N ＋臭い = Nồng nặc mùi ~"
+        },
+        {
+          "label": "使い分け",
+          "text": "臭い (くさい) = chỉ dùng khi mùi khó chịu (悪い時だけ)"
+        },
+        {
+          "label": "使い分け",
+          "text": "匂い (におい) = dùng cho cả mùi thơm lẫn mùi khó chịu (いい○、悪い○)"
+        }
+      ]
+    },
+    {
+      "id": "5f416494729748db",
+      "number": 555,
+      "group": "551–558",
+      "particle": "",
+      "japanese": "おかしい",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Lạ, buồn cười/ Lạ, không bình thường/ Lạ, không hợp lý",
+      "examples": [
+        {
+          "id": "b43c612c67af2463",
+          "japanese": "山本君は、いつもおかしい・おもしろいことを言って、みんなを笑わせている。",
+          "vietnamese": "Cậu Yamamoto lúc nào cũng nói chuyện buồn cười, thú vị, làm mọi người cười.",
+          "reading": "やまもとくんは、いつもおかしい・おもしろいことをいって、みんなをわらわせている。",
+          "grammar": "V させる = làm cho ai ~ (笑う → 笑わせる: chọc cười)",
+          "targets": [
+            "おかしい"
+          ]
+        },
+        {
+          "id": "13531d39d399e285",
+          "japanese": "彼氏の様子がおかしい。",
+          "vietnamese": "Bạn trai tôi có vẻ lạ lạ.",
+          "reading": "かれしのようすがおかしい。",
+          "grammar": "",
+          "targets": [
+            "おかしい"
+          ]
+        },
+        {
+          "id": "90d8e07638facc7a",
+          "japanese": "A：「うちの会社、子どもができたら、やめなきゃいけないんだよね。」B：「そんなのおかしいよ。」",
+          "vietnamese": "A: \"Công ty tôi hễ có con là phải nghỉ việc đấy.\" B: \"Thế thì vô lý quá.\"",
+          "reading": "A：「うちのかいしゃ、こどもができたら、やめなきゃいけないんだよね。」B：「そんなのおかしいよ。」",
+          "grammar": "～たら = hễ / khi ~; ～なきゃいけない = ～なければいけない (phải ~), văn nói",
+          "targets": [
+            "おかしい"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "おもしろい"
+        }
+      ]
+    },
+    {
+      "id": "15008ae0859581fe",
+      "number": 556,
+      "group": "551–558",
+      "particle": "",
+      "japanese": "かっこいい",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Đẹp trai/ Ngầu/ Phong cách/ Bảnh",
+      "examples": [
+        {
+          "id": "f7b5090e2d46c602",
+          "japanese": "山田先輩は、かっこいいから学年で1番人気がある。",
+          "vietnamese": "Anh khoá trên Yamada đẹp trai nên được yêu thích nhất khối.",
+          "reading": "やまだせんぱいは、かっこいいからがくねんでいちばんにんきがある。",
+          "grammar": "",
+          "targets": [
+            "かっこいい"
+          ]
+        },
+        {
+          "id": "ab42ecf0f9622fda",
+          "japanese": "何歳になっても夢を追いかけるのは、かっこいい生き方だと思う。",
+          "vietnamese": "Dù bao nhiêu tuổi vẫn theo đuổi ước mơ — tôi nghĩ đó là một lối sống thật ngầu.",
+          "reading": "なんさいになってもゆめをおいかけるのは、かっこいいいきかただとおもう。",
+          "grammar": "～ても = dù ~ cũng; V る＋のは = việc ~ thì",
+          "targets": [
+            "かっこいい"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "かっこ悪い (かっこわるい)"
+        }
+      ]
+    },
+    {
+      "id": "44da3e9cde64484b",
+      "number": 557,
+      "group": "551–558",
+      "particle": "",
+      "japanese": "うまい",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Giỏi/ Ngon/ Thuận lợi, suôn sẻ",
+      "examples": [
+        {
+          "id": "1fec2d9c04a9d4c4",
+          "japanese": "母は料理がうまい。",
+          "vietnamese": "Mẹ tôi nấu ăn giỏi.",
+          "reading": "はははりょうりがうまい。",
+          "grammar": "人は～がうまい = ai đó giỏi ~, như ～が上手だ",
+          "targets": [
+            "うまい"
+          ]
+        },
+        {
+          "id": "042214b560824de1",
+          "japanese": "この前のスピーチコンテストで、とてもうまく話せた。",
+          "vietnamese": "Ở cuộc thi hùng biện hôm trước, tôi đã nói rất tốt.",
+          "reading": "このまえのスピーチコンテストで、とてもうまくはなせた。",
+          "grammar": "い-tính từ bỏ い ＋く＋V = ~ một cách…; 話せた = đã nói được (thể khả năng)",
+          "targets": [
+            "うまく"
+          ]
+        },
+        {
+          "id": "2021bf2dbc4e837e",
+          "japanese": "仕事終わりに飲むビールは何よりもうまい。",
+          "vietnamese": "Bia uống sau giờ làm thì ngon hơn bất cứ thứ gì.",
+          "reading": "しごとおわりにのむビールはなによりもうまい。",
+          "grammar": "何よりも = hơn bất cứ thứ gì",
+          "targets": [
+            "うまい"
+          ]
+        },
+        {
+          "id": "28a9f3ae087477ca",
+          "japanese": "「面接はうまくいきましたか。」「うーん、まあまあでした。」",
+          "vietnamese": "\"Buổi phỏng vấn suôn sẻ chứ?\" \"Ừm, cũng tàm tạm.\"",
+          "reading": "「めんせつはうまくいきましたか。」「うーん、まあまあでした。」",
+          "grammar": "",
+          "targets": [
+            "うまくいきました"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "≒ 美味しい (おいしい)"
+        },
+        {
+          "label": "連",
+          "text": "うまくいく = Thuận lợi, suôn sẻ"
+        }
+      ]
+    },
+    {
+      "id": "e963e27c816ad960",
+      "number": 558,
+      "group": "551–558",
+      "particle": "",
+      "japanese": "親しい",
+      "reading": "したしい",
+      "hanViet": "THÂN",
+      "vietnamese": "Thân thiết",
+      "examples": [
+        {
+          "id": "f3fa91df94964764",
+          "japanese": "母親同士が親友なので、家族みんなで親しくつき合っている。",
+          "vietnamese": "Hai bà mẹ là bạn thân nên cả nhà chơi thân với nhau.",
+          "reading": "ははおやどうしがしんゆうなので、かぞくみんなでしたしくつきあっている。",
+          "grammar": "N 同士 = những N với nhau; い-tính từ bỏ い ＋く＋V = ~ một cách…",
+          "targets": [
+            "親しく"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "＝ 仲良く (なかよく)"
+        }
+      ]
+    },
+    {
+      "id": "4207b7f9df90e1d5",
+      "number": 559,
+      "group": "559–563",
+      "particle": "",
+      "japanese": "詳しい",
+      "reading": "くわしい",
+      "hanViet": "TƯỜNG",
+      "vietnamese": "Chi tiết/ Biết rõ, am hiểu về…",
+      "examples": [
+        {
+          "id": "7b7818024c53a0da",
+          "japanese": "この地図はスーパーまでの道がとてもくわしく書かれている。",
+          "vietnamese": "Tấm bản đồ này vẽ đường đến siêu thị rất chi tiết.",
+          "reading": "このちずはスーパーまでのみちがとてもくわしくかかれている。",
+          "grammar": "書かれている = được viết (bị động ＋ている: trạng thái)",
+          "targets": [
+            "くわしく"
+          ]
+        },
+        {
+          "id": "f5e5d8b5fb49523d",
+          "japanese": "姉はアイドルにとてもくわしいです。",
+          "vietnamese": "Chị tôi rất rành về thần tượng.",
+          "reading": "あねはアイドルにとてもくわしいです。",
+          "grammar": "N に詳しい = am hiểu về N — dùng に",
+          "targets": [
+            "くわしい"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "eaf734efca954f71",
+      "number": 560,
+      "group": "559–563",
+      "particle": "",
+      "japanese": "細かい",
+      "reading": "こまかい",
+      "hanViet": "TẾ",
+      "vietnamese": "Nhỏ, vụn/ Chi tiết",
+      "examples": [
+        {
+          "id": "ac568dc41b6ec242",
+          "japanese": "新聞の字は細かくて、お年よりには読みづらい。",
+          "vietnamese": "Chữ trên báo nhỏ, người già đọc khó.",
+          "reading": "しんぶんのじはこまかくて、おとしよりにはよみづらい。",
+          "grammar": "い-tính từ bỏ い ＋くて = ~ nên (nối nguyên nhân); V ます bỏ ます＋づらい = khó ~",
+          "targets": [
+            "細かくて"
+          ]
+        },
+        {
+          "id": "d3e937e8e01c503e",
+          "japanese": "玉ねぎを細かくきざんだ。",
+          "vietnamese": "Tôi đã băm nhỏ hành tây.",
+          "reading": "たまねぎをこまかくきざんだ。",
+          "grammar": "",
+          "targets": [
+            "細かく"
+          ]
+        },
+        {
+          "id": "aadecc8ee3b992d0",
+          "japanese": "履歴書に学歴と職歴を細かく丁寧に書く。",
+          "vietnamese": "Ghi quá trình học tập và làm việc vào sơ yếu lý lịch thật chi tiết, cẩn thận.",
+          "reading": "りれきしょにがくれきとしょくれきをこまかくていねいにかく。",
+          "grammar": "",
+          "targets": [
+            "細かく"
+          ]
+        },
+        {
+          "id": "639e6e21046de2bd",
+          "japanese": "A：130円です。B：細かいお金がないので、一万円でもいいですか？",
+          "vietnamese": "A: 130 yên ạ. B: Tôi không có tiền lẻ, đưa tờ 1 man có được không?",
+          "reading": "A：ひゃくさんじゅうえんです。B：こまかいおかねがないので、いちまんえんでもいいですか？",
+          "grammar": "～でもいいですか = ~ cũng được chứ?",
+          "targets": [
+            "細かい"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "細かいお金 (こまかいおかね) = Tiền lẻ"
+        },
+        {
+          "label": "類",
+          "text": "＝ 小さい (ちいさい)・小銭 (こぜに)"
+        }
+      ]
+    },
+    {
+      "id": "4d789b8f226533ac",
+      "number": 561,
+      "group": "559–563",
+      "particle": "",
+      "japanese": "浅い",
+      "reading": "あさい",
+      "hanViet": "THIỂN",
+      "vietnamese": "Nông/ Nông, cạn, ít, hời hợt/ Nông, nhẹ/ Nông, (ngồi) ghé",
+      "examples": [
+        {
+          "id": "852ee6751448ce20",
+          "japanese": "この川は浅いので、子どもが泳いでも危なくない。",
+          "vietnamese": "Con sông này nông nên trẻ con bơi cũng không nguy hiểm.",
+          "reading": "このかわはあさいので、こどもがおよいでもあぶなくない。",
+          "grammar": "～ので = vì; V ても = dù ~ cũng",
+          "targets": [
+            "浅い"
+          ]
+        },
+        {
+          "id": "08304165fff62fac",
+          "japanese": "（眠り／経験／知識／考え／関係／つき合い…）が浅い。",
+          "vietnamese": "(Giấc ngủ) chập chờn / (kinh nghiệm, kiến thức) ít / (suy nghĩ) nông cạn / (quan hệ, giao du) hời hợt…",
+          "reading": "（ねむり／けいけん／ちしき／かんがえ／かんけい／つきあい…）があさい。",
+          "grammar": "",
+          "targets": [
+            "浅い"
+          ]
+        },
+        {
+          "id": "ada3cd46dfc68d8c",
+          "japanese": "転んだが、傷は浅かった。",
+          "vietnamese": "Tôi bị ngã nhưng vết thương nhẹ.",
+          "reading": "ころんだが、きずはあさかった。",
+          "grammar": "～が = nhưng",
+          "targets": [
+            "浅かった"
+          ]
+        },
+        {
+          "id": "c5c9567f9405c065",
+          "japanese": "浅く座る ＞＜ 深く座る",
+          "vietnamese": "Ngồi ghé (mép ghế) ＞＜ ngồi sâu (vào ghế)",
+          "reading": "あさくすわる ＞＜ ふかくすわる",
+          "grammar": "",
+          "targets": [
+            "浅く"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "深い (ふかい)"
+        }
+      ]
+    },
+    {
+      "id": "bd0bc79e97ccf9a4",
+      "number": 562,
+      "group": "559–563",
+      "particle": "",
+      "japanese": "固い",
+      "reading": "かたい",
+      "hanViet": "CỐ",
+      "vietnamese": "Cứng/ Chắc chắn, chặt/ Nghiêm ngặt, nghiêm khắc",
+      "examples": [
+        {
+          "id": "452cf6cf56e7c569",
+          "japanese": "部長にもらったパンはとても固かった…。",
+          "vietnamese": "Cái bánh mì trưởng phòng cho cứng quá…",
+          "reading": "ぶちょうにもらったパンはとてもかたかった…。",
+          "grammar": "人にもらった N = N được ai đó cho",
+          "targets": [
+            "固かった"
+          ]
+        },
+        {
+          "id": "3079aad75e79682c",
+          "japanese": "私は頭が固いから、いいアイデアがなかなか浮かばない。",
+          "vietnamese": "Tôi đầu óc cứng nhắc nên mãi không nghĩ ra ý tưởng hay.",
+          "reading": "わたしはあたまがかたいから、いいアイデアがなかなかうかばない。",
+          "grammar": "なかなか～ない = mãi mà không ~",
+          "targets": [
+            "固い"
+          ]
+        },
+        {
+          "id": "023e1cfbd1ba6b50",
+          "japanese": "彼女は口が固いから信用できる。",
+          "vietnamese": "Cô ấy kín miệng nên có thể tin được.",
+          "reading": "かのじょはくちがかたいからしんようできる。",
+          "grammar": "",
+          "targets": [
+            "固い"
+          ]
+        },
+        {
+          "id": "d4fd46fa479efbc2",
+          "japanese": "固い握手を交わした。",
+          "vietnamese": "Hai bên đã bắt tay thật chặt.",
+          "reading": "かたいあくしゅをかわした。",
+          "grammar": "",
+          "targets": [
+            "固い"
+          ]
+        },
+        {
+          "id": "a6479fe197df07d3",
+          "japanese": "親友との固い約束。",
+          "vietnamese": "Lời hứa chắc chắn với bạn thân.",
+          "reading": "しんゆうとのかたいやくそく。",
+          "grammar": "",
+          "targets": [
+            "固い"
+          ]
+        },
+        {
+          "id": "2882dcd9a27358ef",
+          "japanese": "彼女を守ると固く決心した。",
+          "vietnamese": "Tôi đã quyết tâm chắc chắn sẽ bảo vệ cô ấy.",
+          "reading": "かのじょをまもるとかたくけっしんした。",
+          "grammar": "～と決心する = quyết tâm rằng ~",
+          "targets": [
+            "固く"
+          ]
+        },
+        {
+          "id": "d010ccfaa81bd8f3",
+          "japanese": "この部屋で火を使うことは固く禁止されている。",
+          "vietnamese": "Việc dùng lửa trong phòng này bị cấm nghiêm ngặt.",
+          "reading": "このへやでひをつかうことはかたくきんしされている。",
+          "grammar": "V る＋こと = việc ~; 禁止されている = bị cấm (bị động ＋ている)",
+          "targets": [
+            "固く"
+          ]
+        },
+        {
+          "id": "eebaa8dd8ad2631c",
+          "japanese": "体が硬い。＞＜ 柔らかい",
+          "vietnamese": "Người cứng (không dẻo). ＞＜ dẻo",
+          "reading": "からだがかたい。＞＜ やわらかい",
+          "grammar": "",
+          "targets": [
+            "硬い"
+          ]
+        },
+        {
+          "id": "fb9ba8113ac09eb7",
+          "japanese": "（表情／文章／内容…）が硬い。",
+          "vietnamese": "(Nét mặt / câu văn / nội dung…) cứng nhắc.",
+          "reading": "（ひょうじょう／ぶんしょう／ないよう…）がかたい。",
+          "grammar": "",
+          "targets": [
+            "硬い"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "対",
+          "text": "柔らかい (やわらかい)"
+        },
+        {
+          "label": "慣",
+          "text": "頭が固い (あたまがかたい) = Cứng đầu, bảo thủ"
+        },
+        {
+          "label": "慣",
+          "text": "口が固い (くちがかたい) = Biết giữ miệng ＞＜ 口が軽い (くちがかるい)"
+        },
+        {
+          "label": "硬い",
+          "text": "硬い (かたい) = NGẠNH ; Cứng/ Cứng nhắc"
+        }
+      ]
+    },
+    {
+      "id": "81f11b70195b19cf",
+      "number": 563,
+      "group": "559–563",
+      "particle": "",
+      "japanese": "ぬるい",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Nguội (không ngon)",
+      "examples": [
+        {
+          "id": "590eb3f903c99c4e",
+          "japanese": "ぬるいコーヒー／ビールはおいしくない。",
+          "vietnamese": "Cà phê / bia nguội thì không ngon.",
+          "reading": "",
+          "grammar": "",
+          "targets": [
+            "ぬるい"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "d347eeb8380bdf2b",
+      "number": 564,
+      "group": "564–570",
+      "particle": "",
+      "japanese": "まぶしい",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Chói/ Rạng ngời",
+      "examples": [
+        {
+          "id": "fd3249e403ffd57c",
+          "japanese": "カーテンを開けたら、太陽がまぶしかった。",
+          "vietnamese": "Mở rèm ra thì nắng chói chang.",
+          "reading": "カーテンをあけたら、たいようがまぶしかった。",
+          "grammar": "V たら～た = vừa ~ thì (thấy)",
+          "targets": [
+            "まぶしかった"
+          ]
+        },
+        {
+          "id": "b2cb27c5d4519932",
+          "japanese": "電気がついたのでまぶしかった。",
+          "vietnamese": "Đèn bật lên nên chói mắt.",
+          "reading": "でんきがついたのでまぶしかった。",
+          "grammar": "",
+          "targets": [
+            "まぶしかった"
+          ]
+        },
+        {
+          "id": "39c4f0de8f496f0b",
+          "japanese": "彼女はまぶしいほどの笑顔だった。",
+          "vietnamese": "Cô ấy cười rạng rỡ đến loá mắt.",
+          "reading": "かのじょはまぶしいほどのえがおだった。",
+          "grammar": "～ほどの N = N đến mức ~",
+          "targets": [
+            "まぶしい"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "5d0a832f507b2296",
+      "number": 565,
+      "group": "564–570",
+      "particle": "",
+      "japanese": "蒸し暑い",
+      "reading": "むしあつい",
+      "hanViet": "CHƯNG THỬ",
+      "vietnamese": "Nóng nực, oi bức",
+      "examples": [
+        {
+          "id": "a6b7004e490b42d7",
+          "japanese": "日本の夏は、蒸し暑い。",
+          "vietnamese": "Mùa hè Nhật Bản oi bức.",
+          "reading": "にほんのなつは、むしあつい。",
+          "grammar": "",
+          "targets": [
+            "蒸し暑い"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "8e530ea444ed57ad",
+      "number": 566,
+      "group": "564–570",
+      "particle": "",
+      "japanese": "清潔な",
+      "reading": "せいけつな",
+      "hanViet": "THANH KHIẾT",
+      "vietnamese": "Sạch sẽ",
+      "examples": [
+        {
+          "id": "cbbe15e0953044dc",
+          "japanese": "トイレはいつも清潔にしておきたい。",
+          "vietnamese": "Tôi muốn lúc nào nhà vệ sinh cũng sạch sẽ.",
+          "reading": "トイレはいつもせいけつにしておきたい。",
+          "grammar": "な-tính từ ＋にする = làm cho ~; ～ておく = giữ sẵn trạng thái; ～たい = muốn",
+          "targets": [
+            "清潔に"
+          ]
+        },
+        {
+          "id": "b36264f5cde4c539",
+          "japanese": "清潔感がある人はモテる ＞＜ 清潔感がない人（≒ 不潔な人）",
+          "vietnamese": "Người trông sạch sẽ, tươm tất thì được yêu thích ＞＜ người trông không sạch sẽ (≒ người bẩn thỉu)",
+          "reading": "せいけつかんがあるひとはモテる ＞＜ せいけつかんがないひと（≒ ふけつなひと）",
+          "grammar": "モテる = được (người khác giới) thích, đắt khách",
+          "targets": [
+            "清潔感"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "清潔感 (せいけつかん) = Vẻ sạch sẽ, tươm tất"
+        }
+      ]
+    },
+    {
+      "id": "30f2ab20c9a08e55",
+      "number": 567,
+      "group": "564–570",
+      "particle": "",
+      "japanese": "新鮮な",
+      "reading": "しんせんな",
+      "hanViet": "TÂN TIÊN",
+      "vietnamese": "Tươi, sống (đồ ăn)/ Tươi mới (không khí)/ Tươi mới (tâm trạng)",
+      "examples": [
+        {
+          "id": "0b9c4adfeaa2dd90",
+          "japanese": "新鮮な魚はおいしい。",
+          "vietnamese": "Cá tươi thì ngon.",
+          "reading": "しんせんなさかなはおいしい。",
+          "grammar": "",
+          "targets": [
+            "新鮮な"
+          ]
+        },
+        {
+          "id": "d56ba452e7e87864",
+          "japanese": "「この冷蔵庫は野菜の新鮮さを保ちます」",
+          "vietnamese": "\"Chiếc tủ lạnh này giữ được độ tươi của rau.\"",
+          "reading": "「このれいぞうこはやさいのしんせんさをたもちます」",
+          "grammar": "な-tính từ bỏ な ＋さ = danh từ hoá (新鮮 → 新鮮さ: độ tươi)",
+          "targets": [
+            "新鮮さ"
+          ]
+        },
+        {
+          "id": "9907190c78a230b1",
+          "japanese": "山で新鮮な空気を胸一杯に吸いこんだ。",
+          "vietnamese": "Trên núi, tôi hít căng lồng ngực bầu không khí trong lành.",
+          "reading": "やまでしんせんなくうきをむねいっぱいにすいこんだ。",
+          "grammar": "胸一杯に = căng đầy lồng ngực; V ます bỏ ます＋こむ = ~ vào (吸いこむ: hít vào)",
+          "targets": [
+            "新鮮な"
+          ]
+        },
+        {
+          "id": "46fae3799aee6fc8",
+          "japanese": "新鮮な気持ちで新学期を迎えた。",
+          "vietnamese": "Tôi đón học kỳ mới với tâm trạng tươi mới.",
+          "reading": "しんせんなきもちでしんがっきをむかえた。",
+          "grammar": "N で = với (trạng thái) N",
+          "targets": [
+            "新鮮な"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "d62244f8834377b8",
+      "number": 568,
+      "group": "564–570",
+      "particle": "",
+      "japanese": "豊かな",
+      "reading": "ゆたかな",
+      "hanViet": "PHONG",
+      "vietnamese": "Giàu có, phong phú",
+      "examples": [
+        {
+          "id": "66d71c3f957653f1",
+          "japanese": "人生をより豊かに生きるためにはどうしたらいいか考える。",
+          "vietnamese": "Suy nghĩ xem phải làm thế nào để sống một cuộc đời phong phú hơn.",
+          "reading": "じんせいをよりゆたかにいきるためにはどうしたらいいかかんがえる。",
+          "grammar": "より～ = ~ hơn; V る＋ために = để ~; どうしたらいいか = nên làm thế nào",
+          "targets": [
+            "豊かに"
+          ]
+        },
+        {
+          "id": "5738b4639202954c",
+          "japanese": "彼女は想像力が豊かだ。",
+          "vietnamese": "Cô ấy giàu trí tưởng tượng.",
+          "reading": "かのじょはそうぞうりょくがゆたかだ。",
+          "grammar": "",
+          "targets": [
+            "豊かだ"
+          ]
+        },
+        {
+          "id": "3a33a5e8adf60b4c",
+          "japanese": "豊かな（資源／自然／緑／暮らし／心／才能／個性／表情／感性／表現…）",
+          "vietnamese": "(Tài nguyên / thiên nhiên / cây xanh / cuộc sống / tâm hồn / tài năng / cá tính / biểu cảm / cảm nhận / cách diễn đạt…) phong phú, dồi dào",
+          "reading": "ゆたかな（しげん／しぜん／みどり／くらし／こころ／さいのう／こせい／ひょうじょう／かんせい／ひょうげん…）",
+          "grammar": "",
+          "targets": [
+            "豊かな"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "個性豊かなメンバー (こせいゆたかなメンバー) = Những thành viên giàu cá tính"
+        }
+      ]
+    },
+    {
+      "id": "fef7c6417cf4b7bd",
+      "number": 569,
+      "group": "564–570",
+      "particle": "",
+      "japanese": "立派な",
+      "reading": "りっぱな",
+      "hanViet": "LẬP PHÁI",
+      "vietnamese": "Tuyệt vời/ Ra dáng, tuyệt vời",
+      "examples": [
+        {
+          "id": "6b7df60f87a1a66b",
+          "japanese": "りっぱな（人／仕事／成績／行動／建物…）ですね。",
+          "vietnamese": "(Con người / công việc / thành tích / hành động / toà nhà…) thật tuyệt vời nhỉ.",
+          "reading": "りっぱな（ひと／しごと／せいせき／こうどう／たてもの…）ですね。",
+          "grammar": "",
+          "targets": [
+            "りっぱな"
+          ]
+        },
+        {
+          "id": "96465b0ab91945a3",
+          "japanese": "あなたもりっぱな大人なんだから、自分のことは自分で決めなさい。",
+          "vietnamese": "Con cũng đã là người lớn ra dáng rồi, việc của mình thì tự mình quyết đi.",
+          "reading": "あなたもりっぱなおとななんだから、じぶんのことはじぶんできめなさい。",
+          "grammar": "～なんだから = vì đã là ~ rồi (thì…); V ます bỏ ます＋なさい = hãy ~ (người trên bảo người dưới)",
+          "targets": [
+            "りっぱな"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "8e4429362db26f73",
+      "number": 570,
+      "group": "564–570",
+      "particle": "",
+      "japanese": "正確な",
+      "reading": "せいかくな",
+      "hanViet": "CHÍNH XÁC",
+      "vietnamese": "Chính xác",
+      "examples": [
+        {
+          "id": "481cae8e31ec7bfe",
+          "japanese": "正確な数はわからないが、犬が30匹ほど集まってきた。",
+          "vietnamese": "Không rõ con số chính xác, nhưng có khoảng 30 con chó đã kéo đến.",
+          "reading": "せいかくなかずはわからないが、いぬがさんじゅっぴきほどあつまってきた。",
+          "grammar": "～ほど = khoảng; V てくる = ~ lại (hướng về phía người nói)",
+          "targets": [
+            "正確な"
+          ]
+        },
+        {
+          "id": "c0d59bd197c2cc2b",
+          "japanese": "山本さんは時間に正確で、待ち合わせに絶対遅れない。",
+          "vietnamese": "Anh Yamamoto rất đúng giờ, không bao giờ đến muộn buổi hẹn.",
+          "reading": "やまもとさんはじかんにせいかくで、まちあわせにぜったいおくれない。",
+          "grammar": "な-tính từ ＋で = ~ và (nối câu); 絶対～ない = tuyệt đối không ~",
+          "targets": [
+            "正確で"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "正確な ＋情報 = Chính xác (đi với thông tin, con số)"
+        },
+        {
+          "label": "合",
+          "text": "時間に正確な (じかんにせいかくな) = Chính xác, đúng giờ"
+        }
+      ]
+    }
+  ]
+}

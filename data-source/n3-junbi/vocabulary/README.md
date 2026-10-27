@@ -162,6 +162,8 @@ một loại từ đã học, nên phần này có cả "Danh từ" (01–120) l
 | `04-katakana`  | Katakana     | chờ nội dung |
 | `05-pho-tu`    | Phó từ       | chờ nội dung |
 | `06-danh-tu-2` | Danh từ 2    | 48 từ · 311–318 (cụm "Chăm sóc, biết ơn và phép xã giao"), 第19課 (351–370) chia 2 cụm 351–359 (bài 19.1), 360–370 (bài 19.2), và 第21課 (391–410) chia 2 cụm 391–398 (bài 21.1), 399–410 (bài 21.2), có chủ đề |
+| `07-dong-tu-2` | Động từ 2    | 19 từ · 第26課 (492–510) chia 2 cụm 492–499 (bài 26.1), 500–510 (bài 26.2), có chủ đề |
+| `08-tinh-tu-2` | Tính từ 2    | 20 từ · 第29課 (551–570) chia 3 cụm 551–558 (bài 29.1), 559–563 (bài 29.2), 564–570 (bài 29.3), có chủ đề |
 
 Thêm nội dung cho một bài = đặt file `vocabulary.txt` vào đúng thư mục của bài đó rồi
 chạy `npm run generate`. Động từ mới của 第8課 trở đi thì viết nối vào cuối
