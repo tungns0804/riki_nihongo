@@ -7,9 +7,8 @@
 
 # ── 第29課：551〜570 ────────────────────────────────────────────
 
-# nguồn: bai-292-tu-vung-cai-thien-559-563.pdf (bản PDF này in trọn 第29課: 551–570;
-# chỉ tên file cho biết buổi 29.2 là 559–563, nên 551–558 là buổi 29.1 và 564–570
-# xếp vào buổi 29.3)
+# nguồn: bản PDF của buổi 29.2 (559–563) và 29.3 (564–570) đều in trọn 第29課: 551–570;
+# tên file cho biết ranh giới buổi, nên 551–558 là buổi 29.1
 ## 551–558 = Bài 29.1 · Vị và mùi; lạ, ngầu, giỏi và thân thiết
 551. 濃い (こい) = NỒNG ; Nồng/ Đậm/ Rậm
 ・（色／味／コーヒー／お茶／化粧／ひげ…）が[濃い]。| (Màu / vị / cà phê / trà / lớp trang điểm / râu…) đậm, rậm.
@@ -164,7 +163,7 @@
 ・[ぬるい]コーヒー／ビールはおいしくない。| Cà phê / bia nguội thì không ngon.
 読: ぬるいコーヒー／ビールはおいしくない。
 
-# nguồn: bai-292-tu-vung-cai-thien-559-563.pdf (cùng bản PDF trọn 第29課)
+# nguồn: bai-293-tu-vung-cai-thien-564-570.pdf
 ## 564–570 = Bài 29.3 · Chói, oi bức, sạch, tươi, phong phú và chính xác
 564. まぶしい = Chói/ Rạng ngời
 # 意味① Chói: hai câu đầu. 意味② Rạng ngời: câu cuối.
