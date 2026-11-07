@@ -40,18 +40,13 @@ Phần nội dung sau dấu `·` do người soạn tự đặt theo nghĩa các
 | ------------ | ------------ | ---------- |
 | `01-danh-tu` | Danh từ      | 70 từ · bài tập Từ vựng 1–10 tới 61–70 (01–70), bảy cụm có chủ đề |
 | `01-danh-tu-btvn-1-70-1` | BTVN 1–70 (1) | Đề 10 câu, bài con của `01-danh-tu` (cụm 41–50); người dùng dán trong chat 2026-10-06 với tên "BTVN từ vựng N3 1-70 (1)" |
-| `02-tinh-tu` | Tính từ      | 34 từ · 259–280 (第14課) và 299–310, chép nguyên bài Tính từ của N3 JUNBI (xem dưới) |
-| `02-tinh-tu-btvn-259-310` | BTVN 259–310 | Đề 7 câu trắc nghiệm (`test.json`), người dùng dán trong chat 2026-09-25; bài con của `02-tinh-tu` (cụm 266–273) |
-
-**Bài Tính từ không chép từ thẻ Riki** như bài Danh từ: học phần chưa có thẻ tính từ, mà
-đề BTVN 259–310 lại hỏi và trích đúng câu ví dụ của bản N3 JUNBI (`悔しい思いをした`,
-`我慢強く待つ`, `正直に話しなさい`). Nên `02-tinh-tu/vocabulary.txt` là bản chép nguyên
-`n3-junbi/vocabulary/03-tinh-tu/vocabulary.txt`, kể cả các dòng 合 / 対 / 文法 — sửa bên
-N3 JUNBI thì chép lại sang đây. Có thẻ tính từ của Riki thì thay bằng nội dung thẻ.
-
-Đề BTVN dạng trắc nghiệm (không phải thẻ từ) là bài `kind: "test"` đứng riêng, chép như
-BTVN của N3 JUNBI (xem mục "Bài tập về nhà" ở README N3 JUNBI). Chữ furigana dính vào đề
-khi dán (`頑張がんばった`, `平気へいきな`) đã bỏ; số câu Riki in lệch (hai câu "3.", thiếu "5.")
+**Đề BTVN không đứng riêng ngang hàng bài Danh từ.** Đề nào cũng phải là bài con của bài
+từ vựng mà nó hỏi. Đề "BTVN 259–310" (7 câu tính từ, người dùng dán trong chat 2026-09-25)
+từng nằm ở đây như một bài riêng, nay đã chuyển sang N3 JUNBI:
+`n3-junbi/vocabulary/03-tinh-tu-btvn-259-310`, bài con của bài Tính từ (cụm 266–273). Học
+phần này không có bài Tính từ, mà cả 7 câu đều hỏi và trích đúng câu ví dụ của bản N3 JUNBI.
+Mã câu hỏi vẫn giữ tiền tố cũ `cb-tt-btvn-259310-…`. Khi chép đề này, chữ furigana dính vào
+đề lúc dán (`頑張がんばった`, `平気へいきな`) đã bỏ; số câu Riki in lệch (hai câu "3.", thiếu "5.")
 thì đánh lại 1–7 theo thứ tự trên trang.
 
 Đề trắc nghiệm hỏi đúng các từ đã có trong `01-danh-tu` thì là **bài con** của bài đó
