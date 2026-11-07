@@ -1,10 +1,10 @@
 {
   "id": "02-tinh-tu-btvn-259-310",
   "name": "BTVN 259–310",
-  "description": "Bài tập về nhà phần tính từ 259–310 — 7 câu: 悔しい, かゆい, 我慢強い, 苦しい, おとなしい, 正直な, うらやましい.",
+  "description": "Bài tập về nhà phần tính từ 259–310 — 7 câu, cả 7 hỏi các từ của cụm 266–273 (Bài 14.2 · Cảm giác, cảm xúc và tính cách): 悔しい, かゆい, 我慢強い, 苦しい, おとなしい, 正直な, うらやましい.",
   "kind": "test",
-  "parent": "",
-  "group": "",
+  "parent": "02-tinh-tu",
+  "group": "266–273",
   "sections": [
     {
       "id": "btvn-259-310",
