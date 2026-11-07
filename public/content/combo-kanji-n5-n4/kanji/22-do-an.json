@@ -1,0 +1,208 @@
+{
+  "id": "22-do-an",
+  "name": "Bài 22 · Đồ ăn",
+  "description": "米 肉 茶 物 好 — gạo, thịt, trà, đồ vật, thích: 鶏肉, お茶, 喫茶店, 動物, 大好き.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "e6adf982fe507b22",
+      "character": "米",
+      "hanViet": "MỄ",
+      "meaning": "lúa/ gạo",
+      "onyomi": [],
+      "kunyomi": [
+        "こめ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "f45cfca9d38e7197",
+          "japanese": "米",
+          "reading": "こめ",
+          "vietnamese": "Gạo"
+        }
+      ],
+      "mnemonic": "Có 2 hạt lúa trên cây là MỄ (gạo).",
+      "examples": [
+        {
+          "id": "f109976d874961db",
+          "japanese": "日本の米は　とても　おいしいです。",
+          "reading": "にほんのこめは　とても　おいしいです。",
+          "vietnamese": "Gạo Nhật rất ngon.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "816b6f9e8c875fe8",
+      "character": "肉",
+      "hanViet": "NHỤC",
+      "meaning": "thịt",
+      "onyomi": [
+        "ニク"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "ad83711404d24d5b",
+          "japanese": "肉",
+          "reading": "にく",
+          "vietnamese": "Thịt"
+        },
+        {
+          "id": "fe7aa2d60e1bcc02",
+          "japanese": "鶏肉",
+          "reading": "とりにく",
+          "vietnamese": "Thịt gà"
+        }
+      ],
+      "mnemonic": "Có 2 Người (NHÂN - 人) bán Thịt (NHỤC - 肉) đang đứng ở bên trong.",
+      "examples": [
+        {
+          "id": "a6c2061abc304ecd",
+          "japanese": "鶏肉と　ぶた肉と　どちらが　好きですか。",
+          "reading": "とりにくと　ぶたにくと　どちらが　すきですか。",
+          "vietnamese": "Bạn thích thịt gà hay thịt lợn hơn?",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "65f06adb840df9a0",
+      "character": "茶",
+      "hanViet": "TRÀ",
+      "meaning": "trà",
+      "onyomi": [
+        "チャ",
+        "サ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "e36673df408bd809",
+          "japanese": "お茶",
+          "reading": "おちゃ",
+          "vietnamese": "Trà"
+        },
+        {
+          "id": "ce9934e0ff3079ad",
+          "japanese": "茶道",
+          "reading": "さどう",
+          "vietnamese": "Trà đạo"
+        },
+        {
+          "id": "6382fce56adf9a10",
+          "japanese": "喫茶店",
+          "reading": "きっさてん",
+          "vietnamese": "Quán giải khát"
+        }
+      ],
+      "mnemonic": "Những búp Trà (THẢO - 艹) được Người (NHÂN - 人) thợ hái ở ngọn Cây (MỘC - 木).",
+      "examples": [
+        {
+          "id": "6c0eaa15b44c4f2a",
+          "japanese": "さむい日に　あたたかいお茶を　よく飲みます。",
+          "reading": "さむいひに　あたたかいおちゃを　よくのみます。",
+          "vietnamese": "Những ngày lạnh tôi hay uống trà nóng.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "4c605762dc84c9ed",
+      "character": "物",
+      "hanViet": "VẬT",
+      "meaning": "đồ vật",
+      "onyomi": [
+        "ブツ",
+        "モツ"
+      ],
+      "kunyomi": [
+        "もの"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "9eb41fa5151860dd",
+          "japanese": "動物",
+          "reading": "どうぶつ",
+          "vietnamese": "Động vật"
+        },
+        {
+          "id": "78731a26f53a9a31",
+          "japanese": "荷物",
+          "reading": "にもつ",
+          "vietnamese": "Hành lý"
+        },
+        {
+          "id": "303c3b0bf552061c",
+          "japanese": "物",
+          "reading": "もの",
+          "vietnamese": "Đồ vật"
+        },
+        {
+          "id": "e546bf850528c532",
+          "japanese": "着物",
+          "reading": "きもの",
+          "vietnamese": "Áo kimono"
+        }
+      ],
+      "mnemonic": "Con Bò (NGƯU - 牛) đi trước chở bao tải Đồ (VẬT - 勿) theo sau.",
+      "examples": [
+        {
+          "id": "6b7655c6ab152793",
+          "japanese": "動物園へ　行きます。",
+          "reading": "どうぶつえんへ　いきます。",
+          "vietnamese": "Tôi đi sở thú.",
+          "note": ""
+        },
+        {
+          "id": "c1b9874bad925ef6",
+          "japanese": "大きい　おまつりには　着物を　きます。",
+          "reading": "おおきい　おまつりには　きものを　きます。",
+          "vietnamese": "Vào những lễ hội lớn thì mặc kimono.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "50290b26d6664fcd",
+      "character": "好",
+      "hanViet": "HẢO",
+      "meaning": "thích",
+      "onyomi": [],
+      "kunyomi": [
+        "す.き"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "3cd1adae7f694382",
+          "japanese": "好き",
+          "reading": "すき",
+          "vietnamese": "Thích"
+        },
+        {
+          "id": "a6c01c1f815826e4",
+          "japanese": "大好き",
+          "reading": "だいすき",
+          "vietnamese": "Rất thích"
+        }
+      ],
+      "mnemonic": "Người phụ NỮ (女) mà nuôi con (TỬ - 子) luôn là người tốt (HẢO - 好).",
+      "examples": [
+        {
+          "id": "bd2068eed109fe95",
+          "japanese": "一番　大好きな人は　ソンさんです。",
+          "reading": "いちばん　だいすきなひとは　ソンさんです。",
+          "vietnamese": "Người tôi thích nhất là anh Sơn.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

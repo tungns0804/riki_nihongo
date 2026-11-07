@@ -1,0 +1,230 @@
+{
+  "id": "23-phuong-tien",
+  "name": "Bài 23 · Phương tiện",
+  "description": "電 車 自 寺 町 — điện, xe, bản thân, chùa, thị trấn: 電車, 自転車, 自己紹介, お寺, 町.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "ee0a96b657aec3de",
+      "character": "電",
+      "hanViet": "ĐIỆN",
+      "meaning": "điện",
+      "onyomi": [
+        "デン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "01a08728dee6ce4c",
+          "japanese": "電気",
+          "reading": "でんき",
+          "vietnamese": "Đèn điện"
+        },
+        {
+          "id": "eb82acaafa5fb00b",
+          "japanese": "電池",
+          "reading": "でんち",
+          "vietnamese": "Pin, cục pin"
+        }
+      ],
+      "mnemonic": "Mưa (VŨ - 雨) trên Đồng (ĐIỀN - 田) tạo ra dòng (乚) ĐIỆN (電).",
+      "examples": [
+        {
+          "id": "5a002cc1a215f74c",
+          "japanese": "くらい　ですから、電気を　つけてください。",
+          "reading": "くらい　ですから、でんきを　つけてください。",
+          "vietnamese": "Vì tối nên hãy bật đèn lên.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "7fd2abe1313e71c6",
+      "character": "車",
+      "hanViet": "XA",
+      "meaning": "xe",
+      "onyomi": [
+        "シャ"
+      ],
+      "kunyomi": [
+        "くるま"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "c1235f3f2dcfda9a",
+          "japanese": "電車",
+          "reading": "でんしゃ",
+          "vietnamese": "Tàu điện"
+        },
+        {
+          "id": "758ccf471f9a9dcc",
+          "japanese": "自転車",
+          "reading": "じてんしゃ",
+          "vietnamese": "Xe đạp"
+        },
+        {
+          "id": "a7487c5123285fe7",
+          "japanese": "自動車",
+          "reading": "じどうしゃ",
+          "vietnamese": "Xe ô tô"
+        },
+        {
+          "id": "7360f53839724cf8",
+          "japanese": "車",
+          "reading": "くるま",
+          "vietnamese": "Xe ô tô (nói chung)"
+        }
+      ],
+      "mnemonic": "Bánh xe bò nhìn từ trên xuống.",
+      "examples": [
+        {
+          "id": "8fc6fb5f2868a59f",
+          "japanese": "自転車で　買い物に　行きます。",
+          "reading": "じてんしゃで　かいものに　いきます。",
+          "vietnamese": "Tôi đi mua sắm bằng xe đạp.",
+          "note": ""
+        },
+        {
+          "id": "51a307397f4c420d",
+          "japanese": "うちから　えきまで　車で　5分です。",
+          "reading": "うちから　えきまで　くるまで　ごふんです。",
+          "vietnamese": "Từ nhà đến ga đi ô tô mất 5 phút.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "0ea8ec4335eca4e1",
+      "character": "自",
+      "hanViet": "TỰ",
+      "meaning": "bản thân",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "df207d06c06dfce7",
+          "japanese": "自由",
+          "reading": "じゆう",
+          "vietnamese": "Tự do"
+        },
+        {
+          "id": "f83e4f26aac6b8cd",
+          "japanese": "自己紹介",
+          "reading": "じこしょうかい",
+          "vietnamese": "Giới thiệu bản thân"
+        }
+      ],
+      "mnemonic": "Gai đâm vào mắt (目) phải TỰ (自) lấy ra.",
+      "examples": [
+        {
+          "id": "f727398f92a652e4",
+          "japanese": "簡単な　自己紹介　してください。",
+          "reading": "かんたんな　じこしょうかい　してください。",
+          "vietnamese": "Hãy giới thiệu bản thân ngắn gọn.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "f55e860910102c49",
+      "character": "寺",
+      "hanViet": "TỰ",
+      "meaning": "chùa",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "てら"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "c7b9333552e61487",
+          "japanese": "きんかく寺",
+          "reading": "きんかくじ",
+          "vietnamese": "Chùa Vàng"
+        },
+        {
+          "id": "73e23512b2eee25e",
+          "japanese": "お寺",
+          "reading": "おてら",
+          "vietnamese": "Chùa"
+        }
+      ],
+      "mnemonic": "Đo Đất (THỔ - 土) xem được bao nhiêu tấc (THỐN - 寸) để xây chùa (TỰ - 寺).",
+      "examples": [
+        {
+          "id": "b92f08b8a6b6f70d",
+          "japanese": "きんかく寺は　京都に　あります。",
+          "reading": "きんかくじは　きょうとに　あります。",
+          "vietnamese": "Chùa Vàng ở Kyoto.",
+          "note": ""
+        },
+        {
+          "id": "334d34d01a816b92",
+          "japanese": "この町に　古いお寺が　あります。",
+          "reading": "このまちに　ふるいおてらが　あります。",
+          "vietnamese": "Ở thị trấn này có một ngôi chùa cổ.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "27c1fb8b98eed8e5",
+      "character": "町",
+      "hanViet": "ĐINH",
+      "meaning": "thị trấn",
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "まち"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "fe2fb6a613f0acf4",
+          "japanese": "町内",
+          "reading": "ちょうない",
+          "vietnamese": "Trong thành phố"
+        },
+        {
+          "id": "721155055b5c2730",
+          "japanese": "町長",
+          "reading": "ちょうちょう",
+          "vietnamese": "Thị trưởng"
+        },
+        {
+          "id": "7f4b426468f6456a",
+          "japanese": "町",
+          "reading": "まち",
+          "vietnamese": "Thành phố"
+        }
+      ],
+      "mnemonic": "Một Thành phố (ĐINH - 町) bằng 1 ĐINH (丁) Ruộng (ĐIỀN - 田) (1 đinh = 100 mẫu).",
+      "examples": [
+        {
+          "id": "05e0e890c3de22e5",
+          "japanese": "先生と　私は　おなじ町内に　住んでいます。",
+          "reading": "せんせいと　わたしは　おなじちょうないに　すんでいます。",
+          "vietnamese": "Thầy giáo và tôi sống cùng một khu phố.",
+          "note": ""
+        },
+        {
+          "id": "cd096064d2e47bcf",
+          "japanese": "住んでいる町は　どんな町ですか。",
+          "reading": "すんでいるまちは　どんなまちですか。",
+          "vietnamese": "Thành phố bạn đang sống là thành phố như thế nào?",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "id": "24-dia-diem",
+  "name": "Bài 24 · Địa điểm",
+  "description": "会 社 病 院 店 — gặp, xã hội, bệnh, viện, cửa hàng: 会社, 病院, 入院, 喫茶店.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "fc4264f9a6fa1d6a",
+      "character": "会",
+      "hanViet": "HỘI",
+      "meaning": "gặp",
+      "onyomi": [
+        "カイ"
+      ],
+      "kunyomi": [
+        "あ.う"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "a42707a3cc681be1",
+          "japanese": "社会",
+          "reading": "しゃかい",
+          "vietnamese": "Xã hội"
+        },
+        {
+          "id": "8aa605e423a06e2d",
+          "japanese": "会議",
+          "reading": "かいぎ",
+          "vietnamese": "Cuộc họp"
+        },
+        {
+          "id": "f711a6e963c35d57",
+          "japanese": "会います",
+          "reading": "あいます",
+          "vietnamese": "Gặp"
+        }
+      ],
+      "mnemonic": "Hai (NHỊ - 二) người (NHÂN - 人) HỘI (会) ngộ nói chuyện tư (KHƯ - ム).",
+      "examples": [
+        {
+          "id": "bb3362466b4fb8f0",
+          "japanese": "今週金曜日の　午後　会議を　行います。",
+          "reading": "こんしゅうきんようびの　ごご　かいぎを　おこないます。",
+          "vietnamese": "Chiều thứ Sáu tuần này sẽ tổ chức cuộc họp.",
+          "note": ""
+        },
+        {
+          "id": "4cd76519acccefaf",
+          "japanese": "今晩、七時に　渋谷で　友達に　会っているね。",
+          "reading": "こんばん、しちじに　しぶやで　ともだちに　あっているね。",
+          "vietnamese": "Tối nay, 7 giờ tôi gặp bạn ở Shibuya nhé.",
+          "note": "Câu chép đúng PDF. Hẹn gặp trong tương lai thì nói tự nhiên là 会うね／会います."
+        }
+      ]
+    },
+    {
+      "id": "4bf47a3c00013915",
+      "character": "社",
+      "hanViet": "XÃ",
+      "meaning": "xã hội",
+      "onyomi": [
+        "シャ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "ce4a9a6d2b636808",
+          "japanese": "会社",
+          "reading": "かいしゃ",
+          "vietnamese": "Công ty"
+        },
+        {
+          "id": "2a82456ff5dd96d8",
+          "japanese": "神社",
+          "reading": "じんじゃ",
+          "vietnamese": "Đền"
+        },
+        {
+          "id": "c3adaea32dbd0f53",
+          "japanese": "社長",
+          "reading": "しゃちょう",
+          "vietnamese": "Giám đốc"
+        }
+      ],
+      "mnemonic": "Nhiều chuyện THỊ (礻) phi trên mặt Đất (THỔ - 土) làm nên XÃ (社) hội.",
+      "examples": [
+        {
+          "id": "c885810436961d36",
+          "japanese": "会社から　ケーキを　もらいました。",
+          "reading": "かいしゃから　ケーキを　もらいました。",
+          "vietnamese": "Tôi được công ty tặng bánh ngọt.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "0a5ddb4e61b253c7",
+      "character": "病",
+      "hanViet": "BỆNH",
+      "meaning": "ốm/ bệnh",
+      "onyomi": [
+        "ビョウ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "840894118f2e9b48",
+          "japanese": "病院",
+          "reading": "びょういん",
+          "vietnamese": "Bệnh viện"
+        },
+        {
+          "id": "d949829993db5471",
+          "japanese": "病気",
+          "reading": "びょうき",
+          "vietnamese": "Bệnh"
+        }
+      ],
+      "mnemonic": "Trong (NỘI - 内) người mà bị Ốm (NẠCH - 疒) thì phải đi BỆNH (病) viện.",
+      "examples": [
+        {
+          "id": "eeb81e20291c1c45",
+          "japanese": "病気に　なりたくないから、野菜を　たくさん　食べます。",
+          "reading": "びょうきに　なりたくないから、やさいを　たくさん　たべます。",
+          "vietnamese": "Vì không muốn bị bệnh nên tôi ăn nhiều rau.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "41fb1198f05a2b0d",
+      "character": "院",
+      "hanViet": "VIỆN",
+      "meaning": "viện",
+      "onyomi": [
+        "イン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "840894118f2e9b48",
+          "japanese": "病院",
+          "reading": "びょういん",
+          "vietnamese": "Bệnh viện"
+        },
+        {
+          "id": "2d4f46eba2f376ca",
+          "japanese": "入院します",
+          "reading": "にゅういんします",
+          "vietnamese": "Nhập viện"
+        },
+        {
+          "id": "4760c34e7a1d06dc",
+          "japanese": "退院します",
+          "reading": "たいいんします",
+          "vietnamese": "Xuất viện"
+        }
+      ],
+      "mnemonic": "Nhà (MIÊN - 宀) trên Gò đất (PHỤ - 阝) giúp phục hồi NGUYÊN (元) khí là bệnh VIỆN (院).",
+      "examples": [
+        {
+          "id": "4c676839fea50d90",
+          "japanese": "大きなけがを　して、入院しました。",
+          "reading": "おおきなけがを　して、にゅういんしました。",
+          "vietnamese": "Tôi bị thương nặng nên đã nhập viện.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "62eca87aa46c80a4",
+      "character": "店",
+      "hanViet": "ĐIẾM",
+      "meaning": "cửa hàng/ cửa tiệm",
+      "onyomi": [
+        "テン"
+      ],
+      "kunyomi": [
+        "みせ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "6382fce56adf9a10",
+          "japanese": "喫茶店",
+          "reading": "きっさてん",
+          "vietnamese": "Quán giải khát, quán trà"
+        },
+        {
+          "id": "b76c2c93a768ffd4",
+          "japanese": "店",
+          "reading": "みせ",
+          "vietnamese": "Cửa hàng, cửa hiệu"
+        }
+      ],
+      "mnemonic": "QUÁN (店) thời xưa thường là nơi có Mái (NGHIỄM - 广), có người BỐC (卜) bài bói toán, Mồm (KHẨU - 口) nói lời chiêm tinh kì quái.",
+      "examples": [
+        {
+          "id": "53f0fafe5d0e41f9",
+          "japanese": "喫茶店で　コーヒーを飲みます。",
+          "reading": "きっさてんで　コーヒーをのみます。",
+          "vietnamese": "Tôi uống cà phê ở quán giải khát.",
+          "note": ""
+        },
+        {
+          "id": "432b0ccce1f3597f",
+          "japanese": "店の　前に　人々が　並んでいます。",
+          "reading": "みせの　まえに　ひとびとが　ならんでいます。",
+          "vietnamese": "Mọi người đang xếp hàng trước cửa hàng.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

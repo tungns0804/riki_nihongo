@@ -1,0 +1,240 @@
+{
+  "id": "17-thien-nhien",
+  "name": "Bài 17 · Thiên nhiên 2",
+  "description": "花 雨 天 員 者 — hoa, mưa, bầu trời, nhân viên, người: お花見, 大雨, 天気, 会社員, 医者.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "6bae7ec497381615",
+      "character": "花",
+      "hanViet": "HOA",
+      "meaning": "hoa",
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "はな"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "9fb3a61bda60ad29",
+          "japanese": "花びん",
+          "reading": "かびん",
+          "vietnamese": "Bình hoa"
+        },
+        {
+          "id": "6f3d3ad50c879a41",
+          "japanese": "花",
+          "reading": "はな",
+          "vietnamese": "Hoa"
+        },
+        {
+          "id": "a8c00f73382e6b46",
+          "japanese": "お花見",
+          "reading": "おはなみ",
+          "vietnamese": "Ngắm hoa"
+        },
+        {
+          "id": "ff79f581ac08e8a3",
+          "japanese": "生け花",
+          "reading": "いけばな",
+          "vietnamese": "Nghệ thuật cắm hoa"
+        },
+        {
+          "id": "dcf6539fe4c0456f",
+          "japanese": "花火",
+          "reading": "はなび",
+          "vietnamese": "Pháo hoa"
+        }
+      ],
+      "mnemonic": "Cỏ cây (THẢO - 艹) tiến HOÁ (化) một thời gian sẽ ra HOA (花).",
+      "examples": [
+        {
+          "id": "4a45cc9d8459d673",
+          "japanese": "テーブルの　上の　花びんに　花を　入れてください。",
+          "reading": "テーブルの　うえの　かびんに　はなを　いれてください。",
+          "vietnamese": "Hãy cắm hoa vào bình hoa trên bàn.",
+          "note": ""
+        },
+        {
+          "id": "744240ae1700287b",
+          "japanese": "週末、一緒に　お花見を　しましょう。",
+          "reading": "しゅうまつ、いっしょに　おはなみを　しましょう。",
+          "vietnamese": "Cuối tuần cùng đi ngắm hoa nhé.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "c47361a9bf1985cc",
+      "character": "雨",
+      "hanViet": "VŨ",
+      "meaning": "mưa",
+      "onyomi": [],
+      "kunyomi": [
+        "あめ",
+        "あま"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "b7c1fc348a5b479d",
+          "japanese": "雨",
+          "reading": "あめ",
+          "vietnamese": "Mưa"
+        },
+        {
+          "id": "4ef3dbe1e245786d",
+          "japanese": "大雨",
+          "reading": "おおあめ",
+          "vietnamese": "Mưa lớn"
+        },
+        {
+          "id": "3fa59a0123d8cb29",
+          "japanese": "雨戸",
+          "reading": "あまど",
+          "vietnamese": "Cửa che mưa"
+        }
+      ],
+      "mnemonic": "TRỜI (T) MƯA (M) 4 hạt.",
+      "examples": [
+        {
+          "id": "648348abc53685a7",
+          "japanese": "日本の　六月に　雨が　たくさん　ふります。",
+          "reading": "にほんの　ろくがつに　あめが　たくさん　ふります。",
+          "vietnamese": "Ở Nhật, tháng 6 mưa nhiều.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "e32c7a67868fbdf9",
+      "character": "天",
+      "hanViet": "THIÊN",
+      "meaning": "bầu trời",
+      "onyomi": [
+        "テン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "2052e378334ef55e",
+          "japanese": "天気",
+          "reading": "てんき",
+          "vietnamese": "Thời tiết"
+        },
+        {
+          "id": "dc82fe35c2b56daf",
+          "japanese": "天ぷら",
+          "reading": "てんぷら",
+          "vietnamese": "Món tempura"
+        }
+      ],
+      "mnemonic": "Trời (THIÊN - 天) là To lớn (ĐẠI - 大) NHẤT (一).",
+      "examples": [
+        {
+          "id": "b82deec5e8caae09",
+          "japanese": "天気が　いいから　遊びましょう。",
+          "reading": "てんきが　いいから　あそびましょう。",
+          "vietnamese": "Trời đẹp nên đi chơi thôi.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "e040daf5de0061a8",
+      "character": "員",
+      "hanViet": "VIÊN",
+      "meaning": "nhân viên",
+      "onyomi": [
+        "イン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "feb9520b4a9cce55",
+          "japanese": "会社員",
+          "reading": "かいしゃいん",
+          "vietnamese": "Nhân viên công ty"
+        },
+        {
+          "id": "3112a3c632a822d2",
+          "japanese": "銀行員",
+          "reading": "ぎんこういん",
+          "vietnamese": "Nhân viên ngân hàng"
+        }
+      ],
+      "mnemonic": "Nhân VIÊN (員) là bảo BỐI (貝) biết nói (KHẨU - 口) của công ty.",
+      "examples": [
+        {
+          "id": "f592bbf1c20468f7",
+          "japanese": "私は　Riki会社の　会社員です。",
+          "reading": "わたしは　Rikiがいしゃの　かいしゃいんです。",
+          "vietnamese": "Tôi là nhân viên công ty Riki.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "35f64e98b78583fa",
+      "character": "者",
+      "hanViet": "GIẢ",
+      "meaning": "học giả/ người",
+      "onyomi": [
+        "シャ"
+      ],
+      "kunyomi": [
+        "もの"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "3c6615eb5278e646",
+          "japanese": "医者",
+          "reading": "いしゃ",
+          "vietnamese": "Bác sĩ"
+        },
+        {
+          "id": "44aeaacce79d78e9",
+          "japanese": "科学者",
+          "reading": "かがくしゃ",
+          "vietnamese": "Nhà khoa học"
+        },
+        {
+          "id": "d2e7c757069b286b",
+          "japanese": "研究者",
+          "reading": "けんきゅうしゃ",
+          "vietnamese": "Nhà nghiên cứu"
+        },
+        {
+          "id": "918a44a06b505916",
+          "japanese": "若者",
+          "reading": "わかもの",
+          "vietnamese": "Người trẻ"
+        }
+      ],
+      "mnemonic": "ĐẤT (土) mà nằm trên mặt trời (NHẬT - 日) là chuyện GIẢ (者) tưởng.",
+      "examples": [
+        {
+          "id": "d3dbf432f45e0daa",
+          "japanese": "夢は　医者に　なりたい。",
+          "reading": "ゆめは　いしゃに　なりたい。",
+          "vietnamese": "Ước mơ của tôi là muốn trở thành bác sĩ.",
+          "note": "Câu chép đúng PDF. Nói chuẩn là 夢は医者になることです hoặc 医者になりたいです."
+        },
+        {
+          "id": "3163d1a2ec62d000",
+          "japanese": "若者は　よく　おそく　寝ます。",
+          "reading": "わかものは　よく　おそく　ねます。",
+          "vietnamese": "Người trẻ hay ngủ muộn.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

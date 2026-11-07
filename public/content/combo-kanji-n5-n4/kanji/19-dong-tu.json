@@ -1,0 +1,259 @@
+{
+  "id": "19-dong-tu",
+  "name": "Bài 19 · Động từ 2",
+  "description": "買 言 読 話 休 — mua, nói, đọc, nói chuyện, nghỉ: 買い物, 言葉, 読書, 電話, 夏休み.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "a137351df141fe8a",
+      "character": "買",
+      "hanViet": "MÃI",
+      "meaning": "mua",
+      "onyomi": [],
+      "kunyomi": [
+        "か.う"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "194066ffd01b2eb3",
+          "japanese": "買います",
+          "reading": "かいます",
+          "vietnamese": "Mua"
+        },
+        {
+          "id": "0c304720db2fcfb2",
+          "japanese": "買い物",
+          "reading": "かいもの",
+          "vietnamese": "Mua sắm"
+        }
+      ],
+      "mnemonic": "Khi mua hàng, mắt ngang (VÕNG - 罒) mắt dọc (MỤC - 目), 2 chân di chuyển.",
+      "examples": [
+        {
+          "id": "4a691da8c35d3c85",
+          "japanese": "週末に　かぞくと　買い物に　行きます。",
+          "reading": "しゅうまつに　かぞくと　かいものに　いきます。",
+          "vietnamese": "Cuối tuần tôi đi mua sắm cùng gia đình.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "99fe933bb26e0a34",
+      "character": "言",
+      "hanViet": "NGÔN",
+      "meaning": "nói/ ngôn ngữ",
+      "onyomi": [
+        "ゲン"
+      ],
+      "kunyomi": [
+        "い.う",
+        "こと"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "bb19e363a4485783",
+          "japanese": "方言",
+          "reading": "ほうげん",
+          "vietnamese": "Giọng địa phương"
+        },
+        {
+          "id": "884e4687f6f438f2",
+          "japanese": "言います",
+          "reading": "いいます",
+          "vietnamese": "Nói"
+        },
+        {
+          "id": "60d9fd6af397d446",
+          "japanese": "言葉",
+          "reading": "ことば",
+          "vietnamese": "Từ ngữ"
+        }
+      ],
+      "mnemonic": "Hình ảnh mồm nói ra sóng âm thanh.",
+      "examples": [
+        {
+          "id": "056955cd5121653d",
+          "japanese": "大阪の人は　方言を　つかいます。",
+          "reading": "おおさかのひとは　ほうげんを　つかいます。",
+          "vietnamese": "Người Osaka dùng tiếng địa phương.",
+          "note": ""
+        },
+        {
+          "id": "eede8e2c4c14d7ee",
+          "japanese": "日本語で　言ってください。",
+          "reading": "にほんごで　いってください。",
+          "vietnamese": "Hãy nói bằng tiếng Nhật.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "afc0cc974f3528ef",
+      "character": "読",
+      "hanViet": "ĐỘC",
+      "meaning": "đọc",
+      "onyomi": [
+        "ドク"
+      ],
+      "kunyomi": [
+        "よ.む"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "22023bea4f740d65",
+          "japanese": "読書",
+          "reading": "どくしょ",
+          "vietnamese": "Đọc sách"
+        },
+        {
+          "id": "cc8ca364a60d9051",
+          "japanese": "読者",
+          "reading": "どくしゃ",
+          "vietnamese": "Độc giả, người đọc"
+        },
+        {
+          "id": "582006fce5f3e867",
+          "japanese": "読みます",
+          "reading": "よみます",
+          "vietnamese": "Đọc"
+        },
+        {
+          "id": "62d804d9e7b9e502",
+          "japanese": "読み方",
+          "reading": "よみかた",
+          "vietnamese": "Cách đọc"
+        }
+      ],
+      "mnemonic": "Để lời nói (NGÔN - 言) có giá trị và bán (MẠI - 売) ra tiền thì phải đọc (ĐỘC - 読).",
+      "examples": [
+        {
+          "id": "acbcbe10e7c715d0",
+          "japanese": "私の　しゅみは　読書です。",
+          "reading": "わたしの　しゅみは　どくしょです。",
+          "vietnamese": "Sở thích của tôi là đọc sách.",
+          "note": ""
+        },
+        {
+          "id": "73ff76245b0cf57c",
+          "japanese": "私の　しゅみは　マンガを　読むことです。",
+          "reading": "わたしの　しゅみは　マンガを　よむことです。",
+          "vietnamese": "Sở thích của tôi là đọc truyện tranh.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "66ca9c1ff632ca34",
+      "character": "話",
+      "hanViet": "THOẠI",
+      "meaning": "nói chuyện",
+      "onyomi": [
+        "ワ"
+      ],
+      "kunyomi": [
+        "はな.す",
+        "はなし"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "47e51f57d839d7af",
+          "japanese": "会話",
+          "reading": "かいわ",
+          "vietnamese": "Hội thoại"
+        },
+        {
+          "id": "95e502b118138a62",
+          "japanese": "電話",
+          "reading": "でんわ",
+          "vietnamese": "Điện thoại"
+        },
+        {
+          "id": "754c4d67c0f351e4",
+          "japanese": "話します",
+          "reading": "はなします",
+          "vietnamese": "Nói chuyện"
+        },
+        {
+          "id": "feaccfd07e74ae57",
+          "japanese": "話",
+          "reading": "はなし",
+          "vietnamese": "Câu chuyện"
+        }
+      ],
+      "mnemonic": "Nói chuyện thì phải dùng ngôn ngữ (NGÔN - 言) và lưỡi (THIỆT - 舌).",
+      "examples": [
+        {
+          "id": "e3bf82a7615a6f8d",
+          "japanese": "会話を　れんしゅう　しましょう。",
+          "reading": "かいわを　れんしゅう　しましょう。",
+          "vietnamese": "Cùng luyện hội thoại nào.",
+          "note": ""
+        },
+        {
+          "id": "fd977568898b37bc",
+          "japanese": "先生の話を　聞きました。",
+          "reading": "せんせいのはなしを　ききました。",
+          "vietnamese": "Tôi đã nghe câu chuyện của thầy giáo.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "0f8877442d774c5f",
+      "character": "休",
+      "hanViet": "HƯU",
+      "meaning": "nghỉ ngơi",
+      "onyomi": [
+        "キュウ"
+      ],
+      "kunyomi": [
+        "やす.む"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "7e3a705295b688b5",
+          "japanese": "休日",
+          "reading": "きゅうじつ",
+          "vietnamese": "Ngày nghỉ"
+        },
+        {
+          "id": "1950f1d0168707be",
+          "japanese": "休みます",
+          "reading": "やすみます",
+          "vietnamese": "Nghỉ"
+        },
+        {
+          "id": "8629b3fb745a1fd3",
+          "japanese": "夏休み",
+          "reading": "なつやすみ",
+          "vietnamese": "Nghỉ hè"
+        }
+      ],
+      "mnemonic": "Người đứng (NHÂN ĐỨNG - 亻) nghỉ ngơi bên cạnh cái cây (MỘC - 木).",
+      "examples": [
+        {
+          "id": "0bc5309566c881b4",
+          "japanese": "五月五日は　休日です。",
+          "reading": "ごがついつかは　きゅうじつです。",
+          "vietnamese": "Ngày 5 tháng 5 là ngày nghỉ.",
+          "note": ""
+        },
+        {
+          "id": "63201b96e04bee15",
+          "japanese": "夏休みは　何を　しますか。",
+          "reading": "なつやすみは　なにを　しますか。",
+          "vietnamese": "Nghỉ hè bạn sẽ làm gì?",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

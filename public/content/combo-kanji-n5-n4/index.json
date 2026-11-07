@@ -4,7 +4,7 @@
     "name": "Combo Kanji N5-N4",
     "level": "N5-N4"
   },
-  "generatedAt": "2026-11-07T03:14:10.236Z",
+  "generatedAt": "2026-11-07T03:23:57.585Z",
   "modules": [
     {
       "id": "kanji",
@@ -173,6 +173,116 @@
           "itemCount": 5,
           "order": 15,
           "file": "kanji/15-dong-vat.json"
+        },
+        {
+          "id": "16-thien-nhien",
+          "name": "Bài 16 · Thiên nhiên 1",
+          "description": "山 川 田 海 空 — núi, sông, ruộng, biển, trời: 富士山, 田中さん, 海外, 空港; âm đặc biệt 田舎 いなか.",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 16,
+          "file": "kanji/16-thien-nhien.json"
+        },
+        {
+          "id": "17-thien-nhien",
+          "name": "Bài 17 · Thiên nhiên 2",
+          "description": "花 雨 天 員 者 — hoa, mưa, bầu trời, nhân viên, người: お花見, 大雨, 天気, 会社員, 医者.",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 17,
+          "file": "kanji/17-thien-nhien.json"
+        },
+        {
+          "id": "18-dong-tu",
+          "name": "Bài 18 · Động từ 1",
+          "description": "見 聞 書 食 飲 — nhìn, nghe, viết, ăn, uống: 見ます, 新聞, 辞書, 食堂, 飲み物.",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 18,
+          "file": "kanji/18-dong-tu.json"
+        },
+        {
+          "id": "19-dong-tu",
+          "name": "Bài 19 · Động từ 2",
+          "description": "買 言 読 話 休 — mua, nói, đọc, nói chuyện, nghỉ: 買い物, 言葉, 読書, 電話, 夏休み.",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 19,
+          "file": "kanji/19-dong-tu.json"
+        },
+        {
+          "id": "20-tinh-tu",
+          "name": "Bài 20 · Tính từ 1",
+          "description": "高 安 長 気 元 — cao/đắt, rẻ/an toàn, dài, khí, nguồn gốc: 高校, 安心, 社長, 天気, 元気.",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 20,
+          "file": "kanji/20-tinh-tu.json"
+        },
+        {
+          "id": "21-tinh-tu",
+          "name": "Bài 21 · Tính từ 2",
+          "description": "新 古 少 多 明 — mới, cũ, ít, nhiều, sáng: 新聞, 中古, 少し, 多い, 説明; âm đặc biệt 明日 あした.",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 21,
+          "file": "kanji/21-tinh-tu.json"
+        },
+        {
+          "id": "22-do-an",
+          "name": "Bài 22 · Đồ ăn",
+          "description": "米 肉 茶 物 好 — gạo, thịt, trà, đồ vật, thích: 鶏肉, お茶, 喫茶店, 動物, 大好き.",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 22,
+          "file": "kanji/22-do-an.json"
+        },
+        {
+          "id": "23-phuong-tien",
+          "name": "Bài 23 · Phương tiện",
+          "description": "電 車 自 寺 町 — điện, xe, bản thân, chùa, thị trấn: 電車, 自転車, 自己紹介, お寺, 町.",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 23,
+          "file": "kanji/23-phuong-tien.json"
+        },
+        {
+          "id": "24-dia-diem",
+          "name": "Bài 24 · Địa điểm",
+          "description": "会 社 病 院 店 — gặp, xã hội, bệnh, viện, cửa hàng: 会社, 病院, 入院, 喫茶店.",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 24,
+          "file": "kanji/24-dia-diem.json"
+        },
+        {
+          "id": "25-chu-khac",
+          "name": "Bài 25 · Các chữ khác",
+          "description": "毎 回 午 同 立 — mỗi, lần, giữa trưa, giống, đứng: 毎日, 一回, 午前, 午後, 同じ, 立ちます.",
+          "kind": "kanji",
+          "parent": "",
+          "group": "",
+          "itemCount": 5,
+          "order": 25,
+          "file": "kanji/25-chu-khac.json"
         },
         {
           "id": "01-chu-so",

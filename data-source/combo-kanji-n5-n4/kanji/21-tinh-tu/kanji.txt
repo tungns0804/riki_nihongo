@@ -1,0 +1,41 @@
+# Combo Kanji N5-N4 — KANJI · Bài 21 (Tính từ 2)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 21 · TÍNH TỪ 2 (bai21.pdf), thẻ 101–105.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+新,TÂN,mới,シン,あたら.しい,|新聞 (しんぶん)=Báo chí;新しい (あたらしい)=Mới
+覚: Cây (MỘC - 木) đứng thẳng (LẬP - 立) là thu hoạch được, phải dùng rìu (CÂN - 斤) chặt đi để trồng cây mới (TÂN - 新).
+・私は　新聞を　読んでいます。| Tôi đang đọc báo.
+読: わたしは　しんぶんを　よんでいます。
+・新しい　車が　ほしいです。| Tôi muốn có một chiếc xe mới.
+読: あたらしい　くるまが　ほしいです。
+
+古,CỔ,cũ,コ,ふる.い,|中古 (ちゅうこ)=Đồ cũ;古い (ふるい)=Cũ;古新聞 (ふるしんぶん)=Báo cũ
+覚: Câu chuyện được truyền miệng (KHẨU - 口) 10 (THẬP - 十) lần sẽ trở nên cũ (CỔ - 古).
+・中古の　パソコンを　買います。| Tôi mua máy tính cũ.
+読: ちゅうこの　パソコンを　かいます。
+・きょうとは　古い町です。| Kyoto là thành phố cổ.
+読: きょうとは　ふるいまちです。
+
+少,THIỂU,một ít,ショウ,すこ.し・すく.ない,|少々 (しょうしょう)=Một chút, một lát;少し (すこし)=Một chút, một ít;少ない (すくない)=Ít, hiếm
+覚: Đã bé tí (TIỂU - 小) còn bị cắt bớt đi thì sẽ thiếu (THIỂU - 少).
+・少々　おまちください。| Xin vui lòng đợi một chút.
+読: しょうしょう　おまちください。
+・少し　漢字を　読むことが　できます。| Tôi có thể đọc được một ít chữ Hán.
+読: すこし　かんじを　よむことが　できます。
+
+# 多分: thẻ dịch "Phần lớn" — 多分 (たぶん) nghĩa là "có lẽ", sửa lại.
+多,ĐA,nhiều,タ,おお.い,|多少 (たしょう)=Một chút, một ít, ít nhiều;多分 (たぶん)=Có lẽ;多い (おおい)=Nhiều
+覚: Chỉ còn một mảnh tình riêng TA (タ) với TA (タ), không còn NHIỀU người như xưa nữa.
+・このシャツは　多少写真と　ちがいます。| Chiếc áo này hơi khác so với ảnh.
+読: このシャツは　たしょうしゃしんと　ちがいます。
+・れいぞうこの中に　食べ物が　多いです。| Trong tủ lạnh có nhiều đồ ăn.
+読: れいぞうこのなかに　たべものが　おおいです。
+
+# 明日: mục "Âm đặc biệt" dưới thẻ.
+明,MINH,sáng,メイ,あか.るい,|説明 (せつめい)=Giải thích;明るい (あかるい)=Tươi sáng;明日 (あした)=Ngày mai (âm đặc biệt)
+覚: Mặt trời (NHẬT - 日) và mặt trăng (NGUYỆT - 月) đứng cạnh nhau thì rất sáng (MINH - 明).
+・これを　説明しても　いいですか。| Tôi giải thích cái này được không?
+読: これを　せつめいしても　いいですか。
+・私の　へやは　とても　明るいです。| Phòng của tôi rất sáng sủa.
+読: わたしの　へやは　とても　あかるいです。

@@ -1,0 +1,245 @@
+{
+  "id": "20-tinh-tu",
+  "name": "Bài 20 · Tính từ 1",
+  "description": "高 安 長 気 元 — cao/đắt, rẻ/an toàn, dài, khí, nguồn gốc: 高校, 安心, 社長, 天気, 元気.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "c02f75fe593d52db",
+      "character": "高",
+      "hanViet": "CAO",
+      "meaning": "cao/ đắt",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "たか.い"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "9b17b0cd8ff839c3",
+          "japanese": "高校",
+          "reading": "こうこう",
+          "vietnamese": "Trường cấp 3"
+        },
+        {
+          "id": "3ae522d8dcbf3978",
+          "japanese": "高い",
+          "reading": "たかい",
+          "vietnamese": "Cao, đắt"
+        }
+      ],
+      "mnemonic": "Hình ảnh nhà 2 tầng: tầng 1, tầng 2, mái. Ngày xưa nhà 2 tầng là CAO.",
+      "examples": [
+        {
+          "id": "9ba30240c1a2ebe2",
+          "japanese": "来年の　4月に　高校に　入ります。",
+          "reading": "らいねんの　しがつに　こうこうに　はいります。",
+          "vietnamese": "Tháng 4 năm sau tôi sẽ vào cấp 3.",
+          "note": ""
+        },
+        {
+          "id": "e64951774e555e7a",
+          "japanese": "この　コンピューターは　高いですね。",
+          "reading": "この　コンピューターは　たかいですね。",
+          "vietnamese": "Cái máy tính này đắt nhỉ.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "6b81a7b93c903655",
+      "character": "安",
+      "hanViet": "AN",
+      "meaning": "rẻ/ an toàn",
+      "onyomi": [
+        "アン"
+      ],
+      "kunyomi": [
+        "やす.い"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "64cf47c4856b103a",
+          "japanese": "安全",
+          "reading": "あんぜん",
+          "vietnamese": "An toàn"
+        },
+        {
+          "id": "d27f4b6112b1c01c",
+          "japanese": "安心",
+          "reading": "あんしん",
+          "vietnamese": "An tâm, yên tâm"
+        },
+        {
+          "id": "b01490e85f6115b7",
+          "japanese": "安い",
+          "reading": "やすい",
+          "vietnamese": "Rẻ"
+        }
+      ],
+      "mnemonic": "Dưới mái nhà (MIÊN - 宀) có hình bóng người phụ NỮ (女) thì bình AN (安).",
+      "examples": [
+        {
+          "id": "608121cf6f47f075",
+          "japanese": "帰りましたから、安心してください。",
+          "reading": "かえりましたから、あんしんしてください。",
+          "vietnamese": "Tôi về rồi nên hãy yên tâm.",
+          "note": ""
+        },
+        {
+          "id": "6b12aba64033a305",
+          "japanese": "ちょっと　高いですね。もっと安い　シャツは　ありませんか。",
+          "reading": "ちょっと　たかいですね。もっとやすい　シャツは　ありませんか。",
+          "vietnamese": "Hơi đắt nhỉ. Có chiếc áo sơ mi nào rẻ hơn không?",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "f2a4d8ef6ea428d3",
+      "character": "長",
+      "hanViet": "TRƯỜNG",
+      "meaning": "dài",
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "なが.い"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "c3adaea32dbd0f53",
+          "japanese": "社長",
+          "reading": "しゃちょう",
+          "vietnamese": "Giám đốc"
+        },
+        {
+          "id": "06b06c7eaab4c777",
+          "japanese": "部長",
+          "reading": "ぶちょう",
+          "vietnamese": "Trưởng phòng"
+        },
+        {
+          "id": "b2499c73377ee7aa",
+          "japanese": "長い",
+          "reading": "ながい",
+          "vietnamese": "Dài"
+        }
+      ],
+      "mnemonic": "Hình ảnh chiếc lược chải mái tóc dài.",
+      "examples": [
+        {
+          "id": "427440df3e2691a1",
+          "japanese": "A社の　部長に　なりました。",
+          "reading": "Aしゃの　ぶちょうに　なりました。",
+          "vietnamese": "Tôi đã trở thành trưởng phòng của công ty A.",
+          "note": ""
+        },
+        {
+          "id": "cefcbce01e46ee33",
+          "japanese": "私の　かみは　長いですよ。",
+          "reading": "わたしの　かみは　ながいですよ。",
+          "vietnamese": "Tóc tôi dài đấy.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "5be6e11811e8165d",
+      "character": "気",
+      "hanViet": "KHÍ",
+      "meaning": "không khí",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "2052e378334ef55e",
+          "japanese": "天気",
+          "reading": "てんき",
+          "vietnamese": "Thời tiết"
+        },
+        {
+          "id": "1b5de23733ff60f9",
+          "japanese": "元気",
+          "reading": "げんき",
+          "vietnamese": "Khỏe mạnh"
+        },
+        {
+          "id": "d98bb022512b98fa",
+          "japanese": "気持ち",
+          "reading": "きもち",
+          "vietnamese": "Cảm giác"
+        },
+        {
+          "id": "bf47bd74b012ff9f",
+          "japanese": "人気",
+          "reading": "にんき",
+          "vietnamese": "Yêu thích"
+        }
+      ],
+      "mnemonic": "Không KHÍ (気) là KHÍ (气) khiến ta MÊ (メ) mệt.",
+      "examples": [
+        {
+          "id": "67bb6095838d6133",
+          "japanese": "いい天気だから　さんぽしましょう。",
+          "reading": "いいてんきだから　さんぽしましょう。",
+          "vietnamese": "Trời đẹp nên cùng đi dạo nhé.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "5d3018cd238d2b71",
+      "character": "元",
+      "hanViet": "NGUYÊN",
+      "meaning": "nguồn gốc",
+      "onyomi": [
+        "ゲン"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1b5de23733ff60f9",
+          "japanese": "元気",
+          "reading": "げんき",
+          "vietnamese": "Khỏe, khỏe mạnh"
+        },
+        {
+          "id": "19e150a6befe7e53",
+          "japanese": "元",
+          "reading": "もと",
+          "vietnamese": "Nguyên bản, gốc, căn bản"
+        }
+      ],
+      "mnemonic": "Thời NGUYÊN (元) thuỷ chỉ có 2 (NHỊ - 二) người là Adam và Eva đi (NHÂN ĐI - 儿) cùng nhau.",
+      "examples": [
+        {
+          "id": "34bd61736743c865",
+          "japanese": "A：お久しぶりですね。お元気ですか。　B：元気です。",
+          "reading": "A：おひさしぶりですね。おげんきですか。　B：げんきです。",
+          "vietnamese": "A: Lâu rồi không gặp nhỉ. Bạn có khỏe không? B: Tôi khỏe.",
+          "note": ""
+        },
+        {
+          "id": "048092350bbbcd7d",
+          "japanese": "使ったものは　元の場所に　戻してください。",
+          "reading": "つかったものは　もとのばしょに　もどしてください。",
+          "vietnamese": "Đồ đã dùng thì hãy để lại chỗ cũ.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

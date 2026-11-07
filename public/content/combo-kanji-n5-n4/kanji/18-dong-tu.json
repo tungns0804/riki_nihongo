@@ -1,0 +1,276 @@
+{
+  "id": "18-dong-tu",
+  "name": "Bài 18 · Động từ 1",
+  "description": "見 聞 書 食 飲 — nhìn, nghe, viết, ăn, uống: 見ます, 新聞, 辞書, 食堂, 飲み物.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "bcd056d92ead7968",
+      "character": "見",
+      "hanViet": "KIẾN",
+      "meaning": "nhìn",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [
+        "み.る"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "9112d78794c58a06",
+          "japanese": "意見",
+          "reading": "いけん",
+          "vietnamese": "Ý kiến"
+        },
+        {
+          "id": "4b0930f7827e0bbb",
+          "japanese": "見学",
+          "reading": "けんがく",
+          "vietnamese": "Kiến tập"
+        },
+        {
+          "id": "4d963892859311f6",
+          "japanese": "見ます",
+          "reading": "みます",
+          "vietnamese": "Xem, nhìn"
+        },
+        {
+          "id": "143da45d9e886caa",
+          "japanese": "見せます",
+          "reading": "みせます",
+          "vietnamese": "Cho xem"
+        },
+        {
+          "id": "2e18b82fee026ad9",
+          "japanese": "花見",
+          "reading": "はなみ",
+          "vietnamese": "Ngắm hoa"
+        }
+      ],
+      "mnemonic": "1) Chân đứng (NHÂN ĐI - 儿) Mắt (MỤC - 目) Nhìn (KIẾN - 見). 2) Chân đưa (NHÂN ĐI - 儿) Mắt (MỤC - 目) đi chứng KIẾN (見) mọi việc.",
+      "examples": [
+        {
+          "id": "1f47c675caedda9e",
+          "japanese": "みなさん　何か　意見が　ありますか。",
+          "reading": "みなさん　なにか　いけんが　ありますか。",
+          "vietnamese": "Mọi người có ý kiến gì không?",
+          "note": ""
+        },
+        {
+          "id": "d105caf466bea375",
+          "japanese": "友だちと　こうえんへ　花火を　見に　行きます。",
+          "reading": "ともだちと　こうえんへ　はなびを　みに　いきます。",
+          "vietnamese": "Tôi đi đến công viên với bạn để xem pháo hoa.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "67c2da20efa51799",
+      "character": "聞",
+      "hanViet": "VĂN",
+      "meaning": "nghe",
+      "onyomi": [
+        "ブン"
+      ],
+      "kunyomi": [
+        "き.く"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "dc15d2a2fef27fa8",
+          "japanese": "新聞",
+          "reading": "しんぶん",
+          "vietnamese": "Báo"
+        },
+        {
+          "id": "ab4a76c5e8c2f813",
+          "japanese": "聞きます",
+          "reading": "ききます",
+          "vietnamese": "Nghe, hỏi"
+        }
+      ],
+      "mnemonic": "Áp Tai (NHĨ - 耳) vào Cổng (MÔN - 門) để Nghe (VĂN - 聞).",
+      "examples": [
+        {
+          "id": "e4632e423a892f9b",
+          "japanese": "お父さんは　毎朝　新聞を　読みます。",
+          "reading": "おとうさんは　まいあさ　しんぶんを　よみます。",
+          "vietnamese": "Bố tôi đọc báo mỗi sáng.",
+          "note": ""
+        },
+        {
+          "id": "228c9cec5e84c283",
+          "japanese": "CDを　聞いて、日本語を　勉強します。",
+          "reading": "CDを　きいて、にほんごを　べんきょうします。",
+          "vietnamese": "Tôi nghe CD để học tiếng Nhật.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "63d8abbef38a47ff",
+      "character": "書",
+      "hanViet": "THƯ",
+      "meaning": "viết/ sách",
+      "onyomi": [
+        "ショ"
+      ],
+      "kunyomi": [
+        "か.く",
+        "がき"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "fca2861b24d34466",
+          "japanese": "図書館",
+          "reading": "としょかん",
+          "vietnamese": "Thư viện"
+        },
+        {
+          "id": "34e3449b99fa3b37",
+          "japanese": "辞書",
+          "reading": "じしょ",
+          "vietnamese": "Từ điển"
+        },
+        {
+          "id": "025be1dd7ed28d0f",
+          "japanese": "書きます",
+          "reading": "かきます",
+          "vietnamese": "Viết"
+        },
+        {
+          "id": "28134c60070ba99e",
+          "japanese": "葉書",
+          "reading": "はがき",
+          "vietnamese": "Bưu thiếp"
+        }
+      ],
+      "mnemonic": "Hình ảnh tay cầm bút viết lên giấy.",
+      "examples": [
+        {
+          "id": "0512919045ff1095",
+          "japanese": "辞書で　ことばの　いみを　しらべます。",
+          "reading": "じしょで　ことばの　いみを　しらべます。",
+          "vietnamese": "Tra nghĩa của từ bằng từ điển.",
+          "note": ""
+        },
+        {
+          "id": "684477eb68fc69e7",
+          "japanese": "ここに　名前を書いてください。",
+          "reading": "ここに　なまえをかいてください。",
+          "vietnamese": "Hãy viết tên vào đây.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "ed7d4bdc5503131a",
+      "character": "食",
+      "hanViet": "THỰC",
+      "meaning": "ăn",
+      "onyomi": [
+        "ショク"
+      ],
+      "kunyomi": [
+        "た.べる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "e73183ec7fe377f4",
+          "japanese": "食堂",
+          "reading": "しょくどう",
+          "vietnamese": "Nhà ăn"
+        },
+        {
+          "id": "0efca4518a1704c6",
+          "japanese": "和食",
+          "reading": "わしょく",
+          "vietnamese": "Món ăn Nhật"
+        },
+        {
+          "id": "7137747502d6a561",
+          "japanese": "洋食",
+          "reading": "ようしょく",
+          "vietnamese": "Món ăn Tây"
+        },
+        {
+          "id": "f7a4c5327f61be44",
+          "japanese": "食べます",
+          "reading": "たべます",
+          "vietnamese": "Ăn"
+        },
+        {
+          "id": "78cd263c34f8d17c",
+          "japanese": "食べ物",
+          "reading": "たべもの",
+          "vietnamese": "Đồ ăn"
+        }
+      ],
+      "mnemonic": "Người (NHÂN - 人) LƯƠNG (良) thiện thì mới được ĂN (THỰC - 食).",
+      "examples": [
+        {
+          "id": "5ce2b79df277fb0b",
+          "japanese": "食堂で　昼ごはんを　食べました。",
+          "reading": "しょくどうで　ひるごはんを　たべました。",
+          "vietnamese": "Tôi đã ăn trưa ở nhà ăn.",
+          "note": ""
+        },
+        {
+          "id": "860763df6897a439",
+          "japanese": "晩ごはん　は何を　食べますか。",
+          "reading": "ばんごはん　はなにを　たべますか。",
+          "vietnamese": "Bữa tối bạn ăn gì?",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "9204e95ad421f1de",
+      "character": "飲",
+      "hanViet": "ẨM",
+      "meaning": "uống",
+      "onyomi": [],
+      "kunyomi": [
+        "の.む"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "2f1744eb293313a6",
+          "japanese": "飲みます",
+          "reading": "のみます",
+          "vietnamese": "Uống"
+        },
+        {
+          "id": "a891144e3c93c743",
+          "japanese": "飲み物",
+          "reading": "のみもの",
+          "vietnamese": "Đồ uống"
+        },
+        {
+          "id": "a01a9ca387a3f91c",
+          "japanese": "飲み会",
+          "reading": "のみかい",
+          "vietnamese": "Tiệc rượu, tiệc nhậu"
+        }
+      ],
+      "mnemonic": "Ăn (THỰC - 食) không thể Thiếu (KHIẾM - 欠) Uống (ẨM - 飲).",
+      "examples": [
+        {
+          "id": "54394d9e9136f005",
+          "japanese": "しごとが　終わって、飲み会に　行きませんか。",
+          "reading": "しごとが　おわって、のみかいに　いきませんか。",
+          "vietnamese": "Xong việc rồi, đi nhậu không?",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

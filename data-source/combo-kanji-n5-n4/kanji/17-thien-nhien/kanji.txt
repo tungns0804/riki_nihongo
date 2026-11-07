@@ -1,0 +1,38 @@
+# Combo Kanji N5-N4 — KANJI · Bài 17 (Thiên nhiên 2)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 17 · THIÊN NHIÊN 2 (bai17.pdf), thẻ 81–85.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+#
+# Khung tiêu đề của PDF in 花 雨 天 員 仕, nhưng thẻ 85 là 者 (GIẢ), không có thẻ 仕 — chép
+# theo thẻ.
+
+花,HOA,hoa,カ,はな,|花びん (かびん)=Bình hoa;花 (はな)=Hoa;お花見 (おはなみ)=Ngắm hoa;生け花 (いけばな)=Nghệ thuật cắm hoa;花火 (はなび)=Pháo hoa
+覚: Cỏ cây (THẢO - 艹) tiến HOÁ (化) một thời gian sẽ ra HOA (花).
+・テーブルの　上の　花びんに　花を　入れてください。| Hãy cắm hoa vào bình hoa trên bàn.
+読: テーブルの　うえの　かびんに　はなを　いれてください。
+・週末、一緒に　お花見を　しましょう。| Cuối tuần cùng đi ngắm hoa nhé.
+読: しゅうまつ、いっしょに　おはなみを　しましょう。
+
+# 雨: thẻ chỉ có 訓 (あめ、あま).
+雨,VŨ,mưa,,あめ・あま,|雨 (あめ)=Mưa;大雨 (おおあめ)=Mưa lớn;雨戸 (あまど)=Cửa che mưa
+覚: TRỜI (T) MƯA (M) 4 hạt.
+・日本の　六月に　雨が　たくさん　ふります。| Ở Nhật, tháng 6 mưa nhiều.
+読: にほんの　ろくがつに　あめが　たくさん　ふります。
+
+天,THIÊN,bầu trời,テン,,|天気 (てんき)=Thời tiết;天ぷら (てんぷら)=Món tempura
+覚: Trời (THIÊN - 天) là To lớn (ĐẠI - 大) NHẤT (一).
+・天気が　いいから　遊びましょう。| Trời đẹp nên đi chơi thôi.
+読: てんきが　いいから　あそびましょう。
+
+員,VIÊN,nhân viên,イン,,|会社員 (かいしゃいん)=Nhân viên công ty;銀行員 (ぎんこういん)=Nhân viên ngân hàng
+覚: Nhân VIÊN (員) là bảo BỐI (貝) biết nói (KHẨU - 口) của công ty.
+・私は　Riki会社の　会社員です。| Tôi là nhân viên công ty Riki.
+読: わたしは　Rikiがいしゃの　かいしゃいんです。
+
+者,GIẢ,học giả/ người,シャ,もの,|医者 (いしゃ)=Bác sĩ;科学者 (かがくしゃ)=Nhà khoa học;研究者 (けんきゅうしゃ)=Nhà nghiên cứu;若者 (わかもの)=Người trẻ
+覚: ĐẤT (土) mà nằm trên mặt trời (NHẬT - 日) là chuyện GIẢ (者) tưởng.
+・夢は　医者に　なりたい。| Ước mơ của tôi là muốn trở thành bác sĩ.
+読: ゆめは　いしゃに　なりたい。
+注: Câu chép đúng PDF. Nói chuẩn là 夢は医者になることです hoặc 医者になりたいです.
+・若者は　よく　おそく　寝ます。| Người trẻ hay ngủ muộn.
+読: わかものは　よく　おそく　ねます。

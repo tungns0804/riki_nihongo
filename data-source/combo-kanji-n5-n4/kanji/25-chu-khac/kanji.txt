@@ -1,0 +1,36 @@
+# Combo Kanji N5-N4 — KANJI · Bài 25 (Các chữ khác)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 25 · CÁC CHỮ KHÁC (bai25_1.pdf), thẻ 121–125.
+# bai25_2.pdf là tài liệu ngữ pháp N5 (～たら, ～ても), không phải thẻ kanji.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# 毎: thẻ chỉ có 音 (まい).
+毎,MỖI,mỗi/ hàng,マイ,,|毎朝 (まいあさ)=Mỗi sáng;毎日 (まいにち)=Mỗi ngày;毎週 (まいしゅう)=Mỗi tuần;毎月 (まいつき)=Mỗi tháng
+覚: MỖI (毎) ngày MẸ (母) đều chăm sóc cho con (𠂉).
+・わたしは　毎日　6時に　起きます。| Tôi dậy lúc 6 giờ mỗi ngày.
+読: わたしは　まいにち　ろくじに　おきます。
+
+回,HỒI,lần,カイ,まわ.す,|一回 (いっかい)=1 lần;回します (まわします)=Vặn
+覚: 2 cái miệng (KHẨU - 口) tranh cãi 1 HỒI (回) không ngừng.
+・1か月に　1回　としょかんへ　行きます。| Tôi đến thư viện mỗi tháng một lần.
+読: いっかげつに　いっかい　としょかんへ　いきます。
+・これを　右へ　回します。| Vặn cái này sang phải.
+読: これを　みぎへ　まわします。
+
+# 午: thẻ chỉ có 音 (ご).
+午,NGỌ,giữa trưa,ゴ,,|午前 (ごぜん)=Buổi sáng;午後 (ごご)=Buổi chiều
+覚: Người nằm (𠂉) đến 10 (十) giờ trưa (NGỌ - 午).
+・午後　5時に　家で　音楽を　聞きます。| 5 giờ chiều tôi nghe nhạc ở nhà.
+読: ごご　ごじに　いえで　おんがくを　ききます。
+
+# 同: thẻ chỉ có 訓 (おな).
+同,ĐỒNG,giống,,おな.じ,|同じ (おなじ)=Giống
+覚: NHẤT (一) KHẨU (口) tương ĐỒNG (同).
+・私も　君と　同じ　辞書を　持っているよ。| Tớ cũng có quyển từ điển giống cậu đấy.
+読: わたしも　きみと　おなじ　じしょを　もっているよ。
+
+# 立: thẻ chỉ có 訓 (た).
+立,LẬP,đứng,,た.つ・た.てる,|立ちます (たちます)=Đứng, đứng lên;立てます (たてます)=Dựng lên
+覚: Đầu đội trời, chân đạp đất, đứng dậy làm nên sự nghiệp.
+・私の　後ろに　立たないでください。| Đừng đứng sau lưng tôi.
+読: わたしの　うしろに　たたないでください。

@@ -1,0 +1,255 @@
+{
+  "id": "21-tinh-tu",
+  "name": "Bài 21 · Tính từ 2",
+  "description": "新 古 少 多 明 — mới, cũ, ít, nhiều, sáng: 新聞, 中古, 少し, 多い, 説明; âm đặc biệt 明日 あした.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "7486ba0501ae2a03",
+      "character": "新",
+      "hanViet": "TÂN",
+      "meaning": "mới",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "あたら.しい"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "dc15d2a2fef27fa8",
+          "japanese": "新聞",
+          "reading": "しんぶん",
+          "vietnamese": "Báo chí"
+        },
+        {
+          "id": "3749c0403758882e",
+          "japanese": "新しい",
+          "reading": "あたらしい",
+          "vietnamese": "Mới"
+        }
+      ],
+      "mnemonic": "Cây (MỘC - 木) đứng thẳng (LẬP - 立) là thu hoạch được, phải dùng rìu (CÂN - 斤) chặt đi để trồng cây mới (TÂN - 新).",
+      "examples": [
+        {
+          "id": "416c8a66ffd78574",
+          "japanese": "私は　新聞を　読んでいます。",
+          "reading": "わたしは　しんぶんを　よんでいます。",
+          "vietnamese": "Tôi đang đọc báo.",
+          "note": ""
+        },
+        {
+          "id": "b58371378c31e883",
+          "japanese": "新しい　車が　ほしいです。",
+          "reading": "あたらしい　くるまが　ほしいです。",
+          "vietnamese": "Tôi muốn có một chiếc xe mới.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "3c470777401622da",
+      "character": "古",
+      "hanViet": "CỔ",
+      "meaning": "cũ",
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [
+        "ふる.い"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "15525e55d957fbff",
+          "japanese": "中古",
+          "reading": "ちゅうこ",
+          "vietnamese": "Đồ cũ"
+        },
+        {
+          "id": "8233d30f98a48495",
+          "japanese": "古い",
+          "reading": "ふるい",
+          "vietnamese": "Cũ"
+        },
+        {
+          "id": "8821dcc7bbe986c9",
+          "japanese": "古新聞",
+          "reading": "ふるしんぶん",
+          "vietnamese": "Báo cũ"
+        }
+      ],
+      "mnemonic": "Câu chuyện được truyền miệng (KHẨU - 口) 10 (THẬP - 十) lần sẽ trở nên cũ (CỔ - 古).",
+      "examples": [
+        {
+          "id": "35320a9cda09b587",
+          "japanese": "中古の　パソコンを　買います。",
+          "reading": "ちゅうこの　パソコンを　かいます。",
+          "vietnamese": "Tôi mua máy tính cũ.",
+          "note": ""
+        },
+        {
+          "id": "721545e4d4fc0760",
+          "japanese": "きょうとは　古い町です。",
+          "reading": "きょうとは　ふるいまちです。",
+          "vietnamese": "Kyoto là thành phố cổ.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "8d02baf5a69fddd5",
+      "character": "少",
+      "hanViet": "THIỂU",
+      "meaning": "một ít",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "すこ.し",
+        "すく.ない"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "94f42262c12b0a1a",
+          "japanese": "少々",
+          "reading": "しょうしょう",
+          "vietnamese": "Một chút, một lát"
+        },
+        {
+          "id": "c8946f3e339eeb57",
+          "japanese": "少し",
+          "reading": "すこし",
+          "vietnamese": "Một chút, một ít"
+        },
+        {
+          "id": "663f8ba00ab387b2",
+          "japanese": "少ない",
+          "reading": "すくない",
+          "vietnamese": "Ít, hiếm"
+        }
+      ],
+      "mnemonic": "Đã bé tí (TIỂU - 小) còn bị cắt bớt đi thì sẽ thiếu (THIỂU - 少).",
+      "examples": [
+        {
+          "id": "5353fa7606a53ef8",
+          "japanese": "少々　おまちください。",
+          "reading": "しょうしょう　おまちください。",
+          "vietnamese": "Xin vui lòng đợi một chút.",
+          "note": ""
+        },
+        {
+          "id": "0ebd505cab5c5e55",
+          "japanese": "少し　漢字を　読むことが　できます。",
+          "reading": "すこし　かんじを　よむことが　できます。",
+          "vietnamese": "Tôi có thể đọc được một ít chữ Hán.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "81d175e312d3622e",
+      "character": "多",
+      "hanViet": "ĐA",
+      "meaning": "nhiều",
+      "onyomi": [
+        "タ"
+      ],
+      "kunyomi": [
+        "おお.い"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "2f2283ba7f4408ad",
+          "japanese": "多少",
+          "reading": "たしょう",
+          "vietnamese": "Một chút, một ít, ít nhiều"
+        },
+        {
+          "id": "b90b3ad7c8036e33",
+          "japanese": "多分",
+          "reading": "たぶん",
+          "vietnamese": "Có lẽ"
+        },
+        {
+          "id": "308e597937af3e3a",
+          "japanese": "多い",
+          "reading": "おおい",
+          "vietnamese": "Nhiều"
+        }
+      ],
+      "mnemonic": "Chỉ còn một mảnh tình riêng TA (タ) với TA (タ), không còn NHIỀU người như xưa nữa.",
+      "examples": [
+        {
+          "id": "4ca31b2a90f4a643",
+          "japanese": "このシャツは　多少写真と　ちがいます。",
+          "reading": "このシャツは　たしょうしゃしんと　ちがいます。",
+          "vietnamese": "Chiếc áo này hơi khác so với ảnh.",
+          "note": ""
+        },
+        {
+          "id": "5e5eeed46dd08dbb",
+          "japanese": "れいぞうこの中に　食べ物が　多いです。",
+          "reading": "れいぞうこのなかに　たべものが　おおいです。",
+          "vietnamese": "Trong tủ lạnh có nhiều đồ ăn.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "38d55ec94c605329",
+      "character": "明",
+      "hanViet": "MINH",
+      "meaning": "sáng",
+      "onyomi": [
+        "メイ"
+      ],
+      "kunyomi": [
+        "あか.るい"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "6635230c875c0755",
+          "japanese": "説明",
+          "reading": "せつめい",
+          "vietnamese": "Giải thích"
+        },
+        {
+          "id": "b78fa4e93847801e",
+          "japanese": "明るい",
+          "reading": "あかるい",
+          "vietnamese": "Tươi sáng"
+        },
+        {
+          "id": "c7d3ffb79b044b16",
+          "japanese": "明日",
+          "reading": "あした",
+          "vietnamese": "Ngày mai (âm đặc biệt)"
+        }
+      ],
+      "mnemonic": "Mặt trời (NHẬT - 日) và mặt trăng (NGUYỆT - 月) đứng cạnh nhau thì rất sáng (MINH - 明).",
+      "examples": [
+        {
+          "id": "07eed29160cb5589",
+          "japanese": "これを　説明しても　いいですか。",
+          "reading": "これを　せつめいしても　いいですか。",
+          "vietnamese": "Tôi giải thích cái này được không?",
+          "note": ""
+        },
+        {
+          "id": "8137095cf70cc341",
+          "japanese": "私の　へやは　とても　明るいです。",
+          "reading": "わたしの　へやは　とても　あかるいです。",
+          "vietnamese": "Phòng của tôi rất sáng sủa.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

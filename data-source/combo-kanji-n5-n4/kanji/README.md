@@ -6,7 +6,7 @@ trắc nghiệm của bài là bài **con** của nó, như BTVN bên N3 JUNBI.
 
 ## Các bài
 
-Phạm vi N5 là 15 bài, 75 chữ, chép từ PDF "Khoá học Online N5 – Kanji" (BUỔI 01–15):
+Phạm vi N5 là 25 bài, 125 chữ, chép từ PDF "Khoá học Online N5 – Kanji" (BUỔI 01–25):
 
 | Thư mục           | Tên                     | Chữ            | Đề (bài con)  |
 | ----------------- | ----------------------- | -------------- | ------------- |
@@ -25,6 +25,19 @@ Phạm vi N5 là 15 bài, 75 chữ, chép từ PDF "Khoá học Online N5 – Ka
 | `13-phuong-huong` | Bài 13 · Phương hướng   | 南 西 東 北 方 |               |
 | `14-bo-phan`      | Bài 14 · Bộ phận        | 口 目 耳 手 足 | `14-bai-14`   |
 | `15-dong-vat`     | Bài 15 · Động vật       | 牛 魚 犬 鳥 馬 |               |
+| `16-thien-nhien`  | Bài 16 · Thiên nhiên 1  | 山 川 田 海 空 |               |
+| `17-thien-nhien`  | Bài 17 · Thiên nhiên 2  | 花 雨 天 員 者 |               |
+| `18-dong-tu`      | Bài 18 · Động từ 1      | 見 聞 書 食 飲 |               |
+| `19-dong-tu`      | Bài 19 · Động từ 2      | 買 言 読 話 休 |               |
+| `20-tinh-tu`      | Bài 20 · Tính từ 1      | 高 安 長 気 元 |               |
+| `21-tinh-tu`      | Bài 21 · Tính từ 2      | 新 古 少 多 明 |               |
+| `22-do-an`        | Bài 22 · Đồ ăn          | 米 肉 茶 物 好 |               |
+| `23-phuong-tien`  | Bài 23 · Phương tiện    | 電 車 自 寺 町 |               |
+| `24-dia-diem`     | Bài 24 · Địa điểm       | 会 社 病 院 店 |               |
+| `25-chu-khac`     | Bài 25 · Các chữ khác   | 毎 回 午 同 立 |               |
+
+Khung tiêu đề BUỔI 17 in 花 雨 天 員 仕 nhưng thẻ thứ năm là 者 — chép theo thẻ. File
+`bai25_2.pdf` đi kèm BUỔI 25 là tài liệu ngữ pháp N5 (～たら, ～ても), không có thẻ kanji.
 
 Thư mục bài thẻ đặt theo chủ đề chứ không theo kiểu `03-bai-3`, vì các đề có trước thẻ
 đã giữ những id đó — đổi id đề thì mất kết quả làm bài đã lưu (tiến độ lưu theo id bài).
@@ -54,7 +67,9 @@ câu cách nhớ và một hai câu ví dụ có chữ gạch chân. Chép như 
   kana) là phần thêm vào — PDF chỉ chú âm vài chữ.
 - **Lỗi trên PDF** thì sửa và ghi bằng dòng `#` ngay trên chữ đó: furigana sai (金曜日
   きんようひ, 生年月日 せいねんがっび, 5分 ぶん, 会います かい), nghĩa sai (六月 "6 tháng"),
-  chữ thừa (食べしました).
+  chữ thừa (食べしました), thiếu chữ (いい天気から → いい天気だから), nghĩa từ ghép sai
+  (多分 "Phần lớn" → "Có lẽ"). Câu ví dụ đúng chữ nhưng nói không tự nhiên (夢は医者に
+  なりたい, 友達に会っているね) thì giữ nguyên và ghi cách nói chuẩn ở dòng `注:`.
 
 ## Đề
 
@@ -102,6 +117,6 @@ Mỗi đề có `summary` — bảng "Tóm tắt bài" hiện trên khung bắt 
 
 ## Thêm bài
 
-Bài thẻ mới: thư mục `16-<chu-de>/` gồm `meta.json` (`"name": "Bài 16 · …"`, `"order": 16`)
+Bài thẻ mới: thư mục `26-<chu-de>/` gồm `meta.json` (`"name": "Bài 26 · …"`, `"order": 26`)
 và `kanji.txt`. Đề mới của bài N: thư mục `NN-bai-N/` gồm `meta.json` (`"kind": "test"`,
 `"parent"`: id bài thẻ, `"order"`: N×100+1) và `test.json`. Rồi chạy `npm run generate`.

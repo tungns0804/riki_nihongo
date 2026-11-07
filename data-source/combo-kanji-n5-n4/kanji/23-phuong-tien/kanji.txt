@@ -1,0 +1,37 @@
+# Combo Kanji N5-N4 — KANJI · Bài 23 (Phương tiện)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 23 · PHƯƠNG TIỆN (bai23.pdf), thẻ 111–115.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# 電: thẻ chỉ có 音 (でん).
+電,ĐIỆN,điện,デン,,|電気 (でんき)=Đèn điện;電池 (でんち)=Pin, cục pin
+覚: Mưa (VŨ - 雨) trên Đồng (ĐIỀN - 田) tạo ra dòng (乚) ĐIỆN (電).
+・くらい　ですから、電気を　つけてください。| Vì tối nên hãy bật đèn lên.
+読: くらい　ですから、でんきを　つけてください。
+
+車,XA,xe,シャ,くるま,|電車 (でんしゃ)=Tàu điện;自転車 (じてんしゃ)=Xe đạp;自動車 (じどうしゃ)=Xe ô tô;車 (くるま)=Xe ô tô (nói chung)
+覚: Bánh xe bò nhìn từ trên xuống.
+・自転車で　買い物に　行きます。| Tôi đi mua sắm bằng xe đạp.
+読: じてんしゃで　かいものに　いきます。
+・うちから　えきまで　車で　5分です。| Từ nhà đến ga đi ô tô mất 5 phút.
+読: うちから　えきまで　くるまで　ごふんです。
+
+# 自: thẻ chỉ có 音 (じ).
+自,TỰ,bản thân,ジ,,|自由 (じゆう)=Tự do;自己紹介 (じこしょうかい)=Giới thiệu bản thân
+覚: Gai đâm vào mắt (目) phải TỰ (自) lấy ra.
+・簡単な　自己紹介　してください。| Hãy giới thiệu bản thân ngắn gọn.
+読: かんたんな　じこしょうかい　してください。
+
+寺,TỰ,chùa,ジ,てら,|きんかく寺 (きんかくじ)=Chùa Vàng;お寺 (おてら)=Chùa
+覚: Đo Đất (THỔ - 土) xem được bao nhiêu tấc (THỐN - 寸) để xây chùa (TỰ - 寺).
+・きんかく寺は　京都に　あります。| Chùa Vàng ở Kyoto.
+読: きんかくじは　きょうとに　あります。
+・この町に　古いお寺が　あります。| Ở thị trấn này có một ngôi chùa cổ.
+読: このまちに　ふるいおてらが　あります。
+
+町,ĐINH,thị trấn,チョウ,まち,|町内 (ちょうない)=Trong thành phố;町長 (ちょうちょう)=Thị trưởng;町 (まち)=Thành phố
+覚: Một Thành phố (ĐINH - 町) bằng 1 ĐINH (丁) Ruộng (ĐIỀN - 田) (1 đinh = 100 mẫu).
+・先生と　私は　おなじ町内に　住んでいます。| Thầy giáo và tôi sống cùng một khu phố.
+読: せんせいと　わたしは　おなじちょうないに　すんでいます。
+・住んでいる町は　どんな町ですか。| Thành phố bạn đang sống là thành phố như thế nào?
+読: すんでいるまちは　どんなまちですか。

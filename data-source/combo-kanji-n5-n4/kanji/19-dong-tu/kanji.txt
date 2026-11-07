@@ -1,0 +1,38 @@
+# Combo Kanji N5-N4 — KANJI · Bài 19 (Động từ 2)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 19 · ĐỘNG TỪ 2 (bai19.pdf), thẻ 91–95.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# 買: thẻ chỉ có 訓 (か).
+買,MÃI,mua,,か.う,|買います (かいます)=Mua;買い物 (かいもの)=Mua sắm
+覚: Khi mua hàng, mắt ngang (VÕNG - 罒) mắt dọc (MỤC - 目), 2 chân di chuyển.
+・週末に　かぞくと　買い物に　行きます。| Cuối tuần tôi đi mua sắm cùng gia đình.
+読: しゅうまつに　かぞくと　かいものに　いきます。
+
+言,NGÔN,nói/ ngôn ngữ,ゲン,い.う・こと,|方言 (ほうげん)=Giọng địa phương;言います (いいます)=Nói;言葉 (ことば)=Từ ngữ
+覚: Hình ảnh mồm nói ra sóng âm thanh.
+・大阪の人は　方言を　つかいます。| Người Osaka dùng tiếng địa phương.
+読: おおさかのひとは　ほうげんを　つかいます。
+・日本語で　言ってください。| Hãy nói bằng tiếng Nhật.
+読: にほんごで　いってください。
+
+読,ĐỘC,đọc,ドク,よ.む,|読書 (どくしょ)=Đọc sách;読者 (どくしゃ)=Độc giả, người đọc;読みます (よみます)=Đọc;読み方 (よみかた)=Cách đọc
+覚: Để lời nói (NGÔN - 言) có giá trị và bán (MẠI - 売) ra tiền thì phải đọc (ĐỘC - 読).
+・私の　しゅみは　読書です。| Sở thích của tôi là đọc sách.
+読: わたしの　しゅみは　どくしょです。
+・私の　しゅみは　マンガを　読むことです。| Sở thích của tôi là đọc truyện tranh.
+読: わたしの　しゅみは　マンガを　よむことです。
+
+話,THOẠI,nói chuyện,ワ,はな.す・はなし,|会話 (かいわ)=Hội thoại;電話 (でんわ)=Điện thoại;話します (はなします)=Nói chuyện;話 (はなし)=Câu chuyện
+覚: Nói chuyện thì phải dùng ngôn ngữ (NGÔN - 言) và lưỡi (THIỆT - 舌).
+・会話を　れんしゅう　しましょう。| Cùng luyện hội thoại nào.
+読: かいわを　れんしゅう　しましょう。
+・先生の話を　聞きました。| Tôi đã nghe câu chuyện của thầy giáo.
+読: せんせいのはなしを　ききました。
+
+休,HƯU,nghỉ ngơi,キュウ,やす.む,|休日 (きゅうじつ)=Ngày nghỉ;休みます (やすみます)=Nghỉ;夏休み (なつやすみ)=Nghỉ hè
+覚: Người đứng (NHÂN ĐỨNG - 亻) nghỉ ngơi bên cạnh cái cây (MỘC - 木).
+・五月五日は　休日です。| Ngày 5 tháng 5 là ngày nghỉ.
+読: ごがついつかは　きゅうじつです。
+・夏休みは　何を　しますか。| Nghỉ hè bạn sẽ làm gì?
+読: なつやすみは　なにを　しますか。

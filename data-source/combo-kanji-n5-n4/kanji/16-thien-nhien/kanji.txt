@@ -1,0 +1,37 @@
+# Combo Kanji N5-N4 — KANJI · Bài 16 (Thiên nhiên 1)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 16 · THIÊN NHIÊN 1 (bai16.pdf), thẻ 76–80.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+山,SƠN,núi,サン,やま,|富士山 (ふじさん)=Núi Phú Sĩ;火山 (かざん)=Núi lửa;山 (やま)=Ngọn núi;山田さん (やまださん)=Anh Yamada
+覚: Hình ảnh ngọn núi (山).
+・富士山は　とても　きれいです。| Núi Phú Sĩ rất đẹp.
+読: ふじさんは　とても　きれいです。
+・この山は　高いですよ。気を　付けてください。| Ngọn núi này cao đấy. Hãy cẩn thận nhé.
+読: このやまは　たかいですよ。きを　つけてください。
+
+# 川: thẻ chỉ có 訓 (かわ), không có 音.
+川,XUYÊN,sông,,かわ,|川 (かわ)=Con sông
+覚: Hình ảnh dòng sông (川).
+・私の国は　山や川が　たくさん　あります。| Đất nước tôi có nhiều núi và sông.
+読: わたしのくには　やまやかわが　たくさん　あります。
+
+# 田: thẻ chỉ có 訓 (た). 田舎: mục "Âm đặc biệt" dưới thẻ.
+田,ĐIỀN,ruộng đất,,た,|田中さん (たなかさん)=Anh Tanaka;田舎 (いなか)=Nông thôn (âm đặc biệt)
+覚: Hình ảnh 4 ô ruộng (田).
+・田中先生は　やさしい人　です。| Thầy Tanaka là người hiền lành.
+読: たなかせんせいは　やさしいひと　です。
+
+海,HẢI,biển,カイ,うみ,|海外 (かいがい)=Nước ngoài;海 (うみ)=Biển
+覚: Nước (THUỶ - 氵) MỖI (毎) ngày chảy ra BIỂN (HẢI - 海).
+・かぞくは　海外に住んでいます。| Gia đình tôi đang sống ở nước ngoài.
+読: かぞくは　かいがいにすんでいます。
+・この海を　泳いでもいいですか。| Tôi bơi ở biển này có được không?
+読: このうみを　およいでもいいですか。
+
+空,KHÔNG,trời/ rỗng,クウ,そら・す.く,|空港 (くうこう)=Sân bay;空気 (くうき)=Không khí;空 (そら)=Bầu trời;空きます (すきます)=Trống
+覚: CÔNG trường (工) ở trong hang động (HUYỆT - 穴) thiếu KHÔNG khí (空).
+・両親は　空港へ　私をむかえに行く。| Bố mẹ ra sân bay đón tôi.
+読: りょうしんは　くうこうへ　わたしをむかえにいく。
+・おなかが　空いている。| Bụng đang đói (bụng trống rỗng).
+読: おなかが　すいている。

@@ -1,0 +1,35 @@
+# Combo Kanji N5-N4 — KANJI · Bài 22 (Đồ ăn)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 22 · ĐỒ ĂN (bai22.pdf), thẻ 106–110.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# 米: thẻ chỉ có 訓 (こめ). "Ý nghĩa" ghi "Lúa", từ ghép ghi 米 = Gạo — ghi cả hai.
+米,MỄ,lúa/ gạo,,こめ,|米 (こめ)=Gạo
+覚: Có 2 hạt lúa trên cây là MỄ (gạo).
+・日本の米は　とても　おいしいです。| Gạo Nhật rất ngon.
+読: にほんのこめは　とても　おいしいです。
+
+# 肉: thẻ chỉ có 音 (にく).
+肉,NHỤC,thịt,ニク,,|肉 (にく)=Thịt;鶏肉 (とりにく)=Thịt gà
+覚: Có 2 Người (NHÂN - 人) bán Thịt (NHỤC - 肉) đang đứng ở bên trong.
+・鶏肉と　ぶた肉と　どちらが　好きですか。| Bạn thích thịt gà hay thịt lợn hơn?
+読: とりにくと　ぶたにくと　どちらが　すきですか。
+
+# 茶: thẻ chỉ có 音 (ちゃ、さ).
+茶,TRÀ,trà,チャ・サ,,|お茶 (おちゃ)=Trà;茶道 (さどう)=Trà đạo;喫茶店 (きっさてん)=Quán giải khát
+覚: Những búp Trà (THẢO - 艹) được Người (NHÂN - 人) thợ hái ở ngọn Cây (MỘC - 木).
+・さむい日に　あたたかいお茶を　よく飲みます。| Những ngày lạnh tôi hay uống trà nóng.
+読: さむいひに　あたたかいおちゃを　よくのみます。
+
+物,VẬT,đồ vật,ブツ・モツ,もの,|動物 (どうぶつ)=Động vật;荷物 (にもつ)=Hành lý;物 (もの)=Đồ vật;着物 (きもの)=Áo kimono
+覚: Con Bò (NGƯU - 牛) đi trước chở bao tải Đồ (VẬT - 勿) theo sau.
+・動物園へ　行きます。| Tôi đi sở thú.
+読: どうぶつえんへ　いきます。
+・大きい　おまつりには　着物を　きます。| Vào những lễ hội lớn thì mặc kimono.
+読: おおきい　おまつりには　きものを　きます。
+
+# 好: thẻ chỉ có 訓 (す).
+好,HẢO,thích,,す.き,|好き (すき)=Thích;大好き (だいすき)=Rất thích
+覚: Người phụ NỮ (女) mà nuôi con (TỬ - 子) luôn là người tốt (HẢO - 好).
+・一番　大好きな人は　ソンさんです。| Người tôi thích nhất là anh Sơn.
+読: いちばん　だいすきなひとは　ソンさんです。

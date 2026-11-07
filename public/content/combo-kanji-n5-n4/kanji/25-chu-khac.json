@@ -1,0 +1,201 @@
+{
+  "id": "25-chu-khac",
+  "name": "Bài 25 · Các chữ khác",
+  "description": "毎 回 午 同 立 — mỗi, lần, giữa trưa, giống, đứng: 毎日, 一回, 午前, 午後, 同じ, 立ちます.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "b4823b4ec5b7acd1",
+      "character": "毎",
+      "hanViet": "MỖI",
+      "meaning": "mỗi/ hàng",
+      "onyomi": [
+        "マイ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "6aca810ec1b2bd3f",
+          "japanese": "毎朝",
+          "reading": "まいあさ",
+          "vietnamese": "Mỗi sáng"
+        },
+        {
+          "id": "051ea74314d5fd68",
+          "japanese": "毎日",
+          "reading": "まいにち",
+          "vietnamese": "Mỗi ngày"
+        },
+        {
+          "id": "203c0d9fc8dc6033",
+          "japanese": "毎週",
+          "reading": "まいしゅう",
+          "vietnamese": "Mỗi tuần"
+        },
+        {
+          "id": "518a1cb732c6444a",
+          "japanese": "毎月",
+          "reading": "まいつき",
+          "vietnamese": "Mỗi tháng"
+        }
+      ],
+      "mnemonic": "MỖI (毎) ngày MẸ (母) đều chăm sóc cho con (𠂉).",
+      "examples": [
+        {
+          "id": "00b9fd0983565d56",
+          "japanese": "わたしは　毎日　6時に　起きます。",
+          "reading": "わたしは　まいにち　ろくじに　おきます。",
+          "vietnamese": "Tôi dậy lúc 6 giờ mỗi ngày.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "47d4a7a05d02c60c",
+      "character": "回",
+      "hanViet": "HỒI",
+      "meaning": "lần",
+      "onyomi": [
+        "カイ"
+      ],
+      "kunyomi": [
+        "まわ.す"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "c09b35984150f553",
+          "japanese": "一回",
+          "reading": "いっかい",
+          "vietnamese": "1 lần"
+        },
+        {
+          "id": "2eb967a4e8b7c5b1",
+          "japanese": "回します",
+          "reading": "まわします",
+          "vietnamese": "Vặn"
+        }
+      ],
+      "mnemonic": "2 cái miệng (KHẨU - 口) tranh cãi 1 HỒI (回) không ngừng.",
+      "examples": [
+        {
+          "id": "67e05d836a995417",
+          "japanese": "1か月に　1回　としょかんへ　行きます。",
+          "reading": "いっかげつに　いっかい　としょかんへ　いきます。",
+          "vietnamese": "Tôi đến thư viện mỗi tháng một lần.",
+          "note": ""
+        },
+        {
+          "id": "55b2895bd99cee06",
+          "japanese": "これを　右へ　回します。",
+          "reading": "これを　みぎへ　まわします。",
+          "vietnamese": "Vặn cái này sang phải.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "a8f9dd4997d49554",
+      "character": "午",
+      "hanViet": "NGỌ",
+      "meaning": "giữa trưa",
+      "onyomi": [
+        "ゴ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d5da0a13eb08c5fb",
+          "japanese": "午前",
+          "reading": "ごぜん",
+          "vietnamese": "Buổi sáng"
+        },
+        {
+          "id": "47029302f00ec564",
+          "japanese": "午後",
+          "reading": "ごご",
+          "vietnamese": "Buổi chiều"
+        }
+      ],
+      "mnemonic": "Người nằm (𠂉) đến 10 (十) giờ trưa (NGỌ - 午).",
+      "examples": [
+        {
+          "id": "539db83111856cde",
+          "japanese": "午後　5時に　家で　音楽を　聞きます。",
+          "reading": "ごご　ごじに　いえで　おんがくを　ききます。",
+          "vietnamese": "5 giờ chiều tôi nghe nhạc ở nhà.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "8b847d19eb9d2dab",
+      "character": "同",
+      "hanViet": "ĐỒNG",
+      "meaning": "giống",
+      "onyomi": [],
+      "kunyomi": [
+        "おな.じ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "dcbf284b594d1835",
+          "japanese": "同じ",
+          "reading": "おなじ",
+          "vietnamese": "Giống"
+        }
+      ],
+      "mnemonic": "NHẤT (一) KHẨU (口) tương ĐỒNG (同).",
+      "examples": [
+        {
+          "id": "e89206f12fd31564",
+          "japanese": "私も　君と　同じ　辞書を　持っているよ。",
+          "reading": "わたしも　きみと　おなじ　じしょを　もっているよ。",
+          "vietnamese": "Tớ cũng có quyển từ điển giống cậu đấy.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "74413a2cdbf7e782",
+      "character": "立",
+      "hanViet": "LẬP",
+      "meaning": "đứng",
+      "onyomi": [],
+      "kunyomi": [
+        "た.つ",
+        "た.てる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "dafa479f9984b715",
+          "japanese": "立ちます",
+          "reading": "たちます",
+          "vietnamese": "Đứng, đứng lên"
+        },
+        {
+          "id": "7967a63f2458fb7d",
+          "japanese": "立てます",
+          "reading": "たてます",
+          "vietnamese": "Dựng lên"
+        }
+      ],
+      "mnemonic": "Đầu đội trời, chân đạp đất, đứng dậy làm nên sự nghiệp.",
+      "examples": [
+        {
+          "id": "1e8f2ff960b5feb9",
+          "japanese": "私の　後ろに　立たないでください。",
+          "reading": "わたしの　うしろに　たたないでください。",
+          "vietnamese": "Đừng đứng sau lưng tôi.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

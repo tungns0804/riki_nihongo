@@ -1,0 +1,231 @@
+{
+  "id": "16-thien-nhien",
+  "name": "Bài 16 · Thiên nhiên 1",
+  "description": "山 川 田 海 空 — núi, sông, ruộng, biển, trời: 富士山, 田中さん, 海外, 空港; âm đặc biệt 田舎 いなか.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "d83d10c1a643db9c",
+      "character": "山",
+      "hanViet": "SƠN",
+      "meaning": "núi",
+      "onyomi": [
+        "サン"
+      ],
+      "kunyomi": [
+        "やま"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "8c7d7730d21f3301",
+          "japanese": "富士山",
+          "reading": "ふじさん",
+          "vietnamese": "Núi Phú Sĩ"
+        },
+        {
+          "id": "f3436c8416ec5a38",
+          "japanese": "火山",
+          "reading": "かざん",
+          "vietnamese": "Núi lửa"
+        },
+        {
+          "id": "d7d283ad68936730",
+          "japanese": "山",
+          "reading": "やま",
+          "vietnamese": "Ngọn núi"
+        },
+        {
+          "id": "4f1cc8d3de40e53a",
+          "japanese": "山田さん",
+          "reading": "やまださん",
+          "vietnamese": "Anh Yamada"
+        }
+      ],
+      "mnemonic": "Hình ảnh ngọn núi (山).",
+      "examples": [
+        {
+          "id": "e07fba069e12f966",
+          "japanese": "富士山は　とても　きれいです。",
+          "reading": "ふじさんは　とても　きれいです。",
+          "vietnamese": "Núi Phú Sĩ rất đẹp.",
+          "note": ""
+        },
+        {
+          "id": "87992f0ed203ad8b",
+          "japanese": "この山は　高いですよ。気を　付けてください。",
+          "reading": "このやまは　たかいですよ。きを　つけてください。",
+          "vietnamese": "Ngọn núi này cao đấy. Hãy cẩn thận nhé.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "d9504a70cef8e1ad",
+      "character": "川",
+      "hanViet": "XUYÊN",
+      "meaning": "sông",
+      "onyomi": [],
+      "kunyomi": [
+        "かわ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "59bfe2c25e0fedb9",
+          "japanese": "川",
+          "reading": "かわ",
+          "vietnamese": "Con sông"
+        }
+      ],
+      "mnemonic": "Hình ảnh dòng sông (川).",
+      "examples": [
+        {
+          "id": "7aa0a4cf973e50bc",
+          "japanese": "私の国は　山や川が　たくさん　あります。",
+          "reading": "わたしのくには　やまやかわが　たくさん　あります。",
+          "vietnamese": "Đất nước tôi có nhiều núi và sông.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "e9722b5b860d8521",
+      "character": "田",
+      "hanViet": "ĐIỀN",
+      "meaning": "ruộng đất",
+      "onyomi": [],
+      "kunyomi": [
+        "た"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "488b84451947f0eb",
+          "japanese": "田中さん",
+          "reading": "たなかさん",
+          "vietnamese": "Anh Tanaka"
+        },
+        {
+          "id": "e805f04876c2744b",
+          "japanese": "田舎",
+          "reading": "いなか",
+          "vietnamese": "Nông thôn (âm đặc biệt)"
+        }
+      ],
+      "mnemonic": "Hình ảnh 4 ô ruộng (田).",
+      "examples": [
+        {
+          "id": "ef627d6f2cebc194",
+          "japanese": "田中先生は　やさしい人　です。",
+          "reading": "たなかせんせいは　やさしいひと　です。",
+          "vietnamese": "Thầy Tanaka là người hiền lành.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "5b4f59ebcfc4183e",
+      "character": "海",
+      "hanViet": "HẢI",
+      "meaning": "biển",
+      "onyomi": [
+        "カイ"
+      ],
+      "kunyomi": [
+        "うみ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "87643827f4083525",
+          "japanese": "海外",
+          "reading": "かいがい",
+          "vietnamese": "Nước ngoài"
+        },
+        {
+          "id": "87c04306eac5e7d9",
+          "japanese": "海",
+          "reading": "うみ",
+          "vietnamese": "Biển"
+        }
+      ],
+      "mnemonic": "Nước (THUỶ - 氵) MỖI (毎) ngày chảy ra BIỂN (HẢI - 海).",
+      "examples": [
+        {
+          "id": "68b4780f442871ac",
+          "japanese": "かぞくは　海外に住んでいます。",
+          "reading": "かぞくは　かいがいにすんでいます。",
+          "vietnamese": "Gia đình tôi đang sống ở nước ngoài.",
+          "note": ""
+        },
+        {
+          "id": "f33ff502a482d357",
+          "japanese": "この海を　泳いでもいいですか。",
+          "reading": "このうみを　およいでもいいですか。",
+          "vietnamese": "Tôi bơi ở biển này có được không?",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "aca85cd71f14503f",
+      "character": "空",
+      "hanViet": "KHÔNG",
+      "meaning": "trời/ rỗng",
+      "onyomi": [
+        "クウ"
+      ],
+      "kunyomi": [
+        "そら",
+        "す.く"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "64644ea4c25c3b9b",
+          "japanese": "空港",
+          "reading": "くうこう",
+          "vietnamese": "Sân bay"
+        },
+        {
+          "id": "a19aa5d84c0f3224",
+          "japanese": "空気",
+          "reading": "くうき",
+          "vietnamese": "Không khí"
+        },
+        {
+          "id": "eda39739471aee90",
+          "japanese": "空",
+          "reading": "そら",
+          "vietnamese": "Bầu trời"
+        },
+        {
+          "id": "3ac6dc9ca2aba87a",
+          "japanese": "空きます",
+          "reading": "すきます",
+          "vietnamese": "Trống"
+        }
+      ],
+      "mnemonic": "CÔNG trường (工) ở trong hang động (HUYỆT - 穴) thiếu KHÔNG khí (空).",
+      "examples": [
+        {
+          "id": "4092eec39b9887c1",
+          "japanese": "両親は　空港へ　私をむかえに行く。",
+          "reading": "りょうしんは　くうこうへ　わたしをむかえにいく。",
+          "vietnamese": "Bố mẹ ra sân bay đón tôi.",
+          "note": ""
+        },
+        {
+          "id": "5634c198226977a8",
+          "japanese": "おなかが　空いている。",
+          "reading": "おなかが　すいている。",
+          "vietnamese": "Bụng đang đói (bụng trống rỗng).",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

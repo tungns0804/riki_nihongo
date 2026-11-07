@@ -1,0 +1,39 @@
+# Combo Kanji N5-N4 — KANJI · Bài 20 (Tính từ 1)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 20 · TÍNH TỪ 1 (bai20.pdf), thẻ 96–100.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+高,CAO,cao/ đắt,コウ,たか.い,|高校 (こうこう)=Trường cấp 3;高い (たかい)=Cao, đắt
+覚: Hình ảnh nhà 2 tầng: tầng 1, tầng 2, mái. Ngày xưa nhà 2 tầng là CAO.
+・来年の　4月に　高校に　入ります。| Tháng 4 năm sau tôi sẽ vào cấp 3.
+読: らいねんの　しがつに　こうこうに　はいります。
+・この　コンピューターは　高いですね。| Cái máy tính này đắt nhỉ.
+読: この　コンピューターは　たかいですね。
+
+安,AN,rẻ/ an toàn,アン,やす.い,|安全 (あんぜん)=An toàn;安心 (あんしん)=An tâm, yên tâm;安い (やすい)=Rẻ
+覚: Dưới mái nhà (MIÊN - 宀) có hình bóng người phụ NỮ (女) thì bình AN (安).
+・帰りましたから、安心してください。| Tôi về rồi nên hãy yên tâm.
+読: かえりましたから、あんしんしてください。
+・ちょっと　高いですね。もっと安い　シャツは　ありませんか。| Hơi đắt nhỉ. Có chiếc áo sơ mi nào rẻ hơn không?
+読: ちょっと　たかいですね。もっとやすい　シャツは　ありませんか。
+
+長,TRƯỜNG,dài,チョウ,なが.い,|社長 (しゃちょう)=Giám đốc;部長 (ぶちょう)=Trưởng phòng;長い (ながい)=Dài
+覚: Hình ảnh chiếc lược chải mái tóc dài.
+・A社の　部長に　なりました。| Tôi đã trở thành trưởng phòng của công ty A.
+読: Aしゃの　ぶちょうに　なりました。
+・私の　かみは　長いですよ。| Tóc tôi dài đấy.
+読: わたしの　かみは　ながいですよ。
+
+# 気: thẻ chỉ có 音 (き). 人気: thẻ dịch "Yêu thích", giữ như thẻ.
+# Câu ví dụ: PDF in いい天気から (thiếu だ) — sửa thành いい天気だから.
+気,KHÍ,không khí,キ,,|天気 (てんき)=Thời tiết;元気 (げんき)=Khỏe mạnh;気持ち (きもち)=Cảm giác;人気 (にんき)=Yêu thích
+覚: Không KHÍ (気) là KHÍ (气) khiến ta MÊ (メ) mệt.
+・いい天気だから　さんぽしましょう。| Trời đẹp nên cùng đi dạo nhé.
+読: いいてんきだから　さんぽしましょう。
+
+元,NGUYÊN,nguồn gốc,ゲン,もと,|元気 (げんき)=Khỏe, khỏe mạnh;元 (もと)=Nguyên bản, gốc, căn bản
+覚: Thời NGUYÊN (元) thuỷ chỉ có 2 (NHỊ - 二) người là Adam và Eva đi (NHÂN ĐI - 儿) cùng nhau.
+・A：お久しぶりですね。お元気ですか。　B：元気です。| A: Lâu rồi không gặp nhỉ. Bạn có khỏe không? B: Tôi khỏe.
+読: A：おひさしぶりですね。おげんきですか。　B：げんきです。
+・使ったものは　元の場所に　戻してください。| Đồ đã dùng thì hãy để lại chỗ cũ.
+読: つかったものは　もとのばしょに　もどしてください。
