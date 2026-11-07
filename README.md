@@ -38,7 +38,7 @@ mỗi bài là một ĐỀ chứ không phải bảng từ hay bảng chữ:
 **Combo Kanji N5-N4** (`/combo-kanji-n5-n4`) — khoá kanji sơ cấp, chỉ một phần Kanji. Phạm
 vi N5 là Bài 1–25, 125 chữ, mỗi bài 5 thẻ kanji (âm On/Kun, từ ghép, cách nhớ, câu ví dụ)
 chép từ PDF của Riki. Đề trắc nghiệm của bài (問題1 đọc chữ Hán, 問題2 chọn chữ Hán, 20 câu)
-là bài con, hiện trên trang bài thẻ — đang có đề của Bài 2, 3, 4, 6, 7 và 14
+là bài con, hiện trên trang bài thẻ — đang có đề của Bài 2, 3, 4, 6, 7, 14 và 16
 ([cách chép](data-source/combo-kanji-n5-n4/kanji/README.md)).
 
 Địa chỉ cũ chưa có tên học phần (`/vocabulary/01-danh-tu`) tự chuyển sang N3 JUNBI.

@@ -4,7 +4,7 @@
     "name": "Combo Kanji N5-N4",
     "level": "N5-N4"
   },
-  "generatedAt": "2026-11-07T03:23:57.585Z",
+  "generatedAt": "2026-11-07T03:52:04.004Z",
   "modules": [
     {
       "id": "kanji",
@@ -349,6 +349,17 @@
           "itemCount": 20,
           "order": 1401,
           "file": "kanji/14-bai-14.json"
+        },
+        {
+          "id": "16-bai-16",
+          "name": "Đề 山 川 田 海 空",
+          "description": "山 · 川 · 田 · 海 · 空 — đề 20 câu: 問題1 đọc 10 từ (空港, 富士山, 羽田, 海外, 空いています…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana (川口, 火山, 田んぼ, 海岸, 北海道, 田舎…). Có bảng tóm tắt cách đọc từng chữ.",
+          "kind": "test",
+          "parent": "16-thien-nhien",
+          "group": "",
+          "itemCount": 20,
+          "order": 1601,
+          "file": "kanji/16-bai-16.json"
         }
       ]
     }

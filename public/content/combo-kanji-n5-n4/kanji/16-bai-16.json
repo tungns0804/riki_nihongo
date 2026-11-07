@@ -1,0 +1,830 @@
+{
+  "id": "16-bai-16",
+  "name": "Đề 山 川 田 海 空",
+  "description": "山 · 川 · 田 · 海 · 空 — đề 20 câu: 問題1 đọc 10 từ (空港, 富士山, 羽田, 海外, 空いています…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana (川口, 火山, 田んぼ, 海岸, 北海道, 田舎…). Có bảng tóm tắt cách đọc từng chữ.",
+  "kind": "test",
+  "parent": "16-thien-nhien",
+  "group": "",
+  "sections": [
+    {
+      "id": "ck-b16-mondai-1",
+      "title": "問題1 — Đọc chữ Hán (10 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b16-01",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "わたしの　くには　山や　「川」が　たくさん　あります。",
+          "promptReading": "",
+          "promptTranslation": "Đất nước tôi có nhiều núi và sông.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "かわ",
+              "translation": "sông (川)",
+              "note": "Đúng: 川 đứng một mình đọc かわ."
+            },
+            {
+              "id": "c2",
+              "text": "がわ",
+              "translation": "(biến âm của かわ khi đứng sau từ khác)",
+              "note": "がわ chỉ dùng khi 川 đứng sau một từ khác (ナイル川 ナイルがわ); đứng một mình thì đọc かわ."
+            },
+            {
+              "id": "c3",
+              "text": "やま",
+              "translation": "núi (山)",
+              "note": "やま là 山 — chữ đứng trước や trong câu."
+            },
+            {
+              "id": "c4",
+              "text": "うみ",
+              "translation": "biển (海)",
+              "note": "うみ là 海 (biển)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "川 (かわ) = sông. Đề dán mất gạch chân; câu này trùng câu ví dụ của thẻ 川 và lựa chọn がわ chỉ có nghĩa khi hỏi 川, nên chữ đang hỏi là 川.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-02",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "この「海」を　およいでも　いいですか。",
+          "promptReading": "",
+          "promptTranslation": "Tôi bơi ở biển này có được không?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "うみ",
+              "translation": "biển (海)",
+              "note": "Đúng: 海 = うみ."
+            },
+            {
+              "id": "c2",
+              "text": "かわ",
+              "translation": "sông (川)",
+              "note": "かわ là 川."
+            },
+            {
+              "id": "c3",
+              "text": "もり",
+              "translation": "rừng (森)",
+              "note": "もり là 森 (rừng)."
+            },
+            {
+              "id": "c4",
+              "text": "やま",
+              "translation": "núi (山)",
+              "note": "やま là 山."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "海 (うみ) = biển. ～てもいいですか = làm ~ có được không. Đề in およいても — sửa thành およいでも (泳ぐ → 泳いで).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-03",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "私は　「空港」で　友達に　会いました。",
+          "promptReading": "",
+          "promptTranslation": "Tôi đã gặp bạn ở sân bay.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "そらこう",
+              "translation": "(sai: そら là âm Kun)",
+              "note": "そら là âm Kun (bầu trời); 空港 là từ Hán nên 空 đọc âm On くう."
+            },
+            {
+              "id": "c2",
+              "text": "くうこう",
+              "translation": "sân bay",
+              "note": "Đúng: 空港 = くうこう."
+            },
+            {
+              "id": "c3",
+              "text": "くこう",
+              "translation": "(sai: thiếu う)",
+              "note": "Thiếu う: 空 đọc くう, âm dài."
+            },
+            {
+              "id": "c4",
+              "text": "こうこう",
+              "translation": "(高校 = trường cấp 3)",
+              "note": "こうこう là 高校 (trường cấp 3)."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "空港 (くうこう) = sân bay: 空 (くう, bầu trời) ＋ 港 (こう, cảng).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-04",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「富士山」は　とても　きれいです。",
+          "promptReading": "",
+          "promptTranslation": "Núi Phú Sĩ rất đẹp.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "ふじやま",
+              "translation": "(cách đọc cũ, không dùng trong tiếng Nhật chuẩn)",
+              "note": "ふじやま là cách đọc người nước ngoài hay dùng; người Nhật đọc ふじさん."
+            },
+            {
+              "id": "c2",
+              "text": "ふじがわ",
+              "translation": "(sai: 川 = がわ)",
+              "note": "がわ là 川, không phải 山."
+            },
+            {
+              "id": "c3",
+              "text": "ふじうみ",
+              "translation": "(sai: 海 = うみ)",
+              "note": "うみ là 海, không phải 山."
+            },
+            {
+              "id": "c4",
+              "text": "ふじさん",
+              "translation": "núi Phú Sĩ",
+              "note": "Đúng: 富士山 = ふじさん."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "富士山 (ふじさん) = núi Phú Sĩ. Tên núi thường đọc 山 là さん (âm On): 富士山, 浅間山.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-05",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「羽田」空港は　東京に　あります。",
+          "promptReading": "",
+          "promptTranslation": "Sân bay Haneda ở Tokyo.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "はねで",
+              "translation": "(sai)",
+              "note": "田 không có âm で."
+            },
+            {
+              "id": "c2",
+              "text": "はねだ",
+              "translation": "Haneda",
+              "note": "Đúng: 羽田 = はねだ."
+            },
+            {
+              "id": "c3",
+              "text": "はねた",
+              "translation": "(sai: た phải đục thành だ)",
+              "note": "田 đứng sau từ khác thường biến âm thành だ (山田 やまだ, 羽田 はねだ)."
+            },
+            {
+              "id": "c4",
+              "text": "はねたん",
+              "translation": "(sai)",
+              "note": "田 không có âm たん."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "羽田 (はねだ) = Haneda, sân bay ở Tokyo. 羽 (はね: lông vũ) chưa học; 田 biến âm た → だ. Đề in 東京が　あります — sửa thành 東京に　あります (chỉ nơi chốn tồn tại dùng に).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-06",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「田中」先生は　優しい人です。",
+          "promptReading": "",
+          "promptTranslation": "Thầy Tanaka là người hiền lành.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "やまだ",
+              "translation": "(山田)",
+              "note": "やまだ là 山田."
+            },
+            {
+              "id": "c2",
+              "text": "たなか",
+              "translation": "Tanaka (田中)",
+              "note": "Đúng: 田中 = たなか."
+            },
+            {
+              "id": "c3",
+              "text": "やまなか",
+              "translation": "(山中)",
+              "note": "やまなか là 山中."
+            },
+            {
+              "id": "c4",
+              "text": "たがわ",
+              "translation": "(田川)",
+              "note": "たがわ là 田川."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "田中 (たなか): 田 (た, ruộng) ＋ 中 (なか, giữa) — một trong những họ phổ biến nhất ở Nhật.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-07",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "夜の　「空」は　とても　きれいな　ものです。",
+          "promptReading": "",
+          "promptTranslation": "Bầu trời đêm thật là đẹp.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "から",
+              "translation": "(空 đọc から trong 空っぽ: trống rỗng)",
+              "note": "から cũng là một âm của 空 (空っぽ: trống rỗng), nhưng \"bầu trời\" thì đọc そら."
+            },
+            {
+              "id": "c2",
+              "text": "しら",
+              "translation": "(sai)",
+              "note": "Không có âm しら."
+            },
+            {
+              "id": "c3",
+              "text": "そら",
+              "translation": "bầu trời",
+              "note": "Đúng: 空 (bầu trời) = そら."
+            },
+            {
+              "id": "c4",
+              "text": "そな",
+              "translation": "(sai)",
+              "note": "Không có âm そな."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "空 (そら) = bầu trời. ～ものです ở đây nhấn mạnh cảm thán: thật là ~.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-08",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "この「山」は　高いですよ。気を付けますね。",
+          "promptReading": "",
+          "promptTranslation": "Ngọn núi này cao đấy. Tôi sẽ cẩn thận.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "やま",
+              "translation": "núi (山)",
+              "note": "Đúng: 山 = やま."
+            },
+            {
+              "id": "c2",
+              "text": "かわ",
+              "translation": "sông (川)",
+              "note": "かわ là 川."
+            },
+            {
+              "id": "c3",
+              "text": "うみ",
+              "translation": "biển (海)",
+              "note": "うみ là 海."
+            },
+            {
+              "id": "c4",
+              "text": "もり",
+              "translation": "rừng (森)",
+              "note": "もり là 森."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "山 (やま) = núi. 気を付けます = cẩn thận.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-09",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "お腹が　「空」いています。",
+          "promptReading": "",
+          "promptTranslation": "Tôi đói bụng.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "か",
+              "translation": "(sai)",
+              "note": "空 không có âm か."
+            },
+            {
+              "id": "c2",
+              "text": "く",
+              "translation": "(sai: くう là âm On)",
+              "note": "くう là âm On (空港); động từ 空く đọc âm Kun す."
+            },
+            {
+              "id": "c3",
+              "text": "たた",
+              "translation": "(sai)",
+              "note": "空 không có âm たた."
+            },
+            {
+              "id": "c4",
+              "text": "す",
+              "translation": "đói (空く: すく)",
+              "note": "Đúng: 空いています = すいています."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "お腹が空いています (おなかがすいています) = đói bụng, nghĩa đen là \"bụng đang trống\". 空く (すく) = trống, vắng.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-10",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「海外」で　べんきょうしたい。",
+          "promptReading": "",
+          "promptTranslation": "Tôi muốn học ở nước ngoài.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "がいがい",
+              "translation": "(sai)",
+              "note": "海 đọc かい, không đục."
+            },
+            {
+              "id": "c2",
+              "text": "がいかい",
+              "translation": "(sai: đảo âm đục)",
+              "note": "Đảo ngược: 海 là かい, 外 là がい."
+            },
+            {
+              "id": "c3",
+              "text": "かいがい",
+              "translation": "nước ngoài",
+              "note": "Đúng: 海外 = かいがい."
+            },
+            {
+              "id": "c4",
+              "text": "かいかい",
+              "translation": "(sai: 外 phải đục thành がい)",
+              "note": "外 đọc がい (外国 がいこく), không phải かい."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "海外 (かいがい) = nước ngoài, hải ngoại: 海 (かい, biển) ＋ 外 (がい, ngoài).",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "ck-b16-mondai-2",
+      "title": "問題2 — Chọn chữ Hán (10 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b16-11",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "このクラスの　担任（たんにん）は　「かわぐち」先生です。",
+          "promptReading": "",
+          "promptTranslation": "Giáo viên chủ nhiệm lớp này là thầy Kawaguchi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "川口",
+              "translation": "Kawaguchi",
+              "note": "Đúng: かわぐち = 川口."
+            },
+            {
+              "id": "c2",
+              "text": "海口",
+              "translation": "(không đọc かわぐち)",
+              "note": "海 đọc うみ／かい, không đọc かわ."
+            },
+            {
+              "id": "c3",
+              "text": "山口",
+              "translation": "Yamaguchi (やまぐち)",
+              "note": "山口 đọc やまぐち."
+            },
+            {
+              "id": "c4",
+              "text": "森口",
+              "translation": "Moriguchi (もりぐち)",
+              "note": "森口 đọc もりぐち."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "川口 (かわぐち) = Kawaguchi, nghĩa đen là \"cửa sông\": 川 (かわ) ＋ 口 (くち → ぐち).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-12",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "アイスランドは　一番（いちばん）　「かざん」が　たくさん　あります。",
+          "promptReading": "",
+          "promptTranslation": "Iceland là nơi có nhiều núi lửa nhất.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "水山",
+              "translation": "(không có từ này)",
+              "note": "水 đọc すい／みず, không đọc か."
+            },
+            {
+              "id": "c2",
+              "text": "火川",
+              "translation": "(không có từ này)",
+              "note": "火 đúng là か, nhưng 川 là sông (かわ), không phải ざん."
+            },
+            {
+              "id": "c3",
+              "text": "火山",
+              "translation": "núi lửa",
+              "note": "Đúng: かざん = 火山."
+            },
+            {
+              "id": "c4",
+              "text": "水山",
+              "translation": "(không có từ này)",
+              "note": "水 đọc すい／みず, không đọc か."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "火山 (かざん) = núi lửa: 火 (か, lửa) ＋ 山 (さん → ざん). Đề in 水山 hai lần (lựa chọn 1 và 4), giữ như đề.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-13",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "ハジャン省（しょう）は　「たん」ぼが　たくさん　あります。",
+          "promptReading": "",
+          "promptTranslation": "Tỉnh Hà Giang có nhiều ruộng lúa.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "海んぼ",
+              "translation": "(không có từ này)",
+              "note": "海 đọc うみ／かい, không đọc た."
+            },
+            {
+              "id": "c2",
+              "text": "田んぼ",
+              "translation": "ruộng lúa",
+              "note": "Đúng: たんぼ = 田んぼ."
+            },
+            {
+              "id": "c3",
+              "text": "山んぼ",
+              "translation": "(không có từ này)",
+              "note": "山 đọc やま／さん, không đọc た."
+            },
+            {
+              "id": "c4",
+              "text": "川んぼ",
+              "translation": "(không có từ này)",
+              "note": "川 đọc かわ, không đọc た."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "田んぼ (たんぼ) = ruộng lúa nước: 田 (た) ＋ んぼ. 省 (しょう) = tỉnh (dùng cho tỉnh của Việt Nam, Trung Quốc).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-14",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「にほんかい」は　どこに　有名ですか。",
+          "promptReading": "",
+          "promptTranslation": "Biển Nhật Bản nổi tiếng ở chỗ nào?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "日本毎",
+              "translation": "(毎 = mỗi, thiếu bộ 氵)",
+              "note": "毎 (まい: mỗi) trông giống 海 nhưng thiếu bộ thủy 氵 bên trái."
+            },
+            {
+              "id": "c2",
+              "text": "日本海",
+              "translation": "Biển Nhật Bản",
+              "note": "Đúng: にほんかい = 日本海."
+            },
+            {
+              "id": "c3",
+              "text": "日本水",
+              "translation": "(không có từ này)",
+              "note": "水 đọc すい／みず, không đọc かい."
+            },
+            {
+              "id": "c4",
+              "text": "日本母",
+              "translation": "(母 = mẹ)",
+              "note": "母 (はは: mẹ) cũng giống phần bên phải của 海, nhưng không phải 海."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "日本海 (にほんかい) = Biển Nhật Bản; tên biển dùng 海 đọc かい. Đề in にほんうみ — 日本海 đọc にほんかい, đã sửa. Câu đề cũng không chuẩn ngữ pháp: nói tự nhiên là 日本海はどこにありますか (ở đâu) hoặc 日本海は何で有名ですか (nổi tiếng vì gì).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-15",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "白浜（しらはま）の　「かいがん」は　とても　きれいです。",
+          "promptReading": "",
+          "promptTranslation": "Bờ biển Shirahama rất đẹp.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "川岸",
+              "translation": "bờ sông (かわぎし)",
+              "note": "川岸 đọc かわぎし (bờ sông)."
+            },
+            {
+              "id": "c2",
+              "text": "毎岸",
+              "translation": "(không có từ này)",
+              "note": "毎 thiếu bộ 氵 — không phải 海."
+            },
+            {
+              "id": "c3",
+              "text": "母岸",
+              "translation": "(không có từ này)",
+              "note": "母 không phải 海."
+            },
+            {
+              "id": "c4",
+              "text": "海岸",
+              "translation": "bờ biển",
+              "note": "Đúng: かいがん = 海岸."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "海岸 (かいがん) = bờ biển: 海 (かい) ＋ 岸 (がん, bờ). Bẫy: 毎 và 母 đều trông giống 海 khi bỏ bộ 氵.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-16",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "森林（しんりん）の　「くうき」は　おいしいです。",
+          "promptReading": "",
+          "promptTranslation": "Không khí trong rừng thật trong lành.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "空気",
+              "translation": "không khí",
+              "note": "Đúng: くうき = 空気."
+            },
+            {
+              "id": "c2",
+              "text": "山気",
+              "translation": "(không có từ này)",
+              "note": "山 đọc やま／さん, không đọc くう."
+            },
+            {
+              "id": "c3",
+              "text": "川気",
+              "translation": "(không có từ này)",
+              "note": "川 đọc かわ, không đọc くう."
+            },
+            {
+              "id": "c4",
+              "text": "海気",
+              "translation": "(không có từ này)",
+              "note": "海 đọc うみ／かい, không đọc くう."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "空気 (くうき) = không khí. 空気がおいしい = không khí trong lành (nghĩa đen: không khí ngon).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-17",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "あの人は　「やまだ」さんですか。",
+          "promptReading": "",
+          "promptTranslation": "Người kia là anh Yamada phải không?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "川田",
+              "translation": "Kawada (かわだ)",
+              "note": "川田 đọc かわだ."
+            },
+            {
+              "id": "c2",
+              "text": "山田",
+              "translation": "Yamada",
+              "note": "Đúng: やまだ = 山田."
+            },
+            {
+              "id": "c3",
+              "text": "川山",
+              "translation": "(かわやま)",
+              "note": "川山 đọc かわやま."
+            },
+            {
+              "id": "c4",
+              "text": "田山",
+              "translation": "Tayama (たやま)",
+              "note": "田山 đọc たやま — đảo thứ tự hai chữ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "山田 (やまだ): 山 (やま) ＋ 田 (た → だ). Chú ý thứ tự chữ: 山 trước, 田 sau.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-18",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "来年　ほっ「かい」どうへ　留学（りゅうがく）します。",
+          "promptReading": "",
+          "promptTranslation": "Năm sau tôi sẽ đi du học ở Hokkaido.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "腹",
+              "translation": "(腹 = bụng, はら／ふく)",
+              "note": "腹 (はら: bụng) đọc ふく, không đọc かい."
+            },
+            {
+              "id": "c2",
+              "text": "川",
+              "translation": "sông (かわ)",
+              "note": "川 đọc かわ."
+            },
+            {
+              "id": "c3",
+              "text": "海",
+              "translation": "biển (かい)",
+              "note": "Đúng: ほっかいどう = 北海道 — 海 đọc かい."
+            },
+            {
+              "id": "c4",
+              "text": "田",
+              "translation": "ruộng (た)",
+              "note": "田 đọc た／でん."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "北海道 (ほっかいどう) = Hokkaido: 北 (ほく → ほっ, bắc) ＋ 海 (かい) ＋ 道 (どう, đường).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-19",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "祖母は　「いなか」に　すんでいます。",
+          "promptReading": "",
+          "promptTranslation": "Bà tôi sống ở quê.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "川舎",
+              "translation": "(không có từ này)",
+              "note": "Không có từ 川舎."
+            },
+            {
+              "id": "c2",
+              "text": "海舎",
+              "translation": "(không có từ này)",
+              "note": "Không có từ 海舎."
+            },
+            {
+              "id": "c3",
+              "text": "森舎",
+              "translation": "(không có từ này)",
+              "note": "Không có từ 森舎."
+            },
+            {
+              "id": "c4",
+              "text": "田舎",
+              "translation": "nông thôn, quê",
+              "note": "Đúng: いなか = 田舎 (âm đặc biệt)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "田舎 (いなか) = nông thôn, quê — âm đặc biệt, không đọc theo âm từng chữ. Nhớ theo nghĩa: nhà (舎) giữa ruộng (田).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b16-20",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "ナイル「がわ」は　世界で　一番　長いです。",
+          "promptReading": "",
+          "promptTranslation": "Sông Nile dài nhất thế giới.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "海",
+              "translation": "biển (うみ)",
+              "note": "海 đọc うみ／かい."
+            },
+            {
+              "id": "c2",
+              "text": "田",
+              "translation": "ruộng (た)",
+              "note": "田 đọc た／だ."
+            },
+            {
+              "id": "c3",
+              "text": "川",
+              "translation": "sông (かわ／がわ)",
+              "note": "Đúng: ナイル川 = ナイルがわ."
+            },
+            {
+              "id": "c4",
+              "text": "森",
+              "translation": "rừng (もり)",
+              "note": "森 đọc もり."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "川 đứng sau tên riêng biến âm かわ → がわ: ナイル川 (ナイルがわ), 隅田川 (すみだがわ).",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "title": "山",
+      "meaning": "SƠN · núi",
+      "lines": [
+        "やま — 山 (núi), 山田 (やまだ), 山口 (やまぐち)",
+        "さん／ざん — 富士山 (ふじさん), 火山 (かざん: núi lửa)"
+      ]
+    },
+    {
+      "title": "川",
+      "meaning": "XUYÊN · sông",
+      "lines": [
+        "かわ — 川 (sông), 川口 (かわぐち)",
+        "がわ — đứng sau tên riêng: ナイル川 (ナイルがわ: sông Nile)"
+      ]
+    },
+    {
+      "title": "田",
+      "meaning": "ĐIỀN · ruộng",
+      "lines": [
+        "た — 田中 (たなか), 田んぼ (たんぼ: ruộng lúa)",
+        "だ — đứng sau từ khác: 山田 (やまだ), 羽田 (はねだ)",
+        "âm đặc biệt — 田舎 (いなか: nông thôn)"
+      ]
+    },
+    {
+      "title": "海",
+      "meaning": "HẢI · biển",
+      "lines": [
+        "うみ — 海 (biển)",
+        "かい — 海外 (かいがい), 海岸 (かいがん), 日本海 (にほんかい), 北海道 (ほっかいどう)"
+      ]
+    },
+    {
+      "title": "空",
+      "meaning": "KHÔNG · trời, rỗng",
+      "lines": [
+        "そら — 空 (bầu trời)",
+        "くう — 空港 (くうこう), 空気 (くうき)",
+        "す — 空く (すく): お腹が空いています (đói bụng)"
+      ]
+    }
+  ]
+}

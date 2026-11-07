@@ -1,0 +1,7 @@
+{
+  "name": "Đề 山 川 田 海 空",
+  "description": "山 · 川 · 田 · 海 · 空 — đề 20 câu: 問題1 đọc 10 từ (空港, 富士山, 羽田, 海外, 空いています…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana (川口, 火山, 田んぼ, 海岸, 北海道, 田舎…). Có bảng tóm tắt cách đọc từng chữ.",
+  "kind": "test",
+  "parent": "16-thien-nhien",
+  "order": 1601
+}

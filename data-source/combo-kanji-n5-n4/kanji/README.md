@@ -87,6 +87,7 @@ trang bài thẻ.
 | `06-bai-6`  | Đề 時 分 半 間 週 | `06-thoi-gian`  | 20 câu: giờ giấc, thời gian                                  |
 | `07-bai-7`  | Đề 先 生 学 友 名 | `07-truong-hoc` | 20 câu: 先生, 友達, 名前, 学校…                                |
 | `14-bai-14` | Đề 口 目 耳 手 足 | `14-bo-phan`    | 20 câu: 目的, 人口, 悪口, 下手, 窓口, 足りる, 入口…             |
+| `16-bai-16` | Đề 山 川 田 海 空 | `16-thien-nhien` | 20 câu: 空港, 富士山, 羽田, 海外, 火山, 海岸, 北海道, 田舎…   |
 
 Đề đặt tên theo chữ chứ không theo số bài, vì số không khớp: đề `05-bai-5` lúc dán vào ghi
 "Bài 5" nhưng hỏi 日 月 火 水 木 — chữ của BUỔI 04 trong PDF — nên gắn vào Bài 4. Đề "Chữ số"
@@ -110,6 +111,8 @@ Mỗi đề có `summary` — bảng "Tóm tắt bài" hiện trên khung bắt 
 - **Không có `promptReading`**: câu đề ở trình độ này đã viết bằng hiragana, chỉ còn đúng
   chữ đang hỏi là chữ Hán — viết cách đọc ra là lộ đáp án.
 - Dấu cách giữa các từ giữ như đề in, viết bằng dấu cách toàn khổ `　`.
+- Chữ CHƯA HỌC mà đề có chú âm (担任, 一番, 白浜…) thì ghi cách đọc trong ngoặc toàn khổ ngay
+  sau chữ: `担任（たんにん）`. Chữ đang hỏi thì không, vì sẽ lộ đáp án.
 - Lỗi gõ thấy rõ thì sửa và ghi ở cuối `explanation`: `でんわばんご` → `でんわばんごう`,
   `なんほん` → `なんぼん`. Lựa chọn sai cố ý (`丸つ` — chữ 丸 trông giống 九) thì giữ nguyên.
 
