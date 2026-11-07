@@ -1,0 +1,327 @@
+{
+  "id": "02-so-dem",
+  "name": "Bài 2 · Số đếm",
+  "description": "六 七 八 九 十 — số 6 đến 10, chỗ biến âm (六回 ろっかい, 八歳 はっさい, 十分 じゅっぷん) và ngày trong tháng (六日, 七日, 八日, 九日, 十日).",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "a623343049ebf6f0",
+      "character": "六",
+      "hanViet": "LỤC",
+      "meaning": "số sáu",
+      "onyomi": [
+        "ロク",
+        "ロッ"
+      ],
+      "kunyomi": [
+        "むっ",
+        "むい"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "8aaa04b59c526ef9",
+          "japanese": "六",
+          "reading": "ろく",
+          "vietnamese": "Số 6"
+        },
+        {
+          "id": "0eab4febfd6736ca",
+          "japanese": "六月",
+          "reading": "ろくがつ",
+          "vietnamese": "Tháng 6"
+        },
+        {
+          "id": "e30428a53ea1f2bb",
+          "japanese": "六回",
+          "reading": "ろっかい",
+          "vietnamese": "6 lần"
+        },
+        {
+          "id": "0e16ce4a5cc7d62b",
+          "japanese": "六つ",
+          "reading": "むっつ",
+          "vietnamese": "6 cái"
+        },
+        {
+          "id": "2b2278db930d2084",
+          "japanese": "六日",
+          "reading": "むいか",
+          "vietnamese": "Ngày mùng 6, 6 ngày"
+        }
+      ],
+      "mnemonic": "6 mũ thần (亠) che mất ngọn núi (ハ).",
+      "examples": [
+        {
+          "id": "f369466d99ae8daf",
+          "japanese": "わたしの　たんじょうびは　六月です。",
+          "reading": "わたしの　たんじょうびは　ろくがつです。",
+          "vietnamese": "Sinh nhật của tôi vào tháng 6.",
+          "note": ""
+        },
+        {
+          "id": "5122e631d3cf49a3",
+          "japanese": "A：消しゴムは　いくつ　ですか。　B：六つです。",
+          "reading": "A：けしゴムは　いくつ　ですか。　B：むっつです。",
+          "vietnamese": "A: Có mấy cục tẩy? B: Sáu cục.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "31e95363fd433fed",
+      "character": "七",
+      "hanViet": "THẤT",
+      "meaning": "số bảy",
+      "onyomi": [
+        "シチ"
+      ],
+      "kunyomi": [
+        "なな",
+        "なの"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1d068e5710cc4ff7",
+          "japanese": "七時",
+          "reading": "しちじ",
+          "vietnamese": "7 giờ"
+        },
+        {
+          "id": "b797514076e3567b",
+          "japanese": "七月",
+          "reading": "しちがつ",
+          "vietnamese": "Tháng 7"
+        },
+        {
+          "id": "0d285fd4d4909f45",
+          "japanese": "七",
+          "reading": "なな",
+          "vietnamese": "Số 7"
+        },
+        {
+          "id": "1f556c378f869b6f",
+          "japanese": "七つ",
+          "reading": "ななつ",
+          "vietnamese": "7 cái"
+        },
+        {
+          "id": "b91e58221734c4ec",
+          "japanese": "七日",
+          "reading": "なのか",
+          "vietnamese": "Ngày mùng 7, 7 ngày"
+        }
+      ],
+      "mnemonic": "Số 7 ngược.",
+      "examples": [
+        {
+          "id": "e26e20964cad9ab1",
+          "japanese": "「七五三」は　日本で　こどもの　おいわいです。",
+          "reading": "「しちごさん」は　にほんで　こどもの　おいわいです。",
+          "vietnamese": "\"Shichi-go-san\" (7-5-3) là lễ mừng dành cho trẻ em ở Nhật.",
+          "note": ""
+        },
+        {
+          "id": "bc89779ca5be9e04",
+          "japanese": "あしたは　七日　です。",
+          "reading": "あしたは　なのか　です。",
+          "vietnamese": "Ngày mai là ngày mùng 7.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "d9c5ad15b953fa57",
+      "character": "八",
+      "hanViet": "BÁT",
+      "meaning": "số tám",
+      "onyomi": [
+        "ハチ",
+        "ハッ"
+      ],
+      "kunyomi": [
+        "やっ",
+        "よう"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "529d4013db629d8d",
+          "japanese": "八",
+          "reading": "はち",
+          "vietnamese": "Số 8"
+        },
+        {
+          "id": "be7b95f2bcf2b30c",
+          "japanese": "八歳",
+          "reading": "はっさい",
+          "vietnamese": "8 tuổi"
+        },
+        {
+          "id": "9509d81b7f07b448",
+          "japanese": "八月",
+          "reading": "はちがつ",
+          "vietnamese": "Tháng 8"
+        },
+        {
+          "id": "5f4d5e9a6f7cc5d6",
+          "japanese": "八つ",
+          "reading": "やっつ",
+          "vietnamese": "8 cái"
+        },
+        {
+          "id": "80bd12d5c367777a",
+          "japanese": "八日",
+          "reading": "ようか",
+          "vietnamese": "Ngày mùng 8, 8 ngày"
+        }
+      ],
+      "mnemonic": "Chữ HA (ハ) trong số 8 (八) là HACHI (ハチ).",
+      "examples": [
+        {
+          "id": "b85de5a7ff0ae446",
+          "japanese": "リンさんは　八歳　です。",
+          "reading": "リンさんは　はっさい　です。",
+          "vietnamese": "Bạn Linh 8 tuổi.",
+          "note": ""
+        },
+        {
+          "id": "0afa34a5432249ad",
+          "japanese": "A：誕生日は　いつ　ですか。　B：今月の　八日　です。",
+          "reading": "A：たんじょうびは　いつ　ですか。　B：こんげつの　ようか　です。",
+          "vietnamese": "A: Sinh nhật bạn là khi nào? B: Ngày mùng 8 tháng này.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "afb22d2f457bbfbc",
+      "character": "九",
+      "hanViet": "CỬU",
+      "meaning": "số chín",
+      "onyomi": [
+        "キュウ",
+        "ク"
+      ],
+      "kunyomi": [
+        "ここの"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "cbeb347a7fe17372",
+          "japanese": "九",
+          "reading": "きゅう",
+          "vietnamese": "Số 9"
+        },
+        {
+          "id": "e55dac254a5dd0ea",
+          "japanese": "九人",
+          "reading": "きゅうにん",
+          "vietnamese": "9 người"
+        },
+        {
+          "id": "fe2f43064042d7f1",
+          "japanese": "九時",
+          "reading": "くじ",
+          "vietnamese": "9 giờ"
+        },
+        {
+          "id": "fa8b84cbe195bad5",
+          "japanese": "九月",
+          "reading": "くがつ",
+          "vietnamese": "Tháng 9"
+        },
+        {
+          "id": "7b34488836cf371f",
+          "japanese": "九つ",
+          "reading": "ここのつ",
+          "vietnamese": "9 cái"
+        },
+        {
+          "id": "e7121da945d263b5",
+          "japanese": "九日",
+          "reading": "ここのか",
+          "vietnamese": "Ngày mùng 9, 9 ngày"
+        }
+      ],
+      "mnemonic": "Một người chống đẩy 9 cái.",
+      "examples": [
+        {
+          "id": "b13f7901bc358ea2",
+          "japanese": "やきゅうチームは　九人です。",
+          "reading": "やきゅうチームは　きゅうにんです。",
+          "vietnamese": "Đội bóng chày có 9 người.",
+          "note": ""
+        },
+        {
+          "id": "8f24e46615701b0e",
+          "japanese": "A：りんごは　いくつ　ですか。　B：九つです。",
+          "reading": "A：りんごは　いくつ　ですか。　B：ここのつです。",
+          "vietnamese": "A: Có mấy quả táo? B: Chín quả.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "36000a3ee333c80b",
+      "character": "十",
+      "hanViet": "THẬP",
+      "meaning": "số mười",
+      "onyomi": [
+        "ジュウ",
+        "ジュッ"
+      ],
+      "kunyomi": [
+        "とお"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "ca7ae9ab0ec80d53",
+          "japanese": "十",
+          "reading": "じゅう",
+          "vietnamese": "Số 10"
+        },
+        {
+          "id": "2b758bf2e561bc01",
+          "japanese": "十時",
+          "reading": "じゅうじ",
+          "vietnamese": "10 giờ"
+        },
+        {
+          "id": "b01547ac9e7535d2",
+          "japanese": "十分",
+          "reading": "じゅっぷん",
+          "vietnamese": "10 phút"
+        },
+        {
+          "id": "f1c968f4ebed7404",
+          "japanese": "十日",
+          "reading": "とおか",
+          "vietnamese": "Ngày 10, 10 ngày"
+        }
+      ],
+      "mnemonic": "十 là biểu tượng của hội chữ THẬP đỏ.",
+      "examples": [
+        {
+          "id": "9fca1575dfbd08e9",
+          "japanese": "うちから　かいしゃまで　でんしゃで　十分です。",
+          "reading": "うちから　かいしゃまで　でんしゃで　じゅっぷんです。",
+          "vietnamese": "Từ nhà đến công ty đi tàu điện mất 10 phút.",
+          "note": ""
+        },
+        {
+          "id": "9130bf0e7e67348d",
+          "japanese": "なつやすみは　六月十日からです。",
+          "reading": "なつやすみは　ろくがつとおかからです。",
+          "vietnamese": "Kỳ nghỉ hè bắt đầu từ ngày 10 tháng 6.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "id": "07-bai-7",
-  "name": "Bài 7",
+  "name": "Đề 先 生 学 友 名",
   "description": "先 · 生 · 学 · 友 · 名 — đề 20 câu: 問題1 đọc 10 từ (先生, 友達, 名刺, 学ぶ…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana. Có bảng tóm tắt cách đọc từng chữ.",
   "kind": "test",
-  "parent": "",
+  "parent": "07-truong-hoc",
   "group": "",
   "sections": [
     {

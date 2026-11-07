@@ -35,9 +35,10 @@ mỗi bài là một ĐỀ chứ không phải bảng từ hay bảng chữ:
   用法 — cho một phó từ rồi chọn câu dùng nó đúng
   ([cách chép](data-source/btvn-n4-chuyen-sau/kanji/README.md)).
 
-**Combo Kanji N5-N4** (`/combo-kanji-n5-n4`) — khoá kanji sơ cấp, chỉ một phần Kanji, mỗi
-bài là một ĐỀ đọc chữ Hán và chọn chữ Hán. "Chữ số 一〜十" là 20 câu: 問題1 đọc 10 từ có
-chữ số, 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana
+**Combo Kanji N5-N4** (`/combo-kanji-n5-n4`) — khoá kanji sơ cấp, chỉ một phần Kanji. Phạm
+vi N5 là Bài 1–15, 75 chữ, mỗi bài 5 thẻ kanji (âm On/Kun, từ ghép, cách nhớ, câu ví dụ)
+chép từ PDF của Riki. Đề trắc nghiệm của bài (問題1 đọc chữ Hán, 問題2 chọn chữ Hán, 20 câu)
+là bài con, hiện trên trang bài thẻ — đang có đề của Bài 2, 3, 4, 6, 7 và 14
 ([cách chép](data-source/combo-kanji-n5-n4/kanji/README.md)).
 
 Địa chỉ cũ chưa có tên học phần (`/vocabulary/01-danh-tu`) tự chuyển sang N3 JUNBI.

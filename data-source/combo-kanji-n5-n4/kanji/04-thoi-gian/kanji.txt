@@ -1,0 +1,41 @@
+# Combo Kanji N5-N4 — KANJI · Bài 4 (Thời gian)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 04 · THỜI GIAN (Bai4.pdf), thẻ 16–20.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# 日: thẻ ghi にっ và び là "biến âm"; 訓 thẻ xếp び trước ひ, ở đây đặt âm gốc ひ lên đầu.
+日,NHẬT,ngày/ mặt trời,ニチ・ニッ,ひ・び・か,|日曜日 (にちようび)=Chủ nhật;毎日 (まいにち)=Hàng ngày;日記 (にっき)=Nhật kí;誕生日 (たんじょうび)=Sinh nhật;母の日 (ははのひ)=Ngày của mẹ;五日 (いつか)=Ngày mùng 5, 5 ngày
+覚: Đây là hình MẶT TRỜI (日).
+・毎日　日本語を　べんきょう　します。| Hàng ngày tôi học tiếng Nhật.
+読: まいにち　にほんごを　べんきょう　します。
+・山田さんの　誕生日は　こんしゅうの　日曜日ですね。| Sinh nhật của anh Yamada là Chủ nhật tuần này nhỉ.
+読: やまださんの　たんじょうびは　こんしゅうの　にちようびですね。
+
+# お正月は 1月 1日: 1日 ở đây là ngày mồng 1, đọc ついたち.
+月,NGUYỆT,mặt trăng,ガツ・ゲツ,つき,|お正月 (おしょうがつ)=Tết dương;月曜日 (げつようび)=Thứ 2;月 (つき)=Trăng;毎月 (まいつき)=Hàng tháng
+覚: 1) Hình ảnh TRĂNG lưỡi liềm. 2) Bắc thang (nhìn giống cái thang) lên MẶT TRĂNG (月).
+・お正月は　1月　1日です。| Tết (dương lịch) là ngày 1 tháng 1.
+読: おしょうがつは　いちがつ　ついたちです。
+・こんやの　月は　とても　きれいです。| Trăng đêm nay rất đẹp.
+読: こんやの　つきは　とても　きれいです。
+
+火,HỎA,lửa,カ,ひ・び,|火曜日 (かようび)=Thứ 3;火 (ひ)=Lửa;花火 (はなび)=Pháo hoa
+覚: Một người giơ tay chân chạy kêu HỎA (火) hoạn.
+・としょかんの　やすみは　火曜日です。| Thư viện nghỉ vào thứ Ba.
+読: としょかんの　やすみは　かようびです。
+・こんばん　ともだちと　花火を　みます。| Tối nay tôi xem pháo hoa với bạn.
+読: こんばん　ともだちと　はなびを　みます。
+
+水,THỦY,nước,スイ,みず,|水曜日 (すいようび)=Thứ 4;水道 (すいどう)=Nước máy;水 (みず)=Nước
+覚: Hình ảnh dòng nước với 4 giọt NƯỚC (水) bắn tung tóe.
+・この　えいがは　こんしゅうの　水曜日に　おわります。| Bộ phim này chiếu đến hết thứ Tư tuần này.
+読: この　えいがは　こんしゅうの　すいようびに　おわります。
+・わたしは　毎日　水を　のみます。| Hằng ngày tôi uống nước.
+読: わたしは　まいにち　みずを　のみます。
+
+木,MỘC,cây,モク,き,|木曜日 (もくようび)=Thứ 5;木 (き)=Cây cối;木村さん (きむらさん)=Anh Kimura
+覚: Hình ảnh CÂY (木) xòe tán.
+・A：かいぎは　何曜日ですか。　B：木曜日です。| A: Cuộc họp vào thứ mấy? B: Thứ Năm.
+読: A：かいぎは　なんようびですか。　B：もくようびです。
+・木村さんは　バスで　かいしゃへ　いきます。| Anh Kimura đi đến công ty bằng xe buýt.
+読: きむらさんは　バスで　かいしゃへ　いきます。

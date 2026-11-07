@@ -1,6 +1,7 @@
 {
-  "name": "Bài 5",
+  "name": "Đề 日 月 火 水 木",
   "description": "日 · 月 · 火 · 水 · 木 — đề 20 câu: 問題1 đọc 10 từ (thứ trong tuần, 花火, お正月…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana. Có bảng tóm tắt cách đọc từng chữ.",
   "kind": "test",
-  "order": 5
+  "parent": "04-thoi-gian",
+  "order": 401
 }

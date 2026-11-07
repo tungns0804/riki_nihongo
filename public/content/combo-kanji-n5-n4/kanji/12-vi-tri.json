@@ -1,0 +1,276 @@
+{
+  "id": "12-vi-tri",
+  "name": "Bài 12 · Vị trí 2",
+  "description": "後 前 外 入 出 — sau, trước, ngoài, vào, ra: 午後, 午前, 外国, 入ります, 出かけます.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "8c5c9d36deec9707",
+      "character": "後",
+      "hanViet": "HẬU",
+      "meaning": "sau/ phía sau",
+      "onyomi": [
+        "ゴ"
+      ],
+      "kunyomi": [
+        "うし.ろ",
+        "あと"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "47029302f00ec564",
+          "japanese": "午後",
+          "reading": "ごご",
+          "vietnamese": "Buổi chiều"
+        },
+        {
+          "id": "4198b00e592e47e6",
+          "japanese": "後ろ",
+          "reading": "うしろ",
+          "vietnamese": "Sau, phía sau"
+        },
+        {
+          "id": "3ea994b907ed8729",
+          "japanese": "後",
+          "reading": "あと",
+          "vietnamese": "Sau"
+        }
+      ],
+      "mnemonic": "YÊU (幺) thầm thường lặng lẽ BƯỚC (彳) theo SAU (後).",
+      "examples": [
+        {
+          "id": "5bd6b804b97bdcc8",
+          "japanese": "午後　1時に　学校へ　行きます。",
+          "reading": "ごご　いちじに　がっこうへ　いきます。",
+          "vietnamese": "1 giờ chiều tôi đến trường.",
+          "note": ""
+        },
+        {
+          "id": "197b0c85f651dd8d",
+          "japanese": "病院の　後ろに　公園が　あります。",
+          "reading": "びょういんの　うしろに　こうえんが　あります。",
+          "vietnamese": "Phía sau bệnh viện có công viên.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "c77588e5453f4167",
+      "character": "前",
+      "hanViet": "TIỀN",
+      "meaning": "trước/ phía trước",
+      "onyomi": [
+        "ゼン"
+      ],
+      "kunyomi": [
+        "まえ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d5da0a13eb08c5fb",
+          "japanese": "午前",
+          "reading": "ごぜん",
+          "vietnamese": "Buổi sáng"
+        },
+        {
+          "id": "cb67d138239e7a33",
+          "japanese": "前",
+          "reading": "まえ",
+          "vietnamese": "Trước, đằng trước"
+        },
+        {
+          "id": "ee0d74defcfa775a",
+          "japanese": "名前",
+          "reading": "なまえ",
+          "vietnamese": "Tên"
+        }
+      ],
+      "mnemonic": "TRĂNG (月) kia luồn dưới CỎ (艹) xanh, chịu ĐAO (刂) kề cổ chẳng qua vì TIỀN (前).",
+      "examples": [
+        {
+          "id": "8ba447f52e68950e",
+          "japanese": "金曜日の午前　8時半に　会議を　開きます。",
+          "reading": "きんようびのごぜん　はちじはんに　かいぎを　ひらきます。",
+          "vietnamese": "Cuộc họp được tổ chức lúc 8 giờ rưỡi sáng thứ Sáu.",
+          "note": ""
+        },
+        {
+          "id": "d6d954069690279f",
+          "japanese": "食事の前に　手を　洗います。",
+          "reading": "しょくじのまえに　てを　あらいます。",
+          "vietnamese": "Trước bữa ăn thì rửa tay.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "9658b74a7b42162a",
+      "character": "外",
+      "hanViet": "NGOẠI",
+      "meaning": "bên ngoài",
+      "onyomi": [
+        "ガイ"
+      ],
+      "kunyomi": [
+        "そと"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "77a730a2e2c25fa9",
+          "japanese": "外国",
+          "reading": "がいこく",
+          "vietnamese": "Nước ngoài"
+        },
+        {
+          "id": "03c0058477927aa2",
+          "japanese": "外",
+          "reading": "そと",
+          "vietnamese": "Bên ngoài"
+        }
+      ],
+      "mnemonic": "Tato (夕卜) — xăm hình — xuất phát từ NGOẠI (外) quốc.",
+      "examples": [
+        {
+          "id": "2235b88d181f3844",
+          "japanese": "息子は　今　外国にいます。",
+          "reading": "むすこは　いま　がいこくにいます。",
+          "vietnamese": "Con trai tôi bây giờ đang ở nước ngoài.",
+          "note": ""
+        },
+        {
+          "id": "a8d2328b09c3ba71",
+          "japanese": "A：外は　さむいですか。　B：さむくないですよ。",
+          "reading": "A：そとは　さむいですか。　B：さむくないですよ。",
+          "vietnamese": "A: Bên ngoài có lạnh không? B: Không lạnh đâu.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "be23fa4c2d1e5dd8",
+      "character": "入",
+      "hanViet": "NHẬP",
+      "meaning": "vào",
+      "onyomi": [
+        "ニュウ"
+      ],
+      "kunyomi": [
+        "はい.る",
+        "い.れる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "f4b0504e7873ab8b",
+          "japanese": "入学",
+          "reading": "にゅうがく",
+          "vietnamese": "Nhập học"
+        },
+        {
+          "id": "2309f8070fe15739",
+          "japanese": "入院",
+          "reading": "にゅういん",
+          "vietnamese": "Nhập viện"
+        },
+        {
+          "id": "d73be6cdb9ffaf3e",
+          "japanese": "入ります",
+          "reading": "はいります",
+          "vietnamese": "Đi vào"
+        },
+        {
+          "id": "89e7127817b9467f",
+          "japanese": "入れます",
+          "reading": "いれます",
+          "vietnamese": "Cho vào"
+        }
+      ],
+      "mnemonic": "Người lao về phía trước.",
+      "examples": [
+        {
+          "id": "734356b3065f49c2",
+          "japanese": "日本では　入学式は　四月です。",
+          "reading": "にほんでは　にゅうがくしきは　しがつです。",
+          "vietnamese": "Ở Nhật, lễ nhập học vào tháng 4.",
+          "note": ""
+        },
+        {
+          "id": "637409742cd7f27a",
+          "japanese": "かばんに　本を　入れました。",
+          "reading": "かばんに　ほんを　いれました。",
+          "vietnamese": "Tôi đã cho sách vào cặp.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "a312ed18556f3837",
+      "character": "出",
+      "hanViet": "XUẤT",
+      "meaning": "ra",
+      "onyomi": [
+        "シュツ",
+        "シュッ"
+      ],
+      "kunyomi": [
+        "で.る",
+        "だ.す"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "86bf3edcb613c7ff",
+          "japanese": "出張",
+          "reading": "しゅっちょう",
+          "vietnamese": "Đi công tác"
+        },
+        {
+          "id": "2b95659097b60406",
+          "japanese": "輸出",
+          "reading": "ゆしゅつ",
+          "vietnamese": "Xuất khẩu"
+        },
+        {
+          "id": "205e3cb22874a299",
+          "japanese": "出ます",
+          "reading": "でます",
+          "vietnamese": "Đi ra"
+        },
+        {
+          "id": "9d7a164cf3dd842a",
+          "japanese": "出かけます",
+          "reading": "でかけます",
+          "vietnamese": "Ra ngoài"
+        },
+        {
+          "id": "00e0b3ea8e0ed589",
+          "japanese": "出します",
+          "reading": "だします",
+          "vietnamese": "Nộp"
+        }
+      ],
+      "mnemonic": "Cây cỏ (屮) mọc ra từ cái chậu cây (凵).",
+      "examples": [
+        {
+          "id": "3ede790d6975a630",
+          "japanese": "あした　アメリカへ　出張します。",
+          "reading": "あした　アメリカへ　しゅっちょうします。",
+          "vietnamese": "Ngày mai tôi đi công tác Mỹ.",
+          "note": ""
+        },
+        {
+          "id": "0e862cfe73b17d5f",
+          "japanese": "田中さんは　三十分前に　出かけました。",
+          "reading": "たなかさんは　さんじゅっぷんまえに　でかけました。",
+          "vietnamese": "Anh Tanaka đã ra ngoài từ 30 phút trước.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

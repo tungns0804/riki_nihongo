@@ -1,0 +1,348 @@
+{
+  "id": "01-so-dem",
+  "name": "Bài 1 · Số đếm",
+  "description": "一 二 三 四 五 — số 1 đến 5 và cách đọc khi đếm cái (一つ), người (二人), ngày (三日) và giờ (四時).",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "9293bbc70b631ecb",
+      "character": "一",
+      "hanViet": "NHẤT",
+      "meaning": "số một",
+      "onyomi": [
+        "イチ",
+        "イッ"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "a6220fb97c089b6e",
+          "japanese": "一",
+          "reading": "いち",
+          "vietnamese": "Số một"
+        },
+        {
+          "id": "0b89d191aac8ca6e",
+          "japanese": "一時",
+          "reading": "いちじ",
+          "vietnamese": "Một giờ"
+        },
+        {
+          "id": "467c8b0e8d1a982a",
+          "japanese": "一日",
+          "reading": "いちにち",
+          "vietnamese": "Một ngày"
+        },
+        {
+          "id": "331564411b70fad0",
+          "japanese": "一日",
+          "reading": "ついたち",
+          "vietnamese": "Ngày mồng 1"
+        },
+        {
+          "id": "4b447b317804a8cd",
+          "japanese": "一月",
+          "reading": "いちがつ",
+          "vietnamese": "Tháng 1"
+        },
+        {
+          "id": "caccc02156b0657b",
+          "japanese": "一歳",
+          "reading": "いっさい",
+          "vietnamese": "Một tuổi"
+        },
+        {
+          "id": "bc86a3e24aeeb5cc",
+          "japanese": "一度",
+          "reading": "いちど",
+          "vietnamese": "Một lần"
+        },
+        {
+          "id": "108bc0cc9a5fc680",
+          "japanese": "一つ",
+          "reading": "ひとつ",
+          "vietnamese": "Một cái"
+        },
+        {
+          "id": "9043acf0f59b34c1",
+          "japanese": "一人",
+          "reading": "ひとり",
+          "vietnamese": "Một người, một mình"
+        }
+      ],
+      "mnemonic": "1 que diêm, 1 ngón tay.",
+      "examples": [
+        {
+          "id": "dcccdcd2825041c5",
+          "japanese": "いま、おとうとは　一歳　です。",
+          "reading": "いま、おとうとは　いっさい　です。",
+          "vietnamese": "Bây giờ em trai tôi một tuổi.",
+          "note": ""
+        },
+        {
+          "id": "1c666c3e61e8639c",
+          "japanese": "コーヒー　一つ　おねがいします。",
+          "reading": "コーヒー　ひとつ　おねがいします。",
+          "vietnamese": "Cho tôi một ly cà phê.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "5cdf312e678de072",
+      "character": "二",
+      "hanViet": "NHỊ",
+      "meaning": "số hai",
+      "onyomi": [
+        "ニ"
+      ],
+      "kunyomi": [
+        "ふた",
+        "ふつ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "e84ac0742d332e24",
+          "japanese": "二",
+          "reading": "に",
+          "vietnamese": "Số hai"
+        },
+        {
+          "id": "eafcb2aafd4692f3",
+          "japanese": "二時",
+          "reading": "にじ",
+          "vietnamese": "2 giờ"
+        },
+        {
+          "id": "7e2b47234b719ad5",
+          "japanese": "二階",
+          "reading": "にかい",
+          "vietnamese": "Tầng 2"
+        },
+        {
+          "id": "dd8930568262b10e",
+          "japanese": "二人",
+          "reading": "ふたり",
+          "vietnamese": "2 người"
+        },
+        {
+          "id": "357d3e29d7151a70",
+          "japanese": "二日",
+          "reading": "ふつか",
+          "vietnamese": "Ngày mùng 2, 2 ngày"
+        }
+      ],
+      "mnemonic": "2 que diêm, 2 ngón tay.",
+      "examples": [
+        {
+          "id": "d52fed0766cfc6cc",
+          "japanese": "A：トイレは　どこ　ですか？　B：二階です。",
+          "reading": "A：トイレは　どこ　ですか？　B：にかいです。",
+          "vietnamese": "A: Nhà vệ sinh ở đâu ạ? B: Ở tầng 2.",
+          "note": ""
+        },
+        {
+          "id": "5e4defd227c5745e",
+          "japanese": "きょうは　一月　二日です。",
+          "reading": "きょうは　いちがつ　ふつかです。",
+          "vietnamese": "Hôm nay là ngày mùng 2 tháng 1.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "6e8d37bdc19fedaa",
+      "character": "三",
+      "hanViet": "TAM",
+      "meaning": "số ba",
+      "onyomi": [
+        "サン"
+      ],
+      "kunyomi": [
+        "みっ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d98b9d3fa5b1870e",
+          "japanese": "三",
+          "reading": "さん",
+          "vietnamese": "Số ba"
+        },
+        {
+          "id": "cc71296a4f5b182b",
+          "japanese": "三月",
+          "reading": "さんがつ",
+          "vietnamese": "Tháng 3"
+        },
+        {
+          "id": "aecbd1b9500abf02",
+          "japanese": "三枚",
+          "reading": "さんまい",
+          "vietnamese": "3 tờ, tấm"
+        },
+        {
+          "id": "3668612bbc242935",
+          "japanese": "三日",
+          "reading": "みっか",
+          "vietnamese": "Ngày mùng 3, 3 ngày"
+        },
+        {
+          "id": "948afcc9d424e2aa",
+          "japanese": "三つ",
+          "reading": "みっつ",
+          "vietnamese": "3 cái"
+        }
+      ],
+      "mnemonic": "3 que diêm, 3 ngón tay.",
+      "examples": [
+        {
+          "id": "18ab0272437bc2df",
+          "japanese": "A：今月は　何月　ですか。　B：三月です。",
+          "reading": "A：こんげつは　なんがつ　ですか。　B：さんがつです。",
+          "vietnamese": "A: Tháng này là tháng mấy? B: Tháng 3.",
+          "note": ""
+        },
+        {
+          "id": "529acf2a4e91c463",
+          "japanese": "あしたは　三日　じゃありません。",
+          "reading": "あしたは　みっか　じゃありません。",
+          "vietnamese": "Ngày mai không phải ngày mùng 3.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "dfac7ba486b34186",
+      "character": "四",
+      "hanViet": "TỨ",
+      "meaning": "số bốn",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "よん",
+        "よっ",
+        "よ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "6d2cc32da797f842",
+          "japanese": "四月",
+          "reading": "しがつ",
+          "vietnamese": "Tháng 4"
+        },
+        {
+          "id": "75048d590b733321",
+          "japanese": "四",
+          "reading": "よん",
+          "vietnamese": "Số 4"
+        },
+        {
+          "id": "894f9031a466184b",
+          "japanese": "四時",
+          "reading": "よじ",
+          "vietnamese": "4 giờ"
+        },
+        {
+          "id": "cdc6f4c6394b0c06",
+          "japanese": "四つ",
+          "reading": "よっつ",
+          "vietnamese": "4 cái"
+        },
+        {
+          "id": "f1f8d9998aa05af6",
+          "japanese": "四台",
+          "reading": "よんだい",
+          "vietnamese": "4 cái (máy móc hoặc phương tiện)"
+        }
+      ],
+      "mnemonic": "Hình ảnh cửa sổ, có rèm cửa.",
+      "examples": [
+        {
+          "id": "9eb0f0c75a1fce6a",
+          "japanese": "こんげつは　四月　じゃありません。",
+          "reading": "こんげつは　しがつ　じゃありません。",
+          "vietnamese": "Tháng này không phải tháng 4.",
+          "note": ""
+        },
+        {
+          "id": "577a5e54c3668572",
+          "japanese": "A：いま　なんじですか？　B：四時　です。",
+          "reading": "A：いま　なんじですか？　B：よじ　です。",
+          "vietnamese": "A: Bây giờ là mấy giờ? B: 4 giờ.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "3fccfbd9199c628f",
+      "character": "五",
+      "hanViet": "NGŨ",
+      "meaning": "số năm",
+      "onyomi": [
+        "ゴ"
+      ],
+      "kunyomi": [
+        "いつ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d8fff18bd3fa9d7a",
+          "japanese": "五",
+          "reading": "ご",
+          "vietnamese": "Số 5"
+        },
+        {
+          "id": "f3b080b04f6825e7",
+          "japanese": "五月",
+          "reading": "ごがつ",
+          "vietnamese": "Tháng 5"
+        },
+        {
+          "id": "a93a14f27668083e",
+          "japanese": "五本",
+          "reading": "ごほん",
+          "vietnamese": "5 cái (đồ vật dài: bút, chai…)"
+        },
+        {
+          "id": "39bc993371baced8",
+          "japanese": "五つ",
+          "reading": "いつつ",
+          "vietnamese": "5 cái"
+        },
+        {
+          "id": "ca5ea569b7745ba1",
+          "japanese": "五日",
+          "reading": "いつか",
+          "vietnamese": "Ngày mùng 5, 5 ngày"
+        }
+      ],
+      "mnemonic": "Chữ T và chữ YU (ユ) đan xen với nhau tạo thành chữ NGŨ (五).",
+      "examples": [
+        {
+          "id": "86a19bb72ae7d2d6",
+          "japanese": "A：これは「三」ですか。「五」ですか。　B：これは「五」です。",
+          "reading": "A：これは「さん」ですか。「ご」ですか。　B：これは「ご」です。",
+          "vietnamese": "A: Đây là chữ \"ba\" hay chữ \"năm\"? B: Đây là chữ \"năm\".",
+          "note": ""
+        },
+        {
+          "id": "a22ae89ffaeb7742",
+          "japanese": "みかん　五つ　ください。",
+          "reading": "みかん　いつつ　ください。",
+          "vietnamese": "Cho tôi năm quả quýt.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

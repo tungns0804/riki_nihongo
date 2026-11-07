@@ -1,0 +1,40 @@
+# Combo Kanji N5-N4 — KANJI · Bài 2 (Số đếm)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 02 · SỐ ĐẾM (Bai2.pdf), thẻ 06–10.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# 六月: PDF dịch "6 tháng" — 六月 là tháng Sáu (6 tháng là 六か月), sửa lại.
+六,LỤC,số sáu,ロク・ロッ,むっ・むい,|六 (ろく)=Số 6;六月 (ろくがつ)=Tháng 6;六回 (ろっかい)=6 lần;六つ (むっつ)=6 cái;六日 (むいか)=Ngày mùng 6, 6 ngày
+覚: 6 mũ thần (亠) che mất ngọn núi (ハ).
+・わたしの　たんじょうびは　六月です。| Sinh nhật của tôi vào tháng 6.
+読: わたしの　たんじょうびは　ろくがつです。
+・A：消しゴムは　いくつ　ですか。　B：六つです。| A: Có mấy cục tẩy? B: Sáu cục.
+読: A：けしゴムは　いくつ　ですか。　B：むっつです。
+
+七,THẤT,số bảy,シチ,なな・なの,|七時 (しちじ)=7 giờ;七月 (しちがつ)=Tháng 7;七 (なな)=Số 7;七つ (ななつ)=7 cái;七日 (なのか)=Ngày mùng 7, 7 ngày
+覚: Số 7 ngược.
+・「七五三」は　日本で　こどもの　おいわいです。| "Shichi-go-san" (7-5-3) là lễ mừng dành cho trẻ em ở Nhật.
+読: 「しちごさん」は　にほんで　こどもの　おいわいです。
+・あしたは　七日　です。| Ngày mai là ngày mùng 7.
+読: あしたは　なのか　です。
+
+八,BÁT,số tám,ハチ・ハッ,やっ・よう,|八 (はち)=Số 8;八歳 (はっさい)=8 tuổi;八月 (はちがつ)=Tháng 8;八つ (やっつ)=8 cái;八日 (ようか)=Ngày mùng 8, 8 ngày
+覚: Chữ HA (ハ) trong số 8 (八) là HACHI (ハチ).
+・リンさんは　八歳　です。| Bạn Linh 8 tuổi.
+読: リンさんは　はっさい　です。
+・A：誕生日は　いつ　ですか。　B：今月の　八日　です。| A: Sinh nhật bạn là khi nào? B: Ngày mùng 8 tháng này.
+読: A：たんじょうびは　いつ　ですか。　B：こんげつの　ようか　です。
+
+九,CỬU,số chín,キュウ・ク,ここの,|九 (きゅう)=Số 9;九人 (きゅうにん)=9 người;九時 (くじ)=9 giờ;九月 (くがつ)=Tháng 9;九つ (ここのつ)=9 cái;九日 (ここのか)=Ngày mùng 9, 9 ngày
+覚: Một người chống đẩy 9 cái.
+・やきゅうチームは　九人です。| Đội bóng chày có 9 người.
+読: やきゅうチームは　きゅうにんです。
+・A：りんごは　いくつ　ですか。　B：九つです。| A: Có mấy quả táo? B: Chín quả.
+読: A：りんごは　いくつ　ですか。　B：ここのつです。
+
+十,THẬP,số mười,ジュウ・ジュッ,とお,|十 (じゅう)=Số 10;十時 (じゅうじ)=10 giờ;十分 (じゅっぷん)=10 phút;十日 (とおか)=Ngày 10, 10 ngày
+覚: 十 là biểu tượng của hội chữ THẬP đỏ.
+・うちから　かいしゃまで　でんしゃで　十分です。| Từ nhà đến công ty đi tàu điện mất 10 phút.
+読: うちから　かいしゃまで　でんしゃで　じゅっぷんです。
+・なつやすみは　六月十日からです。| Kỳ nghỉ hè bắt đầu từ ngày 10 tháng 6.
+読: なつやすみは　ろくがつとおかからです。

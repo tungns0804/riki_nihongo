@@ -1,0 +1,31 @@
+# Combo Kanji N5-N4 — KANJI · Bài 15 (Động vật)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 15 · ĐỘNG VẬT (bai15.pdf), thẻ 71–75.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+牛,NGƯU,con bò,ギュウ,うし,|牛乳 (ぎゅうにゅう)=Sữa bò;牛肉 (ぎゅうにく)=Thịt bò;牛 (うし)=Con bò
+覚: Hình đầu con bò bị gãy 1 sừng.
+・れいぞうこの中に　牛乳や牛肉などが　あります。| Trong tủ lạnh có sữa bò, thịt bò, v.v.
+読: れいぞうこのなかに　ぎゅうにゅうやぎゅうにくなどが　あります。
+・牛はくさを　食べます。| Bò ăn cỏ.
+読: うしはくさを　たべます。
+
+魚,NGƯ,con cá,,さかな,|魚 (さかな)=Con cá;魚屋 (さかなや)=Cửa hàng cá
+覚: Bộ hỏa, hình ảnh cá nướng.
+・魚屋で　魚を　買います。| Mua cá ở cửa hàng cá.
+読: さかなやで　さかなを　かいます。
+
+犬,KHUYỂN,con chó,,いぬ,|犬 (いぬ)=Con chó
+覚: NGƯỜI (人) mà đang giơ hai tay hai chân ra thật to lớn kia là chủ của con CHÓ (犬).
+・わたしの犬は　大きくて　しろいです。| Con chó của tôi to và trắng.
+読: わたしのいぬは　おおきくて　しろいです。
+
+鳥,ĐIỂU,con chim,,とり,|鳥 (とり)=Con chim
+覚: Nướng 5 con BẠCH (白) ĐIỂU (鳥) trên đống lửa.
+・さとうさんの鳥は　小さくて　かわいいです。| Con chim của anh Sato nhỏ và dễ thương.
+読: さとうさんのとりは　ちいさくて　かわいいです。
+
+馬,MÃ,con ngựa,,うま,|馬 (うま)=Con ngựa
+覚: Hình ảnh của một con NGỰA.
+・山の下には　馬が　おおいです。| Dưới chân núi có nhiều ngựa.
+読: やまのしたには　うまが　おおいです。

@@ -1,0 +1,244 @@
+{
+  "id": "06-thoi-gian",
+  "name": "Bài 6 · Thời gian",
+  "description": "時 分 半 間 週 — giờ, phút, rưỡi, khoảng thời gian và tuần: 何時, 5分, 一時半, 時間, 今週.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "9bd1c20312f67460",
+      "character": "時",
+      "hanViet": "THỜI",
+      "meaning": "thời gian",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "とき"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1298dcd7881586be",
+          "japanese": "何時",
+          "reading": "なんじ",
+          "vietnamese": "Mấy giờ"
+        },
+        {
+          "id": "c741bba9644d2836",
+          "japanese": "9時",
+          "reading": "くじ",
+          "vietnamese": "9 giờ"
+        },
+        {
+          "id": "b2e8058d9bec2a4c",
+          "japanese": "子供の時",
+          "reading": "こどものとき",
+          "vietnamese": "Khi còn trẻ con"
+        },
+        {
+          "id": "71a8dcdeb9d67fea",
+          "japanese": "時々",
+          "reading": "ときどき",
+          "vietnamese": "Thỉnh thoảng"
+        }
+      ],
+      "mnemonic": "THỜI (時) gian mọc của MẶT TRỜI (日) ở CHÙA (寺) là rất nhanh.",
+      "examples": [
+        {
+          "id": "90d80916ecf9e512",
+          "japanese": "A：おねえさんは　何時から　何時まで　はたらきますか。　B：九時から　五時までです。",
+          "reading": "A：おねえさんは　なんじから　なんじまで　はたらきますか。　B：くじから　ごじまでです。",
+          "vietnamese": "A: Chị gái bạn làm việc từ mấy giờ đến mấy giờ? B: Từ 9 giờ đến 5 giờ.",
+          "note": ""
+        },
+        {
+          "id": "c4be4e7dbbb596cd",
+          "japanese": "時々　おとうさんに　電話を　かけます。",
+          "reading": "ときどき　おとうさんに　でんわを　かけます。",
+          "vietnamese": "Thỉnh thoảng tôi gọi điện cho bố.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "26d2dea5f85c7734",
+      "character": "分",
+      "hanViet": "PHÂN",
+      "meaning": "phút/ phân chia",
+      "onyomi": [
+        "フン",
+        "ブン"
+      ],
+      "kunyomi": [
+        "わ.かる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "3ef1c17b9ea40c35",
+          "japanese": "5分",
+          "reading": "ごふん",
+          "vietnamese": "5 phút"
+        },
+        {
+          "id": "6909d95d75082ad9",
+          "japanese": "半分",
+          "reading": "はんぶん",
+          "vietnamese": "1 nửa"
+        },
+        {
+          "id": "57f19902c7eba077",
+          "japanese": "分かります",
+          "reading": "わかります",
+          "vietnamese": "Hiểu (đi với が)"
+        }
+      ],
+      "mnemonic": "Dùng dao PHÂN (分) chia khúc gỗ.",
+      "examples": [
+        {
+          "id": "bf91df58892b4421",
+          "japanese": "九時　5分に　ともだちに　会います。",
+          "reading": "くじ　ごふんに　ともだちに　あいます。",
+          "vietnamese": "Tôi gặp bạn lúc 9 giờ 5 phút.",
+          "note": ""
+        },
+        {
+          "id": "b62009272002cef7",
+          "japanese": "先生：皆さん、分かりましたか？　学生：はい、分かりました。",
+          "reading": "せんせい：みなさん、わかりましたか？　がくせい：はい、わかりました。",
+          "vietnamese": "Giáo viên: Các em đã hiểu chưa? Học sinh: Vâng, chúng em hiểu rồi ạ.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "25e3e1fec6ef5c86",
+      "character": "半",
+      "hanViet": "BÁN",
+      "meaning": "một nửa",
+      "onyomi": [
+        "ハン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "6909d95d75082ad9",
+          "japanese": "半分",
+          "reading": "はんぶん",
+          "vietnamese": "1 nửa"
+        },
+        {
+          "id": "ffa98bdb2961532f",
+          "japanese": "一時半",
+          "reading": "いちじはん",
+          "vietnamese": "1 giờ rưỡi"
+        }
+      ],
+      "mnemonic": "Dùng dao cắt 3 sợi chỉ, chỉ 1 sợi bị đứt.",
+      "examples": [
+        {
+          "id": "3c7c813cc1b3dd25",
+          "japanese": "きのう　1時半に　ごはんを　たべました。",
+          "reading": "きのう　いちじはんに　ごはんを　たべました。",
+          "vietnamese": "Hôm qua tôi ăn cơm lúc 1 giờ rưỡi.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "d9a8088c786d2979",
+      "character": "間",
+      "hanViet": "GIAN",
+      "meaning": "thời gian/ ở giữa",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "あいだ",
+        "ま"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "a5b9dea734aa233a",
+          "japanese": "時間",
+          "reading": "じかん",
+          "vietnamese": "Thời gian"
+        },
+        {
+          "id": "16750edfac22136f",
+          "japanese": "間",
+          "reading": "あいだ",
+          "vietnamese": "Ở giữa"
+        },
+        {
+          "id": "233d8f424185e2ef",
+          "japanese": "ひる間",
+          "reading": "ひるま",
+          "vietnamese": "Ban ngày"
+        }
+      ],
+      "mnemonic": "Ngắm mặt trời (NHẬT - 日) qua cánh cổng (MÔN - 門).",
+      "examples": [
+        {
+          "id": "4e086c249797ede8",
+          "japanese": "わたしは　毎日　2時間　えいごを　勉強します。",
+          "reading": "わたしは　まいにち　にじかん　えいごを　べんきょうします。",
+          "vietnamese": "Mỗi ngày tôi học tiếng Anh 2 tiếng.",
+          "note": ""
+        },
+        {
+          "id": "32a8da395ef5f40b",
+          "japanese": "彼は　ひる間　かいしゃで　働きます。",
+          "reading": "かれは　ひるま　かいしゃで　はたらきます。",
+          "vietnamese": "Ban ngày anh ấy làm việc ở công ty.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "4a9f152c7c3f33e8",
+      "character": "週",
+      "hanViet": "TUẦN",
+      "meaning": "tuần/ vòng quanh",
+      "onyomi": [
+        "シュウ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "4a97d18b37f25c1e",
+          "japanese": "今週",
+          "reading": "こんしゅう",
+          "vietnamese": "Tuần này"
+        },
+        {
+          "id": "d24437825760df99",
+          "japanese": "一週間",
+          "reading": "いっしゅうかん",
+          "vietnamese": "1 tuần"
+        },
+        {
+          "id": "dc3ae745a399373f",
+          "japanese": "週末",
+          "reading": "しゅうまつ",
+          "vietnamese": "Cuối tuần"
+        }
+      ],
+      "mnemonic": "Hàng TUẦN (週) đi lại (辶) ở nơi có CHU VI (周) tốt.",
+      "examples": [
+        {
+          "id": "c0fe8906f5f0d8ef",
+          "japanese": "彼は　今週、二十歳の　誕生日を　むかえる。",
+          "reading": "かれは　こんしゅう、はたちの　たんじょうびを　むかえる。",
+          "vietnamese": "Tuần này anh ấy đón sinh nhật tuổi 20.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

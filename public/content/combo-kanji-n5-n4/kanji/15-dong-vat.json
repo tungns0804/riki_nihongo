@@ -1,0 +1,182 @@
+{
+  "id": "15-dong-vat",
+  "name": "Bài 15 · Động vật",
+  "description": "牛 魚 犬 鳥 馬 — bò, cá, chó, chim, ngựa: 牛乳, 牛肉, 魚屋.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "5858f6ebe63155a4",
+      "character": "牛",
+      "hanViet": "NGƯU",
+      "meaning": "con bò",
+      "onyomi": [
+        "ギュウ"
+      ],
+      "kunyomi": [
+        "うし"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1f0e54e6dee4a9e9",
+          "japanese": "牛乳",
+          "reading": "ぎゅうにゅう",
+          "vietnamese": "Sữa bò"
+        },
+        {
+          "id": "caca854b08fbf7c5",
+          "japanese": "牛肉",
+          "reading": "ぎゅうにく",
+          "vietnamese": "Thịt bò"
+        },
+        {
+          "id": "82855e3ab2b7b5ec",
+          "japanese": "牛",
+          "reading": "うし",
+          "vietnamese": "Con bò"
+        }
+      ],
+      "mnemonic": "Hình đầu con bò bị gãy 1 sừng.",
+      "examples": [
+        {
+          "id": "7d6aefc1751246f2",
+          "japanese": "れいぞうこの中に　牛乳や牛肉などが　あります。",
+          "reading": "れいぞうこのなかに　ぎゅうにゅうやぎゅうにくなどが　あります。",
+          "vietnamese": "Trong tủ lạnh có sữa bò, thịt bò, v.v.",
+          "note": ""
+        },
+        {
+          "id": "010bc682dc12ca2a",
+          "japanese": "牛はくさを　食べます。",
+          "reading": "うしはくさを　たべます。",
+          "vietnamese": "Bò ăn cỏ.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "6870156bb59f8772",
+      "character": "魚",
+      "hanViet": "NGƯ",
+      "meaning": "con cá",
+      "onyomi": [],
+      "kunyomi": [
+        "さかな"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "c7cbdda936820790",
+          "japanese": "魚",
+          "reading": "さかな",
+          "vietnamese": "Con cá"
+        },
+        {
+          "id": "e154b2c95bbe365f",
+          "japanese": "魚屋",
+          "reading": "さかなや",
+          "vietnamese": "Cửa hàng cá"
+        }
+      ],
+      "mnemonic": "Bộ hỏa, hình ảnh cá nướng.",
+      "examples": [
+        {
+          "id": "28cee4dc967c1852",
+          "japanese": "魚屋で　魚を　買います。",
+          "reading": "さかなやで　さかなを　かいます。",
+          "vietnamese": "Mua cá ở cửa hàng cá.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "99a08919d5e3b450",
+      "character": "犬",
+      "hanViet": "KHUYỂN",
+      "meaning": "con chó",
+      "onyomi": [],
+      "kunyomi": [
+        "いぬ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "78744c781c60d2bd",
+          "japanese": "犬",
+          "reading": "いぬ",
+          "vietnamese": "Con chó"
+        }
+      ],
+      "mnemonic": "NGƯỜI (人) mà đang giơ hai tay hai chân ra thật to lớn kia là chủ của con CHÓ (犬).",
+      "examples": [
+        {
+          "id": "b0bafdd079a01b83",
+          "japanese": "わたしの犬は　大きくて　しろいです。",
+          "reading": "わたしのいぬは　おおきくて　しろいです。",
+          "vietnamese": "Con chó của tôi to và trắng.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "73f0d6d3eb2cd9a7",
+      "character": "鳥",
+      "hanViet": "ĐIỂU",
+      "meaning": "con chim",
+      "onyomi": [],
+      "kunyomi": [
+        "とり"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d82b31fbfbcd4b26",
+          "japanese": "鳥",
+          "reading": "とり",
+          "vietnamese": "Con chim"
+        }
+      ],
+      "mnemonic": "Nướng 5 con BẠCH (白) ĐIỂU (鳥) trên đống lửa.",
+      "examples": [
+        {
+          "id": "f9413d96580c3593",
+          "japanese": "さとうさんの鳥は　小さくて　かわいいです。",
+          "reading": "さとうさんのとりは　ちいさくて　かわいいです。",
+          "vietnamese": "Con chim của anh Sato nhỏ và dễ thương.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "96e6b4aaf009fd13",
+      "character": "馬",
+      "hanViet": "MÃ",
+      "meaning": "con ngựa",
+      "onyomi": [],
+      "kunyomi": [
+        "うま"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d0829bd10c2d77dd",
+          "japanese": "馬",
+          "reading": "うま",
+          "vietnamese": "Con ngựa"
+        }
+      ],
+      "mnemonic": "Hình ảnh của một con NGỰA.",
+      "examples": [
+        {
+          "id": "2d59236d7f14df27",
+          "japanese": "山の下には　馬が　おおいです。",
+          "reading": "やまのしたには　うまが　おおいです。",
+          "vietnamese": "Dưới chân núi có nhiều ngựa.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
-  "name": "Bài 3",
+  "name": "Đề 百 千 万 円 何",
   "description": "百 · 千 · 万 · 円 · 何 — đề 20 câu: 問題1 đọc 10 từ chỉ số tiền, số lượng; 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana. Có bảng tóm tắt cách đọc từng chữ.",
   "kind": "test",
-  "order": 3
+  "parent": "03-don-vi-dem",
+  "order": 301
 }

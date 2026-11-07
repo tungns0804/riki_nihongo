@@ -1,0 +1,287 @@
+{
+  "id": "09-du-lich",
+  "name": "Bài 9 · Du lịch 1",
+  "description": "行 来 帰 国 人 — đi, đến, về, đất nước, người: 旅行, 来週, 帰国, 中国, 日本人; âm đặc biệt 一人 ひとり.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "37b37d01c55f0534",
+      "character": "行",
+      "hanViet": "HÀNH",
+      "meaning": "đi",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "い.く",
+        "おこな.う"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "d542d1df53c095f5",
+          "japanese": "旅行",
+          "reading": "りょこう",
+          "vietnamese": "Du lịch"
+        },
+        {
+          "id": "e826dec35ccba134",
+          "japanese": "銀行",
+          "reading": "ぎんこう",
+          "vietnamese": "Ngân hàng"
+        },
+        {
+          "id": "e5a6f0d3bb6df0b4",
+          "japanese": "行きます",
+          "reading": "いきます",
+          "vietnamese": "Đi"
+        },
+        {
+          "id": "af093df97380c388",
+          "japanese": "行います",
+          "reading": "おこないます",
+          "vietnamese": "Tổ chức"
+        }
+      ],
+      "mnemonic": "HÀNH (行) trình ĐI (彳) đến BƯU ĐIỆN (亍).",
+      "examples": [
+        {
+          "id": "c9dfb8d4c99fa313",
+          "japanese": "私は　旅行が　好きです。",
+          "reading": "わたしは　りょこうが　すきです。",
+          "vietnamese": "Tôi thích du lịch.",
+          "note": ""
+        },
+        {
+          "id": "a2f5ae815030b916",
+          "japanese": "明日　会社の人と　一緒に　旅行しに　行きます。",
+          "reading": "あした　かいしゃのひとと　いっしょに　りょこうしに　いきます。",
+          "vietnamese": "Ngày mai tôi đi du lịch cùng đồng nghiệp ở công ty.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "1ac2e5cecd264fed",
+      "character": "来",
+      "hanViet": "LAI",
+      "meaning": "đến",
+      "onyomi": [
+        "ライ"
+      ],
+      "kunyomi": [
+        "く.る",
+        "き"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "f6b24b58a8c54f1b",
+          "japanese": "来週",
+          "reading": "らいしゅう",
+          "vietnamese": "Tuần sau"
+        },
+        {
+          "id": "db2c38d4b667a657",
+          "japanese": "来月",
+          "reading": "らいげつ",
+          "vietnamese": "Tháng sau"
+        },
+        {
+          "id": "681c8d610c76ef78",
+          "japanese": "来年",
+          "reading": "らいねん",
+          "vietnamese": "Năm sau"
+        },
+        {
+          "id": "e248143c4473778d",
+          "japanese": "来ます",
+          "reading": "きます",
+          "vietnamese": "Đến"
+        }
+      ],
+      "mnemonic": "LAI 10 (十) cân GẠO (米) ĐẾN (来) chợ để bán.",
+      "examples": [
+        {
+          "id": "9de29f8d9e193982",
+          "japanese": "私は　来週　ようじが　ありますから　旅行しません。",
+          "reading": "わたしは　らいしゅう　ようじが　ありますから　りょこうしません。",
+          "vietnamese": "Tuần sau tôi có việc bận nên không đi du lịch.",
+          "note": ""
+        },
+        {
+          "id": "4e54720b685b61b1",
+          "japanese": "1か月　前に　Phu Quoc へ　来ました。",
+          "reading": "いっかげつ　まえに　Phu Quoc へ　きました。",
+          "vietnamese": "Một tháng trước tôi đã đến Phú Quốc.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "b57ab67be9d1055f",
+      "character": "帰",
+      "hanViet": "QUY",
+      "meaning": "trở về",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "かえ.る"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "59cade6f4a512798",
+          "japanese": "帰国",
+          "reading": "きこく",
+          "vietnamese": "Về nước"
+        },
+        {
+          "id": "8bab7cc256265e4e",
+          "japanese": "帰ります",
+          "reading": "かえります",
+          "vietnamese": "Đi về"
+        },
+        {
+          "id": "fb88360d60816194",
+          "japanese": "お帰り",
+          "reading": "おかえり",
+          "vietnamese": "Về"
+        }
+      ],
+      "mnemonic": "1) Kẻ sĩ buông đao (刀) cầm CHỔI (帚) QUY (帰) y cửa phật. 2) Khi về nhà thì cầm dao nấu ăn, và chổi quét nhà.",
+      "examples": [
+        {
+          "id": "49fb9bd03cf1b251",
+          "japanese": "リーさんは　来年の　四月に　帰国します。",
+          "reading": "リーさんは　らいねんの　しがつに　きこくします。",
+          "vietnamese": "Anh Lee sẽ về nước vào tháng 4 năm sau.",
+          "note": ""
+        },
+        {
+          "id": "cf75271a8bc2ffdc",
+          "japanese": "毎日　六時に　うちへ　帰ります。",
+          "reading": "まいにち　ろくじに　うちへ　かえります。",
+          "vietnamese": "Hằng ngày tôi về nhà lúc 6 giờ.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "b954f1e4df0c4e2f",
+      "character": "国",
+      "hanViet": "QUỐC",
+      "meaning": "đất nước",
+      "onyomi": [
+        "コク"
+      ],
+      "kunyomi": [
+        "くに"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "e8364bf3f18d7388",
+          "japanese": "中国",
+          "reading": "ちゅうごく",
+          "vietnamese": "Trung Quốc"
+        },
+        {
+          "id": "c456e38ccf34b6f8",
+          "japanese": "国際",
+          "reading": "こくさい",
+          "vietnamese": "Quốc tế"
+        },
+        {
+          "id": "01e8ba19f7f38ad4",
+          "japanese": "国",
+          "reading": "くに",
+          "vietnamese": "Đất nước, quốc gia"
+        }
+      ],
+      "mnemonic": "ĐẤT NƯỚC (国) được bao bởi biên giới và có ấn NGỌC (玉).",
+      "examples": [
+        {
+          "id": "ca7eb61d569034e7",
+          "japanese": "私は　中国の　料理が　好きです。",
+          "reading": "わたしは　ちゅうごくの　りょうりが　すきです。",
+          "vietnamese": "Tôi thích món ăn Trung Quốc.",
+          "note": ""
+        },
+        {
+          "id": "4155f46c59fdb096",
+          "japanese": "わたしの国は　ベトナムです。",
+          "reading": "わたしのくには　ベトナムです。",
+          "vietnamese": "Đất nước của tôi là Việt Nam.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "1a7b0a17c8a37df4",
+      "character": "人",
+      "hanViet": "NHÂN",
+      "meaning": "con người",
+      "onyomi": [
+        "ジン",
+        "ニン"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "4d948611108b2f92",
+          "japanese": "日本人",
+          "reading": "にほんじん",
+          "vietnamese": "Người Nhật"
+        },
+        {
+          "id": "105e7dc621cc5b13",
+          "japanese": "主人",
+          "reading": "しゅじん",
+          "vietnamese": "Chồng, chủ"
+        },
+        {
+          "id": "1d8463f5fcb4765b",
+          "japanese": "三人",
+          "reading": "さんにん",
+          "vietnamese": "3 người"
+        },
+        {
+          "id": "1c18e39ae67661be",
+          "japanese": "人",
+          "reading": "ひと",
+          "vietnamese": "Con người"
+        },
+        {
+          "id": "9043acf0f59b34c1",
+          "japanese": "一人",
+          "reading": "ひとり",
+          "vietnamese": "1 người, 1 mình (âm đặc biệt)"
+        }
+      ],
+      "mnemonic": "Chữ Y ngược.",
+      "examples": [
+        {
+          "id": "59b4c1a347d556e4",
+          "japanese": "あの人は　日本人　じゃありません。タイ人です。",
+          "reading": "あのひとは　にほんじん　じゃありません。タイじんです。",
+          "vietnamese": "Người kia không phải người Nhật. Là người Thái.",
+          "note": ""
+        },
+        {
+          "id": "035b428be4a4b020",
+          "japanese": "私は　一人でコンサートへ　行きます。",
+          "reading": "わたしは　ひとりでコンサートへ　いきます。",
+          "vietnamese": "Tôi đi xem hòa nhạc một mình.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

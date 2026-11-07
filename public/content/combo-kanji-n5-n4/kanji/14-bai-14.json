@@ -1,0 +1,829 @@
+{
+  "id": "14-bai-14",
+  "name": "Đề 口 目 耳 手 足",
+  "description": "口 · 目 · 耳 · 手 · 足 — đề 20 câu: 問題1 đọc 10 từ (目的, 人口, 悪口, 歌手, 下手, 口紅…), 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana (目標, 窓口, 手紙, 足りる, 入口…). Có bảng tóm tắt cách đọc từng chữ.",
+  "kind": "test",
+  "parent": "14-bo-phan",
+  "group": "",
+  "sections": [
+    {
+      "id": "ck-b14-mondai-1",
+      "title": "問題1 — Đọc chữ Hán (10 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b14-01",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "プールで　「耳」に　水が　はいります。",
+          "promptReading": "",
+          "promptTranslation": "Ở bể bơi, nước vào tai.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "あし",
+              "translation": "chân (足)",
+              "note": "あし là 足 (chân)."
+            },
+            {
+              "id": "c2",
+              "text": "くち",
+              "translation": "miệng (口)",
+              "note": "くち là 口 (miệng)."
+            },
+            {
+              "id": "c3",
+              "text": "て",
+              "translation": "tay (手)",
+              "note": "て là 手 (tay)."
+            },
+            {
+              "id": "c4",
+              "text": "みみ",
+              "translation": "tai (耳)",
+              "note": "Đúng: 耳 = みみ (tai)."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "耳 (みみ) = tai. Bốn lựa chọn là bốn bộ phận cơ thể của bài: phải nhận đúng mặt chữ 耳.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-02",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "りゅうがくの　「目的」は　何ですか。",
+          "promptReading": "",
+          "promptTranslation": "Mục đích du học của bạn là gì?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "もくてき",
+              "translation": "mục đích",
+              "note": "Đúng: 目的 = もくてき."
+            },
+            {
+              "id": "c2",
+              "text": "もってき",
+              "translation": "(sai: thừa っ)",
+              "note": "Không có âm ngắt っ: もく giữ nguyên trước てき."
+            },
+            {
+              "id": "c3",
+              "text": "めいてき",
+              "translation": "(sai: 目 không đọc めい)",
+              "note": "めい là âm của 名 (名刺 めいし), không phải của 目."
+            },
+            {
+              "id": "c4",
+              "text": "めてき",
+              "translation": "(sai: 目 đọc め khi đứng một mình)",
+              "note": "め là âm Kun (目: con mắt); trong từ ghép Hán 目的 thì 目 đọc âm On もく."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "目的 (もくてき) = mục đích. 目 đọc もく trong từ ghép Hán (目的, 目標), đọc め khi là con mắt hoặc \"thứ ~\" (いくつ目).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-03",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "日本人は　「手」で　すしや　おにぎりを　たべます。",
+          "promptReading": "",
+          "promptTranslation": "Người Nhật ăn sushi và cơm nắm bằng tay.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "て",
+              "translation": "tay (手)",
+              "note": "Đúng: 手 = て (tay)."
+            },
+            {
+              "id": "c2",
+              "text": "め",
+              "translation": "mắt (目)",
+              "note": "め là 目 (mắt)."
+            },
+            {
+              "id": "c3",
+              "text": "みみ",
+              "translation": "tai (耳)",
+              "note": "みみ là 耳 (tai)."
+            },
+            {
+              "id": "c4",
+              "text": "くち",
+              "translation": "miệng (口)",
+              "note": "くち là 口 (miệng)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "手 (て) = tay; 手で = bằng tay.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-04",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "アジアの　「人口」は　何人ですか。",
+          "promptReading": "",
+          "promptTranslation": "Dân số châu Á là bao nhiêu người?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "じんくち",
+              "translation": "(sai: 口 ở đây đọc こう)",
+              "note": "くち là âm Kun; 人口 là từ Hán nên 口 đọc âm On こう."
+            },
+            {
+              "id": "c2",
+              "text": "じんぐち",
+              "translation": "(sai: 口 ở đây đọc こう)",
+              "note": "ぐち là くち biến âm khi đứng sau từ khác (入口 いりぐち), không dùng trong 人口."
+            },
+            {
+              "id": "c3",
+              "text": "じんこう",
+              "translation": "dân số",
+              "note": "Đúng: 人口 = じんこう."
+            },
+            {
+              "id": "c4",
+              "text": "にんこう",
+              "translation": "(sai: 人 ở đây đọc じん)",
+              "note": "にん là âm của 人 khi đếm người (三人 さんにん); trong 人口 thì 人 đọc じん."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "人口 (じんこう) = dân số. Phân biệt với 入口 (いりぐち: cửa vào) — 人 và 入 trông rất giống nhau.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-05",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "人の　「悪口」は　言わないことです。",
+          "promptReading": "",
+          "promptTranslation": "Đừng nói xấu người khác.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "わるぐち",
+              "translation": "lời nói xấu",
+              "note": "Đúng: 悪口 = わるぐち — くち biến âm thành ぐち khi đứng sau 悪 (わる)."
+            },
+            {
+              "id": "c2",
+              "text": "わるみみ",
+              "translation": "(みみ = tai, 耳)",
+              "note": "みみ là 耳, không phải 口."
+            },
+            {
+              "id": "c3",
+              "text": "わるて",
+              "translation": "(て = tay, 手)",
+              "note": "て là 手, không phải 口."
+            },
+            {
+              "id": "c4",
+              "text": "わるめ",
+              "translation": "(め = mắt, 目)",
+              "note": "め là 目, không phải 口."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "悪口 (わるぐち) = lời nói xấu. ～ことです ở cuối câu là lời khuyên: nên / không nên làm gì.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-06",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "Son Tungさんは　ゆうめいな　「歌手」ですね。",
+          "promptReading": "",
+          "promptTranslation": "Sơn Tùng là ca sĩ nổi tiếng nhỉ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "かしゅう",
+              "translation": "(sai: thừa う — âm dài)",
+              "note": "手 đọc しゅ, âm ngắn; しゅう là âm khác (週 しゅう)."
+            },
+            {
+              "id": "c2",
+              "text": "かしゅ",
+              "translation": "ca sĩ",
+              "note": "Đúng: 歌手 = かしゅ."
+            },
+            {
+              "id": "c3",
+              "text": "かじゅう",
+              "translation": "(sai: しゅ không biến thành じゅ)",
+              "note": "Vừa đục じゅ vừa thừa う."
+            },
+            {
+              "id": "c4",
+              "text": "かじゅ",
+              "translation": "(sai: しゅ không biến thành じゅ)",
+              "note": "手 không bị đục thành じゅ trong 歌手."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "歌手 (かしゅ) = ca sĩ: 歌 (か, bài hát) ＋ 手 (しゅ, người làm nghề). Chú ý しゅ ngắn, không phải しゅう.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-07",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "りょうりは　とても　「下手」です。",
+          "promptReading": "",
+          "promptTranslation": "Tôi nấu ăn rất kém.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "じょうず",
+              "translation": "giỏi (上手)",
+              "note": "じょうず là 上手 (giỏi) — chữ 上 chứ không phải 下."
+            },
+            {
+              "id": "c2",
+              "text": "へた",
+              "translation": "kém (下手)",
+              "note": "Đúng: 下手 = へた (âm đặc biệt)."
+            },
+            {
+              "id": "c3",
+              "text": "みぎて",
+              "translation": "tay phải (右手)",
+              "note": "みぎて là 右手 (tay phải)."
+            },
+            {
+              "id": "c4",
+              "text": "にがて",
+              "translation": "không giỏi, không thích (苦手)",
+              "note": "にがて là 苦手 (kém, ngại) — nghĩa gần nhưng chữ là 苦手."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "下手 (へた) = kém, dở — âm đặc biệt, không đọc theo âm từng chữ. Ngược nghĩa với 上手 (じょうず).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-08",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "わたしは　母に　「口紅」を　あげました。",
+          "promptReading": "",
+          "promptTranslation": "Tôi đã tặng mẹ một thỏi son.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "こべに",
+              "translation": "(sai)",
+              "note": "口 không có âm こ."
+            },
+            {
+              "id": "c2",
+              "text": "こうべに",
+              "translation": "(sai: こう là âm On của 口)",
+              "note": "こう là âm On (人口); 口紅 là từ thuần Nhật nên đọc âm Kun くち."
+            },
+            {
+              "id": "c3",
+              "text": "ぐちべに",
+              "translation": "(sai: 口 đứng đầu từ không biến âm)",
+              "note": "くち chỉ biến thành ぐち khi đứng SAU từ khác (入口, 悪口); ở đầu từ thì giữ くち."
+            },
+            {
+              "id": "c4",
+              "text": "くちべに",
+              "translation": "son môi",
+              "note": "Đúng: 口紅 = くちべに."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "口紅 (くちべに) = son môi: 口 (くち, miệng) ＋ 紅 (べに, màu đỏ son).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-09",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「足」が　いたいですから、きょう　学校へ　いきません。",
+          "promptReading": "",
+          "promptTranslation": "Vì đau chân nên hôm nay tôi không đến trường.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "あし",
+              "translation": "chân (足)",
+              "note": "Đúng: 足 = あし (chân)."
+            },
+            {
+              "id": "c2",
+              "text": "て",
+              "translation": "tay (手)",
+              "note": "て là 手 (tay)."
+            },
+            {
+              "id": "c3",
+              "text": "みみ",
+              "translation": "tai (耳)",
+              "note": "みみ là 耳 (tai)."
+            },
+            {
+              "id": "c4",
+              "text": "め",
+              "translation": "mắt (目)",
+              "note": "め là 目 (mắt)."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "足 (あし) = chân. 足 còn đọc た trong 足ります (đủ).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-10",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "しんじゅくは　しぶやから　いくつ「目」の　えきですか。",
+          "promptReading": "",
+          "promptTranslation": "Shinjuku là ga thứ mấy tính từ Shibuya?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "て",
+              "translation": "tay (手)",
+              "note": "て là 手."
+            },
+            {
+              "id": "c2",
+              "text": "め",
+              "translation": "thứ ~ (目)",
+              "note": "Đúng: いくつ目 = いくつめ (thứ mấy)."
+            },
+            {
+              "id": "c3",
+              "text": "くち",
+              "translation": "miệng (口)",
+              "note": "くち là 口."
+            },
+            {
+              "id": "c4",
+              "text": "あし",
+              "translation": "chân (足)",
+              "note": "あし là 足."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "目 (め) đứng sau số đếm là \"thứ ~\": いくつ目 (thứ mấy), 一つ目 (thứ nhất), 二日目 (ngày thứ hai).",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    },
+    {
+      "id": "ck-b14-mondai-2",
+      "title": "問題2 — Chọn chữ Hán (10 câu)",
+      "instructions": "",
+      "skill": "kanji",
+      "questions": [
+        {
+          "id": "ck-b14-11",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "きょねんの　「もく」ひょうを　たっせいしました。",
+          "promptReading": "",
+          "promptTranslation": "Tôi đã đạt được mục tiêu của năm ngoái.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "目",
+              "translation": "mắt (もく／め)",
+              "note": "Đúng: もくひょう = 目標 (mục tiêu)."
+            },
+            {
+              "id": "c2",
+              "text": "口",
+              "translation": "miệng (こう／くち)",
+              "note": "口 đọc こう／くち, không đọc もく."
+            },
+            {
+              "id": "c3",
+              "text": "木",
+              "translation": "cây (もく／き)",
+              "note": "木 cũng đọc もく (木曜日) nhưng 目標 viết bằng 目 — bẫy cùng âm."
+            },
+            {
+              "id": "c4",
+              "text": "手",
+              "translation": "tay (しゅ／て)",
+              "note": "手 đọc しゅ／て, không đọc もく."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "目標 (もくひょう) = mục tiêu; 達成 (たっせい) = đạt được. Cả 目 lẫn 木 đều đọc もく, phải nhớ theo từ: 目的・目標 dùng 目, 木曜日 dùng 木.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-12",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "ジョンさんは　テニスが　「じょうず」です。",
+          "promptReading": "",
+          "promptTranslation": "Anh John chơi quần vợt giỏi.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "左足",
+              "translation": "chân trái (ひだりあし)",
+              "note": "左足 đọc ひだりあし."
+            },
+            {
+              "id": "c2",
+              "text": "右手",
+              "translation": "tay phải (みぎて)",
+              "note": "右手 đọc みぎて."
+            },
+            {
+              "id": "c3",
+              "text": "下手",
+              "translation": "kém (へた)",
+              "note": "下手 đọc へた — nghĩa ngược lại (kém)."
+            },
+            {
+              "id": "c4",
+              "text": "上手",
+              "translation": "giỏi (じょうず)",
+              "note": "Đúng: じょうず = 上手."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "上手 (じょうず) = giỏi, đi với が: テニスが上手です. Cặp ngược nghĩa: 下手 (へた) = kém.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-13",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "ふたりの　女の子が　まど「ぐち」と　じてんしゃの間に　立っています。",
+          "promptReading": "",
+          "promptTranslation": "Hai bé gái đang đứng giữa quầy giao dịch và chiếc xe đạp.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "目",
+              "translation": "mắt (め)",
+              "note": "目 đọc め／もく."
+            },
+            {
+              "id": "c2",
+              "text": "口",
+              "translation": "miệng (くち／ぐち)",
+              "note": "Đúng: まどぐち = 窓口 — くち biến âm thành ぐち."
+            },
+            {
+              "id": "c3",
+              "text": "耳",
+              "translation": "tai (みみ)",
+              "note": "耳 đọc みみ."
+            },
+            {
+              "id": "c4",
+              "text": "足",
+              "translation": "chân (あし)",
+              "note": "足 đọc あし／た."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "窓口 (まどぐち) = quầy giao dịch, ô cửa bán vé: 窓 (まど, cửa sổ) ＋ 口 (くち → ぐち). Cùng kiểu biến âm: 入口 (いりぐち), 出口 (でぐち).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-14",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "国の　ともだちに　「てがみ」を　かきます。",
+          "promptReading": "",
+          "promptTranslation": "Tôi viết thư cho bạn ở quê nhà.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "目紙",
+              "translation": "(không có từ này)",
+              "note": "目 đọc め, không đọc て."
+            },
+            {
+              "id": "c2",
+              "text": "口紙",
+              "translation": "(không có từ này)",
+              "note": "口 đọc くち, không đọc て."
+            },
+            {
+              "id": "c3",
+              "text": "耳紙",
+              "translation": "(không có từ này)",
+              "note": "耳 đọc みみ, không đọc て."
+            },
+            {
+              "id": "c4",
+              "text": "手紙",
+              "translation": "bức thư",
+              "note": "Đúng: てがみ = 手紙."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "手紙 (てがみ) = bức thư: 手 (て) ＋ 紙 (かみ → がみ, giấy). 国の　ともだち = bạn ở nước mình.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-15",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「くち」を　あけてください。",
+          "promptReading": "",
+          "promptTranslation": "Hãy há miệng ra.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "足",
+              "translation": "chân (あし)",
+              "note": "足 đọc あし."
+            },
+            {
+              "id": "c2",
+              "text": "口",
+              "translation": "miệng (くち)",
+              "note": "Đúng: くち = 口."
+            },
+            {
+              "id": "c3",
+              "text": "耳",
+              "translation": "tai (みみ)",
+              "note": "耳 đọc みみ."
+            },
+            {
+              "id": "c4",
+              "text": "手紙",
+              "translation": "bức thư (てがみ)",
+              "note": "手紙 đọc てがみ."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "口 (くち) = miệng; 口を開けてください = hãy há miệng ra (câu bác sĩ hay nói).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-16",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "教室の　いすは　「たりません」。",
+          "promptReading": "",
+          "promptTranslation": "Ghế trong lớp học không đủ.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "行りません",
+              "translation": "(không có cách viết này)",
+              "note": "行 đọc い (行きます), không đọc た."
+            },
+            {
+              "id": "c2",
+              "text": "足りません",
+              "translation": "không đủ",
+              "note": "Đúng: たりません = 足りません — 足 đọc た trong 足りる (đủ)."
+            },
+            {
+              "id": "c3",
+              "text": "帰りません",
+              "translation": "(帰りません = không về, đọc かえりません)",
+              "note": "帰りません đọc かえりません (không về)."
+            },
+            {
+              "id": "c4",
+              "text": "来りません",
+              "translation": "(không có cách viết này)",
+              "note": "来 đọc き (来ます), không đọc た."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "足りる／足ります (たります) = đủ; 足りません = không đủ. 足 có hai âm Kun: あし (chân) và た (đủ).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-17",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "お「てあらい」は　どちらですか。",
+          "promptReading": "",
+          "promptTranslation": "Nhà vệ sinh ở đâu ạ?",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "手洗い",
+              "translation": "(お手洗い: nhà vệ sinh)",
+              "note": "Đúng: おてあらい = お手洗い — nơi rửa tay, cách nói lịch sự của nhà vệ sinh."
+            },
+            {
+              "id": "c2",
+              "text": "目洗い",
+              "translation": "(không có từ này)",
+              "note": "目 đọc め, không đọc て."
+            },
+            {
+              "id": "c3",
+              "text": "口洗い",
+              "translation": "(không có từ này)",
+              "note": "口 đọc くち, không đọc て."
+            },
+            {
+              "id": "c4",
+              "text": "足洗い",
+              "translation": "(không có từ này)",
+              "note": "足 đọc あし, không đọc て."
+            }
+          ],
+          "answerId": "c1",
+          "explanation": "お手洗い (おてあらい) = nhà vệ sinh: 手 (て, tay) ＋ 洗い (あらい, rửa). どちら là cách hỏi \"ở đâu\" lịch sự hơn どこ.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-18",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "一日「め」は　ディズニーランドへ　行きます。",
+          "promptReading": "",
+          "promptTranslation": "Ngày thứ nhất (của chuyến đi) sẽ đến Disneyland.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "手",
+              "translation": "tay (て)",
+              "note": "手 đọc て."
+            },
+            {
+              "id": "c2",
+              "text": "口",
+              "translation": "miệng (くち)",
+              "note": "口 đọc くち."
+            },
+            {
+              "id": "c3",
+              "text": "目",
+              "translation": "thứ ~ (め)",
+              "note": "Đúng: いちにちめ = 一日目 (ngày thứ nhất)."
+            },
+            {
+              "id": "c4",
+              "text": "足",
+              "translation": "chân (あし)",
+              "note": "足 đọc あし."
+            }
+          ],
+          "answerId": "c3",
+          "explanation": "目 (め) sau số đếm = \"thứ ~\": 一日目 (いちにちめ: ngày thứ nhất), 二日目 (ふつかめ: ngày thứ hai).",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-19",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "えいがかんの　「いりぐち」で　先生に　あいました。",
+          "promptReading": "",
+          "promptTranslation": "Tôi đã gặp thầy giáo ở cửa vào rạp chiếu phim.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "人石",
+              "translation": "(không có từ này)",
+              "note": "石 là đá (いし), không phải 口; 人 cũng không đọc いり."
+            },
+            {
+              "id": "c2",
+              "text": "入石",
+              "translation": "(không có từ này)",
+              "note": "入 đúng nhưng 石 (đá) không phải 口."
+            },
+            {
+              "id": "c3",
+              "text": "人口",
+              "translation": "dân số (じんこう)",
+              "note": "人口 đọc じんこう (dân số) — 人 (người) chứ không phải 入 (vào)."
+            },
+            {
+              "id": "c4",
+              "text": "入口",
+              "translation": "cửa vào (いりぐち)",
+              "note": "Đúng: いりぐち = 入口."
+            }
+          ],
+          "answerId": "c4",
+          "explanation": "入口 (いりぐち) = cửa vào: 入 (い.る, vào) ＋ 口 (くち → ぐち). Bẫy kép: 人 trông giống 入, 石 trông giống 口.",
+          "passage": [],
+          "passageTranslation": []
+        },
+        {
+          "id": "ck-b14-20",
+          "skill": "kanji",
+          "prompt": "",
+          "promptJapanese": "「あいて」に　物を　渡します。",
+          "promptReading": "",
+          "promptTranslation": "Đưa đồ cho người đối diện.",
+          "choices": [
+            {
+              "id": "c1",
+              "text": "相口",
+              "translation": "(không có từ này)",
+              "note": "口 đọc くち, không đọc て."
+            },
+            {
+              "id": "c2",
+              "text": "相手",
+              "translation": "đối phương, người kia",
+              "note": "Đúng: あいて = 相手."
+            },
+            {
+              "id": "c3",
+              "text": "相耳",
+              "translation": "(không có từ này)",
+              "note": "耳 đọc みみ, không đọc て."
+            },
+            {
+              "id": "c4",
+              "text": "相目",
+              "translation": "(không có từ này)",
+              "note": "目 đọc め, không đọc て."
+            }
+          ],
+          "answerId": "c2",
+          "explanation": "相手 (あいて) = đối phương, người mình đang nói chuyện hoặc giao tiếp cùng: 相 (あい, lẫn nhau) ＋ 手 (て). Chữ 相 chưa học, chỉ cần nhận ra て = 手.",
+          "passage": [],
+          "passageTranslation": []
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "title": "口",
+      "meaning": "KHẨU · miệng",
+      "lines": [
+        "くち — 口 (miệng), 口紅 (くちべに: son môi)",
+        "ぐち — đứng sau từ khác: 入口 (いりぐち), 出口 (でぐち), 窓口 (まどぐち), 悪口 (わるぐち)",
+        "こう — 人口 (じんこう: dân số)"
+      ]
+    },
+    {
+      "title": "目",
+      "meaning": "MỤC · mắt",
+      "lines": [
+        "め — 目 (mắt); thứ ~: いくつ目 (いくつめ), 一日目 (いちにちめ)",
+        "もく — 目的 (もくてき: mục đích), 目標 (もくひょう: mục tiêu)"
+      ]
+    },
+    {
+      "title": "耳",
+      "meaning": "NHĨ · tai",
+      "lines": [
+        "みみ — 耳 (tai)"
+      ]
+    },
+    {
+      "title": "手",
+      "meaning": "THỦ · tay",
+      "lines": [
+        "て — 手 (tay), 手紙 (てがみ), お手洗い (おてあらい), 相手 (あいて)",
+        "しゅ — 歌手 (かしゅ: ca sĩ)",
+        "âm đặc biệt — 上手 (じょうず: giỏi), 下手 (へた: kém)"
+      ]
+    },
+    {
+      "title": "足",
+      "meaning": "TÚC · chân",
+      "lines": [
+        "あし — 足 (chân)",
+        "た — 足りる／足ります (たります: đủ)"
+      ]
+    }
+  ]
+}

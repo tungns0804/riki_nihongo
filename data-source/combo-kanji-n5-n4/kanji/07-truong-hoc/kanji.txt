@@ -1,0 +1,40 @@
+# Combo Kanji N5-N4 — KANJI · Bài 7 (Trường học)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 07 · TRƯỜNG HỌC (Bai7.pdf), thẻ 31–35.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# 学: "Ý nghĩa" của thẻ là "Học sinh"; nghĩa của riêng chữ là HỌC (chữ in hoa trong câu
+# cách nhớ), ghi cả hai.
+学,HỌC,học/ học sinh,ガク,,|学生 (がくせい)=Học sinh;学校 (がっこう)=Trường học
+覚: Là TRẺ CON (子) thì phải HỌC (学).
+・A：今、どこへ　行きますか。　B：学校へ　行きます。| A: Bây giờ bạn đi đâu? B: Tôi đi đến trường.
+読: A：いま、どこへ　いきますか。　B：がっこうへ　いきます。
+
+生,SINH,sinh trưởng,セイ,う.まれる,|学生 (がくせい)=Học sinh;一年生 (いちねんせい)=Sinh viên năm nhất;生まれます (うまれます)=Được sinh ra (đi với が)
+覚: Con NGƯỜI (𠂉) được SINH (生) ra, sống hết một đời rồi lại trở về với ĐẤT (土) mẹ.
+・あの人は　一年生じゃありません。| Người kia không phải sinh viên năm nhất.
+読: あのひとは　いちねんせいじゃありません。
+・1月　1日に　あにが　生まれました。| Anh trai tôi sinh ngày 1 tháng 1.
+読: いちがつ　ついたちに　あにが　うまれました。
+
+# 先週…食べました: PDF in 食べしました (thừa し) — sửa lại.
+先,TIÊN,trước tiên,セン,さき,|先生 (せんせい)=Giáo viên;先月 (せんげつ)=Tháng trước;先週 (せんしゅう)=Tuần trước;先 (さき)=Trước
+覚: Hình ảnh 1 người đang chạy.
+・先週、日本の　レストランで　夕食を　食べました。| Tuần trước tôi đã ăn tối ở một nhà hàng Nhật.
+読: せんしゅう、にほんの　レストランで　ゆうしょくを　たべました。
+・お先に　しつれいします。| Tôi xin phép về trước.
+読: おさきに　しつれいします。
+
+友,HỮU,bạn bè,ユウ,とも,|友人 (ゆうじん)=Bạn thân;友達 (ともだち)=Bạn bè
+覚: BẠN BÈ (友) là khi dù chỉ quả NA (ナ) cũng phải có qua có LẠI (又).
+・わたしは　友人に　手紙を　書きました。| Tôi đã viết thư cho bạn thân.
+読: わたしは　ゆうじんに　てがみを　かきました。
+・わたしは　友達に　シャツを　あげました。| Tôi đã tặng bạn chiếc áo sơ mi.
+読: わたしは　ともだちに　シャツを　あげました。
+
+名,DANH,tên,メイ,な,|名刺 (めいし)=Danh thiếp;名前 (なまえ)=Tên
+覚: Cậu bé TÊN (名) là Taro (タロ).
+・わたしは　かれに　名刺を　もらいました。| Tôi đã nhận danh thiếp từ anh ấy.
+読: わたしは　かれに　めいしを　もらいました。
+・A：すみません、お名前は？　B：わたしは　ハーリンです。| A: Xin lỗi, tên bạn là gì? B: Tôi là Hà Linh.
+読: A：すみません、おなまえは？　B：わたしは　ハーリンです。

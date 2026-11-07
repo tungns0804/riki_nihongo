@@ -1,0 +1,39 @@
+# Combo Kanji N5-N4 — KANJI · Bài 13 (Phương hướng)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 13 · PHƯƠNG HƯỚNG (bai13.pdf), thẻ 61–65.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+南,NAM,phía Nam,ナン,みなみ,|南部 (なんぶ)=Nam bộ;南 (みなみ)=Phía Nam
+覚: Ở biên giới phía NAM (南) có 10 (十) yên Nhật (¥).
+・福岡けんは　日本の南部に　あります。| Tỉnh Fukuoka nằm ở miền nam Nhật Bản.
+読: ふくおかけんは　にほんのなんぶに　あります。
+・私は　北から　南まで　旅行をします。| Tôi đi du lịch từ bắc vào nam.
+読: わたしは　きたから　みなみまで　りょこうをします。
+
+西,TÂY,phía Tây,セイ,にし,|西部 (せいぶ)=Vùng Tây bộ;西 (にし)=Phía Tây;西口 (にしぐち)=Cổng phía Tây
+覚: MỘT (一) trong BỐN (四) phía có phía TÂY (西).
+・日本の　西部は　いくつ　県が　ありますか。| Miền tây Nhật Bản có bao nhiêu tỉnh?
+読: にほんの　せいぶは　いくつ　けんが　ありますか。
+・えきの　西口に　大きな　デパートが　あります。| Ở cổng phía tây nhà ga có một cửa hàng bách hóa lớn.
+読: えきの　にしぐちに　おおきな　デパートが　あります。
+
+東,ĐÔNG,phía Đông,トウ,ひがし,|東京 (とうきょう)=Tokyo;東部 (とうぶ)=Đông bộ;東 (ひがし)=Phía Đông
+覚: Mặt trời (NHẬT - 日) mọc sau những rặng cây (MỘC - 木).
+・東京には　ゆうめいな　けしきが　たくさん　あります。| Ở Tokyo có nhiều cảnh đẹp nổi tiếng.
+読: とうきょうには　ゆうめいな　けしきが　たくさん　あります。
+・私の　学校は　えきの東に　あります。| Trường của tôi ở phía đông nhà ga.
+読: わたしの　がっこうは　えきのひがしに　あります。
+
+北,BẮC,phía Bắc,ホク,きた,|北部 (ほくぶ)=Miền Bắc, Bắc bộ;南北 (なんぼく)=Bắc Nam;北 (きた)=Phía Bắc
+覚: Hình ảnh 2 người ngồi áp lưng vào nhau.
+・日本の北部の　天気は　冬で　とても　さむいです。| Thời tiết miền bắc Nhật Bản vào mùa đông rất lạnh.
+読: にほんのほくぶの　てんきは　ふゆで　とても　さむいです。
+・ほっかいどうは　日本の　一番北に　あります。| Hokkaido nằm ở cực bắc Nhật Bản.
+読: ほっかいどうは　にほんの　いちばんきたに　あります。
+
+方,PHƯƠNG,phương hướng/ đối phương,ホウ,かた,|方法 (ほうほう)=Phương pháp;方 (かた)=Vị, ngài;夕方 (ゆうがた)=Buổi chiều;読み方 (よみかた)=Cách đọc
+覚: VẠN (万) cái đầu (亠) đều hướng về một PHƯƠNG (方).
+・うちで　日本語を　勉強したいですから、どんな方法が　いいですか。| Tôi muốn tự học tiếng Nhật ở nhà, vậy phương pháp nào thì tốt?
+読: うちで　にほんごを　べんきょうしたいですから、どんなほうほうが　いいですか。
+・この漢字の　読み方が　分かりません。| Tôi không biết cách đọc chữ Hán này.
+読: このかんじの　よみかたが　わかりません。

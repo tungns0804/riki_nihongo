@@ -1,0 +1,186 @@
+{
+  "id": "03-don-vi-dem",
+  "name": "Bài 3 · Đơn vị đếm",
+  "description": "百 千 万 円 何 — trăm, nghìn, vạn, đồng yên và từ hỏi 何; biến âm 三百 さんびゃく, 六百 ろっぴゃく, 三千 さんぜん.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "7fd68f154d7c2784",
+      "character": "百",
+      "hanViet": "BÁCH",
+      "meaning": "một trăm",
+      "onyomi": [
+        "ヒャク"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "84f1c920ae9d8a89",
+          "japanese": "百円",
+          "reading": "ひゃくえん",
+          "vietnamese": "100 yên"
+        },
+        {
+          "id": "573371f72fda4a8a",
+          "japanese": "三百",
+          "reading": "さんびゃく",
+          "vietnamese": "300"
+        },
+        {
+          "id": "bff0c3a7720957c9",
+          "japanese": "六百",
+          "reading": "ろっぴゃく",
+          "vietnamese": "600"
+        }
+      ],
+      "mnemonic": "Xoay số 100 một góc 90 độ về bên phải sẽ được hình giống chữ 百.",
+      "examples": [
+        {
+          "id": "f607f8410267cac6",
+          "japanese": "いちねんは　三百六十五日です。",
+          "reading": "いちねんは　さんびゃくろくじゅうごにちです。",
+          "vietnamese": "Một năm có 365 ngày.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "8f7f330c99be64a1",
+      "character": "千",
+      "hanViet": "THIÊN",
+      "meaning": "một nghìn",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0bc1a7f5b4aa4396",
+          "japanese": "千円",
+          "reading": "せんえん",
+          "vietnamese": "1 nghìn yên"
+        },
+        {
+          "id": "ba800725386a6ea4",
+          "japanese": "三千",
+          "reading": "さんぜん",
+          "vietnamese": "3 nghìn"
+        }
+      ],
+      "mnemonic": "1) Đứa trẻ MƯỜI (十) tuổi NÔ (ノ) đùa trên phố nhặt được 1000 (千) đồng. 2) Giống chữ チ trong katakana.",
+      "examples": [
+        {
+          "id": "acf61f170cc6db70",
+          "japanese": "A：この　くつは　いくらですか。　B：この　くつは　六千円です。",
+          "reading": "A：この　くつは　いくらですか。　B：この　くつは　ろくせんえんです。",
+          "vietnamese": "A: Đôi giày này bao nhiêu tiền? B: Đôi giày này 6 nghìn yên.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "f8c4ccc63d0cb038",
+      "character": "万",
+      "hanViet": "VẠN",
+      "meaning": "mười nghìn",
+      "onyomi": [
+        "マン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "fd67c2b97d789506",
+          "japanese": "一万円",
+          "reading": "いちまんえん",
+          "vietnamese": "1 vạn yên/ 10 nghìn yên"
+        },
+        {
+          "id": "8f971c8de5493197",
+          "japanese": "百万",
+          "reading": "ひゃくまん",
+          "vietnamese": "100 vạn/ 1 triệu"
+        }
+      ],
+      "mnemonic": "1) Hình ảnh một VẠN gồm 5 chữ số. 2) Một VẠN chữ カ cứng.",
+      "examples": [
+        {
+          "id": "cfa0a81c883e3806",
+          "japanese": "ベトナムの　人口は　99百万人ぐらいです。",
+          "reading": "ベトナムの　じんこうは　99ひゃくまんにんぐらいです。",
+          "vietnamese": "Dân số Việt Nam khoảng 99 triệu người.",
+          "note": "Câu chép đúng PDF. Người Nhật thường viết 9900万人 (きゅうせんきゅうひゃくまんにん) — đếm theo vạn chứ không theo triệu."
+        }
+      ]
+    },
+    {
+      "id": "1ea5e96d617af042",
+      "character": "円",
+      "hanViet": "VIÊN",
+      "meaning": "đồng yên Nhật",
+      "onyomi": [
+        "エン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "a3a03d6456244868",
+          "japanese": "円",
+          "reading": "えん",
+          "vietnamese": "Yên (đơn vị tiền của Nhật)"
+        }
+      ],
+      "mnemonic": "1) Nhìn giống cái cửa có 2 cánh đang bị đóng (cánh cửa chỗ kiểm soát ra vào). 2) Kí hiệu của hình tròn.",
+      "examples": [
+        {
+          "id": "972966749c9d2f45",
+          "japanese": "そのノートは　二百円です。",
+          "reading": "そのノートは　にひゃくえんです。",
+          "vietnamese": "Quyển vở đó giá 200 yên.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "e805094110a7bb19",
+      "character": "何",
+      "hanViet": "HÀ",
+      "meaning": "cái gì",
+      "onyomi": [],
+      "kunyomi": [
+        "なに",
+        "なん"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "01c7a4a69ca93172",
+          "japanese": "何",
+          "reading": "なに",
+          "vietnamese": "Cái gì"
+        },
+        {
+          "id": "1298dcd7881586be",
+          "japanese": "何時",
+          "reading": "なんじ",
+          "vietnamese": "Mấy giờ"
+        }
+      ],
+      "mnemonic": "1) Một NGƯỜI (亻) đứng trên BỤC (丁) mở MIỆNG (口) nói CÁI GÌ (何) đó. 2) CÁI GÌ (何) đã khiến con NGƯỜI (亻) có KHẢ (可) năng làm được điều đó?",
+      "examples": [
+        {
+          "id": "a223d0875a43a776",
+          "japanese": "A：これは　何ですか。　B：ほんです。",
+          "reading": "A：これは　なんですか。　B：ほんです。",
+          "vietnamese": "A: Đây là cái gì? B: Là quyển sách.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

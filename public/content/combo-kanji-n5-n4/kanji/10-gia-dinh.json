@@ -1,0 +1,267 @@
+{
+  "id": "10-gia-dinh",
+  "name": "Bài 10 · Gia đình",
+  "description": "父 母 子 男 女 — bố, mẹ, con, nam, nữ: 祖父, 祖母, 子供, 男の人, 女の人; âm đặc biệt お父さん, お母さん.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "d90994b760b3f72d",
+      "character": "父",
+      "hanViet": "PHỤ",
+      "meaning": "cha",
+      "onyomi": [
+        "フ"
+      ],
+      "kunyomi": [
+        "ちち"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "315f8ddb6051257d",
+          "japanese": "祖父",
+          "reading": "そふ",
+          "vietnamese": "Ông"
+        },
+        {
+          "id": "7519a9d11e8494a9",
+          "japanese": "父",
+          "reading": "ちち",
+          "vietnamese": "Bố"
+        },
+        {
+          "id": "0efd51ec1da0cd94",
+          "japanese": "お父さん",
+          "reading": "おとうさん",
+          "vietnamese": "Bố (âm đặc biệt)"
+        }
+      ],
+      "mnemonic": "Người đàn ông hay chau mày.",
+      "examples": [
+        {
+          "id": "e9c60df444f43e52",
+          "japanese": "祖父は今年　九十さいです。",
+          "reading": "そふはことし　きゅうじゅっさいです。",
+          "vietnamese": "Ông tôi năm nay 90 tuổi.",
+          "note": ""
+        },
+        {
+          "id": "36fb253e616c8467",
+          "japanese": "父は　犬が　好きです。",
+          "reading": "ちちは　いぬが　すきです。",
+          "vietnamese": "Bố tôi thích chó.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "9e6af59686afdda6",
+      "character": "母",
+      "hanViet": "MẪU",
+      "meaning": "mẹ",
+      "onyomi": [
+        "ボ"
+      ],
+      "kunyomi": [
+        "はは"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1b286793223a4e88",
+          "japanese": "祖母",
+          "reading": "そぼ",
+          "vietnamese": "Bà"
+        },
+        {
+          "id": "5648a45f52edc37d",
+          "japanese": "母",
+          "reading": "はは",
+          "vietnamese": "Mẹ"
+        },
+        {
+          "id": "d189761ef63ae9a3",
+          "japanese": "お母さん",
+          "reading": "おかあさん",
+          "vietnamese": "Mẹ (âm đặc biệt)"
+        }
+      ],
+      "mnemonic": "Người MẸ đang ôm con.",
+      "examples": [
+        {
+          "id": "1a1946d2a44ed12b",
+          "japanese": "私の　かぞくは　来週の　日曜日に　祖母のうちへ　行きます。",
+          "reading": "わたしの　かぞくは　らいしゅうの　にちようびに　そぼのうちへ　いきます。",
+          "vietnamese": "Chủ nhật tuần sau gia đình tôi sẽ đến nhà bà.",
+          "note": ""
+        },
+        {
+          "id": "8d5782a1654fdc0b",
+          "japanese": "母は　えいごが　少し　わかります。",
+          "reading": "ははは　えいごが　すこし　わかります。",
+          "vietnamese": "Mẹ tôi hiểu một chút tiếng Anh.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "17bd1306b582dfc3",
+      "character": "子",
+      "hanViet": "TỬ",
+      "meaning": "con cái",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "こ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "746f7f8423eda8fd",
+          "japanese": "お菓子",
+          "reading": "おかし",
+          "vietnamese": "Bánh kẹo"
+        },
+        {
+          "id": "5f6ecb01bb05fb5f",
+          "japanese": "子供",
+          "reading": "こども",
+          "vietnamese": "Trẻ con"
+        },
+        {
+          "id": "51aff231fd119454",
+          "japanese": "男の子",
+          "reading": "おとこのこ",
+          "vietnamese": "Bé trai"
+        },
+        {
+          "id": "c58542d7d6bc3c0f",
+          "japanese": "女の子",
+          "reading": "おんなのこ",
+          "vietnamese": "Bé gái"
+        }
+      ],
+      "mnemonic": "1 EM BÉ (子) đang dang hai tay ra.",
+      "examples": [
+        {
+          "id": "873cae7af1b802f9",
+          "japanese": "妹は　お菓子が　好きです。",
+          "reading": "いもうとは　おかしが　すきです。",
+          "vietnamese": "Em gái tôi thích bánh kẹo.",
+          "note": ""
+        },
+        {
+          "id": "5439e3dc4748101b",
+          "japanese": "A：その子供はコナンくんですね。　B：そうです。",
+          "reading": "A：そのこどもはコナンくんですね。　B：そうです。",
+          "vietnamese": "A: Đứa trẻ đó là bé Conan nhỉ. B: Đúng vậy.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "6058a05054cc983e",
+      "character": "男",
+      "hanViet": "NAM",
+      "meaning": "con trai",
+      "onyomi": [
+        "ダン",
+        "ナン"
+      ],
+      "kunyomi": [
+        "おとこ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "c9e7dfcc1ed1fa52",
+          "japanese": "男性",
+          "reading": "だんせい",
+          "vietnamese": "Nam giới"
+        },
+        {
+          "id": "ac1d9539d0a00074",
+          "japanese": "長男",
+          "reading": "ちょうなん",
+          "vietnamese": "Trưởng nam"
+        },
+        {
+          "id": "848b74d68ff61668",
+          "japanese": "男の人",
+          "reading": "おとこのひと",
+          "vietnamese": "Người đàn ông"
+        }
+      ],
+      "mnemonic": "Người ĐÀN ÔNG (男) là người có sức LỰC (力) làm ruộng vườn (ĐIỀN - 田).",
+      "examples": [
+        {
+          "id": "bb3bd96ff50a8cf3",
+          "japanese": "男性の日は　ありませんか。",
+          "reading": "だんせいのひは　ありませんか。",
+          "vietnamese": "Không có ngày dành cho nam giới sao?",
+          "note": ""
+        },
+        {
+          "id": "20da16a9bde8b6c9",
+          "japanese": "この　きょうしつに　男の人が　二人　います。",
+          "reading": "この　きょうしつに　おとこのひとが　ふたり　います。",
+          "vietnamese": "Trong lớp học này có hai người đàn ông.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "d33bc2a540d68953",
+      "character": "女",
+      "hanViet": "NỮ",
+      "meaning": "con gái",
+      "onyomi": [
+        "ジョ"
+      ],
+      "kunyomi": [
+        "おんな"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1fcdddab27f3fb82",
+          "japanese": "女性",
+          "reading": "じょせい",
+          "vietnamese": "Nữ giới"
+        },
+        {
+          "id": "e17b937982daa10c",
+          "japanese": "彼女",
+          "reading": "かのじょ",
+          "vietnamese": "Bạn gái, cô ấy"
+        },
+        {
+          "id": "9111a8535d8391b0",
+          "japanese": "女の人",
+          "reading": "おんなのひと",
+          "vietnamese": "Người phụ nữ"
+        }
+      ],
+      "mnemonic": "Người phụ NỮ (女) cong chân cúi chào.",
+      "examples": [
+        {
+          "id": "abb5c70e795a6918",
+          "japanese": "彼女は　ダンスが　上手です。",
+          "reading": "かのじょは　ダンスが　じょうずです。",
+          "vietnamese": "Cô ấy nhảy giỏi.",
+          "note": ""
+        },
+        {
+          "id": "56cd444d83f79982",
+          "japanese": "あの女の人は　リキセンターの先生です。",
+          "reading": "あのおんなのひとは　リキセンターのせんせいです。",
+          "vietnamese": "Người phụ nữ kia là giáo viên của trung tâm Riki.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

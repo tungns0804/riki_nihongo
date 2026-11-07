@@ -1,0 +1,246 @@
+{
+  "id": "08-truong-hoc",
+  "name": "Bài 8 · Trường học",
+  "description": "大 小 字 本 校 — to, nhỏ, chữ, sách, trường: 大学, 小学生, 漢字, 日本, 学校; âm đặc biệt 大人 おとな.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "67f341195e5e4e40",
+      "character": "大",
+      "hanViet": "ĐẠI",
+      "meaning": "to/ lớn",
+      "onyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "kunyomi": [
+        "おお.きい"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "a6c01c1f815826e4",
+          "japanese": "大好き",
+          "reading": "だいすき",
+          "vietnamese": "Rất thích"
+        },
+        {
+          "id": "b6ded833903e82bc",
+          "japanese": "大学",
+          "reading": "だいがく",
+          "vietnamese": "Trường đại học"
+        },
+        {
+          "id": "816fb824b1d5adad",
+          "japanese": "大切な",
+          "reading": "たいせつな",
+          "vietnamese": "Quan trọng"
+        },
+        {
+          "id": "09dc98e571a296bd",
+          "japanese": "大きい",
+          "reading": "おおきい",
+          "vietnamese": "To, lớn"
+        },
+        {
+          "id": "631ccdb1d3b8fecc",
+          "japanese": "大人",
+          "reading": "おとな",
+          "vietnamese": "Người lớn (âm đặc biệt)"
+        }
+      ],
+      "mnemonic": "Người dang 2 tay 2 chân thật là TO LỚN.",
+      "examples": [
+        {
+          "id": "cb9017cda4e75a48",
+          "japanese": "私は　大学で　日本語を　べんきょうします。",
+          "reading": "わたしは　だいがくで　にほんごを　べんきょうします。",
+          "vietnamese": "Tôi học tiếng Nhật ở trường đại học.",
+          "note": ""
+        },
+        {
+          "id": "fe22637be796d92d",
+          "japanese": "A：リンさんの　うちは　どんなうちですか。　B：大きいうちです。",
+          "reading": "A：リンさんの　うちは　どんなうちですか。　B：おおきいうちです。",
+          "vietnamese": "A: Nhà của bạn Linh là ngôi nhà như thế nào? B: Là một ngôi nhà to.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "6c1e1d6ffb3563dc",
+      "character": "小",
+      "hanViet": "TIỂU",
+      "meaning": "nhỏ/ bé",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "ちい.さい"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "2c33f90c724718e1",
+          "japanese": "小学生",
+          "reading": "しょうがくせい",
+          "vietnamese": "Học sinh tiểu học"
+        },
+        {
+          "id": "c31b8ec7a82001db",
+          "japanese": "小学校",
+          "reading": "しょうがっこう",
+          "vietnamese": "Trường tiểu học"
+        },
+        {
+          "id": "4df95fa2c332af75",
+          "japanese": "小さい",
+          "reading": "ちいさい",
+          "vietnamese": "Nhỏ, bé"
+        }
+      ],
+      "mnemonic": "Bạn gập chân tay lại, trông bạn thật NHỎ (小).",
+      "examples": [
+        {
+          "id": "00ed0d1622a2e702",
+          "japanese": "私の　いもうとは　今年　小学生です。",
+          "reading": "わたしの　いもうとは　ことし　しょうがくせいです。",
+          "vietnamese": "Em gái tôi năm nay là học sinh tiểu học.",
+          "note": ""
+        },
+        {
+          "id": "7a1f8c2c08ffb639",
+          "japanese": "このりんごは　小さいですね。",
+          "reading": "このりんごは　ちいさいですね。",
+          "vietnamese": "Quả táo này nhỏ nhỉ.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "3bef8ec774932929",
+      "character": "字",
+      "hanViet": "TỰ",
+      "meaning": "chữ",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0b0fb6f07c9614ba",
+          "japanese": "字",
+          "reading": "じ",
+          "vietnamese": "Chữ"
+        },
+        {
+          "id": "0c506c8f9a381442",
+          "japanese": "漢字",
+          "reading": "かんじ",
+          "vietnamese": "Chữ Hán"
+        },
+        {
+          "id": "5c9b361d0132d596",
+          "japanese": "ローマ字",
+          "reading": "ローマじ",
+          "vietnamese": "Chữ Romaji"
+        }
+      ],
+      "mnemonic": "Dưới mái nhà có ĐỨA TRẺ (子) học CHỮ (字).",
+      "examples": [
+        {
+          "id": "cd4268f565d643bc",
+          "japanese": "日本語の　漢字が　むずかしいです。",
+          "reading": "にほんごの　かんじが　むずかしいです。",
+          "vietnamese": "Chữ Hán của tiếng Nhật khó.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "4707a24424ea2f10",
+      "character": "本",
+      "hanViet": "BẢN",
+      "meaning": "sách",
+      "onyomi": [
+        "ホン"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "43a2c6f956c2604d",
+          "japanese": "本",
+          "reading": "ほん",
+          "vietnamese": "Sách"
+        },
+        {
+          "id": "7f2ed43cb98f070f",
+          "japanese": "日本",
+          "reading": "にほん",
+          "vietnamese": "Nhật Bản"
+        },
+        {
+          "id": "1e87a9dd592131b5",
+          "japanese": "本屋",
+          "reading": "ほんや",
+          "vietnamese": "Cửa hàng sách"
+        },
+        {
+          "id": "e62b71aad5b853e1",
+          "japanese": "本当",
+          "reading": "ほんとう",
+          "vietnamese": "Thật, sự thật"
+        }
+      ],
+      "mnemonic": "CÂY (木) bị chặt MỘT (一) đường ở trên thân để lấy gỗ làm SÁCH (本) — cây bị chặt để làm sách.",
+      "examples": [
+        {
+          "id": "1025e89bab022d77",
+          "japanese": "私は　母に　あたらしい本を　もらいました。",
+          "reading": "わたしは　ははに　あたらしいほんを　もらいました。",
+          "vietnamese": "Tôi được mẹ cho một quyển sách mới.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "5c4b0f528054a14c",
+      "character": "校",
+      "hanViet": "HIỆU",
+      "meaning": "trường học",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "17f98b8f81053878",
+          "japanese": "学校",
+          "reading": "がっこう",
+          "vietnamese": "Trường học"
+        },
+        {
+          "id": "c431fbb145b40be3",
+          "japanese": "高校生",
+          "reading": "こうこうせい",
+          "vietnamese": "Học sinh cấp 3"
+        }
+      ],
+      "mnemonic": "Ông BỐ (父) đội nón đứng đợi đón con dựa vào CÂY (木).",
+      "examples": [
+        {
+          "id": "0e1374aa7963c38a",
+          "japanese": "私は　高校生です。",
+          "reading": "わたしは　こうこうせいです。",
+          "vietnamese": "Tôi là học sinh cấp 3.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# Combo Kanji N5-N4 — KANJI · Bài 11 (Vị trí 1)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 11 · VỊ TRÍ 1 (bai11.pdf), thẻ 51–55.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+上,THƯỢNG,bên trên,ジョウ,うえ・あ.げる,|上手 (じょうず)=Giỏi (đi với が);屋上 (おくじょう)=Tầng thượng;上 (うえ)=Phía trên;上げます (あげます)=Giơ lên
+覚: TÔ (ト) MỘT (一) hình TRÊN (上) giấy.
+・父と兄は　スポーツが　上手です。| Bố và anh trai tôi chơi thể thao giỏi.
+読: ちちとあには　スポーツが　じょうずです。
+・つくえの　上に　パソコンが　あります。| Trên bàn có máy tính.
+読: つくえの　うえに　パソコンが　あります。
+
+# 下手: thẻ in cả trong cột 訓 lẫn mục "Âm đặc biệt" — chép một lần, ghi là âm đặc biệt.
+下,HẠ,bên dưới,カ,した,|地下鉄 (ちかてつ)=Tàu điện ngầm;地下 (ちか)=Tầng hầm;下 (した)=Phía dưới;下手 (へた)=Kém (âm đặc biệt)
+覚: MỘT (一) cái TÔ (ト) ở DƯỚI (下) mặt bàn.
+・私は　地下鉄で　びじゅつかんへ　行きます。| Tôi đi đến bảo tàng mỹ thuật bằng tàu điện ngầm.
+読: わたしは　ちかてつで　びじゅつかんへ　いきます。
+・木の下に　ねこが　います。| Dưới gốc cây có con mèo.
+読: きのしたに　ねこが　います。
+
+右,HỮU,bên phải,,みぎ,|右 (みぎ)=Bên phải;右側 (みぎがわ)=Phía bên phải;右手 (みぎて)=Tay phải
+覚: Tay đưa lên MIỆNG (口) ăn là tay PHẢI (右).
+・右手を　上げます。| Giơ tay phải lên.
+読: みぎてを　あげます。
+
+左,TẢ,bên trái,,ひだり,|左 (ひだり)=Bên trái;左側 (ひだりがわ)=Phía bên trái;左手 (ひだりて)=Tay trái
+覚: Tay cầm thước là tay TRÁI (左).
+・日本は　くるまが　左側を　はしります。人は　右側を　あるきます。| Ở Nhật, ô tô chạy bên trái, còn người đi bộ đi bên phải.
+読: にほんは　くるまが　ひだりがわを　はしります。ひとは　みぎがわを　あるきます。
+
+中,TRUNG,trong/ giữa,チュウ・ジュウ,なか,|中学生 (ちゅうがくせい)=Học sinh cấp 2;中国 (ちゅうごく)=Trung Quốc;一日中 (いちにちじゅう)=Suốt 1 ngày;世界中 (せかいじゅう)=Trên khắp thế giới;中 (なか)=Bên trong
+覚: Gậy chọc vào chính giữa hộp.
+・中学生は　日本で　十二歳から　十五歳まで　です。| Ở Nhật, học sinh cấp 2 là từ 12 đến 15 tuổi.
+読: ちゅうがくせいは　にほんで　じゅうにさいから　じゅうごさいまで　です。
+・A：くるまの中に　かばんが　あります。だれの　かばんですか。　B：ランさんの　かばんです。| A: Trong ô tô có cái cặp. Cặp của ai vậy? B: Cặp của chị Lan.
+読: A：くるまのなかに　かばんが　あります。だれの　かばんですか。　B：ランさんの　かばんです。

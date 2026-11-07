@@ -1,0 +1,41 @@
+# Combo Kanji N5-N4 — KANJI · Bài 10 (Gia đình)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 10 · GIA ĐÌNH (Bai10.pdf), thẻ 46–50.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# お父さん: mục "Âm đặc biệt" dưới thẻ.
+父,PHỤ,cha,フ,ちち,|祖父 (そふ)=Ông;父 (ちち)=Bố;お父さん (おとうさん)=Bố (âm đặc biệt)
+覚: Người đàn ông hay chau mày.
+・祖父は今年　九十さいです。| Ông tôi năm nay 90 tuổi.
+読: そふはことし　きゅうじゅっさいです。
+・父は　犬が　好きです。| Bố tôi thích chó.
+読: ちちは　いぬが　すきです。
+
+# お母さん: mục "Âm đặc biệt" dưới thẻ.
+母,MẪU,mẹ,ボ,はは,|祖母 (そぼ)=Bà;母 (はは)=Mẹ;お母さん (おかあさん)=Mẹ (âm đặc biệt)
+覚: Người MẸ đang ôm con.
+・私の　かぞくは　来週の　日曜日に　祖母のうちへ　行きます。| Chủ nhật tuần sau gia đình tôi sẽ đến nhà bà.
+読: わたしの　かぞくは　らいしゅうの　にちようびに　そぼのうちへ　いきます。
+・母は　えいごが　少し　わかります。| Mẹ tôi hiểu một chút tiếng Anh.
+読: ははは　えいごが　すこし　わかります。
+
+子,TỬ,con cái,シ,こ,|お菓子 (おかし)=Bánh kẹo;子供 (こども)=Trẻ con;男の子 (おとこのこ)=Bé trai;女の子 (おんなのこ)=Bé gái
+覚: 1 EM BÉ (子) đang dang hai tay ra.
+・妹は　お菓子が　好きです。| Em gái tôi thích bánh kẹo.
+読: いもうとは　おかしが　すきです。
+・A：その子供はコナンくんですね。　B：そうです。| A: Đứa trẻ đó là bé Conan nhỉ. B: Đúng vậy.
+読: A：そのこどもはコナンくんですね。　B：そうです。
+
+男,NAM,con trai,ダン・ナン,おとこ,|男性 (だんせい)=Nam giới;長男 (ちょうなん)=Trưởng nam;男の人 (おとこのひと)=Người đàn ông
+覚: Người ĐÀN ÔNG (男) là người có sức LỰC (力) làm ruộng vườn (ĐIỀN - 田).
+・男性の日は　ありませんか。| Không có ngày dành cho nam giới sao?
+読: だんせいのひは　ありませんか。
+・この　きょうしつに　男の人が　二人　います。| Trong lớp học này có hai người đàn ông.
+読: この　きょうしつに　おとこのひとが　ふたり　います。
+
+女,NỮ,con gái,ジョ,おんな,|女性 (じょせい)=Nữ giới;彼女 (かのじょ)=Bạn gái, cô ấy;女の人 (おんなのひと)=Người phụ nữ
+覚: Người phụ NỮ (女) cong chân cúi chào.
+・彼女は　ダンスが　上手です。| Cô ấy nhảy giỏi.
+読: かのじょは　ダンスが　じょうずです。
+・あの女の人は　リキセンターの先生です。| Người phụ nữ kia là giáo viên của trung tâm Riki.
+読: あのおんなのひとは　リキセンターのせんせいです。

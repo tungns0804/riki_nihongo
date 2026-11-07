@@ -1,0 +1,39 @@
+# Combo Kanji N5-N4 — KANJI · Bài 12 (Vị trí 2)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 12 · VỊ TRÍ 2 (BAi12.pdf), thẻ 56–60.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+後,HẬU,sau/ phía sau,ゴ,うし.ろ・あと,|午後 (ごご)=Buổi chiều;後ろ (うしろ)=Sau, phía sau;後 (あと)=Sau
+覚: YÊU (幺) thầm thường lặng lẽ BƯỚC (彳) theo SAU (後).
+・午後　1時に　学校へ　行きます。| 1 giờ chiều tôi đến trường.
+読: ごご　いちじに　がっこうへ　いきます。
+・病院の　後ろに　公園が　あります。| Phía sau bệnh viện có công viên.
+読: びょういんの　うしろに　こうえんが　あります。
+
+前,TIỀN,trước/ phía trước,ゼン,まえ,|午前 (ごぜん)=Buổi sáng;前 (まえ)=Trước, đằng trước;名前 (なまえ)=Tên
+覚: TRĂNG (月) kia luồn dưới CỎ (艹) xanh, chịu ĐAO (刂) kề cổ chẳng qua vì TIỀN (前).
+・金曜日の午前　8時半に　会議を　開きます。| Cuộc họp được tổ chức lúc 8 giờ rưỡi sáng thứ Sáu.
+読: きんようびのごぜん　はちじはんに　かいぎを　ひらきます。
+・食事の前に　手を　洗います。| Trước bữa ăn thì rửa tay.
+読: しょくじのまえに　てを　あらいます。
+
+外,NGOẠI,bên ngoài,ガイ,そと,|外国 (がいこく)=Nước ngoài;外 (そと)=Bên ngoài
+覚: Tato (夕卜) — xăm hình — xuất phát từ NGOẠI (外) quốc.
+・息子は　今　外国にいます。| Con trai tôi bây giờ đang ở nước ngoài.
+読: むすこは　いま　がいこくにいます。
+・A：外は　さむいですか。　B：さむくないですよ。| A: Bên ngoài có lạnh không? B: Không lạnh đâu.
+読: A：そとは　さむいですか。　B：さむくないですよ。
+
+入,NHẬP,vào,ニュウ,はい.る・い.れる,|入学 (にゅうがく)=Nhập học;入院 (にゅういん)=Nhập viện;入ります (はいります)=Đi vào;入れます (いれます)=Cho vào
+覚: Người lao về phía trước.
+・日本では　入学式は　四月です。| Ở Nhật, lễ nhập học vào tháng 4.
+読: にほんでは　にゅうがくしきは　しがつです。
+・かばんに　本を　入れました。| Tôi đã cho sách vào cặp.
+読: かばんに　ほんを　いれました。
+
+出,XUẤT,ra,シュツ・シュッ,で.る・だ.す,|出張 (しゅっちょう)=Đi công tác;輸出 (ゆしゅつ)=Xuất khẩu;出ます (でます)=Đi ra;出かけます (でかけます)=Ra ngoài;出します (だします)=Nộp
+覚: Cây cỏ (屮) mọc ra từ cái chậu cây (凵).
+・あした　アメリカへ　出張します。| Ngày mai tôi đi công tác Mỹ.
+読: あした　アメリカへ　しゅっちょうします。
+・田中さんは　三十分前に　出かけました。| Anh Tanaka đã ra ngoài từ 30 phút trước.
+読: たなかさんは　さんじゅっぷんまえに　でかけました。

@@ -91,8 +91,8 @@ export const MESSAGES = {
     ja: 'N4深掘りの宿題：1課につき1セットの問題（言い換え・用法）。訳と選択肢ごとの解説つき。',
   },
   'course.combo-kanji-n5-n4.desc': {
-    vi: 'Kanji sơ cấp N5–N4: mỗi bài một đề đọc chữ Hán và chọn chữ Hán, kèm bản dịch và lời giải từng lựa chọn.',
-    ja: 'N5〜N4の漢字：1課につき1セット、漢字の読み方・書き方の問題。訳と選択肢ごとの解説つき。',
+    vi: 'Kanji sơ cấp N5–N4: thẻ kanji từng bài (âm On/Kun, từ ghép, cách nhớ, câu ví dụ) kèm đề đọc chữ Hán và chọn chữ Hán có lời giải từng lựa chọn.',
+    ja: 'N5〜N4の漢字：課ごとの漢字カード（音読み・訓読み・熟語・覚え方・例文）と、選択肢ごとの解説つきの読み方・書き方の問題。',
   },
   'course.soon.desc': { vi: 'Nội dung đang được chuẩn bị.', ja: '教材を準備中です。' },
   'course.list.title': { vi: 'Các học phần của Riki Nihongo', ja: 'Riki Nihongo のコース' },

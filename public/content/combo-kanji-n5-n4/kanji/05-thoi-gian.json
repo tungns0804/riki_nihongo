@@ -1,0 +1,256 @@
+{
+  "id": "05-thoi-gian",
+  "name": "Bài 5 · Thời gian",
+  "description": "金 土 今 年 夕 — thứ Sáu, thứ Bảy, bây giờ, năm, chiều tối; âm đặc biệt 今年 ことし, 今日 きょう.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "921395ea527e97d8",
+      "character": "金",
+      "hanViet": "KIM",
+      "meaning": "tiền/ kim loại",
+      "onyomi": [
+        "キン"
+      ],
+      "kunyomi": [
+        "かね"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "8ee95e5749cb2d22",
+          "japanese": "金曜日",
+          "reading": "きんようび",
+          "vietnamese": "Thứ 6"
+        },
+        {
+          "id": "73cb69578a2899a4",
+          "japanese": "お金",
+          "reading": "おかね",
+          "vietnamese": "Tiền"
+        },
+        {
+          "id": "0d469bf70ecf1f08",
+          "japanese": "お金持ち",
+          "reading": "おかねもち",
+          "vietnamese": "Người giàu"
+        }
+      ],
+      "mnemonic": "Vị VUA (王) giữ 2 khối VÀNG (金) trong lâu đài (人).",
+      "examples": [
+        {
+          "id": "7495f8a9c9652798",
+          "japanese": "せんしゅうの　金曜日に　とうきょうへ　きました。",
+          "reading": "せんしゅうの　きんようびに　とうきょうへ　きました。",
+          "vietnamese": "Thứ Sáu tuần trước tôi đã đến Tokyo.",
+          "note": ""
+        },
+        {
+          "id": "c8d54ec147512577",
+          "japanese": "A：山田さんは　お金持ちですね。　B：そうですね。",
+          "reading": "A：やまださんは　おかねもちですね。　B：そうですね。",
+          "vietnamese": "A: Anh Yamada giàu nhỉ. B: Ừ, đúng thế.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "8a0c550396acf74a",
+      "character": "土",
+      "hanViet": "THỔ",
+      "meaning": "đất",
+      "onyomi": [
+        "ド"
+      ],
+      "kunyomi": [
+        "つち"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1fe9796e605892fd",
+          "japanese": "土曜日",
+          "reading": "どようび",
+          "vietnamese": "Thứ 7"
+        },
+        {
+          "id": "893960c7bd9975e2",
+          "japanese": "土",
+          "reading": "つち",
+          "vietnamese": "Đất"
+        }
+      ],
+      "mnemonic": "1) Cây non mọc trên mặt ĐẤT (土). 2) ĐẤT (土) là nơi cắm cây THẬP (十) giá.",
+      "examples": [
+        {
+          "id": "12d7d915b498cc18",
+          "japanese": "土曜日はやすみのひですね。",
+          "reading": "どようびはやすみのひですね。",
+          "vietnamese": "Thứ Bảy là ngày nghỉ nhỉ.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "9e3cee25daed0b96",
+      "character": "今",
+      "hanViet": "KIM",
+      "meaning": "bây giờ",
+      "onyomi": [
+        "コン"
+      ],
+      "kunyomi": [
+        "いま"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "b46e08913873b5b2",
+          "japanese": "今月",
+          "reading": "こんげつ",
+          "vietnamese": "Tháng này"
+        },
+        {
+          "id": "e36079b086e4be08",
+          "japanese": "今晩",
+          "reading": "こんばん",
+          "vietnamese": "Tối nay"
+        },
+        {
+          "id": "cfd4aba50f444262",
+          "japanese": "今",
+          "reading": "いま",
+          "vietnamese": "Bây giờ"
+        },
+        {
+          "id": "6402e5ce138bf868",
+          "japanese": "今年",
+          "reading": "ことし",
+          "vietnamese": "Năm nay (âm đặc biệt)"
+        },
+        {
+          "id": "2f609817b93f1bac",
+          "japanese": "今日",
+          "reading": "きょう",
+          "vietnamese": "Hôm nay (âm đặc biệt)"
+        }
+      ],
+      "mnemonic": "BÂY GIỜ (今) được đi ăn Ramen (ラ) cùng NGƯỜI (人) yêu là sướng nhất.",
+      "examples": [
+        {
+          "id": "5694087c04459088",
+          "japanese": "今晩かぞくとレストランへ行きます。",
+          "reading": "こんばんかぞくとレストランへいきます。",
+          "vietnamese": "Tối nay tôi đi nhà hàng với gia đình.",
+          "note": ""
+        },
+        {
+          "id": "d8e736de3138eb93",
+          "japanese": "今うちへ帰ります。",
+          "reading": "いまうちへかえります。",
+          "vietnamese": "Bây giờ tôi về nhà.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "7417ff7a1207a5d9",
+      "character": "年",
+      "hanViet": "NIÊN",
+      "meaning": "năm",
+      "onyomi": [
+        "ネン"
+      ],
+      "kunyomi": [
+        "とし"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "58f826c8ab03ee84",
+          "japanese": "去年",
+          "reading": "きょねん",
+          "vietnamese": "Năm trước"
+        },
+        {
+          "id": "13180f6299619247",
+          "japanese": "生年月日",
+          "reading": "せいねんがっぴ",
+          "vietnamese": "Ngày tháng năm sinh"
+        },
+        {
+          "id": "4f07dc7e271d1b5e",
+          "japanese": "年",
+          "reading": "とし",
+          "vietnamese": "Năm"
+        },
+        {
+          "id": "6402e5ce138bf868",
+          "japanese": "今年",
+          "reading": "ことし",
+          "vietnamese": "Năm nay"
+        },
+        {
+          "id": "4d06a63ea659ec44",
+          "japanese": "毎年",
+          "reading": "まいとし",
+          "vietnamese": "Hàng năm"
+        }
+      ],
+      "mnemonic": "Một NGƯỜI (𠂉) mỗi NĂM (年) vào tháng MƯỜI (十) sẽ cầm cuốc để làm ruộng.",
+      "examples": [
+        {
+          "id": "99658f76ed665577",
+          "japanese": "生年月日を書きます。",
+          "reading": "せいねんがっぴをかきます。",
+          "vietnamese": "Viết ngày tháng năm sinh.",
+          "note": ""
+        },
+        {
+          "id": "c4712e4be0d0890a",
+          "japanese": "今年は国へ帰ります。",
+          "reading": "ことしはくにへかえります。",
+          "vietnamese": "Năm nay tôi sẽ về nước.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "0689c23e6a7c906b",
+      "character": "夕",
+      "hanViet": "TỊCH",
+      "meaning": "chiều tối",
+      "onyomi": [],
+      "kunyomi": [
+        "ゆう"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0f95446634d33d0e",
+          "japanese": "夕方",
+          "reading": "ゆうがた",
+          "vietnamese": "Buổi chiều tối, xế chiều"
+        },
+        {
+          "id": "a5c587cb32bd3c0e",
+          "japanese": "夕食",
+          "reading": "ゆうしょく",
+          "vietnamese": "Bữa tối"
+        }
+      ],
+      "mnemonic": "Một mình TA (タ) đi về trong buổi CHIỀU TÀ (夕).",
+      "examples": [
+        {
+          "id": "61bc953dff2c5216",
+          "japanese": "きょうの夕方しんかんせんで東京へ行きます。",
+          "reading": "きょうのゆうがたしんかんせんでとうきょうへいきます。",
+          "vietnamese": "Chiều tối nay tôi đi Tokyo bằng tàu Shinkansen.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

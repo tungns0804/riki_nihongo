@@ -1,0 +1,239 @@
+{
+  "id": "07-truong-hoc",
+  "name": "Bài 7 · Trường học",
+  "description": "学 生 先 友 名 — 学生, 先生, 友達, 名前, 学校 và các từ ghép khác.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "39502136ed549e59",
+      "character": "学",
+      "hanViet": "HỌC",
+      "meaning": "học/ học sinh",
+      "onyomi": [
+        "ガク"
+      ],
+      "kunyomi": [],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "66a151ee9f231f24",
+          "japanese": "学生",
+          "reading": "がくせい",
+          "vietnamese": "Học sinh"
+        },
+        {
+          "id": "17f98b8f81053878",
+          "japanese": "学校",
+          "reading": "がっこう",
+          "vietnamese": "Trường học"
+        }
+      ],
+      "mnemonic": "Là TRẺ CON (子) thì phải HỌC (学).",
+      "examples": [
+        {
+          "id": "4ae0baf495d862d0",
+          "japanese": "A：今、どこへ　行きますか。　B：学校へ　行きます。",
+          "reading": "A：いま、どこへ　いきますか。　B：がっこうへ　いきます。",
+          "vietnamese": "A: Bây giờ bạn đi đâu? B: Tôi đi đến trường.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "ad14c408d01297bf",
+      "character": "生",
+      "hanViet": "SINH",
+      "meaning": "sinh trưởng",
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [
+        "う.まれる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "66a151ee9f231f24",
+          "japanese": "学生",
+          "reading": "がくせい",
+          "vietnamese": "Học sinh"
+        },
+        {
+          "id": "38b074c4bfc28b2b",
+          "japanese": "一年生",
+          "reading": "いちねんせい",
+          "vietnamese": "Sinh viên năm nhất"
+        },
+        {
+          "id": "350c27a900215c3d",
+          "japanese": "生まれます",
+          "reading": "うまれます",
+          "vietnamese": "Được sinh ra (đi với が)"
+        }
+      ],
+      "mnemonic": "Con NGƯỜI (𠂉) được SINH (生) ra, sống hết một đời rồi lại trở về với ĐẤT (土) mẹ.",
+      "examples": [
+        {
+          "id": "dea133e80db869c4",
+          "japanese": "あの人は　一年生じゃありません。",
+          "reading": "あのひとは　いちねんせいじゃありません。",
+          "vietnamese": "Người kia không phải sinh viên năm nhất.",
+          "note": ""
+        },
+        {
+          "id": "9bf5847a3a5dc887",
+          "japanese": "1月　1日に　あにが　生まれました。",
+          "reading": "いちがつ　ついたちに　あにが　うまれました。",
+          "vietnamese": "Anh trai tôi sinh ngày 1 tháng 1.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "4cd80e50f108cce0",
+      "character": "先",
+      "hanViet": "TIÊN",
+      "meaning": "trước tiên",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "さき"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "14ef05017ec122e6",
+          "japanese": "先生",
+          "reading": "せんせい",
+          "vietnamese": "Giáo viên"
+        },
+        {
+          "id": "1d0f00b71e29ec2c",
+          "japanese": "先月",
+          "reading": "せんげつ",
+          "vietnamese": "Tháng trước"
+        },
+        {
+          "id": "6e53d2766b6ddda0",
+          "japanese": "先週",
+          "reading": "せんしゅう",
+          "vietnamese": "Tuần trước"
+        },
+        {
+          "id": "91640593888ed1be",
+          "japanese": "先",
+          "reading": "さき",
+          "vietnamese": "Trước"
+        }
+      ],
+      "mnemonic": "Hình ảnh 1 người đang chạy.",
+      "examples": [
+        {
+          "id": "e2aedaf1fa800ee7",
+          "japanese": "先週、日本の　レストランで　夕食を　食べました。",
+          "reading": "せんしゅう、にほんの　レストランで　ゆうしょくを　たべました。",
+          "vietnamese": "Tuần trước tôi đã ăn tối ở một nhà hàng Nhật.",
+          "note": ""
+        },
+        {
+          "id": "1cf96158cf3e9adc",
+          "japanese": "お先に　しつれいします。",
+          "reading": "おさきに　しつれいします。",
+          "vietnamese": "Tôi xin phép về trước.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "b7f70f2684f917e7",
+      "character": "友",
+      "hanViet": "HỮU",
+      "meaning": "bạn bè",
+      "onyomi": [
+        "ユウ"
+      ],
+      "kunyomi": [
+        "とも"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "93ca3c036ee9e696",
+          "japanese": "友人",
+          "reading": "ゆうじん",
+          "vietnamese": "Bạn thân"
+        },
+        {
+          "id": "4c25379afb347c9c",
+          "japanese": "友達",
+          "reading": "ともだち",
+          "vietnamese": "Bạn bè"
+        }
+      ],
+      "mnemonic": "BẠN BÈ (友) là khi dù chỉ quả NA (ナ) cũng phải có qua có LẠI (又).",
+      "examples": [
+        {
+          "id": "1744415ee48a34c8",
+          "japanese": "わたしは　友人に　手紙を　書きました。",
+          "reading": "わたしは　ゆうじんに　てがみを　かきました。",
+          "vietnamese": "Tôi đã viết thư cho bạn thân.",
+          "note": ""
+        },
+        {
+          "id": "59b503b23dd87456",
+          "japanese": "わたしは　友達に　シャツを　あげました。",
+          "reading": "わたしは　ともだちに　シャツを　あげました。",
+          "vietnamese": "Tôi đã tặng bạn chiếc áo sơ mi.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "ec250cd7bd9243d9",
+      "character": "名",
+      "hanViet": "DANH",
+      "meaning": "tên",
+      "onyomi": [
+        "メイ"
+      ],
+      "kunyomi": [
+        "な"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "cbb828fcc4b74417",
+          "japanese": "名刺",
+          "reading": "めいし",
+          "vietnamese": "Danh thiếp"
+        },
+        {
+          "id": "ee0d74defcfa775a",
+          "japanese": "名前",
+          "reading": "なまえ",
+          "vietnamese": "Tên"
+        }
+      ],
+      "mnemonic": "Cậu bé TÊN (名) là Taro (タロ).",
+      "examples": [
+        {
+          "id": "4e1c19e79adf58c3",
+          "japanese": "わたしは　かれに　名刺を　もらいました。",
+          "reading": "わたしは　かれに　めいしを　もらいました。",
+          "vietnamese": "Tôi đã nhận danh thiếp từ anh ấy.",
+          "note": ""
+        },
+        {
+          "id": "5c15bbf2d3e790ce",
+          "japanese": "A：すみません、お名前は？　B：わたしは　ハーリンです。",
+          "reading": "A：すみません、おなまえは？　B：わたしは　ハーリンです。",
+          "vietnamese": "A: Xin lỗi, tên bạn là gì? B: Tôi là Hà Linh.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

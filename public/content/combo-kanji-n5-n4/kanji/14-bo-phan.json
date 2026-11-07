@@ -1,0 +1,249 @@
+{
+  "id": "14-bo-phan",
+  "name": "Bài 14 · Bộ phận",
+  "description": "口 目 耳 手 足 — miệng, mắt, tai, tay, chân: 人口, 入口, 目的, 手紙, 足ります; âm đặc biệt 上手, 下手.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "204c5411dcb6b5c7",
+      "character": "口",
+      "hanViet": "KHẨU",
+      "meaning": "miệng",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "くち"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "7fa7e77a165f5163",
+          "japanese": "人口",
+          "reading": "じんこう",
+          "vietnamese": "Dân số"
+        },
+        {
+          "id": "cc17451fa1955903",
+          "japanese": "口",
+          "reading": "くち",
+          "vietnamese": "Miệng"
+        },
+        {
+          "id": "753b878296f426b9",
+          "japanese": "口紅",
+          "reading": "くちべに",
+          "vietnamese": "Son môi"
+        },
+        {
+          "id": "bf764b7ddac72ddf",
+          "japanese": "入口",
+          "reading": "いりぐち",
+          "vietnamese": "Cửa vào"
+        },
+        {
+          "id": "821332758bc79d29",
+          "japanese": "出口",
+          "reading": "でぐち",
+          "vietnamese": "Lối ra"
+        }
+      ],
+      "mnemonic": "Hình ảnh cái miệng.",
+      "examples": [
+        {
+          "id": "f7c515f268df86ae",
+          "japanese": "A：ベトナムの　人口は　何人ですか。　B：一億人　ぐらいです。",
+          "reading": "A：ベトナムの　じんこうは　なんにんですか。　B：いちおくにん　ぐらいです。",
+          "vietnamese": "A: Dân số Việt Nam là bao nhiêu người? B: Khoảng 100 triệu người.",
+          "note": ""
+        },
+        {
+          "id": "50718f61b42e43da",
+          "japanese": "口を　あけてください。",
+          "reading": "くちを　あけてください。",
+          "vietnamese": "Hãy há miệng ra.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "012fa913cff91c34",
+      "character": "目",
+      "hanViet": "MỤC",
+      "meaning": "mắt",
+      "onyomi": [
+        "モク"
+      ],
+      "kunyomi": [
+        "め"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "0f5892fe329dcdb5",
+          "japanese": "目的",
+          "reading": "もくてき",
+          "vietnamese": "Mục đích"
+        },
+        {
+          "id": "25038665e083ddaf",
+          "japanese": "目",
+          "reading": "め",
+          "vietnamese": "Con mắt, thứ ~"
+        }
+      ],
+      "mnemonic": "Hình ảnh con mắt.",
+      "examples": [
+        {
+          "id": "6454f27b3de67ddf",
+          "japanese": "りゅうがくの目的は　何ですか。",
+          "reading": "りゅうがくのもくてきは　なんですか。",
+          "vietnamese": "Mục đích du học của bạn là gì?",
+          "note": ""
+        },
+        {
+          "id": "dc006acdbd7f63f9",
+          "japanese": "しんじゅくは　しぶやから　いくつ目の　えきですか。",
+          "reading": "しんじゅくは　しぶやから　いくつめの　えきですか。",
+          "vietnamese": "Shinjuku là ga thứ mấy tính từ Shibuya?",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "54979eb4d27a0e45",
+      "character": "耳",
+      "hanViet": "NHĨ",
+      "meaning": "tai",
+      "onyomi": [],
+      "kunyomi": [
+        "みみ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "27b68559cfbc08c3",
+          "japanese": "耳",
+          "reading": "みみ",
+          "vietnamese": "Tai"
+        }
+      ],
+      "mnemonic": "Hình ảnh giống cái tai.",
+      "examples": [
+        {
+          "id": "894374206601557f",
+          "japanese": "プールで　耳に　水が　入ります。",
+          "reading": "プールで　みみに　みずが　はいります。",
+          "vietnamese": "Ở bể bơi, nước vào tai.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "7270d4e3011cefdc",
+      "character": "手",
+      "hanViet": "THỦ",
+      "meaning": "tay",
+      "onyomi": [
+        "シュ"
+      ],
+      "kunyomi": [
+        "て"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "7ec3e34fca30c6cd",
+          "japanese": "歌手",
+          "reading": "かしゅ",
+          "vietnamese": "Ca sĩ"
+        },
+        {
+          "id": "531b82ddb638512d",
+          "japanese": "手",
+          "reading": "て",
+          "vietnamese": "Tay"
+        },
+        {
+          "id": "b477a909061cd00f",
+          "japanese": "手紙",
+          "reading": "てがみ",
+          "vietnamese": "Bức thư"
+        },
+        {
+          "id": "10b8649bd613ae30",
+          "japanese": "お手洗い",
+          "reading": "おてあらい",
+          "vietnamese": "Nhà vệ sinh"
+        },
+        {
+          "id": "159e9614f3f4e150",
+          "japanese": "上手",
+          "reading": "じょうず",
+          "vietnamese": "Giỏi (âm đặc biệt)"
+        },
+        {
+          "id": "765287493f6e2b4d",
+          "japanese": "下手",
+          "reading": "へた",
+          "vietnamese": "Kém (âm đặc biệt)"
+        }
+      ],
+      "mnemonic": "Hình ảnh bàn tay.",
+      "examples": [
+        {
+          "id": "d34e7a1f9290c87a",
+          "japanese": "Son Tungさんは　ゆうめいな　歌手ですね。",
+          "reading": "Son Tungさんは　ゆうめいな　かしゅですね。",
+          "vietnamese": "Sơn Tùng là ca sĩ nổi tiếng nhỉ.",
+          "note": ""
+        },
+        {
+          "id": "25ae61f5faf773b6",
+          "japanese": "日本人は　手で　おにぎりを　食べます。",
+          "reading": "にほんじんは　てで　おにぎりを　たべます。",
+          "vietnamese": "Người Nhật ăn cơm nắm bằng tay.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "d3ffb1589935553d",
+      "character": "足",
+      "hanViet": "TÚC",
+      "meaning": "chân",
+      "onyomi": [],
+      "kunyomi": [
+        "あし",
+        "た.りる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "fda74b808b92091c",
+          "japanese": "足",
+          "reading": "あし",
+          "vietnamese": "Chân"
+        },
+        {
+          "id": "79d533bb5ecf9f2d",
+          "japanese": "足ります",
+          "reading": "たります",
+          "vietnamese": "Đủ"
+        }
+      ],
+      "mnemonic": "NGƯỜI (人) vắt CHÂN (足) lên cổ chạy, MIỆNG (口) thở hổn hển.",
+      "examples": [
+        {
+          "id": "b240af961049a96e",
+          "japanese": "今日　足が　いたいですから、学校へ　いきません。",
+          "reading": "きょう　あしが　いたいですから、がっこうへ　いきません。",
+          "vietnamese": "Hôm nay chân tôi đau nên tôi không đến trường.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+# Combo Kanji N5-N4 — KANJI · Bài 6 (Thời gian)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 06 · THỜI GIAN (Bai6.pdf), thẻ 26–30.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+時,THỜI,thời gian,ジ,とき,|何時 (なんじ)=Mấy giờ;9時 (くじ)=9 giờ;子供の時 (こどものとき)=Khi còn trẻ con;時々 (ときどき)=Thỉnh thoảng
+覚: THỜI (時) gian mọc của MẶT TRỜI (日) ở CHÙA (寺) là rất nhanh.
+・A：おねえさんは　何時から　何時まで　はたらきますか。　B：九時から　五時までです。| A: Chị gái bạn làm việc từ mấy giờ đến mấy giờ? B: Từ 9 giờ đến 5 giờ.
+読: A：おねえさんは　なんじから　なんじまで　はたらきますか。　B：くじから　ごじまでです。
+・時々　おとうさんに　電話を　かけます。| Thỉnh thoảng tôi gọi điện cho bố.
+読: ときどき　おとうさんに　でんわを　かけます。
+
+# 5分: furigana trên PDF in ぶん — 5分 đọc ごふん, sửa lại (ぶん là của 半分).
+# 会います: furigana trên PDF in かい — sửa thành あ.
+分,PHÂN,phút/ phân chia,フン・ブン,わ.かる,|5分 (ごふん)=5 phút;半分 (はんぶん)=1 nửa;分かります (わかります)=Hiểu (đi với が)
+覚: Dùng dao PHÂN (分) chia khúc gỗ.
+・九時　5分に　ともだちに　会います。| Tôi gặp bạn lúc 9 giờ 5 phút.
+読: くじ　ごふんに　ともだちに　あいます。
+・先生：皆さん、分かりましたか？　学生：はい、分かりました。| Giáo viên: Các em đã hiểu chưa? Học sinh: Vâng, chúng em hiểu rồi ạ.
+読: せんせい：みなさん、わかりましたか？　がくせい：はい、わかりました。
+
+半,BÁN,một nửa,ハン,,|半分 (はんぶん)=1 nửa;一時半 (いちじはん)=1 giờ rưỡi
+覚: Dùng dao cắt 3 sợi chỉ, chỉ 1 sợi bị đứt.
+・きのう　1時半に　ごはんを　たべました。| Hôm qua tôi ăn cơm lúc 1 giờ rưỡi.
+読: きのう　いちじはんに　ごはんを　たべました。
+
+# 間: "Ý nghĩa" của thẻ là "Thời gian", trùng với 時; thêm "ở giữa" (từ ghép 間 あいだ của
+# chính thẻ) để hai chữ không có cùng một nghĩa khi luyện Việt → Nhật.
+間,GIAN,thời gian/ ở giữa,カン,あいだ・ま,|時間 (じかん)=Thời gian;間 (あいだ)=Ở giữa;ひる間 (ひるま)=Ban ngày
+覚: Ngắm mặt trời (NHẬT - 日) qua cánh cổng (MÔN - 門).
+・わたしは　毎日　2時間　えいごを　勉強します。| Mỗi ngày tôi học tiếng Anh 2 tiếng.
+読: わたしは　まいにち　にじかん　えいごを　べんきょうします。
+・彼は　ひる間　かいしゃで　働きます。| Ban ngày anh ấy làm việc ở công ty.
+読: かれは　ひるま　かいしゃで　はたらきます。
+
+週,TUẦN,tuần/ vòng quanh,シュウ,,|今週 (こんしゅう)=Tuần này;一週間 (いっしゅうかん)=1 tuần;週末 (しゅうまつ)=Cuối tuần
+覚: Hàng TUẦN (週) đi lại (辶) ở nơi có CHU VI (周) tốt.
+・彼は　今週、二十歳の　誕生日を　むかえる。| Tuần này anh ấy đón sinh nhật tuổi 20.
+読: かれは　こんしゅう、はたちの　たんじょうびを　むかえる。

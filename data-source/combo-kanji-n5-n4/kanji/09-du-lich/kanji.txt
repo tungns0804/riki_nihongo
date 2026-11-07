@@ -1,0 +1,41 @@
+# Combo Kanji N5-N4 — KANJI · Bài 9 (Du lịch 1)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 09 · DU LỊCH 1 (bai9.pdf), thẻ 41–45.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+行,HÀNH,đi,コウ,い.く・おこな.う,|旅行 (りょこう)=Du lịch;銀行 (ぎんこう)=Ngân hàng;行きます (いきます)=Đi;行います (おこないます)=Tổ chức
+覚: HÀNH (行) trình ĐI (彳) đến BƯU ĐIỆN (亍).
+・私は　旅行が　好きです。| Tôi thích du lịch.
+読: わたしは　りょこうが　すきです。
+・明日　会社の人と　一緒に　旅行しに　行きます。| Ngày mai tôi đi du lịch cùng đồng nghiệp ở công ty.
+読: あした　かいしゃのひとと　いっしょに　りょこうしに　いきます。
+
+# 来: 訓 thẻ ghi き (gốc của 来ます); thêm く.る là dạng từ điển của cùng động từ đó.
+来,LAI,đến,ライ,く.る・き,|来週 (らいしゅう)=Tuần sau;来月 (らいげつ)=Tháng sau;来年 (らいねん)=Năm sau;来ます (きます)=Đến
+覚: LAI 10 (十) cân GẠO (米) ĐẾN (来) chợ để bán.
+・私は　来週　ようじが　ありますから　旅行しません。| Tuần sau tôi có việc bận nên không đi du lịch.
+読: わたしは　らいしゅう　ようじが　ありますから　りょこうしません。
+・1か月　前に　Phu Quoc へ　来ました。| Một tháng trước tôi đã đến Phú Quốc.
+読: いっかげつ　まえに　Phu Quoc へ　きました。
+
+帰,QUY,trở về,キ,かえ.る,|帰国 (きこく)=Về nước;帰ります (かえります)=Đi về;お帰り (おかえり)=Về
+覚: 1) Kẻ sĩ buông đao (刀) cầm CHỔI (帚) QUY (帰) y cửa phật. 2) Khi về nhà thì cầm dao nấu ăn, và chổi quét nhà.
+・リーさんは　来年の　四月に　帰国します。| Anh Lee sẽ về nước vào tháng 4 năm sau.
+読: リーさんは　らいねんの　しがつに　きこくします。
+・毎日　六時に　うちへ　帰ります。| Hằng ngày tôi về nhà lúc 6 giờ.
+読: まいにち　ろくじに　うちへ　かえります。
+
+国,QUỐC,đất nước,コク,くに,|中国 (ちゅうごく)=Trung Quốc;国際 (こくさい)=Quốc tế;国 (くに)=Đất nước, quốc gia
+覚: ĐẤT NƯỚC (国) được bao bởi biên giới và có ấn NGỌC (玉).
+・私は　中国の　料理が　好きです。| Tôi thích món ăn Trung Quốc.
+読: わたしは　ちゅうごくの　りょうりが　すきです。
+・わたしの国は　ベトナムです。| Đất nước của tôi là Việt Nam.
+読: わたしのくには　ベトナムです。
+
+# 一人: mục "Âm đặc biệt" dưới thẻ.
+人,NHÂN,con người,ジン・ニン,ひと,|日本人 (にほんじん)=Người Nhật;主人 (しゅじん)=Chồng, chủ;三人 (さんにん)=3 người;人 (ひと)=Con người;一人 (ひとり)=1 người, 1 mình (âm đặc biệt)
+覚: Chữ Y ngược.
+・あの人は　日本人　じゃありません。タイ人です。| Người kia không phải người Nhật. Là người Thái.
+読: あのひとは　にほんじん　じゃありません。タイじんです。
+・私は　一人でコンサートへ　行きます。| Tôi đi xem hòa nhạc một mình.
+読: わたしは　ひとりでコンサートへ　いきます。

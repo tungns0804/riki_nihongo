@@ -1,0 +1,41 @@
+# Combo Kanji N5-N4 — KANJI · Bài 1 (Số đếm)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 01 · SỐ ĐẾM (Bai1.pdf), thẻ 01–05.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# 一日: chú thích (*) cuối trang PDF — còn đọc ついたち (ngày mồng 1), chép thành một từ ghép.
+一,NHẤT,số một,イチ・イッ,ひと,|一 (いち)=Số một;一時 (いちじ)=Một giờ;一日 (いちにち)=Một ngày;一日 (ついたち)=Ngày mồng 1;一月 (いちがつ)=Tháng 1;一歳 (いっさい)=Một tuổi;一度 (いちど)=Một lần;一つ (ひとつ)=Một cái;一人 (ひとり)=Một người, một mình
+覚: 1 que diêm, 1 ngón tay.
+・いま、おとうとは　一歳　です。| Bây giờ em trai tôi một tuổi.
+読: いま、おとうとは　いっさい　です。
+・コーヒー　一つ　おねがいします。| Cho tôi một ly cà phê.
+読: コーヒー　ひとつ　おねがいします。
+
+二,NHỊ,số hai,ニ,ふた・ふつ,|二 (に)=Số hai;二時 (にじ)=2 giờ;二階 (にかい)=Tầng 2;二人 (ふたり)=2 người;二日 (ふつか)=Ngày mùng 2, 2 ngày
+覚: 2 que diêm, 2 ngón tay.
+・A：トイレは　どこ　ですか？　B：二階です。| A: Nhà vệ sinh ở đâu ạ? B: Ở tầng 2.
+読: A：トイレは　どこ　ですか？　B：にかいです。
+・きょうは　一月　二日です。| Hôm nay là ngày mùng 2 tháng 1.
+読: きょうは　いちがつ　ふつかです。
+
+三,TAM,số ba,サン,みっ,|三 (さん)=Số ba;三月 (さんがつ)=Tháng 3;三枚 (さんまい)=3 tờ, tấm;三日 (みっか)=Ngày mùng 3, 3 ngày;三つ (みっつ)=3 cái
+覚: 3 que diêm, 3 ngón tay.
+・A：今月は　何月　ですか。　B：三月です。| A: Tháng này là tháng mấy? B: Tháng 3.
+読: A：こんげつは　なんがつ　ですか。　B：さんがつです。
+・あしたは　三日　じゃありません。| Ngày mai không phải ngày mùng 3.
+読: あしたは　みっか　じゃありません。
+
+四,TỨ,số bốn,シ,よん・よっ・よ,|四月 (しがつ)=Tháng 4;四 (よん)=Số 4;四時 (よじ)=4 giờ;四つ (よっつ)=4 cái;四台 (よんだい)=4 cái (máy móc hoặc phương tiện)
+覚: Hình ảnh cửa sổ, có rèm cửa.
+・こんげつは　四月　じゃありません。| Tháng này không phải tháng 4.
+読: こんげつは　しがつ　じゃありません。
+・A：いま　なんじですか？　B：四時　です。| A: Bây giờ là mấy giờ? B: 4 giờ.
+読: A：いま　なんじですか？　B：よじ　です。
+
+# 五本: PDF chỉ ghi nghĩa "5"; 本 là từ đếm đồ vật dài nên ghi rõ ra.
+五,NGŨ,số năm,ゴ,いつ,|五 (ご)=Số 5;五月 (ごがつ)=Tháng 5;五本 (ごほん)=5 cái (đồ vật dài: bút, chai…);五つ (いつつ)=5 cái;五日 (いつか)=Ngày mùng 5, 5 ngày
+覚: Chữ T và chữ YU (ユ) đan xen với nhau tạo thành chữ NGŨ (五).
+・A：これは「三」ですか。「五」ですか。　B：これは「五」です。| A: Đây là chữ "ba" hay chữ "năm"? B: Đây là chữ "năm".
+読: A：これは「さん」ですか。「ご」ですか。　B：これは「ご」です。
+・みかん　五つ　ください。| Cho tôi năm quả quýt.
+読: みかん　いつつ　ください。

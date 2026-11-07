@@ -1,0 +1,31 @@
+# Combo Kanji N5-N4 — KANJI · Bài 3 (Đơn vị đếm)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 03 · ĐƠN VỊ ĐẾM (Bai3.pdf), thẻ 11–15.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+百,BÁCH,một trăm,ヒャク,,|百円 (ひゃくえん)=100 yên;三百 (さんびゃく)=300;六百 (ろっぴゃく)=600
+覚: Xoay số 100 một góc 90 độ về bên phải sẽ được hình giống chữ 百.
+・いちねんは　三百六十五日です。| Một năm có 365 ngày.
+読: いちねんは　さんびゃくろくじゅうごにちです。
+
+千,THIÊN,một nghìn,セン,,|千円 (せんえん)=1 nghìn yên;三千 (さんぜん)=3 nghìn
+覚: 1) Đứa trẻ MƯỜI (十) tuổi NÔ (ノ) đùa trên phố nhặt được 1000 (千) đồng. 2) Giống chữ チ trong katakana.
+・A：この　くつは　いくらですか。　B：この　くつは　六千円です。| A: Đôi giày này bao nhiêu tiền? B: Đôi giày này 6 nghìn yên.
+読: A：この　くつは　いくらですか。　B：この　くつは　ろくせんえんです。
+
+万,VẠN,mười nghìn,マン,,|一万円 (いちまんえん)=1 vạn yên/ 10 nghìn yên;百万 (ひゃくまん)=100 vạn/ 1 triệu
+覚: 1) Hình ảnh một VẠN gồm 5 chữ số. 2) Một VẠN chữ カ cứng.
+・ベトナムの　人口は　99百万人ぐらいです。| Dân số Việt Nam khoảng 99 triệu người.
+読: ベトナムの　じんこうは　99ひゃくまんにんぐらいです。
+注: Câu chép đúng PDF. Người Nhật thường viết 9900万人 (きゅうせんきゅうひゃくまんにん) — đếm theo vạn chứ không theo triệu.
+
+円,VIÊN,đồng yên Nhật,エン,,|円 (えん)=Yên (đơn vị tiền của Nhật)
+覚: 1) Nhìn giống cái cửa có 2 cánh đang bị đóng (cánh cửa chỗ kiểm soát ra vào). 2) Kí hiệu của hình tròn.
+・そのノートは　二百円です。| Quyển vở đó giá 200 yên.
+読: そのノートは　にひゃくえんです。
+
+# 何: thẻ chỉ có 訓 (なに、なん), không có 音.
+何,HÀ,cái gì,,なに・なん,|何 (なに)=Cái gì;何時 (なんじ)=Mấy giờ
+覚: 1) Một NGƯỜI (亻) đứng trên BỤC (丁) mở MIỆNG (口) nói CÁI GÌ (何) đó. 2) CÁI GÌ (何) đã khiến con NGƯỜI (亻) có KHẢ (可) năng làm được điều đó?
+・A：これは　何ですか。　B：ほんです。| A: Đây là cái gì? B: Là quyển sách.
+読: A：これは　なんですか。　B：ほんです。

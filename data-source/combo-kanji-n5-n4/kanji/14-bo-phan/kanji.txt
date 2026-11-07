@@ -1,0 +1,36 @@
+# Combo Kanji N5-N4 — KANJI · Bài 14 (Bộ phận)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 14 · BỘ PHẬN (bai14.pdf), thẻ 66–70.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+口,KHẨU,miệng,コウ,くち,|人口 (じんこう)=Dân số;口 (くち)=Miệng;口紅 (くちべに)=Son môi;入口 (いりぐち)=Cửa vào;出口 (でぐち)=Lối ra
+覚: Hình ảnh cái miệng.
+・A：ベトナムの　人口は　何人ですか。　B：一億人　ぐらいです。| A: Dân số Việt Nam là bao nhiêu người? B: Khoảng 100 triệu người.
+読: A：ベトナムの　じんこうは　なんにんですか。　B：いちおくにん　ぐらいです。
+・口を　あけてください。| Hãy há miệng ra.
+読: くちを　あけてください。
+
+目,MỤC,mắt,モク,め,|目的 (もくてき)=Mục đích;目 (め)=Con mắt, thứ ~
+覚: Hình ảnh con mắt.
+・りゅうがくの目的は　何ですか。| Mục đích du học của bạn là gì?
+読: りゅうがくのもくてきは　なんですか。
+・しんじゅくは　しぶやから　いくつ目の　えきですか。| Shinjuku là ga thứ mấy tính từ Shibuya?
+読: しんじゅくは　しぶやから　いくつめの　えきですか。
+
+耳,NHĨ,tai,,みみ,|耳 (みみ)=Tai
+覚: Hình ảnh giống cái tai.
+・プールで　耳に　水が　入ります。| Ở bể bơi, nước vào tai.
+読: プールで　みみに　みずが　はいります。
+
+# 上手, 下手: mục "Âm đặc biệt" dưới thẻ.
+手,THỦ,tay,シュ,て,|歌手 (かしゅ)=Ca sĩ;手 (て)=Tay;手紙 (てがみ)=Bức thư;お手洗い (おてあらい)=Nhà vệ sinh;上手 (じょうず)=Giỏi (âm đặc biệt);下手 (へた)=Kém (âm đặc biệt)
+覚: Hình ảnh bàn tay.
+・Son Tungさんは　ゆうめいな　歌手ですね。| Sơn Tùng là ca sĩ nổi tiếng nhỉ.
+読: Son Tungさんは　ゆうめいな　かしゅですね。
+・日本人は　手で　おにぎりを　食べます。| Người Nhật ăn cơm nắm bằng tay.
+読: にほんじんは　てで　おにぎりを　たべます。
+
+足,TÚC,chân,,あし・た.りる,|足 (あし)=Chân;足ります (たります)=Đủ
+覚: NGƯỜI (人) vắt CHÂN (足) lên cổ chạy, MIỆNG (口) thở hổn hển.
+・今日　足が　いたいですから、学校へ　いきません。| Hôm nay chân tôi đau nên tôi không đến trường.
+読: きょう　あしが　いたいですから、がっこうへ　いきません。

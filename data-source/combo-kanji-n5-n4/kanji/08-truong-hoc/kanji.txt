@@ -1,0 +1,34 @@
+# Combo Kanji N5-N4 — KANJI · Bài 8 (Trường học)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 08 · TRƯỜNG HỌC (Bai8.pdf), thẻ 36–40.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# 大人: mục "Âm đặc biệt" dưới thẻ.
+大,ĐẠI,to/ lớn,ダイ・タイ,おお.きい,|大好き (だいすき)=Rất thích;大学 (だいがく)=Trường đại học;大切な (たいせつな)=Quan trọng;大きい (おおきい)=To, lớn;大人 (おとな)=Người lớn (âm đặc biệt)
+覚: Người dang 2 tay 2 chân thật là TO LỚN.
+・私は　大学で　日本語を　べんきょうします。| Tôi học tiếng Nhật ở trường đại học.
+読: わたしは　だいがくで　にほんごを　べんきょうします。
+・A：リンさんの　うちは　どんなうちですか。　B：大きいうちです。| A: Nhà của bạn Linh là ngôi nhà như thế nào? B: Là một ngôi nhà to.
+読: A：リンさんの　うちは　どんなうちですか。　B：おおきいうちです。
+
+小,TIỂU,nhỏ/ bé,ショウ,ちい.さい,|小学生 (しょうがくせい)=Học sinh tiểu học;小学校 (しょうがっこう)=Trường tiểu học;小さい (ちいさい)=Nhỏ, bé
+覚: Bạn gập chân tay lại, trông bạn thật NHỎ (小).
+・私の　いもうとは　今年　小学生です。| Em gái tôi năm nay là học sinh tiểu học.
+読: わたしの　いもうとは　ことし　しょうがくせいです。
+・このりんごは　小さいですね。| Quả táo này nhỏ nhỉ.
+読: このりんごは　ちいさいですね。
+
+字,TỰ,chữ,ジ,,|字 (じ)=Chữ;漢字 (かんじ)=Chữ Hán;ローマ字 (ローマじ)=Chữ Romaji
+覚: Dưới mái nhà có ĐỨA TRẺ (子) học CHỮ (字).
+・日本語の　漢字が　むずかしいです。| Chữ Hán của tiếng Nhật khó.
+読: にほんごの　かんじが　むずかしいです。
+
+本,BẢN,sách,ホン,,|本 (ほん)=Sách;日本 (にほん)=Nhật Bản;本屋 (ほんや)=Cửa hàng sách;本当 (ほんとう)=Thật, sự thật
+覚: CÂY (木) bị chặt MỘT (一) đường ở trên thân để lấy gỗ làm SÁCH (本) — cây bị chặt để làm sách.
+・私は　母に　あたらしい本を　もらいました。| Tôi được mẹ cho một quyển sách mới.
+読: わたしは　ははに　あたらしいほんを　もらいました。
+
+校,HIỆU,trường học,コウ,,|学校 (がっこう)=Trường học;高校生 (こうこうせい)=Học sinh cấp 3
+覚: Ông BỐ (父) đội nón đứng đợi đón con dựa vào CÂY (木).
+・私は　高校生です。| Tôi là học sinh cấp 3.
+読: わたしは　こうこうせいです。

@@ -1,0 +1,289 @@
+{
+  "id": "04-thoi-gian",
+  "name": "Bài 4 · Thời gian",
+  "description": "日 月 火 水 木 — mặt trời, mặt trăng, lửa, nước, cây và các thứ trong tuần 日曜日 → 木曜日.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "10d69593cb7623fa",
+      "character": "日",
+      "hanViet": "NHẬT",
+      "meaning": "ngày/ mặt trời",
+      "onyomi": [
+        "ニチ",
+        "ニッ"
+      ],
+      "kunyomi": [
+        "ひ",
+        "び",
+        "か"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "72918edf2552561f",
+          "japanese": "日曜日",
+          "reading": "にちようび",
+          "vietnamese": "Chủ nhật"
+        },
+        {
+          "id": "051ea74314d5fd68",
+          "japanese": "毎日",
+          "reading": "まいにち",
+          "vietnamese": "Hàng ngày"
+        },
+        {
+          "id": "785899166adff8a0",
+          "japanese": "日記",
+          "reading": "にっき",
+          "vietnamese": "Nhật kí"
+        },
+        {
+          "id": "0bd08163608dfba2",
+          "japanese": "誕生日",
+          "reading": "たんじょうび",
+          "vietnamese": "Sinh nhật"
+        },
+        {
+          "id": "ab762f6097ef5f1b",
+          "japanese": "母の日",
+          "reading": "ははのひ",
+          "vietnamese": "Ngày của mẹ"
+        },
+        {
+          "id": "ca5ea569b7745ba1",
+          "japanese": "五日",
+          "reading": "いつか",
+          "vietnamese": "Ngày mùng 5, 5 ngày"
+        }
+      ],
+      "mnemonic": "Đây là hình MẶT TRỜI (日).",
+      "examples": [
+        {
+          "id": "ccec994892d13cfc",
+          "japanese": "毎日　日本語を　べんきょう　します。",
+          "reading": "まいにち　にほんごを　べんきょう　します。",
+          "vietnamese": "Hàng ngày tôi học tiếng Nhật.",
+          "note": ""
+        },
+        {
+          "id": "9d63a4dd998014dc",
+          "japanese": "山田さんの　誕生日は　こんしゅうの　日曜日ですね。",
+          "reading": "やまださんの　たんじょうびは　こんしゅうの　にちようびですね。",
+          "vietnamese": "Sinh nhật của anh Yamada là Chủ nhật tuần này nhỉ.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "742cd4f4e56ee486",
+      "character": "月",
+      "hanViet": "NGUYỆT",
+      "meaning": "mặt trăng",
+      "onyomi": [
+        "ガツ",
+        "ゲツ"
+      ],
+      "kunyomi": [
+        "つき"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "e3429fa80c134a56",
+          "japanese": "お正月",
+          "reading": "おしょうがつ",
+          "vietnamese": "Tết dương"
+        },
+        {
+          "id": "7d549fbcae177e0f",
+          "japanese": "月曜日",
+          "reading": "げつようび",
+          "vietnamese": "Thứ 2"
+        },
+        {
+          "id": "1c9f4a9b0b90c575",
+          "japanese": "月",
+          "reading": "つき",
+          "vietnamese": "Trăng"
+        },
+        {
+          "id": "518a1cb732c6444a",
+          "japanese": "毎月",
+          "reading": "まいつき",
+          "vietnamese": "Hàng tháng"
+        }
+      ],
+      "mnemonic": "1) Hình ảnh TRĂNG lưỡi liềm. 2) Bắc thang (nhìn giống cái thang) lên MẶT TRĂNG (月).",
+      "examples": [
+        {
+          "id": "a0adf20e453a4a9c",
+          "japanese": "お正月は　1月　1日です。",
+          "reading": "おしょうがつは　いちがつ　ついたちです。",
+          "vietnamese": "Tết (dương lịch) là ngày 1 tháng 1.",
+          "note": ""
+        },
+        {
+          "id": "f533f25dc1267417",
+          "japanese": "こんやの　月は　とても　きれいです。",
+          "reading": "こんやの　つきは　とても　きれいです。",
+          "vietnamese": "Trăng đêm nay rất đẹp.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "d4a116ae823f2aa5",
+      "character": "火",
+      "hanViet": "HỎA",
+      "meaning": "lửa",
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "ひ",
+        "び"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "1c5bdc62a1da1b7d",
+          "japanese": "火曜日",
+          "reading": "かようび",
+          "vietnamese": "Thứ 3"
+        },
+        {
+          "id": "87a1e27c76208e3d",
+          "japanese": "火",
+          "reading": "ひ",
+          "vietnamese": "Lửa"
+        },
+        {
+          "id": "dcf6539fe4c0456f",
+          "japanese": "花火",
+          "reading": "はなび",
+          "vietnamese": "Pháo hoa"
+        }
+      ],
+      "mnemonic": "Một người giơ tay chân chạy kêu HỎA (火) hoạn.",
+      "examples": [
+        {
+          "id": "192c2f37bf559978",
+          "japanese": "としょかんの　やすみは　火曜日です。",
+          "reading": "としょかんの　やすみは　かようびです。",
+          "vietnamese": "Thư viện nghỉ vào thứ Ba.",
+          "note": ""
+        },
+        {
+          "id": "44063768c0e51ad9",
+          "japanese": "こんばん　ともだちと　花火を　みます。",
+          "reading": "こんばん　ともだちと　はなびを　みます。",
+          "vietnamese": "Tối nay tôi xem pháo hoa với bạn.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "f8d9f2b7451f391c",
+      "character": "水",
+      "hanViet": "THỦY",
+      "meaning": "nước",
+      "onyomi": [
+        "スイ"
+      ],
+      "kunyomi": [
+        "みず"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "eb055837a9c87422",
+          "japanese": "水曜日",
+          "reading": "すいようび",
+          "vietnamese": "Thứ 4"
+        },
+        {
+          "id": "9fccab79f9710254",
+          "japanese": "水道",
+          "reading": "すいどう",
+          "vietnamese": "Nước máy"
+        },
+        {
+          "id": "455fc7df970099c1",
+          "japanese": "水",
+          "reading": "みず",
+          "vietnamese": "Nước"
+        }
+      ],
+      "mnemonic": "Hình ảnh dòng nước với 4 giọt NƯỚC (水) bắn tung tóe.",
+      "examples": [
+        {
+          "id": "3d803d084469c8eb",
+          "japanese": "この　えいがは　こんしゅうの　水曜日に　おわります。",
+          "reading": "この　えいがは　こんしゅうの　すいようびに　おわります。",
+          "vietnamese": "Bộ phim này chiếu đến hết thứ Tư tuần này.",
+          "note": ""
+        },
+        {
+          "id": "478c9f196bc02f18",
+          "japanese": "わたしは　毎日　水を　のみます。",
+          "reading": "わたしは　まいにち　みずを　のみます。",
+          "vietnamese": "Hằng ngày tôi uống nước.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "e11684c2932e6cf7",
+      "character": "木",
+      "hanViet": "MỘC",
+      "meaning": "cây",
+      "onyomi": [
+        "モク"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "cf57052afa6e8d30",
+          "japanese": "木曜日",
+          "reading": "もくようび",
+          "vietnamese": "Thứ 5"
+        },
+        {
+          "id": "dc353742f7325083",
+          "japanese": "木",
+          "reading": "き",
+          "vietnamese": "Cây cối"
+        },
+        {
+          "id": "6ccdf756c9e491d7",
+          "japanese": "木村さん",
+          "reading": "きむらさん",
+          "vietnamese": "Anh Kimura"
+        }
+      ],
+      "mnemonic": "Hình ảnh CÂY (木) xòe tán.",
+      "examples": [
+        {
+          "id": "15eb2601bd912018",
+          "japanese": "A：かいぎは　何曜日ですか。　B：木曜日です。",
+          "reading": "A：かいぎは　なんようびですか。　B：もくようびです。",
+          "vietnamese": "A: Cuộc họp vào thứ mấy? B: Thứ Năm.",
+          "note": ""
+        },
+        {
+          "id": "1647fd53cb613fef",
+          "japanese": "木村さんは　バスで　かいしゃへ　いきます。",
+          "reading": "きむらさんは　バスで　かいしゃへ　いきます。",
+          "vietnamese": "Anh Kimura đi đến công ty bằng xe buýt.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

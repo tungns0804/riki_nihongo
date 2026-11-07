@@ -1,0 +1,260 @@
+{
+  "id": "13-phuong-huong",
+  "name": "Bài 13 · Phương hướng",
+  "description": "南 西 東 北 方 — bốn phương Nam, Tây, Đông, Bắc và 方 (方法, 夕方, 読み方).",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "797fe3bb834400cf",
+      "character": "南",
+      "hanViet": "NAM",
+      "meaning": "phía Nam",
+      "onyomi": [
+        "ナン"
+      ],
+      "kunyomi": [
+        "みなみ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "bb31708b4c0bf87e",
+          "japanese": "南部",
+          "reading": "なんぶ",
+          "vietnamese": "Nam bộ"
+        },
+        {
+          "id": "5058b8f75082022d",
+          "japanese": "南",
+          "reading": "みなみ",
+          "vietnamese": "Phía Nam"
+        }
+      ],
+      "mnemonic": "Ở biên giới phía NAM (南) có 10 (十) yên Nhật (¥).",
+      "examples": [
+        {
+          "id": "fce848b1656002aa",
+          "japanese": "福岡けんは　日本の南部に　あります。",
+          "reading": "ふくおかけんは　にほんのなんぶに　あります。",
+          "vietnamese": "Tỉnh Fukuoka nằm ở miền nam Nhật Bản.",
+          "note": ""
+        },
+        {
+          "id": "5eeb130db7b49743",
+          "japanese": "私は　北から　南まで　旅行をします。",
+          "reading": "わたしは　きたから　みなみまで　りょこうをします。",
+          "vietnamese": "Tôi đi du lịch từ bắc vào nam.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "3f5893a25743bb8c",
+      "character": "西",
+      "hanViet": "TÂY",
+      "meaning": "phía Tây",
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [
+        "にし"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "eb186ba24c2966db",
+          "japanese": "西部",
+          "reading": "せいぶ",
+          "vietnamese": "Vùng Tây bộ"
+        },
+        {
+          "id": "5edf42beaf9e620d",
+          "japanese": "西",
+          "reading": "にし",
+          "vietnamese": "Phía Tây"
+        },
+        {
+          "id": "754f9679c7034929",
+          "japanese": "西口",
+          "reading": "にしぐち",
+          "vietnamese": "Cổng phía Tây"
+        }
+      ],
+      "mnemonic": "MỘT (一) trong BỐN (四) phía có phía TÂY (西).",
+      "examples": [
+        {
+          "id": "352f51bbb79ffa4d",
+          "japanese": "日本の　西部は　いくつ　県が　ありますか。",
+          "reading": "にほんの　せいぶは　いくつ　けんが　ありますか。",
+          "vietnamese": "Miền tây Nhật Bản có bao nhiêu tỉnh?",
+          "note": ""
+        },
+        {
+          "id": "4c93edc570889144",
+          "japanese": "えきの　西口に　大きな　デパートが　あります。",
+          "reading": "えきの　にしぐちに　おおきな　デパートが　あります。",
+          "vietnamese": "Ở cổng phía tây nhà ga có một cửa hàng bách hóa lớn.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "2d103605ecff3812",
+      "character": "東",
+      "hanViet": "ĐÔNG",
+      "meaning": "phía Đông",
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "ひがし"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "eaff10c9b28ec478",
+          "japanese": "東京",
+          "reading": "とうきょう",
+          "vietnamese": "Tokyo"
+        },
+        {
+          "id": "a118f9284d2e832a",
+          "japanese": "東部",
+          "reading": "とうぶ",
+          "vietnamese": "Đông bộ"
+        },
+        {
+          "id": "ef3559d07efabc20",
+          "japanese": "東",
+          "reading": "ひがし",
+          "vietnamese": "Phía Đông"
+        }
+      ],
+      "mnemonic": "Mặt trời (NHẬT - 日) mọc sau những rặng cây (MỘC - 木).",
+      "examples": [
+        {
+          "id": "e2676815ec2ae950",
+          "japanese": "東京には　ゆうめいな　けしきが　たくさん　あります。",
+          "reading": "とうきょうには　ゆうめいな　けしきが　たくさん　あります。",
+          "vietnamese": "Ở Tokyo có nhiều cảnh đẹp nổi tiếng.",
+          "note": ""
+        },
+        {
+          "id": "725760db4341a39d",
+          "japanese": "私の　学校は　えきの東に　あります。",
+          "reading": "わたしの　がっこうは　えきのひがしに　あります。",
+          "vietnamese": "Trường của tôi ở phía đông nhà ga.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "3459dae7e9ba6c05",
+      "character": "北",
+      "hanViet": "BẮC",
+      "meaning": "phía Bắc",
+      "onyomi": [
+        "ホク"
+      ],
+      "kunyomi": [
+        "きた"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "5f2273e19c16a992",
+          "japanese": "北部",
+          "reading": "ほくぶ",
+          "vietnamese": "Miền Bắc, Bắc bộ"
+        },
+        {
+          "id": "177d712d4091941a",
+          "japanese": "南北",
+          "reading": "なんぼく",
+          "vietnamese": "Bắc Nam"
+        },
+        {
+          "id": "c5b6086b509ac3b4",
+          "japanese": "北",
+          "reading": "きた",
+          "vietnamese": "Phía Bắc"
+        }
+      ],
+      "mnemonic": "Hình ảnh 2 người ngồi áp lưng vào nhau.",
+      "examples": [
+        {
+          "id": "c1c5e2e04f63618b",
+          "japanese": "日本の北部の　天気は　冬で　とても　さむいです。",
+          "reading": "にほんのほくぶの　てんきは　ふゆで　とても　さむいです。",
+          "vietnamese": "Thời tiết miền bắc Nhật Bản vào mùa đông rất lạnh.",
+          "note": ""
+        },
+        {
+          "id": "7ed91ab50eea94fd",
+          "japanese": "ほっかいどうは　日本の　一番北に　あります。",
+          "reading": "ほっかいどうは　にほんの　いちばんきたに　あります。",
+          "vietnamese": "Hokkaido nằm ở cực bắc Nhật Bản.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "f225ab7fa05ab496",
+      "character": "方",
+      "hanViet": "PHƯƠNG",
+      "meaning": "phương hướng/ đối phương",
+      "onyomi": [
+        "ホウ"
+      ],
+      "kunyomi": [
+        "かた"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "67875883113db833",
+          "japanese": "方法",
+          "reading": "ほうほう",
+          "vietnamese": "Phương pháp"
+        },
+        {
+          "id": "b66c2c75ab868671",
+          "japanese": "方",
+          "reading": "かた",
+          "vietnamese": "Vị, ngài"
+        },
+        {
+          "id": "0f95446634d33d0e",
+          "japanese": "夕方",
+          "reading": "ゆうがた",
+          "vietnamese": "Buổi chiều"
+        },
+        {
+          "id": "62d804d9e7b9e502",
+          "japanese": "読み方",
+          "reading": "よみかた",
+          "vietnamese": "Cách đọc"
+        }
+      ],
+      "mnemonic": "VẠN (万) cái đầu (亠) đều hướng về một PHƯƠNG (方).",
+      "examples": [
+        {
+          "id": "ae7daa9131c16c96",
+          "japanese": "うちで　日本語を　勉強したいですから、どんな方法が　いいですか。",
+          "reading": "うちで　にほんごを　べんきょうしたいですから、どんなほうほうが　いいですか。",
+          "vietnamese": "Tôi muốn tự học tiếng Nhật ở nhà, vậy phương pháp nào thì tốt?",
+          "note": ""
+        },
+        {
+          "id": "8a58ee3df768cc9d",
+          "japanese": "この漢字の　読み方が　分かりません。",
+          "reading": "このかんじの　よみかたが　わかりません。",
+          "vietnamese": "Tôi không biết cách đọc chữ Hán này.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# Combo Kanji N5-N4 — KANJI · Bài 5 (Thời gian)
+# Nguồn: PDF "Khoá học Online N5 – Kanji" BUỔI 05 · THỜI GIAN (BAi5.pdf), thẻ 21–25.
+# Cách chép và chuẩn hoá: xem ../README.md
+# CHỮ,ÂM HÁN VIỆT,NGHĨA,ÂM ON,ÂM KUN,SỐ NÉT|TỪ GHÉP (CÁCH ĐỌC)=NGHĨA;…
+
+# 金曜日: furigana trên PDF in きんようひ — sửa thành きんようび.
+金,KIM,tiền/ kim loại,キン,かね,|金曜日 (きんようび)=Thứ 6;お金 (おかね)=Tiền;お金持ち (おかねもち)=Người giàu
+覚: Vị VUA (王) giữ 2 khối VÀNG (金) trong lâu đài (人).
+・せんしゅうの　金曜日に　とうきょうへ　きました。| Thứ Sáu tuần trước tôi đã đến Tokyo.
+読: せんしゅうの　きんようびに　とうきょうへ　きました。
+・A：山田さんは　お金持ちですね。　B：そうですね。| A: Anh Yamada giàu nhỉ. B: Ừ, đúng thế.
+読: A：やまださんは　おかねもちですね。　B：そうですね。
+
+# 土曜日: furigana trên PDF in どようひ — sửa thành どようび.
+土,THỔ,đất,ド,つち,|土曜日 (どようび)=Thứ 7;土 (つち)=Đất
+覚: 1) Cây non mọc trên mặt ĐẤT (土). 2) ĐẤT (土) là nơi cắm cây THẬP (十) giá.
+・土曜日はやすみのひですね。| Thứ Bảy là ngày nghỉ nhỉ.
+読: どようびはやすみのひですね。
+
+# 今年, 今日: mục "Âm đặc biệt" dưới thẻ.
+今,KIM,bây giờ,コン,いま,|今月 (こんげつ)=Tháng này;今晩 (こんばん)=Tối nay;今 (いま)=Bây giờ;今年 (ことし)=Năm nay (âm đặc biệt);今日 (きょう)=Hôm nay (âm đặc biệt)
+覚: BÂY GIỜ (今) được đi ăn Ramen (ラ) cùng NGƯỜI (人) yêu là sướng nhất.
+・今晩かぞくとレストランへ行きます。| Tối nay tôi đi nhà hàng với gia đình.
+読: こんばんかぞくとレストランへいきます。
+・今うちへ帰ります。| Bây giờ tôi về nhà.
+読: いまうちへかえります。
+
+# 生年月日: furigana trên PDF in せいねんがっび — sửa thành せいねんがっぴ.
+年,NIÊN,năm,ネン,とし,|去年 (きょねん)=Năm trước;生年月日 (せいねんがっぴ)=Ngày tháng năm sinh;年 (とし)=Năm;今年 (ことし)=Năm nay;毎年 (まいとし)=Hàng năm
+覚: Một NGƯỜI (𠂉) mỗi NĂM (年) vào tháng MƯỜI (十) sẽ cầm cuốc để làm ruộng.
+・生年月日を書きます。| Viết ngày tháng năm sinh.
+読: せいねんがっぴをかきます。
+・今年は国へ帰ります。| Năm nay tôi sẽ về nước.
+読: ことしはくにへかえります。
+
+# 夕: thẻ chỉ có 訓 (ゆう), không có 音.
+夕,TỊCH,chiều tối,,ゆう,|夕方 (ゆうがた)=Buổi chiều tối, xế chiều;夕食 (ゆうしょく)=Bữa tối
+覚: Một mình TA (タ) đi về trong buổi CHIỀU TÀ (夕).
+・きょうの夕方しんかんせんで東京へ行きます。| Chiều tối nay tôi đi Tokyo bằng tàu Shinkansen.
+読: きょうのゆうがたしんかんせんでとうきょうへいきます。

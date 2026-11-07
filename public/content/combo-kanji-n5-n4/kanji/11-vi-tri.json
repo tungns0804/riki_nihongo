@@ -1,0 +1,268 @@
+{
+  "id": "11-vi-tri",
+  "name": "Bài 11 · Vị trí 1",
+  "description": "上 下 右 左 中 — trên, dưới, phải, trái, trong; âm đặc biệt 上手 じょうず, 下手 へた.",
+  "kind": "kanji",
+  "parent": "",
+  "group": "",
+  "kanji": [
+    {
+      "id": "dba7e79846d40c90",
+      "character": "上",
+      "hanViet": "THƯỢNG",
+      "meaning": "bên trên",
+      "onyomi": [
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "うえ",
+        "あ.げる"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "159e9614f3f4e150",
+          "japanese": "上手",
+          "reading": "じょうず",
+          "vietnamese": "Giỏi (đi với が)"
+        },
+        {
+          "id": "bccea62397aaa8ef",
+          "japanese": "屋上",
+          "reading": "おくじょう",
+          "vietnamese": "Tầng thượng"
+        },
+        {
+          "id": "bb000ee401e0842d",
+          "japanese": "上",
+          "reading": "うえ",
+          "vietnamese": "Phía trên"
+        },
+        {
+          "id": "d640f64d6fd2bcbf",
+          "japanese": "上げます",
+          "reading": "あげます",
+          "vietnamese": "Giơ lên"
+        }
+      ],
+      "mnemonic": "TÔ (ト) MỘT (一) hình TRÊN (上) giấy.",
+      "examples": [
+        {
+          "id": "ee7d1315ccb403e8",
+          "japanese": "父と兄は　スポーツが　上手です。",
+          "reading": "ちちとあには　スポーツが　じょうずです。",
+          "vietnamese": "Bố và anh trai tôi chơi thể thao giỏi.",
+          "note": ""
+        },
+        {
+          "id": "52f31736c30fe703",
+          "japanese": "つくえの　上に　パソコンが　あります。",
+          "reading": "つくえの　うえに　パソコンが　あります。",
+          "vietnamese": "Trên bàn có máy tính.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "34cf435ab7fad86a",
+      "character": "下",
+      "hanViet": "HẠ",
+      "meaning": "bên dưới",
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "した"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "67d6c75db06af543",
+          "japanese": "地下鉄",
+          "reading": "ちかてつ",
+          "vietnamese": "Tàu điện ngầm"
+        },
+        {
+          "id": "ca8ef56398d61bc9",
+          "japanese": "地下",
+          "reading": "ちか",
+          "vietnamese": "Tầng hầm"
+        },
+        {
+          "id": "ab60dce432b087ea",
+          "japanese": "下",
+          "reading": "した",
+          "vietnamese": "Phía dưới"
+        },
+        {
+          "id": "765287493f6e2b4d",
+          "japanese": "下手",
+          "reading": "へた",
+          "vietnamese": "Kém (âm đặc biệt)"
+        }
+      ],
+      "mnemonic": "MỘT (一) cái TÔ (ト) ở DƯỚI (下) mặt bàn.",
+      "examples": [
+        {
+          "id": "2e317ac5538f9692",
+          "japanese": "私は　地下鉄で　びじゅつかんへ　行きます。",
+          "reading": "わたしは　ちかてつで　びじゅつかんへ　いきます。",
+          "vietnamese": "Tôi đi đến bảo tàng mỹ thuật bằng tàu điện ngầm.",
+          "note": ""
+        },
+        {
+          "id": "0239c76cc7694e97",
+          "japanese": "木の下に　ねこが　います。",
+          "reading": "きのしたに　ねこが　います。",
+          "vietnamese": "Dưới gốc cây có con mèo.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "31ab210118f38ead",
+      "character": "右",
+      "hanViet": "HỮU",
+      "meaning": "bên phải",
+      "onyomi": [],
+      "kunyomi": [
+        "みぎ"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "98861c414c4ac23c",
+          "japanese": "右",
+          "reading": "みぎ",
+          "vietnamese": "Bên phải"
+        },
+        {
+          "id": "5a3831e6db2b6ffd",
+          "japanese": "右側",
+          "reading": "みぎがわ",
+          "vietnamese": "Phía bên phải"
+        },
+        {
+          "id": "602d1c81f0e8556c",
+          "japanese": "右手",
+          "reading": "みぎて",
+          "vietnamese": "Tay phải"
+        }
+      ],
+      "mnemonic": "Tay đưa lên MIỆNG (口) ăn là tay PHẢI (右).",
+      "examples": [
+        {
+          "id": "8057976d862c621c",
+          "japanese": "右手を　上げます。",
+          "reading": "みぎてを　あげます。",
+          "vietnamese": "Giơ tay phải lên.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "0fa98e82ca0ec8f8",
+      "character": "左",
+      "hanViet": "TẢ",
+      "meaning": "bên trái",
+      "onyomi": [],
+      "kunyomi": [
+        "ひだり"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "4669719b69a09126",
+          "japanese": "左",
+          "reading": "ひだり",
+          "vietnamese": "Bên trái"
+        },
+        {
+          "id": "20fe26672e18dd4a",
+          "japanese": "左側",
+          "reading": "ひだりがわ",
+          "vietnamese": "Phía bên trái"
+        },
+        {
+          "id": "23d4f348e54b7f98",
+          "japanese": "左手",
+          "reading": "ひだりて",
+          "vietnamese": "Tay trái"
+        }
+      ],
+      "mnemonic": "Tay cầm thước là tay TRÁI (左).",
+      "examples": [
+        {
+          "id": "b16256bea30dccf7",
+          "japanese": "日本は　くるまが　左側を　はしります。人は　右側を　あるきます。",
+          "reading": "にほんは　くるまが　ひだりがわを　はしります。ひとは　みぎがわを　あるきます。",
+          "vietnamese": "Ở Nhật, ô tô chạy bên trái, còn người đi bộ đi bên phải.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "e9a766c68211eba4",
+      "character": "中",
+      "hanViet": "TRUNG",
+      "meaning": "trong/ giữa",
+      "onyomi": [
+        "チュウ",
+        "ジュウ"
+      ],
+      "kunyomi": [
+        "なか"
+      ],
+      "strokes": 0,
+      "words": [
+        {
+          "id": "3f02b3b68f05b37f",
+          "japanese": "中学生",
+          "reading": "ちゅうがくせい",
+          "vietnamese": "Học sinh cấp 2"
+        },
+        {
+          "id": "e8364bf3f18d7388",
+          "japanese": "中国",
+          "reading": "ちゅうごく",
+          "vietnamese": "Trung Quốc"
+        },
+        {
+          "id": "b2ca004cc0f0ca6a",
+          "japanese": "一日中",
+          "reading": "いちにちじゅう",
+          "vietnamese": "Suốt 1 ngày"
+        },
+        {
+          "id": "bdc95d1e8ff4eed1",
+          "japanese": "世界中",
+          "reading": "せかいじゅう",
+          "vietnamese": "Trên khắp thế giới"
+        },
+        {
+          "id": "9e20f57ad76b0f46",
+          "japanese": "中",
+          "reading": "なか",
+          "vietnamese": "Bên trong"
+        }
+      ],
+      "mnemonic": "Gậy chọc vào chính giữa hộp.",
+      "examples": [
+        {
+          "id": "f87133f174c167cc",
+          "japanese": "中学生は　日本で　十二歳から　十五歳まで　です。",
+          "reading": "ちゅうがくせいは　にほんで　じゅうにさいから　じゅうごさいまで　です。",
+          "vietnamese": "Ở Nhật, học sinh cấp 2 là từ 12 đến 15 tuổi.",
+          "note": ""
+        },
+        {
+          "id": "ae5c27d6ab3feded",
+          "japanese": "A：くるまの中に　かばんが　あります。だれの　かばんですか。　B：ランさんの　かばんです。",
+          "reading": "A：くるまのなかに　かばんが　あります。だれの　かばんですか。　B：ランさんの　かばんです。",
+          "vietnamese": "A: Trong ô tô có cái cặp. Cặp của ai vậy? B: Cặp của chị Lan.",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

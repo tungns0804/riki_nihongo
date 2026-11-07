@@ -22,9 +22,10 @@ data-source/
 │   │   └── 01-danh-tu/
 │   └── kanji/
 │       └── 02-buoi-2/
-└── combo-kanji-n5-n4/            Combo Kanji N5-N4 — chỉ có Kanji, mỗi bài là một đề
+└── combo-kanji-n5-n4/            Combo Kanji N5-N4 — chỉ có Kanji: thẻ kanji, đề là bài con
     └── kanji/
-        └── 01-chu-so/
+        ├── 01-so-dem/ … 15-dong-vat/   bài thẻ (kanji.txt)
+        └── 01-chu-so/ 03-bai-3/ …      đề (test.json, "parent")
 ```
 
 Tên thư mục học phần là `id` trong `COURSES` (`src/app/core/course/course.config.ts`),

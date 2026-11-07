@@ -1,6 +1,7 @@
 {
-  "name": "Bài 6",
+  "name": "Đề 時 分 半 間 週",
   "description": "時 · 分 · 半 · 間 · 週 — đề 20 câu: 問題1 đọc 10 từ chỉ giờ giấc, thời gian; 問題2 chọn chữ Hán cho 10 từ viết bằng hiragana. Có bảng tóm tắt cách đọc từng chữ.",
   "kind": "test",
-  "order": 6
+  "parent": "06-thoi-gian",
+  "order": 601
 }
