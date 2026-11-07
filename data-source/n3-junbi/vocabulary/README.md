@@ -160,7 +160,7 @@ một loại từ đã học, nên phần này có cả "Danh từ" (01–120) l
 | `02-dong-tu`   | Động từ      | 60 từ · 第7課 (121–140) chia 2 cụm 10 từ, 第24課 (452–470) chia 2 cụm 452–460 (bài 24.1), 461–470 (bài 24.2), và 第25課 (471–491) chia 2 cụm 471–481 (bài 25.1), 482–491 (bài 25.2), có chủ đề |
 | `03-tinh-tu`   | Tính từ      | 34 từ · 第14課 (259–280) chia 3 cụm 259–265 (bài 14.1), 266–273 (bài 14.2), 274–280 (bài 14.3); thêm cụm 299–310 (sáu cặp tự/tha động từ sinh ra từ tính từ), có chủ đề |
 | `04-katakana`  | Katakana     | chờ nội dung |
-| `05-pho-tu`    | Phó từ       | chờ nội dung |
+| `05-pho-tu`    | Phó từ       | 40 từ · 第31課 (591–612) chia 2 cụm 591–596 (bài 31.1), 597–612 (phần còn lại của 第31課), và 第32課 (613–630) chia 2 cụm 613–620 (bài 32.1), 621–630 (phần còn lại của 第32課); hai cụm "phần còn lại" chờ tên file PDF buổi sau để chia, có chủ đề |
 | `06-danh-tu-2` | Danh từ 2    | 48 từ · 311–318 (cụm "Chăm sóc, biết ơn và phép xã giao"), 第19課 (351–370) chia 2 cụm 351–359 (bài 19.1), 360–370 (bài 19.2), và 第21課 (391–410) chia 2 cụm 391–398 (bài 21.1), 399–410 (bài 21.2), có chủ đề |
 | `07-dong-tu-2` | Động từ 2    | 19 từ · 第26課 (492–510) chia 2 cụm 492–499 (bài 26.1), 500–510 (bài 26.2), có chủ đề |
 | `08-tinh-tu-2` | Tính từ 2    | 20 từ · 第29課 (551–570) chia 3 cụm 551–558 (bài 29.1), 559–563 (bài 29.2), 564–570 (bài 29.3), có chủ đề |

@@ -1,0 +1,539 @@
+# N3 JUNBI — 文字語彙 · PHÓ TỪ (591–630)
+# Nguồn: 第31課 và 第32課 của tài liệu N3準備 文字語彙 (PDF người dùng gửi 2026-11-06)
+# Định dạng: xem data-source/n3-junbi/vocabulary/README.md. Phó từ không đổi đuôi, nhưng
+# câu ví dụ hay viết bằng kana dù mặt chữ có chữ Hán (大体 → だいたい, 一杯 → いっぱい),
+# nên chữ in đỏ gạch chân vẫn viết trong [ ] để tô và khoét đúng chỗ.
+# Câu nào sách gạch chân cả phó từ lẫn phần đi kèm (ほとんど…なかった, すっかり…なりました)
+# thì chỉ đánh dấu phó từ: hai chỗ đánh dấu thì câu không đem khoét được. Phần đi kèm đã
+# ghi ở dòng 連 / 合 ngay trên câu.
+# Sách in nhãn 蓮 thay cho 連 ở mọi chỗ — chép thành 連.
+#
+# Bản dịch, dòng 読 và dòng 文法 là phần viết thêm, không có trong bản PDF.
+
+# ── 第31課：591〜612 ────────────────────────────────────────────
+
+# nguồn: bai-311-tu-vung-cai-thien-591-596.pdf (bản PDF này in trọn 第31課: 591–612;
+# chỉ tên file cho biết buổi 31.1 là 591–596)
+## 591–596 = Bài 31.1 · Rất, cực kỳ, gần như và khá
+591. 非常に (ひじょうに) = PHI THƯỜNG ; Rất, cực kỳ/ Khẩn cấp
+# 意味① Rất, cực kỳ: hai câu đầu và dòng 類. 意味② Khẩn cấp: câu thứ ba và ba dòng 合.
+・これは[非常に]高価なものですので、気をつけて乗ってください。| Cái này cực kỳ đắt tiền, nên khi đi xin hãy cẩn thận.
+読: これはひじょうにこうかなものですので、きをつけてのってください。
+文法: ～ので = vì ~ (ですので: lịch sự); 気をつける = cẩn thận; V て＋ください = hãy ~
+類: ≒ 大変に (たいへんに)
+・直接さわるのは[非常に]危険です。| Chạm tay trực tiếp vào thì cực kỳ nguy hiểm.
+読: ちょくせつさわるのはひじょうにきけんです。
+文法: V る＋のは = việc ~ thì
+・「[非常]の際は、この下のレバーを引いてください。」| "Khi khẩn cấp, xin hãy kéo cần gạt phía dưới này."
+読: 「ひじょうのさいは、このしたのレバーをひいてください。」
+文法: N の際(は) = khi ~ (cách nói trang trọng của ～の時)
+合: 非常口 (ひじょうぐち) = Cửa thoát hiểm
+合: 非常階段 (ひじょうかいだん) = Cầu thang thoát hiểm
+合: 非常ベル (ひじょうベル) = Chuông báo động
+
+592. 大変 (たいへん) = ĐẠI BIẾN ; Cực, rất
+連: 大変 ＋ V／N
+・朝夕は電車が[大変]込むので疲れる。| Sáng và chiều tàu điện cực kỳ đông nên mệt lắm.
+読: あさゆうはでんしゃがたいへんこむのでつかれる。
+文法: ～ので = vì ~
+・計画が中止になったのは[大変]残念だ。| Kế hoạch bị huỷ thật là rất đáng tiếc.
+読: けいかくがちゅうしになったのはたいへんざんねんだ。
+文法: N になる = trở thành (中止になる: bị huỷ); V た＋のは = việc đã ~ thì
+合: 大変お世話になりました (たいへんおせわになりました) = Đã được giúp đỡ rất nhiều
+・「これまで[大変]お世話になりました」| "Từ trước đến nay tôi đã được anh chị giúp đỡ rất nhiều."
+読: 「これまでたいへんおせわになりました」
+文法: お世話になる = được (ai) giúp đỡ, chăm sóc — lời cảm ơn khi chia tay, nghỉ việc
+類: とても ＜ 大変(に) ≒ 非常に (mức độ tăng dần)
+
+593. ほとんど = Gần như, hầu như
+連: ほとんど ＋ V
+・準備は[ほとんど]できた。| Việc chuẩn bị gần như đã xong.
+読: じゅんびはほとんどできた。
+文法: 準備ができる = chuẩn bị xong
+・本を[ほとんど]読んだ。| Cuốn sách tôi đã đọc gần hết.
+読: ほんをほとんどよんだ。
+類: ≒ ほぼ
+連: ほとんどの ＋ N
+・この学校では、[ほとんど]の子どもたち／子どもたちの[ほとんど]が携帯電話を持っているそうだ。| Nghe nói ở trường này, hầu hết các em đều có điện thoại di động.
+読: このがっこうでは、ほとんどのこどもたち／こどもたちのほとんどがけいたいでんわをもっているそうだ。
+文法: ほとんどの N ＝ N のほとんど = hầu hết N; ～そうだ = nghe nói ~
+連: ほとんど〜ない
+・来日したとき、日本語は[ほとんど]わからなかった。| Lúc mới sang Nhật, tôi hầu như không hiểu tiếng Nhật.
+読: らいにちしたとき、にほんごはほとんどわからなかった。
+文法: V た＋とき = khi đã ~ (来日したとき: lúc sang Nhật); ほとんど～ない = hầu như không ~
+# Câu dưới là câu ví dụ của bảng 使い分け ほとんど／だいたい, sách in sau từ 594.
+・あの人とは[ほとんど]話したことがありません。| Tôi hầu như chưa nói chuyện với người đó bao giờ.
+読: あのひととはほとんどはなしたことがありません。
+文法: V た＋ことがない = chưa từng ~; N とは = với N thì (は nhấn mạnh)
+使い分け: ほとんど = dùng được cả câu khẳng định (肯定 ◯) lẫn câu phủ định (否定 ◯)
+使い分け: だいたい = chỉ dùng câu khẳng định (肯定 ◯), không dùng câu phủ định (否定 ✕)
+
+594. 大体 (だいたい) = ĐẠI THỂ ; Hầu như
+・今日の試験は[だいたい]できた。| Bài thi hôm nay tôi làm được gần hết.
+読: きょうのしけんはだいたいできた。
+連: 大体 ＋ 数字 = Khoảng
+・1ヵ月の収入は[だいたい]5万円ぐらいです。| Thu nhập một tháng khoảng 5 man yên.
+読: いっかげつのしゅうにゅうはだいたいごまんえんぐらいです。
+文法: 数字＋ぐらい = khoảng ~ (đi cùng だいたい cho nghĩa ước chừng)
+# Sách in nhãn 数 ở dòng およそ — chắc là 類 in nhầm; chép thành 類.
+類: およそ (N2)
+使い分け: ほとんど = dùng được cả câu khẳng định (肯定 ◯) lẫn câu phủ định (否定 ◯)
+使い分け: だいたい = chỉ dùng câu khẳng định (肯定 ◯), không dùng câu phủ định (否定 ✕)
+・そのことを[だいたい]の人が知っていた。| Chuyện đó thì hầu hết mọi người đều đã biết.
+読: そのことをだいたいのひとがしっていた。
+文法: だいたいの N = hầu hết N
+
+595. かなり = Rất, cực kỳ
+連: かなり ＋ 程度 (mức độ)
+・昨日の台風で、九州では[かなり]の被害が出たそうだ。| Nghe nói cơn bão hôm qua đã gây thiệt hại rất nặng ở Kyushu.
+読: きのうのたいふうで、きゅうしゅうではかなりのひがいがでたそうだ。
+文法: N で = do N (nguyên nhân); 被害が出る = có thiệt hại; ～そうだ = nghe nói ~
+使い分け: かなり = khách quan hơn (より客観的)
+使い分け: ずいぶん = bất ngờ, hơn mình nghĩ (思ったより意外)
+# Câu dưới là câu ví dụ của bảng 使い分け かなり／ずいぶん, sách in sau từ 596.
+・頭痛の薬を飲んだら、30分ぐらいで[かなり]よくなった。| Uống thuốc đau đầu xong, khoảng 30 phút là đỡ hẳn.
+読: ずつうのくすりをのんだら、さんじゅっぷんぐらいでかなりよくなった。
+文法: V たら～た = sau khi ~ thì (đã); 時間＋で = trong khoảng (thời gian); い-tính từ bỏ い ＋くなる = trở nên ~
+
+596. ずいぶん = Tương đối, rất
+連: ずいぶん〜なる
+・A：けがの具合はどうですか？B：[ずいぶん]よくなりましたが、まだ運動はできません。| A: Vết thương thế nào rồi? B: Đỡ nhiều rồi, nhưng vẫn chưa vận động được.
+読: A：けがのぐあいはどうですか？B：ずいぶんよくなりましたが、まだうんどうはできません。
+文法: い-tính từ bỏ い ＋くなる = trở nên ~; ～が = nhưng; まだ～ない = vẫn chưa ~
+使い分け: かなり = khách quan hơn (より客観的)
+使い分け: ずいぶん = bất ngờ, hơn mình nghĩ (思ったより意外)
+・しばらく会わない間に、チンさんは[ずいぶん]日本語が上手になっていた。| Mới một thời gian không gặp mà tiếng Nhật của anh Chin đã giỏi lên hẳn.
+読: しばらくあわないあいだに、チンさんはずいぶんにほんごがじょうずになっていた。
+文法: V ない＋間に = trong lúc không ~; な-tính từ ＋になる = trở nên ~; ～ていた = (nhận ra là) đã ~ rồi
+
+# nguồn: cùng bản PDF trọn 第31課 ở trên. Chưa có PDF của các buổi sau nên chưa biết
+# ranh giới buổi: 597–612 tạm chung một cụm, có tên file của buổi 31.2 thì chia lại.
+## 597–612 = Còn lại của 第31課 · Kha khá, đầy, vừa khít; ngay, sắp và chốc lát
+597. けっこう = Rất (hơn mức dự đoán)/ Kha khá (hơn mức dự đoán)
+・日曜日なので込んでいるかと思ったら、[けっこう]すいている。| Chủ nhật nên cứ tưởng là đông, ai ngờ lại khá vắng.
+読: にちようびなのでこんでいるかとおもったら、けっこうすいている。
+文法: N なので = vì là N; ～かと思ったら = cứ tưởng là ~, vậy mà
+・初めて作った料理だが、[けっこう]おいしくできた。| Món này lần đầu tôi nấu, vậy mà lại khá ngon.
+読: はじめてつくったりょうりだが、けっこうおいしくできた。
+文法: ～だが = ~ nhưng; い-tính từ bỏ い ＋くできる = làm ra (thành) ~
+※: けっこう ＜ かなり (けっこう chỉ mức độ thấp hơn かなり)
+
+598. 大分 (だいぶ) = ĐẠI PHÂN ; Khá nhiều/ Hầu như
+連: 大分〜なる
+・病気は[だいぶ]よくなった。| Bệnh đã đỡ nhiều rồi.
+読: びょうきはだいぶよくなった。
+文法: い-tính từ bỏ い ＋くなる = trở nên ~
+類: だいぶよくなる ≒ ずいぶんよくなる
+・仕事がまだ[だいぶ]残っている。| Công việc vẫn còn tồn khá nhiều.
+読: しごとがまだだいぶのこっている。
+文法: まだ～ている = vẫn còn đang ~
+※: Mức độ lịch sự: 非常に ＞ かなり ＞ とても ＞ ずいぶん ＞ だいぶ ＞ 結構 (けっこう)
+
+599. もっと = Hơn/ Hơn nữa
+・リンゴよりイチゴのほうが好きだ。でも、メロンは[もっと]好きだ。| Tôi thích dâu tây hơn táo. Nhưng dưa lưới thì còn thích hơn nữa.
+読: リンゴよりイチゴのほうがすきだ。でも、メロンはもっとすきだ。
+文法: A より B のほうが～ = B ~ hơn A
+・これだけでは、足りない。[もっと]ほしい。| Chừng này thì không đủ. Tôi muốn thêm nữa.
+読: これだけでは、たりない。もっとほしい。
+文法: N だけでは = chỉ có N thì; ほしい = muốn có
+
+600. すっかり = Toàn bộ, hết
+・さくらの花はもう[すっかり]散ってしまった。| Hoa anh đào đã rụng hết cả rồi.
+読: さくらのはなはもうすっかりちってしまった。
+文法: V てしまう = ~ mất rồi (xong hẳn, thường kèm tiếc nuối)
+類: ≒ 完全に (かんぜんに)
+合: すっかり ＋ 忘れる (わすれる) = Quên sạch
+・あ！友人との約束を[すっかり]忘れていた。| A! Tôi quên béng mất cuộc hẹn với bạn.
+読: あ！ゆうじんとのやくそくをすっかりわすれていた。
+文法: N との約束 = lời hẹn với N; V ていた = (nhận ra là) đã ~
+合: すっかり〜なる (変化) = Hoàn toàn (thay đổi hẳn)
+・A：「病気の具合はどうですか」B：「おかげさまで、[すっかり]よくなりました。」| A: "Bệnh tình thế nào rồi ạ?" B: "Nhờ trời, tôi đã khỏi hẳn rồi."
+読: A：「びょうきのぐあいはどうですか」B：「おかげさまで、すっかりよくなりました。」
+文法: おかげさまで = nhờ trời / nhờ anh chị (đáp lời hỏi thăm)
+
+601. 一杯 (いっぱい) = NHẤT BÔI ; Đầy, nhiều/ No, đầy/ Hết cỡ, hết mức/ Tràn đầy, hết sức/ Đầy, nhiều, tràn ngập
+# 意味① Đầy, nhiều: câu đầu. 意味② No, đầy: hai câu tiếp. 意味③ Hết cỡ, hết mức: hai câu tiếp.
+# 意味④ Hết sức: câu tiếp theo. 意味⑤ Tràn ngập: dòng 合 và câu cuối.
+・会場には子どもたちが[いっぱい]いて、とてもにぎやかだった。| Trong hội trường có rất đông trẻ con, náo nhiệt vô cùng.
+読: かいじょうにはこどもたちがいっぱいいて、とてもにぎやかだった。
+文法: ～て = ~ nên / và (nối câu)
+・A：「おかわりは？」B：「もうおなか[いっぱい]だよ」| A: "Ăn thêm bát nữa không?" B: "No căng bụng rồi."
+読: A：「おかわりは？」B：「もうおなかいっぱいだよ」
+文法: おかわり = thêm một bát / suất nữa
+・部屋は本で[いっぱい]だ。| Căn phòng đầy sách.
+読: へやはほんでいっぱいだ。
+文法: N でいっぱいだ = đầy N
+# Sách in "(いっぱいに)窓をいっぱい開く。(△)": bỏ に chỉ tạm được (△), nên câu viết いっぱいに.
+・窓を[いっぱいに]開く。| Mở cửa sổ ra hết cỡ.
+読: まどをいっぱいにひらく。
+文法: いっぱいに＋V = ~ hết cỡ; 開く (ひらく) = mở ra
+# Sách in "月末＋いっぱいまで": dấu ＋ chỉ cách ghép, bỏ đi.
+・今週／今月／月末[いっぱい]まで仕事やります。| Tôi làm việc đến hết tuần này / hết tháng này / hết cuối tháng.
+読: こんしゅう／こんげつ／げつまついっぱいまでしごとやります。
+文法: thời gian ＋いっぱい = đến hết (khoảng thời gian đó); 仕事(を)やる = làm việc (văn nói, lược を)
+・これから力[いっぱい]／精[いっぱい]がんばるつもりです。| Từ giờ tôi định sẽ cố gắng hết sức mình.
+読: これからちからいっぱい／せいいっぱいがんばるつもりです。
+文法: 力いっぱい・精いっぱい = hết sức mình; V る＋つもりだ = định ~
+合: N ＋ いっぱい = Tràn ngập khắp N
+・部屋[いっぱい]に日が差している。| Nắng chiếu tràn ngập căn phòng.
+読: へやいっぱいにひがさしている。
+文法: 日が差す = nắng chiếu vào; ～ている = đang ~ (trạng thái)
+
+602. ぎりぎり = Sát giờ, sát nút
+・走れば、9時の電車に[ぎりぎり]間に合うだろう。| Nếu chạy thì chắc sẽ kịp sát nút chuyến tàu 9 giờ.
+読: はしれば、くじのでんしゃにぎりぎりまにあうだろう。
+文法: V ば = nếu ~; N に間に合う = kịp N; ～だろう = chắc là ~
+・[ぎりぎり]まで待ったが、田中君は来なかった。しかたなく、先に行くことにした。| Tôi đợi đến phút chót mà cậu Tanaka vẫn không đến. Đành phải đi trước.
+読: ぎりぎりまでまったが、たなかくんはこなかった。しかたなく、さきにいくことにした。
+文法: ～が = nhưng; しかたなく = đành phải; V る＋ことにする = quyết định ~
+
+603. ぴったり = Vừa vặn, đúng/ Chặt, hoàn toàn/ Vừa, vừa vặn
+# 意味① Vừa vặn, đúng: dòng 連 và ba câu đầu. 意味② Chặt, hoàn toàn: hai câu tiếp. 意味③ Vừa vặn
+# (hợp với): câu tiếp theo. Dòng 合 (ぴったり(と) ＋ 止 = dứt hẳn) và hai câu cuối là cách nói riêng.
+# Sách gạch chân cả "7時ぴったり" ở câu đầu; chỉ đánh dấu ぴったり để chỗ khoét là phó từ.
+連: 時間 ＋ ぴったり
+・7時[ぴったり]に目覚まし時計をセットした。| Tôi đã đặt đồng hồ báo thức đúng 7 giờ.
+読: しちじぴったりにめざましどけいをセットした。
+・約束の時間[ぴったり]に来る。| Đến đúng giờ hẹn.
+読: やくそくのじかんぴったりにくる。
+・二人は[ぴったり]とくっついて、離れようとしなかった。| Hai người dính khít lấy nhau, không chịu rời ra.
+読: ふたりはぴったりとくっついて、はなれようとしなかった。
+文法: V よう (thể ý chí) ＋としない = không chịu ~
+・窓を[ぴったり]閉めてください。| Hãy đóng chặt cửa sổ lại.
+読: まどをぴったりしめてください。
+・二人の意見は[ぴったり]一致した。| Ý kiến của hai người hoàn toàn trùng khớp.
+読: ふたりのいけんはぴったりいっちした。
+・そのネクタイ、今日のスーツに[ぴったり]だね。| Cái cà vạt đó hợp với bộ vest hôm nay quá nhỉ.
+読: そのネクタイ、きょうのスーツにぴったりだね。
+文法: N にぴったりだ = rất hợp với N
+合: ぴったり(と) ＋ 止 (やめる・やむ) = Hoàn toàn (dứt khoát)
+・子どもが生まれてから、夫は（[ぴったり]／[ぴたりと]）たばこをやめた。| Từ khi có con, chồng tôi bỏ hẳn thuốc lá.
+読: こどもがうまれてから、おっとは（ぴったり／ぴたりと）たばこをやめた。
+文法: V てから = từ sau khi ~
+※: Mức độ hội thoại: ぴったり ＞ ぴたりと (ぴったり thiên về văn nói hơn)
+・薬を飲むとせきが[ぴったり]とやんだ。| Uống thuốc vào là cơn ho dứt hẳn.
+読: くすりをのむとせきがぴったりとやんだ。
+文法: V る＋と～た = vừa ~ thì (liền) ~; やむ = (mưa, ho…) dứt, tạnh
+
+604. たいてい = Thường, hay/ Hầu hết
+# 意味① Thường, hay: câu đầu. 意味② Hầu hết: câu sau.
+・日曜日は[たいてい]うちにいます。| Chủ nhật tôi thường ở nhà.
+読: にちようびはたいていうちにいます。
+・[たいてい]の人が田中さんの意見に賛成した。| Hầu hết mọi người đều tán thành ý kiến của anh Tanaka.
+読: たいていのひとがたなかさんのいけんにさんせいした。
+文法: たいていの N = hầu hết N; N に賛成する = tán thành N
+
+605. 同時に (どうじに) = ĐỒNG THỜI ; Cùng lúc/ Ngay sau khi (cùng lúc)/ Đồng thời, ngoài ra
+# 意味① Cùng lúc: câu đầu. 意味② Ngay sau khi: hai câu tiếp. 意味③ Đồng thời, ngoài ra: hai câu cuối.
+・二人は[同時に]ゴールした。| Hai người về đích cùng lúc.
+読: ふたりはどうじにゴールした。
+・電気が消えた。[同時に]非常ベルが鳴り始めた。| Đèn tắt. Ngay lúc đó chuông báo động bắt đầu reo.
+読: でんきがきえた。どうじにひじょうベルがなりはじめた。
+文法: V ます bỏ ます ＋始める = bắt đầu ~
+・そのコンサートのチケットは、発売と[同時に]売り切れた。| Vé buổi hoà nhạc đó vừa mở bán là đã hết sạch.
+読: そのコンサートのチケットは、はつばいとどうじにうりきれた。
+文法: N と同時に = ngay khi N; 売り切れる = bán hết sạch
+・駅から近いアパートは便利だが、[同時に]、家賃も高い。| Căn hộ gần ga thì tiện, nhưng đồng thời tiền nhà cũng đắt.
+読: えきからちかいアパートはべんりだが、どうじに、やちんもたかい。
+文法: ～が = nhưng
+・彼女は私の妻であると[同時に]、仕事のパートナーでもある。| Cô ấy vừa là vợ tôi, đồng thời cũng là đối tác trong công việc.
+読: かのじょはわたしのつまであるとどうじに、しごとのパートナーでもある。
+文法: N であると同時に = vừa là N, đồng thời…; N でもある = cũng là N
+
+606. 前もって (まえもって) = TIỀN ; Trước
+・デートするときは、いいレストランを[前もって]調べておくようにしている。| Mỗi khi hẹn hò, tôi luôn chịu khó tìm trước một nhà hàng ngon.
+読: デートするときは、いいレストランをまえもってしらべておくようにしている。
+文法: V ておく = làm sẵn ~; V る＋ようにしている = cố gắng (tạo thói quen) ~
+・もし欠席する場合は、[前もって]ご連絡します。| Nếu vắng mặt, tôi sẽ báo trước ạ.
+読: もしけっせきするばあいは、まえもってごれんらくします。
+文法: V る＋場合は = trường hợp ~ thì; ご＋N＋する = khiêm nhường ngữ (ご連絡します: tôi xin liên lạc)
+
+607. すぐ/すぐに = Ngay lập tức
+# Sách in mặt chữ すぐ(に): に lược được, nên ghi hai cách viết — gõ cách nào cũng đúng.
+・チャイムを鳴らすと、[すぐに]ドアが開いた。| Vừa bấm chuông là cửa mở ngay.
+読: チャイムをならすと、すぐにドアがあいた。
+文法: V る＋と～た = vừa ~ thì (liền) ~
+・「火事です。[すぐ]来てください」| "Cháy rồi! Đến ngay đi!"
+読: 「かじです。すぐきてください」
+合: すぐ ＋ 近く (ちかく) = Gần ngay
+・うちの[すぐ]近くで殺人事件があって、とても怖かった。| Ngay gần nhà tôi xảy ra một vụ án giết người, sợ lắm.
+読: うちのすぐちかくでさつじんじけんがあって、とてもこわかった。
+文法: (sự việc) がある = xảy ra; ～て = vì ~ nên
+
+608. もうすぐ = Sắp
+・日本へ来て、[もうすぐ]3年になる。| Sang Nhật đến nay đã sắp được 3 năm.
+読: にほんへきて、もうすぐさんねんになる。
+文法: V て、thời gian ＋になる = từ khi ~ đến nay đã được (thời gian)
+・[もうすぐ]夏休み／お正月だ。| Sắp đến kỳ nghỉ hè / Tết rồi.
+読: もうすぐなつやすみ／おしょうがつだ。
+類: ≒ そろそろ
+
+609. 突然 (とつぜん) = ĐỘT NHIÊN ; Đột nhiên
+・子どもが[突然]飛び出して来たので、急ブレーキをかけた。| Đứa trẻ đột nhiên lao ra nên tôi phanh gấp.
+読: こどもがとつぜんとびだしてきたので、きゅうブレーキをかけた。
+文法: V て来る = ~ ra (về phía mình); ブレーキをかける = phanh, đạp phanh
+
+610. あっと言う間/あっという間 (あっというま/あっというま) = NGÔN GIAN/GIAN ; Loáng một cái/ Trong nháy mắt, trong khoảnh khắc
+# Sách in mặt chữ あっと言う間(に), câu ví dụ viết あっという間 — ghi cả hai cách viết; に lược được.
+・うちの子どもの成長は早い。[あっという間に]、もう社会人だった。| Con nhà tôi lớn nhanh thật. Loáng một cái đã đi làm rồi.
+読: うちのこどものせいちょうははやい。あっというまに、もうしゃかいじんだった。
+文法: もう = đã (rồi)
+・駅でかばんをとられてしまった。[あっという間]のできごとだった。| Tôi bị lấy mất túi ở nhà ga. Chuyện xảy ra trong nháy mắt.
+読: えきでかばんをとられてしまった。あっというまのできごとだった。
+文法: とられる = bị lấy mất (bị động của とる); V てしまう = ~ mất rồi; あっという間の N = N diễn ra trong chớp mắt
+
+611. いつの間にか (いつのまにか) = GIAN ; Lúc nào không biết
+・[いつの間にか]、外は暗くなっていた。| Chẳng biết từ lúc nào, bên ngoài đã tối mất rồi.
+読: いつのまにか、そとはくらくなっていた。
+文法: い-tính từ bỏ い ＋くなる = trở nên ~; ～ていた = (nhận ra là) đã ~
+・子どもは[いつの間にか]、私より背が高くなっていた。早いーー | Chẳng biết từ lúc nào con đã cao hơn tôi rồi. Nhanh thật…
+読: こどもはいつのまにか、わたしよりせがたかくなっていた。はやいーー
+文法: A より～ = ~ hơn A; 背が高い = cao (người)
+# Sách in dòng 合 là いつの間にか〜だろう, nhưng câu ví dụ viết いつの間に (không có か) và sách
+# gạch chân いつの間に. Đi với câu tự hỏi ～のだろう thì dùng いつの間に — chép theo câu ví dụ.
+合: いつの間に〜のだろう = Từ lúc nào mà ~ thế nhỉ
+・あれ？[いつの間に]こんなにお金を使ってしまったのだろう。| Ơ? Mình đã tiêu nhiều tiền thế này từ lúc nào vậy nhỉ?
+読: あれ？いつのまにこんなにおかねをつかってしまったのだろう。
+文法: ～のだろう = ~ vậy nhỉ (tự hỏi); V てしまう = lỡ ~ mất
+
+612. しばらく = Một chút
+・ただ今窓口が混んでいますので、もう[しばらく]お待ちください。| Hiện quầy đang đông, xin quý khách vui lòng đợi thêm một chút.
+読: ただいままどぐちがこんでいますので、もうしばらくおまちください。
+文法: ただ今 = hiện giờ (lịch sự); お＋V ます bỏ ます ＋ください = xin hãy ~ (kính ngữ)
+※: 少し (ちょっと) ＜ しばらく (10分以上) ＜ 長い
+
+# ── 第32課：613〜630 ────────────────────────────────────────────
+
+# nguồn: bai-321-tu-vung-cai-thien-613-620.pdf (bản PDF này in trọn 第32課: 613–630;
+# chỉ tên file cho biết buổi 32.1 là 613–620)
+## 613–620 = Bài 32.1 · Hơn hẳn, như mọi khi, liên tục, ngày càng và cuối cùng
+613. ずっと = Hơn hẳn/ Rất
+# Sách in nghĩa ① là "〜Hẳn", tức (~ hơn) hẳn.
+# 意味① Hơn hẳn: dòng 連 ずっと＋A và hai câu đầu. 意味② Rất: câu thứ ba.
+# Dòng 連 ずっと＋ている (Suốt) và hai câu cuối là cách nói riêng.
+連: ずっと ＋ A (tính từ)
+・バスよりも地下鉄に乗るほうが[ずっと]速い。| Đi tàu điện ngầm nhanh hơn hẳn đi xe buýt.
+読: バスよりもちかてつにのるほうがずっとはやい。
+文法: A よりも B のほうが～ = B ~ hơn A
+・太陽は地球よりも[ずっと]大きい。| Mặt Trời lớn hơn Trái Đất rất nhiều.
+読: たいようはちきゅうよりもずっとおおきい。
+・この人とは[ずっと]前に一度会ったことがある気がする。| Tôi có cảm giác đã từng gặp người này một lần từ rất lâu rồi.
+読: このひととはずっとまえにいちどあったことがあるきがする。
+文法: V た＋ことがある = đã từng ~; ～気がする = có cảm giác ~
+連: ずっと ＋ ている = Suốt, nhiều (kéo dài liên tục)
+・私は小さいころから[ずっと]ピアノを習っている。| Tôi học piano suốt từ hồi còn nhỏ.
+読: わたしはちいさいころからずっとピアノをならっている。
+文法: ～ころから = từ hồi ~; V ている = (vẫn) đang ~ (liên tục đến nay)
+・昨日は体調が悪かったので、[ずっと]寝ていた。| Hôm qua người không khoẻ nên tôi nằm ngủ suốt.
+読: きのうはたいちょうがわるかったので、ずっとねていた。
+文法: ～ので = vì ~; V ていた = đã ~ suốt (lúc đó)
+
+614. 相変わらず (あいかわらず) = TƯƠNG BIẾN ; Như mọi khi
+・昔、好きだったあの人は今も[あいかわらず]きれいだ。| Người tôi từng thích ngày xưa đến giờ vẫn xinh đẹp như hồi nào.
+読: むかし、すきだったあのひとはいまもあいかわらずきれいだ。
+文法: 好きだった N = N mà (mình) đã từng thích; 今も = bây giờ vẫn
+
+615. 次々に/次々と (つぎつぎに/つぎつぎと) = THỨ THỨ ; Liên tục
+# Sách in mặt chữ 次々に／と: ghi hai cách viết — gõ cách nào cũng đúng.
+・おもしろい味のインスタント食品が[次々に]発売されている。| Các món ăn liền có vị lạ liên tục được tung ra thị trường.
+読: おもしろいあじのインスタントしょくひんがつぎつぎにはつばいされている。
+文法: 発売される = được bán ra (bị động); V ている = đang (liên tục) ~
+・（小説）[次々と]新しい作品を発表している。| (Về tiểu thuyết) Liên tục công bố tác phẩm mới.
+読: （しょうせつ）つぎつぎとあたらしいさくひんをはっぴょうしている。
+
+616. どんどん = Nhanh, dồn dập
+・今夜のデートのことを考えると、仕事も[どんどん]進む。| Cứ nghĩ đến buổi hẹn hò tối nay là công việc cũng trôi vèo vèo.
+読: こんやのデートのことをかんがえると、しごともどんどんすすむ。
+文法: V る＋と = hễ ~ thì; N のこと = chuyện về N
+・おなか（が）すいてるでしょ。[どんどん]食べてね。| Đói bụng rồi phải không? Cứ ăn thoải mái nhé.
+読: おなか（が）すいてるでしょ。どんどんたべてね。
+文法: すいてる = すいている (văn nói, lược い); ～でしょ = ~ đúng không (văn nói)
+類: ドンドン = Tiếng gõ cửa (thình thình)
+・[ドンドン]とドアをノックする大きな音が聞こえた。| Tôi nghe thấy tiếng gõ cửa thình thình rất to.
+読: ドンドンとドアをノックするおおきなおとがきこえた。
+文法: V る＋N = N mà ~ (ノックする音: tiếng gõ); 音が聞こえる = nghe thấy tiếng
+
+617. ますます = Ngày càng
+連: ますます ＋ 変化 = Ngày càng (đằng sau đi với sự biến đổi)
+・朝から降っていた雨は、午後になると[ますます]強くなった。| Cơn mưa rơi từ sáng, sang chiều lại càng nặng hạt hơn.
+読: あさからふっていたあめは、ごごになるとますますつよくなった。
+文法: V ていた N = N đã (đang) ~ từ trước; ～になると = hễ đến ~ thì; い-tính từ bỏ い ＋くなる = trở nên ~
+・彼女、小さいころからかわいかったけど、最近[ますます]きれいになったね。| Cô ấy từ nhỏ đã dễ thương, nhưng dạo này càng ngày càng xinh ra nhỉ.
+読: かのじょ、ちいさいころからかわいかったけど、さいきんますますきれいになったね。
+文法: ～けど = nhưng (văn nói); な-tính từ ＋になる = trở nên ~
+
+618. やっと = Cuối cùng cũng đã/ Chật vật
+# Sách in mặt chữ "やっと＋た": ＋た là mẫu đi kèm (đã ghi ở dòng 連), mặt chữ là やっと.
+# 意味① Cuối cùng cũng đã: dòng 連 và hai câu đầu. 意味② Chật vật: câu cuối.
+連: やっと〜た = Chờ đợi lâu dài; sau rất nhiều khó khăn
+・30分に1本しかこないバスが[やっと]来た〜。| Chuyến xe buýt 30 phút mới có một chuyến, cuối cùng cũng đến rồi~.
+読: さんじゅっぷんにいっぽんしかこないバスがやっときた〜。
+文法: thời gian ＋に1本 = cứ (thời gian) mới có một chuyến; ～しか～ない = chỉ ~
+・[やっと]（のことで）待ち合わせ場所に着くことができた。| Mãi mới đến được chỗ hẹn.
+読: やっと（のことで）まちあわせばしょにつくことができた。
+文法: やっとのことで = vất vả lắm mới; V る＋ことができる = có thể ~
+・給料が安いので、食べていくのが[やっと]だ。| Lương thấp nên chỉ sống qua ngày một cách chật vật.
+読: きゅうりょうがやすいので、たべていくのがやっとだ。
+文法: 食べていく = sống qua ngày (kiếm đủ ăn); V る＋のがやっとだ = chật vật lắm mới ~ được
+使い分け: やっと = nhấn mạnh sau nhiều khó khăn
+使い分け: とうとう／ついに = nhấn mạnh sau khoảng thời gian dài kỳ vọng
+
+619. とうとう = Cuối cùng cũng đã ~
+# Sách in mặt chữ "とうとう～た": ～た là mẫu đi kèm (đã ghi ở dòng 連), mặt chữ là とうとう.
+連: とうとう〜た = (sau một khoảng thời gian dài)
+・長い間使っていた洗たく機が[とうとう]壊れてしまった。| Cái máy giặt dùng bấy lâu cuối cùng cũng hỏng mất rồi.
+読: ながいあいだつかっていたせんたくきがとうとうこわれてしまった。
+文法: V ていた N = N đã (dùng) suốt ~; V てしまう = ~ mất rồi
+・[とうとう]人間が月へ行ける日がやって来た。| Cuối cùng ngày con người có thể lên Mặt Trăng cũng đã đến.
+読: とうとうにんげんがつきへいけるひがやってきた。
+文法: V (thể khả năng)＋日 = ngày mà có thể ~; やって来る = đến, tới
+連: とうとう〜ない = Cuối cùng… cũng không
+・3時間待ったが、彼は[とうとう]来なかった。| Tôi đã đợi 3 tiếng nhưng rốt cuộc anh ấy cũng không đến.
+読: さんじかんまったが、かれはとうとうこなかった。
+文法: ～が = nhưng
+使い分け: やっと = nhấn mạnh sau nhiều khó khăn
+使い分け: とうとう／ついに = nhấn mạnh sau khoảng thời gian dài kỳ vọng
+
+620. ついに = Cuối cùng… cũng đã/ Cuối cùng
+# 意味① Cuối cùng cũng đã: dòng 連 ついに〜た và câu đầu. 意味② Cuối cùng: câu thứ hai.
+# Dòng 連 ついに〜ない và câu cuối là cách nói riêng.
+連: ついに〜た
+・若いころの夢を[ついに]実現することができた。| Cuối cùng tôi cũng đã thực hiện được ước mơ thời trẻ.
+読: わかいころのゆめをついにじつげんすることができた。
+文法: V る＋ことができた = đã làm được ~
+・兄は土日も休まず働き続け、[ついに]（は）過労で倒れてしまった。| Anh trai tôi làm việc liên tục cả thứ bảy chủ nhật không nghỉ, cuối cùng đã ngã quỵ vì làm việc quá sức.
+読: あにはどにちもやすまずはたらきつづけ、ついに（は）かろうでたおれてしまった。
+文法: V ない bỏ ない＋ず = không ~ (休まず: không nghỉ); V ます bỏ ます ＋続ける = ~ liên tục; N で = vì N
+連: ついに〜ない = Cuối cùng… cũng không
+# Sách in thiếu dấu 。 cuối câu dưới; chép thêm vào.
+・がんばって練習したが、[ついに]／結局全国大会に出場することはできなかった。| Đã cố gắng luyện tập nhưng rốt cuộc vẫn không thể tham dự giải toàn quốc.
+読: がんばってれんしゅうしたが、ついに／けっきょくぜんこくたいかいにしゅつじょうすることはできなかった。
+文法: ～が = nhưng; V る＋ことはできなかった = đã không thể ~
+類: 結局 (けっきょく) = Rốt cuộc — thay được ついに trong câu ～ない
+使い分け: やっと = nhấn mạnh sau nhiều khó khăn
+使い分け: とうとう／ついに = nhấn mạnh sau khoảng thời gian dài kỳ vọng
+※: ついに = nhấn mạnh kết quả, dùng được cho cả kết quả tốt (＋) lẫn xấu (－)
+
+# nguồn: cùng bản PDF trọn 第32課 ở trên. Chưa có PDF của buổi 32.2 nên chưa biết ranh giới
+# buổi: 621–630 tạm chung một cụm, có tên file của buổi sau thì chia lại.
+## 621–630 = Còn lại của 第32課 · Đương nhiên, quả nhiên, nhất định, có lẽ và lỡ tay
+621. もちろん = Đương nhiên
+・A：「1杯目何飲む？」B：「[もちろん]、生でしょ。」| A: "Ly đầu tiên uống gì?" B: "Đương nhiên là bia tươi rồi."
+読: A：「いっぱいめなにのむ？」B：「もちろん、なまでしょ。」
+文法: 1杯目 = ly thứ nhất (～目: thứ ~); 生 = 生ビール (bia tươi); ～でしょ = ~ chứ còn gì (văn nói)
+・A：「あしたの夜来れる？」B：「[もちろん]！！」| A: "Tối mai đến được không?" B: "Tất nhiên rồi!!"
+読: A：「あしたのよるこれる？」B：「もちろん！！」
+文法: 来れる = 来られる (đến được) — văn nói, lược ら
+・彼は中国に10年住んでいたから、[もちろん]中国語が話せるだろう。| Anh ấy đã sống ở Trung Quốc 10 năm nên đương nhiên là nói được tiếng Trung rồi.
+読: かれはちゅうごくにじゅうねんすんでいたから、もちろんちゅうごくごがはなせるだろう。
+文法: ～から = vì ~; 話せる = nói được (thể khả năng); ～だろう = chắc là ~
+
+622. やはり = Quả nhiên (đúng theo sự đoán)/ Vẫn/ Quả nhiên (quay về cái phân vân ban đầu)
+# 意味① Quả nhiên (đúng như dự đoán): ba câu đầu. 意味② Vẫn: câu thứ tư. 意味③ Quả nhiên (quay về
+# lựa chọn ban đầu): câu cuối — sách in câu này dưới 意味② nhưng nó khớp với nghĩa thứ ba.
+# Câu ví dụ hay viết やっぱり (sách gạch chân cả "(やっぱ)"); chỉ đánh dấu やっぱり để câu khoét được.
+・[やはり]Aのチームが勝った。彼の予想通りだった。| Quả nhiên đội A đã thắng. Đúng như anh ấy dự đoán.
+読: やはりAのチームがかった。かれのよそうどおりだった。
+文法: N 通り = đúng như N (予想通り: đúng như dự đoán)
+・A：「Shin先生が犯人だったらしいよ。」B：「[やっぱり]ね」| A: "Nghe nói thầy Shin là thủ phạm đấy." B: "Biết ngay mà."
+読: A：「Shinせんせいがはんにんだったらしいよ。」B：「やっぱりね」
+文法: ～らしい = nghe nói / hình như ~
+# Sách in thiếu dấu 。 cuối câu dưới; chép thêm vào.
+・[やっぱり]（やっぱ）あのお店のケーキが1番おいしい。| Quả nhiên bánh ngọt của tiệm đó là ngon nhất.
+読: やっぱり（やっぱ）あのおみせのケーキがいちばんおいしい。
+・私のふるさとでは今でも[やはり]旧暦で正月を祝っているんです。| Ở quê tôi đến giờ người ta vẫn ăn Tết theo âm lịch.
+読: わたしのふるさとではいまでもやはりきゅうれきでしょうがつをいわっているんです。
+文法: 今でも = đến bây giờ vẫn; N で = theo N (旧暦で: theo âm lịch); ～んです = (giải thích)
+・この赤いいなあ。あ、黒もいいなあ…[やっぱり]（やっぱ）赤いのにしよう。| Cái màu đỏ này đẹp nhỉ. A, cái màu đen cũng đẹp… Thôi, rốt cuộc vẫn lấy cái màu đỏ.
+読: このあかいいなあ。あ、くろもいいなあ…やっぱり（やっぱ）あかいのにしよう。
+文法: この赤(、)いいなあ = cái đỏ này đẹp nhỉ; い-tính từ ＋の = cái ~ (赤いの: cái màu đỏ); N にしよう = thôi chọn N
+※: やっぱり・やっぱ = cách nói thân mật của やはり (văn nói; やっぱ suồng sã hơn)
+
+623. きっと = Chắc chắn, nhất định
+・田中さんはいつも遅れてくるから、今日も[きっと]遅刻だろうなぁ。| Anh Tanaka lúc nào cũng đến muộn, nên chắc chắn hôm nay cũng trễ thôi.
+読: たなかさんはいつもおくれてくるから、きょうもきっとちこくだろうなぁ。
+文法: 遅れてくる = đến muộn; ～だろうなぁ = chắc là ~ nhỉ (tự nhủ)
+・「あなたなら、[きっと]合格できますよ。」| "Nếu là bạn thì chắc chắn sẽ đỗ thôi."
+読: 「あなたなら、きっとごうかくできますよ。」
+文法: N なら = nếu là N thì
+# Sách in ngữ cảnh "お金を貸してくれた友人に" trong 「」 như một câu thoại; chép thành （）.
+・（お金を貸してくれた友人に）「来週中には[きっと]返す！」| (Nói với người bạn đã cho mình vay tiền) "Trong tuần sau nhất định tớ sẽ trả!"
+読: （おかねをかしてくれたゆうじんに）「らいしゅうちゅうにはきっとかえす！」
+文法: V てくれた N = N đã ~ cho mình; 来週中に = trong (khoảng) tuần sau
+類: きっと ≒ 必ず (かならず)
+※: きっと → chắc khoảng 80〜90%・必ず (かならず) → chắc 100%
+
+624. ぜひ = Nhất định
+・若いうちに、[ぜひ]留学したほうがいいですよ。| Khi còn trẻ, nhất định nên đi du học.
+読: わかいうちに、ぜひりゅうがくしたほうがいいですよ。
+文法: ～うちに = trong lúc còn ~; V た＋ほうがいい = nên ~
+・日本へ来たときには[ぜひ]うちに泊まってください。| Khi sang Nhật nhất định hãy đến ở nhà tôi nhé.
+読: にほんへきたときにはぜひうちにとまってください。
+文法: V た＋とき = khi (đã tới nơi) ~; V て＋ください = hãy ~
+類: ≒ 必ず (かならず)
+・A：「お刺身（を）食べたことある？」B：「ないです。[ぜひ]食べてみたいです！」| A: "Bạn ăn sashimi bao giờ chưa?" B: "Chưa ạ. Nhất định tôi muốn ăn thử!"
+読: A：「おさしみ（を）たべたことある？」B：「ないです。ぜひたべてみたいです！」
+文法: V た＋ことある？ = đã từng ~ chưa? (văn nói, lược が); V て＋みたい = muốn thử ~
+
+625. なるべく = Cố gắng hết mức có thể
+・「[なるべく]辞書を見ないで、この本を読んでみてください」| "Hãy cố hết mức đừng tra từ điển mà thử đọc cuốn sách này."
+読: 「なるべくじしょをみないで、このほんをよんでみてください」
+文法: V ない＋で = không ~ mà (làm việc khác); V て＋みる = thử ~
+類: ≒ できるだけ
+・コロナがはやっているので、人の多いところへ[なるべく]行かないようにしましょう。| Dịch Corona đang lan rộng, chúng ta hãy cố hết mức đừng đến chỗ đông người.
+読: コロナがはやっているので、ひとのおおいところへなるべくいかないようにしましょう。
+文法: はやる = lan rộng, thịnh hành; N の多いところ = nơi nhiều N (の thay が); V ない＋ようにする = cố gắng không ~
+
+626. 案外 (あんがい) = ÁN NGOẠI ; Không ngờ
+# Sách in mặt chữ "案外＋A/V": ＋A/V là cách dùng (đã ghi ở dòng 連), mặt chữ là 案外.
+連: 案外 ＋ A (tính từ)
+・室内は寒いけど、外に出ると[案外]暖かい。| Trong phòng thì lạnh, vậy mà ra ngoài lại ấm không ngờ.
+読: しつないはさむいけど、そとにでるとあんがいあたたかい。
+文法: ～けど = nhưng; V る＋と = hễ ~ thì
+類: ≒ 意外に (いがいに)
+連: 案外 ＋ A、〜V
+・道が込んでいたが、[案外]早く着いた。| Đường đông, vậy mà lại đến sớm không ngờ.
+読: みちがこんでいたが、あんがいはやくついた。
+文法: ～が = nhưng; い-tính từ bỏ い ＋く＋V = ~ một cách…
+
+627. もしかすると/もしかしたら/もしかして = Có lẽ
+・今日はとても冷えるので[もしかすると]、どこかで雪が降っているのかもしれませんね。| Hôm nay lạnh quá, có lẽ ở đâu đó đang có tuyết rơi cũng nên.
+読: きょうはとてもひえるのでもしかすると、どこかでゆきがふっているのかもしれませんね。
+文法: ～ので = vì ~; ～かもしれない = có lẽ ~ (hay đi cùng もしかすると)
+・このごろ成績が上がってきたから、[もしかしたら]東京大学に合格できるかもしれない。| Dạo này điểm số tăng lên, có khi đỗ được Đại học Tokyo không chừng.
+読: このごろせいせきがあがってきたから、もしかしたらとうきょうだいがくにごうかくできるかもしれない。
+文法: V てくる = dần ~ lên (thay đổi đến hiện tại); ～かもしれない = có lẽ ~
+・「[もしかして]川村さんのこと好きなの！？」| "Không lẽ cậu thích Kawamura à!?"
+読: 「もしかしてかわむらさんのことすきなの！？」
+文法: 人のこと(が)好き = thích ai (văn nói lược が); ～の？ = ~ à? (hỏi thân mật)
+# Sách chỉ in dấu ＞, không ghi so theo tiêu chí gì; "trang trọng → thân mật" là cách hiểu thông thường.
+※: もしかすると ＞ もしかしたら ＞ もしかして (trang trọng → thân mật)
+
+628. まさか = Không đời nào
+・A：「あの二人、離婚するらしいよ」B：「[まさか]！あんなに仲よしだったのに」| A: "Nghe nói hai người đó sắp ly hôn đấy." B: "Không đời nào! Họ từng thân nhau thế cơ mà."
+読: A：「あのふたり、りこんするらしいよ」B：「まさか！あんなになかよしだったのに」
+文法: ～らしい = nghe nói ~; ～のに = vậy mà (ngạc nhiên, tiếc)
+合: まさか〜ない = Không thể ngờ, không đời nào
+# Sách in "まさかふられる思わなかった", thiếu とは; chép thành ふられるとは思わなかった.
+・社内一かわいい小林さんが、[まさか]ふられるとは思わなかった。| Không ngờ cô Kobayashi xinh nhất công ty lại bị người ta "đá".
+読: しゃないいちかわいいこばやしさんが、まさかふられるとはおもわなかった。
+文法: N 一 = nhất N (社内一: nhất công ty); ふられる = bị (người yêu) từ chối, bị "đá"; ～とは思わなかった = không ngờ là ~
+
+629. うっかり = Lơ đễnh
+# Sách gạch chân cả "うっかり(して)"; chỉ đánh dấu うっかり để chỗ khoét là phó từ.
+連: うっかりする
+・[うっかり]（して）、さとうと塩を入れ間違えてしまった。| Lơ đễnh thế nào lại cho nhầm đường với muối.
+読: うっかり（して）、さとうとしおをいれまちがえてしまった。
+文法: V ます bỏ ます ＋間違える = ~ nhầm; V てしまう = lỡ ~ mất
+・買い物に行くのに、[うっかり]財布を忘れて出かけてしまった。| Đi mua sắm mà lơ đễnh quên cả ví, cứ thế ra khỏi nhà.
+読: かいものにいくのに、うっかりさいふをわすれてでかけてしまった。
+文法: ～のに = vậy mà; V て、V = ~ rồi ~
+
+630. つい = Vô ý, lỡ
+連: つい〜てしまった
+・禁煙しているが、食事の後などに[つい]吸ってしまう。| Đang cai thuốc nhưng những lúc như sau bữa ăn lại lỡ hút mất.
+読: きんえんしているが、しょくじのあとなどについすってしまう。
+文法: N の後 = sau N; ～など = những lúc như ~; V てしまう = lỡ ~ mất
+・疲れていたので、会議中に[つい]居眠りしてしまった。| Vì mệt nên trong cuộc họp tôi lỡ ngủ gật mất.
+読: つかれていたので、かいぎちゅうについいねむりしてしまった。
+文法: N 中に = trong lúc N

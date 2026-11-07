@@ -4,7 +4,7 @@
     "name": "N3 JUNBI",
     "level": "N3"
   },
-  "generatedAt": "2026-10-27T07:32:40.865Z",
+  "generatedAt": "2026-11-06T09:23:59.663Z",
   "modules": [
     {
       "id": "entrance-test",
@@ -166,13 +166,31 @@
         {
           "id": "05-pho-tu",
           "name": "Phó từ",
-          "description": "",
+          "description": "Phó từ N3準備 文字語彙 — 第31課 (591–612) và 第32課 (613–630)",
           "kind": "vocabulary",
           "parent": "",
           "group": "",
-          "itemCount": 0,
+          "itemCount": 40,
           "order": 5,
-          "file": "vocabulary/05-pho-tu.json"
+          "file": "vocabulary/05-pho-tu.json",
+          "groups": [
+            {
+              "label": "591–596",
+              "title": "Bài 31.1 · Rất, cực kỳ, gần như và khá"
+            },
+            {
+              "label": "597–612",
+              "title": "Còn lại của 第31課 · Kha khá, đầy, vừa khít; ngay, sắp và chốc lát"
+            },
+            {
+              "label": "613–620",
+              "title": "Bài 32.1 · Hơn hẳn, như mọi khi, liên tục, ngày càng và cuối cùng"
+            },
+            {
+              "label": "621–630",
+              "title": "Còn lại của 第32課 · Đương nhiên, quả nhiên, nhất định, có lẽ và lỡ tay"
+            }
+          ]
         },
         {
           "id": "06-danh-tu-2",

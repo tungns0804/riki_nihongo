@@ -1,10 +1,1987 @@
 {
   "id": "05-pho-tu",
   "name": "Phó từ",
-  "description": "",
+  "description": "Phó từ N3準備 文字語彙 — 第31課 (591–612) và 第32課 (613–630)",
   "kind": "vocabulary",
   "parent": "",
   "group": "",
-  "groups": [],
-  "words": []
+  "groups": [
+    {
+      "label": "591–596",
+      "title": "Bài 31.1 · Rất, cực kỳ, gần như và khá"
+    },
+    {
+      "label": "597–612",
+      "title": "Còn lại của 第31課 · Kha khá, đầy, vừa khít; ngay, sắp và chốc lát"
+    },
+    {
+      "label": "613–620",
+      "title": "Bài 32.1 · Hơn hẳn, như mọi khi, liên tục, ngày càng và cuối cùng"
+    },
+    {
+      "label": "621–630",
+      "title": "Còn lại của 第32課 · Đương nhiên, quả nhiên, nhất định, có lẽ và lỡ tay"
+    }
+  ],
+  "words": [
+    {
+      "id": "1469890db09cbca3",
+      "number": 591,
+      "group": "591–596",
+      "particle": "",
+      "japanese": "非常に",
+      "reading": "ひじょうに",
+      "hanViet": "PHI THƯỜNG",
+      "vietnamese": "Rất, cực kỳ/ Khẩn cấp",
+      "examples": [
+        {
+          "id": "5ff8d3b6fe80ef2c",
+          "japanese": "これは非常に高価なものですので、気をつけて乗ってください。",
+          "vietnamese": "Cái này cực kỳ đắt tiền, nên khi đi xin hãy cẩn thận.",
+          "reading": "これはひじょうにこうかなものですので、きをつけてのってください。",
+          "grammar": "～ので = vì ~ (ですので: lịch sự); 気をつける = cẩn thận; V て＋ください = hãy ~",
+          "targets": [
+            "非常に"
+          ]
+        },
+        {
+          "id": "838ba6dd236645a0",
+          "japanese": "直接さわるのは非常に危険です。",
+          "vietnamese": "Chạm tay trực tiếp vào thì cực kỳ nguy hiểm.",
+          "reading": "ちょくせつさわるのはひじょうにきけんです。",
+          "grammar": "V る＋のは = việc ~ thì",
+          "targets": [
+            "非常に"
+          ]
+        },
+        {
+          "id": "579beb982316e6d4",
+          "japanese": "「非常の際は、この下のレバーを引いてください。」",
+          "vietnamese": "\"Khi khẩn cấp, xin hãy kéo cần gạt phía dưới này.\"",
+          "reading": "「ひじょうのさいは、このしたのレバーをひいてください。」",
+          "grammar": "N の際(は) = khi ~ (cách nói trang trọng của ～の時)",
+          "targets": [
+            "非常"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "≒ 大変に (たいへんに)"
+        },
+        {
+          "label": "合",
+          "text": "非常口 (ひじょうぐち) = Cửa thoát hiểm"
+        },
+        {
+          "label": "合",
+          "text": "非常階段 (ひじょうかいだん) = Cầu thang thoát hiểm"
+        },
+        {
+          "label": "合",
+          "text": "非常ベル (ひじょうベル) = Chuông báo động"
+        }
+      ]
+    },
+    {
+      "id": "4bdbdea483b12cd6",
+      "number": 592,
+      "group": "591–596",
+      "particle": "",
+      "japanese": "大変",
+      "reading": "たいへん",
+      "hanViet": "ĐẠI BIẾN",
+      "vietnamese": "Cực, rất",
+      "examples": [
+        {
+          "id": "c6990943f044ae49",
+          "japanese": "朝夕は電車が大変込むので疲れる。",
+          "vietnamese": "Sáng và chiều tàu điện cực kỳ đông nên mệt lắm.",
+          "reading": "あさゆうはでんしゃがたいへんこむのでつかれる。",
+          "grammar": "～ので = vì ~",
+          "targets": [
+            "大変"
+          ]
+        },
+        {
+          "id": "a38c292ae0b4db7a",
+          "japanese": "計画が中止になったのは大変残念だ。",
+          "vietnamese": "Kế hoạch bị huỷ thật là rất đáng tiếc.",
+          "reading": "けいかくがちゅうしになったのはたいへんざんねんだ。",
+          "grammar": "N になる = trở thành (中止になる: bị huỷ); V た＋のは = việc đã ~ thì",
+          "targets": [
+            "大変"
+          ]
+        },
+        {
+          "id": "52b9f5711013404f",
+          "japanese": "「これまで大変お世話になりました」",
+          "vietnamese": "\"Từ trước đến nay tôi đã được anh chị giúp đỡ rất nhiều.\"",
+          "reading": "「これまでたいへんおせわになりました」",
+          "grammar": "お世話になる = được (ai) giúp đỡ, chăm sóc — lời cảm ơn khi chia tay, nghỉ việc",
+          "targets": [
+            "大変"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "大変 ＋ V／N"
+        },
+        {
+          "label": "合",
+          "text": "大変お世話になりました (たいへんおせわになりました) = Đã được giúp đỡ rất nhiều"
+        },
+        {
+          "label": "類",
+          "text": "とても ＜ 大変(に) ≒ 非常に (mức độ tăng dần)"
+        }
+      ]
+    },
+    {
+      "id": "04f9c49ba94fcb31",
+      "number": 593,
+      "group": "591–596",
+      "particle": "",
+      "japanese": "ほとんど",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Gần như, hầu như",
+      "examples": [
+        {
+          "id": "f7ed679038594e6e",
+          "japanese": "準備はほとんどできた。",
+          "vietnamese": "Việc chuẩn bị gần như đã xong.",
+          "reading": "じゅんびはほとんどできた。",
+          "grammar": "準備ができる = chuẩn bị xong",
+          "targets": [
+            "ほとんど"
+          ]
+        },
+        {
+          "id": "8a1b3006a34cc892",
+          "japanese": "本をほとんど読んだ。",
+          "vietnamese": "Cuốn sách tôi đã đọc gần hết.",
+          "reading": "ほんをほとんどよんだ。",
+          "grammar": "",
+          "targets": [
+            "ほとんど"
+          ]
+        },
+        {
+          "id": "fb686e980cf0e919",
+          "japanese": "この学校では、ほとんどの子どもたち／子どもたちのほとんどが携帯電話を持っているそうだ。",
+          "vietnamese": "Nghe nói ở trường này, hầu hết các em đều có điện thoại di động.",
+          "reading": "このがっこうでは、ほとんどのこどもたち／こどもたちのほとんどがけいたいでんわをもっているそうだ。",
+          "grammar": "ほとんどの N ＝ N のほとんど = hầu hết N; ～そうだ = nghe nói ~",
+          "targets": [
+            "ほとんど"
+          ]
+        },
+        {
+          "id": "2da6fbce9c2fd06c",
+          "japanese": "来日したとき、日本語はほとんどわからなかった。",
+          "vietnamese": "Lúc mới sang Nhật, tôi hầu như không hiểu tiếng Nhật.",
+          "reading": "らいにちしたとき、にほんごはほとんどわからなかった。",
+          "grammar": "V た＋とき = khi đã ~ (来日したとき: lúc sang Nhật); ほとんど～ない = hầu như không ~",
+          "targets": [
+            "ほとんど"
+          ]
+        },
+        {
+          "id": "9d80706b4367acb4",
+          "japanese": "あの人とはほとんど話したことがありません。",
+          "vietnamese": "Tôi hầu như chưa nói chuyện với người đó bao giờ.",
+          "reading": "あのひととはほとんどはなしたことがありません。",
+          "grammar": "V た＋ことがない = chưa từng ~; N とは = với N thì (は nhấn mạnh)",
+          "targets": [
+            "ほとんど"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "ほとんど ＋ V"
+        },
+        {
+          "label": "類",
+          "text": "≒ ほぼ"
+        },
+        {
+          "label": "連",
+          "text": "ほとんどの ＋ N"
+        },
+        {
+          "label": "連",
+          "text": "ほとんど〜ない"
+        },
+        {
+          "label": "使い分け",
+          "text": "ほとんど = dùng được cả câu khẳng định (肯定 ◯) lẫn câu phủ định (否定 ◯)"
+        },
+        {
+          "label": "使い分け",
+          "text": "だいたい = chỉ dùng câu khẳng định (肯定 ◯), không dùng câu phủ định (否定 ✕)"
+        }
+      ]
+    },
+    {
+      "id": "290633bd8367df0d",
+      "number": 594,
+      "group": "591–596",
+      "particle": "",
+      "japanese": "大体",
+      "reading": "だいたい",
+      "hanViet": "ĐẠI THỂ",
+      "vietnamese": "Hầu như",
+      "examples": [
+        {
+          "id": "c0c5da2406330b6c",
+          "japanese": "今日の試験はだいたいできた。",
+          "vietnamese": "Bài thi hôm nay tôi làm được gần hết.",
+          "reading": "きょうのしけんはだいたいできた。",
+          "grammar": "",
+          "targets": [
+            "だいたい"
+          ]
+        },
+        {
+          "id": "81c3e87773994559",
+          "japanese": "1ヵ月の収入はだいたい5万円ぐらいです。",
+          "vietnamese": "Thu nhập một tháng khoảng 5 man yên.",
+          "reading": "いっかげつのしゅうにゅうはだいたいごまんえんぐらいです。",
+          "grammar": "数字＋ぐらい = khoảng ~ (đi cùng だいたい cho nghĩa ước chừng)",
+          "targets": [
+            "だいたい"
+          ]
+        },
+        {
+          "id": "36785a9ce3f165b2",
+          "japanese": "そのことをだいたいの人が知っていた。",
+          "vietnamese": "Chuyện đó thì hầu hết mọi người đều đã biết.",
+          "reading": "そのことをだいたいのひとがしっていた。",
+          "grammar": "だいたいの N = hầu hết N",
+          "targets": [
+            "だいたい"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "大体 ＋ 数字 = Khoảng"
+        },
+        {
+          "label": "類",
+          "text": "およそ (N2)"
+        },
+        {
+          "label": "使い分け",
+          "text": "ほとんど = dùng được cả câu khẳng định (肯定 ◯) lẫn câu phủ định (否定 ◯)"
+        },
+        {
+          "label": "使い分け",
+          "text": "だいたい = chỉ dùng câu khẳng định (肯定 ◯), không dùng câu phủ định (否定 ✕)"
+        }
+      ]
+    },
+    {
+      "id": "76fce06857bc4e38",
+      "number": 595,
+      "group": "591–596",
+      "particle": "",
+      "japanese": "かなり",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Rất, cực kỳ",
+      "examples": [
+        {
+          "id": "bc7be7985299f180",
+          "japanese": "昨日の台風で、九州ではかなりの被害が出たそうだ。",
+          "vietnamese": "Nghe nói cơn bão hôm qua đã gây thiệt hại rất nặng ở Kyushu.",
+          "reading": "きのうのたいふうで、きゅうしゅうではかなりのひがいがでたそうだ。",
+          "grammar": "N で = do N (nguyên nhân); 被害が出る = có thiệt hại; ～そうだ = nghe nói ~",
+          "targets": [
+            "かなり"
+          ]
+        },
+        {
+          "id": "6a068350f33af7e8",
+          "japanese": "頭痛の薬を飲んだら、30分ぐらいでかなりよくなった。",
+          "vietnamese": "Uống thuốc đau đầu xong, khoảng 30 phút là đỡ hẳn.",
+          "reading": "ずつうのくすりをのんだら、さんじゅっぷんぐらいでかなりよくなった。",
+          "grammar": "V たら～た = sau khi ~ thì (đã); 時間＋で = trong khoảng (thời gian); い-tính từ bỏ い ＋くなる = trở nên ~",
+          "targets": [
+            "かなり"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "かなり ＋ 程度 (mức độ)"
+        },
+        {
+          "label": "使い分け",
+          "text": "かなり = khách quan hơn (より客観的)"
+        },
+        {
+          "label": "使い分け",
+          "text": "ずいぶん = bất ngờ, hơn mình nghĩ (思ったより意外)"
+        }
+      ]
+    },
+    {
+      "id": "d70cca47ef4ea953",
+      "number": 596,
+      "group": "591–596",
+      "particle": "",
+      "japanese": "ずいぶん",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Tương đối, rất",
+      "examples": [
+        {
+          "id": "26d67e48387ccff5",
+          "japanese": "A：けがの具合はどうですか？B：ずいぶんよくなりましたが、まだ運動はできません。",
+          "vietnamese": "A: Vết thương thế nào rồi? B: Đỡ nhiều rồi, nhưng vẫn chưa vận động được.",
+          "reading": "A：けがのぐあいはどうですか？B：ずいぶんよくなりましたが、まだうんどうはできません。",
+          "grammar": "い-tính từ bỏ い ＋くなる = trở nên ~; ～が = nhưng; まだ～ない = vẫn chưa ~",
+          "targets": [
+            "ずいぶん"
+          ]
+        },
+        {
+          "id": "5ec0a5241640150f",
+          "japanese": "しばらく会わない間に、チンさんはずいぶん日本語が上手になっていた。",
+          "vietnamese": "Mới một thời gian không gặp mà tiếng Nhật của anh Chin đã giỏi lên hẳn.",
+          "reading": "しばらくあわないあいだに、チンさんはずいぶんにほんごがじょうずになっていた。",
+          "grammar": "V ない＋間に = trong lúc không ~; な-tính từ ＋になる = trở nên ~; ～ていた = (nhận ra là) đã ~ rồi",
+          "targets": [
+            "ずいぶん"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "ずいぶん〜なる"
+        },
+        {
+          "label": "使い分け",
+          "text": "かなり = khách quan hơn (より客観的)"
+        },
+        {
+          "label": "使い分け",
+          "text": "ずいぶん = bất ngờ, hơn mình nghĩ (思ったより意外)"
+        }
+      ]
+    },
+    {
+      "id": "8a16c62035a07177",
+      "number": 597,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "けっこう",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Rất (hơn mức dự đoán)/ Kha khá (hơn mức dự đoán)",
+      "examples": [
+        {
+          "id": "3b5eb24f9942a84a",
+          "japanese": "日曜日なので込んでいるかと思ったら、けっこうすいている。",
+          "vietnamese": "Chủ nhật nên cứ tưởng là đông, ai ngờ lại khá vắng.",
+          "reading": "にちようびなのでこんでいるかとおもったら、けっこうすいている。",
+          "grammar": "N なので = vì là N; ～かと思ったら = cứ tưởng là ~, vậy mà",
+          "targets": [
+            "けっこう"
+          ]
+        },
+        {
+          "id": "d13a3c6f1d58ba70",
+          "japanese": "初めて作った料理だが、けっこうおいしくできた。",
+          "vietnamese": "Món này lần đầu tôi nấu, vậy mà lại khá ngon.",
+          "reading": "はじめてつくったりょうりだが、けっこうおいしくできた。",
+          "grammar": "～だが = ~ nhưng; い-tính từ bỏ い ＋くできる = làm ra (thành) ~",
+          "targets": [
+            "けっこう"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "※",
+          "text": "けっこう ＜ かなり (けっこう chỉ mức độ thấp hơn かなり)"
+        }
+      ]
+    },
+    {
+      "id": "474e53b6d8430b1a",
+      "number": 598,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "大分",
+      "reading": "だいぶ",
+      "hanViet": "ĐẠI PHÂN",
+      "vietnamese": "Khá nhiều/ Hầu như",
+      "examples": [
+        {
+          "id": "54226f6f7971596d",
+          "japanese": "病気はだいぶよくなった。",
+          "vietnamese": "Bệnh đã đỡ nhiều rồi.",
+          "reading": "びょうきはだいぶよくなった。",
+          "grammar": "い-tính từ bỏ い ＋くなる = trở nên ~",
+          "targets": [
+            "だいぶ"
+          ]
+        },
+        {
+          "id": "0242daedb2242fb6",
+          "japanese": "仕事がまだだいぶ残っている。",
+          "vietnamese": "Công việc vẫn còn tồn khá nhiều.",
+          "reading": "しごとがまだだいぶのこっている。",
+          "grammar": "まだ～ている = vẫn còn đang ~",
+          "targets": [
+            "だいぶ"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "大分〜なる"
+        },
+        {
+          "label": "類",
+          "text": "だいぶよくなる ≒ ずいぶんよくなる"
+        },
+        {
+          "label": "※",
+          "text": "Mức độ lịch sự: 非常に ＞ かなり ＞ とても ＞ ずいぶん ＞ だいぶ ＞ 結構 (けっこう)"
+        }
+      ]
+    },
+    {
+      "id": "248e3efc9b644f1c",
+      "number": 599,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "もっと",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Hơn/ Hơn nữa",
+      "examples": [
+        {
+          "id": "c2596b13c389294b",
+          "japanese": "リンゴよりイチゴのほうが好きだ。でも、メロンはもっと好きだ。",
+          "vietnamese": "Tôi thích dâu tây hơn táo. Nhưng dưa lưới thì còn thích hơn nữa.",
+          "reading": "リンゴよりイチゴのほうがすきだ。でも、メロンはもっとすきだ。",
+          "grammar": "A より B のほうが～ = B ~ hơn A",
+          "targets": [
+            "もっと"
+          ]
+        },
+        {
+          "id": "06a1cddf5644e9d1",
+          "japanese": "これだけでは、足りない。もっとほしい。",
+          "vietnamese": "Chừng này thì không đủ. Tôi muốn thêm nữa.",
+          "reading": "これだけでは、たりない。もっとほしい。",
+          "grammar": "N だけでは = chỉ có N thì; ほしい = muốn có",
+          "targets": [
+            "もっと"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "12cec2f77985808e",
+      "number": 600,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "すっかり",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Toàn bộ, hết",
+      "examples": [
+        {
+          "id": "08eb42666d6f3684",
+          "japanese": "さくらの花はもうすっかり散ってしまった。",
+          "vietnamese": "Hoa anh đào đã rụng hết cả rồi.",
+          "reading": "さくらのはなはもうすっかりちってしまった。",
+          "grammar": "V てしまう = ~ mất rồi (xong hẳn, thường kèm tiếc nuối)",
+          "targets": [
+            "すっかり"
+          ]
+        },
+        {
+          "id": "7c7480b88f79448c",
+          "japanese": "あ！友人との約束をすっかり忘れていた。",
+          "vietnamese": "A! Tôi quên béng mất cuộc hẹn với bạn.",
+          "reading": "あ！ゆうじんとのやくそくをすっかりわすれていた。",
+          "grammar": "N との約束 = lời hẹn với N; V ていた = (nhận ra là) đã ~",
+          "targets": [
+            "すっかり"
+          ]
+        },
+        {
+          "id": "79b63b0b609f5a04",
+          "japanese": "A：「病気の具合はどうですか」B：「おかげさまで、すっかりよくなりました。」",
+          "vietnamese": "A: \"Bệnh tình thế nào rồi ạ?\" B: \"Nhờ trời, tôi đã khỏi hẳn rồi.\"",
+          "reading": "A：「びょうきのぐあいはどうですか」B：「おかげさまで、すっかりよくなりました。」",
+          "grammar": "おかげさまで = nhờ trời / nhờ anh chị (đáp lời hỏi thăm)",
+          "targets": [
+            "すっかり"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "≒ 完全に (かんぜんに)"
+        },
+        {
+          "label": "合",
+          "text": "すっかり ＋ 忘れる (わすれる) = Quên sạch"
+        },
+        {
+          "label": "合",
+          "text": "すっかり〜なる (変化) = Hoàn toàn (thay đổi hẳn)"
+        }
+      ]
+    },
+    {
+      "id": "5e76db7dc2be2e3f",
+      "number": 601,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "一杯",
+      "reading": "いっぱい",
+      "hanViet": "NHẤT BÔI",
+      "vietnamese": "Đầy, nhiều/ No, đầy/ Hết cỡ, hết mức/ Tràn đầy, hết sức/ Đầy, nhiều, tràn ngập",
+      "examples": [
+        {
+          "id": "fb97cf7d64369b15",
+          "japanese": "会場には子どもたちがいっぱいいて、とてもにぎやかだった。",
+          "vietnamese": "Trong hội trường có rất đông trẻ con, náo nhiệt vô cùng.",
+          "reading": "かいじょうにはこどもたちがいっぱいいて、とてもにぎやかだった。",
+          "grammar": "～て = ~ nên / và (nối câu)",
+          "targets": [
+            "いっぱい"
+          ]
+        },
+        {
+          "id": "37d81229f2512ba2",
+          "japanese": "A：「おかわりは？」B：「もうおなかいっぱいだよ」",
+          "vietnamese": "A: \"Ăn thêm bát nữa không?\" B: \"No căng bụng rồi.\"",
+          "reading": "",
+          "grammar": "おかわり = thêm một bát / suất nữa",
+          "targets": [
+            "いっぱい"
+          ]
+        },
+        {
+          "id": "94c0c6af7ffed372",
+          "japanese": "部屋は本でいっぱいだ。",
+          "vietnamese": "Căn phòng đầy sách.",
+          "reading": "へやはほんでいっぱいだ。",
+          "grammar": "N でいっぱいだ = đầy N",
+          "targets": [
+            "いっぱい"
+          ]
+        },
+        {
+          "id": "4ad0b5e5cf7a21bc",
+          "japanese": "窓をいっぱいに開く。",
+          "vietnamese": "Mở cửa sổ ra hết cỡ.",
+          "reading": "まどをいっぱいにひらく。",
+          "grammar": "いっぱいに＋V = ~ hết cỡ; 開く (ひらく) = mở ra",
+          "targets": [
+            "いっぱいに"
+          ]
+        },
+        {
+          "id": "ad4d1fd7b2786944",
+          "japanese": "今週／今月／月末いっぱいまで仕事やります。",
+          "vietnamese": "Tôi làm việc đến hết tuần này / hết tháng này / hết cuối tháng.",
+          "reading": "こんしゅう／こんげつ／げつまついっぱいまでしごとやります。",
+          "grammar": "thời gian ＋いっぱい = đến hết (khoảng thời gian đó); 仕事(を)やる = làm việc (văn nói, lược を)",
+          "targets": [
+            "いっぱい"
+          ]
+        },
+        {
+          "id": "082a21c1bfffef1d",
+          "japanese": "これから力いっぱい／精いっぱいがんばるつもりです。",
+          "vietnamese": "Từ giờ tôi định sẽ cố gắng hết sức mình.",
+          "reading": "これからちからいっぱい／せいいっぱいがんばるつもりです。",
+          "grammar": "力いっぱい・精いっぱい = hết sức mình; V る＋つもりだ = định ~",
+          "targets": [
+            "いっぱい"
+          ]
+        },
+        {
+          "id": "281de12d3bd9ffff",
+          "japanese": "部屋いっぱいに日が差している。",
+          "vietnamese": "Nắng chiếu tràn ngập căn phòng.",
+          "reading": "へやいっぱいにひがさしている。",
+          "grammar": "日が差す = nắng chiếu vào; ～ている = đang ~ (trạng thái)",
+          "targets": [
+            "いっぱい"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "N ＋ いっぱい = Tràn ngập khắp N"
+        }
+      ]
+    },
+    {
+      "id": "02076a69e66f9d8a",
+      "number": 602,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "ぎりぎり",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Sát giờ, sát nút",
+      "examples": [
+        {
+          "id": "a67605742de00435",
+          "japanese": "走れば、9時の電車にぎりぎり間に合うだろう。",
+          "vietnamese": "Nếu chạy thì chắc sẽ kịp sát nút chuyến tàu 9 giờ.",
+          "reading": "はしれば、くじのでんしゃにぎりぎりまにあうだろう。",
+          "grammar": "V ば = nếu ~; N に間に合う = kịp N; ～だろう = chắc là ~",
+          "targets": [
+            "ぎりぎり"
+          ]
+        },
+        {
+          "id": "342341b8bdbf8da5",
+          "japanese": "ぎりぎりまで待ったが、田中君は来なかった。しかたなく、先に行くことにした。",
+          "vietnamese": "Tôi đợi đến phút chót mà cậu Tanaka vẫn không đến. Đành phải đi trước.",
+          "reading": "ぎりぎりまでまったが、たなかくんはこなかった。しかたなく、さきにいくことにした。",
+          "grammar": "～が = nhưng; しかたなく = đành phải; V る＋ことにする = quyết định ~",
+          "targets": [
+            "ぎりぎり"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "f7eec411138703e5",
+      "number": 603,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "ぴったり",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Vừa vặn, đúng/ Chặt, hoàn toàn/ Vừa, vừa vặn",
+      "examples": [
+        {
+          "id": "e1406510f53f7f31",
+          "japanese": "7時ぴったりに目覚まし時計をセットした。",
+          "vietnamese": "Tôi đã đặt đồng hồ báo thức đúng 7 giờ.",
+          "reading": "しちじぴったりにめざましどけいをセットした。",
+          "grammar": "",
+          "targets": [
+            "ぴったり"
+          ]
+        },
+        {
+          "id": "6b829ee235cc6c7c",
+          "japanese": "約束の時間ぴったりに来る。",
+          "vietnamese": "Đến đúng giờ hẹn.",
+          "reading": "やくそくのじかんぴったりにくる。",
+          "grammar": "",
+          "targets": [
+            "ぴったり"
+          ]
+        },
+        {
+          "id": "12e8e7bd98c5a884",
+          "japanese": "二人はぴったりとくっついて、離れようとしなかった。",
+          "vietnamese": "Hai người dính khít lấy nhau, không chịu rời ra.",
+          "reading": "ふたりはぴったりとくっついて、はなれようとしなかった。",
+          "grammar": "V よう (thể ý chí) ＋としない = không chịu ~",
+          "targets": [
+            "ぴったり"
+          ]
+        },
+        {
+          "id": "dfad8a4f916e67bf",
+          "japanese": "窓をぴったり閉めてください。",
+          "vietnamese": "Hãy đóng chặt cửa sổ lại.",
+          "reading": "まどをぴったりしめてください。",
+          "grammar": "",
+          "targets": [
+            "ぴったり"
+          ]
+        },
+        {
+          "id": "99b6bdc3eb328f7d",
+          "japanese": "二人の意見はぴったり一致した。",
+          "vietnamese": "Ý kiến của hai người hoàn toàn trùng khớp.",
+          "reading": "ふたりのいけんはぴったりいっちした。",
+          "grammar": "",
+          "targets": [
+            "ぴったり"
+          ]
+        },
+        {
+          "id": "752def6df60af532",
+          "japanese": "そのネクタイ、今日のスーツにぴったりだね。",
+          "vietnamese": "Cái cà vạt đó hợp với bộ vest hôm nay quá nhỉ.",
+          "reading": "そのネクタイ、きょうのスーツにぴったりだね。",
+          "grammar": "N にぴったりだ = rất hợp với N",
+          "targets": [
+            "ぴったり"
+          ]
+        },
+        {
+          "id": "a69c4dde658c5ec9",
+          "japanese": "子どもが生まれてから、夫は（ぴったり／ぴたりと）たばこをやめた。",
+          "vietnamese": "Từ khi có con, chồng tôi bỏ hẳn thuốc lá.",
+          "reading": "こどもがうまれてから、おっとは（ぴったり／ぴたりと）たばこをやめた。",
+          "grammar": "V てから = từ sau khi ~",
+          "targets": [
+            "ぴったり",
+            "ぴたりと"
+          ]
+        },
+        {
+          "id": "045087e55c518ed6",
+          "japanese": "薬を飲むとせきがぴったりとやんだ。",
+          "vietnamese": "Uống thuốc vào là cơn ho dứt hẳn.",
+          "reading": "くすりをのむとせきがぴったりとやんだ。",
+          "grammar": "V る＋と～た = vừa ~ thì (liền) ~; やむ = (mưa, ho…) dứt, tạnh",
+          "targets": [
+            "ぴったり"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "時間 ＋ ぴったり"
+        },
+        {
+          "label": "合",
+          "text": "ぴったり(と) ＋ 止 (やめる・やむ) = Hoàn toàn (dứt khoát)"
+        },
+        {
+          "label": "※",
+          "text": "Mức độ hội thoại: ぴったり ＞ ぴたりと (ぴったり thiên về văn nói hơn)"
+        }
+      ]
+    },
+    {
+      "id": "45fe673916c74ea5",
+      "number": 604,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "たいてい",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Thường, hay/ Hầu hết",
+      "examples": [
+        {
+          "id": "ca14caaea8cbe232",
+          "japanese": "日曜日はたいていうちにいます。",
+          "vietnamese": "Chủ nhật tôi thường ở nhà.",
+          "reading": "にちようびはたいていうちにいます。",
+          "grammar": "",
+          "targets": [
+            "たいてい"
+          ]
+        },
+        {
+          "id": "8a06283e97b9760d",
+          "japanese": "たいていの人が田中さんの意見に賛成した。",
+          "vietnamese": "Hầu hết mọi người đều tán thành ý kiến của anh Tanaka.",
+          "reading": "たいていのひとがたなかさんのいけんにさんせいした。",
+          "grammar": "たいていの N = hầu hết N; N に賛成する = tán thành N",
+          "targets": [
+            "たいてい"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "423c5ea951f1a35c",
+      "number": 605,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "同時に",
+      "reading": "どうじに",
+      "hanViet": "ĐỒNG THỜI",
+      "vietnamese": "Cùng lúc/ Ngay sau khi (cùng lúc)/ Đồng thời, ngoài ra",
+      "examples": [
+        {
+          "id": "0204d86b6e6220fd",
+          "japanese": "二人は同時にゴールした。",
+          "vietnamese": "Hai người về đích cùng lúc.",
+          "reading": "ふたりはどうじにゴールした。",
+          "grammar": "",
+          "targets": [
+            "同時に"
+          ]
+        },
+        {
+          "id": "7338745861c51682",
+          "japanese": "電気が消えた。同時に非常ベルが鳴り始めた。",
+          "vietnamese": "Đèn tắt. Ngay lúc đó chuông báo động bắt đầu reo.",
+          "reading": "でんきがきえた。どうじにひじょうベルがなりはじめた。",
+          "grammar": "V ます bỏ ます ＋始める = bắt đầu ~",
+          "targets": [
+            "同時に"
+          ]
+        },
+        {
+          "id": "eb84d03b8881ec0f",
+          "japanese": "そのコンサートのチケットは、発売と同時に売り切れた。",
+          "vietnamese": "Vé buổi hoà nhạc đó vừa mở bán là đã hết sạch.",
+          "reading": "そのコンサートのチケットは、はつばいとどうじにうりきれた。",
+          "grammar": "N と同時に = ngay khi N; 売り切れる = bán hết sạch",
+          "targets": [
+            "同時に"
+          ]
+        },
+        {
+          "id": "d1e94f3058694ffc",
+          "japanese": "駅から近いアパートは便利だが、同時に、家賃も高い。",
+          "vietnamese": "Căn hộ gần ga thì tiện, nhưng đồng thời tiền nhà cũng đắt.",
+          "reading": "えきからちかいアパートはべんりだが、どうじに、やちんもたかい。",
+          "grammar": "～が = nhưng",
+          "targets": [
+            "同時に"
+          ]
+        },
+        {
+          "id": "a5e36acfcb955895",
+          "japanese": "彼女は私の妻であると同時に、仕事のパートナーでもある。",
+          "vietnamese": "Cô ấy vừa là vợ tôi, đồng thời cũng là đối tác trong công việc.",
+          "reading": "かのじょはわたしのつまであるとどうじに、しごとのパートナーでもある。",
+          "grammar": "N であると同時に = vừa là N, đồng thời…; N でもある = cũng là N",
+          "targets": [
+            "同時に"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "a122234b941973c6",
+      "number": 606,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "前もって",
+      "reading": "まえもって",
+      "hanViet": "TIỀN",
+      "vietnamese": "Trước",
+      "examples": [
+        {
+          "id": "869144969b8ef86d",
+          "japanese": "デートするときは、いいレストランを前もって調べておくようにしている。",
+          "vietnamese": "Mỗi khi hẹn hò, tôi luôn chịu khó tìm trước một nhà hàng ngon.",
+          "reading": "デートするときは、いいレストランをまえもってしらべておくようにしている。",
+          "grammar": "V ておく = làm sẵn ~; V る＋ようにしている = cố gắng (tạo thói quen) ~",
+          "targets": [
+            "前もって"
+          ]
+        },
+        {
+          "id": "69ac8cf6b3eb46fb",
+          "japanese": "もし欠席する場合は、前もってご連絡します。",
+          "vietnamese": "Nếu vắng mặt, tôi sẽ báo trước ạ.",
+          "reading": "もしけっせきするばあいは、まえもってごれんらくします。",
+          "grammar": "V る＋場合は = trường hợp ~ thì; ご＋N＋する = khiêm nhường ngữ (ご連絡します: tôi xin liên lạc)",
+          "targets": [
+            "前もって"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "91b9fc8ade6d4006",
+      "number": 607,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "すぐ/すぐに",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Ngay lập tức",
+      "examples": [
+        {
+          "id": "36600383710e9c28",
+          "japanese": "チャイムを鳴らすと、すぐにドアが開いた。",
+          "vietnamese": "Vừa bấm chuông là cửa mở ngay.",
+          "reading": "チャイムをならすと、すぐにドアがあいた。",
+          "grammar": "V る＋と～た = vừa ~ thì (liền) ~",
+          "targets": [
+            "すぐに"
+          ]
+        },
+        {
+          "id": "c2affb1890fd42ac",
+          "japanese": "「火事です。すぐ来てください」",
+          "vietnamese": "\"Cháy rồi! Đến ngay đi!\"",
+          "reading": "「かじです。すぐきてください」",
+          "grammar": "",
+          "targets": [
+            "すぐ"
+          ]
+        },
+        {
+          "id": "d6931dd216d53f18",
+          "japanese": "うちのすぐ近くで殺人事件があって、とても怖かった。",
+          "vietnamese": "Ngay gần nhà tôi xảy ra một vụ án giết người, sợ lắm.",
+          "reading": "うちのすぐちかくでさつじんじけんがあって、とてもこわかった。",
+          "grammar": "(sự việc) がある = xảy ra; ～て = vì ~ nên",
+          "targets": [
+            "すぐ"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "すぐ ＋ 近く (ちかく) = Gần ngay"
+        }
+      ]
+    },
+    {
+      "id": "80d0519a43721106",
+      "number": 608,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "もうすぐ",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Sắp",
+      "examples": [
+        {
+          "id": "b00a3a703b7961f0",
+          "japanese": "日本へ来て、もうすぐ3年になる。",
+          "vietnamese": "Sang Nhật đến nay đã sắp được 3 năm.",
+          "reading": "にほんへきて、もうすぐさんねんになる。",
+          "grammar": "V て、thời gian ＋になる = từ khi ~ đến nay đã được (thời gian)",
+          "targets": [
+            "もうすぐ"
+          ]
+        },
+        {
+          "id": "90495a5309ba0604",
+          "japanese": "もうすぐ夏休み／お正月だ。",
+          "vietnamese": "Sắp đến kỳ nghỉ hè / Tết rồi.",
+          "reading": "もうすぐなつやすみ／おしょうがつだ。",
+          "grammar": "",
+          "targets": [
+            "もうすぐ"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "≒ そろそろ"
+        }
+      ]
+    },
+    {
+      "id": "14babdc4607b35d0",
+      "number": 609,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "突然",
+      "reading": "とつぜん",
+      "hanViet": "ĐỘT NHIÊN",
+      "vietnamese": "Đột nhiên",
+      "examples": [
+        {
+          "id": "6476e31c9186e211",
+          "japanese": "子どもが突然飛び出して来たので、急ブレーキをかけた。",
+          "vietnamese": "Đứa trẻ đột nhiên lao ra nên tôi phanh gấp.",
+          "reading": "こどもがとつぜんとびだしてきたので、きゅうブレーキをかけた。",
+          "grammar": "V て来る = ~ ra (về phía mình); ブレーキをかける = phanh, đạp phanh",
+          "targets": [
+            "突然"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "17e7452b373fefa4",
+      "number": 610,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "あっと言う間/あっという間",
+      "reading": "あっというま/あっというま",
+      "hanViet": "NGÔN GIAN/GIAN",
+      "vietnamese": "Loáng một cái/ Trong nháy mắt, trong khoảnh khắc",
+      "examples": [
+        {
+          "id": "0ea6c35b0244b138",
+          "japanese": "うちの子どもの成長は早い。あっという間に、もう社会人だった。",
+          "vietnamese": "Con nhà tôi lớn nhanh thật. Loáng một cái đã đi làm rồi.",
+          "reading": "うちのこどものせいちょうははやい。あっというまに、もうしゃかいじんだった。",
+          "grammar": "もう = đã (rồi)",
+          "targets": [
+            "あっという間に"
+          ]
+        },
+        {
+          "id": "f044f3990bb26f6a",
+          "japanese": "駅でかばんをとられてしまった。あっという間のできごとだった。",
+          "vietnamese": "Tôi bị lấy mất túi ở nhà ga. Chuyện xảy ra trong nháy mắt.",
+          "reading": "えきでかばんをとられてしまった。あっというまのできごとだった。",
+          "grammar": "とられる = bị lấy mất (bị động của とる); V てしまう = ~ mất rồi; あっという間の N = N diễn ra trong chớp mắt",
+          "targets": [
+            "あっという間"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "b6f86aaef47c9265",
+      "number": 611,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "いつの間にか",
+      "reading": "いつのまにか",
+      "hanViet": "GIAN",
+      "vietnamese": "Lúc nào không biết",
+      "examples": [
+        {
+          "id": "cbd4dd8d6727c625",
+          "japanese": "いつの間にか、外は暗くなっていた。",
+          "vietnamese": "Chẳng biết từ lúc nào, bên ngoài đã tối mất rồi.",
+          "reading": "いつのまにか、そとはくらくなっていた。",
+          "grammar": "い-tính từ bỏ い ＋くなる = trở nên ~; ～ていた = (nhận ra là) đã ~",
+          "targets": [
+            "いつの間にか"
+          ]
+        },
+        {
+          "id": "dc98b7996c4588ac",
+          "japanese": "子どもはいつの間にか、私より背が高くなっていた。早いーー",
+          "vietnamese": "Chẳng biết từ lúc nào con đã cao hơn tôi rồi. Nhanh thật…",
+          "reading": "こどもはいつのまにか、わたしよりせがたかくなっていた。はやいーー",
+          "grammar": "A より～ = ~ hơn A; 背が高い = cao (người)",
+          "targets": [
+            "いつの間にか"
+          ]
+        },
+        {
+          "id": "bd9daf0fa5fa94c0",
+          "japanese": "あれ？いつの間にこんなにお金を使ってしまったのだろう。",
+          "vietnamese": "Ơ? Mình đã tiêu nhiều tiền thế này từ lúc nào vậy nhỉ?",
+          "reading": "あれ？いつのまにこんなにおかねをつかってしまったのだろう。",
+          "grammar": "～のだろう = ~ vậy nhỉ (tự hỏi); V てしまう = lỡ ~ mất",
+          "targets": [
+            "いつの間に"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "いつの間に〜のだろう = Từ lúc nào mà ~ thế nhỉ"
+        }
+      ]
+    },
+    {
+      "id": "a4c364391a863039",
+      "number": 612,
+      "group": "597–612",
+      "particle": "",
+      "japanese": "しばらく",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Một chút",
+      "examples": [
+        {
+          "id": "16f00a7cc5a0165e",
+          "japanese": "ただ今窓口が混んでいますので、もうしばらくお待ちください。",
+          "vietnamese": "Hiện quầy đang đông, xin quý khách vui lòng đợi thêm một chút.",
+          "reading": "ただいままどぐちがこんでいますので、もうしばらくおまちください。",
+          "grammar": "ただ今 = hiện giờ (lịch sự); お＋V ます bỏ ます ＋ください = xin hãy ~ (kính ngữ)",
+          "targets": [
+            "しばらく"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "※",
+          "text": "少し (ちょっと) ＜ しばらく (10分以上) ＜ 長い"
+        }
+      ]
+    },
+    {
+      "id": "0dbc279cd9ee16bd",
+      "number": 613,
+      "group": "613–620",
+      "particle": "",
+      "japanese": "ずっと",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Hơn hẳn/ Rất",
+      "examples": [
+        {
+          "id": "abc8ef41f0eb6fd6",
+          "japanese": "バスよりも地下鉄に乗るほうがずっと速い。",
+          "vietnamese": "Đi tàu điện ngầm nhanh hơn hẳn đi xe buýt.",
+          "reading": "バスよりもちかてつにのるほうがずっとはやい。",
+          "grammar": "A よりも B のほうが～ = B ~ hơn A",
+          "targets": [
+            "ずっと"
+          ]
+        },
+        {
+          "id": "2e38bab3d6151744",
+          "japanese": "太陽は地球よりもずっと大きい。",
+          "vietnamese": "Mặt Trời lớn hơn Trái Đất rất nhiều.",
+          "reading": "たいようはちきゅうよりもずっとおおきい。",
+          "grammar": "",
+          "targets": [
+            "ずっと"
+          ]
+        },
+        {
+          "id": "7661ff687e82408a",
+          "japanese": "この人とはずっと前に一度会ったことがある気がする。",
+          "vietnamese": "Tôi có cảm giác đã từng gặp người này một lần từ rất lâu rồi.",
+          "reading": "このひととはずっとまえにいちどあったことがあるきがする。",
+          "grammar": "V た＋ことがある = đã từng ~; ～気がする = có cảm giác ~",
+          "targets": [
+            "ずっと"
+          ]
+        },
+        {
+          "id": "4f3fb430a129e24a",
+          "japanese": "私は小さいころからずっとピアノを習っている。",
+          "vietnamese": "Tôi học piano suốt từ hồi còn nhỏ.",
+          "reading": "わたしはちいさいころからずっとピアノをならっている。",
+          "grammar": "～ころから = từ hồi ~; V ている = (vẫn) đang ~ (liên tục đến nay)",
+          "targets": [
+            "ずっと"
+          ]
+        },
+        {
+          "id": "38ea5273575383e0",
+          "japanese": "昨日は体調が悪かったので、ずっと寝ていた。",
+          "vietnamese": "Hôm qua người không khoẻ nên tôi nằm ngủ suốt.",
+          "reading": "きのうはたいちょうがわるかったので、ずっとねていた。",
+          "grammar": "～ので = vì ~; V ていた = đã ~ suốt (lúc đó)",
+          "targets": [
+            "ずっと"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "ずっと ＋ A (tính từ)"
+        },
+        {
+          "label": "連",
+          "text": "ずっと ＋ ている = Suốt, nhiều (kéo dài liên tục)"
+        }
+      ]
+    },
+    {
+      "id": "fc1496196724589b",
+      "number": 614,
+      "group": "613–620",
+      "particle": "",
+      "japanese": "相変わらず",
+      "reading": "あいかわらず",
+      "hanViet": "TƯƠNG BIẾN",
+      "vietnamese": "Như mọi khi",
+      "examples": [
+        {
+          "id": "04ae25fc3242c724",
+          "japanese": "昔、好きだったあの人は今もあいかわらずきれいだ。",
+          "vietnamese": "Người tôi từng thích ngày xưa đến giờ vẫn xinh đẹp như hồi nào.",
+          "reading": "むかし、すきだったあのひとはいまもあいかわらずきれいだ。",
+          "grammar": "好きだった N = N mà (mình) đã từng thích; 今も = bây giờ vẫn",
+          "targets": [
+            "あいかわらず"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "bf522651e17b33a9",
+      "number": 615,
+      "group": "613–620",
+      "particle": "",
+      "japanese": "次々に/次々と",
+      "reading": "つぎつぎに/つぎつぎと",
+      "hanViet": "THỨ THỨ",
+      "vietnamese": "Liên tục",
+      "examples": [
+        {
+          "id": "43a9dd2512792875",
+          "japanese": "おもしろい味のインスタント食品が次々に発売されている。",
+          "vietnamese": "Các món ăn liền có vị lạ liên tục được tung ra thị trường.",
+          "reading": "おもしろいあじのインスタントしょくひんがつぎつぎにはつばいされている。",
+          "grammar": "発売される = được bán ra (bị động); V ている = đang (liên tục) ~",
+          "targets": [
+            "次々に"
+          ]
+        },
+        {
+          "id": "2afa702d545b7364",
+          "japanese": "（小説）次々と新しい作品を発表している。",
+          "vietnamese": "(Về tiểu thuyết) Liên tục công bố tác phẩm mới.",
+          "reading": "（しょうせつ）つぎつぎとあたらしいさくひんをはっぴょうしている。",
+          "grammar": "",
+          "targets": [
+            "次々と"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "df27e679ae8ecc11",
+      "number": 616,
+      "group": "613–620",
+      "particle": "",
+      "japanese": "どんどん",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Nhanh, dồn dập",
+      "examples": [
+        {
+          "id": "6c4aaaacacfecdb8",
+          "japanese": "今夜のデートのことを考えると、仕事もどんどん進む。",
+          "vietnamese": "Cứ nghĩ đến buổi hẹn hò tối nay là công việc cũng trôi vèo vèo.",
+          "reading": "こんやのデートのことをかんがえると、しごともどんどんすすむ。",
+          "grammar": "V る＋と = hễ ~ thì; N のこと = chuyện về N",
+          "targets": [
+            "どんどん"
+          ]
+        },
+        {
+          "id": "eac00196fa26c56a",
+          "japanese": "おなか（が）すいてるでしょ。どんどん食べてね。",
+          "vietnamese": "Đói bụng rồi phải không? Cứ ăn thoải mái nhé.",
+          "reading": "おなか（が）すいてるでしょ。どんどんたべてね。",
+          "grammar": "すいてる = すいている (văn nói, lược い); ～でしょ = ~ đúng không (văn nói)",
+          "targets": [
+            "どんどん"
+          ]
+        },
+        {
+          "id": "ce2b4fdc044064d3",
+          "japanese": "ドンドンとドアをノックする大きな音が聞こえた。",
+          "vietnamese": "Tôi nghe thấy tiếng gõ cửa thình thình rất to.",
+          "reading": "ドンドンとドアをノックするおおきなおとがきこえた。",
+          "grammar": "V る＋N = N mà ~ (ノックする音: tiếng gõ); 音が聞こえる = nghe thấy tiếng",
+          "targets": [
+            "ドンドン"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "ドンドン = Tiếng gõ cửa (thình thình)"
+        }
+      ]
+    },
+    {
+      "id": "628853e39bb6d8b5",
+      "number": 617,
+      "group": "613–620",
+      "particle": "",
+      "japanese": "ますます",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Ngày càng",
+      "examples": [
+        {
+          "id": "8aadc6f29731db4d",
+          "japanese": "朝から降っていた雨は、午後になるとますます強くなった。",
+          "vietnamese": "Cơn mưa rơi từ sáng, sang chiều lại càng nặng hạt hơn.",
+          "reading": "あさからふっていたあめは、ごごになるとますますつよくなった。",
+          "grammar": "V ていた N = N đã (đang) ~ từ trước; ～になると = hễ đến ~ thì; い-tính từ bỏ い ＋くなる = trở nên ~",
+          "targets": [
+            "ますます"
+          ]
+        },
+        {
+          "id": "c04544d1a35dcb7d",
+          "japanese": "彼女、小さいころからかわいかったけど、最近ますますきれいになったね。",
+          "vietnamese": "Cô ấy từ nhỏ đã dễ thương, nhưng dạo này càng ngày càng xinh ra nhỉ.",
+          "reading": "かのじょ、ちいさいころからかわいかったけど、さいきんますますきれいになったね。",
+          "grammar": "～けど = nhưng (văn nói); な-tính từ ＋になる = trở nên ~",
+          "targets": [
+            "ますます"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "ますます ＋ 変化 = Ngày càng (đằng sau đi với sự biến đổi)"
+        }
+      ]
+    },
+    {
+      "id": "5e54bbb98bf60db7",
+      "number": 618,
+      "group": "613–620",
+      "particle": "",
+      "japanese": "やっと",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Cuối cùng cũng đã/ Chật vật",
+      "examples": [
+        {
+          "id": "b3575694be5d1cad",
+          "japanese": "30分に1本しかこないバスがやっと来た〜。",
+          "vietnamese": "Chuyến xe buýt 30 phút mới có một chuyến, cuối cùng cũng đến rồi~.",
+          "reading": "さんじゅっぷんにいっぽんしかこないバスがやっときた〜。",
+          "grammar": "thời gian ＋に1本 = cứ (thời gian) mới có một chuyến; ～しか～ない = chỉ ~",
+          "targets": [
+            "やっと"
+          ]
+        },
+        {
+          "id": "c8535c388e729d8e",
+          "japanese": "やっと（のことで）待ち合わせ場所に着くことができた。",
+          "vietnamese": "Mãi mới đến được chỗ hẹn.",
+          "reading": "やっと（のことで）まちあわせばしょにつくことができた。",
+          "grammar": "やっとのことで = vất vả lắm mới; V る＋ことができる = có thể ~",
+          "targets": [
+            "やっと"
+          ]
+        },
+        {
+          "id": "06d51cded59abf71",
+          "japanese": "給料が安いので、食べていくのがやっとだ。",
+          "vietnamese": "Lương thấp nên chỉ sống qua ngày một cách chật vật.",
+          "reading": "きゅうりょうがやすいので、たべていくのがやっとだ。",
+          "grammar": "食べていく = sống qua ngày (kiếm đủ ăn); V る＋のがやっとだ = chật vật lắm mới ~ được",
+          "targets": [
+            "やっと"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "やっと〜た = Chờ đợi lâu dài; sau rất nhiều khó khăn"
+        },
+        {
+          "label": "使い分け",
+          "text": "やっと = nhấn mạnh sau nhiều khó khăn"
+        },
+        {
+          "label": "使い分け",
+          "text": "とうとう／ついに = nhấn mạnh sau khoảng thời gian dài kỳ vọng"
+        }
+      ]
+    },
+    {
+      "id": "60a74b835a401ab4",
+      "number": 619,
+      "group": "613–620",
+      "particle": "",
+      "japanese": "とうとう",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Cuối cùng cũng đã ~",
+      "examples": [
+        {
+          "id": "50832b5ab6efb04f",
+          "japanese": "長い間使っていた洗たく機がとうとう壊れてしまった。",
+          "vietnamese": "Cái máy giặt dùng bấy lâu cuối cùng cũng hỏng mất rồi.",
+          "reading": "ながいあいだつかっていたせんたくきがとうとうこわれてしまった。",
+          "grammar": "V ていた N = N đã (dùng) suốt ~; V てしまう = ~ mất rồi",
+          "targets": [
+            "とうとう"
+          ]
+        },
+        {
+          "id": "f0ef04c81b27f4e3",
+          "japanese": "とうとう人間が月へ行ける日がやって来た。",
+          "vietnamese": "Cuối cùng ngày con người có thể lên Mặt Trăng cũng đã đến.",
+          "reading": "とうとうにんげんがつきへいけるひがやってきた。",
+          "grammar": "V (thể khả năng)＋日 = ngày mà có thể ~; やって来る = đến, tới",
+          "targets": [
+            "とうとう"
+          ]
+        },
+        {
+          "id": "afa3e7d8044d3f9d",
+          "japanese": "3時間待ったが、彼はとうとう来なかった。",
+          "vietnamese": "Tôi đã đợi 3 tiếng nhưng rốt cuộc anh ấy cũng không đến.",
+          "reading": "さんじかんまったが、かれはとうとうこなかった。",
+          "grammar": "～が = nhưng",
+          "targets": [
+            "とうとう"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "とうとう〜た = (sau một khoảng thời gian dài)"
+        },
+        {
+          "label": "連",
+          "text": "とうとう〜ない = Cuối cùng… cũng không"
+        },
+        {
+          "label": "使い分け",
+          "text": "やっと = nhấn mạnh sau nhiều khó khăn"
+        },
+        {
+          "label": "使い分け",
+          "text": "とうとう／ついに = nhấn mạnh sau khoảng thời gian dài kỳ vọng"
+        }
+      ]
+    },
+    {
+      "id": "2c1f86d5925903c6",
+      "number": 620,
+      "group": "613–620",
+      "particle": "",
+      "japanese": "ついに",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Cuối cùng… cũng đã/ Cuối cùng",
+      "examples": [
+        {
+          "id": "cb6784b3409abc90",
+          "japanese": "若いころの夢をついに実現することができた。",
+          "vietnamese": "Cuối cùng tôi cũng đã thực hiện được ước mơ thời trẻ.",
+          "reading": "わかいころのゆめをついにじつげんすることができた。",
+          "grammar": "V る＋ことができた = đã làm được ~",
+          "targets": [
+            "ついに"
+          ]
+        },
+        {
+          "id": "0ee47e1f39260e01",
+          "japanese": "兄は土日も休まず働き続け、ついに（は）過労で倒れてしまった。",
+          "vietnamese": "Anh trai tôi làm việc liên tục cả thứ bảy chủ nhật không nghỉ, cuối cùng đã ngã quỵ vì làm việc quá sức.",
+          "reading": "あにはどにちもやすまずはたらきつづけ、ついに（は）かろうでたおれてしまった。",
+          "grammar": "V ない bỏ ない＋ず = không ~ (休まず: không nghỉ); V ます bỏ ます ＋続ける = ~ liên tục; N で = vì N",
+          "targets": [
+            "ついに"
+          ]
+        },
+        {
+          "id": "ed60e40c82e72972",
+          "japanese": "がんばって練習したが、ついに／結局全国大会に出場することはできなかった。",
+          "vietnamese": "Đã cố gắng luyện tập nhưng rốt cuộc vẫn không thể tham dự giải toàn quốc.",
+          "reading": "がんばってれんしゅうしたが、ついに／けっきょくぜんこくたいかいにしゅつじょうすることはできなかった。",
+          "grammar": "～が = nhưng; V る＋ことはできなかった = đã không thể ~",
+          "targets": [
+            "ついに"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "ついに〜た"
+        },
+        {
+          "label": "連",
+          "text": "ついに〜ない = Cuối cùng… cũng không"
+        },
+        {
+          "label": "類",
+          "text": "結局 (けっきょく) = Rốt cuộc — thay được ついに trong câu ～ない"
+        },
+        {
+          "label": "使い分け",
+          "text": "やっと = nhấn mạnh sau nhiều khó khăn"
+        },
+        {
+          "label": "使い分け",
+          "text": "とうとう／ついに = nhấn mạnh sau khoảng thời gian dài kỳ vọng"
+        },
+        {
+          "label": "※",
+          "text": "ついに = nhấn mạnh kết quả, dùng được cho cả kết quả tốt (＋) lẫn xấu (－)"
+        }
+      ]
+    },
+    {
+      "id": "44a338364ff2b2f3",
+      "number": 621,
+      "group": "621–630",
+      "particle": "",
+      "japanese": "もちろん",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Đương nhiên",
+      "examples": [
+        {
+          "id": "e5d36d6ab6d0ad97",
+          "japanese": "A：「1杯目何飲む？」B：「もちろん、生でしょ。」",
+          "vietnamese": "A: \"Ly đầu tiên uống gì?\" B: \"Đương nhiên là bia tươi rồi.\"",
+          "reading": "A：「いっぱいめなにのむ？」B：「もちろん、なまでしょ。」",
+          "grammar": "1杯目 = ly thứ nhất (～目: thứ ~); 生 = 生ビール (bia tươi); ～でしょ = ~ chứ còn gì (văn nói)",
+          "targets": [
+            "もちろん"
+          ]
+        },
+        {
+          "id": "24f7285e53f07cac",
+          "japanese": "A：「あしたの夜来れる？」B：「もちろん！！」",
+          "vietnamese": "A: \"Tối mai đến được không?\" B: \"Tất nhiên rồi!!\"",
+          "reading": "A：「あしたのよるこれる？」B：「もちろん！！」",
+          "grammar": "来れる = 来られる (đến được) — văn nói, lược ら",
+          "targets": [
+            "もちろん"
+          ]
+        },
+        {
+          "id": "3694925dcf527817",
+          "japanese": "彼は中国に10年住んでいたから、もちろん中国語が話せるだろう。",
+          "vietnamese": "Anh ấy đã sống ở Trung Quốc 10 năm nên đương nhiên là nói được tiếng Trung rồi.",
+          "reading": "かれはちゅうごくにじゅうねんすんでいたから、もちろんちゅうごくごがはなせるだろう。",
+          "grammar": "～から = vì ~; 話せる = nói được (thể khả năng); ～だろう = chắc là ~",
+          "targets": [
+            "もちろん"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "021b714147e67691",
+      "number": 622,
+      "group": "621–630",
+      "particle": "",
+      "japanese": "やはり",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Quả nhiên (đúng theo sự đoán)/ Vẫn/ Quả nhiên (quay về cái phân vân ban đầu)",
+      "examples": [
+        {
+          "id": "e42de869654ac635",
+          "japanese": "やはりAのチームが勝った。彼の予想通りだった。",
+          "vietnamese": "Quả nhiên đội A đã thắng. Đúng như anh ấy dự đoán.",
+          "reading": "やはりAのチームがかった。かれのよそうどおりだった。",
+          "grammar": "N 通り = đúng như N (予想通り: đúng như dự đoán)",
+          "targets": [
+            "やはり"
+          ]
+        },
+        {
+          "id": "dd7578f692e3e39f",
+          "japanese": "A：「Shin先生が犯人だったらしいよ。」B：「やっぱりね」",
+          "vietnamese": "A: \"Nghe nói thầy Shin là thủ phạm đấy.\" B: \"Biết ngay mà.\"",
+          "reading": "A：「Shinせんせいがはんにんだったらしいよ。」B：「やっぱりね」",
+          "grammar": "～らしい = nghe nói / hình như ~",
+          "targets": [
+            "やっぱり"
+          ]
+        },
+        {
+          "id": "c5424eafe2a18e7c",
+          "japanese": "やっぱり（やっぱ）あのお店のケーキが1番おいしい。",
+          "vietnamese": "Quả nhiên bánh ngọt của tiệm đó là ngon nhất.",
+          "reading": "やっぱり（やっぱ）あのおみせのケーキがいちばんおいしい。",
+          "grammar": "",
+          "targets": [
+            "やっぱり"
+          ]
+        },
+        {
+          "id": "0b766aee4141091b",
+          "japanese": "私のふるさとでは今でもやはり旧暦で正月を祝っているんです。",
+          "vietnamese": "Ở quê tôi đến giờ người ta vẫn ăn Tết theo âm lịch.",
+          "reading": "わたしのふるさとではいまでもやはりきゅうれきでしょうがつをいわっているんです。",
+          "grammar": "今でも = đến bây giờ vẫn; N で = theo N (旧暦で: theo âm lịch); ～んです = (giải thích)",
+          "targets": [
+            "やはり"
+          ]
+        },
+        {
+          "id": "742a773e34035cc9",
+          "japanese": "この赤いいなあ。あ、黒もいいなあ…やっぱり（やっぱ）赤いのにしよう。",
+          "vietnamese": "Cái màu đỏ này đẹp nhỉ. A, cái màu đen cũng đẹp… Thôi, rốt cuộc vẫn lấy cái màu đỏ.",
+          "reading": "このあかいいなあ。あ、くろもいいなあ…やっぱり（やっぱ）あかいのにしよう。",
+          "grammar": "この赤(、)いいなあ = cái đỏ này đẹp nhỉ; い-tính từ ＋の = cái ~ (赤いの: cái màu đỏ); N にしよう = thôi chọn N",
+          "targets": [
+            "やっぱり"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "※",
+          "text": "やっぱり・やっぱ = cách nói thân mật của やはり (văn nói; やっぱ suồng sã hơn)"
+        }
+      ]
+    },
+    {
+      "id": "1a1e8af6cd0b917e",
+      "number": 623,
+      "group": "621–630",
+      "particle": "",
+      "japanese": "きっと",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Chắc chắn, nhất định",
+      "examples": [
+        {
+          "id": "b8dd1bb556630b29",
+          "japanese": "田中さんはいつも遅れてくるから、今日もきっと遅刻だろうなぁ。",
+          "vietnamese": "Anh Tanaka lúc nào cũng đến muộn, nên chắc chắn hôm nay cũng trễ thôi.",
+          "reading": "たなかさんはいつもおくれてくるから、きょうもきっとちこくだろうなぁ。",
+          "grammar": "遅れてくる = đến muộn; ～だろうなぁ = chắc là ~ nhỉ (tự nhủ)",
+          "targets": [
+            "きっと"
+          ]
+        },
+        {
+          "id": "c730fcab1ebc35c9",
+          "japanese": "「あなたなら、きっと合格できますよ。」",
+          "vietnamese": "\"Nếu là bạn thì chắc chắn sẽ đỗ thôi.\"",
+          "reading": "「あなたなら、きっとごうかくできますよ。」",
+          "grammar": "N なら = nếu là N thì",
+          "targets": [
+            "きっと"
+          ]
+        },
+        {
+          "id": "c7ea24944fafab49",
+          "japanese": "（お金を貸してくれた友人に）「来週中にはきっと返す！」",
+          "vietnamese": "(Nói với người bạn đã cho mình vay tiền) \"Trong tuần sau nhất định tớ sẽ trả!\"",
+          "reading": "（おかねをかしてくれたゆうじんに）「らいしゅうちゅうにはきっとかえす！」",
+          "grammar": "V てくれた N = N đã ~ cho mình; 来週中に = trong (khoảng) tuần sau",
+          "targets": [
+            "きっと"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "きっと ≒ 必ず (かならず)"
+        },
+        {
+          "label": "※",
+          "text": "きっと → chắc khoảng 80〜90%・必ず (かならず) → chắc 100%"
+        }
+      ]
+    },
+    {
+      "id": "825fee32193f5cdc",
+      "number": 624,
+      "group": "621–630",
+      "particle": "",
+      "japanese": "ぜひ",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Nhất định",
+      "examples": [
+        {
+          "id": "a9c5ce11f94ba650",
+          "japanese": "若いうちに、ぜひ留学したほうがいいですよ。",
+          "vietnamese": "Khi còn trẻ, nhất định nên đi du học.",
+          "reading": "わかいうちに、ぜひりゅうがくしたほうがいいですよ。",
+          "grammar": "～うちに = trong lúc còn ~; V た＋ほうがいい = nên ~",
+          "targets": [
+            "ぜひ"
+          ]
+        },
+        {
+          "id": "d76ebae1ad242b27",
+          "japanese": "日本へ来たときにはぜひうちに泊まってください。",
+          "vietnamese": "Khi sang Nhật nhất định hãy đến ở nhà tôi nhé.",
+          "reading": "にほんへきたときにはぜひうちにとまってください。",
+          "grammar": "V た＋とき = khi (đã tới nơi) ~; V て＋ください = hãy ~",
+          "targets": [
+            "ぜひ"
+          ]
+        },
+        {
+          "id": "e50bad6f3b1815f3",
+          "japanese": "A：「お刺身（を）食べたことある？」B：「ないです。ぜひ食べてみたいです！」",
+          "vietnamese": "A: \"Bạn ăn sashimi bao giờ chưa?\" B: \"Chưa ạ. Nhất định tôi muốn ăn thử!\"",
+          "reading": "A：「おさしみ（を）たべたことある？」B：「ないです。ぜひたべてみたいです！」",
+          "grammar": "V た＋ことある？ = đã từng ~ chưa? (văn nói, lược が); V て＋みたい = muốn thử ~",
+          "targets": [
+            "ぜひ"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "≒ 必ず (かならず)"
+        }
+      ]
+    },
+    {
+      "id": "27fa89fca41ec27b",
+      "number": 625,
+      "group": "621–630",
+      "particle": "",
+      "japanese": "なるべく",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Cố gắng hết mức có thể",
+      "examples": [
+        {
+          "id": "6eaec130f1708eb4",
+          "japanese": "「なるべく辞書を見ないで、この本を読んでみてください」",
+          "vietnamese": "\"Hãy cố hết mức đừng tra từ điển mà thử đọc cuốn sách này.\"",
+          "reading": "「なるべくじしょをみないで、このほんをよんでみてください」",
+          "grammar": "V ない＋で = không ~ mà (làm việc khác); V て＋みる = thử ~",
+          "targets": [
+            "なるべく"
+          ]
+        },
+        {
+          "id": "2c9b214c683d1240",
+          "japanese": "コロナがはやっているので、人の多いところへなるべく行かないようにしましょう。",
+          "vietnamese": "Dịch Corona đang lan rộng, chúng ta hãy cố hết mức đừng đến chỗ đông người.",
+          "reading": "コロナがはやっているので、ひとのおおいところへなるべくいかないようにしましょう。",
+          "grammar": "はやる = lan rộng, thịnh hành; N の多いところ = nơi nhiều N (の thay が); V ない＋ようにする = cố gắng không ~",
+          "targets": [
+            "なるべく"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "類",
+          "text": "≒ できるだけ"
+        }
+      ]
+    },
+    {
+      "id": "32376603731ed783",
+      "number": 626,
+      "group": "621–630",
+      "particle": "",
+      "japanese": "案外",
+      "reading": "あんがい",
+      "hanViet": "ÁN NGOẠI",
+      "vietnamese": "Không ngờ",
+      "examples": [
+        {
+          "id": "dd744e90aec4b06e",
+          "japanese": "室内は寒いけど、外に出ると案外暖かい。",
+          "vietnamese": "Trong phòng thì lạnh, vậy mà ra ngoài lại ấm không ngờ.",
+          "reading": "しつないはさむいけど、そとにでるとあんがいあたたかい。",
+          "grammar": "～けど = nhưng; V る＋と = hễ ~ thì",
+          "targets": [
+            "案外"
+          ]
+        },
+        {
+          "id": "a2c8c861a26dd21c",
+          "japanese": "道が込んでいたが、案外早く着いた。",
+          "vietnamese": "Đường đông, vậy mà lại đến sớm không ngờ.",
+          "reading": "みちがこんでいたが、あんがいはやくついた。",
+          "grammar": "～が = nhưng; い-tính từ bỏ い ＋く＋V = ~ một cách…",
+          "targets": [
+            "案外"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "案外 ＋ A (tính từ)"
+        },
+        {
+          "label": "類",
+          "text": "≒ 意外に (いがいに)"
+        },
+        {
+          "label": "連",
+          "text": "案外 ＋ A、〜V"
+        }
+      ]
+    },
+    {
+      "id": "d69694c7f2a1c75b",
+      "number": 627,
+      "group": "621–630",
+      "particle": "",
+      "japanese": "もしかすると/もしかしたら/もしかして",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Có lẽ",
+      "examples": [
+        {
+          "id": "b59d57a995bc5a8a",
+          "japanese": "今日はとても冷えるのでもしかすると、どこかで雪が降っているのかもしれませんね。",
+          "vietnamese": "Hôm nay lạnh quá, có lẽ ở đâu đó đang có tuyết rơi cũng nên.",
+          "reading": "きょうはとてもひえるのでもしかすると、どこかでゆきがふっているのかもしれませんね。",
+          "grammar": "～ので = vì ~; ～かもしれない = có lẽ ~ (hay đi cùng もしかすると)",
+          "targets": [
+            "もしかすると"
+          ]
+        },
+        {
+          "id": "294aa8be25f4c074",
+          "japanese": "このごろ成績が上がってきたから、もしかしたら東京大学に合格できるかもしれない。",
+          "vietnamese": "Dạo này điểm số tăng lên, có khi đỗ được Đại học Tokyo không chừng.",
+          "reading": "このごろせいせきがあがってきたから、もしかしたらとうきょうだいがくにごうかくできるかもしれない。",
+          "grammar": "V てくる = dần ~ lên (thay đổi đến hiện tại); ～かもしれない = có lẽ ~",
+          "targets": [
+            "もしかしたら"
+          ]
+        },
+        {
+          "id": "942ed04b99f54e5a",
+          "japanese": "「もしかして川村さんのこと好きなの！？」",
+          "vietnamese": "\"Không lẽ cậu thích Kawamura à!?\"",
+          "reading": "「もしかしてかわむらさんのことすきなの！？」",
+          "grammar": "人のこと(が)好き = thích ai (văn nói lược が); ～の？ = ~ à? (hỏi thân mật)",
+          "targets": [
+            "もしかして"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "※",
+          "text": "もしかすると ＞ もしかしたら ＞ もしかして (trang trọng → thân mật)"
+        }
+      ]
+    },
+    {
+      "id": "f4d14a308fd37f69",
+      "number": 628,
+      "group": "621–630",
+      "particle": "",
+      "japanese": "まさか",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Không đời nào",
+      "examples": [
+        {
+          "id": "2fd6d66b8ccea6d9",
+          "japanese": "A：「あの二人、離婚するらしいよ」B：「まさか！あんなに仲よしだったのに」",
+          "vietnamese": "A: \"Nghe nói hai người đó sắp ly hôn đấy.\" B: \"Không đời nào! Họ từng thân nhau thế cơ mà.\"",
+          "reading": "A：「あのふたり、りこんするらしいよ」B：「まさか！あんなになかよしだったのに」",
+          "grammar": "～らしい = nghe nói ~; ～のに = vậy mà (ngạc nhiên, tiếc)",
+          "targets": [
+            "まさか"
+          ]
+        },
+        {
+          "id": "8e6a25d81c8e0de7",
+          "japanese": "社内一かわいい小林さんが、まさかふられるとは思わなかった。",
+          "vietnamese": "Không ngờ cô Kobayashi xinh nhất công ty lại bị người ta \"đá\".",
+          "reading": "しゃないいちかわいいこばやしさんが、まさかふられるとはおもわなかった。",
+          "grammar": "N 一 = nhất N (社内一: nhất công ty); ふられる = bị (người yêu) từ chối, bị \"đá\"; ～とは思わなかった = không ngờ là ~",
+          "targets": [
+            "まさか"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "合",
+          "text": "まさか〜ない = Không thể ngờ, không đời nào"
+        }
+      ]
+    },
+    {
+      "id": "38243f44ff5fd40b",
+      "number": 629,
+      "group": "621–630",
+      "particle": "",
+      "japanese": "うっかり",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Lơ đễnh",
+      "examples": [
+        {
+          "id": "66e243361b72774d",
+          "japanese": "うっかり（して）、さとうと塩を入れ間違えてしまった。",
+          "vietnamese": "Lơ đễnh thế nào lại cho nhầm đường với muối.",
+          "reading": "うっかり（して）、さとうとしおをいれまちがえてしまった。",
+          "grammar": "V ます bỏ ます ＋間違える = ~ nhầm; V てしまう = lỡ ~ mất",
+          "targets": [
+            "うっかり"
+          ]
+        },
+        {
+          "id": "b978565ba3f3a0d5",
+          "japanese": "買い物に行くのに、うっかり財布を忘れて出かけてしまった。",
+          "vietnamese": "Đi mua sắm mà lơ đễnh quên cả ví, cứ thế ra khỏi nhà.",
+          "reading": "かいものにいくのに、うっかりさいふをわすれてでかけてしまった。",
+          "grammar": "～のに = vậy mà; V て、V = ~ rồi ~",
+          "targets": [
+            "うっかり"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "うっかりする"
+        }
+      ]
+    },
+    {
+      "id": "041323c41949d106",
+      "number": 630,
+      "group": "621–630",
+      "particle": "",
+      "japanese": "つい",
+      "reading": "",
+      "hanViet": "",
+      "vietnamese": "Vô ý, lỡ",
+      "examples": [
+        {
+          "id": "7b9bee97682cc058",
+          "japanese": "禁煙しているが、食事の後などについ吸ってしまう。",
+          "vietnamese": "Đang cai thuốc nhưng những lúc như sau bữa ăn lại lỡ hút mất.",
+          "reading": "きんえんしているが、しょくじのあとなどについすってしまう。",
+          "grammar": "N の後 = sau N; ～など = những lúc như ~; V てしまう = lỡ ~ mất",
+          "targets": [
+            "つい"
+          ]
+        },
+        {
+          "id": "d71cc8ef099bcbe0",
+          "japanese": "疲れていたので、会議中につい居眠りしてしまった。",
+          "vietnamese": "Vì mệt nên trong cuộc họp tôi lỡ ngủ gật mất.",
+          "reading": "つかれていたので、かいぎちゅうについいねむりしてしまった。",
+          "grammar": "N 中に = trong lúc N",
+          "targets": [
+            "つい"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "label": "連",
+          "text": "つい〜てしまった"
+        }
+      ]
+    }
+  ]
 }
